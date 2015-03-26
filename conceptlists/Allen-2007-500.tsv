@@ -1,0 +1,525 @@
+NUMBER	GLOSS	CHINESE	OMEGAWIKI
+1	sky	天	7039
+2	sun	太阳	5850
+3	moon	月亮	5729
+4	star	星星	6041
+5	cloud	云	623
+6	wind	风	4160
+7	rain	雨	3100
+8	lightning (vb)	闪电	6811
+9	thunder (vb)	打雷	509787
+10	hail	冰雹	1707
+11	snow	雪	3455
+12	frost	霜	NAN
+13	fog	雾	1502
+14	water	水	4118
+15	river	河	3253
+16	lake	湖	2061
+17	pond	水塘	NAN
+18	wet	水田	7027
+19	field meadow	旱地	1425
+20	earth	地	5481
+21	soil	土	5481
+22	mountain	山	2421
+23	stone	石头	3633
+24	fire	火	1446
+25	in front	前面	8160
+26	behind	后面	6945
+27	left (side)	左边	1499731
+28	right (side)	右边	436024
+29	inside	里边	6571
+30	outside	外边	342558
+31	year	年、岁	5478
+32	this year	今年	1577366
+33	last year	去年	1577370
+34	month	月(月份）	5914
+35	first month (lunar)	正月	NAN
+36	second month	二月	NAN
+37	day	天（日子）	5477
+37	day	天（日子）	5533
+38	today	今天	5630
+39	yesterday	昨天	525186
+40	day before yesterday	前天	528467
+41	tomorrow	明天	5808
+42	day after tomorrow	后天	528451
+43	morning	早晨	5840
+44	noon	中午	NAN
+45	now	现在	5936
+46	cow	牛	432006
+47	horse	马	1780
+48	pig	猪	5836
+49	sheep	绵羊	5819
+50	dog	狗	966
+51	cat	猫	5446
+52	hare,rabbit	兔	535092
+52	hare,rabbit	兔	501465
+53	dragon	龙	NAN
+54	tiger	虎	8437
+55	bear	熊	7552
+56	monkey	猴子	5870
+57	wolf	狼	158033
+58	mouse	老鼠	6237
+59	chicken	鸡	5778
+60	turtledove	斑鸠	7890
+61	bird	鸟	400
+62	eagle	老鹰	838154
+63	crow	乌鸦	388727
+64	magpie	喜鹊	NAN
+65	swallow	燕子	380335
+66	sparrow	麻雀	7891
+67	bat	蝙蝠	7344
+68	frog	青蛙	1570
+69	fish	鱼	1460
+70	snake	蛇	3388
+71	bee	蜜蜂	325
+72	butterfly	蝴蝶	7316
+73	locust	蚂蚱	349672
+74	ant	蚂蚁	160271
+75	spider	蜘蛛	3588
+76	bedbug	臭虫	880112
+77	flea	跳蚤	1476
+78	louse	虱子	5980
+79	fly (insect)	苍蝇	6261
+80	mosquito	蚊子	630453
+81	earthworm	蚯蚓	5466
+82	leech	水蛭	412005
+83	insect,bug	虫	1959
+83	insect,bug	虫	6261
+83	insect,bug	虫	441
+84	egg	蛋	340828
+85	wing (bird)	翅膀	5528
+86	feather,hair	毛	446278
+86	feather,hair	毛	5436
+87	horn	角	5981
+88	tail	尾巴	5468
+89	tree	树	3854
+90	pine tree	松树	706003
+91	willow	柳树	352435
+92	bamboo	竹子	848903
+93	paddy field	水稻	1541112
+94	corn,maize	玉米	157264
+95	barley	大麦	398106
+96	buckwheat	荞	NAN
+97	taro	芋头	1510923
+98	cotton	棉花	781
+99	hemp	麻	NAN
+100	bean	豆子	355931
+101	pea	豌豆	NAN
+102	soybean	黄豆	NAN
+103	pumpkin	南瓜	366683
+104	cucumber	黄瓜	156381
+105	vegetable	菜	NAN
+106	chilli pepper	辣子	392603
+107	pepper	花椒	5960
+108	walnut	核桃	NAN
+109	peach	桃子	NAN
+110	pear	梨子	393831
+111	persimmon	柿子	NAN
+112	grass	草	1675
+113	mushroom	菌子	2444
+114	seed	种子	3361
+115	root	根	3269
+116	leaf	叶	2124
+117	shoot,sprout	芽	522875
+118	flower	花	1487
+119	fruit	果	6280
+120	pit,stone	核	7135
+121	peel,husk	皮	1505825
+122	thorn	刺	1243793
+123	body	身体	6179
+124	head	头	5527
+125	hair	头发	446278
+126	face	脸	6410
+127	eye	眼	5511
+128	nose	鼻子	5471
+129	ear	耳朵	5510
+130	mouth	嘴	332000
+131	tooth	牙	5946
+132	tongue	舌头	5440
+133	beard,moustache	胡子	333455
+133	beard,moustache	胡子	517265
+134	neck	脖子	5823
+135	hand	手	5616
+136	finger	手指	5675
+137	fingernail	指甲	5529
+138	breast	乳房	5992
+139	belly,stomach	肚子	5516
+139	belly,stomach	肚子	352530
+140	navel	肚脐	7690
+141	waist	腰	692019
+142	foot	脚	5672
+143	knee	膝盖	5918
+144	bone	骨头	5983
+145	blood	血	411
+146	kidney	肾脏	155634
+147	intestine,gut	肠子	950344
+148	stomach	胃	352530
+149	heart	心	1139186
+149	heart	心	5475
+150	liver	肝	5476
+151	lung	肺	334158
+152	sweat	汗	1250835
+153	faeces	屎	332125
+154	urine	尿	504787
+155	person	人	333730
+156	woman	女人	4165
+157	old person	老人	337925
+158	child	儿童	568
+159	ancestor	祖宗	NAN
+160	grandfather	祖父	5953
+161	grandmother	祖母	6247
+162	father	父亲	5464
+163	mother	母亲	5463
+164	wife	妻子	5429
+165	son	儿子	6634
+166	daughter	女儿	5881
+167	family	家	1405
+168	house	房	5517
+169	village	村子	3968
+170	market	街子	2276
+171	road	路	3258
+172	bridge	桥	433
+173	wall	墙	3989
+174	pillar,column	柱子	NAN
+175	door (cattle)	门	6430
+176	stall	圈（牛圈）	NAN
+177	clothing	衣服	8254
+178	trousers	裤	349559
+179	apron	围腰	NAN
+180	turban,headdress	包头	1510560
+181	cap,hat	帽子	5641
+181	cap,hat	帽子	344283
+182	earring	耳环	344234
+183	bracelet	手镯	710484
+184	bamboo hat	斗笠	344283
+185	palm bark rain cape	蓑衣	684108
+186	shoe	鞋	5948
+187	straw sandal	草鞋	NAN
+188	straw mat	草席	1405241
+189	quilt	被子	NAN
+190	cloth	布	6620
+191	hemp cloth	麻布	6620
+192	uncooked rice	米	395506
+193	cooked rice	饭	538459
+194	congee	稀饭	NAN
+195	breakfast	早饭	5787
+196	lunch	午饭	343542
+197	dinner (evening meal)	晚饭	7654
+198	animal oil	动物油(脂肪)	5624
+199	vegetable oil	植物油	6195
+200	salt	盐	5599
+201	meat	肉	2300
+202	cooked food	菜（熟菜）	1505
+203	soup	汤	6390
+204	alcohol (drink)	酒	NAN
+205	tea (drink)	茶	5927
+206	brown sugar	红糖	3664
+207	knife	刀	5873
+208	hoe	锄头	1506109
+209	plough (implement)	犁	845139
+210	mill,grind	磨	2359
+210	mill,grind	磨	441895
+211	sieve	筛子	1160828
+212	broom	扫帚	1501242
+213	dustpan	簸箕	NAN
+214	bucket	桶	NAN
+215	basin	盆	389091
+216	small bowl	小碗	NAN
+217	chopstick	筷子	NAN
+218	clay pot	土罐	NAN
+219	bottle	瓶子	5783
+220	wok	锅（扁锅）	NAN
+221	stove	灶	3637
+222	firewood	柴	1024755
+223	animal faeces,dung	粪	NAN
+224	table	桌子	7196
+225	stool,low chair	凳子	NAN
+226	bed	床	6851
+227	stairs	楼梯	1073134
+228	ladder	木梯	6099
+229	lock	锁	6546
+230	key	钥匙	6149
+231	mirror	镜子	520838
+232	comb	梳子	6157
+233	scissors	剪刀	5807
+234	paper	纸	2713
+235	pen	笔	347193
+236	book	书本	417
+237	folk song	民歌	NAN
+238	dance	舞蹈	8136
+239	story	故事	NAN
+240	word,speech	话	6551
+240	word,speech	话	4834
+241	sound,voice	声音	5899
+241	sound,voice	声音	7469
+242	name	名字	5995
+243	thing	东西	339816
+244	matter	事情	NAN
+245	deity,spirit	神	1107036
+246	ghost	鬼	525317
+247	Buddha	佛	NAN
+248	soul	魂	349815
+249	strength	力气	1410993
+250	money	钱	6408
+251	price,cost	价钱	2959
+251	price,cost	价钱	1496031
+252	interest	利息	NAN
+253	salary,pay	工钱	336535
+254	medicine	药	5919
+255	look	看	7550
+256	see	见	6003
+257	close (eyes)	闭（眼）	NAN
+258	listen	听	6576
+259	smell (vb)	臭、闻	6520
+259	smell (vb)	臭、闻	6521
+260	eat	吃	5827
+261	drink	喝	5991
+262	bite	咬	5993
+263	chew	嚼	1510493
+264	spit	吐（痰）	6051
+265	vomit	呕吐	5617
+266	blow	吹	1375415
+267	read	读	337421
+268	shout	喊	336249
+269	hold	拿	6060
+270	hit (table)	拍（桌子）	6044
+271	pick (fruit)	摘（果子）	1511027
+272	twist (rope)	搓（绳子）	1541116
+273	pick up from ground (grain)	拾（谷子）	1511027
+274	scatter (seeds)	播（种）	NAN
+275	pull	拉	6071
+276	push	推	6068
+277	kick	踢	500899
+278	kneel	跪	1120420
+279	step on	踩	NAN
+280	ride	骑	1511006
+281	walk	走	6054
+282	sit	坐	6022
+283	carry (thing) on back	背（物）	1543608
+284	carry person on back	背（人）	NAN
+285	fall down	跌倒	5622
+286	climb	爬	479387
+287	rest	休息	1366972
+288	sleep	睡	6519
+289	wake up	醒	6557
+290	do (work)	做（活）	351006
+291	labour	劳动	NAN
+292	plough (field)	犁（田）	845139
+293	plant (seed)	栽种	2836
+293	plant (seed)	栽种	619975
+294	cut,reap	割	6043
+295	chop (firewood)	砍（柴）	1329931
+296	pull up (rice seedlings)	拔（秧）	NAN
+297	put out to pasture	放牧	NAN
+298	feed (fatten up)	喂（催膘）	340030
+299	lead (cow)	牵（牛）	1091895
+300	weave (cloth)	织（布）	1280854
+301	buy	买	8061
+302	sell	卖	6439
+303	call (name)	称	1378786
+304	teach	教	335855
+305	write	写	6891
+306	stick,glue	贴	NAN
+307	steam (yams)	煮（洋芋）	NAN
+308	stir-fry	炒	425934
+309	shallow fry	煎	425934
+310	braise	蒸	NAN
+311	soak (seeds)	浸（种）	NAN
+312	boil (water)	沸（水开）	347033
+313	cut (with knife)	切	6043
+314	chop	剁	1329931
+315	cut (with scissors)	剪	6043
+316	grind (wheat)	磨（面）	441895
+317	wear (hat)	戴（帽）	420726
+318	hang out (clothes)	晾（衣）	1510949
+319	dry (sthg) in sun	晒	7277
+320	wash	洗	6069
+321	shave (head)	剃（头）	1473013
+322	comb (hair)	梳（头）	NAN
+323	sweep	扫（地）	1466959
+324	open (door)	开（门）	513017
+325	lay aside	放置	NAN
+326	hide	藏	161806
+327	pile up	堆（放）	646056
+328	light (lamp)	点（灯）	339690
+329	receive	收	NAN
+330	lose (can't find)	遗失	6832
+331	look for	寻找	6142
+332	use	用（使用）	NAN
+333	play	玩耍	6010
+334	ask	问	5717
+334	ask	问	7621
+335	answer	答	5610
+336	tell	告诉	701342
+337	quarrel	骂架	7805
+338	help	帮助	830463
+339	meet	遇见	7643
+340	flee	逃	414377
+341	chase	追	NAN
+342	rob	抢	NAN
+343	steal	偷	336072
+344	deceive,cheat	骗	NAN
+345	angry	生气	7613
+346	hate	恨	6573
+347	fear	怕	6025
+348	laugh	笑	5876
+349	cry	哭	7709
+350	love	爱	395193
+351	like	喜欢	486031
+352	believe	相信	8203
+353	know	知道	6004
+354	guess	猜	8518
+355	remember	记得	335793
+356	forget	忘记	6328
+357	think	想	6021
+357	think	想	6309
+358	want	要	7258
+359	must	得	419789
+360	able to	会	419859
+361	is	是	NAN
+362	there is	有	858309
+363	come	来	6056
+364	go	去	334831
+365	return	回	1300468
+366	to (reach)	到	NAN
+367	up (mountain)	上（山）	335553
+368	down (mountain)	下（山）	980418
+369	go out	出（出去）	480460
+370	go in	进（进来）	341348
+371	drop,fall	掉	5622
+371	drop,fall	掉	341382
+372	snap,break in two	断	NAN
+373	break,cleave	破	333586
+374	marry (of woman)	嫁	NAN
+375	marry (of man)	娶	NAN
+376	give birth	分娩	541498
+377	grow (of people)	长（长大）	1581756
+378	be sick,ill	病	7800
+379	shiver	发抖	1106980
+380	swell	肿	6454
+381	die	死	6245
+382	bark (of dog)	吠	5444
+383	crow (noise of cock)	啼(鸡鸣)	NAN
+384	incubate	孵	NAN
+385	sprout (vb)	发(芽)	NAN
+386	big	大	5437
+387	small	小	5509
+388	high,tall	高	5562
+388	high,tall	高	335942
+389	low	底	336887
+390	long	长	5438
+391	short	短	6746
+392	thick,coarse	粗	5503
+393	fine,thin	细	1444
+393	fine,thin	细	5990
+394	thick	厚	5503
+395	thin,flimsy	薄	5990
+396	far	远	5997
+397	near	近	869106
+398	much,many	多	5423
+399	few	少	5500
+400	straight	直	5994
+401	light (not heavy)	轻	452743
+402	heavy	重	5451
+403	hard	硬	8173
+404	light,bright	亮	333539
+405	dark	暗	335607
+406	red	红	1333710
+407	yellow	黄	6031
+408	blue	蓝	357132
+409	white	白	5825
+410	black	黑	1341728
+411	green	绿	6032
+412	full	满	6040
+413	fat (pig)	肥(猪)	5619
+414	clean	干净	335501
+415	old	老	5482
+416	good	好	443659
+417	bad	坏	5650
+418	slow	慢	335287
+419	dry	干	5989
+419	dry	干	7277
+420	wet	湿	7027
+421	new	新	5484
+422	old	旧	5482
+423	raw	生	899678
+424	cooked	熟	1505768
+425	sharp (knife)	快(刀)	5987
+426	blunt (knife)	钝(刀)	1511061
+427	early	早	331892
+428	late	迟	154705
+429	expensive	贵	6036
+430	cheap	便宜	8184
+431	easy	容易	333916
+432	difficult	难	159359
+433	hot	热	5637
+434	cold	冷	5639
+435	warm	暖和	5485
+436	sour	酸	838324
+437	sweet	甜	336426
+438	bitter	苦	375671
+439	hot (spicy)	辣	5637
+440	salty	咸	475116
+441	fragrant	香	1511050
+442	smelly	臭	NAN
+443	thirsty	渴	359725
+444	tired	累	7117
+445	painful	痛	496633
+446	diligent	勤	NAN
+447	lazy	懒	6424
+448	poor	穷	6897
+449	rich	富	336015
+450	one	一	6244
+451	two	二	6248
+452	three	三	1527212
+452	three	三	156096
+453	four	四	6253
+453	four	四	7049
+454	five	五	156104
+454	five	五	7050
+455	six	六	7003
+456	seven	七	7004
+457	eight	八	7005
+458	nine	九	6193
+459	ten	十	6312
+460	one hundred	一百	6685
+461	one thousand	一千	7755
+462	ten thousand	一万	NAN
+463	CLS for person	个（人）	NAN
+464	CLS for bowl	个（碗）	NAN
+465	CLS for chicken	只（鸡）	NAN
+466	CLS for knife	把（刀）	NAN
+467	CLS for axe	把（斧头）	NAN
+468	CLS for rope	条（绳子）	NAN
+469	CLS for stick	根（棍）	NAN
+470	CLS for grain of rice	粒（米）	NAN
+471	CLS for drop of water	滴（水）	NAN
+472	CLS for clothing	件（衣）	NAN
+473	CLS for pair of shoes	双（鞋）	NAN
+474	I(1 p.s.)	我	NAN
+475	we (1 p.p.)	我们	5455
+476	we (inclusive)	咱们	496905
+477	you (2 p.s.)	你	5459
+478	you (2 p.p.)	你们	5456
+479	he,she,it (3 p.s.)	他	1505714
+480	they (3 p.p.)	他们	352331
+481	my	我（的）	NAN
+482	your (sg)	你（的）	NAN
+483	his/her	他（的）	NAN
+484	this	这	5458
+485	here	这里	1287831
+486	that	那	1149393
+487	there	那里	858309
+488	who	谁	5490
+489	what	什么	5491
+490	where	哪里	5492
+491	how	怎样	5494
+492	how many	多少	353440
+493	just now	刚才	NAN
+494	first	先	338524
+495	afterwards	后	NAN
+496	slowly	慢慢	NAN
+497	quickly	快快	NAN
+498	very	很	5723
+499	all	都	1173416
+500	again	再	1412012
