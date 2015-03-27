@@ -90,7 +90,7 @@ OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	POS	WOLD
 1162698	-	NATIVE COUNTRY	Social and political relations	One’s country of birth.	Noun	19.12
 1162733	-	INNOCENT	Law	Not guilty.	Adjective	21.36
 1164655	-	INSOLENT	Emotions and values	Unrestrained by convention or propriety.	Adjective	-
-1165745	-	SPOIL	Social and political relations	To hinder or prevent (the efforts, plans, or desires) of.	Verb	-
+1165745	-	SPOIL (1)	Social and political relations	To hinder or prevent (the efforts, plans, or desires) of.	Verb	-
 1166811	-	DRAW MILK	Food and drink	To draw milk from (a mammal, especially a cow).	Verb	5.87
 1167115	-	GRADUALLY	Miscellaneous function words	Making progress, but slowly.	Adverb	-
 1167672	1241052	SANDFLY	Animals	A tiny flying insect from one of several species in the Nematocera suborder, including the families Mycetophilidae, Anisopodidae and Sciaridae.	Noun	3.831
@@ -383,7 +383,7 @@ OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	POS	WOLD
 1511088	-	GOVERN	Social and political relations	To make and administer the public policy and affairs of; to exercise sovereign authority in.	Verb	19.31
 1511091	-	MASTER	Social and political relations	Someone who has control over something or someone; the owner of an animal or slave or someone who employs others.	Noun	19.41
 1511095	-	FREEMAN	Social and political relations	A free man, one who is not a serf or slave.	Noun	19.44
-1511098	-	RESPECT	Emotions and values	To have respect for someone or something; to have regard for something, to observe a custom, practice, rule or right.	Verb	-
+1511098	-	RESPECT (2)	Emotions and values	To have respect for someone or something; to have regard for something, to observe a custom, practice, rule or right.	Verb	-
 1511102	-	BATTLE-AXE	Warfare and hunting	An ancient military weapon.	Noun	20.222
 1511106	-	SLING	Warfare and hunting	An instrument for throwing stones or other missiles, consisting of a short strap with two strings fastened to its ends, or with a string fastened to one end and a light stick to the other.	Noun	20.23
 1511110	-	FISHNET	Warfare and hunting	A net used to catch fish.	Noun	20.54
@@ -566,8 +566,8 @@ OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	POS	WOLD
 1581826	5445	OLD OF MAN	Time	Old of a man as opposed to old of a woman.	Adjective	-
 1581829	5445	OLD OF WOMAN	Time	Old of a woman as opposed to old of a man.	Adjective	-
 1581981	-	REBEL	Social and political relations	To resist or become defiant toward an authority.	Verb	-
-1581986	-	RISE	The physical world	(Of a heavenly body) To appear to move upwards from behind the horizon of a planet as a result of the planet's rotation.	Verb	-
-1581989	-	SPOIL	Food and drink	Of food, to become bad, sour or rancid; to decay.	Verb	-
+1581986	-	RISE (1)	The physical world	(Of a heavenly body) To appear to move upwards from behind the horizon of a planet as a result of the planet's rotation.	Verb	-
+1581989	-	SPOIL (2)	Food and drink	Of food, to become bad, sour or rancid; to decay.	Verb	-
 1581992	-	STAND UP	Motion	To rise from a lying or sitting position.	Verb	-
 1581997	-	STING	The body	To hurt, usually by introducing poison or a sharp point, or both.	Verb	-
 1582001	-	STREW	Motion	To distribute objects or pieces of something over an area, especially in a random manner.	Verb	-
@@ -581,7 +581,7 @@ OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	POS	WOLD
 1590	-	FUR	Clothing and grooming	The hair-covered, dressed pelt of a mammal, used in the making of garments and as trimming or decoration.	Noun	6.28
 159011	-	COME BACK	Motion	To go there where one was before.	Verb	10.481
 159035	-	LEND	Possession	To put an item or resource at the disposal of another, with the requirement to have the same or its equivalent returned eventually.	Verb	11.61
-159058	-	KIND	Emotions and values	Possessing charm and attractiveness.	Adjective	-
+159058	-	KIND (1)	Emotions and values	Possessing charm and attractiveness.	Adjective	-
 159359	8175	DIFFICULT	Cognition	Not easy, which needs hard work, patience and effort.	Adjective	17.47
 159566	-	BOOT	Clothing and grooming	A shoe that covers part of the leg.	Noun	6.52
 1601	-	GARDEN	Agriculture and vegetation	A piece of land next to a house where flowers and other plants are grown and which often has an area of grass.	Noun	8.13
@@ -842,7 +842,7 @@ OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	POS	WOLD
 358355	-	FISHING SPEAR	Warfare and hunting	A spearlike weapon with a barbed head used in hunting whales and large fish.	Noun	-
 358484	-	LIQUOR	Food and drink	Alcoholic beverage containing more than 20 percent alcohol.	Noun	-
 3588	-	SPIDER	Animals	Any predatory silk-producing arachnid of the order Araneae, having four pairs of legs and a rounded unsegmented body consisting of abdomen and cephalothorax.	Noun	3.818
-359363	-	KIND	Cognition	A category of things distinguished by a common characteristic or quality.	Noun	-
+359363	-	KIND (2)	Cognition	A category of things distinguished by a common characteristic or quality.	Noun	-
 359371	-	MURDER	Law	The intentional or premeditated killing of another person.	Noun	21.42
 8437	-	TIGER	Animals	A large carnivorous animal (Panthera tigris) of the cat family indigenous to Asia.	Noun	-
 359725	-	THIRSTY	Food and drink	Feeling the need to drink.	Adjective	-
@@ -1161,8 +1161,8 @@ OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	POS	WOLD
 515549	-	THIEF	Law	Someone who takes property belonging to someone else with the intention of keeping it or selling it.	Noun	21.52
 515580	-	THREAD	Clothing and grooming	A long, thin and flexible form of material, generally with a round cross-section, used in sewing, weaving or in the construction of string.	Noun	6.38
 516310	-	INTENTION	Cognition	An anticipated outcome that is intended to obtain or that guides your planned actions.	Noun	17.41
-517028	-	BRIBE	Possession	Something (usually money) given in exchange for influence or as an inducement to dishonesty.	Noun	-
-517065	-	BRIBE	Social and political relations	To give, or offer a bribe.	Verb	-
+517028	-	BRIBE (1)	Possession	Something (usually money) given in exchange for influence or as an inducement to dishonesty.	Noun	-
+517065	-	BRIBE (2)	Social and political relations	To give, or offer a bribe.	Verb	-
 517265	-	MOUSTACHE	The body	A growth of facial hair between the nose and the upper lip.	Noun	-
 517445	-	MOULD	Basic actions and technology	A frame or model around or on which something is formed or shaped.	Noun	-
 518406	-	GRUEL	Food and drink	A hot breakfast cereal dish made from oatmeal, milk and, or water heated and stirred until thick.	Noun	-
@@ -1510,7 +1510,7 @@ OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	POS	WOLD
 630453	-	MOSQUITO	Animals	A small flying insect (of the family Culicidae) known for biting and sucking blood.	Noun	3.832
 6306	-	CHIN	The body	The bottom of the face, below the mouth.	Noun	4.209
 6308	-	ROOSTER	Animals	A male chicken (Gallus gallus domesticus), a domestic bird.	Noun	3.52
-630856	-	RISE	Motion	to get up from a lying, sitting, or kneeling position.	Verb	10.21
+630856	-	RISE (2)	Motion	to get up from a lying, sitting, or kneeling position.	Verb	10.21
 6309	-	THINK, BELIEVE	Cognition	To have as opinion, belief, or idea.	Verb	17.14
 6311	-	HEN	Animals	A female chicken.	Noun	3.54
 6312	-	TEN	Quantity	The cardinal number occurring after nine and before eleven, represented in Roman numerals as X, in Arabic numerals as 10, and in the hexadecimal system (base 16) as A.	Function word	13.1
@@ -1910,7 +1910,7 @@ OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	POS	WOLD
 839866	-	SHAKE	Motion	To cause (something) to move rapidly from side to side.	Verb	10.26
 8401	-	STINGRAY	Animals	Any of various large, venomous rays, of the orders Rajiformes and Myliobatiformes, having a barbed, whiplike tail.	Noun	3.664
 840722	339936	DRAW WATER	Basic actions and technology	To draw by a physical force causing or tending to cause to approach, adhere, or unite	Verb	9.9
-842332	-	RESPECT	Emotions and values	An attitude of admiration or esteem.	Noun	-
+842332	-	RESPECT (1)	Emotions and values	An attitude of admiration or esteem.	Noun	-
 842520	-	PRESS	Basic actions and technology	To apply pressure to an item.	Verb	9.342
 843	-	DEBT	Possession	Something owed to someone else.	Noun	11.64
 843491	-	FIR	Agriculture and vegetation	An evergreen coniferous tree of the genus Abies.	Noun	8.65
