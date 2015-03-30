@@ -1,0 +1,12 @@
+language: python
+python:
+  - "3.4"
+install:
+  - pip install nose
+script:
+  - python setup.py install
+  - nosetests
+notifications:
+  email:
+    - mattis.list@lingpy.org
+    - robert_forkel@eva.mpg.de
