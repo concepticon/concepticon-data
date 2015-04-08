@@ -27,7 +27,7 @@ def read_tsv(path, unique='ID'):
                 error('unique key missing: %s' % unique, path, line)
                 continue
             if row[unique] in uniquevalues:
-                error('non-unique id: %s' % row[unique],path, line)
+                error('non-unique id: %s' % row[unique], path, line)
             uniquevalues.add(row[unique])
         rows.append((line, row))
     return rows
@@ -36,7 +36,7 @@ def read_tsv(path, unique='ID'):
 def test():
     conceptlists = {n: read_tsv(data_path('conceptlists', n), unique=None) for n in os.listdir(data_path('conceptlists')) if not n.startswith('.')}
 
-    concepticon = read_tsv(data_path('concepticon.tsv'), unique='OMEGAWIKI')
+    concepticon = read_tsv(data_path('concepticon.tsv'))
 
     refs = set()
     with io.open(data_path('references', 'references.bib'), encoding='utf8') as fp:
@@ -44,7 +44,21 @@ def test():
             match = BIB_ID_PATTERN.match(line.strip())
             if match:
                 refs.add(match.group('id'))
-    
+
+    #
+    # Make sure only records in the BibTeX file references.bib are referenced by
+    # concept lists.
+    #
+    clmd = data_path('conceptlists.tsv')
+    clids = []
+    for i, cl in read_tsv(clmd):
+        clids.append(cl['ID'])
+        for ref in split_ids(cl['REFS']):
+            if ref not in refs:
+                error('unknown bibtex record "%s" referenced' % ref, clmd, i)
+
+    for name in conceptlists:
+        assert name.replace('.tsv', '') in clids
+
     if not SUCCESS:
         raise ValueError('integrity checks failed!')
-
