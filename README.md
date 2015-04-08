@@ -1,5 +1,7 @@
 # concepticon-data
 
+[![Build Status](https://travis-ci.org/clld/concepticon-data.svg?branch=master)](https://travis-ci.org/clld/concepticon-data)
+
 ## Structure of current data
 
 - **conceptlists/** folder contains conceptlists with links to OMEGAWIKI and concepticon.tsv (all in column "OMEGAWIKI"), the lists are named after the first person who proposed them, the year of the reference publication in which we extracted them, and the number of concepts. All these three parts of information are separated by a dash. Furthermore, in cases where two lists would have an identical name, we add alphabetical letters to the lists to distinguish them. Files need to have the columns "GLOSS" (some still have "ENGLISH" instead, but this needs to be changed) and "OMEGAWIKI", additionally, most (if not all files) have a "NUMBER" field indicating the number in the reference, which is also important for ordering the entries as given in the original source. Additional columns are more or less free to the user, but we tried to be consistent.
