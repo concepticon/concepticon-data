@@ -500,7 +500,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 499	156675	-	CURE	The body	To remedy an illness using medical or medicamentous treatment; to provide a cure for.	Action/Process	4.86
 500	156727	-	CRUEL	Emotions and values	Indifference towards the suffering of another and even deriving a positive feeling from it.	Property	-
 501	156785	-	LIFT	Motion	To cause an object to have a higher location than previously.	Action/Process	10.22
-502	156863	-	NAIL	Basic actions and technology	A spike-shaped metal fastener used for joining wood or similar materials.	Person/Thing	9.5
+502	156863	-	NAIL (TOOL)	Basic actions and technology	A spike-shaped metal fastener used for joining wood or similar materials.	Person/Thing	9.5
 503	1570	-	FROG	Animals	Any insectivorous anuran amphibian of the family Ranidae, such as Rana temporaria of Europe, having a short squat tailless body with a moist smooth skin and very long hind legs specialized for hopping.	Person/Thing	3.95
 504	157124	-	LEARN	Cognition	To acquire, or attempt to acquire knowledge or an ability to do something.	Action/Process	17.24
 505	157257	-	PARENTS	Kinship	Father and mother of a child.	Person/Thing	2.37
@@ -947,7 +947,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 946	411	-	BLOOD	The body	A fluid connective tissue consisting of the plasma and cells that circulate in the blood vessels.	Person/Thing	4.15
 947	411075	436	STREAM	The physical world	A small river or large creek; a body of moving water confined by banks.	Person/Thing	1.36
 948	4118	-	WATER	The physical world	Common liquid (H₂O) which forms rain, rivers, the sea, etc., and which makes up a large part of the bodies of organisms.	Person/Thing	1.31
-949	412005	-	LEECH, WATER LEECH	Animals	A worm-like creature that lives in water and sucks blood from animals.	Person/Thing	-
+949	412005	-	WATER LEECH	Animals	A worm-like creature that lives in water and sucks blood from animals.	Person/Thing	-
 950	412090	-	SEAGULL	Animals	A seabird of the genus Larus or of the family Laridae.	Person/Thing	3582
 951	4128	-	WEAPONS	Warfare and hunting	An instrument of attack or defense in combat, as a gun, missile, or sword.	Person/Thing	20.21
 952	4129	-	WEATHER	The physical world	The day-to-day meteorological conditions, especially temperature, cloudiness, and rainfall, affecting a specific place.	Person/Thing	1.78
@@ -1050,7 +1050,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1049	451991	-	MOLAR TOOTH	The body	A tooth located in the back of the mouth used for crushing and grinding food.	Person/Thing	4272
 1050	452350	-	MOTHER-IN-LAW	Kinship	The mother of someone's spouse.	Person/Thing	2.62;2.621
 1051	452618	-	CAN	Modern world	A small, round-shaped metal container, used for different purposes like storing food or liquids, or collecting money.	Person/Thing	23.54
-1052	452743	-	LIGHT WEIGHT	Sense perception	With a small mass, little weight or density; the opposite of heavy.	Property	15.82
+1052	452743	-	LIGHT (OF WEIGHT)	Sense perception	With a small mass, little weight or density; the opposite of heavy.	Property	15.82
 1053	453168	-	HUNTER	Warfare and hunting	A person who hunts game.	Person/Thing	-
 1054	453618	-	SMALLPOX	The body	A highly contagious viral disease characterized by fever and weakness and skin eruption with pustules that form scabs that slough off leaving scars.	Person/Thing	-
 1055	454081	-	FATHER-IN-LAW	Kinship	The father of someone's spouse.	Person/Thing	2.61;2.611
@@ -1894,7 +1894,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1893	8235	-	QUAIL	Animals	(Coturnix coturnix) Small (17 cm) rotund bird from the pheasant family (Phasianidae)	Person/Thing	3865
 1894	823950	-	ASHAMED	Emotions and values	Feeling shame or guilt.	Property	-
 1895	8254	621	CLOTHES	Clothing and grooming	All coverings designed to be worn on a person's body.	Person/Thing	6.12
-1896	828575	5529;1244402	NAIL, KERATIN	The body	Hard keratin part growing at the end of a finger, toe or leg.	Person/Thing	-
+1896	828575	5529;1244402	FINGERNAIL OR TOENAIL	The body	Hard keratin part growing at the end of a human's finger or toe.	Person/Thing	-
 1897	830463	-	HELP	Social and political relations	To give assistance or aid to.	Action/Process	19.58
 1898	8320	-	SPECTACLES	Modern world	A pair of lenses in a frame that are worn in front of the eyes and are used to correct faulty vision or protect the eyes.	Person/Thing	23.24
 1899	833779	1067624	MAD	Cognition	Mentally ill.	Property	17.23
@@ -2124,3 +2124,16 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 2123			MOUNTAIN RIDGE		A geological feature consisting of a chain of mountains or hills that form a continuous elevated crest for some distance		
 2124			SMELL		Perceive or emit odour.		
 2125			STONE OR ROCK		A naturally occurring solid aggregate of one or more minerals or mineraloids.		
+2126			EAR OR HEAR		Either the organ with which one perceives noise, or the action of perceiving noise.		
+2127			SKIN OR BARK		Cover of the bodies of animals and plants.		
+2128			NAIL OR CLAW		The hard, keratin part growing at the feet of animals or the hands and legs of humans.		
+2129			BREAST OR MILK		Either the organ of females which gives nourishing substance for newborns, or the substance itself.		
+2139			MUROID		A large superfamily of rodents, including hamsters, gerbils, true mice and rats, and many other relatives.		
+2140			SUN OR DAY		Either the bright object at the sky that illuminates the earth completely, or the time when the object illuminates the earth.		
+2141			TREE OR WOOD		Either any  perennial plant with an elongated stem, or trunk, supporting branches and leaves, or the porous and vibrous structural tissue of which the stems of these plants consist.		
+2142			RUN AWAY		Leave a dangerous situation by moving one's body away from it.		
+2143			LONG OR TALL		Having a vertical or a horizontal extent greater than the average.		
+2144			COOK BY BOILING		Applying the method of cooking food in boiling water or other water-based liquids.		
+2145			PNEUMA		The circulating air necessary for the functioning of the vital organs of living organisms.		
+2146			FLUID MEDICINE		A fluid substance which promotes healing.		
+2147			LEECH		Segmented worms that belong to the phylum Annelida and comprise the subclass Hirudinea.		
