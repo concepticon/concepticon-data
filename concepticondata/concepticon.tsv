@@ -90,7 +90,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 89	1162698	-	NATIVE COUNTRY	Social and political relations	One’s country of birth.	Person/Thing	19.12
 90	1162733	-	INNOCENT	Law	Not guilty.	Property	21.36
 91	1164655	-	INSOLENT	Emotions and values	Unrestrained by convention or propriety.	Property	-
-92	1165745	-	SPOIL (1)	Social and political relations	To hinder or prevent (the efforts, plans, or desires) of.	Action/Process	-
+92	1165745	-	SPOIL (SOMEBODY OR SOMETHING)	Social and political relations	To hinder or prevent (the efforts, plans, or desires) of.	Action/Process	-
 93	1166811	-	DRAW MILK	Food and drink	To draw milk from (a mammal, especially a cow).	Action/Process	5.87
 94	1167115	-	GRADUALLY	Miscellaneous function words	Making progress, but slowly.	Property	-
 95	1167672	1241052	SANDFLY	Animals	A tiny flying insect from one of several species in the Nematocera suborder, including the families Mycetophilidae, Anisopodidae and Sciaridae.	Person/Thing	3831
@@ -138,7 +138,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 137	1292296	-	COCA	Agriculture and vegetation	A plant in the family Erythroxylaceae, native to western South America.	Person/Thing	-
 138	1295154	850562	BATHE	The body	To clean oneself by immersion in water.	Action/Process	4.69
 139	1295456	-	GUMS	The body	The mucosal tissue that partly lies over the teeth in the mouth.	Person/Thing	4271
-140	1296409	-	IRRIGATED PADDY FIELD	Agriculture and vegetation	A flooded field where rice is grown.	Person/Thing	-
+140	1296409	-	PADDY FIELD	Agriculture and vegetation	A flooded field where rice is grown.	Person/Thing	-
 141	1299599	1232648	BURN SOMETHING	The physical world	To cause to undergo fire combustion.	Action/Process	1851
 142	1300468	-	RETURN HOME	Motion	To go to one's home after having left it, such as after a working day or holidays.	Action/Process	10.58
 143	1301943	-	HUMID	The physical world	(Of the air) Containing a high quantity of water vapor.	Property	-
@@ -383,7 +383,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 382	1511088	-	GOVERN	Social and political relations	To make and administer the public policy and affairs of; to exercise sovereign authority in.	Action/Process	19.31
 383	1511091	-	MASTER	Social and political relations	Someone who has control over something or someone; the owner of an animal or slave or someone who employs others.	Person/Thing	19.41
 384	1511095	-	FREEMAN	Social and political relations	A free man, one who is not a serf or slave.	Person/Thing	19.44
-385	1511098	-	RESPECT (2)	Emotions and values	To have respect for someone or something; to have regard for something, to observe a custom, practice, rule or right.	Action/Process	-
+385	1511098	-	RESPECT (SOMEBODY)	Emotions and values	To have respect for someone or something; to have regard for something, to observe a custom, practice, rule or right.	Action/Process	-
 386	1511102	-	BATTLE-AXE	Warfare and hunting	An ancient military weapon.	Person/Thing	20222
 387	1511106	-	SLING	Warfare and hunting	An instrument for throwing stones or other missiles, consisting of a short strap with two strings fastened to its ends, or with a string fastened to one end and a light stick to the other.	Person/Thing	20.23
 388	1511110	-	FISHNET	Warfare and hunting	A net used to catch fish.	Person/Thing	20.54
@@ -440,7 +440,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 439	1541218	-	CEBUS MONKEY	Animals	a Central and South American monkey, Cebus capucinus,  having a prehensile tail and hair on the head resembling a cowl.	Person/Thing	-
 440	1541228	-	CHONTA PALM	Agriculture and vegetation	species of flowering plant in the Arecaceae family, trunked palm tree which is endemic to the Juan Fernández Islands archipielago in the southeast Pacific Ocean west of Chile.	Person/Thing	-
 441	1541232	-	CHICHA	Food and drink	a beverage made from fermented corn in South and Central America.	Person/Thing	-
-442	1541236	-	FRONT TOOTH, INEISOR	The body	several teeth located above and below in the mouth of mammals to bite food off.	Person/Thing	-
+442	1541236	-	FRONT TOOTH (INEISOR_	The body	several teeth located above and below in the mouth of mammals to bite food off.	Person/Thing	-
 443	1541242	-	TIP OF TONGUE	The body	front part of the tongue.	Person/Thing	-
 444	1541248	-	LONG HAIR	The body	Hair that is not cut.	Person/Thing	-
 445	1541252	-	UPPER BACK	The body	upper part of the back.	Person/Thing	-
@@ -514,7 +514,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 513	1577366	-	THIS YEAR	Time	this year	Other	-
 514	1577370	-	LAST YEAR	Time	last year	Other	-
 515	1577374	-	NEXT YEAR	Time	next year	Other	-
-516	1577378	-	CLASSIFIER FOR PERSONS	Quantity	classifier for persons	Other	-
+516	1577378	-	PERSON (CLASSIFIER)	Quantity	classifier for persons	Classifier	-
 517	1577388	-	FIREDRILL	Motion	A fire drill is a method of practicing the evacuation of a building for a fire or other emergency.	Person/Thing	-
 518	1578717	-	SPARK	The physical world	A small particle or body of shining or glowing matter, either molten or on fire.	Person/Thing	-
 519	1578721	-	SPOT	The physical world	A round or irregular patch on the surface of a thing having a different color, texture etc. and generally round in shape.	Person/Thing	-
@@ -566,8 +566,8 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 565	1581826	5445	OLD OF MAN	Time	Old of a man as opposed to old of a woman.	Property	-
 566	1581829	5445	OLD OF WOMAN	Time	Old of a woman as opposed to old of a man.	Property	-
 567	1581981	-	REBEL	Social and political relations	To resist or become defiant toward an authority.	Action/Process	-
-568	1581986	-	RISE (1)	The physical world	(Of a heavenly body) To appear to move upwards from behind the horizon of a planet as a result of the planet's rotation.	Action/Process	-
-569	1581989	-	SPOIL (2)	Food and drink	Of food, to become bad, sour or rancid; to decay.	Action/Process	-
+568	1581986	-	RISE (MOVE UPWARDS)	The physical world	(Of a heavenly body) To appear to move upwards from behind the horizon of a planet as a result of the planet's rotation.	Action/Process	-
+569	1581989	-	SPOIL (BECOME SPOILED)	Food and drink	Of food, to become bad, sour or rancid; to decay.	Action/Process	-
 570	1581992	-	STAND UP	Motion	To rise from a lying or sitting position.	Action/Process	-
 571	1581997	-	STING	The body	To hurt, usually by introducing poison or a sharp point, or both.	Action/Process	-
 572	1582001	-	STREW	Motion	To distribute objects or pieces of something over an area, especially in a random manner.	Action/Process	-
@@ -776,10 +776,10 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 775	344567	-	TRUMPET	Speech and language	A musical instrument in the brass family.	Person/Thing	18.73
 776	344683	-	TRUNK OF TREE	Agriculture and vegetation	The part of the body from the neck to the groin excluding the head and limbs.	Person/Thing	-
 777	344824	-	FLUTE	Speech and language	A musical instrument of the woodwind family.	Person/Thing	18.71
-778	3451	-	SMOKE, EXHAUST	The physical world	An aerosol, consisting of visible particles and gases, produced by the incomplete burning of carbon-based materials, such as wood and fossil fuels.	Person/Thing	1.83
+778	3451	-	SMOKE (EXHAUST)	The physical world	An aerosol, consisting of visible particles and gases, produced by the incomplete burning of carbon-based materials, such as wood and fossil fuels.	Person/Thing	1.83
 779	345219	870987	PART	Quantity	A seperate unit of a larger whole.	Person/Thing	13.23
 780	345304	-	OUR	Miscellaneous function words	Belonging to us; of us	Other	-
-781	345325	-	FEAR, FRIGHT	Emotions and values	An emotion experienced in anticipation of some specific pain or danger.	Person/Thing	16.53
+781	345325	-	FEAR (FRIGHT)	Emotions and values	An emotion experienced in anticipation of some specific pain or danger.	Person/Thing	16.53
 782	345406	-	DEFEAT	Warfare and hunting	An end to a struggle or contest that did not end in success.	Person/Thing	20.42
 783	345436	-	VICTORY	Warfare and hunting	An end to a struggle or contest that did end in success.	Person/Thing	20.41
 784	3455	8047	SNOW	The physical world	The most common form of frozen precipitation, usually flakes or starlike crystals, matted ice needles, or combinations, and often rime-coated.	Person/Thing	1.76
@@ -1223,7 +1223,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1222	5473	-	PENIS	The body	The male sexual organ for copulation and urination; the tubular portion of the male genitalia (excluding the scrotum).	Person/Thing	4492
 1223	5475	-	HEART	The body	A muscular organ that pumps blood through the body.	Person/Thing	4.44
 1224	5476	-	LIVER	The body	A large organ in the body that stores and metabolizes nutrients, destroys toxins and produces bile. Responsible for thousands of biochemical reactions.	Person/Thing	4.45
-1225	5477	-	DAY OF LIGHT	Time	The period between sunrise and sunset where one enjoys daylight.	Person/Thing	14.41
+1225	5477	-	DAY (NOT NIGHT)	Time	The period between sunrise and sunset where one enjoys daylight.	Person/Thing	14.41
 1226	5478	5605	YEAR	Time	The time it takes the Earth to complete one revolution of the Sun (between 365.24 and 365.26 days depending on the point of reference).	Person/Thing	14.73
 1227	5479	357168;357171	BOARD	The house	A piece of wood or similar material that has been sawn into a regular shape, usually in preparation for using it in some sort of construction.	Person/Thing	7.57
 1228	5481	3494;161681	EARTH, SOIL	The physical world	The soft and loose material forming a great part of the Earth surface.	Person/Thing	1212
@@ -1258,7 +1258,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1257	5528	-	WING	The body	The appendage of an animal's (bird, bat, insect) body that enables it to fly in the air.	Person/Thing	4392
 1258	5529	-	FINGERNAIL	The body	The hard, flat, translucent covering near the tip of a human finger, useful for scratching and fine manipulation.	Person/Thing	4344
 1259	5532	-	WEDDING	Kinship	A ceremony celebrating the beginning of a marriage, during which the marrying parties exchanges vows.	Person/Thing	2.34
-1260	5533	-	DAY 24 HOURS	Time	A period of time lasting 24 hours	Person/Thing	14411
+1260	5533	-	DAY (24 HOURS)	Time	A period of time lasting 24 hours	Person/Thing	14411
 1261	5540	-	SING	Speech and language	To produce harmonious sounds with one's voice.	Action/Process	18.12
 1262	5541	-	BROTHER	Kinship	A male person who has the same parents as another person.	Person/Thing	2.44
 1263	5544	-	SISTER	Kinship	A female person who has the same parents as another person.	Person/Thing	2.45
@@ -1280,12 +1280,12 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1279	5619	-	FAT, OBESE	Spatial relations	Carrying a larger-than-normal amount of fat or weight.	Property	-
 1280	5622	-	FALL	Motion	To descend in free fall due to the effect of gravity.	Action/Process	10.23
 1281	5623	455117	PRISON	Law	A place in which individual persons have restricted personal freedom.	Person/Thing	21.39
-1282	5624	1510501	FAT, SUBSTANCE	Food and drink	The ester of glycerol and one, two, or three fatty acids.	Person/Thing	5791
+1282	5624	1510501	FAT (SUBSTANCE)	Food and drink	The ester of glycerol and one, two, or three fatty acids.	Person/Thing	5791
 1283	5630	-	TODAY	Time	On the current day or date.	Other	14.47
 1284	5632	-	BANK	Modern world	A financial institution where one can borrow money (upon which interest is due) or deposit money (in order to collect interest).	Person/Thing	23.44
 1285	5634	-	IMPORTANT	Emotions and values	Having relevant and crucial value.	Property	-
 1286	5637	-	HOT	Sense perception	Having a high temperature.	Property	15.85
-1287	5639	-	COLD OF TEMPERATURE	Sense perception	Having a low temperature.	Property	15.86
+1287	5639	-	COLD (OF TEMPERATURE)	Sense perception	Having a low temperature.	Property	15.86
 1288	5641	-	CAP	Clothing and grooming	A usually soft and close-fitting head covering, either having no brim or with a visor.	Person/Thing	6.55
 1289	5642	-	BABY	Kinship	A very young human being, from birth to a year old.	Person/Thing	2.28
 1290	5643	-	ELEPHANT	Animals	A mammal of the order Proboscidea, having a trunk, and two large ivory tusks jutting from the upper jaw. Elephants are the largest land animals now existing.	Person/Thing	3.77
@@ -1302,7 +1302,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1301	5672	-	FOOT	The body	The part of a human’s body below the ankle that is used in order to stand and walk.	Person/Thing	4.37
 1302	5673	-	FORK	Food and drink	A utensil with spikes used to put solid food into the mouth.	Person/Thing	5.39
 1303	5675	-	FINGER	The body	One of the long extremities of the hand that is used for gripping objects.	Person/Thing	4.34
-1304	568	-	CHILD YOUNG HUMAN	Kinship	A person below the age of puberty.	Person/Thing	2.27
+1304	568	-	CHILD (YOUNG HUMAN)	Kinship	A person below the age of puberty.	Person/Thing	2.27
 1305	569	-	CHIMNEY	The house	A vertical structure of brick, masonry, or steel that carries smoke or steam away from a fire, engine, etc.	Person/Thing	7.33
 1306	5708	-	QUEEN	Social and political relations	A female monarch.	Person/Thing	19.33
 1307	5713	5442	LANGUAGE	Speech and language	A system of communication using the spoken or signed word or using symbols that represent words, signs or sounds.	Person/Thing	18.24
@@ -1345,11 +1345,11 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1344	5855	-	RAM	Animals	A male sheep.	Person/Thing	3.26
 1345	5856	-	EWE	Animals	A female sheep.	Person/Thing	3.28
 1346	5861	-	THROAT	The body	The front part of the neck.	Person/Thing	4.29
-1347	5862	-	NAPE OF NECK	The body	The back part of the neck.	Person/Thing	4281
+1347	5862	-	NAPE (OF NECK)	The body	The back part of the neck.	Person/Thing	4281
 1348	5868	-	BOAR	Animals	An adult male pig.	Person/Thing	3.32
 1349	587	-	CHURCH	Religion and belief	A building where Christian religious activities take place.	Person/Thing	22131
 1350	5870	-	MONKEY	Animals	A primate from the group “New World monkeys” or “Old World monkeys” (Simiiformes, excluding the superfamily Hominoidea or apes) that lives mainly in rainforests and is distinguished from an Ape by its smaller size and its tail.	Person/Thing	3.76
-1351	5871	-	SOW, FEMALE PIG	Animals	An adult female pig.	Person/Thing	3.34
+1351	5871	-	SOW (FEMALE PIG)	Animals	An adult female pig.	Person/Thing	3.34
 1352	5873	-	KNIFE	Food and drink	A utensil consisting of a sharpened piece of hard material such as steel or other metal, ceramic, glass or stone, usually attached to a handle, that is formed in a manner that allows for cutting softer materials, especially meat or other food.	Person/Thing	5.38;9.23
 1353	5874	-	HOUR	Time	A time period of sixty minutes; one twenty-fourth of a day.	Person/Thing	14.51
 1354	5875	-	NEXT	Miscellaneous function words	Following in a sequence.	Other	24.12
@@ -1380,7 +1380,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1379	5945	-	TELEPHONE	Modern world	An electronic device used for calling people.	Person/Thing	23.12
 1380	5946	-	TOOTH	The body	A hard, calcareous structure present in the mouth of many vertebrate animals, generally used for eating.	Person/Thing	4.27
 1381	5948	-	SHOE	Clothing and grooming	A protective covering for the foot, with a bottom part composed of thick leather or plastic sole and often a thicker heel, and a softer upper part made of leather or synthetic material. Shoes generally do not extend above the ankle, as opposed to boots, which do.	Person/Thing	6.51
-1382	5951	337519	NEEDLE FOR SEWING	Clothing and grooming	A thin, sharp implement used in sewing, knitting and acupuncture.	Person/Thing	6.36
+1382	5951	337519	NEEDLE (FOR SEWING)	Clothing and grooming	A thin, sharp implement used in sewing, knitting and acupuncture.	Person/Thing	6.36
 1383	5953	-	GRANDFATHER	Kinship	The father of one of someone's parents	Person/Thing	2.46
 1384	5958	-	SECOND	Quantity	That which comes after the first.	Other	13.36
 1385	5960	-	PEPPER	Food and drink	A spice prepared from the fermented, dried, unripe red berries of the pepper plant.	Person/Thing	5.82
@@ -1391,7 +1391,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1390	5971	-	WRONG	Emotions and values	Contradicting the facts.	Property	16.74
 1391	5974	-	TOWN	Social and political relations	An area with residential districts, shops and amenities, and its own local government.	Person/Thing	19.15
 1392	5980	1510396,15104	LOUSE	Animals	A small wingless parasitic insect of the order Phthiraptera that lives on humans, other mammals and birds.	Person/Thing	3811
-1393	5981	-	HORN, KERATINIZED SKIN	The body	A hard growth of keratin that protrudes from the top of the head of certain animals.	Person/Thing	4.17
+1393	5981	-	HORN (KERATINIZED SKIN)	The body	A hard growth of keratin that protrudes from the top of the head of certain animals.	Person/Thing	4.17
 1394	5983	-	BONE	The body	Any of the components of an endoskeleton, consisting mainly of calcium phosphate, collagen and cells.	Person/Thing	4.16
 1395	5984	700103	ROUND	Spatial relations	Circular or having a circular cross-section in at least one direction.	Property	12.81
 1396	5987	-	SHARP	Sense perception	Having the ability to cut easily.	Property	15.78
@@ -1399,7 +1399,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1398	5989	-	DRY	Sense perception	(Almost) free from liquid or moisture.	Property	15.84
 1399	599	-	CLAY	Basic actions and technology	A loose, earthy, extremely fine-grained, natural sediment or soft rock composed primarily of clay-size or colloidal particles and characterized by high plasticity and by a considerable content of clay mineral and subordinate amounts of finely divided quartz, decomposed feldspar, carbonates, ferruginous matter, and other impurities; it forms a plastic, moldable mass when finely ground and mixed with water, retains its shape on drying, and becomes firm, rocklike and permanently hard on heating or firing.	Person/Thing	9.73
 1400	5990	-	THIN	Spatial relations	(Of a person or animal) Narrow in size, and usually indicating carrying little fat.	Property	12.65
-1401	5991	-	DRINK ACTION	Food and drink	To consume a liquid through the mouth.	Action/Process	5.13
+1401	5991	-	DRINK	Food and drink	To consume a liquid through the mouth.	Action/Process	5.13
 1402	5992	-	BREAST	The body	The fleshy organ on the chest of a sexually mature human female containing mammary glands.	Person/Thing	4.41
 1403	5993	-	BITE	The body	To cut off a piece by clamping the teeth.	Action/Process	4.58
 1404	5994	-	STRAIGHT	Spatial relations	Not crooked or bent; having a constant direction throughout its length.	Property	12.73
@@ -1409,15 +1409,15 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1408	5999	-	HEAR	Sense perception	To perceive sound with the ear, without necessarily paying attention to it.	Action/Process	15.41
 1409	6003	-	SEE	Sense perception	To perceive [images] with the eye, without necessarily paying attention to them.	Action/Process	15.51
 1410	6004	710114;955211	KNOW	Cognition	To be certain or sure about something.	Action/Process	17.17
-1411	6005	-	LIE, REST	Spatial relations	To rest in a horizontal, static position, usually on another surface.	Action/Process	12.14
+1411	6005	-	LIE (REST)	Spatial relations	To rest in a horizontal, static position, usually on another surface.	Action/Process	12.14
 1412	6009	-	RUDE	Emotions and values	Bad mannered.	Property	-
 1413	6010	-	PLAY	Emotions and values	To act in a manner such that one has fun; to engage in playful activities expressly for the purpose of recreation.	Action/Process	16.26
 1414	6017	441998;441891	SQUEEZE	Basic actions and technology	To apply pressure to something from two or more sides at once.	Action/Process	9343
-1415	6021	-	THINK, REFLECT	Cognition	To actively and consciously use one's mental powers, usually to form ideas.	Action/Process	17.13
+1415	6021	-	THINK (REFLECT)	Cognition	To actively and consciously use one's mental powers, usually to form ideas.	Action/Process	17.13
 1416	6022	-	SIT	Spatial relations	To be in a position with the upper body upright and the legs resting.	Action/Process	12.13
 1417	6023	-	KILL	The body	To put to death; to end a life.	Action/Process	4.76
 1418	6024	-	DIG	Agriculture and vegetation	To move earth, rocks, etc. out of the way, usually to create a hole.	Action/Process	8.22
-1419	6025	-	FEAR, BE AFRAID	Emotions and values	To be scared of; to have an uncontrollable emotion of anxiety about something that causes a scared reaction or frightening impression.	Action/Process	-
+1419	6025	-	FEAR (BE AFRAID)	Emotions and values	To be scared of; to have an uncontrollable emotion of anxiety about something that causes a scared reaction or frightening impression.	Action/Process	-
 1420	6026	626814	COUNT	Quantity	To enumerate the digits of one's numeral system.	Action/Process	13107
 1421	6027	-	SUCK	Food and drink	To draw in a substance by creating a practical vacuum in the mouth, and as a result a difference in pressure.	Action/Process	5.16
 1422	6028	965540	BE ALIVE	The body	To be alive; to have a life.	Action/Process	4.74
@@ -1439,11 +1439,11 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1438	6049	-	FOOL	Social and political relations	A person with poor judgment or little intelligence.	Person/Thing	-
 1439	6050	-	SWIM	Motion	To move through the water, without touching the bottom.	Action/Process	10.35
 1440	6051	-	SPIT	The body	To forcefully evacuate saliva from the mouth.	Action/Process	4.56
-1441	6052	-	FLY, MOVE THROUGH AIR	Motion	To move autonomously through the air, without any part of the object or object's enclosure touching anything attached to the ground.	Action/Process	10.37
+1441	6052	-	FLY (MOVE THROUGH AIR)	Motion	To move autonomously through the air, without any part of the object or object's enclosure touching anything attached to the ground.	Action/Process	10.37
 1442	6053	-	STAND	Spatial relations	To be upright in an erect position, supported by the feet.	Action/Process	12.15
 1443	6054	-	WALK	Motion	To move from one place to another by moving legs alternately, so that at least one foot is in contact with the floor or surface at any one time.	Action/Process	10.45
 1444	1584109	6055,6526	TURN AROUND	Motion	Change one's direction.	Action/Process	10.13
-1445	6055	1584109,6526	TURN SOMETHING	Motion	To position by moving an object around its axis.	Action/Process	-
+1445	6055	1584109,6526	TURN (SOMETHING)	Motion	To position by moving an object around its axis.	Action/Process	-
 1446	6056	5965	COME	Motion	To move toward or to reach either the speaker, the person spoken to, or the subject of the speaker's narrative.	Action/Process	10.48
 1447	6059	-	GIVE	Possession	To transfer the possession or holding (of an object) to another person.	Action/Process	11.21
 1448	6060	-	HOLD	Possession	To grasp or grip (particularly with the hand) so that the object does not end up at the surface below.	Action/Process	11.15
@@ -1484,7 +1484,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1483	6193	6208	NINE	Quantity	The ninth natural number (9).	Other	13.09
 1484	6195	-	OIL	Food and drink	Fat in a liquid form.	Person/Thing	5.79
 1485	6199	-	BELOW, UNDER	Spatial relations	Lower in spatial position than.	Other	12.07
-1486	619975	-	PLANT, GROW	Agriculture and vegetation	To put a plant in the ground so that it strikes root and grows.	Action/Process	8531
+1486	619975	-	PLANT (SOMETHING)	Agriculture and vegetation	To put a plant in the ground so that it strikes root and grows.	Action/Process	8531
 1487	621011	-	POUR	Basic actions and technology	To cause a liquid to flow into a container.	Action/Process	9.35
 1488	622752	-	FAUCET	Modern world	A device applied to the end of a pipe in order to interrupt and regulate the flow of a liquid or gas.	Person/Thing	23.5
 1489	623	-	CLOUD	The physical world	Suspensions of minute water droplets or ice crystals produced by the condensation of water vapour.	Person/Thing	1.73
@@ -1502,7 +1502,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1501	625688	-	BORE	Basic actions and technology	To create a hole by removing material with a drill.	Action/Process	9.46
 1502	6257	-	GOAT	Animals	A common four-legged animal (Capra) that is related to sheep and bred by humans for its coat and milk.	Person/Thing	3.36
 1503	6259	-	SALIVA	The body	A secretion from the salivary glands (found in the mouth) that can be spat out.	Person/Thing	-
-1504	6261	-	FLY, INSECT	Animals	A common insect; any species of insect of the order Diptera.	Person/Thing	3.83
+1504	6261	-	FLY (INSECT)	Animals	A common insect; any species of insect of the order Diptera.	Person/Thing	3.83
 1505	6262	-	SPERM	The body	Men's semen.	Person/Thing	-
 1506	626882	-	MEASURE	Spatial relations	To ascertain the quantity of a unit of material via calculated comparison with respect to a standard.	Action/Process	12.54
 1507	6280	-	FRUIT	Food and drink	A botanical fruit that can be eaten raw used as food	Person/Thing	5.71
@@ -1510,8 +1510,8 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1509	630453	-	MOSQUITO	Animals	A small flying insect (of the family Culicidae) known for biting and sucking blood.	Person/Thing	3832
 1510	6306	-	CHIN	The body	The bottom of the face, below the mouth.	Person/Thing	4209
 1511	6308	-	ROOSTER	Animals	A male chicken (Gallus gallus domesticus), a domestic bird.	Person/Thing	3.52
-1512	630856	-	RISE (2)	Motion	to get up from a lying, sitting, or kneeling position.	Action/Process	10.21
-1513	6309	-	THINK, BELIEVE	Cognition	To have as opinion, belief, or idea.	Action/Process	17.14
+1512	630856	-	RISE (ONESELF)	Motion	to get up from a lying, sitting, or kneeling position.	Action/Process	10.21
+1513	6309	-	THINK (BELIEVE)	Cognition	To have as opinion, belief, or idea.	Action/Process	17.14
 1514	6311	-	HEN	Animals	A female chicken.	Person/Thing	3.54
 1515	6312	-	TEN	Quantity	The cardinal number occurring after nine and before eleven, represented in Roman numerals as X, in Arabic numerals as 10, and in the hexadecimal system (base 16) as A.	Other	13.1
 1516	631266	-	SUBJUGATE	Social and political relations	To put somebody under one's authority.	Action/Process	-
@@ -1584,8 +1584,8 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1583	6504	-	BRAIN	The body	The organ of the central nervous system of an animal located in the skull that controls the actions and thoughts of the animal.	Person/Thing	4203
 1584	6518	-	BLISTER	The body	A small bubble on the skin, that contains watery fluid and is caused by heat, pressure or infection.	Person/Thing	4855
 1585	6519	-	SLEEP	The body	To rest in a state of decreased consciousness and reduced metabolism.	Action/Process	4.61
-1586	6520	-	SMELL, PERCEIVE	Sense perception	To perceive the presence of molecules in the air by inhaling them through the nose.	Action/Process	15.22
-1587	6521	-	SMELL, STINK	Sense perception	To give off a smell that can be perceived by the nose.	Action/Process	15.21
+1586	6520	-	SMELL (PERCEIVE)	Sense perception	To perceive the presence of molecules in the air by inhaling them through the nose.	Action/Process	15.22
+1587	6521	-	SMELL (STINK)	Sense perception	To give off a smell that can be perceived by the nose.	Action/Process	15.21
 1588	6526	6055,1584109	TURN	Motion	To change direction of movement.	Action/Process	10.12
 1589	652702	-	HUMMINGBIRD	Animals	A small bird in the family Trochilidae.	Person/Thing	-
 1590	6530	-	WAIT FOR	Motion	To refrain from acting or moving for some duration or until some event occurs.	Action/Process	-
@@ -1687,7 +1687,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1686	6945	-	BEHIND	Spatial relations	At the back of.	Other	12011
 1687	695465	-	PRAISE	Emotions and values	the act of expressing approval or admiration; commendation; laudation.	Person/Thing	16.79
 1688	695947	-	FATE	Religion and belief	The power or agency that, according to certain belief systems, predetermines and orders unalterably the course of events.	Person/Thing	-
-1689	6968	-	SMOKE, INHALE	Agriculture and vegetation	To inhale smoke from for example a cigarette or a cigar.	Action/Process	8.69
+1689	6968	-	SMOKE (INHALE)	Agriculture and vegetation	To inhale smoke from for example a cigarette or a cigar.	Action/Process	8.69
 1690	698534	-	FENCE	Agriculture and vegetation	Delimitation for an area.	Person/Thing	8.16
 1691	698784	-	FLEXIBLE	The physical world	Capable of being flexed or bent without breaking; able to be turned, bowed, or twisted, without breaking; pliable; not stiff or brittle.	Property	-
 1692	6988	-	FRIDAY	Time	The fifth day of the week in Europe and in systems using the ISO 8601 norm; the sixth day of the week in the United States of America.	Person/Thing	14.67
@@ -1909,8 +1909,8 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1908	839411	-	ATTENTIVE	Cognition	Giving attention.	Person/Thing	-
 1909	839866	-	SHAKE	Motion	To cause (something) to move rapidly from side to side.	Action/Process	10.26
 1910	8401	-	STINGRAY	Animals	Any of various large, venomous rays, of the orders Rajiformes and Myliobatiformes, having a barbed, whiplike tail.	Person/Thing	3664
-1911	840722	339936	DRAW WATER	Basic actions and technology	To draw by a physical force causing or tending to cause to approach, adhere, or unite	Action/Process	9.9
-1912	842332	-	RESPECT (1)	Emotions and values	An attitude of admiration or esteem.	Person/Thing	-
+1911	840722	339936	DRAW (WATER)	Basic actions and technology	To draw by a physical force causing or tending to cause to approach, adhere, or unite	Action/Process	9.9
+1912	842332	-	RESPECT (NOUN)	Emotions and values	An attitude of admiration or esteem.	Person/Thing	-
 1913	842520	-	PRESS	Basic actions and technology	To apply pressure to an item.	Action/Process	9342
 1914	843	-	DEBT	Possession	Something owed to someone else.	Person/Thing	11.64
 1915	843491	-	FIR	Agriculture and vegetation	An evergreen coniferous tree of the genus Abies.	Person/Thing	8.65
@@ -1920,7 +1920,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1919	844734	-	TORCH	The house	A stick with a flame on one end used as a light source.	Person/Thing	7.45
 1920	8448	-	DREAM	The body	To experience while sleeping.	Action/Process	4.62
 1921	845139	-	PLOUGH	Agriculture and vegetation	To use a plough on to prepare for planting.	Action/Process	8.21
-1922	846608	-	LAND, DESCEND	Motion	To descend to a surface, especially from the air.	Action/Process	10.92
+1922	846608	-	LAND (DESCEND)	Motion	To descend to a surface, especially from the air.	Action/Process	10.92
 1923	846773	-	ROUGH	Sense perception	Having a texture that has much friction. Not smooth.	Property	15.76
 1924	8471	-	VEIN	The body	A blood vessel that transports blood from the capillaries back to the heart.	Person/Thing	4151
 1925	8473	-	ARTERY	The body	A blood vessel transporting blood away from the heart.	Person/Thing	4151
@@ -1941,7 +1941,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1940	866813	-	GUARD	Warfare and hunting	A person who protects or watches over something.	Person/Thing	20471
 1941	867170	6377	SOLDIER	Warfare and hunting	A person who is actively engaged in battle, conflict or warfare.	Person/Thing	20.17
 1942	869106	-	NEAR	Spatial relations	Not far distant in time or space or degree or circumstances.	Property	12.43
-1943	870564	-	CROWN OF HEAD	The body	A royal, imperial or princely headdress; a diadem.	Person/Thing	-
+1943	870564	-	CROWN (OF HEAD)	The body	A royal, imperial or princely headdress; a diadem.	Person/Thing	-
 1944	871639	-	GOD	Religion and belief	A supernatural, typically immortal being with superior powers.	Person/Thing	22.12
 1945	871642	-	IDOL	Religion and belief	A representation of a deity, notably a statue or a statuette.	Person/Thing	22.37
 1946	872499	-	INITIATION CEREMONY	Religion and belief	A formal entry into an organization or position or office.	Person/Thing	22.51
@@ -2077,17 +2077,17 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 2076			SPROUT (VERB)		The process by which a plant grows from a seed.		-
 2077	630824		DILIGENT		Being busy-working.		-
 2078	462623		TEN THOUSAND		Ten to the power of four.		-
-2079			PERSON (CLASSIFIER)		classifier for persons		-
-2080			BOWL (CLASSIFIER)		classifier for bowl-like objects		-
-2081			CHICKEN (CLASSIFIER)		classifier for bird-like animals		-
-2082			KNIFE (CLASSIFIER)		classifier for knife-like objects		-
-2083			AXE (CLASSIFIER)		classifier for axe-like objects		-
-2084			ROPE (CLASSIFIER)		classifier for rope-like objects		-
-2085			STICK (CLASSIFIER)		classifier for stick-like objects		-
-2086			GRAIN (CLASSIFIER)		classifier for tiny objects, like rice		-
-2087			DROP (CLASSIFIER)		classifier for small units of liquid, like water		-
-2088			CLOTHING (CLASSIFIER)		classifier for things that one wears		-
-2089			PAIR (CLASSIFIER)		classifier for objects that occur in pairs		-
+2079			CUNNING PERSON		A smart and witty person.		-
+2080			BOWL (CLASSIFIER)	Quantity	classifier for bowl-like objects	Classifier	-
+2081			CHICKEN (CLASSIFIER)	Quantity	classifier for bird-like animals	Classifier	-
+2082			KNIFE (CLASSIFIER)	Quantity	classifier for knife-like objects	Classifier	-
+2083			AXE (CLASSIFIER)	Quantity	classifier for axe-like objects	Classifier	-
+2084			ROPE (CLASSIFIER)	Quantity	classifier for rope-like objects	Classifier	-
+2085			STICK (CLASSIFIER)	Quantity	classifier for stick-like objects	Classifier	-
+2086			GRAIN (CLASSIFIER)	Quantity	classifier for tiny objects, like rice	Classifier	-
+2087			DROP (CLASSIFIER)	Quantity	classifier for small units of liquid, like water	Classifier	-
+2088			CLOTHING (CLASSIFIER)	Quantity	classifier for things that one wears	Classifier	-
+2089			PAIR (CLASSIFIER)	Quantity	classifier for objects that occur in pairs	Classifier	-
 2090	5504		MY		Belonging to me.		-
 2091			YOUR		belonging to the second person that is addressed by the first person		-
 2092			HIS OR HER		belonging to the third person that is addressed		-
@@ -2117,3 +2117,10 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 2116			REST OR SLEEP		Lie down or sleep.		
 2117			DESIRE		To have affection for someone or to want to do something.		
 2118			MOUNTAIN OR HILL		A small or big rise in the surface of the earth.		
+2119			BOW STRING		The string of a bow used to hunt.		
+2120			FINGER OR TOE		Limb of the human body found in the hands and foots of humans and primates.		
+2121			ARM OR HAND		Extremities emerging from the upper part of the human body.		
+2122			MOUNTAIN FOOT		Lower part in front of a mountain, before the mountain begins.		
+2123			MOUNTAIN RIDGE		A geological feature consisting of a chain of mountains or hills that form a continuous elevated crest for some distance		
+2124			SMELL		Perceive or emit odour.		
+2125			STONE OR ROCK		A naturally occurring solid aggregate of one or more minerals or mineraloids.		
