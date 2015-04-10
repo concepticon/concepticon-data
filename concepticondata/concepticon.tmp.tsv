@@ -500,7 +500,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 499	156675	-	CURE	The body	To remedy an illness using medical or medicamentous treatment; to provide a cure for.	Action/Process	4.86
 500	156727	-	CRUEL	Emotions and values	Indifference towards the suffering of another and even deriving a positive feeling from it.	Property	-
 501	156785	-	LIFT	Motion	To cause an object to have a higher location than previously.	Action/Process	10.22
-502	156863	-	NAIL (TOOL)	Basic actions and technology	A spike-shaped metal fastener used for joining wood or similar materials.	Person/Thing	9.5
+502	156863	-	NAIL	Basic actions and technology	A spike-shaped metal fastener used for joining wood or similar materials.	Person/Thing	9.5
 503	1570	-	FROG	Animals	Any insectivorous anuran amphibian of the family Ranidae, such as Rana temporaria of Europe, having a short squat tailless body with a moist smooth skin and very long hind legs specialized for hopping.	Person/Thing	3.95
 504	157124	-	LEARN	Cognition	To acquire, or attempt to acquire knowledge or an ability to do something.	Action/Process	17.24
 505	157257	-	PARENTS	Kinship	Father and mother of a child.	Person/Thing	2.37
@@ -599,7 +599,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 598	161542	-	SHELL	Animals	a hard outer covering of an animal, as the hard case of a mollusk	Person/Thing	3655
 599	161564	-	DRIVER'S LICENSE	Modern world	Official document granting someone the authorisation to drive some vehicles.	Person/Thing	23.34
 600	161713	-	STRANGE	Cognition	Out of the ordinary.	Property	-
-601	161769	-	LIE (MISLEAD)	Emotions and values	To knowingly say something that is untrue.	Action/Process	16.67
+601	161769	-	LIE, MISLEAD	Emotions and values	To knowingly say something that is untrue.	Action/Process	16.67
 602	161806	-	HIDE, CONCEAL	Spatial relations	To put something in a place where it will be harder to discover or out of sight.	Action/Process	12.27
 603	161851	-	COAT	Clothing and grooming	An outer garment covering the upper torso and arms.	Person/Thing	6.43
 604	1656	-	GLASS	Basic actions and technology	A hard, amorphous, inorganic, usually transparent, brittle substance made by fusing silicates, sometimes borates and phosphates, with certain basic oxides and then rapidly cooling to prevent crystallization.	Person/Thing	9.74
@@ -821,7 +821,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 820	352601	-	LAMB	Animals	Young sheep.	Person/Thing	3.29
 821	353334	-	POPLAR	Agriculture and vegetation	Any of various deciduous trees of the genus Populus.	Person/Thing	-
 822	353440	-	HOW MANY	Cognition	Which quantity?	Other	17.62
-823	353553	-	SORCERER	Religion and belief	A male person who practices magic or sorcery.	Person/Thing	22.43
+823	353553	-	SORCERER	Religion and belief	A person who practices magic or sorcery.	Person/Thing	22.43
 824	353642	-	WITCH	Religion and belief	A female person who uses magic.	Person/Thing	22.43
 825	353802	-	AWAKE	The body	Not sleeping.	Property	-
 826	353982	-	BRANCH, BIFURCATION	The physical world	A separation of a river, a road, etcetera.	Person/Thing	-
@@ -1727,7 +1727,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1726	7027	-	WET	Sense perception	Covered with or impregnated with liquid.	Property	15.83
 1727	702756	-	THRESHOLD	The house	The bottom-most part of a doorway that one crosses to enter; a sill.	Person/Thing	-
 1728	7031	5826	ROTTEN	Food and drink	Having changed its colour, smell or composition (partially or completely), due to being attacked and decomposed by microorganisms (relating to organic matter).	Property	5125
-1729	703135	-	PLAIT OR BRAID OR WEAVE	Basic actions and technology	to unite or arrange (threads, strips, parts, branches, etc.) so as to intercross one another passing it alternately over and under.	Action/Process	9.75
+1729	703135	-	PLAIT/BRAID, WEAVE	Basic actions and technology	to unite or arrange (threads, strips, parts, branches, etc.) so as to intercross one another passing it alternately over and under.	Action/Process	9.75
 1730	7034	-	CHEEK	The body	The soft skin on each side of the face, between the eyes and the chin; the outer surface of the sides of the oral cavity.	Person/Thing	4208
 1731	703845	-	MORTAR BINDER	The house	Paste made of a mixture of a binder (cement, plaster or lime), sand and water used in masonry to make bricks, stones, etc. stick together.	Person/Thing	7.63
 1732	7039	-	SKY	The physical world	The part of the earth's atmosphere and space outside it that is visible from earth's surface. During the day it is perceived as blue, and at night as black.	Person/Thing	1.51
@@ -1809,7 +1809,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1808	745553	-	PUS	The body	A whitish-yellow or yellow substance produced during inflammatory responses of the body that can be found in regions of pyogenic bacterial infections.	Person/Thing	4857
 1809	745597	-	PIMPLE	The body	A result of a blockage of the skin's pore.	Person/Thing	-
 1810	7456	-	DANGER	Emotions and values	A situation that constitutes an immediate risk for injury on a person or property.	Person/Thing	16.54
-1811	 	-	SOUND OR NOISE	Sense perception	Any audible noise which is not necessarily unwanted or unpleasant to the hearer and of short or long duration.	Person/Thing	15.44
+1811	7469	-	SOUND	Sense perception	To produce a sound.	Person/Thing	15.44
 1812	7471	-	TRY	Cognition	To put to the test, as for its quality, or give experimental use to.	Action/Process	17.48
 1813	7511	-	TASTY	Food and drink	Pleasing to the sense of taste.	Property	-
 1814	751478	541549	ACCUSE	Law	To lay a charge against; bring an accusation against.	Action/Process	21.31
@@ -1894,7 +1894,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1893	8235	-	QUAIL	Animals	(Coturnix coturnix) Small (17 cm) rotund bird from the pheasant family (Phasianidae)	Person/Thing	3865
 1894	823950	-	ASHAMED	Emotions and values	Feeling shame or guilt.	Property	-
 1895	8254	621	CLOTHES	Clothing and grooming	All coverings designed to be worn on a person's body.	Person/Thing	6.12
-1896	828575	5529;1244402	FINGERNAIL OR TOENAIL	The body	Hard keratin part growing at the end of a human's finger or toe.	Person/Thing	-
+1896	828575	5529;1244402	NAIL, KERATIN	The body	Hard keratin part growing at the end of a finger, toe or leg.	Person/Thing	-
 1897	830463	-	HELP	Social and political relations	To give assistance or aid to.	Action/Process	19.58
 1898	8320	-	SPECTACLES	Modern world	A pair of lenses in a frame that are worn in front of the eyes and are used to correct faulty vision or protect the eyes.	Person/Thing	23.24
 1899	833779	1067624	MAD	Cognition	Mentally ill.	Property	17.23
@@ -1960,7 +1960,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1959	899678	-	RAW	Food and drink	That has not been cooked (food).	Property	5122
 1960	900279	-	CORNFLOWER	Agriculture and vegetation	A composite plant, Centaurea cyanus, having narrow leaves and blue flower heads.	Person/Thing	-
 1961	900585	-	NECKLACE	Clothing and grooming	An article of jewelry that is worn around the neck.	Person/Thing	6.75
-1962	903088	-	ROAST (SOMETHING)	Food and drink	To expose to heat without adding fat or water until it is cooked, has a brown crust and becomes crispy.	Action/Process	5.23
+1962	903088	-	ROAST	Food and drink	To expose to heat without adding fat or water until it is cooked, has a brown crust and becomes crispy.	Action/Process	5.23
 1963	904194	-	IMMEDIATELY	Time	In an immediate manner; instantly or without delay.	Other	14.19
 1964	904382	-	ALONE	Quantity	Without any others being included or involved.	Property	13331
 1965	907107	-	LOINCLOTH	Clothing and grooming	A cloth worn to cover the loins.	Person/Thing	-
@@ -1969,7 +1969,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1968	909894	-	SOYA SAUCE	Food and drink	Sauce made from soybeans (soya beans), roasted grain, water and salt and is used as flavoring mainly in Asian cuisine.	Person/Thing	-
 1969	910204	-	MANTOU	Food and drink	Steamed bun made of flour, water and yeast originating from Chinese cuisine.	Person/Thing	-
 1970	911657	-	CANOE	Motion	A light narrow boat driven by a paddle.	Person/Thing	10831
-1971	912239	898076	FAN (OBJECT)	Basic actions and technology	A device that provides air circulation in a closed environment by rotating an helix, in order to cool down someone or something.	Person/Thing	9.79
+1971	912239	898076	FAN OBJECT	Basic actions and technology	A device that provides air circulation in a closed environment by rotating an helix, in order to cool down someone or something.	Person/Thing	9.79
 1972	914854	-	KID	Animals	A young goat.	Person/Thing	3.38
 1973	915102	-	DEMON	Religion and belief	Evil spirit or person that is wicked or cruel in their actions.	Person/Thing	22.35
 1974	915513	-	CENTIPEDE	Animals	Any of various flattened, wormlike arthropods of the class Chilopoda, whose bodies are divided into many segments, each with one pair of legs.	Person/Thing	3814
@@ -2124,24 +2124,3 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 2123			MOUNTAIN RIDGE		A geological feature consisting of a chain of mountains or hills that form a continuous elevated crest for some distance		
 2124			SMELL		Perceive or emit odour.		
 2125			STONE OR ROCK		A naturally occurring solid aggregate of one or more minerals or mineraloids.		
-2126			EAR OR HEAR		Either the organ with which one perceives noise, or the action of perceiving noise.		
-2127			SKIN OR BARK		Cover of the bodies of animals and plants.		
-2128			NAIL OR CLAW		The hard, keratin part growing at the feet of animals or the hands and legs of humans.		
-2129			BREAST OR MILK		Either the organ of females which gives nourishing substance for newborns, or the substance itself.		
-2130			HEADGEAR		Any element of clothing which is worn on one's head.		
-2131			TORCH OR LAMP		Any portable device that produces light.		
-2132			SICKLE OR SCYTHE		Any portable tool that is used to cut grass or cereal crops in agriculture.		
-2133			STRIKE OR BEAT		To strike repeatedly, usually with bare hands and directed towards another person.		
-2134			RAISE (A CHILD)		To take care of an infant or some other living creature, usually until it can live indepentendly.		
-2135			TRADE OR BARTER		To exchange goods with or without exchanging money.		
-2136			BRASS INSTRUMENT (HORN OR TRUMPET)		Any musical instrument that is a member of the brass family of musical instruments, usually a horn or a trumpet.		
-2137			MAGICIAN		A perspon who practices magic.		
-2138			LEGENDARY CREATURE		A human or an animal described in non-historical or yet to be verified stories that sometimes involve the supernatural.		
-2139			MUROID (MOUSE OR RAT)		A large superfamily of rodents, including hamsters, gerbils, true mice and rats, and many other relatives.		
-2140			SUN OR DAY		Either the bright object at the sky that illuminates the earth completely, or the time when the object illuminates the earth.		
-2141			TREE OR WOOD		Either any  perennial plant with an elongated stem, or trunk, supporting branches and leaves, or the porous and vibrous structural tissue of which the stems of these plants consist.		
-2142			RUN AWAY		Leave a dangerous situation by moving one's body away from it.		
-2143			LONG OR TALL		Having a vertical or a horizontal extent greater than the average.		
-2144			SPRING OR WELL		A natural or human-made source of fresh water.		
-2145			ROAST (DEVICE)		A device that is used to roast meat or vegetables.		
-2146			ROAST OR FRY		Preparing food by exposing it to open fire or to hot fat.		
