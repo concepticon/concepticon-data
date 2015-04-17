@@ -2,8 +2,8 @@ MERGER	ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	NUMBER	PAGENUMBER	ENGLISH	CHINESE	NUM
 	SatterthwaitePhillips-2011-423-1	619	ANIMAL	1	167	animal	动物	14
 	SatterthwaitePhillips-2011-423-10	1927	BAMBOO	10	168	bamboo	竹子	60
 	SatterthwaitePhillips-2011-423-100	1705	EIGHT	100	185	192	八	8
-7	SatterthwaitePhillips-2011-423-101	1228	EARTH, SOIL	101	185	earth	地；土地 [B = 地（天地）]	73
-7	SatterthwaitePhillips-2011-423-102	1228	EARTH, SOIL	102	185	earth%	土地	73,1
+8	SatterthwaitePhillips-2011-423-101	1228	EARTH, SOIL	101	185	earth	地；土地 [B = 地（天地）]	73
+8	SatterthwaitePhillips-2011-423-102	1228	EARTH, SOIL	102	185	earth%	土地	73,1
 	SatterthwaitePhillips-2011-423-103	686	EASY	103	185	easy	容易	214
 	SatterthwaitePhillips-2011-423-104	1336	EAT	104	185	eat	吃	178
 	SatterthwaitePhillips-2011-423-105	744	EGG	105	185	egg*	（鸡）蛋	20
@@ -57,7 +57,7 @@ MERGER	ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	NUMBER	PAGENUMBER	ENGLISH	CHINESE	NUM
 	SatterthwaitePhillips-2011-423-149	695	GO	149	192	go	去	305,6
 	SatterthwaitePhillips-2011-423-15	1090	BE BORN	15	169	be born, to	出生	251
 	SatterthwaitePhillips-2011-423-150	1035	GOOD	150	193	good	好	405
-6	SatterthwaitePhillips-2011-423-151	411	GOURD	151	193	gourd	瓜	263
+7	SatterthwaitePhillips-2011-423-151	411	GOURD	151	193	gourd	瓜	263
 	SatterthwaitePhillips-2011-423-152	1383	GRANDFATHER	152	193	grandfather (pat)	爷爷	384
 	SatterthwaitePhillips-2011-423-153	1618	GRANDSON	153	193	grandson	孙子	200
 	SatterthwaitePhillips-2011-423-154	606	GRASS	154	193	grass	草	63
@@ -69,8 +69,8 @@ MERGER	ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	NUMBER	PAGENUMBER	ENGLISH	CHINESE	NUM
 	SatterthwaitePhillips-2011-423-16	1132	BEAM	16	170	beam	横梁 [B = 梁]	157
 	SatterthwaitePhillips-2011-423-160	1277	HAND	160	194	hand*	手	105
 	SatterthwaitePhillips-2011-423-161	1884	HARD	161	195	hard	硬	413
-9	SatterthwaitePhillips-2011-423-162	1607	HATE	162	195	hate	恨	?
-9	SatterthwaitePhillips-2011-423-163	1607	HATE	163	195	hate	讨厌（人）	390
+5	SatterthwaitePhillips-2011-423-162	1607	HATE	162	195	hate	恨	?
+5	SatterthwaitePhillips-2011-423-163	1607	HATE	163	195	hate	讨厌（人）	390
 	SatterthwaitePhillips-2011-423-164	1211	HE	164	195	he	他	181
 	SatterthwaitePhillips-2011-423-165	1256	HEAD	165	195	head*	头	94
 	SatterthwaitePhillips-2011-423-166	1408	HEAR	166	195	hear	听见	369
@@ -105,15 +105,15 @@ MERGER	ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	NUMBER	PAGENUMBER	ENGLISH	CHINESE	NUM
 	SatterthwaitePhillips-2011-423-192	489	KIDNEY	192	199	kidney>>	肾	124
 	SatterthwaitePhillips-2011-423-193	1417	KILL	193	200	kill	杀	268
 	SatterthwaitePhillips-2011-423-194	1352	KNIFE	194	200	knife	刀子 [B = 刀]	167
-2	SatterthwaitePhillips-2011-423-195	1410	KNOW	195	200	know [info]	知道	341
-2	SatterthwaitePhillips-2011-423-196	1410	KNOW	196	200	know [sb]	认识	343
+9	SatterthwaitePhillips-2011-423-195	1410	KNOW	195	200	know [info]	知道	341
+9	SatterthwaitePhillips-2011-423-196	1410	KNOW	196	200	know [sb]	认识	343
 	SatterthwaitePhillips-2011-423-197	624	LAKE	197	200	lake	湖	381
 	SatterthwaitePhillips-2011-423-198	477	LATE	198	200	late	晚	310
 	SatterthwaitePhillips-2011-423-199	1355	LAUGH	199	201	laugh	笑（有声的）	388
 	SatterthwaitePhillips-2011-423-2	587	ANT	2	167	ant	蚂蚁	25
 	SatterthwaitePhillips-2011-423-20	1663	BED	20	170	bed	床	159
-12	SatterthwaitePhillips-2011-423-200	628	LEAF	200	201	leaf	叶子	54
-12	SatterthwaitePhillips-2011-423-201	628	LEAF	201	201	leaf (of tree, cf. 402)%	树叶 [B only]	?
+11	SatterthwaitePhillips-2011-423-200	628	LEAF	200	201	leaf	叶子	54
+11	SatterthwaitePhillips-2011-423-201	628	LEAF	201	201	leaf (of tree, cf. 402)%	树叶 [B only]	?
 	SatterthwaitePhillips-2011-423-202	949	LEECH, WATER LEECH	202	201	leech	水蛭	33
 	SatterthwaitePhillips-2011-423-203	244	LEFT	203	201	left	左	197
 	SatterthwaitePhillips-2011-423-204	1297	LEG	204	201	leg	大腿 [B = 腿]	112
@@ -139,8 +139,8 @@ MERGER	ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	NUMBER	PAGENUMBER	ENGLISH	CHINESE	NUM
 	SatterthwaitePhillips-2011-423-222	1198	MANY	222	205	many	多	13
 	SatterthwaitePhillips-2011-423-223	1835	MARROW	223	205	marrow	骨髓	128
 	SatterthwaitePhillips-2011-423-224	203	MARRY	224	205	marry, to	结婚	249
-4	SatterthwaitePhillips-2011-423-225	634	MEAT	225	205	meat	肉	203
-4	SatterthwaitePhillips-2011-423-226	634	MEAT	226	206	meat*	肉	136
+14	SatterthwaitePhillips-2011-423-225	634	MEAT	225	205	meat	肉	203
+14	SatterthwaitePhillips-2011-423-226	634	MEAT	226	206	meat*	肉	136
 	SatterthwaitePhillips-2011-423-227	1372	MEDICINE	227	206	medicine	药	900
 3	SatterthwaitePhillips-2011-423-228	NAN		228	206	mend (clothes)	补	414
 3	SatterthwaitePhillips-2011-423-229	NAN		229	206	metal	金属	296
@@ -175,8 +175,8 @@ MERGER	ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	NUMBER	PAGENUMBER	ENGLISH	CHINESE	NUM
 	SatterthwaitePhillips-2011-423-255	1240	NOT	255	211	not	不	400
 	SatterthwaitePhillips-2011-423-256	1376	NOW	256	211	now	现在	177
 3	SatterthwaitePhillips-2011-423-257	NAN		257	212	oar	划桨（名词）	169,2
-1	SatterthwaitePhillips-2011-423-258	1229	OLD	258	212	old [person]	老 （人老）	188
-1	SatterthwaitePhillips-2011-423-259	1229	OLD	259	212	old [thing]	旧	217
+13	SatterthwaitePhillips-2011-423-258	1229	OLD	258	212	old [person]	老 （人老）	188
+13	SatterthwaitePhillips-2011-423-259	1229	OLD	259	212	old [thing]	旧	217
 	SatterthwaitePhillips-2011-423-26	1202	BIG	26	172	big	大	404
 	SatterthwaitePhillips-2011-423-260	1493	ONE	260	212	one	一	1
 	SatterthwaitePhillips-2011-423-261	1156	OPEN	261	212	open	打开	227
@@ -230,24 +230,24 @@ MERGER	ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	NUMBER	PAGENUMBER	ENGLISH	CHINESE	NUM
 	SatterthwaitePhillips-2011-423-304	1091	SALTY	304	219	salty	咸	370
 	SatterthwaitePhillips-2011-423-305	1436	SCRATCH	305	219	scratch	抓	209
 	SatterthwaitePhillips-2011-423-306	1409	SEE	306	220	see	看见 [B = 见]	332
-13	SatterthwaitePhillips-2011-423-307	714	SEED	307	220	seed	种子	58
-13	SatterthwaitePhillips-2011-423-308	714	SEED	308	220	seed/pit% [B = 核]	核	58,1
+2	SatterthwaitePhillips-2011-423-307	714	SEED	307	220	seed	种子	58
+2	SatterthwaitePhillips-2011-423-308	714	SEED	308	220	seed/pit% [B = 核]	核	58,1
 	SatterthwaitePhillips-2011-423-309	1571	SELL	309	220	sell	卖	297
 	SatterthwaitePhillips-2011-423-31	887	BITTER	31	173	bitter	苦	266
 	SatterthwaitePhillips-2011-423-310	1704	SEVEN	310	220	seven	七	7
 	SatterthwaitePhillips-2011-423-311	1457	SEW	311	220	sew	缝纫 [B = feng]	355
 	SatterthwaitePhillips-2011-423-312	1388	SHADE	312	221	shadow	影子	93
 	SatterthwaitePhillips-2011-423-313	193	SHALLOW	313	221	shallow	浅	397
-10	SatterthwaitePhillips-2011-423-314	1396	SHARP	314	221	sharp	快（刀）	?
-10	SatterthwaitePhillips-2011-423-315	1396	SHARP	315	221	sharp	锋利	216
+4	SatterthwaitePhillips-2011-423-314	1396	SHARP	314	221	sharp	快（刀）	?
+4	SatterthwaitePhillips-2011-423-315	1396	SHARP	315	221	sharp	锋利	216
 	SatterthwaitePhillips-2011-423-316	1834	SHE	316	221	she	她	372
 	SatterthwaitePhillips-2011-423-317	1331	SHEEP	317	221	sheep>>	羊	46
 	SatterthwaitePhillips-2011-423-318	598	SHELL	318	222	shell>>	（蛋）壳	37
 	SatterthwaitePhillips-2011-423-319	676	SHIT	319	222	shit	屎	135
 	SatterthwaitePhillips-2011-423-32	163	BLACK	32	173	black	黑	65
 	SatterthwaitePhillips-2011-423-320	1172	SHOOT	320	222	shoot	射	222
-14	SatterthwaitePhillips-2011-423-321	1645	SHORT	321	222	short (of length)	短	198
-14	SatterthwaitePhillips-2011-423-322	1645	SHORT	322	222	short (of stature)	矮	421
+12	SatterthwaitePhillips-2011-423-321	1645	SHORT	321	222	short (of length)	短	198
+12	SatterthwaitePhillips-2011-423-322	1645	SHORT	322	222	short (of stature)	矮	421
 	SatterthwaitePhillips-2011-423-323	1482	SHOULDER	323	222	shoulder>>	肩膀	103
 	SatterthwaitePhillips-2011-423-324	1847	SICK	324	222	sick	病	187
 	SatterthwaitePhillips-2011-423-325	759	SILVER	325	223	silver	银 [B = 银子]	92
@@ -277,7 +277,7 @@ MERGER	ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	NUMBER	PAGENUMBER	ENGLISH	CHINESE	NUM
 	SatterthwaitePhillips-2011-423-347	544	SPICY	347	226	spicy	辣	398
 	SatterthwaitePhillips-2011-423-348	843	SPIDER	348	226	spider>>	蜘蛛	31
 	SatterthwaitePhillips-2011-423-349	1440	SPIT	349	226	spit, to	呕吐	279
-11	SatterthwaitePhillips-2011-423-35	175	BLOW	35	173	blow [of person]	吹	335
+1	SatterthwaitePhillips-2011-423-35	175	BLOW	35	173	blow [of person]	吹	335
 	SatterthwaitePhillips-2011-423-350	1503	SALIVA	350	227	saliva*	口水	133
 	SatterthwaitePhillips-2011-423-351	1414	SQUEEZE	351	227	squeeze	压榨	347
 	SatterthwaitePhillips-2011-423-352	570	STAND UP	352	227	stand up	站	327
@@ -288,7 +288,7 @@ MERGER	ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	NUMBER	PAGENUMBER	ENGLISH	CHINESE	NUM
 	SatterthwaitePhillips-2011-423-357	857	STONE	357	228	stone*	石头	89
 	SatterthwaitePhillips-2011-423-358	1404	STRAIGHT	358	228	straight	直	396
 	SatterthwaitePhillips-2011-423-359	785	STRONG	359	228	strong	强壮	286
-11	SatterthwaitePhillips-2011-423-36	175	BLOW	36	174	blow [of wind]	刮	351
+1	SatterthwaitePhillips-2011-423-36	175	BLOW	36	174	blow [of wind]	刮	351
 	SatterthwaitePhillips-2011-423-360	1342	SUMMER	360	229	summer	夏天 ［夏］	229
 	SatterthwaitePhillips-2011-423-361	1343	SUN	361	229	sun*	太阳	75
 	SatterthwaitePhillips-2011-423-362	897	SWALLOW	362	229	swallow	吞	420
@@ -305,8 +305,8 @@ MERGER	ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	NUMBER	PAGENUMBER	ENGLISH	CHINESE	NUM
 	SatterthwaitePhillips-2011-423-372	78	THAT	372	230	that	那	185
 	SatterthwaitePhillips-2011-423-373	1937	THERE	373	231	there	那里	393
 	SatterthwaitePhillips-2011-423-374	1244	THICK	374	231	thick	厚	273
-5	SatterthwaitePhillips-2011-423-375	1400	THIN	375	231	thin [object]	薄	275
-5	SatterthwaitePhillips-2011-423-376	1400	THIN	376	231	thin [person]	瘦	184
+10	SatterthwaitePhillips-2011-423-375	1400	THIN	375	231	thin [object]	薄	275
+10	SatterthwaitePhillips-2011-423-376	1400	THIN	376	231	thin [person]	瘦	184
 	SatterthwaitePhillips-2011-423-377	847	THIRSTY	377	231	thirsty	渴	179
 	SatterthwaitePhillips-2011-423-378	1214	THIS	378	231	this	这	189
 	SatterthwaitePhillips-2011-423-379	124	THORN	379	232	thorn	刺	64
@@ -338,7 +338,7 @@ MERGER	ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	NUMBER	PAGENUMBER	ENGLISH	CHINESE	NUM
 	SatterthwaitePhillips-2011-423-401	1232	WARM	401	235	warm	暖和	233
 	SatterthwaitePhillips-2011-423-402	1453	WASH	402	236	wash	洗	314
 	SatterthwaitePhillips-2011-423-403	948	WATER	403	236	water	水	140
-6	SatterthwaitePhillips-2011-423-404	411	GOURD	404	236	wax gourd	冬瓜	366
+7	SatterthwaitePhillips-2011-423-404	411	GOURD	404	236	wax gourd	冬瓜	366
 3	SatterthwaitePhillips-2011-423-405	NAN		405	236	wax>>	蜡	30,2
 	SatterthwaitePhillips-2011-423-406	133	WEAVE	406	236	weave	编织 [B = zhi (bu)]	342
 	SatterthwaitePhillips-2011-423-407	1065	SPIDER WEB	407	237	web>>	蜘蛛网	31,5
@@ -363,8 +363,8 @@ MERGER	ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	NUMBER	PAGENUMBER	ENGLISH	CHINESE	NUM
 	SatterthwaitePhillips-2011-423-43	1366	BOY	43	175	boy	男孩 [B = 男青年]	253
 	SatterthwaitePhillips-2011-423-44	1583	BRAIN	44	175	brain>>	脑子 [B= 脑髓]	119
 	SatterthwaitePhillips-2011-423-45	1531	BRANCH	45	175	branch	树枝	53
-8	SatterthwaitePhillips-2011-423-46	680	BREAK	46	176	break	弄坏 [B = pohuai]	317
-8	SatterthwaitePhillips-2011-423-47	680	BREAK	47	176	break （branch）	断（小枝）	361
+6	SatterthwaitePhillips-2011-423-46	680	BREAK	46	176	break	弄坏 [B = pohuai]	317
+6	SatterthwaitePhillips-2011-423-47	680	BREAK	47	176	break （branch）	断（小枝）	361
 	SatterthwaitePhillips-2011-423-48	1402	BREAST	48	176	breast	奶 [B = 乳房]	116
 	SatterthwaitePhillips-2011-423-49	1407	BREATHE	49	176	breathe	呼吸	242
 	SatterthwaitePhillips-2011-423-5	1894	ASHAMED	5	167	ashamed	惭愧	258

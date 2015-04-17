@@ -1,10 +1,10 @@
 MERGER	ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	NUMBER	HAUSA	ENGLISH
 	Kraft-1981-434-1	1493	ONE	1	ɗaya	one
 	Kraft-1981-434-10	1515	TEN	10	gōmà	ten
-3	Kraft-1981-434-100	133	WEAVE	100	sāƙā̀	weaving
+5	Kraft-1981-434-100	133	WEAVE	100	sāƙā̀	weaving
 	Kraft-1981-434-101	1001	BLACKSMITH	101	maƙḕrī	blacksmith
-7	Kraft-1981-434-102	288	FORGE	102	ƙīrā̀	smithing
-5	Kraft-1981-434-103	713	STEAL	103	sātā̀	stealing
+2	Kraft-1981-434-102	288	FORGE	102	ƙīrā̀	smithing
+4	Kraft-1981-434-103	713	STEAL	103	sātā̀	stealing
 	Kraft-1981-434-104	948	WATER	104	ruwā	water
 	Kraft-1981-434-105	1489	CLOUD	105	girgijḕ	cloud
 	Kraft-1981-434-106	666	RIVER	106	kṑgī	river
@@ -78,7 +78,7 @@ MERGER	ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	NUMBER	HAUSA	ENGLISH
 	Kraft-1981-434-168	456	GUINEA FOWL	168	zā̀bō	guinea fowl
 	Kraft-1981-434-169	1490	RAT	169	ɓērā	rat
 	Kraft-1981-434-17	1734	TWENTY ONE	17	àshìrin dà ɗaya	twenty one
-4	Kraft-1981-434-170	1208	CAT	170	mùzūrū	wild cat
+1	Kraft-1981-434-170	1208	CAT	170	mùzūrū	wild cat
 	Kraft-1981-434-171	632	LIZARD	171	ƙadangarḕ	lizard
 	Kraft-1981-434-172	730	SNAKE	172	macī̀jī	snake
 	Kraft-1981-434-173	1563	PYTHON	173	mēsā̀	python
@@ -109,7 +109,7 @@ MERGER	ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	NUMBER	HAUSA	ENGLISH
 	Kraft-1981-434-196	1514	HEN	196	kā̀zā	hen
 	Kraft-1981-434-197	1511	ROOSTER	197	zàkarā̀	rooster
 	Kraft-1981-434-198	2009	DOG	198	kàrē	dog
-4	Kraft-1981-434-199	1208	CAT	199	kyânwā	cat
+1	Kraft-1981-434-199	1208	CAT	199	kyânwā	cat
 	Kraft-1981-434-2	1498	TWO	2	biyu	two
 	Kraft-1981-434-20	1715	THIRTY	20	tàlā̀tin	thirty
 	Kraft-1981-434-200	937	BIRD	200	tsuntsū	bird
@@ -125,7 +125,7 @@ MERGER	ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	NUMBER	HAUSA	ENGLISH
 	Kraft-1981-434-21	1716	FORTY	21	àrbà'in	forty
 	Kraft-1981-434-210	132	SAUCE	210	miyā̀	sauce
 	Kraft-1981-434-211	1167	GRUEL	211	kùnū	gruel
-2	Kraft-1981-434-212	634	MEAT	212	nāmā̀	meat
+7	Kraft-1981-434-212	634	MEAT	212	nāmā̀	meat
 	Kraft-1981-434-213	227	FISH	213	kīfī	fish
 	Kraft-1981-434-214	1594	FLOUR	214	gā̀rī	flour
 	Kraft-1981-434-215	93	DRAW MILK	215	madarā	milk
@@ -147,8 +147,8 @@ MERGER	ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	NUMBER	HAUSA	ENGLISH
 	Kraft-1981-434-23	1718	SIXTY	23	sìttin	sixty
 	Kraft-1981-434-230	945	SPEAR	230	māshī̀	spear
 	Kraft-1981-434-231	1535	SWORD	231	takṑbī	sword
-1	Kraft-1981-434-232	195	MAT	232	tā̀barmā	mat (tabarma)
-1	Kraft-1981-434-233	195	MAT	233	zānā	mat (zana)
+3	Kraft-1981-434-232	195	MAT	232	tā̀barmā	mat (tabarma)
+3	Kraft-1981-434-233	195	MAT	233	zānā	mat (zana)
 	Kraft-1981-434-234	994	BOW	234	bàkā	bow
 	Kraft-1981-434-235	977	ARROW	235	kibiyā̀	arrow
 	Kraft-1981-434-236	52	SHIVER	236	kwàrī	quiver
@@ -317,7 +317,7 @@ MERGER	ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	NUMBER	HAUSA	ENGLISH
 	Kraft-1981-434-383	1755	UNDRESS	383	yā tūɓḕ (tufāfī̀)	undress
 	Kraft-1981-434-384	1568	ARRANGE	384	yā shiryā̀	arrange
 	Kraft-1981-434-385	602	HIDE, CONCEAL	385	yā ɓōyḕ	hide
-5	Kraft-1981-434-386	713	STEAL	386	yā sā̀tā	steal
+4	Kraft-1981-434-386	713	STEAL	386	yā sā̀tā	steal
 	Kraft-1981-434-387	1897	HELP	387	yā tàimàkē shì	help
 	Kraft-1981-434-388	1280	FALL	388	yā fāɗī̀	fall
 	Kraft-1981-434-389	1410	KNOW	389	yā sanī̀	know
@@ -348,7 +348,7 @@ MERGER	ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	NUMBER	HAUSA	ENGLISH
 	Kraft-1981-434-410	1494	DIE	410	yā mutù	die
 	Kraft-1981-434-411	1085	FOLLOW	411	yā bī shì	follow
 	Kraft-1981-434-412	1456	THROW	412	yā jēfā̀	throw
-7	Kraft-1981-434-413	288	FORGE	413	yā ƙērā̀	forge
+2	Kraft-1981-434-413	288	FORGE	413	yā ƙērā̀	forge
 	Kraft-1981-434-414	1041	INCREASE	414	yā ƙārā̀	increase
 	Kraft-1981-434-415	1766	FINISH	415	yā gāmā̀	finish
 	Kraft-1981-434-416	1806	BEGIN	416	yā sōmā̀	begin
@@ -365,7 +365,7 @@ MERGER	ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	NUMBER	HAUSA	ENGLISH
 	Kraft-1981-434-426	175	BLOW	426	yā hūrā̀	blow
 	Kraft-1981-434-427	28	MOISTEN	427	yā jiƙā̀ shi	moisten
 	Kraft-1981-434-428	694	GET	428	yā sāmù	obtain
-3	Kraft-1981-434-429	133	WEAVE	429	yā saƙā̀	weave
+5	Kraft-1981-434-429	133	WEAVE	429	yā saƙā̀	weave
 	Kraft-1981-434-43	1510	CHIN	43	haɓā̀	chin
 	Kraft-1981-434-430	1729	PLAIT/BRAID, WEAVE	430	tā kitsḕ	plait
 	Kraft-1981-434-431	680	BREAK	431	yā fashḕ	break in pieces
@@ -390,7 +390,7 @@ MERGER	ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	NUMBER	HAUSA	ENGLISH
 	Kraft-1981-434-58	1480	BODY	58	jìkī	body
 	Kraft-1981-434-59	291	PULL OF SKIN	59	fātā̀	skin
 	Kraft-1981-434-6	1703	SIX	6	shidà	six
-2	Kraft-1981-434-60	634	MEAT	60	nāmā̀	flesh
+7	Kraft-1981-434-60	634	MEAT	60	nāmā̀	flesh
 	Kraft-1981-434-61	834	BUTTOCKS	61	gìndī	buttocks
 	Kraft-1981-434-62	1935	ANUS	62	tsulìyā	anus
 	Kraft-1981-434-63	1222	PENIS	63	bùrā	penis
