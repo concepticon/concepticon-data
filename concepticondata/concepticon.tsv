@@ -458,7 +458,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 457	1542706	-	BLIND MAN	The body	Person who has a complete lack of form and visual light perception.	Person/Thing	-
 458	1542714	-	DEAF PERSON	The body	Person who is  partial or total unable to hear.	Person/Thing	-
 459	1542724	-	SNAPP OF STICK	Basic actions and technology	Quick breaking or cracking sound or the action of producing such a sound.	Action/Process	-
-460	1542733	-	BREAK OF ROPE	Basic actions and technology	the breaking of a thread or strap.	Action/Process	-
+460	1542733	-	BREAK (OF ROPE)	Basic actions and technology	the breaking of a thread or strap.	Action/Process	-
 461	1543020	-	BOUBOU	Clothing and grooming	a flowing wide sleeved robe worn by men in much of West Africa, and to a lesser extent in North Africa.	Person/Thing	-
 462	1543026	-	WRAPPER	Clothing and grooming	a colorful women's garment widely worn in West Africa.	Person/Thing	-
 463	1543589	-	FELL A TREE	Agriculture and vegetation	To knock somebody or cut something down, e.g. a tree.	Action/Process	-
@@ -634,7 +634,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 633	2276	-	MARKET	Possession	Place of commercial activity in which articles are bought and sold.	Person/Thing	11.85
 634	2300	-	MEAT	Food and drink	The edible flesh of animals, especially that of mammals.	Person/Thing	5.61
 635	2358	-	MILK FLUID	Food and drink	The whitish fluid secreted by the mammary gland for the nourishment of the young; composed of carbohydrates, proteins, fats, mineral salts, vitamins, and antibodies.	Person/Thing	5.86
-636	2359	-	MILL	Food and drink	A building where grain is crushed into flour.	Person/Thing	5.57
+636	2359	-	MILL	Food and drink	A mill is a device that breaks solid materials into smaller pieces by grinding, crushing, or cutting.	Person/Thing	5.57
 637	2413	-	MOSS	Agriculture and vegetation	Any plant of the class Bryophyta, occurring in nearly all damp habitats.	Person/Thing	-
 638	2414	-	MOTORCYCLE	Modern world	Single-track, two-wheeled motor vehicle.	Person/Thing	23135
 639	2421	-	MOUNTAIN	The physical world	A feature of the earth's surface that rises high above the base and has generally steep slopes and a relatively small summit area.	Person/Thing	1.22
@@ -678,7 +678,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 677	333200	-	AXE	Basic actions and technology	A tool for felling trees or chopping wood consisting of a heavy metallic head flattened to a blade on one side, and which is attached to a usually wooden handle.	Person/Thing	9.25
 678	333455	-	BEARD	The body	Facial hair of humans on the chin, cheeks and jaw.	Person/Thing	4142
 679	333539	-	BRIGHT	Sense perception	Visually dazzling.	Property	15.57
-680	333586	480489;480496	BREAK	Basic actions and technology	To end up in two or more pieces, which can't easily be reassembled.	Action/Process	9.26
+680	333586	480489;480496	BREAK (GET DESTROYED)	Basic actions and technology	To end up in two or more pieces, which can't easily be reassembled.	Action/Process	9.26
 681	333618	-	DESTROY	Possession	To damage beyond use or repair.	Action/Process	11.27
 682	333652	-	SIDE	Spatial relations	One side of a leaf of a book or manuscript.	Person/Thing	12.36
 683	333730	2234	PERSON	Kinship	A human being.	Person/Thing	2.1
@@ -2023,126 +2023,144 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 2022	992946	439423	ADMIT	Speech and language	To admit to be true.	Action/Process	18.33
 2023	993922	-	CROWD	Quantity	A large group of people.	Person/Thing	13.19
 2024	996296	-	PLOT	Social and political relations	Agreement on a secret plot.	Person/Thing	19.63
-2025	726623	-	PEA	Food and drink	An annual plant originally from the Mediterranean basin and the Near East.	Person/Thing	-
-2026	3263	-	RICE PLANT	Agriculture and vegetation	An erect grass, Oryza sativa, that grows in East Asia on wet ground and has drooping flower spikes and yellow oblong edible grains that become white when polished.	Person/Thing	-
-2027	1194285	-	SOYA	Agriculture and vegetation	An annual plant native to East Asia that is widely cultivated for its fruit.	Person/Thing	-
-2028	1194332	-	SOYA BEAN	Food	The edible seed of the soybean plant which contains a lot of protein.	Person/Thing	-
-2029	6084	-	TUG	Basic actions and technology	A great force, applied in order that an object will move towards the origin of the force that was applied to it.	Action/Process	-
-2030	1496239	-	DRAG	Basic actions and technology	To draw slowly or heavily.	Action/Process	-
-2031	1443493	-	PUT OUT TO PASTURE	Agriculture and vegetation	To put livestock into a field or pasture or meadow to graze.	Action/Process	-
-2032	542675	-	WARM UP	Basic actions and technology	To make warm or warmer.	Action/Process	-
-2033	963547	-	DELIVER	Basic actions and technology	To bring or transport something to its destination.	Action/Process	-
-2034	1571		FROST		A deposit of interlocking ice crystals formed by direct sublimation on objects. (Source: MGH)		-
-2035	2925		POND		A natural body of standing fresh water occupying a small surface depression, usually smaller than a lake and larger than a pool.		-
-2036			JANUARY		The first month of the Gregorian calendar, having 31 days.		-
-2037	6972		FEBRUARY		The second month of the Gregorian calendar, having 29 days in a leap year and 28 in other years.		-
-2038	463788		DRAGON		A mythical creature typically depicted as a large horned serpent (Asia) or a winged, fire-breathing reptile (Europe), with magical or spiritual qualities.		-
-2039	1187719		MAGPIE		One of several kinds of bird in the family Corvidae, especially Pica pica.		-
-2040	398192		BUCKWHEAT		(Fagopyrum esculentum) An annual plant with clusters of small pinkish white flowers and small edible triangular seeds which are used whole or ground into flour.		-
-2041	508200		HEMP		A tall annual herb, Cannabis sativa, native to Asia.		-
-2042	747141		WALNUT		Large deciduous tree (Juglans regia) in the Walnut Family (Juglandaceae) which produces an edible fruit with a hard shell and oil-rich seed.		-
-2043	5620		PEACH		The soft, sweet, juicy fruit of the peach tree, usually with a red or orange skin, yellow flesh and a large stone inside.		-
-2044	1143238		PERSIMMON		Edible fruit of a number of species of trees of the genus Diospyros in the ebony wood family.		-
-2045	871066		COLUMN		An upright supporting beam.		-
-2046	812914		APRON		A piece of cloth, plastic, worn over the front of the clothes for protection against dirt.		-
-2047	1383890		STRAW SANDAL		An open type of outdoor footwear leaving most of the upper part of the foot exposed, particularly the toes.		-
-2048	1564226		QUILT		To stitch or sew together.		-
-2049			CONGEE		A type of rice porridge or gruel popular in many Asian countries		-
-2050	1527467		ALCOHOL (DRINK)		A drink (a liquor or brew) containing ethanol, commonly known as alcohol.		-
-2051			DUSTPAN		A cleaning utensil, commonly used in combination with a broom or brush.		-
-2052			BUCKET		Typically a watertight, vertical cylinder or truncated cone, with an open top and a flat bottom, attached to a semicircular carrying handle called the bail.		-
-2053			SMALL BOWL		A small utensil for eating fluid food.		-
-2054	6258		CHOPSTICK		A utensil in the form of a narrow stick used in pairs in China, Japan, Korea, and Vietnam to eat food.		-
-2055			CLAY POT		A container for food and other things made from clay.		-
-2056			WOK		A versatile round-bottomed cooking vessel, originated from China.		-
-2057	1275135		ANIMAL FAECES,DUNG		Animal faeces.		-
-2058	428644		STOOL		A chair without back and arm rests.		-
-2059			FOLK SONG		A traditional piece of music with words to sing.		-
-2060	154518		STORY		A retelling of real or fictive events.		-
-2061	1474272		BUDDHA		One who has purified obscurations (སངས) and developed pristine cognition (རྒྱས).		-
-2062	1980		INTEREST		A sum paid or charged for the use of money or for borrowing money over a given time period.		-
-2063			CLOSE (EYES)		Move ones eyes in such a way that they are no longer visible.		-
-2064			SCATTER (SEEDS)		To distribute seeds over a field.		-
-2065	1511017		STEP (VERB)		To move the foot in walking; to advance or recede by raising and moving one of the feet to another resting place, or by moving both feet in succession.		-
-2066			PULL UP (RICE SEEDLINGS)		NONE		-
-2067	154664		STEAM (VERB)		A method of cooking using steam.		-
-2068	941423		BRAISE (VERB)		A method of cooking using steam that avoids overcooking or burning food.		-
-2069			SOAK (VERB)		A combination-cooking method that uses both moist and dry heats		-
-2070	1477842		COMB (VERB)		To groom the hair with a comb or a similar object.		-
-2071	1468496		LAY (VERB)		To place down in a position of rest, or in a horizontal position.		-
-2072	7619		USE (VERB)		To employ an object, often to reach a certain goal; to put into service.		-
-2073	350286		ROB (VERB)		To illegally take something from, especially using force or violence.		-
-2074	1240308		CROW (VERB)		To utter the characteristic cry of a rooster.		-
-2075	1463646		BROOD (VERB)		To keep an egg warm to make it hatch.		-
-2076			SPROUT (VERB)		The process by which a plant grows from a seed.		-
-2077	630824		DILIGENT		Being busy-working.		-
-2078	462623		TEN THOUSAND		Ten to the power of four.		-
-2079			CUNNING PERSON		A smart and witty person.		-
-2080			BOWL (CLASSIFIER)	Quantity	classifier for bowl-like objects	Classifier	-
-2081			CHICKEN (CLASSIFIER)	Quantity	classifier for bird-like animals	Classifier	-
-2082			KNIFE (CLASSIFIER)	Quantity	classifier for knife-like objects	Classifier	-
-2083			AXE (CLASSIFIER)	Quantity	classifier for axe-like objects	Classifier	-
-2084			ROPE (CLASSIFIER)	Quantity	classifier for rope-like objects	Classifier	-
-2085			STICK (CLASSIFIER)	Quantity	classifier for stick-like objects	Classifier	-
-2086			GRAIN (CLASSIFIER)	Quantity	classifier for tiny objects, like rice	Classifier	-
-2087			DROP (CLASSIFIER)	Quantity	classifier for small units of liquid, like water	Classifier	-
-2088			CLOTHING (CLASSIFIER)	Quantity	classifier for things that one wears	Classifier	-
-2089			PAIR (CLASSIFIER)	Quantity	classifier for objects that occur in pairs	Classifier	-
-2090	5504		MY		Belonging to me.		-
-2091			YOUR		belonging to the second person that is addressed by the first person		-
-2092			HIS OR HER		belonging to the third person that is addressed		-
-2093	763970		AFTERWARDS		Later or after something else has happened or happens.		-
-2094			DOWN OR BELOW		Moving from a higher position to a lower one, or being at a lower position.		
-2095			FAT OR GREASE		Soft liquid retrieved from animals or plant and used for cooking.		5791
-2096			MEAT OR ANIMAL		Any living organism that is characterized by voluntary movement, be it alive or ready prepared to be eaten.		
-2097			NOW OR TODAY		On the current day or in the current moment.		
-2098			LEG OR FOOT		Lower part of the human body which is used for walking.		
-2099			CHILD		A young human or the descendant of a human.		
-2100			THATCH OR ROOF		The cover of a house or a hut.		
-2101			DIE OR BE DEAD		To cease or have ceased to live.		
-2102			BURN		To put fire on something or to be on fire.		
-2103			PAINFUL OR SICK		To cause pain or to be ill.		
-2104			HOLD OR TAKE		To grasp something or to carry something in ones hands.		
-2105			FEMALE PERSON		A human belonging to the female sex.		
-2106			MALE PERSON		A human belonging to the male sex.		
-2107			HAIR OR FOREHEAD		The head hear or the forehead of a person.		
-2108			RAINING OR RAIN		The process by which water falls from the clouds.		
-2109			FEAR OR FRIGHTEN		To be scared or to scare someone.		
-2110			WARM OF WEATHER		Having a pleasant temparture (of weather).		
-2111			YOU TWO		Addressing two persons (second person dual).		
-2112			AGED		To be old (of persons).		
-2113			USED		To be old (of things).		
-2114			BELLY OR STOMACH		The lower part of the front of the torso, including the interior part below.		
-2115			CEASE OR FINISH		To stop doing something, voluntarily or involuntarily.		
-2116			REST OR SLEEP		Lie down or sleep.		
-2117			DESIRE		To have affection for someone or to want to do something.		
-2118			MOUNTAIN OR HILL		A small or big rise in the surface of the earth.		
-2119			BOW STRING		The string of a bow used to hunt.		
-2120			FINGER OR TOE		Limb of the human body found in the hands and foots of humans and primates.		
-2121			ARM OR HAND		Extremities emerging from the upper part of the human body.		
-2122			MOUNTAIN FOOT		Lower part in front of a mountain, before the mountain begins.		
-2123			MOUNTAIN RIDGE		A geological feature consisting of a chain of mountains or hills that form a continuous elevated crest for some distance		
-2124			SMELL		Perceive or emit odour.		
-2125			STONE OR ROCK		A naturally occurring solid aggregate of one or more minerals or mineraloids.		
-2126			EAR OR HEAR		Either the organ with which one perceives noise, or the action of perceiving noise.		
-2127			SKIN OR BARK		Cover of the bodies of animals and plants.		
-2128			NAIL OR CLAW		The hard, keratin part growing at the feet of animals or the hands and legs of humans.		
-2129			BREAST OR MILK		Either the organ of females which gives nourishing substance for newborns, or the substance itself.		
-2130			HEADGEAR		Any element of clothing which is worn on one's head.		
-2131			TORCH OR LAMP		Any portable device that produces light.		
-2132			SICKLE OR SCYTHE		Any portable tool that is used to cut grass or cereal crops in agriculture.		
-2133			STRIKE OR BEAT		To strike repeatedly, usually with bare hands and directed towards another person.		
-2134			RAISE (A CHILD)		To take care of an infant or some other living creature, usually until it can live indepentendly.		
-2135			TRADE OR BARTER		To exchange goods with or without exchanging money.		
-2136			BRASS INSTRUMENT (HORN OR TRUMPET)		Any musical instrument that is a member of the brass family of musical instruments, usually a horn or a trumpet.		
-2137			MAGICIAN		A perspon who practices magic.		
-2138			LEGENDARY CREATURE		A human or an animal described in non-historical or yet to be verified stories that sometimes involve the supernatural.		
-2139			MUROID (MOUSE OR RAT)		A large superfamily of rodents, including hamsters, gerbils, true mice and rats, and many other relatives.		
-2140			SUN OR DAY		Either the bright object at the sky that illuminates the earth completely, or the time when the object illuminates the earth.		
-2141			TREE OR WOOD		Either any  perennial plant with an elongated stem, or trunk, supporting branches and leaves, or the porous and vibrous structural tissue of which the stems of these plants consist.		
-2142			RUN AWAY		Leave a dangerous situation by moving one's body away from it.		
-2143			LONG OR TALL		Having a vertical or a horizontal extent greater than the average.		
-2144			SPRING OR WELL		A natural or human-made source of fresh water.		
-2145			ROAST (DEVICE)		A device that is used to roast meat or vegetables.		
-2146			ROAST OR FRY		Preparing food by exposing it to open fire or to hot fat.		
-2147			WHO OR WHAT		Which person or which thing?		
+2025	726623	-	PEA	Food and drink	An annual plant originally from the Mediterranean basin and the Near East.	Person/Thing	
+2026	3263	-	RICE PLANT	Agriculture and vegetation	An erect grass, Oryza sativa, that grows in East Asia on wet ground and has drooping flower spikes and yellow oblong edible grains that become white when polished.	Person/Thing	
+2027	1194285	-	SOYA	Agriculture and vegetation	An annual plant native to East Asia that is widely cultivated for its fruit.	Person/Thing	
+2028	1194332	-	SOYA BEAN	Food	The edible seed of the soybean plant which contains a lot of protein.	Person/Thing	
+2029	6084	-	TUG	Basic actions and technology	A great force, applied in order that an object will move towards the origin of the force that was applied to it.	Action/Process	
+2030	1496239	-	DRAG	Basic actions and technology	To draw slowly or heavily.	Action/Process	
+2031	1443493	-	PUT OUT TO PASTURE	Agriculture and vegetation	To put livestock into a field or pasture or meadow to graze.	Action/Process	
+2032	542675	-	WARM UP	Basic actions and technology	To make warm or warmer.	Action/Process	
+2033	963547	-	DELIVER	Basic actions and technology	To bring or transport something to its destination.	Action/Process	
+2034	1571		FROST	Sense perception	A deposit of interlocking ice crystals formed by direct sublimation on objects. (Source: MGH)	Person/Thing	
+2035	2925		POND	The physical world	A natural body of standing fresh water occupying a small surface depression, usually smaller than a lake and larger than a pool.	Person/Thing	
+2036			JANUARY	Time	The first month of the Gregorian calendar, having 31 days.	Person/Thing	
+2037	6972		FEBRUARY	Time	The second month of the Gregorian calendar, having 29 days in a leap year and 28 in other years.	Person/Thing	
+2038	463788		DRAGON	Animals	A mythical creature typically depicted as a large horned serpent (Asia) or a winged, fire-breathing reptile (Europe), with magical or spiritual qualities.	Person/Thing	
+2039	1187719		MAGPIE	Animals	One of several kinds of bird in the family Corvidae, especially Pica pica.	Person/Thing	
+2040	398192		BUCKWHEAT	Agriculture and vegetation	(Fagopyrum esculentum) An annual plant with clusters of small pinkish white flowers and small edible triangular seeds which are used whole or ground into flour.	Person/Thing	
+2041	508200		HEMP	Agriculture and vegetation	A tall annual herb, Cannabis sativa, native to Asia.	Person/Thing	
+2042	747141		WALNUT	Agriculture and vegetation	Large deciduous tree (Juglans regia) in the Walnut Family (Juglandaceae) which produces an edible fruit with a hard shell and oil-rich seed.	Person/Thing	
+2043	5620		PEACH	Agriculture and vegetation	The soft, sweet, juicy fruit of the peach tree, usually with a red or orange skin, yellow flesh and a large stone inside.	Person/Thing	
+2044	1143238		PERSIMMON	Agriculture and vegetation	Edible fruit of a number of species of trees of the genus Diospyros in the ebony wood family.	Person/Thing	
+2045	871066		COLUMN	The house	An upright supporting beam.	Person/Thing	
+2046	812914		APRON	Clothing and grooming	A piece of cloth, plastic, worn over the front of the clothes for protection against dirt.	Person/Thing	
+2047	1383890		STRAW SANDAL	Clothing and grooming	An open type of outdoor footwear leaving most of the upper part of the foot exposed, particularly the toes.	Person/Thing	
+2048	1564226		QUILT	Clothing and grooming	To stitch or sew together.	Person/Thing	
+2049			CONGEE	Food and drink	A type of rice porridge or gruel popular in many Asian countries	Person/Thing	
+2050	1527467		ALCOHOL (DRINK)	Food and drink	A drink (a liquor or brew) containing ethanol, commonly known as alcohol.	Person/Thing	
+2051			DUSTPAN	Basic actions and technology	A cleaning utensil, commonly used in combination with a broom or brush.	Person/Thing	
+2052			BUCKET	Basic actions and technology	Typically a watertight, vertical cylinder or truncated cone, with an open top and a flat bottom, attached to a semicircular carrying handle called the bail.	Person/Thing	
+2053			SMALL BOWL	Food and drink	A small utensil for eating fluid food.	Person/Thing	
+2054	6258		CHOPSTICK	Food and drink	A utensil in the form of a narrow stick used in pairs in China, Japan, Korea, and Vietnam to eat food.	Person/Thing	
+2055			CLAY POT	Food and drink	A container for food and other things made from clay.	Person/Thing	
+2056			WOK	Food and Drink	A versatile round-bottomed cooking vessel, originated from China.	Person/Thing	
+2057	1275135		DUNG (ANIMAL FAECES)	Animals	Animal faeces.	Person/Thing	
+2058	428644		STOOL	The house	A chair without back and arm rests.	Person/Thing	
+2059			FOLK SONG	Speech and language	A traditional piece of music with words to sing.	Person/Thing	
+2060	154518		STORY	Speech and language	A retelling of real or fictive events.	Person/Thing	
+2061	1474272		BUDDHA	Religion and belief	One who has purified obscurations (སངས) and developed pristine cognition (རྒྱས).	Person/Thing	
+2062	1980		INTEREST	Possession	A sum paid or charged for the use of money or for borrowing money over a given time period.	Person/Thing	
+2063			CLOSE (EYES)	Basic actions and technology	Move ones eyes in such a way that they are no longer visible.	Action/Process	
+2064			SCATTER (SEEDS)	Basic actions and technology	To distribute seeds over a field.	Action/Process	
+2065	1511017		STEP (VERB)	Basic actions and technology	To move the foot in walking; to advance or recede by raising and moving one of the feet to another resting place, or by moving both feet in succession.	Action/Process	
+2066			PULL UP (RICE SEEDLINGS)	Basic actions and technology		Action/Process	
+2067	154664		STEAM (VERB)	Food and drink	A method of cooking using steam.	Action/Process	
+2068	941423		BRAISE (VERB)	Food and drink	A method of cooking using steam that avoids overcooking or burning food.	Action/Process	
+2069			SOAK (VERB)	Food and drink	A combination-cooking method that uses both moist and dry heats	Action/Process	
+2070	1477842		COMB (VERB)	Clothing and grooming	To groom the hair with a comb or a similar object.	Action/Process	
+2071	1468496		LAY (VERB)	Basic actions and technology	To place down in a position of rest, or in a horizontal position.	Action/Process	
+2072	7619		USE (VERB)	Basic actions and technology	To employ an object, often to reach a certain goal; to put into service.	Action/Process	
+2073	350286		ROB (VERB)	Basic actions and technology	To illegally take something from, especially using force or violence.	Action/Process	
+2074	1240308		CROW (VERB)	Basic actions and technology	To utter the characteristic cry of a rooster.	Action/Process	
+2075	1463646		BROOD (VERB)	Basic actions and technology	To keep an egg warm to make it hatch.	Action/Process	
+2076			SPROUT (VERB)	Basic actions and technology	The process by which a plant grows from a seed.	Action/Process	
+2077	630824		DILIGENT	Emotions and values	Being busy-working.	Person/Thing	
+2078	462623		TEN THOUSAND	Quantity	Ten to the power of four.	Person/Thing	
+2079			CUNNING PERSON	Emotions and values	A smart and witty person.	Person/Thing	
+2080			BOWL (CLASSIFIER)	Quantity	classifier for bowl-like objects	Classifier	
+2081			CHICKEN (CLASSIFIER)	Quantity	classifier for bird-like animals	Classifier	
+2082			KNIFE (CLASSIFIER)	Quantity	classifier for knife-like objects	Classifier	
+2083			AXE (CLASSIFIER)	Quantity	classifier for axe-like objects	Classifier	
+2084			ROPE (CLASSIFIER)	Quantity	classifier for rope-like objects	Classifier	
+2085			STICK (CLASSIFIER)	Quantity	classifier for stick-like objects	Classifier	
+2086			GRAIN (CLASSIFIER)	Quantity	classifier for tiny objects, like rice	Classifier	
+2087			DROP (CLASSIFIER)	Quantity	classifier for small units of liquid, like water	Classifier	
+2088			CLOTHING (CLASSIFIER)	Quantity	classifier for things that one wears	Classifier	
+2089			PAIR (CLASSIFIER)	Quantity	classifier for objects that occur in pairs	Classifier	
+2090	5504		MY	Possession	Belonging to me.	Other	
+2091			YOUR	Possession	belonging to the second person that is addressed by the first person	Other	
+2092			HIS OR HER	Possession	belonging to the third person that is addressed	Other	
+2093	763970		AFTERWARDS	Time	Later or after something else has happened or happens.	Other	
+2094			DOWN OR BELOW	Spatial relations	Moving from a higher position to a lower one, or being at a lower position.	Other	
+2095			FAT OR GREASE	Food and drink	Soft liquid retrieved from animals or plant and used for cooking.	Person/Thing	5791
+2096			MEAT OR ANIMAL	Food and drink	Any living organism that is characterized by voluntary movement, be it alive or ready prepared to be eaten.	Person/Thing	
+2097			NOW OR TODAY	Time	On the current day or in the current moment.	Other	
+2098			LEG OR FOOT	The body	Lower part of the human body which is used for walking.	Person/Thing	
+2099			CHILD	Kinship	A young human or the descendant of a human.	Person/Thing	
+2100			THATCH OR ROOF	The house	The cover of a house or a hut.	Person/Thing	
+2101			DIE OR BE DEAD	Time	To cease or have ceased to live.	Action/Process	
+2102			BURN	Basic actions and technology	To put fire on something or to be on fire.	Action/Process	
+2103			PAINFUL OR SICK	Emotions and values	To cause pain or to be ill.	Other	
+2104			HOLD OR TAKE	Basic actions and technology	To grasp something or to carry something in ones hands.	Action/Process	
+2105			FEMALE PERSON	Kinship	A human belonging to the female sex.	Person/Thing	
+2106			MALE PERSON	Kinship	A human belonging to the male sex.	Person/Thing	
+2107			HAIR OR FOREHEAD	The body	The head hear or the forehead of a person.	Person/Thing	
+2108			RAINING OR RAIN	The physical world	The process by which water falls from the clouds.	Person/Thing	
+2109			FEAR OR FRIGHTEN	Emotions and values	To be scared or to scare someone.	Action/Process	
+2110			WARM OF WEATHER	The physical world	Having a pleasant temparture (of weather).	Other	
+2111			YOU TWO	Kinship	Addressing two persons (second person dual).	Other	
+2112			OLD OR AGED	Time	To be old (of persons).	Other	
+2113			OLD OR USED	Time	To be old (of things).	Other	
+2114			BELLY OR STOMACH	The body	The lower part of the front of the torso, including the interior part below.	Person/Thing	
+2115			CEASE OR FINISH	Basic actions and technology	To stop doing something, voluntarily or involuntarily.	Action/Process	
+2116			REST OR SLEEP	Basic actions and technology	Lie down or sleep.	Action/Process	
+2117			DESIRE	Emotions and values	To have affection for someone or to want to do something.	Action/Process	
+2118			MOUNTAIN OR HILL	The physical world	A small or big rise in the surface of the earth.	Person/Thing	
+2119			BOW STRING	Basic actions and technology	The string of a bow used to hunt.	Person/Thing	
+2120			FINGER OR TOE	The body	Limb of the human body found in the hands and foots of humans and primates.	Person/Thing	
+2121			ARM OR HAND	The body	Extremities emerging from the upper part of the human body.	Person/Thing	
+2122			MOUNTAIN FOOT	The physical world	Lower part in front of a mountain, before the mountain begins.	Person/Thing	
+2123			MOUNTAIN RIDGE	The physical world	A geological feature consisting of a chain of mountains or hills that form a continuous elevated crest for some distance	Person/Thing	
+2124			SMELL	Sense perception	Perceive or emit odour.	Action/Process	
+2125			STONE OR ROCK	The physical world	A naturally occurring solid aggregate of one or more minerals or mineraloids.	Person/Thing	
+2126			EAR OR HEAR	The body	Either the organ with which one perceives noise, or the action of perceiving noise.	Person/Thing	
+2127			SKIN OR BARK	The body	Cover of the bodies of animals and plants.	Person/Thing	
+2128			NAIL OR CLAW	The body	The hard, keratin part growing at the feet of animals or the hands and legs of humans.	Person/Thing	
+2129			BREAST OR MILK	The body	Either the organ of females which gives nourishing substance for newborns, or the substance itself.	Person/Thing	
+2130			HEADGEAR	Clothing and grooming	Any element of clothing which is worn on one's head.	Person/Thing	
+2131			TORCH OR LAMP	Basic actions and technology	Any portable device that produces light.	Person/Thing	
+2132			SICKLE OR SCYTHE	Basic actions and technology	Any portable tool that is used to cut grass or cereal crops in agriculture.	Person/Thing	
+2133			STRIKE OR BEAT	Basic actions and technology	To strike repeatedly, usually with bare hands and directed towards another person.	Action/Process	
+2134			RAISE (A CHILD)	Basic actions and technology	To take care of an infant or some other living creature, usually until it can live indepentendly.	Action/Process	
+2135			TRADE OR BARTER	Possession	To exchange goods with or without exchanging money.	Action/Process	
+2136			BRASS INSTRUMENT (HORN OR TRUMPET)	Speech and language	Any musical instrument that is a member of the brass family of musical instruments, usually a horn or a trumpet.	Person/Thing	
+2137			MAGICIAN	Religion and belief	A perspon who practices magic.	Person/Thing	
+2138			LEGENDARY CREATURE	Religion and belief	A human or an animal described in non-historical or yet to be verified stories that sometimes involve the supernatural.	Person/Thing	
+2139			MUROID (MOUSE OR RAT)	Animals	A large superfamily of rodents, including hamsters, gerbils, true mice and rats, and many other relatives.	Person/Thing	
+2140			SUN OR DAY	The physical world	Either the bright object at the sky that illuminates the earth completely, or the time when the object illuminates the earth.	Person/Thing	
+2141			TREE OR WOOD	Agriculture and vegetation	Either any  perennial plant with an elongated stem, or trunk, supporting branches and leaves, or the porous and vibrous structural tissue of which the stems of these plants consist.	Person/Thing	
+2142			RUN AWAY	Basic actions and technology	Leave a dangerous situation by moving one's body away from it.	Action/Process	
+2143			LONG OR TALL	Spatial relations	Having a vertical or a horizontal extent greater than the average.	Other	
+2144			SPRING OR WELL	The physical world	A natural or human-made source of fresh water.	Person/Thing	
+2145			ROAST (DEVICE)	Food and drink	A device that is used to roast meat or vegetables.	Person/Thing	
+2146			ROAST OR FRY	Food and drink	Preparing food by exposing it to open fire or to hot fat.	Action/Process	
+2147			WHO OR WHAT	Cognitions	What person or which thing.	Other	
+2148			PICK	Basic actions and technology	To take off the fruits or other useful parts of a plant.	Action/Process	
+2149			CHOP (INTO PIECES)	Basic actions and technology	To use a knife or a similar tool to cut something into small pieces.	Action/Process	
+2150			MATTER	Possession	That which is considered to exist as a separate physical entity.	Person/Thing	
+2151			COARSE	Spatial relations	Unrefined with reference to material.	Property	
+2152			THERE IS OR THERE ARE	Miscelleneous function words	Existing from the perspective of the speaker.	Action/Process	
+2153			CARRY PERSON ON BACK	Motion	To hold or take some person fron one place to another on the back.	Action/Process	
+2154	844804		PLOUGH (INSTRUMENT)	Agriculture and vegetation	An agricultural device pulled through the ground in order to break it open into furrows for planting.	Person/Thing	
+2155			CUT (WITH SCISSORS)	Basic actions and technology	To divide into pieces with help of scissors, especially things like a rope, a piece of cloth, or a piece of paper.	Action/Process	
+2156			CUT (WITH KNIFE)	Basic actions and technology	To slice or to divide into pieces with help of a knife or a knifelike object.	Action/Process	
+2157			FINE OR THIN	Spatial relations	Of a substance: divided into or consisting of very small pieces.	Property	
+2158			EARTH (WET SUBSTANCE)	The physical world	The soft and loose material forming a great part of the Earth surface in wet form.	Person/Thing	
+2159			GROUND	The physical world	The top layer of the earth.	Person/Thing	
+2160			BAMBOO HAT	Clothing and grooming	A hat made of bamboo (斗笠 dǒulì).	Person/Thing	
+2161			HEMP CLOTH	Clothing and grooming	A woven fabric such as used in dressing, decorating, cleaning or other practical use which is made from hemp.	Person/Thing	
+2162			STIR FRY	Food and drink	Stir frying (Chinese: 炒; pinyin: chǎo) is a Chinese cooking technique in which ingredients are fried in a small amount of very hot oil while being stirred in a wok.	Action/Process	
+2163			MARRY (AS WOMAN)	Kinship	To enter marriage from the perspective of a woman.	Action/Process	
+2164			MARRY (AS MAN)	Kinship	To enter marriage from the perspective of a man.	Action/Process	
+2165			SLOWLY	Motion	With low speed.	Other	
