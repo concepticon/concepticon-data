@@ -19,7 +19,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 18	1048124	-	EARLOBE	The body	The lower fleshy part of the human ear.	Person/Thing	4221
 19	1048155	-	FISHING LINE	Warfare and hunting	A line intended to fasten hooks in when fishing.	Person/Thing	20.53
 20	1050369	-	SCYTHE	Agriculture and vegetation	A farm tool consisting of a long bent blade attached to a shaft, that is designed for cutting straws of grass or grain from an upright position.	Person/Thing	8.33
-21	1051228	-	TASTE	Sense perception	To try the flavor or quality of something.	Action/Process	15.31
+21	1051228	-	TASTE (SOMETHING)	Sense perception	To try the flavor or quality of something.	Action/Process	15.31
 22	1053143	-	INTEND	Cognition	To assign for a specific end, use, or purpose; to design or destine.	Action/Process	-
 23	1054188	-	RYE	Agriculture and vegetation	Biennial plant from the genus Secale of the family Poaceae, used as a cereal or for forage.	Person/Thing	8.45
 24	1056622	-	PRAY	Religion and belief	To address God or a higher being with praise, thanksgiving, confession or supplication.	Action/Process	22.17
@@ -455,9 +455,9 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 454	1542675	-	SHEA NUT TREE	Agriculture and vegetation	Tree of the Sapotaceae family,indigenous to Africa, commonly known as shea tree. The shea fruits are oil-rich seed from which shea butter is extracted.	Person/Thing	-
 455	1542685	-	MAHOGANY TREE	Agriculture and vegetation	A species of trees in the mahogany family Meliaceae, native to tropical Africa and Madagascar.	Person/Thing	-
 456	1542693	-	GUINEA FOWL	Animals	Bird of the family Phasianidae native to Africa.	Person/Thing	-
-457	1542706	-	BLIND MAN	The body	Person who has a complete lack of form and visual light perception.	Person/Thing	-
-458	1542714	-	DEAF PERSON	The body	Person who is  partial or total unable to hear.	Person/Thing	-
-459	1542724	-	SNAPP OF STICK	Basic actions and technology	Quick breaking or cracking sound or the action of producing such a sound.	Action/Process	-
+457	1542706	-	BLIND PERSON	Kinship	Person who has a complete lack of form and visual light perception.	Person/Thing	-
+458	1542714	-	DEAF PERSON	Kinship	Person who is  partial or total unable to hear.	Person/Thing	-
+459	1542724	-	SNAPP (OF STICK)	Basic actions and technology	Quick breaking or cracking sound or the action of producing such a sound.	Action/Process	-
 460	1542733	-	BREAK (OF ROPE)	Basic actions and technology	the breaking of a thread or strap.	Action/Process	-
 461	1543020	-	BOUBOU	Clothing and grooming	a flowing wide sleeved robe worn by men in much of West Africa, and to a lesser extent in North Africa.	Person/Thing	-
 462	1543026	-	WRAPPER	Clothing and grooming	a colorful women's garment widely worn in West Africa.	Person/Thing	-
@@ -581,7 +581,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 580	1590	-	FUR	Clothing and grooming	The hair-covered, dressed pelt of a mammal, used in the making of garments and as trimming or decoration.	Person/Thing	6.28
 581	159011	-	COME BACK	Motion	To go there where one was before.	Action/Process	10481
 582	159035	-	LEND	Possession	To put an item or resource at the disposal of another, with the requirement to have the same or its equivalent returned eventually.	Action/Process	11.61
-583	159058	-	KIND (1)	Emotions and values	Possessing charm and attractiveness.	Property	-
+583	159058	-	KIND OR POLITE	Emotions and values	Possessing charm and attractiveness.	Property	-
 584	159359	8175	DIFFICULT	Cognition	Not easy, which needs hard work, patience and effort.	Property	17.47
 585	159566	-	BOOT	Clothing and grooming	A shoe that covers part of the leg.	Person/Thing	6.52
 586	1601	-	GARDEN	Agriculture and vegetation	A piece of land next to a house where flowers and other plants are grown and which often has an area of grass.	Person/Thing	8.13
@@ -842,7 +842,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 841	358355	-	FISHING SPEAR	Warfare and hunting	A spearlike weapon with a barbed head used in hunting whales and large fish.	Person/Thing	-
 842	358484	-	LIQUOR	Food and drink	Alcoholic beverage containing more than 20 percent alcohol.	Person/Thing	-
 843	3588	-	SPIDER	Animals	Any predatory silk-producing arachnid of the order Araneae, having four pairs of legs and a rounded unsegmented body consisting of abdomen and cephalothorax.	Person/Thing	3818
-844	359363	-	KIND (2)	Cognition	A category of things distinguished by a common characteristic or quality.	Person/Thing	-
+844	359363	-	KIND (THING)	Cognition	A category of things distinguished by a common characteristic or quality.	Person/Thing	-
 845	359371	-	MURDER	Law	The intentional or premeditated killing of another person.	Person/Thing	21.42
 846	8437	-	TIGER	Animals	A large carnivorous animal (Panthera tigris) of the cat family indigenous to Asia.	Person/Thing	-
 847	359725	-	THIRSTY	Food and drink	Feeling the need to drink.	Property	-
@@ -1093,7 +1093,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1092	475239	-	HOPE	Emotions and values	To want something to happen.	Action/Process	16.63
 1093	475332	-	MIDDLE	Spatial relations	Being in the midway between the ends.	Person/Thing	12.37
 1094	475820	-	FASTEN	Basic actions and technology	Tighten and close, for example a belt.	Action/Process	-
-1095	476248	-	LET GO, SET FREE	Possession	To give freedom; to release from confinement or restraint.	Action/Process	11.34
+1095	476248	-	LET GO OR SET FREE	Possession	To give freedom; to release from confinement or restraint.	Action/Process	11.34
 1096	476597	-	SONG	Modern world	A musical piece with lyrics (or “words to sing”); prose that one can sing.	Person/Thing	23.64
 1097	478269	-	ABANDON	Motion	To give up control of, to surrender.	Person/Thing	-
 1098	478489	-	WEIGH	Possession	To determine the weight of an object.	Action/Process	11.92
@@ -1799,7 +1799,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1798	736459	-	GUNPOWDER	Warfare and hunting	An explosive in the form of a powder.	Person/Thing	-
 1799	736876	-	HYENA	Animals	A large carnivore of the family Hyaenidae, similar in appearance to a dog and native to Africa and Asia, best known for the sound resembling laughter that it makes when excited.	Person/Thing	-
 1800	740921	-	DANDELION	Agriculture and vegetation	A species of the genus Taraxacum, a large genus of flowering plants in the family Asteraceae.	Person/Thing	-
-1801	7413	-	CHILD DESCENDANT	Kinship	Biological offspring.	Person/Thing	2.43
+1801	7413	-	CHILD (DESCENDANT)	Kinship	Biological offspring.	Person/Thing	2.43
 1802	741510	-	SCREW	Modern world	A shaft with a helical groove or thread formed on its surface. Its main use is as a threaded fastener used to hold objects together	Person/Thing	23.55
 1803	741520	-	WOOD	The physical world	The substance making up the central part of the trunk and branches of a tree. Used as a material for construction, to manufacture various items, etc. or as fuel.	Person/Thing	1.43
 1804	7437	-	BOMB	Modern world	A device filled with explosives used for destroying things.	Person/Thing	23575
@@ -2073,7 +2073,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 2072	7619		USE (VERB)	Basic actions and technology	To employ an object, often to reach a certain goal; to put into service.	Action/Process	
 2073	350286		ROB (VERB)	Basic actions and technology	To illegally take something from, especially using force or violence.	Action/Process	
 2074	1240308		CROW (VERB)	Basic actions and technology	To utter the characteristic cry of a rooster.	Action/Process	
-2075	1463646		BROOD (VERB)	Basic actions and technology	To keep an egg warm to make it hatch.	Action/Process	
+2075	1463646		BROOD (VERB)	Animals	To keep an egg warm to make it hatch.	Action/Process	
 2076			SPROUT (VERB)	Basic actions and technology	The process by which a plant grows from a seed.	Action/Process	
 2077	630824		DILIGENT	Emotions and values	Being busy-working.	Person/Thing	
 2078	462623		TEN THOUSAND	Quantity	Ten to the power of four.	Person/Thing	
@@ -2187,3 +2187,54 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 2186			DRAGON BOAT FESTIVAL	Social and political relations	A traditional and statutory holiday originating in China.	Person/Thing	
 2187			MID-AUTUMN FESTIVAL	Social and political relations	A harvest festival celebrated by ethnic Chinese and Vietnamese peoples.	Person/Thing	
 2188			NEW YEAR'S EVE	Social and political relations	The last day of the year.	Person/Thing	
+2189			DUGOUT	Motion	A boat made from a hollowed tree trunk.	Person/Thing	
+2190			TASTE	Food and drink	The sensory impression of food or other substances on the tongue.	Person/Thing	
+2191			LOW (HEIGHT)	Spatial relations	 Having little relative height; not high or tall.	Property	
+2192			REJOICE	Emotions and values	To feel joyful; be delighted.	Action/Process	
+2193			CARP	Emotions and values	To complain or find fault in a petty or disagreeable way.	Action/Process	
+2194			FRONT (PART)	Spatial relations	The forward part or surface, as of a building.	Person/Thing	
+2195			FRESH (OF WATER)	Food and drink	Of water which was recently filled up or gathered from a source.	Property	
+2196			HORSETAIL	Animals	Tail of a horse.	Person/Thing	
+2197			BAD PERSON	Kinship	A person with an evil character.	Person/Thing	
+2198			LOCATION OF EMOTIONS	Religion and belief	The place where emotions are thought to be stored.	Person/Thing	
+2199			LOWER PART	Spatial relations	The bottom part of a surface, as of a building.	Person/Thing	
+2200			SNOUT	Animals	The protruding portion of an animal's face, consisting of its nose, mouth, and jaw.	Person/Thing	
+2201			LIGHT (SMELL OR TASTE)	Food and drink	Being not strong in smell or taste.	Property	
+2202			HIGH-RANKING	Social and political relations	Being at an elevated level in rank or importance.	Property	
+2203			RABID	The body	Suffering from rabies.	Property	
+2204			LEDGE	Spatial relations	A narrow shelflike rock projection on a cliff or mountain.	Person/Thing	
+2205			PEAK	Spatial relations	The highest or lowest point on a surface.	Person/Thing	
+2206			RABIES	The body	A viral disease that causes acute inflammation of the brain in humans and other warm-blooded animals.	Person/Thing	
+2207			CHATTERER	Kinship	A person who talks a lot.	Person/Thing	
+2208			BE AT WAR	Warfare and hunting	To be in the state of beligerence.	Action/Process	
+2209			BECOME EXTINGUISHED	Basic actions and technology	Being stopped from burning or emitting light.	Action/Process	
+2210			BECOME PREPARED (OF FOOD)	Food and drink	(Of food) being prepared and then ready to be eaten.	Action/Process	
+2211			CLOSE THE EYES	Motion	To shut down the eyes such that one cannot see anything anymore.	Action/Process	
+2212			ARRIVE (OF AN EVENT)	Time	The process by which an event (day, night, etc.) arrives.	Action/Process	
+2213			BODY PART	The body	 Part of a human body or an animal body.	Person/Thing	
+2214			AFFAIR	Possession	That which is considered to exist as a separate quality or concept.	Person/Thing	
+2215			BECOME ANGRY	Emotions and values	To turn into an angry mental state.	Action/Process	
+2216			BECOME NUMB	Sense perception	Be caused not to be sensitive (usually of body parts).	Action/Process	
+2217			YOKE (VERB)	Motion	To put a yoke or a harness on animals.	Action/Process	
+2218			EXPERIENCED	Cognition	To have apprehended objects, thoughts, or emotions through senses and mind.	Property	
+2219			MEAGRE OR LEAN	The body	To be thin in an unhealthy way.	Property	
+2220			MOVE QUICKLY	Motion	To move forward in a fast way.	Action/Process	
+2221			NOMADIZE	Social and political relations	To lead a nomadic lifestyle.	Action/Process	
+2222			CONJURE	Religion and belief	To practice witchcraft or magic.	Action/Process	
+2223			BE ANGRY	Emotions and values	Be in an angry state.	Property	
+2224			BEND (SOMETHING)	Basic actions and technology	To carry out a movement to turn something into a curved shape.	Action/Process	
+2225			RECEIVE VISITORS	Social and political relations	To receive visitors.	Action/Process	
+2226			BRAVE PERSON	Kinship	A person with a brave character.	Person/Thing	
+2227			SPAWN (VERB)	Animals	The process by which aquatic animals produce eggs.	Action/Process	
+2228			GLARING	Sense perception	Shining intensely and brightly.	Property	
+2229			BECOME SOUR	Food and drink	To obtain an acid taste and become no longer edible.	Action/Process	
+2230			UNTAMED OR WILD	Animals	Not cultivated, domesticated or controlled by humans.	Property	
+2231			CORRECT (SOMETHING OR SOMEBODY)	Social and political relations	To right the errors of a person or a thing.	Action/Process	
+2232			KEEN OR SUBTLE	Sense perception	To be fine regarding one's senses.	Property	
+2233			LOVELY	Emotions and values	Beautiful especially in a pleasing or charming way.	Property	
+2234			FALL (SNOW, RAIN)	Motion	The process by which rain or snow descend from the clouds to the earth.	Action/Process	
+2235			CLEAN (SOMETHING)	Motion	To cause something to be no longer dirty.	Action/Process	
+2236			SHINE (EMITTED LIGHT)	The physical world	The emission of light on a surface.	Person/Thing	
+2237			FIND OUT	Cognition	To apprehend something involuntarily.	Action/Process	
+2238			KNOW OR BE ABLE	Cognition	To be able to do something which required that one would learn it before or which could require that one learns it before.	Action/Process	
+2239			DENSE	Spatial relations	To be thick, of liquids.	Property	
