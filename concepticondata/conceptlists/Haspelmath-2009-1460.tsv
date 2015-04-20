@@ -1,6 +1,6 @@
 ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	NUMBER	ENGLISH	WOLD_ID	URL	IDS_ID	DESCRIPTION	CONTEXT	CATEGORY	SEMANTIC_FIELD	AGE_SCORE	BORROWING_SCORE	SIMPLICITY_SCORE	REPRESENTATION
 Haspelmath-2009-1460-1	965	WORLD	1	the world	1-1	http://wold.clld.org/meaning/1-1	1.1	-	The Amazon is the longest river in the world.	Noun	1	0.836981132075	0.401886792453	0.858490566038	48
-Haspelmath-2009-1460-2	1228	EARTH, SOIL	2	the land	1-21	http://wold.clld.org/meaning/1-21	1.21	'the hard surface of the earth, when compared to the area covered by sea'	The captain sighted land in the distance.	Noun	1	0.899917355372	0.268285123967	0.939256198347	50
+Haspelmath-2009-1460-2	626	EARTH, SOIL	2	the land	1-21	http://wold.clld.org/meaning/1-21	1.21	'the hard surface of the earth, when compared to the area covered by sea'	The captain sighted land in the distance.	Noun	1	0.899917355372	0.268285123967	0.939256198347	50
 Haspelmath-2009-1460-3	1228	EARTH, SOIL	3	the soil	1-212	http://wold.clld.org/meaning/1-212	1.212	'the substance that plants naturally grow in'	The soil is pretty good in this area.	Noun	1	0.880993897123	0.0999346120314	0.95422842197	44
 Haspelmath-2009-1460-4	2	DUST	4	the dust	1-213	http://wold.clld.org/meaning/1-213	1.213	'dry powder consisting of extremely small bits of matter, found outside or inside buildings'	The house had not been cleaned and there was dust on the furniture.	Noun	1	0.894480519481	0.233766233766	0.931818181818	55
 Haspelmath-2009-1460-5	640	MUD	5	the mud	1-214	http://wold.clld.org/meaning/1-214	1.214	'wet earth that has become soft and sticky'	His shoes were covered with mud.	Noun	1	0.841059602649	0.153973509934	0.918046357616	53
@@ -65,7 +65,7 @@ Haspelmath-2009-1460-63	646	ASH	63	the ash	1-84	http://wold.clld.org/meaning/1-8
 Haspelmath-2009-1460-64	67	EMBERS	64	the embers	1-841	http://wold.clld.org/meaning/1-841	1.841	'pieces of wood or coal in a fire that are no longer burning but are still red and very hot'	-	Noun	1	0.801239669421	0.247933884298	0.82541322314	44
 Haspelmath-2009-1460-65	141	BURN SOMETHING	65	to burn(1)	1-851	http://wold.clld.org/meaning/1-851	1.851	'partially or fully destroy with fire'	She burnt all her ex-boyfriend's old letters.	Verb	1	0.885836909871	0.0997854077253	0.776824034335	47
 Haspelmath-2009-1460-66	1428	BURN	66	to burn(2)	1-852	http://wold.clld.org/meaning/1-852	1.852	'be on fire, be consumed by fire'	Our house is burning! Call the fire fighters!	Verb	1	0.850617283951	0.0493827160494	0.888888888889	44
-Haspelmath-2009-1460-67	141	BURN SOMETHING	67	to light	1-86	http://wold.clld.org/meaning/1-86	1.86	'make something burn'	She lit a match.	Verb	1	0.820207253886	0.0621761658031	0.768566493955	53
+Haspelmath-2009-1460-67	2258	BURN SOMETHING	67	to light	1-86	http://wold.clld.org/meaning/1-86	1.86	'make something burn'	She lit a match.	Verb	1	0.820207253886	0.0621761658031	0.768566493955	53
 Haspelmath-2009-1460-68	127	EXTINGUISH	68	to extinguish	1-861	http://wold.clld.org/meaning/1-861	1.861	-	The fire fighters extinguished the fire.	Verb	1	0.88834304746	0.147585345545	0.764779350541	45
 Haspelmath-2009-1460-69	1133	MATCH	69	the match	1-87	http://wold.clld.org/meaning/1-87	1.87	'a small wooden stick used to light a fire'	-	Noun	1	0.73828125	0.6689453125	0.873046875	52
 Haspelmath-2009-1460-70	10	FIREWOOD	70	the firewood	1-88	http://wold.clld.org/meaning/1-88	1.88	-	The boys collected firewood and built a bonfire.	Noun	1	0.890155189137	0.0491028128031	0.839961202716	42
@@ -73,8 +73,8 @@ Haspelmath-2009-1460-71	1188	CHARCOAL	71	the charcoal	1-89	http://wold.clld.org/
 Haspelmath-2009-1460-72	683	PERSON	72	the person	2-1	http://wold.clld.org/meaning/2-1	2.1	‘human being’	This table can be lifted by one person.	Noun	2	0.929927007299	0.32299270073	0.934306569343	51
 Haspelmath-2009-1460-73	1554	MAN	73	the man	2-21	http://wold.clld.org/meaning/2-21	2.21	(vs. woman)	The man had a long beard.	Noun	2	0.886310904872	0.0962877030162	0.880510440835	52
 Haspelmath-2009-1460-74	962	WOMAN	74	the woman	2-22	http://wold.clld.org/meaning/2-22	2.22	-	The woman wore a pretty dress.	Noun	2	0.823695345557	0.157498824636	0.890691114245	53
-Haspelmath-2009-1460-75	1553	MALE	75	male(1)	2-23	http://wold.clld.org/meaning/2-23	2.23	(of humans, cf. 3.12)	I have ten male and twelve female students.	Adjective	2	0.867862199151	0.189476168004	0.829872581406	44
-Haspelmath-2009-1460-76	1551	FEMALE	76	female(1)	2-24	http://wold.clld.org/meaning/2-24	2.24	(of humans, cf. 3.13)	I have ten male and twelve female students.	Adjective	2	0.855341738553	0.157597876576	0.847378898474	44
+Haspelmath-2009-1460-75	2263	MALE	75	male(1)	2-23	http://wold.clld.org/meaning/2-23	2.23	(of humans, cf. 3.12)	I have ten male and twelve female students.	Adjective	2	0.867862199151	0.189476168004	0.829872581406	44
+Haspelmath-2009-1460-76	2260	FEMALE	76	female(1)	2-24	http://wold.clld.org/meaning/2-24	2.24	(of humans, cf. 3.13)	I have ten male and twelve female students.	Adjective	2	0.855341738553	0.157597876576	0.847378898474	44
 Haspelmath-2009-1460-77	1366	BOY	77	the boy	2-25	http://wold.clld.org/meaning/2-25	2.25	-	One day this boy will grow to be a man.	Noun	2	0.864285714286	0.169642857143	0.738095238095	49
 Haspelmath-2009-1460-78	76	YOUNG MAN	78	the young man	2-251	http://wold.clld.org/meaning/2-251	2.251	-	The young man was not married.	Noun	2	0.865631067961	0.243203883495	0.739805825243	51
 Haspelmath-2009-1460-79	1646	GIRL	79	the girl	2-26	http://wold.clld.org/meaning/2-26	2.26	-	One day this girl will grow to be a woman.	Noun	2	0.879405034325	0.142448512586	0.762013729977	48
@@ -120,14 +120,14 @@ Haspelmath-2009-1460-118	1642	NIECE	118	the niece	2-54	http://wold.clld.org/mean
 Haspelmath-2009-1460-119	1643	COUSIN	119	the cousin	2-55	http://wold.clld.org/meaning/2-55	2.55	-	-	Noun	2	0.8009289746	0.124176857949	0.696025399812	76
 Haspelmath-2009-1460-120	1669	ANCESTORS	120	the ancestors	2-56	http://wold.clld.org/meaning/2-56	2.56	-	-	Noun	2	0.796202531646	0.278481012658	0.696202531646	43
 Haspelmath-2009-1460-121	490	DESCENDANTS	121	the descendants	2-57	http://wold.clld.org/meaning/2-57	2.57	-	-	Noun	2	0.824242424242	0.345454545455	0.70303030303	45
-Haspelmath-2009-1460-122	1055	FATHER-IN-LAW	122	the father-in-law (of a man)	2-61	http://wold.clld.org/meaning/2-61	2.61	-	-	Noun	2	0.831332684825	0.125486381323	0.734435797665	43
-Haspelmath-2009-1460-123	1055	FATHER-IN-LAW	123	the father-in-law (of a woman)	2-611	http://wold.clld.org/meaning/2-611	2.611	-	-	Noun	2	0.79216204781	0.169769409774	0.755658980326	42
-Haspelmath-2009-1460-124	1050	MOTHER-IN-LAW	124	the mother-in-law (of a man)	2-62	http://wold.clld.org/meaning/2-62	2.62	-	-	Noun	2	0.802355187778	0.121737746658	0.718332272438	44
-Haspelmath-2009-1460-125	1050	MOTHER-IN-LAW	125	the mother-in-law (of a woman)	2-621	http://wold.clld.org/meaning/2-621	2.621	-	-	Noun	2	0.829515706806	0.188972513089	0.752945026178	43
-Haspelmath-2009-1460-126	1056	SON-IN-LAW	126	the son-in-law (of a man)	2-63	http://wold.clld.org/meaning/2-63	2.63	-	-	Noun	2	0.84545228009	0.204086718166	0.847371044107	43
-Haspelmath-2009-1460-127	1056	SON-IN-LAW	127	the son-in-law (of a woman)	2-631	http://wold.clld.org/meaning/2-631	2.631	-	-	Noun	2	0.834233485667	0.218113834649	0.859437751004	41
-Haspelmath-2009-1460-128	1057	DAUGHTER-IN-LAW	128	the daughter-in-law (of a man)	2-64	http://wold.clld.org/meaning/2-64	2.64	-	-	Noun	2	0.854328112119	0.0939818631492	0.804204451772	42
-Haspelmath-2009-1460-129	1057	DAUGHTER-IN-LAW	129	the daughter-in-law (of a woman)	2-641	http://wold.clld.org/meaning/2-641	2.641	-	-	Noun	2	0.876485568761	0.108234295416	0.823853989813	41
+Haspelmath-2009-1460-122	2255	FATHER-IN-LAW	122	the father-in-law (of a man)	2-61	http://wold.clld.org/meaning/2-61	2.61	-	-	Noun	2	0.831332684825	0.125486381323	0.734435797665	43
+Haspelmath-2009-1460-123	2254	FATHER-IN-LAW	123	the father-in-law (of a woman)	2-611	http://wold.clld.org/meaning/2-611	2.611	-	-	Noun	2	0.79216204781	0.169769409774	0.755658980326	42
+Haspelmath-2009-1460-124	2256	MOTHER-IN-LAW	124	the mother-in-law (of a man)	2-62	http://wold.clld.org/meaning/2-62	2.62	-	-	Noun	2	0.802355187778	0.121737746658	0.718332272438	44
+Haspelmath-2009-1460-125	2257	MOTHER-IN-LAW	125	the mother-in-law (of a woman)	2-621	http://wold.clld.org/meaning/2-621	2.621	-	-	Noun	2	0.829515706806	0.188972513089	0.752945026178	43
+Haspelmath-2009-1460-126	2267	SON-IN-LAW	126	the son-in-law (of a man)	2-63	http://wold.clld.org/meaning/2-63	2.63	-	-	Noun	2	0.84545228009	0.204086718166	0.847371044107	43
+Haspelmath-2009-1460-127	2266	SON-IN-LAW	127	the son-in-law (of a woman)	2-631	http://wold.clld.org/meaning/2-631	2.631	-	-	Noun	2	0.834233485667	0.218113834649	0.859437751004	41
+Haspelmath-2009-1460-128	2265	DAUGHTER-IN-LAW	128	the daughter-in-law (of a man)	2-64	http://wold.clld.org/meaning/2-64	2.64	-	-	Noun	2	0.854328112119	0.0939818631492	0.804204451772	42
+Haspelmath-2009-1460-129	2264	DAUGHTER-IN-LAW	129	the daughter-in-law (of a woman)	2-641	http://wold.clld.org/meaning/2-641	2.641	-	-	Noun	2	0.876485568761	0.108234295416	0.823853989813	41
 Haspelmath-2009-1460-130	237	STEPFATHER	130	the stepfather	2-71	http://wold.clld.org/meaning/2-71	2.71	-	-	Noun	2	0.834387265591	0.118403837767	0.582152202355	46
 Haspelmath-2009-1460-131	236	STEPMOTHER	131	the stepmother	2-72	http://wold.clld.org/meaning/2-72	2.72	-	-	Noun	2	0.833463035019	0.140077821012	0.58560311284	45
 Haspelmath-2009-1460-132	1059	STEPSON	132	the stepson	2-73	http://wold.clld.org/meaning/2-73	2.73	-	-	Noun	2	0.78625	75	0.6025	38
@@ -146,8 +146,8 @@ Haspelmath-2009-1460-144	1130	WE EXCLUSIVE	144	we (exclusive)	2-942	http://wold.
 Haspelmath-2009-1460-145	1213	YOU	145	you (plural)	2-95	http://wold.clld.org/meaning/2-95	2.95	-	-	Function word	2	0.789523809524	0.0380952380952	0.809523809524	53
 Haspelmath-2009-1460-146	817	THEY	146	they	2-96	http://wold.clld.org/meaning/2-96	2.96	-	-	Function word	2	0.801906779661	0.0741525423729	0.798728813559	49
 Haspelmath-2009-1460-147	619	ANIMAL	147	the animal	3-11	http://wold.clld.org/meaning/3-11	3.11	'living creature that can move (including or excluding humans)'	On the small island they found rabbits, foxes, snakes, mice and many other animals.	Noun	3	0.82962962963	0.456140350877	0.897660818713	50
-Haspelmath-2009-1460-148	1553	MALE	148	male(2)	3-12	http://wold.clld.org/meaning/3-12	3.12	(of animals) cf. 2.23	Only male lions have manes.	Adjective	3	0.934779516358	0.168918918919	0.883001422475	48
-Haspelmath-2009-1460-149	1551	FEMALE	149	female(2)	3-13	http://wold.clld.org/meaning/3-13	3.13	(of animals) cf. 2.24	Only female monkeys look after their offspring.	Adjective	3	0.903430079156	0.117414248021	0.890501319261	44
+Haspelmath-2009-1460-148	2261	MALE	148	male(2)	3-12	http://wold.clld.org/meaning/3-12	3.12	(of animals) cf. 2.23	Only male lions have manes.	Adjective	3	0.934779516358	0.168918918919	0.883001422475	48
+Haspelmath-2009-1460-149	2262	FEMALE	149	female(2)	3-13	http://wold.clld.org/meaning/3-13	3.13	(of animals) cf. 2.24	Only female monkeys look after their offspring.	Adjective	3	0.903430079156	0.117414248021	0.890501319261	44
 Haspelmath-2009-1460-150	631	LIVESTOCK	150	the livestock	3-15	http://wold.clld.org/meaning/3-15	3.15	'domestic mammals kept for service or for useful products (cows, horses, donkeys, sheep, goats, pigs, reindeer, camels, etc.)'	-	Noun	3	0.815677966102	0.276483050847	0.780720338983	45
 Haspelmath-2009-1460-151	649	PASTURE	151	the pasture	3-16	http://wold.clld.org/meaning/3-16	3.16	'land or field that is covered with grass and is used for livestock to feed on'	-	Noun	3	0.815416666667	0.358333333333	0.8375	43
 Haspelmath-2009-1460-152	263	HERDSMAN	152	the herdsman	3-18	http://wold.clld.org/meaning/3-18	3.18	'a man who looks after a herd of animals'	-	Noun	3	0.817948717949	0.205128205128	0.666666666667	39
@@ -179,7 +179,7 @@ Haspelmath-2009-1460-177	1514	HEN	177	the hen	3-54	http://wold.clld.org/meaning/
 Haspelmath-2009-1460-178	1318	CHICKEN	178	the chicken	3-55	http://wold.clld.org/meaning/3-55	3.55	(Fill in only if there is a general term for 'rooster or hen'.)	-	Noun	3	0.888235294118	0.372122762148	0.915601023018	39
 Haspelmath-2009-1460-179	1187	GOOSE	179	the goose	3-56	http://wold.clld.org/meaning/3-56	3.56	'domesticated goose'	-	Noun	3	0.883561643836	0.472602739726	0.945205479452	37
 Haspelmath-2009-1460-180	1360	DUCK	180	the duck	3-57	http://wold.clld.org/meaning/3-57	3.57	'domesticated duck'	-	Noun	3	0.86043956044	0.461538461538	0.928571428571	46
-Haspelmath-2009-1460-181	NAN		181	the nest	3-58	http://wold.clld.org/meaning/3-58	3.58	-	Many birds build nests in trees.	Noun	3	0.878571428571	125	0.89880952381	43
+Haspelmath-2009-1460-181	539		181	the nest	3-58	http://wold.clld.org/meaning/3-58	3.58	-	Many birds build nests in trees.	Noun	3	0.878571428571	125	0.89880952381	43
 Haspelmath-2009-1460-182	937	BIRD	182	the bird	3-581	http://wold.clld.org/meaning/3-581	3.581	-	-	Noun	3	0.804727272727	0.158181818182	0.961818181818	48
 Haspelmath-2009-1460-183	950	SEAGULL	183	the seagull	3-582	http://wold.clld.org/meaning/3-582	3.582	-	-	Noun	3	0.76	0.21	0.91	25
 Haspelmath-2009-1460-184	758	HERON	184	the heron	3-583	http://wold.clld.org/meaning/3-583	3.583	-	-	Noun	3	0.797368421053	0.203947368421	0.914473684211	38
@@ -242,7 +242,7 @@ Haspelmath-2009-1460-240	1857	CROCODILE	240	the crocodile or alligator	3-97	http
 Haspelmath-2009-1460-241	112	TURTLE	241	the turtle	3-98	http://wold.clld.org/meaning/3-98	3.98	-	-	Noun	3	0.785416666667	0.244791666667	0.947916666667	48
 Haspelmath-2009-1460-242	1480	BODY	242	the body	4-11	http://wold.clld.org/meaning/4-11	4.11	‘the body of a live human’	-	Noun	4	0.848300536673	0.187835420394	0.935599284436	51
 Haspelmath-2009-1460-243	763	SKIN	243	the skin or hide	4-12	http://wold.clld.org/meaning/4-12	4.12	(skin: of a human; hide: of an animal)	-	Noun	4	0.89785202864	0.110978520286	0.923627684964	49
-Haspelmath-2009-1460-244	634	MEAT	244	the flesh	4-13	http://wold.clld.org/meaning/4-13	4.13	-	-	Noun	4	0.892219020173	0.14553314121	1.0	44
+Haspelmath-2009-1460-244	2259	MEAT	244	the flesh	4-13	http://wold.clld.org/meaning/4-13	4.13	-	-	Noun	4	0.892219020173	0.14553314121	1.0	44
 Haspelmath-2009-1460-245	1040	HAIR	245	the hair	4-14	http://wold.clld.org/meaning/4-14	4.14	‘hair on a person’s head’	-	Noun	4	0.879975379565	0.056421830119	0.916906032007	48
 Haspelmath-2009-1460-246	678	BEARD	246	the beard	4-142	http://wold.clld.org/meaning/4-142	4.142	-	-	Noun	4	0.826966292135	0.168539325843	0.926966292135	45
 Haspelmath-2009-1460-247	189	BODY HAIR	247	the body hair	4-144	http://wold.clld.org/meaning/4-144	4.144	-	-	Noun	4	0.874501992032	0.123790552077	0.867672168469	40
@@ -297,8 +297,8 @@ Haspelmath-2009-1460-295	1277	HAND	295	the hand	4-33	http://wold.clld.org/meanin
 Haspelmath-2009-1460-296	1183	PALM OF HAND	296	the palm of the hand	4-331	http://wold.clld.org/meaning/4-331	4.331	-	-	Noun	4	0.838461538462	0.10989010989	0.725274725275	46
 Haspelmath-2009-1460-297	1303	FINGER	297	the finger	4-34	http://wold.clld.org/meaning/4-34	4.34	-	-	Noun	4	0.826728110599	0.0506912442396	0.820276497696	43
 Haspelmath-2009-1460-298	1781	THUMB	298	the thumb	4-342	http://wold.clld.org/meaning/4-342	4.342	-	-	Noun	4	0.770454545455	0.0795454545455	0.670454545455	44
-Haspelmath-2009-1460-299	1896	NAIL, KERATIN	299	the fingernail	4-344	http://wold.clld.org/meaning/4-344	4.344	-	-	Noun	4	0.8528	76	872	42
-Haspelmath-2009-1460-300	1896	NAIL, KERATIN	300	the claw	4-345	http://wold.clld.org/meaning/4-345	4.345	‘the sharp curved nail on the toe of an animal or bird’	The cat dug his claws into my leg.	Noun	4	0.829367088608	0.116455696203	0.916455696203	46
+Haspelmath-2009-1460-299	1258	NAIL, KERATIN	299	the fingernail	4-344	http://wold.clld.org/meaning/4-344	4.344	-	-	Noun	4	0.8528	76	872	42
+Haspelmath-2009-1460-300	72	NAIL, KERATIN	300	the claw	4-345	http://wold.clld.org/meaning/4-345	4.345	‘the sharp curved nail on the toe of an animal or bird’	The cat dug his claws into my leg.	Noun	4	0.829367088608	0.116455696203	0.916455696203	46
 Haspelmath-2009-1460-301	1297	LEG	301	the leg	4-35	http://wold.clld.org/meaning/4-35	4.35	-	-	Noun	4	0.908595641646	0.146186440678	0.981840193705	41
 Haspelmath-2009-1460-302	800	THIGH	302	the thigh	4-351	http://wold.clld.org/meaning/4-351	4.351	‘the top part of the leg, between the knee and the hip’	-	Noun	4	0.847413793103	0.09375	0.918103448276	42
 Haspelmath-2009-1460-303	498	CALF OF LEG	303	the calf of the leg	4-352	http://wold.clld.org/meaning/4-352	4.352	-	-	Noun	4	0.794736842105	0.0723684210526	0.802631578947	39
@@ -718,7 +718,7 @@ Haspelmath-2009-1460-717	430	TWIST	717	to twist	10-17	http://wold.clld.org/meani
 Haspelmath-2009-1460-718	568	RISE (MOVE UPWARDS)	718	to rise	10-21	http://wold.clld.org/meaning/10-21	10.21	-	The sun rises in the east.	Verb	10	0.832777159807	0.0111234705228	0.758991472006	62
 Haspelmath-2009-1460-719	1317	RAISE	719	to raise or lift	10-22	http://wold.clld.org/meaning/10-22	10.22	-	-	Verb	10	0.827331189711	0.0868167202572	0.787781350482	60
 Haspelmath-2009-1460-720	1280	FALL	720	to fall	10-23	http://wold.clld.org/meaning/10-23	10.23	-	The ripe coconut fell on the ground.	Verb	10	0.858122743682	0.0541516245487	0.902527075812	50
-Haspelmath-2009-1460-721	808	DRIP	721	to drip	10-24	http://wold.clld.org/meaning/10-24	10.24	-	The tap is dripping, shut it tightly!	Verb	10	0.838372093023	0.0581395348837	0.808139534884	46
+Haspelmath-2009-1460-721	2253	DRIP	721	to drip	10-24	http://wold.clld.org/meaning/10-24	10.24	-	The tap is dripping, shut it tightly!	Verb	10	0.838372093023	0.0581395348837	0.808139534884	46
 Haspelmath-2009-1460-722	1456	THROW	722	to throw	10-25	http://wold.clld.org/meaning/10-25	10.25	-	Don't throw stones, it's dangerous!	Verb	10	0.829253731343	0.0402985074627	0.917164179104	59
 Haspelmath-2009-1460-723	702	CATCH	723	to catch	10-252	http://wold.clld.org/meaning/10-252	10.252	-	She caught the ball and passed it to her team mate.	Verb	10	0.83749306711	0.158069883527	0.873821408763	48
 Haspelmath-2009-1460-724	1909	SHAKE	724	to shake	10-26	http://wold.clld.org/meaning/10-26	10.26	(transitive)	Shake the bottle before pouring out the sauce.	Verb	10	0.821551724138	0.172413793103	0.853448275862	59
@@ -768,7 +768,7 @@ Haspelmath-2009-1460-767	741	DRIVE	767	to drive	10-65	http://wold.clld.org/meani
 Haspelmath-2009-1460-768	367	RIDE	768	to ride	10-66	http://wold.clld.org/meaning/10-66	10.66	-	She rides her horse to work every day.	Verb	10	0.862773722628	0.197080291971	0.815085158151	40
 Haspelmath-2009-1460-769	1452	PUSH	769	to push	10-67	http://wold.clld.org/meaning/10-67	10.67	-	Don't push me or I'll fall down.	Verb	10	0.838078291815	0.172597864769	0.898576512456	49
 Haspelmath-2009-1460-770	667	ROAD	770	the road	10-71	http://wold.clld.org/meaning/10-71	10.71	-	Many cars drove up and down the road.	Noun	10	0.874887892377	0.311659192825	0.941704035874	50
-Haspelmath-2009-1460-771	667	ROAD	771	the path	10-72	http://wold.clld.org/meaning/10-72	10.72	-	The path leads from the house to the field.	Noun	10	0.863070539419	0.207468879668	0.921161825726	50
+Haspelmath-2009-1460-771	2252	ROAD	771	the path	10-72	http://wold.clld.org/meaning/10-72	10.72	-	The path leads from the house to the field.	Noun	10	0.863070539419	0.207468879668	0.921161825726	50
 Haspelmath-2009-1460-772	1011	BRIDGE	772	the bridge	10-74	http://wold.clld.org/meaning/10-74	10.74	-	A beautiful bridge stood over the river.	Noun	10	0.846153846154	0.417159763314	0.94674556213	44
 Haspelmath-2009-1460-773	122	CART	773	the cart or wagon	10-75	http://wold.clld.org/meaning/10-75	10.75	-	The cart was pulled by a horse.	Noun	10	0.839255649092	0.667922020381	0.943509082853	42
 Haspelmath-2009-1460-774	710	WHEEL	774	the wheel	10-76	http://wold.clld.org/meaning/10-76	10.76	-	The car has four wheels.	Noun	10	0.834939759036	0.460843373494	0.909638554217	45
@@ -779,7 +779,7 @@ Haspelmath-2009-1460-778	1844	BOAT	778	the boat	10-83	http://wold.clld.org/meani
 Haspelmath-2009-1460-779	1970	CANOE	779	the canoe	10-831	http://wold.clld.org/meaning/10-831	10.831	-	-	Noun	10	0.837857142857	0.435714285714	0.942857142857	38
 Haspelmath-2009-1460-780	416	OUTRIGGER	780	the outrigger	10-832	http://wold.clld.org/meaning/10-832	10.832	-	-	Noun	10	0.767567567568	0.25	0.824324324324	19
 Haspelmath-2009-1460-781	1664	RAFT	781	the raft	10-84	http://wold.clld.org/meaning/10-84	10.84	-	-	Noun	10	0.84358974359	0.34188034188	0.880341880342	30
-Haspelmath-2009-1460-782	NAN		782	the oar	10-85	http://wold.clld.org/meaning/10-85	10.85	-	-	Noun	10	0.868823529412	0.455882352941	0.866176470588	36
+Haspelmath-2009-1460-782	108		782	the oar	10-85	http://wold.clld.org/meaning/10-85	10.85	-	-	Noun	10	0.868823529412	0.455882352941	0.866176470588	36
 Haspelmath-2009-1460-783	234	PADDLE	783	the paddle	10-851	http://wold.clld.org/meaning/10-851	10.851	-	-	Noun	10	0.815189873418	0.28164556962	0.884493670886	34
 Haspelmath-2009-1460-784	1849	ROW	784	to row	10-852	http://wold.clld.org/meaning/10-852	10.852	-	-	Verb	10	0.827962085308	0.210900473934	0.78672985782	37
 Haspelmath-2009-1460-785	108	RUDDER	785	the rudder	10-86	http://wold.clld.org/meaning/10-86	10.86	-	-	Noun	10	0.817613636364	0.460227272727	0.849431818182	31
@@ -968,7 +968,7 @@ Haspelmath-2009-1460-969	703	SOON	969	soon	14-331	http://wold.clld.org/meaning/1
 Haspelmath-2009-1460-970	418	FOR A LONG TIME	970	for a long time	14-332	http://wold.clld.org/meaning/14-332	14.332	-	He waited for a long time, but she never came.	Function word	14	0.82247706422	0.0825688073394	0.779816513761	39
 Haspelmath-2009-1460-971	1656	NEVER	971	never	14-34	http://wold.clld.org/meaning/14-34	14.34	-	I never eat pork.	Function word	14	0.765384615385	0.153846153846	0.701923076923	52
 Haspelmath-2009-1460-972	204	AGAIN	972	again	14-35	http://wold.clld.org/meaning/14-35	14.35	-	I was there yesterday, but today I'm going again.	Function word	14	0.795921696574	0.112561174551	0.838499184339	55
-Haspelmath-2009-1460-973	1225	DAY OF LIGHT	973	the day(1)	14-41	http://wold.clld.org/meaning/14-41	14.41	(as opposed to 'night')	The days are very hot here, but the nights are cool.	Noun	14	0.887637028015	0.13931181486	0.908647990256	44
+Haspelmath-2009-1460-973	1260	DAY OF LIGHT	973	the day(1)	14-41	http://wold.clld.org/meaning/14-41	14.41	(as opposed to 'night')	The days are very hot here, but the nights are cool.	Noun	14	0.887637028015	0.13931181486	0.908647990256	44
 Haspelmath-2009-1460-974	1233	NIGHT	974	the night	14-42	http://wold.clld.org/meaning/14-42	14.42	-	The days very hot here, but the nights are cool.	Noun	14	0.897701149425	0.0689655172414	0.933908045977	46
 Haspelmath-2009-1460-975	729	DAWN	975	the dawn	14-43	http://wold.clld.org/meaning/14-43	14.43	-	The sun comes up at dawn.	Noun	14	0.795454545455	0.327272727273	0.759090909091	56
 Haspelmath-2009-1460-976	1339	MORNING	976	the morning	14-44	http://wold.clld.org/meaning/14-44	14.44	-	The children go to school in the morning.	Noun	14	0.811842105263	0.144736842105	0.828947368421	41
