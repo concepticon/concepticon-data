@@ -139,7 +139,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 138	1295154	850562	BATHE	The body	To clean oneself by immersion in water.	Action/Process	4.69
 139	1295456	-	GUMS	The body	The mucosal tissue that partly lies over the teeth in the mouth.	Person/Thing	4271
 140	1296409	-	PADDY FIELD	Agriculture and vegetation	A flooded field where rice is grown.	Person/Thing	-
-141	1299599	1232648	BURN SOMETHING	The physical world	To cause to undergo fire combustion.	Action/Process	1851
+141	1299599	1232648	BURN (SOMETHING)	The physical world	To cause to undergo fire combustion.	Action/Process	1851
 142	1300468	-	RETURN HOME	Motion	To go to one's home after having left it, such as after a working day or holidays.	Action/Process	10.58
 143	1301943	-	HUMID	The physical world	(Of the air) Containing a high quantity of water vapor.	Property	-
 144	1309356	-	MACHINE	Modern world	A device able to perform a particular, more or less complex, job.	Person/Thing	23.19
@@ -173,8 +173,8 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 172	1372842	-	SHOULDERBLADE	The body	A large flat bone located at the back of each shoulder.	Person/Thing	4301
 173	1373556	-	SIBLING'S CHILD	Kinship	The child of a sibling.	Person/Thing	2541
 174	1374507	-	PROUD	Emotions and values	Feeling greatly pleased, or satisfied by something or someone that is highly honorable or creditable to oneself	Property	16.48
-175	1375415	-	BLOW	Motion	(Of the wind or a current of air) To move.	Action/Process	10.38
-176	1375451	-	BLOW ON FIRE	Basic actions and technology	-	Action/Process	-
+175	1375415	-	BLOW (OF WIND)	Motion	(Of the wind or a current of air) To move.	Action/Process	10.38
+176		-	BLOW (THE TRUMPET)	Basic actions and technology	-	Action/Process	-
 177	1377747	-	BETEL PEPPER VINE	Agriculture and vegetation	A vine of the species 'Piper betle' whose leaves are chewed for its medicinal properties.	Person/Thing	-
 178	1378364	-	RIPE	Food and drink	(Of fruits, seeds, etc.) Having reached the stage of development suitable for harvesting and eating.	Property	5123
 179	1378372	-	RIPEN	Food and drink	(For a fruit, seed, etc.) To become ripe.	Action/Process	-
@@ -249,7 +249,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 248	1501924	-	HAPPEN	Basic actions and technology	To come to pass.	Action/Process	-
 249	1502	-	FOG	The physical world	Water droplets or, rarely, ice crystals suspended in the air in sufficient concentration to reduce visibility appreciably.	Person/Thing	1.74
 250	1502678	-	LIGHT COLOR	Sense perception	(of color) having a relatively small amount of color components.	Property	15.62
-251	1503230	-	SHARPEN SOMETHING	Basic actions and technology	To make sharp or sharper.	Action/Process	-
+251	1503230	-	SHARPEN (SOMETHING)	Basic actions and technology	To make sharp or sharper.	Action/Process	-
 252	1504545	-	FRIGHTEN	Sense perception	To make someone afraid or anxious.	Action/Process	-
 253	1504671	-	CARE FOR	Social and political relations	To keep under careful scrutiny.	Action/Process	-
 254	1504854	-	STICKING	The physical world	To come or be in close contact with; to stick or hold together and resist separation.	Action/Process	-
@@ -257,10 +257,10 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 256	1505	-	FOOD	Food and drink	A substance that can be ingested and utilized by the organism as a source of nutrition and energy.	Person/Thing	5.12
 257	1505545	-	WORSHIP	Religion and belief	To show devotion to (a deity).	Action/Process	22.16
 258	1505685	-	CALM	The physical world	Smooth or having only gentle waves.	Property	1322
-259	1505691	-	ROUGH OF SEA	The physical world	With large waves (of sea).	Property	1323
+259	1505691	-	ROUGH (OF SEA)	The physical world	With large waves (of sea).	Property	1323
 260	1505696	-	SAVANNA	The physical world	A large open grassland in tropical and subtropical regions.	Person/Thing	1411
 261	1505700	-	ARCTIC LIGHTS	The physical world	A natural light display in the sky particularly in the Arctic regions.	Person/Thing	1771
-262	1505714	-	HE/SHE/IT	Kinship	Third person singular pronoun, regardless of gender/sex.	Other	2.93
+262	1505714	-	HE OR SHE OR IT	Kinship	Third person singular pronoun, regardless of gender/sex.	Other	2.93
 263	1505722	-	HERDSMAN	Animals	A man who looks after a herd of animals.	Person/Thing	3.18
 264	1505730	-	HE-GOAT	Animals	A male goat.	Person/Thing	3.37
 265	1505737	-	FOWL	Animals	A bird that is kept for its meat and eggs.	Person/Thing	3.5
@@ -1226,7 +1226,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1225	5477	-	DAY (NOT NIGHT)	Time	The period between sunrise and sunset where one enjoys daylight.	Person/Thing	14.41
 1226	5478	5605	YEAR	Time	The time it takes the Earth to complete one revolution of the Sun (between 365.24 and 365.26 days depending on the point of reference).	Person/Thing	14.73
 1227	5479	357168;357171	BOARD	The house	A piece of wood or similar material that has been sawn into a regular shape, usually in preparation for using it in some sort of construction.	Person/Thing	7.57
-1228	5481	3494;161681	EARTH, SOIL	The physical world	The soft and loose material forming a great part of the Earth surface.	Person/Thing	1212
+1228	5481	3494;161681	EARTH (SOIL)	The physical world	The soft and loose material forming a great part of the Earth surface.	Person/Thing	1212
 1229	5482	-	OLD	Time	Having lived or existed for a relatively long period of time.	Property	14.15
 1230	5483	-	DIRTY	Sense perception	Covered with or containing unpleasant substances such as dirt or grime.	Property	15.88
 1231	5484	-	NEW	Time	Recently made, created or begun.	Property	14.13
@@ -1408,7 +1408,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1407	5998	-	BREATHE	The body	To repeatedly draw air into, and expel it from, the lungs, in order to extract oxygen from it and excrete waste products.	Action/Process	4.51
 1408	5999	-	HEAR	Sense perception	To perceive sound with the ear, without necessarily paying attention to it.	Action/Process	15.41
 1409	6003	-	SEE	Sense perception	To perceive [images] with the eye, without necessarily paying attention to them.	Action/Process	15.51
-1410	6004	710114;955211	KNOW	Cognition	To be certain or sure about something.	Action/Process	17.17
+1410	6004	710114;955211	KNOW (SOMETHING)	Cognition	To be certain or sure about something.	Action/Process	17.17
 1411	6005	-	LIE (REST)	Spatial relations	To rest in a horizontal, static position, usually on another surface.	Action/Process	12.14
 1412	6009	-	RUDE	Emotions and values	Bad mannered.	Property	-
 1413	6010	-	PLAY	Emotions and values	To act in a manner such that one has fun; to engage in playful activities expressly for the purpose of recreation.	Action/Process	16.26
@@ -1760,7 +1760,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1759	7130	-	OLDER BROTHER	Kinship	A male with more years of age than one or more of his siblings.	Person/Thing	2444
 1760	7131	-	YOUNGER BROTHER	Kinship	A male with fewer years of age than one or more of his siblings.	Person/Thing	2445
 1761	7132	-	YOUNGER SISTER	Kinship	A female who is younger than one or more of her siblings.	Person/Thing	2455
-1762	7135	-	STONE OF FRUIT	Food and drink	The wooden shell found inside some fruits, particularly drupes, that surrounds the seed.	Person/Thing	-
+1762	7135	-	STONE (OF FRUIT)	Food and drink	The wooden shell found inside some fruits, particularly drupes, that surrounds the seed.	Person/Thing	-
 1763	713958	-	CLUB	Warfare and hunting	A short heavy club with a rounded head used as a weapon.	Person/Thing	20.22
 1764	7140	-	OBSCURE	Cognition	Known vaguely or incompletely, if at all.	Property	17.35
 1765	714063	-	IN VAIN	Miscellaneous function words	Without success, without the desired effect.	Other	-
@@ -1831,7 +1831,7 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 1830	7634	-	CRANE	Animals	A large bird of the order Gruiformes and the family Gruidae having long legs and a long neck which it extends when flying.	Person/Thing	-
 1831	7643	343877	MEET	Social and political relations	To collect in one place, usually for a purpose.	Action/Process	19.65
 1832	765010	617681	SIBLING-IN-LAW	Kinship	The husband of one's sister.	Person/Thing	2.6412
-1833	7654	-	DINNER, SUPPER	Food and drink	A meal that is eaten in the late afternoon or evening daily.	Person/Thing	5.44;5.45
+1833	7654	-	DINNER (SUPPER)	Food and drink	A meal that is eaten in the late afternoon or evening daily.	Person/Thing	5.44;5.45
 1834	7667	-	SHE	Kinship	A female other; the female previously mentioned. 3rd person singular feminine subject pronoun.	Other	2932
 1835	7679	-	MARROW	Agriculture and vegetation	Any of various squash plants grown for their elongated fruit with smooth dark green skin and whitish flesh.	Person/Thing	-
 1836	7685	-	VAGINA	The body	The lower part of the female reproductive tract; a moist canal in female mammals extending from the labia minora to the uterus.	Person/Thing	4493
@@ -2238,3 +2238,31 @@ ID	OMEGAWIKI	SEEALSO	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	WOLD
 2237			FIND OUT	Cognition	To apprehend something involuntarily.	Action/Process	
 2238			KNOW OR BE ABLE	Cognition	To be able to do something which required that one would learn it before or which could require that one learns it before.	Action/Process	
 2239			DENSE	Spatial relations	To be thick, of liquids.	Property	
+2240			CORAL SNAKE	Animals	A large group of elapid snakes that can be subdivided into two distinct groups, Old World coral snakes and New World coral snakes. 	Person/Thing	
+2241			WILD CAT	Animals	A small cat found throughout most of Africa, Europe, and southwest and central Asia into India, China, and Mongolia.	Person/Thing	
+2242			BEETLE	Animals	A group of insects which are biologically classified in the order Coleoptera /koʊliːˈɒptərə/.	Person/Thing	
+2243			REPAIR	Basic actions and technology	To patch up something which was broken before.	Action/Process	
+2244			METAL	The physical world	A material (an element, compound, or alloy) that is typically hard, opaque, shiny, and has good electrical and thermal conductivity.	Person/Thing	
+2245			BELCH	Basic actions and technology	To release gas fromt he digestive tract through the mouth.	Action/Process	
+2246			BELL	Basic actions and technology	A simple sound-making device.	Person/Thing	
+2247			CATERPILLAR	Animals	The larvae of members of the order Lepidoptera (the insect order comprising butterflies and moths).	Person/Thing	
+2248			KNOW (SOMEBODY)	Cognition	To have met and recognize somebody.	Action/Process	
+2249			THIN (OF SHAPE OF OBJECT)	Spatial relations	Being narrow in size.	Property	
+2250			LEAF (LEAFLIKE OBJECT)	Spatial relations	An object that is similar in shape to the leaves of a tree, such as a sheet of paper.	Person/Thing	
+2251			BEER BANANA	Agriculture and vegetation	Triploid banana cultivars originating from the African Great Lakes region.	Person/Thing	
+2252			PATH	Motion	A narrow piece of ground that people can walk along.	Person/Thing	
+2253			DRIP	Motion	To emit drops of liquid.	Action/Process	
+2254			FATHER-IN-LAW (OF WOMAN)	Kinship	The father-in-law of a woman.	Person/Thing	
+2255			FATHER-IN-LAW (OF MAN)	Kinship	The father-in-law of a man.	Person/Thing	
+2256			MOTHER-IN-LAW (OF WOMAN)	Kinship	The mother-in-law of a woman.	Person/Thing	
+2257			MOTHER-IN-LAW (OF MAN)	Kinship	The mother-in-law of a man.	Person/Thing	
+2258			SET ALIGHT (SOMETHING)	The physical work	To make something burn.	Action/Process	
+2259			FLESH (OF A HUMAN)	The body	The meat of a human being.	Person/Thing	
+2260			FEMALE (OF PERSON)	Kinship	Relating to the female sex of humans.	Property	
+2261			MALE (OF PERSON)	Kinship	Relating to the male sex of humans.	Property	
+2262			FEMALE (OF ANIMAL)	Animal	Relating to the female sex of animals.	Property	
+2263			MALE (OF ANIMAL)	Animal	Relating to the male sex of animals.	Property	
+2264			DAUGHTER-IN-LAW (OF WOMAN)	Kinship	The daughter-in-law of a woman.	Person/Thing	
+2265			DAUGHTER-IN-LAW (OF MAN)	Kinship	The daughter-in-law of a man.	Person/Thing	
+2266			SON-IN-LAW (OF WOMAN	Kinship	The son-in-law of a woman.	Person/Thing	
+2267			SON-IN-LAW (OF MAN)	Kinship	The son-in-law of a man.	Person/Thing	
