@@ -678,7 +678,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 677	333200	AXE	Basic actions and technology	A tool for felling trees or chopping wood consisting of a heavy metallic head flattened to a blade on one side, and which is attached to a usually wooden handle.	Person/Thing
 678	333455	BEARD	The body	Facial hair of humans on the chin, cheeks and jaw.	Person/Thing
 679	333539	BRIGHT	Sense perception	Visually dazzling.	Property
-680	333586	BREAK (GET DESTROYED)	Basic actions and technology	To end up in two or more pieces, which can't easily be reassembled.	Action/Process
+680	333586	BREAK (DESTROY OR GET DESTROYED)	Basic actions and technology	To end up in two or more pieces, which can't easily be reassembled.	Action/Process
 681	333618	DESTROY	Possession	To damage beyond use or repair.	Action/Process
 682	333652	SIDE	Spatial relations	One side of a leaf of a book or manuscript.	Person/Thing
 683	333730	PERSON	Kinship	A human being.	Person/Thing
@@ -790,8 +790,8 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 789	345923	PEOPLE	Social and political relations	A group of persons forming or belonging to a particular nation, class, ethnic group, country, family, etc.	Person/Thing
 790	346236	READY	Time	Prepared for immediate action or use.	Property
 791	346995	STRANGER	Social and political relations	Someone who is not known.	Person/Thing
-792	347033	BOIL OF LIQUID	Food and drink	To be at a temperature (as a liquid) where it moves into the gaseous phase.	Action/Process
-793	347037	BOIL OF SKIN	The body	A painful, local inflammation of the skin, caused by infection of a hair follicle. Usually, a hard core and pus are present.	Person/Thing
+792	347033	BOIL (OF LIQUID)	Food and drink	To be at a temperature (as a liquid) where it moves into the gaseous phase.	Action/Process
+793	347037	BOIL (OF SKIN)	The body	A painful, local inflammation of the skin, caused by infection of a hair follicle. Usually, a hard core and pus are present.	Person/Thing
 794	347193	PEN	Speech and language	A utensil, usually tubular in form, containing ink used to write or make marks.	Person/Thing
 795	347439	TROUT	Animals	Fresh water salmon.	Person/Thing
 796	348030	NIPPLE	The body	The projection of a mammary gland from which, on female mammals, milk can be secreted.	Person/Thing
@@ -847,7 +847,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 846	8437	TIGER	Animals	A large carnivorous animal (Panthera tigris) of the cat family indigenous to Asia.	Person/Thing
 847	359725	THIRSTY	Food and drink	Feeling the need to drink.	Property
 848	359542	THIRST	Food and drink	A physiological need to drink.	Person/Thing
-849	3596	SPRING OF WATER	The physical world	A place where ground water flows naturally from a rock or the soil onto the land surface or into a body of surface water.	Person/Thing
+849	3596	SPRING (OF WATER)	The physical world	A place where ground water flows naturally from a rock or the soil onto the land surface or into a body of surface water.	Person/Thing
 850	3599	SQUARE	Spatial relations	An open area in a town, sometimes including the surrounding buildings.	Person/Thing
 851	3602	STABLE	Animals	A building or structure usually with stalls that is used to house and feed horses, cattle or other animals.	Person/Thing
 852	360238	PRIEST	Religion and belief	A minister of the Catholic church empowered to administer the sacraments, most particularly that of the Eucharist or Holy Communion, as well as those of confession and extreme unction.	Person/Thing
@@ -947,7 +947,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 946	411	BLOOD	The body	A fluid connective tissue consisting of the plasma and cells that circulate in the blood vessels.	Person/Thing
 947	411075	STREAM	The physical world	A small river or large creek; a body of moving water confined by banks.	Person/Thing
 948	4118	WATER	The physical world	Common liquid (H₂O) which forms rain, rivers, the sea, etc., and which makes up a large part of the bodies of organisms.	Person/Thing
-949	412005	LEECH (WATER LEECH)	Animals	A worm-like creature that lives in water and sucks blood from animals.	Person/Thing
+949	412005	WATER LEECH	Animals	A worm-like creature that lives in water and sucks blood from animals.	Person/Thing
 950	412090	SEAGULL	Animals	A seabird of the genus Larus or of the family Laridae.	Person/Thing
 951	4128	WEAPONS	Warfare and hunting	An instrument of attack or defense in combat, as a gun, missile, or sword.	Person/Thing
 952	4129	WEATHER	The physical world	The day-to-day meteorological conditions, especially temperature, cloudiness, and rainfall, affecting a specific place.	Person/Thing
@@ -1649,7 +1649,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1648	6777	ANVIL	Basic actions and technology	A heavy iron block used by a blacksmith as a surface upon which metal can be struck and shaped.	Person/Thing
 1649	6785	SIT DOWN	Motion	To move into a position where the upper body is upright and the bottom is resting  on a surface or the floor.	Action/Process
 1650	6804	WATCH	Basic actions and technology	To have one's eyes, one's attention on something or someone.	Action/Process
-1651	6805	TEAR OF EYE	Emotions and values	A drop of liquid produced from the eyes by crying or irritation.	Person/Thing
+1651	6805	TEAR (OF EYE)	Emotions and values	A drop of liquid produced from the eyes by crying or irritation.	Person/Thing
 1652	6806	INSTEAD	Spatial relations	As a replacement for.	Other
 1653	6807	BLIND	The body	Unable to see.	Property
 1654	6811	LIGHTNING	The physical world	The flash of light caused by the discharge of atmospheric electrical charge.	Person/Thing
@@ -2271,3 +2271,4 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2270		SAGO	Food and drink	Starch extracted from the spongy centre, or pith, of various tropical palm stems, especially Metroxylon sagu.	Person/Thing
 2271		THINK	Cognition	Use ones mental power to form ideas or having used ones mental power to form ideas of conviction or belief.	Action/Process
 2272		WARM OR HOT	Sense perception	Having a higher temperature than normal.	Property
+2273		LEECH	Animals	Segmented worms that belong to the phylum Annelida and comprise the subclass Hirudinea.	Person/Thing
