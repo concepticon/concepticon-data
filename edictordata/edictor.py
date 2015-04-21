@@ -18,34 +18,34 @@ files = glob('../concepticondata/conceptlists/*.tsv') + \
 
 # iterate over files and assign IDs. While we don't have the modified IDs, we
 # will add a converter for the old ones
-ID = {}
-idx = 1
-for f in files:
-
-    data = csv2list(f, strip_lines=False)
-    header = data[0]
-    data = data[1:]
-    
-    if f.endswith('concepticon.tsv'):
-        for line in data:
-            if line[0] in ID:
-                pass
-            else:
-                ID[line[0]] = idx
-                idx += 1
-    else:
-        for i,line in enumerate(data):
-            if line[1] in ID:
-                pass
-            elif line[1] == 'NAN':
-                ID[line[1]] = 0
-            else:
-                ID[line[1]] = idx
-                idx += 1
-
-with open('id_converter','w') as f:
-    f.write('\n'.join([str(a)+'\t'+str(b) for a,b in ID.items()]))
-print("[i] Created ID converter and saved it to file.")
+#ID = {}
+#idx = 1
+#for f in files:
+#
+#    data = csv2list(f, strip_lines=False)
+#    header = data[0]
+#    data = data[1:]
+#    
+#    if f.endswith('concepticon.tsv'):
+#        for line in data:
+#            if line[0] in ID:
+#                pass
+#            else:
+#                ID[line[0]] = idx
+#                idx += 1
+#    else:
+#        for i,line in enumerate(data):
+#            if line[1] in ID:
+#                pass
+#            elif line[1] == 'NAN':
+#                ID[line[1]] = 0
+#            else:
+#                ID[line[1]] = idx
+#                idx += 1
+#
+#with open('id_converter','w') as f:
+#    f.write('\n'.join([str(a)+'\t'+str(b) for a,b in ID.items()]))
+#print("[i] Created ID converter and saved it to file.")
 
 # now iterate properly
 D = {} # stores all data
@@ -70,12 +70,18 @@ for f in files:
                 tmp['LIST_'+k] = v
                 del tmp[k]
             elif k == 'ID' and fname == '0CONCEPTICON':
-                tmp['CONCEPTID'] = ID[v]
+                tmp['CONCEPTID'] = v
                 del tmp[k]
             elif k == 'CONCEPTICON_ID':
-                tmp['CONCEPTID'] = ID[v]
+                tmp['CONCEPTID'] = v
             elif k == 'GLOSS' and fname == '0CONCEPTICON':
                 tmp['CONCEPTICON_GLOSS'] = v
+                tmp['CONCEPT'] = v
+            elif k == 'ENGLISH':
+                tmp['CONCEPT'] = v
+            elif k == 'GLOSS':
+                tmp['CONCEPT'] = v
+                del tmp[k]
             else:
                 tmp[k.replace(' ','_')] = v
                 headers += [k]
@@ -87,7 +93,7 @@ for f in files:
 print("[i] Created basic dictionary.")
 
 # create the wordlist file
-headers = ['LIST_ID','CONCEPTLIST','CONCEPTID']+[h for h in sorted(set(headers)
+headers = ['LIST_ID','CONCEPTLIST','CONCEPTID','CONCEPT','ENGLISH']+[h for h in sorted(set(headers)
     ) if h not in ['ID']]
 
 for k in D:
@@ -149,6 +155,6 @@ os.system('cp concepticon.tsv ~/projects/websites/dighl/edictor/data/')
 # create sqlite3-app
 from lingpyd.plugins.lpserver import lexibase as lb
 
-db = lb.LexiBase('concepticon.tsv', col='conceptlist', row='gloss')
+db = lb.LexiBase('concepticon.tsv', col='conceptlist', row='concept')
 db.create('concepticon', dbase='concepticon.sqlite3')
 os.system('cp concepticon.sqlite3 ~/projects/websites/dighl/edictor/triples/')

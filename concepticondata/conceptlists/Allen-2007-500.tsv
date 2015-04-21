@@ -5,7 +5,7 @@ Allen-2007-500-3	1313	MOON	3	moon	月亮
 Allen-2007-500-4	1430	STAR	4	star	星星
 Allen-2007-500-5	1489	CLOUD	5	cloud	云
 Allen-2007-500-6	960	WIND	6	wind	风
-Allen-2007-500-7	658	RAIN, PRECIPATION	7	rain	雨
+Allen-2007-500-7	658	RAIN (PRECIPATION)	7	rain	雨
 Allen-2007-500-8	1654	LIGHTNING	8	lightning (vb)	闪电
 Allen-2007-500-9	1150	THUNDER	9	thunder (vb)	打雷
 Allen-2007-500-10	609	HAIL	10	hail	冰雹
@@ -16,10 +16,10 @@ Allen-2007-500-14	948	WATER	14	water	水
 Allen-2007-500-15	666	RIVER	15	river	河
 Allen-2007-500-16	624	LAKE	16	lake	湖
 Allen-2007-500-17	2035	POND	17	pond	水塘
-Allen-2007-500-18	140	IRRIGATED PADDY FIELD	18	wet field	水田
-Allen-2007-500-19	212	MEADOW	19	meadow	旱地
-Allen-2007-500-20	1228	EARTH, SOIL	20	earth	地
-Allen-2007-500-21	1228	EARTH, SOIL	21	soil	土
+Allen-2007-500-18	140	PADDY FIELD	18	wet field	水田
+Allen-2007-500-19	212	FIELD	19	meadow	旱地
+Allen-2007-500-20	2159	GROUND	20	earth	地
+Allen-2007-500-21	1228	EARTH (SOIL)	21	soil	土
 Allen-2007-500-22	639	MOUNTAIN	22	mountain	山
 Allen-2007-500-23	857	STONE	23	stone	石头
 Allen-2007-500-24	221	FIRE	24	fire	火
@@ -35,7 +35,7 @@ Allen-2007-500-33	514	LAST YEAR	33	last year	去年
 Allen-2007-500-34	1370	MONTH	34	month	月(月份）
 Allen-2007-500-35	2036	JANUARY	35	first month (lunar)	正月
 Allen-2007-500-36	2037	FEBRUARY	36	second month	二月
-Allen-2007-500-37	1260	DAY 24 HOURS	37	day	天（日子）
+Allen-2007-500-37	1260	DAY (24 HOURS)	37	day	天（日子）
 Allen-2007-500-38	1283	TODAY	38	today	今天
 Allen-2007-500-39	1174	YESTERDAY	39	yesterday	昨天
 Allen-2007-500-40	1180	DAY BEFORE YESTERDAY	40	day before yesterday	前天
@@ -77,15 +77,15 @@ Allen-2007-500-75	843	SPIDER	75	spider	蜘蛛
 Allen-2007-500-76	1949	BEDBUG	76	bedbug	臭虫
 Allen-2007-500-77	232	FLEA	77	flea	跳蚤
 Allen-2007-500-78	1392	LOUSE	78	louse	虱子
-Allen-2007-500-79	1504	FLY, INSECT	79	fly (insect)	苍蝇
+Allen-2007-500-79	1504	FLY (INSECT)	79	fly (insect)	苍蝇
 Allen-2007-500-80	1509	MOSQUITO	80	mosquito	蚊子
 Allen-2007-500-81	1219	WORM	81	earthworm	蚯蚓
-Allen-2007-500-82	949	LEECH, WATER LEECH	82	leech	水蛭
+Allen-2007-500-82	949	WATER LEECH	82	leech	水蛭
 Allen-2007-500-83	1027	BUG	83	insect,bug	虫
 Allen-2007-500-84	744	EGG	84	egg	蛋
 Allen-2007-500-85	1257	WING	85	wing (bird)	翅膀
 Allen-2007-500-86	1201	FEATHER	86	feather,hair	毛
-Allen-2007-500-87	1393	HORN, KERATINIZED SKIN	87	horn	角
+Allen-2007-500-87	1393	HORN (KERATINIZED SKIN)	87	horn	角
 Allen-2007-500-88	1220	TAIL	88	tail	尾巴
 Allen-2007-500-89	906	TREE	89	tree	树
 Allen-2007-500-90	1740	PINE	90	pine tree	松树
@@ -103,7 +103,7 @@ Allen-2007-500-101	2025	PEA	101	pea	豌豆
 Allen-2007-500-102	2027	SOYA	102	soybean	黄豆
 Allen-2007-500-103	864	PUMPKIN	103	pumpkin	南瓜
 Allen-2007-500-104	496	CUCUMBER	104	cucumber	黄瓜
-Allen-2007-500-105	256	FOOD	105	vegetable	菜
+Allen-2007-500-105	924	VEGETABLES	105	vegetable	菜
 Allen-2007-500-106	919	CHILI PEPPER	106	chilli pepper	辣子
 Allen-2007-500-107	1385	PEPPER	107	pepper	花椒
 Allen-2007-500-108	2042	WALNUT	108	walnut	核桃
@@ -118,7 +118,7 @@ Allen-2007-500-116	628	LEAF	116	leaf	叶
 Allen-2007-500-117	1172	SHOOT	117	shoot,sprout	芽
 Allen-2007-500-118	239	FLOWER	118	flower	花
 Allen-2007-500-119	1507	FRUIT	119	fruit	果
-Allen-2007-500-120	1762	STONE OF FRUIT	120	pit,stone	核
+Allen-2007-500-120	1762	STONE (OF FRUIT)	120	pit,stone	核
 Allen-2007-500-121	275	PEEL	121	peel,husk	皮
 Allen-2007-500-122	124	THORN	122	thorn	刺
 Allen-2007-500-123	1480	BODY	123	body	身体
@@ -137,7 +137,7 @@ Allen-2007-500-135	1277	HAND	135	hand	手
 Allen-2007-500-136	1303	FINGER	136	finger	手指
 Allen-2007-500-137	1258	FINGERNAIL	137	fingernail	指甲
 Allen-2007-500-138	1402	BREAST	138	breast	乳房
-Allen-2007-500-139	819	STOMACH	139	belly,stomach	肚子
+Allen-2007-500-139	1251	BELLY	139	belly,stomach	肚子
 Allen-2007-500-140	1838	NAVEL	140	navel	肚脐
 Allen-2007-500-141	1681	WAIST	141	waist	腰
 Allen-2007-500-142	1301	FOOT	142	foot	脚
@@ -156,7 +156,7 @@ Allen-2007-500-154	1142	URINE	154	urine	尿
 Allen-2007-500-155	683	PERSON	155	person	人
 Allen-2007-500-156	962	WOMAN	156	woman	女人
 Allen-2007-500-157	725	OLD PERSON	157	old person	老人
-Allen-2007-500-158	1304	CHILD YOUNG HUMAN	158	child	儿童
+Allen-2007-500-158	1304	CHILD (YOUNG HUMAN)	158	child	儿童
 Allen-2007-500-159	1669	ANCESTORS	159	ancestor	祖宗
 Allen-2007-500-160	1383	GRANDFATHER	160	grandfather	祖父
 Allen-2007-500-161	1496	GRANDMOTHER	161	grandmother	祖母
@@ -182,33 +182,33 @@ Allen-2007-500-180	331	HEADDRESS	180	turban,headdress	包头
 Allen-2007-500-181	771	HAT	181	cap,hat	帽子
 Allen-2007-500-182	770	EARRING	182	earring	耳环
 Allen-2007-500-183	1754	BRACELET	183	bracelet	手镯
-Allen-2007-500-184	771	HAT	184	bamboo hat	斗笠
+Allen-2007-500-184	2160	BAMBOO HAT	184	bamboo hat	斗笠
 Allen-2007-500-185	1662	CAPE	185	palm bark rain cape	蓑衣
 Allen-2007-500-186	1381	SHOE	186	shoe	鞋
 Allen-2007-500-187	2047	STRAW SANDAL	187	straw sandal	草鞋
 Allen-2007-500-188	195	MAT	188	straw mat	草席
 Allen-2007-500-189	2048	QUILT	189	quilt	被子
 Allen-2007-500-190	1616	CLOTH	190	cloth	布
-Allen-2007-500-191	1616	CLOTH	191	hemp cloth	麻布
+Allen-2007-500-191	2161	HEMP CLOTH	191	hemp cloth	麻布
 Allen-2007-500-192	926	RICE	192	uncooked rice	米
 Allen-2007-500-193	1191	COOKED RICE	193	cooked rice	饭
 Allen-2007-500-194	2049	CONGEE	194	congee	稀饭
 Allen-2007-500-195	1322	BREAKFAST	195	breakfast	早饭
 Allen-2007-500-196	768	LUNCH	196	lunch	午饭
-Allen-2007-500-197	1833	DINNER, SUPPER	197	dinner (evening meal)	晚饭
-Allen-2007-500-198	1282	FAT, SUBSTANCE	198	animal oil	动物油(脂肪)
+Allen-2007-500-197	1833	DINNER (SUPPER)	197	dinner (evening meal)	晚饭
+Allen-2007-500-198	1282	FAT (SUBSTANCE)	198	animal oil	动物油(脂肪)
 Allen-2007-500-199	1484	OIL	199	vegetable oil	植物油
 Allen-2007-500-200	1274	SALT	200	salt	盐
 Allen-2007-500-201	634	MEAT	201	meat	肉
 Allen-2007-500-202	256	FOOD	202	cooked food	菜（熟菜）
 Allen-2007-500-203	1547	SOUP	203	soup	汤
-Allen-2007-500-204	2050	ALCOHOL (DRINK)	204	alcohol (drink)	酒
+Allen-2007-500-204	404	ALCOHOL (FERMENTED DRINK)	204	alcohol (drink)	酒
 Allen-2007-500-205	1373	TEA	205	tea (drink)	茶
 Allen-2007-500-206	862	SUGAR	206	brown sugar	红糖
 Allen-2007-500-207	1352	KNIFE	207	knife	刀
 Allen-2007-500-208	284	HOE	208	hoe	锄头
-Allen-2007-500-209	1921	PLOUGH	209	plough (implement)	犁
-Allen-2007-500-210	1033	GRIND	210	mill,grind	磨
+Allen-2007-500-209	2154	PLOUGH (INSTRUMENT)	209	plough (implement)	犁
+Allen-2007-500-210	636	MILL	210	mill,grind	磨
 Allen-2007-500-211	86	SIEVE	211	sieve	筛子
 Allen-2007-500-212	245	BROOM	212	broom	扫帚
 Allen-2007-500-213	2051	DUSTPAN	213	dustpan	簸箕
@@ -221,7 +221,7 @@ Allen-2007-500-219	1321	BOTTLE	219	bottle	瓶子
 Allen-2007-500-220	2056	WOK	220	wok	锅（扁锅）
 Allen-2007-500-221	859	STOVE	221	stove	灶
 Allen-2007-500-222	10	FIREWOOD	222	firewood	柴
-Allen-2007-500-223	2057	ANIMAL FAECES,DUNG	223	animal faeces,dung	粪
+Allen-2007-500-223	2057	DUNG (ANIMAL FAECES)	223	animal faeces,dung	粪
 Allen-2007-500-224	1775	TABLE	224	table	桌子
 Allen-2007-500-225	2058	STOOL	225	stool,low chair	凳子
 Allen-2007-500-226	1663	BED	226	bed	床
@@ -231,7 +231,7 @@ Allen-2007-500-229	1596	LOCK	229	lock	锁
 Allen-2007-500-230	1472	KEY	230	key	钥匙
 Allen-2007-500-231	1171	MIRROR	231	mirror	镜子
 Allen-2007-500-232	1475	COMB	232	comb	梳子
-Allen-2007-500-233	1328	SCISSORS	233	scissors	剪刀
+Allen-2007-500-233	356	SHEARS	233	scissors	剪刀
 Allen-2007-500-234	648	PAPER	234	paper	纸
 Allen-2007-500-235	794	PEN	235	pen	笔
 Allen-2007-500-236	963	BOOK	236	book	书本
@@ -239,10 +239,10 @@ Allen-2007-500-237	2059	FOLK SONG	237	folk song	民歌
 Allen-2007-500-238	1879	DANCE	238	dance	舞蹈
 Allen-2007-500-239	2060	STORY	239	story	故事
 Allen-2007-500-240	1115	SPEECH	240	word,speech	话
-Allen-2007-500-241	1811	SOUND	241	sound,voice	声音
+Allen-2007-500-241	1811	SOUND OR NOISE	241	sound,voice	声音
 Allen-2007-500-242	1405	NAME	242	name	名字
 Allen-2007-500-243	738	THING	243	thing	东西
-Allen-2007-500-244	738	THING	244	matter	事情
+Allen-2007-500-244	2150	MATTER	244	matter	事情
 Allen-2007-500-245	53	SPIRIT	245	deity,spirit	神
 Allen-2007-500-246	1175	GHOST	246	ghost	鬼
 Allen-2007-500-247	2061	BUDDHA	247	Buddha	佛
@@ -257,19 +257,19 @@ Allen-2007-500-255	1819	LOOK	255	look	看
 Allen-2007-500-256	1409	SEE	256	see	见
 Allen-2007-500-257	2063	CLOSE (EYES)	257	close (eyes)	闭（眼）
 Allen-2007-500-258	1608	LISTEN	258	listen	听
-Allen-2007-500-259	1587	SMELL, STINK	259	smell (vb)	臭、闻
+Allen-2007-500-259	1587	SMELL (STINK)	259	smell (vb)	臭、闻
 Allen-2007-500-260	1336	EAT	260	eat	吃
-Allen-2007-500-261	1401	DRINK ACTION	261	drink	喝
+Allen-2007-500-261	1401	DRINK	261	drink	喝
 Allen-2007-500-262	1403	BITE	262	bite	咬
 Allen-2007-500-263	321	CHEW	263	chew	嚼
 Allen-2007-500-264	1440	SPIT	264	spit	吐（痰）
 Allen-2007-500-265	1278	VOMIT	265	vomit	呕吐
-Allen-2007-500-266	175	BLOW	266	blow	吹
+Allen-2007-500-266	175	BLOW (OF WIND)	266	blow	吹
 Allen-2007-500-267	724	READ	267	read	读
 Allen-2007-500-268	715	SHOUT	268	shout	喊
 Allen-2007-500-269	1448	HOLD	269	hold	拿
 Allen-2007-500-270	1433	HIT	270	hit (table)	拍（桌子）
-Allen-2007-500-271	371	PICK UP	271	pick (fruit)	摘（果子）
+Allen-2007-500-271	2148	PICK	271	pick (fruit)	摘（果子）
 Allen-2007-500-272	430	TWIST	272	twist (rope)	搓（绳子）
 Allen-2007-500-273	371	PICK UP	273	pick up from ground (grain)	拾（谷子）
 Allen-2007-500-274	2064	SCATTER (SEEDS)	274	scatter (seeds)	播（种）
@@ -282,16 +282,16 @@ Allen-2007-500-280	367	RIDE	280	ride	骑
 Allen-2007-500-281	1443	WALK	281	walk	走
 Allen-2007-500-282	1416	SIT	282	sit	坐
 Allen-2007-500-283	465	CARRY ON BACK	283	carry (thing) on back	背（物）
-Allen-2007-500-284	465	CARRY ON BACK	284	carry person on back	背（人）
+Allen-2007-500-284	2153	CARRY PERSON ON BACK	284	carry person on back	背（人）
 Allen-2007-500-285	1280	FALL	285	fall down	跌倒
 Allen-2007-500-286	1102	CLIMB	286	climb	爬
 Allen-2007-500-287	168	REST	287	rest	休息
 Allen-2007-500-288	1585	SLEEP	288	sleep	睡
 Allen-2007-500-289	1602	WAKE UP	289	wake up	醒
 Allen-2007-500-290	813	DO	290	do (work)	做（活）
-Allen-2007-500-291	984	WORK, CRAFT	291	labour	劳动
+Allen-2007-500-291	984	WORK (CRAFT, LABOUR)	291	labour	劳动
 Allen-2007-500-292	1921	PLOUGH	292	plough (field)	犁（田）
-Allen-2007-500-293	1486	PLANT, GROW	293	plant (seed)	栽种
+Allen-2007-500-293	1486	PLANT (SOMETHING)	293	plant (seed)	栽种
 Allen-2007-500-294	1432	CUT	294	cut,reap	割
 Allen-2007-500-295	155	CHOP	295	chop (firewood)	砍（柴）
 Allen-2007-500-296	2066	PULL UP (RICE SEEDLINGS)	296	pull up (rice seedlings)	拔（秧）
@@ -307,13 +307,13 @@ Allen-2007-500-305	1672	WRITE	305	write	写
 Allen-2007-500-306	254	STICKING	306	stick,glue	贴
 Allen-2007-500-307	2067	STEAM (VERB)	307	steam (yams)	煮（洋芋）
 Allen-2007-500-308	991	FRY	308	stir-fry	炒
-Allen-2007-500-309	991	FRY	309	shallow fry	煎
+Allen-2007-500-309	2162	STIR FRY	309	shallow fry	煎
 Allen-2007-500-310	2068	BRAISE (VERB)	310	braise	蒸
 Allen-2007-500-311	2069	SOAK (VERB)	311	soak (seeds)	浸（种）
-Allen-2007-500-312	792	BOIL OF LIQUID	312	boil (water)	沸（水开）
-Allen-2007-500-313	1432	CUT	313	cut (with knife)	切
-Allen-2007-500-314	155	CHOP	314	chop	剁
-Allen-2007-500-315	1432	CUT	315	cut (with scissors)	剪
+Allen-2007-500-312	792	BOIL (OF LIQUID)	312	boil (water)	沸（水开）
+Allen-2007-500-313	2156	CUT (WITH KNIFE)	313	cut (with knife)	切
+Allen-2007-500-314	2149	CHOP (INTO PIECES)	314	chop	剁
+Allen-2007-500-315	2155	CUT (WITH SCISSORS)	315	cut (with scissors)	剪
 Allen-2007-500-316	1033	GRIND	316	grind (wheat)	磨（面）
 Allen-2007-500-317	976	WEAR	317	wear (hat)	戴（帽）
 Allen-2007-500-318	357	HANG UP	318	hang out (clothes)	晾（衣）
@@ -326,7 +326,7 @@ Allen-2007-500-324	1156	OPEN	324	open (door)	开（门）
 Allen-2007-500-325	2071	LAY (VERB)	325	lay aside	放置
 Allen-2007-500-326	602	HIDE, CONCEAL	326	hide	藏
 Allen-2007-500-327	1576	PILE UP	327	pile up	堆（放）
-Allen-2007-500-328	737	LIGHT, IGNITE	328	light (lamp)	点（灯）
+Allen-2007-500-328	737	LIGHT (IGNITE)	328	light (lamp)	点（灯）
 Allen-2007-500-329	694	GET	329	receive	收
 Allen-2007-500-330	1660	LOSE	330	lose (can't find)	遗失
 Allen-2007-500-331	1468	LOOK FOR	331	look for	寻找
@@ -345,22 +345,22 @@ Allen-2007-500-343	713	STEAL	343	steal	偷
 Allen-2007-500-344	1902	BETRAY	344	deceive,cheat	骗
 Allen-2007-500-345	1826	ANGRY	345	angry	生气
 Allen-2007-500-346	1607	HATE	346	hate	恨
-Allen-2007-500-347	1419	FEAR, BE AFRAID	347	fear	怕
+Allen-2007-500-347	1419	FEAR (BE AFRAID)	347	fear	怕
 Allen-2007-500-348	1355	LAUGH	348	laugh	笑
 Allen-2007-500-349	1839	CRY	349	cry	哭
 Allen-2007-500-350	923	LOVE	350	love	爱
 Allen-2007-500-351	1117	LIKE	351	like	喜欢
 Allen-2007-500-352	1890	BELIEVE	352	believe	相信
-Allen-2007-500-353	1410	KNOW	353	know	知道
+Allen-2007-500-353	1410	KNOW (SOMETHING)	353	know	知道
 Allen-2007-500-354	1932	GUESS	354	guess	猜
 Allen-2007-500-355	707	REMEMBER	355	remember	记得
 Allen-2007-500-356	1523	FORGET	356	forget	忘记
-Allen-2007-500-357	1513	THINK, BELIEVE	357	think	想
+Allen-2007-500-357	2271	THINK	357	think	想
 Allen-2007-500-358	1784	WANT	358	want	要
 Allen-2007-500-359	971	MUST	359	must	得
 Allen-2007-500-360	972	BE ABLE	360	able to	会
 Allen-2007-500-361	1579	BE	361	is	是
-Allen-2007-500-362	1937	THERE	362	there is	有
+Allen-2007-500-362	2152	THERE IS OR THERE ARE	362	there is	有
 Allen-2007-500-363	1446	COME	363	come	来
 Allen-2007-500-364	695	GO	364	go	去
 Allen-2007-500-365	142	RETURN HOME	365	return	回
@@ -370,10 +370,10 @@ Allen-2007-500-368	2014	GO DOWN, DESCEND	368	down (mountain)	下（山）
 Allen-2007-500-369	1107	GO OUT	369	go out	出（出去）
 Allen-2007-500-370	749	ENTER	370	go in	进（进来）
 Allen-2007-500-371	750	DROP	371	drop,fall	掉
-Allen-2007-500-372	680	BREAK	372	snap,break in two	断
-Allen-2007-500-373	680	BREAK	373	break,cleave	破
-Allen-2007-500-374	203	MARRY	374	marry (of woman)	嫁
-Allen-2007-500-375	203	MARRY	375	marry (of man)	娶
+Allen-2007-500-372	1119	DIVIDE	372	snap,break in two	断
+Allen-2007-500-373	680	BREAK (DESTROY OR GET DESTROYED)	373	break,cleave	破
+Allen-2007-500-374	2163	MARRY (AS WOMAN)	374	marry (of woman)	嫁
+Allen-2007-500-375	2164	MARRY (AS MAN)	375	marry (of man)	娶
 Allen-2007-500-376	1195	GIVE BIRTH	376	give birth	分娩
 Allen-2007-500-377	552	GROW UP	377	grow (of people)	长（长大）
 Allen-2007-500-378	1847	SICK	378	be sick,ill	病
@@ -390,10 +390,10 @@ Allen-2007-500-388	711	TALL	388	high,tall	高
 Allen-2007-500-389	721	LOW	389	low	底
 Allen-2007-500-390	1203	LONG	390	long	长
 Allen-2007-500-391	1645	SHORT	391	short	短
-Allen-2007-500-392	1244	THICK	392	thick,coarse	粗
+Allen-2007-500-392	2151	COARSE	392	thick,coarse	粗
 Allen-2007-500-393	1400	THIN	393	fine,thin	细
 Allen-2007-500-394	1244	THICK	394	thick	厚
-Allen-2007-500-395	1400	THIN	395	thin,flimsy	薄
+Allen-2007-500-395	2157	FINE OR THIN	395	thin,flimsy	薄
 Allen-2007-500-396	1406	FAR	396	far	远
 Allen-2007-500-397	1942	NEAR	397	near	近
 Allen-2007-500-398	1198	MANY	398	much,many	多
@@ -413,14 +413,14 @@ Allen-2007-500-411	1425	GREEN	411	green	绿
 Allen-2007-500-412	1429	FULL	412	full	满
 Allen-2007-500-413	1279	FAT, OBESE	413	fat (pig)	肥(猪)
 Allen-2007-500-414	704	CLEAN	414	clean	干净
-Allen-2007-500-415	1229	OLD	415	old	老
+Allen-2007-500-415	2112	OLD (AGED)	415	old	老
 Allen-2007-500-416	1035	GOOD	416	good	好
 Allen-2007-500-417	1292	BAD	417	bad	坏
 Allen-2007-500-418	701	SLOW	418	slow	慢
-Allen-2007-500-419	1786	DRY UP	419	dry	干
+Allen-2007-500-419	1398	DRY	419	dry	干
 Allen-2007-500-420	1726	WET	420	wet	湿
 Allen-2007-500-421	1231	NEW	421	new	新
-Allen-2007-500-422	1229	OLD	422	old	旧
+Allen-2007-500-422	2113	OLD (USED)	422	old	旧
 Allen-2007-500-423	1959	RAW	423	raw	生
 Allen-2007-500-424	269	COOKED	424	cooked	熟
 Allen-2007-500-425	1396	SHARP	425	sharp (knife)	快(刀)
@@ -432,12 +432,12 @@ Allen-2007-500-430	1887	CHEAP	430	cheap	便宜
 Allen-2007-500-431	686	EASY	431	easy	容易
 Allen-2007-500-432	584	DIFFICULT	432	difficult	难
 Allen-2007-500-433	1286	HOT	433	hot	热
-Allen-2007-500-434	1287	COLD OF TEMPERATURE	434	cold	冷
+Allen-2007-500-434	1287	COLD (OF TEMPERATURE)	434	cold	冷
 Allen-2007-500-435	1232	WARM	435	warm	暖和
 Allen-2007-500-436	1906	SOUR	436	sour	酸
 Allen-2007-500-437	717	SWEET	437	sweet	甜
 Allen-2007-500-438	887	BITTER	438	bitter	苦
-Allen-2007-500-439	1286	HOT	439	hot (spicy)	辣
+Allen-2007-500-439	544	SPICY	439	hot (spicy)	辣
 Allen-2007-500-440	1091	SALTY	440	salty	咸
 Allen-2007-500-441	376	FRAGRANT	441	fragrant	香
 Allen-2007-500-442	42	STINKING	442	smelly	臭
@@ -477,7 +477,7 @@ Allen-2007-500-475	1212	WE	475	we (1 p.p.)	我们
 Allen-2007-500-476	1131	WE INCLUSIVE	476	we (inclusive)	咱们
 Allen-2007-500-477	1215	THOU	477	you (2 p.s.)	你
 Allen-2007-500-478	1213	YOU	478	you (2 p.p.)	你们
-Allen-2007-500-479	262	HE/SHE/IT	479	he,she,it (3 p.s.)	他
+Allen-2007-500-479	262	HE OR SHE OR IT	479	he,she,it (3 p.s.)	他
 Allen-2007-500-480	817	THEY	480	they (3 p.p.)	他们
 Allen-2007-500-481	2090	MY	481	my	我（的）
 Allen-2007-500-482	2091	YOUR	482	your (sg)	你（的）
