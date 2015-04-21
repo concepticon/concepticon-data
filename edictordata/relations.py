@@ -39,6 +39,7 @@ with open('conceptrelations.tsv') as f:
 
 for node,data in G.nodes(data=True):
     data['label'] = C[node]['gloss']
+    data['cid'] = C[node]['id']
 
 nx.write_gml(G, 'conceptrelations.gml')
 with open('conceptrelations.tsv', 'w') as f:
