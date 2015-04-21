@@ -100,7 +100,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 99	1175443	HUNCHBACK	Spatial relations	A person whose back is hunched because of abnormal curvature of the upper spine.	Person/Thing
 100	1176245	FAITHFUL	Emotions and values	Steadfast in affection.	Property
 101	1176597	BOAST	Speech and language	To show off.	Action/Process
-102	1178541	COLD DISEASE	The body	A contagious, viral infectious disease of the upper respiratory system; common symptoms include cough, sore throat, runny nose, nasal congestion and sneezing.	Person/Thing
+102	1178541	COLD (DISEASE)	The body	A contagious, viral infectious disease of the upper respiratory system; common symptoms include cough, sore throat, runny nose, nasal congestion and sneezing.	Person/Thing
 103	1182947	FORNICATE	The body	To have sexual intercourse outside of marriage, especially with varying partners.	Action/Process
 104	1187180	HAILING	The physical world	To fall from the clouds in form of ball or lumps of ice.	Action/Process
 105	1188104	MATTRESS	Modern world	A pad on which a person can recline and sleep.	Person/Thing
@@ -361,7 +361,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 360	1510960	FAN ACTION	Basic actions and technology	To blow air on (something) by means of a fan (hand-held, mechanical or electrical) or otherwise.	Action/Process
 361	1510964	PEG	Basic actions and technology	A cylindrical wooden, metal etc. object used to fasten or as a bearing between objects.	Person/Thing
 362	1510977	STRING	Basic actions and technology	A long, thin and flexible structure made from threads twisted together.	Person/Thing
-363	1510985	DWELL	The house	To live; to reside; to remain or continue.	Action/Process
+363	1510985	DWELL (LIVE, RESIDE)	The house	To live; to reside; to remain or continue.	Action/Process
 364	1510989	SMEAR	Basic actions and technology	To spread (a substance) across a surface by rubbing.	Action/Process
 365	1510997	SPLASH	Motion	The sound made by an object hitting a liquid.	Action/Process
 366	1511001	LIMP	Motion	To walk lamely, as if favouring one leg.	Action/Process
@@ -1284,7 +1284,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1283	5630	TODAY	Time	On the current day or date.	Other
 1284	5632	BANK	Modern world	A financial institution where one can borrow money (upon which interest is due) or deposit money (in order to collect interest).	Person/Thing
 1285	5634	IMPORTANT	Emotions and values	Having relevant and crucial value.	Property
-1286	5637	HOT	Sense perception	Having a high temperature.	Property
+1286	5637	HOT	Sense perception	Having a very high temperature.	Property
 1287	5639	COLD (OF TEMPERATURE)	Sense perception	Having a low temperature.	Property
 1288	5641	CAP	Clothing and grooming	A usually soft and close-fitting head covering, either having no brim or with a visor.	Person/Thing
 1289	5642	BABY	Kinship	A very young human being, from birth to a year old.	Person/Thing
@@ -2108,7 +2108,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2107		HAIR OR FOREHEAD	The body	The head hear or the forehead of a person.	Person/Thing
 2108		RAINING OR RAIN	The physical world	The process by which water falls from the clouds.	Person/Thing
 2109		FEAR OR FRIGHTEN	Emotions and values	To be scared or to scare someone.	Action/Process
-2110		WARM OF WEATHER	The physical world	Having a pleasant temparture (of weather).	Other
+2110		WARM (OF WEATHER)	The physical world	Having a pleasant temparture (of weather).	Other
 2111		YOU TWO	Kinship	Addressing two persons (second person dual).	Other
 2112		OLD (AGED)	Time	To be old (of persons).	Other
 2113		OLD (USED)	Time	To be old (of things).	Other
@@ -2270,3 +2270,4 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2269		BREATH OR LIFE	Basic actions and technology	The act of inhalation and exhalation of air as one part of physiological respiration required to sustain life, or the fact that life is sustained itself.	Person/Thing
 2270		SAGO	Food and drink	Starch extracted from the spongy centre, or pith, of various tropical palm stems, especially Metroxylon sagu.	Person/Thing
 2271		THINK	Cognition	Use ones mental power to form ideas or having used ones mental power to form ideas of conviction or belief.	Action/Process
+2272		WARM OR HOT	Sense perception	Having a higher temperature than normal.	Property
