@@ -106,14 +106,25 @@ def load_conceptlist(idf):
         return clist
 
 def write_conceptlist(clist, filename, header = False):
+    """
+    Write conceptlist to file.
+    """
+    def natural_sort(l): 
+        """
+        Code-piece from http://stackoverflow.com/questions/4836710/does-python-have-a-built-in-function-for-string-natural-sort
+        """
+        convert = lambda text: int(text) if text.isdigit() else text.lower() 
+        alphanum_key = lambda key: [ convert(c) for c in re.split('([0-9]+)', key) ] 
+        return sorted(l, key = alphanum_key) 
     
     if not header:
         header = clist['header']
-        #header = sorted(clist[[k for k in clist.keys() if k not in ['mergers', 'splits']][0]])
-        #header = [k.upper() for k in header]
+
+    keys = natural_sort(list(clist.keys()))
     with open(filename, 'w') as f:
         f.write('\t'.join(header)+'\n')
-        for k,v in sorted(clist.items()):
+        for k in keys: 
+            v = clist[k]
             if k not in ['splits','mergers','header']:
                 f.write('\t'.join([v[h] for h in header])+'\n')
 

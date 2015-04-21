@@ -11,8 +11,10 @@ relations = dict(
     sameas = 'sameas',
     resultof = 'resultsin',
     produces = 'producedby',
-    usedfor = '',
-    consistsof = ''
+    usedfor = 'requires',
+    consistsof = '',
+    classof = 'instanceof',
+    intransitiveof = 'transitiveof'
         )
 for k,v in list(relations.items()):
     if v and v != k:
