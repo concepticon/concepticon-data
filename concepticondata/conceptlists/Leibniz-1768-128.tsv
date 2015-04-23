@@ -17,19 +17,19 @@ Leibniz-1768-128-15	1634	HUNDRED	15	100	Nomina numeralia	hundred
 Leibniz-1768-128-16	1843	THOUSAND	16	1000	Nomina numeralia	thousand
 Leibniz-1768-128-17	1217	FATHER	17	pater	Propinquitates & aetates	father
 Leibniz-1768-128-18	1216	MOTHER	18	mater	Propinquitates & aetates	mother
-Leibniz-1768-128-19	1327	UNCLE	19	avus	Propinquitates & aetates	uncle
+Leibniz-1768-128-19	1383	GRANDFATHER	19	avus	Propinquitates & aetates	grandfather
 Leibniz-1768-128-20	1620	SON	20	filius	Propinquitates & aetates	son
 Leibniz-1768-128-21	1357	DAUGHTER	21	filia	Propinquitates & aetates	daughter
 Leibniz-1768-128-22	1262	BROTHER	22	frater	Propinquitates & aetates	brother
 Leibniz-1768-128-23	1263	SISTER	23	soror	Propinquitates & aetates	sister
-Leibniz-1768-128-24	1327	UNCLE	24	patruus	Propinquitates & aetates	uncle
+Leibniz-1768-128-24	1985	FATHER'S BROTHER	24	patruus	Propinquitates & aetates	paternal uncle
 Leibniz-1768-128-25	1200	HUSBAND	25	maritus	Propinquitates & aetates	husband
 Leibniz-1768-128-26	1199	WIFE	26	uxor	Propinquitates & aetates	wife
 Leibniz-1768-128-27	1055	FATHER-IN-LAW	27	socer	Propinquitates & aetates	father-in-law
 Leibniz-1768-128-28	1056	SON-IN-LAW	28	gener	Propinquitates & aetates	son-in-law
 Leibniz-1768-128-29	1554	MAN	29	vir	Propinquitates & aetates	man
 Leibniz-1768-128-30	962	WOMAN	30	mulier	Propinquitates & aetates	woman
-Leibniz-1768-128-31	1304	CHILD YOUNG HUMAN	31	infans	Propinquitates & aetates	child
+Leibniz-1768-128-31	1304	CHILD (YOUNG HUMAN)	31	infans	Propinquitates & aetates	child
 Leibniz-1768-128-32	1207	YOUNG	32	juvenis	Propinquitates & aetates	young
 Leibniz-1768-128-33	1229	OLD	33	senex	Propinquitates & aetates	old
 Leibniz-1768-128-34	1480	BODY	34	corpus	Partes corporis	body
@@ -57,7 +57,7 @@ Leibniz-1768-128-55	1040	HAIR	55	crines	Partes corporis	hair
 Leibniz-1768-128-56	1251	BELLY	56	venter	Partes corporis	belly
 Leibniz-1768-128-57	796	NIPPLE	57	mamillae	Partes corporis	breasts, nipples
 Leibniz-1768-128-58	256	FOOD	58	cibus	Necessitates	food
-Leibniz-1768-128-59	731	DRINK FLUID	59	potus	Necessitates	drink
+Leibniz-1768-128-59	731	DRINK (FLUID)	59	potus	Necessitates	drink
 Leibniz-1768-128-60	1368	BREAD	60	panis	Necessitates	bread
 Leibniz-1768-128-61	948	WATER	61	aqua	Necessitates	water
 Leibniz-1768-128-62	635	MILK FLUID	62	lac	Necessitates	milk
@@ -87,19 +87,19 @@ Leibniz-1768-128-85	1343	SUN	85	sol	Naturalia	sun
 Leibniz-1768-128-86	1313	MOON	86	luna	Naturalia	moon
 Leibniz-1768-128-87	1430	STAR	87	stella	Naturalia	star
 Leibniz-1768-128-88	27	AIR	88	aër	Naturalia	air
-Leibniz-1768-128-89	658	RAIN, PRECIPATION	89	pluvia	Naturalia	rain
+Leibniz-1768-128-89	658	RAIN (PRECIPATION)	89	pluvia	Naturalia	rain
 Leibniz-1768-128-90	1150	THUNDER	90	tonitru	Naturalia	thunder
 Leibniz-1768-128-91	1654	LIGHTNING	91	fulgur	Naturalia	lightning
 Leibniz-1768-128-92	1489	CLOUD	92	nubes	Naturalia	cloud
-Leibniz-1768-128-93	617	ICE	93	gelu	Naturalia	frost
+Leibniz-1768-128-93	2034	FROST	93	gelu	Naturalia	frost
 Leibniz-1768-128-94	609	HAIL	94	grando	Naturalia	hail
 Leibniz-1768-128-95	784	SNOW	95	nix	Naturalia	snow
 Leibniz-1768-128-96	617	ICE	96	glacies	Naturalia	ice
 Leibniz-1768-128-97	221	FIRE	97	ignis	Naturalia	fire
 Leibniz-1768-128-98	612	HEAT	98	calor	Naturalia	heat
 Leibniz-1768-128-99	630	LIGHT RADIATION	99	lux	Naturalia	light
-Leibniz-1768-128-100	778	SMOKE, EXHAUST	100	fumus	Naturalia	smoke
-Leibniz-1768-128-101	1228	EARTH, SOIL	101	terra	Naturalia	land, soil
+Leibniz-1768-128-100	778	SMOKE (EXHAUST)	100	fumus	Naturalia	smoke
+Leibniz-1768-128-101	1228	EARTH (SOIL)	101	terra	Naturalia	land, soil
 Leibniz-1768-128-102	212	FIELD	102	ager	Naturalia	field
 Leibniz-1768-128-103	639	MOUNTAIN	103	mons	Naturalia	mountain
 Leibniz-1768-128-104	921	VALLEY	104	vallis	Naturalia	valley
@@ -116,7 +116,7 @@ Leibniz-1768-128-114	937	BIRD	114	avis	Naturalia	bird
 Leibniz-1768-128-115	730	SNAKE	115	serpens	Naturalia	snake
 Leibniz-1768-128-116	1491	MOUSE	116	mus	Naturalia	mouse
 Leibniz-1768-128-117	1336	EAT	117	edere	Actiones	eat
-Leibniz-1768-128-118	1401	DRINK ACTION	118	bibere	Actiones	drink
+Leibniz-1768-128-118	1401	DRINK	118	bibere	Actiones	drink
 Leibniz-1768-128-119	1623	SPEAK	119	loqui	Actiones	talk
 Leibniz-1768-128-120	1409	SEE	120	videre	Actiones	see
 Leibniz-1768-128-121	1579	BE	121	esse	Actiones	be
@@ -125,5 +125,5 @@ Leibniz-1768-128-123	695	GO	123	ire	Actiones	go
 Leibniz-1768-128-124	1417	KILL	124	occidere	Actiones	kill
 Leibniz-1768-128-125	1451	SMILE	125	ridere	Actiones	smile
 Leibniz-1768-128-126	1585	SLEEP	126	dormire	Actiones	sleep
-Leibniz-1768-128-127	1410	KNOW	127	scire	Actiones	know
+Leibniz-1768-128-127	1410	KNOW (SOMETHING)	127	scire	Actiones	know
 Leibniz-1768-128-128	1784	WANT	128	velle	Actiones	want
