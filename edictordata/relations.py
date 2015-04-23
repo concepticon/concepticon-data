@@ -31,7 +31,7 @@ with open('../concepticondata/conceptrelations.tsv') as f:
 
     for line in f.readlines()[1:]:
         
-        a,b,c = [x.strip() for x in line.split('\t')]
+        a,_a,b,c,_c = [x.strip() for x in line.split('\t')]
         
         if a and b and relations[b]:
             G.add_edge(a,c,relation=b)

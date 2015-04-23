@@ -17,6 +17,7 @@ for f in [x for x in sorted(files) if 'mergers' not in x]:
     merger_status = len(clist['mergers'])
    
     if merger_status:
+
         
         status = 'has {0} splits and {1} mergers.'.format(split_status,
                 merger_status)
