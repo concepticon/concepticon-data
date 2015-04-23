@@ -15,6 +15,8 @@ class Linker(object):
             self.concepts['CONCEPTICON_ID'][cs['ID']] = cs['GLOSS']
             self.concepts['CONCEPTICON_GLOSS'][cs['GLOSS']] = cs['ID']
 
+        self._cid_index = None
+        self._cgloss_index = None
         self._link_col = (None, None)
         self._number_index = None
 
@@ -23,7 +25,8 @@ class Linker(object):
             assert ('CONCEPTICON_ID' in row) or ('CONCEPTICON_GLOSS' in row)
             assert 'NUMBER' in row
             if ('CONCEPTICON_ID' in row) and ('CONCEPTICON_GLOSS' in row):
-                pass
+                self._cid_index = row.index('CONCEPTICON_ID')
+                self._cgloss_index = row.index('CONCEPTICON_GLOSS')
             else:
                 # either CONCEPTICON_ID or CONCEPTICON_GLOSS is given, and the other is
                 # missing.
@@ -44,8 +47,15 @@ class Linker(object):
         if self._link_col[1]:
             val = self.concepts[self._link_col[1]].get(row[self._link_col[0]], '')
             if not val:
-                print('missing %s: %s' % (self._link_col[1], row[self._link_col[0]]))
+                print('unknown %s: %s' % (self._link_col[1], row[self._link_col[0]]))
             row = [val] + row
+        else:
+            cid = self.concepts['CONCEPTICON_GLOSS'].get(row[self._cgloss_index], '')
+            if not cid:
+                print('unknown CONCEPTICON_GLOSS: %s' % row[self._cgloss_index])
+            elif cid != row[self._cid_index]:
+                print('unknown CONCEPTICON_ID/GLOSS mismatch: %s %s' %
+                      (row[self._cid_index], row[self._cgloss_index]))
         if self._number_index is not None:
             row = ['%s-%s' % (self.clid, row[self._number_index])] + row
         return row
