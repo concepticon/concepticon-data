@@ -27,7 +27,7 @@ def read_tsv(path, unique='ID'):
                 error('unique key missing: %s' % unique, path, line)
                 continue
             if row[unique] in uniquevalues:
-                error('non-unique id: %s' % row[unique], path, line)
+                error('non-unique %s: %s' % (unique, row[unique]), path, line)
             uniquevalues.add(row[unique])
         rows.append((line, row))
     return rows
@@ -36,7 +36,8 @@ def read_tsv(path, unique='ID'):
 def test():
     conceptlists = {n: read_tsv(data_path('conceptlists', n), unique=None) for n in os.listdir(data_path('conceptlists')) if not n.startswith('.')}
 
-    concepticon = read_tsv(data_path('concepticon.tsv'))
+    read_tsv(data_path('concepticon.tsv'))
+    concepticon = read_tsv(data_path('concepticon.tsv'), unique='GLOSS')
 
     refs = set()
     with io.open(data_path('references', 'references.bib'), encoding='utf8') as fp:
@@ -57,8 +58,23 @@ def test():
             if ref not in refs:
                 error('unknown bibtex record "%s" referenced' % ref, clmd, i)
 
-    for name in conceptlists:
+    ref_cols = {
+        'CONCEPTICON_ID': set(cs[1]['ID'] for cs in concepticon),
+        'CONCEPTICON_GLOSS': set(cs[1]['GLOSS'] for cs in concepticon),
+    }
+
+    for name, concepts in conceptlists.items():
         assert name.replace('.tsv', '') in clids
+
+        missing = []
+        for line, concept in concepts:
+            for col, values in ref_cols.items():
+                if col not in concept:
+                    if col not in missing:
+                        error('missing column %s' % col, name)
+                        missing.append(col)
+                elif concept[col] and concept[col] not in values:
+                    error('invalid value for %s: %s' % (col, concept[col]), name, line)
 
     if not SUCCESS:
         raise ValueError('integrity checks failed!')
