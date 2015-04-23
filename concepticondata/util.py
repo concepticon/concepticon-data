@@ -2,7 +2,7 @@ import os
 import csv
 import shutil
 import re
-from collections import defaultdict
+from collections import defaultdict, OrderedDict
 
 import concepticondata
 
@@ -22,11 +22,13 @@ def data_path(*comps):
     return os.path.join(os.path.dirname(concepticondata.__file__), *comps)
 
 
-def tsv_items(path, reader=None):
-    reader = reader or csv.DictReader
+def tsv_items(path, ordered=False):
     items = []
     with open(path) as csvfile:
-        for item in reader(csvfile, delimiter='\t'):
+        reader = csv.DictReader(csvfile, delimiter='\t')
+        for item in reader:
+            if ordered:
+                item = OrderedDict([(k, item[k]) for k in reader.fieldnames])
             items.append(item)
     return items
 
@@ -55,39 +57,33 @@ def load_conceptlist(idf):
     Returns
     -------
     clist : dict
-        A dictionary with IDs as keys and a dictionary with column header
-        values as keys of the secondary dictionary. Duplicate links are passed
-        as "warnings" in a specific entry of the dictionary (named "warnings").
+        A dictionary with IDs as keys and OrderedDicts with the data from the row as
+        values. Duplicate links are passed as "splits" in a specific entry of the
+        dictionary (named "splits").
     """
-    data = tsv_items(idf, csv.reader)
+    data = tsv_items(idf, ordered=True)
+    if data:
+        clist = dict(header=list(data[0].keys()), splits=[], mergers=[])
+        cidxs = defaultdict(list)
 
-    # make a dictionary, store secondary stuff in warning set
-    warnings = []
-
-    header = data.pop(0)
-
-    cidxs = defaultdict(list)
-    clist = {'header': header}
-
-    preline = {}
-    for line in data:
-        if line[0] and line[0] not in clist:
-            clist[line[0]] = dict(zip(header, line))
-            preline = clist[line[0]]
-        else:
-            if preline:
-                newline = dict(zip(header, line))
-                for k, v in preline.items():
-                    if not newline[k]:
-                        newline[k] = v
-                warnings += [newline]
+        previous_item = None
+        for item in data:
+            if item['ID'] and item['ID'] not in clist:
+                previous_item = clist[item['ID']] = item
             else:
-                raise ValueError("line {0} is wrong".format(line))
-        cidxs[preline['CONCEPTICON_ID']].append(preline['ID'])
+                # a concept without ID or with duplicate ID
+                if previous_item:
+                    # complete data in item with that of the previous one (?)
+                    for k, v in previous_item.items():
+                        if not item[k]:
+                            item[k] = v
+                    clist['splits'].append(item)
+                else:
+                    raise ValueError("item {0} is wrong".format(item))
+            cidxs[previous_item['CONCEPTICON_ID']].append(previous_item['ID'])
 
-    clist['splits'] = warnings
-    clist['mergers'] = [cidxs[k] for k in cidxs if len(cidxs[k]) > 1]
-    return clist
+        clist['mergers'] = [cidxs[k] for k in cidxs if len(cidxs[k]) > 1]
+        return clist
 
 
 def write_conceptlist(clist, filename, header=False):
@@ -108,7 +104,7 @@ def write_conceptlist(clist, filename, header=False):
     with open(filename, 'w') as f:
         writer = csv.writer(f, delimiter='\t')
         writer.writerow(header)
-        for k in keys: 
+        for k in keys:
             v = clist[k]
             if k not in ['splits', 'mergers', 'header']:
                 writer.writerow([v[h] for h in header])
