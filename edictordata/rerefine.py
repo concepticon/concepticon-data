@@ -43,9 +43,9 @@ for k in concepticon:
         converter[k] = k
 
 for l in clists:
-
+    
     if 'new' not in l:
-
+        print(l.split('/')[-1])
         clist = load_conceptlist(l)
         for k,entry in clist.items():
             
