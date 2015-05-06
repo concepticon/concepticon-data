@@ -645,7 +645,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 644	2597	OAK	Agriculture and vegetation	Any tree of the genus Quercus in the order Fagales, characterized by simple, usually lobed leaves, scaly winter buds, a star-shaped pith, and its fruit, the acorn, which is a nut; the wood is tough, hard, and durable, generally having a distinct pattern.	Person/Thing
 645	2608	OCEAN	The physical world	The mass of water occupying all of the Earth's surface not occupied by land, but excluding all lakes and inland seas.	Person/Thing
 646	264	ASH	The physical world	The incombustible matter remaining after a substance has been incinerated.	Person/Thing
-647	2709	PAINT, PIGMENTS	Basic actions and technology	A mixture of pigment and a vehicle, such as oil or water, that together form a liquid or paste that can be applied to a surface to provide an adherent coating that imparts colour, protects the surface and/or gives the surface different features.	Person/Thing
+647	2709	PAINT (PIGMENTS)	Basic actions and technology	A mixture of pigment and a vehicle, such as oil or water, that together form a liquid or paste that can be applied to a surface to provide an adherent coating that imparts colour, protects the surface and/or gives the surface different features.	Person/Thing
 648	2713	PAPER	Speech and language	Felted or matted sheets of cellulose fibers, formed on a fine-wire screen from a dilute water suspension, and bonded together as the water is removed and the sheet is dried.	Person/Thing
 649	2725	PASTURE	Animals	Land covered with grass or herbage and grazed by or suitable for grazing by livestock.	Person/Thing
 650	2761	PETROLEUM	Modern world	A comparatively volatile liquid bitumen composed principally of hydrocarbon, with traces of sulphur, nitrogen or oxygen compounds; can be removed from the earth in a liquid state.	Person/Thing
@@ -1084,7 +1084,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1083	470273	MESS	The physical world	A state of confusion and disorderliness.	Person/Thing
 1084	470997	CALL	Speech and language	To order or summon by using one's voice.	Action/Process
 1085	471020	FOLLOW	Motion	To go or come after (in physical space) someone or something.	Action/Process
-1086	471303	WORK, ACTIVITY	Basic actions and technology	To do a specific task by employing physical or mental powers.	Action/Process
+1086	471303	WORK (ACTIVITY)	Basic actions and technology	To do a specific task by employing physical or mental powers.	Action/Process
 1087	474203	CONCEIVE	The body	To become pregnant.	Action/Process
 1088	474485	SINK, DESCEND	Motion	To cause a boat to go down in the water.	Action/Process
 1089	474721	FRAXINUS	Agriculture and vegetation	Any of the trees belonging to the genus Fraxinus.	Person/Thing
@@ -2108,7 +2108,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2107		HAIR OR FOREHEAD	The body	The head hear or the forehead of a person.	Person/Thing
 2108		RAINING OR RAIN	The physical world	The process by which water falls from the clouds.	Person/Thing
 2109		FEAR OR FRIGHTEN	Emotions and values	To be scared or to scare someone.	Action/Process
-2110		WARM (OF WEATHER)	The physical world	Having a pleasant temparture (of weather).	Other
+2110		WARM (OF WEATHER)	The physical world	Having a pleasant temparture (of weather).	Property
 2111		YOU TWO	Kinship	Addressing two persons (second person dual).	Other
 2112		OLD (AGED)	Time	To be old (of persons).	Other
 2113		OLD (USED)	Time	To be old (of things).	Other
@@ -2279,3 +2279,4 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2278		PERHAPS	Time	(Of an event) to be possible to occur or to have occured.	Action/Process
 2279		NO OR NOT	Cognition	A word used to show disagreement with something or to negate something.	Other
 2280		LOUSE OR NIT	Animals	A parasitic wingless insect that lives on humans and other mammals or the eggs that this insect produces.	Person/Thing
+2281		WORKING OR WORK	Basic actions and technology	The process by which one produces something (sometimes also in exchange for money).	Other	
