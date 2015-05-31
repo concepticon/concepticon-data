@@ -216,7 +216,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 215	1425860	LIE DOWN	Spatial relations	(For a human or animal) to assume a horizontally extended position on a surface.	Action/Process
 216	1431	MOVIE	Modern world	A sequence of animated images.	Person/Thing
 217	1431444	BETELNUT	Agriculture and vegetation	The seed of the areca palm (Areca catechu).	Person/Thing
-218	1444	FINE	Law	A pecuniary punishment or penalty imposed by lawful tribunal upon person convicted of crime or misdemeanor.	Person/Thing
+218	1444	FINE (PENALTY)	Law	A pecuniary punishment or penalty imposed by lawful tribunal upon person convicted of crime or misdemeanor.	Person/Thing
 219	1444087	TOILET	Modern world	A room equipped with a toilet for urinating and defecating.	Person/Thing
 220	1444665	INTACT	Basic actions and technology	That has not been impaired or altered; lacking nothing essential, especially not damaged	Property
 221	1446	FIRE	The physical world	The state of combustion in which inflammable material burns, producing heat, flames and often smoke.	Person/Thing
@@ -1398,7 +1398,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1397	5988	DULL	Sense perception	Lacking the ability to cut easily; not sharp.	Property
 1398	5989	DRY	Sense perception	(Almost) free from liquid or moisture.	Property
 1399	599	CLAY	Basic actions and technology	A loose, earthy, extremely fine-grained, natural sediment or soft rock composed primarily of clay-size or colloidal particles and characterized by high plasticity and by a considerable content of clay mineral and subordinate amounts of finely divided quartz, decomposed feldspar, carbonates, ferruginous matter, and other impurities; it forms a plastic, moldable mass when finely ground and mixed with water, retains its shape on drying, and becomes firm, rocklike and permanently hard on heating or firing.	Person/Thing
-1400	5990	THIN	Spatial relations	(Of a person or animal) Narrow in size, and usually indicating carrying little fat.	Property
+1400	5990	THIN (SLIM)	Spatial relations	Carrying little fat.	Property
 1401	5991	DRINK	Food and drink	To consume a liquid through the mouth.	Action/Process
 1402	5992	BREAST	The body	The fleshy organ on the chest of a sexually mature human female containing mammary glands.	Person/Thing
 1403	5993	BITE	The body	To cut off a piece by clamping the teeth.	Action/Process
@@ -2298,4 +2298,12 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2297		DUSK	Time	The darkest stage of twilight in the evening. [W]	Person/Thing
 2298		VIRGIN	Kinship	A person who has never engaged in sexual intercourse. [W: Virginity]	Person/Thing
 2299		STRAW	The physical world	The dry stalks of cereal plants, after the grain and chaff have been removed. [W]	Person/Thing
-2300		GREEN OR UNRIPE	Sense perception	Having a green color or being not ripe (of fruits).	Property	
+2300		GREEN OR UNRIPE	Sense perception	Having a green color or being not ripe (of fruits).	Property
+2301		ME	Kinship	Oblique cases of the first person singular pronoun.	Other
+2302		CIRCULAR (ROUND IN TWO DIMENSIONS)	Spatial relations	Having a circular shape.	Property
+2303		SPHERICAL (ROUND IN THREE DIMENSIONS)	Spatial relations	Having a spherical shape.	Property
+2304		THOU (OBLIQUE CASE)	Kinship	Oblique cases of the second person singular pronoun.	Other
+2305		THIN (OF HAIR AND THREAD)	Spatial relations	Being very narrow (of long objects, like &quot;hairs&quot; or &quot;wires&quot;).	Property
+2306		THIN (OF LEAF AND CLOTH)	Spatial relations	Being very narrow (of flat objects, like &quot;leaves&quot; or &quot;cloth).	Property
+2307		THIN (OF HAIR AND LEAF)	Spatial relations	Being very narrow (of flat or long objects).	Property
+2308		THIN	Spatial relations	Being very narrow or carrying a very small amount of fat.	Property
