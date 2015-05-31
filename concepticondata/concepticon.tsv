@@ -645,7 +645,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 644	2597	OAK	Agriculture and vegetation	Any tree of the genus Quercus in the order Fagales, characterized by simple, usually lobed leaves, scaly winter buds, a star-shaped pith, and its fruit, the acorn, which is a nut; the wood is tough, hard, and durable, generally having a distinct pattern.	Person/Thing
 645	2608	OCEAN	The physical world	The mass of water occupying all of the Earth's surface not occupied by land, but excluding all lakes and inland seas.	Person/Thing
 646	264	ASH	The physical world	The incombustible matter remaining after a substance has been incinerated.	Person/Thing
-647	2709	PAINT, PIGMENTS	Basic actions and technology	A mixture of pigment and a vehicle, such as oil or water, that together form a liquid or paste that can be applied to a surface to provide an adherent coating that imparts colour, protects the surface and/or gives the surface different features.	Person/Thing
+647	2709	PAINT (PIGMENTS)	Basic actions and technology	A mixture of pigment and a vehicle, such as oil or water, that together form a liquid or paste that can be applied to a surface to provide an adherent coating that imparts colour, protects the surface and/or gives the surface different features.	Person/Thing
 648	2713	PAPER	Speech and language	Felted or matted sheets of cellulose fibers, formed on a fine-wire screen from a dilute water suspension, and bonded together as the water is removed and the sheet is dried.	Person/Thing
 649	2725	PASTURE	Animals	Land covered with grass or herbage and grazed by or suitable for grazing by livestock.	Person/Thing
 650	2761	PETROLEUM	Modern world	A comparatively volatile liquid bitumen composed principally of hydrocarbon, with traces of sulphur, nitrogen or oxygen compounds; can be removed from the earth in a liquid state.	Person/Thing
@@ -730,7 +730,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 729	338616	DAWN	Time	A period of time at the beginning of the day shortly before sunrise during which the light gradually becomes stronger.	Person/Thing
 730	3388	SNAKE	Animals	Any reptile of the suborder Serpentes, typically having a scaly cylindrical limbless body, fused eyelids, and a jaw modified for swallowing large prey.	Person/Thing
 731	339	DRINK (FLUID)	Food and drink	Any one of various liquids for drinking.	Person/Thing
-732	339008	YOURS	Miscellaneous function words	Belonging to you.	Other
+732		YOUR (SINGULAR)	Possession	belonging to the second person that is addressed by the first person.	Other
 733	339161	EARN	Possession	To gain (success) through applied effort or work.	Action/Process
 734	339200	MAKE	Basic actions and technology	To create something by combining or assembling materials or parts or by changing it.	Action/Process
 735	339205	OWL	Animals	A solitary, mainly nocturnal bird of prey, belonging to the order Strigiformes; it has large forward-facing eyes and ears and a hawk-like beak, and it can turn its head 180 degrees around.	Person/Thing
@@ -937,7 +937,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 936	399816	STALLION	Animals	An uncastrated male horse.	Person/Thing
 937	400	BIRD	Animals	Any of the bipedal, warm-blooded vertebrates that lay eggs having wings which, for most species, enables them to fly.	Person/Thing
 938	400028	MARE	Animals	An adult female horse.	Person/Thing
-939	401769	HORN, INSTRUMENT	Speech and language	A wind instrument made of a wound copper tube with a wide sound bucket and valves.	Person/Thing
+939	401769	HORN (INSTRUMENT)	Speech and language	A wind instrument made of a wound copper tube with a wide sound bucket and valves.	Person/Thing
 940	402886	STRAIN	Food and drink	To separate or isolate components from one another with the help of a filter.	Action/Process
 941	403676	MEAD	Food and drink	Wine made of honey.	Person/Thing
 942	404630	HONEY	Food and drink	A viscous, sweet substance produced from nectar or honeydew by bees.	Person/Thing
@@ -1084,7 +1084,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1083	470273	MESS	The physical world	A state of confusion and disorderliness.	Person/Thing
 1084	470997	CALL	Speech and language	To order or summon by using one's voice.	Action/Process
 1085	471020	FOLLOW	Motion	To go or come after (in physical space) someone or something.	Action/Process
-1086	471303	WORK, ACTIVITY	Basic actions and technology	To do a specific task by employing physical or mental powers.	Action/Process
+1086	471303	WORK (ACTIVITY)	Basic actions and technology	To do a specific task by employing physical or mental powers.	Action/Process
 1087	474203	CONCEIVE	The body	To become pregnant.	Action/Process
 1088	474485	SINK, DESCEND	Motion	To cause a boat to go down in the water.	Action/Process
 1089	474721	FRAXINUS	Agriculture and vegetation	Any of the trees belonging to the genus Fraxinus.	Person/Thing
@@ -1483,7 +1483,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1482	6186	SHOULDER	The body	One side of the top of the torso, where an arm attaches or joins.	Person/Thing
 1483	6193	NINE	Quantity	The ninth natural number (9).	Other
 1484	6195	OIL	Food and drink	Fat in a liquid form.	Person/Thing
-1485	6199	BELOW, UNDER	Spatial relations	Lower in spatial position than.	Other
+1485	6199	BELOW OR UNDER	Spatial relations	Lower in spatial position than.	Other
 1486	619975	PLANT (SOMETHING)	Agriculture and vegetation	To put a plant in the ground so that it strikes root and grows.	Action/Process
 1487	621011	POUR	Basic actions and technology	To cause a liquid to flow into a container.	Action/Process
 1488	622752	FAUCET	Modern world	A device applied to the end of a pipe in order to interrupt and regulate the flow of a liquid or gas.	Person/Thing
@@ -1723,7 +1723,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1722	7022	EIGHTY	Quantity	The cardinal number occurring after seventy-nine and before eighty-one, represented in Roman numerals as LXXX and in Arabic numerals as 80.	Other
 1723	702227	RESULT IN	Cognition	Having a specific result, a logical consequence.	Action/Process
 1724	7023	NINETY	Quantity	The cardinal number occurring after eighty-nine and before ninety-one, represented in Roman numerals as XC and in Arabic numerals as 90.	Other
-1725	7026	CORRECT, RIGHT	Emotions and values	That are in accordance with fact.	Property
+1725	7026	CORRECT (RIGHT)	Emotions and values	That are in accordance with fact.	Property
 1726	7027	WET	Sense perception	Covered with or impregnated with liquid.	Property
 1727	702756	THRESHOLD	The house	The bottom-most part of a doorway that one crosses to enter; a sill.	Person/Thing
 1728	7031	ROTTEN	Food and drink	Having changed its colour, smell or composition (partially or completely), due to being attacked and decomposed by microorganisms (relating to organic matter).	Property
@@ -2054,7 +2054,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2053		SMALL BOWL	Food and drink	A small utensil for eating fluid food.	Person/Thing
 2054	6258	CHOPSTICK	Food and drink	A utensil in the form of a narrow stick used in pairs in China, Japan, Korea, and Vietnam to eat food.	Person/Thing
 2055		CLAY POT	Food and drink	A container for food and other things made from clay.	Person/Thing
-2056		WOK	Food and Drink	A versatile round-bottomed cooking vessel, originated from China.	Person/Thing
+2056		WOK	Food and drink	A versatile round-bottomed cooking vessel, originated from China.	Person/Thing
 2057	1275135	DUNG (ANIMAL FAECES)	Animals	Animal faeces.	Person/Thing
 2058	428644	STOOL	The house	A chair without back and arm rests.	Person/Thing
 2059		FOLK SONG	Speech and language	A traditional piece of music with words to sing.	Person/Thing
@@ -2075,7 +2075,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2074	1240308	CROW (VERB)	Basic actions and technology	To utter the characteristic cry of a rooster.	Action/Process
 2075	1463646	BROOD (VERB)	Animals	To keep an egg warm to make it hatch.	Action/Process
 2076		SPROUT (VERB)	Basic actions and technology	The process by which a plant grows from a seed.	Action/Process
-2077	630824	DILIGENT	Emotions and values	Being busy-working.	Person/Thing
+2077	630824	DILIGENT	Emotions and values	Being busy-working.	Property
 2078	462623	TEN THOUSAND	Quantity	Ten to the power of four.	Person/Thing
 2079		CUNNING PERSON	Emotions and values	A smart and witty person.	Person/Thing
 2080		BOWL (CLASSIFIER)	Quantity	classifier for bowl-like objects	Classifier
@@ -2108,7 +2108,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2107		HAIR OR FOREHEAD	The body	The head hear or the forehead of a person.	Person/Thing
 2108		RAINING OR RAIN	The physical world	The process by which water falls from the clouds.	Person/Thing
 2109		FEAR OR FRIGHTEN	Emotions and values	To be scared or to scare someone.	Action/Process
-2110		WARM (OF WEATHER)	The physical world	Having a pleasant temparture (of weather).	Other
+2110		WARM (OF WEATHER)	The physical world	Having a pleasant temparture (of weather).	Property
 2111		YOU TWO	Kinship	Addressing two persons (second person dual).	Other
 2112		OLD (AGED)	Time	To be old (of persons).	Other
 2113		OLD (USED)	Time	To be old (of things).	Other
@@ -2145,12 +2145,12 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2144		SPRING OR WELL	The physical world	A natural or human-made source of fresh water.	Person/Thing
 2145		ROAST (DEVICE)	Food and drink	A device that is used to roast meat or vegetables.	Person/Thing
 2146		ROAST OR FRY	Food and drink	Preparing food by exposing it to open fire or to hot fat.	Action/Process
-2147		WHO OR WHAT	Cognitions	What person or which thing.	Other
+2147		WHO OR WHAT	Cognition	What person or which thing.	Other
 2148		PICK	Basic actions and technology	To take off the fruits or other useful parts of a plant.	Action/Process
 2149		CHOP (INTO PIECES)	Basic actions and technology	To use a knife or a similar tool to cut something into small pieces.	Action/Process
 2150		MATTER	Possession	That which is considered to exist as a separate physical entity.	Person/Thing
 2151		COARSE	Spatial relations	Unrefined with reference to material.	Property
-2152		THERE IS OR THERE ARE	Miscelleneous function words	Existing from the perspective of the speaker.	Action/Process
+2152		THERE IS OR THERE ARE	Miscellaneous function words	Existing from the perspective of the speaker.	Action/Process
 2153		CARRY PERSON ON BACK	Motion	To hold or take some person fron one place to another on the back.	Action/Process
 2154	844804	PLOUGH (INSTRUMENT)	Agriculture and vegetation	An agricultural device pulled through the ground in order to break it open into furrows for planting.	Person/Thing
 2155		CUT (WITH SCISSORS)	Basic actions and technology	To divide into pieces with help of scissors, especially things like a rope, a piece of cloth, or a piece of paper.	Action/Process
@@ -2256,7 +2256,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2255		FATHER-IN-LAW (OF MAN)	Kinship	The father-in-law of a man.	Person/Thing
 2256		MOTHER-IN-LAW (OF WOMAN)	Kinship	The mother-in-law of a woman.	Person/Thing
 2257		MOTHER-IN-LAW (OF MAN)	Kinship	The mother-in-law of a man.	Person/Thing
-2258		SET ALIGHT (SOMETHING)	The physical work	To make something burn.	Action/Process
+2258		SET ALIGHT (SOMETHING)	The physical world	To make something burn.	Action/Process
 2259		FLESH (OF A HUMAN)	The body	The meat of a human being.	Person/Thing
 2260		FEMALE (OF PERSON)	Kinship	Relating to the female sex of humans.	Property
 2261		MALE (OF PERSON)	Kinship	Relating to the male sex of humans.	Property
@@ -2272,3 +2272,29 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2271		THINK	Cognition	Use ones mental power to form ideas or having used ones mental power to form ideas of conviction or belief.	Action/Process
 2272		WARM OR HOT	Sense perception	Having a higher temperature than normal.	Property
 2273		LEECH	Animals	Segmented worms that belong to the phylum Annelida and comprise the subclass Hirudinea.	Person/Thing
+2274		YOUR (PLURAL)	Possession	Belonging to the second person that is addressed by the first person, with the second person being many persons and not just one.	Other
+2275	5966	SHADOW	The physical world	Darkness, where light (particularly sunlight) is blocked.	Person/Thing
+2276	6406	IDENTICAL	Spatial relations	Being the same.	Property
+2277		WHOLE	Spatial relations	In its entirety.	Property
+2278		PERHAPS	Time	(Of an event) to be possible to occur or to have occured.	Action/Process
+2279		NO OR NOT	Cognition	A word used to show disagreement with something or to negate something.	Other
+2280		LOUSE OR NIT	Animals	A parasitic wingless insect that lives on humans and other mammals or the eggs that this insect produces.	Person/Thing
+2281		WORKING OR WORK	Basic actions and technology	The process by which one produces something (sometimes also in exchange for money).	Other
+2282		SEA OR OCEAN	The physical world	A large body of salt water which is in proximity to a continent.	Person/Thing
+2283		SEMEN	The body	An organic fluid that may contain spermatozoa. It is secreted by the gonads (sexual glands) and other sexual organs of male or hermaphroditic animals and can fertilize female ova. [W]	Person/Thing
+2284		CLEARING	The physical world	A part of a forest that contains no trees.	Person/Thing
+2285		ECLIPSE	The physical world	An astronomical event that occurs when an astronomical object is temporarily obscured, either by passing into the shadow of another body or by having another body pass between it and the viewer. [W]	Person/Thing
+2286		ESTUARY	The physical world	A partly enclosed coastal body of brackish water with one or more rivers or streams flowing into it, and with a free connection to the open sea. [W]	Person/Thing
+2287		HORIZON	The physical world	The apparent line that separates earth from sky, the line that divides all visible directions into two categories: those that intersect the Earth's surface, and those that do not. [W]	Person/Thing
+2288		METEROID (SHOOTING OR SHINING STAR)	The physical world	 The visible path of a meteoroid as it enters the atmosphere, becoming a meteor. [W: Shooting star]	Person/Thing
+2289		MILKY WAY	The physical world	The galaxy that contains our Solar System. Its name "milky" is derived from its appearance as a dim glowing band arching across the night sky in which the naked eye cannot distinguish individual stars. [W]	Person/Thing
+2290		PUDDLE	The physical world	A small accumulation of liquid, usually water, on a surface. It can form either by pooling in a depression on the surface, or by surface tension upon a flat surface. Puddles are usually formed from rain water or from irrigation. [W]	Person/Thing
+2291		VOLCANO	The physical world	A rupture on the crust of a planetary-mass object, such as Earth, that allows hot lava, volcanic ash, and gases to escape from a magma chamber below the surface. [W]	Person/Thing
+2292		GLASSES	Basic actions and technology	Frames bearing lenses worn in front of the eyes used for vision correction. [W]	Person/Thing	
+2293		UVULA	The body	A conic projection from the posterior edge of the middle of the soft palate. [W:Palatine Uvula]	Person/Thing
+2294		WRINKLE	The body	A fold, ridge or crease in the skin. [W]	Person/Thing
+2295		SUNSET	Time	The daily disappearance of the Sun below the western horizon as a result of Earth's rotation. [W]	Person/Thing
+2296		SUNRISE	Time	The instant at which the upper edge of the Sun appears over the eastern horizon in the morning. [W]	Person/Thing
+2297		DUSK	Time	The darkest stage of twilight in the evening. [W]	Person/Thing
+2298		VIRGIN	Kinship	A person who has never engaged in sexual intercourse. [W: Virginity]	Person/Thing
+2299		STRAW	The physical world	The dry stalks of cereal plants, after the grain and chaff have been removed. [W]	Person/Thing
