@@ -41,7 +41,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 40	1086952	ENVY	Emotions and values	A feeling of discontent or covetousness with regard to another's advantages, success, possessions, etc.	Person/Thing
 41	1089331	IGNORE	Cognition	To be ignorant of or in the dark about.	Action/Process
 42	1089734	STINKING	Sense perception	Having a bad smell.	Property
-43	1091895	LEAD, GUIDE	Motion	To move ahead (of others) in time or space.	Action/Process
+43	1091895	LEAD (GUIDE)	Motion	To move ahead (of others) in time or space.	Action/Process
 44	1092621	INJURE	Possession	To cause physical harm to a living creature.	Action/Process
 45	1098473	EVIL	Emotions and values	Intending to harm.	Property
 46	1101921	HOLLOW OUT	Basic actions and technology	To make a hole in something.	Action/Process
@@ -128,7 +128,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 127	1255943	EXTINGUISH	The physical world	To make something stop burning.	Action/Process
 128	1258410	MUMBLE	Speech and language	To speak unintelligibly and without articulating.	Action/Process
 129	1260643	CHOKE	Food and drink	To squeeze the neck in order to compress the carotide and/or trachea, possibly leading to unconsciousness or death.	Action/Process
-130	1262281	FREE OF CHARGE	Possession	Without cost.	Other
+130	1262281	GRATIS (OF CHARGE)	Possession	Without cost.	Other
 131	1273978	FESTIVAL	Social and political relations	Manifestation of collective joy, lasting longer than a few minutes.	Person/Thing
 132	1275504	SAUCE	Food and drink	A liquid food accompanying a dish.	Person/Thing
 133	1280854	WEAVE	Clothing and grooming	To make, as fabric, by enterlacing threads.	Action/Process
@@ -248,7 +248,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 247	1501856	TAN	The house	To treat skins and hides with tannic acid so as to convert them into leather.	Action/Process
 248	1501924	HAPPEN	Basic actions and technology	To come to pass.	Action/Process
 249	1502	FOG	The physical world	Water droplets or, rarely, ice crystals suspended in the air in sufficient concentration to reduce visibility appreciably.	Person/Thing
-250	1502678	LIGHT COLOR	Sense perception	(of color) having a relatively small amount of color components.	Property
+250	1502678	LIGHT (COLOR)	Sense perception	(of color) having a relatively small amount of color components.	Property
 251	1503230	SHARPEN (SOMETHING)	Basic actions and technology	To make sharp or sharper.	Action/Process
 252	1504545	FRIGHTEN	Sense perception	To make someone afraid or anxious.	Action/Process
 253	1504671	CARE FOR	Social and political relations	To keep under careful scrutiny.	Action/Process
@@ -628,7 +628,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 627	2119	LEAD, CHEMICAL ELEMENT	Basic actions and technology	A heavy toxic bluish-white metallic element with symbol Pb and atomic number 82 that is highly malleable; occurs principally as galena and is used in alloys, accumulators, cable sheaths, paints, and as a radiation shield.	Person/Thing
 628	2124	LEAF	Agriculture and vegetation	The main organ of photosynthesis and transpiration in higher plants, usually consisting of a flat green blade attached to the stem directly or by a stalk.	Person/Thing
 629	2126	LEATHER	Clothing and grooming	The dressed or tanned hide of an animal, usually with the hair removed.	Person/Thing
-630	2158	LIGHT RADIATION	The physical world	Electromagnetic radiation that is capable of causing a visual sensation. (Source: CED)	Person/Thing
+630	2158	LIGHT (RADIATION)	The physical world	Electromagnetic radiation that is capable of causing a visual sensation. (Source: CED)	Person/Thing
 631	2183	LIVESTOCK	Animals	Cattle, horses, and similar animals kept for domestic use especially on a farm.	Person/Thing
 632	2189	LIZARD	Animals	Any reptile of the suborder Lacertilia, especially those of the family Lacertidae, typically having an elongated body, four limbs, and a small tail: includes the gechos, iguanas, chameleons, monitors, and slow worms.	Person/Thing
 633	2276	MARKET	Possession	Place of commercial activity in which articles are bought and sold.	Person/Thing
@@ -2302,9 +2302,18 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2301		ME	Kinship	Oblique cases of the first person singular pronoun.	Other
 2302		CIRCULAR (ROUND IN TWO DIMENSIONS)	Spatial relations	Having a circular shape.	Property
 2303		SPHERICAL (ROUND IN THREE DIMENSIONS)	Spatial relations	Having a spherical shape.	Property
-2304		THOU (OBLIQUE CASE)	Kinship	Oblique cases of the second person singular pronoun.	Other
+2304		THEE (OBLIQUE CASE OF YOU)	Kinship	Oblique cases of the second person singular pronoun.	Other
 2305		THIN (OF HAIR AND THREAD)	Spatial relations	Being very narrow (of long objects, like &quot;hairs&quot; or &quot;wires&quot;).	Property
 2306		THIN (OF LEAF AND CLOTH)	Spatial relations	Being very narrow (of flat objects, like &quot;leaves&quot; or &quot;cloth).	Property
 2307		THIN (OF HAIR AND LEAF)	Spatial relations	Being very narrow (of flat or long objects).	Property
 2308		THIN	Spatial relations	Being very narrow or carrying a very small amount of fat.	Property
 2309	6028	LIVE	The body	To be alive; to have a life.	Action/Process
+2310		US (OBLIQUE CASE OF WE)	Kinship	Oblique case of the first person plural pronoun.	Other
+2311	1533	WOODS	The physical world	A vegetation community dominated by trees and other woody shrubs, growing close enough together that the tree tops touch or overlap, creating various degrees of shade on the forest floor.	Person/Thing
+2312		YOU (OBLIQUE CASE OF YOU)	The oblique case of the second person plural pronoun.	Other
+2313		BRONZE	The physical world	An alloy consisting primarily of copper and the addition of other metals (usually tin) and sometimes arsenic, phosphorus, aluminium, manganese, and silicon. [W]	Person/Thing
+2314		BROTHER-IN-LAW	Kinship	The brother of one's partner in a marriage.	Person/Thing
+2315		COOK (PERSON)	Food and drink	The person who prepares food.	Person/Thing
+2316		FREE	Possession	Able to act at will; not hampered; not under compulsion or restraint. [B:bn:00103299a]	Property
+2317		SISTER-IN-LAW	Kinship	The sister of one's partner in a marriage.	Person/Thing
+
