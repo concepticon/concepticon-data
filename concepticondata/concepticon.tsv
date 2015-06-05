@@ -641,7 +641,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 640	2428	MUD	The physical world	A mixture of clay and/or silt with water to form a plastic mass with a particle size preponderantly below 0.06 mm diameter. It is deposited in low-energy environments in lakes, estuaries and lagoons. It may also be deposited in deep-sea environments. (Source: WHIT)	Person/Thing
 641	2444	MUSHROOM	Agriculture and vegetation	An organism belonging to a family of Basidiomycetes that are characterized by the production of spores on gills.	Person/Thing
 642	2445	MUSIC	Modern world	The artistic organisation of sounds or tones that expresses ideas and emotions through the elements of rhythm, melody, harmony and tonal colour.	Person/Thing
-643	2497	NEED	Cognition	The fact or an instance of feeling the lack of something.	Person/Thing
+643	2497	NEED (NOUN)	Cognition	The fact or an instance of feeling the lack of something.	Person/Thing
 644	2597	OAK	Agriculture and vegetation	Any tree of the genus Quercus in the order Fagales, characterized by simple, usually lobed leaves, scaly winter buds, a star-shaped pith, and its fruit, the acorn, which is a nut; the wood is tough, hard, and durable, generally having a distinct pattern.	Person/Thing
 645	2608	OCEAN	The physical world	The mass of water occupying all of the Earth's surface not occupied by land, but excluding all lakes and inland seas.	Person/Thing
 646	264	ASH	The physical world	The incombustible matter remaining after a substance has been incinerated.	Person/Thing
@@ -651,7 +651,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 650	2761	PETROLEUM	Modern world	A comparatively volatile liquid bitumen composed principally of hydrocarbon, with traces of sulphur, nitrogen or oxygen compounds; can be removed from the earth in a liquid state.	Person/Thing
 651	2810	SEAL	Animals	A mammal belonging to the Pinnipedia, an order of aquatic placental mammals having a streamlined body and limbs specialized as flippers: includes seals, sea lions, and the walrus.	Person/Thing
 652	2813	PLAIN	The physical world	An extensive, broad tract of level or rolling, almost treeless land with a shrubby vegetation, usually at a low elevation.	Person/Thing
-653	2836	PLANT, VEGETATION	Agriculture and vegetation	Any living organism that synthesizes its food from inorganic substances, possesses cellulose cell walls, responds slowly and often permanently to a stimulus, lacks specialized sense organs and nervous system, and has no powers of locomotion.	Person/Thing
+653	2836	PLANT (VEGETATION)	Agriculture and vegetation	Any living organism that synthesizes its food from inorganic substances, possesses cellulose cell walls, responds slowly and often permanently to a stimulus, lacks specialized sense organs and nervous system, and has no powers of locomotion.	Person/Thing
 654	2840	PLASTIC	Modern world	A polymeric material (usually organic) of large molecular weight which can be shaped by flow; usually refers to the final product with fillers, plasticizers, pigments, and stabilizers included (versus the resin, the homogeneous polymeric starting material); examples are polyvinyl chloride, polyethylene, and urea-formaldehyde.	Person/Thing
 655	2847	POISON	The body	A substance which, when ingested, inhaled, or absorbed, or when applied to, injected into, or developed within the body, in relatively small amounts, may cause injury, harm, or destruction to organs, tissue, or life.	Person/Thing
 656	2852	POLICE	Modern world	Branch of the government which is charged with the preservation of public order, the promotion of public health and safety, and the prevention, detection, and punishment of crimes.	Person/Thing
@@ -2328,3 +2328,42 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2327		BECOME SICK	Basic actions and technology	To catch a disease.	Action/Process
 2328		MISS (SOMEBODY)	Basic actions and technology	To long to see somebody again.	Action/Process
 2329		LACK (NOT HAVE)	Basic actions and technology	To lack something or to describe the state when something is not there.	Action/Process
+2330		YEAR AFTER NEXT YEAR	Time	The year after the next year.	Other
+2331		YEAR BEFORE LAST YEAR	Time	The year before the last year.	Other
+2332		THREE DAYS FROM NOW	Time	Three days from today.	Other
+2333		THREE DAYS BEFORE NOW	Time	Three days before today.	Other
+2334		MELT	The physical world	To make a transition from a solid state (as of frozen water) to a liquid state.	Action/Process
+2335		CUNNING	Emotions and values	To be smart and witty.	Property
+2336		OF THIS KIND (SUCH)	Miscellaneous function words	In this way, such, etc.	Other
+2337		OF THAT KIND (SUCH)	Miscellaneous function words	In that way, such, etc.	Other
+2338		HOW LONG	Time	Asking for the duration of an event.	Other
+2339		NEED (SOMETHING)	Cognition	Feeling the desire or the urge for something.	Other
+2340		SUNNY	The physical world	Full of sunshine (mostly referring to &quot;a sunny day&quot;).	Property
+2341		CLOUDY	The physical world	Full of clouds (mostly referring to &quot;a cloudy day&quot;).	Property
+2342		LANDSCAPE	The physical world	The visible features of a land. [W]	Person/Thing
+2343		STEEL	Basic actions and technology	Alloys of iron and carbon, widely used in construction and other applications because of their high tensile strengths and low costs. [W]	Person/Thing	
+2344		PETROL	Modern world	A transparent, petroleum-derived liquid that is used primarily as a fuel in internal combustion engines.	Person/Thing
+2345		LEPORID (RABBIT OR HARE)	Animals	Mammal of the family hares and rabbits (Leporidae) with long ears, short tail and hindlegs which are shorter than the forelegs and permit running quickly.	Person/Thing
+2346		CRESTED MYNA	Animals	A species of starling native to southeastern China and Indochina. [W]	Person/Thing
+2347		YELLOW CROAKER	Animals	A species of croaker native to the western Pacific, generally in temperate waters such as the East China Sea and the Yellow Sea. [W: Red yellow croaker]	Person/Thing
+2348		CRAB	Animals	 decapod crustaceans of the infraorder Brachyura, which typically have a very short projecting &quot;tail&quot; (abdomen) (Greek: βραχύς / brachys = short, οὐρά / οura = tail), usually entirely hidden under the thorax. [W]	Person/Thing
+2349		SHRIMP	Animals	Refers to some decapod crustaceans, although the exact animals covered can vary. Used broadly, it may cover any of the groups with elongated bodies and a primarily swimming mode of locomotion – chiefly Caridea and Dendrobranchiata. [W]	Person/Thing
+2350		EARTHWORM	Animals	A tube-shaped, segmented worm found in the phylum Annelida. [W]	Person/Thing
+2351		SILKWORM	Animals	The larva or caterpillar of the domesticated silkmoth (Bombyx mori) [W]	Person/Thing
+2352		DRAGONFLY	Animals	---	Person/Thing
+2353		CICADA	Animals	 Insects in the order Hemiptera, suborder Auchenorrhyncha. [W]	Person/Thing
+2354		CRICKET	Animals	Insects related to grasshoppers. [W: Cricket (insect)]	Person/Thing
+2355		GECKO	Animals	 Lizards belonging to the infraorder Gekkota, found in warm climates throughout the world. They r [W]	Person/Thing
+2356		CHINESE PLUM	Agriculture and vegetation	An Asian tree species classified in the Armeniaca section of the genus Prunus subgenus Prunus. [W: Prunus mune]	Person/Thing
+2357		APRICOT TREE	Agriculture and vegetation	A tree that bears the apricot fruit.	Person/Thing
+2358		PEACH TREE	Agriculture and vegetation	The tree that bears peaches as fruits.	Person/Thing
+2359		LOTUS	Agriculture and vegetation	One of two species of aquatic plant in the family Nelumbonaceae. [W: Nelumbo nucifera]
+2360		OSMANTHUS FRAGRANS	Agriculture and vegetation	 A species native to Asia from the Himalayas through southern China (Guizhou, Sichuan, Yunnan) to Taiwan and southern Japan and southeast Asia as far south as Cambodia and Thailand. [W: Osmanthus fragrans]	Person/Thing
+2361		MUGWORT	Agriculture and vegetation	A common name for several species of aromatic plants in the genus Artemisia. [W]	Person/Thing
+2362		BRAN	Agriculture and vegetation	The hard outer layers of cereal grain. It consists of the combined aleurone and pericarp. [W]	Person/Thing
+2363		CHAFF (HUSK)	Agriculture and vegetation	The outer shell or coating of a seed. [W]	Person/Thing
+2364		PEANUT	Agriculture and vegetation	 A species in the family Fabaceae (commonly known as the bean, pea or legume family). [W]	Person/Thing
+2365		RADISH	Agriculture and vegetation	An edible root vegetable of the Brassicaceae family that was domesticated in Europe in pre-Roman times. [W]	Person/Thing
+2366		ONION	Agriculture and vegetation	A vegetable and is the most widely cultivated species of the genus Allium. [W]	Person/Thing
+2367		MANDARINE	Agriculture and vegetation	 A small citrus tree with fruit resembling other oranges. Mandarin oranges are usually eaten plain or in fruit salads. [W: Mandarine orange]	Person/Thing
+2368		GARLIC	Agriculture and vegetation	 A species in the onion genus, Allium. [W]	Person/Thing
