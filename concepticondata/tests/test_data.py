@@ -64,6 +64,7 @@ def test():
     }
 
     for name, concepts in conceptlists.items():
+        print(name)
         assert name.replace('.tsv', '') in clids
 
         missing = []
