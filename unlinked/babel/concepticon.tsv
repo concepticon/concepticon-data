@@ -41,7 +41,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 40	1086952	ENVY	Emotions and values	A feeling of discontent or covetousness with regard to another's advantages, success, possessions, etc.	Person/Thing
 41	1089331	IGNORE	Cognition	To be ignorant of or in the dark about.	Action/Process
 42	1089734	STINKING	Sense perception	Having a bad smell.	Property
-43	1091895	LEAD (GUIDE)	Motion	To move ahead (of others) in time or space.	Action/Process
+43	1091895	LEAD, GUIDE	Motion	To move ahead (of others) in time or space.	Action/Process
 44	1092621	INJURE	Possession	To cause physical harm to a living creature.	Action/Process
 45	1098473	EVIL	Emotions and values	Intending to harm.	Property
 46	1101921	HOLLOW OUT	Basic actions and technology	To make a hole in something.	Action/Process
@@ -100,7 +100,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 99	1175443	HUNCHBACK	Spatial relations	A person whose back is hunched because of abnormal curvature of the upper spine.	Person/Thing
 100	1176245	FAITHFUL	Emotions and values	Steadfast in affection.	Property
 101	1176597	BOAST	Speech and language	To show off.	Action/Process
-102	1178541	COMMON COLD (DISEASE)	The body	A contagious, viral infectious disease of the upper respiratory system; common symptoms include cough, sore throat, runny nose, nasal congestion and sneezing.	Person/Thing
+102	1178541	COLD (DISEASE)	The body	A contagious, viral infectious disease of the upper respiratory system; common symptoms include cough, sore throat, runny nose, nasal congestion and sneezing.	Person/Thing
 103	1182947	FORNICATE	The body	To have sexual intercourse outside of marriage, especially with varying partners.	Action/Process
 104	1187180	HAILING	The physical world	To fall from the clouds in form of ball or lumps of ice.	Action/Process
 105	1188104	MATTRESS	Modern world	A pad on which a person can recline and sleep.	Person/Thing
@@ -128,7 +128,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 127	1255943	EXTINGUISH	The physical world	To make something stop burning.	Action/Process
 128	1258410	MUMBLE	Speech and language	To speak unintelligibly and without articulating.	Action/Process
 129	1260643	CHOKE	Food and drink	To squeeze the neck in order to compress the carotide and/or trachea, possibly leading to unconsciousness or death.	Action/Process
-130	1262281	GRATIS (OF CHARGE)	Possession	Without cost.	Other
+130	1262281	FREE OF CHARGE	Possession	Without cost.	Other
 131	1273978	FESTIVAL	Social and political relations	Manifestation of collective joy, lasting longer than a few minutes.	Person/Thing
 132	1275504	SAUCE	Food and drink	A liquid food accompanying a dish.	Person/Thing
 133	1280854	WEAVE	Clothing and grooming	To make, as fabric, by enterlacing threads.	Action/Process
@@ -159,7 +159,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 158	1335540	PUT ON	Clothing and grooming	to move or place (anything) so as to get it into or out of a specific location or position.	Action/Process
 159	1336889	SWEET POTATO	Agriculture and vegetation	A dicotyledonous plant of the family Convolvulaceae, having an edible tuberous root.	Person/Thing
 160	1337057	SET	The physical world	[Of a heavenly body, essentially the Sun and the Moon] To disappear below the horizon of a planet or another heavenly body (most often the Earth).	Action/Process
-161	1337987	MISS (A TARGET)	Warfare and hunting	To fail to hit (a target, a bell, etc.).	Action/Process
+161	1337987	MISS	Warfare and hunting	To fail to hit (a target, a bell, etc.).	Action/Process
 162	1339563	HICCOUGH	The body	To have spasms of the diaphragm.	Action/Process
 163	1341728	BLACK	Sense perception	Dark and colourless; not reflecting visible light.	Property
 164	1355026	KANGAROO	Animals	A marsupial from the family Macropodidae having powerful hind legs and large feet for leaping.	Person/Thing
@@ -216,7 +216,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 215	1425860	LIE DOWN	Spatial relations	(For a human or animal) to assume a horizontally extended position on a surface.	Action/Process
 216	1431	MOVIE	Modern world	A sequence of animated images.	Person/Thing
 217	1431444	BETELNUT	Agriculture and vegetation	The seed of the areca palm (Areca catechu).	Person/Thing
-218	1444	FINE (PENALTY)	Law	A pecuniary punishment or penalty imposed by lawful tribunal upon person convicted of crime or misdemeanor.	Person/Thing
+218	1444	FINE	Law	A pecuniary punishment or penalty imposed by lawful tribunal upon person convicted of crime or misdemeanor.	Person/Thing
 219	1444087	TOILET	Modern world	A room equipped with a toilet for urinating and defecating.	Person/Thing
 220	1444665	INTACT	Basic actions and technology	That has not been impaired or altered; lacking nothing essential, especially not damaged	Property
 221	1446	FIRE	The physical world	The state of combustion in which inflammable material burns, producing heat, flames and often smoke.	Person/Thing
@@ -248,7 +248,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 247	1501856	TAN	The house	To treat skins and hides with tannic acid so as to convert them into leather.	Action/Process
 248	1501924	HAPPEN	Basic actions and technology	To come to pass.	Action/Process
 249	1502	FOG	The physical world	Water droplets or, rarely, ice crystals suspended in the air in sufficient concentration to reduce visibility appreciably.	Person/Thing
-250	1502678	LIGHT (COLOR)	Sense perception	(of color) having a relatively small amount of color components.	Property
+250	1502678	LIGHT COLOR	Sense perception	(of color) having a relatively small amount of color components.	Property
 251	1503230	SHARPEN (SOMETHING)	Basic actions and technology	To make sharp or sharper.	Action/Process
 252	1504545	FRIGHTEN	Sense perception	To make someone afraid or anxious.	Action/Process
 253	1504671	CARE FOR	Social and political relations	To keep under careful scrutiny.	Action/Process
@@ -289,7 +289,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 288	1507103	FORGE	Basic actions and technology	To create and mold by hammering.	Action/Process
 289	1507122	MOLD	Basic actions and technology	To create something, usually for a specific function.	Action/Process
 290	1507412	ADZE	Basic actions and technology	A sharp tool with the blade at a right angle to the handle, used to shape pieces of wood	Person/Thing
-291	1507419	PULL OFF (SKIN)	Basic actions and technology	Strip or pull off the skin or hide of	Action/Process
+291	1507419	PULL OF SKIN	Basic actions and technology	Strip or pull off the skin or hide of	Action/Process
 292	1507427	RUG	Basic actions and technology	A piece of thick cloth or wool that is smaller than a carpet and is put on the floor as decoration	Person/Thing
 293	1507431	NETBAG	Basic actions and technology	Bag made of net used to carry things	Person/Thing
 294	1507435	TUMPLINE	Basic actions and technology	A strap slung over the forehead or chest used (especially by native Americans) for carrying packs or loads	Person/Thing
@@ -628,12 +628,12 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 627	2119	LEAD, CHEMICAL ELEMENT	Basic actions and technology	A heavy toxic bluish-white metallic element with symbol Pb and atomic number 82 that is highly malleable; occurs principally as galena and is used in alloys, accumulators, cable sheaths, paints, and as a radiation shield.	Person/Thing
 628	2124	LEAF	Agriculture and vegetation	The main organ of photosynthesis and transpiration in higher plants, usually consisting of a flat green blade attached to the stem directly or by a stalk.	Person/Thing
 629	2126	LEATHER	Clothing and grooming	The dressed or tanned hide of an animal, usually with the hair removed.	Person/Thing
-630	2158	LIGHT (RADIATION)	The physical world	Electromagnetic radiation that is capable of causing a visual sensation. (Source: CED)	Person/Thing
+630	2158	LIGHT RADIATION	The physical world	Electromagnetic radiation that is capable of causing a visual sensation. (Source: CED)	Person/Thing
 631	2183	LIVESTOCK	Animals	Cattle, horses, and similar animals kept for domestic use especially on a farm.	Person/Thing
 632	2189	LIZARD	Animals	Any reptile of the suborder Lacertilia, especially those of the family Lacertidae, typically having an elongated body, four limbs, and a small tail: includes the gechos, iguanas, chameleons, monitors, and slow worms.	Person/Thing
 633	2276	MARKET	Possession	Place of commercial activity in which articles are bought and sold.	Person/Thing
 634	2300	MEAT	Food and drink	The edible flesh of animals, especially that of mammals.	Person/Thing
-635	2358	MILK (FLUID)	Food and drink	The whitish fluid secreted by the mammary gland for the nourishment of the young; composed of carbohydrates, proteins, fats, mineral salts, vitamins, and antibodies.	Person/Thing
+635	2358	MILK FLUID	Food and drink	The whitish fluid secreted by the mammary gland for the nourishment of the young; composed of carbohydrates, proteins, fats, mineral salts, vitamins, and antibodies.	Person/Thing
 636	2359	MILL	Food and drink	A mill is a device that breaks solid materials into smaller pieces by grinding, crushing, or cutting.	Person/Thing
 637	2413	MOSS	Agriculture and vegetation	Any plant of the class Bryophyta, occurring in nearly all damp habitats.	Person/Thing
 638	2414	MOTORCYCLE	Modern world	Single-track, two-wheeled motor vehicle.	Person/Thing
@@ -641,7 +641,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 640	2428	MUD	The physical world	A mixture of clay and/or silt with water to form a plastic mass with a particle size preponderantly below 0.06 mm diameter. It is deposited in low-energy environments in lakes, estuaries and lagoons. It may also be deposited in deep-sea environments. (Source: WHIT)	Person/Thing
 641	2444	MUSHROOM	Agriculture and vegetation	An organism belonging to a family of Basidiomycetes that are characterized by the production of spores on gills.	Person/Thing
 642	2445	MUSIC	Modern world	The artistic organisation of sounds or tones that expresses ideas and emotions through the elements of rhythm, melody, harmony and tonal colour.	Person/Thing
-643	2497	NEED (NOUN)	Cognition	The fact or an instance of feeling the lack of something.	Person/Thing
+643	2497	NEED	Cognition	The fact or an instance of feeling the lack of something.	Person/Thing
 644	2597	OAK	Agriculture and vegetation	Any tree of the genus Quercus in the order Fagales, characterized by simple, usually lobed leaves, scaly winter buds, a star-shaped pith, and its fruit, the acorn, which is a nut; the wood is tough, hard, and durable, generally having a distinct pattern.	Person/Thing
 645	2608	OCEAN	The physical world	The mass of water occupying all of the Earth's surface not occupied by land, but excluding all lakes and inland seas.	Person/Thing
 646	264	ASH	The physical world	The incombustible matter remaining after a substance has been incinerated.	Person/Thing
@@ -651,7 +651,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 650	2761	PETROLEUM	Modern world	A comparatively volatile liquid bitumen composed principally of hydrocarbon, with traces of sulphur, nitrogen or oxygen compounds; can be removed from the earth in a liquid state.	Person/Thing
 651	2810	SEAL	Animals	A mammal belonging to the Pinnipedia, an order of aquatic placental mammals having a streamlined body and limbs specialized as flippers: includes seals, sea lions, and the walrus.	Person/Thing
 652	2813	PLAIN	The physical world	An extensive, broad tract of level or rolling, almost treeless land with a shrubby vegetation, usually at a low elevation.	Person/Thing
-653	2836	PLANT (VEGETATION)	Agriculture and vegetation	Any living organism that synthesizes its food from inorganic substances, possesses cellulose cell walls, responds slowly and often permanently to a stimulus, lacks specialized sense organs and nervous system, and has no powers of locomotion.	Person/Thing
+653	2836	PLANT, VEGETATION	Agriculture and vegetation	Any living organism that synthesizes its food from inorganic substances, possesses cellulose cell walls, responds slowly and often permanently to a stimulus, lacks specialized sense organs and nervous system, and has no powers of locomotion.	Person/Thing
 654	2840	PLASTIC	Modern world	A polymeric material (usually organic) of large molecular weight which can be shaped by flow; usually refers to the final product with fillers, plasticizers, pigments, and stabilizers included (versus the resin, the homogeneous polymeric starting material); examples are polyvinyl chloride, polyethylene, and urea-formaldehyde.	Person/Thing
 655	2847	POISON	The body	A substance which, when ingested, inhaled, or absorbed, or when applied to, injected into, or developed within the body, in relatively small amounts, may cause injury, harm, or destruction to organs, tissue, or life.	Person/Thing
 656	2852	POLICE	Modern world	Branch of the government which is charged with the preservation of public order, the promotion of public health and safety, and the prevention, detection, and punishment of crimes.	Person/Thing
@@ -1050,7 +1050,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1049	451991	MOLAR TOOTH	The body	A tooth located in the back of the mouth used for crushing and grinding food.	Person/Thing
 1050	452350	MOTHER-IN-LAW	Kinship	The mother of someone's spouse.	Person/Thing
 1051	452618	CAN	Modern world	A small, round-shaped metal container, used for different purposes like storing food or liquids, or collecting money.	Person/Thing
-1052	452743	LIGHT (WEIGHT)	Sense perception	With a small mass, little weight or density; the opposite of heavy.	Property
+1052	452743	LIGHT WEIGHT	Sense perception	With a small mass, little weight or density; the opposite of heavy.	Property
 1053	453168	HUNTER	Warfare and hunting	A person who hunts game.	Person/Thing
 1054	453618	SMALLPOX	The body	A highly contagious viral disease characterized by fever and weakness and skin eruption with pustules that form scabs that slough off leaving scars.	Person/Thing
 1055	454081	FATHER-IN-LAW	Kinship	The father of someone's spouse.	Person/Thing
@@ -1128,8 +1128,8 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1127	493075	SEND	Motion	To make something (an object, a message) go from one place to another.	Action/Process
 1128	493103	ORDER	Social and political relations	To express as instruction to be executed by the receiver, in accordance with an authority acknowledged by him.	Action/Process
 1129	496633	PAINFUL	Sense perception	Full of pain; causing uneasiness or distress, either physical or mental.	Property
-1130	496889	WE (EXCLUSIVE)	Kinship	exclusive “we”: I and at least one other person, but not the addressed person (you) (pronoun 1st person plural without 2nd person)	Other
-1131	496905	WE (INCLUSIVE)	Kinship	inclusive “we”: I and at least one other person, including the addressed person(s) (pronoun 1st person plural with 2nd person)	Other
+1130	496889	WE EXCLUSIVE	Kinship	exclusive “we”: I and at least one other person, but not the addressed person (you) (pronoun 1st person plural without 2nd person)	Other
+1131	496905	WE INCLUSIVE	Kinship	inclusive “we”: I and at least one other person, including the addressed person(s) (pronoun 1st person plural with 2nd person)	Other
 1132	498099	BEAM	The house	A structural member loaded on its narrow face, and typically used in a horizontal or sloping position to span between bearing points.	Person/Thing
 1133	499237	MATCH	The physical world	A stick with inflammable substance on one end that can be set on fire by friction.	Person/Thing
 1134	499844	DIVORCE	Kinship	Legal dissolution of a marriage.	Person/Thing
@@ -1398,7 +1398,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1397	5988	DULL	Sense perception	Lacking the ability to cut easily; not sharp.	Property
 1398	5989	DRY	Sense perception	(Almost) free from liquid or moisture.	Property
 1399	599	CLAY	Basic actions and technology	A loose, earthy, extremely fine-grained, natural sediment or soft rock composed primarily of clay-size or colloidal particles and characterized by high plasticity and by a considerable content of clay mineral and subordinate amounts of finely divided quartz, decomposed feldspar, carbonates, ferruginous matter, and other impurities; it forms a plastic, moldable mass when finely ground and mixed with water, retains its shape on drying, and becomes firm, rocklike and permanently hard on heating or firing.	Person/Thing
-1400	5990	THIN (SLIM)	Spatial relations	Carrying little fat.	Property
+1400	5990	THIN	Spatial relations	(Of a person or animal) Narrow in size, and usually indicating carrying little fat.	Property
 1401	5991	DRINK	Food and drink	To consume a liquid through the mouth.	Action/Process
 1402	5992	BREAST	The body	The fleshy organ on the chest of a sexually mature human female containing mammary glands.	Person/Thing
 1403	5993	BITE	The body	To cut off a piece by clamping the teeth.	Action/Process
@@ -1918,7 +1918,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1917	844574	TIE	Basic actions and technology	To establish connection between two or more things.	Action/Process
 1918	8446	MANE	The body	The long hair in the neck of horses and lions.	Person/Thing
 1919	844734	TORCH	The house	A stick with a flame on one end used as a light source.	Person/Thing
-1920	8448	DREAM (SOMETHING)	The body	To experience while sleeping.	Action/Process
+1920	8448	DREAM	The body	To experience while sleeping.	Action/Process
 1921	845139	PLOUGH	Agriculture and vegetation	To use a plough on to prepare for planting.	Action/Process
 1922	846608	LAND (DESCEND)	Motion	To descend to a surface, especially from the air.	Action/Process
 1923	846773	ROUGH	Sense perception	Having a texture that has much friction. Not smooth.	Property
@@ -2298,80 +2298,3 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2297		DUSK	Time	The darkest stage of twilight in the evening. [W]	Person/Thing
 2298		VIRGIN	Kinship	A person who has never engaged in sexual intercourse. [W: Virginity]	Person/Thing
 2299		STRAW	The physical world	The dry stalks of cereal plants, after the grain and chaff have been removed. [W]	Person/Thing
-2300		GREEN OR UNRIPE	Sense perception	Having a green color or being not ripe (of fruits).	Property
-2301		ME	Kinship	Oblique cases of the first person singular pronoun.	Other
-2302		CIRCULAR (ROUND IN TWO DIMENSIONS)	Spatial relations	Having a circular shape.	Property
-2303		SPHERICAL (ROUND IN THREE DIMENSIONS)	Spatial relations	Having a spherical shape.	Property
-2304		THEE (OBLIQUE CASE OF YOU)	Kinship	Oblique cases of the second person singular pronoun.	Other
-2305		THIN (OF HAIR AND THREAD)	Spatial relations	Being very narrow (of long objects, like &quot;hairs&quot; or &quot;wires&quot;).	Property
-2306		THIN (OF LEAF AND CLOTH)	Spatial relations	Being very narrow (of flat objects, like &quot;leaves&quot; or &quot;cloth).	Property
-2307		THIN (OF HAIR AND LEAF)	Spatial relations	Being very narrow (of flat or long objects).	Property
-2308		THIN	Spatial relations	Being very narrow or carrying a very small amount of fat.	Property
-2309	6028	LIVE	The body	To be alive; to have a life.	Action/Process
-2310		US (OBLIQUE CASE OF WE)	Kinship	Oblique case of the first person plural pronoun.	Other
-2311	1533	WOODS	The physical world	A vegetation community dominated by trees and other woody shrubs, growing close enough together that the tree tops touch or overlap, creating various degrees of shade on the forest floor.	Person/Thing
-2312		YOU (OBLIQUE CASE OF YOU)	The oblique case of the second person plural pronoun.	Other
-2313		BRONZE	The physical world	An alloy consisting primarily of copper and the addition of other metals (usually tin) and sometimes arsenic, phosphorus, aluminium, manganese, and silicon. [W]	Person/Thing
-2314		BROTHER-IN-LAW	Kinship	The brother of one's partner in a marriage.	Person/Thing
-2315		COOK (PERSON)	Food and drink	The person who prepares food.	Person/Thing
-2316		FREE	Possession	Able to act at will; not hampered; not under compulsion or restraint. [B:bn:00103299a]	Property
-2317		SISTER-IN-LAW	Kinship	The sister of one's partner in a marriage.	Person/Thing
-2318		CHESTNUT	Food and drink	Fruit of the chestnut tree.	Person/Thing
-2319		LID (COVER, CAP) Basic actions and technology	The cap of a container.	Person/Thing
-2320		MUTE PERSON	The body	A person that is not able to speak.	Person/Thing
-2321		MAD PERSON	The body	A person that has mental problems.	Person/Thing
-2322		LAME PERSON	Motion	A person that is not able to walk.	Person/Think
-2323		BACK (PART)	Spatial relations	The backward part or surface, as of a building.	Person/Thing
-2324		GET WET	Sense perception	To become wet (for example, by standing in the rain).	Action/Process
-2325		PULL OUT	Basic actions and technology	To pull something out.	Action/Process
-2326		TAKE OFF ONE'S CLOTHES	Basic actions and technology	Take off one's clothes.	Action/Process
-2327		BECOME SICK	Basic actions and technology	To catch a disease.	Action/Process
-2328		MISS (SOMEBODY)	Basic actions and technology	To long to see somebody again.	Action/Process
-2329		LACK (NOT HAVE)	Basic actions and technology	To lack something or to describe the state when something is not there.	Action/Process
-2330		YEAR AFTER NEXT YEAR	Time	The year after the next year.	Other
-2331		YEAR BEFORE LAST YEAR	Time	The year before the last year.	Other
-2332		THREE DAYS FROM NOW	Time	Three days from today.	Other
-2333		THREE DAYS BEFORE NOW	Time	Three days before today.	Other
-2334		MELT	The physical world	To make a transition from a solid state (as of frozen water) to a liquid state.	Action/Process
-2335		CUNNING	Emotions and values	To be smart and witty.	Property
-2336		OF THIS KIND (SUCH)	Miscellaneous function words	In this way, such, etc.	Other
-2337		OF THAT KIND (SUCH)	Miscellaneous function words	In that way, such, etc.	Other
-2338		HOW LONG	Time	Asking for the duration of an event.	Other
-2339		NEED (SOMETHING)	Cognition	Feeling the desire or the urge for something.	Other
-2340		SUNNY	The physical world	Full of sunshine (mostly referring to &quot;a sunny day&quot;).	Property
-2341		CLOUDY	The physical world	Full of clouds (mostly referring to &quot;a cloudy day&quot;).	Property
-2342		LANDSCAPE	The physical world	The visible features of a land. [W]	Person/Thing
-2343		STEEL	Basic actions and technology	Alloys of iron and carbon, widely used in construction and other applications because of their high tensile strengths and low costs. [W]	Person/Thing	
-2344		PETROL	Modern world	A transparent, petroleum-derived liquid that is used primarily as a fuel in internal combustion engines.	Person/Thing
-2345		LEPORID (RABBIT OR HARE)	Animals	Mammal of the family hares and rabbits (Leporidae) with long ears, short tail and hindlegs which are shorter than the forelegs and permit running quickly.	Person/Thing
-2346		CRESTED MYNA	Animals	A species of starling native to southeastern China and Indochina. [W]	Person/Thing
-2347		YELLOW CROAKER	Animals	A species of croaker native to the western Pacific, generally in temperate waters such as the East China Sea and the Yellow Sea. [W: Red yellow croaker]	Person/Thing
-2348		CRAB	Animals	 decapod crustaceans of the infraorder Brachyura, which typically have a very short projecting &quot;tail&quot; (abdomen) (Greek: βραχύς / brachys = short, οὐρά / οura = tail), usually entirely hidden under the thorax. [W]	Person/Thing
-2349		SHRIMP	Animals	Refers to some decapod crustaceans, although the exact animals covered can vary. Used broadly, it may cover any of the groups with elongated bodies and a primarily swimming mode of locomotion – chiefly Caridea and Dendrobranchiata. [W]	Person/Thing
-2350		EARTHWORM	Animals	A tube-shaped, segmented worm found in the phylum Annelida. [W]	Person/Thing
-2351		SILKWORM	Animals	The larva or caterpillar of the domesticated silkmoth (Bombyx mori) [W]	Person/Thing
-2352		DRAGONFLY	Animals	---	Person/Thing
-2353		CICADA	Animals	 Insects in the order Hemiptera, suborder Auchenorrhyncha. [W]	Person/Thing
-2354		CRICKET	Animals	Insects related to grasshoppers. [W: Cricket (insect)]	Person/Thing
-2355		GECKO	Animals	 Lizards belonging to the infraorder Gekkota, found in warm climates throughout the world. They r [W]	Person/Thing
-2356		CHINESE PLUM	Agriculture and vegetation	An Asian tree species classified in the Armeniaca section of the genus Prunus subgenus Prunus. [W: Prunus mune]	Person/Thing
-2357		APRICOT TREE	Agriculture and vegetation	A tree that bears the apricot fruit.	Person/Thing
-2358		PEACH TREE	Agriculture and vegetation	The tree that bears peaches as fruits.	Person/Thing
-2359		LOTUS	Agriculture and vegetation	One of two species of aquatic plant in the family Nelumbonaceae. [W: Nelumbo nucifera]
-2360		OSMANTHUS FRAGRANS	Agriculture and vegetation	 A species native to Asia from the Himalayas through southern China (Guizhou, Sichuan, Yunnan) to Taiwan and southern Japan and southeast Asia as far south as Cambodia and Thailand. [W: Osmanthus fragrans]	Person/Thing
-2361		MUGWORT	Agriculture and vegetation	A common name for several species of aromatic plants in the genus Artemisia. [W]	Person/Thing
-2362		BRAN	Agriculture and vegetation	The hard outer layers of cereal grain. It consists of the combined aleurone and pericarp. [W]	Person/Thing
-2363		CHAFF (HUSK)	Agriculture and vegetation	The outer shell or coating of a seed. [W]	Person/Thing
-2364		PEANUT	Agriculture and vegetation	 A species in the family Fabaceae (commonly known as the bean, pea or legume family). [W]	Person/Thing
-2365		RADISH	Agriculture and vegetation	An edible root vegetable of the Brassicaceae family that was domesticated in Europe in pre-Roman times. [W]	Person/Thing
-2366		ONION	Agriculture and vegetation	A vegetable and is the most widely cultivated species of the genus Allium. [W]	Person/Thing
-2367		MANDARINE	Agriculture and vegetation	 A small citrus tree with fruit resembling other oranges. Mandarin oranges are usually eaten plain or in fruit salads. [W: Mandarine orange]	Person/Thing
-2368		GARLIC	Agriculture and vegetation	 A species in the onion genus, Allium. [W]	Person/Thing
-2369		BETEL NUT	Food and drink	 The seed of the areca palm (Mama'an in Meranau common version). [W]	Person/Thing
-2370		CUT NUT	Food and drink	A fruit from an evergreen fruit-bearing tropical tree. [L: http://fruitandnuttrees.com/]	Person/Thing
-2371		BREADFRUIT	Food and drink	A species of flowering tree in the mulberry family, Moraceae originating in the South Pacific and that was eventually spread to the rest of Oceania. [W]	Person/Thing
-2372		SAGO PALM	Food and drink	Common name for several plants which are used to produce a starchy food known as sago. [W]	Person/Thing
-2373		SKIN (OF FRUIT)	Food and drink	The outer layer of fruits.	Person/Thing
-2374		DREAM	The body	Successions of images, ideas, emotions, and sensations that occur usually involuntarily in the mind during certain stages of sleep. [W]	Person/Thing
-2375		VERTICAL	Spatial relations	Direction passing by a given point is said to be vertical if it is locally aligned with the gradient of the gravity field. [W: Vertical direction]	Property
-2376		HORIZONTAL	Spatial relations	Plane is said to be horizontal at a given point if it is perpendicular to the gradient of the gravity field at that point— in other words, if apparent gravity makes a plumb bob hang perpendicular to the plane at that point. [W: Horizontal plane]	Person/Thing
