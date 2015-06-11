@@ -26,7 +26,7 @@ cpath = '../concepticondata/concepticon.tsv'
 
 # we will allow for a third argument to provide the respective conceptlist as
 # base-list
-if len(sys.argv) == 3:
+if len(sys.argv) >= 3:
     bpath = "../concepticondata/conceptlists/"+sys.argv[2]+'.tsv'
     baselist = csv2list(bpath)
     
@@ -76,6 +76,8 @@ elif not 'GLOSS' in ipt[0]:
 else:
     gloss = "GLOSS"
 
+
+if not "swap" in sys.argv:
 compare_conceptlists('.temporary1.tsv', sys.argv[1], output='tsv',
         filename=sys.argv[1].replace('.tsv', '.mapped.tsv'), debug=True,
         gloss=gloss)
