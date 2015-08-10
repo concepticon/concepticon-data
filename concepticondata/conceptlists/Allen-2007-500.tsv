@@ -6,8 +6,8 @@ Allen-2007-500-4	1430	STAR	4	star	星星
 Allen-2007-500-5	1489	CLOUD	5	cloud	云
 Allen-2007-500-6	960	WIND	6	wind	风
 Allen-2007-500-7	658	RAIN (PRECIPATION)	7	rain	雨
-Allen-2007-500-8	1654	LIGHTNING	8	lightning (vb)	闪电
-Allen-2007-500-9	1150	THUNDER	9	thunder (vb)	打雷
+Allen-2007-500-8	2377	FLASH (VERB)	8	lightning (vb)	闪电
+Allen-2007-500-9	2378	THUNDER (VERB)	9	thunder (vb)	打雷
 Allen-2007-500-10	609	HAIL	10	hail	冰雹
 Allen-2007-500-11	784	SNOW	11	snow	雪
 Allen-2007-500-12	2034	FROST	12	frost	霜
@@ -79,7 +79,7 @@ Allen-2007-500-77	232	FLEA	77	flea	跳蚤
 Allen-2007-500-78	1392	LOUSE	78	louse	虱子
 Allen-2007-500-79	1504	FLY (INSECT)	79	fly (insect)	苍蝇
 Allen-2007-500-80	1509	MOSQUITO	80	mosquito	蚊子
-Allen-2007-500-81	1219	WORM	81	earthworm	蚯蚓
+Allen-2007-500-81	2350	EARTHWORM	81	earthworm	蚯蚓
 Allen-2007-500-82	949	WATER LEECH	82	leech	水蛭
 Allen-2007-500-83	1027	BUG	83	insect,bug	虫
 Allen-2007-500-84	744	EGG	84	egg	蛋
@@ -297,7 +297,7 @@ Allen-2007-500-295	155	CHOP	295	chop (firewood)	砍（柴）
 Allen-2007-500-296	2066	PULL UP (RICE SEEDLINGS)	296	pull up (rice seedlings)	拔（秧）
 Allen-2007-500-297	2031	PUT OUT TO PASTURE	297	put out to pasture	放牧
 Allen-2007-500-298	739	FEED	298	feed (fatten up)	喂（催膘）
-Allen-2007-500-299	43	LEAD, GUIDE	299	lead (cow)	牵（牛）
+Allen-2007-500-299	43	LEAD (GUIDE)	299	lead (cow)	牵（牛）
 Allen-2007-500-300	133	WEAVE	300	weave (cloth)	织（布）
 Allen-2007-500-301	1869	BUY	301	buy	买
 Allen-2007-500-302	1571	SELL	302	sell	卖
@@ -391,15 +391,15 @@ Allen-2007-500-389	721	LOW	389	low	底
 Allen-2007-500-390	1203	LONG	390	long	长
 Allen-2007-500-391	1645	SHORT	391	short	短
 Allen-2007-500-392	2151	COARSE	392	thick,coarse	粗
-Allen-2007-500-393	1400	THIN	393	fine,thin	细
+Allen-2007-500-393	2157	FINE OR THIN	393	fine,thin	细
 Allen-2007-500-394	1244	THICK	394	thick	厚
-Allen-2007-500-395	2157	FINE OR THIN	395	thin,flimsy	薄
+Allen-2007-500-395	2306	THIN (OF LEAF AND CLOTH)	395	thin,flimsy	薄
 Allen-2007-500-396	1406	FAR	396	far	远
 Allen-2007-500-397	1942	NEAR	397	near	近
 Allen-2007-500-398	1198	MANY	398	much,many	多
 Allen-2007-500-399	1242	FEW	399	few	少
 Allen-2007-500-400	1404	STRAIGHT	400	straight	直
-Allen-2007-500-401	1052	LIGHT WEIGHT	401	light (not heavy)	轻
+Allen-2007-500-401	1052	LIGHT (WEIGHT)	401	light (not heavy)	轻
 Allen-2007-500-402	1210	HEAVY	402	heavy	重
 Allen-2007-500-403	1884	HARD	403	hard	硬
 Allen-2007-500-404	679	BRIGHT	404	light,bright	亮
@@ -474,7 +474,7 @@ Allen-2007-500-472	2088	CLOTHING (CLASSIFIER)	472	CLS for clothing	件（衣）
 Allen-2007-500-473	2089	PAIR (CLASSIFIER)	473	CLS for pair of shoes	双（鞋）
 Allen-2007-500-474	1209	I	474	I(1 p.s.)	我
 Allen-2007-500-475	1212	WE	475	we (1 p.p.)	我们
-Allen-2007-500-476	1131	WE INCLUSIVE	476	we (inclusive)	咱们
+Allen-2007-500-476	1131	WE (INCLUSIVE)	476	we (inclusive)	咱们
 Allen-2007-500-477	1215	THOU	477	you (2 p.s.)	你
 Allen-2007-500-478	1213	YOU	478	you (2 p.p.)	你们
 Allen-2007-500-479	262	HE OR SHE OR IT	479	he,she,it (3 p.s.)	他

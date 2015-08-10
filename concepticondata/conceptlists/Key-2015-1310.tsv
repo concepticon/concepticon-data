@@ -73,7 +73,7 @@ Key-2015-1310-71	straight	71	12-730	http://ids.clld.org/parameters/12-730	droit	
 Key-2015-1310-72	flat	72	12-710	http://ids.clld.org/parameters/12-710	plat	plano, chato	плоский	plano	12	710	1633	FLAT
 Key-2015-1310-73	shallow	73	12-680	http://ids.clld.org/parameters/12-680	peu profond	raso, baixo	мелкий	bajo, poco profundo	12	680	193	SHALLOW
 Key-2015-1310-74	deep	74	12-670	http://ids.clld.org/parameters/12-670	profond	fundo	глубокий	profundo, hondo	12	670	1593	DEEP
-Key-2015-1310-75	thin (in dimension)	75	12-650	http://ids.clld.org/parameters/12-650	mince	fino, delgado	тонкий	delgado	12	650	1400	THIN
+Key-2015-1310-75	thin (in dimension)	75	12-650	http://ids.clld.org/parameters/12-650	mince	fino, delgado	тонкий	delgado	12	650	2249	THIN (OF SHAPE OF OBJECT)
 Key-2015-1310-76	thick (in dimension)	76	12-630	http://ids.clld.org/parameters/12-630	épais	grosso	толстый	grueso	12	630	1244	THICK
 Key-2015-1310-77	narrow	77	12-620	http://ids.clld.org/parameters/12-620	étroit	estreito	узкий	angosto, estrecho	12	620	1267	NARROW
 Key-2015-1310-78	wide, broad	78	12-610	http://ids.clld.org/parameters/12-610	large	largo	широкий	ancho, amplio	12	610	1243	WIDE
@@ -198,7 +198,7 @@ Key-2015-1310-196	road	196	10-710	http://ids.clld.org/parameters/10-710	route	es
 Key-2015-1310-197	push, shove	197	10-670	http://ids.clld.org/parameters/10-670	pousser	empurrar	толкать	empujar	10	670	1452	PUSH
 Key-2015-1310-198	ride	198	10-660	http://ids.clld.org/parameters/10-660	chevaucher	montar	ехать на лошади	montar	10	660	367	RIDE
 Key-2015-1310-199	drive	199	10-650	http://ids.clld.org/parameters/10-650	conduire	dirigir	ехать на машине	conducir	10	650	741	DRIVE
-Key-2015-1310-200	lead (vb)	200	10-640	http://ids.clld.org/parameters/10-640	mener, conduire	conduzir, guiar	вести	guiar	10	640	43	LEAD, GUIDE
+Key-2015-1310-200	lead (vb)	200	10-640	http://ids.clld.org/parameters/10-640	mener, conduire	conduzir, guiar	вести	guiar	10	640	43	LEAD (GUIDE)
 Key-2015-1310-201	send	201	10-630	http://ids.clld.org/parameters/10-630	envoyer	enviar, mandar	посылать	enviar, mandar	10	630	1127	SEND
 Key-2015-1310-202	bring	202	10-620	http://ids.clld.org/parameters/10-620	apporter, amener	trazer	приносить	traer	10	620	692	BRING
 Key-2015-1310-203	carry-underarm	203	10-615	http://ids.clld.org/parameters/10-615	porter (sous le bras)	levar debaixo do braço	нести подмышкой	llevar bajo el brazo	10	615	415	CARRY UNDER ARM
@@ -301,7 +301,7 @@ Key-2015-1310-299	spread out	299	9-340	http://ids.clld.org/parameters/9-340	éta
 Key-2015-1310-300	pull	300	9-330	http://ids.clld.org/parameters/9-330	tirer	puxar	тянуть	tirar, jalar	9	330	1455	PULL
 Key-2015-1310-301	stretch	301	9-320	http://ids.clld.org/parameters/9-320	étendre	esticar	тянуть, натягивать	alargar, estirar, tender	9	320	214	STRETCH
 Key-2015-1310-302	rub, wipe	302	9-310	http://ids.clld.org/parameters/9-310	frotter, essuyer	esfregar	стереть	frotar, enjugar	9	310	1449	RUB
-Key-2015-1310-303	flay, skin	303	9-290	http://ids.clld.org/parameters/9-290	écorcher	esfolar	сдирать кожу	desollar	9	290	291	PULL OF SKIN
+Key-2015-1310-303	flay, skin	303	9-290	http://ids.clld.org/parameters/9-290	écorcher	esfolar	сдирать кожу	desollar	9	290	291	PULL OFF (SKIN)
 Key-2015-1310-304	tear	304	9-280	http://ids.clld.org/parameters/9-280	déchirer	romper, rasgar	рвать	romper, rasgar	9	280	1735	TEAR, SHRED
 Key-2015-1310-305	split	305	9-270	http://ids.clld.org/parameters/9-270	fendre	fender, partir	расколоть	hender, partir	9	270	1437	SPLIT
 Key-2015-1310-306	broken	306	9-261	http://ids.clld.org/parameters/9-261	brisé, cassé	partido, quebrado	сломанный, разбитый	quebrado	9	261	588	BROKEN
@@ -362,7 +362,7 @@ Key-2015-1310-360	branch	360	8-550	http://ids.clld.org/parameters/8-550	branche,
 Key-2015-1310-361	root	361	8-540	http://ids.clld.org/parameters/8-540	racine	raiz	корень	raíz	8	540	670	ROOT
 Key-2015-1310-362	plant (vb)	362	8-531	http://ids.clld.org/parameters/8-531	planter	plantar, semear	выращивать	plantar, sembrar	8	531	1486	PLANT (SOMETHING)
 Key-2015-1310-363	hay	363	8-520	http://ids.clld.org/parameters/8-520	foin	palha, feno	сено	heno, paja	8	520	342	HAY
-Key-2015-1310-364	plant (noun)	364	8-530	http://ids.clld.org/parameters/8-530	plante	planta	растение	planta	8	530	653	PLANT, VEGETATION
+Key-2015-1310-364	plant (noun)	364	8-530	http://ids.clld.org/parameters/8-530	plante	planta	растение	planta	8	530	653	PLANT (VEGETATION)
 Key-2015-1310-365	grass	365	8-510	http://ids.clld.org/parameters/8-510	herbe	erva, grama, relva	трава	hierba, pasto	8	510	606	GRASS
 Key-2015-1310-366	rice	366	8-480	http://ids.clld.org/parameters/8-480	riz	arroz	рис	arroz	8	480	926	RICE
 Key-2015-1310-367	maize, corn	367	8-470	http://ids.clld.org/parameters/8-470	maïs	milho	кукуруза	maíz	8	470	506	MAIZE
@@ -504,7 +504,7 @@ Key-2015-1310-502	butter	502	5-890	http://ids.clld.org/parameters/5-890	beurre	m
 Key-2015-1310-503	cheese	503	5-880	http://ids.clld.org/parameters/5-880	fromage	queijo	сыр	queso	5	880	1569	CHEESE
 Key-2015-1310-504	milk (vb)	504	5-870	http://ids.clld.org/parameters/5-870	traire	ordenhar	доить	ordeñar	5	870	93	DRAW MILK
 Key-2015-1310-505	sugar	505	5-850	http://ids.clld.org/parameters/5-850	sucre	açúcar	сахар	azúcar	5	850	862	SUGAR
-Key-2015-1310-506	milk (noun)	506	5-860	http://ids.clld.org/parameters/5-860	lait	leite	молоко	leche	5	860	635	MILK FLUID
+Key-2015-1310-506	milk (noun)	506	5-860	http://ids.clld.org/parameters/5-860	lait	leite	молоко	leche	5	860	635	MILK (FLUID)
 Key-2015-1310-507	honey	507	5-840	http://ids.clld.org/parameters/5-840	miel	mel	мед	miel	5	840	942	HONEY
 Key-2015-1310-508	chili pepper	508	5-821	http://ids.clld.org/parameters/5-821	piment	malagueta	острый перец	ají	5	821	919	CHILI PEPPER
 Key-2015-1310-509	pepper	509	5-820	http://ids.clld.org/parameters/5-820	poivre	pimenta	перец	pimienta	5	820	1385	PEPPER
@@ -595,7 +595,7 @@ Key-2015-1310-593	itch	593	4-854	http://ids.clld.org/parameters/4-854	démangeai
 Key-2015-1310-594	swelling	594	4-853	http://ids.clld.org/parameters/4-853	bosse, enflure	inchação	опухоль	hinchazón	4	853	1903	SWELLING
 Key-2015-1310-595	bruise	595	4-852	http://ids.clld.org/parameters/4-852	contusion, bleu	ferimento	ушиб	cardenal, magulladura	4	852	1148	BRUISE
 Key-2015-1310-596	wound, sore	596	4-850	http://ids.clld.org/parameters/4-850	blessure, plaie	ferida, chaga	рана, язва	herida, llaga	4	850	1109	WOUND
-Key-2015-1310-597	cold (catarrh)	597	4-843	http://ids.clld.org/parameters/4-843	rhume	resfriado, gripe	простуда	catarro	4	843	102	COLD (DISEASE)
+Key-2015-1310-597	cold (catarrh)	597	4-843	http://ids.clld.org/parameters/4-843	rhume	resfriado, gripe	простуда	catarro	4	843	102	COMMON COLD (DISEASE)
 Key-2015-1310-598	goiter	598	4-842	http://ids.clld.org/parameters/4-842	goître	papo, papeira	зоб	bocio, coto	4	842	1957	GOITER
 Key-2015-1310-599	fever	599	4-841	http://ids.clld.org/parameters/4-841	fièvre	febre	жар, лихорадить	fiebre	4	841	1534	FEVER
 Key-2015-1310-600	sick, sickness	600	4-840	http://ids.clld.org/parameters/4-840	malade, maladie	doente, doença	больной, болезнь	enfermo, enfermedad	4	840	1847	SICK
@@ -620,7 +620,7 @@ Key-2015-1310-618	defecate	618	4-660	http://ids.clld.org/parameters/4-660	défé
 Key-2015-1310-619	urinate	619	4-650	http://ids.clld.org/parameters/4-650	uriner	urinar	мочиться	orinar	4	650	592	PISS
 Key-2015-1310-620	break wind	620	4-640	http://ids.clld.org/parameters/4-640	péter, pedo	peido	освободиться от газов	ventosear, flato	4	640	1159	FART
 Key-2015-1310-621	wake up	621	4-630	http://ids.clld.org/parameters/4-630	se réveiller, s'eveiller	acordar	просыпаться	despertarse	4	630	1602	WAKE UP
-Key-2015-1310-622	dream	622	4-620	http://ids.clld.org/parameters/4-620	rêver	sonhar	видеть сон, мечтать	soñar	4	620	1920	DREAM
+Key-2015-1310-622	dream	622	4-620	http://ids.clld.org/parameters/4-620	rêver	sonhar	видеть сон, мечтать	soñar	4	620	1920	DREAM (SOMETHING)
 Key-2015-1310-623	snore	623	4-612	http://ids.clld.org/parameters/4-612	ronfler	roncar, ressonar	храпеть	roncar	4	612	1983	SNORE
 Key-2015-1310-624	sleep	624	4-610	http://ids.clld.org/parameters/4-610	dormir	dormir	спать	dormir	4	610	1585	SLEEP
 Key-2015-1310-625	dribble	625	4-591	http://ids.clld.org/parameters/4-591	baver	babar	пускать слюну	gotear, babear	4	591	268	DRIBBLE
@@ -820,8 +820,8 @@ Key-2015-1310-818	male (adj)	818	3-120	http://ids.clld.org/parameters/3-120	mâl
 Key-2015-1310-819	animal	819	3-110	http://ids.clld.org/parameters/3-110	animal, bête	animal, bicho	животное	animal	3	110	619	ANIMAL
 Key-2015-1310-820	they	820	2-960	http://ids.clld.org/parameters/2-960	eux, elles	eles, elas	они	ellos, ellas	2	960	817	THEY
 Key-2015-1310-821	you (plural)	821	2-950	http://ids.clld.org/parameters/2-950	vous	vocês, vós	вы	ustedes	2	950	1213	YOU
-Key-2015-1310-822	we (exclusive)	822	2-942	http://ids.clld.org/parameters/2-942	nous	nós	мы (эксл.)	nosotros/nosotras (exclusivo)	2	942	1130	WE EXCLUSIVE
-Key-2015-1310-823	we (inclusive)	823	2-941	http://ids.clld.org/parameters/2-941	nous	nós	мы (инкл.)	nosotros/nosotras (inclusivo)	2	941	1131	WE INCLUSIVE
+Key-2015-1310-822	we (exclusive)	822	2-942	http://ids.clld.org/parameters/2-942	nous	nós	мы (эксл.)	nosotros/nosotras (exclusivo)	2	942	1130	WE (EXCLUSIVE)
+Key-2015-1310-823	we (inclusive)	823	2-941	http://ids.clld.org/parameters/2-941	nous	nós	мы (инкл.)	nosotros/nosotras (inclusivo)	2	941	1131	WE (INCLUSIVE)
 Key-2015-1310-824	we	824	2-940	http://ids.clld.org/parameters/2-940	nous	nós	мы	nosotros/nosotras	2	940	1212	WE
 Key-2015-1310-825	he/she/it	825	2-930	http://ids.clld.org/parameters/2-930	il/elle/il	ele/ela/ele (ou ela)	он/она/оно	él/ella/ello	2	930	262	HE OR SHE OR IT
 Key-2015-1310-826	you (singular)	826	2-920	http://ids.clld.org/parameters/2-920	tu, vous	tu, você	ты, вы	tú, usted	2	920	1215	THOU
@@ -915,7 +915,7 @@ Key-2015-1310-913	air	913	1-710	http://ids.clld.org/parameters/1-710	air	ar	во
 Key-2015-1310-914	dew	914	1-640	http://ids.clld.org/parameters/1-640	rosée	orvalho	роса	rocío	1	640	1977	DEW
 Key-2015-1310-915	shade, shadow	915	1-630	http://ids.clld.org/parameters/1-630	ombre	sombra	тень	sombra	1	630	1388	SHADE
 Key-2015-1310-916	darkness	916	1-620	http://ids.clld.org/parameters/1-620	obscurité, ténèbres	escuridão	темнота, тьма, мрак	oscuridad, tinieblas	1	620	11	DARKNESS
-Key-2015-1310-917	light (noun)	917	1-610	http://ids.clld.org/parameters/1-610	lumière	luz	свет	luz	1	610	630	LIGHT RADIATION
+Key-2015-1310-917	light (noun)	917	1-610	http://ids.clld.org/parameters/1-610	lumière	luz	свет	luz	1	610	630	LIGHT (RADIATION)
 Key-2015-1310-918	rainbow	918	1-590	http://ids.clld.org/parameters/1-590	arc-en-ciel	arco-íris	радуга	arco iris	1	590	1733	RAINBOW
 Key-2015-1310-919	storm	919	1-580	http://ids.clld.org/parameters/1-580	orage, tempête	tempestade	буря, шторм	tempestad, tormenta	1	580	858	STORM
 Key-2015-1310-920	thunder	920	1-560	http://ids.clld.org/parameters/1-560	tonnerre	trovão	гром	trueno	1	560	1150	THUNDER
@@ -1020,7 +1020,7 @@ Key-2015-1310-1018	show	1018	15-550	http://ids.clld.org/parameters/15-550	montre
 Key-2015-1310-1019	shine	1019	15-560	http://ids.clld.org/parameters/15-560	briller	brilhar	светить	brillar	15	560	708	SHINE
 Key-2015-1310-1020	bright	1020	15-570	http://ids.clld.org/parameters/15-570	brillant, gai, vif	claro, brilhante	яркий	brillante, resplandor	15	570	679	BRIGHT
 Key-2015-1310-1021	color	1021	15-610	http://ids.clld.org/parameters/15-610	couleur	cor	цвет	color	15	610	1613	COLOR
-Key-2015-1310-1022	light (in color)	1022	15-620	http://ids.clld.org/parameters/15-620	clair	claro	светлый	claro	15	620	250	LIGHT COLOR
+Key-2015-1310-1022	light (in color)	1022	15-620	http://ids.clld.org/parameters/15-620	clair	claro	светлый	claro	15	620	250	LIGHT (COLOR)
 Key-2015-1310-1023	dark (in color)	1023	15-630	http://ids.clld.org/parameters/15-630	foncé	escuro	темный	oscuro	15	630	706	DARK
 Key-2015-1310-1024	white	1024	15-640	http://ids.clld.org/parameters/15-640	blanc	branco	белый	blanco	15	640	1335	WHITE
 Key-2015-1310-1025	black	1025	15-650	http://ids.clld.org/parameters/15-650	noir	preto, negro	черный	negro	15	650	163	BLACK
@@ -1038,7 +1038,7 @@ Key-2015-1310-1036	smooth	1036	15-770	http://ids.clld.org/parameters/15-770	liss
 Key-2015-1310-1037	sharp	1037	15-780	http://ids.clld.org/parameters/15-780	tranchant, aiguisé	agudo, afiado	острый	afilado, aguzado, filoso	15	780	1396	SHARP
 Key-2015-1310-1038	blunt, dull	1038	15-790	http://ids.clld.org/parameters/15-790	émoussé	embotado, rombudo	тупой	romo, embotado	15	790	379	BLUNT
 Key-2015-1310-1039	heavy	1039	15-810	http://ids.clld.org/parameters/15-810	lourd	pesado	тяжелый	pesado	15	810	1210	HEAVY
-Key-2015-1310-1040	light (in weight)	1040	15-820	http://ids.clld.org/parameters/15-820	léger	leve	легкий	liviano, ligero	15	820	1052	LIGHT WEIGHT
+Key-2015-1310-1040	light (in weight)	1040	15-820	http://ids.clld.org/parameters/15-820	léger	leve	легкий	liviano, ligero	15	820	1052	LIGHT (WEIGHT)
 Key-2015-1310-1041	wet, damp	1041	15-830	http://ids.clld.org/parameters/15-830	humide	molhado, úmido	мокрый	mojado	15	830	1726	WET
 Key-2015-1310-1042	dry	1042	15-840	http://ids.clld.org/parameters/15-840	sec	seco	сухой	seco	15	840	1398	DRY
 Key-2015-1310-1043	hot	1043	15-850	http://ids.clld.org/parameters/15-850	chaud	quente	горячий	caliente	15	850	1286	HOT
@@ -1126,7 +1126,7 @@ Key-2015-1310-1124	cause	1124	17-420	http://ids.clld.org/parameters/17-420	cause
 Key-2015-1310-1125	doubt	1125	17-430	http://ids.clld.org/parameters/17-430	douter	duvidar	сомнение	dudar	17	430	1308	DOUBT
 Key-2015-1310-1126	suspect	1126	17-440	http://ids.clld.org/parameters/17-440	soupçonner	suspeitar	подозревать	sospechar	17	440	1841	SUSPECT
 Key-2015-1310-1127	betray	1127	17-441	http://ids.clld.org/parameters/17-441	trahir	trair	предавать	traicionar	17	441	1902	BETRAY
-Key-2015-1310-1128	need, necessity	1128	17-450	http://ids.clld.org/parameters/17-450	besoin, nécessité	precisar, necessidade	необходимость	necesidad	17	450	643	NEED
+Key-2015-1310-1128	need, necessity	1128	17-450	http://ids.clld.org/parameters/17-450	besoin, nécessité	precisar, necessidade	необходимость	necesidad	17	450	643	NEED (NOUN)
 Key-2015-1310-1129	easy	1129	17-460	http://ids.clld.org/parameters/17-460	facile	fácil	легкий	fácil	17	460	686	EASY
 Key-2015-1310-1130	difficult	1130	17-470	http://ids.clld.org/parameters/17-470	difficile	difícil	трудный	difícil	17	470	584	DIFFICULT
 Key-2015-1310-1131	try, attempt	1131	17-480	http://ids.clld.org/parameters/17-480	essayer, tenter	tentar, provar	попытка	tratar, probar	17	480	1812	TRY
@@ -1258,7 +1258,7 @@ Key-2015-1310-1256	fish trap	1256	20-550	http://ids.clld.org/parameters/20-550	n
 Key-2015-1310-1257	bait	1257	20-560	http://ids.clld.org/parameters/20-560	appât	isca	приманка	cebo, carnada	20	560	2013	BAIT
 Key-2015-1310-1258	hunt	1258	20-610	http://ids.clld.org/parameters/20-610	chasser	caçar	охотиться	cazar	20	610	1435	HUNT
 Key-2015-1310-1259	shoot	1259	20-620	http://ids.clld.org/parameters/20-620	tirer, fusiller	disparar, fuzilar	стрелять	tirar, disparar	20	620	1172	SHOOT
-Key-2015-1310-1260	miss (target)	1260	20-630	http://ids.clld.org/parameters/20-630	rater, manquer	falhar, errar, não acertar	промахнуться	errar, fallar	20	630	161	MISS
+Key-2015-1310-1260	miss (target)	1260	20-630	http://ids.clld.org/parameters/20-630	rater, manquer	falhar, errar, não acertar	промахнуться	errar, fallar	20	630	161	MISS (A TARGET)
 Key-2015-1310-1261	trap (noun)	1261	20-640	http://ids.clld.org/parameters/20-640	piège	cilada, armadilha	ловушка	trampa	20	640	1075	TRAP, PITFALL
 Key-2015-1310-1262	trap (vb)	1262	20-650	http://ids.clld.org/parameters/20-650	prendre au piège	armar uma cilada, pegar em armadilha	ловить (ловушкой)	atrapar	20	650	1170	TRAP, CATCH
 Key-2015-1310-1263	law	1263	21-110	http://ids.clld.org/parameters/21-110	loi, droit	lei	закон	ley	21	110	1062	LAW
@@ -1278,7 +1278,7 @@ Key-2015-1310-1276	acquit	1276	21-340	http://ids.clld.org/parameters/21-340	acqu
 Key-2015-1310-1277	guilty	1277	21-350	http://ids.clld.org/parameters/21-350	coupable	culpado	виновный	culpable	21	350	1682	GUILTY
 Key-2015-1310-1278	innocent	1278	21-360	http://ids.clld.org/parameters/21-360	innocent	inocente	невиновный	inocente	21	360	90	INNOCENT
 Key-2015-1310-1279	penalty, punishment	1279	21-370	http://ids.clld.org/parameters/21-370	punition	punição, castigo	наказание	castigo	21	370	390	PUNISHMENT
-Key-2015-1310-1280	fine	1280	21-380	http://ids.clld.org/parameters/21-380	amende	multa	денежный штраф	multa	21	380	218	FINE
+Key-2015-1310-1280	fine	1280	21-380	http://ids.clld.org/parameters/21-380	amende	multa	денежный штраф	multa	21	380	218	FINE (PENALTY)
 Key-2015-1310-1281	prison, jail	1281	21-390	http://ids.clld.org/parameters/21-390	prison	prisão	тюрьма	cárcel	21	390	1281	PRISON
 Key-2015-1310-1282	murder	1282	21-420	http://ids.clld.org/parameters/21-420	meurtre	assassinar	убийство	asesinar	21	420	845	MURDER
 Key-2015-1310-1283	adultery	1283	21-430	http://ids.clld.org/parameters/21-430	adultère	adultério	прелюбодеяние	adulterio	21	430	902	ADULTERY

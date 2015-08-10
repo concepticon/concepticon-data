@@ -1,0 +1,667 @@
+# from http://comparalex.org/index.php?page=stdlist&id=1
+1	0010	eye	oeil
+2	0020	ear	oreille
+3	0030	nose	nez
+4	0040	mouth	bouche
+5	0043	tooth	dent
+6	0045	tongue	langue
+7	0048	lips	lèvre
+8	0060	chin	menton
+9	0070	jaw	mâchoire
+10	0080	beard	barbe
+11	0090	cheek	joue
+12	0100	face	visage
+13	0110	forehead	front
+14	0120	head	tête
+15	0150	hair (head)	cheveux (de tête)
+16	0160	hair (body)	poil (du corps)
+17	0170	fur	pelage, fourrure
+18	0180	feather (s)	plume
+19	0190	horn	corne
+20	0200	neck	cou
+21	0210	throat	gorge
+22	0220	shoulder	épaule
+23	0230	armpit	aisselle
+24	0236.1	the bush	brousse, campagne
+25	0250	breast	sein, mamelle
+26	0252	udder	pis, mamelle
+27	0260	milk (mother's)	lait
+28	0262	milk (animal's)	lait (d'un animal)
+29	0265	butter	beurre
+30	0267	cheese	fromage
+31	0280	chest	poitrine
+32	0310	belly	ventre
+33	0320	navel	nombril
+34	0340	side of body	côté (du corps), flanc
+35	0342	rib	côte
+36	0360	back	dos
+37	0370	buttocks	fesse
+38	0380	tail	queue
+39	0400	leg	jambe
+40	0410	hip	hanche
+41	0420	thigh	cuisse
+42	0440	knee	genou
+43	0450	foot	pied
+44	0460	sole of foot	plante du pied
+45	0500	arm (forearm)	avant-bras
+46	0500	arm (forearm)	bras
+47	0505	wing	aile
+48	0540	elbow	coude
+49	0550	hand	main
+50	0560	palm	paume (de la main)
+51	0580	finger	doigt
+52	0582	thumb	pouce
+53	0585	toe	orteil, doigt de pied
+54	0590	fingernail	ongle
+55	0591	claw	griffe
+56	0600	body	corps
+57	0610	skin (of man)	peau (d'homme)
+58	0611	hide (animal skin)	peau (d'animal)
+59	0620	wound	plaie, blessure
+60	0621	scar	cicatrice
+61	0630	bone	os
+62	0640	meat; flesh	viande
+63	0640	meat; flesh	chair
+64	0650	fat / grease	graisse
+65	0651	oil	huile
+66	0660	vein	veine
+67	0680	egg	oeuf
+68	0700	blood	sang
+69	0710	saliva	salive
+70	0720	tears	larmes
+71	0740	urine	urine
+72	0750	sweat	sueur
+73	0760	feces / excrement	excrément
+74	0761	dung	fumier
+75	0800	heart	coeur
+76	0830	liver	foie
+77	0860	guts / bowels	intestins
+78	0890	brain	cerveau
+79	1000	person / human	personne
+80	1050	child (youngster)	bébé
+81	1050	child (youngster)	enfant
+82	1080	elder	ancien
+83	1100	man (vir)	homme (mâle)
+84	1101	husband	mari, époux
+85	1150	son	fils
+86	1151	boy	garçon
+87	1200	woman	femme
+88	1201	wife	femme, épouse
+89	1250	daughter	fille
+90	1251	girl	(petite) fille, filette
+91	1300	father	père
+92	1310	mother	mère
+93	1320	brother	 
+94	1321	elder brother	aîné / aînée
+95	1321	elder brother	frère aîné
+96	1322	younger brother	cadet
+97	1322	younger brother	frère cadet
+98	1330	sister	soeur (aînée/cadette)
+99	1331	elder sister	aînée
+100	1332	younger sister	soeur cadette
+101	1340	friend	ami, camarade
+102	1350	mother's brother	oncle maternel
+103	1355	father's sister	tante paternelle
+104	1360	child (offspring)	enfant
+105	1365	twins	jumeau
+106	1380	stranger	étranger (inconnuu)
+107	1385	guest	hôte, visiteur, invité, <<étranger>>
+108	1390	enemy	ennemi
+109	1400?	chief / king	chef
+110	1400?	chief / king	roi
+111	1410	owner	propriétaire
+112	1415	slave	esclave
+113	1430	judge	juge
+114	1450	God	Dieu (être suprême)
+115	1460	spirit / ghost	esprit (invisible) d'un défunt
+116	1461	shadow	ombre
+117	1470	name	nom
+118	1480	voice	voix
+119	1485	language	langue, langage
+120	1490	story (tale)	conte, histoire
+121	1500	animal	animal
+122	1502	wild animal	animal sauvage
+123	1505	domestic animal	animal domestique
+124	1508	sacrifice	sacrifice
+125	1610	dog	chien
+126	1620	jackal	chacal
+127	1630	hyena	hyène
+128	1650	cat	chat
+129	1660	lion	lion
+130	1670	leopard	léopard
+131	1710	rat	rat
+132	1720	bat (fruit -)	roussette (grande chauve-souris)
+133	1720	bat (fruit -)	chauve-souris
+134	1750	elephant	éléphant
+135	1760	hippo	hippopotame
+136	1770	buffalo	buffle
+137	1780	monkey	singe
+138	1790	baboon	babouin
+139	1810	goat	chèvre
+140	1820	sheep	mouton
+141	1850	pig	porc, cochon
+142	1890	horse	cheval
+143	1900	cow (cattle)	bétail
+144	1910	cow (female)	vache
+145	1920	bull	taureau
+146	1930	ox	boeuf, bovidé
+147	2000	bird	oiseau
+148	2010	chicken	poulet
+149	2012	hen	poule
+150	2015	cock	coq
+151	2020	eagle	aigle
+152	2030	vulture	vautour
+153	2040	guinea fowl	pintade
+154	2050	dove	colombe
+155	2060	pigeon	pigeon
+156	2110, 	tortoise (land)	tortue (terrestre)
+157	2111	tortoise, water	tortue (aquatique)
+158	2120	lizard	lézard
+159	2130	crocodile	crocodile
+160	2150	snake	serpent
+161	2190	worm (earth-)	ver de terre
+162	2200	fish	poisson
+163	2250	crab	crabe
+164	2310	louse	pou (de tête)
+165	2320	fly (house-)	mouche
+166	2330	honey	miel
+167	2332	honeybee	abeille
+168	2340	grasshopper	sauterelle
+169	2350	ant (soldier)	fourmi soldat
+170	2350	ant (soldier)	fourmi
+171	2360	termite	termite
+172	2370	spider	araignée
+173	2380	scorpion	scorpion
+174	2500	tree	arbre
+175	2510	bark (tree)	écorce (d'arbre)
+176	2520	leaf (tree)	feuille
+177	2530	branch (tree)	branche (d'arbre)
+178	2535	stick / club	massue
+179	2535	stick / club	bâton
+180	2540	root (of tree)	racine
+181	2550	thorn	épine
+182	2570	flower	fleur
+183	2580	fruit	fruit
+184	2590	seed	grain, semence
+185	2600	grain	grain de semence
+186	2610	wheat	blé, froment
+187	2620	millet	mil (saison de pluies)
+188	2630	barley	orge
+189	2640	maize	maïs
+190	2650	rice	riz
+191	2660	banana (s), sweet	banane (douce)
+192	2665	plantain	plantain, banane à cuire
+193	2670	palm tree (eg. date)	dattier
+194	2670	palm tree (eg. date)	palmier
+195	2680	yam	igname
+196	2685	manioc / cassava	manioc
+197	2690	groundnut / peanut	arachide
+198	2710	tobacco	tabac
+199	2720	grass	herbe
+200	2725	thatch (n)	chaume
+201	2750	forest	forêt
+202	2760	"the bush"	brousse, campagne
+203	2770	desert / wilderness	désert
+204	2790	field(s)	champ
+205	2800	place	endroit, lieu
+206	2810	country	campagne
+207	2820	tribe / ethnic group	tribu, ethnie
+208	2830	village	village
+209	2840	home / compound (including the courtyard)	concession, maison
+210	2840	home / compound (including the courtyard)	domicile
+211	2850	house, hut	maison
+212	2850	house, hut	case
+213	2860	roof	toit
+214	2870	loft / granary	grenier
+215	2880	wall	mur
+216	2890	door	porte
+217	2900	gate	case d'entrée
+218	2910	fence	clôture
+219	2930	path	chemin, route
+220	2940	road	chemin, route
+221	2970	well (water-)	puits
+222	3000	thing (object)	chose
+223	3001	thing (affair)	affaire
+224	3100	clothing	vêtement(s), habit(s)
+225	3110	pagne (wrap-around)	pagne (de femme)
+226	3120	boubou / shirt	boubou
+227	3130	trousers	pantalon
+228	3150	shoe(s)	chaussure, sandale
+229	3152	sandals	sandale
+230	3160	bracelet	bracelet
+231	3170	necklace	collier
+232	3180	ring (finger)	bague, anneau (de doigt)
+233	3200	rope	corde
+234	3210	string, thread	ficelle
+235	3210	string, thread	fil
+236	3220	mat (sleeping)	natte
+237	3250	hoop net	nasse
+238	3260	net	filet
+239	3310	chair	chaise
+240	3320	stool	tabouret, siege
+241	3350	drum (n)	tambour moyen
+242	3360	boat, canoe	bateau
+243	3360	boat, canoe	pirogue, canoë
+244	3410	calabash / gourd	calebasse
+245	3410	calabash / gourd	courge
+246	3420	basket	panier, corbeille
+247	3430	load	charge, fardeau
+248	3450	rubbish, garbage	ordures
+249	3460	hole (in ground)	trou
+250	3510	mortar (grinding)	mortier
+251	3520	pestle	pilon
+252	3550	medicine	médicament, remède
+253	3555	poison	poison
+254	3570	salt	sel
+255	3580	foufou / ugali	foufou / to
+256	3600	pot (cooking)	marmite (en terre)
+257	3610	water pot (earthen)	jarre (à eau)
+258	3620	cooking pot (metal)	pot (en métal)
+259	3700	iron (metal)	fer
+260	3710	knife	couteau
+261	3720	bush-knife	machette
+262	3730	axe	hache
+263	3740	hoe	houe, 'daba'
+264	3750	arrow	flèche
+265	3760	bow (weapon)	arc (de chasse)
+266	3770	spear	lance (javelot)
+267	3775	fish-spear	lance à pêche
+268	3780	shield (n)	bouclier
+269	3799	war	guerre
+270	3810	law	loi
+271	3910	charcoal	charbon de bois
+272	3920	fire	feu
+273	3930	firewood	bois à brûler
+274	3940	smoke	fumée
+275	3950	ash(es)	cendres
+276	3960	fireplace (hearth)	foyer
+277	4010	night(time)	nuit
+278	4011	darkness	obscurité
+279	4050	moon	lune
+280	4051	month	mois
+281	4060	star	étoile
+282	4070	sun	soleil
+283	4071	heat of day	chaleur
+284	4072	daylight	jour, lumière
+285	4080	day-time	jour, journée (lumière)
+286	4100	day of 24 hours	jour, journée
+287	4120	morning	matin
+288	4180	evening	soir
+289	4210	sky	ciel
+290	4220	cloud(s)	nuage
+291	4230	fog / mist	brouillard
+292	4250	wind	vent
+293	4260	storm	orage, "tornade"
+294	4300	water	eau
+295	4310	rain	pluie
+296	4315	lightning	éclair
+297	4316	thunder	tonnerre
+298	4320	hail	grêle
+299	4340	dew	rosée
+300	4400	watercourse	cours d'eau
+301	4410	river	rivière, fleuve
+302	4420	stream	ruisseau
+303	4450	lake	lac
+304	4460	sea	océan, mer
+305	4510	mountain	montagne
+306	4511	hill	colline
+307	4512	rock	pierre
+308	4520	stone	caillou
+309	4522	pebble	caillou
+310	4550	earth (soil)	terre (sol)
+311	4551	ground	sol, terre
+312	4560	sand	sable
+313	4570	dust	poussière
+314	4580	clay	argile
+315	4585	mud	boue
+316	4600	year	an, année
+317	4610	rainy season	saison des pluies, hivernage
+318	4620	dry season	saison sèche
+319	5000	how many?	combien?
+320	5010	one	un (1)
+321	5020	two	deux (2)
+322	5030	three	trois (3)
+323	5040	four	quatre (4)
+324	5050	five	cinq (5)
+325	5060	six	six (6)
+326	5070	seven	sept (7)
+327	5080	eight	huit (8)
+328	5090	nine (=tisa)	neuf (9)
+329	5100	ten	dix (10)
+330	5120	twelve	douze (12)
+331	5150	fifteen	quinze (15)
+332	5160	twenty	vingt (20)
+333	5170	thirty	trente (30)
+334	5180	hundred	cent (100)
+335	5190	thousand	mille (1000)
+336	5210	hot weather	temps chaud
+337	5220	cold (weather)	temps froid
+338	5310	long (thing)	(être) long
+339	5311	tall	(être) grand
+340	5312	deep	(être) profond
+341	5320	short (thing)	(être) court (quelque chose)
+342	5321	short (not tall)	(être) court
+343	5330	big	(être) grand, gros
+344	5332	thick (thing)	épais
+345	5333	fat (person)	(être) épais, gras
+346	5340	wide	(être) large
+347	5350	small	(être) petit
+348	5352	thin (thing)	mince
+349	5354	thin (person)	maigre
+350	5360	narrow	(être) étroit
+351	5380	round (adj.)	(être) rond
+352	5410	heavy	(être) lourd
+353	5412	difficult	(être) difficile
+354	5420	light in weight	(être) léger
+355	5422	easy	facile
+356	5430	hard (surface)	(être) dur
+357	5432	strong	(être) fort
+358	5440	soft (surface)	(être) mou
+359	5442	weak	(être) faible
+360	5450	smooth	(être) lisse
+361	5455	shiny	(être) brilliant, vif
+362	5470	clean, pure	(être) propre
+363	5475	defiled	impur
+364	5480	good	(être) bon
+365	5481	well (adv.)	bien
+366	5490	bad	(être) mauvais
+367	5510	bitter	(être) amer
+368	5520	sour	(être) acide, aigre
+369	5540	sweet	(être) bon (au gout), sucré
+370	5560	true	vrai
+371	5565	truth	vérité
+372	5580	false	faux
+373	5585	untruth / lie	mensonge
+374	5610	straight	(être) droit
+375	5620	crooked	(être) courbé, tordu
+376	5640	right (correct)	correct, (avoir) raison
+377	5650	right (side)	(à) droite
+378	5660	left side	(à) gauche
+379	5710	new	(être) nouveau, neuf
+380	5720	young	(être) jeune
+381	5750	old (worn)	(être) vieux, ancien
+382	5810	all	tout, tous
+383	5820	many, much	beaucoup (de)
+384	5830	crowd (of people)	foule
+385	5850	few	peu (de)
+386	5860	some	quelques (messieurs)
+387	5870	other / different	d'autres (messieurs)
+388	5870	other / different	(être) différent
+389	5910	red	(être) rouge
+390	5930	yellow	(être) jaune
+391	5940	green	(être) vert
+392	5950	black	(être) noir
+393	5952	dark - colored	(être) foncé, sombre
+394	5953	dark	être obscur
+395	5960	blue	(être) bleu
+396	5980	white	(être) blanc
+397	5982	bright-colored	clair (couleur)
+398	6000	who?	qui?
+399	6010	I	je
+400	6020	you (thou)	tu (sing)
+401	6030	(s)he	il (humain)
+402	6030	(s)he	elle, il
+403	6060	we	nous
+404	6070	you (pl.)	vous (pl)
+405	6080	they	ils (humains)
+406	6100	what?	quoi?
+407	6110	this	ce (monsieur)-ci
+408	6120	that	ce(monsieur)-là
+409	6200	where?	où?
+410	6210	here	ici
+411	6220	there	là
+412	6230	yonder	là-bas (loin)
+413	6240	at	à
+414	6250	(going) towards	vers (direction)
+415	6260	(coming) from	de (provenance)
+416	6280	near	proche, près
+417	6290	far	loin, éloigné, lointain
+418	6300	before	avant
+419	6310	behind, after	derrière, en arrière
+420	6350	in	à l'intérieur
+421	6370	above	par dessus, au-dessus
+422	6380	below	sous, en-dessous
+423	6400	how?	comment?
+424	6420	with	avec
+425	6430	also	aussi
+426	6435	and	et
+427	6440	if	si
+428	6450	when?	quand?
+429	6460	then / that time	alors
+430	6470	today	aujourd'hui
+431	6480	yesterday	hier
+432	6490	tomorrow	demain
+433	6500	why?	pourquoi?
+434	6510	because	parce que
+435	6550	no, not	non
+436	6610	alive, to be	(être) vivant, en vie
+437	6615	life	vie
+438	6620	dirty, to become	(être) sale
+439	6630	become dry	tarir, évaporer
+440	6630	become dry	(être) sec
+441	6640	full, filled	(être) plein
+442	6650	ripe, be	(être) mûr (fruit)
+443	6660	rotten	(être) pourri, gâté
+444	6670	sharp	(être) pointu, trenchant, aigu
+445	6679	blunt, dull	(être) émoussé, moins tranchant, moins aigue
+446	6690	become wet	se mouiller
+447	6760	sit (down)	s'asseoir
+448	6761	be seated	(être) assis
+449	6762	to remain / reside	rester, demeurer
+450	6770	stand up	se lever, se mettre debout
+451	6770	stand up	(être, se tenir) debout
+452	6771	to be standing	(être, se tenir) debout
+453	6772	to stop	cesser, s'arrêter
+454	6780	lie down	se coucher
+455	6781	to be lying	(être) couché, étendu
+456	6840	sleep (v)	dormir
+457	6850	dream (v.)	rêver
+458	6860	fear (n)	peur, crainte
+459	6870	anger; be angry	(être) fâché, en colère
+460	6870	anger; be angry	cholère
+461	6880	hunger; be hungry	(avoir) faim
+462	6880	hunger; be hungry	faim
+463	6890	thirst; be thirsty	(avoir) soif
+464	6890	thirst; be thirsty	soif
+465	6900	shame; be ashamed	honte
+466	6900	shame; be ashamed	avoir honte
+467	6910	illness; be ill	(être) malade
+468	6910	illness; be ill	maladie
+469	6920	sorrow; be sad	(être) triste
+470	6920	sorrow; be sad	chagrin, peine
+471	6930	joy; be joyful	(être) heureux, joyeux, content
+472	7010	to bite	mordre
+473	7012	gnaw	ronger
+474	7020	eat	manger
+475	7025	food	aliments, nourriture
+476	7030	drink	boire
+477	7032	to smoke (something)	fumer (du tabac)
+478	7050	vomit	vomir
+479	7110	to cough, a cough	tousser
+480	7110	to cough, a cough	toux
+481	7115	sneeze	éternuer
+482	7150	suck	sucer
+483	7152	suck (the breast)	téter, allaiter
+484	7170	spit	cracher
+485	7190	blow	souffler
+486	7192	the wind blows	souffler (vent)
+487	7195	breathe	respirer
+488	7210	whistle	siffler
+489	7230	yawn (v.)	bâiller
+490	7310	sing	chanter
+491	7315	song	chant, chanson
+492	7320	dance (v.)	danser
+493	7325	dance (n)	danse (n)
+494	7340	play (v.)	jouer, s'amuser
+495	7350	laugh (v.)	rire
+496	7360	weep	pleurer
+497	7370	to bark	aboyer (comme un chien)
+498	7372	cry out	crier
+499	7375	make noise	hurler, parler fort, crier
+500	7400	say	dire
+501	7410	to talk / speak	parler
+502	7420	answer	répondre
+503	7430	tell	dire à quelqu'un
+504	7430	tell	raconter (un conte)
+505	7440	proclaim	annoncer
+506	7450	ask (question)	demander
+507	7455	ask for	supplier, implorer
+508	7455	ask for	demander
+509	7460	to command	commander, ordonner (à qqn de faire qqch)
+510	7460	to command	ordre
+511	7465	to rule	gouverner, dominer
+512	7470	obey	obéir
+513	7475	refuse	refuser
+514	7480	to swear an oath	jurer, prêter serment
+515	7480	to swear an oath	serment
+516	7490	to curse (someone)	maudire
+517	7495	insult	insulter
+518	7510	see	voir
+519	7520	look at	regarder
+520	7530	show	montrer
+521	7535	teach	enseigner
+522	7550	hear	entendre
+523	7560	listen to	écouter
+524	7570	to smell (something)	sentir (par le nez)
+525	7575	smell, stink	puer, sentir mauvais
+526	7600	know (something or someone)	connaître, savoir
+527	7610	learn	apprendre
+528	7614	remember	se souvenir, se rappeler
+529	7615	forget	oublier
+530	7620	count (v)	compter
+531	7622	read	lire
+532	7625	book	livre
+533	7630	write	écrire
+534	7650	think	penser
+535	7680	to suffer / feel bad	souffrir
+536	7700	to love	amour
+537	7710	to want (something)	vouloir
+538	7715	desire	vouloir, désirer
+539	7720	to want (to do something)	vouloir (faire quelque chose)
+540	7730	need (v)	avoir besoin
+541	7750	to seek	chercher, essayer de trouver
+542	7750	to seek	chercher attentivement
+543	7760	find (v.)	trouver
+544	7790	carry	porter dans les bras
+545	8000	take	prendre
+546	8002	seize	saisir, arracher
+547	8004	catch	attraper (un objet dans l'air)
+548	8005	hold	tenir
+549	8010	to lift / raise	soulever
+550	8020	give	donner
+551	8022	gift	cadeau, don
+552	8030	pay	payer (les marchandises, les services)
+553	8035	money	argent, monnaie
+554	8040	cost	coûter
+555	8050	to get / receive	obtenir, recevoir
+556	8050	to get / receive	recevoir
+557	8060	steal	voler (dérober)
+558	8070	to hide (something)	cacher
+559	8080	lie (tell lies)	mentir
+560	8090	deceive	tromper, décevoir
+561	8100	buy	acheter
+562	8105	sell	vendre
+563	8110	to marry (a wife)	épouser une femme
+564	8130	bear child	accoucher, donner naissance, engendrer, enfanter
+565	8131	bear twins	mettre au monde des jumeaux
+566	8135	be born	naître
+567	8210	to die	mourir
+568	8220	kill	tuer
+569	8250	to live	vivre
+570	8310	to leave, depart	quitter, partir
+571	8320	to go (somewhere)	aller
+572	8330	come (to)	venir
+573	8335	come from	venir de
+574	8340	arrive	arriver
+575	8341	return	retourner, rentrer
+576	8342	go out	sortir
+577	8343	enter	entrer
+578	8344	go up	monter
+579	8346	follow	suivre
+580	8347	bring	apporter, amener
+581	8350	send (someone)	envoyer en commission
+582	8410	fly (v.)	voler
+583	8415	jump	sauter
+584	8430	swim	nager
+585	8431	dive	plonger
+586	8432	float	flotter
+587	8450	walk (v.)	marcher
+588	8460	run	courir
+589	8465	flow	couler
+590	8470	fall	tomber
+591	8480	turn	tourner
+592	8480	turn	tourner (intr)
+593	8480	turn	tourner (tr)
+594	8510	scratch	éraflure
+595	8512	scratch oneself	égratigner, érafler
+596	8530	rub	frotter
+597	8550	wipe	essuyer
+598	8650	pour	verser
+599	8660	wash	laver
+600	8662	to bathe (oneself), wash one's hands	se laver
+601	8662	to bathe (oneself), wash one's hands	se laver
+602	8662	to bathe (oneself), wash one's hands	se baigner, se laver
+603	8665	wash (clothes)	laver (habits)
+604	8667	to wash a pot	laver (habits)
+605	8670	sweep	balayer
+606	8675	broom	balai
+607	8710	open (v.)	ouvrir
+608	8720	shut (v.)	fermer
+609	8800	break (tr)	casser
+610	8810	split (wood)	fendre
+611	8812	tear (v tr)	déchirer
+612	8814	divide	diviser, séparer
+613	8820	cut	couper
+614	8830	saw	scier
+615	8840	chop	découper, couper en morceaux
+616	8850	stab (pierce)	poignarder
+617	8880	fight	se battre, combattre
+618	8900	hit, strike	frapper, donner un coup
+619	8910	beat	battre
+620	8930	to hurt someone	faire mal
+621	8940	help (v.)	aider
+622	8950	heal	guérir
+623	8955	healer	guérisseur traditionnel, chaman
+624	9010	throw (v.)	lancer
+625	9015	throw away	jeter, se débarrasser
+626	9020	push (v.)	pousser
+627	9030	pull (v.)	tirer
+628	9050	press	presser, serrer
+629	9052	squeeze (v.)	presser
+630	9100	tie	attacher
+631	9105	hitch	accrocher
+632	9110	untie	detacher, dénouer, délier
+633	9200	build	construire, bâtir
+634	9210	make	faire
+635	9220	do	faire, agir
+636	9220	do	faire
+637	9230	work (v)	travailler
+638	9235	work	travail
+639	9240	to create	créer, faire fabriquer
+640	9250	forge (v.)	forger
+641	9255	blacksmith	forgeron
+642	9260	begin	commencer
+643	9270	finish	finir, achiever
+644	9280	to sew	coudre
+645	9290	weave	tisser
+646	9295	weaver	tisserand
+647	9400	dress	s'habiller, se vétir
+648	9410	undress	se déshabiller
+649	9450	to braid, to plait	tresser (les cheveux)
+650	9500	hunt (v)	chasser
+651	9505	hunter	chasseur
+652	9510	shoot	tirer (une arme)
+653	9520	gun	fusil
+654	9550	cook (v.)	(faire) cuire, cuisiner
+655	9700	cultivate	cultiver
+656	9710	to plow	labourer
+657	9720	plant (v)	semer, planter
+658	9730	to dig (a hole)	creuser
+659	9750	bury	enterrer, ensevelir
+660	9800	burn (something)	brûler
+661	9810	kindle	allumer (un feu)
+662	9820	to burn / be alight	se brûler
+663	9820	to burn / be alight	éclairer
+664	9830	extinguish	éteindre
+665	9900	shiver	frissonner, trembler
+666	9950	swell (v.)	se gonfler, enfler
