@@ -78,8 +78,8 @@ else:
 
 
 if not "swap" in sys.argv:
-compare_conceptlists('.temporary1.tsv', sys.argv[1], output='tsv',
-        filename=sys.argv[1].replace('.tsv', '.mapped.tsv'), debug=True,
-        gloss=gloss)
-print("[i] successfully mapped the lists.")
+    compare_conceptlists('.temporary1.tsv', sys.argv[1], output='tsv',
+            filename=sys.argv[1].replace('.tsv', '.mapped.tsv'), debug=True,
+            gloss=gloss)
+    print("[i] successfully mapped the lists.")
         
