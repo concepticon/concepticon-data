@@ -1,0 +1,180 @@
+\documentclass[10pt, a4paper]{article}
+\clubpenalty1000000
+\widowpenalty1000000
+\usepackage{lrec2014}
+\usepackage{graphicx}
+\usepackage[pdfborder={0 0 0}]{hyperref}
+\usepackage{listings}
+\usepackage{amsmath,amssymb,colortbl,xcolor}
+\usepackage{tipa}
+
+\title{Concepticon: A Resource for the Linking of Concept Lists}
+
+\name{Johann-Mattis List$^{1}$, Michael Cysouw$^{2}$, Robert Forkel$^{3}$}
+
+\address{ 
+               $^{1}$CRLAO/EHESS and AIRE/UPMC, Paris,
+	       $^{2}$Forschungszentrum Deutscher Sprachatlas, Marburg,\\
+	       $^{3}$Max Planck Institute for the Science of Human History, Jena
+	       \\
+	       \href{mailto:mattis.list@lingpy.org}{mattis.list@lingpy.org}, 
+	       \href{mailto:email}{emailpending}, 
+	       \href{mailto:email}{emailpending}\\
+	       }
+
+
+\abstract{
+We present an attempt to link the large amount of different concept lists (aka ``Swadesh lists'')
+which are used in the linguistic literature.  
+\newline \Keywords{concepts, concept lists, Swadesh lists, cross-linguistically linked data}}
+
+
+% this command serves to get easy access to the basis in hyperref
+\newcommand{\concepticon}[1]{http://concepticon.clld.org/#1}
+\newcommand{\conceptnumber}{\textcolor{red}{xxx}}
+\newcommand{\listnumber}{\textcolor{red}{xxx}}
+\newcommand{\setnumber}{\textcolor{red}{xxx}}
+\newcommand{\relationnumber}{\textcolor{red}{xxx}}
+
+\begin{document}
+
+\maketitleabstract
+
+\section{Introduction}
+\textcolor{red}{Start with Swadesh and explain, how this whole idea started, namely, that concept
+lsits are elicited}
+\begin{quote}
+[...] it is a well known fact that certain types of morphemes are relatively stable. Pronouns and
+numerals, for example, are occasionally replaced either by other forms from the same language or by
+borrowed elements, but such replacement is rare. The same is more or less true of other everyday
+expressions connected with concepts and experiences common to all human groups or to the groups
+living in a given part of the world during a given epoch. \cite[pagepending]{Swadesh1950}
+\end{quote}
+
+
+\begin{quote}
+  \textcolor{red}{this collection of Swadesh's first concepts may be included here, but we may also
+  consider just to have it put into some kind of a graphic}
+  I, thou, he, we, ye, one, two, three, four, five,
+six, seven, eight, nine, ten, hundred, all,
+animal, ashes, back, bad, bark, belly, big,
+black, blood, bone, brother (elder), child
+(son or daughter), cloud, cold, come, cry
+(weep), dance, day, dog, dust, ear, earth, eat,
+egg, eye, far, father, fire, flower, fog, foot,
+good, grass, green, hair, hand, head, heart,
+here, hit (with fist), hunt, husband, ice,
+lake, laugh, leaf, left hand, leg, liver, long,
+louse, man, meat, mother, mountain, mouth,
+name, near, neck, night, nose, person, rain,
+red, right hand, road (trail), root, rope, salt,
+sand, short, sing, sister (elder), skin, sky,
+small, smoke, snake, snow, speak, spear
+(war), star, stone, sun, swim, tail, that, there,
+this, tongue, tooth, tree, warm, water, what,
+where, white, who, wife, wind, woman, year,
+yellow. \cite[161]{Swadesh1950}
+\end{quote}
+
+\section{Concept Lists}
+\textcolor{red}{Here, we should work on some basic characteristics of concept lists, among these is
+the basic definition we give to a concept list (as follows, from the slides), but also further
+points}
+Simply speaking, concept lists are lists of concepts, in which
+concepts are ideally given by both glosses and short definitions. 
+They can be compiled for different purposes (language
+comparison, concept comparison) and be expanded by adding structure (rankings, divisions, relations).
+
+\subsection{Purpose of Concept Lists}
+\textcolor{red}{The purpose of concept lists should probably be mentioned her. Note that the purpose
+is never completely exhaustively described, but we can distinguish between different basic types,
+and this makes probably sense}
+\begin{itemize}
+  \item {\bf Language Comparison (historical linguistics, dialectology)}
+    \begin{itemize}
+      \item proving genetic relationship (Yakhontov 1991/35 items, Dolgopolsky 1964/15 items)
+      \item linguistic subgrouping (Norman 2003/40 items, Swadesh 1955/100 items, Starostin 1991/110 items)
+      \item layer identification (Chén 1996/100+100 items, Yakhontov 1991/35+65 items)
+    \end{itemize}
+  \item Concept comparison (historical lingusitics, psycholinguistics)
+    \begin{itemize}
+      \item synchronic (word association: SimLex, Hill et al. 2014/1028 items,
+	colexification: CLICS, List et al. 2014/1280 items)
+      \item diachronic (semantic shift: DatSemShift, Bulakh et al. 2013/2424
+	items, stability of form-meaning relations: WOLD, Haspelmath \&
+	Tadmor 2009/1460 items)
+    \end{itemize}
+\end{itemize}
+
+\subsection{Structure of Concept Lists}
+\textcolor{red}{The structure, and the qeustion as to what the swadesh lists are aactually intended
+to do should probably briefly be mentioned here. Using the table as it was prepared for the talk in
+Leipzig may be useful, as I think, but we can probably float it and have it cover two columns}
+\resizebox{0.5\textwidth}{!}{%
+\tabular{|p{4cm}|p{4cm}|p{4cm}|}
+\hline
+\bf Type & \bf Example & \bf Purpose \\\hline\hline 
+basic vocabulary list (``Swadesh list") & Swadesh 1952 / 200 items & subgrouping \\\hline 
+subdivided concept list & Yakhontov 1991 / 35 + 65 items & genetic relationship, layer identification \\\hline
+``ultra-stable" concept list & Dolgopolsky 1964 / 15 items & genetic relationship \\\hline
+questionnaire & Allen 2007 / 500 items & dialect / language comparison \\\hline
+ranked list & Starostin 2007 / 110 items & subgrouping, layer identification \\\hline
+list of concept relations & DatSemShift, Bulakh et al. 2013 / 2424 items & representation of concept
+relations \\\hline
+special-purpose concept list & Matisoff 1978 / 200 items & subgrouping of Tibeto-Burman languages \\\hline
+historical concept list & Leibniz 1768 / 128 items & language comparison \\\hline
+\endtabular}
+
+\section{Linking Concept Lists}
+\textcolor{red}{Here, we should describe the basic characteristics of the concepticon, like the way
+the things are linked with each other. Maybe, including a graphic would also be useful}
+The concepticon is an attempt to link the many different concept lists (``Swadesh Lists'') which are
+used in the linguistic literature. In practice, all entries from the various concept lists are
+linked to a \emph{concept set} as an intermediate way to reference the concepts. The Concepticon
+currently links \conceptnumber concepts from \listnumber concept lists to \setnumber concept sets
+and defines \relationnumber relations between the concept sets.
+ 
+A concept list is a collection of concepts that is deemed interesting by scholars. Minimally, it
+consists of an \emph{identifier} for each concept which the lists contains, and a \emph{label} by
+which the concept is referenced. The creator of a concept list is called a \emph{compiler}. Each
+concept list is tight to one or more \emph{sources}, it is given in one or more \emph{source
+languages} and was compiled for one or more \emph{target languages}. A \emph{description} gives
+further information on each concept list in free, exclusively human-readable form.
+ 
+To facilitate our workflow and to guarantee the comparability of concept lists even if they do not
+share concepts which are directly linked via our concept sets, we define additional and very simple
+\emph{concept relations} between concept sets (\emph{broader}, \emph{narrower}, \emph{similar}).
+Even if the concepts in two or more concept lists are not assigned to the same concept set, they can
+still be assigned to concept sets via concept relations.
+
+\section{Examples}
+\textcolor{red}{Examples may be useful to be included, they could, however, also be put into a nice
+graphic in which the web-application is presented along with the underlying graphs showing the
+relations between the concepts}
+\subsection{Rain}
+
+\textcolor{red}{Maybe give rain as an example here, as in the slides}
+
+\subsection{Child}
+
+\textcolor{red}{Child example, for hierarchies}
+
+\subsection{Burn}
+\textcolor{red}{Burn example to show problems with transitivity etc.}
+
+\section{Using the Concepticon}
+\textcolor{red}{HIer eventuell zeigen, wie das Concepticon bei Dictionaria und Lexibank benutzt
+werden kann}
+
+\section{Outlook}
+\textcolor{red}{heir noch mal sagen, dass wir natürlich noch weiter daran arbeiten.}
+
+
+\section{Acknowledgements}
+\textcolor{red}{vielleicht nicht nötig im Moment...}
+
+\bibliographystyle{lrec2014}
+\bibliography{concepticon}
+
+\end{document}
+
