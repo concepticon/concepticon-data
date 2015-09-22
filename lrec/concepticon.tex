@@ -25,37 +25,48 @@
 
 \abstract{
 We present an attempt to link the large amount of different concept lists (aka ``Swadesh lists'')
-which are used in the linguistic literature.  
+which are used in the linguistic literature. This resource, the \emph{Concepticon}
+(\url{http://concepticon.clld.org}), links
+\conceptnumber concepts labels from \listnumber conceptlists to \setnumber concept sets. Each
+concept set is given a unique numerical identifier, a unique label, and a human-readable definition.
+Concept sets are further structured by defining different relations between the concepts.  The
+resource can be used for various purposes. Serving as a rich reference for new
+and existing databases in diachronic and synchronic linguistics, it allows researchers a quick
+access to studies on semantic change, cross-linguistic polysemies, and semantic associations. 
 \newline \Keywords{concepts, concept lists, Swadesh lists, cross-linguistically linked data}}
 
 
 % this command serves to get easy access to the basis in hyperref
 \newcommand{\concepticon}[1]{http://concepticon.clld.org/#1}
-\newcommand{\conceptnumber}{\textcolor{red}{xxx}}
-\newcommand{\listnumber}{\textcolor{red}{xxx}}
-\newcommand{\setnumber}{\textcolor{red}{xxx}}
-\newcommand{\relationnumber}{\textcolor{red}{xxx}}
+\newcommand{\conceptnumber}{\textcolor{red}{xxx} }
+\newcommand{\listnumber}{\textcolor{red}{xxx} }
+\newcommand{\setnumber}{\textcolor{red}{xxx} }
+\newcommand{\relationnumber}{\textcolor{red}{xxx} }
 
 \begin{document}
 
 \maketitleabstract
 
 \section{Introduction}
-\textcolor{red}{Start with Swadesh and explain, how this whole idea started, namely, that concept
-lsits are elicited}
+In 1950, Morris Swadesh (1909 -- 1967) proposed the idea that certain parts of the lexicon of human
+languages are universal, stable over time, and rather resistant to borrowing. As a result, he
+claimed that these
+parts of the lexicon, which was later called \emph{basic vocabulary}, would be very
+useful to address the problem of subgrouping in historical linguistics:
 \begin{quote}
 [...] it is a well known fact that certain types of morphemes are relatively stable. Pronouns and
 numerals, for example, are occasionally replaced either by other forms from the same language or by
 borrowed elements, but such replacement is rare. The same is more or less true of other everyday
 expressions connected with concepts and experiences common to all human groups or to the groups
-living in a given part of the world during a given epoch. \cite[pagepending]{Swadesh1950}
+living in a given part of the world during a given epoch. \cite[157]{Swadesh1950}
 \end{quote}
-
-
+He illustrated this by proposing a first \emph{list of basic concepts}, which was, in fact, nothing
+else than a collection of concept labels, as shown below:\footnote{This list contains 123 items in
+total. According to Swadesh, these items occurred both in his original test list of English items,
+and in the data on the Salishan languages, which he employed for his first glottochronological
+study.}
 \begin{quote}
-  \textcolor{red}{this collection of Swadesh's first concepts may be included here, but we may also
-  consider just to have it put into some kind of a graphic}
-  I, thou, he, we, ye, one, two, three, four, five,
+I, thou, he, we, ye, one, two, three, four, five,
 six, seven, eight, nine, ten, hundred, all,
 animal, ashes, back, bad, bark, belly, big,
 black, blood, bone, brother (elder), child
@@ -75,7 +86,28 @@ this, tongue, tooth, tree, warm, water, what,
 where, white, who, wife, wind, woman, year,
 yellow. \cite[161]{Swadesh1950}
 \end{quote}
-
+In the following years, Swadesh refined his original concept lists of basic vocabulary items,
+thereby reducing the original test list of 215 items first to 200 \cite{Swadesh1952} and then to 100
+items \cite{Swadesh1955}. Scholars working on different language families and different datasets
+provided further modifications, be it that the concepts which Swadesh had proposed were lacking
+proper translational equivalents in the languages they were working on, or that they
+turned out to be not as stable and universal as Swadesh had claimed \cite{Matisoff1978,Alpher1999}. 
+Up to today, dozens of different concept list have been compiled for various purposes.
+They are are used as heuristical tools for the detection of deep genetic
+relationships among languages \cite{Dolgopolsky1964}, 
+as basic values for traditional
+lexicostatistical and glottochronological studies \cite{Dyen1992,Starostin1991}, 
+or as litmus test
+for dubious cases of language relationship which might be due to inheritance or borrowing 
+\cite{McMahon2005b,Chen1996,Wang2006}. 
+ 
+Apart from concept lists proposed for the application in historical linguistics, there is
+furthermore a large amount of not explicitly diachronic data, including concept lists serving as the
+basis for field work in specific linguistic areas \cite{Kraft1981}, concept lists which serve as the
+basis for large surveys on specific linguistic phenomena \cite{Wold2009}, or concept lists which deal with
+the internal \emph{structuring} of concepts, be it cognitive associations \cite{Nelson2004},
+\emph{cross-linguistic polysemies} \cite{List2014f}, or \emph{frequently recurring semantic shifts}
+\cite{Bulakh2013}. 
 \section{Concept Lists}
 \textcolor{red}{Here, we should work on some basic characteristics of concept lists, among these is
 the basic definition we give to a concept list (as follows, from the slides), but also further
