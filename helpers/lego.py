@@ -32,16 +32,27 @@ for concept in sorted(concepts, key=lambda x: int(re.findall(
     # get the usher id
     uid = re.findall('concept/([0-9]*?)/uw', concept)
     uid = uid[0] if uid else ''
+    ucc = ''
+    if uid:
+        uam_str = r'<rdf:Description rdf:about="http://purl.org/linguistics/lego/concept/{0}/uw">[^<]*?<hasConceptID>([0-9]*?)</hasConceptID>[^<]*?<skos:prefLabel>([^>]*)</'.format(uid)
+        uam = re.findall(uam_str, data, re.DOTALL)
+        if uam:
+            uid,ucc = uam[0]
+        else:
+            uid,ucc = '',''
+    else:
+        uam = ''
+
 
     label = re.findall('<skos:prefLabel>(.*?)</skos:prefLabel>', concept)
     if label:
         label = label[0]
-        lines += [[str(idx), cid, label, curl, wold, uid]]
+        lines += [[str(idx), cid, label, curl, wold, uid, ucc]]
         idx += 1
 
 
 with open('../unlinked/Good-2010-{0}.tsv'.format(len(concepts)), 'w') as f:
-    f.write('NUMBER\tLEGO_ID\tENGLISH\tWOLD\tUSHER_WHITEHOUSE\n')
+    f.write('NUMBER\tLEGO_ID\tENGLISH\tWOLD\tUW_ID\tUW_LABEL\n')
     for line in lines:
         f.write('\t'.join(line)+'\n')
 
