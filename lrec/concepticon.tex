@@ -8,6 +8,12 @@
 \usepackage{amsmath,amssymb,colortbl,xcolor}
 \usepackage{tipa}
 
+\usepackage{fontspec}
+\newfontfamily\free{FreeSans}
+\usepackage{zhspacing}
+\zhspacing
+\setmainfont{FreeSans}
+
 \title{Concepticon: A Resource for the Linking of Concept Lists}
 
 \name{Johann-Mattis List$^{1}$, Michael Cysouw$^{2}$, Robert Forkel$^{3}$}
@@ -37,7 +43,7 @@ access to studies on semantic change, cross-linguistic polysemies, and semantic 
 
 
 % this command serves to get easy access to the basis in hyperref
-\newcommand{\concepticon}[1]{http://concepticon.clld.org/#1}
+\newcommand{\concepticon}[1]{http://concepticon.clld.org/contributions/#1}
 \newcommand{\conceptnumber}{\textcolor{red}{xxx} }
 \newcommand{\listnumber}{\textcolor{red}{xxx} }
 \newcommand{\setnumber}{\textcolor{red}{xxx} }
@@ -106,56 +112,63 @@ furthermore a large amount of not explicitly diachronic data, including concept 
 basis for field work in specific linguistic areas \cite{Kraft1981}, concept lists which serve as the
 basis for large surveys on specific linguistic phenomena \cite{Wold2009}, or concept lists which deal with
 the internal \emph{structuring} of concepts, be it cognitive associations \cite{Nelson2004},
-\emph{cross-linguistic polysemies} \cite{List2014f}, or \emph{frequently recurring semantic shifts}
+cross-linguistic polysemies \cite{List2014f}, or frequently recurring semantic shifts
 \cite{Bulakh2013}. 
 \section{Concept Lists}
-\textcolor{red}{Here, we should work on some basic characteristics of concept lists, among these is
-the basic definition we give to a concept list (as follows, from the slides), but also further
-points}
-Simply speaking, concept lists are lists of concepts, in which
-concepts are ideally given by both glosses and short definitions. 
-They can be compiled for different purposes (language
-comparison, concept comparison) and be expanded by adding structure (rankings, divisions, relations).
+Concept lists are -- simply speaking -- lists of concepts. In these lists, concepts are ideally
+described with help of a \emph{concept label} and also a short \emph{definition}. Most published
+concept lists, however, only contain a concept label. On the other hand, certain concept lists have
+been further expanded by
+adding structure, such as \emph{rankings}, \emph{divisions}, or \emph{relations}.
 
 \subsection{Purpose of Concept Lists}
-\textcolor{red}{The purpose of concept lists should probably be mentioned her. Note that the purpose
-is never completely exhaustively described, but we can distinguish between different basic types,
-and this makes probably sense}
-\begin{itemize}
-  \item {\bf Language Comparison (historical linguistics, dialectology)}
-    \begin{itemize}
-      \item proving genetic relationship (Yakhontov 1991/35 items, Dolgopolsky 1964/15 items)
-      \item linguistic subgrouping (Norman 2003/40 items, Swadesh 1955/100 items, Starostin 1991/110 items)
-      \item layer identification (Chén 1996/100+100 items, Yakhontov 1991/35+65 items)
-    \end{itemize}
-  \item Concept comparison (historical lingusitics, psycholinguistics)
-    \begin{itemize}
-      \item synchronic (word association: SimLex, Hill et al. 2014/1028 items,
-	colexification: CLICS, List et al. 2014/1280 items)
-      \item diachronic (semantic shift: DatSemShift, Bulakh et al. 2013/2424
-	items, stability of form-meaning relations: WOLD, Haspelmath \&
-	Tadmor 2009/1460 items)
-    \end{itemize}
-\end{itemize}
+Concept lists are compiled for a variety of different
+purposes. A major distinction can be made between those concept lists which have been compiled for
+the
+purpose of \emph{language comparison} and those which have been compiled for the purpose of \emph{concept
+comparison}. 
+Among the former, we can further distinguish those lists which are used to prove \emph{language
+relationship} \cite{Dolgopolsky1964}, those which are used for \emph{linguistic subgrouping}
+\cite{Norman2003,Starostin1991,Swadesh1955}, and those which can be used to identify \emph{contact
+layers} \cite{Chen1996}. Among the latter, we can distinguish between concept lists with a primarily
+\emph{synchronic objective} \cite{Hill2014}, and those with a primarily \emph{diachronic objective}
+\cite{Wold2009,Bulakh2013}.
 
 \subsection{Structure of Concept Lists}
-\textcolor{red}{The structure, and the qeustion as to what the swadesh lists are aactually intended
-to do should probably briefly be mentioned here. Using the table as it was prepared for the talk in
-Leipzig may be useful, as I think, but we can probably float it and have it cover two columns}
-\resizebox{0.5\textwidth}{!}{%
+The purpose for which a given concept list was originally defined has an intermediate influence on
+its structure. Given the multitude of use cases in both synchronic and diachronic linguistics, it is
+difficult to give an exhaustive and unique classification schema for all concept lists which have
+been compiled in the past. In Table \ref{tab:conceptlists}, we have nevertheless tried to
+distinguish eight basic types of concept lists and give one list for each of the types as a
+prototypical example.\footnote{For further information regarding these concept lists, just click on
+the links in the ``Example" field of the table.}
+
+\begin{table}[h]
+\resizebox{0.475\textwidth}{!}{%
 \tabular{|p{4cm}|p{4cm}|p{4cm}|}
 \hline
-\bf Type & \bf Example & \bf Purpose \\\hline\hline 
-basic vocabulary list (``Swadesh list") & Swadesh 1952 / 200 items & subgrouping \\\hline 
-subdivided concept list & Yakhontov 1991 / 35 + 65 items & genetic relationship, layer identification \\\hline
-``ultra-stable" concept list & Dolgopolsky 1964 / 15 items & genetic relationship \\\hline
-questionnaire & Allen 2007 / 500 items & dialect / language comparison \\\hline
-ranked list & Starostin 2007 / 110 items & subgrouping, layer identification \\\hline
-list of concept relations & DatSemShift, Bulakh et al. 2013 / 2424 items & representation of concept
+\bf Type                                & \bf Example                                  & \bf Purpose \\\hline\hline
+basic vocabulary list (``Swadesh list") & \href{\concepticon/Swadesh-1952-200}{Swadesh 1952 / 200 items}                     & subgrouping \\\hline
+subdivided concept list                 & \href{\concepticon/Yakhontov-1991-100}{Yakhontov 1991 (see
+Starostin 1991) / 35 + 65 items}               & genetic relationship, layer identification \\\hline
+``ultra-stable" concept list            & \href{\concepticon/Dolgopolsky-1964-15}{Dolgopolsky 1964 /
+15 items}                & genetic relationship \\\hline
+questionnaire                           & \href{\concepticon/Allen-2007-500}{Allen 2007 / 500
+items}                    & dialect / language comparison \\\hline
+ranked list                             & \href{\concepticon/Starostin-2007-110}{Starostin 2007 /
+110 items}                  & subgrouping, layer identification \\\hline
+list of concept relations               & \href{\concepticon/Bulakh-2013-870}{DatSemShift, Bulakh et
+al. 2013 / 2424 items} & representation of concept
 relations \\\hline
-special-purpose concept list & Matisoff 1978 / 200 items & subgrouping of Tibeto-Burman languages \\\hline
-historical concept list & Leibniz 1768 / 128 items & language comparison \\\hline
+special-purpose concept list            & \href{\concepticon/Matisoff-1978-200}{Matisoff 1978 / 200
+items}                 & subgrouping of Tibeto-Burman languages \\\hline
+historical concept list                 & \href{\concepticon/Leibniz-1768-128}{Leibniz 1768 / 128
+items}                    & language comparison \\\hline
 \endtabular}
+\caption{Examples for different types of concept list as they can be found in the literature.}
+\label{tab:conceptlists}
+\end{table}
+\nocite{Swadesh1952,Starostin1991,Dolgopolsky1964,Allen2007,Bulakh2013,Matisoff1978,Leibniz1768}
 
 \section{Linking Concept Lists}
 \textcolor{red}{Here, we should describe the basic characteristics of the concepticon, like the way
@@ -205,6 +218,7 @@ werden kann}
 \section{Acknowledgements}
 \textcolor{red}{vielleicht nicht nötig im Moment...}
 
+\free
 \bibliographystyle{lrec2014}
 \bibliography{concepticon}
 
