@@ -5,7 +5,7 @@
 \usepackage{graphicx}
 \usepackage[pdfborder={0 0 0}]{hyperref}
 \usepackage{listings}
-\usepackage{amsmath,amssymb,colortbl,xcolor}
+\usepackage{amsmath,amssymb,colortbl,xcolor,color}
 \usepackage{tipa}
 
 \usepackage{fontspec}
@@ -171,8 +171,6 @@ items}                    & language comparison \\\hline
 \nocite{Swadesh1952,Starostin1991,Dolgopolsky1964,Allen2007,Bulakh2013,Matisoff1978,Leibniz1768}
 
 \section{Linking Concept Lists}
-\textcolor{red}{Here, we should describe the basic characteristics of the concepticon, like the way
-the things are linked with each other. Maybe, including a graphic would also be useful}
 The concepticon is an attempt to link the many different concept lists (``Swadesh Lists'') which are
 used in the linguistic literature. In practice, all entries from the various concept lists are
 linked to a \emph{concept set} as an intermediate way to reference the concepts. The Concepticon
@@ -184,7 +182,8 @@ consists of an \emph{identifier} for each concept which the lists contains, and 
 which the concept is referenced. The creator of a concept list is called a \emph{compiler}. Each
 concept list is tight to one or more \emph{sources}, it is given in one or more \emph{source
 languages} and was compiled for one or more \emph{target languages}. A \emph{description} gives
-further information on each concept list in free, exclusively human-readable form.
+further information on each concept list in free, exclusively human-readable form. The basic
+structure of the Concepticon is illustrated in Figure \ref{fig:concepticon}.
  
 To facilitate our workflow and to guarantee the comparability of concept lists even if they do not
 share concepts which are directly linked via our concept sets, we define additional and very simple
@@ -192,20 +191,116 @@ share concepts which are directly linked via our concept sets, we define additio
 Even if the concepts in two or more concept lists are not assigned to the same concept set, they can
 still be assigned to concept sets via concept relations.
 
+\begin{figure}[h]
+  \includegraphics[width=0.475\textwidth]{img/concepticon_2.pdf}
+  \caption{The Basic Structure of the Concepticon.}
+  \label{fig:concepticon}
+\end{figure}
+
 \section{Examples}
-\textcolor{red}{Examples may be useful to be included, they could, however, also be put into a nice
-graphic in which the web-application is presented along with the underlying graphs showing the
-relations between the concepts}
-\subsection{Rain}
+\subsection{CHILD: ``Young Human" or "Descendant"?}
+As a first example for both the problems one faces when trying to link concepts across concept lists and the way we
+try to address them in the Concepticon, consider the different concept labels for ``child" given in
+Table \ref{tab:child}. As we can see from the labels themselves, the label ``child" can denote two
+different concepts, of which one could be specified as ``child (young human)" and the other as
+``child (descendant)". Not all concept lists, however, offer this precision. Swadesh himself, for
+example, would specify the ``descendant" reading in his first list from 1950, but the ``young human"
+reading in the list from 1952. In the list by \newcite{Comrie1977}, which was intended to be a merger of
+the Swadesh's 200-item list from 1952 and his 100-item list from 1955, this specification is lost,
+and we cannot tell from the concept label which reading was intended by the compiler. The same
+applies for the lists of Blust (published in Greenhill et al., 2008) and \newcite{Chen1996}.  In order to handle
+these problems resulting from ambiguous concept labels, we assign those concepts whose reading we
+cannot determine from the concept label and the further descriptions given in the concept lists to a
+broader concept set ``CHILD". Additionally, we set up a relation that states that ``CHILD" is both
+broader as ``CHILD (YOUNG HUMAN)" and ``CHILD (DESCENDANT)". Figure \ref{fig:child} shows the
+relations involving ``CHILD" which have been currently defined in the Concepticon.
+ 
+\begin{table}[h]
+  \resizebox{0.475\textwidth}{!}{%
+  \tabular{|p{3cm}|p{4cm}|p{3cm}|}\hline
+    \bf Compiler                 & \bf CONCEPT LABEL                                          & \bf Concepticon   \\\hline\hline
+    Blust                   (2008)       & child                                                 & CHILD                         \\\hline
+    Chén                    (1996)       & 孩子 / child                                          & CHILD                         \\\hline
+    Comrie and Smith (1977) & child & CHILD \\\hline
+    %Dunn                    (2012)       & child                                                 & CHILD                         \\\hline
+    Leibniz                 (1768)       & infans                                                & CHILD (YOUNG HUMAN) \\\hline
+    Matisoff                (1978)       & child/son                                             & CHILD (DESCENDANT) \\\hline
+    Swadesh                 (1950)       & child (son or daughter)                               & CHILD (DESCENDANT) \\\hline
+    Swadesh                 (1952)       & child (young person rather than as relationship term) & CHILD (YOUNG HUMAN) \\\hline
+    %Tadmor                  (2009)       & child (kin term)                                      & CHILD (DESCENDANT) \\\hline
+    %Wiktionary              (2003)       & child (a youth)                                       & CHILD (YOUNG HUMAN) \\\hline
+    \endtabular}
 
-\textcolor{red}{Maybe give rain as an example here, as in the slides}
+  \caption{Concept Labels and Concept Sets for ``child".}\nocite{Greenhill2008}
+  
+  \label{tab:child}
+\end{table}
 
-\subsection{Child}
+\begin{figure}[h]
+  \includegraphics[width=0.475\textwidth]{img/child.pdf}
+  \caption{Concept Relations for ``child''.}
+  \label{fig:child}
+\end{figure}
+\subsection{RAIN: Thing or Action?}
+Another example for problems involving concept labels in concept lists are basic words related to
+``rain". Here, as illustrated in Table \ref{tab:rain}, the problem of mapping is not to find out which reading is intended, since ``rain"
+itself is a rather clearcut concept, but it is not possible in all cases to tell whether the
+compilers intended to denote the \emph{thing} or the \emph{action}. This is a problem resulting from
+the use of English as a language for concept labels, since both the noun and the verb are
+homophones. In the lists of \newcite{Leibniz1768} and \newcite{Chen1996}, there is no doubt that the
+\emph{thing}-reading is intended, since noun and verb of ``rain" are not homophone, neither in
+Chinese, nor in Latin. The same holds for the list by Blust (2008), since it structures the concepts
+into specific semantic fields which clearly indicate which reading is intended. In the lists of
+\newcite{Swadesh1950} and \newcite{Comrie1977}, however, it is not possible to determine the
+intended reading. For this reason, we set up an overarching concept set ``RAINING OR RAIN" which we define as
+being broader as ``RAIN (PRECIPATION)" and "RAIN (RAINING)" (see Figure \ref{fig:rain}).
 
-\textcolor{red}{Child example, for hierarchies}
+\begin{table}[h]
+  \resizebox{0.475\textwidth}{!}{%
+  \tabular{|p{3cm}|p{4cm}|p{3cm}|}\hline
+    \bf Compiler                 & \bf CONCEPT LABEL                                          & \bf Concepticon   \\\hline\hline
+    Blust        2008       &  rain             & RAIN (PRECIPATION)\\\hline
+    Chen         1996       & 雨 / rain & RAIN (PRECIPATION) \\\hline
+    Comrie and Smith (1977) & rain & RAINING OR RAIN \\\hline
+    Leibniz      1768       & pluvia           & RAIN (PRECIPATION) \\\hline
+    Matisoff     1978       & rain             & RAIN (PRECIPATION) \\\hline
+    Swadesh      1950       & rain                & RAINING OR RAIN\\\hline
+    Swadesh      1952       & to rain                                & RAINING \\\hline
+    \endtabular}
+    \caption{Concept Labels for ``rain"}
+    \label{tab:rain}
+  \end{table}
 
-\subsection{Burn}
-\textcolor{red}{Burn example to show problems with transitivity etc.}
+  \begin{figure}[h]
+  \includegraphics[width=0.475\textwidth]{img/rain.pdf}
+  \caption{Concept Relations for ``rain''.}
+  \label{fig:rain}
+\end{figure}
+
+\subsection{``DULL" or ``STUPID"?}
+
+As a last example for typical problems involving the linking of concept list, consider the concepts
+given in Table \ref{tab:dull}. Here, the four lists apparently intend to denote the same concept
+``dull". From the Chinese terms used in the lists by \newcite{Wang2006} and \newcite{Chen1996},
+however, we can clearly see that the intended meaning is not ``dull" in the sense of ``being blunt
+(of a knife)", but ``stupid". Given that both authors originally wanted to render Swadesh's original
+concept lists in their research, this shows that we are dealing with a translation error here which
+may well result from the fact that in many concept lists, only ``dull" is used as a concept label,
+without further specification. 
+ 
+\begin{table}[h]
+  \resizebox{0.475\textwidth}{!}{%
+  \tabular{|p{3cm}|p{4cm}|p{3cm}|}\hline
+    \bf Compiler        & \bf CONCEPT LABEL             & \bf Concepticon   \\\hline\hline
+    Blust                 (2008) & dull, blunt                 & DULL\\\hline
+    Ch\'en (1996)                  & 呆，笨 / dull       & STUPID\\\hline
+    Comrie and Smith (1977) & dull & DULL \\\hline
+    Wang (2006)                  & 笨（不聪明） / dull & STUPID \\\hline
+    Swadesh               1952 & dull (knife)                & DULL \\\hline
+    \endtabular}
+    \caption{Erroneous Translations in Concept Lists.}
+    \label{tab:dull}
+  \end{table}
 
 \section{Using the Concepticon}
 \textcolor{red}{HIer eventuell zeigen, wie das Concepticon bei Dictionaria und Lexibank benutzt
@@ -220,6 +315,7 @@ werden kann}
 
 \free
 \bibliographystyle{lrec2014}
+\scriptsize
 \bibliography{concepticon}
 
 \end{document}
