@@ -33,8 +33,8 @@
 We present an attempt to link the large amount of different concept lists (aka ``Swadesh lists'')
 which are used in the linguistic literature. This resource, the \emph{Concepticon}
 (\url{http://concepticon.clld.org}), links
-\conceptnumber concepts labels from \listnumber conceptlists to \setnumber concept sets. Each
-concept set is given a unique numerical identifier, a unique label, and a human-readable definition.
+\conceptnumber concept labels from \listnumber conceptlists to \setnumber concept sets. Each
+concept set is given a unique identifier, a unique label, and a human-readable definition.
 Concept sets are further structured by defining different relations between the concepts.  The
 resource can be used for various purposes. Serving as a rich reference for new
 and existing databases in diachronic and synchronic linguistics, it allows researchers a quick
@@ -108,15 +108,16 @@ for dubious cases of language relationship which might be due to inheritance or 
 \cite{McMahon2005b,Chen1996,Wang2006}. 
  
 Apart from concept lists proposed for the application in historical linguistics, there is
-furthermore a large amount of not explicitly diachronic data, including concept lists serving as the
+a large amount of not explicitly diachronic data, including concept lists serving as the
 basis for field work in specific linguistic areas \cite{Kraft1981}, concept lists which serve as the
 basis for large surveys on specific linguistic phenomena \cite{Wold2009}, or concept lists which deal with
 the internal \emph{structuring} of concepts, be it cognitive associations \cite{Nelson2004},
 cross-linguistic polysemies \cite{List2014f}, or frequently recurring semantic shifts
 \cite{Bulakh2013}. 
+
 \section{Concept Lists}
 Concept lists are -- simply speaking -- lists of concepts. In these lists, concepts are ideally
-described with help of a \emph{concept label} and also a short \emph{definition}. Most published
+described by a \emph{concept label} and a short \emph{definition}. Most published
 concept lists, however, only contain a concept label. On the other hand, certain concept lists have
 been further expanded by
 adding structure, such as \emph{rankings}, \emph{divisions}, or \emph{relations}.
@@ -171,29 +172,30 @@ items}                    & language comparison \\\hline
 \nocite{Swadesh1952,Starostin1991,Dolgopolsky1964,Allen2007,Bulakh2013,Matisoff1978,Leibniz1768}
 
 \section{Linking Concept Lists}
-The concepticon is an attempt to link the many different concept lists (``Swadesh Lists'') which are
-used in the linguistic literature. In practice, all entries from the various concept lists are
-linked to a \emph{concept set} as an intermediate way to reference the concepts. The Concepticon
+The Concepticon is an attempt to link the many different concept lists (``Swadesh Lists'') which are
+used in the linguistic literature. All entries from concept lists are partitioned into sets
+of labels referring to the same concept -- so called concept sets.
+The Concepticon
 currently links \conceptnumber concepts from \listnumber concept lists to \setnumber concept sets
 and defines \relationnumber relations between the concept sets.
  
 A concept list is a collection of concepts that is deemed interesting by scholars. Minimally, it
 consists of an \emph{identifier} for each concept which the lists contains, and a \emph{label} by
 which the concept is referenced. The creator of a concept list is called a \emph{compiler}. Each
-concept list is tight to one or more \emph{sources}, it is given in one or more \emph{source
+concept list is tied to one or more \emph{sources}, it is given in one or more \emph{source
 languages} and was compiled for one or more \emph{target languages}. A \emph{description} gives
-further information on each concept list in free, exclusively human-readable form. The basic
-structure of the Concepticon is illustrated in Figure \ref{fig:concepticon}.
+further information on each concept list in human-readable form. The core
+data model of the Concepticon is illustrated in Figure \ref{fig:concepticon}.
  
-To facilitate our workflow and to guarantee the comparability of concept lists even if they do not
-share concepts which are directly linked via our concept sets, we define additional and very simple
+To facilitate our workflow and to guarantee the comparability of concept lists even if they are
+not linked to a overlapping set of concept sets, we define additional and very simple
 \emph{concept relations} between concept sets (\emph{broader}, \emph{narrower}, \emph{similar}).
 Even if the concepts in two or more concept lists are not assigned to the same concept set, they can
-still be assigned to concept sets via concept relations.
+still be comparable if the respective concept sets are related.
 
 \begin{figure}[h]
   \includegraphics[width=0.475\textwidth]{img/concepticon_2.pdf}
-  \caption{The Basic Structure of the Concepticon.}
+  \caption{The core data model of the Concepticon.}
   \label{fig:concepticon}
 \end{figure}
 
