@@ -20,8 +20,10 @@ for i,line in enumerate(csv[1:]):
         pass
     else:
         if line[gidx].startswith('!'):
-            csv[i+1][idx] = C[line[gidx][1:]]
-            csv[i+1][gidx] = line[gidx][1:]
+            
+            gls = line[gidx][1:].split('!')[0].upper()
+            csv[i+1][idx] = C[gls]
+            csv[i+1][gidx] = gls
 with open(argv[1], 'w') as f:
     for line in csv:
         f.write('\t'.join(line)+'\n')

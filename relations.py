@@ -30,8 +30,7 @@ for line in _C[1:]:
 with open('../concepticondata/conceptrelations.tsv') as f:
 
     for line in f.readlines()[1:]:
-        print (line.replace('\t','-x-'))
-        
+        print(line) 
         a,_a,b,c,_c = [x.strip() for x in line.split('\t')]
         
         if a and b and relations[b]:
@@ -45,7 +44,8 @@ for node,data in G.nodes(data=True):
 nx.write_gml(G, '../concepticondata/conceptrelations.gml')
 with open('conceptrelations.tsv', 'w') as f:
     
-    f.write('SOURCE\tRELATION\tTARGET\n')
+    f.write('SOURCE\tSOURCE_GLOSS\tRELATION\tTARGET\tTARGET_GLOSS\n')
     for a,b,d in G.edges(data=True):
         
         f.write('{0}\t{2}\t{1}\n'.format(a,b,d['relation']))
+
