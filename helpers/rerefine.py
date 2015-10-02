@@ -45,7 +45,7 @@ for k in concepticon:
 for l in clists:
     
     if 'new' not in l:
-        print(l.split('/')[-1])
+        print('[i] Analyzing {0}...'.format(l.split('/')[-1]))
         clist = load_conceptlist(l)
         for k,entry in clist.items():
             
@@ -53,7 +53,7 @@ for l in clists:
 
                 # replace concepticon_id with real gloss
                 if 'CONCEPTICON_ID' in entry:
-
+                    
                     if entry['CONCEPTICON_ID']:
                         if entry['CONCEPTICON_ID'] != converter[entry['CONCEPTICON_ID']]:
                             print(concepticon[entry['CONCEPTICON_ID']][1],
@@ -72,4 +72,4 @@ for l in clists:
             write_conceptlist(clist, l)
         else:
             write_conceptlist(clist, l.replace('.tsv','.new.tsv'))
-        print('Wrote concept list {0}.'.format(l.split('/')[-1]))
+        print('... wrote concept list {0}.'.format(l.split('/')[-1]))

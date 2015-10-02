@@ -461,7 +461,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 460	1542733	BREAK (OF ROPE)	Basic actions and technology	the breaking of a thread or strap.	Action/Process
 461	1543020	BOUBOU	Clothing and grooming	a flowing wide sleeved robe worn by men in much of West Africa, and to a lesser extent in North Africa.	Person/Thing
 462	1543026	WRAPPER	Clothing and grooming	a colorful women's garment widely worn in West Africa.	Person/Thing
-463	1543589	FELL A TREE	Agriculture and vegetation	To knock somebody or cut something down, e.g. a tree.	Action/Process
+463	1543589	FELL (A TREE)	Agriculture and vegetation	To knock somebody or cut something down, e.g. a tree.	Action/Process
 464	1543597	ALANG-ALANG GRASS	Agriculture and vegetation	It is a perennial high grown grass native to Asia, Australia and Africa.	Person/Thing
 465	1543608	CARRY ON BACK	Motion	To hold or to take something from one place to another on the back.	Action/Process
 466	1543612	CASSOWARY	Animals	A big flightless bird native to tropical forests of New Guinea, nearby islands and northeastern Australia.	Person/Thing
@@ -881,7 +881,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 880	374372	REPEAT	Speech and language	To do something again.	Action/Process
 881	374399	TAILOR	Clothing and grooming	Someone who professionally manufactures clothing.	Person/Thing
 882	374495	PARROT	Animals	Any bird of the order Psittaciformes, many species of which are colourful and able to mimic human speech.	Person/Thing
-883	3747	TERMITES	Animals	A soft-bodied insect of the order Isoptera; individuals feed on cellulose and live in colonies with a caste system comprising three types of functional individuals: sterile workers and soldiers, and the reproductives.	Person/Thing
+883	3747	TERMITE	Animals	A soft-bodied insect of the order Isoptera; individuals feed on cellulose and live in colonies with a caste system comprising three types of functional individuals: sterile workers and soldiers, and the reproductives.	Person/Thing
 884	374731	SHARE	Possession	To give part of what one has to somebody else to use or consume.	Action/Process
 885	374758	OPPOSITE	Miscellaneous function words	The contrary; being opposed to something.	Property
 886	375199	PARAKEET	Animals	Any of several slender species of parrot.	Person/Thing
@@ -1285,7 +1285,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1284	5632	BANK	Modern world	A financial institution where one can borrow money (upon which interest is due) or deposit money (in order to collect interest).	Person/Thing
 1285	5634	IMPORTANT	Emotions and values	Having relevant and crucial value.	Property
 1286	5637	HOT	Sense perception	Having a very high temperature.	Property
-1287	5639	COLD (OF TEMPERATURE)	Sense perception	Having a low temperature.	Property
+1287	5639	COLD	Sense perception	Having a low temperature.	Property
 1288	5641	CAP	Clothing and grooming	A usually soft and close-fitting head covering, either having no brim or with a visor.	Person/Thing
 1289	5642	BABY	Kinship	A very young human being, from birth to a year old.	Person/Thing
 1290	5643	ELEPHANT	Animals	A mammal of the order Proboscidea, having a trunk, and two large ivory tusks jutting from the upper jaw. Elephants are the largest land animals now existing.	Person/Thing
@@ -1588,7 +1588,7 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1587	6521	SMELL (STINK)	Sense perception	To give off a smell that can be perceived by the nose.	Action/Process
 1588	6526	TURN	Motion	To change direction of movement.	Action/Process
 1589	652702	HUMMINGBIRD	Animals	A small bird in the family Trochilidae.	Person/Thing
-1590	6530	WAIT FOR	Motion	To refrain from acting or moving for some duration or until some event occurs.	Action/Process
+1590	6530	WAIT (FOR)	Motion	To refrain from acting or moving for some duration or until some event occurs.	Action/Process
 1591	6531	UP	Spatial relations	The direction that is away from the centre of the Earth.	Other
 1592	6532	CHEST	The body	The portion of the body from the base of the neck to the top of the abdomen; the thorax.	Person/Thing
 1593	6535	DEEP	Spatial relations	Having a bottom or base that is far away from the top.	Property
@@ -2377,3 +2377,60 @@ ID	OMEGAWIKI	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2376		HORIZONTAL	Spatial relations	Plane is said to be horizontal at a given point if it is perpendicular to the gradient of the gravity field at that point— in other words, if apparent gravity makes a plumb bob hang perpendicular to the plane at that point. [W: Horizontal plane]	Person/Thing
 2377		FLASH (VERB)	The physical world	The process by which flashes of light are caused by the discharge of atmospheric electrical charge.	Action/Process
 2378		THUNDER (VERB)	The physical world	The process producing the noise after a lightning.	Action/Process 
+2379		UP OR ABOVE	Spatial relations	Moving from a lower position to a higher one, or being at a higher position.	Other
+2380		BROTHER-IN-LAW (OF MAN)	Kinship	The brother of a man's partner in a marriage.	Person/Thing
+2381		FEATHER OR FUR OR HAIR	The body	The cover of a mammal or a bird.	Person/Thing
+2382		BLUE OR GREEN	Sense perception	Having green or blue as color.	Property
+2383		AUNT OR MOTHER-IN-LAW	Kinship	Either an aunt or the mother-in-law of a person.	Person/Thing
+2384		COUSIN OR SISTER-IN-LAW	Kinship	Either a cousin or a sister-in-law.	Person/Thing
+2385		GUAN OR TURKEY	Animals	Birds looking similar to a Guan or a Turkey.	Person/Thing
+2386		TURKEY	Animals	A large bird from the family of Phasanidae.	Person/Thing
+2387		UNCLE OR FATHER-IN-LAW	Kinship	Either an uncle or the father-in-law.	Person/Thing
+2388		LIANA	Agriculture and vegetation	A liana is any of various long-stemmed, woody vines that are rooted in the soil at ground level and use trees, as well as other means of vertical support, to climb up to the canopy to get access to well-lit areas of the fores [W].	Person/Thing
+2389		COATI (COATIMUNDI)	Animals	Coatis, genera Nasua and Nasuella, also known as the coatimundi, Mexican tejón, cholugo, or moncún, Costa Rican pizote, hog-nosed coon,[3] Colombian cusumbo, and other names, are members of the raccoon family (Procyonidae). [W:COATI]	Person/Thing
+2390		PECCARY	Animals	The collared peccary (Pecari tajacu) is a species of mammal in the family Tayassuidae found in North, Central, and South America. [W:Collared_peccary]	Person/Thing
+2391		BOY OR SON	Kinship	Either a son or a boy.	Person/Thing
+2392		DAUGHTER OR GIRL	Kinship	Either a daughter or a girl.	Person/Thing
+2393		JOURNEY	Motion	Moving from one place to the other or moving around without.	Action/Process
+2394		CHIEF	Social and political relations	The head of a company or group.	Person/Thing
+2395		CONGEAL (BLOOD)	The body	The process by which frech blood gets dry and hard.	Action/Process
+2396		KNOCK	Motion	Making a sound by beating with the hand or with a tool against something.	Action/Process
+2397		LOBSTER	Animals	Clawed lobsters comprise a family (Nephropidae, sometimes also Homaridae) of large marine crustaceans. [W]	Person/Thing	
+2398		MANGO	Agriculture and vegetation	The fruit from the Mango tree.	Person/Thing
+2399		GRANDPARENT	Kinship	Either the grandfather or the grandmother.	Person/Thing
+2400		THEIR	Possession	belonging to the third person that is addressed (of many people)	Other
+2401		PICTURE	Modern world	A foto or a painting.	Person/Thing
+2402		ROBIN	Animals	The European robin (Erithacus rubecula), most commonly known in Anglophone Europe simply as the robin, is a small insectivorous passerine bird, specifically a chat, that was formerly classed as a member of the thrush family (Turdidae), but is now considered to be an Old World flycatcher. [W]	Person/Thing
+2403		TOY	Modern world	A toy is an item that can be used for play. [W]	Person/Thing
+2404		SANTA CLAUS	Modern world	Santa Claus, also known as Saint Nicholas, Father Christmas, Kris Kringle and simply "Santa", is an important figure with legendary, historical and folkloric origins who, in many Western cultures, is said to bring gifts to the homes of the good children on 24 December, the night before Christmas Day. [W]	Person/Thing
+2405		CHRISTMAS	Modern world	Christmas or Christmas Day (Old English: Crīstesmæsse, meaning "Christ's Mass") is an annual festival commemorating the birth of Jesus Christ, observed most commonly on December 25 as a religious and cultural celebration among billions of people around the world. [W]	Person/Thing
+2406		HOME	The house	The place where one lives.	Person/Thing
+2407		BIRTHDAY	Social and political relations	The day when one was born.	Person/Thing
+2408		CAKE	The modern world	Cake is a form of sweet dessert that is typically baked. [W]	Person/Thing
+2409		BROWN	Sense perception	Having a brown color.	Property
+2410		GOOD-LOOKING	Sense perception	Being pleasant to watch (of humans).	Property
+2411		HURT (SOMEBODY)	Sense perception	Imposing pain on somebody else.	Action/Process
+2412		THANK (SOMBEODY)	Social and political relations	To express one's gratitude.	Action/Process	
+2413		SARONG	Clothing and grooming	A sarong or sarung is a large tube or length of fabric, often wrapped around the waist and worn by men and women throughout much of South Asia. [W]	Person/Thing
+2414		OLDER BROTHER (OF MAN)	Kinship	The older brother of a man.	Person/Thing
+2415		OLDER BROTHER (OF WOMAN)	Kinship	The older brother of a woman.	Person/Thing
+2416		YOUNGER BROTHER (OF MAN)	Kinship	The younger brother of a man.	Person/Thing
+2417		YOUNGER BROTHER (OF WOMAN)	Kinship	The younger brother of a woman.	Person/Thing
+2418		OLDER SISTER (OF MAN)	Kinship	The older sister of a man.	Person/Thing
+2419		OLDER SISTER (OF WOMAN)	Kinship	The older sister of a woman.	Person/Thing
+2420		YOUNGER SISTER (OF MAN)	Kinship	The younger sister of a man.	Person/Thing
+2421		YOUNGER SISTER (OF WOMAN)	Kinship	The younger sister of a woman.	Person/Thing
+2422		SOMEONE	Quantity	An unspecified person.	Other
+2423		CHANNEL	Modern World	In physical geography, a channel is a type of landform consisting of the outline of a path of relatively shallow and narrow body of fluid, most commonly the confine of a river, river delta or strait. [W]	Person/Thing
+2424		MEMBER	Modern World	Part of a team.	Person/Thing
+2425		PROBLEM	Modern World	Something that poses difficulties and requires to be solved in someway.	Person/Thing
+2426		CLIMATE	Climate is the long-term pattern of weather in a particular area. [W]	Person/Thing
+2427		FUTURE	The future is what will happen in the time after the present. [W]	Person/Thing
+2428		LIBRARY	A library is a collection of sources of information and similar resources, made accessible to a defined community for reference or borrowing. [W]	Person/Thing
+2429		LOGIC	Logic (from the Ancient Greek: λογική, logike) is the branch of philosophy concerned with the use and study of valid reasoning. The study of logic also features prominently in mathematics and computer science. [W]	Person/Thing
+2430		OFFICE	An office is generally a room or other area where administrative work is done. [W]	Person/Thing
+2431		REVOLUTION	A revolution (from the Latin revolutio, "a turn around") is a fundamental change in power or organizational structures that takes place in a relatively short period of time.  [W]	Person/Thing
+2432		MARRIAGE	Marriage, also called matrimony or wedlock, is a socially or ritually recognized union or legal contract between spouses that establishes rights and obligations between them, between them and their children, and between them and their in-laws. [W]	Person/Thing
+2433		THEORY	Theory is a contemplative and rational type of abstract or generalizing thinking, or the results of such thinking. Depending on the context, the results might for example include generalized explanations of how nature works. [W]	Person/Thing
+2434		TRAGEDY	Tragedy (from the Greek: τραγῳδία, tragōidia[a]) is a form of drama based on human suffering that invokes in its audience an accompanying catharsis or pleasure in the viewing. [W]	Person/Thing
+2435		UNIVERSITY	A university (Latin: universitas, "a whole") is an institution of higher (or tertiary) education and research which grants academic degrees in various subjects and typically provides undergraduate education and postgraduate education. [W]	Person/Thing

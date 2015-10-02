@@ -30,6 +30,7 @@ for line in _C[1:]:
 with open('../concepticondata/conceptrelations.tsv') as f:
 
     for line in f.readlines()[1:]:
+        print (line.replace('\t','-x-'))
         
         a,_a,b,c,_c = [x.strip() for x in line.split('\t')]
         
