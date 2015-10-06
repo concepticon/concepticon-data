@@ -1,4 +1,6 @@
 \documentclass[10pt, a4paper]{article}
+    visit(sys.argv[1] if len(sys.argv) > 1 else 'images.csv', v)
+n glottolog3/scripts/update_reflang.py development.ini
 \clubpenalty1000000
 \widowpenalty1000000
 \usepackage{lrec2014}
@@ -25,7 +27,7 @@
 	       \\
 	       \href{mailto:mattis.list@lingpy.org}{mattis.list@lingpy.org}, 
 	       \href{mailto:email}{emailpending}, 
-	       \href{mailto:email}{emailpending}\\
+	       \href{mailto:forkel@shh.mpg.de}{forkel@shh.mpg.de}\\
 	       }
 
 
@@ -187,10 +189,10 @@ The Concepticon is an attempt to overcome these difficulties by linking
 the many different concept lists (``Swadesh Lists'') which are
 used in the linguistic literature. 
 In order to do so, we offer open, linked, and shared data and tools in open and collaborative
-architectures. Our data is curated open and collaboratively on GitHub (\url{http://github.com}). The
+architectures. Our data is curated openly and collaboratively on GitHub (\url{https://github.com/clld/concepticon-data}). The
 Concepticon itself is published as Linked Open Data (\url{http://concepticon.clld.org}) within the
-CLLD framework, which has the advantage that it allows us to reuse the CLLDCLIENT (\url{LINK}) 
-for this task. \textcolor{red}{+++}
+CLLD framework, which allows us to reuse tools built on top of the CLLD API, in particular the
+clldclient package (\url{https://github.com/clld/clldclient}). \textcolor{red}{+++}
 
 
 In the Concepticon, all entries from concept lists are partitioned into sets
@@ -326,8 +328,14 @@ without further specification.
   \end{table}
 
 \section{Using the Concepticon}
-\textcolor{red}{HIer eventuell zeigen, wie das Concepticon bei Dictionaria und Lexibank benutzt
-werden kann}
+\textcolor{red}{The Dictionaria project (\url{http://home.uni-leipzig.de/dictionaryjournal/}) provides
+a typical use case for the Concepticon: The project will publish dictionaries of minor languages in a way
+that maximizes opportunities for data reuse. In particular, comparability across dictionaries via
+comparison meanings is a goal. Concepticon concept sets are the natural choice for such comparison
+meanings, and the concept labels linked to concept sets provide a good heuristic to match meaning descriptions
+of dictionary words to these sets. Sine Concepticon is open to extension, the Dictionaria project will also
+feed information back into Concepticon by distilling and contributing a list of concepts commonly encountered
+ in dictionaries of minor languages.}
 
 \section{Outlook}
 \textcolor{red}{heir noch mal sagen, dass wir natürlich noch weiter daran arbeiten.}
