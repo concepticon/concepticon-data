@@ -24,7 +24,7 @@
 	       $^{3}$Max Planck Institute for the Science of Human History, Jena
 	       \\
 	       \href{mailto:mattis.list@lingpy.org}{mattis.list@lingpy.org}, 
-	       \href{mailto:email}{emailpending}, 
+	       \href{mailto:cysouw@uni-marburg.de}{cysouw@uni-marburg.de}, 
 	       \href{mailto:forkel@shh.mpg.de}{forkel@shh.mpg.de}\\
 	       }
 
@@ -44,17 +44,17 @@ access to studies on semantic change, cross-linguistic polysemies, and semantic 
 
 % this command serves to get easy access to the basis in hyperref
 \newcommand{\concepticon}[1]{http://concepticon.clld.org/contributions/#1}
-\newcommand{\conceptnumber}{\textcolor{red}{xxx} }
-\newcommand{\listnumber}{\textcolor{red}{xxx} }
-\newcommand{\setnumber}{\textcolor{red}{xxx} }
-\newcommand{\relationnumber}{\textcolor{red}{xxx}}
+\newcommand{\conceptnumber}{\textcolor{black}{20~077} }
+\newcommand{\listnumber}{\textcolor{black}{100} }
+\newcommand{\setnumber}{\textcolor{black}{2435} }
+\newcommand{\relationnumber}{\textcolor{black}{639}}
 
 \begin{document}
 
 \maketitleabstract
 
 \section{Introduction}
-In 1950, Morris Swadesh (1909 -- 1967) proposed the idea that certain parts of the lexicon of human
+\noindent In 1950, Morris Swadesh (1909 -- 1967) proposed the idea that certain parts of the lexicon of human
 languages are universal, stable over time, and rather resistant to borrowing. As a result, he
 claimed that these
 parts of the lexicon, which was later called \emph{basic vocabulary}, would be very
@@ -117,14 +117,14 @@ cross-linguistic polysemies \cite{List2014f}, or frequently recurring semantic s
 
 
 \section{Concept Lists}
-Concept lists are -- simply speaking -- lists of concepts. In these lists, concepts are ideally
+\noindent Concept lists are -- simply speaking -- lists of concepts. In these lists, concepts are ideally
 described by a \emph{concept label} and a short \emph{definition}. Most published
 concept lists, however, only contain a concept label. On the other hand, certain concept lists have
 been further expanded by
 adding structure, such as \emph{rankings}, \emph{divisions}, or \emph{relations}.
 
 \subsection{Purpose of Concept Lists}
-Concept lists are compiled for a variety of different
+\noindent Concept lists are compiled for a variety of different
 purposes. A major distinction can be made between those concept lists which have been compiled for
 the
 purpose of \emph{language comparison} and those which have been compiled for the purpose of \emph{concept
@@ -137,7 +137,7 @@ layers} \cite{Chen1996}. Among the latter, we can distinguish between concept li
 \cite{Wold2009,Bulakh2013}.
 
 \subsection{Structure of Concept Lists}
-The purpose for which a given concept list was originally defined has an intermediate influence on
+\noindent The purpose for which a given concept list was originally defined has an intermediate influence on
 its structure. Given the multitude of use cases in both synchronic and diachronic linguistics, it is
 difficult to give an exhaustive and unique classification schema for all concept lists which have
 been compiled in the past. In Table \ref{tab:conceptlists}, we have nevertheless tried to
@@ -173,7 +173,7 @@ items}                    & language comparison \\\hline
 \nocite{Swadesh1952,Starostin1991,Dolgopolsky1964,Allen2007,Bulakh2013,Matisoff1978,Leibniz1768}
 
 \section{Linking Concept Lists}
-\textcolor{red}{+++}While all the concept lists which have been published so far constitute language
+\noindent While all the concept lists which have been published so far constitute language
 resources with rich and valuable information, we lack guidelines, standards, best practices, and
 models to handle their interoperability. This is specifically important in the context of
 multilingual language resources and resources on less-well-studied languages. 
@@ -183,18 +183,18 @@ on a greater scale. Despite the growing body, the interoperability of language r
 concepts and meanings, like wordlists and lexical datasets, has not yet been addressed in a
 systematic way.  
  
-The Concepticon is an attempt to overcome these difficulties by linking 
-the many different concept lists (``Swadesh Lists'') which are
-used in the linguistic literature. 
-In order to do so, we offer open, linked, and shared data and tools in open and collaborative
-architectures. Our data is curated openly and collaboratively on GitHub (\url{https://github.com/clld/concepticon-data}). The
+The Concepticon is an attempt to overcome these difficulties by linking the many different concept
+lists (``Swadesh Lists'') which are used in the linguistic literature.  In order to do so, we offer
+open, linked, and shared data and tools in open and collaborative architectures. Our data is curated
+openly and collaboratively on GitHub (\url{https://github.com/clld/concepticon-data}). The
 Concepticon itself is published as Linked Open Data (\url{http://concepticon.clld.org}) within the
 CLLD framework, which allows us to reuse tools built on top of the CLLD API, in particular the
-clldclient package (\url{https://github.com/clld/clldclient}). \textcolor{red}{+++}
-
-
+clldclient package (\url{https://github.com/clld/clldclient}).
+ 
 In the Concepticon, all entries from concept lists are partitioned into sets
-of labels referring to the same concept -- so called \emph{concept sets}. The Concepticon currently links
+of labels referring to the same concept -- so called \emph{concept sets}. 
+The Concepticon currently\footnote{This is version 0.2 "public beta", see \url{http://dx.doi.org/XXX}.
+Note that this version is not yet published online, but the data is already being distributed.} links
 \conceptnumber concepts from \listnumber concept lists to \setnumber concept sets and defines
 \relationnumber relations between the concept sets.
  
@@ -221,8 +221,13 @@ still be comparable if the respective concept sets are related.
 
 
 \section{Examples}
+\noindent Linking concept labels to concept sets may be simple and straightforward. It may, however, also turn
+into a rather complicated task for which no completely satisfying solution can be found.  In the
+following, we illustrate the difficulties of linking concepts to concept sets with help of three
+seemingly less complicated examples. By this, we want to shed light on the theoretical and practical
+problems we had to face when compiling the Concepticon, and how we tried to address them.
 \subsection{CHILD: ``Young Human" or "Descendant"?}
-As a first example for both the problems one faces when trying to link concepts across concept lists and the way we
+\noindent As a first example for both the problems one faces when trying to link concepts across concept lists and the way we
 try to address them in the Concepticon, consider the different concept labels for ``child" given in
 Table \ref{tab:child}. As we can see from the labels themselves, the label ``child" can denote two
 different concepts, of which one could be specified as ``child (young human)" and the other as
@@ -265,7 +270,7 @@ relations involving ``CHILD" which have been currently defined in the Conceptico
   \label{fig:child}
 \end{figure}
 \subsection{RAIN: Thing or Action?}
-Another example for problems involving concept labels in concept lists are basic words related to
+\noindent Another example for problems involving concept labels in concept lists are basic words related to
 ``rain". Here, as illustrated in Table \ref{tab:rain}, the problem of mapping is not to find out which reading is intended, since ``rain"
 itself is a rather clearcut concept, but it is not possible in all cases to tell whether the
 compilers intended to denote the \emph{thing} or the \emph{action}. This is a problem resulting from
@@ -301,15 +306,14 @@ being broader as ``RAIN (PRECIPATION)" and "RAIN (RAINING)" (see Figure \ref{fig
 \end{figure}
 
 \subsection{``DULL" or ``STUPID"?}
-
-As a last example for typical problems involving the linking of concept list, consider the concepts
-given in Table \ref{tab:dull}. Here, the four lists apparently intend to denote the same concept
-``dull". From the Chinese terms used in the lists by \newcite{Wang2006} and \newcite{Chen1996},
-however, we can clearly see that the intended meaning is not ``dull" in the sense of ``being blunt
-(of a knife)", but ``stupid". Given that both authors originally wanted to render Swadesh's original
-concept lists in their research, this shows that we are dealing with a translation error here which
-may well result from the fact that in many concept lists, only ``dull" is used as a concept label,
-without further specification. 
+\noindent As a last example for typical problems involving the linking of concept list, consider the
+concepts given in Table \ref{tab:dull}. Here, the four lists apparently intend to denote the same
+concept ``dull". From the Chinese terms used in the lists by \newcite{Wang2006} and
+\newcite{Chen1996}, however, we can clearly see that the intended meaning is not ``dull" in the
+sense of ``being blunt (of a knife)", but ``stupid". Given that both authors originally wanted to
+render Swadesh's original concept lists in their research, this shows that we are dealing with a
+translation error here which may well result from the fact that in many concept lists, only ``dull"
+is used as a concept label, without further specification. 
  
 \begin{table}[h]
   \resizebox{0.475\textwidth}{!}{%
@@ -326,19 +330,35 @@ without further specification.
   \end{table}
 
 \section{Using the Concepticon}
-\textcolor{red}{The Dictionaria project (\url{http://home.uni-leipzig.de/dictionaryjournal/}) provides
-a typical use case for the Concepticon: The project will publish dictionaries of minor languages in a way
-that maximizes opportunities for data reuse. In particular, comparability across dictionaries via
-comparison meanings is a goal. Concepticon concept sets are the natural choice for such comparison
-meanings, and the concept labels linked to concept sets provide a good heuristic to match meaning descriptions
-of dictionary words to these sets. Sine Concepticon is open to extension, the Dictionaria project will also
-feed information back into Concepticon by distilling and contributing a list of concepts commonly encountered
- in dictionaries of minor languages.}
+\noindent The Dictionaria project (\url{http://home.uni-leipzig.de/dictionaryjournal/}) provides a
+typical use case for the Concepticon: The project will publish dictionaries of minor languages in a
+way that maximizes opportunities for data reuse. In particular, comparability across dictionaries
+via \emph{comparison meanings} (``standardized" meanings that ease the comparison) is a goal.
+Concepticon concept sets are the natural choice for such comparison meanings, and the concept labels
+linked to concept sets provide a good heuristic to match meaning descriptions of dictionary words to
+these sets. Since the Concepticon is open to extension, the Dictionaria project will also feed
+information back into the Concepticon by distilling and contributing a list of concepts commonly
+encountered in dictionaries of minor languages.
 
 \section{Outlook}
-\textcolor{red}{heir noch mal sagen, dass wir natürlich noch weiter daran arbeiten.}
-
-
+\noindent An enormous amount of concept lists have been produced so far, not only in historical
+linguistics, but also in other disciplines that practically deal with the meanings of words, such as
+psycholinguistics, cognitive linguistics, but also second language learning.  With the \listnumber
+concept lists we have assembled and linked in the Concepticon so far, we are still far away from
+getting anywhere near the top of the mountain. There are many more existing concept lists which need
+to be mapped to the Concepticon consecutively, and there is also important metadata, like BabelNet
+(\url{http://babelnet.org}) to which we want to link from our concept sets.
+Despite all the work that still needs to be done, we think that important first steps
+have been made with the Concepticon in its current form.
+In the future, we hope that we can advance further both by
+linking more lists to our resource in the future and by encouraging scholars to do the same with
+their data. With the collaborative efforts of the linguistic community, we may make an important
+step towards the standardization of concept lists.
+\section{Resource Information}
+\noindent The data underlying the Concepticon is curated at \url{http://github.com/clld/concepticon-data}. The
+application source code for the publication of the Concepticon can be accessed at
+\url{http://github.com/clld/concepticon}. The application itself can be accessed via
+\url{http://concepticon.clld.org}. The most recent official release of the Concepticon can be downloaded from \url{http://dx.doi.org/XXX}.
 
 \free
 \bibliographystyle{lrec2014}
