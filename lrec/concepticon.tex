@@ -56,8 +56,8 @@ access to studies on semantic change, cross-linguistic polysemies, and semantic 
 \section{Introduction}
 \noindent In 1950, Morris Swadesh (1909 -- 1967) proposed the idea that certain parts of the lexicon of human
 languages are universal, stable over time, and rather resistant to borrowing. As a result, he
-claimed that these
-parts of the lexicon, which was later called \emph{basic vocabulary}, would be very
+claimed that this
+part of the lexicon, which was later called \emph{basic vocabulary}, would be very
 useful to address the problem of subgrouping in historical linguistics:
 \begin{quote}
 [...] it is a well known fact that certain types of morphemes are relatively stable. Pronouns and
@@ -123,9 +123,8 @@ concept lists, however, only contain a concept label. On the other hand, certain
 been further expanded by
 adding structure, such as \emph{rankings}, \emph{divisions}, or \emph{relations}.
 
-\subsection{Purpose of Concept Lists}
-\noindent Concept lists are compiled for a variety of different
-purposes. A major distinction can be made between those concept lists which have been compiled for
+Concept lists are compiled for a variety of different
+\emph{purposes}. A major distinction can be made between those concept lists which have been compiled for
 the
 purpose of \emph{language comparison} and those which have been compiled for the purpose of \emph{concept
 comparison}. 
@@ -136,9 +135,8 @@ layers} \cite{Chen1996}. Among the latter, we can distinguish between concept li
 \emph{synchronic objective} \cite{Hill2014}, and those with a primarily \emph{diachronic objective}
 \cite{Wold2009,Bulakh2013}.
 
-\subsection{Structure of Concept Lists}
-\noindent The purpose for which a given concept list was originally defined has an intermediate influence on
-its structure. Given the multitude of use cases in both synchronic and diachronic linguistics, it is
+The purpose for which a given concept list was originally defined has an immediate influence on
+its \emph{structure}. Given the multitude of use cases in both synchronic and diachronic linguistics, it is
 difficult to give an exhaustive and unique classification schema for all concept lists which have
 been compiled in the past. In Table \ref{tab:conceptlists}, we have nevertheless tried to
 distinguish eight basic types of concept lists and give one list for each of the types as a
@@ -193,8 +191,8 @@ clldclient package (\url{https://github.com/clld/clldclient}).
  
 In the Concepticon, all entries from concept lists are partitioned into sets
 of labels referring to the same concept -- so called \emph{concept sets}. 
-The Concepticon currently\footnote{This is version 0.2 "public beta", see \url{http://dx.doi.org/XXX}.
-Note that this version is not yet published online, but the data is already being distributed.} links
+The Concepticon currently\footnote{This is version 0.2 "public beta", see
+\url{http://dx.doi.org/10.5281/zenodo.32001}, published at \url{http://concepticon.clld.org}.} links
 \conceptnumber concepts from \listnumber concept lists to \setnumber concept sets and defines
 \relationnumber relations between the concept sets.
  
@@ -244,7 +242,8 @@ broader as ``CHILD (YOUNG HUMAN)" and ``CHILD (DESCENDANT)". Figure \ref{fig:chi
 relations involving ``CHILD" which have been currently defined in the Concepticon.
  
 \begin{table}[h]
-  \resizebox{0.475\textwidth}{!}{%
+  \centering
+  \resizebox{0.45\textwidth}{!}{%
   \tabular{|p{3cm}|p{4cm}|p{3cm}|}\hline
     \bf Compiler                 & \bf CONCEPT LABEL                                          & \bf Concepticon   \\\hline\hline
     Blust                   (2008)       & child                                                 & CHILD                         \\\hline
@@ -265,7 +264,8 @@ relations involving ``CHILD" which have been currently defined in the Conceptico
 \end{table}
 
 \begin{figure}[h]
-  \includegraphics[width=0.475\textwidth]{img/child.pdf}
+  \centering
+  \includegraphics[width=0.45\textwidth]{img/child.pdf}
   \caption{Concept Relations for ``child''.}
   \label{fig:child}
 \end{figure}
@@ -284,7 +284,8 @@ intended reading. For this reason, we set up an overarching concept set ``RAININ
 being broader as ``RAIN (PRECIPATION)" and "RAIN (RAINING)" (see Figure \ref{fig:rain}).
 
 \begin{table}[h]
-  \resizebox{0.475\textwidth}{!}{%
+  \centering
+  \resizebox{0.45\textwidth}{!}{%
   \tabular{|p{3cm}|p{4cm}|p{3cm}|}\hline
     \bf Compiler                 & \bf CONCEPT LABEL                                          & \bf Concepticon   \\\hline\hline
     Blust        2008       &  rain             & RAIN (PRECIPATION)\\\hline
@@ -300,7 +301,8 @@ being broader as ``RAIN (PRECIPATION)" and "RAIN (RAINING)" (see Figure \ref{fig
   \end{table}
 
   \begin{figure}[h]
-  \includegraphics[width=0.475\textwidth]{img/rain.pdf}
+  \centering
+  \includegraphics[width=0.45\textwidth]{img/rain.pdf}
   \caption{Concept Relations for ``rain''.}
   \label{fig:rain}
 \end{figure}
@@ -316,7 +318,8 @@ translation error here which may well result from the fact that in many concept 
 is used as a concept label, without further specification. 
  
 \begin{table}[h]
-  \resizebox{0.475\textwidth}{!}{%
+  \centering
+  \resizebox{0.45\textwidth}{!}{%
   \tabular{|p{3cm}|p{4cm}|p{3cm}|}\hline
     \bf Compiler        & \bf CONCEPT LABEL             & \bf Concepticon   \\\hline\hline
     Blust                 (2008) & dull, blunt                 & DULL\\\hline
@@ -331,7 +334,7 @@ is used as a concept label, without further specification.
 
 \section{Using the Concepticon}
 \noindent The Dictionaria project (\url{http://home.uni-leipzig.de/dictionaryjournal/}) provides a
-typical use case for the Concepticon: The project will publish dictionaries of minor languages in a
+typical use case for the Concepticon: The project will publish dictionaries of lesser-described languages in a
 way that maximizes opportunities for data reuse. In particular, comparability across dictionaries
 via \emph{comparison meanings} (``standardized" meanings that ease the comparison) is a goal.
 Concepticon concept sets are the natural choice for such comparison meanings, and the concept labels
@@ -355,10 +358,11 @@ linking more lists to our resource in the future and by encouraging scholars to 
 their data. With the collaborative efforts of the linguistic community, we may make an important
 step towards the standardization of concept lists.
 \section{Resource Information}
-\noindent The data underlying the Concepticon is curated at \url{http://github.com/clld/concepticon-data}. The
-application source code for the publication of the Concepticon can be accessed at
-\url{http://github.com/clld/concepticon}. The application itself can be accessed via
-\url{http://concepticon.clld.org}. The most recent official release of the Concepticon can be downloaded from \url{http://dx.doi.org/XXX}.
+\noindent The data underlying the Concepticon is curated at
+\url{http://github.com/clld/concepticon-data}. The application source code for the publication of
+the Concepticon can be accessed at \url{http://github.com/clld/concepticon}. The application itself
+can be accessed via \url{http://concepticon.clld.org}. The most recent release of the
+Concepticon can be downloaded from \url{http://dx.doi.org/10.5281/zenodo.32001}.
 
 \free
 \bibliographystyle{lrec2014}
