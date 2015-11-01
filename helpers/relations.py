@@ -48,7 +48,7 @@ for node,data in G.nodes(data=True):
 nx.write_gml(G, '../concepticondata/conceptrelations.gml')
 with open('../concepticondata/conceptrelations.modified.tsv', 'w') as f:
     
-    f.write('SOURCE\tRELATION\tTARGET\n')
+    f.write('SOURCE\tSOURCE_GLOSS\tRELATION\tTARGET\tTARGET_GLOSS\n')
     for a,b,d in G.edges(data=True):
         
         f.write('{0}\t{1}\t{2}\t{3}\t{4}\n'.format(
