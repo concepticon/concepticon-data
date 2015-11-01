@@ -42,9 +42,10 @@ def read_tsv(path, unique='ID'):
 def read_sources(path):
 
     infiles = glob.glob(os.path.join(path, '*.pdf'))
-
-    return [os.path.split(f)[-1][:-4] for f in infiles]
-
+    
+    sources = [os.path.split(f)[-1][:-4] for f in infiles]
+    
+    return sources
 
 def test():
     conceptlists = {n: read_tsv(data_path('conceptlists', n), unique=None) for n in os.listdir(data_path('conceptlists')) if not n.startswith('.')}
@@ -76,16 +77,20 @@ def test():
     # make also sure that all sources are accompanied as pdf, but only write a
     # warning if this is not the case
     #
-    pdfs = read_sources('sources')
+    pdfs = read_sources(data_path('sources'))
+    no_pdf_for_source = []
     short_path = os.path.split(clmd)[1]
     for i, cl in read_tsv(clmd):
         for ref in split_ids(cl['REFS']):
+            
             if ref not in pdfs:
-
-                warning('no source found for bibtex record "%s" ' % ref,
-                        short_path, i)
-
-
+                no_pdf_for_source += [ref]
+    
+    warning(
+            '\n'.join(no_pdf_for_source),
+            'no pdf found for {0} sources'.format(len(no_pdf_for_source)),
+            )
+    
     ref_cols = {
         'CONCEPTICON_ID': set(cs[1]['ID'] for cs in concepticon),
         'CONCEPTICON_GLOSS': set(cs[1]['GLOSS'] for cs in concepticon),
