@@ -38,14 +38,23 @@ with open('../concepticondata/conceptrelations.tsv') as f:
             G.add_edge(a,c,relation=b)
             G.add_edge(c,a,relation=relations[b])
 
+        G.node[a]['label'] = C[a]
+        G.node[c]['label'] = C[c]
+
 for node,data in G.nodes(data=True):
     data['label'] = C[node]['gloss']
     data['cid'] = C[node]['id']
 
 nx.write_gml(G, '../concepticondata/conceptrelations.gml')
-with open('conceptrelations.tsv', 'w') as f:
+with open('../concepticondata/conceptrelations.modified.tsv', 'w') as f:
     
     f.write('SOURCE\tRELATION\tTARGET\n')
     for a,b,d in G.edges(data=True):
         
-        f.write('{0}\t{2}\t{1}\n'.format(a,b,d['relation']))
+        f.write('{0}\t{1}\t{2}\t{3}\t{4}\n'.format(
+            a,
+            G.node[a]['label'],
+            d['relation'],
+            b,
+            G.node[b]['label']
+            ))
