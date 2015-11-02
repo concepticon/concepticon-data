@@ -3,7 +3,7 @@ Script corrects the labels in the network and reduces all relations to one
 relation per concept pair as a minimum
 """
 
-from lingpyd import *
+from lingpy import *
 
 D = csv2list('../concepticondata/conceptrelations.tsv', strip_lines=False)
 _C = csv2list('../concepticondata/concepticon.tsv', strip_lines=False)
