@@ -81,15 +81,16 @@ def test():
     no_pdf_for_source = []
     short_path = os.path.split(clmd)[1]
     for i, cl in read_tsv(clmd):
-        for ref in split_ids(cl['REFS']):
+        for ref in split_ids(cl['PDF']):
             
             if ref not in pdfs:
                 no_pdf_for_source += [ref]
     
-    warning(
-            '\n'.join(no_pdf_for_source),
-            'no pdf found for {0} sources'.format(len(no_pdf_for_source)),
-            )
+    if no_pdf_for_source:
+        warning(
+                '\n'.join(no_pdf_for_source),
+                'no pdf found for {0} sources'.format(len(no_pdf_for_source)),
+                )
     
     ref_cols = {
         'CONCEPTICON_ID': set(cs[1]['ID'] for cs in concepticon),
@@ -97,8 +98,10 @@ def test():
     }
 
     for name, concepts in conceptlists.items():
-        print(name)
-        assert name.replace('.tsv', '') in clids
+        try:
+            assert name.replace('.tsv', '') in clids
+        except:
+            error('unkown record {0} referenced'.format(name), '','')
 
         missing = []
         for line, concept in concepts:
