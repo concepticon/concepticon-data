@@ -21,11 +21,11 @@ It is not easy to classify the various types of concept lists, but we try anyway
 * hi: **HiHi vocabulary list**, following the terminology of [McMahon and McMahon (2005)](http://bibliography.lingpy.org?key=McMahon2005), this is the most stable part of a given basic vocabulary list.
 * lo: **LoLo vocabulary list**, following the terminology of [McMahon and McMahon (2005)](http://bibliography.lingpy.org?key=McMahon2005), this is the least stable part of a given basic vocabulary list.
 * ls: **Less stable sublist**, in contrast to the practice by [McMahon and McMahon (2005)](http://bibliography.lingpy.org?key=McMahon2005), wo extract two small lists from a baselist, which do not cover the whole baselist, less stable sublists are based on a complete division of a given wordlist in two parts. Paradigmatic examples are "Yakhhontov-1991-100", which is divided into "Yakhontov-1991-35" and "Yakhontov-1991-65". 
+* ms: **more stable sublist**, the counterpart of a **less stable sublist**, that this the upper division of a given basic vocabulary list, which is supposed to be more stable than the lower division.
 * q: **questionnaire**, a term which is reserved for all lists which have a larger amount of lexical items and have been created for specific purposes other than lexicocstatistical subgrouping or cognate detection. Questionnaires are often typical for a given area or language family.
 * rank: **ranked concept list**, a list which can be ranked according to some meta-data that the list provides, like "Tadmor-2008-100", or "Starostin-2007-110".
 * sp: **special purpose list**, a dummy category to include all lists which can currently not be sufficiently classified. 
 * us: **ultra stable concept list**, a list that was compiled with the idea in mind to list concepts whose form-meaning relation is supposed to be very stable.
-* ms: **more stable sublist**, the counterpart of a **less stable sublist**, that this the upper division of a given basic vocabulary list, which is supposed to be more stable than the lower division.
 
 Note that we try to avoid assigning multiple "type" labels to one and the same list, but that we do not discourage that automatically, since there are well a few lists which have been compiled with different goals in mind.
 
