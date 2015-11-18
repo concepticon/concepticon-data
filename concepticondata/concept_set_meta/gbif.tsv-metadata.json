@@ -1,0 +1,31 @@
+{
+  "url": "gbif.tsv",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Mapping to GBIF",
+  "dc:source": "http://www.gbif.org",
+  "dcat:keyword": ["biodiversity"],
+  "dc:description": "Mapping from Concepticon Concept Sets to identifiers within the Global Biodiversity Information Facility.",
+  "tableSchema": {
+    "columns": [
+      {
+        "name": "CONCEPTICON_ID",
+        "datatype": "string"
+      }, {
+        "name": "GBIF_ID",
+        "datatype": "string",
+        "propertyUrl": "dc:relation",
+        "valueUrl": "http://www.gbif.org/species/{GBIF_ID}"
+      }
+    ],
+    "foreignKeys": [
+      {
+        "columnReference": "CONCEPTICON_ID",
+        "reference": {
+          "resource": "../concepticon.tsv",
+          "columnReference": "ID"
+        }
+      }
+    ],
+    "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+  }
+}

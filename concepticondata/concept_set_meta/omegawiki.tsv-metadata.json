@@ -1,0 +1,31 @@
+{
+  "url": "omegawiki.tsv",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Mapping to OmegaWiki",
+  "dc:source": "http://www.omegawiki.org",
+  "dcat:keyword": ["dictionary", "multilingual"],
+  "dc:description": "Mapping from Concepticon Concept Sets to OmegaWiki Defined meanings. OmegaWiki aims to create a dictionary of all words of all languages, including lexical, terminological and ontological information.",
+  "tableSchema": {
+    "columns": [
+      {
+        "name": "CONCEPTICON_ID",
+        "datatype": "string"
+      }, {
+        "name": "OMEGAWIKI_ID",
+        "datatype": "string",
+        "propertyUrl": "dc:relation",
+        "valueUrl": "http://www.omegawiki.org/DefinedMeaning:{OMEGAWIKI_ID}"
+      }
+    ],
+    "foreignKeys": [
+      {
+        "columnReference": "CONCEPTICON_ID",
+        "reference": {
+          "resource": "../concepticon.tsv",
+          "columnReference": "ID"
+        }
+      }
+    ],
+    "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+  }
+}
