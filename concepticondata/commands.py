@@ -88,6 +88,8 @@ def stats():
     lines = [
         '## Concept Lists',
         '',
+        ' name | mapped | mergers ',
+        ' ---- | ------ | ------- ',
     ]
 
     for cl in sorted(
@@ -100,13 +102,12 @@ def stats():
         mergers = len([k for k, v in concepticon_ids.items() if v > 1])
 
         line = [
-            ' - ',
             '[%s](%s) ' % (cl.stem, cl.name),
             badge('mapped', '%s%%' % mapped_ratio, Colors.red if mapped_ratio < 99 else Colors.brightgreen),
             badge('mergers', '%s' % mergers, Colors.red if mergers else Colors.brightgreen),
         ]
 
-        lines.append(''.join(line))
+        lines.append(' | '.join(line))
 
     with PKG_PATH.joinpath('conceptlists', 'README.md').open('w', encoding='utf8') as fp:
         fp.write('\n'.join(lines))
