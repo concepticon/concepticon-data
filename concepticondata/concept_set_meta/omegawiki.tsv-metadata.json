@@ -5,6 +5,11 @@
   "dc:source": "http://www.omegawiki.org",
   "dcat:keyword": ["dictionary", "multilingual"],
   "dc:description": "Mapping from Concepticon Concept Sets to OmegaWiki Defined meanings. OmegaWiki aims to create a dictionary of all words of all languages, including lexical, terminological and ontological information.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
   "tableSchema": {
     "columns": [
       {

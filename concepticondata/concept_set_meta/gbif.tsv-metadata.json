@@ -5,6 +5,11 @@
   "dc:source": "http://www.gbif.org",
   "dcat:keyword": ["biodiversity"],
   "dc:description": "Mapping from Concepticon Concept Sets to identifiers within the Global Biodiversity Information Facility.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
   "tableSchema": {
     "columns": [
       {

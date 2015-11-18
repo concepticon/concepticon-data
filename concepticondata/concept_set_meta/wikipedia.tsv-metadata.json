@@ -5,6 +5,11 @@
   "dc:source": "https://en.wikipedia.org",
   "dcat:keyword": ["encyclopedia", "multilingual"],
   "dc:description": "Mapping from Concepticon Concept Sets to Wikipedia pages. Wikipedia is a famous online encyclopedia.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
   "tableSchema": {
     "columns": [
       {
