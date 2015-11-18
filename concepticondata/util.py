@@ -1,12 +1,14 @@
-import os
-import csv
-import shutil
+from __future__ import unicode_literals
 import re
-from collections import defaultdict, OrderedDict
+from collections import defaultdict
+
+from clldutils.path import Path
+from clldutils.dsv import reader, UnicodeWriter, rewrite
 
 import concepticondata
 
 
+PKG_PATH = Path(concepticondata.__file__).parent
 ID_SEP_PATTERN = re.compile('\.|,|;')
 
 
@@ -19,35 +21,15 @@ def split_ids(s):
 
 
 def data_path(*comps):
-    return os.path.join(os.path.dirname(concepticondata.__file__), *comps)
+    return PKG_PATH.joinpath(*comps).as_posix()
 
 
 def tsv_items(path, ordered=False):
-    items = []
-    with open(path) as csvfile:
-        reader = csv.DictReader(csvfile, delimiter='\t')
-        for item in reader:
-            if ordered:
-                item = OrderedDict([(k, item[k]) for k in reader.fieldnames])
-            items.append(item)
-    return items
+    return list(reader(path, delimiter='\t', dicts=True))
 
 
 def visit(visitor, fname):
-    """Utility function to rewrite rows in tsv files.
-
-    :param visitor: A callable that takes a row as input and returns a (modified) row or\
-    None to filter out the row.
-    """
-    tmp = os.path.join(os.path.dirname(fname), '.' + os.path.basename(fname))
-    with open(fname, 'rb') as source:
-        with open(tmp, 'wb') as target:
-            writer = csv.writer(target, delimiter='\t')
-            for i, row in enumerate(csv.reader(source, delimiter='\t')):
-                row = visitor(i, row)
-                if row:
-                    writer.writerow(row)
-    shutil.move(tmp, fname)
+    return rewrite(fname, visitor, delimiter='\t')
 
 
 def load_conceptlist(idf):
@@ -98,11 +80,10 @@ def write_conceptlist(clist, filename, header=False):
         convert = lambda text: int(text) if text.isdigit() else text.lower() 
         alphanum_key = lambda key: [convert(c) for c in re.split('([0-9]+)', key)]
         return sorted(l, key=alphanum_key)
-    
+
     header = header or clist['header']
     keys = natural_sort(list(clist.keys()))
-    with open(filename, 'w') as f:
-        writer = csv.writer(f, delimiter='\t')
+    with UnicodeWriter(filename, delimiter='\t') as writer:
         writer.writerow(header)
         for k in keys:
             v = clist[k]

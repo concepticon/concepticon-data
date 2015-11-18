@@ -2,6 +2,7 @@ from setuptools import setup, find_packages
 
 
 requires = [
+    'clldutils>=0.2',
 ]
 
 setup(
@@ -24,7 +25,9 @@ setup(
     install_requires=requires,
     entry_points={
         'console_scripts': [
-            'linkconcepts = concepticondata.commands:link']
+            'linkconcepts=concepticondata.commands:link',
+            'conceptliststats=concepticondata.commands:stats',
+        ]
     },
     tests_require=[],
     test_suite="concepticondata")
