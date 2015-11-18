@@ -1,7 +1,12 @@
+from __future__ import unicode_literals, division
 import os
 import argparse
+from collections import Counter
 
-from concepticondata.util import data_path, visit, tsv_items
+from clldutils.dsv import reader, rewrite
+from clldutils.badge import badge, Colors
+
+from concepticondata.util import data_path, PKG_PATH
 
 
 class Linker(object):
@@ -11,7 +16,7 @@ class Linker(object):
             'CONCEPTICON_ID': {},  # maps ID to GLOSS
             'CONCEPTICON_GLOSS': {},  # maps GLOSS to ID
         }
-        for cs in tsv_items(data_path('concepticon.tsv')):
+        for cs in reader(data_path('concepticon.tsv'), dicts=True, delimiter='\t'):
             self.concepts['CONCEPTICON_ID'][cs['ID']] = cs['GLOSS']
             self.concepts['CONCEPTICON_GLOSS'][cs['GLOSS']] = cs['ID']
 
@@ -73,4 +78,36 @@ CONCEPTICON_ID is given, the other is added.""")
         args.conceptlist = data_path('conceptlists', args.conceptlist)
         assert os.path.exists(args.conceptlist)
 
-    visit(Linker(os.path.basename(args.conceptlist).replace('.tsv', '')), args.conceptlist)
+    rewrite(
+        args.conceptlist,
+        Linker(os.path.basename(args.conceptlist).replace('.tsv', '')),
+        delimiter='\t')
+
+
+def stats():
+    lines = [
+        '## Concept Lists',
+        '',
+        ' name | mapped | mergers ',
+        ' ---- | ------ | ------- ',
+    ]
+
+    for cl in sorted(
+            PKG_PATH.joinpath('conceptlists').glob('*.tsv'), key=lambda _cl: _cl.name):
+        concepts = list(reader(cl, namedtuples=True, delimiter='\t'))
+        mapped = len([c for c in concepts if c.CONCEPTICON_ID])
+        mapped_ratio = int((mapped / len(concepts)) * 100)
+        concepticon_ids = Counter(
+            [c.CONCEPTICON_ID for c in concepts if c.CONCEPTICON_ID])
+        mergers = len([k for k, v in concepticon_ids.items() if v > 1])
+
+        line = [
+            '[%s](%s) ' % (cl.stem, cl.name),
+            badge('mapped', '%s%%' % mapped_ratio, Colors.red if mapped_ratio < 99 else Colors.brightgreen),
+            badge('mergers', '%s' % mergers, Colors.red if mergers else Colors.brightgreen),
+        ]
+
+        lines.append(' | '.join(line))
+
+    with PKG_PATH.joinpath('conceptlists', 'README.md').open('w', encoding='utf8') as fp:
+        fp.write('\n'.join(lines))
