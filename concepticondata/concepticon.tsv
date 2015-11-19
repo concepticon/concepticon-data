@@ -2310,17 +2310,17 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2309	LIVE	The body	To be alive; to have a life.	Action/Process
 2310	US (OBLIQUE CASE OF WE)	Kinship	Oblique case of the first person plural pronoun.	Other
 2311	WOODS	The physical world	A vegetation community dominated by trees and other woody shrubs, growing close enough together that the tree tops touch or overlap, creating various degrees of shade on the forest floor.	Person/Thing
-2312	YOU (OBLIQUE CASE OF YOU)	The oblique case of the second person plural pronoun.	Other
+2312	YOU (OBLIQUE CASE OF YOU)		The oblique case of the second person plural pronoun.	Other
 2313	BRONZE	The physical world	An alloy consisting primarily of copper and the addition of other metals (usually tin) and sometimes arsenic, phosphorus, aluminium, manganese, and silicon. 	Person/Thing
 2314	BROTHER-IN-LAW	Kinship	The brother of one's partner in a marriage.	Person/Thing
 2315	COOK (PERSON)	Food and drink	The person who prepares food.	Person/Thing
 2316	FREE	Possession	Able to act at will; not hampered; not under compulsion or restraint. [B:bn:00103299a]	Property
 2317	SISTER-IN-LAW	Kinship	The sister of one's partner in a marriage.	Person/Thing
 2318	CHESTNUT	Food and drink	Fruit of the chestnut tree.	Person/Thing
-2319	LID (COVER, CAP) Basic actions and technology	The cap of a container.	Person/Thing
+2319	LID (COVER, CAP)	Basic actions and technology	The cap of a container.	Person/Thing
 2320	MUTE PERSON	The body	A person that is not able to speak.	Person/Thing
 2321	MAD PERSON	The body	A person that has mental problems.	Person/Thing
-2322	LAME PERSON	Motion	A person that is not able to walk.	Person/Think
+2322	LAME PERSON	Motion	A person that is not able to walk.	Person/Thing
 2323	BACK (PART)	Spatial relations	The backward part or surface, as of a building.	Person/Thing
 2324	GET WET	Sense perception	To become wet (for example, by standing in the rain).	Action/Process
 2325	PULL OUT	Basic actions and technology	To pull something out.	Action/Process
@@ -2376,7 +2376,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2375	VERTICAL	Spatial relations	Direction passing by a given point is said to be vertical if it is locally aligned with the gradient of the gravity field. 	Property
 2376	HORIZONTAL	Spatial relations	Plane is said to be horizontal at a given point if it is perpendicular to the gradient of the gravity field at that point— in other words, if apparent gravity makes a plumb bob hang perpendicular to the plane at that point. 	Person/Thing
 2377	FLASH (VERB)	The physical world	The process by which flashes of light are caused by the discharge of atmospheric electrical charge.	Action/Process
-2378	THUNDER (VERB)	The physical world	The process producing the noise after a lightning.	Action/Process 
+2378	THUNDER (VERB)	The physical world	The process producing the noise after a lightning.	Action/Process
 2379	UP OR ABOVE	Spatial relations	Moving from a lower position to a higher one, or being at a higher position.	Other
 2380	BROTHER-IN-LAW (OF MAN)	Kinship	The brother of a man's partner in a marriage.	Person/Thing
 2381	FEATHER OR FUR OR HAIR	The body	The cover of a mammal or a bird.	Person/Thing
@@ -2406,7 +2406,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2405	CHRISTMAS	Modern world	Christmas or Christmas Day (Old English: Crīstesmæsse, meaning "Christ's Mass") is an annual festival commemorating the birth of Jesus Christ, observed most commonly on December 25 as a religious and cultural celebration among billions of people around the world. 	Person/Thing
 2406	HOME	The house	The place where one lives.	Person/Thing
 2407	BIRTHDAY	Social and political relations	The day when one was born.	Person/Thing
-2408	CAKE	The modern world	Cake is a form of sweet dessert that is typically baked. 	Person/Thing
+2408	CAKE	Modern world	Cake is a form of sweet dessert that is typically baked. 	Person/Thing
 2409	BROWN	Sense perception	Having a brown color.	Property
 2410	GOOD-LOOKING	Sense perception	Being pleasant to watch (of humans).	Property
 2411	HURT (SOMEBODY)	Sense perception	Imposing pain on somebody else.	Action/Process
@@ -2421,9 +2421,9 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2420	YOUNGER SISTER (OF MAN)	Kinship	The younger sister of a man.	Person/Thing
 2421	YOUNGER SISTER (OF WOMAN)	Kinship	The younger sister of a woman.	Person/Thing
 2422	SOMEONE	Quantity	An unspecified person.	Other
-2423	CHANNEL	Modern World	In physical geography, a channel is a type of landform consisting of the outline of a path of relatively shallow and narrow body of fluid, most commonly the confine of a river, river delta or strait. 	Person/Thing
-2424	MEMBER	Modern World	Part of a team.	Person/Thing
-2425	PROBLEM	Modern World	Something that poses difficulties and requires to be solved in someway.	Person/Thing
+2423	CHANNEL	Modern world	In physical geography, a channel is a type of landform consisting of the outline of a path of relatively shallow and narrow body of fluid, most commonly the confine of a river, river delta or strait. 	Person/Thing
+2424	MEMBER	Modern world	Part of a team.	Person/Thing
+2425	PROBLEM	Modern world	Something that poses difficulties and requires to be solved in someway.	Person/Thing
 2426	CLIMATE	The physical world	Climate is the long-term pattern of weather in a particular area. 	Person/Thing
 2427	FUTURE		The future is what will happen in the time after the present. 	Person/Thing
 2428	LIBRARY	Modern world	A library is a collection of sources of information and similar resources, made accessible to a defined community for reference or borrowing. 	Person/Thing
@@ -2434,7 +2434,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2433	THEORY	Modern world	Theory is a contemplative and rational type of abstract or generalizing thinking, or the results of such thinking. Depending on the context, the results might for example include generalized explanations of how nature works. 	Person/Thing
 2434	TRAGEDY	Modern world	Tragedy (from the Greek: τραγῳδία, tragōidia[a]) is a form of drama based on human suffering that invokes in its audience an accompanying catharsis or pleasure in the viewing. 	Person/Thing
 2435	UNIVERSITY	Modern world	A university (Latin: universitas, "a whole") is an institution of higher (or tertiary) education and research which grants academic degrees in various subjects and typically provides undergraduate education and postgraduate education. 	Person/Thing
-2436	GUTS OR HEART	The Body	Either the human heart or the human guts.	Person/Thing
+2436	GUTS OR HEART	The body	Either the human heart or the human guts.	Person/Thing
 2437	ACAI PALM	Agriculture and vegetation	A species of palm tree in the genus Euterpe cultivated for its fruit and hearts of palm. 	Person/Thing
 2438	CAIMAN	Animals	An alligatorid crocodilian belonging to the subfamily Caimaninae, one of two primary lineages within Alligatoridae, the other being alligators. 	Person/Thing
 2439	TUCUMA PALM	Agriculture and vegetation	A palm native to Amazon Rainforest vegetation, typical of the Pará state in Brazil. 	Person/Thing
@@ -2442,7 +2442,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2441	CASHEW	Agriculture and vegetation	A tropical evergreen tree that produces the cashew seed and the cashew apple. 	Person/Thing
 2442	COCOA BEAN	Agriculture and vegetation	The dried and fully fermented fatty seed of Theobroma cacao, from which cocoa solids and cocoa butter are extracted. 	Person/Thing
 2443	ELECTRIC EEL	Animals	An electric fish, and the only species in that genus. They are capable of generating powerful electric shocks of up to 600 volts, which they use for hunting, self-defense, and communicating with fellow eels. 	Person/Thing
-2444	KINGFISHER	Animals	A group of small to medium-sized brightly colored birds in the order Coraciiformes. 	Person/Thing/
+2444	KINGFISHER	Animals	A group of small to medium-sized brightly colored birds in the order Coraciiformes. 	Person/Thing
 2445	PAPAYA	Food and drink	The fruit of the plant Carica papaya, and is one of the 22 accepted species in the genus Carica of the plant family Caricaceae. 	Person/Thing
 2446	SLOTH	Animals	Medium-sized mammals belonging to the families Megalonychidae (two-toed sloth) and Bradypodidae (three-toed sloth), classified into six species. 	Person/Thing
 2447	WOODPECKER	Animals	Part of the Picidae family, a group of near-passerine birds that also consist of piculets, wrynecks, and sapsuckers. 	Person/Thing
@@ -2455,7 +2455,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2454	SIXTEEN	Quantity	The cardinal number 15.	Other
 2455	DREAMING OR DREAM	The body	Either the act of seeing images when sleeping, or the result of this act, the dream itself.	Other
 2456	LARGE WILD HERBIVORE	Animals	Wild herbivores, like deer or kangaroo, wo are traditionally hunted for their meat.	Person/Thing
-2457	PATH OR ROAD	Motion	A piece of ground that people can walk or drive along.	Person/Thing 
+2457	PATH OR ROAD	Motion	A piece of ground that people can walk or drive along.	Person/Thing
 2458	PERSPIRE OR SWEAT	The body	Either the action of sweating or the product.	Other
 2459	GRINDSTONE	Basic actions and technology	A grindstone is a round sharpening stone used for grinding or sharpening ferrous tools. 	Person/Thing
 2460	DINGO	Animals	The dingo (Canis lupus dingo) is a free-ranging dog found mainly in Australia. 	Person/Thing
