@@ -1,6 +1,25 @@
 # coding: utf8
 from __future__ import unicode_literals
 
+
+CL_TYPES = {
+    "acquisition",
+    "annotated",
+    "areal",
+    "basic",
+    "hihi",
+    "historical",
+    "lolo",
+    "proto-language",
+    "questionnaire",
+    "ranked",
+    "sign language",
+    "specific",
+    "stable",
+    "ultra-stable",
+    "unstable",
+}
+
 SEMANTICFIELD = {
     "Agriculture and vegetation",
     "Animals",

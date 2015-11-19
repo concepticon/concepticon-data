@@ -85,12 +85,16 @@ def test():
     clmd = data_path('conceptlists.tsv')
     clids = {}
     visited = []
+    tags = getattr(data, 'CL_TYPES')
     for i, cl in read_tsv(clmd):
         clids[cl['ID']] = cl
         for ref in split_ids(cl['REFS']):
             if ref not in refs and ref not in visited:
                 error('unknown bibtex record "%s" referenced' % ref, clmd, i)
                 visited += [ref]
+        for tag in split_ids(cl['TAGS']):
+            if tag not in tags:
+                error('invalid cl type: %s' % tag, clmd, i)
 
     #
     # make also sure that all sources are accompanied as pdf, but only write a
