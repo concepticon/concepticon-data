@@ -8,6 +8,7 @@ from collections import namedtuple
 
 from clldutils.misc import normalize_name
 
+from concepticondata import data
 from concepticondata.util import data_path, tsv_items, split_ids, PKG_PATH
 
 SUCCESS = True
@@ -63,6 +64,13 @@ def test():
 
     read_tsv(data_path('concepticon.tsv'))
     concepticon = read_tsv(data_path('concepticon.tsv'), unique='GLOSS')
+
+    for i, cs in concepticon:
+        for attr in ['SEMANTICFIELD', 'ONTOLOGICAL_CATEGORY']:
+            valid = getattr(data, attr)
+            value = cs[attr]
+            if value and value not in valid:
+                error('invalid %s: %s' % (attr, value), data_path('concepticon.tsv'), i)
 
     refs = set()
     with io.open(data_path('references', 'references.bib'), encoding='utf8') as fp:
