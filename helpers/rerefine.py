@@ -56,13 +56,13 @@ for l in clists:
                     
                     if entry['CONCEPTICON_ID']:
                         if entry['CONCEPTICON_ID'] != converter[entry['CONCEPTICON_ID']]:
-                            print(concepticon[entry['CONCEPTICON_ID']][1],
-                                    concepticon[converter[entry['CONCEPTICON_ID']]][1],
+                            print(concepticon[entry['CONCEPTICON_ID']][0],
+                                    concepticon[converter[entry['CONCEPTICON_ID']]][0],
                                     entry['CONCEPTICON_ID'],
                                     converter[entry['CONCEPTICON_ID']]
                                     )
                         entry['CONCEPTICON_ID'] = converter[entry['CONCEPTICON_ID']]
-                        entry['CONCEPTICON_GLOSS'] = concepticon[entry['CONCEPTICON_ID']][1]
+                        entry['CONCEPTICON_GLOSS'] = concepticon[entry['CONCEPTICON_ID']][0]
                     else:
                         entry['CONCEPTICON_GLOSS'] = ''
 

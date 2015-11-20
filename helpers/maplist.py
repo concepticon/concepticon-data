@@ -62,7 +62,7 @@ with open('.temporary1.tsv', 'w') as f:
             else:
                 pos = ''
 
-            f.write(line[0]+'\t'+line[2]+pos+'\n')
+            f.write(line[0]+'\t'+line[1]+pos+'\n')
 
 print("[i] Created temporary file from the current concepticon.")
 # create a temporary file from the input list

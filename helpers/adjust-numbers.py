@@ -3,7 +3,7 @@ from lingpy import *
 # get the concepticon
 cp = csv2list('../concepticondata/concepticon.tsv', strip_lines=False)
 C = dict(
-        [(line[2], line[0]) for line in cp[1:]]
+        [(line[1], line[0]) for line in cp[1:]]
         )
 
 # get the list
