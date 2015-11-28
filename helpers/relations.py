@@ -14,7 +14,8 @@ relations = dict(
     usedfor = 'requires',
     consistsof = '',
     classof = 'instanceof',
-    intransitiveof = 'transitiveof'
+    intransitiveof = 'transitiveof',
+    baseof = 'hasform'
         )
 for k,v in list(relations.items()):
     if v and v != k:
