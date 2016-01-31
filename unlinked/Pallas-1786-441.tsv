@@ -8,7 +8,7 @@ NUMBER	RUSSIAN	ENGLISH	GERMAN	LATIN	FRENCH
 7	Сестра	sister (noun)	Schweßter	Soror	Soeur
 8	Мужъ	husband (noun)	Mann	Maritus	Mari
 9	Жена	wife (noun)	Weib	Uxor	Femme
-10	Дѣва'	girl (noun)	Maedchen	Puella	Fille
+10	Дѣва	girl (noun)	Maedchen	Puella	Fille
 11	Мальчикъ	boy (noun)	Knabe	Puer	Garҫon
 12	Дитя	child (descendant, noun)	Kind	Infans	Enfant
 13	Человѣкъ	person (noun)	Menßch	Homo	Homme
@@ -23,7 +23,7 @@ NUMBER	RUSSIAN	ENGLISH	GERMAN	LATIN	FRENCH
 22	Ухо	ear (noun)	Ohr	Auris	Oreille
 23	Лобъ	front, forehead (noun)	Stirn	Frons	Front
 24	Волосъ	hair (noun)	Haar	Capillus	Cheveux
-25	щоки	cheeks (noun)	Wangen	Genæ	Joues
+25	Щоки	cheeks (noun)	Wangen	Genæ	Joues
 26	Ротъ	mouth (noun)	Mund	Os	Bouche
 27	Горло	throat (noun)	Kehle	Guttur	Goßier
 28	Губы	lips (noun)	Lippen	Labra	Lévres
@@ -52,9 +52,9 @@ NUMBER	RUSSIAN	ENGLISH	GERMAN	LATIN	FRENCH
 51	Зрѣнïе	sight, seeing (noun)	Sehen	Vißus	Vuë
 52	Бидѣть	to see	Sehen	Videre	Voir
 53	Вкусъ	taste (noun)	Geßchmak	Gußtus	Gout
-54	Обонян!е	smell, odor (noun)	Geruch	Olfactus	Odorat
+54	Обонянïе	smell, olfaction (noun)	Geruch	Olfactus	Odorat
 55	Нюхать	to smell	Riechen	Olfacere	Sentir
-56	Осязан!е	feeling, sense (noun)	Gefühl	Tactus	Attouchement
+56	Осязанïе	feeling, sense (noun)	Gefühl	Tactus	Attouchement
 57	Голосъ	voice (noun)	Stimme	Vox	Voix
 58	Горовить	to speak	Reden	Loqui	Parler
 59	Рѣчъ	talk (noun)	Reden	Oratio	Dißcour
@@ -93,12 +93,12 @@ NUMBER	RUSSIAN	ENGLISH	GERMAN	LATIN	FRENCH
 92	Трудъ	labor, effort (noun)	Mühe	Labor	Peine 
 93	Работа	labor, work (noun)	Arbeit	Labor	Travail
 94	Лѣнь	lazy (noun)	Faul	Piger	Pareßßeu
-95	Я	I (p)	Ich	Ego	Je
-96	Ты	thou, you (p)	Du	Tu	Tu
-97	Онъ	he (p)	Er	Ille	Il
-98	Мы	we (p)	Wir	Nos	Nous
+95	Я	I (pronoun)	Ich	Ego	Je
+96	Ты	thou, you (pronoun)	Du	Tu	Tu
+97	Онъ	he (pronoun)	Er	Ille	Il
+98	Мы	we (pronoun)	Wir	Nos	Nous
 99	Вы	you (plural, pronoun)	Ihr	Vos	Vous
-100	Они	they (p)	Sie	Illi	Ils
+100	Они	they (pronoun)	Sie	Illi	Ils
 101	Быть	to be (verb)	Seyn	Eßße	Etre
 102	Есмь	I am (verb)	Ich bin	Sum	Je ßuis
 103	Еси	you are (verb)	Du bißt	Es	Tu es
@@ -205,7 +205,7 @@ NUMBER	RUSSIAN	ENGLISH	GERMAN	LATIN	FRENCH
 204	День	day (noun)	Tag	Dies	Jour
 205	Ночь	night (noun)	Nacht	Nox	Nuit
 206	Утро	morning (noun)	Morgen	Mane	Matin
-207	Вечерь	evening (noun)	Abend	Veßpera	Soir
+207	Вечеръ	evening (noun)	Abend	Veßpera	Soir
 208	Востокъ	east (noun)	Oßt, Aufgang	Oriens	Orient
 209	Западъ	west (noun)	Weßt, Niedergang	Occidens	Occident
 210	Севѣръ	north (noun)	Nord, Mitternacht	Septentrio	Septentrion
@@ -282,7 +282,7 @@ NUMBER	RUSSIAN	ENGLISH	GERMAN	LATIN	FRENCH
 281	Овесъ	oat (noun)	Haber	Avena	Avoine
 282	Ячмень	barley (noun)	Gerßte	Hordeum	Orge
 283	Горохъ	pea (noun)	Erbße	Pißum	Pois
-284	Свѣрь	animal (noun)	Thier	Animal	Animal
+284	Звѣрь	animal (wild, noun)	Thier	Animal	Animal
 285	Рыба	fish (noun)	Fißch	Pißcis	Poißßon
 286	Китъ	whale (noun)	WallFißch	Cete	Baleine
 287	Ракъ	cancer (animal, noun)	Krebs	Cancer	Ecrevißße
@@ -411,15 +411,15 @@ NUMBER	RUSSIAN	ENGLISH	GERMAN	LATIN	FRENCH
 410	Вчера	yesterday (adjective)	Geßtern	Heri	Hier
 411	Нынѣ	today (adjective)	Heute	Hodie	Aujourd'hui
 412	Завтра	tomorrow (adjective)	Morgen	Cras	Demain
-413	Вотъ		Siehe da	Ecce	Voilà
+413	Вотъ	look	Siehe da	Ecce	Voilà
 414	Или	or (conjunction)	Oder 	Sive	Ou
 415	Какъ	how (interrogative)	Wie	Quomodo	Comment
-416	Гдѣ	wherew (interrogative)	Wo	Ubi	Où
-417	Когда	whenw (interrogative)	Wann	Quando	Quand
-418	Что	whatw (interrogative)	Was	Quid	Quoi
-419	Кто	whow (interrogative)	Wer	Quis	Qui
-420	Кѣмъ	with whomw (interrogative)	Mit wem	Quocum	Avec qui
-421	Чемъ	whith whatw (interrogative)	Womit	Quonam	Avec quoi
+416	Гдѣ	where (interrogative)	Wo	Ubi	Où
+417	Когда	when (interrogative)	Wann	Quando	Quand
+418	Что	what (interrogative)	Was	Quid	Quoi
+419	Кто	who (interrogative)	Wer	Quis	Qui
+420	Кѣмъ	with whom (interrogative)	Mit wem	Quocum	Avec qui
+421	Чемъ	whith what (interrogative)	Womit	Quonam	Avec quoi
 422	Подъ	under (preposition)	Unter	Sub	Sous
 423	Надъ	over (preposition)	Ueber	Supra	Sur
 424	Безъ	without (preposition)	Ohne	Sine	Sans
