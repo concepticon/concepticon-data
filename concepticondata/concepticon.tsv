@@ -475,7 +475,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 474	DRESS	Clothing and grooming	A one-piece garment for a woman that has a skirt and a body section.	Person/Thing
 475	UNTRUTH	Emotions and values	A false statement made with the intention to deceive.	Person/Thing
 476	CUP	Food and drink	A concave vessel for holding liquid, generally adorned with either a handle or a stem	Person/Thing
-477	LATE	Time	After the expected or usual time.	Other
+477	LATE	Time	Towards the end of a time period.	Other
 478	LIP	The body	Either of the two fleshy protrusions around the opening of the mouth.	Person/Thing
 479	GROW	Spatial relations	(For a living being) To become bigger.	Action/Process
 480	PLATE	Food and drink	A dish on which food is served or from which food is eaten.	Person/Thing
@@ -746,7 +746,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 745	SHELF	The house	A flat, rigid, rectangular structure, fixed at right angles to a wall, and used to support, store or display objects.	Person/Thing
 746	SHOP	Possession	A place, especially a small building, for the retail sale of goods and services.	Person/Thing
 747	BICYCLE	Modern world	A vehicle with two wheels in tandem, pedals connected to the rear wheel by a chain, handlebars for steering, and a saddlelike seat.	Person/Thing
-748	SOW SEEDS	Agriculture and vegetation	To scatter, disperse, or plant seeds.	Action/Process
+748	SOW SEEDS	Agriculture and vegetation	To scatter or disperse seeds on a field.	Action/Process
 749	ENTER	Motion	To go into.	Action/Process
 750	DROP	Motion	The event of moving to a lower position due to the effect of gravity.	Action/Process
 751	SHRUB	Agriculture and vegetation	A woody perennial plant, smaller than a tree, with several major branches arising from near the base of the main stem.	Person/Thing
@@ -1401,7 +1401,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1400	THIN (SLIM)	Spatial relations	Carrying little fat.	Property
 1401	DRINK	Food and drink	To consume a liquid through the mouth.	Action/Process
 1402	BREAST	The body	The fleshy organ on the chest of a sexually mature human female containing mammary glands.	Person/Thing
-1403	BITE	The body	To cut off a piece by clamping the teeth.	Action/Process
+1403	BITE	The body	Clamping the teeth hard on something.	Action/Process
 1404	STRAIGHT	Spatial relations	Not crooked or bent; having a constant direction throughout its length.	Property
 1405	NAME	Speech and language	Any word or phrase which designates a particular person, place, class or thing.	Person/Thing
 1406	FAR	Spatial relations	Having a large intervening distance with regard to something.	Property
@@ -1572,7 +1572,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1571	SELL	Possession	To provide goods or services in exchange for money.	Action/Process
 1572	SURPRISED	Emotions and values	The feeling that something unexpected has happened.	Property
 1573	SWELL	Basic actions and technology	To grow larger in volume.	Action/Process
-1574	FLOAT	Motion	To move or run smoothly and continously as a fluid.	Action/Process
+1574	FLOAT	Motion	Of an object or substance, to be supported by a liquid of greater density than the object so as that part of the object or substance remains above the surface. [WK:float]	Action/Process
 1575	COCKROACH	Animals	The most primitive of the living winged insects.	Person/Thing
 1576	PILE UP	Spatial relations	To get or gather together.	Action/Process
 1577	AND	Cognition	Used to connect two homogeneous words or phrases.	Other
