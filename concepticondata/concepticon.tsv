@@ -600,7 +600,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 599	DRIVER'S LICENSE	Modern world	Official document granting someone the authorisation to drive some vehicles.	Person/Thing
 600	STRANGE	Cognition	Out of the ordinary.	Property
 601	LIE (MISLEAD)	Emotions and values	To knowingly say something that is untrue.	Action/Process
-602	HIDE, CONCEAL	Spatial relations	To put something in a place where it will be harder to discover or out of sight.	Action/Process
+602	HIDE (CONCEAL)	Spatial relations	To put something in a place where it will be harder to discover or out of sight.	Action/Process
 603	COAT	Clothing and grooming	An outer garment covering the upper torso and arms.	Person/Thing
 604	GLASS	Basic actions and technology	A hard, amorphous, inorganic, usually transparent, brittle substance made by fusing silicates, sometimes borates and phosphates, with certain basic oxides and then rapidly cooling to prevent crystallization.	Person/Thing
 605	GRAIN	Agriculture and vegetation	Edible, starchy seeds of the grass family (Graminae) usable as food by man and his livestock.	Person/Thing
@@ -703,7 +703,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 702	CATCH	Motion	To take hold of, especially in the hands, so as to seize or restrain or stop the motion of.	Action/Process
 703	SOON	Time	In a near future.	Other
 704	CLEAN	Sense perception	Not dirty.	Property
-705	GO UP, ASCEND	Motion	To ascend; to go up.	Action/Process
+705	GO UP (ASCEND)	Motion	To ascend; to go up.	Action/Process
 706	DARK	Sense perception	Having an absolute or (more often) relative lack of light.	Property
 707	REMEMBER	Cognition	To recall from memory.	Action/Process
 708	SHINE	Sense perception	To emit light.	Action/Process
@@ -2481,3 +2481,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2480	MALE DOG	Animals	A male dog.	Person/Thing
 2481	FEMALE DOG	Animals	A male dog.	Person/Thing
 2482	TOGETHER	Spatial relations	In proximity to each other (of two things).	Other
+2483	COLD (OF WEATHER)	Sense perception	Having a low temperature (of the weather).	Property
+2484	SMALL (NOT TALL)	Spatial relations	Small in height of objects (especially persons).	Property
+2485	HIDE (ONESELF)	Spatial relations	To put oneself in a place where one cannot be found.	Action/Process
+2486	HIDE	Spatial relations	To put oneself in a place where one cannot be found, or an object so that the object is hidden.	Action/Process
