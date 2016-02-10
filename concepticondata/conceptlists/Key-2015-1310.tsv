@@ -102,7 +102,7 @@ Key-2015-1310-100	bottom	100	12-340	http://ids.clld.org/parameters/12-340	fond	f
 Key-2015-1310-101	low	101	12-320	http://ids.clld.org/parameters/12-320	bas	baixo	низко	bajo	12	320	721	LOW
 Key-2015-1310-102	top	102	12-330	http://ids.clld.org/parameters/12-330	haut, sommet	cume, topo	вершина, макушка	cima	12	330	1753	TOP
 Key-2015-1310-103	high	103	12-310	http://ids.clld.org/parameters/12-310	haut	alto, elevado	высоко	alto	12	310	1265	HIGH
-Key-2015-1310-104	hide, conceal	104	12-270	http://ids.clld.org/parameters/12-270	cacher, dissimuler	esconder	прятать, скрывать	esconder	12	270	602	HIDE, CONCEAL
+Key-2015-1310-104	hide, conceal	104	12-270	http://ids.clld.org/parameters/12-270	cacher, dissimuler	esconder	прятать, скрывать	esconder	12	270	602	HIDE (CONCEAL)
 Key-2015-1310-105	shut, close	105	12-250	http://ids.clld.org/parameters/12-250	fermer	fechar	закрывать	cerrar	12	250	1046	SHUT
 Key-2015-1310-106	cover	106	12-260	http://ids.clld.org/parameters/12-260	couvrir	cobrir	покрывать	cubrir	12	260	761	COVER
 Key-2015-1310-107	open	107	12-240	http://ids.clld.org/parameters/12-240	ouvrir	abrir, aberto	открывать	abrir	12	240	1156	OPEN
@@ -217,10 +217,10 @@ Key-2015-1310-215	go away, depart	215	10-490	http://ids.clld.org/parameters/10-4
 Key-2015-1310-216	come back	216	10-481	http://ids.clld.org/parameters/10-481	revenir	voltar, regressar	возвращаться	volver, regresar	10	481	581	COME BACK
 Key-2015-1310-217	come	217	10-480	http://ids.clld.org/parameters/10-480	venir	vir	приходить	venir	10	480	1446	COME
 Key-2015-1310-218	go out	218	10-474	http://ids.clld.org/parameters/10-474	sortir	sair	выходить	salir	10	474	1107	GO OUT
-Key-2015-1310-219	go down	219	10-473	http://ids.clld.org/parameters/10-473	descendre	descer, baixar	спускаться, идти вниз	bajar	10	473	2014	GO DOWN, DESCEND
+Key-2015-1310-219	go down	219	10-473	http://ids.clld.org/parameters/10-473	descendre	descer, baixar	спускаться, идти вниз	bajar	10	473	2014	GO DOWN (DESCEND)
 Key-2015-1310-220	climb	220	10-472	http://ids.clld.org/parameters/10-472	grimper	trepar	подниматься, взбираться	trepar	10	472	1102	CLIMB
 Key-2015-1310-221	go	221	10-470	http://ids.clld.org/parameters/10-470	aller	ir	идти	ir	10	470	695	GO
-Key-2015-1310-222	go up	222	10-471	http://ids.clld.org/parameters/10-471	monter	subir	подниматься, идти вверх	subir	10	471	705	GO UP, ASCEND
+Key-2015-1310-222	go up	222	10-471	http://ids.clld.org/parameters/10-471	monter	subir	подниматься, идти вверх	subir	10	471	705	GO UP (ASCEND)
 Key-2015-1310-223	run	223	10-460	http://ids.clld.org/parameters/10-460	courir	correr	бежать	correr	10	460	1519	RUN
 Key-2015-1310-224	limp	224	10-451	http://ids.clld.org/parameters/10-451	boiter	coxear	хромать	lisiar	10	451	366	LIMP
 Key-2015-1310-225	walk	225	10-450	http://ids.clld.org/parameters/10-450	marcher	andar, caminhar	ходить	caminar	10	450	1443	WALK
@@ -272,7 +272,7 @@ Key-2015-1310-270	clay	270	9-730	http://ids.clld.org/parameters/9-730	argile, gl
 Key-2015-1310-271	mold (clay etc)	271	9-720	http://ids.clld.org/parameters/9-720	mouler	moldar, amoldar	формовать	moldear, formar	9	720	289	MOLD
 Key-2015-1310-272	potter	272	9-710	http://ids.clld.org/parameters/9-710	pottier	oleiro	гончар	alfarero	9	710	359	POTTER
 Key-2015-1310-273	tin, tinplate	273	9-690	http://ids.clld.org/parameters/9-690	étain	estanho	(белая) жесть	estaño	9	690	358	TINPLATE
-Key-2015-1310-274	lead (noun)	274	9-680	http://ids.clld.org/parameters/9-680	plomb	chumbo	свинец	plomo	9	680	627	LEAD, CHEMICAL ELEMENT
+Key-2015-1310-274	lead (noun)	274	9-680	http://ids.clld.org/parameters/9-680	plomb	chumbo	свинец	plomo	9	680	627	LEAD (CHEMICAL ELEMENT)
 Key-2015-1310-275	iron	275	9-670	http://ids.clld.org/parameters/9-670	fer	ferro	железо	hierro	9	670	621	IRON
 Key-2015-1310-276	copper, bronze	276	9-660	http://ids.clld.org/parameters/9-660	cuivre, bronze	cobre, bronze	медь, бронза	cobre, bronce	9	660	1825	COPPER
 Key-2015-1310-277	silver	277	9-650	http://ids.clld.org/parameters/9-650	argent	prata	серебро	plata	9	650	759	SILVER
@@ -907,7 +907,7 @@ Key-2015-1310-905	fire	905	1-810	http://ids.clld.org/parameters/1-810	feu	fogo	�
 Key-2015-1310-906	weather	906	1-780	http://ids.clld.org/parameters/1-780	temps	tempo	погода	tiempo	1	780	952	WEATHER
 Key-2015-1310-907	ice	907	1-770	http://ids.clld.org/parameters/1-770	glace, verglas	gelo	лед, гололед	hielo	1	770	617	ICE
 Key-2015-1310-908	snow (noun)	908	1-760	http://ids.clld.org/parameters/1-760	neige	neve	снег	nieve	1	760	784	SNOW
-Key-2015-1310-909	rain (noun)	909	1-750	http://ids.clld.org/parameters/1-750	pluie	chuva	дождь	lluvia	1	750	658	RAIN (PRECIPATION)
+Key-2015-1310-909	rain (noun)	909	1-750	http://ids.clld.org/parameters/1-750	pluie	chuva	дождь	lluvia	1	750	658	RAIN (PRECIPITATION)
 Key-2015-1310-910	fog	910	1-740	http://ids.clld.org/parameters/1-740	brume, brouillard	nevoeiro, névoa	туман	neblina, niebla	1	740	249	FOG
 Key-2015-1310-911	wind	911	1-720	http://ids.clld.org/parameters/1-720	vent	vento	ветер	viento	1	720	960	WIND
 Key-2015-1310-912	cloud	912	1-730	http://ids.clld.org/parameters/1-730	nuage	nuvem	облако, туча	nube	1	730	1489	CLOUD

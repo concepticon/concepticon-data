@@ -10,6 +10,7 @@ CL_TYPES = {
     "hihi",
     "historical",
     "lolo",
+    "naming test",
     "proto-language",
     "questionnaire",
     "ranked",

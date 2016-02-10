@@ -475,7 +475,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 474	DRESS	Clothing and grooming	A one-piece garment for a woman that has a skirt and a body section.	Person/Thing
 475	UNTRUTH	Emotions and values	A false statement made with the intention to deceive.	Person/Thing
 476	CUP	Food and drink	A concave vessel for holding liquid, generally adorned with either a handle or a stem	Person/Thing
-477	LATE	Time	After the expected or usual time.	Other
+477	LATE	Time	Towards the end of a time period.	Other
 478	LIP	The body	Either of the two fleshy protrusions around the opening of the mouth.	Person/Thing
 479	GROW	Spatial relations	(For a living being) To become bigger.	Action/Process
 480	PLATE	Food and drink	A dish on which food is served or from which food is eaten.	Person/Thing
@@ -600,7 +600,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 599	DRIVER'S LICENSE	Modern world	Official document granting someone the authorisation to drive some vehicles.	Person/Thing
 600	STRANGE	Cognition	Out of the ordinary.	Property
 601	LIE (MISLEAD)	Emotions and values	To knowingly say something that is untrue.	Action/Process
-602	HIDE, CONCEAL	Spatial relations	To put something in a place where it will be harder to discover or out of sight.	Action/Process
+602	HIDE (CONCEAL)	Spatial relations	To put something in a place where it will be harder to discover or out of sight.	Action/Process
 603	COAT	Clothing and grooming	An outer garment covering the upper torso and arms.	Person/Thing
 604	GLASS	Basic actions and technology	A hard, amorphous, inorganic, usually transparent, brittle substance made by fusing silicates, sometimes borates and phosphates, with certain basic oxides and then rapidly cooling to prevent crystallization.	Person/Thing
 605	GRAIN	Agriculture and vegetation	Edible, starchy seeds of the grass family (Graminae) usable as food by man and his livestock.	Person/Thing
@@ -625,7 +625,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 624	LAKE	The physical world	An enclosed body of water, usually but not necessarily fresh water, from which the sea is excluded.	Person/Thing
 625	LAMP	The house	A device that produces light, such as an electric lamp.	Person/Thing
 626	LAND	The physical world	A specified geographical tract of the Earth's surface including all its attributes, comprising its geology, superficial deposits, topography, hydrology, soils, flora and fauna, together with the results of past and present human activity, to the extent that these attributes exert a significant influence on the present and future land utilization. (Source: WHIT)	Person/Thing
-627	LEAD, CHEMICAL ELEMENT	Basic actions and technology	A heavy toxic bluish-white metallic element with symbol Pb and atomic number 82 that is highly malleable; occurs principally as galena and is used in alloys, accumulators, cable sheaths, paints, and as a radiation shield.	Person/Thing
+627	LEAD (CHEMICAL ELEMENT)	Basic actions and technology	A heavy toxic bluish-white metallic element with symbol Pb and atomic number 82 that is highly malleable; occurs principally as galena and is used in alloys, accumulators, cable sheaths, paints, and as a radiation shield.	Person/Thing
 628	LEAF	Agriculture and vegetation	The main organ of photosynthesis and transpiration in higher plants, usually consisting of a flat green blade attached to the stem directly or by a stalk.	Person/Thing
 629	LEATHER	Clothing and grooming	The dressed or tanned hide of an animal, usually with the hair removed.	Person/Thing
 630	LIGHT (RADIATION)	The physical world	Electromagnetic radiation that is capable of causing a visual sensation. (Source: CED)	Person/Thing
@@ -656,7 +656,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 655	POISON	The body	A substance which, when ingested, inhaled, or absorbed, or when applied to, injected into, or developed within the body, in relatively small amounts, may cause injury, harm, or destruction to organs, tissue, or life.	Person/Thing
 656	POLICE	Modern world	Branch of the government which is charged with the preservation of public order, the promotion of public health and safety, and the prevention, detection, and punishment of crimes.	Person/Thing
 657	PRICE	Possession	The amount of money paid per unit for a good or service.	Person/Thing
-658	RAIN (PRECIPATION)	The physical world	Precipitation in the form of liquid water drops with diameters greater than 0.5 millimetres.	Person/Thing
+658	RAIN (PRECIPITATION)	The physical world	Precipitation in the form of liquid water drops with diameters greater than 0.5 millimetres.	Person/Thing
 659	REED	Agriculture and vegetation	Any of various types of tall stiff grass-like plants growing together in groups near water.	Person/Thing
 660	REEF	The physical world	A line of rocks in the tidal zone of a coast, submerged at high water but partly uncovered at low water.	Person/Thing
 661	RELIGION	Religion and belief	The expression of man's belief in and reverence for a superhuman power recognized as the creator and governor of the universe.	Person/Thing
@@ -703,7 +703,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 702	CATCH	Motion	To take hold of, especially in the hands, so as to seize or restrain or stop the motion of.	Action/Process
 703	SOON	Time	In a near future.	Other
 704	CLEAN	Sense perception	Not dirty.	Property
-705	GO UP, ASCEND	Motion	To ascend; to go up.	Action/Process
+705	GO UP (ASCEND)	Motion	To ascend; to go up.	Action/Process
 706	DARK	Sense perception	Having an absolute or (more often) relative lack of light.	Property
 707	REMEMBER	Cognition	To recall from memory.	Action/Process
 708	SHINE	Sense perception	To emit light.	Action/Process
@@ -746,7 +746,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 745	SHELF	The house	A flat, rigid, rectangular structure, fixed at right angles to a wall, and used to support, store or display objects.	Person/Thing
 746	SHOP	Possession	A place, especially a small building, for the retail sale of goods and services.	Person/Thing
 747	BICYCLE	Modern world	A vehicle with two wheels in tandem, pedals connected to the rear wheel by a chain, handlebars for steering, and a saddlelike seat.	Person/Thing
-748	SOW SEEDS	Agriculture and vegetation	To scatter, disperse, or plant seeds.	Action/Process
+748	SOW SEEDS	Agriculture and vegetation	To scatter or disperse seeds on a field.	Action/Process
 749	ENTER	Motion	To go into.	Action/Process
 750	DROP	Motion	The event of moving to a lower position due to the effect of gravity.	Action/Process
 751	SHRUB	Agriculture and vegetation	A woody perennial plant, smaller than a tree, with several major branches arising from near the base of the main stem.	Person/Thing
@@ -1401,7 +1401,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1400	THIN (SLIM)	Spatial relations	Carrying little fat.	Property
 1401	DRINK	Food and drink	To consume a liquid through the mouth.	Action/Process
 1402	BREAST	The body	The fleshy organ on the chest of a sexually mature human female containing mammary glands.	Person/Thing
-1403	BITE	The body	To cut off a piece by clamping the teeth.	Action/Process
+1403	BITE	The body	Clamping the teeth hard on something.	Action/Process
 1404	STRAIGHT	Spatial relations	Not crooked or bent; having a constant direction throughout its length.	Property
 1405	NAME	Speech and language	Any word or phrase which designates a particular person, place, class or thing.	Person/Thing
 1406	FAR	Spatial relations	Having a large intervening distance with regard to something.	Property
@@ -1572,7 +1572,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1571	SELL	Possession	To provide goods or services in exchange for money.	Action/Process
 1572	SURPRISED	Emotions and values	The feeling that something unexpected has happened.	Property
 1573	SWELL	Basic actions and technology	To grow larger in volume.	Action/Process
-1574	FLOAT	Motion	To move or run smoothly and continously as a fluid.	Action/Process
+1574	FLOAT	Motion	Of an object or substance, to be supported by a liquid of greater density than the object so as that part of the object or substance remains above the surface. [WK:float]	Action/Process
 1575	COCKROACH	Animals	The most primitive of the living winged insects.	Person/Thing
 1576	PILE UP	Spatial relations	To get or gather together.	Action/Process
 1577	AND	Cognition	Used to connect two homogeneous words or phrases.	Other
@@ -2012,7 +2012,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2011	COFFIN	The body	The box in which the body of a dead person is placed for burial.	Person/Thing
 2012	COLLAR	Clothing and grooming	The part of a garment that encircles the neck.	Person/Thing
 2013	BAIT	Warfare and hunting	Anything that serves as an enticement.	Person/Thing
-2014	GO DOWN, DESCEND	Motion	To go from a higher to a lower place.	Action/Process
+2014	GO DOWN (DESCEND)	Motion	To go from a higher to a lower place.	Action/Process
 2015	MAKE DRY	Basic actions and technology	To remove the moisture and make dry.	Action/Process
 2016	JEALOUSY	Emotions and values	A jealous feeling, disposition, state, or mood.	Person/Thing
 2017	MIX	Food and drink	To mix together different elements.	Action/Process
@@ -2096,7 +2096,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2095	FAT OR GREASE	Food and drink	Soft liquid retrieved from animals or plant and used for cooking.	Person/Thing
 2096	MEAT OR ANIMAL	Food and drink	Any living organism that is characterized by voluntary movement, be it alive or ready prepared to be eaten.	Person/Thing
 2097	NOW OR TODAY	Time	On the current day or in the current moment.	Other
-2098	LEG OR FOOT	The body	Lower part of the human body which is used for walking.	Person/Thing
+2098	FOOT OR LEG	The body	Lower part of the human body which is used for walking.	Person/Thing
 2099	CHILD	Kinship	A young human or the descendant of a human.	Person/Thing
 2100	THATCH OR ROOF	The house	The cover of a house or a hut.	Person/Thing
 2101	DIE OR BE DEAD	Time	To cease or have ceased to live.	Action/Process
@@ -2125,8 +2125,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2124	SMELL	Sense perception	Perceive or emit odour.	Action/Process
 2125	STONE OR ROCK	The physical world	A naturally occurring solid aggregate of one or more minerals or mineraloids.	Person/Thing
 2126	EAR OR HEAR	The body	Either the organ with which one perceives noise, or the action of perceiving noise.	Person/Thing
-2127	SKIN OR BARK	The body	Cover of the bodies of animals and plants.	Person/Thing
-2128	NAIL OR CLAW	The body	The hard, keratin part growing at the feet of animals or the hands and legs of humans.	Person/Thing
+2127	BARK OR SKIN	The body	Cover of the bodies of animals and plants.	Person/Thing
+2128	CLAW OR NAIL	The body	The hard, keratin part growing at the feet of animals or the hands and legs of humans.	Person/Thing
 2129	BREAST OR MILK	The body	Either the organ of females which gives nourishing substance for newborns, or the substance itself.	Person/Thing
 2130	HEADGEAR	Clothing and grooming	Any element of clothing which is worn on one's head.	Person/Thing
 2131	TORCH OR LAMP	Basic actions and technology	Any portable device that produces light.	Person/Thing
@@ -2138,7 +2138,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2137	MAGICIAN	Religion and belief	A perspon who practices magic.	Person/Thing
 2138	LEGENDARY CREATURE	Religion and belief	A human or an animal described in non-historical or yet to be verified stories that sometimes involve the supernatural.	Person/Thing
 2139	MUROID (MOUSE OR RAT)	Animals	A large superfamily of rodents, including hamsters, gerbils, true mice and rats, and many other relatives.	Person/Thing
-2140	SUN OR DAY	The physical world	Either the bright object at the sky that illuminates the earth completely, or the time when the object illuminates the earth.	Person/Thing
+2140	DAY OR SUN	The physical world	Either the bright object at the sky that illuminates the earth completely, or the time when the object illuminates the earth.	Person/Thing
 2141	TREE OR WOOD	Agriculture and vegetation	Either any  perennial plant with an elongated stem, or trunk, supporting branches and leaves, or the porous and vibrous structural tissue of which the stems of these plants consist.	Person/Thing
 2142	RUN AWAY	Basic actions and technology	Leave a dangerous situation by moving one's body away from it.	Action/Process
 2143	LONG OR TALL	Spatial relations	Having a vertical or a horizontal extent greater than the average.	Other
@@ -2270,7 +2270,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2269	BREATH OR LIFE	Basic actions and technology	The act of inhalation and exhalation of air as one part of physiological respiration required to sustain life, or the fact that life is sustained itself.	Person/Thing
 2270	SAGO	Food and drink	Starch extracted from the spongy centre, or pith, of various tropical palm stems, especially Metroxylon sagu.	Person/Thing
 2271	THINK	Cognition	Use ones mental power to form ideas or having used ones mental power to form ideas of conviction or belief.	Action/Process
-2272	WARM OR HOT	Sense perception	Having a higher temperature than normal.	Property
+2272	HOT OR WARM	Sense perception	Having a higher temperature than normal.	Property
 2273	LEECH	Animals	Segmented worms that belong to the phylum Annelida and comprise the subclass Hirudinea.	Person/Thing
 2274	YOUR (PLURAL)	Possession	Belonging to the second person that is addressed by the first person, with the second person being many persons and not just one.	Other
 2275	SHADOW	The physical world	Darkness, where light (particularly sunlight) is blocked.	Person/Thing
@@ -2464,3 +2464,24 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2463	MOON OR MONTH	The physical world	Either the moon as the object or the time period.	Person/Thing
 2464	LAY EGGS	Basic actions and technology	The process by which birds produce eggs.	Action/Process
 2465	DISGUST	Basic actions and technology	The feeling that one gets when seeing something rotten.	Person/Thing
+2466	WEIGHT	Sense perception	The amount a thing weighs.	Person/Thing
+2467	GAME	Social and political relations	A game is structured form of play, usually undertaken for enjoyment and sometimes used as an educational tool.	Person/Thing
+2468	BAG	Basic actions and technology	A container that stores things and is small enough so that one can wear it.	Person/Thing
+2469	AGAINST	Basic actions and technology	In opposite direction to.	Property
+2470	DEAR	Emotions and values	Beloved or loved.	Property
+2471	LADY	Social and political relations	A woman of higher social status.	Person/Thing
+2472	SUCKLE (BREASTFEED, NURSE)	Basic actions and technology	Giving milk to babies and young children with milk from a woman's breast.	Action/Process
+2473	HIS (GENITIVE OF HE)	Possession	Belonging to the male third person.	Person/Thing
+2474	HER (GENITIVE OF SHE)	Possession	Belonging to the female third person.	Person/Thing
+2475	MALE GOAT	Animals	A male goat.	Person/Thing
+2476	FEMALE GOAT	Animals	A female goat.	Person/Thing
+2477	YAK	Animals	A long-haired bovid found throughout the Himalaya region of southern Central Asia, the Tibetan Plateau and as far north as Mongolia and Russia.	Person/Thing
+2478	MALE YAK	Animals	A male yak.	Person/Thing
+2479	FEMALE YAK	Animals	A femaile yak.	Person/Thing
+2480	MALE DOG	Animals	A male dog.	Person/Thing
+2481	FEMALE DOG	Animals	A male dog.	Person/Thing
+2482	TOGETHER	Spatial relations	In proximity to each other (of two things).	Other
+2483	COLD (OF WEATHER)	Sense perception	Having a low temperature (of the weather).	Property
+2484	SMALL (NOT TALL)	Spatial relations	Small in height of objects (especially persons).	Property
+2485	HIDE (ONESELF)	Spatial relations	To put oneself in a place where one cannot be found.	Action/Process
+2486	HIDE	Spatial relations	To put oneself in a place where one cannot be found, or an object so that the object is hidden.	Action/Process
