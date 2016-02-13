@@ -58,7 +58,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 57	ATOP	Spatial relations	In a higher position, with respect to a lower one.	Other
 58	LIQUID	The physical world	Existing as or having characteristics of a liquid.	Property
 59	ELECTRICITY	Modern world	A general term used for all phenomena caused by electric charge whether static or in motion.	Person/Thing
-60	OATS	Agriculture and vegetation	A species of grass (Avena sativa) grown for its seed.	Person/Thing
+60	OAT	Agriculture and vegetation	A species of grass (Avena sativa) grown for its seed.	Person/Thing
 61	INDUCE	Cognition	To encourage into action; to cause to act in a specified manner.	Action/Process
 62	BE SITUATED	The physical world	The way in which something is positioned vis-à-vis its surroundings.	Other
 63	RUMOUR	Speech and language	A piece of information of questionable accuracy, from no known reliable source, usually spread by word of mouth.	Person/Thing
@@ -471,7 +471,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 470	POSSUM	Animals	Small to medium-sized arboreal marsupial species native to Australia, New Guinea, and Sulawesi.	Person/Thing
 471	UPPER LEG	The body	The part of the leg between the pelvis and the knee.	Person/Thing
 472	PELICAN	Animals	Large water birds comprising the family Pelecanidae. They are characterised by a long beak and large throat pouch used for catching prey and draining water from the scooped up contents before swallowing.	Person/Thing
-473	SPEAR ACTION	Warfare and hunting	To penetrate or strike with, or as if with, any long narrow object. To make a thrusting motion that catches an object on the tip of a long device.	Action/Process
+473	SPEAR (SOMEBODY)	Warfare and hunting	To penetrate or strike with, or as if with, any long narrow object. To make a thrusting motion that catches an object on the tip of a long device.	Action/Process
 474	DRESS	Clothing and grooming	A one-piece garment for a woman that has a skirt and a body section.	Person/Thing
 475	UNTRUTH	Emotions and values	A false statement made with the intention to deceive.	Person/Thing
 476	CUP	Food and drink	A concave vessel for holding liquid, generally adorned with either a handle or a stem	Person/Thing
@@ -740,8 +740,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 739	FEED	Food and drink	To give food.	Action/Process
 740	SHIP	Motion	A vessel propelled by engines or sails for navigating on the water, especially a large vessel that can not be carried aboard another, as distinguished from a boat.	Person/Thing
 741	DRIVE	Motion	To operate a (motorized) vehicle (with wheels).	Action/Process
-742	END OF SPACE	Spatial relations	Extreme part.	Person/Thing
-743	END OF TIME	Time	The last or final part.	Person/Thing
+742	END (OF SPACE)	Spatial relations	Extreme part.	Person/Thing
+743	END (OF TIME)	Time	The last or final part.	Person/Thing
 744	EGG	Food and drink	Egg (either fertilized or not) from domesticated birds, most commonly hens, seen as food.	Person/Thing
 745	SHELF	The house	A flat, rigid, rectangular structure, fixed at right angles to a wall, and used to support, store or display objects.	Person/Thing
 746	SHOP	Possession	A place, especially a small building, for the retail sale of goods and services.	Person/Thing
@@ -980,7 +980,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 979	FARMER	Agriculture and vegetation	A person who works the land or who keeps livestock, especially on a farm.	Person/Thing
 980	HEEL	The body	The part of the foot on the backside where it becomes the leg.	Person/Thing
 981	ELBOW	The body	The joint between arm and forearm.	Person/Thing
-982	LIME	Agriculture and vegetation	A green citrus fruit	Person/Thing
+982	LIME (FRUIT)	Agriculture and vegetation	A green citrus fruit	Person/Thing
 983	CONVICT	Law	To find guilty of a crime as a result of legal proceedings.	Action/Process
 984	WORK (CRAFT, LABOUR)	Basic actions and technology	Productive activity, service, trade, or craft for which one is regularly paid.	Person/Thing
 985	VINEGAR	Food and drink	A sour liquid formed by the fermentation of alcohol with acetic acid bacteria used as a condiment or preservative.	Person/Thing
@@ -2516,3 +2516,40 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2515	CARABAO	Animals	A swamp-type domestic water buffalo found in the Philippines.	Person/Thing
 2516	WATER BUFFALO	Animals	A large bovid originating in South Asia, Southeast Asia, and China.	Person/Thing
 2517	CROWDED	Social and political relations	Full of people.	Property
+2518	HEARING (AURAL SENSE)	Sense perception	The sense that enables to perceive sounds.	Person/Thing
+2519	SEEING (VISUAL SENSE)	Sense perception	The sense that enables to perceive light.	Person/Thing
+2520	SMELLING (OLFACTORY SENSE)	Sense perception	The sense that enables to perceive odours.	Person/Thing
+2521	FEELING (HAPTIC SENSE)	Sense perception	The sense that enables to perceive surfaces of things.	Person/Thing
+2522	SCREAMING	Speech and language	A loud vocalisation.	Person/Thing
+2523	HOWLING	Speech and language	A loud vocalisation inflicted by pain.	Person/Thing
+2524	JOY	Emotions and values	Mental happiness.	Person/Thing
+2525	LABOUR (EFFORT)	Basic actions and technology	Work that has to be done and inflicts mental or physical pain.	Person/Thing
+2526	POWER	Social and political relations	The ability to act or force others to act.	Person/Thing
+2527	ABILITY	Social and political relations	Capacity to do specific things.	Person/Thing
+2528	SIZE (OF PERSON)	Spatial relations	The height of a person or an animal.	Person/Thing
+2529	BLESSED	Religion and belief	To have received blessing.	Person/Thing
+2530	SMART	Emotions and values	To be of high intelligence.	Person/Thing
+2531	BROAD	Spatial relations	Having a large width.	Person/Thing
+2532	TORNADO	The physical world	A violently rotating column of air that is in contact with both the surface of the earth and a cumulonimbus cloud or, in rare cases, the base of a cumulus cloud.	Person/Thing
+2533	WATERSIDE	The physical world	The margin or shore of a river, lake, or ocean.	Person/Thing
+2534	DEPTH	Spatial relations	The dimension of an object, downward from an upper surface.	Person/Thing
+2535	ALTITUDE	Spatial relations	A distance measurement in the vertical direction.	Person/Thing
+2536	BREADTH	Spatial relations	The measurement of the width of an object.	Person/Thing
+2537	LENGTH	Spatial relations	A distance measurement of the longest extent of an object.	Person/Thing
+2538	TRENCH (FOSSE)	The physical world	A naturally formed or excavated long cavity in the ground.	Person/Thing
+2539	PIT (POTHOLE)	The physical world	A naturally formed or excavated hole in the ground.	Person/Thing
+2540	LIME (MATERIAL)	The physical world	A calcium-containing inorganic material in which carbonates, oxides and hydroxides predominate.	Person/Thing
+2541	MIRACLE	Religion and belief	The happening of something impossible.	Person/Thing
+2542	HERB	Agriculture and vegetation	A flowering plant that is valued for its medical properties.	Person/Thing
+2543	RAVEN	Animals	One of several larger-bodied members of the genus Corvus. These species do not form a single taxonomic group within the genus, but share similar characteristics and appearances that generally separate them from other crows.	Person/Thing
+2544	SHEPHERD	Basic actions and technology	The person that watches over sheep.	Person/Thing
+2545	HARROW (TOOL)	Agriculture and vegetation	an agricultural implement consisting of many spikes, tines or discs dragged across the soil.	Person/Thing
+2546	BORDER	Social and political relations	The non-natural boundary of a region.	Person/Thing
+2547	CITY	Modern world	A big village.	Person/Thing
+2548	BARREL	Modern world	A cylindrical container for liquids and food.	Person/Thing
+2549	VEHICLE	Motion	Any larger device that can be used to move persons and things.	Person/Thing
+2550	VIANDS (PROVISIONS)	Food and drink	Provisions of food.	Person/Thing
+2551	GREASE OR OIL	Food and drink	Animal or plant fat in a soft or liquid state.	Person/Thing
+2552	HARNESS (ARMOUR)	Warfare and hunting	A specific suit that protects people who fight.	Person/Thing
+2553	MISERY	Emotions and values	The state of being poor or emotionally suffering.	Person/Thing
+2554	PRINCE (RULER)	Social and political relations	A ruler whose status is beyond that of a king.	Person/Thing
