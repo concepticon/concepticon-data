@@ -123,8 +123,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 122	CART	Motion	a two-wheeled vehicle, commonly without springs, drawn by mules, oxen, or the like, used for the conveyance of heavy goods.	Person/Thing
 123	FOREHEAD	The body	The part of the face between the hairline and the eyebrows.	Person/Thing
 124	THORN	Agriculture and vegetation	A sharp and hard structure that grows on a plant.	Person/Thing
-125	SWEAT	The body	A fluid that is secreted by sweat glands in the skin in order to regulate body temperature.	Person/Thing
-126	PERSPIRE, SWEAT	The body	To secrete sweat.	Action/Process
+125	SWEAT (SUBSTANCE)	The body	A fluid that is secreted by sweat glands in the skin in order to regulate body temperature.	Person/Thing
+126	SWEAT (PERSPIRE)	The body	To secrete sweat.	Action/Process
 127	EXTINGUISH	The physical world	To make something stop burning.	Action/Process
 128	MUMBLE	Speech and language	To speak unintelligibly and without articulating.	Action/Process
 129	CHOKE	Food and drink	To squeeze the neck in order to compress the carotide and/or trachea, possibly leading to unconsciousness or death.	Action/Process
@@ -174,7 +174,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 173	SIBLING'S CHILD	Kinship	The child of a sibling.	Person/Thing
 174	PROUD	Emotions and values	Feeling greatly pleased, or satisfied by something or someone that is highly honorable or creditable to oneself	Property
 175	BLOW (OF WIND)	Motion	(Of the wind or a current of air) To move.	Action/Process
-176	BLOW (THE TRUMPET)	Basic actions and technology	To expel air through persed lips.	Action/Process
+176	BLOW (WITH MOUTH)	Basic actions and technology	To expel air through persed lips.	Action/Process
 177	BETEL PEPPER VINE	Agriculture and vegetation	A vine of the species 'Piper betle' whose leaves are chewed for its medicinal properties.	Person/Thing
 178	RIPE	Food and drink	(Of fruits, seeds, etc.) Having reached the stage of development suitable for harvesting and eating.	Property
 179	RIPEN	Food and drink	(For a fruit, seed, etc.) To become ripe.	Action/Process
@@ -1810,7 +1810,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1809	PIMPLE	The body	A result of a blockage of the skin's pore.	Person/Thing
 1810	DANGER	Emotions and values	A situation that constitutes an immediate risk for injury on a person or property.	Person/Thing
 1811	SOUND OR NOISE	Sense perception	Any audible noise which is not necessarily unwanted or unpleasant to the hearer and of short or long duration.	Person/Thing
-1812	TRY	Cognition	To put to the test, as for its quality, or give experimental use to.	Action/Process
+1812	TRY	Cognition	To attempt to do something.	Action/Process
 1813	TASTY	Food and drink	Pleasing to the sense of taste.	Property
 1814	ACCUSE	Law	To lay a charge against; bring an accusation against.	Action/Process
 1815	ACHE	The body	To be in continuous pain.	Action/Process
@@ -2556,3 +2556,19 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2555	OIL (FROM PLANTS)	Food and drink	Liquid hydrophobic substance from plants which is used for cooking.	Person/Thing
 2556	OIL (HYDROPHOBIC LIQUID)	The physical world	Any viscous liquid substance which is hydrophobic and lipophilic.	Person/Thing
 2557	PIG FAT	Food and drink	The fat from a pig, used for cooking.	Person/Thing
+2558	BREAK (CLEAVE)	Basic actions and technology	To divide something with force in two or more parts.	Action/Process
+2559	FEEL (TACTUALLY)	Basic actions and technology	To sense something by touching its surface.	Action/Process
+2560	PATERNAL GRANDFATHER	Kinship	Father's father.	Person/Thing
+2561	HURT (SENSE PAIN)	Sense perception	To feel pain.	Action/Process
+2562	SEX (GENDER)	Social and political relations	The gender of a person, like female, or male.	Person/Thing
+2563	CASTRATE	The body	Any action, surgical, chemical, or otherwise, by which a biological male loses use of the testicles.	Action/Process
+2564	PIGLET	Animals	A young pig.	Person/Thing
+2565	CASTRATED BOAR	Animals	A castrated male pig.	Person/Thing
+2566	GELDING	Animals	A castrated stallion.	Person/Thing
+2567	CAPON	Animals	A castrated rooster.	Person/Thing
+2568	BAKER	Social and political relations	A person who produces bread.	Person/Thing
+2569	BUTCHER	Social and political relations	A person who produces meat.	Person/Thing
+2570	BEEF	Food and drink	The meat of cows.	Person/Thing
+2571	TRY (TEST)	Basic actions and technology	To put something to trial, to test whether something works as expected.	Action/Process
+2572	SENSE (PERCEIVE BY SENSES)	Sense perception	To perceive by means of senses.	Action/Process
+2573	FEELING (EMOTION)	Sense perception	To sense things mentally (pain, joy, etc.).	Person/Thing

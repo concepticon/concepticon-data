@@ -6,6 +6,7 @@ C = dict(
         [(line[1], line[0]) for line in cp[1:]]
         )
 
+print('yes')
 # get the list
 from sys import argv
 csv = csv2list(argv[1], strip_lines=False)
@@ -16,10 +17,12 @@ idx = csv[0].index("CONCEPTICON_ID")
 
 # iterate and check
 for i,line in enumerate(csv[1:]):
+    print(line, gidx)
     if len(line) != len(csv[0]):
         pass
     else:
         if line[gidx].startswith('!'):
+            print('!!')
             
             gls = line[gidx][1:].split('!')[0].upper()
             csv[i+1][idx] = C[gls]
