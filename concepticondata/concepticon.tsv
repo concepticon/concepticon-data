@@ -321,7 +321,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 320	LAME	The body	Moving with pain or difficulty on account of injury, defect or temporary obstruction of a function.	Property
 321	CHEW	Food and drink	To crush with the teeth by repeated closing and opening of the jaws; done to food to soften it and break it down by the action of saliva before it is swallowed.	Action/Process
 322	FIG	Food and drink	The fruit of the fig tree, pear-shaped and containing many small seeds.	Person/Thing
-323	GREASE	Food and drink	Animal fat in a melted or soft state; a semisolid lubricant.	Person/Thing
+323	FAT (ORGANIC SUBSTANCE)	The body	Esters of three fatty acid chains and the alcohol glycerol which form a semi-solid substance in room temperature and occur in animals and plants.	Person/Thing
 324	MANIOC FLOUR	Agriculture and vegetation	Flour made of the cassava plant or root.	Person/Thing
 325	FELT	Clothing and grooming	A cloth or stuff made of matted fibres of wool, or wool and fur, fulled or wrought into a compact substance by rolling and pressure, with lees or size, without spinning or weaving.	Person/Thing
 326	CLOAK	Clothing and grooming	A long outer garment worn over the shoulders covering the back; a cape, often with a hood.	Person/Thing
@@ -1280,7 +1280,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1279	FAT (OBESE)	Spatial relations	Carrying a larger-than-normal amount of fat or weight.	Property
 1280	FALL	Motion	To descend in free fall due to the effect of gravity.	Action/Process
 1281	PRISON	Law	A place in which individual persons have restricted personal freedom.	Person/Thing
-1282	FAT (SUBSTANCE)	Food and drink	The ester of glycerol and one, two, or three fatty acids.	Person/Thing
+1282	FAT (FROM ANIMALS)	Food and drink	The semisolid substance from animals which is used for cooking and as food.	Person/Thing
 1283	TODAY	Time	On the current day or date.	Other
 1284	BANK	Modern world	A financial institution where one can borrow money (upon which interest is due) or deposit money (in order to collect interest).	Person/Thing
 1285	IMPORTANT	Emotions and values	Having relevant and crucial value.	Property
@@ -1482,7 +1482,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1481	HAMMER	Basic actions and technology	A tool with a heavy head and a handle used for pounding.	Person/Thing
 1482	SHOULDER	The body	One side of the top of the torso, where an arm attaches or joins.	Person/Thing
 1483	NINE	Quantity	The ninth natural number (9).	Other
-1484	OIL	Food and drink	Fat in a liquid form.	Person/Thing
+1484	OIL (ORGANIC SUBSTANCE)	Food and drink	Fat from animals or plants in a liquid form.	Person/Thing
 1485	BELOW OR UNDER	Spatial relations	Lower in spatial position than.	Other
 1486	PLANT (SOMETHING)	Agriculture and vegetation	To put a plant in the ground so that it strikes root and grows.	Action/Process
 1487	POUR	Basic actions and technology	To cause a liquid to flow into a container.	Action/Process
@@ -2093,7 +2093,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2092	HIS OR HER	Possession	belonging to the third person that is addressed	Other
 2093	AFTERWARDS	Time	Later or after something else has happened or happens.	Other
 2094	DOWN OR BELOW	Spatial relations	Moving from a higher position to a lower one, or being at a lower position.	Other
-2095	FAT OR GREASE	Food and drink	Soft liquid retrieved from animals or plant and used for cooking.	Person/Thing
+2095	FAT (FOR NOURISHMENT)	Food and drink	Soft liquid retrieved from animals or plant and used for cooking.	Person/Thing
 2096	ANIMAL OR MEAT	Food and drink	Any living organism that is characterized by voluntary movement, be it alive or ready prepared to be eaten.	Person/Thing
 2097	NOW OR TODAY	Time	On the current day or in the current moment.	Other
 2098	FOOT OR LEG	The body	Lower part of the human body which is used for walking.	Person/Thing
@@ -2549,7 +2549,10 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2548	BARREL	Modern world	A cylindrical container for liquids and food.	Person/Thing
 2549	VEHICLE	Motion	Any larger device that can be used to move persons and things.	Person/Thing
 2550	VIANDS (PROVISIONS)	Food and drink	Provisions of food.	Person/Thing
-2551	GREASE OR OIL	Food and drink	Animal or plant fat in a soft or liquid state.	Person/Thing
+2551	ORGANIC FAT OR OIL	Food and drink	Animal or plant fat in a soft or liquid state.	Person/Thing
 2552	HARNESS (ARMOUR)	Warfare and hunting	A specific suit that protects people who fight.	Person/Thing
 2553	MISERY	Emotions and values	The state of being poor or emotionally suffering.	Person/Thing
 2554	PRINCE (RULER)	Social and political relations	A ruler whose status is beyond that of a king.	Person/Thing
+2555	OIL (FROM PLANTS)	Food and drink	Liquid hydrophobic substance from plants which is used for cooking.	Person/Thing
+2556	OIL (HYDROPHOBIC LIQUID)	The physical world	Any viscous liquid substance which is hydrophobic and lipophilic.	Person/Thing
+2557	PIG FAT	Food and drink	The fat from a pig, used for cooking.	Person/Thing
