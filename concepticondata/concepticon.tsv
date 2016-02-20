@@ -58,7 +58,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 57	ATOP	Spatial relations	In a higher position, with respect to a lower one.	Other
 58	LIQUID	The physical world	Existing as or having characteristics of a liquid.	Property
 59	ELECTRICITY	Modern world	A general term used for all phenomena caused by electric charge whether static or in motion.	Person/Thing
-60	OATS	Agriculture and vegetation	A species of grass (Avena sativa) grown for its seed.	Person/Thing
+60	OAT	Agriculture and vegetation	A species of grass (Avena sativa) grown for its seed.	Person/Thing
 61	INDUCE	Cognition	To encourage into action; to cause to act in a specified manner.	Action/Process
 62	BE SITUATED	The physical world	The way in which something is positioned vis-à-vis its surroundings.	Other
 63	RUMOUR	Speech and language	A piece of information of questionable accuracy, from no known reliable source, usually spread by word of mouth.	Person/Thing
@@ -123,8 +123,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 122	CART	Motion	a two-wheeled vehicle, commonly without springs, drawn by mules, oxen, or the like, used for the conveyance of heavy goods.	Person/Thing
 123	FOREHEAD	The body	The part of the face between the hairline and the eyebrows.	Person/Thing
 124	THORN	Agriculture and vegetation	A sharp and hard structure that grows on a plant.	Person/Thing
-125	SWEAT	The body	A fluid that is secreted by sweat glands in the skin in order to regulate body temperature.	Person/Thing
-126	PERSPIRE, SWEAT	The body	To secrete sweat.	Action/Process
+125	SWEAT (SUBSTANCE)	The body	A fluid that is secreted by sweat glands in the skin in order to regulate body temperature.	Person/Thing
+126	SWEAT (PERSPIRE)	The body	To secrete sweat.	Action/Process
 127	EXTINGUISH	The physical world	To make something stop burning.	Action/Process
 128	MUMBLE	Speech and language	To speak unintelligibly and without articulating.	Action/Process
 129	CHOKE	Food and drink	To squeeze the neck in order to compress the carotide and/or trachea, possibly leading to unconsciousness or death.	Action/Process
@@ -174,7 +174,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 173	SIBLING'S CHILD	Kinship	The child of a sibling.	Person/Thing
 174	PROUD	Emotions and values	Feeling greatly pleased, or satisfied by something or someone that is highly honorable or creditable to oneself	Property
 175	BLOW (OF WIND)	Motion	(Of the wind or a current of air) To move.	Action/Process
-176	BLOW (THE TRUMPET)	Basic actions and technology	To expel air through persed lips.	Action/Process
+176	BLOW (WITH MOUTH)	Basic actions and technology	To expel air through persed lips.	Action/Process
 177	BETEL PEPPER VINE	Agriculture and vegetation	A vine of the species 'Piper betle' whose leaves are chewed for its medicinal properties.	Person/Thing
 178	RIPE	Food and drink	(Of fruits, seeds, etc.) Having reached the stage of development suitable for harvesting and eating.	Property
 179	RIPEN	Food and drink	(For a fruit, seed, etc.) To become ripe.	Action/Process
@@ -321,7 +321,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 320	LAME	The body	Moving with pain or difficulty on account of injury, defect or temporary obstruction of a function.	Property
 321	CHEW	Food and drink	To crush with the teeth by repeated closing and opening of the jaws; done to food to soften it and break it down by the action of saliva before it is swallowed.	Action/Process
 322	FIG	Food and drink	The fruit of the fig tree, pear-shaped and containing many small seeds.	Person/Thing
-323	GREASE	Food and drink	Animal fat in a melted or soft state; a semisolid lubricant.	Person/Thing
+323	FAT (ORGANIC SUBSTANCE)	The body	Esters of three fatty acid chains and the alcohol glycerol which form a semi-solid substance in room temperature and occur in animals and plants.	Person/Thing
 324	MANIOC FLOUR	Agriculture and vegetation	Flour made of the cassava plant or root.	Person/Thing
 325	FELT	Clothing and grooming	A cloth or stuff made of matted fibres of wool, or wool and fur, fulled or wrought into a compact substance by rolling and pressure, with lees or size, without spinning or weaving.	Person/Thing
 326	CLOAK	Clothing and grooming	A long outer garment worn over the shoulders covering the back; a cape, often with a hood.	Person/Thing
@@ -471,7 +471,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 470	POSSUM	Animals	Small to medium-sized arboreal marsupial species native to Australia, New Guinea, and Sulawesi.	Person/Thing
 471	UPPER LEG	The body	The part of the leg between the pelvis and the knee.	Person/Thing
 472	PELICAN	Animals	Large water birds comprising the family Pelecanidae. They are characterised by a long beak and large throat pouch used for catching prey and draining water from the scooped up contents before swallowing.	Person/Thing
-473	SPEAR ACTION	Warfare and hunting	To penetrate or strike with, or as if with, any long narrow object. To make a thrusting motion that catches an object on the tip of a long device.	Action/Process
+473	SPEAR (SOMEBODY)	Warfare and hunting	To penetrate or strike with, or as if with, any long narrow object. To make a thrusting motion that catches an object on the tip of a long device.	Action/Process
 474	DRESS	Clothing and grooming	A one-piece garment for a woman that has a skirt and a body section.	Person/Thing
 475	UNTRUTH	Emotions and values	A false statement made with the intention to deceive.	Person/Thing
 476	CUP	Food and drink	A concave vessel for holding liquid, generally adorned with either a handle or a stem	Person/Thing
@@ -740,8 +740,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 739	FEED	Food and drink	To give food.	Action/Process
 740	SHIP	Motion	A vessel propelled by engines or sails for navigating on the water, especially a large vessel that can not be carried aboard another, as distinguished from a boat.	Person/Thing
 741	DRIVE	Motion	To operate a (motorized) vehicle (with wheels).	Action/Process
-742	END OF SPACE	Spatial relations	Extreme part.	Person/Thing
-743	END OF TIME	Time	The last or final part.	Person/Thing
+742	END (OF SPACE)	Spatial relations	Extreme part.	Person/Thing
+743	END (OF TIME)	Time	The last or final part.	Person/Thing
 744	EGG	Food and drink	Egg (either fertilized or not) from domesticated birds, most commonly hens, seen as food.	Person/Thing
 745	SHELF	The house	A flat, rigid, rectangular structure, fixed at right angles to a wall, and used to support, store or display objects.	Person/Thing
 746	SHOP	Possession	A place, especially a small building, for the retail sale of goods and services.	Person/Thing
@@ -980,7 +980,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 979	FARMER	Agriculture and vegetation	A person who works the land or who keeps livestock, especially on a farm.	Person/Thing
 980	HEEL	The body	The part of the foot on the backside where it becomes the leg.	Person/Thing
 981	ELBOW	The body	The joint between arm and forearm.	Person/Thing
-982	LIME	Agriculture and vegetation	A green citrus fruit	Person/Thing
+982	LIME (FRUIT)	Agriculture and vegetation	A green citrus fruit	Person/Thing
 983	CONVICT	Law	To find guilty of a crime as a result of legal proceedings.	Action/Process
 984	WORK (CRAFT, LABOUR)	Basic actions and technology	Productive activity, service, trade, or craft for which one is regularly paid.	Person/Thing
 985	VINEGAR	Food and drink	A sour liquid formed by the fermentation of alcohol with acetic acid bacteria used as a condiment or preservative.	Person/Thing
@@ -1086,7 +1086,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1085	FOLLOW	Motion	To go or come after (in physical space) someone or something.	Action/Process
 1086	WORK (ACTIVITY)	Basic actions and technology	To do a specific task by employing physical or mental powers.	Action/Process
 1087	CONCEIVE	The body	To become pregnant.	Action/Process
-1088	SINK, DESCEND	Motion	To cause a boat to go down in the water.	Action/Process
+1088	SINK (DESCEND)	Motion	To cause a boat to go down in the water.	Action/Process
 1089	FRAXINUS	Agriculture and vegetation	Any of the trees belonging to the genus Fraxinus.	Person/Thing
 1090	BE BORN	The body	To start living.	Action/Process
 1091	SALTY	Sense perception	Containing salt.	Property
@@ -1197,7 +1197,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1196	PENALTY	Law	Punitive sanction taken against someone who has broken the law.	Person/Thing
 1197	BABOON	Animals	Large ground based monkey having doglike muzzles.	Person/Thing
 1198	MANY	Quantity	An indefinite large number of.	Other
-1199	WIFE	Kinship	A married woman.	Person/Thing
+1199	WIFE	Kinship	The female partner in a marriage.	Person/Thing
 1200	HUSBAND	Kinship	The male partner in a marriage.	Person/Thing
 1201	FEATHER	The body	A branching, hair-like structure that grows on the skin of birds and protects them against coldness and water and allows their wings to create lift.	Person/Thing
 1202	BIG	Spatial relations	Of a great size; the weakest sense of great size.	Property
@@ -1280,7 +1280,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1279	FAT (OBESE)	Spatial relations	Carrying a larger-than-normal amount of fat or weight.	Property
 1280	FALL	Motion	To descend in free fall due to the effect of gravity.	Action/Process
 1281	PRISON	Law	A place in which individual persons have restricted personal freedom.	Person/Thing
-1282	FAT (SUBSTANCE)	Food and drink	The ester of glycerol and one, two, or three fatty acids.	Person/Thing
+1282	FAT (FROM ANIMALS)	Food and drink	The semisolid substance from animals which is used for cooking and as food.	Person/Thing
 1283	TODAY	Time	On the current day or date.	Other
 1284	BANK	Modern world	A financial institution where one can borrow money (upon which interest is due) or deposit money (in order to collect interest).	Person/Thing
 1285	IMPORTANT	Emotions and values	Having relevant and crucial value.	Property
@@ -1482,7 +1482,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1481	HAMMER	Basic actions and technology	A tool with a heavy head and a handle used for pounding.	Person/Thing
 1482	SHOULDER	The body	One side of the top of the torso, where an arm attaches or joins.	Person/Thing
 1483	NINE	Quantity	The ninth natural number (9).	Other
-1484	OIL	Food and drink	Fat in a liquid form.	Person/Thing
+1484	OIL (ORGANIC SUBSTANCE)	Food and drink	Fat from animals or plants in a liquid form.	Person/Thing
 1485	BELOW OR UNDER	Spatial relations	Lower in spatial position than.	Other
 1486	PLANT (SOMETHING)	Agriculture and vegetation	To put a plant in the ground so that it strikes root and grows.	Action/Process
 1487	POUR	Basic actions and technology	To cause a liquid to flow into a container.	Action/Process
@@ -1810,7 +1810,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1809	PIMPLE	The body	A result of a blockage of the skin's pore.	Person/Thing
 1810	DANGER	Emotions and values	A situation that constitutes an immediate risk for injury on a person or property.	Person/Thing
 1811	SOUND OR NOISE	Sense perception	Any audible noise which is not necessarily unwanted or unpleasant to the hearer and of short or long duration.	Person/Thing
-1812	TRY	Cognition	To put to the test, as for its quality, or give experimental use to.	Action/Process
+1812	TRY	Cognition	To attempt to do something.	Action/Process
 1813	TASTY	Food and drink	Pleasing to the sense of taste.	Property
 1814	ACCUSE	Law	To lay a charge against; bring an accusation against.	Action/Process
 1815	ACHE	The body	To be in continuous pain.	Action/Process
@@ -2093,8 +2093,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2092	HIS OR HER	Possession	belonging to the third person that is addressed	Other
 2093	AFTERWARDS	Time	Later or after something else has happened or happens.	Other
 2094	DOWN OR BELOW	Spatial relations	Moving from a higher position to a lower one, or being at a lower position.	Other
-2095	FAT OR GREASE	Food and drink	Soft liquid retrieved from animals or plant and used for cooking.	Person/Thing
-2096	MEAT OR ANIMAL	Food and drink	Any living organism that is characterized by voluntary movement, be it alive or ready prepared to be eaten.	Person/Thing
+2095	FAT (FOR NOURISHMENT)	Food and drink	Soft liquid retrieved from animals or plant and used for cooking.	Person/Thing
+2096	ANIMAL OR MEAT	Food and drink	Any living organism that is characterized by voluntary movement, be it alive or ready prepared to be eaten.	Person/Thing
 2097	NOW OR TODAY	Time	On the current day or in the current moment.	Other
 2098	FOOT OR LEG	The body	Lower part of the human body which is used for walking.	Person/Thing
 2099	CHILD	Kinship	A young human or the descendant of a human.	Person/Thing
@@ -2168,10 +2168,10 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2167	VEHICLE (CLASSIFIER)	Quantity	Classifier for vehicles.	Classifier
 2168	COW (CLASSIFIER)	Quantity	Classifier for cows and animals as large as cows.	Classifier
 2169	PIG (CLASSIFIER)	Quantity	Classifier for pigs and other livestock as large as pigs.	Classifier
-2170	PATERNAL AUNT (WIFE OF FATHER'S ELDER BROTHER)	Kinship	Wife of father's elder brother.	Person/Thing
+2170	PATERNAL AUNT (WIFE OF FATHER'S OLDER BROTHER)	Kinship	Wife of father's elder brother.	Person/Thing
 2171	PATERNAL AUNT (WIFE OF FATHER'S YOUNGER BROTHER)	Kinship	Wife of father's younger brother.	Person/Thing
 2172	MATERNAL AUNT (WIFE OF MOTHER'S BROTHER)	Kinship	Wife of mother's brother.	Person/Thing
-2173	PATERNAL UNCLE (FATHERS ELDER BROTHER)	Kinship	Father's elder brother.	Person/Thing
+2173	PATERNAL UNCLE (FATHERS OLDER BROTHER)	Kinship	Father's elder brother.	Person/Thing
 2174	PATERNAL UNCLE (FATHERS YOUNGER BROTHER)	Kinship	Father's younger brother.	Person/Thing
 2175	PATERNAL AUNT	Kinship	Father's sister or father's sibling's wife.	Person/Thing
 2176	MATERNAL AUNT	Kinship	Mother's sister or mother's sibling's wife.	Person/Thing
@@ -2485,3 +2485,92 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2484	SMALL (NOT TALL)	Spatial relations	Small in height of objects (especially persons).	Property
 2485	HIDE (ONESELF)	Spatial relations	To put oneself in a place where one cannot be found.	Action/Process
 2486	HIDE	Spatial relations	To put oneself in a place where one cannot be found, or an object so that the object is hidden.	Action/Process
+2487	MALE PIG	Animals	A male pig.	Person/Thing
+2488	FEMALE PIG	Animals	A female pig.	Person/Thing
+2489	ABACUS	Modern world	A calculating tool that was in use centuries before the adoption of the written modern numeral system and is still widely used by merchants, traders and clerks in Asia, Africa, and elsewhere.	Person/Thing
+2490	NOON	Time	12 o'clock in the daytime.	Person/Thing
+2491	POULTRY MEAT	Food and drink	The meat of birds, usually domesticated ones.	Person/Thing	
+2492	BOIL (SOMETHING)	Food and drink	To bring some liquid into a state of boiling.	Action/Process
+2493	BOIL	Food and drink	To boil some liquid or to be boiling (of some liquid).	Action/Process
+2494	BAMBOO SHOOT	Food and drink	The edible shoots (new bamboo culms that come out of the ground) of many bamboo species.	Person/Thing
+2495	ELEPHANT TUSK	Animals	The tusks (incisors) of an elephant.	Person/Thing
+2496	ADORNED	Clothing and grooming	Something that is crested with adornment.	Property
+2497	RATTAN	The house	Material from rattan palms which is used to create furniture.	Person/Thing
+2498	OPIUM	Food and drink	The dried latex obtained from the opium poppy.	Person/Thing
+2499	KAPOK TREE	Agriculture and vegetation	Either the Bombax ceiba (tree with red flowers), or the Calotropis procera, or the Ceiba pentandra.	Person/Thing
+2500	GINGER	Agriculture and vegetation	A herbaceous perennial which grows annual stems about a meter tall bearing narrow green leaves and yellow flowers.	Person/Thing
+2501	RICE HUSK	Agriculture and vegetation	The husk of rice seeds.	Person/Thing
+2502	GONG	Modern world	An African, East and South East Asian musical percussion instrument that takes the form of a flat, circular metal disc which is hit with a mallet.	Person/Thing
+2503	LAUNDER	Basic actions and technology	To remove dirt from clothes.	Action/Process
+2504	DIFFERENT	Social and political relations	To be not the same as something else.	Property
+2505	BEDROOM	The house	The area where people sleep.	Person/Thing
+2506	LOOSE	Basic actions and technology	Being not tight.	Property
+2507	DISGUSTING	Basic actions and technology	Creating disgust in somebody.	Property
+2508	PANGOLIN	Animals	Mammals of the order Pholidota. The one extant family, Manidae, has three genera: Manis which comprises four species living in Asia, Phataginus which comprises two species living in Africa, and Smutsia which comprises two species also living in Africa.	Person/Thing
+2509	EXCHANGE	Basic actions and technology	To hand out one thing while receiving another thing or to replace one thing with another.	Action/Process
+2510	PORCUPINE	Animals	 Rodents with a coat of sharp spines, or quills, that protect against predators.	Person/Thing
+2511	GIBBON	Animals	 Apes in the family Hylobatidae.	Person/Thing
+2512	CHICK	Animals	A young bird that has not yet reached adulthood.	Person/Thing
+2513	CHICKEN CHICK	Animals	A young chicken that has not yeet reached adulthood.	Person/Thing
+2514	SPOUSE	Kinship	One of the partners in a marriage, be they male or femaile. 	Person/Thing
+2515	CARABAO	Animals	A swamp-type domestic water buffalo found in the Philippines.	Person/Thing
+2516	WATER BUFFALO	Animals	A large bovid originating in South Asia, Southeast Asia, and China.	Person/Thing
+2517	CROWDED	Social and political relations	Full of people.	Property
+2518	HEARING (AURAL SENSE)	Sense perception	The sense that enables to perceive sounds.	Person/Thing
+2519	SEEING (VISUAL SENSE)	Sense perception	The sense that enables to perceive light.	Person/Thing
+2520	SMELLING (OLFACTORY SENSE)	Sense perception	The sense that enables to perceive odours.	Person/Thing
+2521	FEELING (HAPTIC SENSE)	Sense perception	The sense that enables to perceive surfaces of things.	Person/Thing
+2522	SCREAMING	Speech and language	A loud vocalisation.	Person/Thing
+2523	HOWLING	Speech and language	A loud vocalisation inflicted by pain.	Person/Thing
+2524	JOY	Emotions and values	Mental happiness.	Person/Thing
+2525	LABOUR (EFFORT)	Basic actions and technology	Work that has to be done and inflicts mental or physical pain.	Person/Thing
+2526	POWER	Social and political relations	The ability to act or force others to act.	Person/Thing
+2527	ABILITY	Social and political relations	Capacity to do specific things.	Person/Thing
+2528	SIZE (OF PERSON)	Spatial relations	The height of a person or an animal.	Person/Thing
+2529	BLESSED	Religion and belief	To have received blessing.	Person/Thing
+2530	SMART	Emotions and values	To be of high intelligence.	Person/Thing
+2531	BROAD	Spatial relations	Having a large width.	Person/Thing
+2532	TORNADO	The physical world	A violently rotating column of air that is in contact with both the surface of the earth and a cumulonimbus cloud or, in rare cases, the base of a cumulus cloud.	Person/Thing
+2533	WATERSIDE	The physical world	The margin or shore of a river, lake, or ocean.	Person/Thing
+2534	DEPTH	Spatial relations	The dimension of an object, downward from an upper surface.	Person/Thing
+2535	ALTITUDE	Spatial relations	A distance measurement in the vertical direction.	Person/Thing
+2536	BREADTH	Spatial relations	The measurement of the width of an object.	Person/Thing
+2537	LENGTH	Spatial relations	A distance measurement of the longest extent of an object.	Person/Thing
+2538	TRENCH (FOSSE)	The physical world	A naturally formed or excavated long cavity in the ground.	Person/Thing
+2539	PIT (POTHOLE)	The physical world	A naturally formed or excavated hole in the ground.	Person/Thing
+2540	LIME (MATERIAL)	The physical world	A calcium-containing inorganic material in which carbonates, oxides and hydroxides predominate.	Person/Thing
+2541	MIRACLE	Religion and belief	The happening of something impossible.	Person/Thing
+2542	HERB	Agriculture and vegetation	A flowering plant that is valued for its medical properties.	Person/Thing
+2543	RAVEN	Animals	One of several larger-bodied members of the genus Corvus. These species do not form a single taxonomic group within the genus, but share similar characteristics and appearances that generally separate them from other crows.	Person/Thing
+2544	SHEPHERD	Basic actions and technology	The person that watches over sheep.	Person/Thing
+2545	HARROW (TOOL)	Agriculture and vegetation	an agricultural implement consisting of many spikes, tines or discs dragged across the soil.	Person/Thing
+2546	BORDER	Social and political relations	The non-natural boundary of a region.	Person/Thing
+2547	CITY	Modern world	A big village.	Person/Thing
+2548	BARREL	Modern world	A cylindrical container for liquids and food.	Person/Thing
+2549	VEHICLE	Motion	Any larger device that can be used to move persons and things.	Person/Thing
+2550	VIANDS (PROVISIONS)	Food and drink	Provisions of food.	Person/Thing
+2551	ORGANIC FAT OR OIL	Food and drink	Animal or plant fat in a soft or liquid state.	Person/Thing
+2552	HARNESS (ARMOUR)	Warfare and hunting	A specific suit that protects people who fight.	Person/Thing
+2553	MISERY	Emotions and values	The state of being poor or emotionally suffering.	Person/Thing
+2554	PRINCE (RULER)	Social and political relations	A ruler whose status is beyond that of a king.	Person/Thing
+2555	OIL (FROM PLANTS)	Food and drink	Liquid hydrophobic substance from plants which is used for cooking.	Person/Thing
+2556	OIL (HYDROPHOBIC LIQUID)	The physical world	Any viscous liquid substance which is hydrophobic and lipophilic.	Person/Thing
+2557	PIG FAT	Food and drink	The fat from a pig, used for cooking.	Person/Thing
+2558	BREAK (CLEAVE)	Basic actions and technology	To divide something with force in two or more parts.	Action/Process
+2559	FEEL (TACTUALLY)	Basic actions and technology	To sense something by touching its surface.	Action/Process
+2560	PATERNAL GRANDFATHER	Kinship	Father's father.	Person/Thing
+2561	HURT (SENSE PAIN)	Sense perception	To feel pain.	Action/Process
+2562	SEX (GENDER)	Social and political relations	The gender of a person, like female, or male.	Person/Thing
+2563	CASTRATE	The body	Any action, surgical, chemical, or otherwise, by which a biological male loses use of the testicles.	Action/Process
+2564	PIGLET	Animals	A young pig.	Person/Thing
+2565	CASTRATED BOAR	Animals	A castrated male pig.	Person/Thing
+2566	GELDING	Animals	A castrated stallion.	Person/Thing
+2567	CAPON	Animals	A castrated rooster.	Person/Thing
+2568	BAKER	Social and political relations	A person who produces bread.	Person/Thing
+2569	BUTCHER	Social and political relations	A person who produces meat.	Person/Thing
+2570	BEEF	Food and drink	The meat of cows.	Person/Thing
+2571	TRY (TEST)	Basic actions and technology	To put something to trial, to test whether something works as expected.	Action/Process
+2572	SENSE (PERCEIVE BY SENSES)	Sense perception	To perceive by means of senses.	Action/Process
+2573	FEELING (EMOTION)	Sense perception	To sense things mentally (pain, joy, etc.).	Person/Thing
+2574	BEAN OR PEA	Food and drink	Pointing to food like peas or beans in a general sense.	Person/Thing
+2575	DO OR MAKE	Basic actions and technology	To do something or to make something.	Action/Process

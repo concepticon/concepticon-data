@@ -7,6 +7,7 @@ CL_TYPES = {
     "annotated",
     "areal",
     "basic",
+    "documentation",
     "hihi",
     "historical",
     "lolo",

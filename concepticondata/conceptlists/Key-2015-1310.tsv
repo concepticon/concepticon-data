@@ -4,7 +4,7 @@ Key-2015-1310-2	always	2	14-310	http://ids.clld.org/parameters/14-310	toujours	s
 Key-2015-1310-3	ready	3	14-290	http://ids.clld.org/parameters/14-290	prêt	pronto	готовый	listo	14	290	790	READY
 Key-2015-1310-4	cease, stop	4	14-280	http://ids.clld.org/parameters/14-280	cesser, s'arrêter	parar, cessar	прекращать, останавливаться	terminar, detenerse	14	280	1928	CEASE
 Key-2015-1310-5	finish	5	14-270	http://ids.clld.org/parameters/14-270	finir, terminer	completar, acabar	заканчивать	acabar, terminar, finalizar	14	270	1766	FINISH
-Key-2015-1310-6	end (temporal)	6	14-260	http://ids.clld.org/parameters/14-260	fin	fim	кончать	fin	14	260	743	END OF TIME
+Key-2015-1310-6	end (temporal)	6	14-260	http://ids.clld.org/parameters/14-260	fin	fim	кончать	fin	14	260	743	END (OF TIME)
 Key-2015-1310-7	last, endure	7	14-252	http://ids.clld.org/parameters/14-252	durer	durar, suportar	продолжаться, длиться	durar	14	252	1186	LAST, ENDURE
 Key-2015-1310-8	begin, beginning	8	14-250	http://ids.clld.org/parameters/14-250	commencement, début	começar	начинать, начало	empezar, comienzo, inicio	14	250	1806	BEGIN
 Key-2015-1310-9	retard, delay	9	14-240	http://ids.clld.org/parameters/14-240	différer, retarder	demorar, atrasar	замедлять, задерживать	demorar, retrasar	14	240	425	BE LATE
@@ -97,7 +97,7 @@ Key-2015-1310-95	middle, center	95	12-370	http://ids.clld.org/parameters/12-370	
 Key-2015-1310-96	side	96	12-360	http://ids.clld.org/parameters/12-360	côte	lado	сторона	lado, costado	12	360	682	SIDE
 Key-2015-1310-97	edge	97	12-353	http://ids.clld.org/parameters/12-353	bord, orée	beira, borda	край	borde, orilla, margen	12	353	863	EDGE
 Key-2015-1310-98	pointed	98	12-352	http://ids.clld.org/parameters/12-352	pointu	afiado, agudo	остроконечный	puntiagudo	12	352	372	POINTED
-Key-2015-1310-99	end	99	12-350	http://ids.clld.org/parameters/12-350	bout, extrémité	extremidade, fim, ponta	конец	final	12	350	742	END OF SPACE
+Key-2015-1310-99	end	99	12-350	http://ids.clld.org/parameters/12-350	bout, extrémité	extremidade, fim, ponta	конец	final	12	350	742	END (OF SPACE)
 Key-2015-1310-100	bottom	100	12-340	http://ids.clld.org/parameters/12-340	fond	fundo	дно, низ	fondo	12	340	690	BOTTOM
 Key-2015-1310-101	low	101	12-320	http://ids.clld.org/parameters/12-320	bas	baixo	низко	bajo	12	320	721	LOW
 Key-2015-1310-102	top	102	12-330	http://ids.clld.org/parameters/12-330	haut, sommet	cume, topo	вершина, макушка	cima	12	330	1753	TOP
@@ -238,7 +238,7 @@ Key-2015-1310-236	splash	236	10-352	http://ids.clld.org/parameters/10-352	éclab
 Key-2015-1310-237	dive	237	10-351	http://ids.clld.org/parameters/10-351	plonger	mergulhar	нырять	zambullirse	10	351	119	DIVE
 Key-2015-1310-238	swim	238	10-350	http://ids.clld.org/parameters/10-350	nager	nadar	плыть	nadar	10	350	1439	SWIM
 Key-2015-1310-239	float	239	10-340	http://ids.clld.org/parameters/10-340	flotter	flutuar	плыть по поверхности воды	flotar	10	340	1574	FLOAT
-Key-2015-1310-240	sink	240	10-330	http://ids.clld.org/parameters/10-330	couler, sombrer	afundar	погружаться в воду, тонуть	hundir	10	330	1088	SINK, DESCEND
+Key-2015-1310-240	sink	240	10-330	http://ids.clld.org/parameters/10-330	couler, sombrer	afundar	погружаться в воду, тонуть	hundir	10	330	1088	SINK (DESCEND)
 Key-2015-1310-241	flow	241	10-320	http://ids.clld.org/parameters/10-320	couler	fluir	течь, литься потоком	fluir, correr	10	320	2003	FLOW
 Key-2015-1310-242	shake	242	10-260	http://ids.clld.org/parameters/10-260	secouer, agiter	agitar	трясти	sacudir	10	260	1909	SHAKE
 Key-2015-1310-243	catch (ball)	243	10-252	http://ids.clld.org/parameters/10-252	attraper	apanhar, agarrar	ловить (мяч)	coger	10	252	702	CATCH
@@ -324,7 +324,7 @@ Key-2015-1310-322	tie, bind	322	9-160	http://ids.clld.org/parameters/9-160	attac
 Key-2015-1310-323	fold	323	9-150	http://ids.clld.org/parameters/9-150	plier	dobrar	сворачивать, складывать	doblar	9	150	1470	FOLD
 Key-2015-1310-324	bend	324	9-140	http://ids.clld.org/parameters/9-140	plier, courber	dobrar, curvar	сгибать	encorvar, doblar	9	140	2004	BEND
 Key-2015-1310-325	work	325	9-120	http://ids.clld.org/parameters/9-120	travailler	trabalhar	работа	trabajar	9	120	984	WORK (CRAFT, LABOUR)
-Key-2015-1310-326	do, make	326	9-110	http://ids.clld.org/parameters/9-110	faire	fazer	делать	hacer	9	110	813	DO
+Key-2015-1310-326	do, make	326	9-110	http://ids.clld.org/parameters/9-110	faire	fazer	делать	hacer	9	110	2575	DO OR MAKE
 Key-2015-1310-327	mushroom	327	8-980	http://ids.clld.org/parameters/8-980	champignon	cogumelo	гриб	hongo, seta	8	980	641	MUSHROOM
 Key-2015-1310-328	nettle	328	8-970	http://ids.clld.org/parameters/8-970	ortie	urtiga	крапива	ortiga	8	970	33	NETTLE
 Key-2015-1310-329	fish poison (root)	329	8-960	http://ids.clld.org/parameters/8-960	poison a poisson, verbascum	raízes venenosas	рыбий яд (корень)	veneno (raíz), barbasco	8	960	348	FISH POISON
@@ -366,7 +366,7 @@ Key-2015-1310-364	plant (noun)	364	8-530	http://ids.clld.org/parameters/8-530	pl
 Key-2015-1310-365	grass	365	8-510	http://ids.clld.org/parameters/8-510	herbe	erva, grama, relva	трава	hierba, pasto	8	510	606	GRASS
 Key-2015-1310-366	rice	366	8-480	http://ids.clld.org/parameters/8-480	riz	arroz	рис	arroz	8	480	926	RICE
 Key-2015-1310-367	maize, corn	367	8-470	http://ids.clld.org/parameters/8-470	maïs	milho	кукуруза	maíz	8	470	506	MAIZE
-Key-2015-1310-368	oats	368	8-460	http://ids.clld.org/parameters/8-460	avoine	aveia	овес	avena	8	460	60	OATS
+Key-2015-1310-368	oats	368	8-460	http://ids.clld.org/parameters/8-460	avoine	aveia	овес	avena	8	460	60	OAT
 Key-2015-1310-369	rye	369	8-450	http://ids.clld.org/parameters/8-450	seigle	centeio	рожь	centeno	8	450	23	RYE
 Key-2015-1310-370	wheat	370	8-430	http://ids.clld.org/parameters/8-430	blé	trigo	пшеница	trigo	8	430	1077	WHEAT
 Key-2015-1310-371	barley	371	8-440	http://ids.clld.org/parameters/8-440	orge	cevada	ячмень	cebada	8	440	932	BARLEY
@@ -509,8 +509,8 @@ Key-2015-1310-507	honey	507	5-840	http://ids.clld.org/parameters/5-840	miel	mel	
 Key-2015-1310-508	chili pepper	508	5-821	http://ids.clld.org/parameters/5-821	piment	malagueta	острый перец	ají	5	821	919	CHILI PEPPER
 Key-2015-1310-509	pepper	509	5-820	http://ids.clld.org/parameters/5-820	poivre	pimenta	перец	pimienta	5	820	1385	PEPPER
 Key-2015-1310-510	salt	510	5-810	http://ids.clld.org/parameters/5-810	sel	sal	соль	sal	5	810	1274	SALT
-Key-2015-1310-511	grease, fat	511	5-791	http://ids.clld.org/parameters/5-791	graisse, le gras	gordura	жир, сало	grasa	5	791	323	GREASE
-Key-2015-1310-512	oil	512	5-790	http://ids.clld.org/parameters/5-790	huile	azeite, óleo	растительное масло	aceite	5	790	1484	OIL
+Key-2015-1310-511	grease, fat	511	5-791	http://ids.clld.org/parameters/5-791	graisse, le gras	gordura	жир, сало	grasa	5	791	323	FAT (ORGANIC SUBSTANCE)
+Key-2015-1310-512	oil	512	5-790	http://ids.clld.org/parameters/5-790	huile	azeite, óleo	растительное масло	aceite	5	790	1484	OIL (ORGANIC SUBSTANCE)
 Key-2015-1310-513	olive	513	5-780	http://ids.clld.org/parameters/5-780	olive	azeitona	олива, маслина	aceituna, oliva	5	780	1154	OLIVE
 Key-2015-1310-514	grape	514	5-760	http://ids.clld.org/parameters/5-760	raisin	uva	виноград	uva	5	760	920	GRAPE
 Key-2015-1310-515	nut	515	5-770	http://ids.clld.org/parameters/5-770	noix	noz	орех	nuez	5	770	191	NUT
@@ -628,7 +628,7 @@ Key-2015-1310-626	lick	626	4-590	http://ids.clld.org/parameters/4-590	lécher	la
 Key-2015-1310-627	bite	627	4-580	http://ids.clld.org/parameters/4-580	mordre	morder	кусать	morder	4	580	1403	BITE
 Key-2015-1310-628	vomit	628	4-570	http://ids.clld.org/parameters/4-570	vomir	vomitar	страдать рвотой	vomitar	4	570	1278	VOMIT
 Key-2015-1310-629	spit	629	4-560	http://ids.clld.org/parameters/4-560	cracher	cuspir	плевать(ся), плевок	escupir (saliva [noun])	4	560	1440	SPIT
-Key-2015-1310-630	perspire	630	4-550	http://ids.clld.org/parameters/4-550	transpirer, suer	suar, transpirar	потеть	sudar	4	550	126	PERSPIRE, SWEAT
+Key-2015-1310-630	perspire	630	4-550	http://ids.clld.org/parameters/4-550	transpirer, suer	suar, transpirar	потеть	sudar	4	550	126	SWEAT (PERSPIRE)
 Key-2015-1310-631	sneeze	631	4-540	http://ids.clld.org/parameters/4-540	éternuer	espirrar	чихать	estornudar	4	540	1621	SNEEZE
 Key-2015-1310-632	cough	632	4-530	http://ids.clld.org/parameters/4-530	tousser	tossir	кашлять	toser	4	530	879	COUGH
 Key-2015-1310-633	hiccough	633	4-521	http://ids.clld.org/parameters/4-521	hoqueter	soluço	икать	tener hipo	4	521	162	HICCOUGH
