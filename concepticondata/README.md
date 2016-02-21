@@ -7,6 +7,7 @@
 * Ø concepts per concept set: 19.38
 * Ø unique concept labels per concept set: 3.32
 # Twenty Most Diverse Concept Sets
+
 | No. | concept set | distinct labels | concept lists | examples |
 | --- | --- | --- | --- | --- |
 | 1 | FAT (ORGANIC SUBSTANCE) | 30 | 106 | «$fat/grease», «(its) fat», «FAT, GREASE», «FAT2, GREASE», «Fat (n.)», «GREASE/FAT», «Grease», «`*`fat(grease) / fat», «`*`fat-grease», «`*`fat/grease`*`», «`*`fat/grease», «fat (grease)», «fat (n)», «fat (n.)», «fat (nn.)», «fat (noun)», «fat (organic substance)», «fat (organic substance; grease)», «fat / grease», «fat [nn]», «fat, grease (substance)», «fat, grease», «fat-grease», «fat/grease», «fat», «grease (fat)», «grease [= fat/grease]», «grease, fat», «grease», «the grease or fat» |
@@ -29,7 +30,9 @@
 | 18 | FLY (MOVE THROUGH AIR) | 19 | 124 | «FLY (v.)», «FLY», «Fly», «To fly», «`*`fly (v.)`*`», «`*`fly (vb)», «`*`fly vb», «`*`fly», «fly (of bird)», «fly (v)», «fly (v.)», «fly (vb)», «fly (vb.)», «fly [vb]», «fly v.», «fly, to», «fly», «to fly away», «to fly» |
 | 19 | I | 18 | 143 | «1sg pronoun», «I (1.Sg.)», «I (1s)», «I (1sg.)», «I (familiar)», «I (p)», «I (pronoun)», «I [I and me, if stems are suppletive]», «I(1 p.s.)», «I, me», «I/me [first person sg. pronoun]», «I/me», «I», «`*`I`*`», «`*`I», «`*`i», «first person marker», «i» |
 | 20 | DRY | 18 | 130 | «(it is) dry», «DRY», «Dry (adj.)», «Dry», «`*`dry`*`», «`*`dry», «`*`to dry (sth.)», «dry (N, Adj)», «dry (a. general term, b. to dry up)», «dry (a.)», «dry (adjective)», «dry (cloth)», «dry (e.g. of clothes)», «dry (substance)», «dry--», «dry», «to be dry», «to dry» |
+
 # Twenty Most Frequent Concept Sets
+
 | No. | concept set | distinct labels | concept lists | examples |
 | --- | --- | --- | --- | --- |
 | 1 | WATER | 11 | 173 | «*water*», «*water», «WATER», «Water», «the water», «water (1)», «water (2)», «water (fresh water)», «water (noun)», «water+», «water» |
