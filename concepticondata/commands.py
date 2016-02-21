@@ -143,6 +143,7 @@ def reflexes(write_stats=True):
 * Ø concepts per list: {4:.2f}
 * Ø concepts per concept set: {5:.2f}
 * Ø unique concept labels per concept set: {6:.2f}
+
 """
         txt = txt.format(
             len(D),
@@ -154,7 +155,7 @@ def reflexes(write_stats=True):
             sum([len(set([label for _,label in v])) for k,v in D.items()]) / len(D)
             )
         
-        txt += '# Twenty Most Diverse Concept Sets\n'
+        txt += '# Twenty Most Diverse Concept Sets\n\n'
         txt += '| No. | concept set | distinct labels | concept lists | examples |\n'
         txt += '| --- | --- | --- | --- | --- |\n'
         for i,(k,v) in enumerate(sorted(D.items(), key=lambda x: len(set([label for _,label in
@@ -168,7 +169,7 @@ def reflexes(write_stats=True):
                         v])))
                     )
 
-        txt += '# Twenty Most Frequent Concept Sets\n'
+        txt += '# Twenty Most Frequent Concept Sets\n\n'
         txt += '| No. | concept set | distinct labels | concept lists | examples |\n'
         txt += '| --- | --- | --- | --- | --- |\n'
         for i,(k,v) in enumerate(sorted(D.items(), key=lambda x: len(set([clist for clist,_ in
@@ -178,7 +179,7 @@ def reflexes(write_stats=True):
                     k,
                     len(set([label for _,label in v])),
                     len(set([clist for clist,_ in v])),
-                    ', '.join(sorted(set(['«{0}»'.format(label) for _,label in
+                    ', '.join(sorted(set(['«{0}»'.format(label.replace('*','`*`')) for _,label in
                         v])))
                     )
 
