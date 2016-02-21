@@ -115,9 +115,10 @@ def stats():
 def metadata(write_stats=True):
     """Writes statistics on metadata to readme."""
     txt = '# Basic Statistics on Metadata\n\n'
+    cnc = list(reader(data_path('concepticon.tsv'), namedtuples=True, delimiter="\t"))
     for i,cl in enumerate(PKG_PATH.joinpath('concept_set_meta').glob('*.tsv')):
         data = list(reader(cl, namedtuples=True, delimiter="\t"))
-        txt += '* {0} covers {1} concept sets\n'.format(cl.name[:-4], len(data))
+        txt += '* {0} covers {1} concept sets ({2:.2f} %)\n'.format(cl.name[:-4], len(data), len(data) / len(cnc))
     if write_stats:
         with PKG_PATH.joinpath('concept_set_meta', 'README.md').open('w', encoding='utf8') as fp:
             fp.write(txt)
