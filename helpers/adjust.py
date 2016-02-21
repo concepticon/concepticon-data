@@ -1,14 +1,3 @@
-# author   : Johann-Mattis List
-# email    : mattis.list@uni-marburg.de
-# created  : 2015-08-21 18:56
-# modified : 2015-08-21 18:56
-"""
-Adjust a previously mapped wordlist by adding new glosses to the concepticon. 
-"""
-
-__author__="Johann-Mattis List"
-__date__="2015-08-21"
-
 from lingpy import *
 from concepticondata import *
 from concepticondata.util import *

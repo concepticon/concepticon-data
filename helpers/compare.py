@@ -1,14 +1,3 @@
-# author   : Johann-Mattis List
-# email    : mattis.list@uni-marburg.de
-# created  : 2015-06-11 09:09
-# modified : 2015-06-11 09:09
-"""
-Compare two conceptlists.
-"""
-
-__author__="Johann-Mattis List"
-__date__="2015-06-11"
-
 from sys import argv
 from lingpyd import *
 from concepticondata.util import load_conceptlist

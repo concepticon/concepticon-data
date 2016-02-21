@@ -17,10 +17,14 @@ with open('../concepticondata/conceptrelations.modified.tsv', 'w') as f:
         if len(line) == 3:
             s,r,t = line
         else:
-            s,_s,r,t,_t = line
+            try:
+                s,_s,r,t,_t = line
+            except ValueError:
+                print(line)
+                raise ValueError
 
-        sg = C[s][1]
-        tg = C[t][1]
+        sg = C[s][0]
+        tg = C[t][0]
         if set([s,t]) not in visited:
             visited += [set([s,t])]
 
