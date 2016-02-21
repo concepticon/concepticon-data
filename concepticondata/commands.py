@@ -112,6 +112,17 @@ def stats():
     with PKG_PATH.joinpath('conceptlists', 'README.md').open('w', encoding='utf8') as fp:
         fp.write('\n'.join(lines))
 
+def metadata(write_stats=True):
+    """Writes statistics on metadata to readme."""
+    txt = '# Basic Statistics on Metadata\n\n'
+    for i,cl in enumerate(PKG_PATH.joinpath('concept_set_meta').glob('*.tsv')):
+        data = list(reader(cl, namedtuples=True, delimiter="\t"))
+        txt += '* {0} covers {1} concept sets\n'.format(cl.name[:-4], len(data))
+    if write_stats:
+        with PKG_PATH.joinpath('concept_set_meta', 'README.md').open('w', encoding='utf8') as fp:
+            fp.write(txt)
+
+
 def reflexes(write_stats=True):
     """
     Returns a dictionary with concept set label as value and tuples of concept
