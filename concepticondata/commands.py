@@ -91,7 +91,7 @@ def stats():
         ' name | mapped | mergers ',
         ' ---- | ------ | ------- ',
     ]
-
+    
     for cl in sorted(
             PKG_PATH.joinpath('conceptlists').glob('*.tsv'), key=lambda _cl: _cl.name):
         concepts = list(reader(cl, namedtuples=True, delimiter='\t'))
@@ -111,3 +111,81 @@ def stats():
 
     with PKG_PATH.joinpath('conceptlists', 'README.md').open('w', encoding='utf8') as fp:
         fp.write('\n'.join(lines))
+
+def reflexes(write_stats=True):
+    """
+    Returns a dictionary with concept set label as value and tuples of concept
+    list identifier and concept label as values.
+    """
+    D = {}
+    cpl = 0
+    cln = 0
+    clb = set([])
+    for i, cl in enumerate(PKG_PATH.joinpath('conceptlists').glob('*.tsv')):
+        concepts = list(reader(cl, namedtuples=True, delimiter="\t"))
+        for j,concept in enumerate([c for c in concepts if c.CONCEPTICON_ID]):
+            label = concept.GLOSS if hasattr(concept, 'GLOSS') else concept.ENGLISH
+            name = cl.name
+            try:
+                D[concept.CONCEPTICON_GLOSS] += [(name, label)]
+            except KeyError:
+                D[concept.CONCEPTICON_GLOSS] = [(name, label)]
+            clb.add(label)
+            cpl += 1
+        cln += 1
+    # write basic statistics and most frequent glosses
+    if write_stats:
+        txt = """# Concepticon Statistics
+* concept sets (used): {0}
+* concept lists: {1}
+* concept labels: {2}
+* concept labels (unique): {3}
+* Ø concepts per list: {4:.2f}
+* Ø concepts per concept set: {5:.2f}
+* Ø unique concept labels per concept set: {6:.2f}
+
+"""
+        txt = txt.format(
+            len(D),
+            cln,
+            cpl,
+            len(clb),
+            cpl / cln,
+            sum([len(v) for k,v in D.items()]) / len(D),
+            sum([len(set([label for _,label in v])) for k,v in D.items()]) / len(D)
+            )
+        
+        txt += '# Twenty Most Diverse Concept Sets\n\n'
+        txt += '| No. | concept set | distinct labels | concept lists | examples |\n'
+        txt += '| --- | --- | --- | --- | --- |\n'
+        for i,(k,v) in enumerate(sorted(D.items(), key=lambda x: len(set([label for _,label in
+            x[1]])), reverse=True)[:20]):
+            txt += '| {0} | {1} | {2} | {3} | {4} |\n'.format(
+                    i+1,
+                    k,
+                    len(set([label for _,label in v])),
+                    len(set([clist for clist,_ in v])),
+                    ', '.join(sorted(set(['«{0}»'.format(label.replace('*','`*`')) for _,label in
+                        v])))
+                    )
+
+        txt += '# Twenty Most Frequent Concept Sets\n\n'
+        txt += '| No. | concept set | distinct labels | concept lists | examples |\n'
+        txt += '| --- | --- | --- | --- | --- |\n'
+        for i,(k,v) in enumerate(sorted(D.items(), key=lambda x: len(set([clist for clist,_ in
+            x[1]])), reverse=True)[:20]):
+            txt += '| {0} | {1} | {2} | {3} | {4} |\n'.format(
+                    i+1,
+                    k,
+                    len(set([label for _,label in v])),
+                    len(set([clist for clist,_ in v])),
+                    ', '.join(sorted(set(['«{0}»'.format(label.replace('*','`*`')) for _,label in
+                        v])))
+                    )
+
+        with PKG_PATH.joinpath('README.md').open('w', encoding='utf8') as fp:
+            fp.write(txt)
+
+    return D
+
+

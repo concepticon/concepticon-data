@@ -158,7 +158,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 157	DYE	Clothing and grooming	To modify the color of something by applying dye.	Action/Process
 158	PUT ON	Clothing and grooming	to move or place (anything) so as to get it into or out of a specific location or position.	Action/Process
 159	SWEET POTATO	Agriculture and vegetation	A dicotyledonous plant of the family Convolvulaceae, having an edible tuberous root.	Person/Thing
-160	SET	The physical world	[Of a heavenly body, essentially the Sun and the Moon] To disappear below the horizon of a planet or another heavenly body (most often the Earth).	Action/Process
+160	SET (HEAVENLY BODIES)	The physical world	[Of a heavenly body, essentially the Sun and the Moon] To disappear below the horizon of a planet or another heavenly body (most often the Earth).	Action/Process
 161	MISS (A TARGET)	Warfare and hunting	To fail to hit (a target, a bell, etc.).	Action/Process
 162	HICCOUGH	The body	To have spasms of the diaphragm.	Action/Process
 163	BLACK	Sense perception	Dark and colourless; not reflecting visible light.	Property
@@ -2287,10 +2287,10 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2286	ESTUARY	The physical world	A partly enclosed coastal body of brackish water with one or more rivers or streams flowing into it, and with a free connection to the open sea. 	Person/Thing
 2287	HORIZON	The physical world	The apparent line that separates earth from sky, the line that divides all visible directions into two categories: those that intersect the Earth's surface, and those that do not. 	Person/Thing
 2288	METEROID (SHOOTING OR SHINING STAR)	The physical world	 The visible path of a meteoroid as it enters the atmosphere, becoming a meteor. 	Person/Thing
-2289	MILKY WAY	The physical world	The galaxy that contains our Solar System. Its name "milky" is derived from its appearance as a dim glowing band arching across the night sky in which the naked eye cannot distinguish individual stars. 	Person/Thing
+2289	MILKY WAY	The physical world	"The galaxy that contains our Solar System. Its name ""milky"" is derived from its appearance as a dim glowing band arching across the night sky in which the naked eye cannot distinguish individual stars. "	Person/Thing
 2290	PUDDLE	The physical world	A small accumulation of liquid, usually water, on a surface. It can form either by pooling in a depression on the surface, or by surface tension upon a flat surface. Puddles are usually formed from rain water or from irrigation. 	Person/Thing
 2291	VOLCANO	The physical world	A rupture on the crust of a planetary-mass object, such as Earth, that allows hot lava, volcanic ash, and gases to escape from a magma chamber below the surface. 	Person/Thing
-2292	GLASSES	Basic actions and technology	Frames bearing lenses worn in front of the eyes used for vision correction. 	Person/Thing	
+2292	GLASSES	Basic actions and technology	Frames bearing lenses worn in front of the eyes used for vision correction. 	Person/Thing
 2293	UVULA	The body	A conic projection from the posterior edge of the middle of the soft palate. 	Person/Thing
 2294	WRINKLE	The body	A fold, ridge or crease in the skin. 	Person/Thing
 2295	SUNSET	Time	The daily disappearance of the Sun below the western horizon as a result of Earth's rotation. 	Person/Thing
@@ -2341,7 +2341,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2340	SUNNY	The physical world	Full of sunshine (mostly referring to &quot;a sunny day&quot;).	Property
 2341	CLOUDY	The physical world	Full of clouds (mostly referring to &quot;a cloudy day&quot;).	Property
 2342	LANDSCAPE	The physical world	The visible features of a land. 	Person/Thing
-2343	STEEL	Basic actions and technology	Alloys of iron and carbon, widely used in construction and other applications because of their high tensile strengths and low costs. 	Person/Thing	
+2343	STEEL	Basic actions and technology	Alloys of iron and carbon, widely used in construction and other applications because of their high tensile strengths and low costs. 	Person/Thing
 2344	PETROL	Modern world	A transparent, petroleum-derived liquid that is used primarily as a fuel in internal combustion engines.	Person/Thing
 2345	LEPORID (RABBIT OR HARE)	Animals	Mammal of the family hares and rabbits (Leporidae) with long ears, short tail and hindlegs which are shorter than the forelegs and permit running quickly.	Person/Thing
 2346	CRESTED MYNA	Animals	A species of starling native to southeastern China and Indochina. 	Person/Thing
@@ -2357,7 +2357,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2356	CHINESE PLUM	Agriculture and vegetation	An Asian tree species classified in the Armeniaca section of the genus Prunus subgenus Prunus. 	Person/Thing
 2357	APRICOT TREE	Agriculture and vegetation	A tree that bears the apricot fruit.	Person/Thing
 2358	PEACH TREE	Agriculture and vegetation	The tree that bears peaches as fruits.	Person/Thing
-2359	LOTUS	Agriculture and vegetation	One of two species of aquatic plant in the family Nelumbonaceae. 
+2359	LOTUS	Agriculture and vegetation	One of two species of aquatic plant in the family Nelumbonaceae. 	
 2360	OSMANTHUS FRAGRANS	Agriculture and vegetation	 A species native to Asia from the Himalayas through southern China (Guizhou, Sichuan, Yunnan) to Taiwan and southern Japan and southeast Asia as far south as Cambodia and Thailand. 	Person/Thing
 2361	MUGWORT	Agriculture and vegetation	A common name for several species of aromatic plants in the genus Artemisia. 	Person/Thing
 2362	BRAN	Agriculture and vegetation	The hard outer layers of cereal grain. It consists of the combined aleurone and pericarp. 	Person/Thing
@@ -2395,22 +2395,22 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2394	CHIEF	Social and political relations	The head of a company or group.	Person/Thing
 2395	CONGEAL (BLOOD)	The body	The process by which frech blood gets dry and hard.	Action/Process
 2396	KNOCK	Motion	Making a sound by beating with the hand or with a tool against something.	Action/Process
-2397	LOBSTER	Animals	Clawed lobsters comprise a family (Nephropidae, sometimes also Homaridae) of large marine crustaceans. 	Person/Thing	
+2397	LOBSTER	Animals	Clawed lobsters comprise a family (Nephropidae, sometimes also Homaridae) of large marine crustaceans. 	Person/Thing
 2398	MANGO	Agriculture and vegetation	The fruit from the Mango tree.	Person/Thing
 2399	GRANDPARENT	Kinship	Either the grandfather or the grandmother.	Person/Thing
 2400	THEIR	Possession	belonging to the third person that is addressed (of many people)	Other
 2401	PICTURE	Modern world	A foto or a painting.	Person/Thing
 2402	ROBIN	Animals	The European robin (Erithacus rubecula), most commonly known in Anglophone Europe simply as the robin, is a small insectivorous passerine bird, specifically a chat, that was formerly classed as a member of the thrush family (Turdidae), but is now considered to be an Old World flycatcher. 	Person/Thing
 2403	TOY	Modern world	A toy is an item that can be used for play. 	Person/Thing
-2404	SANTA CLAUS	Modern world	Santa Claus, also known as Saint Nicholas, Father Christmas, Kris Kringle and simply "Santa", is an important figure with legendary, historical and folkloric origins who, in many Western cultures, is said to bring gifts to the homes of the good children on 24 December, the night before Christmas Day. 	Person/Thing
-2405	CHRISTMAS	Modern world	Christmas or Christmas Day (Old English: Crīstesmæsse, meaning "Christ's Mass") is an annual festival commemorating the birth of Jesus Christ, observed most commonly on December 25 as a religious and cultural celebration among billions of people around the world. 	Person/Thing
+2404	SANTA CLAUS	Modern world	"Santa Claus, also known as Saint Nicholas, Father Christmas, Kris Kringle and simply ""Santa"", is an important figure with legendary, historical and folkloric origins who, in many Western cultures, is said to bring gifts to the homes of the good children on 24 December, the night before Christmas Day. "	Person/Thing
+2405	CHRISTMAS	Modern world	"Christmas or Christmas Day (Old English: Crīstesmæsse, meaning ""Christ's Mass"") is an annual festival commemorating the birth of Jesus Christ, observed most commonly on December 25 as a religious and cultural celebration among billions of people around the world. "	Person/Thing
 2406	HOME	The house	The place where one lives.	Person/Thing
 2407	BIRTHDAY	Social and political relations	The day when one was born.	Person/Thing
 2408	CAKE	Modern world	Cake is a form of sweet dessert that is typically baked. 	Person/Thing
 2409	BROWN	Sense perception	Having a brown color.	Property
 2410	GOOD-LOOKING	Sense perception	Being pleasant to watch (of humans).	Property
 2411	HURT (SOMEBODY)	Sense perception	Imposing pain on somebody else.	Action/Process
-2412	THANK (SOMBEODY)	Social and political relations	To express one's gratitude.	Action/Process	
+2412	THANK (SOMBEODY)	Social and political relations	To express one's gratitude.	Action/Process
 2413	SARONG	Clothing and grooming	A sarong or sarung is a large tube or length of fabric, often wrapped around the waist and worn by men and women throughout much of South Asia. 	Person/Thing
 2414	OLDER BROTHER (OF MAN)	Kinship	The older brother of a man.	Person/Thing
 2415	OLDER BROTHER (OF WOMAN)	Kinship	The older brother of a woman.	Person/Thing
@@ -2429,11 +2429,11 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2428	LIBRARY	Modern world	A library is a collection of sources of information and similar resources, made accessible to a defined community for reference or borrowing. 	Person/Thing
 2429	LOGIC	Modern world	Logic (from the Ancient Greek: λογική, logike) is the branch of philosophy concerned with the use and study of valid reasoning. The study of logic also features prominently in mathematics and computer science. 	Person/Thing
 2430	OFFICE	Modern world	An office is generally a room or other area where administrative work is done. 	Person/Thing
-2431	REVOLUTION	Modern world	A revolution (from the Latin revolutio, "a turn around") is a fundamental change in power or organizational structures that takes place in a relatively short period of time.  	Person/Thing
+2431	REVOLUTION	Modern world	"A revolution (from the Latin revolutio, ""a turn around"") is a fundamental change in power or organizational structures that takes place in a relatively short period of time.  "	Person/Thing
 2432	MARRIAGE	Kinship	Marriage, also called matrimony or wedlock, is a socially or ritually recognized union or legal contract between spouses that establishes rights and obligations between them, between them and their children, and between them and their in-laws. 	Person/Thing
 2433	THEORY	Modern world	Theory is a contemplative and rational type of abstract or generalizing thinking, or the results of such thinking. Depending on the context, the results might for example include generalized explanations of how nature works. 	Person/Thing
 2434	TRAGEDY	Modern world	Tragedy (from the Greek: τραγῳδία, tragōidia[a]) is a form of drama based on human suffering that invokes in its audience an accompanying catharsis or pleasure in the viewing. 	Person/Thing
-2435	UNIVERSITY	Modern world	A university (Latin: universitas, "a whole") is an institution of higher (or tertiary) education and research which grants academic degrees in various subjects and typically provides undergraduate education and postgraduate education. 	Person/Thing
+2435	UNIVERSITY	Modern world	"A university (Latin: universitas, ""a whole"") is an institution of higher (or tertiary) education and research which grants academic degrees in various subjects and typically provides undergraduate education and postgraduate education. "	Person/Thing
 2436	GUTS OR HEART	The body	Either the human heart or the human guts.	Person/Thing
 2437	ACAI PALM	Agriculture and vegetation	A species of palm tree in the genus Euterpe cultivated for its fruit and hearts of palm. 	Person/Thing
 2438	CAIMAN	Animals	An alligatorid crocodilian belonging to the subfamily Caimaninae, one of two primary lineages within Alligatoridae, the other being alligators. 	Person/Thing
@@ -2489,7 +2489,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2488	FEMALE PIG	Animals	A female pig.	Person/Thing
 2489	ABACUS	Modern world	A calculating tool that was in use centuries before the adoption of the written modern numeral system and is still widely used by merchants, traders and clerks in Asia, Africa, and elsewhere.	Person/Thing
 2490	NOON	Time	12 o'clock in the daytime.	Person/Thing
-2491	POULTRY MEAT	Food and drink	The meat of birds, usually domesticated ones.	Person/Thing	
+2491	POULTRY MEAT	Food and drink	The meat of birds, usually domesticated ones.	Person/Thing
 2492	BOIL (SOMETHING)	Food and drink	To bring some liquid into a state of boiling.	Action/Process
 2493	BOIL	Food and drink	To boil some liquid or to be boiling (of some liquid).	Action/Process
 2494	BAMBOO SHOOT	Food and drink	The edible shoots (new bamboo culms that come out of the ground) of many bamboo species.	Person/Thing
@@ -2574,3 +2574,42 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2573	FEELING (EMOTION)	Sense perception	To sense things mentally (pain, joy, etc.).	Person/Thing
 2574	BEAN OR PEA	Food and drink	Pointing to food like peas or beans in a general sense.	Person/Thing
 2575	DO OR MAKE	Basic actions and technology	To do something or to make something.	Action/Process
+2576	ALREADY	Time	Prior to a specified point in time.	Other
+2577	YET	Time	Up to a particular time.	Other
+2578	PENCIL	Modern world	A writing device of solid pigment nside a protective wooden casing.	Person/Thing
+2579	TOOTHBRUSH	Modern world	A device to brush one's teeth.	Person/Thing
+2580	HELICOPTER	Modern world	A type of rotorcraft in which lift and thrust are supplied by rotors.	Person/Thing
+2581	OCTOPUS	Animals	A cephalopod mollusct of the order Octopoda.	Person/Thing
+2582	WHEELCHAIR	Modern world	A chair with wheels.	Person/Thing
+2583	PRETZEL	Food and drink	A type of baked bread product made from dough most commonly shaped n a twisted knot.	Person/Thing
+2584	BENCH	The house	A piece of furniture offering place for many people.	Person/Thing
+2585	RACQUET	Modern world	A sports implement consisting of a handled frame with an open hoop across which a network of strings is streched tightly.	Person/Thing
+2586	SEAHORSE	Animals	A series of small marine fishes in the genus Hippocampus.	Person/Thing
+2587	DARTS	Modern world	A game in which small arrows are thrown on a target.	Person/Thing
+2588	GLOBE	Modern world	A spherical representation of the earth.	Person/Thing
+2589	WREATH	Modern world	An assortment of flowers and other things that is constructed to resemble a ring.	Person/Thing
+2590	HARMONICA	Modern world	A mouth organ (musical instrument).	Person/Thing
+2591	RHINOCEROS	Animals	A group of different species of odd-toed ungulates in the family Rhinocerotidae.	Person/Thing
+2592	IGLOO	The house	A snow hut built from snow and serving as a shelter.	Person/Thing
+2593	STILTS	Modern world	Poles or pillars allowing a person to stand at a height above the ground.	Person/Thing
+2594	DOMINOES	Modern world	A game played with rectangular ties.	Person/Thing
+2595	CACTUS	Agriculture and vegetation	A mamber of the plant family Cactaceae.	Person/Thing
+2596	ESCALATOR	Modern world	A moving staircase.	Person/Thing
+2597	HARP	Modern world	A string musical instrument.	Person/Thing
+2598	DOOR KNOCKER	Modern world	An item at a door that allows people outside a house to alert those inside.	Person/Thing
+2599	STETHOSCOPE	Modern world	An acousting medical device for auscultation.	Person/Thing
+2600	PYRAMID	The house	A structure whose outer surfaces are triangular and converge to a single point at the top.	Person/Thing
+2601	UNICORN	Religion and belief	A legendary animal with a horn on the forehead.	Person/Thing
+2602	FUNNEL	Modern world	A pipe with a wide mouth used to channel liquid into containers with small opening.	Person/Thing
+2603	ACCORDION	Modern world	A musical instrument.	Person/Thing
+2604	NOOSE	Basic actions and technology	A loop at the end of a rope.	Person/Thing
+2605	ASPARAGUS	Agriculture and vegetation	A spring vegetable.	Person/Thing
+2606	COMPASS	Modern world	An instrument for navigation and orientation.	Person/Thing
+2607	TRIPOD	Modern world	A portable three-legged frame used as a platform for supporting the weight of some other object.	Person/Thing
+2608	SCROLL	Modern world	A roll of papyrus.	Person/Thing
+2609	SPHINX	Religion and belief	A fable animal that occurs in Greek mythology.	Person/Thing
+2610	TRELLIS (ARCHITECTURE)	Modern world	An architectural structure supporting and displaying climbing plants.	Person/Thing
+2611	PALETTE (PAINTING)	Modern world	A flat surface on which a painter arragnes and mixes paints.	Person/Thing
+2612	PROTRACTOR	Modern world	A measuring instrument for measuring angles.	Person/Thing
+2613	SKIN (HUMAN)	The body	The outer tissue of human beings.	Person/Thing
+2614	SKIN (ANIMAL)	Animals	The outer tissue covering animals.	Person/Thing
