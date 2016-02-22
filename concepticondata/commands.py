@@ -145,7 +145,7 @@ def reflexes(write_stats=True):
     Returns a dictionary with concept set label as value and tuples of concept
     list identifier and concept label as values.
     """
-    D = {}
+    D, G = {}, {}
     cpl = 0
     cln = 0
     clb = set([])
@@ -158,6 +158,10 @@ def reflexes(write_stats=True):
                 D[concept.CONCEPTICON_GLOSS] += [(name, label)]
             except KeyError:
                 D[concept.CONCEPTICON_GLOSS] = [(name, label)]
+            try:
+                G[label] += [(concept.CONCEPTICON_ID, concept.CONCEPTICON_GLOSS, name)]
+            except KeyError:
+                G[label] = [(concept.CONCEPTICON_ID, concept.CONCEPTICON_GLOSS, name)]
             clb.add(label)
             cpl += 1
         cln += 1
@@ -214,6 +218,6 @@ def reflexes(write_stats=True):
         with PKG_PATH.joinpath('README.md').open('w', encoding='utf8') as fp:
             fp.write(txt)
 
-    return D
+    return D, G
 
 
