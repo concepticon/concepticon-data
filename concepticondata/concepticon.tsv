@@ -633,7 +633,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 632	LIZARD	Animals	Any reptile of the suborder Lacertilia, especially those of the family Lacertidae, typically having an elongated body, four limbs, and a small tail: includes the gechos, iguanas, chameleons, monitors, and slow worms.	Person/Thing
 633	MARKET	Possession	Place of commercial activity in which articles are bought and sold.	Person/Thing
 634	MEAT	Food and drink	The edible flesh of animals, especially that of mammals.	Person/Thing
-635	MILK (FLUID)	Food and drink	The whitish fluid secreted by the mammary gland for the nourishment of the young; composed of carbohydrates, proteins, fats, mineral salts, vitamins, and antibodies.	Person/Thing
+635	MILK	Food and drink	The whitish fluid secreted by the mammary gland for the nourishment of the young; composed of carbohydrates, proteins, fats, mineral salts, vitamins, and antibodies.	Person/Thing
 636	MILL	Food and drink	A mill is a device that breaks solid materials into smaller pieces by grinding, crushing, or cutting.	Person/Thing
 637	MOSS	Agriculture and vegetation	Any plant of the class Bryophyta, occurring in nearly all damp habitats.	Person/Thing
 638	MOTORCYCLE	Modern world	Single-track, two-wheeled motor vehicle.	Person/Thing
@@ -800,13 +800,13 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 799	WRIST	The body	The flexible and narrower connection between the forearm and the hand.	Person/Thing
 800	THIGH	The body	The area between the pelvis and buttocks and the knee.	Person/Thing
 801	RIB	The body	One of the long curved bones which form the rib cage.	Person/Thing
-802	ADAM’S APPLE	The body	A lump at the front of the neck.	Person/Thing
+802	ADAM'S APPLE	The body	A lump at the front of the neck.	Person/Thing
 803	ANKLE	The body	A joint formed where the foot and the leg meet.	Person/Thing
 804	WOMB	The body	The major female reproductive organ of most mammals, including humans. It is a large muscle enveloping the phoetus during pregnancy.	Person/Thing
 805	SPINE	The body	The body part that consists of a row of vertebrae, that support the head and torso and that forms a canal for nerves.	Person/Thing
 806	BLANKET	The house	A large cloth used for warmth and for sleeping.	Person/Thing
 807	SKILLED	Basic actions and technology	Experienced and clever, professional.	Property
-808	DRIP (1)	Motion	to fall in globules or small portions, as water or other liquid.	Action/Process
+808	DRIP (FALL IN GLOBULES)	Motion	to fall in globules or small portions, as water or other liquid.	Action/Process
 809	TROUSERS	Clothing and grooming	An item of clothing worn on the lower part of the body and covering both legs separately.	Person/Thing
 810	LOCUST	Animals	Migratory grasshoppers of the order Orthoptera of warm regions having short antennae.	Person/Thing
 811	SOUL	Emotions and values	In philosophical or religious belief the immaterial and immortal part of a human being which lives on after death.	Person/Thing
@@ -913,7 +913,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 912	COYOTE	Animals	(Canis latrans) A member of the Canidae family native to North America.	Person/Thing
 913	CROW	Animals	A bird, usually black, of the genus Corvus, having a strong conical beak, with projecting bristles; it has a harsh, croaking call.	Person/Thing
 914	SCULPTOR	Basic actions and technology	a person who practices the art of sculpture.	Person/Thing
-915	SINK, BASIN	Modern world	A bowl for washing hands, dishwashing or other purposes, often affixed to a wall.	Person/Thing
+915	SINK (BASIN)	Modern world	A bowl for washing hands, dishwashing or other purposes, often affixed to a wall.	Person/Thing
 916	LINEN	Clothing and grooming	A material made from the fibers of the flax plant.	Person/Thing
 917	ORNAMENT	Clothing and grooming	An element of decoration.	Person/Thing
 918	INCLINATION	Emotions and values	A likelihood of behaving in a particular way or going in a particular direction.	Person/Thing
@@ -982,7 +982,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 981	ELBOW	The body	The joint between arm and forearm.	Person/Thing
 982	LIME (FRUIT)	Agriculture and vegetation	A green citrus fruit	Person/Thing
 983	CONVICT	Law	To find guilty of a crime as a result of legal proceedings.	Action/Process
-984	WORK (CRAFT, LABOUR)	Basic actions and technology	Productive activity, service, trade, or craft for which one is regularly paid.	Person/Thing
+984	WORK (LABOUR)	Basic actions and technology	Productive activity, service, trade, or craft for which one is regularly paid.	Person/Thing
 985	VINEGAR	Food and drink	A sour liquid formed by the fermentation of alcohol with acetic acid bacteria used as a condiment or preservative.	Person/Thing
 986	TOMATO	Food and drink	The savoury fruit of the Solanum lycopersicum, red when ripe.	Person/Thing
 987	REMAIN	Spatial relations	To continue to be in the same place or state.	Action/Process
@@ -1073,7 +1073,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1072	PRISONER	Warfare and hunting	A person confined in a prison, while on trial or serving a sentence.	Person/Thing
 1073	CAPTIVE	Warfare and hunting	A person held against his will.	Person/Thing
 1074	FISHHOOK	Warfare and hunting	A metal hook for catching fish.	Person/Thing
-1075	TRAP, PITFALL	Warfare and hunting	A device for catching and holding animals.	Person/Thing
+1075	TRAP (PITFALL)	Warfare and hunting	A device for catching and holding animals.	Person/Thing
 1076	EMERGE, APPEAR	Basic actions and technology	To become known or apparent.	Action/Process
 1077	WHEAT	Agriculture and vegetation	Plant belonging to genus Triticum and to family Poaceae (also known as Gramineae).	Person/Thing
 1078	MAIN	Cognition	The most important element.	Other
@@ -1161,14 +1161,14 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1160	THIEF	Law	Someone who takes property belonging to someone else with the intention of keeping it or selling it.	Person/Thing
 1161	THREAD	Clothing and grooming	A long, thin and flexible form of material, generally with a round cross-section, used in sewing, weaving or in the construction of string.	Person/Thing
 1162	INTENTION	Cognition	An anticipated outcome that is intended to obtain or that guides your planned actions.	Person/Thing
-1163	BRIBE (1)	Possession	Something (usually money) given in exchange for influence or as an inducement to dishonesty.	Person/Thing
-1164	BRIBE (2)	Social and political relations	To give, or offer a bribe.	Action/Process
+1163	BRIBE (AMOUNT)	Possession	Something (usually money) given in exchange for influence or as an inducement to dishonesty.	Person/Thing
+1164	BRIBE (SOMEBODY)	Social and political relations	To give, or offer a bribe.	Action/Process
 1165	MOUSTACHE	The body	A growth of facial hair between the nose and the upper lip.	Person/Thing
 1166	MOULD	Basic actions and technology	A frame or model around or on which something is formed or shaped.	Person/Thing
 1167	GRUEL	Food and drink	A hot breakfast cereal dish made from oatmeal, milk and, or water heated and stirred until thick.	Person/Thing
 1168	HAWTHORN	Agriculture and vegetation	Any of various shrubs and small trees of the genus Crataegus having small, apple-like fruits and thorny branches.	Person/Thing
 1169	OX	Animals	A castrated bull.	Person/Thing
-1170	TRAP, CATCH	Warfare and hunting	To catch in a trap, to immobilize.	Action/Process
+1170	TRAP (CATCH)	Warfare and hunting	To catch in a trap, to immobilize.	Action/Process
 1171	MIRROR	Clothing and grooming	A smooth surface, usually made of glass with reflective material painted on the underside, that reflects light so as to give an image of what is in front of it.	Person/Thing
 1172	SHOOT	Warfare and hunting	To kill a person or an animal with a shot from a firearm.	Action/Process
 1173	EYEBROW	The body	The hair that grows over the bone ridge above the eye socket.	Person/Thing
@@ -1184,7 +1184,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1183	PALM OF HAND	The body	The inner and somewhat concave part of the human hand that extends from the wrist to the bases of the fingers.	Person/Thing
 1184	DIMINISH	Basic actions and technology	To make smaller.	Action/Process
 1185	VULTURE	Animals	Any of several carrion-eating birds of the families Accipitridae and Cathartidae.	Person/Thing
-1186	LAST, ENDURE	Time	To endure, continue over time.	Action/Process
+1186	LAST (ENDURE)	Time	To endure, continue over time.	Action/Process
 1187	GOOSE	Animals	Waterfowl of the Anatidae family.	Person/Thing
 1188	CHARCOAL	The physical world	A porous solid product containing 85-98% carbon and produced by heating carbonaceous materials such as cellulose, wood or peat at 500-600 C° in the absence of air. (Source: MGH)	Person/Thing
 1189	ULCER	The body	An open sore of the skin, eyes or mucous membrane, often caused by an initial abrasion and generally maintained by an inflammation and/or an infection.	Person/Thing
@@ -1307,7 +1307,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1306	QUEEN	Social and political relations	A female monarch.	Person/Thing
 1307	LANGUAGE	Speech and language	A system of communication using the spoken or signed word or using symbols that represent words, signs or sounds.	Person/Thing
 1308	DOUBT	Cognition	Challenge about the truth or accuracy of a matter.	Person/Thing
-1309	ASK, INQUIRE	Speech and language	To ask (a question) to somebody; to seek an answer to.	Action/Process
+1309	ASK (INQUIRE)	Speech and language	To ask (a question) to somebody; to seek an answer to.	Action/Process
 1310	CLEVER	Emotions and values	Mentally agile.	Property
 1311	VERY	Miscellaneous function words	To a high or large degree.	Other
 1312	FOX	Animals	A carnivorous relatively small canine of the species Vulpes Vulpes.	Person/Thing
@@ -1391,7 +1391,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1390	WRONG	Emotions and values	Contradicting the facts.	Property
 1391	TOWN	Social and political relations	An area with residential districts, shops and amenities, and its own local government.	Person/Thing
 1392	LOUSE	Animals	A small wingless parasitic insect of the order Phthiraptera that lives on humans, other mammals and birds.	Person/Thing
-1393	HORN (KERATINIZED SKIN)	The body	A hard growth of keratin that protrudes from the top of the head of certain animals.	Person/Thing
+1393	HORN (ANATOMY)	The body	A hard growth of keratin that protrudes from the top of the head of certain animals.	Person/Thing
 1394	BONE	The body	Any of the components of an endoskeleton, consisting mainly of calcium phosphate, collagen and cells.	Person/Thing
 1395	ROUND	Spatial relations	Circular or having a circular cross-section in at least one direction.	Property
 1396	SHARP	Sense perception	Having the ability to cut easily.	Property
@@ -1527,7 +1527,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1526	MEAL	Food and drink	Food that is prepared and eaten, usually at a specific time.	Person/Thing
 1527	TICK	Animals	A small arachnid which lives on and sucks the blood of other animals including man.	Person/Thing
 1528	FORGIVE	Emotions and values	To stop blaming someone for an offense.	Action/Process
-1529	LAST, FINAL	Quantity	After all the others.	Other
+1529	LAST (FINAL)	Quantity	After all the others.	Other
 1530	BOWL	Food and drink	A roughly hemispherical container used to hold, mix or present food, such as salad, fruit or soup, or other items.	Person/Thing
 1531	BRANCH	Agriculture and vegetation	A woody part of a tree arising from the trunk and usually dividing.	Person/Thing
 1532	SHEAR	Animals	To remove the fleece from a sheep etc. by clipping.	Action/Process
@@ -1580,7 +1580,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1579	BE	Miscellaneous function words	To have existence.	Action/Process
 1580	ONLY	Quantity	Nothing more than.	Other
 1581	ALLIGATOR	Animals	(Alligatoridae) A reptile belonging to the order Crocodilia.	Person/Thing
-1582	TIN, CAN	Modern world	A tin-plate canister, often cylindrical, for preserved foods such as fruit, meat, or fish.	Person/Thing
+1582	TIN (CAN)	Modern world	A tin-plate canister, often cylindrical, for preserved foods such as fruit, meat, or fish.	Person/Thing
 1583	BRAIN	The body	The organ of the central nervous system of an animal located in the skull that controls the actions and thoughts of the animal.	Person/Thing
 1584	BLISTER	The body	A small bubble on the skin, that contains watery fluid and is caused by heat, pressure or infection.	Person/Thing
 1585	SLEEP	The body	To rest in a state of decreased consciousness and reduced metabolism.	Action/Process
@@ -1733,7 +1733,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1732	SKY	The physical world	The part of the earth's atmosphere and space outside it that is visible from earth's surface. During the day it is perceived as blue, and at night as black.	Person/Thing
 1733	RAINBOW	The physical world	A multicoloured arc in the sky caused by the refraction of light within droplets of rain in the air.	Person/Thing
 1734	TWENTY ONE	Quantity	The cardinal number occurring after twenty and before twenty-two, represented in Roman numerals as XXI and in Arabic numerals as 21.	Other
-1735	TEAR, SHRED	Basic actions and technology	A tug given with force in order to remove something.	Action/Process
+1735	TEAR (SHRED)	Basic actions and technology	A tug given with force in order to remove something.	Action/Process
 1736	TWENTY FOUR	Quantity	The cardinal number occurring after twenty-three and before twenty-five, represented in Roman numerals as XXIV and in Arabic numerals as 24.	Other
 1737	OKRA	Agriculture and vegetation	-	Person/Thing
 1738	TWENTY FIVE	Quantity	The cardinal number occurring after twenty-four and before twenty-six, represented in Roman numerals as XXV and in Arabic numerals as 25.	Other
@@ -1826,7 +1826,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1825	COPPER	Basic actions and technology	Chemical element with symbol Cu and atomic number 29; one of the most important nonferrous metals; a ductile and malleable metal found in various ores and used in industry, engineering, and the arts in both pure and alloyed form.	Person/Thing
 1826	ANGRY	Emotions and values	Irritated, in a temper, feeling or displaying anger.	Property
 1827	HARVEST CROPS	Agriculture and vegetation	To gather the ripened crop.	Action/Process
-1828	ASK, REQUEST	Speech and language	To desire a service or physical goods, often without returning the favor in kind.	Action/Process
+1828	ASK (REQUEST)	Speech and language	To desire a service or physical goods, often without returning the favor in kind.	Action/Process
 1829	JUMP	Motion	To propel oneself rapidly upward such that momentum causes the body to become airborne.	Action/Process
 1830	CRANE	Animals	A large bird of the order Gruiformes and the family Gruidae having long legs and a long neck which it extends when flying.	Person/Thing
 1831	MEET	Social and political relations	To collect in one place, usually for a purpose.	Action/Process
@@ -2232,7 +2232,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2231	CORRECT (SOMETHING OR SOMEBODY)	Social and political relations	To right the errors of a person or a thing.	Action/Process
 2232	KEEN OR SUBTLE	Sense perception	To be fine regarding one's senses.	Property
 2233	LOVELY	Emotions and values	Beautiful especially in a pleasing or charming way.	Property
-2234	FALL (SNOW, RAIN)	Motion	The process by which rain or snow descend from the clouds to the earth.	Action/Process
+2234	FALL (OF SNOW AND RAIN)	Motion	The process by which rain or snow descend from the clouds to the earth.	Action/Process
 2235	CLEAN (SOMETHING)	Motion	To cause something to be no longer dirty.	Action/Process
 2236	SHINE (EMITTED LIGHT)	The physical world	The emission of light on a surface.	Person/Thing
 2237	FIND OUT	Cognition	To apprehend something involuntarily.	Action/Process
@@ -2251,13 +2251,13 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2250	LEAF (LEAFLIKE OBJECT)	Spatial relations	An object that is similar in shape to the leaves of a tree, such as a sheet of paper.	Person/Thing
 2251	BEER BANANA	Agriculture and vegetation	Triploid banana cultivars originating from the African Great Lakes region.	Person/Thing
 2252	PATH	Motion	A narrow piece of ground that people can walk along.	Person/Thing
-2253	DRIP (2)	Motion	To emit drops of liquid.	Action/Process
+2253	DRIP (EMIT LIQUID)	Motion	To emit drops of liquid.	Action/Process
 2254	FATHER-IN-LAW (OF WOMAN)	Kinship	The father-in-law of a woman.	Person/Thing
 2255	FATHER-IN-LAW (OF MAN)	Kinship	The father-in-law of a man.	Person/Thing
 2256	MOTHER-IN-LAW (OF WOMAN)	Kinship	The mother-in-law of a woman.	Person/Thing
 2257	MOTHER-IN-LAW (OF MAN)	Kinship	The mother-in-law of a man.	Person/Thing
 2258	SET ALIGHT (SOMETHING)	The physical world	To make something burn.	Action/Process
-2259	FLESH (OF A HUMAN)	The body	The meat of a human being.	Person/Thing
+2259	FLESH	The body	The soft substance in the body of living things.	Person/Thing
 2260	FEMALE (OF PERSON)	Kinship	Relating to the female sex of humans.	Property
 2261	MALE (OF PERSON)	Kinship	Relating to the male sex of humans.	Property
 2262	FEMALE (OF ANIMAL)	Animals	Relating to the female sex of animals.	Property
@@ -2613,3 +2613,4 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2612	PROTRACTOR	Modern world	A measuring instrument for measuring angles.	Person/Thing
 2613	SKIN (HUMAN)	The body	The outer tissue of human beings.	Person/Thing
 2614	SKIN (ANIMAL)	Animals	The outer tissue covering animals.	Person/Thing
+2615	FLESH OR MEAT	The body	Either referring to the soft substance of the body of living things (flesh), or to the soft substance in animals as an important source of food for humans.	Person/Thing

@@ -3,4 +3,5 @@
 * wikipedia covers 137 concept sets (0.05 %)
 * gbif covers 1 concept sets (0.00 %)
 * omegawiki covers 2070 concept sets (0.79 %)
-* babelnet covers 928 concept sets (0.36 %)
+* babelnet covers 928 concept sets (0.35 %)
+* aoa_kuperman covers 1853 concept sets (0.71 %)
