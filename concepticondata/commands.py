@@ -123,6 +123,22 @@ def metadata(write_stats=True):
         with PKG_PATH.joinpath('concept_set_meta', 'README.md').open('w', encoding='utf8') as fp:
             fp.write(txt)
 
+def list_attributes(write_stats=True):
+    """Calculate the addditional attributes in the lists."""
+    D = {}
+    for i,cl in enumerate(PKG_PATH.joinpath('conceptlists').glob('*.tsv')):
+        header = list(reader(cl, delimiter="\t"))[0]
+        header = [h for h in header if h not in ['ID', 'CONCEPTICON_ID', 
+            'CONCEPTICON_GLOSS', 'ENGLISH', 'GLOSS', 'NUMBER']]
+        for h in header:
+            try:
+                D[h] += [cl.name]
+            except KeyError:
+                D[h] = [cl.name]
+    txt = '# Common Additional Columns of Concept Lists\n'
+    for k,v in sorted(D.items(), key=lambda x: len(x[1]), reverse=True):
+        txt += '* {2} occurences: {0}, {1}\n'.format(k, ', '.join(v), len(v))
+    print(txt)
 
 def reflexes(write_stats=True):
     """
