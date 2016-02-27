@@ -55,7 +55,7 @@ Key-2015-1310-53	five	53	13-50	http://ids.clld.org/parameters/13-50	cinq	cinco	�
 Key-2015-1310-54	four	54	13-40	http://ids.clld.org/parameters/13-40	quatre	quatro	четыре	cuatro	13	40	1500	FOUR
 Key-2015-1310-55	two	55	13-20	http://ids.clld.org/parameters/13-20	deux	dois, duas	два	dos	13	20	1498	TWO
 Key-2015-1310-56	three	56	13-30	http://ids.clld.org/parameters/13-30	trois	três	три	tres	13	30	492	THREE
-Key-2015-1310-57	one	57	13-10	http://ids.clld.org/parameters/13-10	un	um, uma	один	uno	13	10	1515	TEN
+Key-2015-1310-57	one	57	13-10	http://ids.clld.org/parameters/13-10	un	um, uma	один	uno	13	10	1493	ONE
 Key-2015-1310-58	zero, nothing	58	13-0	http://ids.clld.org/parameters/13-0	zéro, rien	zero, nada	ноль	cero, nada	13	0	1294	ZERO
 Key-2015-1310-59	change	59	12-930	http://ids.clld.org/parameters/12-930	changer	mudar	менять	cambiar	12	930	1264	CHANGE
 Key-2015-1310-60	like, similar	60	12-920	http://ids.clld.org/parameters/12-920	semblable	parecido	похожий, подобный	semejante	12	920	1558	SIMILAR
@@ -123,9 +123,9 @@ Key-2015-1310-121	up, above	121	12-80	http://ids.clld.org/parameters/12-80	au-de
 Key-2015-1310-122	under	122	12-70	http://ids.clld.org/parameters/12-70	dessous, sous	debaixo	под	debajo	12	70	1485	BELOW OR UNDER
 Key-2015-1310-123	outside	123	12-60	http://ids.clld.org/parameters/12-60	dehors	fora	снаружи	afuera, fuera, exterior	12	60	762	OUTSIDE
 Key-2015-1310-124	inside, in	124	12-50	http://ids.clld.org/parameters/12-50	dans, dedans	dentro	в, внутри	adentro, dentro	12	50	1606	INSIDE
-Key-2015-1310-125	front	125	12-41	http://ids.clld.org/parameters/12-41	devant	frente	перед	delantero, delante	12	41	1019	RIGHT
+Key-2015-1310-125	front	125	12-41	http://ids.clld.org/parameters/12-41	devant	frente	перед	delantero, delante	12	41	1883	IN FRONT OF
 Key-2015-1310-126	before	126	12-40	http://ids.clld.org/parameters/12-40	avant, devant	antes, perante	перед, до	delante, antes de	12	40	1882	BEFORE
-Key-2015-1310-127	down, below	127	12-30	http://ids.clld.org/parameters/12-30	en bas, sous	debaixo, abaixo	ниже, по направлению вниз	abajo, bajo	12	30	1326	DOWN
+Key-2015-1310-127	down, below	127	12-30	http://ids.clld.org/parameters/12-30	en bas, sous	debaixo, abaixo	ниже, по направлению вниз	abajo, bajo	12	30	2094	DOWN OR BELOW
 Key-2015-1310-128	beside	128	12-20	http://ids.clld.org/parameters/12-20	à côté de	ao lado de	рядом, у	al lado de	12	20	1816	BESIDE
 Key-2015-1310-129	behind	129	12-11	http://ids.clld.org/parameters/12-11	derrière	atrás	за	atrás, detrás	12	11	1686	BEHIND
 Key-2015-1310-130	after	130	12-10	http://ids.clld.org/parameters/12-10	après	depois	после	después	12	10	1685	AFTER
@@ -393,7 +393,7 @@ Key-2015-1310-391	garden	391	8-130	http://ids.clld.org/parameters/8-130	jardin	j
 Key-2015-1310-392	field (for cultivation)	392	8-120	http://ids.clld.org/parameters/8-120	champ	campo	поле (для обработки)	campo (de cultivo), chacra	8	120	212	FIELD
 Key-2015-1310-393	farmer	393	8-110	http://ids.clld.org/parameters/8-110	fermier	lavrador, fazendeiro	фермер	labrador, ranchero	8	110	979	FARMER
 Key-2015-1310-394	adobe	394	7-640	http://ids.clld.org/parameters/7-640	adobe	adobe	глинобитная постройка	adobe	7	640	901	ADOBE
-Key-2015-1310-395	mortar	395	7-630	http://ids.clld.org/parameters/7-630	mortier	argamassa	известковый раствор	argamasa	7	630	1731	MORTAR BINDER
+Key-2015-1310-395	mortar	395	7-630	http://ids.clld.org/parameters/7-630	mortier	argamassa	известковый раствор	argamasa	7	630	224	MORTAR CRUSHER
 Key-2015-1310-396	brick	396	7-620	http://ids.clld.org/parameters/7-620	brique	tijolo	кирпич	ladrillo	7	620	1006	BRICK
 Key-2015-1310-397	arch	397	7-580	http://ids.clld.org/parameters/7-580	arche	arco	арка	arco	7	580	876	ARCH
 Key-2015-1310-398	mason	398	7-610	http://ids.clld.org/parameters/7-610	maçon	pedreiro	каменщик	albañil	7	610	877	MASON
@@ -564,7 +564,7 @@ Key-2015-1310-562	chew	562	5-180	http://ids.clld.org/parameters/5-180	mastiquer,
 Key-2015-1310-563	suck	563	5-160	http://ids.clld.org/parameters/5-160	sucer	chupar, sugar	сосать, впитывать	chupar	5	160	1421	SUCK
 Key-2015-1310-564	thirst	564	5-150	http://ids.clld.org/parameters/5-150	soif	sede	жажда	sed	5	150	848	THIRST
 Key-2015-1310-565	famine	565	5-141	http://ids.clld.org/parameters/5-141	famine, disette	fome	голод, голодание	hambre	5	141	199	FAMINE
-Key-2015-1310-566	hunger	566	5-140	http://ids.clld.org/parameters/5-140	faim	estar com fome	голод	hambre	5	140	1533	BE HUNGRY
+Key-2015-1310-566	hunger	566	5-140	http://ids.clld.org/parameters/5-140	faim	estar com fome	голод	hambre	5	140	1864	HUNGER
 Key-2015-1310-567	drink	567	5-130	http://ids.clld.org/parameters/5-130	boire	beber, tomar	пить	beber	5	130	1401	DRINK
 Key-2015-1310-568	rotten	568	5-125	http://ids.clld.org/parameters/5-125	pourri	podre	гнилой	podrido	5	125	1728	ROTTEN
 Key-2015-1310-569	green, unripe	569	5-124	http://ids.clld.org/parameters/5-124	vert	verde, imaturo	зеленый, неспелый, незрелый	inmaduro, no maduro, verde	5	124	1958	UNRIPE
@@ -747,7 +747,7 @@ Key-2015-1310-745	scorpion	745	3-815	http://ids.clld.org/parameters/3-815	scorpi
 Key-2015-1310-746	centipede	746	3-814	http://ids.clld.org/parameters/3-814	mille-pattes	centopeia	многоножка, сороконожка	ciempiés	3	814	1974	CENTIPEDE
 Key-2015-1310-747	flea	747	3-813	http://ids.clld.org/parameters/3-813	puce	pulga	блоха	pulga	3	813	232	FLEA
 Key-2015-1310-748	nit (louse egg)	748	3-812	http://ids.clld.org/parameters/3-812	lente	lêndea	гнида	liendre	3	812	267	NIT
-Key-2015-1310-749	louse	749	3-811	http://ids.clld.org/parameters/3-811	pou	piolho	вошь	piojo	3	811	310	HEAD LOUSE
+Key-2015-1310-749	louse	749	3-811	http://ids.clld.org/parameters/3-811	pou	piolho	вошь	piojo	3	811	1392	LOUSE
 Key-2015-1310-750	insect	750	3-810	http://ids.clld.org/parameters/3-810	insecte	inseto	насекомое	insecto	3	810	620	INSECT
 Key-2015-1310-751	camel	751	3-780	http://ids.clld.org/parameters/3-780	chameau	camelo	верблюд	camello	3	780	1871	CAMEL
 Key-2015-1310-752	elephant	752	3-770	http://ids.clld.org/parameters/3-770	éléphant	elefante	слон	elefante	3	770	1290	ELEPHANT
@@ -887,8 +887,8 @@ Key-2015-1310-885	young woman (adolescent)	885	2-261	http://ids.clld.org/paramet
 Key-2015-1310-886	girl	886	2-260	http://ids.clld.org/parameters/2-260	fille	menina, garota	девочка	muchacha	2	260	1646	GIRL
 Key-2015-1310-887	young man (adolescent)	887	2-251	http://ids.clld.org/parameters/2-251	jeune homme	jovem, rapaz	юноша, молодой человек	el joven	2	251	76	YOUNG MAN
 Key-2015-1310-888	boy	888	2-250	http://ids.clld.org/parameters/2-250	garçon	menino, garoto	мальчик	muchacho	2	250	1366	BOY
-Key-2015-1310-889	female	889	2-240	http://ids.clld.org/parameters/2-240	femelle	fêmea	самка	hembra	2	240	2260	FEMALE (OF PERSON)
-Key-2015-1310-890	male	890	2-230	http://ids.clld.org/parameters/2-230	mâle	macho	самец	varón, macho	2	230	2263	MALE (OF ANIMAL)
+Key-2015-1310-889	female	889	2-240	http://ids.clld.org/parameters/2-240	femelle	fêmea	самка	hembra	2	240	1551	FEMALE
+Key-2015-1310-890	male	890	2-230	http://ids.clld.org/parameters/2-230	mâle	macho	самец	varón, macho	2	230	1553	MALE
 Key-2015-1310-891	woman	891	2-220	http://ids.clld.org/parameters/2-220	femme	mulher	женщина	mujer	2	220	962	WOMAN
 Key-2015-1310-892	man (vs. woman)	892	2-210	http://ids.clld.org/parameters/2-210	homme	homem	мужчина	hombre	2	210	1554	MAN
 Key-2015-1310-893	person, human being	893	2-100	http://ids.clld.org/parameters/2-100	personne, être humain	pessoa, ser humano	человек, личность	persona	2	100	683	PERSON
@@ -969,7 +969,7 @@ Key-2015-1310-967	soon	967	14-331	http://ids.clld.org/parameters/14-331	bientôt
 Key-2015-1310-968	long-time (for a)	968	14-332	http://ids.clld.org/parameters/14-332	longtemps	por muito tempo	долгосрочный	por mucho tiempo	14	332	418	FOR A LONG TIME
 Key-2015-1310-969	never	969	14-340	http://ids.clld.org/parameters/14-340	jamais	nunca, jamais	никогда	nunca, jamás	14	340	1656	NEVER
 Key-2015-1310-970	again	970	14-350	http://ids.clld.org/parameters/14-350	encore	outra vez, de novo	опять, снова	otra vez	14	350	204	AGAIN
-Key-2015-1310-971	day	971	14-410	http://ids.clld.org/parameters/14-410	jour	dia	день	día	14	410	1260	DAY (24 HOURS)
+Key-2015-1310-971	day	971	14-410	http://ids.clld.org/parameters/14-410	jour	dia	день	día	14	410	1225	DAY (NOT NIGHT)
 Key-2015-1310-972	night	972	14-420	http://ids.clld.org/parameters/14-420	nuit	noite	ночь	noche	14	420	1233	NIGHT
 Key-2015-1310-973	dawn	973	14-430	http://ids.clld.org/parameters/14-430	aube	alvorada, amanhecer	рассвет	madrugada	14	430	729	DAWN
 Key-2015-1310-974	morning	974	14-440	http://ids.clld.org/parameters/14-440	matin, matinée	manhã	утро	mañana	14	440	1339	MORNING

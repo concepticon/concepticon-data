@@ -8,7 +8,7 @@ Mann-2004-210-6	6	12	ashamed	ashamed	1894	ASHAMED
 Mann-2004-210-7	7	13	ashes	ashes	646	ASH
 Mann-2004-210-8	8	15	awaken	awaken	825	AWAKE
 Mann-2004-210-9	9	19	bamboo	bamboo	1927	BAMBOO
-Mann-2004-210-10	10	21	banana/plantain	banana	868	BANANA
+Mann-2004-210-10	10	21	banana/plantain	banana	399	PLANTAIN
 Mann-2004-210-11	11	25	bear	bear	1820	BEAR
 Mann-2004-210-12	12	28	bee	bee	665	BEE
 Mann-2004-210-13	13	29	belly	belly	1251	BELLY
@@ -23,14 +23,14 @@ Mann-2004-210-21	21	44	bone	bone	1394	BONE
 Mann-2004-210-22	22	45	born	born	1090	BE BORN
 Mann-2004-210-23	23	46	bow	bow	994	BOW
 Mann-2004-210-24	24	47	brain	brain	1583	BRAIN
-Mann-2004-210-25	25	48	branch	branch	826	BRANCH (BIFURCATION)
+Mann-2004-210-25	25	48	branch	branch	1531	BRANCH
 Mann-2004-210-26	26	50	breast/milk	vagina/breast/milk	2129	BREAST OR MILK
 Mann-2004-210-27	27	51	breath	breath/life	870	BREATH
 Mann-2004-210-28	28	58	burn	burn	2102	BURN
 Mann-2004-210-29	29	62	buy	buy	1869	BUY
 Mann-2004-210-30	30	70	child	child/son	2099	CHILD
 Mann-2004-210-31	31	73	claw	nail/claw	72	CLAW
-Mann-2004-210-32	32	74	climb/ascend	climb/ascend	1102	CLIMB
+Mann-2004-210-32	32	74	climb/ascend	climb/ascend	705	GO UP (ASCEND)
 Mann-2004-210-33	33	76	cloud	cloud	1489	CLOUD
 Mann-2004-210-34	34	79	cold	cold	1287	COLD
 Mann-2004-210-35	35	82	cook/boil	cook/boil	1100	COOK (SOMETHING)
@@ -52,7 +52,7 @@ Mann-2004-210-50	50	130	emerge	emerge	1076	EMERGE, APPEAR
 Mann-2004-210-51	51	133	excrement	shit	675	FAECES
 Mann-2004-210-52	52	134	extinguish	extinguish	127	EXTINGUISH
 Mann-2004-210-53	53	135	eye	eye	1248	EYE
-Mann-2004-210-54	54	139	fall	fall	2234	FALL (OF SNOW AND RAIN)
+Mann-2004-210-54	54	139	fall	fall	1280	FALL
 Mann-2004-210-55	55	140	far	far	1406	FAR
 Mann-2004-210-56	56	142	fat (n.)	fat/grease	323	FAT (ORGANIC SUBSTANCE)
 Mann-2004-210-57	57	143	fat (adj.)	fat	1279	FAT (OBESE)
@@ -63,7 +63,7 @@ Mann-2004-210-61	61	150	fire	fire	221	FIRE
 Mann-2004-210-62	62	152	fish	fish	227	FISH
 Mann-2004-210-63	63	153	five	five	493	FIVE
 Mann-2004-210-64	64	157	flower	flower	239	FLOWER
-Mann-2004-210-65	65	158	fly	fly	1504	FLY (INSECT)
+Mann-2004-210-65	65	158	fly	fly	1441	FLY (MOVE THROUGH AIR)
 Mann-2004-210-66	66	161	foot	foot	1301	FOOT
 Mann-2004-210-67	67	163	forget	forget	1523	FORGET
 Mann-2004-210-68	68	164	four	four	1500	FOUR
@@ -80,7 +80,7 @@ Mann-2004-210-78	78	189	hand	hand/arm	1277	HAND
 Mann-2004-210-79	79	193	head	head	1256	HEAD
 Mann-2004-210-80	80	195	heart	heart	1223	HEART
 Mann-2004-210-81	81	196	heavy	heavy	1210	HEAVY
-Mann-2004-210-82	82	199	hide	hide	602	HIDE (CONCEAL)
+Mann-2004-210-82	82	199	hide	hide	2486	HIDE
 Mann-2004-210-83	83	202	horn	horn	1393	HORN (ANATOMY)
 Mann-2004-210-84	84	203	horse	horse	615	HORSE
 Mann-2004-210-85	85	205	house	house	1252	HOUSE
@@ -96,7 +96,7 @@ Mann-2004-210-94	94	221	itchy	itchy	149	ITCHY
 Mann-2004-210-95	95	223	joint	joint	999	JOINT
 Mann-2004-210-96	96	225	kick	kick	1135	KICK
 Mann-2004-210-97	97	226	kill	kill	1417	KILL
-Mann-2004-210-98	98	230	know	know	2248	KNOW (SOMEBODY)
+Mann-2004-210-98	98	230	know	know	1410	KNOW (SOMETHING)
 Mann-2004-210-99	99	233	laugh	laugh	1355	LAUGH
 Mann-2004-210-100	100	235	leaf	leaf	628	LEAF
 Mann-2004-210-101	101	236	leech (land)	leech (land)	2273	LEECH
@@ -106,7 +106,7 @@ Mann-2004-210-104	104	244	lightweight	lightweight	1052	LIGHT (WEIGHT)
 Mann-2004-210-105	105	246	liquor	liquor	842	LIQUOR
 Mann-2004-210-106	106	248	liver	liver	1224	LIVER
 Mann-2004-210-107	107	250	long	long/tall	1203	LONG
-Mann-2004-210-108	108	251	loose	let go/set free/loosen	1933	LOOSEN
+Mann-2004-210-108	108	251	loose	let go/set free/loosen	2506	LOOSE
 Mann-2004-210-109	109	252	louse	louse	1392	LOUSE
 Mann-2004-210-110	110	257	many	many	1198	MANY
 Mann-2004-210-111	111	258	marrow	marrow	1835	MARROW
@@ -126,7 +126,7 @@ Mann-2004-210-124	124	280	new	new	1231	NEW
 Mann-2004-210-125	125	281	night	night	1233	NIGHT
 Mann-2004-210-126	126	282	nine	nine	1483	NINE
 Mann-2004-210-127	127	285	nose	nose	1221	NOSE
-Mann-2004-210-128	128	287	old	old	2113	OLD (USED)
+Mann-2004-210-128	128	287	old	old	1229	OLD
 Mann-2004-210-129	129	288	one	one	1493	ONE
 Mann-2004-210-130	130	291	otter	otter	15	OTTER
 Mann-2004-210-131	131	292	palm	palm	1181	PALM TREE
@@ -139,8 +139,8 @@ Mann-2004-210-137	137	316	put/place	put/place	998	PUT
 Mann-2004-210-138	138	318	rain	rain (n.)	2108	RAINING OR RAIN
 Mann-2004-210-139	139	320	rat	rat/rodent	1490	RAT
 Mann-2004-210-140	140	321	red	red	156	RED
-Mann-2004-210-141	141	325	rice (cooked)	rice (cooked)	926	RICE
-Mann-2004-210-142	142	326	rice (in fields)	rice (in fields)	925	CASSAVA
+Mann-2004-210-141	141	325	rice (cooked)	rice (cooked)	1191	COOKED RICE
+Mann-2004-210-142	142	326	rice (in fields)	rice (in fields)	2026	RICE PLANT
 Mann-2004-210-143	143	329	right(hand)	right side	1019	RIGHT
 Mann-2004-210-144	144	331	ripe	ripe/well-cooked	178	RIPE
 Mann-2004-210-145	145	332	river	river/valley	666	RIVER
@@ -179,7 +179,7 @@ Mann-2004-210-177	177	408	steal	steal	713	STEAL
 Mann-2004-210-178	178	409	stick	stick	1295	STICK
 Mann-2004-210-179	179	410	stone	stone	857	STONE
 Mann-2004-210-180	180	416	sun	sun/day	1343	SUN
-Mann-2004-210-181	181	418	sweat	sweat	125	SWEAT (SUBSTANCE)
+Mann-2004-210-181	181	418	sweat	sweat	2458	PERSPIRE OR SWEAT
 Mann-2004-210-182	182	419	sweet	sweet	717	SWEET
 Mann-2004-210-183	183	421	swidden	swidden	429	SWIDDEN FIELD
 Mann-2004-210-184	184	423	tail	tail	1220	TAIL
@@ -202,7 +202,7 @@ Mann-2004-210-200	200	464	wash	wash	1453	WASH
 Mann-2004-210-201	201	465	water	water	948	WATER
 Mann-2004-210-202	202	466	water leech	water leech	949	WATER LEECH
 Mann-2004-210-203	203	469	weave (cloth)	weave	133	WEAVE
-Mann-2004-210-204	204	470	weep	weep	130	GRATIS (OF CHARGE)
+Mann-2004-210-204	204	470	weep	weep	1839	CRY
 Mann-2004-210-205	205	478	white	white	1335	WHITE
 Mann-2004-210-206	206	483	wind	wind	960	WIND
 Mann-2004-210-207	207	485	wing	wing	1257	WING
