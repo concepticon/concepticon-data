@@ -1,4 +1,4 @@
-ID	NUMBER	SEMANTIC_FIELD_ID	SEMANTIC_FIELD	CHINESE	GLOSS	CONCEPTICON_ID	CONCEPTICON_GLOSS
+ID	NUMBER	CATEGORY_ID	CATEGORY	CHINESE	GLOSS	CONCEPTICON_ID	CONCEPTICON_GLOSS
 Zheng-2007-1	1	1	human 人類	女	woman	962	WOMAN
 Zheng-2007-2	2	1	human 人類	男	man	1554	MAN
 Zheng-2007-3	3	1	human 人類	人	person	683	PERSON
@@ -17,7 +17,7 @@ Zheng-2007-15	15	4	body 身體類	血	blood	946	BLOOD
 Zheng-2007-16	16	4	body 身體類	骨	bone	1394	BONE
 Zheng-2007-17	17	4	body 身體類	油	oil (fat)	2551	ORGANIC FAT OR OIL
 Zheng-2007-18	18	4	body 身體類	蛋	egg	744	EGG
-Zheng-2007-19	19	4	body 身體類	角	horn	1393	HORN (KERATINIZED SKIN)
+Zheng-2007-19	19	4	body 身體類	角	horn	1393	HORN (ANATOMY)
 Zheng-2007-20	20	4	body 身體類	尾	tail	1220	TAIL
 Zheng-2007-21	21	4	body 身體類	羽	feather	1201	FEATHER
 Zheng-2007-22	22	4	body 身體類	髮	hair	1040	HAIR
@@ -41,7 +41,7 @@ Zheng-2007-39	39	5	natural phenomena 天象類	日	sun	1343	SUN
 Zheng-2007-40	40	5	natural phenomena 天象類	月	moon	1313	MOON
 Zheng-2007-41	41	5	natural phenomena 天象類	星	star	1430	STAR
 Zheng-2007-42	42	5	natural phenomena 天象類	水	water	948	WATER
-Zheng-2007-43	43	5	natural phenomena 天象類	雨	rain	658	RAIN (PRECIPITATION)
+Zheng-2007-43	43	5	natural phenomena 天象類	雨	rain (noun)	658	RAIN (PRECIPITATION)
 Zheng-2007-44	44	5	natural phenomena 天象類	夜	night	1233	NIGHT
 Zheng-2007-45	45	5	natural phenomena 天象類	雲	cloud	1489	CLOUD
 Zheng-2007-46	46	5	natural phenomena 天象類	煙	smoke	778	SMOKE (EXHAUST)

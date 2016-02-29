@@ -5,6 +5,7 @@ import io
 import glob
 import warnings
 from collections import namedtuple
+import json
 
 from clldutils.misc import normalize_name
 
@@ -49,6 +50,10 @@ def read_tsv(path, unique='ID'):
         rows.append((line, row))
     return rows
 
+def read_metadata(path):
+    infiles = glob.glob(os.path.join(path, '*.tsv'))
+    sources = [os.path.split(f)[-1][:-4] for f in infiles]
+    return sources
 
 def read_sources(path):
     infiles = glob.glob(os.path.join(path, '*.pdf'))
@@ -72,13 +77,24 @@ def test():
             if value and value not in valid:
                 error('invalid %s: %s' % (attr, value), data_path('concepticon.tsv'), i)
 
+    for source in read_metadata(data_path('concept_set_meta')):
+        specs = json.loads(open(data_path('concept_set_meta',
+            source+'.tsv-metadata.json')).read())
+        tsv = read_tsv(data_path('concept_set_meta', source+'.tsv'), unique='CONCEPTICON_ID')
+        cnames = [var['name'] for var in specs['tableSchema']['columns']]
+        if not [n for n in cnames if n in list(tsv[0][1])]:
+            error('column names in {0} do not json-specs'.format(source), 'name')
+        for i,line in tsv:
+            if len(line) != len(cnames):
+                error('meta data {0} contains irregular number of columns in line {1}'.format(source, i), 'name')
+
     refs = set()
     with io.open(data_path('references', 'references.bib'), encoding='utf8') as fp:
         for line in fp:
             match = BIB_ID_PATTERN.match(line.strip())
             if match:
                 refs.add(match.group('id'))
-
+                
     #
     # Make sure only records in the BibTeX file references.bib are referenced by
     # concept lists.

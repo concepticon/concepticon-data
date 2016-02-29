@@ -22,7 +22,7 @@ Huber-1992-374-20	431	UPPER ARM	20	brazo superior	upper arm
 Huber-1992-374-21	981	ELBOW	21	codo	elbow
 Huber-1992-374-22	1277	HAND	22	mano	hand
 Huber-1992-374-23	1303	FINGER	23	dedo de la mano	finger
-Huber-1992-374-24	2182	LEFT HAND	24	uña	fingernail
+Huber-1992-374-24	1258	FINGERNAIL	24	uña	fingernail
 Huber-1992-374-25	1297	LEG	25	pierna	leg
 Huber-1992-374-26	800	THIGH	26	muslo	thigh
 Huber-1992-374-27	1371	KNEE	27	rodilla	knee
@@ -97,7 +97,7 @@ Huber-1992-374-95	977	ARROW	95	flecha	arrow
 Huber-1992-374-96	432	BLOWGUN	96	cerbatana	blowgun
 Huber-1992-374-97	312	TAPIR	97	danta	tapir
 Huber-1992-374-98	1250	JAGUAR	98	tigre	jaguar
-Huber-1992-374-99	1386	LION	99	león, puma	puma
+Huber-1992-374-99	1891	PUMA	99	león, puma	puma
 Huber-1992-374-100	1885	ARMADILLO	100	armadillo, quinquincho, chupa	armadillo
 Huber-1992-374-101	2009	DOG	101	perro	dog
 Huber-1992-374-102	1936	DEER	102	venado	deer
@@ -158,7 +158,7 @@ Huber-1992-374-156	1507	FRUIT	156	fruta	fruit
 Huber-1992-374-157	345	SAP	157	savia	sap
 Huber-1992-374-158	670	ROOT	158	raíz	root
 Huber-1992-374-159	714	SEED	159	semilla	seed
-Huber-1992-374-160	339	DIGGING STICK	160	palo	stick
+Huber-1992-374-160	1295	STICK	160	palo	stick
 Huber-1992-374-161	606	GRASS	161	hierba	grass
 Huber-1992-374-162	506	MAIZE	162	maíz	corn, maize
 Huber-1992-374-163	925	CASSAVA	163	yuca	manioc
@@ -184,7 +184,7 @@ Huber-1992-374-184	1500	FOUR	184	cuatro	four
 Huber-1992-374-185	493	FIVE	185	cinco	five
 Huber-1992-374-190	1515	TEN	190	diez	ten
 Huber-1992-374-191	728	FIRST	191	primero	first
-Huber-1992-374-192	1529	LAST, FINAL	192	último	last
+Huber-1992-374-192	1529	LAST (FINAL)	192	último	last
 Huber-1992-374-193	300	RATTLE	193	sonajero, maraca	rattle
 Huber-1992-374-194	908	DRUM	194	tambor	drum
 Huber-1992-374-195	450	CUSHMA	195	cushma	cushma
@@ -230,7 +230,7 @@ Huber-1992-374-234	442	FRONT TOOTH (INCISOR)	234	dientes delanteros incisivos	fr
 Huber-1992-374-235	443	TIP (OF TONGUE)	235	punta de la lengua	tip of tongue
 Huber-1992-374-236	444	LONG HAIR	236	pelo largo	long hair
 Huber-1992-374-237	1347	NAPE (OF NECK)	237	la garganta y cuello	the neck region
-Huber-1992-374-238	802	ADAM’S APPLE	238	nuez de la garganta	adam’s apple
+Huber-1992-374-238	802	ADAM'S APPLE	238	nuez de la garganta	adam’s apple
 Huber-1992-374-239	445	UPPER BACK	239	espalda, parte superior	upper back
 Huber-1992-374-240	446	LOWER ARM	240	antebrazo	lower arm
 Huber-1992-374-241	799	WRIST	241	muñeca	wrist
@@ -245,7 +245,7 @@ Huber-1992-374-249	449	CORN FIELD	249	sementera de maíz	corn field
 Huber-1992-374-250	947	STREAM	250	quebrada, caño	stream
 Huber-1992-374-251	961	PEBBLES	251	piedrecillas	pebbles
 Huber-1992-374-252	668	ROCK	252	rocas grandes	huge rocks
-Huber-1992-374-253	667	ROAD	253	trocha	path
+Huber-1992-374-253	2252	PATH	253	trocha	path
 Huber-1992-374-255	1678	HUT	255	rancho	shelter
 Huber-1992-374-256	1214	THIS	256	este	this
 Huber-1992-374-257	78	THAT	257	aquel	that
@@ -256,10 +256,10 @@ Huber-1992-374-261	98	ALL	261	todos	all
 Huber-1992-374-262	1198	MANY	262	mucho(s)	many
 Huber-1992-374-263	1203	LONG	263	largo	long
 Huber-1992-374-264	1204	BARK	264	corteza	bark
-Huber-1992-374-265	634	MEAT	265	carne	flesh
+Huber-1992-374-265	2615	FLESH OR MEAT	265	carne	flesh
 Huber-1992-374-267	1282	FAT (FROM ANIMALS)	267	grasa	grease, animal fat
 Huber-1992-374-268	744	EGG	268	huevo	egg
-Huber-1992-374-269	1393	HORN (KERATINIZED SKIN)	269	cuerno	horn
+Huber-1992-374-269	1393	HORN (ANATOMY)	269	cuerno	horn
 Huber-1992-374-270	1201	FEATHER	270	pluma	feather
 Huber-1992-374-271	1896	FINGERNAIL OR TOENAIL	271	uña, garra	fingernail, claw
 Huber-1992-374-272	1251	BELLY	272	barriga	belly
@@ -309,7 +309,7 @@ Huber-1992-374-315	1257	WING	315	ala	wing
 Huber-1992-374-316	580	FUR	316	piel peluda	fur
 Huber-1992-374-317	1838	NAVEL	317	ombligo	navel
 Huber-1992-374-318	1503	SALIVA	318	saliva	saliva
-Huber-1992-374-319	635	MILK (FLUID)	319	leche	milk
+Huber-1992-374-319	635	MILK	319	leche	milk
 Huber-1992-374-320	1340	WITH	320	con	with
 Huber-1992-374-321	1460	IN	321	en	in
 Huber-1992-374-322	1461	AT	322	en, lugar definido	at
@@ -325,7 +325,7 @@ Huber-1992-374-331	1267	NARROW	331	estrecho	narrow
 Huber-1992-374-332	1406	FAR	332	lejos	far
 Huber-1992-374-333	1942	NEAR	333	cerca	near
 Huber-1992-374-334	1244	THICK	334	grueso	thick
-Huber-1992-374-335	1400	THIN (SLIM)	335	delgado	thin
+Huber-1992-374-335	2308	THIN	335	delgado	thin
 Huber-1992-374-336	1645	SHORT	336	corto	short
 Huber-1992-374-337	1210	HEAVY	337	pesado	heavy
 Huber-1992-374-338	379	BLUNT	338	embotado	dull
@@ -352,7 +352,7 @@ Huber-1992-374-358	1280	FALL	358	caer	fall
 Huber-1992-374-359	1573	SWELL	359	hinchar	swell
 Huber-1992-374-360	2271	THINK	360	pensar	think
 Huber-1992-374-361	1261	SING	361	cantar	sing
-Huber-1992-374-362	1586	SMELL (PERCEIVE)	362	oler	smell
+Huber-1992-374-362	2124	SMELL	362	oler	smell
 Huber-1992-374-363	1278	VOMIT	363	vomitar	vomit
 Huber-1992-374-364	1421	SUCK	364	chupar	suck
 Huber-1992-374-365	175	BLOW (OF WIND)	365	soplar	blow

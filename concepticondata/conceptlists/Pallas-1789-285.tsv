@@ -45,7 +45,7 @@ Pallas-1789-285-43	43	caro	Мясо	48	meat (noun)	634	MEAT
 Pallas-1789-285-44	44	os	Кость	49	bone (noun)	1394	BONE
 Pallas-1789-285-45	45	sanguis	Кровь	45	blood (noun)	946	BLOOD
 Pallas-1789-285-46	46	cor	Сердце	43	heart (noun)	1223	HEART
-Pallas-1789-285-47	47	lac	Молоко	46	milk (noun)	635	MILK (FLUID)
+Pallas-1789-285-47	47	lac	Молоко	46	milk (noun)	635	MILK
 Pallas-1789-285-48	48	auditus	Слухъ	50	hearing (noun)	2518	HEARING (AURAL SENSE)
 Pallas-1789-285-49	49	visus	Зрѣнïе	51	sight, seeing (noun)	2519	SEEING (VISUAL SENSE)
 Pallas-1789-285-50	50	gustus	Вкусъ	53	taste (noun)	2190	TASTE
@@ -60,14 +60,14 @@ Pallas-1789-285-58	58	verbum	Слово	60	word (noun)	1599	WORD
 Pallas-1789-285-59	59	somnus	Сонъ	81	sleep (noun)	1585	SLEEP
 Pallas-1789-285-60	60	amor	Любовь	87	love (noun)	923	LOVE
 Pallas-1789-285-61	61	dolor	Боль	91	pain (noun)	1783	PAIN
-Pallas-1789-285-62	62	labor	Труд	93	labor, work (noun)	984	WORK (CRAFT, LABOUR)
-Pallas-1789-285-63	63	opera	Работа	93	labor, work (noun)	984	WORK (CRAFT, LABOUR)
+Pallas-1789-285-62	62	labor	Труд	93	labor, work (noun)	984	WORK (LABOUR)
+Pallas-1789-285-63	63	opera	Работа	93	labor, work (noun)	984	WORK (LABOUR)
 Pallas-1789-285-64	64	vis	Сила	124	strength (noun)	202	STRENGTH
 Pallas-1789-285-65	65	potentia	Мочь	126	power (noun)	2526	POWER
 Pallas-1789-285-66	66	potestas	Власть	126	power (noun)	2526	POWER
 Pallas-1789-285-67	67	matrimonium	Бракъ	129	marriage (noun)	2432	MARRIAGE
 Pallas-1789-285-68	68	vita	Жизнь	133	life (noun)	210	LIFE
-Pallas-1789-285-69	69	statura	Рость	135	height (noun)	2528	SIZE (OF PERSON)
+Pallas-1789-285-69	69	statura	Рость	135	height, size (noun)	2528	SIZE (OF PERSON)
 Pallas-1789-285-70	70	spiritus	Духъ	136	spirit (noun)	53	SPIRIT
 Pallas-1789-285-71	71	mors	Смерть	139	death (noun)	910	DEATH
 Pallas-1789-285-72	72	frigus	Стужа	197	cold (noun)	1287	COLD
@@ -113,7 +113,7 @@ Pallas-1789-285-111	111	vapor	Паръ	190	vapor (noun)	1193	STEAM
 Pallas-1789-285-112	112	ignis	Огонь	200	fire (noun)	221	FIRE
 Pallas-1789-285-113	113	aestus	Жаръ		heat (noun)	612	HEAT
 Pallas-1789-285-114	114	profunditas	Глубина	236	depth (noun)	2534	DEPTH
-Pallas-1789-285-115	115	altitudo	Высота	237	height (noun)	2535	ALTITUDE
+Pallas-1789-285-115	115	altitudo	Высота	237	height, altitude (noun)	2535	ALTITUDE
 Pallas-1789-285-116	116	latitudo	Ширина	238	breadth, width (noun)	2536	BREADTH
 Pallas-1789-285-117	117	longitudo	Длина	239	length (noun)	2537	LENGTH
 Pallas-1789-285-118	118	foramen	Дира	240	hole (noun)	1667	HOLE
@@ -149,7 +149,7 @@ Pallas-1789-285-147	147	fera	Звѣрь	284	animal (wild, noun)	958	WILD ANIMAL
 Pallas-1789-285-148	148	bos	Быкъ	297	bull, ox (noun)	1008	BULL
 Pallas-1789-285-149	149	vacca	Корова	298	cow (noun)	1007	COW
 Pallas-1789-285-150	150	aries	Баранъ	301	ram (animal, noun)	1344	RAM
-Pallas-1789-285-151	151	cornu	Рогъ	303	horn (noun)	1393	HORN (KERATINIZED SKIN)
+Pallas-1789-285-151	151	cornu	Рогъ	303	horn (noun)	1393	HORN (ANATOMY)
 Pallas-1789-285-152	152	equus	Конь	304	horse (noun)	615	HORSE
 Pallas-1789-285-153	153	sus	Свинья	307	pig (noun)	1337	PIG
 Pallas-1789-285-154	154	canis	Собака,Пѣсь	308	dog (noun)	2009	DOG
@@ -272,15 +272,15 @@ Pallas-1789-285-270	270	quomodo	Какъ	415	how (interrogative)	1239	HOW
 Pallas-1789-285-271	271	sine	Безъ	424	without (preposition)	1478	WITHOUT
 Pallas-1789-285-272	272	vel	Или	414	or (conjunction)	1014	OR
 Pallas-1789-285-273	273	ecce, vide	Вотъ	413	look (exclamation)	1819	LOOK
-Pallas-1789-285-274	274	*unus	*Одинъ	430	one (numeral)	1500	FOUR
-Pallas-1789-285-275	275	*duo	*Два	431	two (numeral)	493	FIVE
-Pallas-1789-285-276	276	*tria	*Три	432	three (numeral)	1703	SIX
-Pallas-1789-285-277	277	*quatuor	*Четыре	433	four (numeral)	1704	SEVEN
-Pallas-1789-285-278	278	*quinque	*Пять	434	five (numeral)	1705	EIGHT
-Pallas-1789-285-279	279	*sex	Шесть	435	six (numeral)	1483	NINE
-Pallas-1789-285-280	280	*septem	Семь	436	seven (numeral)	1515	TEN
-Pallas-1789-285-281	281	*octo	Восемь	437	eight (numeral)	1706	ELEVEN
-Pallas-1789-285-282	282	*novem	Девять	438	nine (numeral)	1707	TWELVE
-Pallas-1789-285-283	283	*decem	Десять	439	ten (numeral)	1715	THIRTY
+Pallas-1789-285-274	274	*unus	*Одинъ	430	one (numeral)	1493	ONE
+Pallas-1789-285-275	275	*duo	*Два	431	two (numeral)	1498	TWO
+Pallas-1789-285-276	276	*tria	*Три	432	three (numeral)	492	THREE
+Pallas-1789-285-277	277	*quatuor	*Четыре	433	four (numeral)	1500	FOUR
+Pallas-1789-285-278	278	*quinque	*Пять	434	five (numeral)	493	FIVE
+Pallas-1789-285-279	279	*sex	Шесть	435	six (numeral)	1703	SIX
+Pallas-1789-285-280	280	*septem	Семь	436	seven (numeral)	1704	SEVEN
+Pallas-1789-285-281	281	*octo	Восемь	437	eight (numeral)	1705	EIGHT
+Pallas-1789-285-282	282	*novem	Девять	438	nine (numeral)	1483	NINE
+Pallas-1789-285-283	283	*decem	Десять	439	ten (numeral)	1515	TEN
 Pallas-1789-285-284	284	*centum	Сто	440	hundred (numeral)	1634	HUNDRED
 Pallas-1789-285-285	285	*mille	Тысяча	441	thousand (numeral)	1843	THOUSAND

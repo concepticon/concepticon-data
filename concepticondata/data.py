@@ -56,3 +56,28 @@ ONTOLOGICAL_CATEGORY = {
     "Property",
     "Other",
 }
+
+COLUMN_TYPES = {
+    "SUBLIST" : "link",
+    "URL" : "url",
+    "PART_OF_SPEECH" : "string",
+    "ENGLISH"    : "language",
+    "SPANISH"    : "language",
+    "FRENCH"     : "language",
+    "GERMAN"     : "language",
+    "RUSSIAN"    : "language",
+    "CHINESE"    : "language",
+    "LATIN"      : "language",
+    "BASQUE"     : "language",
+    "ESPERANTO"  : "language",
+    "SWEDISH"    : "language",
+    "SIKUANI"    : "language",
+    "PROTOWORLD" : "language",
+    "DUTCH"      : "language",
+    "TURKISH"    : "language",
+    "HAUSA"      : "language",
+    "JAPANESE"   : "language",
+    "FREQUENCY" : "int or float",
+    "RANK" : "int",
+    "*SCORE" : "int or float"
+}

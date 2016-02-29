@@ -1,4 +1,4 @@
-ID	NUMBER	SEMANTIC_FIELD	ENGLISH	CONCEPTICON_ID	CONCEPTICON_GLOSS
+ID	NUMBER	CATEGORY	ENGLISH	CONCEPTICON_ID	CONCEPTICON_GLOSS
 Nahhas-2006-100-1	1	pronouns	I	1209	I
 Nahhas-2006-100-2	2	pronouns	you	1213	YOU
 Nahhas-2006-100-3	3	pronouns	we	1212	WE
@@ -27,12 +27,12 @@ Nahhas-2006-100-25	25	plants etc	leaf	628	LEAF
 Nahhas-2006-100-26	26	plants etc	root	670	ROOT
 Nahhas-2006-100-27	27	plants etc	bark	1204	BARK
 Nahhas-2006-100-28	28	anatomical	skin	763	SKIN
-Nahhas-2006-100-29	29	anatomical	flesh	634	MEAT
+Nahhas-2006-100-29	29	anatomical	flesh	2259	FLESH
 Nahhas-2006-100-30	30	anatomical	blood	946	BLOOD
 Nahhas-2006-100-31	31	anatomical	bone	1394	BONE
 Nahhas-2006-100-32	32	grease?	grease	323	FAT (ORGANIC SUBSTANCE)
 Nahhas-2006-100-33	33	animal stuff	egg	744	EGG
-Nahhas-2006-100-34	34	animal stuff	horn	1393	HORN (KERATINIZED SKIN)
+Nahhas-2006-100-34	34	animal stuff	horn	1393	HORN (ANATOMY)
 Nahhas-2006-100-35	35	animal stuff	tail	1220	TAIL
 Nahhas-2006-100-36	36	animal stuff	feather	1201	FEATHER
 Nahhas-2006-100-37	37	anatomical	hair	1040	HAIR
@@ -82,7 +82,7 @@ Nahhas-2006-100-80	80	terrestrial	cloud	1489	CLOUD
 Nahhas-2006-100-81	81	cooking	smoke	778	SMOKE (EXHAUST)
 Nahhas-2006-100-82	82	cooking	fire	221	FIRE
 Nahhas-2006-100-83	83	cooking	ash	646	ASH
-Nahhas-2006-100-84	84	cooking	burn	141	BURN (SOMETHING)
+Nahhas-2006-100-84	84	cooking	burn	2102	BURN
 Nahhas-2006-100-85	85	geography	path	2252	PATH
 Nahhas-2006-100-86	86	geography	mountain	639	MOUNTAIN
 Nahhas-2006-100-87	87	color terms adjectives	red	156	RED

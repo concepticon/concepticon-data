@@ -3,7 +3,7 @@ Zgraggen-1980-380-1	1554	MAN	1	man
 Zgraggen-1980-380-2	962	WOMAN	2	woman
 Zgraggen-1980-380-3	1229	OLD	3	old (of humans)
 Zgraggen-1980-380-4	98	ALL	4	all
-Zgraggen-1980-380-6	1304	CHILD (YOUNG HUMAN)	6	child
+Zgraggen-1980-380-6	2099	CHILD	6	child
 Zgraggen-1980-380-9	1366	BOY	9	boy
 Zgraggen-1980-380-10	1646	GIRL	10	girl
 Zgraggen-1980-380-11	1217	FATHER	11	father
@@ -58,10 +58,10 @@ Zgraggen-1980-380-82	688	LUNG	82	lung
 Zgraggen-1980-380-83	1223	HEART	83	heart
 Zgraggen-1980-380-84	1394	BONE	84	bone
 Zgraggen-1980-380-85	763	SKIN	85	skin
-Zgraggen-1980-380-86	125	SWEAT (SUBSTANCE)	86	sweat
+Zgraggen-1980-380-86	2458	PERSPIRE OR SWEAT	86	sweat
 Zgraggen-1980-380-87	51	SORE	87	sore
 Zgraggen-1980-380-88	1040	HAIR	88	hair
-Zgraggen-1980-380-89	676	SHIT	89	excrement
+Zgraggen-1980-380-89	675	FAECES	89	excrement
 Zgraggen-1980-380-90	1142	URINE	90	urine
 Zgraggen-1980-380-91	1222	PENIS	91	penis
 Zgraggen-1980-380-92	1388	SHADE	92	shadow
@@ -129,14 +129,14 @@ Zgraggen-1980-380-161	751	SHRUB	161	shrub (tanget)
 Zgraggen-1980-380-162	221	FIRE	162	fire
 Zgraggen-1980-380-163	630	LIGHT (RADIATION)	163	light (of fire)
 Zgraggen-1980-380-164	646	ASH	164	ashes
-Zgraggen-1980-380-165	1689	SMOKE (INHALE)	165	smoke
+Zgraggen-1980-380-165	778	SMOKE (EXHAUST)	165	smoke
 Zgraggen-1980-380-166	586	GARDEN	166	garden
 Zgraggen-1980-380-167	1690	FENCE	167	fence
-Zgraggen-1980-380-168	1228	EARTH (SOIL)	168	ground
+Zgraggen-1980-380-168	2159	GROUND	168	ground
 Zgraggen-1980-380-169	1252	HOUSE	169	house
 Zgraggen-1980-380-173	1313	MOON	173	moon
 Zgraggen-1980-380-174	639	MOUNTAIN	174	mountain
-Zgraggen-1980-380-175	667	ROAD	175	path
+Zgraggen-1980-380-175	2252	PATH	175	path
 Zgraggen-1980-380-176	1474	SEA	176	sea
 Zgraggen-1980-380-177	113	SHORE	177	shore
 Zgraggen-1980-380-178	671	SAND	178	sand
@@ -221,7 +221,7 @@ Zgraggen-1980-380-276	1180	DAY BEFORE YESTERDAY	276	day before yesterday
 Zgraggen-1980-380-277	1882	BEFORE	277	before
 Zgraggen-1980-380-278	1329	TOMORROW	278	tomorrow
 Zgraggen-1980-380-279	1179	DAY AFTER TOMORROW	279	day after tomorrow
-Zgraggen-1980-380-280	1685	AFTER	280	afterwards
+Zgraggen-1980-380-280	2093	AFTERWARDS	280	afterwards
 Zgraggen-1980-380-281	136	HERE	281	here
 Zgraggen-1980-380-282	1937	THERE	282	there
 Zgraggen-1980-380-285	1606	INSIDE	285	inside (the house)
@@ -236,7 +236,7 @@ Zgraggen-1980-380-296	1579	BE	296	be
 Zgraggen-1980-380-297	1585	SLEEP	297	sleep
 Zgraggen-1980-380-298	1649	SIT DOWN	298	sit down
 Zgraggen-1980-380-299	1442	STAND	299	stand
-Zgraggen-1980-380-300	501	LIFT	300	stand up
+Zgraggen-1980-380-300	570	STAND UP	300	stand up
 Zgraggen-1980-380-301	879	COUGH	301	cough
 Zgraggen-1980-380-302	1494	DIE	302	die
 Zgraggen-1980-380-303	1446	COME	303	come
@@ -267,15 +267,15 @@ Zgraggen-1980-380-332	176	BLOW (WITH MOUTH)	332	blow (on fire)
 Zgraggen-1980-380-333	2558	BREAK (CLEAVE)	333	break (across)
 Zgraggen-1980-380-334	1418	DIG	334	dig
 Zgraggen-1980-380-335	1437	SPLIT	335	split
-Zgraggen-1980-380-336	1735	TEAR, SHRED	336	tear
+Zgraggen-1980-380-336	1735	TEAR (SHRED)	336	tear
 Zgraggen-1980-380-337	155	CHOP	337	chop (with axe)
-Zgraggen-1980-380-338	1432	CUT	338	cut (with knife)
+Zgraggen-1980-380-338	2156	CUT (WITH KNIFE)	338	cut (with knife)
 Zgraggen-1980-380-340	463	FELL (A TREE)	340	fell (a tree)
 Zgraggen-1980-380-341	1719	BURY	341	bury
 Zgraggen-1980-380-342	653	PLANT (VEGETATION)	342	plant
 Zgraggen-1980-380-343	1869	BUY	343	buy
 Zgraggen-1980-380-344	1962	ROAST (SOMETHING)	344	roast
-Zgraggen-1980-380-345	792	BOIL (OF LIQUID)	345	boil
+Zgraggen-1980-380-345	2493	BOIL	345	boil
 Zgraggen-1980-380-346	2102	BURN	346	burn
 Zgraggen-1980-380-347	2006	FILL	347	fill up (water)
 Zgraggen-1980-380-348	1336	EAT	348	eat
@@ -292,7 +292,7 @@ Zgraggen-1980-380-358	1455	PULL	358	pull
 Zgraggen-1980-380-359	1452	PUSH	359	push
 Zgraggen-1980-380-360	998	PUT	360	put
 Zgraggen-1980-380-361	1436	SCRATCH	361	scratch (skin)
-Zgraggen-1980-380-363	1587	SMELL (STINK)	363	smell
+Zgraggen-1980-380-363	2124	SMELL	363	smell
 Zgraggen-1980-380-364	897	SWALLOW	364	swallow
 Zgraggen-1980-380-365	1749	TAKE	365	take
 Zgraggen-1980-380-366a	1917	TIE	366a	tie
@@ -303,7 +303,7 @@ Zgraggen-1980-380-369	1355	LAUGH	369	laugh
 Zgraggen-1980-380-370a	1261	SING	370a	singsing
 Zgraggen-1980-380-370b	1879	DANCE	370b	dance
 Zgraggen-1980-380-371	1588	TURN	371	turn (oneself)
-Zgraggen-1980-380-373	1415	THINK (REFLECT)	373	think
+Zgraggen-1980-380-373	2271	THINK	373	think
 Zgraggen-1980-380-374	1920	DREAM (SOMETHING)	374	dream
-Zgraggen-1980-380-375	252	FRIGHTEN	375	be afraid
+Zgraggen-1980-380-375	1419	FEAR (BE AFRAID)	375	be afraid
 Zgraggen-1980-380-380	1847	SICK	380	be sick

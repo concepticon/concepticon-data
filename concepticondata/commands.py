@@ -5,6 +5,7 @@ from collections import Counter
 
 from clldutils.dsv import reader, rewrite
 from clldutils.badge import badge, Colors
+from clldutils.path import Path
 
 from concepticondata.util import data_path, PKG_PATH
 
@@ -112,16 +113,47 @@ def stats():
     with PKG_PATH.joinpath('conceptlists', 'README.md').open('w', encoding='utf8') as fp:
         fp.write('\n'.join(lines))
 
-def reflexes(write_stats=True):
+def metadata(write_stats=True):
+    """Writes statistics on metadata to readme."""
+    txt = '# Basic Statistics on Metadata\n\n'
+    cnc = list(reader(data_path('concepticon.tsv'), namedtuples=True, delimiter="\t"))
+    for i,cl in enumerate(PKG_PATH.joinpath('concept_set_meta').glob('*.tsv')):
+        data = list(reader(cl, namedtuples=True, delimiter="\t"))
+        txt += '* {0} covers {1} concept sets ({2:.2f} %)\n'.format(cl.name[:-4], len(data), len(data) / len(cnc))
+    if write_stats:
+        with PKG_PATH.joinpath('concept_set_meta', 'README.md').open('w', encoding='utf8') as fp:
+            fp.write(txt)
+
+def list_attributes(write_stats=True):
+    """Calculate the addditional attributes in the lists."""
+    D = {}
+    for i,cl in enumerate(PKG_PATH.joinpath('conceptlists').glob('*.tsv')):
+        header = list(reader(cl, delimiter="\t"))[0]
+        header = [h for h in header if h not in ['ID', 'CONCEPTICON_ID', 
+            'CONCEPTICON_GLOSS', 'ENGLISH', 'GLOSS', 'NUMBER']]
+        for h in header:
+            try:
+                D[h] += [cl.name]
+            except KeyError:
+                D[h] = [cl.name]
+    txt = '# Common Additional Columns of Concept Lists\n'
+    for k,v in sorted(D.items(), key=lambda x: len(x[1]), reverse=True):
+        txt += '* {2} occurences: {0}, {1}\n'.format(k, ', '.join(v), len(v))
+    print(txt)
+
+def reflexes(write_stats=True, path='concepticondata'):
     """
     Returns a dictionary with concept set label as value and tuples of concept
     list identifier and concept label as values.
     """
-    D = {}
+    D, G = {}, {}
     cpl = 0
     cln = 0
     clb = set([])
-    for i, cl in enumerate(PKG_PATH.joinpath('conceptlists').glob('*.tsv')):
+    
+    dpath = Path(path) if path else PKG_PATH
+    
+    for i, cl in enumerate(dpath.joinpath('conceptlists').glob('*.tsv')):
         concepts = list(reader(cl, namedtuples=True, delimiter="\t"))
         for j,concept in enumerate([c for c in concepts if c.CONCEPTICON_ID]):
             label = concept.GLOSS if hasattr(concept, 'GLOSS') else concept.ENGLISH
@@ -130,6 +162,10 @@ def reflexes(write_stats=True):
                 D[concept.CONCEPTICON_GLOSS] += [(name, label)]
             except KeyError:
                 D[concept.CONCEPTICON_GLOSS] = [(name, label)]
+            try:
+                G[label] += [(concept.CONCEPTICON_ID, concept.CONCEPTICON_GLOSS, name)]
+            except KeyError:
+                G[label] = [(concept.CONCEPTICON_ID, concept.CONCEPTICON_GLOSS, name)]
             clb.add(label)
             cpl += 1
         cln += 1
@@ -183,9 +219,9 @@ def reflexes(write_stats=True):
                         v])))
                     )
 
-        with PKG_PATH.joinpath('README.md').open('w', encoding='utf8') as fp:
+        with dpath.joinpath('README.md').open('w', encoding='utf8') as fp:
             fp.write(txt)
 
-    return D
+    return D, G
 
 

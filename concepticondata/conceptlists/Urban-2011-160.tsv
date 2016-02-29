@@ -1,4 +1,4 @@
-ID	SEMANTIC_CLASS_ID	SEMANTIC_CLASS	NUMBER	ENGLISH	CONCEPTICON_ID	CONCEPTICON_GLOSS	SEMANTIC_CHANGE
+ID	SEMANTIC_CLASS_ID	CATEGORY	NUMBER	ENGLISH	CONCEPTICON_ID	CONCEPTICON_GLOSS	SEMANTIC_CHANGE
 Urban-2011-160-1	I	Natural and topological concepts	1	animal	619	ANIMAL	[5] «animal» > «bird» (8 polysemies, 8 overt markings)
 Urban-2011-160-2	I	Natural and topological concepts	2	ashes	646	ASH	[10] «ashes» > «embers» (6 polysemies, 2 overt markings)
 Urban-2011-160-3	I	Natural and topological concepts	3	bark	1204	BARK	
@@ -30,12 +30,12 @@ Urban-2011-160-28	I	Natural and topological concepts	28	grass	606	GRASS	[2] «gr
 Urban-2011-160-29	I	Natural and topological concepts	29	headland	166	MAINLAND	
 Urban-2011-160-30	I	Natural and topological concepts	30	honey	942	HONEY	[16] «honey» > «wax» (2 polysemies, 4 overt markings)
 Urban-2011-160-31	I	Natural and topological concepts	31	horizon	2287	HORIZON	
-Urban-2011-160-32	I	Natural and topological concepts	32	horn	939	HORN (INSTRUMENT)	
+Urban-2011-160-32	I	Natural and topological concepts	32	horn	1393	HORN (ANATOMY)	
 Urban-2011-160-33	I	Natural and topological concepts	33	lagoon	623	LAGOON	
 Urban-2011-160-34	I	Natural and topological concepts	34	lake	624	LAKE	[6] «lake» > «swamp» (8 polysemies, 4 overt markings)
 Urban-2011-160-35	I	Natural and topological concepts	35	lightning	1654	LIGHTNING	
 Urban-2011-160-36	I	Natural and topological concepts	36	meteoroid (shooting/shining star)	2288	METEROID (SHOOTING OR SHINING STAR)	
-Urban-2011-160-37	I	Natural and topological concepts	37	milk	93	DRAW MILK	[23] «milk» > «nipple» (5 polysemies, 4 overt markings)
+Urban-2011-160-37	I	Natural and topological concepts	37	milk	635	MILK	[23] «milk» > «nipple» (5 polysemies, 4 overt markings)
 Urban-2011-160-38	I	Natural and topological concepts	38	Milky Way	2289	MILKY WAY	
 Urban-2011-160-39	I	Natural and topological concepts	39	moon	1313	MOON	
 Urban-2011-160-40	I	Natural and topological concepts	40	mountain	639	MOUNTAIN	
@@ -43,7 +43,7 @@ Urban-2011-160-41	I	Natural and topological concepts	41	mushroom (fungus)	641	MU
 Urban-2011-160-42	I	Natural and topological concepts	42	nest	539	NEST	
 Urban-2011-160-43	I	Natural and topological concepts	43	plant	653	PLANT (VEGETATION)	
 Urban-2011-160-44	I	Natural and topological concepts	44	puddle	2290	PUDDLE	
-Urban-2011-160-45	I	Natural and topological concepts	45	rain	1253	RAIN (RAINING)	
+Urban-2011-160-45	I	Natural and topological concepts	45	rain	658	RAIN (PRECIPITATION)	
 Urban-2011-160-46	I	Natural and topological concepts	46	rainbow	1733	RAINBOW	
 Urban-2011-160-47	I	Natural and topological concepts	47	resin	664	RESIN	
 Urban-2011-160-48	I	Natural and topological concepts	48	river/stream	666	RIVER	[18] «river/stream» > «flood» (2 polysemies, 2 overt markings)
@@ -53,7 +53,7 @@ Urban-2011-160-51	I	Natural and topological concepts	51	seed	714	SEED	[43] «see
 Urban-2011-160-52	I	Natural and topological concepts	52	shadow	1388	SHADE	[44] «shadow» > «mirrow» (3 polysemies, 5 overt markings)
 Urban-2011-160-53	I	Natural and topological concepts	53	sky	1732	SKY	
 Urban-2011-160-54	I	Natural and topological concepts	54	smoke	778	SMOKE (EXHAUST)	[3] «smoke» > «fog/mist» (11 polysemies, 3 overt markings); [7] «smoke» > «dust» (8 polysemies, 4 overt markings); [8] «smoke» > «cloud» (7 polysemies, 2 overt markings)
-Urban-2011-160-55	I	Natural and topological concepts	55	soil	1015	SOIL	
+Urban-2011-160-55	I	Natural and topological concepts	55	soil	1228	EARTH (SOIL)	
 Urban-2011-160-56	I	Natural and topological concepts	56	spark	518	SPARK	
 Urban-2011-160-57	I	Natural and topological concepts	57	spring/well	2144	SPRING OR WELL	
 Urban-2011-160-58	I	Natural and topological concepts	58	star	1430	STAR	
@@ -97,7 +97,7 @@ Urban-2011-160-95	II	Artifacts	23	toilet	219	TOILET
 Urban-2011-160-96	II	Artifacts	24	train	900	TRAIN	
 Urban-2011-160-97	II	Artifacts	25	weapon	951	WEAPONS	
 Urban-2011-160-98	II	Artifacts	26	window	1375	WINDOW	
-Urban-2011-160-99	III	Body Parts and Body Fluids	1	Adam's apple	802	ADAM’S APPLE	
+Urban-2011-160-99	III	Body Parts and Body Fluids	1	Adam's apple	802	ADAM'S APPLE	
 Urban-2011-160-100	III	Body Parts and Body Fluids	2	ankle	803	ANKLE	
 Urban-2011-160-101	III	Body Parts and Body Fluids	3	beard	678	BEARD	
 Urban-2011-160-102	III	Body Parts and Body Fluids	4	belly/stomach	2114	BELLY OR STOMACH	[21] «belly/stomach» > «womb» (11 polysemies, 6 overt markings); [30] «belly/stomach» > «navel» (2 polysemies, 3 overt markings)
@@ -137,7 +137,7 @@ Urban-2011-160-135	III	Body Parts and Body Fluids	37	scar	497	SCAR
 Urban-2011-160-136	III	Body Parts and Body Fluids	38	skin	763	SKIN	[33] «skin» > «bark» (45 polysemies, 26 overt markings)
 Urban-2011-160-137	III	Body Parts and Body Fluids	39	snot	208	NASAL MUCUS, SNOT	
 Urban-2011-160-138	III	Body Parts and Body Fluids	40	semen	2283	SEMEN	
-Urban-2011-160-139	III	Body Parts and Body Fluids	41	sweat	125	SWEAT (SUBSTANCE)	
+Urban-2011-160-139	III	Body Parts and Body Fluids	41	sweat	2458	PERSPIRE OR SWEAT	
 Urban-2011-160-140	III	Body Parts and Body Fluids	42	tear	1651	TEAR (OF EYE)	
 Urban-2011-160-141	III	Body Parts and Body Fluids	43	tendon/sinew	1137	TENDON	
 Urban-2011-160-142	III	Body Parts and Body Fluids	44	testicle	797	TESTICLES	
@@ -155,7 +155,7 @@ Urban-2011-160-153	IV	Basic Temporal Concepts and Miscellanea	4	night	1233	NIGHT
 Urban-2011-160-154	IV	Basic Temporal Concepts and Miscellanea	5	noon	12	MIDDAY	
 Urban-2011-160-155	IV	Basic Temporal Concepts and Miscellanea	6	sunrise	2296	SUNRISE	
 Urban-2011-160-156	IV	Basic Temporal Concepts and Miscellanea	7	sunset	2295	SUNSET	
-Urban-2011-160-157	IV	Basic Temporal Concepts and Miscellanea	1	man (human being)	1554	MAN	
+Urban-2011-160-157	IV	Basic Temporal Concepts and Miscellanea	1	man (human being)	683	PERSON	
 Urban-2011-160-158	IV	Basic Temporal Concepts and Miscellanea	2	saturday	1700	SATURDAY	
 Urban-2011-160-159	IV	Basic Temporal Concepts and Miscellanea	3	virgin	2298	VIRGIN	
 Urban-2011-160-160	IV	Basic Temporal Concepts and Miscellanea	4	widow	1756	WIDOW	

@@ -1,4 +1,4 @@
-ID	NUMBER	ENGLISH	SEMANTIC_FIELD	CONCEPTICON_ID	CONCEPTICON_GLOSS
+ID	NUMBER	ENGLISH	CATEGORY	CONCEPTICON_ID	CONCEPTICON_GLOSS
 Bowern-2007-207-1	1	big	adjective	1202	BIG
 Bowern-2007-207-2	2	long	adjective	1203	LONG
 Bowern-2007-207-3	3	wide	adjective	1243	WIDE
@@ -7,12 +7,12 @@ Bowern-2007-207-5	5	heavy	adjective	1210	HEAVY
 Bowern-2007-207-6	6	small	adjective	1246	SMALL
 Bowern-2007-207-7	7	short	adjective	1645	SHORT
 Bowern-2007-207-8	8	narrow	adjective	1267	NARROW
-Bowern-2007-207-9	9	thin	adjective	1400	THIN (SLIM)
+Bowern-2007-207-9	9	thin	adjective	2308	THIN
 Bowern-2007-207-10	10	warm	adjective	1232	WARM
 Bowern-2007-207-11	11	cold	adjective	1287	COLD
 Bowern-2007-207-12	12	full	adjective	1429	FULL
 Bowern-2007-207-13	13	new	adjective	1231	NEW
-Bowern-2007-207-14	14	old	adjective	2113	OLD (USED)
+Bowern-2007-207-14	14	old	adjective	1229	OLD
 Bowern-2007-207-15	15	good	adjective	1035	GOOD
 Bowern-2007-207-16	16	bad	adjective	1292	BAD
 Bowern-2007-207-17	17	rotten	adjective	1728	ROTTEN
@@ -42,7 +42,7 @@ Bowern-2007-207-40	40	blood	animal product	946	BLOOD
 Bowern-2007-207-41	41	bone	animal product	1394	BONE
 Bowern-2007-207-42	42	fat (n.)	animal product	323	FAT (ORGANIC SUBSTANCE)
 Bowern-2007-207-43	43	egg	animal product	744	EGG
-Bowern-2007-207-44	44	horn	animal product	1393	HORN (KERATINIZED SKIN)
+Bowern-2007-207-44	44	horn	animal product	1393	HORN (ANATOMY)
 Bowern-2007-207-45	45	tail	animal product	1220	TAIL
 Bowern-2007-207-46	46	feather	animal product	1201	FEATHER
 Bowern-2007-207-47	47	hair	body part	1040	HAIR
@@ -123,7 +123,7 @@ Bowern-2007-207-121	121	burn	environment	2102	BURN
 Bowern-2007-207-122	122	road	environment	667	ROAD
 Bowern-2007-207-123	123	mountain	environment	639	MOUNTAIN
 Bowern-2007-207-124	124	woman	human	962	WOMAN
-Bowern-2007-207-125	125	man (adult male)	human	2106	MALE PERSON
+Bowern-2007-207-125	125	man (adult male)	human	1554	MAN
 Bowern-2007-207-126	126	man (human being)	human	683	PERSON
 Bowern-2007-207-127	127	child	human	2099	CHILD
 Bowern-2007-207-128	128	wife	human	1199	WIFE
@@ -161,7 +161,7 @@ Bowern-2007-207-159	159	flow	motion	2003	FLOW
 Bowern-2007-207-160	160	see	perception verb	1409	SEE
 Bowern-2007-207-161	161	hear	perception verb	1408	HEAR
 Bowern-2007-207-162	162	know	perception verb	1410	KNOW (SOMETHING)
-Bowern-2007-207-163	163	think	perception verb	1415	THINK (REFLECT)
+Bowern-2007-207-163	163	think	perception verb	2271	THINK
 Bowern-2007-207-164	164	smell	perception verb	2124	SMELL
 Bowern-2007-207-165	165	fear	perception verb	1419	FEAR (BE AFRAID)
 Bowern-2007-207-166	166	sleep	perception verb	1585	SLEEP
