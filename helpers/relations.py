@@ -43,7 +43,7 @@ with open('../concepticondata/conceptrelations.tsv') as f:
         G.node[c]['label'] = C[c]
 
 for node,data in G.nodes(data=True):
-    data['label'] = C[node]['gloss']
+    data['gloss'] = C[node]['gloss']
     data['cid'] = C[node]['id']
 
 nx.write_gml(G, '../concepticondata/conceptrelations.gml')
