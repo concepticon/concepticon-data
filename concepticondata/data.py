@@ -77,6 +77,7 @@ COLUMN_TYPES = {
     "TURKISH"    : "language",
     "HAUSA"      : "language",
     "JAPANESE"   : "language",
+    "COMMON_CHINESE" : "language",
     "FREQUENCY" : "int or float",
     "RANK" : "int",
     "*SCORE" : "int or float"
