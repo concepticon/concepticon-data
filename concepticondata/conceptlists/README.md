@@ -89,7 +89,7 @@
 [Miller-1994-281](Miller-1994-281.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 2](https://img.shields.io/badge/mergers-2-red.svg "mergers: 2")
 [Mitterhofer-2013-300](Mitterhofer-2013-300.tsv)  | ![mapped: 99%](https://img.shields.io/badge/mapped-99%25-brightgreen.svg "mapped: 99%") | ![mergers: 3](https://img.shields.io/badge/mergers-3-red.svg "mergers: 3")
 [Mitterhofer-2013-353](Mitterhofer-2013-353.tsv)  | ![mapped: 97%](https://img.shields.io/badge/mapped-97%25-red.svg "mapped: 97%") | ![mergers: 8](https://img.shields.io/badge/mergers-8-red.svg "mergers: 8")
-[Mitterhofer-2013-92](Mitterhofer-2013-92.tsv)  | ![mapped: 94%](https://img.shields.io/badge/mapped-94%25-red.svg "mapped: 94%") | ![mergers: 4](https://img.shields.io/badge/mergers-4-red.svg "mergers: 4")
+[Mitterhofer-2013-92](Mitterhofer-2013-92.tsv)  | ![mapped: 93%](https://img.shields.io/badge/mapped-93%25-red.svg "mapped: 93%") | ![mergers: 4](https://img.shields.io/badge/mergers-4-red.svg "mergers: 4")
 [Nagaraja-2013-200](Nagaraja-2013-200.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
 [Nahhas-2006-100](Nahhas-2006-100.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
 [Nelson-2001-89](Nelson-2001-89.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")

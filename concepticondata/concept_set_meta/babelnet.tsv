@@ -1,4 +1,5 @@
 CONCEPTICON_ID	BABELNET_ID	BABELNET_GLOSS	BABELNET_DEFINITION
+CONCEPTICON_ID	BABEL_ID	GLOSS	DEFINITION
 1	00100362a	contemptible	Deserving of contempt or scorn
 2	00029192n	dust	Fine powdery material such as dry earth or pollen that can be blown about in the air
 3	00098827a	brave, courageous, bold	Possessing or displaying courage; able to face and deal with danger or fear without flinching- Herman Melville- William Wordsworth
@@ -8,6 +9,7 @@ CONCEPTICON_ID	BABELNET_ID	BABELNET_GLOSS	BABELNET_DEFINITION
 7	00085289v	collect, gather, garner	Assemble or get together
 8	00082602v	beshrew, imprecate, anathemise, curse	Wish harm upon; invoke evil upon
 9	00082637v	announce, denote, enunciate	Make known; make an announcement
+10			
 11	00025233n	dark, darkness	Absence of light or illumination
 12	00044075n	midday, noon, noonday	The middle of the day
 13	00025682n	deceit, deception, dissembling	The act of deceiving
@@ -18,6 +20,7 @@ CONCEPTICON_ID	BABELNET_ID	BABELNET_GLOSS	BABELNET_DEFINITION
 22	00089804v	intend, mean, think	Have in mind as a purpose
 23	00068664n	rye, Secale cereale	Hardy annual cereal grass widely cultivated in northern Europe where its grain is the chief ingredient of black bread and in North America for forage and soil improvement
 24	00091921v	pray	Address a deity, a prophet, a saint or an object of worship; say a prayer
+25			
 26	00113057a	unpleasant	Disagreeable to the senses, to the mind, or feelings
 27	00002185n	air, Atmosphere of Earth, Earth's atmosphere	A mixture of gases (especially oxygen) required for breathing; the stuff that the wind consists of
 28	00087356v	drizzle, moisten	Moisten with fine drops
@@ -35,6 +38,7 @@ CONCEPTICON_ID	BABELNET_ID	BABELNET_GLOSS	BABELNET_DEFINITION
 44	00089751v	injure, wound	Cause injuries or bodily harm to
 45	00102476a	malign, evil, malefic	Having or exerting a malignant influence
 49	00086391v	decline, refuse	Show unwillingness towards
+50			
 51	00072845n	sore	An open skin infection
 52	00093639v	shiver, shudder, thrill	Tremble convulsively, as from fear or excitement
 53	00073430n	spirit	The vital principle or animating force within living things
@@ -124,7 +128,7 @@ CONCEPTICON_ID	BABELNET_ID	BABELNET_GLOSS	BABELNET_DEFINITION
 166	00052858n	mainland	The main land mass of a country or continent; as distinguished from an island or peninsula
 167	00052814n	mail	The bags of letters and packages that are transported by the postal service
 168	00085719v	remain, stay, stay on, rest	Continue in a place, position, or situation
-169	02076169n	it (pronoun)	«It» is a third-person, singular neuter pronoun in Modern English.
+169	02076169n	it (pronoun)	"It" is a third-person, singular neuter pronoun in Modern English.
 174	00109157a	proud	Feeling self-respect or pleasure in something by which you measure your self-worth; or being a reason for pride
 178	00106506a	mature, ripe	Fully developed or matured and ready to be eaten or used
 179	00093056v	ripen	Grow ripe
@@ -161,35 +165,71 @@ CONCEPTICON_ID	BABELNET_ID	BABELNET_GLOSS	BABELNET_DEFINITION
 219	00015106n	toilet, can, commode	A plumbing fixture for defecation and urination
 221	00034625n	fire, flame, flaming	The process of combustion of inflammable materials producing heat and light and (often) smoke
 222	00105782a	munificent, lavish, overgenerous	Very generous
+225	00056268n	pestle, muller, pounder	A heavy tool of stone or iron (usually with a flat base and a handle) that is used to grind and mix material (as grain or drugs or pigments) against a slab of stone
+227	00034816n	fish, Fish anatomy	Any of various mostly cold-blooded aquatic vertebrates usually having scales and breathing through gills
+228	00084606v	carve	Form by carving
+230	00084138v	sweep, broom	Sweep with a broom or as if with a broom
+231	00090133v	shave, knock off	Cut the price of
 232	00035151n	flea, Fleas, Siphonaptera	Any wingless bloodsucking parasitic insect noted for ability to leap
+233	00072481n	snowshoe	A device to help you walk on deep snow; a lightweight frame shaped like a racquet is strengthened with cross pieces and contains a network of thongs; one is worn on each foot
+234	00011681n	paddle, boat paddle, oar	A short light oar used without an oarlock to propel a canoe or small boat
+236	00074206n	stepmother, stepfamily, stepaunt	The wife of your father by a subsequent marriage
+238	00064034n	shrimp, prawn, Prawns (food)	Any of various edible decapod crustaceans
+239	00011422n	blossom, bloom, flower	Reproductive organ of angiosperm plants especially one having showy or colorful parts
+240	00030114n	election	The act of selecting someone or something; the exercise of deliberate choice
+242	00085851v	cost	Require to lose, suffer, or sacrifice
+243	00103326a	fresh	Recently made, produced, or harvested
+244	00105834a	left	Being or located on or directed toward the side of the body to the west when facing north
+245	00013352n	broom	A cleaning implement for sweeping; bundle of straws or twigs attached to a long handle
 246	00094943v	thrust	Push forcefully
+247	00094806v	tan	Treat skins and hides with tannic acid so as to convert them into leather
 249	00035570n	fog	Droplets of water vapor suspended in the air near the ground
+252	00082447v	frighten, affright, fright	Cause fear in
 255	00067423n	servant, retainer, Domestic worker	A person working in the service of another (especially in the household)
+256	00035649n	nutrient, food, nourishment	Any substance that can be metabolized by an animal to give energy and build tissue
 257	00089322v	idolize, revere, idolise, worship	Love unquestioningly and uncritically or to excess; venerate as an idol
+258	00099145a	calm, serene, tranquil	Not agitated; without losing self-possession
+260	00069381n	savanna, savannah	A flat grassland in tropical or subtropical regions
+265	00028155n	poultry, fowl, domestic fowl	A domesticated gallinaceous bird thought to be descended from the red jungle fowl
 266	00069470n	scale, weighing machine, weighing scale	A measuring instrument for weighing; shows amount of mass
 267	00057770n	nit	Egg or young of an insect parasitic on mammals especially a sucking louse; often attached to a hair or item of clothing
 269	00100438a	cooked	Having been prepared for eating by the application of heat
+270	00048516n	jug	A large bottle with a narrow mouth
+272	00060210n	tongs, pair of tongs	Any of various devices for taking hold of objects; usually have two hinged legs with handles above and pointed hooks below
+274	00090120v	knead, work	Make uniform
 277	01342034n	spindle (textiles)	A spindle is a straight spike usually made from wood used for spinning, twisting fibers such as wool, flax, hemp, cotton into yarn.
 281	00063746n	post, stake	A pole or stake set up to mark something (as the start or end of a race track)
+283	00060141n	paddy field, paddy, rice paddy	An irrigated or flooded field where rice is grown
 284	00044349n	hoe	A tool with a flat blade attached at right angles to a long handle
 285	00094923v	thrash, thresh	Beat the seeds out of a grain
+287	00021690n	cone	Any cone-shaped artifact
 288	00088477v	forge, hammer	Create by hammering
+290	00001607n	adze, adz	An edge tool used to cut and shape wood
 295	00080995n	whetstone, Sharpening stone	A flat stone for sharpening edged tools or knives
+296	00083405v	crouch, stoop, bend	Bend one's back forward from the waist on down
 297	00100684a	crooked	Having or marked by bends or angles; not straight or aligned
 298	00091653v	shriek, pipe, pipe up	Utter a shrill cry
+299	00083177v	call on the carpet, chide, dress down, scold	Censure severely or angrily
 301	00015753n	captain, chieftain	The leader of a group of people
 302	00019429n	clan, tribe, kin	Group of people related by blood or marriage
 304	00091922v	preach, prophesy	Deliver a sermon
+306	00033782n	father-in-law, Parent-in-law, parents-in-law	The father of your spouse
 307	00043185n	hawk, Hawks	Diurnal bird of prey typically having short rounded wings and a long tail
 308	00077724n	toucan	Brilliantly colored arboreal fruit-eating bird of tropical America having a very large thin-walled beak
+313	00002079n	agouti, Dasyprocta aguti, Red-rumped agouti	Agile long-legged rabbit-sized rodent of Central America and South America and the West Indies; valued as food
 314	00015489n	capybara, capibara, Hydrochoerus hydrochaeris	Pig-sized tailless South American amphibious rodent with partly webbed feet; largest living rodent
+317	00016068n	piranha, caribe, pirana	Small voraciously carnivorous freshwater fishes of South America that attack and destroy living animals
 319	00090187v	lick, lap	Pass the tongue over
+320	00100661a	lame, gimpy, crippled	Disabled in the feet or legs
 321	00084888v	chew, masticate, jaw	Chew (food); to bite and grind with the teeth
+322	00034370n	fig	Fleshy sweet pear-shaped yellowish or purple multiple fruit eaten fresh or preserved or dried
 325	00034011n	felt	A fabric made of compressed matted animal fibers
 327	00063506n	poncho	A blanket-like cloak with a hole in the center for the head
+329	00074376n	stocking, stockings	Close-fitting hosiery to cover the foot and leg; come in matched pairs (usually used in the plural)
 330	00043303n	headband	A band worn around or over the head
 332	14082929n	Rag	Old, usually torn textile
 336	00060144n	padlock	A detachable lock; has a hinged shackle that can be passed through the staple of a hasp or the links in a chain and then snapped shut
+337	00062658n	pitchfork	A long-handled hand tool with sharp widely spaced prongs for lifting and pitching hay
 341	00066430n	sickle, reaping hook, reap hook	An edge tool for cutting grass or crops; has a curved blade and a short handle
 342	00043206n	hay	Grass mowed and cured for use as fodder
 343	00080013n	vine, climbing plant, twiner	A plant with a weak stem that derives support from climbing, twining, or creeping along a surface
@@ -197,6 +237,7 @@ CONCEPTICON_ID	BABELNET_ID	BABELNET_GLOSS	BABELNET_DEFINITION
 351	00020694n	taro, Colocasia esculenta, dalo	Herb of the Pacific islands grown throughout the tropics for its edible root and in temperate areas as an ornamental for its large glossy leaves
 352	00095313v	unbrace, unlace, untie	Undo the ties of
 353	00094453v	strike	Deliver a sharp blow, as with the hand, fist, or weapon
+354	00091810v	pound, poke, thump	Hit hard with the hand, fist, or some heavy instrument
 361	00057858n	nog, peg	A wooden pin pushed or driven into a surface
 364	00086304v	smear, daub	Cover (a surface) by smearing (a substance) over it
 365	00094141v	splash, splosh, sprinkle	Cause (a liquid) to spatter about, especially with force
@@ -206,26 +247,40 @@ CONCEPTICON_ID	BABELNET_ID	BABELNET_GLOSS	BABELNET_DEFINITION
 370	00083139v	barter	Exchange goods without involving money
 375	00093978v	sniff, whiff	Perceive by inhaling through the nose
 376	00103284a	fragrant	Pleasant-smelling
+377	00106192a	loud	Characterized by or producing sound of great volume or intensity
+378	00086115v	crush, mash, squash, pinch	To compress with violence, out of natural shape or condition
+379	00098632a	blunt	Used of a knife or other blade; not sharp
 381	00011095n	blame, incrimination, inculpation	An accusation that you are responsible for some lapse or misdeed
+384	00036399n	freeman, freewoman	A person who is not a serf or a slave
 387	00072167n	sling	A simple weapon consisting of a looped strap in which a projectile is whirled and then released
+388	00034869n	fishing net, fishnet	A net that will enclose fish when it is pulled in
+390	00061325n	punishment, penalization, penalisation	The act of punishing
 391	00083599v	bless	Give a benediction to
+392	00052688n	magic, thaumaturgy, thaumaturgist	Any art that invokes supernatural powers
+401	00086114v	crush, oppress, suppress	Come down on or keep down by unjust use of one's authority
 410	00081818n	yam	Edible tuberous root of various yam plants of the genus Dioscorea grown in the tropics world-wide for food
 411	00041181n	gourd	Any of numerous inedible fruits with hard rinds
 419	00110471a	terrible, severe, wicked	Intensely or extremely bad or unpleasant in degree or quality
 420	00035868n	wood, forest, woods	The trees and other plants in a large densely wooded area
+421	00087267v	draw back, pull away, retire, retreat	Pull back or move away or backward
 422	00057131n	necessity	The condition of being essential or indispensable
 430	13602565v	twist(verb)	To combine, as two or more strands or threads, by winding together.
+437	00042026n	guan, Penelopinae	Any of several large turkey-like game birds of the family Cracidae; native to jungles of tropical America; resembling the curassows and valued as food
 441	02884587n	chicha	In South and Central America, chicha is a fermented or non-fermented beverage usually derived from maize.
 462	00045032n	peignoir, negligee, wrapper	A loose dressing gown for women
 466	00016525n	cassowary	Large black flightless bird of Australia and New Guinea having a horny head crest
 467	00023617n	crayfish, langouste, rock lobster	Warm-water lobsters without claws; those from Australia and South Africa usually marketed as frozen tails; caught also in Florida and California
 469	00060367n	pandanus, screw pine	Any of various Old World tropical palmlike trees having huge prop roots and edible conelike fruits and leaves like pineapple leaves
+470	00059182n	opossum, possum, Didelphidae	Nocturnal arboreal marsupial having a naked prehensile tail found from southern North America to northern South America
 474	00028682n	dress, frock, Maxi dress	A one-piece garment for a woman; has skirt and bodice
+476	00024410n	cup	A small open container usually used for drinking; usually has a handle
 477	00114955r	deep, late	To an advanced time
 478	00051440n	lip, lips	Either of two fleshy folds of tissue that surround the mouth and play a role in speaking
 480	00062878n	plate	Dish on which food is served or from which food is eaten
 482	00005659n	aristocracy, nobility, Noble	A privileged class holding hereditary titles
+485	00086879v	disappear, go away, vanish	Get lost, as without warning or explanation
 486	00024459n	minister, pastor, curate	A person authorized to conduct religious worship
+487	00110600a	shy	Wary and distrustful; disposed to avoid persons or things
 488	00053238n	manner, personal manner	A way of acting or behaving
 490	00026488n	descendants, posterity, progeny	All of the offspring of a given progenitor
 491	00017123n	midpoint, centre, center	A point equidistant from the ends of a line or the extremities of a figure
@@ -235,42 +290,64 @@ CONCEPTICON_ID	BABELNET_ID	BABELNET_GLOSS	BABELNET_DEFINITION
 496	00024294n	cucumber, Cucumis sativus, cucumber vine	A melon vine of the genus Cucumis; cultivated from earliest times for its cylindrical green fruit
 499	00084071v	bring around, cure, heal	Provide a cure for, make healthy again
 500	00098042a	barbarous, brutal, cruel	(of persons or their actions) able or disposed to inflict pain or suffering
+501	00084110v	elevate, lift, raise	Raise from a lower to a higher position
+506	00022678n	maize, corn, Zea mays	Tall annual cereal grass bearing kernels on large ears: widely cultivated in America in many varieties; the principal cereal in Mexico and Central and South America since pre-Columbian times
 508	00061605n	period, period of time, time period	An amount of time
 509	00099475a	certain, sure, definite	Having or feeling no doubt or uncertainty; confident and assured
+518	00005361n	electric arc, electric discharge, spark	Electrical conduction through a gas in an applied electric field
 522	00081469n	wolf	Any of various predatory carnivorous canine mammals of North America and Eurasia that usually hunt in packs
+524	00008531n	barbel, feeler	Slender tactile process on the jaws of a fish
 526	00089496v	howl, roar, ululate	Emit long loud cries
 528	00097890a	awful, frightening, terrible, dreadful	Causing fear or dread or terror
 530	00036309n	freckle, lentigo	A small brownish spot (of the pigment melanin) on the skin
 532	00040526n	itinerant, gipsy, gypsy	A laborer who moves from place to place as demanded by employment
+534	00013761n	extrusion, prominence, bulge, hump	Something that bulges out or is protuberant or projects from its surroundings
+535	00104447a	hyperbolic, inflated	Enlarged beyond truth or reasonableness
 537	00078619n	turbidity, turbidness, Turbid	Muddiness created by stirring up sediment or having foreign particles suspended
 539	00057353n	nest	A structure in which animals lay eggs or give birth to their young
+540	00060247n	palate, roof of the mouth, uraniscus	The upper surface of the mouth that separates the oral and nasal cavities
+541	00063195n	poetry, poesy, verse	Literature in metrical form
 542	00098049a	bare, spare, scanty	Lacking in amplitude or quantity
+543	00071386n	shuttle	Public transport that consists of a bus or train or airplane that plies back and forth between two points
 544	00108622a	spicy, zesty, piquant	Having an agreeably pungent taste
 545	00073670n	spruce, Picea	Any coniferous tree of the genus Picea
 547	00075374n	surface	The extended two-dimensional outer boundary of a three-dimensional object
 549	00085803v	copulate, couple, mate	Engage in sexual intercourse
+550	00086211v	cut, dilute, reduce	Lessen the strength or flavor of a solution or mixture
 554	00089340v	hinder, impede	Be a hindrance or obstacle to
 555	00085589v	conflict, contravene, infringe	Go against, as of rules and laws
 557	00083897v	violate, breach, go against, offend	Act in disregard of laws, rules, contracts, or promises
+567	00082762v	arise, rebel, rise	Take part in a rebellion; renounce a former allegiance
+571	00083516v	bite, burn, sting	Cause a sharp or stinging pain or discomfort
 572	00094431v	straw, strew	Spread by scattering ("straw" is archaic)
 573	00093072v	rock, shake, sway	Move back and forth or sideways
 574	00095099v	transit	Pass across (a sign or house of the zodiac) or pass across (the disk of a celestial body or the meridian of a place)
+575	00094338v	step, tread	Put down or press the foot, place the foot
+578	00084312v	kiss, buss, osculate	Touch with the lips or press the lips (against someone's mouth or other body part) as an expression of love, greeting, etc.
 579	00009078n	battle, conflict, engagement	A hostile meeting of opposing military forces in the course of a war
 585	00012166n	boot	Footwear that covers the whole foot and lower leg
 587	00004458n	ant, emmet, pismire	Social insect living in organized colonies; characteristically the males and fertile queen have wings during breeding season; wingless sterile females are the workers
+588	00098909a	broken	Physically and forcibly separated into pieces or cracked or split
 589	00099878a	closed, shut, unopen	Not open
 592	00090583v	urinate, make, micturate, piss	Eliminate urine
 593	00047481n	potato, spud, tater	An edible tuber native to South America; a staple food of Ireland
+600	00103206a	strange, foreign	Relating to or originating in or characteristic of another place or part of the world
 603	00020184n	coat, jacket	An outer garment that has sleeves and covers the body from shoulder down; worn outdoors
+604	00040605n	glass	A brittle transparent solid with irregular atomic structure
 605	00017324n	food grain, grain, cereal	Foodstuff prepared from the starchy grains of cereal grasses
+606	00041433n	grass	Narrow-leaved green herbage: grown as lawns; used as pasture for grazing animals; cut and dried as hay
+607	00041452n	grasshopper, hopper, Grasshoppers	Terrestrial plant-eating insect with hind legs adapted for leaping
 608	00042160n	gulf	An arm of a sea or ocean partly enclosed by land; larger than a bay
 609	00042519n	hail	Precipitation of ice pellets when there are strong rising air currents
 610	00063640n	port	A place (seaport or airport) where people and merchandise can enter or leave a country
+611	00023931n	crop, harvest	The yield from plants in a single growing season
 612	00043415n	heat, heat energy, thermal energy	A form of energy that is transferred by a difference in temperature
 614	00044141n	hill, colina, Hills	A local and well-defined elevation of the land
 615	00031345n	horse, Equus caballus, Horses	Solid-hoofed herbivorous quadruped domesticated since prehistoric times
+616	00044896n	hospital, infirmary, clinic	A health facility where patients receive treatment
 618	00017929n	chasm, abyss, gap, precipice	A deep opening in the earth's surface
 619	00004222n	fauna, animal, creature	A living organism characterized by voluntary movement
+620	00006081n	arthropod, Arthropods, insect	Invertebrate having jointed limbs and a segmented body with an exoskeleton made of chitin
 622	00047612n	island, Islands, isle	A land mass (smaller than a continent) that is surrounded by water
 623	00049696n	lagoon, laguna, lagune	A body of water cut off from a larger body by a reef of sand or coral
 624	00049709n	lake, intermittent lake	A body of (usually fresh) water surrounded by land
@@ -283,44 +360,78 @@ CONCEPTICON_ID	BABELNET_ID	BABELNET_GLOSS	BABELNET_DEFINITION
 636	00041812n	mill, grinder, milling machinery	Machinery that processes materials by grinding or crushing
 637	00055981n	moss	Tiny leafy-stemmed flowerless plants
 638	00010360n	motorcycle, bike, motorbike	A motor vehicle with two wheels and a strong frame
+640	00019625n	mud, clay	Water soaked soil; soft wet earth
 644	00058399n	oak, oak tree, oak wood	A deciduous tree of the genus Quercus; has acorns and lobed leaves
 646	00006305n	ash	The residue that remains when something is burned
+648	00060464n	paper	A material made of cellulose pulp derived mainly from wood or rags or certain grasses
+649	00041543n	pasture, pastureland, grazing land	A field covered with grass or herbage and suitable for grazing by livestock
 651	00070018n	seal	Any of numerous marine mammals that come on shore to breed; chiefly of cold regions
 654	00062856n	plastic, plastics	Generic name for certain synthetic or semisynthetic materials that can be molded or extruded into objects or films or filaments or used for making e.g. coatings and adhesives
+655	00063256n	poison, toxicant, poisonous substance	Any substance that causes injury or illness or death of a living organism
 656	00022026n	police, constabulary, law	The force of policemen and officers
+660	00066763n	reef	A submerged ridge of rock or coral near the surface of the water
 661	00032768n	faith, religion, religious belief	A strong belief in a supernatural power or powers that control human destiny
+662	00009064n	battery, electric battery, battery life	A device that produces electricity; may have several primary or secondary cells arranged in parallel or series
 663	00009212n	bay, embayment	An indentation of a shoreline larger than a cove but smaller than a gulf
 664	00067325n	resin, rosin	Any of a class of solid or semisolid viscous substances obtained either as exudations from certain plants or prepared by polymerization of simple molecules
 666	00067948n	river, Rivers	A large natural stream of water (larger than a creek)
+667	00067975n	road, route	An open way (generally public) for travel or transportation
 668	00068045n	rock, stone	A lump or mass of hard consolidated mineral matter
 669	00040819n	rodent, gnawer, Rodentia	Relatively small placental mammals having a single pair of constantly growing incisor teeth specialized for gnawing
+670	00068246n	root	(botany) the usually underground organ that lacks buds or leaves or nodes; absorbs water and mineral salts; usually it anchors the plant to the ground
+671	00069126n	sand	A loose material consisting of grains of rock or coral
 672	00101935a	early	At or near the beginning of a period of time or course of events or before the usual or expected time
+674	00056135n	mouth, oral cavity, oral fissure	The opening through which food is taken in and vocalizations emerge
 675	00011778n	excrement, excreta, body waste, faeces	Waste matter (as urine or sweat but especially feces) discharged from the body
+676	00084350v	defecate, shit, ca-ca	Have a bowel movement
+678	00009361n	beard, whiskers, face fungus	The hair growing on the lower part of a man's face
+682	00012417n	boundary, edge, bound, side	A line determining the limits of an area
 684	00089241v	have, possess, own	Have ownership or possession of
+685	00086370v	decide, determine, make up one's mind	Reach, make, or come to a decision about something
+686	00101973a	easy, convenient, simple	Posing no difficulty; requiring little effort
 692	00084058v	bring, take, convey	Take something or somebody with oneself somewhere
 693	09697812n	From	<i class="glyphicon glyphicon-warning-sign"></i>&nbsp; <i>Sorry, this synset does not have a definition.</i>
 694	00082276v	acquire, get, procure	Come into the possession of something concrete or abstract
+696	00094375v	stir	Mix or add by stirring
+698	00113905a	wise	Having or prompted by wisdom or discernment
 699	00110036a	sad, doleful, dolorous	Experiencing or showing sorrow or unhappiness- Christina Rossetti
+700	00083229v	bear, carry, hold	Support or hold in a certain manner
 702	00084654v	catch, grab, take hold of	Take hold of so as to seize or restrain or stop the motion of
+703	00114513r	presently, shortly, soon	In the near future
 706	00100902a	dark	Devoid of or deficient in light or brightness; shadowed or black
 707	00084413v	recall, recollect, remember	Recall knowledge from memory; have a recollection
 708	00092637v	shine, reflect, gleam	Be bright by reflecting or casting light
+709	00089791v	teach, instruct, learn	Impart skills or knowledge to
+710	00080972n	wheel	A simple machine consisting of a circular frame with spokes (or a solid disc) that can rotate on a shaft or axle (as in vehicles or other machines)
+712	00096612a	flush, wealthy, affluent, rich	Having an abundant supply of money or possessions of value
+713	00094314v	steal, bag, pocket	Take without the owner's consent
 714	00070254n	seed	A mature fertilized plant ovule consisting of an embryo and its food source and having a protective coat or testa
 716	00089058v	groan, moan	Indicate pain, discomfort, or displeasure
 717	00111540a	sweet	Having or denoting the characteristic taste of sugar
+718	00085465v	compensate, pay off, make up, pay	Do or give something to somebody in return
 724	00092424v	read	Interpret something that is written or printed
+728	00034737n	first, number one	The first or highest in an ordering or series
 729	00007205n	dawn, sunrise, aurora	The first light of day
+730	00059150n	snake, ophidian, serpent	Limbless scaly elongate reptile; some are venomous
+733	00082280v	gain, acquire, win, earn	Win something through one's efforts
+734	00086008v	create, make	Make or cause to be or to become
 735	00010633n	owl, bird of Minerva, bird of night	Nocturnal bird of prey with hawk-like beak and claws and large head with front-facing eyes
 736	00024541n	yard, curtilage, grounds	The enclosed land around a house or other building
 738	00001734n	affair, matter, thing	A vaguely specified concern
 739	00088084v	feed, deliver, nourish	Provide as food
+740	00071103n	ship, Ships	A vessel that carries passengers or freight
+745	00050497n	ledge, shelf	A projecting ridge on a mountain or submerged under water
 750	00087365v	drop	To fall vertically
 751	00014095n	shrub, bush, frutex	A low woody perennial plant usually having several major stems
 752	00071215n	shop, store, boutique	A mercantile establishment for the retail sale of goods or services
+754	00088134v	festinate, hasten, hurry	Act or move at high speed
 755	00086591v	deny	Declare untrue; contradict
 756	00086606v	depend	Be contingent upon (something that is elided)
 757	00014305n	button	A round fastener sewn to shirts and coats etc to fit through buttonholes
+759	00001887n	silver, Ag, atomic number 47	A soft white precious univalent metallic element having the highest electrical and thermal conductivity of any metal; occurs in argentite and in free form; used in coins and jewelry and tableware and photography
+760	00049367n	knot, working end	Any of various fastenings formed by looping and tying a rope (or cord) upon itself or to another rope or to another object
 761	00085903v	cover	Provide with a covering or cause to be covered
+762	00032429n	exterior, outside	The region that is outside of something
 763	00024643n	skin, tegument, cutis	A natural protective body covering and site of the sense of touch
 764	00088240v	fit, go, suit	Be the right size or shape; fit correctly or as desired
 765	00088912v	move, go, locomote	Change location; move, travel, or proceed, also metaphorically
@@ -330,32 +441,58 @@ CONCEPTICON_ID	BABELNET_ID	BABELNET_GLOSS	BABELNET_DEFINITION
 769	00068220n	roof	A protective covering that covers or forms the top of a building
 771	00017718n	hat, chapeau, lid	Headdress that protects the head from bad weather; has shaped crown and usually a brim
 772	00009823n	belt	A band to tie or buckle around the body (usually at the waist)
+774	00012814n	cabbage, Brassica oleracea, cultivated cabbage	Any of various cultivars of the genus Brassica oleracea grown for their edible leaves or flowers
 775	00022750n	trumpet, cornet, trump	A brass musical instrument with a brilliant tone; has a narrow tube and a flared bell and is played by means of valves
 782	00025855n	defeat, licking	An unsuccessful ending to a struggle or contest
+783	00078365n	victory, triumph	A successful ending of a struggle or contest
+784	00072455n	snow, snowfall, snow cover	Precipitation falling from clouds in the form of ice crystals
+785	00111313a	strong	Not faint or feeble
+788	00072496n	soap	A cleansing agent made from the salts of vegetable or animal fats
+789	00061450n	people	(plural) any group of human beings (men or women or children) collectively
 790	00109485a	ready	Completely prepared or in condition for immediate action or use or progress
 791	00002726n	alien, stranger, unknown	Anyone who does not belong in the environment in which they are found
+794	00061314n	pen	A writing implement with a point from which ink flows
 795	00078435n	trout	Any of various game and food fishes of cool fresh waters mostly smaller than typical salmons
 796	00053077n	nipple, mammilla, mamilla	The small projection of a mammary gland
 797	00008124n	testicle, ball, ballock, Testicles	One of the two male reproductive glands that produce spermatozoa and secrete androgens
 799	00006143n	wrist, carpus, articulatio radiocarpea	A joint between the distal end of the radius and the proximal row of carpal bones
+800	00076911n	thigh, thighs	The part of the leg between the hip and the knee
 801	00023011n	rib, costa	Any of the 12 pairs of curved arches of bone extending from the spine to or toward the sternum in humans (and similar bones in most vertebrates)
 803	00004293n	ankle, ankle joint, articulatio talocruralis	A gliding joint between the distal ends of the tibia and fibula and the proximal end of the talus
 804	00079392n	uterus, womb	A hollow muscular organ in the pelvic cavity of females; contains the developing fetus
+805	00007731n	rachis, spine, vertebral column	The series of vertebrae forming the axis of the skeleton and protecting the spinal cord
+806	00011119n	blanket, cover, coverlet	Bedding that keeps a person warm in bed
 807	00110711a	skilled	Having or showing or requiring special skill
 809	00060423n	pant, trouser, trousers	(usually in the plural) a garment extending from the waist to the knee or ankle, covering each leg separately
 811	00065006n	soul, psyche	The immaterial part of a person; the actuating cause of an individual life
 815	00007299n	regime, authorities, government	The organization that is the governing authority of a political unit
+816	00042601n	half, one-half, One half	One of two equal parts of a divisible whole
+817	03861247n	they, them	They is thethird-person pluralpersonal pronoun in Modern English.
 818	00081240n	willow, willow tree	Any of numerous deciduous trees and shrubs of the genus Salix
+819	00012886n	stomach, breadbasket, tum	An enlarged and muscular saclike organ of the alimentary canal; the principal organ of digestion
 820	00049758n	lamb, lambkin	Young sheep
+823	00052696n	magician, wizard, necromancer, sorcerer	One who practices magic or sorcery
 824	00030687n	enchantress, witch	A female sorcerer or magician
 828	00065797n	raccoon, racoon, coon	An omnivorous nocturnal mammal native to North America and Central America
 830	00015863n	soot, carbon black, crock	A black colloidal substance consisting wholly or principally of amorphous carbon and used to make pigments and ink
 831	00008783n	base	The bottom or lowest part
 832	00009322n	bean, edible bean	Any of various edible seeds of plants of the family Leguminosae used for food
+833	00086793v	persist, die hard, endure	Continue to exist
 835	00017730n	chapter	A subdivision of a written work; usually numbered and titled
+836	00069875n	screwdriver, turnscrew, flat-blade screwdriver	A hand tool for driving screws; has a tip that fits into the head of a screw
+838	00011746n	body, dead body, cadaver, remains	A natural object consisting of a dead animal or person
 839	00087717v	err, mistake, slip	To make a mistake or be incorrect
+840	00022676n	cormorant, Phalacrocorax carbo, great cormorant	Large voracious dark-colored long-necked seabird with a distensible pouch for holding fish; used in Asia to catch fish
+842	00012195n	booze, hard liquor, John Barleycorn, liquor	An alcoholic beverage that is distilled rather than fermented
 845	00044565n	homicide, murder	The killing of a human being by another human being
+850	00036107n	square, foursquare	(geometry) a plane rectangle with four equal sides and four right angles; a four-sided regular polygon
+851	00044825n	stable, horse barn, stalls	A farm building for housing horses or other livestock
 852	00064346n	priest	A clergyman in Christian churches who has the authority to perform or administer various religious rites; one of the Holy Orders
+854	00011829n	kettle, boiler, tea kettle	A metal pot for stewing or boiling; usually has a lid
+855	00085207v	clutch, prehend, seize	Take hold of; grab
+856	00084830v	charter, engage, hire	Engage for service under a term of contract
+857	00068045n	rock, stone	A lump or mass of hard consolidated mineral matter
+860	00016850n	cause	Events that provide the generative force that is the origin of something
 861	00048488n	judge, justice, jurist	A public official authorized to decide questions brought before a court of justice
 862	00066804n	sugar, refined sugar, sugar cube	A white crystalline carbohydrate used as a sweetener and preservative
 863	00012214n	edge, border	The boundary of a surface
@@ -363,50 +500,85 @@ CONCEPTICON_ID	BABELNET_ID	BABELNET_GLOSS	BABELNET_DEFINITION
 868	00008269n	banana	Elongated crescent-shaped yellow fruit with soft sweet flesh
 869	00011081n	sword, blade, brand	A cutting or thrusting weapon that has a long metal blade and a hilt with a hand guard
 870	00012965n	breath	The process of taking in and expelling air during breathing
+871	00059150n	snake, ophidian, serpent, rattlesnake	Limbless scaly elongate reptile; some are venomous
 872	00062647n	tar, pitch	Any of various dark heavy viscid substances obtained as a residue
 873	00067519n	tax, taxation, revenue enhancement	Charge against a citizen's person or property or activity for the support of government
+875	00020211n	cobbler, shoemaker	A person who makes or repairs shoes
 876	00005384n	arch	A curved shape in the vertical plane that spans an opening
 877	00053648n	stonemason, mason, John Stephenson (coachbuilder)	A craftsman who works with stone or brick
 878	00043604n	Hell, Inferno, perdition	(Christianity) the abode of Satan and the forces of evil; where sinners suffer eternal punishment- John Milton-Dr. Johnson
 879	00085856v	cough	Exhale abruptly, as when one has a chest cold or congestion
+882	00060741n	parrot, psittacine	Usually brightly colored zygodactyl tropical birds with short hooked beaks and the ability to mimic sounds
 885	00107927a	opposite	Being directly across from each other; facing- Longfellow
-887	00098464a	bitter	Causing a sharp and acrid taste experience;&quot;quinine is bitter&quot;
+887	00098464a	bitter	Causing a sharp and acrid taste experience;"quinine is bitter"
+888	00108743a	poisonous, toxicant	Having the qualities or effects of a poison
+889	00034625n	fire, flame, flaming	The process of combustion of inflammable materials producing heat and light and (often) smoke
 890	00056255n	mule	Hybrid offspring of a male donkey and a female horse; usually sterile
+894	00004795n	toad, frog, anuran	Any of various tailless stout-bodied amphibians with long hind limbs for leaping; semiaquatic and terrestrial species
 898	00086333v	trade, deal, sell	Do business; offer for sale as for one's livelihood
+899	00018323n	President of the United States, Chief Executive, President	The person who holds the office of head of state of the United States government
+901	00001473n	adobe	The clay from which adobe bricks are made
 902	00001543n	adultery, fornication, criminal conversation	Extramarital sex that willfully and maliciously interferes with marriage relations
+904	00010066n	berry	Any of numerous small and pulpy edible fruits; used as desserts or in making jams and jellies and preserves
 905	00098708a	boring, deadening, dull	So lacking in interest as to cause mental weariness- Edmund Burke- Mark Twain
+906	00078131n	tree, Trees	A tall perennial woody plant having a main trunk and branches forming a distinct elevated crown; includes both gymnosperms and angiosperms
+908	00028891n	drum, membranophone, tympan	A musical percussion instrument; usually consists of a hollow cylinder with a membrane stretched across each end
 910	00025582n	death, decease, expiry	The event of dying or departure from life
+912	00013505n	coyote, brush wolf, prairie wolf	Small wolf native to western North America
+916	00051362n	linen	A fabric woven with fibers from the flax plant
+917	00025765n	ornament, ornamentation, decoration	Something used to beautify
+918	00005194n	aptness, propensity, inclination	A disposition to behave in a certain way
 920	00041399n	grape	Any of various juicy fruit of the genus Vitis with green or purple skins; grow in clusters
 921	00079476n	valley, vale, dale	A long depression in the surface of the land that usually contains a river
+922	00061187n	pear	Sweet juicy gritty-textured fruit available in many varieties
 923	00090504v	love	Have a great affection or liking for
+925	00016385n	cassava, casava, manioc	Any of several plants of the genus Manihot having fleshy roots yielding a nutritious starch
+927	00010774n	bitter cassava, gari, mandioc, manioc	Cassava with long tuberous edible roots and soft brittle stems; used especially to make cassiri (an intoxicating drink) and tapioca
 928	00083805v	embrace, bosom, hug	Squeeze (someone) tightly in your arms, usually with fondness
 929	00079804n	vermin	Any of various small animals or insects that are pests; e.g. cockroaches or rats
 933	00080386n	wall	An architectural partition with a height and length greater than its thickness; used to divide or enclose an area or to support another structure
 938	00034022n	mare, female horse, brood mare	Female equine animal
 941	00053985n	mead	Made of fermented honey and water
+942	00044622n	honey	A sweet yellow liquid produced by bees
 945	00049823n	spear, lance, shaft	A long pointed rod used as a tool or weapon
 947	00074588n	stream, watercourse, Streams	A natural body of running water flowing on or under the earth
 948	00042379n	water, H2O	Binary compound that occurs at room temperature as a clear colorless odorless tasteless liquid; freezes into ice below 0 degrees centigrade and boils above 100 degrees centigrade; widely used as a solvent
 950	00042189n	gull, seagull, sea gull	Mostly white aquatic bird having long pointed wings and short legs
 951	00005704n	weapon, arm, weapon system, WEAPONS	Any instrument or instrumentality used in fighting or hunting
+952	00006808n	weather, atmospheric condition, conditions	The atmospheric conditions that comprise the state of the atmosphere in terms of temperature and wind and clouds and precipitation
 953	00006469n	rape, assault, ravishment	The crime of forcing a woman to submit to sexual intercourse against her will
 956	00088291v	flee, fly, take flight	Run away quickly
+957	00080949n	whale, Whales	Any of the larger cetacean mammals having a streamlined body and breathing through a blowhole on the head
 960	00002216n	wind, air current, current of air	Air moving (sometimes with considerable force) from an area of high pressure to an area of low pressure
 962	00001530n	woman, adult female, female	An adult female person (as opposed to a man)
 963	00012059n	book, Books	A written work or composition that has been published (printed on pages bound together)
 965	00022991n	cosmos, universe, world	Everything that exists anywhere
 967	00081864n	yeast	Any of various single-celled fungi that reproduce asexually by budding or division
+968	03122530n	Geodemographic segmentation, ACORN (tool)	In marketing, Geodemographic segmentation is a multivariate statistical classification technique for discovering whether the individuals of a population fall into different groups by making quantitative comparisons of multiple characteristics with the assumption that the differences within any group should be less than the differences between groups.
 974	00007699n	tobacco, baccy	Leaves of the tobacco plant dried and prepared for smoking or ingestion
+975	00064334n	spinach, prickly-seeded spinach, spinach plant	Southwestern Asian plant widely cultivated for its succulent edible dark green leaves
 977	00005897n	arrow	A projectile with a straight thin shaft and an arrowhead on one end and stabilizing vanes on the other; intended to be shot from a bow
 978	00056171n	wave, moving ridge, ocean surface wave	One of a series of ridges that moves across the surface of a liquid (especially across a large body of water)
+979	00033687n	farmer, granger, husbandman	A person who operates a farm
 980	00043531n	heel	The back part of the human foot
 981	00006139n	elbow, cubitus, articulatio cubiti	Hinge joint between the forearm and upper arm and the corresponding joint in the forelimb of a quadruped
 983	00085771v	convict	Find or declare guilty
+985	00000849n	vinegar, acetum	Sour-tasting liquid produced usually by oxidation of the alcohol in wine or cider and used as a condiment or food preservative
+986	00052131n	tomato, love apple, Lycopersicon esculentum	Native to South America; widely cultivated in many varieties
 987	00092756v	remain, rest, stay	Stay the same; remain in a certain state
 991	00088607v	fry	Cook on a hot surface using fat
 992	00019767n	cliff, drop, drop-off	A steep high face of rock
+995	00060325n	quiver, palpitation, quivering	A shaky motion
+996	00100975a	deaf	Lacking or deprived of the sense of hearing wholly or in part
+999	00006137n	joint, articulation, articulatio	(anatomy) the point of connection between two bones or elements of a skeleton (especially if it allows motion)
 1000	00004801n	anxiety, anxiousness	(psychiatry) a relatively permanent state of worry and nervousness occurring in a variety of mental disorders, usually accompanied by compulsive behavior or attacks of panic
 1001	00011046n	blacksmith, Blacksmiths	A smith who forges and shapes iron with a hammer and anvil
+1003	00082537v	allow, permit, countenance	Consent to, give permission
+1005			
+1006	00013047n	brick, Bricks	Rectangular block of clay baked by the sun or in a kiln; used as a building or paving material
+1007	00012273n	cattle, Bos taurus, cows, cow	Domesticated bovine animals as a group regardless of sex or age- Bible
+1010	00012417n	boundary, edge, bound	A line determining the limits of an area
+1011	00013077n	bridge, span	A structure that allows people or vehicles to cross an obstacle such as a river or canal or railway etc.
 1014	00027504n	disjunction, disconnectedness, disconnection, OR	State of being disconnected
 1015	00083350v	soil, dirty, begrime	Make soiled, filthy, or dirty
 1016	00028809n	drizzle, mizzle	Very light rain; stronger than mist but less than a shower
@@ -416,71 +588,119 @@ CONCEPTICON_ID	BABELNET_ID	BABELNET_GLOSS	BABELNET_DEFINITION
 1021	00077761n	towel	A rectangular piece of absorbent cloth (or paper) for drying or wiping
 1022	00012193n	dirty money, booty, loot	Goods or money obtained illegally
 1024	00017752n	grapheme, character, graphic symbol	A written symbol that is used to represent speech
+1025	00095748v	whistle	Make whistling sounds
 1027	00013697n	bug	General term for any insect or similar creeping or crawling invertebrate
+1028	00095868v	yawn	Utter a yawn, as from lack of oxygen or when one is tired
 1030	00031631n	necessity, requirement, essential, necessary	Anything indispensable
 1033	00085964v	cranch, craunch, crunch, grind	Press or grind with a crushing noise
 1034	00025884n	suspect, defendant, accused	A person or institution against whom an action is brought in a court of law; the person being sued or accused
 1036	00059954n	owner, possessor	A person who owns something
 1038	00046958n	teacher, instructor, educator	A person whose occupation is teaching
 1039	00093682v	show	Make visible or noticeable
+1040	00042526n	hair	A covering for the body (or parts of it) consisting of a dense growth of threadlike structures (as on the human head); helps to prevent heat loss
 1041	00089666v	increase	Become bigger or greater in amount
 1042	00016191n	carpenter	A woodworker who makes or repairs wooden objects
 1043	00012673n	plait, tress, braid	A hairdo formed by braiding or twisting the hair
 1044	00062414n	pillow	A cushion to support the head of a sleeping person
 1045	00063196n	poet, poetess, Poets	A writer of poems (the term is usually reserved for writers of good poetry)
 1047	00084831v	chase, track, dog, pursue	Go after with the intent to catch
+1048	00051291n	line, straight line	A length (straight or curved) without breadth or thickness; the trace of a moving point
+1050	00056010n	mother-in-law, Parent-in-law, parents-in-law	The mother of your spouse
 1054	00072287n	smallpox, variola, variola major	A highly contagious viral disease characterized by fever and weakness and skin eruption with pustules that form scabs that slough off leaving scars
 1055	13580696n	father-in-law	Father of husband or wife
+1056	00072787n	son-in-law	The husband of your daughter
 1057	00025365n	daughter-in-law	The wife of your son
 1059	00074214n	stepson, stepfamily	The son your spouse by a former marriage
+1062	00048655n	law, jurisprudence	The collection of rules imposed by authority
 1063	00057287n	nephew, Nephew and niece, great-niece	A son of your brother or sister
+1064	00013602n	shield, buckler, escutcheon	Armor carried on the arm to intercept blows
 1066	00023808n	crime	An evil act not necessarily punishable by law
 1067	00048493n	judgment, mind, judgement	An opinion formed by judging something
 1069	00001366n	adhesive, adhesive agent, adhesive material, glue	A substance that unites or bonds surfaces together
 1070	00007329n	coach, bus, charabanc	A vehicle carrying many passengers; used for public transport
 1071	00044692n	hook	A curved or bent implement for suspending or pulling something
+1073	00015769n	captive	A person held in the grip of a strong emotion or passion
+1074	00034860n	fishhook, fishing hook, hook	A sharp barbed hook for catching fish
+1077	00080959n	wheat, Triticum	Annual or biennial grass having erect flower spikes and light brown grains
 1079	00087864v	feel, experience	Undergo an emotional sensation or be in a particular state of mind
+1080	00099929a	coarse, common, rough-cut, vulgar	Lacking refinement or cultivation or taste
+1082	00054417n	merchant, merchandiser	A businessperson engaged in retail trade
+1084	00084406v	call	Utter in a loud voice or announce
+1087	00083370v	think, believe, consider, conceive	Judge or regard; look upon; judge
 1089	00006306n	ash, ash tree, Fraxinus	Any of various deciduous pinnate-leaved ornamental or timber trees of the genus Fraxinus
+1091	00110069a	salty	One of the four basic taste sensations; like the taste of sea water
+1092	00086683v	desire, hope, trust	Expect and wish
+1093	00017123n	midpoint, centre, center, middle	A point equidistant from the ends of a line or the extremities of a figure
 1094	00088052v	fasten, fix, secure	Cause to be firmly attached
 1096	00072794n	song, vocal, Human voice	A short musical composition with words
+1097			
 1098	00095701v	weigh	Have a certain weight
 1101	00088745v	suffer, sustain, get	Undergo (as of injuries and illnesses)
+1102	00085120v	mount, climb, climb up	Go upward with gradual or continuous progress
 1103	00068753n	sacrifice	A loss entailed by giving up or selling something at less than its value
 1104	00058325n	nurse	One skilled in caring for young children or the sick (usually under the supervision of a physician)
 1105	00015037n	camp	Temporary lodgings in the country for travelers or vacationers
 1110	00070919n	shark, Selachimorpha	Any of numerous elongate mostly marine carnivorous fishes with heterocercal caudal fins and tough skin covered with small toothlike scales
+1112	00084086v	succeed, come through, win	Attain success or reach a desired goal
 1113	00095836v	wrap, wrap up, enwrap	Arrange or fold as a cover or protection
 1114	00013807n	bullet, slug, ball	A projectile that is fired from a gun
 1115	00001304n	speech, address, lecture	The act of delivering a formal spoken communication to an audience
+1116	00086261v	damage	Inflict damage upon
 1117	00090362v	like	Find enjoyable or agreeable
 1118	00082251v	accustom, habituate	Make psychologically or physically used (to something)
 1120	00104302a	honest, honorable	Not disposed to cheat or defraud; not deceptive or fraudulent
+1124	00062569n	pipe, tobacco pipe, smoking pipe	A tube with a small bowl at one end; used for smoking tobacco
 1125	00097995a	bald, bald-headed, bald-pated	Lacking hair on all or most of the scalp
 1127	00086868v	direct, send	Cause to go somewhere
 1128	00091192v	order	Make a request for something
+1129	00108168a	painful	Causing physical or psychological pain
+1132	00009314n	beam	Long thick piece of wood or metal or concrete, etc., used in construction
 1133	00036522n	match, friction match, lucifer	Lighter consisting of a thin piece of wood or cardboard tipped with combustible chemical; ignites with friction
+1134	00027937n	divorce, divorcement	The legal dissolution of a marriage
+1135	00090086v	kick	Strike with the foot
+1137	00071726n	tendon, sinew	A cord or band of inelastic tissue connecting a muscle with its bony attachment
+1138	00032695n	fairy, sprite, faerie	A small being, human in form, playful and having magical powers
 1139	00050713n	leopard, Panthera pardus, Leopards	Large feline of African and Asian forests usually having a tawny coat with black spots
 1141	00021008n	pity, commiseration, pathos	A feeling of sympathy and sorrow for the misfortunes of others
+1142	00061253n	urine, pee, piss	Liquid excretory product
+1144	00046703n	informant, witness, witnesser	Someone who sees an event and reports what happened
 1145	00075499n	swamp, swampland	Low land that is seasonally flooded; has more woody plants than a marsh and better drainage than a bog
+1147	00109244a	pure	Free of extraneous elements of any kind
+1150	00077123n	thunder	A booming or crashing noise caused by air expanding along the path of a bolt of lightning
+1151	00043283n	veil, head covering	A garment that covers the head and face
 1152	00083336v	beget, bring forth, engender	Make children
+1154	00058888n	olive	Small ovoid fruit of the European olive tree; important food and source of oil
 1155	00016878n	cave	A geological formation consisting of an underground enclosure with access from the surface of the ground or from the sea
 1156	00082444v	afford, give, open	Afford access to
 1159	00084007v	break wind, fart, flatulate	Expel intestinal gases through the anus
 1160	00074094n	thief, stealer	A criminal who takes property belonging to someone else with the intention of keeping it or selling it
 1162	00002178n	intention, purpose, aim	An anticipated outcome that is intended or that guides your planned actions
+1165	00009361n	beard, whiskers, face fungus, moustache	The hair growing on the lower part of a man's face
+1166	00016527n	cast, mold, mould	Container into which liquid is poured to create a given shape when it hardens
 1167	00041994n	gruel	A thin porridge (usually oatmeal or cornmeal)
 1168	00043173n	hawthorn, haw	A spring-flowering shrub or small tree of the genus Crataegus
 1169	00059960n	ox	An adult castrated bull of the genus Bos; especially Bos taurus
+1171	00055261n	mirror, glass	Polished surface that forms images by reflecting light
+1172	00083567v	shoot, blast, set off	Fire a shot
 1173	00013390n	eyebrow, supercilium, brow	The arch of hair above each eye
+1175	00040370n	ghost	The visible disembodied soul of a dead person
 1176	00073064n	spade	A sturdy hand shovel that can be pushed into the earth with the foot
+1182	00057863n	noise	Sound of any kind (especially unintelligible or dissonant sound)
 1190	00042984n	hare, jackrabbit, Lepus	Swift timid long-eared mammal larger than a rabbit having a divided upper lip and long hind legs; young born furred and with open eyes
+1194	00009456n	beaver, Castor	Large semiaquatic rodent with webbed hind feet and a broad flat tail; construct complex dams and underwater lodges
 1197	00007643n	baboon	Large terrestrial monkeys having doglike muzzles
 1199	00053531n	wife, married woman, spouse	A married woman; a man's partner in marriage
+1202	00098342a	big, large	Above average in size or number or quantity or magnitude or extent
 1204	00008594n	bark, periderm, rhytidome	Tough protective covering of the woody stems and roots of trees and other woody plants
+1205	00019439n	tongue, clapper, glossa	A mobile mass of muscular tissue covered with mucous membrane and located in the oral cavity
+1211	01555927n	He	He is a masculine third-person, singular personal pronoun in Modern English, as well as being a personal pronoun in Middle English.
 1212	01913848n	We	We is the first-person, plural personal pronoun in Modern English.
 1213	03231238n	you, y'all, you lot	You is the second-person personal pronoun, both singular and plural, and both nominative and oblique case, in Modern English.
+1214			
 1215	01663932n	thou, you, thee	The word thou is a second person singular pronoun in English.
+1216	00034027n	mother, female parent, birth mother	A woman who has given birth to a child (also used as a term of address to your mother)
 1217	00009616n	father, begetter, male parent	A male parent (also used as a term of address to your father)
+1218	00068266n	rope	A strong line
 1222	00054278n	penis, member, phallus	The male organ of copulation (`member' is a euphemism)
 1224	00051621n	liver	Large and complicated reddish-brown glandular organ located in the upper right portion of the abdominal cavity; secretes bile and functions in metabolism of protein and carbohydrate and fat; synthesizes substances involved in the clotting of the blood; synthesizes vitamin A; detoxifies poisonous substances and breaks down worn-out erythrocytes
 1229	00107787a	old	Of long duration; not new
@@ -551,6 +771,7 @@ CONCEPTICON_ID	BABELNET_ID	BABELNET_GLOSS	BABELNET_DEFINITION
 1455	00087234v	draw, force, pull	Cause to move by pulling
 1456	00094934v	throw	Propel through the air
 1458	00093287v	say, tell, state	Express in words
+1461			
 1467	00019169n	circle, Circles	Ellipse in which the two axes are of equal length; a plane curve generated by one point moving at a constant distance from a fixed point
 1472	00048985n	key	Metal device shaped in such a way that when it is inserted into the appropriate lock the lock's mechanism can be rotated
 1478	13646853r	without	Lacking something.
@@ -664,7 +885,7 @@ CONCEPTICON_ID	BABELNET_ID	BABELNET_GLOSS	BABELNET_DEFINITION
 1771	00111668a	tasteless	Lacking flavor
 1773	00041468n	grave, tomb, gravesite	A place for the burial of a corpse (especially beneath the ground and marked by a tombstone)
 1778	00082732v	approach, come on, near	Move towards
-1779	00086280v	dare	To be courageous enough to try or do something, &quot;she dares to dress differently from the others&quot;
+1779	00086280v	dare	To be courageous enough to try or do something, "she dares to dress differently from the others"
 1780	00010373n	bile, gall	A digestive juice secreted by the liver and stored in the gallbladder; aids in the digestion of fats
 1781	00063376n	thumb, pollex	The thick short innermost digit of the forelimb
 1787	00051980n	loom	A textile machine for weaving yarn into a textile
@@ -683,7 +904,7 @@ CONCEPTICON_ID	BABELNET_ID	BABELNET_GLOSS	BABELNET_DEFINITION
 1810	00025170n	danger	The condition of being susceptible to harm or injury
 1813	00111670a	tasty, palatable, savory	Pleasing to the sense of taste
 1814	00082249v	accuse, incriminate, criminate	Bring an accusation against; level a charge against
-1816	07867572n	ビサイド, Beside	<i class=&quot;glyphicon glyphicon-warning-sign&quot;></i>&nbsp; <i>Sorry, this synset does not have a definition.</i>
+1816	07867572n	ビサイド, Beside	<i class="glyphicon glyphicon-warning-sign"></i>&nbsp; <i>Sorry, this synset does not have a definition.</i>
 1817	00029054n	due west, W, west	The cardinal compass point that is a 270 degrees
 1824	00101099a	dexterous, deft, dextrous	Skillful in physical movements; especially of the hands
 1834	03654344n	she	She is a feminine third-person, singular personal pronoun in Modern English.
@@ -771,7 +992,7 @@ CONCEPTICON_ID	BABELNET_ID	BABELNET_GLOSS	BABELNET_DEFINITION
 2036	00047960n	January, Jan	The first month of the year; begins 10 days after the winter solstice
 2037	00033882n	February, Feb	The month following January and preceding March
 2038	00028582n	dragon, firedrake, Dragons	A creature of Teutonic mythology; usually represented as breathing fire and having a reptilian body and sometimes wings
-2039	00422170n	Magpie (butterfly)	Protoploea apatela, with the common name &quot;Magpie,&quot; is a species of nymphalid butterfly in the Danainae subfamily.
+2039	00422170n	Magpie (butterfly)	Protoploea apatela, with the common name "Magpie," is a species of nymphalid butterfly in the Danainae subfamily.
 2040	00013618n	buckwheat, Fagopyrum esculentum, Polygonum fagopyrum	A member of the genus Fagopyrum; annual Asian plant with clusters of small pinkish white flowers and small edible triangular seeds which are used whole or ground into flour
 2042	00080415n	walnut, common walnut, English walnut	Nut of any of various walnut trees having a wrinkled two-lobed seed with a hard shell
 2043	00061165n	peach, peach tree, Prunus persica	Cultivated in temperate regions
@@ -788,6 +1009,8 @@ CONCEPTICON_ID	BABELNET_ID	BABELNET_GLOSS	BABELNET_DEFINITION
 2090	13980346n	My	Section of Ferrières, Belgium
 2091	13606052a	your	Of or belonging to you (singular).
 2093	13601833v	afterward, afterwards	Later or after something else has happened or happens.
+2099			
+2102			
 2137	00052696n	magician, wizard, necromancer	One who practices magic or sorcery
 2148	00091594v	pluck, pick, plunk	Pull lightly but sharply with a plucking motion
 2150	00047690n	issue, matter, subject	Some situation or event that is thought about
