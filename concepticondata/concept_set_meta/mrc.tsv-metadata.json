@@ -1,0 +1,56 @@
+{
+  "url": "mrc.tsv",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "MRC Psycholinguistic Database",
+  "dc:source": "http://www.psych.rl.ac.uk/",
+  "dcat:keyword": ["thesaurus", "english"],
+  "dc:description": "The MRC Psycholinguistic Database is a machine usable dictionary containing 150837 words with up to 26 linguistic and psycholinguistic attributes for each - psychological measures are recorded for only about 2500 words. The dictionary may be of use to researchers in psychology or linguistics to develop sets of experimental stimuli, or those in artificial intelligence and computer science who require psychological and linguistic descriptions of words.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tableSchema": {
+    "columns": [
+      {
+        "name": "CONCEPTICON_ID",
+        "datatype": "string"
+      }, 
+      {
+        "name": "MRC_WORD",
+        "datatype": "string"
+      }, 
+      {
+				"name": "AGE_OF_ACQUISITION",
+				"datatype": "string"
+			},
+      {
+				"name": "CONCRETENESS",
+				"datatype": "string"
+			},
+      {
+				"name": "FAMILIARITY",
+				"datatype": "string"
+			},
+      {
+				"name": "IMAGABILITY",
+				"datatype": "string"
+			},
+
+      {
+				"name": "KUCERA_FRANCIS_FREQUENCY",
+				"datatype": "string"
+			}
+    ],
+    "foreignKeys": [
+      {
+        "columnReference": "CONCEPTICON_ID",
+        "reference": {
+          "resource": "../concepticon.tsv",
+          "columnReference": "ID"
+        }
+      }
+    ],
+    "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+  }
+}

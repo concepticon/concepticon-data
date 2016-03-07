@@ -1,10 +1,10 @@
 {
-  "url": "babelnet.tsv",
+  "url": "eat.tsv",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
-  "dc:title": "Mapping to BabelNet",
-  "dc:source": "https://babelnet.org",
-  "dcat:keyword": ["dictionary", "multilingual"],
-  "dc:description": "Mapping from Concepticon Concept Sets to BabelNet. Babelnet is an extension of Wordnet and offers Word senses in multiple languages.",
+  "dc:title": "Edinburgh Associative Thesaurus",
+  "dc:source": "http://www.eat.rl.ac.uk/",
+  "dcat:keyword": ["thesaurus", "english"],
+  "dc:description": "A set of word association norms showing the counts of word association as collected from subjects. [Note that degree and weighted degree were calculated from the full thesaurus data and added to the resource.]",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",
@@ -17,17 +17,15 @@
         "datatype": "string"
       }, 
       {
-        "name": "BABELNET_ID",
-        "datatype": "string",
-        "propertyUrl": "dc:relation",
-        "valueUrl": "http://babelnet.org/search?word={BABELNET_ID}"
+        "name": "EAT_WORD",
+        "datatype": "string"
       }, 
       {
-				"name": "BABELNET_GLOSS",
+				"name": "DEGREE",
 				"datatype": "string"
 			},
       {
-				"name": "BABELNET_DEFINITION",
+				"name": "WEIGHTED_DEGREE",
 				"datatype": "string"
 			}
     ],

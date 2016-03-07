@@ -1,10 +1,10 @@
 {
-  "url": "babelnet.tsv",
+  "url": "wordnet.tsv",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
-  "dc:title": "Mapping to BabelNet",
-  "dc:source": "https://babelnet.org",
-  "dcat:keyword": ["dictionary", "multilingual"],
-  "dc:description": "Mapping from Concepticon Concept Sets to BabelNet. Babelnet is an extension of Wordnet and offers Word senses in multiple languages.",
+  "dc:title": "Mapping to WordNet",
+  "dc:source": "https://wordnet.princeton.edu/",
+  "dcat:keyword": ["dictionary", "english"],
+  "dc:description": "Mapping from Concepticon Concept Sets to WordNet. WordNetw is a lexical resource of the English language which offers word relations and senses along with definitions in English.",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",
@@ -17,17 +17,25 @@
         "datatype": "string"
       }, 
       {
-        "name": "BABELNET_ID",
+	"name" : "WORDNET_SYNSET",
+	"datatype" : "string"
+      },
+      {
+        "name": "OPEN_WORDNET_ID",
         "datatype": "string",
         "propertyUrl": "dc:relation",
-        "valueUrl": "http://babelnet.org/search?word={BABELNET_ID}"
+        "valueUrl": "http://compling.hss.ntu.edu.sg/omw/cgi-bin/wn-gridx.cgi?synset={OPEN_WORDNET_ID}"
       }, 
       {
-				"name": "BABELNET_GLOSS",
+				"name": "WORDNET_GLOSS",
 				"datatype": "string"
 			},
       {
-				"name": "BABELNET_DEFINITION",
+				"name": "WORDNET_POS",
+				"datatype": "string"
+			},
+      {
+				"name": "WORDNET_DEFINITION",
 				"datatype": "string"
 			}
     ],
