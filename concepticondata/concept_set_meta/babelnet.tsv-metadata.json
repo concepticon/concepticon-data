@@ -20,7 +20,7 @@
         "name": "BABELNET_ID",
         "datatype": "string",
         "propertyUrl": "dc:relation",
-        "valueUrl": "http://babelnet.org/search?word={BABELNET_ID}"
+        "valueUrl": "http://babelnet.org/synset?word=bn:{BABELNET_ID}"
       }, 
       {
 				"name": "BABELNET_GLOSS",
