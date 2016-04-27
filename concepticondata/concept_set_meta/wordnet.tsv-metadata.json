@@ -18,7 +18,9 @@
       }, 
       {
 	"name" : "WORDNET_SYNSET",
-	"datatype" : "string"
+	"datatype" : "string",
+	"valueUrl": "http://wordnet-rdf.princeton.edu/wn31/{OPEN_WORDNET_ID}"
+
       },
       {
         "name": "OPEN_WORDNET_ID",
