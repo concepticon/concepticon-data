@@ -10,7 +10,19 @@ We won't give you any detailed explanations here but just assume that you find a
 
 If you experience any problems, just let us know.
 
-## Linking Wordlist
+## Submitting Concept Lists
+
+Let us assume you have a concept list which you would like to submit to our Concepticon, so that we can afterwards include it and link it. In this case, you could write us an email, but even better, you would file an issue using our [issue tracker](https://github.com/clld/concepticon-data/issues). Here, we collect and classify different kinds of issues. New concept lists are tagged accordingly, and [here](https://github.com/clld/concepticon-data/issues?q=is%3Aissue+is%3Aopen+label%3A%22new+concept+list%22) you can see all concept lists, which we would like to map but have not yet found time to include.
+
+In our workflow, we distinguish different stages of concept list creation and indicate this with tags:
+
+* [scanned](https://github.com/clld/concepticon-data/issues?q=is%3Aissue+is%3Aopen+label%3Ascanned) refers to those concept lists which are already available in a scanned version, so that we can start typing them off. Sometimes, concept lists are only available in some specific archive, and we don't have access to them immediately. In this case, our concept list issue is just tagged as "new concept list", not yet as "scanned".
+* [typed](https://github.com/clld/concepticon-data/issues?q=is%3Aissue+is%3Aopen+label%3Atyped) refers to those concept lists which have already been digitized. 
+* [formatted](https://github.com/clld/concepticon-data/issues?q=is%3Aissue+is%3Aopen+label%3Aformatted) refers to concept lists which have been already brought into the format needed for mapping, that is, they are given as TSV file, with one field indicating the number, one the concept label, and additional fields indicating additional data as given in the concept list.
+
+Once you filed an issue and provide us with the important information, we will tag the issue accordingly, and try to follow it up. If you have the list in a typed version, or even in a formatted version, you could either directly attach it to your issue, or you could create pull request (see above) where you place your formatted but not yet linked concept list into the folder [unlinked](https://github.com/clld/concepticon-data/tree/master/unlinked).
+
+## Linking Concept Lists
 
 Suppose you have prepared a dataset that contains a concept list and that you would like to submit to the Concepticon, or you have detected a concept list you deem important but which you don't find in our current collection: What are the steps you need to undertake to submit this list to us, and to share it with the whole community? A simple way which is, however, not guaranteed to work immediately, is to write an email or file an issue about a missing concept list. If you do so, we will evaluate the proposal and see what we can do.
 Naturally, we'd appreciate it even more if you could provide us with 
