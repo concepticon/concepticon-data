@@ -3,6 +3,7 @@ from setuptools import setup, find_packages
 
 requires = [
     'clldutils>=0.2',
+    'clld'
 ]
 
 setup(
