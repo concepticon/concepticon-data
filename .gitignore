@@ -4,6 +4,12 @@ __pycache__/
 
 # C extensions
 *.so
+.info
+.gitignore
+*.vim
+*.swp
+private/
+link/
 
 # Distribution / packaging
 .Python
