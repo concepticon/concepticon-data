@@ -6,5 +6,6 @@
 * gbif covers 1 concept sets (0.00 %)
 * eat covers 2061 concept sets (0.78 %)
 * omegawiki covers 2070 concept sets (0.79 %)
-* babelnet covers 1151 concept sets (0.44 %)
+* babelnet covers 769 concept sets (0.29 %)
+* aoa_kuperman covers 1853 concept sets (0.70 %)
 * mrc covers 1946 concept sets (0.74 %)

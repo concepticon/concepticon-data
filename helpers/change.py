@@ -4,7 +4,15 @@ relation per concept pair as a minimum
 """
 
 from lingpy import *
-
+relations = dict(
+    broader = 'narrower',
+    resultof = 'resultsin',
+    produces = 'producedby',
+    usedfor = 'requires',
+    classof = 'instanceof',
+    intransitiveof = 'transitiveof',
+    baseof = 'hasform'
+        )
 D = csv2list('../concepticondata/conceptrelations.tsv', strip_lines=False)
 _C = csv2list('../concepticondata/concepticon.tsv', strip_lines=False)
 C = dict([(a,b) for a,*b in _C[1:]])
@@ -27,6 +35,10 @@ with open('../concepticondata/conceptrelations.modified.tsv', 'w') as f:
         tg = C[t][0]
         if set([s,t]) not in visited:
             visited += [set([s,t])]
+            if r in relations:
+                items = [t, tg, relations[r], s, sg]
+            else:
+                items = [s, sg, r, t, tg]
 
             f.write('{0}\t{1}\t{2}\t{3}\t{4}\n'.format(
-                s,sg,r,t,tg))
+                *items)) #s,sg,r,t,tg))
