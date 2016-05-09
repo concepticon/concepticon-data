@@ -7,6 +7,12 @@ concepticon-data.
 
 Creating a release comprises the following tasks:
 
+- Run [bibtool](http://www.gerd-neugebauer.de/software/TeX/BibTool/en/) on the references 
+to normalize them for import:
+```
+$ bibtool -r concepticondata/references/bibtool.rsc -o concepticondata/references/references.bib concepticondata/references/references.bib
+```
+
 - Make sure all changes are pushed and merged into the `master` branch.
 - Make sure all tests pass.
 - Make sure the data in `master` can be imported into the web app `clld/concepticon`.
