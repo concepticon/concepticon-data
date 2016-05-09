@@ -8,12 +8,12 @@ from collections import namedtuple
 import json
 
 from clldutils.misc import normalize_name
-
+from clld.lib.bibtex import Database
 from concepticondata import data
 from concepticondata.util import data_path, tsv_items, split_ids, PKG_PATH
 
 SUCCESS = True
-BIB_ID_PATTERN = re.compile('@[a-zA-Z]+\{(?P<id>[^,]+),')
+#BIB_ID_PATTERN = re.compile('@[a-zA-Z]+\{(?P<id>[^,]+),')
 NUMBER_PATTERN = re.compile('(?P<number>[0-9]+)(?P<suffix>.*)')
 
 
@@ -62,6 +62,10 @@ def read_sources(path):
 
 
 def test():
+    # load bibtex
+    bib = Database.from_file(data_path('references', 'references.bib'))
+    assert bib
+
     conceptlists = {
         cl.name: read_tsv(cl, unique=None)
         for cl in PKG_PATH.joinpath('conceptlists').glob('*.tsv')
@@ -76,7 +80,7 @@ def test():
             value = cs[attr]
             if value and value not in valid:
                 error('invalid %s: %s' % (attr, value), data_path('concepticon.tsv'), i)
-
+    all_refs = []
     for source in read_metadata(data_path('concept_set_meta')):
         specs = json.loads(open(data_path('concept_set_meta',
             source+'.tsv-metadata.json')).read())
@@ -87,30 +91,52 @@ def test():
         for i,line in tsv:
             if len(line) != len(cnames):
                 error('meta data {0} contains irregular number of columns in line {1}'.format(source, i), 'name')
+        if 'reference' in specs:
+            all_refs += [specs['reference']]
 
-    refs = set()
-    with io.open(data_path('references', 'references.bib'), encoding='utf8') as fp:
-        for line in fp:
-            match = BIB_ID_PATTERN.match(line.strip())
-            if match:
-                refs.add(match.group('id'))
+    #refs = set()
+    #with io.open(data_path('references', 'references.bib'), encoding='utf8') as fp:
+    #    for line in fp:
+    #        match = BIB_ID_PATTERN.match(line.strip())
+    #        if match:
+    #            refs.add(match.group('id'))
                 
     #
     # Make sure only records in the BibTeX file references.bib are referenced by
     # concept lists.
     clmd = data_path('conceptlists.tsv')
     clids = {}
-    visited = []
+    visited1, visited2 = [], []
     tags = getattr(data, 'CL_TYPES')
+
     for i, cl in read_tsv(clmd):
         clids[cl['ID']] = cl
         for ref in split_ids(cl['REFS']):
-            if ref not in refs and ref not in visited:
+            if ref not in bib.keymap and ref not in visited1:
                 error('unknown bibtex record "%s" referenced' % ref, clmd, i)
-                visited += [ref]
+                visited1 += [ref]
+            else:
+                # we fail when author/editor, or year, or title/booktitle are missing
+                if not 'Title' in bib[ref] and not 'Booktitle' in bib[ref] and ref \
+                        not in visited2:
+                    error('missing bibtex title in record "%s"' %
+                            ref, clmd, i)
+                    visited2 += [ref]
+                if not 'Author' in bib[ref] and not 'Editor' in bib[ref]:
+                    error('missing bibtex author/editor in record "%s"' % ref, clmd, i)
+                    visited2 += [ref]
+                if not 'Year' in bib[ref]:
+                    error('missing bibtex year in record "%s"' % ref, clmd, i)
+                    visited2 += [ref]
+            all_refs += [ref]
+
         for tag in split_ids(cl['TAGS']):
             if tag not in tags:
                 error('invalid cl type: %s' % tag, clmd, i)
+
+    for i,ref in enumerate(bib.keymap):
+        if ref not in all_refs:
+            error('bibtex record %s is in the references but not referenced in the data.' % ref, clmd, i)
 
     #
     # make also sure that all sources are accompanied as pdf, but only write a
@@ -148,7 +174,7 @@ def test():
                     namedtuple('nt', [normalize_name(n) for n in cols])
                 except ValueError as e:
                     error('%s' % e, name, line)
-                for lg in split(cl.get('SOURCE_LANGUAGE', [])):
+                for lg in split(cl.get('SOURCE_LANGUAGE', '')):
                     if lg.upper() not in cols:
                         error('missing source language col %s' % lg.upper(), name, '')
             if not NUMBER_PATTERN.match(concept['NUMBER']):
