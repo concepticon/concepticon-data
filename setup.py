@@ -29,5 +29,5 @@ setup(
             'conceptliststats=concepticondata.commands:stats',
         ]
     },
-    tests_require=[],
+    tests_require=['clld'],
     test_suite="concepticondata")
