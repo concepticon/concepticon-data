@@ -1,19 +1,19 @@
 from __future__ import unicode_literals
 import os
 import re
-import io
 import glob
 import warnings
 from collections import namedtuple
-import json
 
+from clldutils.jsonlib import load
 from clldutils.misc import normalize_name
 from clld.lib.bibtex import Database
+
 from concepticondata import data
 from concepticondata.util import data_path, tsv_items, split_ids, PKG_PATH
 
+
 SUCCESS = True
-#BIB_ID_PATTERN = re.compile('@[a-zA-Z]+\{(?P<id>[^,]+),')
 NUMBER_PATTERN = re.compile('(?P<number>[0-9]+)(?P<suffix>.*)')
 
 
@@ -40,6 +40,8 @@ def read_tsv(path, unique='ID'):
     rows = []
     for line, row in enumerate(tsv_items(path)):
         line += 2
+        if None in row:
+            error('too many columns', path, line)
         if unique:
             if unique not in row:
                 error('unique key missing: %s' % unique, path, line)
@@ -50,10 +52,12 @@ def read_tsv(path, unique='ID'):
         rows.append((line, row))
     return rows
 
+
 def read_metadata(path):
     infiles = glob.glob(os.path.join(path, '*.tsv'))
     sources = [os.path.split(f)[-1][:-4] for f in infiles]
     return sources
+
 
 def read_sources(path):
     infiles = glob.glob(os.path.join(path, '*.pdf'))
@@ -80,33 +84,28 @@ def test():
             value = cs[attr]
             if value and value not in valid:
                 error('invalid %s: %s' % (attr, value), data_path('concepticon.tsv'), i)
-    all_refs = []
+
+    # We collect all cite keys used to refer to references.
+    all_refs = set()
     for source in read_metadata(data_path('concept_set_meta')):
-        specs = json.loads(open(data_path('concept_set_meta',
-            source+'.tsv-metadata.json')).read())
-        tsv = read_tsv(data_path('concept_set_meta', source+'.tsv'), unique='CONCEPTICON_ID')
+        specs = load(data_path('concept_set_meta', source + '.tsv-metadata.json'))
+        tsv = read_tsv(
+            data_path('concept_set_meta', source + '.tsv'), unique='CONCEPTICON_ID')
         cnames = [var['name'] for var in specs['tableSchema']['columns']]
         if not [n for n in cnames if n in list(tsv[0][1])]:
-            error('column names in {0} do not json-specs'.format(source), 'name')
-        for i,line in tsv:
+            error('column names in {0} but not in json-specs'.format(source), 'name')
+        for i, line in tsv:
             if len(line) != len(cnames):
-                error('meta data {0} contains irregular number of columns in line {1}'.format(source, i), 'name')
-        if 'reference' in specs:
-            all_refs += [specs['reference']]
+                error('meta data {0} contains irregular number of columns in line {1}'
+                      .format(source, i), 'name')
+        if 'dc:references' in specs:
+            all_refs.add(specs['dc:references'])
 
-    #refs = set()
-    #with io.open(data_path('references', 'references.bib'), encoding='utf8') as fp:
-    #    for line in fp:
-    #        match = BIB_ID_PATTERN.match(line.strip())
-    #        if match:
-    #            refs.add(match.group('id'))
-                
-    #
     # Make sure only records in the BibTeX file references.bib are referenced by
     # concept lists.
     clmd = data_path('conceptlists.tsv')
     clids = {}
-    visited1, visited2 = [], []
+    visited1, visited2 = set(), set()
     tags = getattr(data, 'CL_TYPES')
 
     for i, cl in read_tsv(clmd):
@@ -114,29 +113,30 @@ def test():
         for ref in split_ids(cl['REFS']):
             if ref not in bib.keymap and ref not in visited1:
                 error('unknown bibtex record "%s" referenced' % ref, clmd, i)
-                visited1 += [ref]
+                visited1.add(ref)
             else:
                 # we fail when author/editor, or year, or title/booktitle are missing
-                if not 'Title' in bib[ref] and not 'Booktitle' in bib[ref] and ref \
-                        not in visited2:
-                    error('missing bibtex title in record "%s"' %
-                            ref, clmd, i)
-                    visited2 += [ref]
-                if not 'Author' in bib[ref] and not 'Editor' in bib[ref]:
+                if 'Title' not in bib[ref] \
+                        and 'Booktitle' not in bib[ref] \
+                        and ref not in visited2:
+                    error('missing bibtex title in record "%s"' % ref, clmd, i)
+                    visited2.add(ref)
+                if 'Author' not in bib[ref] and 'Editor' not in bib[ref]:
                     error('missing bibtex author/editor in record "%s"' % ref, clmd, i)
-                    visited2 += [ref]
-                if not 'Year' in bib[ref]:
+                    visited2.add(ref)
+                if 'Year' not in bib[ref]:
                     error('missing bibtex year in record "%s"' % ref, clmd, i)
-                    visited2 += [ref]
-            all_refs += [ref]
+                    visited2.add(ref)
+            all_refs.add(ref)
 
         for tag in split_ids(cl['TAGS']):
             if tag not in tags:
                 error('invalid cl type: %s' % tag, clmd, i)
 
-    for i,ref in enumerate(bib.keymap):
+    for i, ref in enumerate(bib.keymap):
         if ref not in all_refs:
-            error('bibtex record %s is in the references but not referenced in the data.' % ref, clmd, i)
+            error('bibtex record %s is in the references but not referenced in the data.'
+                  % ref, clmd, i)
 
     #
     # make also sure that all sources are accompanied as pdf, but only write a
@@ -177,6 +177,10 @@ def test():
                 for lg in split(cl.get('SOURCE_LANGUAGE', '')):
                     if lg.upper() not in cols:
                         error('missing source language col %s' % lg.upper(), name, '')
+
+            for lg in split(cl.get('SOURCE_LANGUAGE', '')):
+                if not concept.get(lg.upper()):
+                    error('missing source language translation %s' % lg.upper(), name, line)
             if not NUMBER_PATTERN.match(concept['NUMBER']):
                 error('invalid concept NUMBER %(NUMBER)s' % concept, name, line)
             for col, values in ref_cols.items():
