@@ -1,10 +1,11 @@
 {
   "url": "",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
-  "dc:title": "Automatic mapping to Age of Acquisition Data by Kuppermann et al. (2012)",
+  "dc:title": "Automatic mapping to Age of Acquisition Data by Kuperman et al. (2012)",
   "dc:source": "http://link.springer.com/article/10.3758%2Fs13428-012-0210-4",
+  "reference" : "Kuperman2012",
   "dcat:keyword": ["age of acquisition", "monolingual", "english"],
-  "dc:description": "Mapping from Concepticon Concept Sets to Age of Acquisition data by Kuppermann et al. (2012) for the English language.",
+  "dc:description": "Mapping from Concepticon Concept Sets to Age of Acquisition data by Kuperman et al. (2012) for the English language.",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",
