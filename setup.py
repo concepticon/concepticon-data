@@ -2,6 +2,7 @@ from setuptools import setup, find_packages
 
 
 requires = [
+    'pyparsing==2.1.1',
     'clldutils>=0.2',
     'clld'
 ]
