@@ -5,10 +5,11 @@ from collections import defaultdict
 from clldutils.path import Path
 from clldutils.dsv import reader, UnicodeWriter, rewrite
 
-import concepticondata
+import pyconcepticon
 
 
-PKG_PATH = Path(concepticondata.__file__).parent
+REPOS_PATH = Path(pyconcepticon.__file__).parent.parent
+PKG_PATH = Path(pyconcepticon.__file__).parent
 ID_SEP_PATTERN = re.compile('\.|,|;')
 
 
@@ -20,8 +21,12 @@ def split_ids(s):
     return unique(id_.strip() for id_ in ID_SEP_PATTERN.split(s) if id_.strip())
 
 
-def data_path(*comps):
-    return PKG_PATH.joinpath(*comps).as_posix()
+def data_path(*comps, **kw):
+    return kw.get('repos', REPOS_PATH).joinpath('concepticondata', *comps)
+
+
+def conceptlists(**kw):
+    return data_path('conceptlists', **kw).glob('*.tsv')
 
 
 def tsv_items(path, ordered=False):
@@ -68,19 +73,24 @@ def load_conceptlist(idf):
         return clist
 
 
+def natural_sort(l):
+    """
+    Code-piece from
+    http://stackoverflow.com/questions/4836710/does-python-have-a-built-in-function-for-string-natural-sort
+    """
+    def convert(text):
+        return int(text) if text.isdigit() else text.lower()
+
+    def alphanum_key(key):
+        return [convert(c) for c in re.split('([0-9]+)', key)]
+
+    return sorted(l, key=alphanum_key)
+
+
 def write_conceptlist(clist, filename, header=False):
     """
     Write conceptlist to file.
     """
-    def natural_sort(l): 
-        """
-        Code-piece from
-        http://stackoverflow.com/questions/4836710/does-python-have-a-built-in-function-for-string-natural-sort
-        """
-        convert = lambda text: int(text) if text.isdigit() else text.lower() 
-        alphanum_key = lambda key: [convert(c) for c in re.split('([0-9]+)', key)]
-        return sorted(l, key=alphanum_key)
-
     header = header or clist['header']
     keys = natural_sort(list(clist.keys()))
     with UnicodeWriter(filename, delimiter='\t') as writer:
