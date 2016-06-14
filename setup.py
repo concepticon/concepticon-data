@@ -2,18 +2,18 @@ from setuptools import setup, find_packages
 
 
 requires = [
-    'pyparsing==2.1.1',
     'clldutils>=0.2',
     'clld'
 ]
 
 setup(
-    name='concepticondata',
-    version='0.0',
-    description='data for the concepticon site',
+    name='pyconcepticon',
+    version='0.1',
+    description='programmatic access to concepticon-data',
     long_description='',
     classifiers=[
         "Programming Language :: Python",
+        "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.4",
     ],
@@ -27,9 +27,8 @@ setup(
     install_requires=requires,
     entry_points={
         'console_scripts': [
-            'linkconcepts=concepticondata.commands:link',
-            'conceptliststats=concepticondata.commands:stats',
+            'concepticon=pyconcepticon.cli:main',
         ]
     },
-    tests_require=['clld'],
-    test_suite="concepticondata")
+    tests_require=[],
+    test_suite="pyconcepticon")

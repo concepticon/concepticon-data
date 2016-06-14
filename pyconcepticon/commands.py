@@ -1,14 +1,12 @@
 # coding:utf8
 from __future__ import unicode_literals, division
-import os
-import argparse
-from collections import Counter
+from collections import Counter, defaultdict
 
 from clldutils.dsv import reader, rewrite
 from clldutils.badge import badge, Colors
 from clldutils.path import Path
 
-from concepticondata.util import data_path, PKG_PATH
+from pyconcepticon.util import data_path, conceptlists
 
 
 class Linker(object):
@@ -68,25 +66,25 @@ class Linker(object):
         return row
 
 
-def link():
-    parser = argparse.ArgumentParser(
-        description="""\
+def link(args):
+    """\
 Complete linking of concepts to concept sets. If either CONCEPTICON_GLOSS or
-CONCEPTICON_ID is given, the other is added.""")
-    parser.add_argument('conceptlist', help='path to conceptlist to complete')
-    args = parser.parse_args()
+CONCEPTICON_ID is given, the other is added.
 
-    if not os.path.exists(args.conceptlist):
-        args.conceptlist = data_path('conceptlists', args.conceptlist)
-        assert os.path.exists(args.conceptlist)
+concepticon link <concept-list>
+"""
+    conceptlist = Path(args.args[0])
+    if not conceptlist.exists():
+        conceptlist = data_path('conceptlists', args.args[0])
+        assert conceptlist.exists()
 
-    rewrite(
-        args.conceptlist,
-        Linker(os.path.basename(args.conceptlist).replace('.tsv', '')),
-        delimiter='\t')
+    rewrite(conceptlist, Linker(conceptlist.name.replace('.tsv', '')), delimiter='\t')
 
 
-def stats():
+def stats(args):
+    """
+    write statistics to README
+    """
     lines = [
         '## Concept Lists',
         '',
@@ -94,8 +92,7 @@ def stats():
         ' ---- | ------ | ------- ',
     ]
     
-    for cl in sorted(
-            PKG_PATH.joinpath('conceptlists').glob('*.tsv'), key=lambda _cl: _cl.name):
+    for cl in sorted(conceptlists(), key=lambda _cl: _cl.name):
         concepts = list(reader(cl, namedtuples=True, delimiter='\t'))
         mapped = len([c for c in concepts if c.CONCEPTICON_ID])
         mapped_ratio = int((mapped / len(concepts)) * 100)
@@ -105,74 +102,76 @@ def stats():
 
         line = [
             '[%s](%s) ' % (cl.stem, cl.name),
-            badge('mapped', '%s%%' % mapped_ratio, Colors.red if mapped_ratio < 99 else Colors.brightgreen),
-            badge('mergers', '%s' % mergers, Colors.red if mergers else Colors.brightgreen),
+            badge(
+                'mapped',
+                '%s%%' % mapped_ratio,
+                Colors.red if mapped_ratio < 99 else Colors.brightgreen),
+            badge(
+                'mergers',
+                '%s' % mergers,
+                Colors.red if mergers else Colors.brightgreen),
         ]
 
         lines.append(' | '.join(line))
 
-    with PKG_PATH.joinpath('conceptlists', 'README.md').open('w', encoding='utf8') as fp:
+    with data_path('conceptlists', 'README.md').open('w', encoding='utf8') as fp:
         fp.write('\n'.join(lines))
+
 
 def metadata(write_stats=True):
     """Writes statistics on metadata to readme."""
     txt = '# Basic Statistics on Metadata\n\n'
     cnc = list(reader(data_path('concepticon.tsv'), namedtuples=True, delimiter="\t"))
-    for i,cl in enumerate(PKG_PATH.joinpath('concept_set_meta').glob('*.tsv')):
+    for i, cl in enumerate(data_path('concept_set_meta').glob('*.tsv')):
         data = list(reader(cl, namedtuples=True, delimiter="\t"))
-        txt += '* {0} covers {1} concept sets ({2:.2f} %)\n'.format(cl.name[:-4], len(data), len(data) / len(cnc))
+        txt += '* {0} covers {1} concept sets ({2:.2f} %)\n'.format(
+            cl.name[:-4], len(data), len(data) / len(cnc))
     if write_stats:
-        with PKG_PATH.joinpath('concept_set_meta', 'README.md').open('w', encoding='utf8') as fp:
+        with data_path('concept_set_meta', 'README.md').open('w', encoding='utf8') as fp:
             fp.write(txt)
+
 
 def list_attributes(write_stats=True):
     """Calculate the addditional attributes in the lists."""
-    D = {}
-    for i,cl in enumerate(PKG_PATH.joinpath('conceptlists').glob('*.tsv')):
-        header = list(reader(cl, delimiter="\t"))[0]
-        header = [h for h in header if h not in ['ID', 'CONCEPTICON_ID', 
-            'CONCEPTICON_GLOSS', 'ENGLISH', 'GLOSS', 'NUMBER']]
+    D = defaultdict(list)
+    for i, cl in enumerate(conceptlists()):
+        header = [
+            h for h in list(reader(cl, delimiter="\t"))[0] if h not in [
+                'ID', 'CONCEPTICON_ID', 'CONCEPTICON_GLOSS', 'ENGLISH', 'GLOSS', 'NUMBER'
+            ]]
         for h in header:
-            try:
-                D[h] += [cl.name]
-            except KeyError:
-                D[h] = [cl.name]
+            D[h].append(cl.name)
     txt = '# Common Additional Columns of Concept Lists\n'
-    for k,v in sorted(D.items(), key=lambda x: len(x[1]), reverse=True):
+    for k, v in sorted(D.items(), key=lambda x: len(x[1]), reverse=True):
         txt += '* {2} occurences: {0}, {1}\n'.format(k, ', '.join(v), len(v))
     print(txt)
+
 
 def reflexes(write_stats=True, path='concepticondata'):
     """
     Returns a dictionary with concept set label as value and tuples of concept
     list identifier and concept label as values.
     """
-    D, G = {}, {}
+    D, G = defaultdict(list), defaultdict(list)
     cpl = 0
     cln = 0
-    clb = set([])
+    clb = set()
     
-    dpath = Path(path) if path else PKG_PATH
+    dpath = Path(path) if path else data_path()
     
     for i, cl in enumerate(dpath.joinpath('conceptlists').glob('*.tsv')):
         concepts = list(reader(cl, namedtuples=True, delimiter="\t"))
-        for j,concept in enumerate([c for c in concepts if c.CONCEPTICON_ID]):
+        for j, concept in enumerate([c for c in concepts if c.CONCEPTICON_ID]):
             label = concept.GLOSS if hasattr(concept, 'GLOSS') else concept.ENGLISH
             name = cl.name
-            try:
-                D[concept.CONCEPTICON_GLOSS] += [(name, label)]
-            except KeyError:
-                D[concept.CONCEPTICON_GLOSS] = [(name, label)]
-            try:
-                G[label] += [(concept.CONCEPTICON_ID, concept.CONCEPTICON_GLOSS, name)]
-            except KeyError:
-                G[label] = [(concept.CONCEPTICON_ID, concept.CONCEPTICON_GLOSS, name)]
+            D[concept.CONCEPTICON_GLOSS].append((name, label))
+            G[label].append((concept.CONCEPTICON_ID, concept.CONCEPTICON_GLOSS, name))
             clb.add(label)
             cpl += 1
         cln += 1
     # write basic statistics and most frequent glosses
     if write_stats:
-        txt = """# Concepticon Statistics
+        txt = ["""# Concepticon Statistics
 * concept sets (used): {0}
 * concept lists: {1}
 * concept labels: {2}
@@ -181,48 +180,46 @@ def reflexes(write_stats=True, path='concepticondata'):
 * Ø concepts per concept set: {5:.2f}
 * Ø unique concept labels per concept set: {6:.2f}
 
-"""
-        txt = txt.format(
+""".format(
             len(D),
             cln,
             cpl,
             len(clb),
             cpl / cln,
-            sum([len(v) for k,v in D.items()]) / len(D),
-            sum([len(set([label for _,label in v])) for k,v in D.items()]) / len(D)
-            )
-        
-        txt += '# Twenty Most Diverse Concept Sets\n\n'
-        txt += '| No. | concept set | distinct labels | concept lists | examples |\n'
-        txt += '| --- | --- | --- | --- | --- |\n'
-        for i,(k,v) in enumerate(sorted(D.items(), key=lambda x: len(set([label for _,label in
-            x[1]])), reverse=True)[:20]):
-            txt += '| {0} | {1} | {2} | {3} | {4} |\n'.format(
-                    i+1,
-                    k,
-                    len(set([label for _,label in v])),
-                    len(set([clist for clist,_ in v])),
-                    ', '.join(sorted(set(['«{0}»'.format(label.replace('*','`*`')) for _,label in
-                        v])))
-                    )
+            sum([len(v) for k, v in D.items()]) / len(D),
+            sum([len(set([label for _, label in v])) for k, v in D.items()]) / len(D)
+        )]
 
-        txt += '# Twenty Most Frequent Concept Sets\n\n'
-        txt += '| No. | concept set | distinct labels | concept lists | examples |\n'
-        txt += '| --- | --- | --- | --- | --- |\n'
-        for i,(k,v) in enumerate(sorted(D.items(), key=lambda x: len(set([clist for clist,_ in
-            x[1]])), reverse=True)[:20]):
-            txt += '| {0} | {1} | {2} | {3} | {4} |\n'.format(
-                    i+1,
-                    k,
-                    len(set([label for _,label in v])),
-                    len(set([clist for clist,_ in v])),
-                    ', '.join(sorted(set(['«{0}»'.format(label.replace('*','`*`')) for _,label in
+        txt.append('# Twenty Most Diverse Concept Sets\n')
+        txt.append('| No. | concept set | distinct labels | concept lists | examples |')
+        txt.append('| --- | --- | --- | --- | --- |')
+
+        for i, (k, v) in enumerate(sorted(D.items(), key=lambda x: len(set([label for _, label in
+                x[1]])), reverse=True)[:20]):
+            txt.append('| {0} | {1} | {2} | {3} | {4} |\n'.format(
+                i + 1,
+                k,
+                len(set([label for _,label in v])),
+                len(set([clist for clist,_ in v])),
+                ', '.join(sorted(set(['«{0}»'.format(label.replace('*','`*`')) for _,label in v])))
+            ))
+
+        txt.append('# Twenty Most Frequent Concept Sets\n')
+        txt.append('| No. | concept set | distinct labels | concept lists | examples |')
+        txt.append('| --- | --- | --- | --- | --- |')
+
+        for i, (k, v) in enumerate(sorted(D.items(), key=lambda x: len(set([clist for clist,_ in
+                x[1]])), reverse=True)[:20]):
+            txt.append('| {0} | {1} | {2} | {3} | {4} |\n'.format(
+                i + 1,
+                k,
+                len(set([label for _,label in v])),
+                len(set([clist for clist,_ in v])),
+                ', '.join(sorted(set(['«{0}»'.format(label.replace('*','`*`')) for _,label in
                         v])))
-                    )
+            ))
 
         with dpath.joinpath('README.md').open('w', encoding='utf8') as fp:
             fp.write(txt)
 
     return D, G
-
-

@@ -1,7 +1,5 @@
 from __future__ import unicode_literals
-import os
 import re
-import glob
 import warnings
 from collections import namedtuple
 
@@ -9,8 +7,8 @@ from clldutils.jsonlib import load
 from clldutils.misc import normalize_name
 from clld.lib.bibtex import Database
 
-from concepticondata import data
-from concepticondata.util import data_path, tsv_items, split_ids, PKG_PATH
+from pyconcepticon import data
+from pyconcepticon.util import data_path, tsv_items, split_ids, conceptlists
 
 
 SUCCESS = True
@@ -53,27 +51,14 @@ def read_tsv(path, unique='ID'):
     return rows
 
 
-def read_metadata(path):
-    infiles = glob.glob(os.path.join(path, '*.tsv'))
-    sources = [os.path.split(f)[-1][:-4] for f in infiles]
-    return sources
-
-
-def read_sources(path):
-    infiles = glob.glob(os.path.join(path, '*.pdf'))
-    sources = [os.path.split(f)[-1][:-4] for f in infiles]
-    return sources
-
-
 def test():
     # load bibtex
     bib = Database.from_file(data_path('references', 'references.bib'))
     assert bib
 
-    conceptlists = {
+    cls = {
         cl.name: read_tsv(cl, unique=None)
-        for cl in PKG_PATH.joinpath('conceptlists').glob('*.tsv')
-        if not cl.stem.startswith('.')}
+        for cl in conceptlists() if not cl.stem.startswith('.')}
 
     read_tsv(data_path('concepticon.tsv'))
     concepticon = read_tsv(data_path('concepticon.tsv'), unique='GLOSS')
@@ -87,17 +72,16 @@ def test():
 
     # We collect all cite keys used to refer to references.
     all_refs = set()
-    for source in read_metadata(data_path('concept_set_meta')):
-        specs = load(data_path('concept_set_meta', source + '.tsv-metadata.json'))
-        tsv = read_tsv(
-            data_path('concept_set_meta', source + '.tsv'), unique='CONCEPTICON_ID')
+    for source in data_path('concept_set_meta').glob('*.tsv'):
+        specs = load(source.parent.joinpath(source.stem + '.tsv-metadata.json'))
+        tsv = read_tsv(source, unique='CONCEPTICON_ID')
         cnames = [var['name'] for var in specs['tableSchema']['columns']]
         if not [n for n in cnames if n in list(tsv[0][1])]:
-            error('column names in {0} but not in json-specs'.format(source), 'name')
+            error('column names in {0} but not in json-specs'.format(source.stem), 'name')
         for i, line in tsv:
             if len(line) != len(cnames):
                 error('meta data {0} contains irregular number of columns in line {1}'
-                      .format(source, i), 'name')
+                      .format(source.stem, i), 'name')
         if 'dc:references' in specs:
             all_refs.add(specs['dc:references'])
 
@@ -142,12 +126,12 @@ def test():
     # make also sure that all sources are accompanied as pdf, but only write a
     # warning if this is not the case
     #
-    pdfs = read_sources(data_path('sources'))
-    no_pdf_for_source = []
+    pdfs = [f.stem for f in data_path('sources').glob('*.pdf')]
+    no_pdf_for_source = set()
     for i, cl in read_tsv(clmd):
         for ref in split_ids(cl['PDF']):
             if ref not in pdfs:
-                no_pdf_for_source += [ref]
+                no_pdf_for_source.add(ref)
     
     if no_pdf_for_source:
         warning(
@@ -159,7 +143,7 @@ def test():
         'CONCEPTICON_GLOSS': set(cs[1]['GLOSS'] for cs in concepticon),
     }
 
-    for name, concepts in conceptlists.items():
+    for name, concepts in cls.items():
         try:
             cl = clids[name.replace('.tsv', '')]
         except KeyError:
