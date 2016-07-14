@@ -1,9 +1,10 @@
 from __future__ import unicode_literals
 import re
 from collections import defaultdict
+from functools import partial
 
 from clldutils.path import Path
-from clldutils.dsv import reader, UnicodeWriter, rewrite
+from clldutils import dsv
 
 import pyconcepticon
 
@@ -11,6 +12,33 @@ import pyconcepticon
 REPOS_PATH = Path(pyconcepticon.__file__).parent.parent
 PKG_PATH = Path(pyconcepticon.__file__).parent
 ID_SEP_PATTERN = re.compile('\.|,|;')
+
+rewrite = partial(dsv.rewrite, delimiter='\t')
+
+
+def reader(fname, **kw):
+    kw.setdefault('delimiter', '\t')
+    if not kw.get('dicts'):
+        kw.setdefault('namedtuples', True)
+    return dsv.reader(fname, **kw)
+
+
+def read_one(fname, **kw):
+    for item in reader(fname, **kw):
+        return item
+
+
+def read_all(fname, **kw):
+    return list(reader(fname, **kw))
+
+
+read_dicts = partial(read_all, dicts=True)
+
+
+class UnicodeWriter(dsv.UnicodeWriter):
+    def __init__(self, **kw):
+        kw.setdefault('delimiter', '\t')
+        super(UnicodeWriter, self).__init__(**kw)
 
 
 def unique(iterable):
@@ -25,16 +53,16 @@ def data_path(*comps, **kw):
     return kw.get('repos', REPOS_PATH).joinpath('concepticondata', *comps)
 
 
-def conceptlists(**kw):
-    return data_path('conceptlists', **kw).glob('*.tsv')
+def listdir(name, **kw):
+    return sorted(data_path(name, **kw).glob('*.tsv'), key=lambda p: p.name)
 
 
-def tsv_items(path, ordered=False):
-    return list(reader(path, delimiter='\t', dicts=True))
+conceptlists = partial(listdir, 'conceptlists')
+concept_set_meta = partial(listdir, 'concept_set_meta')
 
 
 def visit(visitor, fname):
-    return rewrite(fname, visitor, delimiter='\t')
+    return rewrite(fname, visitor)
 
 
 def load_conceptlist(idf):
@@ -48,7 +76,7 @@ def load_conceptlist(idf):
         values. Duplicate links are passed as "splits" in a specific entry of the
         dictionary (named "splits").
     """
-    data = tsv_items(idf, ordered=True)
+    data = read_dicts(idf)
     if data:
         clist = dict(header=list(data[0].keys()), splits=[], mergers=[])
         cidxs = defaultdict(list)
@@ -93,7 +121,7 @@ def write_conceptlist(clist, filename, header=False):
     """
     header = header or clist['header']
     keys = natural_sort(list(clist.keys()))
-    with UnicodeWriter(filename, delimiter='\t') as writer:
+    with UnicodeWriter(filename) as writer:
         writer.writerow(header)
         for k in keys:
             v = clist[k]

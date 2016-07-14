@@ -2,11 +2,12 @@
 from __future__ import unicode_literals, division
 from collections import Counter, defaultdict
 
-from clldutils.dsv import reader, rewrite
 from clldutils.badge import badge, Colors
 from clldutils.path import Path
 
-from pyconcepticon.util import data_path, conceptlists
+from pyconcepticon.util import (
+    data_path, conceptlists, rewrite, read_dicts, read_all, read_one, concept_set_meta,
+)
 
 
 class Linker(object):
@@ -16,7 +17,7 @@ class Linker(object):
             'CONCEPTICON_ID': {},  # maps ID to GLOSS
             'CONCEPTICON_GLOSS': {},  # maps GLOSS to ID
         }
-        for cs in reader(data_path('concepticon.tsv'), dicts=True, delimiter='\t'):
+        for cs in read_dicts(data_path('concepticon.tsv')):
             self.concepts['CONCEPTICON_ID'][cs['ID']] = cs['GLOSS']
             self.concepts['CONCEPTICON_GLOSS'][cs['GLOSS']] = cs['ID']
 
@@ -78,22 +79,37 @@ concepticon link <concept-list>
         conceptlist = data_path('conceptlists', args.args[0])
         assert conceptlist.exists()
 
-    rewrite(conceptlist, Linker(conceptlist.name.replace('.tsv', '')), delimiter='\t')
+    rewrite(conceptlist, Linker(conceptlist.stem))
+
+
+def readme(outdir, text):
+    with outdir.joinpath('README.md').open('w', encoding='utf8') as fp:
+        if isinstance(text, list):
+            text = '\n'.join(text)
+        fp.write(text)
 
 
 def stats(args):
+    """\
+write statistics to README
+
+concepticon stats
     """
-    write statistics to README
-    """
+    cls = [(cl, read_all(cl)) for cl in conceptlists()]
+    readme_conceptlists(cls)
+    readme_concept_list_meta()
+    readme_concepticondata(cls)
+
+
+def readme_conceptlists(cls):
     lines = [
         '## Concept Lists',
         '',
         ' name | mapped | mergers ',
         ' ---- | ------ | ------- ',
     ]
-    
-    for cl in sorted(conceptlists(), key=lambda _cl: _cl.name):
-        concepts = list(reader(cl, namedtuples=True, delimiter='\t'))
+
+    for cl, concepts in cls:
         mapped = len([c for c in concepts if c.CONCEPTICON_ID])
         mapped_ratio = int((mapped / len(concepts)) * 100)
         concepticon_ids = Counter(
@@ -114,64 +130,53 @@ def stats(args):
 
         lines.append(' | '.join(line))
 
-    with data_path('conceptlists', 'README.md').open('w', encoding='utf8') as fp:
-        fp.write('\n'.join(lines))
+    readme(data_path('conceptlists'), lines)
 
 
-def metadata(write_stats=True):
+def readme_concept_list_meta():
     """Writes statistics on metadata to readme."""
-    txt = '# Basic Statistics on Metadata\n\n'
-    cnc = list(reader(data_path('concepticon.tsv'), namedtuples=True, delimiter="\t"))
-    for i, cl in enumerate(data_path('concept_set_meta').glob('*.tsv')):
-        data = list(reader(cl, namedtuples=True, delimiter="\t"))
-        txt += '* {0} covers {1} concept sets ({2:.2f} %)\n'.format(
-            cl.name[:-4], len(data), len(data) / len(cnc))
-    if write_stats:
-        with data_path('concept_set_meta', 'README.md').open('w', encoding='utf8') as fp:
-            fp.write(txt)
+    txt = ['# Basic Statistics on Metadata\n']
+    cnc = len(read_all(data_path('concepticon.tsv')))
+    res = Counter([(cl.stem, len(read_all(cl))) for cl in concept_set_meta()])
+    for name, n in res.most_common():
+        txt.append('* {0} covers {1} concept sets ({2:.2f} %)'.format(name, n, n / cnc))
+    readme(data_path('concept_set_meta'), txt)
 
 
-def list_attributes(write_stats=True):
+def attributes(args):
     """Calculate the addditional attributes in the lists."""
-    D = defaultdict(list)
-    for i, cl in enumerate(conceptlists()):
+    attrs = Counter()
+    for cl in conceptlists():
         header = [
-            h for h in list(reader(cl, delimiter="\t"))[0] if h not in [
+            h for h in read_one(cl)._fields if h not in [
                 'ID', 'CONCEPTICON_ID', 'CONCEPTICON_GLOSS', 'ENGLISH', 'GLOSS', 'NUMBER'
             ]]
-        for h in header:
-            D[h].append(cl.name)
+        attrs.update(header)
+
     txt = '# Common Additional Columns of Concept Lists\n'
-    for k, v in sorted(D.items(), key=lambda x: len(x[1]), reverse=True):
-        txt += '* {2} occurences: {0}, {1}\n'.format(k, ', '.join(v), len(v))
+    for k, v in attrs.most_common():
+        txt += '* {0} {1} occurences\n'.format(k, v)
     print(txt)
 
 
-def reflexes(write_stats=True, path='concepticondata'):
+def readme_concepticondata(cls):
     """
     Returns a dictionary with concept set label as value and tuples of concept
     list identifier and concept label as values.
     """
     D, G = defaultdict(list), defaultdict(list)
-    cpl = 0
-    cln = 0
-    clb = set()
-    
-    dpath = Path(path) if path else data_path()
-    
-    for i, cl in enumerate(dpath.joinpath('conceptlists').glob('*.tsv')):
-        concepts = list(reader(cl, namedtuples=True, delimiter="\t"))
-        for j, concept in enumerate([c for c in concepts if c.CONCEPTICON_ID]):
+    labels = Counter()
+
+    for cl, concepts in cls:
+        for j, concept in enumerate(c for c in concepts if c.CONCEPTICON_ID):
             label = concept.GLOSS if hasattr(concept, 'GLOSS') else concept.ENGLISH
-            name = cl.name
-            D[concept.CONCEPTICON_GLOSS].append((name, label))
-            G[label].append((concept.CONCEPTICON_ID, concept.CONCEPTICON_GLOSS, name))
-            clb.add(label)
-            cpl += 1
-        cln += 1
-    # write basic statistics and most frequent glosses
-    if write_stats:
-        txt = ["""# Concepticon Statistics
+            D[concept.CONCEPTICON_GLOSS].append((cl.name, label))
+            G[label].append((concept.CONCEPTICON_ID, concept.CONCEPTICON_GLOSS, cl.name))
+            labels.update([label])
+
+    txt = [
+        """
+# Concepticon Statistics
 * concept sets (used): {0}
 * concept lists: {1}
 * concept labels: {2}
@@ -182,44 +187,32 @@ def reflexes(write_stats=True, path='concepticondata'):
 
 """.format(
             len(D),
-            cln,
-            cpl,
-            len(clb),
-            cpl / cln,
+            len(cls),
+            sum(list(labels.values())),
+            len(labels),
+            sum(list(labels.values())) / len(cls),
             sum([len(v) for k, v in D.items()]) / len(D),
-            sum([len(set([label for _, label in v])) for k, v in D.items()]) / len(D)
-        )]
+            sum([len(set([label for _, label in v])) for k, v in D.items()]) / len(D))
+    ]
 
-        txt.append('# Twenty Most Diverse Concept Sets\n')
-        txt.append('| No. | concept set | distinct labels | concept lists | examples |')
-        txt.append('| --- | --- | --- | --- | --- |')
-
-        for i, (k, v) in enumerate(sorted(D.items(), key=lambda x: len(set([label for _, label in
-                x[1]])), reverse=True)[:20]):
+    for attr, key in [
+        ('Diverse', lambda x: (len(set([label for _, label in x[1]])), x[0])),
+        ('Frequent', lambda x: (len(set([clist for clist, _ in x[1]])), x[0])),
+    ]:
+        txt.extend([
+            '# Twenty Most %s Concept Sets\n' % attr,
+            '| No. | concept set | distinct labels | concept lists | examples |',
+            '| --- | --- | ---:| ---:| --- |',
+        ])
+        for i, (k, v) in enumerate(sorted(D.items(), key=key, reverse=True)[:20]):
             txt.append('| {0} | {1} | {2} | {3} | {4} |\n'.format(
                 i + 1,
                 k,
-                len(set([label for _,label in v])),
-                len(set([clist for clist,_ in v])),
-                ', '.join(sorted(set(['«{0}»'.format(label.replace('*','`*`')) for _,label in v])))
+                len(set([label for _, label in v])),
+                len(set([clist for clist, _ in v])),
+                ', '.join(sorted(set(
+                    ['«{0}»'.format(label.replace('*', '`*`')) for _, label in v])))
             ))
 
-        txt.append('# Twenty Most Frequent Concept Sets\n')
-        txt.append('| No. | concept set | distinct labels | concept lists | examples |')
-        txt.append('| --- | --- | --- | --- | --- |')
-
-        for i, (k, v) in enumerate(sorted(D.items(), key=lambda x: len(set([clist for clist,_ in
-                x[1]])), reverse=True)[:20]):
-            txt.append('| {0} | {1} | {2} | {3} | {4} |\n'.format(
-                i + 1,
-                k,
-                len(set([label for _,label in v])),
-                len(set([clist for clist,_ in v])),
-                ', '.join(sorted(set(['«{0}»'.format(label.replace('*','`*`')) for _,label in
-                        v])))
-            ))
-
-        with dpath.joinpath('README.md').open('w', encoding='utf8') as fp:
-            fp.write(txt)
-
+    readme(data_path(), txt)
     return D, G
