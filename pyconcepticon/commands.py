@@ -4,6 +4,7 @@ from collections import Counter, defaultdict
 
 from clldutils.badge import badge, Colors
 from clldutils.path import Path
+from clldutils.clilib import ParserError
 
 from pyconcepticon.util import (
     data_path, conceptlists, rewrite, read_dicts, read_all, read_one, concept_set_meta,
@@ -75,9 +76,10 @@ CONCEPTICON_ID is given, the other is added.
 concepticon link <concept-list>
 """
     conceptlist = Path(args.args[0])
-    if not conceptlist.exists():
+    if not conceptlist.exists() or not conceptlist.is_file():
         conceptlist = data_path('conceptlists', args.args[0])
-        assert conceptlist.exists()
+        if not conceptlist.exists() or not conceptlist.is_file():
+            raise ParserError('no file %s found' % args.args[0])
 
     rewrite(conceptlist, Linker(conceptlist.stem))
 
