@@ -1,11 +1,6 @@
 from setuptools import setup, find_packages
 
 
-requires = [
-    'clldutils>=0.2',
-    'clld'
-]
-
 setup(
     name='pyconcepticon',
     version='0.1',
@@ -18,13 +13,16 @@ setup(
         "Programming Language :: Python :: 3.4",
     ],
     author='',
-    author_email='',
+    author_email='forkel@shh.mpg.de',
     url='',
     keywords='data linguistics',
     packages=find_packages(),
     include_package_data=True,
     zip_safe=False,
-    install_requires=requires,
+    install_requires=[
+        'clldutils>=1.0.1',
+        'clld'
+    ],
     entry_points={
         'console_scripts': [
             'concepticon=pyconcepticon.cli:main',

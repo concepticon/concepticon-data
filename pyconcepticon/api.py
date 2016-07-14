@@ -3,7 +3,7 @@ from __future__ import unicode_literals, print_function, division
 
 from clldutils.path import Path
 
-from concepticondata.util import data_path, REPOS_PATH, tsv_items
+from pyconcepticon.util import REPOS_PATH, data_path, read_dicts
 
 
 class Concepticon(object):
@@ -13,5 +13,8 @@ class Concepticon(object):
     def data_path(self, *comps):
         return data_path(*comps, **{'repos': self.repos})
 
+    def conceptsets(self):
+        return read_dicts(self.data_path('concepticon.tsv'))
+
     def conceptlist(self, id_):
-        return tsv_items(self.data_path('conceptlists', id_ + '.tsv'), ordered=True)
+        return read_dicts(self.data_path('conceptlists', id_ + '.tsv'))
