@@ -33,3 +33,35 @@ $ bibtool -r concepticondata/references/bibtool.rsc -o concepticondata/reference
   - add the DOI badge to the release description on GitHub.
 - Create a [new milestone](https://github.com/clld/concepticon-data/milestones) to
   link to issues for the next version.
+
+
+Releasing pyconcepticon
+=======================
+
+- Make sure the tests pass
+```
+nosetests
+```
+
+- Bump version number:
+  - Change the version number in `setup.py` and commit the change:
+```
+git commit -a -m"bumped version number"
+```
+
+- Create a release tag:
+```
+git tag -a v0.2 -m"first version to be released on pypi"
+```
+
+- Push to github:
+```
+git push origin
+git push --tags
+```
+
+- Release to PyPI:
+```
+python setup.py sdist register upload
+```
+
