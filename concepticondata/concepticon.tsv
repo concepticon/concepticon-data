@@ -206,7 +206,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 205	TROUGH	The house	A long, narrow container, open on top, for feeding or watering animals.	Person/Thing
 206	FIREFLY	Animals	A nocturnal, bioluminescent beetle of the family Lampyridae.	Person/Thing
 207	SPARSE	Quantity	Occupied or populated by a small number of people.	Property
-208	NASAL MUCUS, SNOT	The body	Mucus from the nose.	Person/Thing
+208	NASAL MUCUS (SNOT)	The body	Mucus from the nose.	Person/Thing
 209	RARE	Possession	Not easily found.	Property
 210	LIFE	The body	The state of being.	Person/Thing
 211	CAST	Basic actions and technology	To pour [a hardenable liquid material, like metal, plaster, glass, concrete etc.] into a mold in order to produce a solid object of the shape of the mold.	Action/Process
@@ -2630,3 +2630,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2630	WHIP	Modern world	A tool traditionally used by humans to exert control over animals.	Person/Thing
 2631	WIRE	Modern world	A single, usually cylindrical, flexible strand or rod of metal.	Person/Thing
 2632	AREA UNDER HOUSE	The house	The area under a house.	Person/Thing
+2633	BLACK OR DARK	Sense perception	Either the color or the absence of light.	Property
+2634	WE TWO	Kinship	The speaker and exactly one other person.	Other
+2635	THEY TWO	Kinship	The third person dual of the personal pronoun.	Other
+2636	WE TWO (EXCLUSIVE)	Kinship	Exclusive dual of the first person: I and exactly one other person, but not the addressed person (you).	Other
+2637	WE TWO (INCLUSIVE)	Kinship	Inclusive dual of the first person: I and exactly one other person, including the addressed person (you).	Other
