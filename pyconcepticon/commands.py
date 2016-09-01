@@ -140,7 +140,7 @@ def readme_concept_list_meta():
     txt = ['# Basic Statistics on Metadata\n']
     cnc = len(read_all(data_path('concepticon.tsv')))
     res = Counter([(cl.stem, len(read_all(cl))) for cl in concept_set_meta()])
-    for name, n in res.most_common():
+    for (name, n), _x in res.most_common():
         txt.append('* {0} covers {1} concept sets ({2:.2f} %)'.format(name, n, n / cnc))
     readme(data_path('concept_set_meta'), txt)
 
@@ -207,7 +207,7 @@ def readme_concepticondata(cls):
             '| --- | --- | ---:| ---:| --- |',
         ])
         for i, (k, v) in enumerate(sorted(D.items(), key=key, reverse=True)[:20]):
-            txt.append('| {0} | {1} | {2} | {3} | {4} |\n'.format(
+            txt.append('| {0} | {1} | {2} | {3} | {4} |'.format(
                 i + 1,
                 k,
                 len(set([label for _, label in v])),
