@@ -16,5 +16,8 @@ class Concepticon(object):
     def conceptsets(self):
         return read_dicts(self.data_path('concepticon.tsv'))
 
+    def conceptlists(self):
+        return read_dicts(self.data_path('conceptlists.tsv'))
+
     def conceptlist(self, id_):
         return read_dicts(self.data_path('conceptlists', id_ + '.tsv'))
