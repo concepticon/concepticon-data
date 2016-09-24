@@ -36,9 +36,9 @@ read_dicts = partial(read_all, dicts=True)
 
 
 class UnicodeWriter(dsv.UnicodeWriter):
-    def __init__(self, **kw):
+    def __init__(self, *args, **kw):
         kw.setdefault('delimiter', '\t')
-        super(UnicodeWriter, self).__init__(**kw)
+        super(UnicodeWriter, self).__init__(*args, **kw)
 
 
 def unique(iterable):
@@ -93,7 +93,7 @@ def load_conceptlist(idf):
                         if not item[k]:
                             item[k] = v
                     clist['splits'].append(item)
-                else:
+                else:  # pragma: no cover
                     raise ValueError("item {0} is wrong".format(item))
             cidxs[previous_item['CONCEPTICON_ID']].append(previous_item['ID'])
 

@@ -51,7 +51,7 @@ git commit -a -m"bumped version number"
 
 - Create a release tag:
 ```
-git tag -a v0.2 -m"first version to be released on pypi"
+git tag -a pyconcepticon-0.2 -m"first version to be released on pypi"
 ```
 
 - Push to github:

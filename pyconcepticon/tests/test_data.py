@@ -38,10 +38,16 @@ def warning(msg, name, line=''):  # pragma: no cover
 def read_tsv(path, unique='ID'):
     uniquevalues = set()
     rows = []
+    keys = None
     for line, row in enumerate(read_dicts(path)):
         line += 2
         if None in row:
             error('too many columns', path, line)  # pragma: no cover
+        if keys is None:
+            keys = list(row.keys())
+        else:
+            if list(row.keys()) != keys:
+                error('inconsistent row columns', path, line)  # pragma: no cover
         if unique:
             if unique not in row:  # pragma: no cover
                 error('unique key missing: %s' % unique, path, line)
