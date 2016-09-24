@@ -9,8 +9,7 @@ Refine the data by replacing glosses by the concepticon.tsv glosses.
 __author__="Johann-Mattis List"
 __date__="2015-04-21"
 
-
-from concepticondata.util import *
+from pyconcepticon.util import load_conceptlist, write_conceptlist
 from lingpy import *
 from glob import glob
 from sys import argv
