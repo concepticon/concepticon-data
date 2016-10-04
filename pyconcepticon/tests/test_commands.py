@@ -26,6 +26,11 @@ class Tests(WithTempDir):
         link(Mock(args=[test]))
         self.assertEqual(nattr(test, 'CONCEPTICON_GLOSS'), 1)
 
+        copy(Path(__file__).parent.joinpath('fixtures', 'conceptlist2.tsv'), test)
+        with capture(link, Mock(args=[test])) as out:
+            self.assertIn('unknown CONCEPTICON_GLOSS', out)
+            self.assertIn('mismatch', out)
+
     def test_readme(self):
         from pyconcepticon.commands import readme
 
