@@ -3,17 +3,43 @@ import re
 from collections import defaultdict
 from functools import partial
 
+from tabulate import tabulate
 from clldutils.path import Path
 from clldutils import dsv
+from clldutils import jsonlib
 
 import pyconcepticon
-
 
 REPOS_PATH = Path(pyconcepticon.__file__).parent.parent
 PKG_PATH = Path(pyconcepticon.__file__).parent
 ID_SEP_PATTERN = re.compile('\.|,|;')
+PREFIX = 'CONCEPTICON'
+CS_GLOSS = PREFIX + '_GLOSS'
+CS_ID = PREFIX + '_ID'
 
 rewrite = partial(dsv.rewrite, delimiter='\t')
+
+
+class MarkdownTable(list):
+    def __init__(self, *cols):
+        self.columns = list(cols)
+        list.__init__(self)
+
+    def render(
+            self, fmt='pipe', sortkey=None, condensed=True, verbose=False, reverse=False):
+        res = tabulate(
+            sorted(self, key=sortkey, reverse=reverse) if sortkey else self,
+            self.columns,
+            fmt,
+            floatfmt='.2f')
+        if fmt == 'pipe':
+            if condensed:
+                # remove whitespace padding around column content:
+                res = re.sub('\|[ ]+', '| ', res)
+                res = re.sub('[ ]+\|', ' |', res)
+            if verbose:
+                res += '\n\n(%s rows)\n\n' % len(self)
+        return res
 
 
 def reader(fname, **kw):
@@ -30,6 +56,13 @@ def read_one(fname, **kw):
 
 def read_all(fname, **kw):
     return list(reader(fname, **kw))
+
+
+def read_metadata(fname):
+    mdname = fname.parent.joinpath(fname.name + '-metadata.json')
+    if mdname.exists():
+        return jsonlib.load(mdname)
+    return {}  # pragma: no cover
 
 
 read_dicts = partial(read_all, dicts=True)
@@ -95,7 +128,7 @@ def load_conceptlist(idf):
                     clist['splits'].append(item)
                 else:  # pragma: no cover
                     raise ValueError("item {0} is wrong".format(item))
-            cidxs[previous_item['CONCEPTICON_ID']].append(previous_item['ID'])
+            cidxs[previous_item[CS_ID]].append(previous_item['ID'])
 
         clist['mergers'] = [cidxs[k] for k in cidxs if len(cidxs[k]) > 1]
         return clist

@@ -1,13 +1,14 @@
 # coding:utf8
 from __future__ import unicode_literals, division
 from collections import Counter, defaultdict
+from operator import itemgetter
 
-from clldutils.badge import badge, Colors
 from clldutils.path import Path
 from clldutils.clilib import ParserError
 
 from pyconcepticon.util import (
     data_path, conceptlists, rewrite, read_dicts, read_all, read_one, concept_set_meta,
+    MarkdownTable, read_metadata, CS_ID, CS_GLOSS,
 )
 
 
@@ -15,12 +16,12 @@ class Linker(object):
     def __init__(self, clid):
         self.clid = clid
         self.concepts = {
-            'CONCEPTICON_ID': {},  # maps ID to GLOSS
-            'CONCEPTICON_GLOSS': {},  # maps GLOSS to ID
+            CS_ID: {},  # maps ID to GLOSS
+            CS_GLOSS: {},  # maps GLOSS to ID
         }
         for cs in read_dicts(data_path('concepticon.tsv')):
-            self.concepts['CONCEPTICON_ID'][cs['ID']] = cs['GLOSS']
-            self.concepts['CONCEPTICON_GLOSS'][cs['GLOSS']] = cs['ID']
+            self.concepts[CS_ID][cs['ID']] = cs['GLOSS']
+            self.concepts[CS_GLOSS][cs['GLOSS']] = cs['ID']
 
         self._cid_index = None
         self._cgloss_index = None
@@ -29,21 +30,20 @@ class Linker(object):
 
     def __call__(self, i, row):
         if i == 0:
-            assert ('CONCEPTICON_ID' in row) or ('CONCEPTICON_GLOSS' in row)
+            assert (CS_ID in row) or (CS_GLOSS in row)
             assert 'NUMBER' in row
-            if ('CONCEPTICON_ID' in row) and ('CONCEPTICON_GLOSS' in row):
-                self._cid_index = row.index('CONCEPTICON_ID')
-                self._cgloss_index = row.index('CONCEPTICON_GLOSS')
+            if (CS_ID in row) and (CS_GLOSS in row):
+                self._cid_index = row.index(CS_ID)
+                self._cgloss_index = row.index(CS_GLOSS)
             else:
                 # either CONCEPTICON_ID or CONCEPTICON_GLOSS is given, and the other is
                 # missing.
+                add = {
+                    CS_ID: CS_GLOSS,
+                    CS_GLOSS: CS_ID}
                 for j, col in enumerate(row):
-                    if col == 'CONCEPTICON_ID':
-                        row = ['CONCEPTICON_GLOSS'] + row
-                        self._link_col = (j, col)
-                        break
-                    if col == 'CONCEPTICON_GLOSS':
-                        row = ['CONCEPTICON_ID'] + row
+                    if col in add:
+                        row = [add[col]] + row
                         self._link_col = (j, col)
                         break
             if 'ID' not in row:
@@ -57,7 +57,7 @@ class Linker(object):
                 print('unknown %s: %s' % (self._link_col[1], row[self._link_col[0]]))
             row = [val] + row
         else:
-            cid = self.concepts['CONCEPTICON_GLOSS'].get(row[self._cgloss_index], '')
+            cid = self.concepts[CS_GLOSS].get(row[self._cgloss_index], '')
             if not cid:
                 print('unknown CONCEPTICON_GLOSS: %s' % row[self._cgloss_index])
             elif cid != row[self._cid_index]:
@@ -104,45 +104,31 @@ concepticon stats
 
 
 def readme_conceptlists(cls):
-    lines = [
-        '## Concept Lists',
-        '',
-        ' name | mapped | mergers ',
-        ' ---- | ------ | ------- ',
-    ]
-
+    table = MarkdownTable('name', '# mapped', '% mapped', 'mergers')
     for cl, concepts in cls:
         mapped = len([c for c in concepts if c.CONCEPTICON_ID])
         mapped_ratio = int((mapped / len(concepts)) * 100)
         concepticon_ids = Counter(
             [c.CONCEPTICON_ID for c in concepts if c.CONCEPTICON_ID])
         mergers = len([k for k, v in concepticon_ids.items() if v > 1])
-
-        line = [
-            '[%s](%s) ' % (cl.stem, cl.name),
-            badge(
-                'mapped',
-                '%s%%' % mapped_ratio,
-                Colors.red if mapped_ratio < 99 else Colors.brightgreen),
-            badge(
-                'mergers',
-                '%s' % mergers,
-                Colors.red if mergers else Colors.brightgreen),
-        ]
-
-        lines.append(' | '.join(line))
-
-    readme(data_path('conceptlists'), lines)
+        table.append(['[%s](%s) ' % (cl.stem, cl.name), mapped, mapped_ratio, mergers])
+    readme(
+        data_path('conceptlists'),
+        '# Concept Lists\n\n{0}'.format(table.render(verbose=True)))
 
 
 def readme_concept_list_meta():
     """Writes statistics on metadata to readme."""
-    txt = ['# Basic Statistics on Metadata\n']
+    txt = '# Basic Statistics on Metadata\n\n{0}'
     cnc = len(read_all(data_path('concepticon.tsv')))
-    res = Counter([(cl.stem, len(read_all(cl))) for cl in concept_set_meta()])
-    for (name, n), _x in res.most_common():
-        txt.append('* {0} covers {1} concept sets ({2:.2f} %)'.format(name, n, n / cnc))
-    readme(data_path('concept_set_meta'), txt)
+    table = MarkdownTable('provider', 'ID', '# concept sets', '% coverage')
+    for meta in concept_set_meta():
+        metameta = read_metadata(meta)
+        n = len(read_all(meta))
+        table.append([metameta.get('dc:title'), meta.stem, n, (n / cnc) * 100])
+    readme(
+        data_path('concept_set_meta'),
+        txt.format(table.render(sortkey=itemgetter(1), reverse=True, condensed=False)))
 
 
 def attributes(args):
@@ -151,7 +137,7 @@ def attributes(args):
     for cl in conceptlists():
         header = [
             h for h in read_one(cl)._fields if h not in [
-                'ID', 'CONCEPTICON_ID', 'CONCEPTICON_GLOSS', 'ENGLISH', 'GLOSS', 'NUMBER'
+                'ID', CS_ID, CS_GLOSS, 'ENGLISH', 'GLOSS', 'NUMBER'
             ]]
         attrs.update(header)
 
@@ -201,20 +187,18 @@ def readme_concepticondata(cls):
         ('Diverse', lambda x: (len(set([label for _, label in x[1]])), x[0])),
         ('Frequent', lambda x: (len(set([clist for clist, _ in x[1]])), x[0])),
     ]:
-        txt.extend([
-            '# Twenty Most %s Concept Sets\n' % attr,
-            '| No. | concept set | distinct labels | concept lists | examples |',
-            '| --- | --- | ---:| ---:| --- |',
-        ])
+        table = MarkdownTable(
+            'No.', 'concept set', 'distinct labels', 'concept lists', 'examples')
         for i, (k, v) in enumerate(sorted(D.items(), key=key, reverse=True)[:20]):
-            txt.append('| {0} | {1} | {2} | {3} | {4} |'.format(
+            table.append([
                 i + 1,
                 k,
                 len(set([label for _, label in v])),
                 len(set([clist for clist, _ in v])),
                 ', '.join(sorted(set(
                     ['«{0}»'.format(label.replace('*', '`*`')) for _, label in v])))
-            ))
+            ])
+        txt.append('## Twenty Most {0} Concept Sets\n\n{1}\n'.format(attr, table.render()))
 
     readme(data_path(), txt)
     return D, G

@@ -21,7 +21,8 @@ setup(
     zip_safe=False,
     install_requires=[
         'clldutils>=1.0.1',
-        'clld'
+        'clld',
+        'tabulate',
     ],
     entry_points={
         'console_scripts': [

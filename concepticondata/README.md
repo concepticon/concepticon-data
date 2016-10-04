@@ -9,10 +9,10 @@
 * Ø unique concept labels per concept set: 3.28
 
 
-# Twenty Most Diverse Concept Sets
+## Twenty Most Diverse Concept Sets
 
 | No. | concept set | distinct labels | concept lists | examples |
-| --- | --- | ---:| ---:| --- |
+|------:|:------------------------|------------------:|----------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1 | THOU | 34 | 123 | «$thou», «2sg pronoun», «THOU», «Thou», «YOU», «You», «[2P:SG] thou», «`*`thou», «`*`you (sg)», «`*`you», «second person marker», «thou (2s)», «thou (you sg.)», «thou [second person singular]», «thou, you (p)», «thou, you (pronoun)», «thou/thee [second person sg. pronoun]», «thou/thee», «thou», «you (2 p.s.)», «you (2.Sg.)», «you (2s.)», «you (int. sing.)», «you (sg)», «you (sg.)», «you (sig.)», «you (sing.) (thou)», «you (sing.)», «you (singular)», «you (thou)», «you sg.», «you, sg», «you.SG», «you» |
 | 2 | FAT (ORGANIC SUBSTANCE) | 31 | 88 | «$fat/grease», «(its) fat», «FAT (SUBSTANCE)», «FAT, GREASE», «FAT2, GREASE», «Fat (n.)», «GREASE/FAT», «Grease», «`*`fat(grease) / fat», «`*`fat-grease», «`*`fat/grease», «fat (grease)», «fat (n)», «fat (n.)», «fat (nn.)», «fat (noun)», «fat (organic substance)», «fat (organic substance; grease)», «fat / grease», «fat [nn]», «fat, grease (substance)», «fat, grease», «fat-grease», «fat/grease», «fat», «grease (fat)», «grease [= fat/grease]», «grease(fat)», «grease, fat», «grease», «the grease or fat» |
 | 3 | PERSON | 26 | 116 | «MAN, (PERSON)», «MAN2, (PERSON)», «PERSON», «Person», «`*`human being», «`*`person (human being)», «`*`person/human being», «`*`person», «human being», «human», «man (homo)», «man (human being)», «man (human)», «man (person)», «man SW person», «man, human being», «person (e.g. room for one person only)», «person (n)», «person (noun)», «person, Aborigine», «person, aborigine», «person, human being», «person, human», «person/human being», «person», «the person» |
@@ -33,10 +33,11 @@
 | 18 | I | 18 | 126 | «1sg pronoun», «I (1.Sg.)», «I (1s)», «I (1sg.)», «I (familiar)», «I (p)», «I (pronoun)», «I [I and me, if stems are suppletive]», «I [first person singular]», «I(1 p.s.)», «I, me», «I/me [first person sg. pronoun]», «I/me», «I», «`*`I», «`*`i», «first person marker», «i» |
 | 19 | DRY | 18 | 103 | «(it is) dry», «DRY (SUBSTANCE)», «DRY», «Dry (adj.)», «Dry», «`*`dry», «`*`to dry (sth.)», «dry (N, Adj)», «dry (a. general term, b. to dry up)», «dry (a.)», «dry (adjective)», «dry (cloth)», «dry (e.g. of clothes)», «dry (substance)», «dry--», «dry», «to be dry», «to dry» |
 | 20 | CORRECT (RIGHT) | 18 | 51 | «RIGHT (CORRECT)», «`*`correct/true», «`*`correct», «correct (adj.)», «correct (right)», «correct [OBJ]», «correct, true», «correct/true», «correct», «just right», «right (adj., vs. wrong)», «right (correct)», «right(2)», «right, correct», «right-correct», «right/correct», «right», «to be correct» |
-# Twenty Most Frequent Concept Sets
+
+## Twenty Most Frequent Concept Sets
 
 | No. | concept set | distinct labels | concept lists | examples |
-| --- | --- | ---:| ---:| --- |
+|------:|:--------------|------------------:|----------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1 | TOOTH | 17 | 144 | «(its) tooth», «TOOTH (FRONT)», «TOOTH», «Teeth», «Tooth», «`*`tooth», «teeth, tooth (noun)», «teeth», «the tooth», «tooth (front rather than molar)», «tooth (incisor)», «tooth (molar)», «tooth (noun)», «tooth (rather not molar)», «tooth+», «tooth`*`», «tooth» |
 | 2 | WATER | 11 | 143 | «WATER», «Water», «`*`water», «the water (one mouth of water)», «the water», «water (1)», «water (2)», «water (fresh water)», «water (noun)», «water+», «water» |
 | 3 | EYE | 12 | 142 | «(its) eye», «EYE», «Eyes», «Eye», «`*`eye», «eye (1)», «eye (2)», «eye (noun)», «eye`*`», «eyeball», «eye», «the eye» |
