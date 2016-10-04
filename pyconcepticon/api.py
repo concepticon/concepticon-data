@@ -21,3 +21,6 @@ class Concepticon(object):
 
     def conceptlist(self, id_):
         return read_dicts(self.data_path('conceptlists', id_ + '.tsv'))
+
+    def metadata(self, id_):
+        return read_dicts(self.data_path('concept_set_meta', id_ + '.tsv'))
