@@ -1,17 +1,22 @@
-# Concepticon-Data
+# CLLD Concepticon
 
-[![Build Status](https://travis-ci.org/clld/concepticon-data.svg?branch=master)](https://travis-ci.org/clld/concepticon-data)
+The data underlying the [Concepticon](http://concepticon.clld.org) of the [CLLD](http://clld.org) project is maintained in this repository. Here, you can find 
 
-This repository offers the raw data underlying the [Concepticon](http://concepticon.clld.org) of the [CLLD](http://clld.org) project. Here, you can find [previous and latest releases](https://github.com/clld/concepticon-data/releases), [current issues we are trying to handle](https://github.com/clld/concepticon-data/issues), as well as the [most actual unreleased form of the data](https://github.com/clld/concepticon-data/tree/master/concepticondata).
+* [previous and current releases](https://github.com/clld/concepticon-data/releases), 
+* [issues we are trying to handle](https://github.com/clld/concepticon-data/issues), as well as the 
+* [current unreleased form of the data](https://github.com/clld/concepticon-data/tree/master/concepticondata).
 
-Further information you may find here and which you may find interesting:
+The repository also contains the sources of [`pyconcepticon`](#pyconcepticon), a python package providing an API to access and manipulate the Concepticon data.
+
+
+## Concepticon Data
 
 * For an overview on the status of all currently linked conceptlists, see [here](https://github.com/clld/concepticon-data/blob/master/concepticondata/conceptlists/README.md).
 * For basic information on metadata, see [here](https://github.com/clld/concepticon-data/blob/master/concepticondata/concept_set_meta/README.md).
 * For information on how you can contribute to the project or profit from the data sources we offer, see [here](https://github.com/clld/concepticon-data/blob/master/CONTRIBUTING.md).
 
 
-## Data Structure
+### Data Structure
 
 - **conceptlists/** folder contains conceptlists with links to IDs in concepticon.tsv, the 
   lists are named after the first person who proposed them, the year of the reference publication 
@@ -34,4 +39,65 @@ Further information you may find here and which you may find interesting:
   [Model for Tabular Data and Metadata on the Web](http://www.w3.org/TR/tabular-data-model/).
 
 
+<a id="pyconcepticon"> </a>
+## `pyconcepticon`
 
+[![Build Status](https://travis-ci.org/clld/concepticon-data.svg?branch=master)](https://travis-ci.org/clld/concepticon-data)
+
+### Installation
+
+`pyconcepticon` can be installed from [PyPI](https://pypi.python.org/pypi), e.g. using pip
+```
+pip install pyconcepticon
+```
+This will install the latest released version.
+
+Alternatively (in particular if you want to hack on `pyconcepticon`), you can install from a clone of this repository;
+i.e. running
+```
+python setup.py develop
+```
+in the top-level directory of your clone of `concepticon-data`.
+
+
+### Usage
+
+To use `pyconcepticon` you must have a local copy of the Concepticon data, i.e. either
+
+* the sources of a [released version](https://github.com/clld/concepticon-data/releases), as provided in the **Downloads** section of a release, or
+* a clone of this repository (or your personal fork of it).
+
+Assuming you have downloaded release 1.0.2 and unpacked the sources to a directory `concepticon-data-1.0.2`, you can access
+the data as follows:
+```python
+>>> from pyconcepticon.api import Concepticon
+>>> concepticon = Concepticon('concepticon-data-1.0.2')
+>>> clists = concepticon.conceptlists()
+>>> for item in clists[0].items():
+...     print '%s: %s' % item
+... 
+ID: Kessler-2001-200
+AUTHOR: Kessler, Brett
+YEAR: 2001
+LIST_SUFFIX: 
+ITEMS: 200
+TAGS: basic
+SOURCE_LANGUAGE: English
+TARGET_LANGUAGE: global
+URL: 
+REFS: Kessler2001
+PDF: 
+NOTE: This list was used to test various methods for the proof of language relationship. It is supposed to follow strictly the [200-item list of Swadesh (1952)](:ref:Swadesh-1952-200).
+PAGES: 202-258
+>>> concepts = concepticon.conceptlist(clists[0]['ID'])
+>>> len(concepts)
+200
+>>> for item in concepts[0].items():
+...     print '%s: %s' % item
+... 
+ID: Kessler-2001-200-1
+NUMBER: 1
+ENGLISH: all
+CONCEPTICON_ID: 98
+CONCEPTICON_GLOSS: ALL
+```
