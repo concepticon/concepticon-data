@@ -1,25 +1,13 @@
 from __future__ import unicode_literals
 import re
 import warnings
-from collections import namedtuple
-import logging
 
-import bibtexparser
-from clldutils.jsonlib import load
-from clldutils.misc import normalize_name
-
-from pyconcepticon import data
-from pyconcepticon.util import (
-    data_path, read_dicts, split_ids, conceptlists, concept_set_meta,
-)
+from pyconcepticon.api import Concepticon
+from pyconcepticon.util import split, REPOS_PATH
 
 
 SUCCESS = True
 NUMBER_PATTERN = re.compile('(?P<number>[0-9]+)(?P<suffix>.*)')
-
-
-def split(s, sep=','):
-    return [ss.strip() for ss in s.split(sep) if ss.strip()]
 
 
 def error(msg, name, line=''):  # pragma: no cover
@@ -36,105 +24,37 @@ def warning(msg, name, line=''):  # pragma: no cover
     warnings.warn('WARNING:%s%s: %s' % (name, line, msg), Warning)
 
 
-def read_tsv(path, unique='ID'):
-    uniquevalues = set()
-    rows = []
-    keys = None
-    for line, row in enumerate(read_dicts(path)):
-        line += 2
-        if None in row:
-            error('too many columns', path, line)  # pragma: no cover
-        if keys is None:
-            keys = list(row.keys())
-        else:
-            if list(row.keys()) != keys:
-                error('inconsistent row columns', path, line)  # pragma: no cover
-        if unique:
-            if unique not in row:  # pragma: no cover
-                error('unique key missing: %s' % unique, path, line)
-                continue
-            if row[unique] in uniquevalues:  # pragma: no cover
-                error('non-unique %s: %s' % (unique, row[unique]), path, line)
-            uniquevalues.add(row[unique])
-        rows.append((line, row))
-    return rows
-
-
-def get_bib():
-    log = logging.getLogger('bibtexparser')
-    log.setLevel(logging.WARN)
-    with data_path('references', 'references.bib').open(encoding='utf8') as fp:
-        return {rec['ID']: rec for rec in bibtexparser.loads(fp.read()).entries}
-
-
 def test():
-    if not data_path().exists():
+    if not REPOS_PATH.exists():
         return  # pragma: no cover
 
-    bib = get_bib()
-
-    cls = {
-        cl.name: read_tsv(cl, unique=None)
-        for cl in conceptlists() if not cl.stem.startswith('.')}
-
-    read_tsv(data_path('concepticon.tsv'))
-    concepticon = read_tsv(data_path('concepticon.tsv'), unique='GLOSS')
-
-    for i, cs in concepticon:
-        for attr in ['SEMANTICFIELD', 'ONTOLOGICAL_CATEGORY']:
-            valid = getattr(data, attr)
-            value = cs[attr]
-            if value and value not in valid:  # pragma: no cover
-                error('invalid %s: %s' % (attr, value), data_path('concepticon.tsv'), i)
+    api = Concepticon(REPOS_PATH)
 
     # We collect all cite keys used to refer to references.
     all_refs = set()
-    for source in concept_set_meta():
-        specs = load(source.parent.joinpath(source.stem + '.tsv-metadata.json'))
-        tsv = read_tsv(source, unique='CONCEPTICON_ID')
-        cnames = [var['name'] for var in specs['tableSchema']['columns']]
-        if not [n for n in cnames if n in list(tsv[0][1])]:  # pragma: no cover
-            error('column names in {0} but not in json-specs'.format(source.stem), 'name')
-        for i, line in tsv:
-            if len(line) != len(cnames):  # pragma: no cover
+    for meta in api.metadata.values():
+        cnames_schema = set(var['name'] for var in meta.meta['tableSchema']['columns'])
+        cnames_tsv = set(meta.values.values()[0])
+        if cnames_tsv - cnames_schema:  # pragma: no cover
+            error('column names in {0} but not in json-specs'.format(meta.id), 'name')
+        for i, value in enumerate(meta.values.values()):
+            if set(value.keys()) != cnames_schema:  # pragma: no cover
                 error('meta data {0} contains irregular number of columns in line {1}'
-                      .format(source.stem, i), 'name')
-        if 'dc:references' in specs:
-            all_refs.add(specs['dc:references'])
+                      .format(meta.id, i + 2), 'name')
+        for ref in split(meta.meta.get('dc:references', '')):
+            all_refs.add(ref)
 
     # Make sure only records in the BibTeX file references.bib are referenced by
     # concept lists.
-    clmd = data_path('conceptlists.tsv')
-    clids = {}
-    visited1, visited2 = set(), set()
-    tags = getattr(data, 'CL_TYPES')
+    clmd = api.data_path('conceptlists.tsv')
 
-    for i, cl in read_tsv(clmd):
-        clids[cl['ID']] = cl
-        for ref in split_ids(cl['REFS']):
-            if ref not in bib and ref not in visited1:  # pragma: no cover
-                error('unknown bibtex record "%s" referenced' % ref, clmd, i)
-                visited1.add(ref)
-            else:  # pragma: no cover
-                # we fail when author/editor, or year, or title/booktitle are missing
-                if 'title' not in bib[ref] \
-                        and 'booktitle' not in bib[ref] \
-                        and ref not in visited2:
-                    error('missing bibtex title in record "%s"' % ref, clmd, i)
-                    visited2.add(ref)
-                if 'author' not in bib[ref] and 'editor' not in bib[ref]:
-                    error('missing bibtex author/editor in record "%s"' % ref, clmd, i)
-                    visited2.add(ref)
-                if 'year' not in bib[ref]:
-                    error('missing bibtex year in record "%s"' % ref, clmd, i)
-                    visited2.add(ref)
+    for i, cl in enumerate(api.conceptlists.values()):
+        for ref in cl.refs:
+            if ref not in api.bibliography:  # pragma: no cover
+                error('unknown bibtex record "%s" referenced' % ref, clmd, i + 2)
             all_refs.add(ref)
 
-        for tag in split_ids(cl['TAGS']):
-            if tag not in tags:  # pragma: no cover
-                error('invalid cl type: %s' % tag, clmd, i)
-
-    for ref in bib:
+    for ref in api.bibliography:
         if ref not in all_refs:  # pragma: no cover
             error('bibtex record %s is in the references but not referenced in the data.'
                   % ref, clmd, 0)
@@ -143,54 +63,42 @@ def test():
     # make also sure that all sources are accompanied as pdf, but only write a
     # warning if this is not the case
     #
-    pdfs = [f.stem for f in data_path('sources').glob('*.pdf')]
+    pdfs = [f.stem for f in api.data_path('sources').glob('*.pdf')]
     no_pdf_for_source = set()
-    for i, cl in read_tsv(clmd):
-        for ref in split_ids(cl['PDF']):
+    for cl in api.conceptlists.values():
+        for ref in cl.pdf:
             if ref not in pdfs:  # pragma: no cover
                 no_pdf_for_source.add(ref)
-    
+
     if no_pdf_for_source:  # pragma: no cover
         warning(
             '\n'.join(no_pdf_for_source),
             'no pdf found for {0} sources'.format(len(no_pdf_for_source)))
-    
+
     ref_cols = {
-        'CONCEPTICON_ID': set(cs[1]['ID'] for cs in concepticon),
-        'CONCEPTICON_GLOSS': set(cs[1]['GLOSS'] for cs in concepticon),
+        'concepticon_id': set(api.conceptsets.keys()),
+        'concepticon_gloss': set(cs.gloss for cs in api.conceptsets.values()),
     }
 
-    for name, concepts in cls.items():
-        try:
-            cl = clids[name.replace('.tsv', '')]
-        except KeyError:  # pragma: no cover
-            error('unkown record {0} referenced'.format(name), '', '')
-            cl = {}
+    for fname in api.data_path('conceptlists').glob('*.tsv'):
+        if fname.stem not in api.conceptlists:  # pragma: no cover
+            error(
+                'conceptlist missing in conceptlists.tsv: {0}'.format(fname.name), '', '')
 
-        missing = []
-        for i, (line, concept) in enumerate(concepts):
+    for cl in api.conceptlists.values():
+        for i, concept in enumerate(cl.concepts.values()):
             if i == 0:  # pragma: no cover
-                cols = list(concept.keys())
-                try:
-                    namedtuple('nt', [normalize_name(n) for n in cols])
-                except ValueError as e:
-                    error('%s' % e, name, line)
-                for lg in split(cl.get('SOURCE_LANGUAGE', '')):
-                    if lg.upper() not in cols:
-                        error('missing source language col %s' % lg.upper(), name, '')
+                for lg in cl.source_language:
+                    if lg.lower() not in concept.cols:
+                        error('missing source language col %s' % lg.upper(), cl.id, '')
 
-            for lg in split(cl.get('SOURCE_LANGUAGE', '')):
-                if not concept.get(lg.upper()):  # pragma: no cover
-                    error('missing source language translation %s' % lg.upper(), name, line)
-            if not NUMBER_PATTERN.match(concept['NUMBER']):  # pragma: no cover
-                error('invalid concept NUMBER %(NUMBER)s' % concept, name, line)
-            for col, values in ref_cols.items():
-                if col not in concept:
-                    if col not in missing:  # pragma: no cover
-                        error('missing column %s' % col, name)
-                        missing.append(col)
-                elif concept[col] and concept[col] not in values:  # pragma: no cover
-                    error('invalid value for %s: %s' % (col, concept[col]), name, line)
+            for lg in cl.source_language:  # pragma: no cover
+                if not (concept.attributes.get(lg.lower()) or getattr(concept, lg.lower(), None)):
+                    error('missing source language translation %s' % lg, cl.id, i + 2)
+            for attr, values in ref_cols.items():
+                val = getattr(concept, attr)
+                if val and val not in values:  # pragma: no cover
+                    error('invalid value for %s: %s' % (attr, val), cl.id, i + 2)
 
     if not SUCCESS:  # pragma: no cover
         raise ValueError('integrity checks failed!')

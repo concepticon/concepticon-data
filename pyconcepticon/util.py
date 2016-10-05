@@ -1,12 +1,12 @@
 from __future__ import unicode_literals
 import re
-from collections import defaultdict
+from collections import defaultdict, OrderedDict, Counter
 from functools import partial
+from operator import attrgetter
 
 from tabulate import tabulate
 from clldutils.path import Path
 from clldutils import dsv
-from clldutils import jsonlib
 
 import pyconcepticon
 
@@ -18,6 +18,26 @@ CS_GLOSS = PREFIX + '_GLOSS'
 CS_ID = PREFIX + '_ID'
 
 rewrite = partial(dsv.rewrite, delimiter='\t')
+
+
+def to_dict(iterobjects, key=attrgetter('id')):
+    """
+    Turns an iterable into an `OrderedDict` mapping unique keys to items.
+
+    :param iterobjects: an iterable to be turned into the values of the dictionary.
+    :param key: a callable which creates a key from an item.
+    :returns: `OrderedDict`
+    """
+    res, keys = OrderedDict(), Counter()
+    for obj in iterobjects:
+        k = key(obj)
+        res[k] = obj
+        keys.update([k])
+    if keys:
+        k, n = keys.most_common(1)[0]
+        if n > 1:
+            raise ValueError('non-unique key: %s' % k)
+    return res
 
 
 class MarkdownTable(list):
@@ -42,27 +62,11 @@ class MarkdownTable(list):
         return res
 
 
-def reader(fname, **kw):
+def read_all(fname, **kw):
     kw.setdefault('delimiter', '\t')
     if not kw.get('dicts'):
         kw.setdefault('namedtuples', True)
-    return dsv.reader(fname, **kw)
-
-
-def read_one(fname, **kw):
-    for item in reader(fname, **kw):
-        return item
-
-
-def read_all(fname, **kw):
-    return list(reader(fname, **kw))
-
-
-def read_metadata(fname):
-    mdname = fname.parent.joinpath(fname.name + '-metadata.json')
-    if mdname.exists():
-        return jsonlib.load(mdname)
-    return {}  # pragma: no cover
+    return list(dsv.reader(fname, **kw))
 
 
 read_dicts = partial(read_all, dicts=True)
@@ -74,8 +78,16 @@ class UnicodeWriter(dsv.UnicodeWriter):
         super(UnicodeWriter, self).__init__(*args, **kw)
 
 
+def lowercase(d):
+    return {k.lower(): v for k, v in d.items()}
+
+
 def unique(iterable):
     return list(sorted(set(i for i in iterable if i)))
+
+
+def split(s, sep=','):
+    return unique(ss.strip() for ss in s.split(sep) if ss.strip())
 
 
 def split_ids(s):
@@ -86,14 +98,6 @@ def data_path(*comps, **kw):
     return kw.get('repos', REPOS_PATH).joinpath('concepticondata', *comps)
 
 
-def listdir(name, **kw):
-    return sorted(data_path(name, **kw).glob('*.tsv'), key=lambda p: p.name)
-
-
-conceptlists = partial(listdir, 'conceptlists')
-concept_set_meta = partial(listdir, 'concept_set_meta')
-
-
 def visit(visitor, fname):
     return rewrite(fname, visitor)
 
@@ -102,11 +106,9 @@ def load_conceptlist(idf):
     """
     Load a concept list and display it as a complex dictionary (json-style).
 
-    Returns
-    -------
-    clist : dict
-        A dictionary with IDs as keys and OrderedDicts with the data from the row as
-        values. Duplicate links are passed as "splits" in a specific entry of the
+    :rtype: dict /
+        A dictionary with IDs as keys and OrderedDicts with the data from the row as /
+        values. Duplicate links are passed as "splits" in a specific entry of the /
         dictionary (named "splits").
     """
     data = read_dicts(idf)

@@ -23,7 +23,7 @@ setup(
         'clldutils>=1.0.1',
         'bibtexparser',
         'tabulate',
-        'attr',
+        'attrs',
     ],
     entry_points={
         'console_scripts': [
