@@ -3,25 +3,22 @@ from __future__ import unicode_literals, division
 from collections import Counter, defaultdict
 from operator import itemgetter
 
+from tabulate import tabulate
 from clldutils.path import Path
 from clldutils.clilib import ParserError
 
-from pyconcepticon.util import (
-    data_path, conceptlists, rewrite, read_dicts, read_all, read_one, concept_set_meta,
-    MarkdownTable, read_metadata, CS_ID, CS_GLOSS,
-)
+from pyconcepticon.util import rewrite, MarkdownTable, CS_ID, CS_GLOSS
+
+from pyconcepticon.api import Concepticon
 
 
 class Linker(object):
-    def __init__(self, clid):
+    def __init__(self, clid, conceptsets):
         self.clid = clid
         self.concepts = {
-            CS_ID: {},  # maps ID to GLOSS
-            CS_GLOSS: {},  # maps GLOSS to ID
+            CS_ID: {cs.id: cs.gloss for cs in conceptsets},  # maps ID to GLOSS
+            CS_GLOSS: {cs.gloss: cs.id for cs in conceptsets},  # maps GLOSS to ID
         }
-        for cs in read_dicts(data_path('concepticon.tsv')):
-            self.concepts[CS_ID][cs['ID']] = cs['GLOSS']
-            self.concepts[CS_GLOSS][cs['GLOSS']] = cs['ID']
 
         self._cid_index = None
         self._cgloss_index = None
@@ -75,13 +72,24 @@ CONCEPTICON_ID is given, the other is added.
 
 concepticon link <concept-list>
 """
+    api = Concepticon(args.data)
     conceptlist = Path(args.args[0])
     if not conceptlist.exists() or not conceptlist.is_file():
-        conceptlist = data_path('conceptlists', args.args[0])
+        conceptlist = api.data_path('conceptlists', args.args[0])
         if not conceptlist.exists() or not conceptlist.is_file():
             raise ParserError('no file %s found' % args.args[0])
 
-    rewrite(conceptlist, Linker(conceptlist.stem))
+    rewrite(conceptlist, Linker(conceptlist.stem, api.conceptsets.values()))
+
+
+def attributes(args):
+    """Calculate the addditional attributes in the lists."""
+    api = Concepticon(args.data)
+    attrs = Counter()
+    for cl in api.conceptlists.values():
+        attrs.update(cl.attributes)
+
+    print(tabulate(list(attrs.most_common()), headers=('Attribute', 'Occurrences')))
 
 
 def readme(outdir, text):
@@ -97,57 +105,45 @@ write statistics to README
 
 concepticon stats
     """
-    cls = [(cl, read_all(cl)) for cl in conceptlists()]
-    readme_conceptlists(cls)
-    readme_concept_list_meta()
-    readme_concepticondata(cls)
+    api = Concepticon(args.data)
+    cls = api.conceptlists.values()
+    readme_conceptlists(api, cls)
+    readme_concept_list_meta(api)
+    readme_concepticondata(api, cls)
 
 
-def readme_conceptlists(cls):
+def readme_conceptlists(api, cls):
     table = MarkdownTable('name', '# mapped', '% mapped', 'mergers')
-    for cl, concepts in cls:
-        mapped = len([c for c in concepts if c.CONCEPTICON_ID])
-        mapped_ratio = int((mapped / len(concepts)) * 100)
+    for cl in cls:
+        concepts = cl.concepts.values()
+        mapped = len([c for c in concepts if c.concepticon_id])
+        mapped_ratio = 0
+        if concepts:
+            mapped_ratio = int((mapped / len(concepts)) * 100)
         concepticon_ids = Counter(
-            [c.CONCEPTICON_ID for c in concepts if c.CONCEPTICON_ID])
+            [c.concepticon_id for c in concepts if c.concepticon_id])
         mergers = len([k for k, v in concepticon_ids.items() if v > 1])
-        table.append(['[%s](%s) ' % (cl.stem, cl.name), mapped, mapped_ratio, mergers])
+        table.append(['[%s](%s) ' % (cl.id, cl.path.name), mapped, mapped_ratio, mergers])
     readme(
-        data_path('conceptlists'),
-        '# Concept Lists\n\n{0}'.format(table.render(verbose=True)))
+        api.data_path('conceptlists'),
+        '# Concept Lists\n\n{0}'.format(
+            table.render(verbose=True, sortkey=itemgetter(0))))
 
 
-def readme_concept_list_meta():
+def readme_concept_list_meta(api):
     """Writes statistics on metadata to readme."""
     txt = '# Basic Statistics on Metadata\n\n{0}'
-    cnc = len(read_all(data_path('concepticon.tsv')))
+    cnc = len(api.conceptsets)
     table = MarkdownTable('provider', 'ID', '# concept sets', '% coverage')
-    for meta in concept_set_meta():
-        metameta = read_metadata(meta)
-        n = len(read_all(meta))
-        table.append([metameta.get('dc:title'), meta.stem, n, (n / cnc) * 100])
+    for meta in api.metadata.values():
+        n = len(meta.values)
+        table.append([meta.meta.get('dc:title'), meta.id, n, (n / cnc) * 100])
     readme(
-        data_path('concept_set_meta'),
+        api.data_path('concept_set_meta'),
         txt.format(table.render(sortkey=itemgetter(1), reverse=True, condensed=False)))
 
 
-def attributes(args):
-    """Calculate the addditional attributes in the lists."""
-    attrs = Counter()
-    for cl in conceptlists():
-        header = [
-            h for h in read_one(cl)._fields if h not in [
-                'ID', CS_ID, CS_GLOSS, 'ENGLISH', 'GLOSS', 'NUMBER'
-            ]]
-        attrs.update(header)
-
-    txt = '# Common Additional Columns of Concept Lists\n'
-    for k, v in attrs.most_common():
-        txt += '* {0} {1} occurences\n'.format(k, v)
-    print(txt)
-
-
-def readme_concepticondata(cls):
+def readme_concepticondata(api, cls):
     """
     Returns a dictionary with concept set label as value and tuples of concept
     list identifier and concept label as values.
@@ -155,12 +151,13 @@ def readme_concepticondata(cls):
     D, G = defaultdict(list), defaultdict(list)
     labels = Counter()
 
-    for cl, concepts in cls:
-        for j, concept in enumerate(c for c in concepts if c.CONCEPTICON_ID):
-            label = concept.GLOSS if hasattr(concept, 'GLOSS') else concept.ENGLISH
-            D[concept.CONCEPTICON_GLOSS].append((cl.name, label))
-            G[label].append((concept.CONCEPTICON_ID, concept.CONCEPTICON_GLOSS, cl.name))
-            labels.update([label])
+    for cl in cls:
+        for concept in [c for c in cl.concepts.values() if c.concepticon_id]:
+            D[concept.concepticon_gloss].append(
+                (cl.id, concept.label))
+            G[concept.label].append(
+                (concept.concepticon_id, concept.concepticon_gloss, cl.id))
+            labels.update([concept.label])
 
     txt = [
         """
@@ -198,7 +195,8 @@ def readme_concepticondata(cls):
                 ', '.join(sorted(set(
                     ['«{0}»'.format(label.replace('*', '`*`')) for _, label in v])))
             ])
-        txt.append('## Twenty Most {0} Concept Sets\n\n{1}\n'.format(attr, table.render()))
+        txt.append(
+            '## Twenty Most {0} Concept Sets\n\n{1}\n'.format(attr, table.render()))
 
-    readme(data_path(), txt)
+    readme(api.data_path(), txt)
     return D, G

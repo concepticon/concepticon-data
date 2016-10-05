@@ -15,7 +15,7 @@ class Tests(WithTempDir):
         from pyconcepticon.commands import link
 
         with self.assertRaises(ParserError):
-            link(Mock(args=['.']))
+            link(Mock(args=['.'], data=None))
 
         def nattr(p, attr):
             return len(nfilter([getattr(i, attr, None) for i in read_all(p)]))
@@ -23,11 +23,11 @@ class Tests(WithTempDir):
         test = self.tmp_path('test.tsv')
         copy(Path(__file__).parent.joinpath('fixtures', 'conceptlist.tsv'), test)
         self.assertEqual(nattr(test, 'CONCEPTICON_GLOSS'), 0)
-        link(Mock(args=[test]))
+        link(Mock(args=[test], data=None))
         self.assertEqual(nattr(test, 'CONCEPTICON_GLOSS'), 1)
 
         copy(Path(__file__).parent.joinpath('fixtures', 'conceptlist2.tsv'), test)
-        with capture(link, Mock(args=[test])) as out:
+        with capture(link, Mock(args=[test], data=None)) as out:
             self.assertIn('unknown CONCEPTICON_GLOSS', out)
             self.assertIn('mismatch', out)
 
@@ -41,11 +41,11 @@ class Tests(WithTempDir):
         from pyconcepticon.commands import stats
 
         with patch('pyconcepticon.commands.readme', Mock()) as readme:
-            stats(MagicMock())
+            stats(MagicMock(data=None))
         self.assertEqual(readme.call_count, 3)
 
     def test_attributes(self):
         from pyconcepticon.commands import attributes
 
-        with capture(attributes, MagicMock()) as out:
-            self.assertIn('Columns', out)
+        with capture(attributes, MagicMock(data=None)) as out:
+            self.assertIn('Occurrences', out)

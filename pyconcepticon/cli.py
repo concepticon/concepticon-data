@@ -16,9 +16,16 @@ from __future__ import unicode_literals
 import sys
 
 from clldutils.clilib import ArgumentParser
+from clldutils.path import Path
+
+import pyconcepticon
 from pyconcepticon.commands import link, stats, attributes
 
 
 def main():  # pragma: no cover
     parser = ArgumentParser(__name__, link, stats, attributes)
+    parser.add_argument(
+        '--data',
+        help="path to concepticon-data",
+        default=Path(pyconcepticon.__file__).parent.parent)
     sys.exit(parser.main())

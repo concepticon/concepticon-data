@@ -5,6 +5,12 @@ from clldutils.testing import WithTempDir
 
 
 class Tests(WithTempDir):
+    def test_to_dict(self):
+        from pyconcepticon.util import to_dict
+
+        with self.assertRaises(ValueError):
+            to_dict([None, None], id)
+
     def test_load_conceptlist(self):
         from pyconcepticon.util import load_conceptlist, write_conceptlist, visit
 

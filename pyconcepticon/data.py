@@ -2,7 +2,7 @@
 from __future__ import unicode_literals
 
 
-CL_TYPES = {
+TAGS = {
     "acquisition": "Concept lists related to studies on language acquisition",
     "annotated": "Concept lists which contain further annotations which exceed the complexity of ranks",
     "areal": "Concept lists designed for a specific linguistic area.",

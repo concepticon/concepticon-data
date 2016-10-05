@@ -71,33 +71,16 @@ Assuming you have downloaded release 1.0.2 and unpacked the sources to a directo
 the data as follows:
 ```python
 >>> from pyconcepticon.api import Concepticon
->>> concepticon = Concepticon('concepticon-data-1.0.2')
->>> clists = concepticon.conceptlists()
->>> for item in clists[0].items():
-...     print '%s: %s' % item
-... 
-ID: Kessler-2001-200
-AUTHOR: Kessler, Brett
-YEAR: 2001
-LIST_SUFFIX: 
-ITEMS: 200
-TAGS: basic
-SOURCE_LANGUAGE: English
-TARGET_LANGUAGE: global
-URL: 
-REFS: Kessler2001
-PDF: 
-NOTE: This list was used to test various methods for the proof of language relationship. It is supposed to follow strictly the [200-item list of Swadesh (1952)](:ref:Swadesh-1952-200).
-PAGES: 202-258
->>> concepts = concepticon.conceptlist(clists[0]['ID'])
->>> len(concepts)
-200
->>> for item in concepts[0].items():
-...     print '%s: %s' % item
-... 
-ID: Kessler-2001-200-1
-NUMBER: 1
-ENGLISH: all
-CONCEPTICON_ID: 98
-CONCEPTICON_GLOSS: ALL
+>>> api = Concepticon('concepticon-data-1.0.2')
+>>> conceptlist = api.conceptlists.values()[0]
+>>> conceptlist.author
+u'Phillipe Mennecier and John Nerbonne and Evelyne Heyer and Franz Manni'
+>>> conceptlist.tags
+[u'basic']
+>>> len(conceptlist.concepts)
+183
+>>> conceptlist.concepts.values()[0]
+Concept(id=u'Mennecier-2016-183-1', number=u'1', concepticon_id=u'619', concepticon_gloss=u'ANIMAL', gloss=None, english=u'animal', attributes={u'russian': u'\u0436\u0438\u0432\u043e\u0442\u043d\u043e\u0435', u'swadesh_id': u'44', u'english_1': u'animal'})
+>>> api.bibliography.values()[0]
+Reference(id=u'Mennecier2016', type=u'article', record={u'doi': u'10.1163/22105832-00601015', u'author': u'Phillipe Mennecier and John Nerbonne and Evelyne Heyer and Franz Manni', u'journal': u'Language Dynamics and Change', u'title': u'A Central Asian language survey', u'number': u'1', u'volume': u'6', u'year': u'2016', u'pages': u'57\u201398'})
 ```

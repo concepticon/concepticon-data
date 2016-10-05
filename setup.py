@@ -21,8 +21,9 @@ setup(
     zip_safe=False,
     install_requires=[
         'clldutils>=1.0.1',
-        'clld',
+        'bibtexparser',
         'tabulate',
+        'attrs',
     ],
     entry_points={
         'console_scripts': [
