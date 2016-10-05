@@ -117,10 +117,9 @@ def readme_conceptlists(api, cls):
     for cl in cls:
         concepts = cl.concepts.values()
         mapped = len([c for c in concepts if c.concepticon_id])
+        mapped_ratio = 0
         if concepts:
             mapped_ratio = int((mapped / len(concepts)) * 100)
-        else:
-            mapped_ratio = 0
         concepticon_ids = Counter(
             [c.concepticon_id for c in concepts if c.concepticon_id])
         mergers = len([k for k, v in concepticon_ids.items() if v > 1])

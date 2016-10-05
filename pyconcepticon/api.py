@@ -182,11 +182,10 @@ class Conceptlist(object):
 
     @cached_property()
     def attributes(self):
+        header = []
         if self.path.exists():
             with self.path.open(encoding='utf8') as fp:
                 header = fp.readline().strip().split('\t')
-        else:
-            header = []
         standard_cols = [f.name for f in attr.fields(Concept)]
         return [h for h in header if h.lower() not in standard_cols]
 
