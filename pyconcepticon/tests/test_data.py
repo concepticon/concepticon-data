@@ -2,10 +2,11 @@ from __future__ import unicode_literals
 import re
 import warnings
 from collections import namedtuple
+import logging
 
+import bibtexparser
 from clldutils.jsonlib import load
 from clldutils.misc import normalize_name
-from clld.lib.bibtex import Database
 
 from pyconcepticon import data
 from pyconcepticon.util import (
@@ -59,13 +60,18 @@ def read_tsv(path, unique='ID'):
     return rows
 
 
+def get_bib():
+    log = logging.getLogger('bibtexparser')
+    log.setLevel(logging.WARN)
+    with data_path('references', 'references.bib').open(encoding='utf8') as fp:
+        return {rec['ID']: rec for rec in bibtexparser.loads(fp.read()).entries}
+
+
 def test():
     if not data_path().exists():
         return  # pragma: no cover
 
-    # load bibtex
-    bib = Database.from_file(data_path('references', 'references.bib'))
-    assert bib
+    bib = get_bib()
 
     cls = {
         cl.name: read_tsv(cl, unique=None)
@@ -106,20 +112,20 @@ def test():
     for i, cl in read_tsv(clmd):
         clids[cl['ID']] = cl
         for ref in split_ids(cl['REFS']):
-            if ref not in bib.keymap and ref not in visited1:  # pragma: no cover
+            if ref not in bib and ref not in visited1:  # pragma: no cover
                 error('unknown bibtex record "%s" referenced' % ref, clmd, i)
                 visited1.add(ref)
             else:  # pragma: no cover
                 # we fail when author/editor, or year, or title/booktitle are missing
-                if 'Title' not in bib[ref] \
-                        and 'Booktitle' not in bib[ref] \
+                if 'title' not in bib[ref] \
+                        and 'booktitle' not in bib[ref] \
                         and ref not in visited2:
                     error('missing bibtex title in record "%s"' % ref, clmd, i)
                     visited2.add(ref)
-                if 'Author' not in bib[ref] and 'Editor' not in bib[ref]:
+                if 'author' not in bib[ref] and 'editor' not in bib[ref]:
                     error('missing bibtex author/editor in record "%s"' % ref, clmd, i)
                     visited2.add(ref)
-                if 'Year' not in bib[ref]:
+                if 'year' not in bib[ref]:
                     error('missing bibtex year in record "%s"' % ref, clmd, i)
                     visited2.add(ref)
             all_refs.add(ref)
@@ -128,10 +134,10 @@ def test():
             if tag not in tags:  # pragma: no cover
                 error('invalid cl type: %s' % tag, clmd, i)
 
-    for i, ref in enumerate(bib.keymap):
+    for ref in bib:
         if ref not in all_refs:  # pragma: no cover
             error('bibtex record %s is in the references but not referenced in the data.'
-                  % ref, clmd, i)
+                  % ref, clmd, 0)
 
     #
     # make also sure that all sources are accompanied as pdf, but only write a
