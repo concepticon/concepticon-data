@@ -81,7 +81,6 @@
 | [Leibniz-1768-128](Leibniz-1768-128.tsv) | 128 | 100 | 0 |
 | [Lin-2010-89](Lin-2010-89.tsv) | 89 | 100 | 0 |
 | [List-2014-1280](List-2014-1280.tsv) | 1280 | 100 | 2 |
-| [List-2015-250](List-2015-250.tsv) | 0 | 0 | 0 |
 | [List-2016-180](List-2016-180.tsv) | 179 | 99 | 1 |
 | [List-2016-57](List-2016-57.tsv) | 57 | 100 | 0 |
 | [Liu-2007-201](Liu-2007-201.tsv) | 201 | 100 | 1 |
@@ -131,7 +130,6 @@
 | [SatterthwaitePhillips-2011-50](SatterthwaitePhillips-2011-50.tsv) | 50 | 100 | 0 |
 | [Shevoroshkin-1991-23](Shevoroshkin-1991-23.tsv) | 23 | 100 | 0 |
 | [Sidwell-2015-200](Sidwell-2015-200.tsv) | 200 | 100 | 0 |
-| [Snider-2004-1700](Snider-2004-1700.tsv) | 0 | 0 | 0 |
 | [Starostin-1991-110](Starostin-1991-110.tsv) | 110 | 100 | 0 |
 | [Starostin-2007-110](Starostin-2007-110.tsv) | 110 | 100 | 0 |
 | [Starostin-2010-50](Starostin-2010-50.tsv) | 50 | 100 | 0 |
@@ -179,5 +177,5 @@
 | [Zheng-2007-86](Zheng-2007-86.tsv) | 86 | 100 | 1 |
 | [Zorc-1974-100](Zorc-1974-100.tsv) | 100 | 100 | 0 |
 
-(176 rows)
+(174 rows)
 
