@@ -34,7 +34,7 @@ def test():
     all_refs = set()
     for meta in api.metadata.values():
         cnames_schema = set(var['name'] for var in meta.meta['tableSchema']['columns'])
-        cnames_tsv = set(meta.values.values()[0])
+        cnames_tsv = set(list(meta.values.values())[0])
         if cnames_tsv - cnames_schema:  # pragma: no cover
             error('column names in {0} but not in json-specs'.format(meta.id), 'name')
         for i, value in enumerate(meta.values.values()):
