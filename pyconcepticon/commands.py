@@ -92,6 +92,18 @@ def attributes(args):
     print(tabulate(list(attrs.most_common()), headers=('Attribute', 'Occurrences')))
 
 
+def overlap(args):
+    """Compare how many concepts overlap in concept lists."""
+    api = Concepticon(args.data)
+    commons = defaultdict(set)
+    for arg in args.args:
+        for c in api.conceptlists[arg].concepts.values():
+            commons[c.concepticon_id].add(arg)
+    out = len([x for x, y in commons.items() if len(y) == len(args.args)])
+    print(out)
+    return out
+
+
 def map_concepts(args):
     api = Concepticon(args.data)
     api.map(Path(args.args[0]), args.args[1] if len(args.args) > 1 else None)
