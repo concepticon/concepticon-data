@@ -12,7 +12,7 @@ Pallas-1786-441-11	10	Дѣва	girl (noun)	Maedchen	Puella	Fille	1646	GIRL
 Pallas-1786-441-12	11	Мальчикъ	boy (noun)	Knabe	Puer	Garҫon	1366	BOY
 Pallas-1786-441-13	12	Дитя	child (descendant, noun)	Kind	Infans	Enfant	2099	CHILD
 Pallas-1786-441-14	13	Человѣкъ	person (noun)	Menßch	Homo	Homme	683	PERSON
-Pallas-1786-441-15	14	Люди	people (noun)	Leute	?	Gens	789	PEOPLE
+Pallas-1786-441-15	14	Люди	people (noun)	Leute	NAN	Gens	789	PEOPLE
 Pallas-1786-441-16	15	Глава	head (noun)	Kopf	Caput	Tête	1256	HEAD
 Pallas-1786-441-17	16	Лицо	face (noun)	Antlitz	Facies	Vißage (Face)	1560	FACE
 Pallas-1786-441-18	17	Носъ	nose (noun)	Naße	Naßus	Nez	1221	NOSE
@@ -149,7 +149,7 @@ Pallas-1786-441-148	147	Тепло	warm (adjective)	Warm	Calidus	Chaud	1232	WARM
 Pallas-1786-441-149	148	Жарко	hot (adjective)	Heißs	Fervidus	Ardent	1286	HOT
 Pallas-1786-441-150	149	Зсравъ	healthy (adjective)	Geßund	Sanus	Sain	1364	HEALTHY
 Pallas-1786-441-151	150	Хорошо	good (adjective)	Gut	Bene, Bonus	Bien, Bon	1035	GOOD
-Pallas-1786-441-152	151	Благъ	blessed (adjective)	Wohl, Seelig	?	Biènheureu	2529	BLESSED
+Pallas-1786-441-152	151	Благъ	blessed (adjective)	Wohl, Seelig	NAN	Biènheureu	2529	BLESSED
 Pallas-1786-441-153	152	Зло	evil (adjective)	Böße	Sceleratus	Méchant	45	EVIL
 Pallas-1786-441-154	153	Дурно	bad (adjective)	Schlecht	Male	Mal	1292	BAD
 Pallas-1786-441-155	154	Глупо	stupid (adjective)	Dumm	Stultus	Sot	1518	STUPID
@@ -330,7 +330,7 @@ Pallas-1786-441-329	328	Яицо	egg (noun)	Ey	Ovum	Oeuf	744	EGG
 Pallas-1786-441-330	329	Гнѣздо	nest (noun)	Neßt	Nidus	Nid	539	NEST
 Pallas-1786-441-331	330	Пастухъ	shepherd (noun)	Hirte	Paßtor	Berger	2544	SHEPHERD
 Pallas-1786-441-332	331	Пахать	to plow, plough (verb)	Pflügen	Arare	Labourer	1921	PLOUGH
-Pallas-1786-441-333	332	Соха	plough (noun)	Pflughaken	Aratum	?	2154	PLOUGH (INSTRUMENT)
+Pallas-1786-441-333	332	Соха	plough (noun)	Pflughaken	Aratum	NAN	2154	PLOUGH (INSTRUMENT)
 Pallas-1786-441-334	333	Плугъ	plough (noun)	Pflug	Aratum	Charue	2154	PLOUGH (INSTRUMENT)
 Pallas-1786-441-335	334	Борона	harrow (noun)	Egge	Occa	Herße	2545	HARROW (TOOL)
 Pallas-1786-441-336	335	Жатва	harvest (noun)	Erndte	Meßßis	Recolte	611	HARVEST
@@ -354,11 +354,11 @@ Pallas-1786-441-353	352	Судно	ship (noun)	Küße, Schif	Navis	Vaißßeau	74
 Pallas-1786-441-354	353	Лодья	boat (noun)	Kahn	Scapha	Eßquif	1844	BOAT
 Pallas-1786-441-355	354	Возъ	vehicle (noun)	Fuhre	Vectura	Voiture	2549	VEHICLE
 Pallas-1786-441-356	355	Возить	to drive (a vehicle, verb)	Führen	Veture	Voiturer	741	DRIVE
-Pallas-1786-441-357	356	ѣхать	to drive (in a vehicle, verb)	Fahren	vehi	?	741	DRIVE
+Pallas-1786-441-357	356	ѣхать	to drive (in a vehicle, verb)	Fahren	vehi	NAN	741	DRIVE
 Pallas-1786-441-358	357	Строить	to build (verb)	Bauen	Struere	Batir	1840	BUILD
 Pallas-1786-441-359	358	Платье	clothing (noun)	Kleidung	Veßtis	Vetement	1895	CLOTHES
 Pallas-1786-441-360	359	Шуба	fur, pelt (noun)	Peltz	Pelliceamentum	Pelißße	580	FUR
-Pallas-1786-441-361	360	Обувь	shoe (noun)	?	?	Chaußßure	1381	SHOE
+Pallas-1786-441-361	360	Обувь	shoe (noun)	NAN	NAN	Chaußßure	1381	SHOE
 Pallas-1786-441-362	361	Чулокъ	sock (noun)	Strumpf	Tibiale	Bas	1522	SOCK
 Pallas-1786-441-363	362	Башмакъ	shoe, boot (noun)	Schu	Calceus	Souiller	1381	SHOE
 Pallas-1786-441-364	363	Шапка	cap, hat (noun)	Mütze	Mitra	Bonnet	771	HAT
@@ -367,7 +367,7 @@ Pallas-1786-441-366	365	Шелкъ	silk (noun)	Seyde	Seridum	Soye	1641	SILK
 Pallas-1786-441-367	366	Шерсть	wool (noun)	Wolle	Lana	Laine	964	WOOL
 Pallas-1786-441-368	367	Бумага	cotton (noun)	Baumwolle	Goßßypium	Coton	1850	COTTON
 Pallas-1786-441-369	368	Ленъ	linen (noun)	Flachs, Lein	Linum	Lin	916	LINEN
-Pallas-1786-441-370	369	Яствы	viands, provisions of food (noun)	Speißen	Cibus, Eßca	?	2550	VIANDS (PROVISIONS)
+Pallas-1786-441-370	369	Яствы	viands, provisions of food (noun)	Speißen	Cibus, Eßca	NAN	2550	VIANDS (PROVISIONS)
 Pallas-1786-441-371	370	Сыро	raw (noun)	Roh	Crudus	Crû	1959	RAW
 Pallas-1786-441-372	371	Варить	to boil (verb)	Kochen	Coquere	Cuire	1100	COOK (SOMETHING)
 Pallas-1786-441-373	372	Пиво	beer (noun)	Bier	Cervißia	Bière	1639	BEER
