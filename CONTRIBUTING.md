@@ -74,3 +74,19 @@ $ nosetests
 ```
 
 The output will tell you whether your mapping has succeded. If you run into problems, just let us know, and we try to help as best as we can.
+
+## Conventions
+
+We have certain conventions on how to deal with problems when linking concepts to the Concepticon. Here, we currently list them without specific order of preference.
+
+### Missing translations
+
+Missing translations are indicated as NAN, as an example see the list by `Pallas-1786-441`.
+
+### Missing Concept Sets
+
+If we don't find a concept set for a concept and deem the concept to be to specific to be further mapped, we leave the field empty. All these concept sets are later assigned to a class of concept sets called "NAN".
+
+### N-N Mappings
+
+We do NOT allow to carry out N-N mappings between concepts in a concept lists and concept sets in the Concepticon. As a work-around, however, we allow to multiple a respective concept in a given source and assign it to two different concept sets. This has been done, for example, in the list [Matisoff-1978-200](https://github.com/clld/concepticon-data/blob/master/concepticondata/conceptlists/Matisoff-1978-200.tsv#L31), where the concept "vagina or breast/milk" clearly indicates that the author means two distinct entries, but lists them in the same line of the list. Similarly, one may encounter that people make a further distinction within a wordlist, by adding in brackets that, for example, there are actually two words for "frog" in some varieties, a "big frog" and a "small frog". In these cases it is also important to split the respective entry, as it has been done in the list by [List-2016-180](https://github.com/clld/concepticon-data/blob/master/concepticondata/conceptlists/List-2016-180.tsv#L8), although, admittedly, the actual decision was already done in the compilation of the concept list. 
