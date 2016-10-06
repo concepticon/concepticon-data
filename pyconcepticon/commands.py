@@ -92,6 +92,11 @@ def attributes(args):
     print(tabulate(list(attrs.most_common()), headers=('Attribute', 'Occurrences')))
 
 
+def map_concepts(args):
+    api = Concepticon(args.data)
+    api.map(Path(args.args[0]), args.args[1] if len(args.args) > 1 else None)
+
+
 def readme(outdir, text):
     with outdir.joinpath('README.md').open('w', encoding='utf8') as fp:
         if isinstance(text, list):
