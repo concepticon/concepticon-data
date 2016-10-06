@@ -91,6 +91,15 @@ def attributes(args):
 
     print(tabulate(list(attrs.most_common()), headers=('Attribute', 'Occurrences')))
 
+def overlap(args):
+    """Compare how many concepts overlap in concept lists."""
+    api = Concepticon(args.data)
+    commons = defaultdict(set)
+    for arg in args.args:
+        for c in api.conceptlists[arg].concepts.values():
+            commons[c.concepticon_id].add(arg)
+    print(len([x for x, y in commons.items() if len(y) == len(args.args)]))
+
 
 def readme(outdir, text):
     with outdir.joinpath('README.md').open('w', encoding='utf8') as fp:
