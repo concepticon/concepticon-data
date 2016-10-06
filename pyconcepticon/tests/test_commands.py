@@ -53,7 +53,8 @@ class Tests(WithTempDir):
     def test_overlap(self):
         from pyconcepticon.commands import overlap
         Args = namedtuple('Args', ['data', 'args'])
-        self.assertEqual(
-                overlap(Args(data='', args=['Swadesh-1955-100',
-            'Swadesh-1952-200'])),
-                87)
+
+        with capture(overlap, Args(data='', args=['Swadesh-1955-100',
+            'Swadesh-1952-200'])) as out:
+            self.assertIn('87', out)
+
