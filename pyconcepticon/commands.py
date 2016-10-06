@@ -98,7 +98,10 @@ def overlap(args):
     for arg in args.args:
         for c in api.conceptlists[arg].concepts.values():
             commons[c.concepticon_id].add(arg)
-    print(len([x for x, y in commons.items() if len(y) == len(args.args)]))
+    out = len([x for x, y in commons.items() if len(y) == len(args.args)])
+    print(out)
+    return out
+
 
 
 def readme(outdir, text):

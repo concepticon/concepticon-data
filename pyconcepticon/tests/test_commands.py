@@ -6,8 +6,8 @@ from clldutils.path import copy, Path
 from clldutils.testing import WithTempDir, capture
 from clldutils.misc import nfilter
 from clldutils.clilib import ParserError
-
 from pyconcepticon.util import read_all
+from collections import namedtuple
 
 
 class Tests(WithTempDir):
@@ -49,3 +49,11 @@ class Tests(WithTempDir):
 
         with capture(attributes, MagicMock(data=None)) as out:
             self.assertIn('Occurrences', out)
+
+    def test_overlap(self):
+        from pyconcepticon.commands import overlap
+        Args = namedtuple('Args', ['data', 'args'])
+        self.assertEqual(
+                overlap(Args(data='', args=['Swadesh-1955-100',
+            'Swadesh-1952-200'])),
+                87)
