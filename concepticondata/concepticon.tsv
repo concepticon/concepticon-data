@@ -206,7 +206,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 205	TROUGH	The house	A long, narrow container, open on top, for feeding or watering animals.	Person/Thing
 206	FIREFLY	Animals	A nocturnal, bioluminescent beetle of the family Lampyridae.	Person/Thing
 207	SPARSE	Quantity	Occupied or populated by a small number of people.	Property
-208	NASAL MUCUS, SNOT	The body	Mucus from the nose.	Person/Thing
+208	NASAL MUCUS (SNOT)	The body	Mucus from the nose.	Person/Thing
 209	RARE	Possession	Not easily found.	Property
 210	LIFE	The body	The state of being.	Person/Thing
 211	CAST	Basic actions and technology	To pour [a hardenable liquid material, like metal, plaster, glass, concrete etc.] into a mold in order to produce a solid object of the shape of the mold.	Action/Process
@@ -988,7 +988,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 987	REMAIN	Spatial relations	To continue to be in the same place or state.	Action/Process
 988	ACQUIT	Law	To pronounce not guilty of criminal charges.	Action/Process
 989	CLEAR	Cognition	Free of ambiguity or doubt.	Property
-990	CREEK	The physical world	A narrow inlet or bay, especially of the sea.	Person/Thing
+990	CREEK (TIDAL)	The physical world	A narrow inlet or bay, especially of the sea.	Person/Thing
 991	FRY	Food and drink	To cook in hot fat.	Action/Process
 992	CLIFF	The physical world	A steep coastal declivity which may or may not be precipitous, the slope angle being dependent partly on the jointing, bedding and hardness of the materials from which the cliff has been formed, and partly on the erosional processes at work. Where wave attack is dominant the cliff-foot will be rapidly eroded and cliff retreat will take place, especially in unconsolidated materials such as clays, sands, etc., frequently leaving behind an abrasion platform at the foot of the cliff. (Source: WHIT)	Person/Thing
 993	RIVER BED	The physical world	The channel containing or formerly containing the water of a river.	Person/Thing
@@ -2614,6 +2614,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2613	SKIN (HUMAN)	The body	The outer tissue of human beings.	Person/Thing
 2614	SKIN (ANIMAL)	Animals	The outer tissue covering animals.	Person/Thing
 2615	FLESH OR MEAT	The body	Either referring to the soft substance of the body of living things (flesh), or to the soft substance in animals as an important source of food for humans.	Person/Thing
+2616	SAGO THATCH	The house	A roof made from the Sago palm.	Person/Thing
 2617	BULB	Agriculture and vegetation	A bulb is the part of some plants that stores food while the plant is resting from growing.	Person/Thing
 2618	CAMERA	Modern world	Optical instrument for storing images.	Person/Thing
 2619	CARD	Modern world	A flat device in rectangular form that fulfils various functions.	Person/Thing
@@ -2630,3 +2631,14 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2630	WHIP	Modern world	A tool traditionally used by humans to exert control over animals.	Person/Thing
 2631	WIRE	Modern world	A single, usually cylindrical, flexible strand or rod of metal.	Person/Thing
 2632	AREA UNDER HOUSE	The house	The area under a house.	Person/Thing
+2633	BLACK OR DARK	Sense perception	Either the color or the absence of light.	Property
+2634	WE TWO	Kinship	The speaker and exactly one other person.	Other
+2635	THEY TWO	Kinship	The third person dual of the personal pronoun.	Other
+2636	WE TWO (EXCLUSIVE)	Kinship	Exclusive dual of the first person: I and exactly one other person, but not the addressed person (you).	Other
+2637	WE TWO (INCLUSIVE)	Kinship	Inclusive dual of the first person: I and exactly one other person, including the addressed person (you).	Other
+2638	FISHING	Basic actions and technology	To hunt for fishes (general expression).	Action/Process
+2639	FISHING (WITH A NET)	Basic actions and technology	To hunt for fishes by using a fishnet.	Action/Process
+2640	LARVA	Animals	 A distinct juvenile form many animals undergo before metamorphosis into adults.	Person/Thing
+2641	MYTHICAL BEING	Religion and belief	Any living creature that occurs in stories and fary-tales and does not exist in the real world.	Person/Thing
+2642	HE OR SHE	Kinship	Third person singular addressing living things or persons.	Other
+2643	INK	Modern world	A liquid or paste that contains pigments or dyes and is used to color a surface to produce an image, text, or design.	Person/Thing

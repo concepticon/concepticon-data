@@ -2,9 +2,9 @@ language: python
 python:
   - "3.4"
 install:
-  - pip install nose
+  - pip install nose mock
 script:
-  - python setup.py install
+  - python setup.py develop
   - nosetests
 notifications:
   email:

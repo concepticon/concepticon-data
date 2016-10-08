@@ -2,7 +2,7 @@
 from __future__ import unicode_literals
 
 
-CL_TYPES = {
+TAGS = {
     "acquisition": "Concept lists related to studies on language acquisition",
     "annotated": "Concept lists which contain further annotations which exceed the complexity of ranks",
     "areal": "Concept lists designed for a specific linguistic area.",
@@ -58,27 +58,27 @@ ONTOLOGICAL_CATEGORY = {
 }
 
 COLUMN_TYPES = {
-    "SUBLIST" : "link",
-    "URL" : "url",
-    "PART_OF_SPEECH" : "string",
-    "ENGLISH"    : "language",
-    "SPANISH"    : "language",
-    "FRENCH"     : "language",
-    "GERMAN"     : "language",
-    "RUSSIAN"    : "language",
-    "CHINESE"    : "language",
-    "LATIN"      : "language",
-    "BASQUE"     : "language",
-    "ESPERANTO"  : "language",
-    "SWEDISH"    : "language",
-    "SIKUANI"    : "language",
-    "PROTOWORLD" : "language",
-    "DUTCH"      : "language",
-    "TURKISH"    : "language",
-    "HAUSA"      : "language",
-    "JAPANESE"   : "language",
-    "COMMON_CHINESE" : "language",
-    "FREQUENCY" : "int or float",
-    "RANK" : "int",
-    "*SCORE" : "int or float"
+    "SUBLIST": "link",
+    "URL": "url",
+    "PART_OF_SPEECH": "string",
+    "ENGLISH": "language",
+    "SPANISH": "language",
+    "FRENCH": "language",
+    "GERMAN": "language",
+    "RUSSIAN": "language",
+    "CHINESE": "language",
+    "LATIN": "language",
+    "BASQUE": "language",
+    "ESPERANTO": "language",
+    "SWEDISH": "language",
+    "SIKUANI": "language",
+    "PROTOWORLD": "language",
+    "DUTCH": "language",
+    "TURKISH": "language",
+    "HAUSA": "language",
+    "JAPANESE": "language",
+    "COMMON_CHINESE": "language",
+    "FREQUENCY": "int or float",
+    "RANK": "int",
+    "*SCORE": "int or float"
 }

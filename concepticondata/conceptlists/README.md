@@ -1,165 +1,181 @@
-## Concept Lists
+# Concept Lists
 
- name | mapped | mergers 
- ---- | ------ | ------- 
-[Allen-2007-500](Allen-2007-500.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 1](https://img.shields.io/badge/mergers-1-red.svg "mergers: 1")
-[Alpher-1999-151](Alpher-1999-151.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Ardila-2007-40](Ardila-2007-40.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Beaufils-2015-18](Beaufils-2015-18.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Benedict-1976-100](Benedict-1976-100.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Bengtson-1994-27](Bengtson-1994-27.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 2](https://img.shields.io/badge/mergers-2-red.svg "mergers: 2")
-[Bennet-1976-100](Bennet-1976-100.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Bennet-1976-50a](Bennet-1976-50a.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Bennet-1976-50b](Bennet-1976-50b.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Blust-1981-200](Blust-1981-200.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Blust-2008-210](Blust-2008-210.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Borin-2012-40](Borin-2012-40.tsv)  | ![mapped: 95%](https://img.shields.io/badge/mapped-95%25-red.svg "mapped: 95%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Borin-2015-1532](Borin-2015-1532.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 3](https://img.shields.io/badge/mergers-3-red.svg "mergers: 3")
-[Bowern-2008-207](Bowern-2008-207.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Bowern-2011-204](Bowern-2011-204.tsv)  | ![mapped: 99%](https://img.shields.io/badge/mapped-99%25-brightgreen.svg "mapped: 99%") | ![mergers: 1](https://img.shields.io/badge/mergers-1-red.svg "mergers: 1")
-[Bowern-2012-189](Bowern-2012-189.tsv)  | ![mapped: 99%](https://img.shields.io/badge/mapped-99%25-brightgreen.svg "mapped: 99%") | ![mergers: 1](https://img.shields.io/badge/mergers-1-red.svg "mergers: 1")
-[Bowern-2012-205](Bowern-2012-205.tsv)  | ![mapped: 99%](https://img.shields.io/badge/mapped-99%25-brightgreen.svg "mapped: 99%") | ![mergers: 2](https://img.shields.io/badge/mergers-2-red.svg "mergers: 2")
-[Brinton-1891-21](Brinton-1891-21.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Buck-1949-1108](Buck-1949-1108.tsv)  | ![mapped: 93%](https://img.shields.io/badge/mapped-93%25-red.svg "mapped: 93%") | ![mergers: 28](https://img.shields.io/badge/mergers-28-red.svg "mergers: 28")
-[Bulakh-2013-870](Bulakh-2013-870.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 21](https://img.shields.io/badge/mergers-21-red.svg "mergers: 21")
-[Calero-2002-15](Calero-2002-15.tsv)  | ![mapped: 86%](https://img.shields.io/badge/mapped-86%25-red.svg "mapped: 86%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Chen-1996-100a](Chen-1996-100a.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Chen-1996-100b](Chen-1996-100b.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Chen-1996-200](Chen-1996-200.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Comrie-1977-207](Comrie-1977-207.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Cross-1964-241](Cross-1964-241.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 2](https://img.shields.io/badge/mergers-2-red.svg "mergers: 2")
-[Dixon-1919-175](Dixon-1919-175.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 39](https://img.shields.io/badge/mergers-39-red.svg "mergers: 39")
-[Dolch-1936-220](Dolch-1936-220.tsv)  | ![mapped: 84%](https://img.shields.io/badge/mapped-84%25-red.svg "mapped: 84%") | ![mergers: 19](https://img.shields.io/badge/mergers-19-red.svg "mergers: 19")
-[Dolch-1936-95](Dolch-1936-95.tsv)  | ![mapped: 98%](https://img.shields.io/badge/mapped-98%25-red.svg "mapped: 98%") | ![mergers: 1](https://img.shields.io/badge/mergers-1-red.svg "mergers: 1")
-[Dolgopolsky-1964-15](Dolgopolsky-1964-15.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Dunn-2012-207](Dunn-2012-207.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Dyen-1964-154](Dyen-1964-154.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Dyen-1964-196](Dyen-1964-196.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Dyen-1992-200](Dyen-1992-200.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 1](https://img.shields.io/badge/mergers-1-red.svg "mergers: 1")
-[Ferguson-1964-30](Ferguson-1964-30.tsv)  | ![mapped: 93%](https://img.shields.io/badge/mapped-93%25-red.svg "mapped: 93%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Forni-2013-201](Forni-2013-201.tsv)  | ![mapped: 98%](https://img.shields.io/badge/mapped-98%25-red.svg "mapped: 98%") | ![mergers: 13](https://img.shields.io/badge/mergers-13-red.svg "mergers: 13")
-[Forster-2006-100](Forster-2006-100.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Gabelentz-1861-24](Gabelentz-1861-24.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Gabelentz-1891-120](Gabelentz-1891-120.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 1](https://img.shields.io/badge/mergers-1-red.svg "mergers: 1")
-[Galucio-2015-100](Galucio-2015-100.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Galucio-2015-28](Galucio-2015-28.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Galucio-2015-34](Galucio-2015-34.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Galucio-2015-90](Galucio-2015-90.tsv)  | ![mapped: 87%](https://img.shields.io/badge/mapped-87%25-red.svg "mapped: 87%") | ![mergers: 2](https://img.shields.io/badge/mergers-2-red.svg "mergers: 2")
-[Goddard-2001-42](Goddard-2001-42.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 1](https://img.shields.io/badge/mergers-1-red.svg "mergers: 1")
-[Gregersen-1976-217](Gregersen-1976-217.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 1](https://img.shields.io/badge/mergers-1-red.svg "mergers: 1")
-[Grollemund-2015-100](Grollemund-2015-100.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Gudschinsky-1956-200](Gudschinsky-1956-200.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Hale-1961-100](Hale-1961-100.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Haspelmath-2009-1460](Haspelmath-2009-1460.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 3](https://img.shields.io/badge/mergers-3-red.svg "mergers: 3")
-[Hattori-1961-236](Hattori-1961-236.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Hattori-1973-200](Hattori-1973-200.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[He-2010-207](He-2010-207.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 5](https://img.shields.io/badge/mergers-5-red.svg "mergers: 5")
-[Heggarty-2005-150](Heggarty-2005-150.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Heggarty-2005-30a](Heggarty-2005-30a.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Heggarty-2005-30b](Heggarty-2005-30b.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Holman-2008-100](Holman-2008-100.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Holman-2008-40](Holman-2008-40.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Hou-2004-180](Hou-2004-180.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Huber-1992-374](Huber-1992-374.tsv)  | ![mapped: 95%](https://img.shields.io/badge/mapped-95%25-red.svg "mapped: 95%") | ![mergers: 2](https://img.shields.io/badge/mergers-2-red.svg "mergers: 2")
-[Janhunan-2008-235](Janhunan-2008-235.tsv)  | ![mapped: 98%](https://img.shields.io/badge/mapped-98%25-red.svg "mapped: 98%") | ![mergers: 19](https://img.shields.io/badge/mergers-19-red.svg "mergers: 19")
-[Kassian-2010-116](Kassian-2010-116.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 1](https://img.shields.io/badge/mergers-1-red.svg "mergers: 1")
-[Kassian-2015-50](Kassian-2015-50.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Kessler-2001-200](Kessler-2001-200.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Key-2015-1310](Key-2015-1310.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 5](https://img.shields.io/badge/mergers-5-red.svg "mergers: 5")
-[Kitchen-2009-95](Kitchen-2009-95.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Kraft-1981-434](Kraft-1981-434.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 6](https://img.shields.io/badge/mergers-6-red.svg "mergers: 6")
-[Krisadawan-2000-210](Krisadawan-2000-210.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 1](https://img.shields.io/badge/mergers-1-red.svg "mergers: 1")
-[Lee-2011-211](Lee-2011-211.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 1](https://img.shields.io/badge/mergers-1-red.svg "mergers: 1")
-[Lee-2013-200](Lee-2013-200.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 2](https://img.shields.io/badge/mergers-2-red.svg "mergers: 2")
-[Leibniz-1768-128](Leibniz-1768-128.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Lin-2010-89](Lin-2010-89.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[List-2014-1280](List-2014-1280.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 2](https://img.shields.io/badge/mergers-2-red.svg "mergers: 2")
-[Luqman-2010-65](Luqman-2010-65.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Mallory-2006-100](Mallory-2006-100.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Mann-1998-406](Mann-1998-406.tsv)  | ![mapped: 99%](https://img.shields.io/badge/mapped-99%25-brightgreen.svg "mapped: 99%") | ![mergers: 4](https://img.shields.io/badge/mergers-4-red.svg "mergers: 4")
-[Mann-2004-118](Mann-2004-118.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Mann-2004-209](Mann-2004-209.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 1](https://img.shields.io/badge/mergers-1-red.svg "mergers: 1")
-[Mann-2004-210](Mann-2004-210.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Mann-2004-500](Mann-2004-500.tsv)  | ![mapped: 99%](https://img.shields.io/badge/mapped-99%25-brightgreen.svg "mapped: 99%") | ![mergers: 13](https://img.shields.io/badge/mergers-13-red.svg "mergers: 13")
-[Marsden-1782-50](Marsden-1782-50.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Matisoff-1978-200](Matisoff-1978-200.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[McElhanon-1967-140](McElhanon-1967-140.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[McMahon-2005-23](McMahon-2005-23.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[McMahon-2005-30](McMahon-2005-30.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Meillet-1921-16](Meillet-1921-16.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Miller-1994-281](Miller-1994-281.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 2](https://img.shields.io/badge/mergers-2-red.svg "mergers: 2")
-[Mitterhofer-2013-300](Mitterhofer-2013-300.tsv)  | ![mapped: 99%](https://img.shields.io/badge/mapped-99%25-brightgreen.svg "mapped: 99%") | ![mergers: 3](https://img.shields.io/badge/mergers-3-red.svg "mergers: 3")
-[Mitterhofer-2013-353](Mitterhofer-2013-353.tsv)  | ![mapped: 97%](https://img.shields.io/badge/mapped-97%25-red.svg "mapped: 97%") | ![mergers: 8](https://img.shields.io/badge/mergers-8-red.svg "mergers: 8")
-[Mitterhofer-2013-92](Mitterhofer-2013-92.tsv)  | ![mapped: 93%](https://img.shields.io/badge/mapped-93%25-red.svg "mapped: 93%") | ![mergers: 4](https://img.shields.io/badge/mergers-4-red.svg "mergers: 4")
-[Nagaraja-2013-200](Nagaraja-2013-200.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Nahhas-2006-100](Nahhas-2006-100.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Nelson-2001-89](Nelson-2001-89.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Nicholas-1989-60](Nicholas-1989-60.tsv)  | ![mapped: 96%](https://img.shields.io/badge/mapped-96%25-red.svg "mapped: 96%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Norman-2003-40](Norman-2003-40.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[OGrady-1969-100](OGrady-1969-100.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Ogden-1930-100](Ogden-1930-100.tsv)  | ![mapped: 72%](https://img.shields.io/badge/mapped-72%25-red.svg "mapped: 72%") | ![mergers: 1](https://img.shields.io/badge/mergers-1-red.svg "mergers: 1")
-[Ogden-1930-200](Ogden-1930-200.tsv)  | ![mapped: 92%](https://img.shields.io/badge/mapped-92%25-red.svg "mapped: 92%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Pagel-2007-200](Pagel-2007-200.tsv)  | ![mapped: 99%](https://img.shields.io/badge/mapped-99%25-brightgreen.svg "mapped: 99%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Pagel-2013-23](Pagel-2013-23.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Pallas-1786-441](Pallas-1786-441.tsv)  | ![mapped: 99%](https://img.shields.io/badge/mapped-99%25-brightgreen.svg "mapped: 99%") | ![mergers: 15](https://img.shields.io/badge/mergers-15-red.svg "mergers: 15")
-[Pallas-1789-285](Pallas-1789-285.tsv)  | ![mapped: 98%](https://img.shields.io/badge/mapped-98%25-red.svg "mapped: 98%") | ![mergers: 10](https://img.shields.io/badge/mergers-10-red.svg "mergers: 10")
-[Payne-1991-202](Payne-1991-202.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 39](https://img.shields.io/badge/mergers-39-red.svg "mergers: 39")
-[Peust-2013-54](Peust-2013-54.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Pozdniakov-2014-100a](Pozdniakov-2014-100a.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Pozdniakov-2014-100b](Pozdniakov-2014-100b.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Ringe-1992-100](Ringe-1992-100.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Ringe-2002-333](Ringe-2002-333.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[SIL-1980-281](SIL-1980-281.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 1](https://img.shields.io/badge/mergers-1-red.svg "mergers: 1")
-[SIL-2002-436](SIL-2002-436.tsv)  | ![mapped: 99%](https://img.shields.io/badge/mapped-99%25-brightgreen.svg "mapped: 99%") | ![mergers: 5](https://img.shields.io/badge/mergers-5-red.svg "mergers: 5")
-[Samarin-1967-100](Samarin-1967-100.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Samarin-1967-218](Samarin-1967-218.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Sato-2002-200](Sato-2002-200.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[SatterthwaitePhillips-2011-423](SatterthwaitePhillips-2011-423.tsv)  | ![mapped: 98%](https://img.shields.io/badge/mapped-98%25-red.svg "mapped: 98%") | ![mergers: 5](https://img.shields.io/badge/mergers-5-red.svg "mergers: 5")
-[SatterthwaitePhillips-2011-50](SatterthwaitePhillips-2011-50.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Shevoroshkin-1991-23](Shevoroshkin-1991-23.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Sidwell-2015-200](Sidwell-2015-200.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Starostin-1991-110](Starostin-1991-110.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Starostin-2007-110](Starostin-2007-110.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Starostin-2010-50](Starostin-2010-50.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Struve-2014-100](Struve-2014-100.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Swadesh-1950-165](Swadesh-1950-165.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Swadesh-1950-215](Swadesh-1950-215.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Swadesh-1952-200](Swadesh-1952-200.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Swadesh-1954-97](Swadesh-1954-97.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Swadesh-1955-100](Swadesh-1955-100.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Swadesh-1955-215](Swadesh-1955-215.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Swadesh-1960-100a](Swadesh-1960-100a.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Swadesh-1960-100b](Swadesh-1960-100b.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Swadesh-1960-200](Swadesh-1960-200.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Swadesh-1971-100](Swadesh-1971-100.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Syrjaenen-2013-226](Syrjaenen-2013-226.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Tadmor-2009-100](Tadmor-2009-100.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[TeilDautrey-2008-430](TeilDautrey-2008-430.tsv)  | ![mapped: 97%](https://img.shields.io/badge/mapped-97%25-red.svg "mapped: 97%") | ![mergers: 5](https://img.shields.io/badge/mergers-5-red.svg "mergers: 5")
-[Thomas-1960-168](Thomas-1960-168.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 1](https://img.shields.io/badge/mergers-1-red.svg "mergers: 1")
-[Thomas-1979-34](Thomas-1979-34.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Trask-1996-100](Trask-1996-100.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Trask-1996-207](Trask-1996-207.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Trask-1996-45](Trask-1996-45.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Trask-2000-15](Trask-2000-15.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Trick-1983-100](Trick-1983-100.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Tryon-1983-200](Tryon-1983-200.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Tryon-1983-324](Tryon-1983-324.tsv)  | ![mapped: 97%](https://img.shields.io/badge/mapped-97%25-red.svg "mapped: 97%") | ![mergers: 6](https://img.shields.io/badge/mergers-6-red.svg "mergers: 6")
-[Urban-2011-160](Urban-2011-160.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 1](https://img.shields.io/badge/mergers-1-red.svg "mergers: 1")
-[Wang-2004-100a](Wang-2004-100a.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Wang-2004-100b](Wang-2004-100b.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Wang-2004-200](Wang-2004-200.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Wang-2004-95](Wang-2004-95.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Wang-2006-200](Wang-2006-200.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Wheeler-2015-102](Wheeler-2015-102.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 1](https://img.shields.io/badge/mergers-1-red.svg "mergers: 1")
-[Wichmann-2010-40](Wichmann-2010-40.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Wiktionary-2003-207](Wiktionary-2003-207.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Wilson-1969-35](Wilson-1969-35.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Woll-2010-301](Woll-2010-301.tsv)  | ![mapped: 85%](https://img.shields.io/badge/mapped-85%25-red.svg "mapped: 85%") | ![mergers: 2](https://img.shields.io/badge/mergers-2-red.svg "mergers: 2")
-[Woodward-1991-100](Woodward-1991-100.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Yakhontov-1991-100](Yakhontov-1991-100.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Yakhontov-1991-35](Yakhontov-1991-35.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Yakhontov-1991-65](Yakhontov-1991-65.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Youn-2016-22](Youn-2016-22.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
-[Zgraggen-1980-380](Zgraggen-1980-380.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 13](https://img.shields.io/badge/mergers-13-red.svg "mergers: 13")
-[Zheng-2007-86](Zheng-2007-86.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 1](https://img.shields.io/badge/mergers-1-red.svg "mergers: 1")
-[Zorc-1974-100](Zorc-1974-100.tsv)  | ![mapped: 100%](https://img.shields.io/badge/mapped-100%25-brightgreen.svg "mapped: 100%") | ![mergers: 0](https://img.shields.io/badge/mergers-0-brightgreen.svg "mergers: 0")
+| name | # mapped | % mapped | mergers |
+|:---------------------------------------------------------------------|-----------:|-----------:|----------:|
+| [Allen-2007-500](Allen-2007-500.tsv) | 500 | 100 | 1 |
+| [Alpher-1999-151](Alpher-1999-151.tsv) | 151 | 100 | 0 |
+| [Ardila-2007-40](Ardila-2007-40.tsv) | 40 | 100 | 0 |
+| [Beaufils-2015-18](Beaufils-2015-18.tsv) | 18 | 100 | 0 |
+| [Benedict-1976-100](Benedict-1976-100.tsv) | 100 | 100 | 0 |
+| [Bengtson-1994-27](Bengtson-1994-27.tsv) | 27 | 100 | 2 |
+| [Bennet-1976-100](Bennet-1976-100.tsv) | 100 | 100 | 0 |
+| [Bennet-1976-50a](Bennet-1976-50a.tsv) | 50 | 100 | 0 |
+| [Bennet-1976-50b](Bennet-1976-50b.tsv) | 50 | 100 | 0 |
+| [Blust-1981-200](Blust-1981-200.tsv) | 206 | 100 | 0 |
+| [Blust-2008-210](Blust-2008-210.tsv) | 210 | 100 | 0 |
+| [Borin-2012-40](Borin-2012-40.tsv) | 38 | 95 | 0 |
+| [Borin-2015-1532](Borin-2015-1532.tsv) | 1375 | 100 | 3 |
+| [Bowern-2008-207](Bowern-2008-207.tsv) | 207 | 100 | 0 |
+| [Bowern-2011-204](Bowern-2011-204.tsv) | 203 | 99 | 1 |
+| [Bowern-2012-189](Bowern-2012-189.tsv) | 189 | 99 | 1 |
+| [Bowern-2012-205](Bowern-2012-205.tsv) | 204 | 99 | 2 |
+| [Brinton-1891-21](Brinton-1891-21.tsv) | 21 | 100 | 0 |
+| [Buck-1949-1108](Buck-1949-1108.tsv) | 1040 | 93 | 28 |
+| [Bulakh-2013-870](Bulakh-2013-870.tsv) | 870 | 100 | 21 |
+| [Calero-2002-15](Calero-2002-15.tsv) | 13 | 86 | 0 |
+| [Chacon-2014-142](Chacon-2014-142.tsv) | 128 | 90 | 3 |
+| [Chen-1996-100a](Chen-1996-100a.tsv) | 100 | 100 | 0 |
+| [Chen-1996-100b](Chen-1996-100b.tsv) | 100 | 100 | 0 |
+| [Chen-1996-200](Chen-1996-200.tsv) | 200 | 100 | 0 |
+| [Comrie-1977-207](Comrie-1977-207.tsv) | 207 | 100 | 0 |
+| [Cross-1964-241](Cross-1964-241.tsv) | 241 | 100 | 2 |
+| [Cysouw-2006-110](Cysouw-2006-110.tsv) | 110 | 100 | 0 |
+| [Daniels-2016-85](Daniels-2016-85.tsv) | 85 | 100 | 0 |
+| [Deepadung-2015-100](Deepadung-2015-100.tsv) | 100 | 100 | 0 |
+| [Dixon-1919-175](Dixon-1919-175.tsv) | 173 | 100 | 39 |
+| [Dolch-1936-220](Dolch-1936-220.tsv) | 185 | 84 | 19 |
+| [Dolch-1936-95](Dolch-1936-95.tsv) | 94 | 98 | 1 |
+| [Dolgopolsky-1964-15](Dolgopolsky-1964-15.tsv) | 15 | 100 | 0 |
+| [Dunn-2011-146](Dunn-2011-146.tsv) | 146 | 100 | 0 |
+| [Dunn-2012-207](Dunn-2012-207.tsv) | 207 | 100 | 0 |
+| [Dye-1968-120](Dye-1968-120.tsv) | 120 | 100 | 0 |
+| [Dyen-1964-154](Dyen-1964-154.tsv) | 153 | 100 | 0 |
+| [Dyen-1964-196](Dyen-1964-196.tsv) | 196 | 100 | 0 |
+| [Dyen-1992-200](Dyen-1992-200.tsv) | 200 | 100 | 1 |
+| [Ferguson-1964-30](Ferguson-1964-30.tsv) | 28 | 93 | 0 |
+| [Forni-2013-201](Forni-2013-201.tsv) | 197 | 98 | 13 |
+| [Forster-2006-100](Forster-2006-100.tsv) | 100 | 100 | 0 |
+| [Gabelentz-1861-24](Gabelentz-1861-24.tsv) | 24 | 100 | 0 |
+| [Gabelentz-1891-120](Gabelentz-1891-120.tsv) | 120 | 100 | 1 |
+| [Galucio-2015-100](Galucio-2015-100.tsv) | 100 | 100 | 0 |
+| [Galucio-2015-28](Galucio-2015-28.tsv) | 28 | 100 | 0 |
+| [Galucio-2015-34](Galucio-2015-34.tsv) | 34 | 100 | 0 |
+| [Galucio-2015-90](Galucio-2015-90.tsv) | 79 | 87 | 2 |
+| [Goddard-2001-42](Goddard-2001-42.tsv) | 42 | 100 | 1 |
+| [Gregersen-1976-217](Gregersen-1976-217.tsv) | 217 | 100 | 1 |
+| [Grollemund-2015-100](Grollemund-2015-100.tsv) | 100 | 100 | 0 |
+| [Gudschinsky-1956-200](Gudschinsky-1956-200.tsv) | 200 | 100 | 0 |
+| [Hale-1961-100](Hale-1961-100.tsv) | 100 | 100 | 0 |
+| [Haspelmath-2009-1460](Haspelmath-2009-1460.tsv) | 1460 | 100 | 3 |
+| [Hattori-1961-236](Hattori-1961-236.tsv) | 236 | 100 | 0 |
+| [Hattori-1973-200](Hattori-1973-200.tsv) | 200 | 100 | 0 |
+| [He-2010-207](He-2010-207.tsv) | 207 | 100 | 5 |
+| [Heggarty-2005-150](Heggarty-2005-150.tsv) | 150 | 100 | 0 |
+| [Heggarty-2005-30a](Heggarty-2005-30a.tsv) | 30 | 100 | 0 |
+| [Heggarty-2005-30b](Heggarty-2005-30b.tsv) | 30 | 100 | 0 |
+| [Heggarty-2014-110](Heggarty-2014-110.tsv) | 108 | 98 | 1 |
+| [Holman-2008-100](Holman-2008-100.tsv) | 100 | 100 | 0 |
+| [Holman-2008-40](Holman-2008-40.tsv) | 40 | 100 | 0 |
+| [Hou-2004-180](Hou-2004-180.tsv) | 180 | 100 | 0 |
+| [Huber-1992-374](Huber-1992-374.tsv) | 350 | 95 | 2 |
+| [Janhunan-2008-235](Janhunan-2008-235.tsv) | 268 | 98 | 19 |
+| [Kassian-2010-116](Kassian-2010-116.tsv) | 116 | 100 | 1 |
+| [Kassian-2015-50](Kassian-2015-50.tsv) | 50 | 100 | 0 |
+| [Kessler-2001-200](Kessler-2001-200.tsv) | 200 | 100 | 0 |
+| [Key-2016-1310](Key-2016-1310.tsv) | 1310 | 100 | 5 |
+| [Kitchen-2009-95](Kitchen-2009-95.tsv) | 95 | 100 | 0 |
+| [Kraft-1981-434](Kraft-1981-434.tsv) | 434 | 100 | 6 |
+| [Krisadawan-2000-210](Krisadawan-2000-210.tsv) | 211 | 100 | 1 |
+| [Lee-2011-211](Lee-2011-211.tsv) | 211 | 100 | 1 |
+| [Lee-2013-200](Lee-2013-200.tsv) | 200 | 100 | 2 |
+| [Leibniz-1768-128](Leibniz-1768-128.tsv) | 128 | 100 | 0 |
+| [Lin-2010-89](Lin-2010-89.tsv) | 89 | 100 | 0 |
+| [List-2014-1280](List-2014-1280.tsv) | 1280 | 100 | 2 |
+| [List-2016-180](List-2016-180.tsv) | 179 | 99 | 1 |
+| [List-2016-57](List-2016-57.tsv) | 57 | 100 | 0 |
+| [Liu-2007-201](Liu-2007-201.tsv) | 201 | 100 | 1 |
+| [Luqman-2010-65](Luqman-2010-65.tsv) | 65 | 100 | 0 |
+| [Mallory-2006-100](Mallory-2006-100.tsv) | 100 | 100 | 0 |
+| [Mann-1998-406](Mann-1998-406.tsv) | 404 | 99 | 4 |
+| [Mann-2004-118](Mann-2004-118.tsv) | 118 | 100 | 0 |
+| [Mann-2004-209](Mann-2004-209.tsv) | 209 | 100 | 1 |
+| [Mann-2004-210](Mann-2004-210.tsv) | 210 | 100 | 0 |
+| [Mann-2004-500](Mann-2004-500.tsv) | 497 | 99 | 13 |
+| [Marsden-1782-50](Marsden-1782-50.tsv) | 50 | 100 | 0 |
+| [Matisoff-1978-200](Matisoff-1978-200.tsv) | 210 | 100 | 0 |
+| [McElhanon-1967-140](McElhanon-1967-140.tsv) | 140 | 100 | 0 |
+| [McMahon-2005-23](McMahon-2005-23.tsv) | 23 | 100 | 0 |
+| [McMahon-2005-30](McMahon-2005-30.tsv) | 30 | 100 | 0 |
+| [Meillet-1921-16](Meillet-1921-16.tsv) | 16 | 100 | 0 |
+| [Mennecier-2016-183](Mennecier-2016-183.tsv) | 183 | 100 | 0 |
+| [Miedema-1985-40](Miedema-1985-40.tsv) | 40 | 100 | 0 |
+| [Miller-1994-281](Miller-1994-281.tsv) | 284 | 100 | 2 |
+| [Mitterhofer-2013-300](Mitterhofer-2013-300.tsv) | 298 | 99 | 3 |
+| [Mitterhofer-2013-353](Mitterhofer-2013-353.tsv) | 344 | 97 | 8 |
+| [Mitterhofer-2013-92](Mitterhofer-2013-92.tsv) | 87 | 93 | 4 |
+| [Nagaraja-2013-200](Nagaraja-2013-200.tsv) | 200 | 100 | 0 |
+| [Nahhas-2006-100](Nahhas-2006-100.tsv) | 100 | 100 | 0 |
+| [Nelson-2001-89](Nelson-2001-89.tsv) | 89 | 100 | 0 |
+| [Nicholas-1989-60](Nicholas-1989-60.tsv) | 58 | 96 | 0 |
+| [Norman-2003-40](Norman-2003-40.tsv) | 40 | 100 | 0 |
+| [OGrady-1969-100](OGrady-1969-100.tsv) | 100 | 100 | 0 |
+| [Ogden-1930-100](Ogden-1930-100.tsv) | 72 | 72 | 1 |
+| [Ogden-1930-200](Ogden-1930-200.tsv) | 184 | 92 | 0 |
+| [Pagel-2007-200](Pagel-2007-200.tsv) | 199 | 99 | 0 |
+| [Pagel-2013-23](Pagel-2013-23.tsv) | 23 | 100 | 0 |
+| [Pallas-1786-441](Pallas-1786-441.tsv) | 440 | 99 | 15 |
+| [Pallas-1789-285](Pallas-1789-285.tsv) | 282 | 98 | 10 |
+| [Payne-1991-202](Payne-1991-202.tsv) | 202 | 100 | 39 |
+| [Peust-2013-54](Peust-2013-54.tsv) | 54 | 100 | 0 |
+| [Pozdniakov-2014-100a](Pozdniakov-2014-100a.tsv) | 100 | 100 | 0 |
+| [Pozdniakov-2014-100b](Pozdniakov-2014-100b.tsv) | 100 | 100 | 0 |
+| [Ringe-1992-100](Ringe-1992-100.tsv) | 100 | 100 | 0 |
+| [Ringe-2002-333](Ringe-2002-333.tsv) | 333 | 100 | 0 |
+| [SIL-1980-281](SIL-1980-281.tsv) | 282 | 100 | 1 |
+| [SIL-2002-436](SIL-2002-436.tsv) | 439 | 99 | 5 |
+| [Samarin-1967-100](Samarin-1967-100.tsv) | 100 | 100 | 0 |
+| [Samarin-1967-218](Samarin-1967-218.tsv) | 218 | 100 | 0 |
+| [Sato-2002-200](Sato-2002-200.tsv) | 200 | 100 | 0 |
+| [SatterthwaitePhillips-2011-423](SatterthwaitePhillips-2011-423.tsv) | 417 | 98 | 5 |
+| [SatterthwaitePhillips-2011-50](SatterthwaitePhillips-2011-50.tsv) | 50 | 100 | 0 |
+| [Shevoroshkin-1991-23](Shevoroshkin-1991-23.tsv) | 23 | 100 | 0 |
+| [Sidwell-2015-200](Sidwell-2015-200.tsv) | 200 | 100 | 0 |
+| [Starostin-1991-110](Starostin-1991-110.tsv) | 110 | 100 | 0 |
+| [Starostin-2007-110](Starostin-2007-110.tsv) | 110 | 100 | 0 |
+| [Starostin-2010-50](Starostin-2010-50.tsv) | 50 | 100 | 0 |
+| [Struve-2014-100](Struve-2014-100.tsv) | 100 | 100 | 0 |
+| [Swadesh-1950-165](Swadesh-1950-165.tsv) | 165 | 100 | 0 |
+| [Swadesh-1950-215](Swadesh-1950-215.tsv) | 215 | 100 | 0 |
+| [Swadesh-1952-200](Swadesh-1952-200.tsv) | 200 | 100 | 0 |
+| [Swadesh-1954-97](Swadesh-1954-97.tsv) | 97 | 100 | 0 |
+| [Swadesh-1955-100](Swadesh-1955-100.tsv) | 100 | 100 | 0 |
+| [Swadesh-1955-215](Swadesh-1955-215.tsv) | 215 | 100 | 0 |
+| [Swadesh-1960-100a](Swadesh-1960-100a.tsv) | 100 | 100 | 0 |
+| [Swadesh-1960-100b](Swadesh-1960-100b.tsv) | 100 | 100 | 0 |
+| [Swadesh-1960-200](Swadesh-1960-200.tsv) | 200 | 100 | 0 |
+| [Swadesh-1971-100](Swadesh-1971-100.tsv) | 100 | 100 | 0 |
+| [Syrjaenen-2013-226](Syrjaenen-2013-226.tsv) | 226 | 100 | 0 |
+| [Tadmor-2009-100](Tadmor-2009-100.tsv) | 100 | 100 | 0 |
+| [TeilDautrey-2008-430](TeilDautrey-2008-430.tsv) | 420 | 97 | 5 |
+| [Thomas-1960-168](Thomas-1960-168.tsv) | 168 | 100 | 1 |
+| [Thomas-1979-34](Thomas-1979-34.tsv) | 34 | 100 | 0 |
+| [Trask-1996-100](Trask-1996-100.tsv) | 100 | 100 | 0 |
+| [Trask-1996-207](Trask-1996-207.tsv) | 207 | 100 | 0 |
+| [Trask-1996-45](Trask-1996-45.tsv) | 45 | 100 | 0 |
+| [Trask-2000-15](Trask-2000-15.tsv) | 15 | 100 | 0 |
+| [Trick-1983-100](Trick-1983-100.tsv) | 100 | 100 | 0 |
+| [Tryon-1983-200](Tryon-1983-200.tsv) | 200 | 100 | 0 |
+| [Tryon-1983-324](Tryon-1983-324.tsv) | 315 | 97 | 6 |
+| [Urban-2011-160](Urban-2011-160.tsv) | 160 | 100 | 1 |
+| [Voorhoeve-1975-40](Voorhoeve-1975-40.tsv) | 40 | 100 | 0 |
+| [Wang-2004-100a](Wang-2004-100a.tsv) | 100 | 100 | 0 |
+| [Wang-2004-100b](Wang-2004-100b.tsv) | 100 | 100 | 0 |
+| [Wang-2004-200](Wang-2004-200.tsv) | 200 | 100 | 0 |
+| [Wang-2004-95](Wang-2004-95.tsv) | 95 | 100 | 0 |
+| [Wang-2006-200](Wang-2006-200.tsv) | 200 | 100 | 0 |
+| [Wheeler-2015-102](Wheeler-2015-102.tsv) | 102 | 100 | 1 |
+| [Wichmann-2010-40](Wichmann-2010-40.tsv) | 40 | 100 | 0 |
+| [Wiktionary-2003-207](Wiktionary-2003-207.tsv) | 207 | 100 | 0 |
+| [Wilson-1969-35](Wilson-1969-35.tsv) | 35 | 100 | 0 |
+| [Woll-2010-301](Woll-2010-301.tsv) | 256 | 85 | 2 |
+| [Woodward-1991-100](Woodward-1991-100.tsv) | 100 | 100 | 0 |
+| [Yakhontov-1991-100](Yakhontov-1991-100.tsv) | 100 | 100 | 0 |
+| [Yakhontov-1991-35](Yakhontov-1991-35.tsv) | 35 | 100 | 0 |
+| [Yakhontov-1991-65](Yakhontov-1991-65.tsv) | 65 | 100 | 0 |
+| [Youn-2016-22](Youn-2016-22.tsv) | 22 | 100 | 0 |
+| [Zgraggen-1980-380](Zgraggen-1980-380.tsv) | 308 | 100 | 13 |
+| [Zheng-2007-86](Zheng-2007-86.tsv) | 86 | 100 | 1 |
+| [Zorc-1974-100](Zorc-1974-100.tsv) | 100 | 100 | 0 |
+
+(174 rows)
+
