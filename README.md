@@ -84,7 +84,6 @@ Concept(id=u'Mennecier-2016-183-1', number=u'1', concepticon_id=u'619', concepti
 Reference(id=u'Mennecier2016', type=u'article', record={u'doi': u'10.1163/22105832-00601015', u'author': u'Phillipe Mennecier and John Nerbonne and Evelyne Heyer and Franz Manni', u'journal': u'Language Dynamics and Change', u'title': u'A Central Asian language survey', u'number': u'1', u'volume': u'6', u'year': u'2016', u'pages': u'57\u201398'})
 ```
 
-<<<<<<< HEAD
 Having installed pyconcepticon, you can also directly query concept lists via the terminal command `concepticon`. For example, to learn about the intersection between two or more lists, you can type:
 
 ```shell
