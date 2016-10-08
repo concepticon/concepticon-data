@@ -5,17 +5,9 @@ The data underlying the [Concepticon](http://concepticon.clld.org) of the [CLLD]
 * [previous and current releases](https://github.com/clld/concepticon-data/releases), 
 * [issues we are trying to handle](https://github.com/clld/concepticon-data/issues), as well as the 
 * [current unreleased form of the data](https://github.com/clld/concepticon-data/tree/master/concepticondata).
-<<<<<<< HEAD
 
 The repository also contains the sources of [`pyconcepticon`](#pyconcepticon), a python package providing an API to access and manipulate the Concepticon data.
 
-
-=======
-
-The repository also contains the sources of [`pyconcepticon`](#pyconcepticon), a python package providing an API to access and manipulate the Concepticon data.
-
-
->>>>>>> master
 ## Concepticon Data
 
 * For an overview on the status of all currently linked conceptlists, see [here](https://github.com/clld/concepticon-data/blob/master/concepticondata/conceptlists/README.md).
