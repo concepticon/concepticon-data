@@ -100,7 +100,14 @@ def attributes(args):
         'Attribute', 'Occurrences')))
 
 
-def compare_conceptlists(api, *conceptlists):
+def compare_conceptlists(api, *conceptlists, search_depth=2):
+    """
+    Function compares multiple conceptlists and extracts common concepts.
+
+    Note
+    ----
+    The method takes concept relations into account.
+    """
     commons = defaultdict(set)
 
     # store all concepts along with their broader concepts
@@ -108,9 +115,12 @@ def compare_conceptlists(api, *conceptlists):
         for c in api.conceptlists[arg].concepts.values():
             commons[c.concepticon_id].add((
                 arg, 0, c.concepticon_id, c.concepticon_gloss))
-            for cn, d in api.relations.broader(c.concepticon_id, 2):
+            for cn, d in api.relations.broader(c.concepticon_id, search_depth):
                 commons[cn].add((
                     arg, d, c.concepticon_id, c.concepticon_gloss))
+            for cn, d in api.relations.narrower(c.concepticon_id, search_depth):
+                commons[cn].add((
+                    arg, -d, c.concepticon_id, c.concepticon_gloss))
 
     # store proper concepts (the ones purely underived), as we need to check in
     # a second run, whether a narrower concept occurs (don't find another
@@ -123,7 +133,7 @@ def compare_conceptlists(api, *conceptlists):
 
     # yield concepts, but don't yield broader concepts for which we can find
     # narrower ones
-    for c, lists in sorted(
+    for cid, lists in sorted(
             commons.items(), key=lambda x: api.conceptsets[x[0]].gloss):
         if not [0 for x in lists if x[1] == 0]:
             concepts = dict([(c, (a, b)) for a, b, c, d in lists])
@@ -132,10 +142,20 @@ def compare_conceptlists(api, *conceptlists):
                 if concept in proper_concepts:
                     retain = False
             if retain:
-                yield (c, lists)
+                yield (cid, lists)
         else:
-            yield (c, lists)
-
+            # if one list makes MORE distinctions than the other, yield the
+            # more refined list
+            split = False
+            listcheck = defaultdict(list) #dict([(a, (a, b, c, d)) for a, b, c, d in lists])
+            for a, b, c, d in lists:
+                if b >= 0:
+                    listcheck[a] += [(a, b, c, d)]
+            for l, concepts in listcheck.items():
+                if len([x for x in concepts if x[1] > 0]) > 1:
+                    split = True
+            if not split:
+                yield (cid, lists)
 
 def intersection(args):
     """Compare how many concepts overlap in concept lists.
@@ -155,13 +175,13 @@ def intersection(args):
     clen = 0
 
     for c, lists in compare_conceptlists(api, *args.args):
-        if len(set([x[0] for x in lists])) == len(args.args):
-            marker = '*' if sum([x[1] for x in lists]) else ''
+        if len(set([x[0] for x in lists if x[1] >= 0])) == len(args.args):
+            marker = '*' if not len([0 for x in lists if x[1] == 0]) else ''
             out += [(
                 marker, c,
                 api.conceptsets[c].gloss, ', '.join(
                     ['{0[3]} ({0[1]}, {0[0]})'.format(x) for x in
-                        lists if x[1] > 0]))]
+                        lists if x[1] != 0]))]
             clen = len(out[-1][2]) if len(out[-1][2]) > clen else clen
     frmt = '{0:3} {1:1}{2:'+str(clen)+'} [{3:4}] {4}'
     for i, line in enumerate(out):
@@ -181,7 +201,7 @@ def union(args):
     for cid, lists in compared:
         if len(set([l[0] for l in lists])) == len(args.args):
             for a, b, c, d in lists:
-                if b != 0:
+                if b > 0:
                     narrow_concepts[c] = cid
         else:
             for a, b, c, d in lists:
@@ -190,14 +210,12 @@ def union(args):
 
     for c, lists in compared:
         if c not in narrow_concepts and c not in broad_concepts:
-            marker = '*' if sum([x[1] for x in lists]) else ''
-            if c in narrow_concepts:
-                marker = '?'
+            marker = '*' if not len([0 for x in lists if x[1] == 0]) else ''
             out += [(
                 marker, c,
                 api.conceptsets[c].gloss,
                 ', '.join(['{0[3]} ({0[1]}, {0[0]})'.format(x)
-                    for x in lists if x[1] > 0]))]
+                    for x in lists if x[1] != 0]))]
             clen = len(out[-1][2]) if len(out[-1][2]) > clen else clen
     frmt = '{0:3} {1:1}{2:'+str(clen)+'} [{3:4}] {4}'
     for i, line in enumerate(out):

@@ -20,6 +20,7 @@ from clldutils.path import Path
 
 from pyconcepticon.commands import (link, stats, attributes, intersection, 
         union, map_concepts)
+import pyconcepticon
 
 def main():  # pragma: no cover
     parser = ArgumentParser(__name__, link, stats, attributes, intersection,
