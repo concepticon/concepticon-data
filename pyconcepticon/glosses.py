@@ -196,10 +196,11 @@ def concept_map(from_, to, similarity_level=5):
             best[i] = (j, sim)
             consumed.add(j)
 
-    for i, concept in enumerate(from_):
-        if i in best:
-            print('{0} -{1}-> {2}'.format(concept, best[i][1], to[best[i][0]]))
-        else:
-            print('{0} -> ?'.format(concept))
+    #for i, concept in enumerate(from_):
+    #    if i in best:
+    #        print('{0} -{1}-> {2}'.format(concept, best[i][1], to[best[i][0]]))
+    #    else:
+    #        print('{0} -> ?'.format(concept))
+
 
     return best

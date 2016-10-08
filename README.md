@@ -5,10 +5,17 @@ The data underlying the [Concepticon](http://concepticon.clld.org) of the [CLLD]
 * [previous and current releases](https://github.com/clld/concepticon-data/releases), 
 * [issues we are trying to handle](https://github.com/clld/concepticon-data/issues), as well as the 
 * [current unreleased form of the data](https://github.com/clld/concepticon-data/tree/master/concepticondata).
+<<<<<<< HEAD
 
 The repository also contains the sources of [`pyconcepticon`](#pyconcepticon), a python package providing an API to access and manipulate the Concepticon data.
 
 
+=======
+
+The repository also contains the sources of [`pyconcepticon`](#pyconcepticon), a python package providing an API to access and manipulate the Concepticon data.
+
+
+>>>>>>> master
 ## Concepticon Data
 
 * For an overview on the status of all currently linked conceptlists, see [here](https://github.com/clld/concepticon-data/blob/master/concepticondata/conceptlists/README.md).
@@ -85,6 +92,7 @@ Concept(id=u'Mennecier-2016-183-1', number=u'1', concepticon_id=u'619', concepti
 Reference(id=u'Mennecier2016', type=u'article', record={u'doi': u'10.1163/22105832-00601015', u'author': u'Phillipe Mennecier and John Nerbonne and Evelyne Heyer and Franz Manni', u'journal': u'Language Dynamics and Change', u'title': u'A Central Asian language survey', u'number': u'1', u'volume': u'6', u'year': u'2016', u'pages': u'57\u201398'})
 ```
 
+<<<<<<< HEAD
 Having installed pyconcepticon, you can also directly query concept lists via the terminal command `concepticon`. For example, to learn about the intersection between two or more lists, you can type:
 
 ```shell

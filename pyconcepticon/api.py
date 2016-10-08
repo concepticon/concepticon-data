@@ -213,7 +213,6 @@ class ConceptRelations(dict):
         """Search for all concepts which are related as "narrower"."""
         return self.walk(concept, 'narrower')
 
-
 @attr.s
 class Concept(object):
     id = attr.ib(validator=valid_concept)

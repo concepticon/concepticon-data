@@ -66,4 +66,3 @@ class Tests(WithTempDir):
             'Swadesh-1952-200'])) as out:
             self.assertEqual(94, len(out.split('\n')))
 
-
