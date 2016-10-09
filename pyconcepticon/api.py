@@ -135,6 +135,20 @@ def valid_bibtex_record(instance, attribute, value):
             raise ValueError('missing any of %s in record %s' % (req, instance.id))
 
 
+def as_conceptlist(path, **keywords):
+    """
+    Function loads a concept list outside the Concepticon collection.
+    """
+    d = read_dicts(path)
+    attrs = dict([(key, keywords.get(key, '')) for key in ['author',
+        'list_suffix', 'tags', 'source_language', 'target_language', 'url',
+        'refs', 'pdf', 'note', 'pages','alias']])
+    items = keywords.get('items', len(d))
+    year = keywords.get('year', 0)
+    return Conceptlist(api=None, id=Path(path).stem, items=items, year=year,
+            **attrs)
+
+
 @attr.s
 class Reference(object):
     id = attr.ib()
@@ -253,6 +267,8 @@ class Conceptlist(object):
 
     @property
     def path(self):
+        if self._api is None:
+            return Path(self.id + '.tsv')
         return self._api.data_path('conceptlists', self.id + '.tsv')
 
     @cached_property()

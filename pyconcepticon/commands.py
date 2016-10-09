@@ -8,8 +8,7 @@ from clldutils.path import Path
 from clldutils.clilib import ParserError
 
 from pyconcepticon.util import rewrite, MarkdownTable, CS_ID, CS_GLOSS
-
-from pyconcepticon.api import Concepticon
+from pyconcepticon.api import Concepticon, as_conceptlist
 
 
 class Linker(object):
@@ -100,7 +99,7 @@ def attributes(args):
         'Attribute', 'Occurrences')))
 
 
-def compare_conceptlists(api, *conceptlists, search_depth=2):
+def compare_conceptlists(api, *conceptlists, search_depth=3):
     """
     Function compares multiple conceptlists and extracts common concepts.
 
@@ -112,7 +111,11 @@ def compare_conceptlists(api, *conceptlists, search_depth=2):
 
     # store all concepts along with their broader concepts
     for arg in conceptlists:
-        for c in api.conceptlists[arg].concepts.values():
+        if arg not in api.conceptlists:
+            clist = as_conceptlist(arg)
+        else:
+            clist = api.conceptlists[arg]
+        for c in clist.concepts.values():
             commons[c.concepticon_id].add((
                 arg, 0, c.concepticon_id, c.concepticon_gloss))
             for cn, d in api.relations.broader(c.concepticon_id, search_depth):
@@ -127,35 +130,69 @@ def compare_conceptlists(api, *conceptlists, search_depth=2):
     # solution for this)
     proper_concepts = set()
     for c, lists in commons.items():
-        if len(set([x[0] for x in lists])) == len(conceptlists) and \
-                [d for l, d, i, g in lists if d == 0]:
+        if len(set([x[0] for x in lists])) > 1 and [d for l, d, i, g in lists if d == 0]:
             proper_concepts.add(c)
 
-    # yield concepts, but don't yield broader concepts for which we can find
-    # narrower ones
-    for cid, lists in sorted(
-            commons.items(), key=lambda x: api.conceptsets[x[0]].gloss):
-        if not [0 for x in lists if x[1] == 0]:
-            concepts = dict([(c, (a, b)) for a, b, c, d in lists])
-            retain = True
-            for concept in concepts:
-                if concept in proper_concepts:
-                    retain = False
-            if retain:
-                yield (cid, lists)
-        else:
+    # get a list of concepts that should be split into subsets (so they should
+    # not be retained, such as arm/hand if arm and hand occur in certain lists
+    # the blacklist is needed to make sure that narrower concepts which are
+    # combined by adding a broader concept are not added additionally
+    split_concepts = set([])
+    blacklist = set([])
+    for cid, lists in commons.items():
+        if len(lists) > 1:
             # if one list makes MORE distinctions than the other, yield the
             # more refined list
-            split = False
-            listcheck = defaultdict(list) #dict([(a, (a, b, c, d)) for a, b, c, d in lists])
+            listcheck = defaultdict(list) 
             for a, b, c, d in lists:
                 if b >= 0:
                     listcheck[a] += [(a, b, c, d)]
             for l, concepts in listcheck.items():
                 if len([x for x in concepts if x[1] > 0]) > 1:
-                    split = True
-            if not split:
-                yield (cid, lists)
+                    split_concepts.add(cid)
+                    break
+            if cid not in split_concepts:
+                if len([l for l in lists if l[1] > 0]) == len(lists):
+                    if len(set([l[2] for l in lists])) > 1:
+                        for l in lists:
+                            blacklist.add(l[2])
+
+    for cid, lists in sorted(
+            commons.items(), key=lambda x: api.conceptsets[x[0]].gloss):
+        sorted_lists = sorted(lists)
+        list_ids = [x[0] for x in sorted_lists]
+        depths = [x[1] for x in sorted_lists]
+        reflexes = [x[2] for x in sorted_lists]
+        glosses = [x[3] for x in sorted_lists]
+        
+        if cid not in split_concepts:
+            # yield unique concepts directly
+            if len(lists) == 1:
+                if next(iter(lists))[1] == 0 and cid not in blacklist:
+                    yield (cid, lists)
+            # check broader or narrower concept collections
+            elif not 0 in depths:
+                concepts = dict([(c, (a, b)) for a, b, c, d in sorted_lists])
+                # if all concepts are narrower, dont' retain them
+                retain = True if [x for x in depths if x > 0] else False 
+                for concept in concepts:
+                    if concept in proper_concepts:
+                        retain = False
+                        break
+                if retain:
+                    yield (cid, lists)
+            else:
+                # if one list makes MORE distinctions than the other, yield the
+                # more refined list
+                if [x for x in depths if x < 0]:
+                    dont_yield = False
+                    for d, c in zip(depths, reflexes):
+                        if d < 0 and c not in split_concepts:
+                            dont_yield = True
+                    if not dont_yield:
+                        yield (cid, lists)
+                else:
+                    yield (cid, lists)
 
 def intersection(args):
     """Compare how many concepts overlap in concept lists.
@@ -195,28 +232,14 @@ def union(args):
     out = []
     clen = 0
     compared = list(compare_conceptlists(api, *args.args))
-
-    # get list of too narrow concepts and too broad concepts
-    narrow_concepts, broad_concepts = {}, {}
-    for cid, lists in compared:
-        if len(set([l[0] for l in lists])) == len(args.args):
-            for a, b, c, d in lists:
-                if b > 0:
-                    narrow_concepts[c] = cid
-        else:
-            for a, b, c, d in lists:
-                if b != 0:
-                    broad_concepts[cid] = c
-
     for c, lists in compared:
-        if c not in narrow_concepts and c not in broad_concepts:
-            marker = '*' if not len([0 for x in lists if x[1] == 0]) else ''
-            out += [(
-                marker, c,
-                api.conceptsets[c].gloss,
-                ', '.join(['{0[3]} ({0[1]}, {0[0]})'.format(x)
-                    for x in lists if x[1] != 0]))]
-            clen = len(out[-1][2]) if len(out[-1][2]) > clen else clen
+        marker = '*' if not len([0 for x in lists if x[1] == 0]) else ''
+        out += [(
+            marker, c,
+            api.conceptsets[c].gloss,
+            ', '.join(['{0[3]} ({0[1]}, {0[0]})'.format(x)
+                for x in lists if x[1] != 0]))]
+        clen = len(out[-1][2]) if len(out[-1][2]) > clen else clen
     frmt = '{0:3} {1:1}{2:'+str(clen)+'} [{3:4}] {4}'
     for i, line in enumerate(out):
         print(frmt.format(i+1, line[0], line[2], line[1], line[3]))
