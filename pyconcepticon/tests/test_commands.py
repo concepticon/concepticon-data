@@ -50,11 +50,23 @@ class Tests(WithTempDir):
         with capture(attributes, MagicMock(data=None)) as out:
             self.assertIn('Occurrences', out)
 
-    def test_overlap(self):
-        from pyconcepticon.commands import overlap
+    def test_union(self):
+        from pyconcepticon.commands import union
         Args = namedtuple('Args', ['data', 'args'])
 
-        with capture(overlap, Args(data='', args=['Swadesh-1955-100',
+        with capture(union, Args(data='', args=['Swadesh-1955-100',
             'Swadesh-1952-200'])) as out:
-            self.assertIn('87', out)
+            self.assertEqual(208, len(out.split('\n')))
+        with capture(union, Args(data='', args=['Swadesh-1952-200',
+            'Matisoff-1978-200'])) as out:
+            self.assertEqual(301, len(out.split('\n')))
+
+
+    def test_intersection(self):
+        from pyconcepticon.commands import intersection
+        Args = namedtuple('Args', ['data', 'args'])
+
+        with capture(intersection, Args(data='', args=['Swadesh-1955-100',
+            'Swadesh-1952-200'])) as out:
+            self.assertEqual(94, len(out.split('\n')))
 

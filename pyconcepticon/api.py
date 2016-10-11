@@ -3,13 +3,14 @@ from __future__ import unicode_literals, print_function, division
 import logging
 from operator import itemgetter, setitem
 import re
+from collections import defaultdict
 
 import bibtexparser
 import attr
 from clldutils.path import Path
 from clldutils import jsonlib
 from clldutils.misc import cached_property
-from clldutils.dsv import UnicodeWriter
+from clldutils.dsv import UnicodeWriter, UnicodeReader
 
 from pyconcepticon import data
 from pyconcepticon.util import (
@@ -80,6 +81,13 @@ class Concepticon(object):
             self._metadata,
             [p.stem for p in self.data_path('concept_set_meta').glob('*.tsv')]))
 
+    @cached_property()
+    def relations(self):
+        """
+        :returns: `dict` mapping concepts to parent or child concepts.
+        """
+        return ConceptRelations(self.data_path('conceptrelations.tsv'))
+
     def _metadata(self, id_):
         values_path = self.data_path('concept_set_meta', id_ + '.tsv')
         md_path = self.data_path('concept_set_meta', id_ + '.tsv-metadata.json')
@@ -106,7 +114,7 @@ class Concepticon(object):
                 writer.writerow(row)
 
         if out is None:
-            print(writer.read())
+            print(writer.read().decode('utf-8'))
 
 
 def valid_key(instance, attribute, value):
@@ -125,6 +133,20 @@ def valid_bibtex_record(instance, attribute, value):
     for req in [['title', 'booktitle'], ['author', 'editor'], ['year']]:
         if not any(key in value for key in req):
             raise ValueError('missing any of %s in record %s' % (req, instance.id))
+
+
+def as_conceptlist(path, **keywords):
+    """
+    Function loads a concept list outside the Concepticon collection.
+    """
+    d = read_dicts(path)
+    attrs = dict([(key, keywords.get(key, '')) for key in ['author',
+        'list_suffix', 'tags', 'source_language', 'target_language', 'url',
+        'refs', 'pdf', 'note', 'pages','alias']])
+    items = keywords.get('items', len(d))
+    year = keywords.get('year', 0)
+    return Conceptlist(api=None, id=Path(path).stem, items=items, year=year,
+            **attrs)
 
 
 @attr.s
@@ -158,6 +180,52 @@ def valid_concept(instance, attribute, value):
     if not instance.label:
         raise ValueError('fields gloss *and* english missing: %s' % instance)
 
+class ConceptRelations(dict):
+    """
+    Class handles relations between concepts.
+    """
+    def __init__(self, path):
+        rels = defaultdict(dict)
+        with UnicodeReader(path, delimiter='\t') as reader:
+            data = list(reader)
+        for srci, srcg, rel, tari, targ in data[1:]:
+            if rel == 'narrower':
+                rels[srci][tari] = rel
+                rels[tari][srci] = 'broader'
+                rels[srcg][targ] = rel
+                rels[targ][srcg] = 'broader'
+            elif rel == 'broader':
+                rels[srci][tari] = rel
+                rels[tari][srci] = 'narrower'
+                rels[srcg][targ] = rel
+                rels[targ][srcg] = 'narrower'
+        dict.__init__(self, rels.items())
+
+    def walk(self, concept, relation, search_depth=2):
+        """
+        Search for concept relations of a given concept.
+
+        :param search_depth: maximal depth of search
+        :param relation: the concept relation to be searched (currently only
+            "broader" and "narrower".
+
+        """
+        queue = [(concept, 0)]
+        while queue:
+            current_concept, depth = queue.pop(0)
+            depth += 1
+            for c, r in self.get(current_concept, {}).items():
+                if r == relation and depth <= search_depth:
+                    queue += [(c, depth)]
+                    yield (c, depth)
+
+    def broader(self, concept, searchdepth=2):
+        """Search for all concepts which are related as "broader"."""
+        return self.walk(concept, 'broader', searchdepth)
+
+    def narrower(self, concept, searchdepth=2):
+        """Search for all concepts which are related as "narrower"."""
+        return self.walk(concept, 'narrower')
 
 @attr.s
 class Concept(object):
@@ -199,6 +267,8 @@ class Conceptlist(object):
 
     @property
     def path(self):
+        if self._api is None:
+            return Path(self.id + '.tsv')
         return self._api.data_path('conceptlists', self.id + '.tsv')
 
     @cached_property()

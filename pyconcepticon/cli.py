@@ -18,12 +18,13 @@ import sys
 from clldutils.clilib import ArgumentParser
 from clldutils.path import Path
 
+from pyconcepticon.commands import (link, stats, attributes, intersection, 
+        union, map_concepts)
 import pyconcepticon
-from pyconcepticon.commands import link, stats, attributes, overlap, map_concepts
-
 
 def main():  # pragma: no cover
-    parser = ArgumentParser(__name__, link, stats, attributes, overlap, map_concepts)
+    parser = ArgumentParser(__name__, link, stats, attributes, intersection,
+            union, map_concepts)
     parser.add_argument(
         '--data',
         help="path to concepticon-data",

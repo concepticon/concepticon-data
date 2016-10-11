@@ -8,7 +8,6 @@ The data underlying the [Concepticon](http://concepticon.clld.org) of the [CLLD]
 
 The repository also contains the sources of [`pyconcepticon`](#pyconcepticon), a python package providing an API to access and manipulate the Concepticon data.
 
-
 ## Concepticon Data
 
 * For an overview on the status of all currently linked conceptlists, see [here](https://github.com/clld/concepticon-data/blob/master/concepticondata/conceptlists/README.md).
@@ -85,10 +84,21 @@ Concept(id=u'Mennecier-2016-183-1', number=u'1', concepticon_id=u'619', concepti
 Reference(id=u'Mennecier2016', type=u'article', record={u'doi': u'10.1163/22105832-00601015', u'author': u'Phillipe Mennecier and John Nerbonne and Evelyne Heyer and Franz Manni', u'journal': u'Language Dynamics and Change', u'title': u'A Central Asian language survey', u'number': u'1', u'volume': u'6', u'year': u'2016', u'pages': u'57\u201398'})
 ```
 
-Having installed pyconcepticon, you can also directly query concept lists via the terminal command `concepticon`. For example, to lear about the overlap between two or more lists, you can type:
+Having installed pyconcepticon, you can also directly query concept lists via the terminal command `concepticon`. For example, to learn about the intersection between two or more lists, you can type:
 
 ```shell
-$ concepticon overlap Swadesh-1955-100 Swadesh-1952-200 Swadesh-1950-215
-85
+$ concepticon intersection Swadesh-1955-100 Swadesh-1952-200
 ```
-So the overlap between the three lists by Swadesh are 85 concepts.
+
+This yields an output of 93 lines, which look as follows:
+
+```shell
+ 69 *SKIN                    [763 ] SKIN (HUMAN) (1, Swadesh-1952-200)
+ 70  SLEEP                   [1585] 
+ 71  SMALL                   [1246] 
+ 72  SMOKE (EXHAUST)         [778 ] 
+```
+
+The output can interpreted as follows: The first number shows the number in the intersection of items (alphabetically ordered, following the Concepticon gloss). The Concepticon gloss is shown as a next item. If it is preceded by an asterisk, this means that the mapping was not complete, as it involves concept relations. The alternative concept sets are then listed in the end of the line. The number in squared brackets indicates the Concepticon concept set ID.
+
+You can use the same technique with the command "union", to obtain the union of two consept lists. 
