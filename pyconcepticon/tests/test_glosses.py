@@ -35,5 +35,5 @@ class Tests(TestCase):
         from pyconcepticon.glosses import concept_map
 
         f, t = ['the dog', 'to kill'], ['kill', 'dog (verb)', 'to kill']
-        self.assertEqual(concept_map(f, t), {0: (1, 3), 1: (2, 1)})
-        self.assertNotIn(0, concept_map(f, t, similarity_level=1))
+        self.assertEqual(concept_map(f, t)[0], {0: (1, 3), 1: (2, 1)})
+        self.assertNotIn(0, concept_map(f, t, similarity_level=1)[0])

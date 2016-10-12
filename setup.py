@@ -20,9 +20,10 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        'clldutils>=1.0.1',
+        'clldutils>=1.4.2',
         'bibtexparser',
         'tabulate',
+        'fuzzywuzzy',
         'attrs',
     ],
     entry_points={

@@ -4,7 +4,6 @@ from collections import defaultdict, OrderedDict, Counter
 from functools import partial
 from operator import attrgetter
 
-from tabulate import tabulate
 from clldutils.path import Path
 from clldutils import dsv
 
@@ -38,28 +37,6 @@ def to_dict(iterobjects, key=attrgetter('id')):
         if n > 1:
             raise ValueError('non-unique key: %s' % k)
     return res
-
-
-class MarkdownTable(list):
-    def __init__(self, *cols):
-        self.columns = list(cols)
-        list.__init__(self)
-
-    def render(
-            self, fmt='pipe', sortkey=None, condensed=True, verbose=False, reverse=False):
-        res = tabulate(
-            sorted(self, key=sortkey, reverse=reverse) if sortkey else self,
-            self.columns,
-            fmt,
-            floatfmt='.2f')
-        if fmt == 'pipe':
-            if condensed:
-                # remove whitespace padding around column content:
-                res = re.sub('\|[ ]+', '| ', res)
-                res = re.sub('[ ]+\|', ' |', res)
-            if verbose:
-                res += '\n\n(%s rows)\n\n' % len(self)
-        return res
 
 
 def read_all(fname, **kw):
