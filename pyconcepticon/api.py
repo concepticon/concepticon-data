@@ -14,8 +14,7 @@ from clldutils.dsv import UnicodeWriter, UnicodeReader
 
 from pyconcepticon import data
 from pyconcepticon.util import (
-    REPOS_PATH, data_path, read_dicts, split, lowercase, to_dict, split_ids,
-)
+    REPOS_PATH, data_path, read_dicts, split, lowercase, to_dict, split_ids)
 from pyconcepticon.glosses import concept_map, concept_map2
 
 
@@ -88,6 +87,15 @@ class Concepticon(object):
         """
         return ConceptRelations(self.data_path('conceptrelations.tsv'))
 
+    @cached_property()
+    def frequencies(self):
+        D = defaultdict(int)
+        for cl in self.conceptlists.values():
+            for concept in cl.concepts.values():
+                if concept.concepticon_id: D[concept.concepticon_gloss] += 1
+        return D
+
+
     def _metadata(self, id_):
         values_path = self.data_path('concept_set_meta', id_ + '.tsv')
         md_path = self.data_path('concept_set_meta', id_ + '.tsv-metadata.json')
@@ -111,7 +119,7 @@ class Concepticon(object):
             to = [(cs.id, cs.gloss) for cs in self.conceptsets.values()]
         if map_type == 2:
             cmap = concept_map2([i[1] for i in from_], [i[1] for i in to],
-                    similarity_level=similarity_level)
+                    similarity_level=similarity_level, freqs=self.frequencies)
             good_matches = 0
             with UnicodeWriter(out, delimiter='\t') as writer:
                 writer.writerow(['ID', 'GLOSS', 'CONCEPTICON_ID',

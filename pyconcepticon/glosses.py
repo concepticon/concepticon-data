@@ -8,7 +8,6 @@ from itertools import product
 from collections import defaultdict
 
 import attr
-from pyconcepticon.util import load_frequencies
 
 
 @attr.s
@@ -156,10 +155,10 @@ def parse_gloss(gloss):
 
     return G
 
-def concept_map2(from_, to, similarity_level=5):
+def concept_map2(from_, to, similarity_level=5, freqs=None):
     
     # get frequencies
-    freqs = load_frequencies(key='GLOSS')
+    freqs = freqs or defaultdict(int)
 
     # extract glossing information from the data
     glosses = {'from': {}, 'to': {}}

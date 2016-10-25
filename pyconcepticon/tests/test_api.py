@@ -46,5 +46,5 @@ class Tests(TestCase):
 
     def test_Concepticon(self):
         from pyconcepticon.api import Concepticon
-        from pyconcepticon.util import load_frequencies
-        assert len(load_frequencies()) <= len(Concepticon().conceptsets.values())
+        con = Concepticon()
+        assert len(con.frequencies) <= len(con.conceptsets)
