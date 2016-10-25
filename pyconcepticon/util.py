@@ -168,5 +168,5 @@ def load_frequencies(key='GLOSS'):
     """
     :returns: dictionary containing frequency information
     """
-    return dict([(x[key], int(x['FREQUENCY'])) for x in read_dicts(
-        data_path('frequencies.tsv'))])
+    return {x[key]: int(x['FREQUENCY']) for x in read_dicts(
+        data_path('frequencies.tsv'))}
