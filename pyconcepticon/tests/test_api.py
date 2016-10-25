@@ -43,3 +43,8 @@ class Tests(TestCase):
             Reference(id=1, type='misc', record={})
 
         Reference(id=1, type='misc', record={'author': 'a', 'title': 't', 'year': 'y'})
+
+    def test_Concepticon(self):
+        from pyconcepticon.api import Concepticon
+        from pyconcepticon.util import load_frequencies
+        assert len(load_frequencies()) <= len(Concepticon().conceptsets.values())

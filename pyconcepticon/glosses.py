@@ -4,8 +4,11 @@ Module provides functions for the handling of concept glosses in linguistic data
 """
 from __future__ import print_function, division, unicode_literals
 import re
+from itertools import product
+from collections import defaultdict
 
 import attr
+from pyconcepticon.util import load_frequencies
 
 
 @attr.s
@@ -153,6 +156,38 @@ def parse_gloss(gloss):
 
     return G
 
+def concept_map2(from_, to, similarity_level=5):
+    
+    # get frequencies
+    freqs = load_frequencies(key='GLOSS')
+
+    # extract glossing information from the data
+    glosses = {'from': {}, 'to': {}}
+    mapped = defaultdict(lambda : defaultdict(list))
+    for l, key in [(from_, 'from'), (to, 'to')]:
+        for i, concept in enumerate(l):
+            for gloss in parse_gloss(concept):
+                glosses[key][i] = gloss
+                mapped[gloss.main][key] += [i]
+    
+    mapping = {}
+    for k, v in mapped.items():
+        if 'from' in v and 'to' in v:
+            similarities = []
+            current_sim = 10
+            best = set()
+            for i, j in product(v['from'], v['to']):
+                sim = glosses['from'][i].similarity(glosses['to'][j]) or 10
+                if sim < current_sim:
+                    best = set([j])
+                    current_sim = sim
+                elif sim == current_sim:
+                    best.add(j)
+            mapping[i] = (sorted(best, key=lambda x:
+                freqs.get(to[x], 0), reverse=True), sim)
+    return mapping
+
+            
 
 def concept_map(from_, to, similarity_level=5):
     """
@@ -201,6 +236,5 @@ def concept_map(from_, to, similarity_level=5):
     #        print('{0} -{1}-> {2}'.format(concept, best[i][1], to[best[i][0]]))
     #    else:
     #        print('{0} -> ?'.format(concept))
-
 
     return best

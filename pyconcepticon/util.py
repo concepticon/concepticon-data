@@ -162,3 +162,11 @@ def write_conceptlist(clist, filename, header=False):
             v = clist[k]
             if k not in ['splits', 'mergers', 'header']:
                 writer.writerow([v[h] for h in header])
+
+
+def load_frequencies(key='GLOSS'):
+    """
+    :returns: dictionary containing frequency information
+    """
+    return dict([(x[key], int(x['FREQUENCY'])) for x in read_dicts(
+        data_path('frequencies.tsv'))])

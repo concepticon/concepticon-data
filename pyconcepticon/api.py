@@ -16,7 +16,7 @@ from pyconcepticon import data
 from pyconcepticon.util import (
     REPOS_PATH, data_path, read_dicts, split, lowercase, to_dict, split_ids,
 )
-from pyconcepticon.glosses import concept_map
+from pyconcepticon.glosses import concept_map, concept_map2
 
 
 class Concepticon(object):
@@ -97,21 +97,53 @@ class Concepticon(object):
             meta=jsonlib.load(md_path),
             values=to_dict(read_dicts(values_path), key=itemgetter('CONCEPTICON_ID')))
 
-    def map(self, clist, out=None):
+    def map(self, clist, otherlist=None, out=None, map_type=1,
+            similarity_level=5):
         assert clist.exists()
         from_ = []
         for item in read_dicts(clist):
             from_.append((item['ID'], item.get('GLOSS', item.get('ENGLISH'))))
-        to = [(cs.id, cs.gloss) for cs in self.conceptsets.values()]
-        cmap = concept_map([i[1] for i in from_], [i[1] for i in to])
-
-        with UnicodeWriter(out, delimiter='\t') as writer:
-            writer.writerow(['ID', 'GLOSS', 'CONCEPTICON_ID', 'CONCEPTICON_GLOSS'])
-            for i, (fid, fgloss) in enumerate(from_):
-                row = [fid, fgloss]
-                match = cmap.get(i)
-                row.extend(list(to[match[0]]) if match else ['', ''])
-                writer.writerow(row)
+        if otherlist:
+            to = []
+            for item in read_dicts(otherlist):
+                to.append((item['ID'], item.get('GLOSS', item.get('ENGLISH'))))
+        else:
+            to = [(cs.id, cs.gloss) for cs in self.conceptsets.values()]
+        if map_type == 2:
+            cmap = concept_map2([i[1] for i in from_], [i[1] for i in to],
+                    similarity_level=similarity_level)
+            good_matches = 0
+            with UnicodeWriter(out, delimiter='\t') as writer:
+                writer.writerow(['ID', 'GLOSS', 'CONCEPTICON_ID',
+                    'CONCEPTICON_GLOSS', 'SIMILARITY'])
+                for i, (fid, fgloss) in enumerate(from_):
+                    row = [fid, fgloss]
+                    matches, sim = cmap.get(i, ([], 10))
+                    if sim <= 5: good_matches += 1
+                    if not matches:
+                        row.extend(['', '???', ''])
+                        writer.writerow(row)
+                    elif len(matches) == 1:
+                        row.extend([to[matches[0]][0], to[matches[0]][1], sim])
+                        writer.writerow(row)
+                    else:
+                        writer.writerow(['<<<', '', '', ''])
+                        for j in matches:
+                            row = [fid, fgloss, to[j][0], to[j][1], sim]
+                            writer.writerow(row)
+                        writer.writerow(['>>>', '', '', ''])
+                writer.writerow(['#', good_matches, len(from_),
+                    '{0:.2f}'.format(good_matches / len(from_))])
+        else:
+            cmap = concept_map([i[1] for i in from_], [i[1] for i in to],
+                    similarity_level=similarity_level)
+            with UnicodeWriter(out, delimiter='\t') as writer:
+                writer.writerow(['ID', 'GLOSS', 'CONCEPTICON_ID', 'CONCEPTICON_GLOSS'])
+                for i, (fid, fgloss) in enumerate(from_):
+                    row = [fid, fgloss]
+                    match = cmap.get(i)
+                    row.extend(list(to[match[0]]) if match else ['', ''])
+                    writer.writerow(row)
 
         if out is None:
             print(writer.read().decode('utf-8'))

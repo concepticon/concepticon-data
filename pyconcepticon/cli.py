@@ -29,4 +29,19 @@ def main():  # pragma: no cover
         '--data',
         help="path to concepticon-data",
         default=Path(pyconcepticon.__file__).parent.parent)
+    parser.add_argument(
+            '--map_type',
+            help="type of concept mapping",
+            default=1,
+            type=int)
+    parser.add_argument(
+            '--output',
+            help="specify output file",
+            default=None
+            )
+    parser.add_argument(
+            '--similarity',
+            help="specify level of similarity for concept mapping",
+            default=5,
+            type=int)
     sys.exit(parser.main())

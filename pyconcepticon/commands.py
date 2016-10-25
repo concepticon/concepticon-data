@@ -7,7 +7,8 @@ from tabulate import tabulate
 from clldutils.path import Path
 from clldutils.clilib import ParserError
 
-from pyconcepticon.util import rewrite, MarkdownTable, CS_ID, CS_GLOSS
+from pyconcepticon.util import (rewrite, MarkdownTable, CS_ID, CS_GLOSS, 
+        UnicodeWriter, data_path)
 from pyconcepticon.api import Concepticon, as_conceptlist
 
 
@@ -64,8 +65,12 @@ class Linker(object):
                 print('unknown CONCEPTICON_GLOSS: {0}'.format(
                     row[self._cgloss_index]))
             elif cid != row[self._cid_index]:
-                print('unknown CONCEPTICON_ID/GLOSS mismatch: %s %s' %
-                      (row[self._cid_index], row[self._cgloss_index]))
+                if not row[self._cid_index]:
+                    row[self._cid_index] = cid
+                else:
+                    print('unknown CONCEPTICON_ID/GLOSS mismatch: %s %s' %
+                        (row[self._cid_index], row[self._cgloss_index]))
+
         if self._number_index is not None:
             row = ['%s-%s' % (self.clid, row[self._number_index])] + row
         return row
@@ -248,7 +253,9 @@ def union(args):
 
 def map_concepts(args):
     api = Concepticon(args.data)
-    api.map(Path(args.args[0]), args.args[1] if len(args.args) > 1 else None)
+    api.map(Path(args.args[0]), otherlist=args.args[1] if len(args.args) > 1
+            else None, out=args.output,
+            map_type=args.map_type)
 
 
 def readme(outdir, text):
@@ -313,13 +320,14 @@ def readme_concepticondata(api, cls):
     Returns a dictionary with concept set label as value and tuples of concept
     list identifier and concept label as values.
     """
-    D, G = defaultdict(list), defaultdict(list)
+    D, G, H = defaultdict(list), defaultdict(list), defaultdict(int)
     labels = Counter()
 
     for cl in cls:
         for concept in [c for c in cl.concepts.values() if c.concepticon_id]:
             D[concept.concepticon_gloss].append(
                 (cl.id, concept.label))
+            H[concept.concepticon_id, concept.concepticon_gloss] += 1
             G[concept.label].append(
                 (concept.concepticon_id, concept.concepticon_gloss, cl.id))
             labels.update([concept.label])
@@ -366,6 +374,12 @@ def readme_concepticondata(api, cls):
             ])
         txt.append('## Twenty Most {0} Concept Sets\n\n{1}\n'.format(
             attr, table.render()))
+
+    frequencies = sorted(H.items(), key=lambda x: (x[1], x[0]), reverse=True)
+    with UnicodeWriter(data_path('frequencies.tsv')) as writer:
+        writer.writerow(['ID', 'GLOSS', 'FREQUENCY'])
+        for k, v in frequencies:
+            writer.writerow([k[0], k[1], str(v)])
 
     readme(api.data_path(), txt)
     return D, G
