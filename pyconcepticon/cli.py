@@ -30,10 +30,11 @@ def main():  # pragma: no cover
         help="path to concepticon-data",
         default=Path(pyconcepticon.__file__).parent.parent)
     parser.add_argument(
-            '--map_type',
-            help="type of concept mapping",
-            default=1,
-            type=int)
+            '--full_search',
+            help="select between approximate search (default) and full search",
+            default=False,
+            action='store_true',
+            )
     parser.add_argument(
             '--output',
             help="specify output file",

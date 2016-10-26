@@ -40,7 +40,7 @@ class Gloss(object):
         if self.main == other.gloss or self.gloss == other.main or\
                 self.main == other.main:
             # best match if pos matches
-            return 2 if self.pos == other.pos else 3
+            return 2 if (self.pos and other.pos and self.pos == other.pos) else 3
         if self.longest_part == other.longest_part:
             return 4 if self.pos and self.pos == other.pos else 5
         if other.longest_part in self.main.split():
@@ -105,8 +105,14 @@ def parse_gloss(gloss):
         ('adjective', 'adjective'),
         ('cls', 'classifier')
     ]
+    
+    # if the gloss consists of multiple parts, we store both the separate part
+    # and a normalized form of the full gloss
+    constituents = re.split(',|;|/| or | OR ', gloss)
+    if len(constituents) > 1:
+        constituents += [' / '.join(sorted([c.strip() for c in constituents]))]
 
-    for constituent in re.split(',|;|/| or ', gloss):
+    for constituent in constituents:
         if constituent.strip():
             res = Gloss(gloss=gloss)
             mainpart = ''
@@ -161,29 +167,36 @@ def concept_map2(from_, to, similarity_level=5, freqs=None):
     freqs = freqs or defaultdict(int)
 
     # extract glossing information from the data
-    glosses = {'from': {}, 'to': {}}
+    glosses = {'from': defaultdict(list), 'to': defaultdict(list)}
     mapped = defaultdict(lambda : defaultdict(list))
     for l, key in [(from_, 'from'), (to, 'to')]:
         for i, concept in enumerate(l):
             for gloss in parse_gloss(concept):
-                glosses[key][i] = gloss
+                glosses[key][i] += [gloss]
                 mapped[gloss.main][key] += [i]
     
     mapping = {}
+    sims = {}
     for k, v in mapped.items():
         if 'from' in v and 'to' in v:
-            similarities = []
-            current_sim = 10
-            best = set()
-            for i, j in product(v['from'], v['to']):
-                sim = glosses['from'][i].similarity(glosses['to'][j]) or 10
-                if sim < current_sim:
-                    best = set([j])
-                    current_sim = sim
-                elif sim == current_sim:
-                    best.add(j)
-            mapping[i] = (sorted(best, key=lambda x:
-                freqs.get(to[x], 0), reverse=True), sim)
+            for i in v['from']:
+                similarities = []
+                current_sim = sims.get(i, 10)
+                best = mapping.get(i, set())
+                for j in v['to']:
+                    for glossA in glosses['from'][i]:
+                        for glossB in glosses['to'][j]:
+                            sim = glossA.similarity(glossB) or 10
+                            if sim < current_sim:
+                                best = set([j])
+                                current_sim = sim
+                            elif sim == current_sim:
+                                best.add(j)
+                mapping[i] = best
+                sims[i] = current_sim
+    for i in mapping:
+        mapping[i] = sorted(mapping[i], key=lambda x: freqs.get(to[x], 0),
+                reverse=True), sims[i]
     return mapping
 
             

@@ -105,7 +105,7 @@ class Concepticon(object):
             meta=jsonlib.load(md_path),
             values=to_dict(read_dicts(values_path), key=itemgetter('CONCEPTICON_ID')))
 
-    def map(self, clist, otherlist=None, out=None, map_type=1,
+    def map(self, clist, otherlist=None, out=None, full_search=False,
             similarity_level=5):
         assert clist.exists()
         from_ = []
@@ -117,7 +117,7 @@ class Concepticon(object):
                 to.append((item['ID'], item.get('GLOSS', item.get('ENGLISH'))))
         else:
             to = [(cs.id, cs.gloss) for cs in self.conceptsets.values()]
-        if map_type == 2:
+        if not full_search:
             cmap = concept_map2([i[1] for i in from_], [i[1] for i in to],
                     similarity_level=similarity_level, freqs=self.frequencies)
             good_matches = 0
