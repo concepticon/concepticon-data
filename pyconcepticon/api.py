@@ -110,7 +110,8 @@ class Concepticon(object):
         assert clist.exists()
         from_ = []
         for item in read_dicts(clist):
-            from_.append((item['ID'], item.get('GLOSS', item.get('ENGLISH'))))
+            from_.append((item.get('ID', item.get('NUMBER')), 
+                item.get('GLOSS', item.get('ENGLISH'))))
         if otherlist:
             to = []
             for item in read_dicts(otherlist):

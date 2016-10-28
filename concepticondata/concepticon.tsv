@@ -187,7 +187,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 186	SHIN	The body	The front part of the leg below the knee.	Person/Thing
 187	LOIN	The body	The part of the body (of humans and quadrupeds) each side of the backbone between the ribs and hips.	Person/Thing
 188	COMB OF BIRD	Animals	A fleshy growth on the top of the head of some birds.	Person/Thing
-189	BODY HAIR	The body	The terminal hair that develops on the human body during and after puberty.	Person/Thing
+189	HAIR (BODY)	The body	The terminal hair that develops on the human body during and after puberty.	Person/Thing
 190	MOW	Agriculture and vegetation	To cut all [the grass, crop or any thin plants] of a surface area of the ground.	Action/Process
 191	NUT	Food and drink	A hard-shelled seed.	Person/Thing
 192	CORNER	Spatial relations	The area around the point where two converging walls meet.	Person/Thing
@@ -1038,7 +1038,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1037	ELF	Religion and belief	A mythical creature of Germanic mythology. In Norse mythology they were originally minor gods of nature and fertility. They are often pictured as youthful-seeming men and women of great beauty living in forests and other natural places, underground, or in wells and springs. They have been portrayed to be long-lived or immortal and they have magical powers attributed to them.	Person/Thing
 1038	TEACHER	Cognition	A person who passes on knowledge, especially one employed in a school.	Person/Thing
 1039	SHOW	Sense perception	To have somebody see something.	Action/Process
-1040	HAIR	The body	The collection or mass of hair on a person's head except the face.	Person/Thing
+1040	HAIR	The body	The hair on humans, usually on the head but also including the hair on the body.	Person/Thing
 1041	INCREASE	Basic actions and technology	(Of a quantity) to become bigger.	Action/Process
 1042	CARPENTER	Basic actions and technology	Artisan who works with wood.	Person/Thing
 1043	BRAID	Clothing and grooming	a hair style formed by interweaving three or more strands of hair.	Person/Thing
@@ -2645,3 +2645,5 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2644	GRANDFATHER OR OLDER BROTHER	Kinship	Either the grandfather or the older brother of a person.	Person/Thing
 2645	MAN OR PERSON	Kinship	Either a man or a person (in general).	Person/Thing
 2646	HUSBAND OR MALE PERSON	Kinship	Either the male partner in a marriage or a male person.	Person/Thing
+2647	CATTY (MASS UNIT)	Basic actions and technology	A traditional Chinese unit of mass used across East and Southeast Asia, notably for weighing food and other groceries in some wet markets, street markets, and shops.	Classifier
+2648	HAIR (HEAD)	The body	The hair on the head of humans (rather than the hair in general or the hair on the body).	Person/Thing
