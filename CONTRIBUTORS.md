@@ -16,7 +16,7 @@ Many people helped us in many
 ways in assembling the data. They pointed us to missing
 lists (M), provided scans (S), digitized data (D), typed off
 and corrected concept lists (C), provided translations (T),
-linked concept lists (L), or gave important advice (A). 
+linked concept lists (L), provided corrections of concept definitions and concept linkings (P), or gave important advice (A). 
 
 For all this help, we are very grateful and express our gratitude.
 
@@ -38,3 +38,5 @@ Sebastian Nicolai | CMS | 1.0
 Thiago Chacon | MSD | 1.0, 1.1 
 Viola Kirchhoff da Cruz | CLS | 1.0 
 Wang Feng | D | 1.0
+Nathan Hill | MSDP | 1.1
+Anthony Grant | MS | 1.1
