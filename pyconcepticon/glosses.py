@@ -35,21 +35,24 @@ class Gloss(object):
     def similarity(self, other):
         # first-order-match: identical glosses
         if self.gloss == other.gloss:
-            return 1
+            if self.pos and self.pos == other.pos:
+                return 1
+            return 2
         # second-order match: identical main-parts
         if self.main == other.gloss or self.gloss == other.main or\
                 self.main == other.main:
             # best match if pos matches
-            return 2 if (self.pos and other.pos and self.pos == other.pos) else 3
+            return 3 if self.pos and self.pos == other.pos else 4
         if self.longest_part == other.longest_part:
-            return 4 if self.pos and self.pos == other.pos else 5
+            return 5 if self.pos and self.pos == other.pos else 6
         if other.longest_part in self.main.split():
-            return 6
-        if self.longest_part in other.main.split():
             return 7
+        if self.longest_part in other.main.split():
+            return 8
+        return 100
 
 
-def parse_gloss(gloss):
+def parse_gloss(gloss, language='en'):
     """
     Parse a gloss into its constituents by applying some general logic.
 
@@ -90,8 +93,16 @@ def parse_gloss(gloss):
     """
     G = []
     gpos = ''
-    pos_markers = {'the': 'noun', 'a': 'noun', 'to': 'verb'}
-    prefixes = ['be', 'in', 'at']
+    if language == 'en':
+        pos_markers = {'the': 'noun', 'a': 'noun', 'to': 'verb'}
+        prefixes = ['be', 'in', 'at']
+    elif language == 'de':
+        pos_markers = {'der': 'noun', 'die': 'noun', 'das': 'noun'}
+        prefixes = []
+    else:
+        pos_markers = {}
+        prefixes = []
+
     abbreviations = [
         ('vb', 'verb'),
         ('v.', 'verb'),
@@ -105,10 +116,17 @@ def parse_gloss(gloss):
         ('adjective', 'adjective'),
         ('cls', 'classifier')
     ]
+
+    
+    # we use /// as our internal marker for glosses preceded by concepticon
+    # gloss information and followed by literal readings
+    if '///' in gloss:
+        gloss = gloss.split('///')[1]
     
     # if the gloss consists of multiple parts, we store both the separate part
     # and a normalized form of the full gloss
-    constituents = re.split(',|;|/| or | OR ', gloss)
+    constituents = [x.strip() for x in re.split(',|;|/| or | OR ', gloss) if
+            x.strip()]
     if len(constituents) > 1:
         constituents += [' / '.join(sorted([c.strip() for c in constituents]))]
 
@@ -144,24 +162,25 @@ def parse_gloss(gloss):
             if len(mainpart) > 1 and mainpart[0] in prefixes:
                 res.prefix = mainpart.pop(0)
 
-            # check for a "first part" in case we encounter white space in the
-            # data (and return only the largest string of them)
-            res.longest_part = sorted(mainpart, key=lambda x: len(x))[-1]
+            if mainpart:
+                # check for a "first part" in case we encounter white space in the
+                # data (and return only the largest string of them)
+                res.longest_part = sorted(mainpart, key=lambda x: len(x))[-1]
 
-            # search for pos in comment
-            if not res.pos:
-                cparts = res.comment.split()
-                for p, t in sorted(abbreviations, key=lambda x: len(x[0]), reverse=True):
-                    if p in cparts or p in mainpart or t in cparts or t in mainpart:
-                        res.pos = t
-                        break
+                # search for pos in comment
+                if not res.pos:
+                    cparts = res.comment.split()
+                    for p, t in sorted(abbreviations, key=lambda x: len(x[0]), reverse=True):
+                        if p in cparts or p in mainpart or t in cparts or t in mainpart:
+                            res.pos = t
+                            break
 
-            res.main = ' '.join(mainpart)
-            G.append(res)
+                res.main = ' '.join(mainpart)
+                G.append(res)
 
     return G
 
-def concept_map2(from_, to, similarity_level=5, freqs=None):
+def concept_map2(from_, to, similarity_level=5, freqs=None, language='en'):
     
     # get frequencies
     freqs = freqs or defaultdict(int)
@@ -171,10 +190,9 @@ def concept_map2(from_, to, similarity_level=5, freqs=None):
     mapped = defaultdict(lambda : defaultdict(list))
     for l, key in [(from_, 'from'), (to, 'to')]:
         for i, concept in enumerate(l):
-            for gloss in parse_gloss(concept):
+            for gloss in parse_gloss(concept, language=language):
                 glosses[key][i] += [gloss]
                 mapped[gloss.main][key] += [i]
-    
     mapping = {}
     sims = {}
     for k, v in mapped.items():

@@ -45,4 +45,9 @@ def main():  # pragma: no cover
             help="specify level of similarity for concept mapping",
             default=5,
             type=int)
+    parser.add_argument(
+            '--language',
+            help="specify your desired language for mapping",
+            default='en',
+            type=str)
     sys.exit(parser.main())

@@ -254,7 +254,7 @@ def map_concepts(args):
     api = Concepticon(args.data)
     api.map(Path(args.args[0]), otherlist=args.args[1] if len(args.args) > 1
             else None, out=args.output,
-            full_search=args.full_search)
+            full_search=args.full_search, language=args.language)
 
 
 def readme(outdir, text):
