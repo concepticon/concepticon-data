@@ -45,7 +45,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 44	INJURE	Possession	To cause physical harm to a living creature.	Action/Process
 45	EVIL	Emotions and values	Intending to harm.	Property
 46	HOLLOW OUT	Basic actions and technology	To make a hole in something.	Action/Process
-47	EXCRETA	The body	Waste matter, such as sweat, urine, or feces, discharged from the body.	Person/Thing
+47	EXCRETA	The body	Waste matter, such as sweat, urine, or faeces, discharged from the body.	Person/Thing
 48	BE SILENT	Speech and language	To stop speaking or making noise.	Action/Process
 49	REFUSE	Speech and language	To not want to do what is being asked.	Action/Process
 50	JACK	Modern world	A playing card marked with the figure of a servant or soldier.	Person/Thing
@@ -673,8 +673,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 672	EARLY	Time	Before the expected time.	Other
 673	SCHOOL	Cognition	An institution or building at which children and young people receive education.	Person/Thing
 674	MOUTH	The body	Opening in the lower half of a human face which is used for food ingestion and articulation.	Person/Thing
-675	FAECES	The body	Substance that human and animal bodies release from time to time as a little pile of waste remaining from digestion, after it has been collected in the colon.	Person/Thing
-676	SHIT	The body	To excrete feces from one's body through the anus.	Action/Process
+675	FAECES (EXCREMENT)	The body	Substance that human and animal bodies release from time to time as a little pile of waste remaining from digestion, after it has been collected in the colon.	Person/Thing
+676	SHIT (DEFECATE)	The body	To excrete faeces from one's body through the anus.	Action/Process
 677	AXE	Basic actions and technology	A tool for felling trees or chopping wood consisting of a heavy metallic head flattened to a blade on one side, and which is attached to a usually wooden handle.	Person/Thing
 678	BEARD	The body	Facial hair of humans on the chin, cheeks and jaw.	Person/Thing
 679	BRIGHT	Sense perception	Visually dazzling.	Property
@@ -931,7 +931,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 930	VILLAGE	Social and political relations	A group of houses and other buildings, such as a church, a school and some shops, which is smaller than a town, usually in the countryside.	Person/Thing
 931	MILLET	Agriculture and vegetation	A group of small-seeded species of cereal crops, widely grown around the world for food and fodder.	Person/Thing
 932	BARLEY	Agriculture and vegetation	A strong cereal of the genus Hordeum, or its grains, often used as food or to make malted drinks.	Person/Thing
-933	WALL	The house	A vertical construction made of stone, brick, wood, etc., with a length and height much greater than its thickness, used to enclose, divide or support.	Person/Thing
+933	WALL (OF HOUSE)	The house	The outer structure which encloses a building.	Person/Thing
 934	BUFFALO	Animals	A wild heavy bison of the species Bison bison, having a broad massive horned head.	Person/Thing
 935	WAR	Warfare and hunting	A conflict or a state of hostility between two or more parties, nations or states, in which armed forces or military operations are used.	Person/Thing
 936	STALLION	Animals	An uncastrated male horse.	Person/Thing
@@ -1933,7 +1933,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1932	GUESS	Cognition	To succeed to know, or discover, by way of surmises.	Action/Process
 1933	LOOSEN	Basic actions and technology	To make undone or untied ; to free from any fastening.	Action/Process
 1934	BEGGAR	Possession	A person who begs.	Person/Thing
-1935	ANUS	The body	The lower opening of the digestive tract, through which feces pass.	Person/Thing
+1935	ANUS	The body	The lower opening of the digestive tract, through which faeces pass.	Person/Thing
 1936	DEER	Animals	The common name for 41 species of even-toed ungulates that compose the family Cervidae in the order Artiodactyla; males have antlers.	Person/Thing
 1937	THERE	Miscellaneous function words	In a not completely determined place which is not here.	Other
 1938	FORTRESS	Warfare and hunting	A fortified place; a large and permanent fortification, sometimes including a town.	Person/Thing
@@ -2647,3 +2647,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2646	HUSBAND OR MALE PERSON	Kinship	Either the male partner in a marriage or a male person.	Person/Thing
 2647	CATTY (MASS UNIT)	Basic actions and technology	A traditional Chinese unit of mass used across East and Southeast Asia, notably for weighing food and other groceries in some wet markets, street markets, and shops.	Classifier
 2648	HAIR (HEAD)	The body	The hair on the head of humans (rather than the hair in general or the hair on the body).	Person/Thing
+2649	COCONUT SHELL LADLE	Food and drink	A large spoon made from coconut shell.	Person/Thing
+2650	ALL OR MANY	Quantity	Either a totality or a large number of people or objects.	Other
+2651	BE IGNORANT	Cognition	Be in a state of not knowing something.	Action/Process
+2652	BROAD OR WIDE	Spatial relations	Either be wide or broad.	Property
+2653	NET (FOR CATCHING)	Basic actions and technology	A grid-like device used for fishing and sports.	Person/Thing
