@@ -59,7 +59,7 @@ class Tests(WithTempDir):
             self.assertEqual(208, len(out.split('\n')))
         with capture(union, Args(data='', args=['Swadesh-1952-200',
             'Matisoff-1978-200'])) as out:
-            self.assertEqual(301, len(out.split('\n')))
+            self.assertEqual(302, len(out.split('\n')))
 
 
     def test_intersection(self):

@@ -417,7 +417,7 @@ Key-2016-1310-415	ladder	415	7-370	http://ids.clld.org/parameters/7-370	échelle
 Key-2016-1310-416	chimney	416	7-330	http://ids.clld.org/parameters/7-330	cheminée	chaminé	дымоход	chimenea	7	330	1305	CHIMNEY
 Key-2016-1310-417	stove	417	7-320	http://ids.clld.org/parameters/7-320	poêle	fogão	печь	estufa	7	320	859	STOVE
 Key-2016-1310-418	fireplace	418	7-310	http://ids.clld.org/parameters/7-310	foyer	lareira	камин	fogón	7	310	185	FIREPLACE
-Key-2016-1310-419	wall	419	7-270	http://ids.clld.org/parameters/7-270	mûr	parede	стена	pared, muro	7	270	933	WALL
+Key-2016-1310-419	wall	419	7-270	http://ids.clld.org/parameters/7-270	mûr	parede	стена	pared, muro	7	270	933	WALL (OF HOUSE)
 Key-2016-1310-420	floor	420	7-260	http://ids.clld.org/parameters/7-260	plancher, sol	chão, soalho	пол	suelo	7	260	1632	FLOOR
 Key-2016-1310-421	window	421	7-250	http://ids.clld.org/parameters/7-250	fenêtre	janela	окно	ventana	7	250	1375	WINDOW
 Key-2016-1310-422	key	422	7-240	http://ids.clld.org/parameters/7-240	clef	chave	ключ	llave	7	240	1472	KEY
@@ -499,7 +499,7 @@ Key-2016-1310-497	fermented drink	497	5-940	http://ids.clld.org/parameters/5-940
 Key-2016-1310-498	beer	498	5-930	http://ids.clld.org/parameters/5-930	bière	cerveja	пиво	cerveza	5	930	1639	BEER
 Key-2016-1310-499	wine	499	5-920	http://ids.clld.org/parameters/5-920	vin	vinho	вино	vino	5	920	1524	WINE
 Key-2016-1310-500	mead	500	5-910	http://ids.clld.org/parameters/5-910	hydromel	mulso, hidromel	мед (напиток)	aguamiel	5	910	941	MEAD
-Key-2016-1310-501	beverage, drink	501	5-900	http://ids.clld.org/parameters/5-900	boisson	bebida	напиток	bebida	5	900	731	DRINK (FLUID)
+Key-2016-1310-501	beverage, drink	501	5-900	http://ids.clld.org/parameters/5-900	boisson	bebida	напиток	bebida	5	900	731	BEVERAGE
 Key-2016-1310-502	butter	502	5-890	http://ids.clld.org/parameters/5-890	beurre	manteiga	сливочное масло	mantequilla, manteca	5	890	1245	BUTTER
 Key-2016-1310-503	cheese	503	5-880	http://ids.clld.org/parameters/5-880	fromage	queijo	сыр	queso	5	880	1569	CHEESE
 Key-2016-1310-504	milk (vb)	504	5-870	http://ids.clld.org/parameters/5-870	traire	ordenhar	доить	ordeñar	5	870	93	DRAW MILK
@@ -616,7 +616,7 @@ Key-2016-1310-614	beget (of father)	614	4-710	http://ids.clld.org/parameters/4-7
 Key-2016-1310-615	bathe	615	4-690	http://ids.clld.org/parameters/4-690	se baigner	tomar banho	купаться	bañar(se)	4	690	138	BATHE
 Key-2016-1310-616	shiver	616	4-680	http://ids.clld.org/parameters/4-680	frissonner	tiritar, tremer	дрожать	temblar	4	680	52	SHIVER
 Key-2016-1310-617	have sexual intercourse	617	4-670	http://ids.clld.org/parameters/4-670	faire l'amour	ter relações sexuais	вступать в половой контакт	tener relaciones sexuales	4	670	1785	HAVE SEX
-Key-2016-1310-618	defecate	618	4-660	http://ids.clld.org/parameters/4-660	déféquer	defecar	испражняться	defecar, excremento (noun)	4	660	676	SHIT
+Key-2016-1310-618	defecate	618	4-660	http://ids.clld.org/parameters/4-660	déféquer	defecar	испражняться	defecar, excremento (noun)	4	660	676	SHIT (DEFECATE)
 Key-2016-1310-619	urinate	619	4-650	http://ids.clld.org/parameters/4-650	uriner	urinar	мочиться	orinar	4	650	592	PISS
 Key-2016-1310-620	break wind	620	4-640	http://ids.clld.org/parameters/4-640	péter, pedo	peido	освободиться от газов	ventosear, flato	4	640	1159	FART
 Key-2016-1310-621	wake up	621	4-630	http://ids.clld.org/parameters/4-630	se réveiller, s'eveiller	acordar	просыпаться	despertarse	4	630	1602	WAKE UP
@@ -716,9 +716,9 @@ Key-2016-1310-714	vein, artery	714	4-151	http://ids.clld.org/parameters/4-151	ve
 Key-2016-1310-715	blood	715	4-150	http://ids.clld.org/parameters/4-150	sang	sangue	кровь	sangre	4	150	946	BLOOD
 Key-2016-1310-716	dandruff	716	4-146	http://ids.clld.org/parameters/4-146	pellicule	caspa	перхоть	caspa	4	146	576	DANDRUFF
 Key-2016-1310-717	pubic hair	717	4-145	http://ids.clld.org/parameters/4-145	poil pubien	pêlo púbico	волос (лобковый)	pelo púbico	4	145	36	PUBIC HAIR
-Key-2016-1310-718	body hair	718	4-144	http://ids.clld.org/parameters/4-144	poil	cabelo, pêlo	волос (на теле)	vello (del cuerpo)	4	144	189	BODY HAIR
+Key-2016-1310-718	body hair	718	4-144	http://ids.clld.org/parameters/4-144	poil	cabelo, pêlo	волос (на теле)	vello (del cuerpo)	4	144	189	HAIR (BODY)
 Key-2016-1310-719	beard	719	4-142	http://ids.clld.org/parameters/4-142	barbe	barba	борода	barba	4	142	678	BEARD
-Key-2016-1310-720	hair (head)	720	4-140	http://ids.clld.org/parameters/4-140	cheveu	cabelo	волос (на голове)	cabello, pelo	4	140	1040	HAIR
+Key-2016-1310-720	hair (head)	720	4-140	http://ids.clld.org/parameters/4-140	cheveu	cabelo	волос (на голове)	cabello, pelo	4	140	2648	HAIR (HEAD)
 Key-2016-1310-721	flesh	721	4-130	http://ids.clld.org/parameters/4-130	chair	carne	тело, плоть	carne	4	130	2259	FLESH
 Key-2016-1310-722	skin, hide	722	4-120	http://ids.clld.org/parameters/4-120	peau	pele, couro	кожа, шкура	piel, cutis, pellejo	4	120	763	SKIN
 Key-2016-1310-723	body	723	4-110	http://ids.clld.org/parameters/4-110	corps	corpo	тело	cuerpo	4	110	1480	BODY
@@ -1111,7 +1111,7 @@ Key-2016-1310-1109	insane, crazy	1109	17-230	http://ids.clld.org/parameters/17-2
 Key-2016-1310-1110	learn	1110	17-240	http://ids.clld.org/parameters/17-240	apprendre	aprender	узнавать, учить(ся)	aprender	17	240	504	LEARN
 Key-2016-1310-1111	study	1111	17-242	http://ids.clld.org/parameters/17-242	étudier	estudar	учить, изучать	estudiar	17	242	1929	STUDY
 Key-2016-1310-1112	teach	1112	17-250	http://ids.clld.org/parameters/17-250	enseigner	ensinar	учить	enseñar	17	250	709	TEACH
-Key-2016-1310-1113	pupil	1113	17-260	http://ids.clld.org/parameters/17-260	élève	aluno	ученик	alumno	17	260	753	PUPIL, STUDENT
+Key-2016-1310-1113	pupil	1113	17-260	http://ids.clld.org/parameters/17-260	élève	aluno	ученик	alumno	17	260	753	PUPIL (STUDENT)
 Key-2016-1310-1114	teacher	1114	17-270	http://ids.clld.org/parameters/17-270	professeur	professor	учитель	profesor, maestro	17	270	1038	TEACHER
 Key-2016-1310-1115	school	1115	17-280	http://ids.clld.org/parameters/17-280	école	escola	школа	escuela, colegio	17	280	673	SCHOOL
 Key-2016-1310-1116	remember	1116	17-310	http://ids.clld.org/parameters/17-310	se souvenir	lembrar-se	помнить	recordar, acordarse	17	310	707	REMEMBER

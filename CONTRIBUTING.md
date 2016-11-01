@@ -54,16 +54,36 @@ If you feel that you need to add new identifiers which are currently missing in 
 
 ### Using automatic mapping software
 
-We created scripts that make it easy to map new concept lists. These scripts are in the folder [helpers/](https://github.com/clld/concepticon-data/tree/master/helpers). One script is of essential importance here:
+The concepticon API allows you to automatically link your concept list to the concepticon. We currently support two different styles, one which exhaustively compars each gloss with each other, and one quick style, which compares only those glosses which have been filtered as similar enough in a first run. The styles also differe slightly in their output. Here is, how you can carry out a linking using the quick style of your list called "input.tsv"
+```shell
+$ concepticon --map_type=2 map_concepts input.tsv
+```
+This script requires that the concepticon API has been installed, and that your input list contains at least two columns: one labeled "ID" and one labelded "GLOSS" or "ENGLISH".
 
-* [maplist.py](https://github.com/clld/concepticon-data/blob/master/helpers/maplist.py), a script that takes the path to a concept list as argument.
+The mapping procedure will output another list (first to terminal store in file by using the ">" character in typical Unix manner), containing three additional columns: `CONCEPTICON_ID`, `CONCEPTICON_GLOSS`, and `SIMILARITY` (the latter ranke similarity on a scale between 1 and 5, with 1 being most similar, if there is a matching concept). If there are multiple possibilities of the same similarity, these are output in ranked order, preceded by the `<<<` and followed by `>>>`. Left-overs are marked by two question marks (`???`). The last line also contains the percentage of mapped items with score <= 3, which gives you an idea on how much work still needs to be done to manually refine the mapping.
+
+An excerpt of an example output is here:
 
 ```shell
-$ python maplist.py yourconceptlist
+ID	GLOSS	CONCEPTICON_ID	CONCEPTICON_GLOSS	SIMILARITY
+1	hair	1040	HAIR	2
+2	head	1256	HEAD	2
+3	mouth	674	MOUTH	2
+4	nose	1221	NOSE	2
+...
+122	I	1209	I	1
+123	thou	1215	THOU	2
+124	he	1211	HE	2
+125	die 	1494	DIE	2
+126	we excl.		???	
+<<<			
+127	you	1213	YOU	2
+127	you	2312	YOU (OBLIQUE CASE OF YOU)	2
+>>>			
+128	they	817	THEY	2
+#	123	128	0.96
 ```
-This script requires the most recent version of [LingPy](http://lingpy.org). Your concept list should minimally contain one column labelled as "GLOSS" and one column labelled as "NUMBER" (you should change GLOSS later to ENGLISH, in case the original language for concept labels is English). The script produces automatic mappings with multiple solutions from which you can choose. The solutions are graded using a numerical schema from 1 to 8, with one indicating complete identity, and 8 indicating missing entries. 
 
-There are more scripts that can ease the task of mapping concept lists. Please contact us if you have questions, and we gladly tell you how to use them.
 
 ## Testing
 
