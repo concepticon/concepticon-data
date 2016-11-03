@@ -155,7 +155,7 @@ class SourcesCatalog(object):
 
     def __exit__(self, exc_type, exc_val, exc_tb):
         jsonlib.dump(
-            OrderedDict([(k, OrderedDict([i for i in v.items()]))
+            OrderedDict([(k, OrderedDict([i for i in sorted(v.items())]))
                          for k, v in sorted(self.items.items())]),
             self.path,
             indent=4)
