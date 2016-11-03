@@ -4,13 +4,14 @@ from collections import Counter, defaultdict
 import operator
 from functools import partial
 
+from six import text_type
 from tabulate import tabulate
 from clldutils.path import Path
 from clldutils.clilib import ParserError
 from clldutils.markup import Table
 
 from pyconcepticon.util import rewrite, CS_ID, CS_GLOSS
-from pyconcepticon.api import Concepticon
+from pyconcepticon.api import Concepticon, Conceptlist
 
 
 class Linker(object):
@@ -52,9 +53,7 @@ class Linker(object):
             return row
 
         if self._link_col[1]:
-            val = self.concepts[self._link_col[1]].get(
-                    row[self._link_col[0]],
-                    '')
+            val = self.concepts[self._link_col[1]].get(row[self._link_col[0]], '')
             if not val:
                 print('unknown %s: %s' % (
                     self._link_col[1],
@@ -69,8 +68,8 @@ class Linker(object):
                 if not row[self._cid_index]:
                     row[self._cid_index] = cid
                 else:
-                    print('unknown CONCEPTICON_ID/GLOSS mismatch: %s %s' %
-                        (row[self._cid_index], row[self._cgloss_index]))
+                    print('unknown CONCEPTICON_ID/GLOSS mismatch: %s %s' % (
+                        row[self._cid_index], row[self._cgloss_index]))
 
         if self._number_index is not None:
             row = ['%s-%s' % (self.clid, row[self._number_index])] + row
@@ -152,7 +151,7 @@ def compare_conceptlists(api, *conceptlists, **kw):
         if len(lists) > 1:
             # if one list makes MORE distinctions than the other, yield the
             # more refined list
-            listcheck = defaultdict(list) 
+            listcheck = defaultdict(list)
             for a, b, c, d in lists:
                 if b >= 0:
                     listcheck[a] += [(a, b, c, d)]
@@ -181,7 +180,7 @@ def compare_conceptlists(api, *conceptlists, **kw):
             elif 0 not in depths:
                 concepts = dict([(c, (a, b)) for a, b, c, d in sorted_lists])
                 # if all concepts are narrower, dont' retain them
-                retain = True if [x for x in depths if x > 0] else False 
+                retain = bool([x for x in depths if x > 0])
                 for concept in concepts:
                     if concept in proper_concepts:
                         retain = False
@@ -202,6 +201,28 @@ def compare_conceptlists(api, *conceptlists, **kw):
                     yield (cid, lists)
 
 
+def _set_operation(args, type_):
+    assert type_ in ['union', 'intersection']
+    api = Concepticon(args.data)
+    out, clen = [], 0
+
+    for c, lists in compare_conceptlists(api, *args.args):
+        if type_ == 'union' \
+                or len(set([x[0] for x in lists if x[1] >= 0])) == len(args.args):
+            marker = '*' if not len([0 for x in lists if x[1] == 0]) else ''
+            out += [(
+                marker, c,
+                api.conceptsets[c].gloss, ', '.join(
+                    ['{0[3]} ({0[1]}, {0[0]})'.format(x) for x in
+                     lists if x[1] != 0]))]
+            clen = len(out[-1][2]) if len(out[-1][2]) > clen else clen
+
+    frmt = '{0:3} {1:1}{2:' + text_type(clen) + '} [{3:4}] {4}'
+    for i, line in enumerate(out):
+        print(frmt.format(i + 1, line[0], line[2], line[1], line[3]))
+    return out
+
+
 def intersection(args):
     """Compare how many concepts overlap in concept lists.
 
@@ -215,48 +236,12 @@ def intersection(args):
     none of the narrower concepts match. As a default we use a depth of 2 for
     the search.
     """
-    api = Concepticon(args.data)
-    out = []
-    clen = 0
-
-    for c, lists in compare_conceptlists(api, *args.args):
-        if len(set([x[0] for x in lists if x[1] >= 0])) == len(args.args):
-            marker = '*' if not len([0 for x in lists if x[1] == 0]) else ''
-            out += [(
-                marker, c,
-                api.conceptsets[c].gloss, ', '.join(
-                    ['{0[3]} ({0[1]}, {0[0]})'.format(x) for x in
-                        lists if x[1] != 0]))]
-            clen = len(out[-1][2]) if len(out[-1][2]) > clen else clen
-    frmt = '{0:3} {1:1}{2:'+str(clen)+'} [{3:4}] {4}'
-    for i, line in enumerate(out):
-        print(frmt.format(i+1, line[0], line[2], line[1], line[3]))
-    return out
+    return _set_operation(args, 'intersection')
 
 
 def union(args):
     """Calculate the union of several concept lists."""
-    api = Concepticon(args.data)
-    out = []
-    clen = 0
-    compared = list(compare_conceptlists(api, *args.args))
-    for c, lists in compared:
-        marker = '*' if not len([0 for x in lists if x[1] == 0]) else ''
-        out += [(
-            marker, c,
-            api.conceptsets[c].gloss,
-            ', '.join(['{0[3]} ({0[1]}, {0[0]})'.format(x)
-                for x in lists if x[1] != 0]))]
-        clen = len(out[-1][2]) if len(out[-1][2]) > clen else clen
-    frmt = '{0:3} {1:1}{2:'+str(clen)+'} [{3:4}] {4}'
-    for i, line in enumerate(out):
-        print(frmt.format(i+1, line[0], line[2], line[1], line[3]))
-    return out
-
-
-def test_mapping(args):
-    api = Concepticon(args.data)
-    api.test_mapping(args.args[0])
+    return _set_operation(args, 'union')
 
 
 def map_concepts(args):

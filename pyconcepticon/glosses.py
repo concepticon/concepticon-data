@@ -4,12 +4,10 @@ Module provides functions for the handling of concept glosses in linguistic data
 """
 from __future__ import print_function, division, unicode_literals
 import re
-from itertools import product
 from collections import defaultdict
 
 from clldutils.misc import cached_property
 
-from fuzzywuzzy import fuzz
 import attr
 
 
@@ -130,16 +128,14 @@ def parse_gloss(gloss, language='en'):
         ('cls', 'classifier')
     ]
 
-    
     # we use /// as our internal marker for glosses preceded by concepticon
     # gloss information and followed by literal readings
     if '///' in gloss:
         gloss = gloss.split('///')[1]
-    
+
     # if the gloss consists of multiple parts, we store both the separate part
     # and a normalized form of the full gloss
-    constituents = [x.strip() for x in re.split(',|;|/| or | OR ', gloss) if
-            x.strip()]
+    constituents = [x.strip() for x in re.split(',|;|/| or | OR ', gloss) if x.strip()]
     if len(constituents) > 1:
         constituents += [' / '.join(sorted([c.strip() for c in constituents]))]
 
@@ -183,7 +179,8 @@ def parse_gloss(gloss, language='en'):
                 # search for pos in comment
                 if not res.pos:
                     cparts = res.comment.split()
-                    for p, t in sorted(abbreviations, key=lambda x: len(x[0]), reverse=True):
+                    for p, t in sorted(
+                            abbreviations, key=lambda x: len(x[0]), reverse=True):
                         if p in cparts or p in mainpart or t in cparts or t in mainpart:
                             res.pos = t
                             break
@@ -193,14 +190,14 @@ def parse_gloss(gloss, language='en'):
 
     return G
 
+
 def concept_map2(from_, to, similarity_level=5, freqs=None, language='en'):
-    
     # get frequencies
     freqs = freqs or defaultdict(int)
 
     # extract glossing information from the data
     glosses = {'from': defaultdict(list), 'to': defaultdict(list)}
-    mapped = defaultdict(lambda : defaultdict(list))
+    mapped = defaultdict(lambda: defaultdict(list))
     for l, key in [(from_, 'from'), (to, 'to')]:
         for i, concept in enumerate(l):
             for gloss in parse_gloss(concept, language=language):
@@ -211,7 +208,6 @@ def concept_map2(from_, to, similarity_level=5, freqs=None, language='en'):
     for k, v in mapped.items():
         if 'from' in v and 'to' in v:
             for i in v['from']:
-                similarities = []
                 current_sim = sims.get(i, 10)
                 best = mapping.get(i, set())
                 for j in v['to']:
@@ -219,18 +215,17 @@ def concept_map2(from_, to, similarity_level=5, freqs=None, language='en'):
                         for glossB in glosses['to'][j]:
                             sim = glossA.similarity(glossB) or 10
                             if sim < current_sim:
-                                best = set([j])
+                                best = {j}
                                 current_sim = sim
                             elif sim == current_sim:
                                 best.add(j)
                 mapping[i] = best
                 sims[i] = current_sim
     for i in mapping:
-        mapping[i] = sorted(mapping[i], key=lambda x: freqs.get(to[x], 0),
-                reverse=True), sims[i]
+        mapping[i] = (
+            sorted(mapping[i], key=lambda x: freqs.get(to[x], 0), reverse=True), sims[i])
     return mapping
 
-            
 
 def concept_map(from_, to, similarity_level=5):
     """
@@ -285,11 +280,5 @@ def concept_map(from_, to, similarity_level=5):
             consumed.add(j)
         elif j not in alternatives[i]:
             alternatives[i].append(j)
-
-    #for i, concept in enumerate(from_):
-    #    if i in best:
-    #        print('{0} -{1}-> {2}'.format(concept, best[i][1], to[best[i][0]]))
-    #    else:
-    #        print('{0} -> ?'.format(concept))
 
     return best

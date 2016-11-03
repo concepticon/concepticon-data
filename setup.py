@@ -23,7 +23,6 @@ setup(
         'clldutils>=1.4.2',
         'bibtexparser',
         'tabulate',
-        'fuzzywuzzy',
         'attrs',
     ],
     entry_points={

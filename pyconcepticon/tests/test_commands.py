@@ -56,17 +56,21 @@ class Tests(WithTempDirMixin, TestWithFixture):
         from pyconcepticon.commands import union
         Args = namedtuple('Args', ['data', 'args'])
 
-        with capture(union, Args(data='', args=['Swadesh-1955-100',
-            'Swadesh-1952-200'])) as out:
+        with capture(
+                union,
+                Args(data='', args=['Swadesh-1955-100', 'Swadesh-1952-200'])) as out:
             self.assertEqual(208, len(out.split('\n')))
-        with capture(union, Args(data='', args=['Swadesh-1952-200',
-            'Matisoff-1978-200'])) as out:
+
+        with capture(
+                union,
+                Args(data='', args=['Swadesh-1952-200', 'Matisoff-1978-200'])) as out:
             self.assertEqual(302, len(out.split('\n')))
 
     def test_intersection(self):
         from pyconcepticon.commands import intersection
         Args = namedtuple('Args', ['data', 'args'])
 
-        with capture(intersection, Args(data='', args=['Swadesh-1955-100',
-            'Swadesh-1952-200'])) as out:
+        with capture(
+                intersection,
+                Args(data='', args=['Swadesh-1955-100', 'Swadesh-1952-200'])) as out:
             self.assertEqual(94, len(out.split('\n')))

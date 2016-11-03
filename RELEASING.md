@@ -43,6 +43,11 @@ Releasing pyconcepticon
 nosetests
 ```
 
+- Make sure flake8 is happy:
+```
+flake8 --ignore=E711,E712,D100,D101,D103,D102,D301 --max-line-length=100 pyconcepticon
+```
+
 - Bump version number:
   - Change the version number in `setup.py` and commit the change:
 ```
