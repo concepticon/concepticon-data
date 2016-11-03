@@ -384,9 +384,7 @@ def upload_sources(args):
             for fname in api.data_path('sources').glob('*.pdf'):
                 clid = as_unicode(fname.stem)
                 if clid not in lcat:
-                    _, created, obj = list(cat.create(fname, {'collection': 'concepticon'}))[0]
-                    if not created:
-                        print(clid)
-                    lcat.add(obj)
+                    _, _, obj = list(cat.create(fname, {'collection': 'concepticon'}))[0]
+                    lcat.add(clid, obj)
 
     # now create sources/README.md linking to the docs!

@@ -160,9 +160,9 @@ class SourcesCatalog(object):
             self.path,
             indent=4)
 
-    def add(self, obj):
+    def add(self, key, obj):
         bsid = obj.bitstreams[0].id
-        self.items[bsid.split('.')[0]] = OrderedDict([
+        self.items[key] = OrderedDict([
             ('url', 'https://cdstar.shh.mpg.de/bitstreams/{0}/{1}'.format(obj.id, bsid)),
             ('objid', obj.id),
             ('original', bsid),
