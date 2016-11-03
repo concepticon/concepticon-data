@@ -10,7 +10,7 @@ from clldutils.clilib import ParserError
 from clldutils.markup import Table
 
 from pyconcepticon.util import rewrite, CS_ID, CS_GLOSS
-from pyconcepticon.api import Concepticon, Conceptlist
+from pyconcepticon.api import Concepticon
 
 
 class Linker(object):
@@ -66,8 +66,12 @@ class Linker(object):
                 print('unknown CONCEPTICON_GLOSS: {0}'.format(
                     row[self._cgloss_index]))
             elif cid != row[self._cid_index]:
-                print('unknown CONCEPTICON_ID/GLOSS mismatch: %s %s' %
-                      (row[self._cid_index], row[self._cgloss_index]))
+                if not row[self._cid_index]:
+                    row[self._cid_index] = cid
+                else:
+                    print('unknown CONCEPTICON_ID/GLOSS mismatch: %s %s' %
+                        (row[self._cid_index], row[self._cgloss_index]))
+
         if self._number_index is not None:
             row = ['%s-%s' % (self.clid, row[self._number_index])] + row
         return row
@@ -257,7 +261,9 @@ def test_mapping(args):
 
 def map_concepts(args):
     api = Concepticon(args.data)
-    api.map(Path(args.args[0]), args.args[1] if len(args.args) > 1 else None)
+    api.map(Path(args.args[0]), otherlist=args.args[1] if len(args.args) > 1
+            else None, out=args.output,
+            full_search=args.full_search, language=args.language)
 
 
 def readme(outdir, text):

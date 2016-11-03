@@ -45,7 +45,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 44	INJURE	Possession	To cause physical harm to a living creature.	Action/Process
 45	EVIL	Emotions and values	Intending to harm.	Property
 46	HOLLOW OUT	Basic actions and technology	To make a hole in something.	Action/Process
-47	EXCRETA	The body	Waste matter, such as sweat, urine, or feces, discharged from the body.	Person/Thing
+47	EXCRETA	The body	Waste matter, such as sweat, urine, or faeces, discharged from the body.	Person/Thing
 48	BE SILENT	Speech and language	To stop speaking or making noise.	Action/Process
 49	REFUSE	Speech and language	To not want to do what is being asked.	Action/Process
 50	JACK	Modern world	A playing card marked with the figure of a servant or soldier.	Person/Thing
@@ -187,7 +187,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 186	SHIN	The body	The front part of the leg below the knee.	Person/Thing
 187	LOIN	The body	The part of the body (of humans and quadrupeds) each side of the backbone between the ribs and hips.	Person/Thing
 188	COMB OF BIRD	Animals	A fleshy growth on the top of the head of some birds.	Person/Thing
-189	BODY HAIR	The body	The terminal hair that develops on the human body during and after puberty.	Person/Thing
+189	HAIR (BODY)	The body	The terminal hair that develops on the human body during and after puberty.	Person/Thing
 190	MOW	Agriculture and vegetation	To cut all [the grass, crop or any thin plants] of a surface area of the ground.	Action/Process
 191	NUT	Food and drink	A hard-shelled seed.	Person/Thing
 192	CORNER	Spatial relations	The area around the point where two converging walls meet.	Person/Thing
@@ -392,7 +392,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 391	BLESS	Religion and belief	To make something blessed; to confer blessing upon.	Action/Process
 392	MAGIC	Religion and belief	The use of rituals or actions, especially based on supernatural or occult knowledge, to manipulate or obtain information about the natural world, especially when seen as falling outside the realm of religion; also the forces allegedly drawn on for such practices. A specific ritual or procedure associated with supernatural magic or with mysticism; a spell.	Person/Thing
 393	CIRCUMCISION	Religion and belief	The act of excising or amputating the prepuce (the foreskin on penises, the clitoral hood on clitorises)	Person/Thing
-394	SHAMAN, FOLK HEALER	Religion and belief	A traditional (prescientific) faith healer; a member of certain tribal societies who acts as a religious medium between the concrete and spirit worlds.	Person/Thing
+394	SHAMAN (FOLK HEALER)	Religion and belief	A traditional (prescientific) faith healer; a member of certain tribal societies who acts as a religious medium between the concrete and spirit worlds.	Person/Thing
 395	PILL	Modern world	A small, usually cylindrical object designed for easy swallowing, usually containing some sort of medication.	Person/Thing
 396	TABLET	Modern world	A pill; a small, easily swallowed portion of a substance.	Person/Thing
 397	BIRTH CERTIFICATE	Modern world	official document certifying the details of a person's birth. Name, date, and parents' names are always included; details such as parents' occupation and religion may be included.	Person/Thing
@@ -673,8 +673,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 672	EARLY	Time	Before the expected time.	Other
 673	SCHOOL	Cognition	An institution or building at which children and young people receive education.	Person/Thing
 674	MOUTH	The body	Opening in the lower half of a human face which is used for food ingestion and articulation.	Person/Thing
-675	FAECES	The body	Substance that human and animal bodies release from time to time as a little pile of waste remaining from digestion, after it has been collected in the colon.	Person/Thing
-676	SHIT	The body	To excrete feces from one's body through the anus.	Action/Process
+675	FAECES (EXCREMENT)	The body	Substance that human and animal bodies release from time to time as a little pile of waste remaining from digestion, after it has been collected in the colon.	Person/Thing
+676	SHIT (DEFECATE)	The body	To excrete faeces from one's body through the anus.	Action/Process
 677	AXE	Basic actions and technology	A tool for felling trees or chopping wood consisting of a heavy metallic head flattened to a blade on one side, and which is attached to a usually wooden handle.	Person/Thing
 678	BEARD	The body	Facial hair of humans on the chin, cheeks and jaw.	Person/Thing
 679	BRIGHT	Sense perception	Visually dazzling.	Property
@@ -729,7 +729,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 728	FIRST	Quantity	Having no predecessor. The ordinal number corresponding to one.	Other
 729	DAWN	Time	A period of time at the beginning of the day shortly before sunrise during which the light gradually becomes stronger.	Person/Thing
 730	SNAKE	Animals	Any reptile of the suborder Serpentes, typically having a scaly cylindrical limbless body, fused eyelids, and a jaw modified for swallowing large prey.	Person/Thing
-731	DRINK (FLUID)	Food and drink	Any one of various liquids for drinking.	Person/Thing
+731	BEVERAGE	Food and drink	Any one of various liquids for drinking.	Person/Thing
 732	YOUR (SINGULAR)	Possession	belonging to the second person that is addressed by the first person.	Other
 733	EARN	Possession	To gain (success) through applied effort or work.	Action/Process
 734	MAKE	Basic actions and technology	To create something by combining or assembling materials or parts or by changing it.	Action/Process
@@ -751,7 +751,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 750	DROP	Motion	The event of moving to a lower position due to the effect of gravity.	Action/Process
 751	SHRUB	Agriculture and vegetation	A woody perennial plant, smaller than a tree, with several major branches arising from near the base of the main stem.	Person/Thing
 752	STORE	Possession	An establishment, either physical or virtual, that sells goods or services to the public.	Person/Thing
-753	PUPIL, STUDENT	Cognition	A student under the supervision of a teacher or professor.	Person/Thing
+753	PUPIL (STUDENT)	Cognition	A student under the supervision of a teacher or professor.	Person/Thing
 754	HURRY	Time	To move or do something at a fast pace.	Action/Process
 755	DENY	Speech and language	To refuse strongly and solemnly to own or acknowledge.	Action/Process
 756	DEPEND	Social and political relations	To rely on for support; to be conditioned or contingent; to be connected with anything, as a cause of existence, or as a necessary condition.	Action/Process
@@ -931,7 +931,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 930	VILLAGE	Social and political relations	A group of houses and other buildings, such as a church, a school and some shops, which is smaller than a town, usually in the countryside.	Person/Thing
 931	MILLET	Agriculture and vegetation	A group of small-seeded species of cereal crops, widely grown around the world for food and fodder.	Person/Thing
 932	BARLEY	Agriculture and vegetation	A strong cereal of the genus Hordeum, or its grains, often used as food or to make malted drinks.	Person/Thing
-933	WALL	The house	A vertical construction made of stone, brick, wood, etc., with a length and height much greater than its thickness, used to enclose, divide or support.	Person/Thing
+933	WALL (OF HOUSE)	The house	The outer structure which encloses a building.	Person/Thing
 934	BUFFALO	Animals	A wild heavy bison of the species Bison bison, having a broad massive horned head.	Person/Thing
 935	WAR	Warfare and hunting	A conflict or a state of hostility between two or more parties, nations or states, in which armed forces or military operations are used.	Person/Thing
 936	STALLION	Animals	An uncastrated male horse.	Person/Thing
@@ -1038,7 +1038,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1037	ELF	Religion and belief	A mythical creature of Germanic mythology. In Norse mythology they were originally minor gods of nature and fertility. They are often pictured as youthful-seeming men and women of great beauty living in forests and other natural places, underground, or in wells and springs. They have been portrayed to be long-lived or immortal and they have magical powers attributed to them.	Person/Thing
 1038	TEACHER	Cognition	A person who passes on knowledge, especially one employed in a school.	Person/Thing
 1039	SHOW	Sense perception	To have somebody see something.	Action/Process
-1040	HAIR	The body	The collection or mass of hair on a person's head except the face.	Person/Thing
+1040	HAIR	The body	The hair on humans, usually on the head but also including the hair on the body.	Person/Thing
 1041	INCREASE	Basic actions and technology	(Of a quantity) to become bigger.	Action/Process
 1042	CARPENTER	Basic actions and technology	Artisan who works with wood.	Person/Thing
 1043	BRAID	Clothing and grooming	a hair style formed by interweaving three or more strands of hair.	Person/Thing
@@ -1933,7 +1933,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1932	GUESS	Cognition	To succeed to know, or discover, by way of surmises.	Action/Process
 1933	LOOSEN	Basic actions and technology	To make undone or untied ; to free from any fastening.	Action/Process
 1934	BEGGAR	Possession	A person who begs.	Person/Thing
-1935	ANUS	The body	The lower opening of the digestive tract, through which feces pass.	Person/Thing
+1935	ANUS	The body	The lower opening of the digestive tract, through which faeces pass.	Person/Thing
 1936	DEER	Animals	The common name for 41 species of even-toed ungulates that compose the family Cervidae in the order Artiodactyla; males have antlers.	Person/Thing
 1937	THERE	Miscellaneous function words	In a not completely determined place which is not here.	Other
 1938	FORTRESS	Warfare and hunting	A fortified place; a large and permanent fortification, sometimes including a town.	Person/Thing
@@ -2642,3 +2642,17 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2641	MYTHICAL BEING	Religion and belief	Any living creature that occurs in stories and fary-tales and does not exist in the real world.	Person/Thing
 2642	HE OR SHE	Kinship	Third person singular addressing living things or persons.	Other
 2643	INK	Modern world	A liquid or paste that contains pigments or dyes and is used to color a surface to produce an image, text, or design.	Person/Thing
+2644	GRANDFATHER OR OLDER BROTHER	Kinship	Either the grandfather or the older brother of a person.	Person/Thing
+2645	MAN OR PERSON	Kinship	Either a man or a person (in general).	Person/Thing
+2646	HUSBAND OR MALE PERSON	Kinship	Either the male partner in a marriage or a male person.	Person/Thing
+2647	CATTY (MASS UNIT)	Basic actions and technology	A traditional Chinese unit of mass used across East and Southeast Asia, notably for weighing food and other groceries in some wet markets, street markets, and shops.	Classifier
+2648	HAIR (HEAD)	The body	The hair on the head of humans (rather than the hair in general or the hair on the body).	Person/Thing
+2649	COCONUT SHELL LADLE	Food and drink	A large spoon made from coconut shell.	Person/Thing
+2650	ALL OR MANY	Quantity	Either a totality or a large number of people or objects.	Other
+2651	BE IGNORANT	Cognition	Be in a state of not knowing something.	Action/Process
+2652	BROAD OR WIDE	Spatial relations	Either be wide or broad.	Property
+2653	NET (FOR CATCHING)	Basic actions and technology	A grid-like device used for fishing and sports.	Person/Thing
+2654	VIPER	Animals	A family of venomous snakes found in most parts of the world.	Person/Thing
+2655	JACKFRUIT	Agriculture and vegetation	A species of tree in the fig, mulberry and breadfruit family (Moraceae).	Person/Thing
+2656	MIDNIGHT	Time	In the middle of the night.	Person/Thing
+2657	LADLE	Food and drink	A large spoon used to distribute soup and other kinds of food.	Person/Thing

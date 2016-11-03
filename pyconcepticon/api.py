@@ -14,9 +14,8 @@ from clldutils.dsv import UnicodeWriter
 
 from pyconcepticon import data
 from pyconcepticon.util import (
-    REPOS_PATH, data_path, read_dicts, split, lowercase, to_dict, split_ids,
-)
-from pyconcepticon.glosses import concept_map
+    REPOS_PATH, data_path, read_dicts, split, lowercase, to_dict, split_ids)
+from pyconcepticon.glosses import concept_map, concept_map2
 
 
 class Concepticon(object):
@@ -88,6 +87,15 @@ class Concepticon(object):
         """
         return ConceptRelations(self.data_path('conceptrelations.tsv'))
 
+    @cached_property()
+    def frequencies(self):
+        D = defaultdict(int)
+        for cl in self.conceptlists.values():
+            for concept in cl.concepts.values():
+                if concept.concepticon_id: D[concept.concepticon_gloss] += 1
+        return D
+
+
     def _metadata(self, id_):
         values_path = self.data_path('concept_set_meta', id_ + '.tsv')
         md_path = self.data_path('concept_set_meta', id_ + '.tsv-metadata.json')
@@ -97,59 +105,65 @@ class Concepticon(object):
             meta=jsonlib.load(md_path),
             values=to_dict(read_dicts(values_path), key=itemgetter('CONCEPTICON_ID')))
 
-    def test_mapping(self, clist):  # pragma no cover
-        #
-        # TODO: there should be a way to feed frequency of a term in other concept lists
-        # into the mapping!
-        #
-        from_ = []
-        for item in self.conceptlists[clist].concepts.values():
-            from_.append(
-                (item.id, item.label, item.concepticon_id, item.concepticon_gloss))
-        to = [(cs.id, cs.gloss, cs.ontological_category, len(cs.concepts))
-              for cs in self.conceptsets.values()]
-        cmap, altmap = concept_map(
-            [i[1] for i in from_],
-            [(i[1], 'verb' if i[2] == 'Action/Process' else None, i[3]) for i in to])
-
-        def print_alternatives(altmap, i):
-            if altmap.get(i):
-                for j in altmap.get(i, []):
-                    cid, cgloss, _, _ = to[j]
-                    print('   ', 'alt:', cgloss, cid)
-
-        problems = 0
-        for i, (fid, fgloss, fcid, fcgloss) in enumerate(from_):
-            if not fcid:
-                continue
-            match = cmap.get(i)
-            if match is None:
-                print('--- unmapped: %s %s; should be %s' % (fid, fgloss, fcgloss))
-                print_alternatives(altmap, i)
-                problems += 1
-            else:
-                cid = to[match[0]][0]
-                if cid != fcid:
-                    print('~~~ mismapped: %s -> %s; should be %s' % (fgloss, self.conceptsets[cid].gloss, fcgloss))
-                    print_alternatives(altmap, i)
-                    problems += 1
-        print(problems)
-
-    def map(self, clist, out=None):
+    def map(self, clist, otherlist=None, out=None, full_search=False,
+            similarity_level=5, language='en'):
         assert clist.exists()
         from_ = []
         for item in read_dicts(clist):
-            from_.append((item['ID'], item.get('GLOSS', item.get('ENGLISH'))))
-        to = [(cs.id, cs.gloss) for cs in self.conceptsets.values()]
-        cmap, altmap = concept_map([i[1] for i in from_], [i[1] for i in to])
-
-        with UnicodeWriter(out, delimiter='\t') as writer:
-            writer.writerow(['ID', 'GLOSS', 'CONCEPTICON_ID', 'CONCEPTICON_GLOSS'])
-            for i, (fid, fgloss) in enumerate(from_):
-                row = [fid, fgloss]
-                match = cmap.get(i)
-                row.extend(list(to[match[0]]) if match else ['', ''])
-                writer.writerow(row)
+            from_.append((item.get('ID', item.get('NUMBER')), 
+                item.get('GLOSS', item.get('ENGLISH'))))
+        if otherlist:
+            to = []
+            for item in read_dicts(otherlist):
+                to.append((item['ID'], item.get('GLOSS', item.get('ENGLISH'))))
+        else:
+            to = [(cs['ID'], cs['GLOSS']) for cs in read_dicts(
+                    REPOS_PATH.joinpath(
+                        'pyconcepticon', 
+                        'data',
+                        'map-{0}.tsv'.format(language)))]
+        if not full_search:
+            cmap = concept_map2([i[1] for i in from_], [i[1] for i in to],
+                    similarity_level=similarity_level, freqs=self.frequencies,
+                    language=language)
+            good_matches = 0
+            with UnicodeWriter(out, delimiter='\t') as writer:
+                writer.writerow(['ID', 'GLOSS', 'CONCEPTICON_ID',
+                    'CONCEPTICON_GLOSS', 'SIMILARITY'])
+                for i, (fid, fgloss) in enumerate(from_):
+                    row = [fid, fgloss]
+                    matches, sim = cmap.get(i, ([], 10))
+                    if sim <= 5: good_matches += 1
+                    if not matches:
+                        row.extend(['', '???', ''])
+                        writer.writerow(row)
+                    elif len(matches) == 1:
+                        row.extend([to[matches[0]][0],
+                            to[matches[0]][1].split('///')[0], sim])
+                        writer.writerow(row)
+                    else:
+                        writer.writerow(['<<<', '', '', ''])
+                        visited = []
+                        for j in matches:
+                            if to[j][0] not in visited:
+                                row = [fid, fgloss, to[j][0], 
+                                        to[j][1].split('///')[0], 
+                                        sim]
+                                writer.writerow(row)
+                                visited += [to[j][0]]
+                        writer.writerow(['>>>', '', '', ''])
+                writer.writerow(['#', good_matches, len(from_),
+                    '{0:.2f}'.format(good_matches / len(from_))])
+        else:
+            cmap = concept_map([i[1] for i in from_], [i[1] for i in to],
+                    similarity_level=similarity_level)
+            with UnicodeWriter(out, delimiter='\t') as writer:
+                writer.writerow(['ID', 'GLOSS', 'CONCEPTICON_ID', 'CONCEPTICON_GLOSS'])
+                for i, (fid, fgloss) in enumerate(from_):
+                    row = [fid, fgloss]
+                    match = cmap.get(i)
+                    row.extend(list(to[match[0]]) if match else ['', ''])
+                    writer.writerow(row)
 
         if out is None:
             print(writer.read().decode('utf-8'))
