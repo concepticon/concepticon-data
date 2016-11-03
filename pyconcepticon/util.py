@@ -147,8 +147,8 @@ class SourcesCatalog(object):
         self.path = path
         self.items = jsonlib.load(self.path)
 
-    def __contains__(self, item):
-        return item in self.items
+    def get(self, item):
+        return self.items.get(item)
 
     def __enter__(self):
         return self
@@ -169,3 +169,4 @@ class SourcesCatalog(object):
             ('size', obj.bitstreams[0].size),
             ('mimetype', obj.bitstreams[0].mimetype),
         ])
+        return self.items[key]
