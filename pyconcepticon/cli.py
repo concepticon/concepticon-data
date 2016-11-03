@@ -20,7 +20,7 @@ from clldutils.clilib import ArgumentParser
 from clldutils.path import Path
 
 from pyconcepticon.commands import (
-    link, stats, attributes, intersection, union, map_concepts,
+    link, stats, attributes, intersection, union, map_concepts, upload_sources,
 )
 import pyconcepticon
 
@@ -33,6 +33,7 @@ def main():  # pragma: no cover
         attributes,
         intersection,
         union,
+        upload_sources,
         map_concepts)
     parser.add_argument(
         '--data',
