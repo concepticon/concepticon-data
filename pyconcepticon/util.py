@@ -4,6 +4,7 @@ from collections import defaultdict, OrderedDict, Counter
 from functools import partial
 from operator import attrgetter
 
+from clldutils import jsonlib
 from clldutils.path import Path
 from clldutils import dsv
 
@@ -139,3 +140,33 @@ def write_conceptlist(clist, filename, header=False):
             v = clist[k]
             if k not in ['splits', 'mergers', 'header']:
                 writer.writerow([v[h] for h in header])
+
+
+class SourcesCatalog(object):
+    def __init__(self, path):
+        self.path = path
+        self.items = jsonlib.load(self.path)
+
+    def get(self, item):
+        return self.items.get(item)
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        jsonlib.dump(
+            OrderedDict([(k, OrderedDict([i for i in sorted(v.items())]))
+                         for k, v in sorted(self.items.items())]),
+            self.path,
+            indent=4)
+
+    def add(self, key, obj):
+        bsid = obj.bitstreams[0].id
+        self.items[key] = OrderedDict([
+            ('url', 'https://cdstar.shh.mpg.de/bitstreams/{0}/{1}'.format(obj.id, bsid)),
+            ('objid', obj.id),
+            ('original', bsid),
+            ('size', obj.bitstreams[0].size),
+            ('mimetype', obj.bitstreams[0].mimetype),
+        ])
+        return self.items[key]

@@ -1,16 +1,19 @@
 # coding:utf8
 from __future__ import unicode_literals, division
+import os
 from collections import Counter, defaultdict
 import operator
 from functools import partial
 
 from six import text_type
 from tabulate import tabulate
-from clldutils.path import Path
+from clldutils.path import Path, as_unicode
 from clldutils.clilib import ParserError
 from clldutils.markup import Table
+from clldutils.misc import format_size
+from cdstarcat.catalog import Catalog
 
-from pyconcepticon.util import rewrite, CS_ID, CS_GLOSS
+from pyconcepticon.util import rewrite, CS_ID, CS_GLOSS, SourcesCatalog
 from pyconcepticon.api import Concepticon, Conceptlist
 
 
@@ -366,3 +369,28 @@ def readme_concepticondata(api, cls):
 
     readme(api.data_path(), txt)
     return D, G
+
+
+def upload_sources(args):
+    """
+    concepticon upload_sources path/to/cdstar/catalog
+    """
+    toc = ['# Sources\n']
+    api = Concepticon(args.data)
+    with SourcesCatalog(api.data_path('sources', 'cdstar.json')) as lcat:
+        with Catalog(
+                args.args[0],
+                cdstar_url=os.environ['CDSTAR_URL'],
+                cdstar_user=os.environ['CDSTAR_USER'],
+                cdstar_pwd=os.environ['CDSTAR_PWD']) as cat:
+            for fname in sorted(
+                    api.data_path('sources').glob('*.pdf'), key=lambda f: f.stem):
+                clid = as_unicode(fname.stem)
+                spec = lcat.get(clid)
+                if not spec:
+                    _, _, obj = list(cat.create(fname, {'collection': 'concepticon'}))[0]
+                    spec = lcat.add(clid, obj)
+                toc.append('- [{0} [PDF {1}]]({2})'.format(
+                    clid, format_size(spec['size']), spec['url']))
+
+    readme(api.data_path('sources'), toc)
