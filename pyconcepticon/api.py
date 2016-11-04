@@ -37,6 +37,14 @@ class Concepticon(object):
         """
         return data_path(*comps, **{'repos': self.repos})
 
+    @property
+    def bibfile(self):
+        return self.data_path('references', 'references.bib')
+
+    @cached_property()
+    def sources(self):
+        return jsonlib.load(self.data_path('sources', 'cdstar.json'))
+
     @cached_property()
     def bibliography(self):
         """
@@ -44,7 +52,7 @@ class Concepticon(object):
         """
         log = logging.getLogger('bibtexparser')
         log.setLevel(logging.WARN)
-        with self.data_path('references', 'references.bib').open(encoding='utf8') as fp:
+        with self.bibfile.open(encoding='utf8') as fp:
             refs = []
             for rec in bibtexparser.loads(fp.read()).entries:
                 refs.append(
@@ -80,6 +88,15 @@ class Concepticon(object):
             self._metadata,
             [p.stem for p in self.data_path('concept_set_meta').glob('*.tsv')]))
 
+    def _metadata(self, id_):
+        values_path = self.data_path('concept_set_meta', id_ + '.tsv')
+        md_path = self.data_path('concept_set_meta', id_ + '.tsv-metadata.json')
+        assert values_path.exists() and md_path.exists()
+        return Metadata(
+            id=id_,
+            meta=jsonlib.load(md_path),
+            values=to_dict(read_dicts(values_path), key=itemgetter('CONCEPTICON_ID')))
+
     @cached_property()
     def relations(self):
         """
@@ -95,15 +112,6 @@ class Concepticon(object):
                 if concept.concepticon_id:
                     D[concept.concepticon_gloss] += 1
         return D
-
-    def _metadata(self, id_):
-        values_path = self.data_path('concept_set_meta', id_ + '.tsv')
-        md_path = self.data_path('concept_set_meta', id_ + '.tsv-metadata.json')
-        assert values_path.exists() and md_path.exists()
-        return Metadata(
-            id=id_,
-            meta=jsonlib.load(md_path),
-            values=to_dict(read_dicts(values_path), key=itemgetter('CONCEPTICON_ID')))
 
     def map(self, clist, otherlist=None, out=None, full_search=False,
             similarity_level=5, language='en'):
@@ -255,7 +263,8 @@ class ConceptRelations(dict):
     """
     def __init__(self, path):
         rels = defaultdict(dict)
-        for item in read_dicts(path):
+        self.raw = list(read_dicts(path))
+        for item in self.raw:
             rels[item['SOURCE']][item['TARGET']] = item['RELATION']
             rels[item['SOURCE_GLOSS']][item['TARGET_GLOSS']] = item['RELATION']
             if item['RELATION'] in _INVERSE_RELATIONS:
