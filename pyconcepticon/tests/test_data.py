@@ -3,25 +3,27 @@ import re
 import warnings
 
 from pyconcepticon.api import Concepticon
-from pyconcepticon.util import split, REPOS_PATH
+from pyconcepticon.util import split, REPOS_PATH, SourcesCatalog
 
 
 SUCCESS = True
 NUMBER_PATTERN = re.compile('(?P<number>[0-9]+)(?P<suffix>.*)')
 
 
+def _msg(type_, msg, name, line):  # pragma: no cover
+    if line:
+        line = ':%s' % line
+    return '%s:%s%s: %s' % (type_.upper(), name, line, msg)
+
+
 def error(msg, name, line=''):  # pragma: no cover
     global SUCCESS
     SUCCESS = False
-    if line:
-        line = ':%s' % line
-    print('ERROR:%s%s: %s' % (name, line, msg))
+    print(_msg('error', msg, name, line))
 
 
 def warning(msg, name, line=''):  # pragma: no cover
-    if line:
-        line = ':%s' % line
-    warnings.warn('WARNING:%s%s: %s' % (name, line, msg), Warning)
+    warnings.warn(_msg('warning', msg, name, line), Warning)
 
 
 def test():
@@ -63,7 +65,7 @@ def test():
     # make also sure that all sources are accompanied as pdf, but only write a
     # warning if this is not the case
     #
-    pdfs = [f.stem for f in api.data_path('sources').glob('*.pdf')]
+    pdfs = SourcesCatalog(api.data_path('sources', 'cdstar.json'))
     no_pdf_for_source = set()
     for cl in api.conceptlists.values():
         for ref in cl.pdf:

@@ -1,7 +1,9 @@
 # coding: utf8
 from __future__ import unicode_literals, print_function, division
 
+from cdstarcat.catalog import Object, Bitstream
 from clldutils.testing import WithTempDir
+from clldutils.jsonlib import load
 
 
 class Tests(WithTempDir):
@@ -29,6 +31,18 @@ Bengtson-1994-27-1	2	knee, to bend	BU(N)KA	1371
         assert out.exists()
 
         visit(lambda l, r: r, fname)
+
+    def test_SourcesCatalog(self):
+        from pyconcepticon.util import SourcesCatalog
+
+        cat_path = self.tmp_path('test.json')
+        with SourcesCatalog(cat_path) as cat:
+            cat.add(
+                'key', Object('id', [Bitstream('bsid', 5, 'text/plain', '', '', '')], {}))
+            self.assertIn('key', cat)
+            self.assertIn('url', cat.get('key'))
+
+        self.assertIn('key', load(cat_path))
 
     def test_natural_sort(self):
         from pyconcepticon.util import natural_sort

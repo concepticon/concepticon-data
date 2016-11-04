@@ -59,8 +59,8 @@ class Gloss(object):
         return 100
 
     @classmethod
-    def from_string(cls, s):
-        return parse_gloss(s)[0]
+    def from_string(cls, s, language='en'):
+        return parse_gloss(s, language=language)[0]
 
 
 def parse_gloss(gloss, language='en'):

@@ -138,21 +138,19 @@ class Concepticon(object):
                     if sim <= 5:
                         good_matches += 1
                     if not matches:
-                        row.extend(['', '???', ''])
-                        writer.writerow(row)
+                        writer.writerow(row + ['', '???', ''])
                     elif len(matches) == 1:
                         row.extend([
                             to[matches[0]][0], to[matches[0]][1].split('///')[0], sim])
                         writer.writerow(row)
                     else:
                         writer.writerow(['<<<', '', '', ''])
-                        visited = []
+                        visited = set()
                         for j in matches:
                             if to[j][0] not in visited:
-                                row = [
-                                    fid, fgloss, to[j][0], to[j][1].split('///')[0], sim]
-                                writer.writerow(row)
-                                visited += [to[j][0]]
+                                writer.writerow([
+                                    fid, fgloss, to[j][0], to[j][1].split('///')[0], sim])
+                                visited.add(to[j][0])
                         writer.writerow(['>>>', '', '', ''])
                 writer.writerow([
                     '#',
