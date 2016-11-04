@@ -1,6 +1,8 @@
 # coding: utf8
 from __future__ import unicode_literals
 
+import attr
+
 
 TAGS = {
     "acquisition": "Concept lists related to studies on language acquisition",
@@ -68,27 +70,35 @@ ONTOLOGICAL_CATEGORY = {
     "Other",
 }
 
+
+@attr.s
+class Languoid(object):
+    glottocode = attr.ib()
+
+
 COLUMN_TYPES = {
     "SUBLIST": "link",
     "URL": "url",
     "PART_OF_SPEECH": "string",
-    "ENGLISH": "language",
-    "SPANISH": "language",
-    "FRENCH": "language",
-    "GERMAN": "language",
-    "RUSSIAN": "language",
-    "CHINESE": "language",
-    "LATIN": "language",
-    "BASQUE": "language",
-    "ESPERANTO": "language",
-    "SWEDISH": "language",
-    "SIKUANI": "language",
-    "PROTOWORLD": "language",
-    "DUTCH": "language",
-    "TURKISH": "language",
-    "HAUSA": "language",
-    "JAPANESE": "language",
-    "COMMON_CHINESE": "language",
+    "ENGLISH": Languoid('stan1293'),
+    "SPANISH": Languoid("stan1288"),
+    "FRENCH": Languoid("stan1290"),
+    "GERMAN": Languoid("stan1295"),
+    "RUSSIAN": Languoid("russ1263"),
+    "CHINESE": Languoid("mand1415"),
+    "LATIN": Languoid("lati1261"),
+    "BASQUE": Languoid("basq1248"),
+    "ESPERANTO": Languoid("espe1235"),
+    "SWEDISH": Languoid("swed1254"),
+    "SIKUANI": Languoid("guah1255"),
+    "PROTOWORLD": Languoid(None),
+    "PROTO_INDO_EUROPEAN": Languoid(None),
+    "DUTCH": Languoid("dutc1256"),
+    "TURKISH": Languoid("nucl1301"),
+    "HAUSA": Languoid("haus1257"),
+    "JAPANESE": Languoid("nucl1643"),
+    "COMMON_CHINESE": Languoid("mand1415"),
+    "PORTUGUESE": Languoid('port1283'),
     "FREQUENCY": "int or float",
     "RANK": "int",
     "*SCORE": "int or float"
