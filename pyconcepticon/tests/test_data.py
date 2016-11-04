@@ -3,7 +3,7 @@ import re
 import warnings
 
 from pyconcepticon.api import Concepticon
-from pyconcepticon.util import split, REPOS_PATH, SourcesCatalog, read_dicts
+from pyconcepticon.util import split, REPOS_PATH
 
 
 SUCCESS = True
@@ -13,16 +13,16 @@ NUMBER_PATTERN = re.compile('(?P<number>[0-9]+)(?P<suffix>.*)')
 def _msg(type_, msg, name, line):  # pragma: no cover
     if line:
         line = ':%s' % line
-    return '%s:%s%s: %s' % (type_.upper(), name, line, msg)
+    return '%s:%s%s: %s' % (type_.upper(), name, line or '', msg)
 
 
-def error(msg, name, line=''):  # pragma: no cover
+def error(msg, name, line=0):  # pragma: no cover
     global SUCCESS
     SUCCESS = False
     print(_msg('error', msg, name, line))
 
 
-def warning(msg, name, line=''):  # pragma: no cover
+def warning(msg, name, line=0):  # pragma: no cover
     warnings.warn(_msg('warning', msg, name, line), Warning)
 
 
@@ -48,41 +48,27 @@ def test():
 
     # Make sure only records in the BibTeX file references.bib are referenced by
     # concept lists.
-    clmd = api.data_path('conceptlists.tsv')
-
     for i, cl in enumerate(api.conceptlists.values()):
         for ref in cl.refs:
             if ref not in api.bibliography:  # pragma: no cover
-                error('unknown bibtex record "%s" referenced' % ref, clmd, i + 2)
+                error('invalid bibtex record: {0}'.format(ref), 'conceptlists.tsv', i + 2)
             all_refs.add(ref)
+        # make also sure that all sources are accompanied by a PDF, but only write a
+        # warning if this is not the case
+        for ref in cl.pdf:
+            if ref not in api.sources:  # pragma: no cover
+                warning('no PDF found for {0}'.format(ref), 'conceptlists.tsv')
 
     for ref in api.bibliography:
         if ref not in all_refs:  # pragma: no cover
-            error('bibtex record %s is in the references but not referenced in the data.'
-                  % ref, clmd, 0)
-
-    #
-    # make also sure that all sources are accompanied as pdf, but only write a
-    # warning if this is not the case
-    #
-    pdfs = SourcesCatalog(api.data_path('sources', 'cdstar.json'))
-    no_pdf_for_source = set()
-    for cl in api.conceptlists.values():
-        for ref in cl.pdf:
-            if ref not in pdfs:  # pragma: no cover
-                no_pdf_for_source.add(ref)
-
-    if no_pdf_for_source:  # pragma: no cover
-        warning(
-            '\n'.join(no_pdf_for_source),
-            'no pdf found for {0} sources'.format(len(no_pdf_for_source)))
+            error('unused bibtex record: {0}'.format(ref), 'references.bib')
 
     ref_cols = {
         'concepticon_id': set(api.conceptsets.keys()),
         'concepticon_gloss': set(cs.gloss for cs in api.conceptsets.values()),
     }
 
-    for i, rel in enumerate(read_dicts(api.data_path('conceptrelations.tsv'))):
+    for i, rel in enumerate(api.relations.raw):
         for attr, type_ in [
             ('SOURCE', 'concepticon_id'),
             ('TARGET', 'concepticon_id'),
@@ -96,17 +82,18 @@ def test():
     for fname in api.data_path('conceptlists').glob('*.tsv'):
         if fname.stem not in api.conceptlists:  # pragma: no cover
             error(
-                'conceptlist missing in conceptlists.tsv: {0}'.format(fname.name), '', '')
+                'conceptlist missing in conceptlists.tsv: {0}'.format(fname.name), '')
 
     for cl in api.conceptlists.values():
         for i, concept in enumerate(cl.concepts.values()):
             if i == 0:  # pragma: no cover
                 for lg in cl.source_language:
                     if lg.lower() not in concept.cols:
-                        error('missing source language col %s' % lg.upper(), cl.id, '')
+                        error('missing source language col %s' % lg.upper(), cl.id)
 
             for lg in cl.source_language:  # pragma: no cover
-                if not (concept.attributes.get(lg.lower()) or getattr(concept, lg.lower(), None)):
+                if not (concept.attributes.get(lg.lower()) or
+                        getattr(concept, lg.lower(), None)):
                     error('missing source language translation %s' % lg, cl.id, i + 2)
             for attr, values in ref_cols.items():
                 val = getattr(concept, attr)
