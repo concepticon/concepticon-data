@@ -145,7 +145,10 @@ def write_conceptlist(clist, filename, header=False):
 class SourcesCatalog(object):
     def __init__(self, path):
         self.path = path
-        self.items = jsonlib.load(self.path)
+        self.items = jsonlib.load(self.path) if self.path.exists() else {}
+
+    def __contains__(self, item):
+        return item in self.items
 
     def get(self, item):
         return self.items.get(item)

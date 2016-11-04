@@ -31,6 +31,15 @@ class Tests(TestCase):
 
         self.assertEqual(parse_gloss('the mountain or hill')[1].pos, 'noun')
 
+        g = Gloss.from_string('the mountain or hill')
+        self.assertEqual(g.tokens, 'the mountain hill')
+
+        g1 = Gloss.from_string('der Berg', language='de')
+        g2 = Gloss.from_string('Berg')
+        self.assertEqual(g1.similarity(g2), 4)
+        g = Gloss.from_string('la montagne', language='fr')
+        self.assertEqual(g.pos, '')
+
     def test_concept_map(self):
         from pyconcepticon.glosses import concept_map
 
