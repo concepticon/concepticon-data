@@ -3,7 +3,7 @@ import re
 import warnings
 
 from pyconcepticon.api import Concepticon
-from pyconcepticon.util import split, REPOS_PATH, SourcesCatalog
+from pyconcepticon.util import split, REPOS_PATH, SourcesCatalog, read_dicts
 
 
 SUCCESS = True
@@ -81,6 +81,17 @@ def test():
         'concepticon_id': set(api.conceptsets.keys()),
         'concepticon_gloss': set(cs.gloss for cs in api.conceptsets.values()),
     }
+
+    for i, rel in enumerate(read_dicts(api.data_path('conceptrelations.tsv'))):
+        for attr, type_ in [
+            ('SOURCE', 'concepticon_id'),
+            ('TARGET', 'concepticon_id'),
+            ('SOURCE_GLOSS', 'concepticon_gloss'),
+            ('TARGET_GLOSS', 'concepticon_gloss'),
+        ]:
+            if rel[attr] not in ref_cols[type_]:  # pragma: no cover
+                error(
+                    'invalid {0}: {1}'.format(attr, rel[attr]), 'conceptrelations', i + 2)
 
     for fname in api.data_path('conceptlists').glob('*.tsv'):
         if fname.stem not in api.conceptlists:  # pragma: no cover
