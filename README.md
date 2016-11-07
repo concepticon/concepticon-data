@@ -3,8 +3,9 @@
 The data underlying the [Concepticon](http://concepticon.clld.org) of the [CLLD](http://clld.org) project is maintained in this repository. Here, you can find 
 
 * [previous and current releases](https://github.com/clld/concepticon-data/releases), 
-* [issues we are trying to handle](https://github.com/clld/concepticon-data/issues), as well as the 
-* [current unreleased form of the data](https://github.com/clld/concepticon-data/tree/master/concepticondata).
+* [issues we are trying to handle](https://github.com/clld/concepticon-data/issues),
+* the [current unreleased form of the data](https://github.com/clld/concepticon-data/tree/master/concepticondata), as well as
+* [errata that have been corrected](https://github.com/clld/concepticon-data/issues?q=label%3Aerrata+is%3Aclosed)
 
 The repository also contains the sources of [`pyconcepticon`](#pyconcepticon), a python package providing an API to access and manipulate the Concepticon data.
 
@@ -38,7 +39,19 @@ The repository also contains the sources of [`pyconcepticon`](#pyconcepticon), a
   [Model for Tabular Data and Metadata on the Web](http://www.w3.org/TR/tabular-data-model/).
 
 
+### Update policy
+
+We try to [release](RELEASING.md) concepticon-data (as well as the [concepticon web app](http://concepticon.clld.org))
+regularly at least once a year. Generally, new releases should only become more comprehensive, i.e. all data
+ever released should also be part of the newest release. Occasionally, though, we may have to correct an
+[erratum](https://github.com/clld/concepticon-data/issues?q=label%3Aerrata), which may result in some
+data being removed, or changes in identifiers of objects. So whenever a link to the web app breaks or a script
+using the concepticon-data API throws an error, you should consult the [list of errata](https://github.com/clld/concepticon-data/issues?q=label%3Aerrata) to see, whether an error correction may be the reason
+for this behaviour.
+
+
 <a id="pyconcepticon"> </a>
+
 ## `pyconcepticon`
 
 [![Build Status](https://travis-ci.org/clld/concepticon-data.svg?branch=master)](https://travis-ci.org/clld/concepticon-data)

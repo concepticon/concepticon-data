@@ -1,14 +1,20 @@
 # coding:utf8
 from __future__ import unicode_literals, division
+import os
 from collections import Counter, defaultdict
-from operator import itemgetter
+import operator
+from functools import partial
 
+from six import text_type
 from tabulate import tabulate
-from clldutils.path import Path
+from clldutils.path import Path, as_unicode
 from clldutils.clilib import ParserError
+from clldutils.markup import Table
+from clldutils.misc import format_size
+from cdstarcat.catalog import Catalog
 
-from pyconcepticon.util import rewrite, MarkdownTable, CS_ID, CS_GLOSS 
-from pyconcepticon.api import Concepticon, as_conceptlist
+from pyconcepticon.util import rewrite, CS_ID, CS_GLOSS, SourcesCatalog
+from pyconcepticon.api import Concepticon, Conceptlist
 
 
 class Linker(object):
@@ -50,9 +56,7 @@ class Linker(object):
             return row
 
         if self._link_col[1]:
-            val = self.concepts[self._link_col[1]].get(
-                    row[self._link_col[0]],
-                    '')
+            val = self.concepts[self._link_col[1]].get(row[self._link_col[0]], '')
             if not val:
                 print('unknown %s: %s' % (
                     self._link_col[1],
@@ -67,8 +71,8 @@ class Linker(object):
                 if not row[self._cid_index]:
                     row[self._cid_index] = cid
                 else:
-                    print('unknown CONCEPTICON_ID/GLOSS mismatch: %s %s' %
-                        (row[self._cid_index], row[self._cgloss_index]))
+                    print('unknown CONCEPTICON_ID/GLOSS mismatch: %s %s' % (
+                        row[self._cid_index], row[self._cgloss_index]))
 
         if self._number_index is not None:
             row = ['%s-%s' % (self.clid, row[self._number_index])] + row
@@ -103,7 +107,7 @@ def attributes(args):
         'Attribute', 'Occurrences')))
 
 
-def compare_conceptlists(api, *conceptlists, search_depth=3):
+def compare_conceptlists(api, *conceptlists, **kw):
     """
     Function compares multiple conceptlists and extracts common concepts.
 
@@ -111,23 +115,26 @@ def compare_conceptlists(api, *conceptlists, search_depth=3):
     ----
     The method takes concept relations into account.
     """
+    search_depth = kw.pop('search_depth', 3)
     commons = defaultdict(set)
 
     # store all concepts along with their broader concepts
     for arg in conceptlists:
         if arg not in api.conceptlists:
-            clist = as_conceptlist(arg)
+            clist = Conceptlist.from_file(arg)
         else:
             clist = api.conceptlists[arg]
         for c in clist.concepts.values():
             commons[c.concepticon_id].add((
                 arg, 0, c.concepticon_id, c.concepticon_gloss))
-            for cn, d in api.relations.broader(c.concepticon_id, search_depth):
-                commons[cn].add((
-                    arg, d, c.concepticon_id, c.concepticon_gloss))
-            for cn, d in api.relations.narrower(c.concepticon_id, search_depth):
-                commons[cn].add((
-                    arg, -d, c.concepticon_id, c.concepticon_gloss))
+            for rel, depth in [
+                ('broader', partial(operator.add, 0)),
+                ('narrower', partial(operator.sub, 0))
+            ]:
+                for cn, d in api.relations.iter_related(
+                        c.concepticon_id, rel, max_degree_of_separation=search_depth):
+                    commons[cn].add((
+                        arg, depth(d), c.concepticon_id, c.concepticon_gloss))
 
     # store proper concepts (the ones purely underived), as we need to check in
     # a second run, whether a narrower concept occurs (don't find another
@@ -147,7 +154,7 @@ def compare_conceptlists(api, *conceptlists, search_depth=3):
         if len(lists) > 1:
             # if one list makes MORE distinctions than the other, yield the
             # more refined list
-            listcheck = defaultdict(list) 
+            listcheck = defaultdict(list)
             for a, b, c, d in lists:
                 if b >= 0:
                     listcheck[a] += [(a, b, c, d)]
@@ -164,21 +171,19 @@ def compare_conceptlists(api, *conceptlists, search_depth=3):
     for cid, lists in sorted(
             commons.items(), key=lambda x: api.conceptsets[x[0]].gloss):
         sorted_lists = sorted(lists)
-        list_ids = [x[0] for x in sorted_lists]
         depths = [x[1] for x in sorted_lists]
         reflexes = [x[2] for x in sorted_lists]
-        glosses = [x[3] for x in sorted_lists]
-        
+
         if cid not in split_concepts:
             # yield unique concepts directly
             if len(lists) == 1:
                 if next(iter(lists))[1] == 0 and cid not in blacklist:
                     yield (cid, lists)
             # check broader or narrower concept collections
-            elif not 0 in depths:
+            elif 0 not in depths:
                 concepts = dict([(c, (a, b)) for a, b, c, d in sorted_lists])
                 # if all concepts are narrower, dont' retain them
-                retain = True if [x for x in depths if x > 0] else False 
+                retain = bool([x for x in depths if x > 0])
                 for concept in concepts:
                     if concept in proper_concepts:
                         retain = False
@@ -198,6 +203,29 @@ def compare_conceptlists(api, *conceptlists, search_depth=3):
                 else:
                     yield (cid, lists)
 
+
+def _set_operation(args, type_):
+    assert type_ in ['union', 'intersection']
+    api = Concepticon(args.data)
+    out, clen = [], 0
+
+    for c, lists in compare_conceptlists(api, *args.args):
+        if type_ == 'union' \
+                or len(set([x[0] for x in lists if x[1] >= 0])) == len(args.args):
+            marker = '*' if not len([0 for x in lists if x[1] == 0]) else ''
+            out += [(
+                marker, c,
+                api.conceptsets[c].gloss, ', '.join(
+                    ['{0[3]} ({0[1]}, {0[0]})'.format(x) for x in
+                     lists if x[1] != 0]))]
+            clen = len(out[-1][2]) if len(out[-1][2]) > clen else clen
+
+    frmt = '{0:3} {1:1}{2:' + text_type(clen) + '} [{3:4}] {4}'
+    for i, line in enumerate(out):
+        print(frmt.format(i + 1, line[0], line[2], line[1], line[3]))
+    return out
+
+
 def intersection(args):
     """Compare how many concepts overlap in concept lists.
 
@@ -211,43 +239,12 @@ def intersection(args):
     none of the narrower concepts match. As a default we use a depth of 2 for
     the search.
     """
-    api = Concepticon(args.data)
-    out = []
-    clen = 0
-
-    for c, lists in compare_conceptlists(api, *args.args):
-        if len(set([x[0] for x in lists if x[1] >= 0])) == len(args.args):
-            marker = '*' if not len([0 for x in lists if x[1] == 0]) else ''
-            out += [(
-                marker, c,
-                api.conceptsets[c].gloss, ', '.join(
-                    ['{0[3]} ({0[1]}, {0[0]})'.format(x) for x in
-                        lists if x[1] != 0]))]
-            clen = len(out[-1][2]) if len(out[-1][2]) > clen else clen
-    frmt = '{0:3} {1:1}{2:'+str(clen)+'} [{3:4}] {4}'
-    for i, line in enumerate(out):
-        print(frmt.format(i+1, line[0], line[2], line[1], line[3]))
-    return out
+    return _set_operation(args, 'intersection')
 
 
 def union(args):
     """Calculate the union of several concept lists."""
-    api = Concepticon(args.data)
-    out = []
-    clen = 0
-    compared = list(compare_conceptlists(api, *args.args))
-    for c, lists in compared:
-        marker = '*' if not len([0 for x in lists if x[1] == 0]) else ''
-        out += [(
-            marker, c,
-            api.conceptsets[c].gloss,
-            ', '.join(['{0[3]} ({0[1]}, {0[0]})'.format(x)
-                for x in lists if x[1] != 0]))]
-        clen = len(out[-1][2]) if len(out[-1][2]) > clen else clen
-    frmt = '{0:3} {1:1}{2:'+str(clen)+'} [{3:4}] {4}'
-    for i, line in enumerate(out):
-        print(frmt.format(i+1, line[0], line[2], line[1], line[3]))
-    return out
+    return _set_operation(args, 'union')
 
 
 def map_concepts(args):
@@ -278,7 +275,7 @@ concepticon stats
 
 
 def readme_conceptlists(api, cls):
-    table = MarkdownTable('name', '# mapped', '% mapped', 'mergers')
+    table = Table('name', '# mapped', '% mapped', 'mergers')
     for cl in cls:
         concepts = cl.concepts.values()
         mapped = len([c for c in concepts if c.concepticon_id])
@@ -288,20 +285,18 @@ def readme_conceptlists(api, cls):
         concepticon_ids = Counter(
             [c.concepticon_id for c in concepts if c.concepticon_id])
         mergers = len([k for k, v in concepticon_ids.items() if v > 1])
-        table.append([
-            '[%s](%s) ' % (cl.id, cl.path.name),
-            mapped, mapped_ratio, mergers])
+        table.append(['[%s](%s) ' % (cl.id, cl.path.name), mapped, mapped_ratio, mergers])
     readme(
         api.data_path('conceptlists'),
         '# Concept Lists\n\n{0}'.format(
-            table.render(verbose=True, sortkey=itemgetter(0))))
+            table.render(verbose=True, sortkey=operator.itemgetter(0))))
 
 
 def readme_concept_list_meta(api):
     """Writes statistics on metadata to readme."""
     txt = '# Basic Statistics on Metadata\n\n{0}'
     cnc = len(api.conceptsets)
-    table = MarkdownTable('provider', 'ID', '# concept sets', '% coverage')
+    table = Table('provider', 'ID', '# concept sets', '% coverage')
     for meta in api.metadata.values():
         n = len(meta.values)
         table.append([meta.meta.get('dc:title'), meta.id, n, (n / cnc) * 100])
@@ -309,7 +304,7 @@ def readme_concept_list_meta(api):
         api.data_path('concept_set_meta'),
         txt.format(
             table.render(
-                sortkey=itemgetter(1),
+                sortkey=operator.itemgetter(1),
                 reverse=True,
                 condensed=False)))
 
@@ -356,9 +351,8 @@ def readme_concepticondata(api, cls):
         ('Diverse', lambda x: (len(set([label for _, label in x[1]])), x[0])),
         ('Frequent', lambda x: (len(set([clist for clist, _ in x[1]])), x[0])),
     ]:
-        table = MarkdownTable(
-                'No.', 'concept set', 'distinct labels',
-                'concept lists', 'examples')
+        table = Table(
+            'No.', 'concept set', 'distinct labels', 'concept lists', 'examples')
         for i, (k, v) in enumerate(
                 sorted(D.items(), key=key, reverse=True)[:20]):
             table.append([
@@ -375,3 +369,28 @@ def readme_concepticondata(api, cls):
 
     readme(api.data_path(), txt)
     return D, G
+
+
+def upload_sources(args):
+    """
+    concepticon upload_sources path/to/cdstar/catalog
+    """
+    toc = ['# Sources\n']
+    api = Concepticon(args.data)
+    with SourcesCatalog(api.data_path('sources', 'cdstar.json')) as lcat:
+        with Catalog(
+                args.args[0],
+                cdstar_url=os.environ['CDSTAR_URL'],
+                cdstar_user=os.environ['CDSTAR_USER'],
+                cdstar_pwd=os.environ['CDSTAR_PWD']) as cat:
+            for fname in sorted(
+                    api.data_path('sources').glob('*.pdf'), key=lambda f: f.stem):
+                clid = as_unicode(fname.stem)
+                spec = lcat.get(clid)
+                if not spec:
+                    _, _, obj = list(cat.create(fname, {'collection': 'concepticon'}))[0]
+                    spec = lcat.add(clid, obj)
+                toc.append('- [{0} [PDF {1}]]({2})'.format(
+                    clid, format_size(spec['size']), spec['url']))
+
+    readme(api.data_path('sources'), toc)

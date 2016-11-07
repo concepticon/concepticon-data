@@ -4,7 +4,7 @@ from collections import defaultdict, OrderedDict, Counter
 from functools import partial
 from operator import attrgetter
 
-from tabulate import tabulate
+from clldutils import jsonlib
 from clldutils.path import Path
 from clldutils import dsv
 
@@ -38,28 +38,6 @@ def to_dict(iterobjects, key=attrgetter('id')):
         if n > 1:
             raise ValueError('non-unique key: %s' % k)
     return res
-
-
-class MarkdownTable(list):
-    def __init__(self, *cols):
-        self.columns = list(cols)
-        list.__init__(self)
-
-    def render(
-            self, fmt='pipe', sortkey=None, condensed=True, verbose=False, reverse=False):
-        res = tabulate(
-            sorted(self, key=sortkey, reverse=reverse) if sortkey else self,
-            self.columns,
-            fmt,
-            floatfmt='.2f')
-        if fmt == 'pipe':
-            if condensed:
-                # remove whitespace padding around column content:
-                res = re.sub('\|[ ]+', '| ', res)
-                res = re.sub('[ ]+\|', ' |', res)
-            if verbose:
-                res += '\n\n(%s rows)\n\n' % len(self)
-        return res
 
 
 def read_all(fname, **kw):
@@ -162,3 +140,36 @@ def write_conceptlist(clist, filename, header=False):
             v = clist[k]
             if k not in ['splits', 'mergers', 'header']:
                 writer.writerow([v[h] for h in header])
+
+
+class SourcesCatalog(object):
+    def __init__(self, path):
+        self.path = path
+        self.items = jsonlib.load(self.path) if self.path.exists() else {}
+
+    def __contains__(self, item):
+        return item in self.items
+
+    def get(self, item):
+        return self.items.get(item)
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        jsonlib.dump(
+            OrderedDict([(k, OrderedDict([i for i in sorted(v.items())]))
+                         for k, v in sorted(self.items.items())]),
+            self.path,
+            indent=4)
+
+    def add(self, key, obj):
+        bsid = obj.bitstreams[0].id
+        self.items[key] = OrderedDict([
+            ('url', 'https://cdstar.shh.mpg.de/bitstreams/{0}/{1}'.format(obj.id, bsid)),
+            ('objid', obj.id),
+            ('original', bsid),
+            ('size', obj.bitstreams[0].size),
+            ('mimetype', obj.bitstreams[0].mimetype),
+        ])
+        return self.items[key]

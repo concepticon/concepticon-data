@@ -3,18 +3,18 @@ from __future__ import unicode_literals, print_function, division
 import logging
 from operator import itemgetter, setitem
 import re
-from collections import defaultdict
+from collections import defaultdict, deque
 
 import bibtexparser
 import attr
 from clldutils.path import Path
 from clldutils import jsonlib
 from clldutils.misc import cached_property
-from clldutils.dsv import UnicodeWriter, UnicodeReader
+from clldutils.dsv import UnicodeWriter
 
 from pyconcepticon import data
 from pyconcepticon.util import (
-    REPOS_PATH, data_path, read_dicts, split, lowercase, to_dict, split_ids)
+    REPOS_PATH, PKG_PATH, data_path, read_dicts, split, lowercase, to_dict, split_ids)
 from pyconcepticon.glosses import concept_map, concept_map2
 
 
@@ -37,6 +37,14 @@ class Concepticon(object):
         """
         return data_path(*comps, **{'repos': self.repos})
 
+    @property
+    def bibfile(self):
+        return self.data_path('references', 'references.bib')
+
+    @cached_property()
+    def sources(self):
+        return jsonlib.load(self.data_path('sources', 'cdstar.json'))
+
     @cached_property()
     def bibliography(self):
         """
@@ -44,7 +52,7 @@ class Concepticon(object):
         """
         log = logging.getLogger('bibtexparser')
         log.setLevel(logging.WARN)
-        with self.data_path('references', 'references.bib').open(encoding='utf8') as fp:
+        with self.bibfile.open(encoding='utf8') as fp:
             refs = []
             for rec in bibtexparser.loads(fp.read()).entries:
                 refs.append(
@@ -57,7 +65,7 @@ class Concepticon(object):
         :returns: `dict` mapping ConceptSet IDs to `Conceptset` instances.
         """
         return to_dict(
-            Conceptset(**lowercase(d))
+            Conceptset(api=self, **lowercase(d))
             for d in read_dicts(self.data_path('concepticon.tsv')))
 
     @cached_property()
@@ -80,24 +88,6 @@ class Concepticon(object):
             self._metadata,
             [p.stem for p in self.data_path('concept_set_meta').glob('*.tsv')]))
 
-    @cached_property()
-    def relations(self):
-        """
-        :returns: `dict` mapping concepts to parent or child concepts.
-        """
-        return ConceptRelations(self.data_path('conceptrelations.tsv'))
-
-    @cached_property()
-    def frequencies(self):
-        D = defaultdict(int)
-        for cl in self.conceptlists.values():
-            for concept in cl.concepts.values():
-                if concept.concepticon_id: 
-                    D[concept.concepticon_gloss] += 1
-                    D[concept.concepticon_id] += 1
-        return D
-
-
     def _metadata(self, id_):
         values_path = self.data_path('concept_set_meta', id_ + '.tsv')
         md_path = self.data_path('concept_set_meta', id_ + '.tsv-metadata.json')
@@ -107,44 +97,63 @@ class Concepticon(object):
             meta=jsonlib.load(md_path),
             values=to_dict(read_dicts(values_path), key=itemgetter('CONCEPTICON_ID')))
 
+    @cached_property()
+    def relations(self):
+        """
+        :returns: `dict` mapping concept sets to related concepts.
+        """
+        return ConceptRelations(self.data_path('conceptrelations.tsv'))
+
+    @cached_property()
+    def frequencies(self):
+        D = defaultdict(int)
+        for cl in self.conceptlists.values():
+            for concept in cl.concepts.values():
+                if concept.concepticon_id:
+                    D[concept.concepticon_gloss] += 1
+        return D
+
     def map(self, clist, otherlist=None, out=None, full_search=False,
             similarity_level=5, language='en'):
         assert clist.exists()
         from_ = []
         for item in read_dicts(clist):
-            from_.append((item.get('ID', item.get('NUMBER')), 
+            from_.append((
+                item.get('ID', item.get('NUMBER')),
                 item.get('GLOSS', item.get('ENGLISH'))))
         if otherlist:
             to = []
             for item in read_dicts(otherlist):
                 to.append((item['ID'], item.get('GLOSS', item.get('ENGLISH'))))
         else:
-            to = [(cs['ID'], cs['GLOSS']) for cs in read_dicts(
-                    REPOS_PATH.joinpath(
-                        'pyconcepticon', 
-                        'data',
-                        'map-{0}.tsv'.format(language)))]
+            to = [
+                (cs['ID'], cs['GLOSS']) for cs in read_dicts(
+                    PKG_PATH.joinpath('data', 'map-{0}.tsv'.format(language)))]
         if not full_search:
-            cmap = concept_map2([i[1] for i in from_], [i[1] for i in to],
-                    similarity_level=similarity_level, freqs=self.frequencies,
-                    language=language)
+            cmap = concept_map2(
+                [i[1] for i in from_],
+                [i[1] for i in to],
+                similarity_level=similarity_level,
+                freqs=self.frequencies,
+                language=language)
             good_matches = 0
             with UnicodeWriter(out, delimiter='\t') as writer:
-                writer.writerow(['ID', 'GLOSS', 'CONCEPTICON_ID',
-                    'CONCEPTICON_GLOSS', 'SIMILARITY'])
+                writer.writerow([
+                    'ID', 'GLOSS', 'CONCEPTICON_ID', 'CONCEPTICON_GLOSS', 'SIMILARITY'])
                 for i, (fid, fgloss) in enumerate(from_):
                     row = [fid, fgloss]
                     matches, sim = cmap.get(i, ([], 10))
-                    if sim <= 5: good_matches += 1
+                    if sim <= 5:
+                        good_matches += 1
                     if not matches:
-                        row.extend(['', '???', ''])
-                        writer.writerow(row)
+                        writer.writerow(row + ['', '???', ''])
                     elif len(matches) == 1:
-                        row.extend([to[matches[0]][0],
-                            to[matches[0]][1].split('///')[0], sim])
+                        row.extend([
+                            to[matches[0]][0], to[matches[0]][1].split('///')[0], sim])
                         writer.writerow(row)
                     else:
-                        visited = []
+                        # we need a list to retain the order by frequency
+                        visited = [] 
                         for j in matches:
                             gls, cid = to[j][0], to[j][1].split('///')[0]
                             if (gls, cid) not in visited:
@@ -157,11 +166,16 @@ class Concepticon(object):
                         else:
                             row.extend([visited[0][0], visited[0][1], sim])
                             writer.writerow(row)
-                writer.writerow(['#', good_matches, len(from_),
+                writer.writerow([
+                    '#',
+                    good_matches,
+                    len(from_),
                     '{0:.2f}'.format(good_matches / len(from_))])
         else:
-            cmap = concept_map([i[1] for i in from_], [i[1] for i in to],
-                    similarity_level=similarity_level)
+            cmap = concept_map(
+                [i[1] for i in from_],
+                [i[1] for i in to],
+                similarity_level=similarity_level)
             with UnicodeWriter(out, delimiter='\t') as writer:
                 writer.writerow(['ID', 'GLOSS', 'CONCEPTICON_ID', 'CONCEPTICON_GLOSS'])
                 for i, (fid, fgloss) in enumerate(from_):
@@ -172,6 +186,12 @@ class Concepticon(object):
 
         if out is None:
             print(writer.read().decode('utf-8'))
+
+
+class Bag(object):
+    @classmethod
+    def public_fields(cls):
+        return [f.name for f in attr.fields(cls) if not f.name.startswith('_')]
 
 
 def valid_key(instance, attribute, value):
@@ -192,38 +212,39 @@ def valid_bibtex_record(instance, attribute, value):
             raise ValueError('missing any of %s in record %s' % (req, instance.id))
 
 
-def as_conceptlist(path, **keywords):
-    """
-    Function loads a concept list outside the Concepticon collection.
-    """
-    d = read_dicts(path)
-    attrs = dict([(key, keywords.get(key, '')) for key in ['author',
-        'list_suffix', 'tags', 'source_language', 'target_language', 'url',
-        'refs', 'pdf', 'note', 'pages','alias']])
-    items = keywords.get('items', len(d))
-    year = keywords.get('year', 0)
-    return Conceptlist(api=None, id=Path(path).stem, items=items, year=year,
-            **attrs)
-
-
 @attr.s
-class Reference(object):
+class Reference(Bag):
     id = attr.ib()
     type = attr.ib()
     record = attr.ib(default=attr.Factory(dict), validator=valid_bibtex_record)
 
 
 @attr.s
-class Conceptset(object):
+class Conceptset(Bag):
     id = attr.ib()
     gloss = attr.ib()
     semanticfield = attr.ib(validator=valid_key)
     definition = attr.ib()
     ontological_category = attr.ib(validator=valid_key)
+    _api = attr.ib(default=None)
+
+    @cached_property()
+    def relations(self):
+        return self._api.relations[self.id] if self._api else {}
+
+    @cached_property()
+    def concepts(self):
+        res = []
+        if self._api:
+            for clist in self._api.conceptlists.values():
+                for concept in clist.concepts.values():
+                    if concept.concepticon_id == self.id:
+                        res.append(concept)
+        return res
 
 
 @attr.s
-class Metadata(object):
+class Metadata(Bag):
     id = attr.ib()
     meta = attr.ib(default=attr.Factory(dict))
     values = attr.ib(default=attr.Factory(dict))
@@ -237,28 +258,29 @@ def valid_concept(instance, attribute, value):
     if not instance.label:
         raise ValueError('fields gloss *and* english missing: %s' % instance)
 
+
+_INVERSE_RELATIONS = {'broader': 'narrower'}
+_INVERSE_RELATIONS.update({v: k for k, v in _INVERSE_RELATIONS.items()})
+
+
 class ConceptRelations(dict):
     """
     Class handles relations between concepts.
     """
     def __init__(self, path):
         rels = defaultdict(dict)
-        with UnicodeReader(path, delimiter='\t') as reader:
-            data = list(reader)
-        for srci, srcg, rel, tari, targ in data[1:]:
-            if rel == 'narrower':
-                rels[srci][tari] = rel
-                rels[tari][srci] = 'broader'
-                rels[srcg][targ] = rel
-                rels[targ][srcg] = 'broader'
-            elif rel == 'broader':
-                rels[srci][tari] = rel
-                rels[tari][srci] = 'narrower'
-                rels[srcg][targ] = rel
-                rels[targ][srcg] = 'narrower'
+        self.raw = list(read_dicts(path))
+        for item in self.raw:
+            rels[item['SOURCE']][item['TARGET']] = item['RELATION']
+            rels[item['SOURCE_GLOSS']][item['TARGET_GLOSS']] = item['RELATION']
+            if item['RELATION'] in _INVERSE_RELATIONS:
+                rels[item['TARGET']][item['SOURCE']] = \
+                    _INVERSE_RELATIONS[item['RELATION']]
+                rels[item['TARGET_GLOSS']][item['SOURCE_GLOSS']] = \
+                    _INVERSE_RELATIONS[item['RELATION']]
         dict.__init__(self, rels.items())
 
-    def walk(self, concept, relation, search_depth=2):
+    def iter_related(self, concept, relation, max_degree_of_separation=2):
         """
         Search for concept relations of a given concept.
 
@@ -267,32 +289,26 @@ class ConceptRelations(dict):
             "broader" and "narrower".
 
         """
-        queue = [(concept, 0)]
+        queue = deque([(concept, 0)])
         while queue:
-            current_concept, depth = queue.pop(0)
+            current_concept, depth = queue.popleft()
             depth += 1
-            for c, r in self.get(current_concept, {}).items():
-                if r == relation and depth <= search_depth:
-                    queue += [(c, depth)]
-                    yield (c, depth)
+            for target, rel in self.get(current_concept, {}).items():
+                if rel == relation and depth <= max_degree_of_separation:
+                    queue.append((target, depth))
+                    yield (target, depth)
 
-    def broader(self, concept, searchdepth=2):
-        """Search for all concepts which are related as "broader"."""
-        return self.walk(concept, 'broader', searchdepth)
-
-    def narrower(self, concept, searchdepth=2):
-        """Search for all concepts which are related as "narrower"."""
-        return self.walk(concept, 'narrower')
 
 @attr.s
-class Concept(object):
+class Concept(Bag):
     id = attr.ib(validator=valid_concept)
     number = attr.ib()
     concepticon_id = attr.ib()
-    concepticon_gloss = attr.ib()
+    concepticon_gloss = attr.ib(default=None)
     gloss = attr.ib(default=None)
     english = attr.ib(default=None)
     attributes = attr.ib(default=attr.Factory(dict))
+    _list = attr.ib(default=None)
 
     @property
     def label(self):
@@ -300,12 +316,11 @@ class Concept(object):
 
     @cached_property()
     def cols(self):
-        return [f.name for f in attr.fields(self.__class__)] \
-               + list(self.attributes.keys())
+        return Concept.public_fields() + list(self.attributes.keys())
 
 
 @attr.s
-class Conceptlist(object):
+class Conceptlist(Bag):
     _api = attr.ib()
     id = attr.ib()
     author = attr.ib()
@@ -324,8 +339,8 @@ class Conceptlist(object):
 
     @property
     def path(self):
-        if self._api is None:
-            return Path(self.id + '.tsv')
+        if isinstance(self._api, Path):
+            return self._api
         return self._api.data_path('conceptlists', self.id + '.tsv')
 
     @cached_property()
@@ -334,18 +349,30 @@ class Conceptlist(object):
         if self.path.exists():
             with self.path.open(encoding='utf8') as fp:
                 header = fp.readline().strip().split('\t')
-        standard_cols = [f.name for f in attr.fields(Concept)]
-        return [h for h in header if h.lower() not in standard_cols]
+        return [h for h in header if h.lower() not in Concept.public_fields()]
 
     @cached_property()
     def concepts(self):
-        standard_cols = [f.name for f in attr.fields(Concept)]
         res = []
         if self.path.exists():
             for item in read_dicts(self.path):
                 kw, attributes = {}, {}
                 for k, v in item.items():
                     kl = k.lower()
-                    setitem(kw if kl in standard_cols else attributes, kl, v)
-                res.append(Concept(attributes=attributes, **kw))
+                    setitem(kw if kl in Concept.public_fields() else attributes, kl, v)
+                res.append(Concept(list=self, attributes=attributes, **kw))
         return to_dict(res)
+
+    @classmethod
+    def from_file(cls, path, **keywords):
+        """
+        Function loads a concept list outside the Concepticon collection.
+        """
+        path = Path(path)
+        assert path.exists()
+        attrs = {f: keywords.get(f, '') for f in Conceptlist.public_fields()}
+        attrs.update(
+            id=path.stem,
+            items=keywords.get('items', len(read_dicts(path))),
+            year=keywords.get('year', 0))
+        return cls(api=path, **attrs)

@@ -1,15 +1,16 @@
 # coding: utf8
 from __future__ import unicode_literals, print_function, division
-from unittest import TestCase
 
-import attr
+from clldutils.testing import capture
+
+from pyconcepticon.tests.util import TestWithFixture
 
 
-class Tests(TestCase):
+class Tests(TestWithFixture):
     def test_Concept(self):
         from pyconcepticon.api import Concept
 
-        d = {a.name: '' for a in attr.fields(Concept)}
+        d = {f: '' for f in Concept.public_fields()}
         with self.assertRaises(ValueError):
             Concept(**d)
 
@@ -31,10 +32,26 @@ class Tests(TestCase):
     def test_Conceptset(self):
         from pyconcepticon.api import Conceptset
 
-        d = {a.name: '' for a in attr.fields(Conceptset)}
+        d = {a: '' for a in Conceptset.public_fields()}
         d['semanticfield'] = 'xx'
         with self.assertRaises(ValueError):
             Conceptset(**d)
+
+    def test_map(self):
+        from pyconcepticon.api import Concepticon
+
+        api = Concepticon()
+        if api.repos.exists():
+            with capture(api.map, self.fixture_path('conceptlist.tsv')) as out:
+                self.assertIn('CONCEPTICON_ID', out)
+
+            self.assertGreater(len(api.conceptsets['217'].concepts), 8)
+
+    def test_Conceptlist(self):
+        from pyconcepticon.api import Conceptlist
+
+        clist = Conceptlist.from_file(self.fixture_path('conceptlist.tsv'))
+        self.assertEqual(len(clist.concepts), 1)
 
     def test_Reference(self):
         from pyconcepticon.api import Reference

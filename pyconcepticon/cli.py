@@ -15,39 +15,47 @@ The basic invocation looks like
 from __future__ import unicode_literals
 import sys
 
+from six import text_type
 from clldutils.clilib import ArgumentParser
 from clldutils.path import Path
 
-from pyconcepticon.commands import (link, stats, attributes, intersection, 
-        union, map_concepts)
+from pyconcepticon.commands import (
+    link, stats, attributes, intersection, union, map_concepts, upload_sources,
+)
 import pyconcepticon
 
+
 def main():  # pragma: no cover
-    parser = ArgumentParser(__name__, link, stats, attributes, intersection,
-            union, map_concepts)
+    parser = ArgumentParser(
+        __name__,
+        link,
+        stats,
+        attributes,
+        intersection,
+        union,
+        upload_sources,
+        map_concepts)
     parser.add_argument(
         '--data',
         help="path to concepticon-data",
         default=Path(pyconcepticon.__file__).parent.parent)
     parser.add_argument(
-            '--full_search',
-            help="select between approximate search (default) and full search",
-            default=False,
-            action='store_true',
-            )
+        '--full_search',
+        help="select between approximate search (default) and full search",
+        default=False,
+        action='store_true')
     parser.add_argument(
-            '--output',
-            help="specify output file",
-            default=None
-            )
+        '--output',
+        help="specify output file",
+        default=None)
     parser.add_argument(
-            '--similarity',
-            help="specify level of similarity for concept mapping",
-            default=5,
-            type=int)
+        '--similarity',
+        help="specify level of similarity for concept mapping",
+        default=5,
+        type=int)
     parser.add_argument(
-            '--language',
-            help="specify your desired language for mapping",
-            default='en',
-            type=str)
+        '--language',
+        help="specify your desired language for mapping",
+        default='en',
+        type=text_type)
     sys.exit(parser.main())

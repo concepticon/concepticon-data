@@ -1,16 +1,18 @@
 # coding: utf8
 from __future__ import unicode_literals, print_function, division
-
-from mock import Mock, patch, MagicMock
-from clldutils.path import copy, Path
-from clldutils.testing import WithTempDir, capture
-from clldutils.misc import nfilter
-from clldutils.clilib import ParserError
-from pyconcepticon.util import read_all
 from collections import namedtuple
 
+from mock import Mock, patch, MagicMock
+from clldutils.path import copy
+from clldutils.testing import WithTempDirMixin, capture
+from clldutils.misc import nfilter
+from clldutils.clilib import ParserError
 
-class Tests(WithTempDir):
+from pyconcepticon.util import read_all
+from pyconcepticon.tests.util import TestWithFixture
+
+
+class Tests(WithTempDirMixin, TestWithFixture):
     def test_link(self):
         from pyconcepticon.commands import link
 
@@ -21,12 +23,12 @@ class Tests(WithTempDir):
             return len(nfilter([getattr(i, attr, None) for i in read_all(p)]))
 
         test = self.tmp_path('test.tsv')
-        copy(Path(__file__).parent.joinpath('fixtures', 'conceptlist.tsv'), test)
+        copy(self.fixture_path('conceptlist.tsv'), test)
         self.assertEqual(nattr(test, 'CONCEPTICON_GLOSS'), 0)
         link(Mock(args=[test], data=None))
         self.assertEqual(nattr(test, 'CONCEPTICON_GLOSS'), 1)
 
-        copy(Path(__file__).parent.joinpath('fixtures', 'conceptlist2.tsv'), test)
+        copy(self.fixture_path('conceptlist2.tsv'), test)
         with capture(link, Mock(args=[test], data=None)) as out:
             self.assertIn('unknown CONCEPTICON_GLOSS', out)
             self.assertIn('mismatch', out)
@@ -54,19 +56,21 @@ class Tests(WithTempDir):
         from pyconcepticon.commands import union
         Args = namedtuple('Args', ['data', 'args'])
 
-        with capture(union, Args(data='', args=['Swadesh-1955-100',
-            'Swadesh-1952-200'])) as out:
+        with capture(
+                union,
+                Args(data='', args=['Swadesh-1955-100', 'Swadesh-1952-200'])) as out:
             self.assertEqual(208, len(out.split('\n')))
-        with capture(union, Args(data='', args=['Swadesh-1952-200',
-            'Matisoff-1978-200'])) as out:
-            self.assertEqual(302, len(out.split('\n')))
 
+        with capture(
+                union,
+                Args(data='', args=['Swadesh-1952-200', 'Matisoff-1978-200'])) as out:
+            self.assertEqual(302, len(out.split('\n')))
 
     def test_intersection(self):
         from pyconcepticon.commands import intersection
         Args = namedtuple('Args', ['data', 'args'])
 
-        with capture(intersection, Args(data='', args=['Swadesh-1955-100',
-            'Swadesh-1952-200'])) as out:
+        with capture(
+                intersection,
+                Args(data='', args=['Swadesh-1955-100', 'Swadesh-1952-200'])) as out:
             self.assertEqual(94, len(out.split('\n')))
-
