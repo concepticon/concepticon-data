@@ -91,6 +91,8 @@ def parse_gloss(gloss, language='en'):
     As can be seen: it seeks to extract the most important part of the gloss
     and may thus help to compare different glosses across different resources.
     """
+    if not gloss:
+        raise ValueError("Your gloss is empty")
     G = []
     gpos = ''
     if language == 'en':
@@ -213,7 +215,7 @@ def concept_map2(from_, to, similarity_level=5, freqs=None, language='en'):
                 mapping[i] = best
                 sims[i] = current_sim
     for i in mapping:
-        mapping[i] = sorted(mapping[i], key=lambda x: freqs.get(to[x], 0),
+        mapping[i] = sorted(mapping[i], key=lambda x: freqs.get(to[x].split('///')[0], 0),
                 reverse=True), sims[i]
     return mapping
 

@@ -92,7 +92,9 @@ class Concepticon(object):
         D = defaultdict(int)
         for cl in self.conceptlists.values():
             for concept in cl.concepts.values():
-                if concept.concepticon_id: D[concept.concepticon_gloss] += 1
+                if concept.concepticon_id: 
+                    D[concept.concepticon_gloss] += 1
+                    D[concept.concepticon_id] += 1
         return D
 
 
@@ -142,16 +144,19 @@ class Concepticon(object):
                             to[matches[0]][1].split('///')[0], sim])
                         writer.writerow(row)
                     else:
-                        writer.writerow(['<<<', '', '', ''])
                         visited = []
                         for j in matches:
-                            if to[j][0] not in visited:
-                                row = [fid, fgloss, to[j][0], 
-                                        to[j][1].split('///')[0], 
-                                        sim]
-                                writer.writerow(row)
-                                visited += [to[j][0]]
-                        writer.writerow(['>>>', '', '', ''])
+                            gls, cid = to[j][0], to[j][1].split('///')[0]
+                            if (gls, cid) not in visited:
+                                visited += [(gls, cid)]
+                        if len(visited) > 1:
+                            writer.writerow(['<<<', '', '', ''])
+                            for gls, cid in visited:
+                                writer.writerow(row + [gls, cid, sim])
+                            writer.writerow(['>>>', '', '', ''])
+                        else:
+                            row.extend([visited[0][0], visited[0][1], sim])
+                            writer.writerow(row)
                 writer.writerow(['#', good_matches, len(from_),
                     '{0:.2f}'.format(good_matches / len(from_))])
         else:
