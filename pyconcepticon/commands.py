@@ -125,16 +125,17 @@ def compare_conceptlists(api, *conceptlists, **kw):
         else:
             clist = api.conceptlists[arg]
         for c in clist.concepts.values():
-            commons[c.concepticon_id].add((
-                arg, 0, c.concepticon_id, c.concepticon_gloss))
-            for rel, depth in [
-                ('broader', partial(operator.add, 0)),
-                ('narrower', partial(operator.sub, 0))
-            ]:
-                for cn, d in api.relations.iter_related(
-                        c.concepticon_id, rel, max_degree_of_separation=search_depth):
-                    commons[cn].add((
-                        arg, depth(d), c.concepticon_id, c.concepticon_gloss))
+            if c.concepticon_id:
+                commons[c.concepticon_id].add((
+                    arg, 0, c.concepticon_id, c.concepticon_gloss))
+                for rel, depth in [
+                    ('broader', partial(operator.add, 0)),
+                    ('narrower', partial(operator.sub, 0))
+                ]:
+                    for cn, d in api.relations.iter_related(
+                            c.concepticon_id, rel, max_degree_of_separation=search_depth):
+                        commons[cn].add((
+                            arg, depth(d), c.concepticon_id, c.concepticon_gloss))
 
     # store proper concepts (the ones purely underived), as we need to check in
     # a second run, whether a narrower concept occurs (don't find another

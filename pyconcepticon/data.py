@@ -97,7 +97,6 @@ COLUMN_TYPES = {
     "TURKISH": Languoid("nucl1301"),
     "HAUSA": Languoid("haus1257"),
     "JAPANESE": Languoid("nucl1643"),
-    "COMMON_CHINESE": Languoid("mand1415"),
     "PORTUGUESE": Languoid('port1283'),
     "FREQUENCY": "int or float",
     "RANK": "int",
