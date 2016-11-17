@@ -152,14 +152,20 @@ class Concepticon(object):
                             to[matches[0]][0], to[matches[0]][1].split('///')[0], sim])
                         writer.writerow(row)
                     else:
-                        writer.writerow(['<<<', '', '', ''])
-                        visited = set()
+                        # we need a list to retain the order by frequency
+                        visited = [] 
                         for j in matches:
-                            if to[j][0] not in visited:
-                                writer.writerow([
-                                    fid, fgloss, to[j][0], to[j][1].split('///')[0], sim])
-                                visited.add(to[j][0])
-                        writer.writerow(['>>>', '', '', ''])
+                            gls, cid = to[j][0], to[j][1].split('///')[0]
+                            if (gls, cid) not in visited:
+                                visited += [(gls, cid)]
+                        if len(visited) > 1:
+                            writer.writerow(['<<<', '', '', ''])
+                            for gls, cid in visited:
+                                writer.writerow(row + [gls, cid, sim])
+                            writer.writerow(['>>>', '', '', ''])
+                        else:
+                            row.extend([visited[0][0], visited[0][1], sim])
+                            writer.writerow(row)
                 writer.writerow([
                     '#',
                     good_matches,
@@ -352,8 +358,9 @@ class Conceptlist(Bag):
             for item in read_dicts(self.path):
                 kw, attributes = {}, {}
                 for k, v in item.items():
-                    kl = k.lower()
-                    setitem(kw if kl in Concept.public_fields() else attributes, kl, v)
+                    if k:
+                        kl = k.lower()
+                        setitem(kw if kl in Concept.public_fields() else attributes, kl, v)
                 res.append(Concept(list=self, attributes=attributes, **kw))
         return to_dict(res)
 
