@@ -391,7 +391,10 @@ def upload_sources(args):
                 if not spec:
                     _, _, obj = list(cat.create(fname, {'collection': 'concepticon'}))[0]
                     spec = lcat.add(clid, obj)
-                toc.append('- [{0} [PDF {1}]]({2})'.format(
-                    clid, format_size(spec['size']), spec['url']))
+
+        for key in sorted(lcat.items):
+            spec = lcat.get(key)
+            toc.append('- [{0} [PDF {1}]]({2})'.format(
+                key, format_size(spec['size']), spec['url']))
 
     readme(api.data_path('sources'), toc)

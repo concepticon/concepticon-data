@@ -92,6 +92,7 @@
 - [Sidwell2015 [PDF 77.4KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-3D62-A536-09C8-0/Sidwell2015.pdf)
 - [Smith1980 [PDF 274.8KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-B6CB-D110-4C13-0/Smith1980.pdf)
 - [Snider2004 [PDF 304.6KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-5923-B1E2-93B3-0/Snider2004.pdf)
+- [Snoek2013 [PDF 56.7KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-E80D-E655-9A68-0/Snoek2013.pdf)
 - [Starostin1991 [PDF 81.3KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-BA5C-CCFE-F501-0/Starostin1991.pdf)
 - [Starostin2007 [PDF 154.6KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-D4BF-DD7A-FBC6-0/Starostin2007.pdf)
 - [Starostin2010 [PDF 83.1KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-9A92-475B-67DA-0/Starostin2010.pdf)
