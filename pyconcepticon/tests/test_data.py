@@ -8,6 +8,7 @@ from pyconcepticon.util import split, REPOS_PATH
 
 SUCCESS = True
 NUMBER_PATTERN = re.compile('(?P<number>[0-9]+)(?P<suffix>.*)')
+BIB_PATTERN = re.compile(':bib:([a-zA-Z0-9]+)')
 
 
 def _msg(type_, msg, name, line):  # pragma: no cover
@@ -53,6 +54,10 @@ def test():
             if ref not in api.bibliography:  # pragma: no cover
                 error('invalid bibtex record: {0}'.format(ref), 'conceptlists.tsv', i + 2)
             all_refs.add(ref)
+        refs_in_text = re.findall(BIB_PATTERN, cl.note)
+        for ref in refs_in_text:
+            all_refs.add(ref)
+        
         # make also sure that all sources are accompanied by a PDF, but only write a
         # warning if this is not the case
         for ref in cl.pdf:

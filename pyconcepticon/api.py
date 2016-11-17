@@ -358,8 +358,9 @@ class Conceptlist(Bag):
             for item in read_dicts(self.path):
                 kw, attributes = {}, {}
                 for k, v in item.items():
-                    kl = k.lower()
-                    setitem(kw if kl in Concept.public_fields() else attributes, kl, v)
+                    if k:
+                        kl = k.lower()
+                        setitem(kw if kl in Concept.public_fields() else attributes, kl, v)
                 res.append(Concept(list=self, attributes=attributes, **kw))
         return to_dict(res)
 
