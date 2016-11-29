@@ -92,10 +92,13 @@ class Concepticon(object):
         values_path = self.data_path('concept_set_meta', id_ + '.tsv')
         md_path = self.data_path('concept_set_meta', id_ + '.tsv-metadata.json')
         assert values_path.exists() and md_path.exists()
+        md = jsonlib.load(md_path)
         return Metadata(
             id=id_,
-            meta=jsonlib.load(md_path),
-            values=to_dict(read_dicts(values_path), key=itemgetter('CONCEPTICON_ID')))
+            meta=md,
+            values=to_dict(
+                read_dicts(values_path, schema=md['tableSchema']),
+                key=itemgetter('CONCEPTICON_ID')))
 
     @cached_property()
     def relations(self):
