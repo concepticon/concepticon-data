@@ -490,8 +490,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 489	KIDNEY	The body	An organ in the body that produces urine.	Person/Thing
 490	DESCENDANTS	Kinship	One who is the progeny of someone at any distance of time.	Person/Thing
 491	CENTER	Spatial relations	The middle part, that can be clearly discerned from the enveloping part.	Person/Thing
-492	THREE	Quantity	The third natural number (3).	Other
-493	FIVE	Quantity	The fifth natural number (5).	Other
+492	THREE	Quantity	The third natural number (3).	Number
+493	FIVE	Quantity	The fifth natural number (5).	Number
 494	FLIRT	Emotions and values	To talk or behave amorously, without serious intentions.	Action/Process
 495	REVENGE	Emotions and values	To take revenge for a perceived wrong.	Action/Process
 496	CUCUMBER	Agriculture and vegetation	The edible fruit of the cucumber plant, having a green rind and crisp white flesh.	Person/Thing
@@ -1292,7 +1292,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1291	BACK	The body	The rear of body, especially the part between the neck and the end of the spine and opposite the chest and belly.	Person/Thing
 1292	BAD	Emotions and values	Not good; unfavorable; negative.	Property
 1293	MISTAKE	Emotions and values	A mistake, an oversight, a slight; usually apologetic, referring to one's own failures.	Person/Thing
-1294	ZERO	Quantity	The cardinal number that denotes no quantity or amount at all.	Other
+1294	ZERO	Quantity	The cardinal number that denotes no quantity or amount at all.	Number
 1295	STICK	The physical world	A long, thin piece of wood, mainly left in the shape in which it grew, that does not bend.	Person/Thing
 1296	WALKING STICK	Social and political relations	An object, specifically for providing support when walking.	Person/Thing
 1297	LEG	The body	The limb of an animal (including humans) that extends from the groin to the ankle.	Person/Thing
@@ -1481,7 +1481,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1480	BODY	The body	The physical structure of a human or animal.	Person/Thing
 1481	HAMMER	Basic actions and technology	A tool with a heavy head and a handle used for pounding.	Person/Thing
 1482	SHOULDER	The body	One side of the top of the torso, where an arm attaches or joins.	Person/Thing
-1483	NINE	Quantity	The ninth natural number (9).	Other
+1483	NINE	Quantity	The ninth natural number (9).	Number
 1484	OIL (ORGANIC SUBSTANCE)	Food and drink	Fat from animals or plants in a liquid form.	Person/Thing
 1485	BELOW OR UNDER	Spatial relations	Lower in spatial position than.	Other
 1486	PLANT (SOMETHING)	Agriculture and vegetation	To put a plant in the ground so that it strikes root and grows.	Action/Process
@@ -1491,14 +1491,14 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1490	RAT	Animals	A nearly omnivorous rodent of the genus ''rattus'' characterised by a long hairless tail, rounded ears, and a pointed nose.	Person/Thing
 1491	MOUSE	Animals	Any of numerous small rodents of the genus ''mus'' or various related genera of the ''Muridæ'' family characterised by a long hairless tail, rounded ears, and a pointed nose.	Person/Thing
 1492	DUMB	The body	Unable to speak; lacking power of speech.	Property
-1493	ONE	Quantity	The cardinal number that directly follows zero and precedes two, represented in Roman numerals as I, and in Arabic numerals as 1.	Other
+1493	ONE	Quantity	The cardinal number that directly follows zero and precedes two, represented in Roman numerals as I, and in Arabic numerals as 1.	Number
 1494	DIE	The body	To cease to live.	Action/Process
 1495	HAPPY	Emotions and values	Having a feeling of satisfaction, enjoyment or well-being, often arising from a positive situation or set of circumstances.	Property
 1496	GRANDMOTHER	Kinship	The mother of one of someone's parents.	Person/Thing
 1497	POSTCARD	Modern world	A rectangular piece of thick paper or thin cardboard intended to be written on and mailed without an envelope.	Person/Thing
-1498	TWO	Quantity	The cardinal number occurring after one and before three, represented in Roman numerals as II and in Arabic numerals as 2.	Other
+1498	TWO	Quantity	The cardinal number occurring after one and before three, represented in Roman numerals as II and in Arabic numerals as 2.	Number
 1499	JUICE	Food and drink	The liquid that is produced by squeezing or crushing fruits or vegetables.	Person/Thing
-1500	FOUR	Quantity	The cardinal number occurring after three and before five, represented in Roman numerals as IV, in Arabic numerals as 4.	Other
+1500	FOUR	Quantity	The cardinal number occurring after three and before five, represented in Roman numerals as IV, in Arabic numerals as 4.	Number
 1501	BORE	Basic actions and technology	To create a hole by removing material with a drill.	Action/Process
 1502	GOAT	Animals	A common four-legged animal (Capra) that is related to sheep and bred by humans for its coat and milk.	Person/Thing
 1503	SALIVA	The body	A secretion from the salivary glands (found in the mouth) that can be spat out.	Person/Thing
@@ -1632,7 +1632,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1631	FAST	Time	Occurring or happening within a short time.	Property
 1632	FLOOR	The house	The bottom or lower part of any room; the supporting surface of a room.	Person/Thing
 1633	FLAT	Spatial relations	Having no variations in altitude.	Property
-1634	HUNDRED	Quantity	The cardinal number occurring after ninety-nine and before one hundred one, represented in Roman numerals as C and in Arabic numerals as 100.	Other
+1634	HUNDRED	Quantity	The cardinal number occurring after ninety-nine and before one hundred one, represented in Roman numerals as C and in Arabic numerals as 100.	Number
 1635	OBEY	Social and political relations	To do as you are told.	Action/Process
 1636	MOTIONLESS	Motion	Not moving.	Other
 1637	AUTHORITY	Social and political relations	The power to enforce rules or give orders.	Person/Thing
@@ -1701,28 +1701,28 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1700	SATURDAY	Time	The sixth day of the week in Europe and in systems using the ISO 8601 norm; the seventh day of the week in the United States of America.	Person/Thing
 1701	RIVER MOUTH	The physical world	A river mouth or stream mouth is a part of a river where it flows into the sea, river, lake, reservoir or ocean.	Person/Thing
 1702	HOLY	Religion and belief	specially recognized as or declared sacred by religious use or authority.	Property
-1703	SIX	Quantity	The cardinal number occurring after five and before seven, represented in Roman numerals as VI, in Arabic numerals as 6.	Other
-1704	SEVEN	Quantity	The cardinal number occurring after six and before eight, represented in Roman numerals as VII, in Arabic numerals as 7.	Other
-1705	EIGHT	Quantity	The cardinal number occurring after seven and before nine, represented in Roman numerals as VIII, in Arabic numerals as 8.	Other
-1706	ELEVEN	Quantity	The cardinal number occurring after ten and before twelve, represented in Roman numerals as XI, in Arabic numerals as 11.	Other
-1707	TWELVE	Quantity	The cardinal number occurring after eleven and before thirteen, represented in Roman numerals as XII and in Arabic numerals as 12.	Other
-1708	THIRTEEN	Quantity	The cardinal number occurring after twelve and before fourteen, represented in Roman numerals as XIII and in Arabic numerals as 13.	Other
-1709	FIFTEEN	Quantity	The cardinal number occurring after fourteen and before sixteen, represented in Roman numerals as XV and in Arabic numerals as 15.	Other
-1710	TWENTY	Quantity	The cardinal number occurring after nineteen and before twenty-one, represented in Roman numerals as XX and in Arabic numerals as 20.	Other
+1703	SIX	Quantity	The cardinal number occurring after five and before seven, represented in Roman numerals as VI, in Arabic numerals as 6.	Number
+1704	SEVEN	Quantity	The cardinal number occurring after six and before eight, represented in Roman numerals as VII, in Arabic numerals as 7.	Number
+1705	EIGHT	Quantity	The cardinal number occurring after seven and before nine, represented in Roman numerals as VIII, in Arabic numerals as 8.	Number
+1706	ELEVEN	Quantity	The cardinal number occurring after ten and before twelve, represented in Roman numerals as XI, in Arabic numerals as 11.	Number
+1707	TWELVE	Quantity	The cardinal number occurring after eleven and before thirteen, represented in Roman numerals as XII and in Arabic numerals as 12.	Number
+1708	THIRTEEN	Quantity	The cardinal number occurring after twelve and before fourteen, represented in Roman numerals as XIII and in Arabic numerals as 13.	Number
+1709	FIFTEEN	Quantity	The cardinal number occurring after fourteen and before sixteen, represented in Roman numerals as XV and in Arabic numerals as 15.	Number
+1710	TWENTY	Quantity	The cardinal number occurring after nineteen and before twenty-one, represented in Roman numerals as XX and in Arabic numerals as 20.	Number
 1711	TELL	Speech and language	To talk about a story giving its details; to give a detailed account of.	Action/Process
 1712	OATH	Law	Promise or solemn declaration in front of an authority, another person or to oneself.	Person/Thing
-1713	EIGHTEEN	Quantity	The cardinal number occurring after seventeen and before nineteen, represented in Roman numerals as XVIII and in Arabic numerals as 18.	Other
-1714	NINETEEN	Quantity	The cardinal number occurring after eighteen and before twenty, represented in Roman numerals as XIX and in Arabic numerals as 19.	Other
-1715	THIRTY	Quantity	The cardinal number occurring after twenty-nine and before thirty-one, represented in Roman numerals as XXX and in Arabic numerals as 30.	Other
-1716	FORTY	Quantity	The cardinal number occurring after thirty-nine and before forty-one, represented in Roman numerals as XL and in Arabic numerals as 40.	Other
-1717	FIFTY	Quantity	The cardinal number occurring after forty-nine and before fifty-one, represented in Roman numerals as L and in Arabic numerals as 50.	Other
-1718	SIXTY	Quantity	The cardinal number occurring after fifty-nine and before sixty-one, represented in Roman numerals as LX and in Arabic numerals as 60.	Other
+1713	EIGHTEEN	Quantity	The cardinal number occurring after seventeen and before nineteen, represented in Roman numerals as XVIII and in Arabic numerals as 18.	Number
+1714	NINETEEN	Quantity	The cardinal number occurring after eighteen and before twenty, represented in Roman numerals as XIX and in Arabic numerals as 19.	Number
+1715	THIRTY	Quantity	The cardinal number occurring after twenty-nine and before thirty-one, represented in Roman numerals as XXX and in Arabic numerals as 30.	Number
+1716	FORTY	Quantity	The cardinal number occurring after thirty-nine and before forty-one, represented in Roman numerals as XL and in Arabic numerals as 40.	Number
+1717	FIFTY	Quantity	The cardinal number occurring after forty-nine and before fifty-one, represented in Roman numerals as L and in Arabic numerals as 50.	Number
+1718	SIXTY	Quantity	The cardinal number occurring after fifty-nine and before sixty-one, represented in Roman numerals as LX and in Arabic numerals as 60.	Number
 1719	BURY	The body	to put in the ground and cover with earth.	Action/Process
 1720	SIGN	Speech and language	Feature element which permits to refer to anything or any person.	Person/Thing
-1721	SEVENTY	Quantity	The cardinal number occurring after sixty-nine and before seventy-one, represented in Roman numerals as LXX and in Arabic numerals as 70.	Other
-1722	EIGHTY	Quantity	The cardinal number occurring after seventy-nine and before eighty-one, represented in Roman numerals as LXXX and in Arabic numerals as 80.	Other
+1721	SEVENTY	Quantity	The cardinal number occurring after sixty-nine and before seventy-one, represented in Roman numerals as LXX and in Arabic numerals as 70.	Number
+1722	EIGHTY	Quantity	The cardinal number occurring after seventy-nine and before eighty-one, represented in Roman numerals as LXXX and in Arabic numerals as 80.	Number
 1723	RESULT IN	Cognition	Having a specific result, a logical consequence.	Action/Process
-1724	NINETY	Quantity	The cardinal number occurring after eighty-nine and before ninety-one, represented in Roman numerals as XC and in Arabic numerals as 90.	Other
+1724	NINETY	Quantity	The cardinal number occurring after eighty-nine and before ninety-one, represented in Roman numerals as XC and in Arabic numerals as 90.	Number
 1725	CORRECT (RIGHT)	Emotions and values	That are in accordance with fact.	Property
 1726	WET	Sense perception	Covered with or impregnated with liquid.	Property
 1727	THRESHOLD	The house	The bottom-most part of a doorway that one crosses to enter; a sill.	Person/Thing
@@ -1732,11 +1732,11 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1731	MORTAR BINDER	The house	Paste made of a mixture of a binder (cement, plaster or lime), sand and water used in masonry to make bricks, stones, etc. stick together.	Person/Thing
 1732	SKY	The physical world	The part of the earth's atmosphere and space outside it that is visible from earth's surface. During the day it is perceived as blue, and at night as black.	Person/Thing
 1733	RAINBOW	The physical world	A multicoloured arc in the sky caused by the refraction of light within droplets of rain in the air.	Person/Thing
-1734	TWENTY ONE	Quantity	The cardinal number occurring after twenty and before twenty-two, represented in Roman numerals as XXI and in Arabic numerals as 21.	Other
+1734	TWENTY ONE	Quantity	The cardinal number occurring after twenty and before twenty-two, represented in Roman numerals as XXI and in Arabic numerals as 21.	Number
 1735	TEAR (SHRED)	Basic actions and technology	A tug given with force in order to remove something.	Action/Process
-1736	TWENTY FOUR	Quantity	The cardinal number occurring after twenty-three and before twenty-five, represented in Roman numerals as XXIV and in Arabic numerals as 24.	Other
+1736	TWENTY FOUR	Quantity	The cardinal number occurring after twenty-three and before twenty-five, represented in Roman numerals as XXIV and in Arabic numerals as 24.	Number
 1737	OKRA	Agriculture and vegetation	-	Person/Thing
-1738	TWENTY FIVE	Quantity	The cardinal number occurring after twenty-four and before twenty-six, represented in Roman numerals as XXV and in Arabic numerals as 25.	Other
+1738	TWENTY FIVE	Quantity	The cardinal number occurring after twenty-four and before twenty-six, represented in Roman numerals as XXV and in Arabic numerals as 25.	Number
 1739	DECORATE	Clothing and grooming	To make more attractive by adding ornament, colour, etc.	Action/Process
 1740	PINE	Agriculture and vegetation	Evergreen coniferous tree of the genus Pinus.	Person/Thing
 1741	ABOVE	Spatial relations	In or to a higher place; higher than; on or over the upper surface.	Other
@@ -1841,7 +1841,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 1840	BUILD	Basic actions and technology	To form by combining materials or parts.	Action/Process
 1841	SUSPECT	Cognition	To imagine or suppose (something) to be true without evidence.	Action/Process
 1842	OBSTINATE	Cognition	Persisting in a reactionary stand.	Property
-1843	THOUSAND	Quantity	Ten times hundred.	Other
+1843	THOUSAND	Quantity	Ten times hundred.	Number
 1844	BOAT	Motion	A craft used for transportation of goods, fishing, racing, recreational cruising, or military use on or in the water, propelled by oars or outboard motor or inboard motor or by wind.	Person/Thing
 1845	BALL	Spatial relations	An object, generally spherical, used for playing games.	Person/Thing
 1846	RULE	Social and political relations	To exercise power or authority over a person, a group of persons, animals, territories or an organization.	Action/Process
@@ -2076,7 +2076,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2075	BROOD (VERB)	Animals	To keep an egg warm to make it hatch.	Action/Process
 2076	SPROUT (VERB)	Basic actions and technology	The process by which a plant grows from a seed.	Action/Process
 2077	DILIGENT	Emotions and values	Being busy-working.	Property
-2078	TEN THOUSAND	Quantity	Ten to the power of four.	Person/Thing
+2078	TEN THOUSAND	Quantity	Ten to the power of four.	Number
 2079	CUNNING PERSON	Emotions and values	A smart and witty person.	Person/Thing
 2080	BOWL (CLASSIFIER)	Quantity	classifier for bowl-like objects	Classifier
 2081	CHICKEN (CLASSIFIER)	Quantity	classifier for bird-like animals	Classifier
@@ -2449,10 +2449,10 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY
 2448	WILD DOG	Animals	Any of several wild canine species that are commonly called 'dogs' or 'wild dogs' but are not true dogs. 	Person/Thing
 2449	FAT (OF MEAT AND FOOD)	Food and drink	The property of food, especially meat, to contain a large proportion of fat.	Property
 2450	FOOT OR WALK	The body	Either the body part or the action by which one uses the body part to advance.	Person/Thing
-2451	FORTEEN	Quantity	The cardinal number occurring after thirteen and before fifteen, represented in Roman numerals as XIV and in Arabic numerals as 14.	Other
+2451	FOURTEEN	Quantity	The cardinal number occurring after thirteen and before fifteen, represented in Roman numerals as XIV and in Arabic numerals as 14.	Number
 2452	PURPLE	Sense perception	Having purple as its color.	Property
-2453	SEVENTEEN	Quantity	The cardinal number 17.	Other
-2454	SIXTEEN	Quantity	The cardinal number 15.	Other
+2453	SEVENTEEN	Quantity	The cardinal number 17.	Number
+2454	SIXTEEN	Quantity	The cardinal number 16.	Number
 2455	DREAMING OR DREAM	The body	Either the act of seeing images when sleeping, or the result of this act, the dream itself.	Other
 2456	LARGE WILD HERBIVORE	Animals	Wild herbivores, like deer or kangaroo, wo are traditionally hunted for their meat.	Person/Thing
 2457	PATH OR ROAD	Motion	A piece of ground that people can walk or drive along.	Person/Thing

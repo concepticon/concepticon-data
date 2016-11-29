@@ -44,7 +44,7 @@ def test():
             if set(value.keys()) != cnames_schema:  # pragma: no cover
                 error('meta data {0} contains irregular number of columns in line {1}'
                       .format(meta.id, i + 2), 'name')
-        for ref in split(meta.meta.get('dc:references', '')):
+        for ref in split(meta.meta.get('dc:references') or ''):
             all_refs.add(ref)
 
     # Make sure only records in the BibTeX file references.bib are referenced by
