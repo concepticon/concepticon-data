@@ -67,6 +67,7 @@ ONTOLOGICAL_CATEGORY = {
     "Person/Thing",
     "Classifier",
     "Property",
+    "Number",
     "Other",
 }
 
