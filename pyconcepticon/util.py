@@ -47,7 +47,21 @@ def read_all(fname, **kw):
     return list(dsv.reader(fname, **kw))
 
 
-read_dicts = partial(read_all, dicts=True)
+def read_dicts(fname, schema=None, **kw):
+    kw['dicts'] = True
+    res = read_all(fname, **kw)
+    if schema:
+        def identity(x):
+            return x
+        colspec = {}
+        for col in schema['columns']:
+            conv = {
+                'integer': int,
+                'float': float,
+            }.get(col['datatype'])
+            colspec[col['name']] = conv or identity
+        res = [{k: colspec[k](v) for k, v in d.items()} for d in res]
+    return res
 
 
 class UnicodeWriter(dsv.UnicodeWriter):
