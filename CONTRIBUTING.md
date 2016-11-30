@@ -57,10 +57,12 @@ If you feel that you need to add new identifiers which are currently missing in 
 The concepticon API allows you to automatically link your concept list to the concepticon. We currently support two different styles, one which exhaustively compars each gloss with each other, and one quick style, which compares only those glosses which have been filtered as similar enough in a first run. The styles also differe slightly in their output. Here is, how you can carry out a linking using the quick style of your list called "input.tsv"
 ```shell
 $ concepticon --map_type=2 map_concepts input.tsv
+# or 
+$ concepticon --map_type=2 map_concepts input.tsv > automatic.tsv  # redirect output to file.
 ```
 This script requires that the concepticon API has been installed, and that your input list contains at least two columns: one labeled "ID" and one labelded "GLOSS" or "ENGLISH".
 
-The mapping procedure will output another list (first to terminal store in file by using the ">" character in typical Unix manner), containing three additional columns: `CONCEPTICON_ID`, `CONCEPTICON_GLOSS`, and `SIMILARITY` (the latter ranke similarity on a scale between 1 and 5, with 1 being most similar, if there is a matching concept). If there are multiple possibilities of the same similarity, these are output in ranked order, preceded by the `<<<` and followed by `>>>`. Left-overs are marked by two question marks (`???`). The last line also contains the percentage of mapped items with score <= 3, which gives you an idea on how much work still needs to be done to manually refine the mapping.
+The mapping procedure will output another list, containing three additional columns: `CONCEPTICON_ID`, `CONCEPTICON_GLOSS`, and `SIMILARITY` (the latter ranke similarity on a scale between 1 and 5, with 1 being most similar, if there is a matching concept). If there are multiple possibilities of the same similarity, these are output in ranked order, preceded by the `<<<` and followed by `>>>`. Left-overs are marked by two question marks (`???`). The last line also contains the percentage of mapped items with score <= 3, which gives you an idea on how much work still needs to be done to manually refine the mapping.
 
 An excerpt of an example output is here:
 
