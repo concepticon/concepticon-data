@@ -107,7 +107,7 @@ Missing translations are indicated as NAN, as an example see the list by `Pallas
 
 ### Missing Concept Sets
 
-If we don't find a concept set for a concept and deem the concept to be to specific to be further mapped, we leave the field empty. All these concept sets are later assigned to a class of concept sets called "NAN".
+If we don't find a concept set for a concept and deem the concept to be too specific to be further mapped, we leave the field empty. All these concept sets are later assigned to a class of concept sets called "NAN".
 
 ### N-N Mappings
 
