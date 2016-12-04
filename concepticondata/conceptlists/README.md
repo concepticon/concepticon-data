@@ -24,6 +24,7 @@
 | [Buck-1949-1108](Buck-1949-1108.tsv) | 1040 | 93 | 28 |
 | [Bulakh-2013-870](Bulakh-2013-870.tsv) | 870 | 100 | 21 |
 | [Calero-2002-15](Calero-2002-15.tsv) | 13 | 86 | 0 |
+| [Campbell-1999-100](Campbell-1999-100.tsv) | 100 | 100 | 1 |
 | [Chacon-2014-142](Chacon-2014-142.tsv) | 128 | 90 | 3 |
 | [Chen-1996-100a](Chen-1996-100a.tsv) | 100 | 100 | 0 |
 | [Chen-1996-100b](Chen-1996-100b.tsv) | 100 | 100 | 0 |
@@ -119,6 +120,7 @@
 | [Pallas-1786-441](Pallas-1786-441.tsv) | 440 | 99 | 15 |
 | [Pallas-1789-285](Pallas-1789-285.tsv) | 282 | 98 | 10 |
 | [Payne-1991-202](Payne-1991-202.tsv) | 202 | 100 | 39 |
+| [Peiros-1999-100](Peiros-1999-100.tsv) | 100 | 100 | 0 |
 | [Peust-2013-54](Peust-2013-54.tsv) | 54 | 100 | 0 |
 | [Pozdniakov-2014-100a](Pozdniakov-2014-100a.tsv) | 100 | 100 | 0 |
 | [Pozdniakov-2014-100b](Pozdniakov-2014-100b.tsv) | 100 | 100 | 0 |
@@ -148,6 +150,8 @@
 | [Swadesh-1960-100a](Swadesh-1960-100a.tsv) | 100 | 100 | 0 |
 | [Swadesh-1960-100b](Swadesh-1960-100b.tsv) | 100 | 100 | 0 |
 | [Swadesh-1960-200](Swadesh-1960-200.tsv) | 200 | 100 | 0 |
+| [Swadesh-1964-100](Swadesh-1964-100.tsv) | 100 | 100 | 0 |
+| [Swadesh-1964-215](Swadesh-1964-215.tsv) | 215 | 100 | 0 |
 | [Swadesh-1971-100](Swadesh-1971-100.tsv) | 100 | 100 | 0 |
 | [Syrjaenen-2013-226](Syrjaenen-2013-226.tsv) | 226 | 100 | 0 |
 | [Tadmor-2009-100](Tadmor-2009-100.tsv) | 100 | 100 | 0 |
@@ -172,6 +176,8 @@
 | [Wheeler-2015-102](Wheeler-2015-102.tsv) | 102 | 100 | 1 |
 | [Wichmann-2010-40](Wichmann-2010-40.tsv) | 40 | 100 | 0 |
 | [Wiktionary-2003-207](Wiktionary-2003-207.tsv) | 207 | 100 | 0 |
+| [Wilkins-1996-41](Wilkins-1996-41.tsv) | 41 | 100 | 0 |
+| [Wilkins-1996-75](Wilkins-1996-75.tsv) | 75 | 100 | 1 |
 | [Wilson-1969-35](Wilson-1969-35.tsv) | 35 | 100 | 0 |
 | [Woll-2010-301](Woll-2010-301.tsv) | 256 | 85 | 2 |
 | [Woodward-1991-100](Woodward-1991-100.tsv) | 100 | 100 | 0 |
@@ -183,5 +189,5 @@
 | [Zheng-2007-86](Zheng-2007-86.tsv) | 86 | 100 | 1 |
 | [Zorc-1974-100](Zorc-1974-100.tsv) | 100 | 100 | 0 |
 
-(180 rows)
+(186 rows)
 
