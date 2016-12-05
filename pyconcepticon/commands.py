@@ -9,6 +9,7 @@ from six import text_type
 from tabulate import tabulate
 from clldutils.path import Path, as_unicode
 from clldutils.clilib import ParserError
+from clldutils.dsv import UnicodeWriter
 from clldutils.markup import Table
 from clldutils.misc import format_size
 from cdstarcat.catalog import Catalog
@@ -80,12 +81,12 @@ class Linker(object):
 
 
 def link(args):
-    """\
-Complete linking of concepts to concept sets. If either CONCEPTICON_GLOSS or
-CONCEPTICON_ID is given, the other is added.
+    """
+    Complete linking of concepts to concept sets. If either CONCEPTICON_GLOSS or
+    CONCEPTICON_ID is given, the other is added.
 
-concepticon link <concept-list>
-"""
+    concepticon link <concept-list>
+    """
     api = Concepticon(args.data)
     conceptlist = Path(args.args[0])
     if not conceptlist.exists() or not conceptlist.is_file():
@@ -228,7 +229,8 @@ def _set_operation(args, type_):
 
 
 def intersection(args):
-    """Compare how many concepts overlap in concept lists.
+    """
+    Compare how many concepts overlap in concept lists.
 
     Note
     ----
@@ -263,10 +265,10 @@ def readme(outdir, text):
 
 
 def stats(args):
-    """\
-write statistics to README
-
-concepticon stats
+    """
+    write statistics to README
+    
+    concepticon stats
     """
     api = Concepticon(args.data)
     cls = api.conceptlists.values()
@@ -398,3 +400,19 @@ def upload_sources(args):
                 key, format_size(spec['size']), spec['url']))
 
     readme(api.data_path('sources'), toc)
+
+
+def lookup(args):
+    """
+    Looks up a single gloss from the commandline.
+    
+    concepticon lookup <gloss1 gloss2 ... glossN>
+    """
+    api = Concepticon()
+    found = api.lookup(args.args)
+    with UnicodeWriter(None, delimiter='\t') as writer:
+        writer.writerow(['GLOSS', 'CONCEPTICON_ID', 'CONCEPTICON_GLOSS'])
+        for f in sorted(found):
+            writer.writerow([f, found[f][0], found[f][1]])
+        print(writer.read().decode('utf-8'))
+    
