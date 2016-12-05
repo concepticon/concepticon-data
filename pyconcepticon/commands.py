@@ -9,6 +9,7 @@ from six import text_type
 from tabulate import tabulate
 from clldutils.path import Path, as_unicode
 from clldutils.clilib import ParserError
+from clldutils.dsv import UnicodeWriter
 from clldutils.markup import Table
 from clldutils.misc import format_size
 from cdstarcat.catalog import Catalog
@@ -408,4 +409,10 @@ def lookup(args):
     concepticon lookup <gloss1 gloss2 ... glossN>
     """
     api = Concepticon()
-    api.lookup(args.args)
+    found = api.lookup(args.args)
+    with UnicodeWriter(None, delimiter='\t') as writer:
+        writer.writerow(['GLOSS', 'CONCEPTICON_ID', 'CONCEPTICON_GLOSS'])
+        for f in sorted(found):
+            writer.writerow([f, found[f][0], found[f][1]])
+        print(writer.read().decode('utf-8'))
+    

@@ -200,47 +200,27 @@ class Concepticon(object):
         if out is None:
             print(writer.read().decode('utf-8'))
     
-    def lookup(self, entry, full_search=False, similarity_level=5, language='en'):
+    def lookup(self, entries, full_search=False, similarity_level=5, language='en'):
         to = self._get_map_for_language(language, None)
         if full_search:
             cmap = concept_map2(
-                entry,
+                entries,
                 [i[1] for i in to],
                 similarity_level=similarity_level,
                 freqs=self.frequencies,
                 language=language
             )
         else:
-            cmap = concept_map(entry, [i[1] for i in to], similarity_level=5)
+            cmap = concept_map(entries, [i[1] for i in to], similarity_level=similarity_level)
         
-        with UnicodeWriter(None, delimiter='\t') as writer:
-            writer.writerow(['ID', 'GLOSS', 'CONCEPTICON_ID', 'CONCEPTICON_GLOSS'])
-            for i, e in enumerate(entry):
-                match = cmap.get(i, None)
-                if match:
-                    writer.writerow([i, e, match[0], match[1]])
-                else:
-                    writer.writerow([i, e, '', ''])
-            print(writer.read().decode('utf-8'))
-            
-                
-        #
-        # for i, (fid, fgloss) in enumerate(entry):
-        #     row = [fid, fgloss]
-        #     match = cmap.get(i)
-        #     row.extend(list(to[cmap.get(i)[0]]) if match else ['', ''])
-        #     print(row)
-        #     writer.writerow(row)
-        
-        # with UnicodeWriter(out, delimiter='\t') as writer:
-        #     writer.writerow(['ID', 'GLOSS', 'CONCEPTICON_ID', 'CONCEPTICON_GLOSS'])
-        #     for i, (fid, fgloss) in enumerate(from_):
-        #         row = [fid, fgloss]
-        #         match = cmap.get(i)
-        #         row.extend(list(to[match[0]]) if match else ['', ''])
-        #         writer.writerow(row)
-        #
-        # print(writer.read().decode('utf-8'))
+        out = {}
+        for i, e in enumerate(entries):
+            match = cmap.get(i, [None])[0]
+            out[e] = (
+                to[match][0] if match else None,
+                to[match][1].split("///")[0] if match else None
+            )
+        return out
         
 
 class Bag(object):
