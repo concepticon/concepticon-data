@@ -400,3 +400,12 @@ def upload_sources(args):
 
     readme(api.data_path('sources'), toc)
 
+
+def lookup(args):
+    """
+    Looks up a single gloss from the commandline.
+    
+    concepticon lookup <gloss1 gloss2 ... glossN>
+    """
+    api = Concepticon()
+    api.lookup(args.args)

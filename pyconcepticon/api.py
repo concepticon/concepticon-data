@@ -115,30 +115,39 @@ class Concepticon(object):
                 if concept.concepticon_id:
                     D[concept.concepticon_gloss] += 1
         return D
-
+    
+    def _get_map_for_language(self, language, otherlist=None):
+        self._to_mapping = getattr(self, "_to_mapping", {})
+        if (language, otherlist) not in self._to_mapping:
+            if otherlist is not None:
+                to = []
+                for item in read_dicts(otherlist):
+                    to.append((item['ID'], item.get('GLOSS', item.get('ENGLISH'))))
+            else:
+                mapfile = PKG_PATH.joinpath('data', 'map-{0}.tsv'.format(language))
+                to = [(cs['ID'], cs['GLOSS']) for cs in read_dicts(mapfile)]
+            self._to_mapping[(language, otherlist)] = to
+        return to
+    
     def map(self, clist, otherlist=None, out=None, full_search=False,
             similarity_level=5, language='en'):
-        assert clist.exists()
+        assert clist.exists(), "File %s does not exist" % clist
         from_ = []
         for item in read_dicts(clist):
             from_.append((
                 item.get('ID', item.get('NUMBER')),
                 item.get('GLOSS', item.get('ENGLISH'))))
-        if otherlist:
-            to = []
-            for item in read_dicts(otherlist):
-                to.append((item['ID'], item.get('GLOSS', item.get('ENGLISH'))))
-        else:
-            to = [
-                (cs['ID'], cs['GLOSS']) for cs in read_dicts(
-                    PKG_PATH.joinpath('data', 'map-{0}.tsv'.format(language)))]
+        
+        to = self._get_map_for_language(language, otherlist)
+        
         if not full_search:
             cmap = concept_map2(
                 [i[1] for i in from_],
                 [i[1] for i in to],
                 similarity_level=similarity_level,
                 freqs=self.frequencies,
-                language=language)
+                language=language
+            )
             good_matches = 0
             with UnicodeWriter(out, delimiter='\t') as writer:
                 writer.writerow([
@@ -177,8 +186,9 @@ class Concepticon(object):
         else:
             cmap = concept_map(
                 [i[1] for i in from_],
-                [i[1] for i in to],
-                similarity_level=similarity_level)
+                [i[1] for i in self._get_map_for_language(language, otherlist)],
+                similarity_level=similarity_level
+            )
             with UnicodeWriter(out, delimiter='\t') as writer:
                 writer.writerow(['ID', 'GLOSS', 'CONCEPTICON_ID', 'CONCEPTICON_GLOSS'])
                 for i, (fid, fgloss) in enumerate(from_):
@@ -189,7 +199,49 @@ class Concepticon(object):
 
         if out is None:
             print(writer.read().decode('utf-8'))
-
+    
+    def lookup(self, entry, full_search=False, similarity_level=5, language='en'):
+        to = self._get_map_for_language(language, None)
+        if full_search:
+            cmap = concept_map2(
+                entry,
+                [i[1] for i in to],
+                similarity_level=similarity_level,
+                freqs=self.frequencies,
+                language=language
+            )
+        else:
+            cmap = concept_map(entry, [i[1] for i in to], similarity_level=5)
+        
+        with UnicodeWriter(None, delimiter='\t') as writer:
+            writer.writerow(['ID', 'GLOSS', 'CONCEPTICON_ID', 'CONCEPTICON_GLOSS'])
+            for i, e in enumerate(entry):
+                match = cmap.get(i, None)
+                if match:
+                    writer.writerow([i, e, match[0], match[1]])
+                else:
+                    writer.writerow([i, e, '', ''])
+            print(writer.read().decode('utf-8'))
+            
+                
+        #
+        # for i, (fid, fgloss) in enumerate(entry):
+        #     row = [fid, fgloss]
+        #     match = cmap.get(i)
+        #     row.extend(list(to[cmap.get(i)[0]]) if match else ['', ''])
+        #     print(row)
+        #     writer.writerow(row)
+        
+        # with UnicodeWriter(out, delimiter='\t') as writer:
+        #     writer.writerow(['ID', 'GLOSS', 'CONCEPTICON_ID', 'CONCEPTICON_GLOSS'])
+        #     for i, (fid, fgloss) in enumerate(from_):
+        #         row = [fid, fgloss]
+        #         match = cmap.get(i)
+        #         row.extend(list(to[match[0]]) if match else ['', ''])
+        #         writer.writerow(row)
+        #
+        # print(writer.read().decode('utf-8'))
+        
 
 class Bag(object):
     @classmethod
