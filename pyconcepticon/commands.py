@@ -80,12 +80,12 @@ class Linker(object):
 
 
 def link(args):
-    """\
-Complete linking of concepts to concept sets. If either CONCEPTICON_GLOSS or
-CONCEPTICON_ID is given, the other is added.
+    """
+    Complete linking of concepts to concept sets. If either CONCEPTICON_GLOSS or
+    CONCEPTICON_ID is given, the other is added.
 
-concepticon link <concept-list>
-"""
+    concepticon link <concept-list>
+    """
     api = Concepticon(args.data)
     conceptlist = Path(args.args[0])
     if not conceptlist.exists() or not conceptlist.is_file():
@@ -228,7 +228,8 @@ def _set_operation(args, type_):
 
 
 def intersection(args):
-    """Compare how many concepts overlap in concept lists.
+    """
+    Compare how many concepts overlap in concept lists.
 
     Note
     ----
@@ -263,10 +264,10 @@ def readme(outdir, text):
 
 
 def stats(args):
-    """\
-write statistics to README
-
-concepticon stats
+    """
+    write statistics to README
+    
+    concepticon stats
     """
     api = Concepticon(args.data)
     cls = api.conceptlists.values()
@@ -398,3 +399,4 @@ def upload_sources(args):
                 key, format_size(spec['size']), spec['url']))
 
     readme(api.data_path('sources'), toc)
+
