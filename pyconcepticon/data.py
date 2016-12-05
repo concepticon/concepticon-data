@@ -10,6 +10,7 @@ TAGS = {
                  "complexity of ranks",
     "areal": "Concept lists designed for a specific linguistic area.",
     "basic": "Concept lists which are supposed to represent the basic vocabulary.",
+    "body parts": "Concept lists which concentrate on body parts.",
     "documentation": "Concept lists which serve to document one language or one language "
                      "family.",
     "hihi": "A list of highly reconstructable and highly retentive items (term from "
