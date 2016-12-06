@@ -30,6 +30,7 @@ class Concepticon(object):
         :param repos: Path to a clone or source dump of concepticon-data.
         """
         self.repos = Path(repos) if repos else REPOS_PATH
+        self._to_mapping = {}
 
     def data_path(self, *comps):
         """
@@ -117,7 +118,6 @@ class Concepticon(object):
         return D
     
     def _get_map_for_language(self, language, otherlist=None):
-        self._to_mapping = getattr(self, "_to_mapping", {})
         if (language, otherlist) not in self._to_mapping:
             if otherlist is not None:
                 to = []
@@ -127,7 +127,7 @@ class Concepticon(object):
                 mapfile = PKG_PATH.joinpath('data', 'map-{0}.tsv'.format(language))
                 to = [(cs['ID'], cs['GLOSS']) for cs in read_dicts(mapfile)]
             self._to_mapping[(language, otherlist)] = to
-        return to
+        return self._to_mapping[(language, otherlist)]
     
     def map(self, clist, otherlist=None, out=None, full_search=False,
             similarity_level=5, language='en'):
