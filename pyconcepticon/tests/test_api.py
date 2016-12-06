@@ -47,6 +47,13 @@ class Tests(TestWithFixture):
 
             self.assertGreater(len(api.conceptsets['217'].concepts), 8)
 
+    def test_lookup(self):
+        from pyconcepticon.api import Concepticon
+        
+        api = Concepticon()
+        if api.repos.exists():
+            assert api.lookup(['sky']) == {'sky': ('1732', 'SKY')}
+            
     def test_Conceptlist(self):
         from pyconcepticon.api import Conceptlist
 
@@ -65,3 +72,4 @@ class Tests(TestWithFixture):
         from pyconcepticon.api import Concepticon
         con = Concepticon()
         assert len(con.frequencies) <= len(con.conceptsets)
+    
