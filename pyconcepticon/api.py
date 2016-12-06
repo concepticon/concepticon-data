@@ -127,7 +127,7 @@ class Concepticon(object):
                 mapfile = PKG_PATH.joinpath('data', 'map-{0}.tsv'.format(language))
                 to = [(cs['ID'], cs['GLOSS']) for cs in read_dicts(mapfile)]
             self._to_mapping[(language, otherlist)] = to
-        return to
+        return self._to_mapping[(language, otherlist)]
     
     def map(self, clist, otherlist=None, out=None, full_search=False,
             similarity_level=5, language='en'):
