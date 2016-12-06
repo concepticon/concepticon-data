@@ -2,7 +2,7 @@ language: python
 python:
   - "3.4"
 install:
-  - pip install nose mock
+  - pip install nose mock coverage
 script:
   - python setup.py develop
   - nosetests
