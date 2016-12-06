@@ -3,6 +3,7 @@ from __future__ import unicode_literals, print_function, division
 
 from clldutils.testing import capture
 
+from pyconcepticon.api import Concepticon
 from pyconcepticon.tests.util import TestWithFixture
 
 
@@ -36,23 +37,6 @@ class Tests(TestWithFixture):
         d['semanticfield'] = 'xx'
         with self.assertRaises(ValueError):
             Conceptset(**d)
-
-    def test_map(self):
-        from pyconcepticon.api import Concepticon
-
-        api = Concepticon()
-        if api.repos.exists():
-            with capture(api.map, self.fixture_path('conceptlist.tsv')) as out:
-                self.assertIn('CONCEPTICON_ID', out)
-
-            self.assertGreater(len(api.conceptsets['217'].concepts), 8)
-
-    def test_lookup(self):
-        from pyconcepticon.api import Concepticon
-        
-        api = Concepticon()
-        if api.repos.exists():
-            assert api.lookup(['sky']) == {'sky': ('1732', 'SKY')}
             
     def test_Conceptlist(self):
         from pyconcepticon.api import Conceptlist
@@ -68,8 +52,23 @@ class Tests(TestWithFixture):
 
         Reference(id=1, type='misc', record={'author': 'a', 'title': 't', 'year': 'y'})
 
+
+class TestConcepticon(TestWithFixture):
+    @classmethod
+    def setupClass(cls):
+        cls.api = Concepticon()
+        
+    def test_map(self):
+        if self.api.repos.exists():
+            with capture(self.api.map, self.fixture_path('conceptlist.tsv')) as out:
+                self.assertIn('CONCEPTICON_ID', out)
+
+            self.assertGreater(len(self.api.conceptsets['217'].concepts), 8)
+
+    def test_lookup(self):
+        if self.api.repos.exists():
+            assert self.api.lookup(['sky']) == {'sky': ('1732', 'SKY')}
+    
     def test_Concepticon(self):
-        from pyconcepticon.api import Concepticon
-        con = Concepticon()
-        assert len(con.frequencies) <= len(con.conceptsets)
+        assert len(self.api.frequencies) <= len(self.api.conceptsets)
     
