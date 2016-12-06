@@ -30,6 +30,7 @@ class Concepticon(object):
         :param repos: Path to a clone or source dump of concepticon-data.
         """
         self.repos = Path(repos) if repos else REPOS_PATH
+        self._to_mapping = {}
 
     def data_path(self, *comps):
         """
@@ -117,7 +118,6 @@ class Concepticon(object):
         return D
     
     def _get_map_for_language(self, language, otherlist=None):
-        self._to_mapping = getattr(self, "_to_mapping", {})
         if (language, otherlist) not in self._to_mapping:
             if otherlist is not None:
                 to = []
