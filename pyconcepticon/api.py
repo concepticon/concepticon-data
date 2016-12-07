@@ -12,10 +12,14 @@ from clldutils import jsonlib
 from clldutils.misc import cached_property
 from clldutils.dsv import UnicodeWriter
 
-from pyconcepticon import data
 from pyconcepticon.util import (
     REPOS_PATH, PKG_PATH, data_path, read_dicts, split, lowercase, to_dict, split_ids)
 from pyconcepticon.glosses import concept_map, concept_map2
+
+
+@attr.s
+class Languoid(object):
+    glottocode = attr.ib()
 
 
 class Concepticon(object):
@@ -37,6 +41,18 @@ class Concepticon(object):
         Create a path relative to the `concepticondata` directory within the source repos.
         """
         return data_path(*comps, **{'repos': self.repos})
+
+    @cached_property()
+    def vocabularies(self):
+        """
+        Provide access to a `dict` of controlled vocabularies.
+        """
+        res = jsonlib.load(self.data_path('concepticon.json'))
+        for k in res['COLUMN_TYPES']:
+            v = res['COLUMN_TYPES'][k]
+            if isinstance(v, list) and v and v[0] == 'languoid':
+                res['COLUMN_TYPES'][k] = Languoid(v[1])
+        return res
 
     @property
     def bibfile(self):
@@ -230,7 +246,9 @@ class Bag(object):
 
 
 def valid_key(instance, attribute, value):
-    vocabulary = getattr(data, attribute.name.upper(), None)
+    vocabulary = None
+    if isinstance(instance._api, Concepticon):
+        vocabulary = instance._api.vocabularies[attribute.name.upper()]
     if value and vocabulary:
         if not isinstance(value, (list, tuple)):
             value = [value]
