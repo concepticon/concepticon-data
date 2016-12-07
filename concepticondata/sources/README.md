@@ -10,6 +10,7 @@
 - [Bowern2008 [PDF 14.0KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-E2BF-10CA-4D98-0/Bowern2008.pdf)
 - [Bowern2012 [PDF 52.4KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-3623-2679-3CA7-0/Bowern2012.pdf)
 - [Brinton1891 [PDF 147.2KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-DF06-814E-76E4-0/Brinton1891.pdf)
+- [Bromley1967 [PDF 849.5KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-4876-30F5-783B-0/Bromley1967.pdf)
 - [Buck1949 [PDF 2.2MB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-CE1F-FFC5-C004-0/Buck1949.pdf)
 - [Calero2002 [PDF 13.1KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-0B99-B2E7-F457-0/Calero2002.pdf)
 - [Campbell1999 [PDF 57.4KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-EC01-62C4-30ED-0/Campbell1999.pdf)
