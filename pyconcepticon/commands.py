@@ -267,7 +267,7 @@ def readme(outdir, text):
 def stats(args):
     """
     write statistics to README
-    
+
     concepticon stats
     """
     api = Concepticon(args.data)
@@ -405,7 +405,7 @@ def upload_sources(args):
 def lookup(args):
     """
     Looks up a single gloss from the commandline.
-    
+
     concepticon lookup <gloss1 gloss2 ... glossN>
     """
     api = Concepticon()
@@ -415,4 +415,3 @@ def lookup(args):
         for f in sorted(found):
             writer.writerow([f, found[f][0], found[f][1]])
         print(writer.read().decode('utf-8'))
-    

@@ -132,7 +132,7 @@ class Concepticon(object):
                 if concept.concepticon_id:
                     D[concept.concepticon_gloss] += 1
         return D
-    
+
     def _get_map_for_language(self, language, otherlist=None):
         if (language, otherlist) not in self._to_mapping:
             if otherlist is not None:
@@ -144,7 +144,7 @@ class Concepticon(object):
                 to = [(cs['ID'], cs['GLOSS']) for cs in read_dicts(mapfile)]
             self._to_mapping[(language, otherlist)] = to
         return self._to_mapping[(language, otherlist)]
-    
+
     def map(self, clist, otherlist=None, out=None, full_search=False,
             similarity_level=5, language='en'):
         assert clist.exists(), "File %s does not exist" % clist
@@ -153,9 +153,9 @@ class Concepticon(object):
             from_.append((
                 item.get('ID', item.get('NUMBER')),
                 item.get('GLOSS', item.get('ENGLISH'))))
-        
+
         to = self._get_map_for_language(language, otherlist)
-        
+
         if not full_search:
             cmap = concept_map2(
                 [i[1] for i in from_],
@@ -181,7 +181,7 @@ class Concepticon(object):
                         writer.writerow(row)
                     else:
                         # we need a list to retain the order by frequency
-                        visited = [] 
+                        visited = []
                         for j in matches:
                             gls, cid = to[j][0], to[j][1].split('///')[0]
                             if (gls, cid) not in visited:
@@ -215,7 +215,7 @@ class Concepticon(object):
 
         if out is None:
             print(writer.read().decode('utf-8'))
-    
+
     def lookup(self, entries, full_search=False, similarity_level=5, language='en'):
         to = self._get_map_for_language(language, None)
         if full_search:
@@ -228,7 +228,7 @@ class Concepticon(object):
             )
         else:
             cmap = concept_map(entries, [i[1] for i in to], similarity_level=similarity_level)
-        
+
         out = {}
         for i, e in enumerate(entries):
             match = cmap.get(i, [None])[0]
@@ -237,7 +237,7 @@ class Concepticon(object):
                 to[match][1].split("///")[0] if match else None
             )
         return out
-        
+
 
 class Bag(object):
     @classmethod
