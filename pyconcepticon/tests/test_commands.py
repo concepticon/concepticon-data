@@ -77,7 +77,7 @@ class Tests(WithTempDirMixin, TestWithFixture):
     
     def test_lookup(self):
         from pyconcepticon.commands import lookup
-        with capture(lookup, MagicMock(args=['sky'])) as out:
+        with capture(lookup, MagicMock(args=['sky'], language='en')) as out:
             self.assertIn('1732', out)
         
         
