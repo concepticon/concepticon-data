@@ -217,6 +217,9 @@ class Concepticon(object):
             print(writer.read().decode('utf-8'))
 
     def lookup(self, entries, full_search=False, similarity_level=5, language='en'):
+        """
+        :returns: `generator` of tuples (searchterm, concepticon_id, concepticon_gloss, similarity). 
+        """
         to = self._get_map_for_language(language, None)
         if full_search:
             cmap = concept_map2(
@@ -228,15 +231,13 @@ class Concepticon(object):
             )
         else:
             cmap = concept_map(entries, [i[1] for i in to], similarity_level=similarity_level)
-
-        out = {}
+        
         for i, e in enumerate(entries):
-            match = cmap.get(i, [None])[0]
-            out[e] = (
-                to[match][0] if match else None,
-                to[match][1].split("///")[0] if match else None
-            )
-        return out
+            match, simil = cmap.get(i, [[], 100])
+            if type(match) == int:  # yuck
+                match = [match]
+            for m in match:
+                yield (e, to[m][0], to[m][1].split("///")[0], simil)
 
 
 class Bag(object):
