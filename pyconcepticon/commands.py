@@ -409,7 +409,9 @@ def lookup(args):
     concepticon lookup <gloss1 gloss2 ... glossN>
     """
     api = Concepticon()
-    found = api.lookup(args.args)
+    found = api.lookup(
+        args.args, language=args.language, full_search=args.full_search, similarity_level=args.similarity
+    )
     with UnicodeWriter(None, delimiter='\t') as writer:
         writer.writerow(['GLOSS', 'CONCEPTICON_ID', 'CONCEPTICON_GLOSS', 'SIMILARITY'])
         for f in found:
