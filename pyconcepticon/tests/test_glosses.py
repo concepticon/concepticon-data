@@ -37,8 +37,17 @@ class Tests(TestCase):
         g1 = Gloss.from_string('der Berg', language='de')
         g2 = Gloss.from_string('Berg')
         self.assertEqual(g1.similarity(g2), 4)
+
         g = Gloss.from_string('la montagne', language='fr')
         self.assertEqual(g.pos, '')
+        
+        g1 = Gloss.from_string('montagne', language='fr')
+        g2 = Gloss.from_string('la montagne', language='fr')
+        self.assertEqual(g1.similarity(g2), 6)
+        
+        # error on invalid gloss
+        with self.assertRaises(ValueError):
+            parse_gloss(None)
 
     def test_concept_map(self):
         from pyconcepticon.glosses import concept_map
