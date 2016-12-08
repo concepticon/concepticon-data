@@ -411,7 +411,7 @@ def lookup(args):
     api = Concepticon()
     found = api.lookup(args.args)
     with UnicodeWriter(None, delimiter='\t') as writer:
-        writer.writerow(['GLOSS', 'CONCEPTICON_ID', 'CONCEPTICON_GLOSS'])
-        for f in sorted(found):
-            writer.writerow([f, found[f][0], found[f][1]])
+        writer.writerow(['GLOSS', 'CONCEPTICON_ID', 'CONCEPTICON_GLOSS', 'SIMILARITY'])
+        for f in found:
+            writer.writerow(f)
         print(writer.read().decode('utf-8'))
