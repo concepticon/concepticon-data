@@ -30,14 +30,6 @@ class Tests(TestWithFixture):
         d['gloss'] = 'g'
         Concept(**d)
 
-    def test_Conceptset(self):
-        from pyconcepticon.api import Conceptset
-
-        d = {a: '' for a in Conceptset.public_fields()}
-        d['semanticfield'] = 'xx'
-        with self.assertRaises(ValueError):
-            Conceptset(**d)
-            
     def test_Conceptlist(self):
         from pyconcepticon.api import Conceptlist
 
@@ -57,7 +49,16 @@ class TestConcepticon(TestWithFixture):
     @classmethod
     def setupClass(cls):
         cls.api = Concepticon()
-        
+
+    def test_Conceptset(self):
+        from pyconcepticon.api import Conceptset
+
+        d = {a: '' for a in Conceptset.public_fields()}
+        d['semanticfield'] = 'xx'
+        d['api'] = self.api
+        with self.assertRaises(ValueError):
+            Conceptset(**d)
+
     def test_map(self):
         if self.api.repos.exists():
             with capture(self.api.map, self.fixture_path('conceptlist.tsv')) as out:
@@ -67,8 +68,9 @@ class TestConcepticon(TestWithFixture):
 
     def test_lookup(self):
         if self.api.repos.exists():
-            assert self.api.lookup(['sky']) == {'sky': ('1732', 'SKY')}
-    
+            assert list(self.api.lookup(['sky'])) == [('sky', '1732', 'SKY', 2)]
+            # there are at least five 'thins' so lets see if we get them.
+            assert len(list(self.api.lookup(['thin'], full_search=True))) >= 5
+            
     def test_Concepticon(self):
         assert len(self.api.frequencies) <= len(self.api.conceptsets)
-    

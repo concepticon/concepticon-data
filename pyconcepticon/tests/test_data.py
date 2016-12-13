@@ -57,7 +57,7 @@ def test():
         refs_in_text = re.findall(BIB_PATTERN, cl.note)
         for ref in refs_in_text:
             all_refs.add(ref)
-        
+
         # make also sure that all sources are accompanied by a PDF, but only write a
         # warning if this is not the case
         for ref in cl.pdf:

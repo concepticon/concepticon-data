@@ -224,8 +224,11 @@ def concept_map2(from_, to, similarity_level=5, freqs=None, language='en'):
                 mapping[i] = best
                 sims[i] = current_sim
     for i in mapping:
-        mapping[i] = sorted(mapping[i], key=lambda x: freqs.get(to[x].split('///')[0], 0),
-                reverse=True), sims[i]
+        mapping[i] = (
+            sorted(
+                mapping[i], key=lambda x: freqs.get(to[x].split('///')[0], 0),
+                reverse=True),
+            sims[i])
     return mapping
 
 

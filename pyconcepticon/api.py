@@ -12,10 +12,14 @@ from clldutils import jsonlib
 from clldutils.misc import cached_property
 from clldutils.dsv import UnicodeWriter
 
-from pyconcepticon import data
 from pyconcepticon.util import (
     REPOS_PATH, PKG_PATH, data_path, read_dicts, split, lowercase, to_dict, split_ids)
 from pyconcepticon.glosses import concept_map, concept_map2
+
+
+@attr.s
+class Languoid(object):
+    glottocode = attr.ib()
 
 
 class Concepticon(object):
@@ -37,6 +41,18 @@ class Concepticon(object):
         Create a path relative to the `concepticondata` directory within the source repos.
         """
         return data_path(*comps, **{'repos': self.repos})
+
+    @cached_property()
+    def vocabularies(self):
+        """
+        Provide access to a `dict` of controlled vocabularies.
+        """
+        res = jsonlib.load(self.data_path('concepticon.json'))
+        for k in res['COLUMN_TYPES']:
+            v = res['COLUMN_TYPES'][k]
+            if isinstance(v, list) and v and v[0] == 'languoid':
+                res['COLUMN_TYPES'][k] = Languoid(v[1])
+        return res
 
     @property
     def bibfile(self):
@@ -116,7 +132,7 @@ class Concepticon(object):
                 if concept.concepticon_id:
                     D[concept.concepticon_gloss] += 1
         return D
-    
+
     def _get_map_for_language(self, language, otherlist=None):
         if (language, otherlist) not in self._to_mapping:
             if otherlist is not None:
@@ -128,7 +144,7 @@ class Concepticon(object):
                 to = [(cs['ID'], cs['GLOSS']) for cs in read_dicts(mapfile)]
             self._to_mapping[(language, otherlist)] = to
         return self._to_mapping[(language, otherlist)]
-    
+
     def map(self, clist, otherlist=None, out=None, full_search=False,
             similarity_level=5, language='en'):
         assert clist.exists(), "File %s does not exist" % clist
@@ -137,9 +153,9 @@ class Concepticon(object):
             from_.append((
                 item.get('ID', item.get('NUMBER')),
                 item.get('GLOSS', item.get('ENGLISH'))))
-        
+
         to = self._get_map_for_language(language, otherlist)
-        
+
         if not full_search:
             cmap = concept_map2(
                 [i[1] for i in from_],
@@ -165,7 +181,7 @@ class Concepticon(object):
                         writer.writerow(row)
                     else:
                         # we need a list to retain the order by frequency
-                        visited = [] 
+                        visited = []
                         for j in matches:
                             gls, cid = to[j][0], to[j][1].split('///')[0]
                             if (gls, cid) not in visited:
@@ -199,8 +215,11 @@ class Concepticon(object):
 
         if out is None:
             print(writer.read().decode('utf-8'))
-    
+
     def lookup(self, entries, full_search=False, similarity_level=5, language='en'):
+        """
+        :returns: `generator` of tuples (searchterm, concepticon_id, concepticon_gloss, similarity). 
+        """
         to = self._get_map_for_language(language, None)
         if full_search:
             cmap = concept_map2(
@@ -213,15 +232,13 @@ class Concepticon(object):
         else:
             cmap = concept_map(entries, [i[1] for i in to], similarity_level=similarity_level)
         
-        out = {}
         for i, e in enumerate(entries):
-            match = cmap.get(i, [None])[0]
-            out[e] = (
-                to[match][0] if match else None,
-                to[match][1].split("///")[0] if match else None
-            )
-        return out
-        
+            match, simil = cmap.get(i, [[], 100])
+            if type(match) == int:  # yuck
+                match = [match]
+            for m in match:
+                yield (e, to[m][0], to[m][1].split("///")[0], simil)
+
 
 class Bag(object):
     @classmethod
@@ -230,7 +247,9 @@ class Bag(object):
 
 
 def valid_key(instance, attribute, value):
-    vocabulary = getattr(data, attribute.name.upper(), None)
+    vocabulary = None
+    if isinstance(instance._api, Concepticon):
+        vocabulary = instance._api.vocabularies[attribute.name.upper()]
     if value and vocabulary:
         if not isinstance(value, (list, tuple)):
             value = [value]
