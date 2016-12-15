@@ -417,3 +417,56 @@ def lookup(args):
         for f in found:
             writer.writerow(f)
         print(writer.read().decode('utf-8'))
+
+
+def check(args):
+    """
+    Identifies some issues with wordlists 
+    -- i.e. multiple words with the same CONCEPTICON_ID or missing definitions
+
+    concepticon check <dataset>
+    """
+    
+    def _pprint(clist, error, _id, message):
+        print("\t".join([
+            clist.ljust(30), error.ljust(10), '%5s' % _id, message
+            
+        ]))
+    
+    def _get_mergers(api, clist):
+        o = api.conceptlists[clist]
+        # clashes
+        clashes = defaultdict(list)
+        for c in o.concepts:
+            clashes[o.concepts[c].concepticon_id].append(c)
+        
+        if '' in clashes:
+            clashes.pop('')
+        
+        for c in sorted([c for c in clashes if len(clashes[c]) > 1]):
+            matches = [m for m in o.concepts if o.concepts[m].concepticon_id == c]
+            for i, m in enumerate(matches, 1):
+                message = '#%d %s = "%s"' % (
+                    i,
+                    api.conceptsets[c].gloss,
+                    getattr(o.concepts[m], 'english', '')
+                )
+                _pprint(clist, 'MERGE', c, message)
+        
+    def _get_missing(api, clist):
+        o = api.conceptlists[clist]
+        missings = [c for c in o.concepts if o.concepts[c].concepticon_id == ""]
+        concepts = api.conceptlists[clist].concepts
+        for m in missings:
+            _pprint(clist, 'MISSING', concepts[m].number, '"%s"' % concepts[m].english)
+    
+    api = Concepticon(args.data)
+    # conceptlists to check
+    if len(args.args):
+        clists = [_ for _ in api.conceptlists if _ in args.args]
+    else:
+        clists = api.conceptlists
+    # check
+    for clist in clists:
+        _get_missing(api, clist)
+        _get_mergers(api, clist)
