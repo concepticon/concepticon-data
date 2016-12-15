@@ -421,10 +421,10 @@ def lookup(args):
 
 def check(args):
     """
-    Identifies some issues with wordlists 
+    Identifies some issues with concept lists.
     -- i.e. multiple words with the same CONCEPTICON_ID or missing definitions
 
-    concepticon check <dataset>
+    concepticon check [CONCEPTLIST_ID]+
     """
     
     def _pprint(clist, error, _id, message):
