@@ -20,7 +20,7 @@ from clldutils.clilib import ArgumentParser
 from clldutils.path import Path
 
 from pyconcepticon.commands import (
-    link, stats, attributes, intersection, union, map_concepts, upload_sources, lookup
+    link, stats, attributes, intersection, union, map_concepts, upload_sources, lookup, check
 )
 import pyconcepticon
 
@@ -35,7 +35,8 @@ def main():  # pragma: no cover
         union,
         upload_sources,
         map_concepts,
-        lookup)
+        lookup,
+        check)
     parser.add_argument(
         '--data',
         help="path to concepticon-data",
