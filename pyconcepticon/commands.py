@@ -427,9 +427,9 @@ def check(args):
     concepticon check <dataset>
     """
     
-    def _pprint(clist, error, _id, *extra):
+    def _pprint(clist, error, _id, message):
         print("\t".join([
-            clist.ljust(30), error.ljust(10), '%5s' % _id, *extra
+            clist.ljust(30), error.ljust(10), '%5s' % _id, message
             
         ]))
     
