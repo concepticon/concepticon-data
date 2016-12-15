@@ -433,7 +433,7 @@ def check(args):
             
         ]))
     
-    def _get_clashes(api, clist):
+    def _get_mergers(api, clist):
         o = api.conceptlists[clist]
         # clashes
         clashes = defaultdict(list)
@@ -451,7 +451,7 @@ def check(args):
                     api.conceptsets[c].gloss,
                     getattr(o.concepts[m], 'english', '')
                 )
-                _pprint(clist, 'DUPLICATE', c, message)
+                _pprint(clist, 'MERGE', c, message)
         
     def _get_missing(api, clist):
         o = api.conceptlists[clist]
@@ -469,4 +469,4 @@ def check(args):
     # check
     for clist in clists:
         _get_missing(api, clist)
-        _get_clashes(api, clist)
+        _get_mergers(api, clist)
