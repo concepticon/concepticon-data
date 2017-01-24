@@ -20,7 +20,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        'clldutils>=1.5.1',
+        'clldutils>=1.7.1',
         'bibtexparser',
         'tabulate',
         'attrs',
