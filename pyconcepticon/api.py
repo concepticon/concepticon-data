@@ -191,9 +191,10 @@ class Concepticon(object):
                         row.extend([visited[0][0], visited[0][1], sim])
                         writer.writerow(row)
             writer.writerow(
-                ['#'] +
-                (len(from_[0]) - 1) * [''] +
-                [good_matches, len(from_), '{0:.2f}'.format(good_matches / len(from_))])
+                ['#',
+                 '{0}/{1}'.format(good_matches, len(from_)),
+                 '{0:.0f}%'.format(100 * good_matches / len(from_))] +
+                (len(from_[0]) - 1) * [''])
 
         if out is None:
             print(writer.read().decode('utf-8'))
