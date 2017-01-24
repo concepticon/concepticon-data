@@ -193,7 +193,7 @@ def parse_gloss(gloss, language='en'):
     return G
 
 
-def concept_map2(from_, to, similarity_level=5, freqs=None, language='en'):
+def concept_map2(from_, to, freqs=None, language='en', **_):
     # get frequencies
     freqs = freqs or defaultdict(int)
 
@@ -232,21 +232,21 @@ def concept_map2(from_, to, similarity_level=5, freqs=None, language='en'):
     return mapping
 
 
-def concept_map(from_, to, similarity_level=5):
+def concept_map(from_, to, similarity_level=5, **_):
     """
     Function compares two concept lists and outputs suggestions for mapping.
 
     Notes
     -----
-    Idea is to take one conceptlist as the basic list and then to search for a
-    plausible mapping of concepts in the second list to the first list. All
-    suggestions can then be output in various forms, both with multiple matches
-    excluded or included, and in textform or in other forms.
+    Idea is to take one conceptlist as the basic list and then to search for a plausible
+    mapping of concepts in the second list to the first list. All suggestions can then be
+    output in various forms, both with multiple matches excluded or included, and in
+    textform or in other forms.
 
-    What is important, regarding the output here, is, that the output contains
-    all matches, including non-matched items which occur **in the second list
-    but not in the first list**. Non-matched items which occur in the first
-    list but not in the second list are ignored.
+    What is important, regarding the output here, is, that the output contains all
+    matches, including non-matched items which occur **in the second list but not in the
+    first list**. Non-matched items which occur in the first list but not in the second
+    list are ignored.
     """
     # extract glossing information from the data
     glosses = {'from': {}, 'to': {}}
@@ -274,14 +274,12 @@ def concept_map(from_, to, similarity_level=5):
                         sims.append((i, j, sim, tgloss.frequency))
 
     # we keep track of which target concepts have already been chosen as best matches:
-    consumed = set()
-    best = {}
-    alternatives = defaultdict(list)
+    best, consumed, alternatives = {}, set(), defaultdict(list)
 
     # go through *all* matches from best to worst:
     for i, j, sim, frequency in sorted(sims, key=lambda x: (x[2], -x[3])):
         if i not in best and j not in consumed:
-            best[i] = (j, sim)
+            best[i] = ([j], sim)
             consumed.add(j)
         elif j not in alternatives[i]:
             alternatives[i].append(j)
