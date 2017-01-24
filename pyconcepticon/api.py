@@ -10,10 +10,11 @@ import attr
 from clldutils.path import Path
 from clldutils import jsonlib
 from clldutils.misc import cached_property
-from clldutils.dsv import UnicodeWriter
 
 from pyconcepticon.util import (
-    REPOS_PATH, PKG_PATH, data_path, read_dicts, split, lowercase, to_dict, split_ids)
+    REPOS_PATH, PKG_PATH, data_path, read_dicts, split, lowercase, to_dict, split_ids,
+    UnicodeWriter,
+)
 from pyconcepticon.glosses import concept_map, concept_map2
 
 
@@ -148,71 +149,51 @@ class Concepticon(object):
     def map(self, clist, otherlist=None, out=None, full_search=False,
             similarity_level=5, language='en', skip_multiple=False):
         assert clist.exists(), "File %s does not exist" % clist
-        from_ = []
-        for item in read_dicts(clist):
-            from_.append((
-                item.get('ID', item.get('NUMBER')),
-                item.get('GLOSS', item.get('ENGLISH'))))
+        from_ = read_dicts(clist)
 
         to = self._get_map_for_language(language, otherlist)
-
-        if not full_search:
-            cmap = concept_map2(
-                [i[1] for i in from_],
-                [i[1] for i in to],
-                similarity_level=similarity_level,
-                freqs=self.frequencies,
-                language=language
-            )
-            good_matches = 0
-            with UnicodeWriter(out, delimiter='\t') as writer:
-                writer.writerow([
-                    'ID', 'GLOSS', 'CONCEPTICON_ID', 'CONCEPTICON_GLOSS', 'SIMILARITY'])
-                for i, (fid, fgloss) in enumerate(from_):
-                    row = [fid, fgloss]
-                    matches, sim = cmap.get(i, ([], 10))
-                    if sim <= 5:
-                        good_matches += 1
-                    if not matches:
-                        writer.writerow(row + ['', '???', ''])
-                    elif len(matches) == 1:
-                        row.extend([
-                            to[matches[0]][0], to[matches[0]][1].split('///')[0], sim])
-                        writer.writerow(row)
-                    else:
-                        # we need a list to retain the order by frequency
-                        visited = []
-                        for j in matches:
-                            gls, cid = to[j][0], to[j][1].split('///')[0]
-                            if (gls, cid) not in visited:
-                                visited += [(gls, cid)]
-                        if len(visited) > 1:
-                            if not skip_multiple:
-                                writer.writerow(['<<<', '', '', ''])
-                                for gls, cid in visited:
-                                    writer.writerow(row + [gls, cid, sim])
-                                writer.writerow(['>>>', '', '', ''])
-                        else:
-                            row.extend([visited[0][0], visited[0][1], sim])
-                            writer.writerow(row)
-                writer.writerow([
-                    '#',
-                    good_matches,
-                    len(from_),
-                    '{0:.2f}'.format(good_matches / len(from_))])
-        else:
-            cmap = concept_map(
-                [i[1] for i in from_],
-                [i[1] for i in self._get_map_for_language(language, otherlist)],
-                similarity_level=similarity_level
-            )
-            with UnicodeWriter(out, delimiter='\t') as writer:
-                writer.writerow(['ID', 'GLOSS', 'CONCEPTICON_ID', 'CONCEPTICON_GLOSS'])
-                for i, (fid, fgloss) in enumerate(from_):
-                    row = [fid, fgloss]
-                    match = cmap.get(i)
-                    row.extend(list(to[match[0][0]]) if match else ['', ''])
+        cmap = (concept_map if full_search else concept_map2)(
+            [i.get('GLOSS', i.get('ENGLISH')) for i in from_],
+            [i[1] for i in to],
+            similarity_level=similarity_level,
+            freqs=self.frequencies,
+            language=language
+        )
+        good_matches = 0
+        with UnicodeWriter(out) as writer:
+            writer.writerow(
+                list(from_[0].keys()) +
+                ['CONCEPTICON_ID', 'CONCEPTICON_GLOSS', 'SIMILARITY'])
+            for i, item in enumerate(from_):
+                row = list(item.values())
+                matches, sim = cmap.get(i, ([], 10))
+                if sim <= similarity_level:
+                    good_matches += 1
+                if not matches:
+                    writer.writerow(row + ['', '???', ''])
+                elif len(matches) == 1:
+                    row.extend([
+                        to[matches[0]][0], to[matches[0]][1].split('///')[0], sim])
                     writer.writerow(row)
+                else:
+                    assert not full_search
+                    # we need a list to retain the order by frequency
+                    visited = []
+                    for j in matches:
+                        gls, cid = to[j][0], to[j][1].split('///')[0]
+                        if (gls, cid) not in visited:
+                            visited += [(gls, cid)]
+                    if len(visited) > 1:
+                        if not skip_multiple:
+                            writer.writeblock(
+                                row + [gls, cid, sim] for gls, cid in visited)
+                    else:
+                        row.extend([visited[0][0], visited[0][1], sim])
+                        writer.writerow(row)
+            writer.writerow(
+                ['#'] +
+                (len(from_[0]) - 1) * [''] +
+                [good_matches, len(from_), '{0:.2f}'.format(good_matches / len(from_))])
 
         if out is None:
             print(writer.read().decode('utf-8'))
