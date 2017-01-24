@@ -19,28 +19,22 @@ from six import text_type
 from clldutils.clilib import ArgumentParser
 from clldutils.path import Path
 
-from pyconcepticon.commands import (
-    link, stats, attributes, intersection, union, map_concepts, upload_sources, lookup, check
-)
 import pyconcepticon
+from pyconcepticon import commands
+assert commands
 
 
 def main():  # pragma: no cover
-    parser = ArgumentParser(
-        __name__,
-        link,
-        stats,
-        attributes,
-        intersection,
-        union,
-        upload_sources,
-        map_concepts,
-        lookup,
-        check)
+    parser = ArgumentParser(__name__)
     parser.add_argument(
         '--data',
         help="path to concepticon-data",
         default=Path(pyconcepticon.__file__).parent.parent)
+    parser.add_argument(
+        '--skip_multimatch',
+        help="",
+        default=False,
+        action='store_true')
     parser.add_argument(
         '--full_search',
         help="select between approximate search (default) and full search",

@@ -67,7 +67,20 @@ def read_dicts(fname, schema=None, **kw):
 class UnicodeWriter(dsv.UnicodeWriter):
     def __init__(self, *args, **kw):
         kw.setdefault('delimiter', '\t')
+        self._rownum = None
         super(UnicodeWriter, self).__init__(*args, **kw)
+
+    def writerow(self, row):
+        if self._rownum is None:
+            self._rownum = len(row)
+        dsv.UnicodeWriter.writerow(self, row)
+
+    def writeblock(self, rows, start='#<<<', end='#>>>'):
+        assert self._rownum
+        self.writerow([start] + (self._rownum - 1) * [''])
+        for row in rows:
+            self.writerow(row)
+        self.writerow([end] + (self._rownum - 1) * [''])
 
 
 def lowercase(d):

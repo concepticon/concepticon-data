@@ -8,7 +8,7 @@ from functools import partial
 from six import text_type
 from tabulate import tabulate
 from clldutils.path import Path, as_unicode
-from clldutils.clilib import ParserError
+from clldutils.clilib import ParserError, command
 from clldutils.dsv import UnicodeWriter
 from clldutils.markup import Table
 from clldutils.misc import format_size
@@ -80,6 +80,7 @@ class Linker(object):
         return row
 
 
+@command()
 def link(args):
     """
     Complete linking of concepts to concept sets. If either CONCEPTICON_GLOSS or
@@ -97,6 +98,7 @@ def link(args):
     rewrite(conceptlist, Linker(conceptlist.stem, api.conceptsets.values()))
 
 
+@command()
 def attributes(args):
     """Calculate the addditional attributes in the lists."""
     api = Concepticon(args.data)
@@ -228,6 +230,7 @@ def _set_operation(args, type_):
     return out
 
 
+@command()
 def intersection(args):
     """
     Compare how many concepts overlap in concept lists.
@@ -245,16 +248,22 @@ def intersection(args):
     return _set_operation(args, 'intersection')
 
 
+@command()
 def union(args):
     """Calculate the union of several concept lists."""
     return _set_operation(args, 'union')
 
 
+@command()
 def map_concepts(args):
     api = Concepticon(args.data)
-    api.map(Path(args.args[0]), otherlist=args.args[1] if len(args.args) > 1
-            else None, out=args.output,
-            full_search=args.full_search, language=args.language)
+    api.map(
+        Path(args.args[0]),
+        otherlist=args.args[1] if len(args.args) > 1 else None,
+        out=args.output,
+        full_search=args.full_search,
+        language=args.language,
+        skip_multiple=args.skip_multimatch)
 
 
 def readme(outdir, text):
@@ -264,6 +273,7 @@ def readme(outdir, text):
         fp.write(text)
 
 
+@command()
 def stats(args):
     """
     write statistics to README
@@ -374,15 +384,17 @@ def readme_concepticondata(api, cls):
     return D, G
 
 
+@command()
 def upload_sources(args):
     """
     concepticon upload_sources path/to/cdstar/catalog
     """
+    catalog_path = args.args[0] if args.args else os.environ['CDSTAR_CATALOG']
     toc = ['# Sources\n']
     api = Concepticon(args.data)
     with SourcesCatalog(api.data_path('sources', 'cdstar.json')) as lcat:
         with Catalog(
-                args.args[0],
+                catalog_path,
                 cdstar_url=os.environ['CDSTAR_URL'],
                 cdstar_user=os.environ['CDSTAR_USER'],
                 cdstar_pwd=os.environ['CDSTAR_PWD']) as cat:
@@ -400,8 +412,10 @@ def upload_sources(args):
                 key, format_size(spec['size']), spec['url']))
 
     readme(api.data_path('sources'), toc)
+    print(catalog_path)
 
 
+@command()
 def lookup(args):
     """
     Looks up a single gloss from the commandline.
@@ -419,6 +433,7 @@ def lookup(args):
         print(writer.read().decode('utf-8'))
 
 
+@command()
 def check(args):
     """
     Identifies some issues with concept lists.
