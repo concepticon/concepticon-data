@@ -256,11 +256,21 @@ class Conceptset(Bag):
     semanticfield = attr.ib(validator=valid_key)
     definition = attr.ib()
     ontological_category = attr.ib(validator=valid_key)
+    replacement_id = attr.ib()
     _api = attr.ib(default=None)
+
+    @property
+    def superseded(self):
+        return bool(self.replacement_id)
+
+    @property
+    def replacement(self):
+        if self._api and self.replacement_id:
+            return self._api.conceptsets[self.replacement_id]
 
     @cached_property()
     def relations(self):
-        return self._api.relations[self.id] if self._api else {}
+        return self._api.relations.get(self.id, {}) if self._api else {}
 
     @cached_property()
     def concepts(self):

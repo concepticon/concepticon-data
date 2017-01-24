@@ -9,7 +9,7 @@ from six import text_type
 from tabulate import tabulate
 from clldutils.path import Path, as_unicode
 from clldutils.clilib import ParserError, command
-from clldutils.dsv import UnicodeWriter
+from clldutils.dsv import UnicodeWriter, reader
 from clldutils.markup import Table
 from clldutils.misc import format_size
 from cdstarcat.catalog import Catalog
@@ -485,3 +485,28 @@ def check(args):
     for clist in clists:
         _get_missing(api, clist)
         _get_mergers(api, clist)
+
+    sameas = {}
+    for cs in api.conceptsets.values():
+        for target, rel in cs.relations.items():
+            if rel == 'sameas':
+                for group in sameas.values():
+                    if target in group:
+                        group.add(cs.id)
+                        break
+                else:
+                    sameas[cs.gloss] = {cs.id, target}
+
+    deprecated = {}
+    for s in sameas.values():
+        csids = sorted(s, key=lambda j: int(j))
+        for csid in csids[1:]:
+            assert csid not in deprecated
+            deprecated[csid] = csids[0]
+
+    for cl in api.conceptlists.values():
+        for concept in cl.concepts.values():
+            if concept.concepticon_id in deprecated:
+                cs = api.conceptsets[deprecated[concept.concepticon_id]]
+                _pprint(
+                    cl, 'DEPRECATED', concept.id, 'link to {0.id} {1.gloss}'.format(cs))
