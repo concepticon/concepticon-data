@@ -42,6 +42,11 @@ def main():  # pragma: no cover
         help="path to concepticon-data",
         default=Path(pyconcepticon.__file__).parent.parent)
     parser.add_argument(
+        '--skip_multimatch',
+        help="",
+        default=False,
+        action='store_true')
+    parser.add_argument(
         '--full_search',
         help="select between approximate search (default) and full search",
         default=False,

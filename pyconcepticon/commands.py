@@ -252,9 +252,13 @@ def union(args):
 
 def map_concepts(args):
     api = Concepticon(args.data)
-    api.map(Path(args.args[0]), otherlist=args.args[1] if len(args.args) > 1
-            else None, out=args.output,
-            full_search=args.full_search, language=args.language)
+    api.map(
+        Path(args.args[0]),
+        otherlist=args.args[1] if len(args.args) > 1 else None,
+        out=args.output,
+        full_search=args.full_search,
+        language=args.language,
+        skip_multiple=args.skip_multimatch)
 
 
 def readme(outdir, text):
@@ -378,11 +382,12 @@ def upload_sources(args):
     """
     concepticon upload_sources path/to/cdstar/catalog
     """
+    catalog_path = args.args[0] if args.args else os.environ['CDSTAR_CATALOG']
     toc = ['# Sources\n']
     api = Concepticon(args.data)
     with SourcesCatalog(api.data_path('sources', 'cdstar.json')) as lcat:
         with Catalog(
-                args.args[0],
+                catalog_path,
                 cdstar_url=os.environ['CDSTAR_URL'],
                 cdstar_user=os.environ['CDSTAR_USER'],
                 cdstar_pwd=os.environ['CDSTAR_PWD']) as cat:
@@ -400,6 +405,7 @@ def upload_sources(args):
                 key, format_size(spec['size']), spec['url']))
 
     readme(api.data_path('sources'), toc)
+    print(catalog_path)
 
 
 def lookup(args):

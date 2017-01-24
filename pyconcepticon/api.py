@@ -146,7 +146,7 @@ class Concepticon(object):
         return self._to_mapping[(language, otherlist)]
 
     def map(self, clist, otherlist=None, out=None, full_search=False,
-            similarity_level=5, language='en'):
+            similarity_level=5, language='en', skip_multiple=False):
         assert clist.exists(), "File %s does not exist" % clist
         from_ = []
         for item in read_dicts(clist):
@@ -187,10 +187,11 @@ class Concepticon(object):
                             if (gls, cid) not in visited:
                                 visited += [(gls, cid)]
                         if len(visited) > 1:
-                            writer.writerow(['<<<', '', '', ''])
-                            for gls, cid in visited:
-                                writer.writerow(row + [gls, cid, sim])
-                            writer.writerow(['>>>', '', '', ''])
+                            if not skip_multiple:
+                                writer.writerow(['<<<', '', '', ''])
+                                for gls, cid in visited:
+                                    writer.writerow(row + [gls, cid, sim])
+                                writer.writerow(['>>>', '', '', ''])
                         else:
                             row.extend([visited[0][0], visited[0][1], sim])
                             writer.writerow(row)
