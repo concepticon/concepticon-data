@@ -9,12 +9,11 @@ from six import text_type
 from tabulate import tabulate
 from clldutils.path import Path, as_unicode
 from clldutils.clilib import ParserError, command
-from clldutils.dsv import UnicodeWriter
 from clldutils.markup import Table
 from clldutils.misc import format_size
 from cdstarcat.catalog import Catalog
 
-from pyconcepticon.util import rewrite, CS_ID, CS_GLOSS, SourcesCatalog
+from pyconcepticon.util import rewrite, CS_ID, CS_GLOSS, SourcesCatalog, UnicodeWriter
 from pyconcepticon.api import Concepticon, Conceptlist
 
 
@@ -424,9 +423,11 @@ def lookup(args):
     """
     api = Concepticon()
     found = api.lookup(
-        args.args, language=args.language, full_search=args.full_search, similarity_level=args.similarity
-    )
-    with UnicodeWriter(None, delimiter='\t') as writer:
+        args.args,
+        language=args.language,
+        full_search=args.full_search,
+        similarity_level=args.similarity)
+    with UnicodeWriter(None) as writer:
         writer.writerow(['GLOSS', 'CONCEPTICON_ID', 'CONCEPTICON_GLOSS', 'SIMILARITY'])
         for f in found:
             writer.writerow(f)

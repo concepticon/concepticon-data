@@ -98,8 +98,8 @@ ID	GLOSS	PRIORITY
 464	ALANG-ALANG GRASS///alang-alang grass	1
 464	ALANG-ALANG GRASS///the alang-alang grass	1
 464	ALANG-ALANG GRASS///the alang-alang grasss	1
-2050	ALCOHOL (DRINK)///the alcohol (drink)	0
-2050	ALCOHOL (DRINK)///the alcohol (drink)s	0
+404	ALCOHOL (FERMENTED DRINK)///the alcohol (drink)	0
+404	ALCOHOL (FERMENTED DRINK)///the alcohol (drink)s	0
 404	ALCOHOL (FERMENTED DRINK)///alcohol (drink)	1
 404	ALCOHOL (FERMENTED DRINK)///alcohol/liquor	1
 404	ALCOHOL (FERMENTED DRINK)///fermented drink	2
@@ -766,8 +766,8 @@ ID	GLOSS	PRIORITY
 904	BERRY///the berry	10
 904	BERRY///the berrys	10
 1816	BESIDE///beside	3
-2369	BETEL NUT///the betel nut	0
-2369	BETEL NUT///the betel nuts	0
+217	BETELNUT///the betel nut	0
+217	BETELNUT///the betel nuts	0
 177	BETEL PEPPER VINE///betel pepper vine	1
 177	BETEL PEPPER VINE///the betel pepper vine	1
 177	BETEL PEPPER VINE///the betel pepper vines	1
@@ -1415,8 +1415,8 @@ ID	GLOSS	PRIORITY
 2567	CAPON///capon	1
 2567	CAPON///the capon	1
 2567	CAPON///the capons	1
-1073	CAPTIVE///the captive	0
-1073	CAPTIVE///the captives	0
+1072	PRISONER///the captive	0
+1072	PRISONER///the captives	0
 314	CAPYBARA///CAPYBARA	1
 314	CAPYBARA///capybara	2
 314	CAPYBARA///the capybara	3
@@ -1490,7 +1490,7 @@ ID	GLOSS	PRIORITY
 466	CASSOWARY///the cassowarys	3
 211	CAST///cast (metals)	3
 211	CAST///to cast	5
-2563	CASTRATE///to castrate	0
+29	GELD///to castrate	0
 2565	CASTRATED BOAR///barrow	1
 2565	CASTRATED BOAR///the castrated boar	1
 2565	CASTRATED BOAR///the castrated boars	1
@@ -1633,8 +1633,8 @@ ID	GLOSS	PRIORITY
 1318	CHICKEN///hen (generic)	1
 1318	CHICKEN///the chicken	23
 1318	CHICKEN///the chickens	23
-2394	CHIEF///the chief	0
-2394	CHIEF///the chiefs	0
+301	CHIEFTAIN///the chief	0
+301	CHIEFTAIN///the chiefs	0
 301	CHIEFTAIN///chief	4
 301	CHIEFTAIN///chief (n.)	1
 301	CHIEFTAIN///chief, chieftain	2
@@ -1703,8 +1703,8 @@ ID	GLOSS	PRIORITY
 155	CHOP///chop (with axe)	1
 155	CHOP///chop, hew	2
 155	CHOP///to chop	7
-2054	CHOPSTICK///the chopstick	0
-2054	CHOPSTICK///the chopsticks	0
+1987	CHOPSTICKS///the chopstick	0
+1987	CHOPSTICKS///the chopsticks	0
 1987	CHOPSTICKS///chopstick	1
 1987	CHOPSTICKS///chopsticks	1
 1987	CHOPSTICKS///the chopsticks	2
@@ -1800,7 +1800,7 @@ ID	GLOSS	PRIORITY
 2063	CLOSE (EYES)///close (eyes)	1
 2063	CLOSE (EYES)///to close (eyes)	2
 2063	CLOSE (EYES)///to close one's eyes	1
-2211	CLOSE THE EYES///to close the eyes	0
+2063	CLOSE (EYES)///to close the eyes	0
 589	CLOSED///closed	1
 589	CLOSED///closed (adjective)	1
 1616	CLOTH///cloth	4
@@ -2713,8 +2713,8 @@ ID	GLOSS	PRIORITY
 1872	DUIKER///duiker	1
 1872	DUIKER///the duiker	1
 1872	DUIKER///the duikers	1
-1397	DULL///dull	1
-1397	DULL///dull (adjective)	1
+379	BLUNT///dull	1
+379	BLUNT///dull (adjective)	1
 1492	DUMB///dumb	1
 1492	DUMB///dumb (adjective)	1
 2057	DUNG (ANIMAL FAECES)///DUNG, (EXCREMENT)	1
@@ -3618,6 +3618,9 @@ ID	GLOSS	PRIORITY
 420	FOREST///woods	26
 420	FOREST///woods, forest	4
 420	FOREST///woods/forest	3
+420	FOREST///the woods	2
+420	FOREST///the woodss	2
+420	FOREST///woods	2
 288	FORGE///forge	3
 288	FORGE///forge (vb.)	1
 288	FORGE///smithing	1
@@ -3976,8 +3979,8 @@ ID	GLOSS	PRIORITY
 1496	GRANDMOTHER///grandmother (paternal)	1
 1496	GRANDMOTHER///the grandmother	11
 1496	GRANDMOTHER///the grandmothers	11
-2399	GRANDPARENT///the grandparent	0
-2399	GRANDPARENT///the grandparents	0
+305	GRANDPARENTS///the grandparent	0
+305	GRANDPARENTS///the grandparents	0
 305	GRANDPARENTS///grandparent	2
 305	GRANDPARENTS///the grandparents	4
 305	GRANDPARENTS///the grandparentss	4
@@ -5298,9 +5301,9 @@ ID	GLOSS	PRIORITY
 842	LIQUOR///the liquors	7
 1608	LISTEN///listen	6
 1608	LISTEN///to listen	9
-2309	LIVE///live	1
-2309	LIVE///live(alive)	1
-2309	LIVE///to live	2
+1422	BE ALIVE///live	1
+1422	BE ALIVE///live(alive)	1
+1422	BE ALIVE///to live	2
 1224	LIVER///LIVER	6
 1224	LIVER///Liver	3
 1224	LIVER///liver	114
@@ -5555,9 +5558,9 @@ ID	GLOSS	PRIORITY
 324	MANIOC FLOUR///manioc flour	1
 324	MANIOC FLOUR///the manioc flour	1
 324	MANIOC FLOUR///the manioc flours	1
-927	MANIOC///manioc	1
-927	MANIOC///the manioc	1
-927	MANIOC///the maniocs	1
+925	CASSAVA///manioc	1
+925	CASSAVA///the manioc	1
+925	CASSAVA///the maniocs	1
 488	MANNER///manner, way	1
 488	MANNER///manner; way (manner)	1
 488	MANNER///the manner	6
@@ -6155,9 +6158,9 @@ ID	GLOSS	PRIORITY
 2221	NOMADIZE///to nomadize	1
 973	NOODLE///the noodle	0
 973	NOODLE///the noodles	0
-2490	NOON///noon	1
-2490	NOON///the noon	1
-2490	NOON///the noons	1
+12	MIDDAY///noon	1
+12	MIDDAY///the noon	1
+12	MIDDAY///the noons	1
 2604	NOOSE///Noose	1
 2604	NOOSE///the noose	1
 2604	NOOSE///the nooses	1
@@ -6433,8 +6436,8 @@ ID	GLOSS	PRIORITY
 140	PADDY FIELD///the paddy fields	6
 140	PADDY FIELD///wet field	1
 140	PADDY FIELD///wet rice field	1
-283	PADDY///the paddy	2
-283	PADDY///the paddys	2
+140	PADDY FIELD///the paddy	2
+140	PADDY FIELD///the paddys	2
 336	PADLOCK///the padlock	2
 336	PADLOCK///the padlocks	2
 1783	PAIN///PAIN, HURT	1
@@ -6606,8 +6609,8 @@ ID	GLOSS	PRIORITY
 794	PEN///pencil	1
 794	PEN///the pen	9
 794	PEN///the pens	9
-1196	PENALTY///the penalty	0
-1196	PENALTY///the penaltys	0
+390	PUNISHMENT///the penalty	0
+390	PUNISHMENT///the penaltys	0
 2578	PENCIL///Pencil	1
 2578	PENCIL///pencil	1
 2578	PENCIL///the pencil	2
@@ -6869,8 +6872,8 @@ ID	GLOSS	PRIORITY
 655	POISON///the poisons	14
 888	POISONOUS///poisonous	1
 888	POISONOUS///poisonous (adjective)	1
-282	POLE///the pole	0
-282	POLE///the poles	0
+281	POST///the pole	0
+281	POST///the poles	0
 656	POLICE///the police	2
 656	POLICE///the polices	2
 327	PONCHO///poncho	2
@@ -7121,9 +7124,9 @@ ID	GLOSS	PRIORITY
 2048	QUILT///quilt	1
 2048	QUILT///the quilt	1
 2048	QUILT///the quilts	1
-995	QUIVER///quiver	1
-995	QUIVER///the quiver	1
-995	QUIVER///the quivers	1
+52	SHIVER///quiver	1
+52	SHIVER///the quiver	1
+52	SHIVER///the quivers	1
 1136	RABBIT///hare,rabbit	1
 1136	RABBIT///rabbit	11
 1136	RABBIT///the rabbit	14
@@ -7187,7 +7190,7 @@ ID	GLOSS	PRIORITY
 2134	RAISE (A CHILD)///bring up child	1
 2134	RAISE (A CHILD)///to bring up	1
 2134	RAISE (A CHILD)///to raise (a child)	2
-1317	RAISE///to raise	0
+501	LIFT///to raise	0
 338	RAKE///raisin (5.76) rake	1
 338	RAKE///rake	2
 338	RAKE///the rake	5
@@ -7297,7 +7300,7 @@ ID	GLOSS	PRIORITY
 2008	RESCUE///to rescue	6
 1777	RESEMBLE///resemble	3
 1777	RESEMBLE///to resemble	3
-1099	RESIDE///to reside	0
+363	DWELL (LIVE, RESIDE)///to reside	0
 664	RESIN///resin	1
 664	RESIN///resin; pitch, tar	1
 664	RESIN///the resin	2
@@ -7681,8 +7684,8 @@ ID	GLOSS	PRIORITY
 673	SCHOOL///school	6
 673	SCHOOL///the school	8
 673	SCHOOL///the schools	8
-1328	SCISSORS///the scissors	0
-1328	SCISSORS///the scissorss	0
+356	SHEARS///the scissors	0
+356	SHEARS///the scissorss	0
 299	SCOLD///rebuke, scold	2
 299	SCOLD///to scold	4
 1538	SCORPION///SCORPION	1
@@ -7794,7 +7797,7 @@ ID	GLOSS	PRIORITY
 255	SERVANT///the servants	6
 160	SET (HEAVENLY BODIES)///to set (heavenly bodies)	1
 160	SET (HEAVENLY BODIES)///to set (of heavenly bodies)	1
-2258	SET ALIGHT (SOMETHING)///to set alight (something)	0
+737	LIGHT (IGNITE)///to set alight (something)	0
 1704	SEVEN///Seven	3
 1704	SEVEN///[CL] *seven	1
 1704	SEVEN///seven	41
@@ -7822,8 +7825,8 @@ ID	GLOSS	PRIORITY
 1388	SHADE///the shade	28
 1388	SHADE///the shade or shadow	2
 1388	SHADE///the shades	28
-2275	SHADOW///the shadow	0
-2275	SHADOW///the shadows	0
+1388	SHADE///the shadow	0
+1388	SHADE///the shadows	0
 1909	SHAKE///shake	3
 1909	SHAKE///to shake	6
 193	SHALLOW///shallow	8
@@ -8163,8 +8166,8 @@ ID	GLOSS	PRIORITY
 16	SLED///the sled	2
 16	SLED///the sledge/sled	2
 16	SLED///the sleds	2
-368	SLEDGE///the sledge	0
-368	SLEDGE///the sledges	0
+16	SLED///the sledge	0
+16	SLED///the sledges	0
 1585	SLEEP///(he) sleeps	1
 1585	SLEEP///SLEEP	3
 1585	SLEEP///Sleep	3
@@ -8198,7 +8201,7 @@ ID	GLOSS	PRIORITY
 701	SLOW///slow (adjective)	15
 701	SLOW///slowly	2
 701	SLOW///to be slow	1
-2165	SLOWLY///slowly	0
+701	SLOW///slowly	0
 2484	SMALL (NOT TALL)///low (height)	1
 2484	SMALL (NOT TALL)///short (a. in height, b. in length)	1
 2484	SMALL (NOT TALL)///short (height)	4
@@ -8986,8 +8989,8 @@ ID	GLOSS	PRIORITY
 1775	TABLE///table; desk	1
 1775	TABLE///the table	10
 1775	TABLE///the tables	10
-396	TABLET///the tablet	0
-396	TABLET///the tablets	0
+395	PILL///the tablet	0
+395	PILL///the tablets	0
 1220	TAIL///(its) tail	1
 1220	TAIL///TAIL	6
 1220	TAIL///Tail	4
@@ -9003,7 +9006,7 @@ ID	GLOSS	PRIORITY
 881	TAILOR///tailor	3
 881	TAILOR///the tailor	5
 881	TAILOR///the tailors	5
-2326	TAKE OFF ONE'S CLOTHES///to take off one's clothes	0
+1755	UNDRESS///to take off one's clothes	0
 1749	TAKE///take	12
 1749	TAKE///take (in hands)	1
 1749	TAKE///to take	21
@@ -9174,8 +9177,8 @@ ID	GLOSS	PRIORITY
 800	THIGH///the thigh	22
 800	THIGH///the thighs	22
 800	THIGH///thigh	17
-2307	THIN (OF HAIR AND LEAF)///thin	2
-2307	THIN (OF HAIR AND LEAF)///thin (of hair and leaf) (adjective)	2
+2249	THIN (OF SHAPE OF OBJECT)///thin	2
+2249	THIN (OF SHAPE OF OBJECT)///thin (of hair and leaf) (adjective)	2
 2305	THIN (OF HAIR AND THREAD)///thin (2D) 	1
 2305	THIN (OF HAIR AND THREAD)///thin (of hair and thread) (adjective)	1
 2306	THIN (OF LEAF AND CLOTH)///thin	4
@@ -9561,8 +9564,8 @@ ID	GLOSS	PRIORITY
 1657	TRUE///true (adjective)	7
 775	TRUMPET///the trumpet	0
 775	TRUMPET///the trumpets	0
-776	TRUNK OF TREE///the trunk of tree	0
-776	TRUNK OF TREE///the trunk of trees	0
+344	TREE TRUNK///the trunk of tree	0
+344	TREE TRUNK///the trunk of trees	0
 1638	TRUTH///the truth	3
 1638	TRUTH///the truths	3
 1638	TRUTH///truth	3
@@ -9803,8 +9806,8 @@ ID	GLOSS	PRIORITY
 1122	WAGES///the wages	5
 1122	WAGES///the wagess	5
 1122	WAGES///wages	2
-959	WAGON///the wagon	0
-959	WAGON///the wagons	0
+122	CART///the wagon	0
+122	CART///the wagons	0
 1681	WAIST///the waist	5
 1681	WAIST///the waists	5
 1681	WAIST///waist	3
@@ -10218,9 +10221,6 @@ ID	GLOSS	PRIORITY
 2447	WOODPECKER///the woodpecker	2
 2447	WOODPECKER///the woodpeckers	2
 2447	WOODPECKER///woodpecker	1
-2311	WOODS///the woods	2
-2311	WOODS///the woodss	2
-2311	WOODS///woods	2
 964	WOOL///the wool	8
 964	WOOL///the wools	8
 964	WOOL///wool	6
@@ -10417,6 +10417,6 @@ ID	GLOSS	PRIORITY
 732	YOUR (SINGULAR)///your (singular)	7
 732	YOUR (SINGULAR)///your sg.	1
 732	YOUR (SINGULAR)///yours	1
-2091	YOUR///your	0
+732	YOUR (SINGULAR)///your	0
 1294	ZERO///zero	5
 1294	ZERO///zero, nothing	2
