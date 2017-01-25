@@ -146,8 +146,14 @@ class Concepticon(object):
             self._to_mapping[(language, otherlist)] = to
         return self._to_mapping[(language, otherlist)]
 
-    def map(self, clist, otherlist=None, out=None, full_search=False,
-            similarity_level=5, language='en', skip_multiple=False):
+    def map(self,
+            clist,
+            otherlist=None,
+            out=None,
+            full_search=False,
+            similarity_level=5,
+            language='en',
+            skip_multiple=False):
         assert clist.exists(), "File %s does not exist" % clist
         from_ = read_dicts(clist)
 
