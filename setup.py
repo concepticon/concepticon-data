@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pyconcepticon',
-    version='1.0.0',
+    version='1.1.0',
     description='programmatic access to concepticon-data',
     long_description='',
     classifiers=[
