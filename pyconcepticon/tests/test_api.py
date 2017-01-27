@@ -71,6 +71,6 @@ class TestConcepticon(TestWithFixture):
             assert list(self.api.lookup(['sky'])) == [('sky', '1732', 'SKY', 2)]
             # there are at least five 'thins' so lets see if we get them.
             assert len(list(self.api.lookup(['thin'], full_search=True))) >= 5
-            
+
     def test_Concepticon(self):
         assert len(self.api.frequencies) <= len(self.api.conceptsets)

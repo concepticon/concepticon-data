@@ -74,7 +74,7 @@ class Tests(WithTempDirMixin, TestWithFixture):
                 intersection,
                 Args(data='', args=['Swadesh-1955-100', 'Swadesh-1952-200'])) as out:
             self.assertEqual(94, len(out.split('\n')))
-    
+
     def test_lookup(self):
         from pyconcepticon.commands import lookup
         with capture(
