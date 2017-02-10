@@ -429,8 +429,9 @@ def lookup(args):
         similarity_level=args.similarity)
     with UnicodeWriter(None) as writer:
         writer.writerow(['GLOSS', 'CONCEPTICON_ID', 'CONCEPTICON_GLOSS', 'SIMILARITY'])
-        for f in found:
-            writer.writerow(f)
+        for matches in found:
+            for m in matches:
+                writer.writerow(m)
         print(writer.read().decode('utf-8'))
 
 

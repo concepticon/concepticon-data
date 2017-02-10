@@ -220,7 +220,7 @@ class Concepticon(object):
             similarity_level=similarity_level)
         for i, e in enumerate(entries):
             match, simil = cmap.get(i, [[], 100])
-            return set((e, to[m][0], to[m][1].split("///")[0], simil) for m in match)
+            yield set((e, to[m][0], to[m][1].split("///")[0], simil) for m in match)
 
 
 class Bag(object):
