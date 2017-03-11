@@ -9,12 +9,11 @@ from six import text_type
 from tabulate import tabulate
 from clldutils.path import Path, as_unicode
 from clldutils.clilib import ParserError, command
-from clldutils.dsv import UnicodeWriter
 from clldutils.markup import Table
 from clldutils.misc import format_size
 from cdstarcat.catalog import Catalog
 
-from pyconcepticon.util import rewrite, CS_ID, CS_GLOSS, SourcesCatalog
+from pyconcepticon.util import rewrite, CS_ID, CS_GLOSS, SourcesCatalog, UnicodeWriter
 from pyconcepticon.api import Concepticon, Conceptlist
 
 
@@ -424,12 +423,15 @@ def lookup(args):
     """
     api = Concepticon()
     found = api.lookup(
-        args.args, language=args.language, full_search=args.full_search, similarity_level=args.similarity
-    )
-    with UnicodeWriter(None, delimiter='\t') as writer:
+        args.args,
+        language=args.language,
+        full_search=args.full_search,
+        similarity_level=args.similarity)
+    with UnicodeWriter(None) as writer:
         writer.writerow(['GLOSS', 'CONCEPTICON_ID', 'CONCEPTICON_GLOSS', 'SIMILARITY'])
-        for f in found:
-            writer.writerow(f)
+        for matches in found:
+            for m in matches:
+                writer.writerow(m)
         print(writer.read().decode('utf-8'))
 
 
@@ -441,23 +443,20 @@ def check(args):
 
     concepticon check [CONCEPTLIST_ID]+
     """
-    
     def _pprint(clist, error, _id, message):
         print("\t".join([
-            clist.ljust(30), error.ljust(10), '%5s' % _id, message
-            
-        ]))
-    
+            clist.ljust(30), error.ljust(10), '%5s' % _id, message]))
+
     def _get_mergers(api, clist):
         o = api.conceptlists[clist]
         # clashes
         clashes = defaultdict(list)
         for c in o.concepts:
             clashes[o.concepts[c].concepticon_id].append(c)
-        
+
         if '' in clashes:
             clashes.pop('')
-        
+
         for c in sorted([c for c in clashes if len(clashes[c]) > 1]):
             matches = [m for m in o.concepts if o.concepts[m].concepticon_id == c]
             for i, m in enumerate(matches, 1):
@@ -467,14 +466,14 @@ def check(args):
                     getattr(o.concepts[m], 'english', '')
                 )
                 _pprint(clist, 'MERGE', c, message)
-        
+
     def _get_missing(api, clist):
         o = api.conceptlists[clist]
         missings = [c for c in o.concepts if o.concepts[c].concepticon_id == ""]
         concepts = api.conceptlists[clist].concepts
         for m in missings:
             _pprint(clist, 'MISSING', concepts[m].number, '"%s"' % concepts[m].english)
-    
+
     api = Concepticon(args.data)
     # conceptlists to check
     if len(args.args):

@@ -40,7 +40,7 @@ Releasing pyconcepticon
 
 - Make sure the tests pass
 ```
-nosetests
+tox -r
 ```
 
 - Make sure flake8 is happy:

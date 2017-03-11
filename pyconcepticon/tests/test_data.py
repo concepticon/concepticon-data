@@ -105,5 +105,29 @@ def test():
                 if val and val not in values:  # pragma: no cover
                     error('invalid value for %s: %s' % (attr, val), cl.id, i + 2)
 
+    sameas = {}
+    for cs in api.conceptsets.values():
+        for target, rel in cs.relations.items():
+            if rel == 'sameas':
+                for group in sameas.values():
+                    if target in group:
+                        group.add(cs.id)
+                        break
+                else:
+                    sameas[cs.gloss] = {cs.id, target}
+
+    deprecated = {}
+    for s in sameas.values():
+        csids = sorted(s, key=lambda j: int(j))
+        for csid in csids[1:]:
+            assert csid not in deprecated
+            deprecated[csid] = csids[0]
+
+    for cl in api.conceptlists.values():
+        for concept in cl.concepts.values():
+            if concept.concepticon_id in deprecated:
+                error('deprecated concept set {0} linked for {1}'.format(
+                    concept.concepticon_id, concept.id), cl.id)
+
     if not SUCCESS:  # pragma: no cover
         raise ValueError('integrity checks failed!')

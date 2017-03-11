@@ -146,8 +146,14 @@ class Concepticon(object):
             self._to_mapping[(language, otherlist)] = to
         return self._to_mapping[(language, otherlist)]
 
-    def map(self, clist, otherlist=None, out=None, full_search=False,
-            similarity_level=5, language='en', skip_multiple=False):
+    def map(self,
+            clist,
+            otherlist=None,
+            out=None,
+            full_search=False,
+            similarity_level=5,
+            language='en',
+            skip_multiple=False):
         assert clist.exists(), "File %s does not exist" % clist
         from_ = read_dicts(clist)
 
@@ -191,9 +197,10 @@ class Concepticon(object):
                         row.extend([visited[0][0], visited[0][1], sim])
                         writer.writerow(row)
             writer.writerow(
-                ['#'] +
-                (len(from_[0]) - 1) * [''] +
-                [good_matches, len(from_), '{0:.2f}'.format(good_matches / len(from_))])
+                ['#',
+                 '{0}/{1}'.format(good_matches, len(from_)),
+                 '{0:.0f}%'.format(100 * good_matches / len(from_))] +
+                (len(from_[0]) - 1) * [''])
 
         if out is None:
             print(writer.read().decode('utf-8'))
@@ -213,7 +220,7 @@ class Concepticon(object):
             similarity_level=similarity_level)
         for i, e in enumerate(entries):
             match, simil = cmap.get(i, [[], 100])
-            return set((e, to[m][0], to[m][1].split("///")[0], simil) for m in match)
+            yield set((e, to[m][0], to[m][1].split("///")[0], simil) for m in match)
 
 
 class Bag(object):
@@ -256,11 +263,21 @@ class Conceptset(Bag):
     semanticfield = attr.ib(validator=valid_key)
     definition = attr.ib()
     ontological_category = attr.ib(validator=valid_key)
+    replacement_id = attr.ib()
     _api = attr.ib(default=None)
+
+    @property
+    def superseded(self):
+        return bool(self.replacement_id)
+
+    @property
+    def replacement(self):
+        if self._api and self.replacement_id:
+            return self._api.conceptsets[self.replacement_id]
 
     @cached_property()
     def relations(self):
-        return self._api.relations[self.id] if self._api else {}
+        return self._api.relations.get(self.id, {}) if self._api else {}
 
     @cached_property()
     def concepts(self):
