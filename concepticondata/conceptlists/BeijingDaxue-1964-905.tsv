@@ -1,0 +1,906 @@
+ID	NUMBER	CHINESE	PAGENO	POS	SEMANTIC_FIELD	SF_IN_SOURCE	POS_IN_SOURCE	ENGLISH	PINYIN	CONCEPTICON_ID	CONCEPTICON_GLOSS	CHINESE_SIMPLIFIED
+BeijingDaxue-1964-905-1	1	太陽	1	noun	weather, geography	一、天象、地理	名 詞	sun	tài yáng	1343	SUN	太阳
+BeijingDaxue-1964-905-2	2	月亮	1	noun	weather, geography	一、天象、地理	名 詞	moon	yuè liàng	1313	MOON	月亮
+BeijingDaxue-1964-905-3	3	星	2	noun	weather, geography	一、天象、地理	名 詞	star	xīng	1430	STAR	星
+BeijingDaxue-1964-905-4	4	風	2	noun	weather, geography	一、天象、地理	名 詞	wind	fēng	960	WIND	风
+BeijingDaxue-1964-905-5	5	雨	3	noun	weather, geography	一、天象、地理	名 詞	rain	yǔ	658	RAIN (PRECIPITATION)	雨
+BeijingDaxue-1964-905-6	6	霧	3	noun	weather, geography	一、天象、地理	名 詞	fog	wù	249	FOG	雾
+BeijingDaxue-1964-905-7	7	露水	4	noun	weather, geography	一、天象、地理	名 詞	dew	lù shuǐ	1977	DEW	露水
+BeijingDaxue-1964-905-8	8	霜	4	noun	weather, geography	一、天象、地理	名 詞	frost	shuāng	2034	FROST	霜
+BeijingDaxue-1964-905-9	9	雪	5	noun	weather, geography	一、天象、地理	名 詞	snow	xuě	784	SNOW	雪
+BeijingDaxue-1964-905-10	10	冰	5	noun	weather, geography	一、天象、地理	名 詞	ice	bīng	617	ICE	冰
+BeijingDaxue-1964-905-11	11	冰雹	6	noun	weather, geography	一、天象、地理	名 詞	hail	bīng báo	609	HAIL	冰雹
+BeijingDaxue-1964-905-12	12	閃電	6	noun	weather, geography	一、天象、地理	名 詞	lightning	shǎn diàn	1654	LIGHTNING	闪电
+BeijingDaxue-1964-905-13	13	雷	7	noun	weather, geography	一、天象、地理	名 詞	thunder	léi	1150	THUNDER	雷
+BeijingDaxue-1964-905-14	14	虹	7	noun	weather, geography	一、天象、地理	名 詞	rainbow	hóng	1733	RAINBOW	虹
+BeijingDaxue-1964-905-15	15	天氣	8	noun	weather, geography	一、天象、地理	名 詞	weather	tiān qì	952	WEATHER	天气
+BeijingDaxue-1964-905-16	16	晴天	8	noun	weather, geography	一、天象、地理	名 詞	sunny day	qíng tiān	2742	SUNNY DAY	晴天
+BeijingDaxue-1964-905-17	17	陰天	9	noun	weather, geography	一、天象、地理	名 詞	cloudy day	yīn tiān	2743	CLOUDY DAY	阴天
+BeijingDaxue-1964-905-18	18	海	9	noun	weather, geography	一、天象、地理	名 詞	sea, ocean	hǎi	2282	SEA OR OCEAN	海
+BeijingDaxue-1964-905-19	19	湖	10	noun	weather, geography	一、天象、地理	名 詞	lake	hú	624	LAKE	湖
+BeijingDaxue-1964-905-20	20	池塘	10	noun	weather, geography	一、天象、地理	名 詞	pond	chí táng	2035	POND	池塘
+BeijingDaxue-1964-905-21	21	風景	11	noun	weather, geography	一、天象、地理	名 詞	landscape	fēng jǐng	2342	LANDSCAPE	风景
+BeijingDaxue-1964-905-22	22	時候	11	noun	time, season	二、時間、節令	名 詞	time, season	shí hòu	892	TIME	时候
+BeijingDaxue-1964-905-23	23	今年	12	noun	time, season	二、時間、節令	名 詞	this year	jīn nián	513	THIS YEAR	今年
+BeijingDaxue-1964-905-24	24	明年	12	noun	time, season	二、時間、節令	名 詞	next year	míng nián	515	NEXT YEAR	明年
+BeijingDaxue-1964-905-25	25	後年	13	noun	time, season	二、時間、節令	名 詞	the year after next	hòu nián	2781	YEAR AFTER NEXT YEAR	后年
+BeijingDaxue-1964-905-26	26	去年	13	noun	time, season	二、時間、節令	名 詞	last year	qù nián	514	LAST YEAR	去年
+BeijingDaxue-1964-905-27	27	前年	14	noun	time, season	二、時間、節令	名 詞	the year before last	qián nián	2780	YEAR BEFORE LAST YEAR	前年
+BeijingDaxue-1964-905-28	28	日子	14	noun	time, season	二、時間、節令	名 詞	day	rì zi	1260	DAY (24 HOURS)	日子
+BeijingDaxue-1964-905-29	29	今天	15	noun	time, season	二、時間、節令	名 詞	today	jīn tiān	1283	TODAY	今天
+BeijingDaxue-1964-905-30	30	明天	15	noun	time, season	二、時間、節令	名 詞	tomorrow	míng tiān	1329	TOMORROW	明天
+BeijingDaxue-1964-905-31	31	後天	16	noun	time, season	二、時間、節令	名 詞	the day after tomorrow	hòu tiān	1179	DAY AFTER TOMORROW	后天
+BeijingDaxue-1964-905-32	32	大後天	16	noun	time, season	二、時間、節令	名 詞	three days from now	dà hòu tiān	2332	THREE DAYS FROM NOW	大后天
+BeijingDaxue-1964-905-33	33	昨天	17	noun	time, season	二、時間、節令	名 詞	yesterday	zuó tiān	1174	YESTERDAY	昨天
+BeijingDaxue-1964-905-34	34	前天	17	noun	time, season	二、時間、節令	名 詞	the day before yesterday	qián tiān	1180	DAY BEFORE YESTERDAY	前天
+BeijingDaxue-1964-905-35	35	大前天	18	noun	time, season	二、時間、節令	名 詞	three days before	dà qián tiān			大前天
+BeijingDaxue-1964-905-36	36	白天	18	noun	time, season	二、時間、節令	名 詞	day (opposed to night)	bái tiān	1225	DAY (NOT NIGHT)	白天
+BeijingDaxue-1964-905-37	37	夜間	19	noun	time, season	二、時間、節令	名 詞	night (opposed to day)	yè jiān	1233	NIGHT	夜间
+BeijingDaxue-1964-905-38	38	早晨	19	noun	time, season	二、時間、節令	名 詞	morning	zǎo chén	1339	MORNING	早晨
+BeijingDaxue-1964-905-39	39	上午	20	noun	time, season	二、時間、節令	名 詞	forenoon	shàng wǔ	2775	FORENOON	上午
+BeijingDaxue-1964-905-40	40	中午	20	noun	time, season	二、時間、節令	名 詞	noon	zhōng wǔ	12	MIDDAY	中午
+BeijingDaxue-1964-905-41	41	下午	21	noun	time, season	二、時間、節令	名 詞	afternoon	xià wǔ	1807	AFTERNOON	下午
+BeijingDaxue-1964-905-42	42	傍晚	21	noun	time, season	二、時間、節令	名 詞	at dusk (nightfall)	bàng wǎn	2297	DUSK	傍晚
+BeijingDaxue-1964-905-43	43	晚上	22	noun	time, season	二、時間、節令	名 詞	evening	wǎn shàng	1629	EVENING	晚上
+BeijingDaxue-1964-905-44	44	元旦	22	noun	time, season	二、時間、節令	名 詞	new year	yuán dàn			元旦
+BeijingDaxue-1964-905-45	45	端午節	23	noun	time, season	二、時間、節令	名 詞	the Dragon Boat Festival	duān wǔ jié	2186	DRAGON BOAT FESTIVAL	端午节
+BeijingDaxue-1964-905-46	46	中秋節	23	noun	time, season	二、時間、節令	名 詞	the Mid-autumn Festival (15th day of the 8th lunar month)	zhōng qiū jié	2187	MID-AUTUMN FESTIVAL	中秋节
+BeijingDaxue-1964-905-47	47	重陽節	24	noun	time, season	二、時間、節令	名 詞	the Double-Nine Festival	zhòng yáng jié			重阳节
+BeijingDaxue-1964-905-48	48	除夕	24	noun	time, season	二、時間、節令	名 詞	Chinese New Year's Eve	chú xī	2188	NEW YEAR'S EVE	除夕
+BeijingDaxue-1964-905-49	49	金子	25	noun	minerals and other natural objects	三、礦物及其他自然物	名 詞	gold	jīn zi	1369	GOLD	金子
+BeijingDaxue-1964-905-50	50	銀子	25	noun	minerals and other natural objects	三、礦物及其他自然物	名 詞	silver	yín zi	759	SILVER	银子
+BeijingDaxue-1964-905-51	51	銅	26	noun	minerals and other natural objects	三、礦物及其他自然物	名 詞	copper	tóng	1825	COPPER	铜
+BeijingDaxue-1964-905-52	52	鉄	26	noun	minerals and other natural objects	三、礦物及其他自然物	名 詞	iron	zhí	621	IRON	鉄
+BeijingDaxue-1964-905-53	53	鋼	27	noun	minerals and other natural objects	三、礦物及其他自然物	名 詞	steel	gāng	2343	STEEL	钢
+BeijingDaxue-1964-905-54	54	鉛	27	noun	minerals and other natural objects	三、礦物及其他自然物	名 詞	lead	qiān	627	LEAD (CHEMICAL ELEMENT)	铅
+BeijingDaxue-1964-905-55	55	錫	28	noun	minerals and other natural objects	三、礦物及其他自然物	名 詞	tin	xī	893	TIN (METAL)	锡
+BeijingDaxue-1964-905-56	56	煤	28	noun	minerals and other natural objects	三、礦物及其他自然物	名 詞	coal	méi	2658	COAL	煤
+BeijingDaxue-1964-905-57	57	煤油	29	noun	minerals and other natural objects	三、礦物及其他自然物	名 詞	kerosine	méi yóu			煤油
+BeijingDaxue-1964-905-58	58	汽油	29	noun	minerals and other natural objects	三、礦物及其他自然物	名 詞	petrol	qì yóu	2344	PETROL	汽油
+BeijingDaxue-1964-905-59	59	石頭	30	noun	minerals and other natural objects	三、礦物及其他自然物	名 詞	stone	shí tóu	857	STONE	石头
+BeijingDaxue-1964-905-60	60	泥	30	noun	minerals and other natural objects	三、礦物及其他自然物	名 詞	mud, earth	ní	640	MUD	泥
+BeijingDaxue-1964-905-61	61	土	31	noun	minerals and other natural objects	三、礦物及其他自然物	名 詞	soil, earth	tǔ	1228	EARTH (SOIL)	土
+BeijingDaxue-1964-905-62	62	灰塵	31	noun	minerals and other natural objects	三、礦物及其他自然物	名 詞	dust	huī chén	2	DUST	灰尘
+BeijingDaxue-1964-905-63	63	老虎	32	noun	animals	四、動物	名 詞	tiger	lǎo hǔ	846	TIGER	老虎
+BeijingDaxue-1964-905-64	64	獅子	32	noun	animals	四、動物	名 詞	lion	shī zi	1386	LION	狮子
+BeijingDaxue-1964-905-65	65	豹子	33	noun	animals	四、動物	名 詞	leopard // panther	bào zi	1139	LEOPARD	豹子
+BeijingDaxue-1964-905-66	66	狼	33	noun	animals	四、動物	名 詞	wolf	láng	522	WOLF	狼
+BeijingDaxue-1964-905-67	67	鹿	34	noun	animals	四、動物	名 詞	deer	lù	1936	DEER	鹿
+BeijingDaxue-1964-905-68	68	猴子	34	noun	animals	四、動物	名 詞	monkey	hóu zi	1350	MONKEY	猴子
+BeijingDaxue-1964-905-69	69	兔子	35	noun	animals	四、動物	名 詞	rabbit, hare	tù zi	2345	LEPORID (RABBIT OR HARE)	兔子
+BeijingDaxue-1964-905-70	70	老鼠	35	noun	animals	四、動物	名 詞	rat, mouse	lǎo shǔ	2139	MUROID (MOUSE OR RAT)	老鼠
+BeijingDaxue-1964-905-71	71	老鷹	36	noun	animals	四、動物	名 詞	hawk, eagle	lǎo yīng	2683	EAGLE OR HAWK	老鹰
+BeijingDaxue-1964-905-72	72	貓頭鷹	36	noun	animals	四、動物	名 詞	owl	māo tóu yīng	735	OWL	猫头鹰
+BeijingDaxue-1964-905-73	73	雁	37	noun	animals	四、動物	名 詞	wild goose	yàn	2776	WILD GOOSE	雁
+BeijingDaxue-1964-905-74	74	燕子	37	noun	animals	四、動物	名 詞	swallow	yàn zi	897	SWALLOW	燕子
+BeijingDaxue-1964-905-75	75	烏鴉	38	noun	animals	四、動物	名 詞	crow	wū yā	913	CROW	乌鸦
+BeijingDaxue-1964-905-76	76	喜鵲	38	noun	animals	四、動物	名 詞	magpie	xǐ què	2039	MAGPIE	喜鹊
+BeijingDaxue-1964-905-77	77	麻雀	39	noun	animals	四、動物	名 詞	sparrow	má què	1854	SPARROW	麻雀
+BeijingDaxue-1964-905-78	78	鴿子	39	noun	animals	四、動物	名 詞	pigeon, dove	gē zi	1853	DOVE	鸽子
+BeijingDaxue-1964-905-79	79	八哥	40	noun	animals	四、動物	名 詞	crested myna	bā gē	2346	CRESTED MYNA	八哥
+BeijingDaxue-1964-905-80	80	牲口	40	noun	animals	四、動物	名 詞	cattle	shēng kǒu	1153	CATTLE	牲口
+BeijingDaxue-1964-905-81	81	公牛	41	noun	animals	四、動物	名 詞	bull	gōng niú	1008	BULL	公牛
+BeijingDaxue-1964-905-82	82	母牛	41	noun	animals	四、動物	名 詞	cow	mǔ niú	1007	COW	母牛
+BeijingDaxue-1964-905-83	83	公馬	42	noun	animals	四、動物	名 詞	stallion	gōng mǎ	936	STALLION	公马
+BeijingDaxue-1964-905-84	84	母馬	42	noun	animals	四、動物	名 詞	mare	mǔ mǎ	938	MARE	母马
+BeijingDaxue-1964-905-85	85	公豬	43	noun	animals	四、動物	名 詞	male pig	gōng zhū	2487	MALE PIG	公猪
+BeijingDaxue-1964-905-86	86	母豬	43	noun	animals	四、動物	名 詞	sow	mǔ zhū	1351	SOW (FEMALE PIG)	母猪
+BeijingDaxue-1964-905-87	87	公狗	44	noun	animals	四、動物	名 詞	male dog	gōng gǒu	2480	MALE DOG	公狗
+BeijingDaxue-1964-905-88	88	母狗	44	noun	animals	四、動物	名 詞	female dog	mǔ gǒu	2481	FEMALE DOG	母狗
+BeijingDaxue-1964-905-89	89	驢	45	noun	animals	四、動物	名 詞	donkey, ass	lǘ	1862	DONKEY	驴
+BeijingDaxue-1964-905-90	90	騾子	45	noun	animals	四、動物	名 詞	mule	luó zi	890	MULE	骡子
+BeijingDaxue-1964-905-91	91	羊	46	noun	animals	四、動物	名 詞	sheep, goat	yáng	2684	CAPRINE (GOAT OR SHEEP)	羊
+BeijingDaxue-1964-905-92	92	貓	46	noun	animals	四、動物	名 詞	cat	māo	1208	CAT	猫
+BeijingDaxue-1964-905-93	93	公雞	47	noun	animals	四、動物	名 詞	rooster (cock)	gōng jī	1511	ROOSTER	公鸡
+BeijingDaxue-1964-905-94	94	閹雞	47	noun	animals	四、動物	名 詞	capon	yān jī	2567	CAPON	阉鸡
+BeijingDaxue-1964-905-95	95	母雞	48	noun	animals	四、動物	名 詞	hen (chicken)	mǔ jī	1514	HEN	母鸡
+BeijingDaxue-1964-905-96	96	小雞兒	48	noun	animals	四、動物	名 詞	small bird	xiǎo jī ér	2513	CHICKEN CHICK	小鸡儿
+BeijingDaxue-1964-905-97	97	鴨子	49	noun	animals	四、動物	名 詞	duck	yā zi	1360	DUCK	鸭子
+BeijingDaxue-1964-905-98	98	鵝	49	noun	animals	四、動物	名 詞	goose	é	1187	GOOSE	鹅
+BeijingDaxue-1964-905-99	99	鯉魚	50	noun	animals	四、動物	名 詞	carp	lǐ yú	2685	CARP (FISH)	鲤鱼
+BeijingDaxue-1964-905-100	100	鯽魚	50	noun	animals	四、動物	名 詞	crucian carp	zéi yú	2784	CRUCIAN CARP	鲫鱼
+BeijingDaxue-1964-905-101	101	黃花魚	51	noun	animals	四、動物	名 詞	yellow croaker	huáng huā yú	2347	YELLOW CROAKER	黄花鱼
+BeijingDaxue-1964-905-102	102	螃蟹	51	noun	animals	四、動物	名 詞	crab	páng xiè	2348	CRAB	螃蟹
+BeijingDaxue-1964-905-103	103	蝦	52	noun	animals	四、動物	名 詞	shrimp	xiā	2686	CRUSTACEANS (PRAWNS OR SHRIMP)	虾
+BeijingDaxue-1964-905-104	104	蚌	52	noun	animals	四、動物	名 詞	oysters, mussels	bàng	2785	BIVALVIA (OYSTERS OR MUSSELS)	蚌
+BeijingDaxue-1964-905-105	105	青蛙	53	noun	animals	四、動物	名 詞	frog	qīng wā	503	FROG	青蛙
+BeijingDaxue-1964-905-106	106	癩蛤蟆	53	noun	animals	四、動物	名 詞	toad	lài há má	894	TOAD	癞蛤蟆
+BeijingDaxue-1964-905-107	107	烏龜	54	noun	animals	四、動物	名 詞	turtle	wū guī	112	TURTLE	乌龟
+BeijingDaxue-1964-905-108	108	蝸牛	54	noun	animals	四、動物	名 詞	snail	wō niú	1543	SNAIL	蜗牛
+BeijingDaxue-1964-905-109	109	蚯蚓	55	noun	animals	四、動物	名 詞	earthworm	qiū yǐn	2350	EARTHWORM	蚯蚓
+BeijingDaxue-1964-905-110	110	蠶	55	noun	animals	四、動物	名 詞	silkworms	cán	2351	SILKWORM	蚕
+BeijingDaxue-1964-905-111	111	蜜蜂	56	noun	animals	四、動物	名 詞	bee	mì fēng	665	BEE	蜜蜂
+BeijingDaxue-1964-905-112	112	蝴蝶	56	noun	animals	四、動物	名 詞	butterfly	hú dié	1791	BUTTERFLY	蝴蝶
+BeijingDaxue-1964-905-113	113	蜻蜓	57	noun	animals	四、動物	名 詞	dragonfly	qīng tíng	2352	DRAGONFLY	蜻蜓
+BeijingDaxue-1964-905-114	114	蟬	57	noun	animals	四、動物	名 詞	cicada	chán	2353	CICADA	蝉
+BeijingDaxue-1964-905-115	115	螢火蟲	58	noun	animals	四、動物	名 詞	firefly	yíng huǒ chóng	206	FIREFLY	萤火虫
+BeijingDaxue-1964-905-116	116	蟋蟀	58	noun	animals	四、動物	名 詞	cricket	xī shuài	2354	CRICKET	蟋蟀
+BeijingDaxue-1964-905-117	117	螞蟻	59	noun	animals	四、動物	名 詞	ant	mǎ yǐ	587	ANT	蚂蚁
+BeijingDaxue-1964-905-118	118	蒼蠅	59	noun	animals	四、動物	名 詞	housefly	cāng yíng	1504	FLY (INSECT)	苍蝇
+BeijingDaxue-1964-905-119	119	蚊子	60	noun	animals	四、動物	名 詞	mosquito	wén zi	1509	MOSQUITO	蚊子
+BeijingDaxue-1964-905-120	120	臭蟲	60	noun	animals	四、動物	名 詞	bedbug	chòu chóng	1949	BEDBUG	臭虫
+BeijingDaxue-1964-905-121	121	蜘蛛	61	noun	animals	四、動物	名 詞	spider	zhī zhū	843	SPIDER	蜘蛛
+BeijingDaxue-1964-905-122	122	蜈蚣	61	noun	animals	四、動物	名 詞	centipede	wú gōng	1974	CENTIPEDE	蜈蚣
+BeijingDaxue-1964-905-123	123	蛇	62	noun	animals	四、動物	名 詞	snake	shé	730	SNAKE	蛇
+BeijingDaxue-1964-905-124	124	壁虎	62	noun	animals	四、動物	名 詞	gecko	bì hǔ	2355	GECKO	壁虎
+BeijingDaxue-1964-905-125	125	翅膀	63	noun	animals	四、動物	名 詞	wing	chì bǎng	1257	WING	翅膀
+BeijingDaxue-1964-905-126	126	蹄子	63	noun	animals	四、動物	名 詞	hoof	tí zi	152	HOOF	蹄子
+BeijingDaxue-1964-905-127	127	爪子	64	noun	animals	四、動物	名 詞	claw	zhǎo zi	72	CLAW	爪子
+BeijingDaxue-1964-905-128	128	尾巴	64	noun	animals	四、動物	名 詞	tail	wěi bā	1220	TAIL	尾巴
+BeijingDaxue-1964-905-129	129	鱗	65	noun	animals	四、動物	名 詞	fish scales	lín	266	SCALE	鳞
+BeijingDaxue-1964-905-130	130	梅花	65	noun	plants	五、植物	名 詞	plum blossom	méi huā	2744	PLUM BLOSSOM	梅花
+BeijingDaxue-1964-905-131	131	杏花	66	noun	plants	五、植物	名 詞	apricot blossom	xìng huā	2745	APRICOT BLOSSOM	杏花
+BeijingDaxue-1964-905-132	132	桃花	66	noun	plants	五、植物	名 詞	peach blossom	táo huā	2746	PEACH BLOSSOM	桃花
+BeijingDaxue-1964-905-133	133	荷花	67	noun	plants	五、植物	名 詞	lotus	hé huā	2359	LOTUS	荷花
+BeijingDaxue-1964-905-134	134	桂花	67	noun	plants	五、植物	名 詞	cassia	guì huā	2748	SWEET OLIVE FLOWER	桂花
+BeijingDaxue-1964-905-135	135	艾	68	noun	plants	五、植物	名 詞	mugwort	ài	2361	MUGWORT	艾
+BeijingDaxue-1964-905-136	136	棉花	68	noun	plants	五、植物	名 詞	cotton (raw)	mián huā	1850	COTTON	棉花
+BeijingDaxue-1964-905-137	137	稻子	69	noun	plants	五、植物	名 詞	rice plant	dào zi	2026	RICE PLANT	稻子
+BeijingDaxue-1964-905-138	138	稻谷	69	noun	plants	五、植物	名 詞	rice crops	dào gǔ	2749	UNHUSKED RICE	稻谷
+BeijingDaxue-1964-905-139	139	大米	70	noun	plants	五、植物	名 詞	rice	dà mǐ	926	RICE	大米
+BeijingDaxue-1964-905-140	140	糯米	70	noun	plants	五、植物	名 詞	polished glutinous rice	nuò mǐ	2750	GLUTINOUS RICE	糯米
+BeijingDaxue-1964-905-141	141	麥子	71	noun	plants	五、植物	名 詞	wheat	mài zi	1077	WHEAT	麦子
+BeijingDaxue-1964-905-142	142	面粉	71	noun	plants	五、植物	名 詞	flour	miàn fěn	1594	FLOUR	面粉
+BeijingDaxue-1964-905-143	143	谷子	72	noun	plants	五、植物	名 詞	millet (unhusked rice)	gǔ zi	931	MILLET	谷子
+BeijingDaxue-1964-905-144	144	小米	72	noun	plants	五、植物	名 詞	millet	xiǎo mǐ	931	MILLET	小米
+BeijingDaxue-1964-905-145	145	麩子	73	noun	plants	五、植物	名 詞	bran	fū zi	2362	BRAN	麸子
+BeijingDaxue-1964-905-146	146	糠	73	noun	plants	五、植物	名 詞	chaff (husks)	kāng	2363	CHAFF (HUSK)	糠
+BeijingDaxue-1964-905-147	147	高粱	74	noun	plants	五、植物	名 詞	sorghum	gāo liáng	347	SORGHUM	高粱
+BeijingDaxue-1964-905-148	148	玉米	74	noun	plants	五、植物	名 詞	maize	yù mǐ	506	MAIZE	玉米
+BeijingDaxue-1964-905-149	149	花生	75	noun	plants	五、植物	名 詞	peanut	huā shēng	2364	PEANUT	花生
+BeijingDaxue-1964-905-150	150	向日葵	75	noun	plants	五、植物	名 詞	sunflower	xiàng rì kuí	1956	SUNFLOWER	向日葵
+BeijingDaxue-1964-905-151	151	甘薯	76	noun	plants	五、植物	名 詞	sweet potato	gān shǔ	159	SWEET POTATO	甘薯
+BeijingDaxue-1964-905-152	152	馬鈴薯	76	noun	plants	五、植物	名 詞	potato	mǎ líng shǔ	593	POTATO	马铃薯
+BeijingDaxue-1964-905-153	153	蔬菜	77	noun	plants	五、植物	名 詞	vegetable	shū cài	924	VEGETABLES	蔬菜
+BeijingDaxue-1964-905-154	154	卷心菜	77	noun	plants	五、植物	名 詞	cabbage	juǎn xīn cài	774	CABBAGE	卷心菜
+BeijingDaxue-1964-905-155	155	南瓜	78	noun	plants	五、植物	名 詞	pumpkin	nán guā	864	PUMPKIN	南瓜
+BeijingDaxue-1964-905-156	156	冬瓜	78	noun	plants	五、植物	名 詞	wax gourd (white gourd)	dōng guā	411	GOURD	冬瓜
+BeijingDaxue-1964-905-157	157	黃瓜	79	noun	plants	五、植物	名 詞	cucumber	huáng guā	496	CUCUMBER	黄瓜
+BeijingDaxue-1964-905-158	158	蘿蔔	79	noun	plants	五、植物	名 詞	radish	luó bó	2365	RADISH	萝卜
+BeijingDaxue-1964-905-159	159	茄子	80	noun	plants	五、植物	名 詞	eggplant	jiā zi	1146	AUBERGINE	茄子
+BeijingDaxue-1964-905-160	160	番茄	80	noun	plants	五、植物	名 詞	tomato	fān jiā	986	TOMATO	番茄
+BeijingDaxue-1964-905-161	161	韭菜	81	noun	plants	五、植物	名 詞	tuber onion	jiǔ cài			韭菜
+BeijingDaxue-1964-905-162	162	蔥	81	noun	plants	五、植物	名 詞	scallions (green onions)	cōng	2366	ONION	葱
+BeijingDaxue-1964-905-163	163	蒜	82	noun	plants	五、植物	名 詞	garlic	suàn	2368	GARLIC	蒜
+BeijingDaxue-1964-905-164	164	辣椒	82	noun	plants	五、植物	名 詞	chilli, red pepper	là jiāo	919	CHILI PEPPER	辣椒
+BeijingDaxue-1964-905-165	165	水果	83	noun	plants	五、植物	名 詞	fruit	shuǐ guǒ	1507	FRUIT	水果
+BeijingDaxue-1964-905-166	166	桃兒	83	noun	plants	五、植物	名 詞	peach	táo ér	2043	PEACH	桃儿
+BeijingDaxue-1964-905-167	167	梨	84	noun	plants	五、植物	名 詞	pear	lí	922	PEAR	梨
+BeijingDaxue-1964-905-168	168	桔子	84	noun	plants	五、植物	名 詞	mandarine	jú zi	2367	MANDARINE	桔子
+BeijingDaxue-1964-905-169	169	柚子	85	noun	plants	五、植物	名 詞	pomelo	yòu zi			柚子
+BeijingDaxue-1964-905-170	170	梅子	85	noun	plants	五、植物	名 詞	mume	méi zi			梅子
+BeijingDaxue-1964-905-171	171	葡萄	86	noun	plants	五、植物	名 詞	grape	pú táo	920	GRAPE	葡萄
+BeijingDaxue-1964-905-172	172	櫻桃	86	noun	plants	五、植物	名 詞	cherry	yīng táo	2765	CHERRY	樱桃
+BeijingDaxue-1964-905-173	173	橄欖	87	noun	plants	五、植物	名 詞	olive	gǎn lǎn	1154	OLIVE	橄榄
+BeijingDaxue-1964-905-174	174	荸薺	87	noun	plants	五、植物	名 詞	water chestnut	bí jì			荸荠
+BeijingDaxue-1964-905-175	175	棗兒	88	noun	plants	五、植物	名 詞	jujube	zǎo ér			枣儿
+BeijingDaxue-1964-905-176	176	栗子	88	noun	plants	五、植物	名 詞	chestnut	lì zi	2318	CHESTNUT	栗子
+BeijingDaxue-1964-905-177	177	核桃	89	noun	plants	五、植物	名 詞	walnut	hé táo	2042	WALNUT	核桃
+BeijingDaxue-1964-905-178	178	香蕉	89	noun	plants	五、植物	名 詞	banana	xiāng jiāo	868	BANANA	香蕉
+BeijingDaxue-1964-905-179	179	荔枝	90	noun	plants	五、植物	名 詞	litchi (lychee)	lì zhī	2768	LITCHI	荔枝
+BeijingDaxue-1964-905-180	180	桂圓	90	noun	plants	五、植物	名 詞	longan	guì yuán			桂圆
+BeijingDaxue-1964-905-181	181	西瓜	91	noun	plants	五、植物	名 詞	watermelon	xī guā	2766	WATERMELON	西瓜
+BeijingDaxue-1964-905-182	182	核兒	91	noun	plants	五、植物	名 詞	pit, stone (of fruit)	hé ér	1762	STONE (OF FRUIT)	核儿
+BeijingDaxue-1964-905-183	183	果皮	92	noun	plants	五、植物	名 詞	peel, skin of fruit	guǒ pí	275	PEEL	果皮
+BeijingDaxue-1964-905-184	184	早飯	92	noun	food	六、飮食	名 詞	breakfast	zǎo fàn	1322	BREAKFAST	早饭
+BeijingDaxue-1964-905-185	185	午飯	93	noun	food	六、飮食	名 詞	lunch	wǔ fàn	768	LUNCH	午饭
+BeijingDaxue-1964-905-186	186	晚飯	93	noun	food	六、飮食	名 詞	supper	wǎn fàn	1833	DINNER (SUPPER)	晚饭
+BeijingDaxue-1964-905-187	187	米飯	94	noun	food	六、飮食	名 詞	cooked rice	mǐ fàn	1191	COOKED RICE	米饭
+BeijingDaxue-1964-905-188	188	粥	94	noun	food	六、飮食	名 詞	rice gruel (congee)	zhōu	2049	CONGEE	粥
+BeijingDaxue-1964-905-189	189	米湯	95	noun	food	六、飮食	名 詞	thin rice or millet gruel	mǐ tāng			米汤
+BeijingDaxue-1964-905-190	190	饅頭	95	noun	food	六、飮食	名 詞	steamed bun	mán tóu	1969	MANTOU	馒头
+BeijingDaxue-1964-905-191	191	包子	96	noun	food	六、飮食	名 詞	steamed stuffed bun	bāo zi	511	BAOZI	包子
+BeijingDaxue-1964-905-192	192	餃子	96	noun	food	六、飮食	名 詞	dumpling (Jiaozi)	jiǎo zi			饺子
+BeijingDaxue-1964-905-193	193	餛飩	97	noun	food	六、飮食	名 詞	dumpling (Wonton)	hún tún			馄饨
+BeijingDaxue-1964-905-194	194	面條兒	97	noun	food	六、飮食	名 詞	noodles	miàn tiáo ér	973	NOODLE	面条儿
+BeijingDaxue-1964-905-195	195	糕	98	noun	food	六、飮食	名 詞	cakes, pastry	gāo	2408	CAKE	糕
+BeijingDaxue-1964-905-196	196	餡兒	98	noun	food	六、飮食	名 詞	stuffing (in food)	xiàn ér			馅儿
+BeijingDaxue-1964-905-197	197	菜(菜肴)	99	noun	food	六、飮食	名 詞	dish (food)	cài (cài yáo)	481	DISH	菜(菜肴)
+BeijingDaxue-1964-905-198	198	葷菜	99	noun	food	六、飮食	名 詞	meat dishes	hūn cài	2767	MEAT DISHES	荤菜
+BeijingDaxue-1964-905-199	199	素菜	100	noun	food	六、飮食	名 詞	vegetable dishes	sù cài	924	VEGETABLES	素菜
+BeijingDaxue-1964-905-200	200	湯	100	noun	food	六、飮食	名 詞	soup	tāng	1547	SOUP	汤
+BeijingDaxue-1964-905-201	201	豬肉	101	noun	food	六、飮食	名 詞	pork	zhū ròu	2769	PORK	猪肉
+BeijingDaxue-1964-905-202	202	豬肝	101	noun	food	六、飮食	名 詞	pork liver	zhū gān	2778	PIG LIVER	猪肝
+BeijingDaxue-1964-905-203	203	豬舌頭	102	noun	food	六、飮食	名 詞	pork tongue	zhū shé tóu	2777	PIG TONGUE	猪舌头
+BeijingDaxue-1964-905-204	204	雞蛋	102	noun	food	六、飮食	名 詞	egg	jī dàn	2779	CHICKEN EGG	鸡蛋
+BeijingDaxue-1964-905-205	205	腐乳	103	noun	food	六、飮食	名 詞	fermented bean curd	fǔ rǔ			腐乳
+BeijingDaxue-1964-905-206	206	粉條兒	103	noun	food	六、飮食	名 詞	thin noodles (Fentiao)	fěn tiáo ér	973	NOODLE	粉条儿
+BeijingDaxue-1964-905-207	207	作料	104	noun	food	六、飮食	名 詞	condiments, seasoning	zuò liào			作料
+BeijingDaxue-1964-905-208	208	豬油	104	noun	food	六、飮食	名 詞	pork fat	zhū yóu	2557	PIG FAT	猪油
+BeijingDaxue-1964-905-209	209	醬油	105	noun	food	六、飮食	名 詞	soy sauce	jiàng yóu	1968	SOYA SAUCE	酱油
+BeijingDaxue-1964-905-210	210	醋	105	noun	food	六、飮食	名 詞	vinegar	cù	985	VINEGAR	醋
+BeijingDaxue-1964-905-211	211	糖	106	noun	food	六、飮食	名 詞	sugar, sweets	táng	874	CANDY	糖
+BeijingDaxue-1964-905-212	212	蜂蜜	106	noun	food	六、飮食	名 詞	honey	fēng mì	942	HONEY	蜂蜜
+BeijingDaxue-1964-905-213	213	酒	107	noun	food	六、飮食	名 詞	alcoholic beverage	jiǔ	404	ALCOHOL (FERMENTED DRINK)	酒
+BeijingDaxue-1964-905-214	214	茶	107	noun	food	六、飮食	名 詞	tea	chá	1373	TEA	茶
+BeijingDaxue-1964-905-215	215	冰淇淋	108	noun	food	六、飮食	名 詞	ice cream	bīng qí lín			冰淇淋
+BeijingDaxue-1964-905-216	216	冰棍兒	108	noun	food	六、飮食	名 詞	popsicle	bīng gùn ér			冰棍儿
+BeijingDaxue-1964-905-217	217	開水	109	noun	food	六、飮食	名 詞	boiled water	kāi shuǐ			开水
+BeijingDaxue-1964-905-218	218	紙煙	109	noun	food	六、飮食	名 詞	cigarette	zhǐ yān	969	CIGARETTE	纸烟
+BeijingDaxue-1964-905-219	219	衣服	110	noun	clothing	七、服飾	名 詞	clothes	yī fú	1895	CLOTHES	衣服
+BeijingDaxue-1964-905-220	220	上衣	110	noun	clothing	七、服飾	名 詞	jacket	shàng yī	2770	JACKET	上衣
+BeijingDaxue-1964-905-221	221	襯衫	111	noun	clothing	七、服飾	名 詞	shirt	chèn shān	1622	SHIRT	衬衫
+BeijingDaxue-1964-905-222	222	汗衫	111	noun	clothing	七、服飾	名 詞	undershirt	hàn shān	1622	SHIRT	汗衫
+BeijingDaxue-1964-905-223	223	夾祅	112	noun	clothing	七、服飾	名 詞	Jia'ao (costume)	jiā yāo			夹祅
+BeijingDaxue-1964-905-224	224	毛衣	112	noun	clothing	七、服飾	名 詞	woolen sweater	máo yī			毛衣
+BeijingDaxue-1964-905-225	225	大衣	113	noun	clothing	七、服飾	名 詞	coat	dà yī	603	COAT	大衣
+BeijingDaxue-1964-905-226	226	褲子	113	noun	clothing	七、服飾	名 詞	trousers	kù zi	809	TROUSERS	裤子
+BeijingDaxue-1964-905-227	227	群子	114	noun	clothing	七、服飾	名 詞	skirt	qún zi	1600	SKIRT	群子
+BeijingDaxue-1964-905-228	228	短褲	114	noun	clothing	七、服飾	名 詞	shorts	duǎn kù			短裤
+BeijingDaxue-1964-905-229	229	帽子	115	noun	clothing	七、服飾	名 詞	hat	mào zi	771	HAT	帽子
+BeijingDaxue-1964-905-230	230	鞋	115	noun	clothing	七、服飾	名 詞	shoes	xié	1381	SHOE	鞋
+BeijingDaxue-1964-905-231	231	拖鞋	116	noun	clothing	七、服飾	名 詞	slippers	tuō xié			拖鞋
+BeijingDaxue-1964-905-232	232	木拖鞋	116	noun	clothing	七、服飾	名 詞	wooden slippers	mù tuō xié			木拖鞋
+BeijingDaxue-1964-905-233	233	靴子	117	noun	clothing	七、服飾	名 詞	boots	xuē zi	585	BOOT	靴子
+BeijingDaxue-1964-905-234	234	圍巾	117	noun	clothing	七、服飾	名 詞	shawl	wéi jīn	2771	SHAWL	围巾
+BeijingDaxue-1964-905-235	235	手套	118	noun	clothing	七、服飾	名 詞	glove	shǒu tào	867	GLOVE	手套
+BeijingDaxue-1964-905-236	236	襪子	118	noun	clothing	七、服飾	名 詞	socks	wà zi	329	STOCKING	袜子
+BeijingDaxue-1964-905-237	237	毛巾	119	noun	clothing	七、服飾	名 詞	towel, washcloth	máo jīn	1021	TOWEL	毛巾
+BeijingDaxue-1964-905-238	238	手帕	119	noun	clothing	七、服飾	名 詞	handkerchief	shǒu pà	332	RAG	手帕
+BeijingDaxue-1964-905-239	239	圍嘴兒	120	noun	clothing	七、服飾	名 詞	bib	wéi zuǐ ér			围嘴儿
+BeijingDaxue-1964-905-240	240	領子	120	noun	clothing	七、服飾	名 詞	collar	lǐng zi	2012	COLLAR	领子
+BeijingDaxue-1964-905-241	241	袖子	121	noun	clothing	七、服飾	名 詞	sleeve	xiù zi			袖子
+BeijingDaxue-1964-905-242	242	裏子	121	noun	clothing	七、服飾	名 詞	lining (of clothes)	lǐ zi			里子
+BeijingDaxue-1964-905-243	243	房子	122	noun	living, dwelling	八、房屋	名 詞	building // house	fáng zi	1252	HOUSE	房子
+BeijingDaxue-1964-905-244	244	屋子	122	noun	living, dwelling	八、房屋	名 詞	room	wū zi	1450	ROOM	屋子
+BeijingDaxue-1964-905-245	245	正房	123	noun	living, dwelling	八、房屋	名 詞	middle room in the whole house	zhèng fáng			正房
+BeijingDaxue-1964-905-246	246	廂房	123	noun	living, dwelling	八、房屋	名 詞	wing-room	xiāng fáng			厢房
+BeijingDaxue-1964-905-247	247	廚房	124	noun	living, dwelling	八、房屋	名 詞	kitchen	chú fáng	1365	KITCHEN	厨房
+BeijingDaxue-1964-905-248	248	厠所	124	noun	living, dwelling	八、房屋	名 詞	toilet	cè suǒ	219	TOILET	厠所
+BeijingDaxue-1964-905-249	249	柱子	125	noun	living, dwelling	八、房屋	名 詞	column	zhù zi	2045	COLUMN	柱子
+BeijingDaxue-1964-905-250	250	房梁	125	noun	living, dwelling	八、房屋	名 詞	beam (in a house)	fáng liáng	1132	BEAM	房梁
+BeijingDaxue-1964-905-251	251	墻	126	noun	living, dwelling	八、房屋	名 詞	wall	qiáng	933	WALL (OF HOUSE)	墙
+BeijingDaxue-1964-905-252	252	窗子	126	noun	living, dwelling	八、房屋	名 詞	window	chuāng zi	1375	WINDOW	窗子
+BeijingDaxue-1964-905-253	253	鬥檻兒	127	noun	living, dwelling	八、房屋	名 詞	bucket trap	dòu kǎn ér			斗槛儿
+BeijingDaxue-1964-905-254	254	曬臺	127	noun	living, dwelling	八、房屋	名 詞	flat roof	shài tái			晒台
+BeijingDaxue-1964-905-255	255	欄桿	128	noun	living, dwelling	八、房屋	名 詞	balustrade	lán gǎn			栏杆
+BeijingDaxue-1964-905-256	256	臺階	128	noun	living, dwelling	八、房屋	名 詞	steps (of stairs)	tái jiē	1158	STEP	台阶
+BeijingDaxue-1964-905-257	257	樓梯	129	noun	living, dwelling	八、房屋	名 詞	stairs	lóu tī	34	STAIRS	楼梯
+BeijingDaxue-1964-905-258	258	院子	129	noun	living, dwelling	八、房屋	名 詞	courtyard	yuàn zi	4	COURTYARD	院子
+BeijingDaxue-1964-905-259	259	天井	130	noun	living, dwelling	八、房屋	名 詞	courtyard	tiān jǐng	4	COURTYARD	天井
+BeijingDaxue-1964-905-260	260	井	130	noun	living, dwelling	八、房屋	名 詞	well	jǐng	954	WELL	井
+BeijingDaxue-1964-905-261	261	家俱	131	noun	tools of daily use	九、器具、日常用具	名 詞	furniture	jiā jù			家俱
+BeijingDaxue-1964-905-262	262	桌子	131	noun	tools of daily use	九、器具、日常用具	名 詞	table	zhuō zi	1775	TABLE	桌子
+BeijingDaxue-1964-905-263	263	椅子	132	noun	tools of daily use	九、器具、日常用具	名 詞	chair	yǐ zi	1476	CHAIR	椅子
+BeijingDaxue-1964-905-264	264	凳子	132	noun	tools of daily use	九、器具、日常用具	名 詞	stool	dèng zi	2058	STOOL	凳子
+BeijingDaxue-1964-905-265	265	書桌	133	noun	tools of daily use	九、器具、日常用具	名 詞	desk	shū zhuō	1775	TABLE	书桌
+BeijingDaxue-1964-905-266	266	櫃子	133	noun	tools of daily use	九、器具、日常用具	名 詞	cupboard	guì zi			柜子
+BeijingDaxue-1964-905-267	267	抽屜	134	noun	tools of daily use	九、器具、日常用具	名 詞	drawer	chōu tì			抽屉
+BeijingDaxue-1964-905-268	268	盒子	134	noun	tools of daily use	九、器具、日常用具	名 詞	box	hé zi	1465	BOX	盒子
+BeijingDaxue-1964-905-269	269	箱子	135	noun	tools of daily use	九、器具、日常用具	名 詞	case, box	xiāng zi	1465	BOX	箱子
+BeijingDaxue-1964-905-270	270	皮箱	135	noun	tools of daily use	九、器具、日常用具	名 詞	leather case	pí xiāng			皮箱
+BeijingDaxue-1964-905-271	271	床	136	noun	tools of daily use	九、器具、日常用具	名 詞	bed	chuáng	1663	BED	床
+BeijingDaxue-1964-905-272	272	被子	136	noun	tools of daily use	九、器具、日常用具	名 詞	quilt	bèi zi	2048	QUILT	被子
+BeijingDaxue-1964-905-273	273	褥子	137	noun	tools of daily use	九、器具、日常用具	名 詞	puff	rù zi			褥子
+BeijingDaxue-1964-905-274	274	毯子	137	noun	tools of daily use	九、器具、日常用具	名 詞	carpet	tǎn zi			毯子
+BeijingDaxue-1964-905-275	275	枕頭	138	noun	tools of daily use	九、器具、日常用具	名 詞	pillow	zhěn tóu	1044	PILLOW	枕头
+BeijingDaxue-1964-905-276	276	席子	138	noun	tools of daily use	九、器具、日常用具	名 詞	mat	xí zi	195	MAT	席子
+BeijingDaxue-1964-905-277	277	帳子	139	noun	tools of daily use	九、器具、日常用具	名 詞	bed-curtain	zhàng zi			帐子
+BeijingDaxue-1964-905-278	278	鍋	139	noun	tools of daily use	九、器具、日常用具	名 詞	cooking-pot	guō	1462	POT	锅
+BeijingDaxue-1964-905-279	279	鍋鏟	140	noun	tools of daily use	九、器具、日常用具	名 詞	pancake turner	guō chǎn			锅铲
+BeijingDaxue-1964-905-280	280	菜刀	140	noun	tools of daily use	九、器具、日常用具	名 詞	kitchen knife	cài dāo	2772	VEGETABLE KNIFE	菜刀
+BeijingDaxue-1964-905-281	281	筷子	141	noun	tools of daily use	九、器具、日常用具	名 詞	chopsticks	kuài zi	1987	CHOPSTICKS	筷子
+BeijingDaxue-1964-905-282	282	調羹	141	noun	tools of daily use	九、器具、日常用具	名 詞	spoon	diào gēng	1378	SPOON	调羹
+BeijingDaxue-1964-905-283	283	缸	142	noun	tools of daily use	九、器具、日常用具	名 詞	earthen jug	gāng	270	JUG	缸
+BeijingDaxue-1964-905-284	284	水瓢	142	noun	tools of daily use	九、器具、日常用具	名 詞	baler	shuǐ piáo			水瓢
+BeijingDaxue-1964-905-285	285	壇子	143	noun	tools of daily use	九、器具、日常用具	名 詞	earthern jug	tán zi	270	JUG	坛子
+BeijingDaxue-1964-905-286	286	罐子	143	noun	tools of daily use	九、器具、日常用具	名 詞	pot, jug	guàn zi	1462	POT	罐子
+BeijingDaxue-1964-905-287	287	瓶子	144	noun	tools of daily use	九、器具、日常用具	名 詞	bottle	píng zi	1321	BOTTLE	瓶子
+BeijingDaxue-1964-905-288	288	木柴	144	noun	tools of daily use	九、器具、日常用具	名 詞	firewood	mù chái	10	FIREWOOD	木柴
+BeijingDaxue-1964-905-289	289	木炭	145	noun	tools of daily use	九、器具、日常用具	名 詞	wood charcoal	mù tàn	1188	CHARCOAL	木炭
+BeijingDaxue-1964-905-290	290	火爐	145	noun	tools of daily use	九、器具、日常用具	名 詞	stove	huǒ lú	859	STOVE	火炉
+BeijingDaxue-1964-905-291	291	熱水瓶	146	noun	tools of daily use	九、器具、日常用具	名 詞	thermos bottle	rè shuǐ píng			热水瓶
+BeijingDaxue-1964-905-292	292	漿糊	146	noun	tools of daily use	九、器具、日常用具	名 詞	glue	jiāng hú	1069	GLUE	浆煳
+BeijingDaxue-1964-905-293	293	針	147	noun	tools of daily use	九、器具、日常用具	名 詞	needle	zhēn	1382	NEEDLE (FOR SEWING)	针
+BeijingDaxue-1964-905-294	294	頂針兒	147	noun	tools of daily use	九、器具、日常用具	名 詞	thimble	dǐng zhēn ér			顶针儿
+BeijingDaxue-1964-905-295	295	綫	148	noun	tools of daily use	九、器具、日常用具	名 詞	thread, wire	xiàn	1161	THREAD	綫
+BeijingDaxue-1964-905-296	296	繩子	148	noun	tools of daily use	九、器具、日常用具	名 詞	rope	shéng zi	1218	ROPE	绳子
+BeijingDaxue-1964-905-297	297	鎖	149	noun	tools of daily use	九、器具、日常用具	名 詞	lock	suǒ	1596	LOCK	锁
+BeijingDaxue-1964-905-298	298	鑰匙	149	noun	tools of daily use	九、器具、日常用具	名 詞	key	yào shi	1472	KEY	钥匙
+BeijingDaxue-1964-905-299	299	扇子	150	noun	tools of daily use	九、器具、日常用具	名 詞	fan	shàn zi	1971	FAN (OBJECT)	扇子
+BeijingDaxue-1964-905-300	300	傘	150	noun	tools of daily use	九、器具、日常用具	名 詞	umbrella	sǎn			伞
+BeijingDaxue-1964-905-301	301	拐杖	151	noun	tools of daily use	九、器具、日常用具	名 詞	walking staff	guǎi zhàng	1266	WALKING STICK	拐杖
+BeijingDaxue-1964-905-302	302	電筒	151	noun	tools of daily use	九、器具、日常用具	名 詞	flashlight	diàn tǒng			电筒
+BeijingDaxue-1964-905-303	303	蠟燭	152	noun	tools of daily use	九、器具、日常用具	名 詞	candle	là zhú	1273	CANDLE	蜡烛
+BeijingDaxue-1964-905-304	304	火柴	152	noun	tools of daily use	九、器具、日常用具	名 詞	match	huǒ chái	1133	MATCH	火柴
+BeijingDaxue-1964-905-305	305	肥皂	153	noun	tools of daily use	九、器具、日常用具	名 詞	soap	féi zào	788	SOAP	肥皂
+BeijingDaxue-1964-905-306	306	牙刷	153	noun	tools of daily use	九、器具、日常用具	名 詞	toothbrush	yá shuā	2579	TOOTHBRUSH	牙刷
+BeijingDaxue-1964-905-307	307	抹布	154	noun	tools of daily use	九、器具、日常用具	名 詞	dish towel	mǒ bù			抹布
+BeijingDaxue-1964-905-308	308	掃帚	154	noun	tools of daily use	九、器具、日常用具	名 詞	broom	sǎo zhǒu	245	BROOM	扫帚
+BeijingDaxue-1964-905-309	309	撣子	155	noun	tools of daily use	九、器具、日常用具	名 詞	duster	dǎn zi			掸子
+BeijingDaxue-1964-905-310	310	簸箕	155	noun	tools of daily use	九、器具、日常用具	名 詞	dustpan	bǒ jī	2051	DUSTPAN	簸箕
+BeijingDaxue-1964-905-311	311	痰盂	156	noun	tools of daily use	九、器具、日常用具	名 詞	spittoon	tán yú			痰盂
+BeijingDaxue-1964-905-312	312	算盤	156	noun	instruments, material	十、工具、材料	名 詞	abacus	suàn pán	2489	ABACUS	算盘
+BeijingDaxue-1964-905-313	313	秤	157	noun	instruments, material	十、工具、材料	名 詞	scale	chèng	2783	SCALES (MEASURE INSTRUMENT)	秤
+BeijingDaxue-1964-905-314	314	戥子	157	noun	instruments, material	十、工具、材料	名 詞	steelyard (for weighing gold, medicine)	děng zi			戥子
+BeijingDaxue-1964-905-315	315	尺	158	noun	instruments, material	十、工具、材料	名 詞	foot (measure)	chǐ	2782	FOOT (MEASURE)	尺
+BeijingDaxue-1964-905-316	316	剪子	158	noun	instruments, material	十、工具、材料	名 詞	scissors	jiǎn zi	356	SHEARS	剪子
+BeijingDaxue-1964-905-317	317	錘子	159	noun	instruments, material	十、工具、材料	名 詞	hammer	chuí zi	1481	HAMMER	锤子
+BeijingDaxue-1964-905-318	318	斧頭	159	noun	instruments, material	十、工具、材料	名 詞	axe	fǔ tóu	677	AXE	斧头
+BeijingDaxue-1964-905-319	319	鉗子	160	noun	instruments, material	十、工具、材料	名 詞	pincers	qián zi			钳子
+BeijingDaxue-1964-905-320	320	鑷子	160	noun	instruments, material	十、工具、材料	名 詞	tweezers	niè zi			镊子
+BeijingDaxue-1964-905-321	321	鑿子	161	noun	instruments, material	十、工具、材料	名 詞	chisel	záo zi	1979	CHISEL	凿子
+BeijingDaxue-1964-905-322	322	鋸子	161	noun	instruments, material	十、工具、材料	名 詞	saw (tool)	jù zi	1948	SAW	锯子
+BeijingDaxue-1964-905-323	323	銼刀	162	noun	instruments, material	十、工具、材料	名 詞	file (tool)	cuò dāo			锉刀
+BeijingDaxue-1964-905-324	324	鉆子	162	noun	instruments, material	十、工具、材料	名 詞	drill (tool)	chān zi			钻子
+BeijingDaxue-1964-905-325	325	錐子	163	noun	instruments, material	十、工具、材料	名 詞	awl	zhuī zi	278	AWL	锥子
+BeijingDaxue-1964-905-326	326	鉋子	163	noun	instruments, material	十、工具、材料	名 詞	plane (tool)	bào zi			鉋子
+BeijingDaxue-1964-905-327	327	小刀兒	164	noun	instruments, material	十、工具、材料	名 詞	small knife	xiǎo dāo ér	1352	KNIFE	小刀儿
+BeijingDaxue-1964-905-328	328	鉤子	164	noun	instruments, material	十、工具、材料	名 詞	hook	gōu zi	1071	HOOK	钩子
+BeijingDaxue-1964-905-329	329	釘子	165	noun	instruments, material	十、工具、材料	名 詞	nail (tool)	dīng zi	502	NAIL (TOOL)	钉子
+BeijingDaxue-1964-905-330	330	梯子	165	noun	instruments, material	十、工具、材料	名 詞	stairs, ladder	tī zi	2689	LADDER OR STAIRS	梯子
+BeijingDaxue-1964-905-331	331	鋤頭	166	noun	instruments, material	十、工具、材料	名 詞	hoe (tool)	chú tóu	284	HOE	锄头
+BeijingDaxue-1964-905-332	332	鐮刀	166	noun	instruments, material	十、工具、材料	名 詞	sickle (tool)	lián dāo	341	SICKLE	镰刀
+BeijingDaxue-1964-905-333	333	扁擔	167	noun	instruments, material	十、工具、材料	名 詞	shoulder-pole	biǎn dān			扁担
+BeijingDaxue-1964-905-334	334	篩子	167	noun	instruments, material	十、工具、材料	名 詞	sieve (tool)	shāi zi	86	SIEVE	筛子
+BeijingDaxue-1964-905-335	335	輪子	168	noun	instruments, material	十、工具、材料	名 詞	wheel	lún zi	710	WHEEL	轮子
+BeijingDaxue-1964-905-336	336	木頭	168	noun	instruments, material	十、工具、材料	名 詞	wood	mù tóu	1803	WOOD	木头
+BeijingDaxue-1964-905-337	337	竹子	169	noun	instruments, material	十、工具、材料	名 詞	bamboo	zhú zi	1927	BAMBOO	竹子
+BeijingDaxue-1964-905-338	338	石灰	169	noun	instruments, material	十、工具、材料	名 詞	limestone	shí huī	2540	LIME (MATERIAL)	石灰
+BeijingDaxue-1964-905-339	339	水泥	170	noun	instruments, material	十、工具、材料	名 詞	cement	shuǐ ní			水泥
+BeijingDaxue-1964-905-340	340	橡膠	170	noun	instruments, material	十、工具、材料	名 詞	rubber	xiàng jiāo			橡胶
+BeijingDaxue-1964-905-341	341	漆	171	noun	instruments, material	十、工具、材料	名 詞	varnish, paint	qī	647	PAINT (PIGMENTS)	漆
+BeijingDaxue-1964-905-342	342	玻璃	171	noun	instruments, material	十、工具、材料	名 詞	glass	bō lí	604	GLASS	玻璃
+BeijingDaxue-1964-905-343	343	錢	172	noun	business, communication, traffic	十一、商業、郵電、交通	名 詞	money	qián	1559	MONEY	钱
+BeijingDaxue-1964-905-344	344	商店	172	noun	business, communication, traffic	十一、商業、郵電、交通	名 詞	store	shāng diàn	752	STORE	商店
+BeijingDaxue-1964-905-345	345	飯館	173	noun	business, communication, traffic	十一、商業、郵電、交通	名 詞	restaurant	fàn guǎn			饭馆
+BeijingDaxue-1964-905-346	346	郵局	173	noun	business, communication, traffic	十一、商業、郵電、交通	名 詞	post office	yóu jú			邮局
+BeijingDaxue-1964-905-347	347	郵票	174	noun	business, communication, traffic	十一、商業、郵電、交通	名 詞	postage stamp	yóu piào	596	POSTAGE STAMP	邮票
+BeijingDaxue-1964-905-348	348	車站	174	noun	business, communication, traffic	十一、商業、郵電、交通	名 詞	stop, station	chē zhàn	1928	CEASE	车站
+BeijingDaxue-1964-905-349	349	碼頭	175	noun	business, communication, traffic	十一、商業、郵電、交通	名 詞	pier, quay	mǎ tóu			码头
+BeijingDaxue-1964-905-350	350	汽車	175	noun	business, communication, traffic	十一、商業、郵電、交通	名 詞	automobile	qì chē			汽车
+BeijingDaxue-1964-905-351	351	自行車	176	noun	business, communication, traffic	十一、商業、郵電、交通	名 詞	bicycle	zì xíng chē	747	BICYCLE	自行车
+BeijingDaxue-1964-905-352	352	人力車	176	noun	business, communication, traffic	十一、商業、郵電、交通	名 詞	rickshaw	rén lì chē			人力车
+BeijingDaxue-1964-905-353	353	輪船	177	noun	business, communication, traffic	十一、商業、郵電、交通	名 詞	steamship	lún chuán			轮船
+BeijingDaxue-1964-905-354	354	汽船	177	noun	business, communication, traffic	十一、商業、郵電、交通	名 詞	steamship	qì chuán			汽船
+BeijingDaxue-1964-905-355	355	小船兒	178	noun	business, communication, traffic	十一、商業、郵電、交通	名 詞	boat (small ship)	xiǎo chuán ér	1844	BOAT	小船儿
+BeijingDaxue-1964-905-356	356	街道	178	noun	business, communication, traffic	十一、商業、郵電、交通	名 詞	street	jiē dào	1362	STREET	街道
+BeijingDaxue-1964-905-357	357	人行道	179	noun	business, communication, traffic	十一、商業、郵電、交通	名 詞	sidewalk (pavement)	rén xíng dào			人行道
+BeijingDaxue-1964-905-358	358	巷	179	noun	business, communication, traffic	十一、商業、郵電、交通	名 詞	alley, lane	xiàng			巷
+BeijingDaxue-1964-905-359	359	橋	180	noun	business, communication, traffic	十一、商業、郵電、交通	名 詞	bridge	qiáo	1011	BRIDGE	桥
+BeijingDaxue-1964-905-360	360	學校	180	noun	culture, music	十二、文化、娛樂	名 詞	school (educational institution)	xué xiào	673	SCHOOL	学校
+BeijingDaxue-1964-905-361	361	書	181	noun	culture, music	十二、文化、娛樂	名 詞	book	shū	963	BOOK	书
+BeijingDaxue-1964-905-362	362	本子	181	noun	culture, music	十二、文化、娛樂	名 詞	notebook, booklet	běn zi			本子
+BeijingDaxue-1964-905-363	363	紙	182	noun	culture, music	十二、文化、娛樂	名 詞	paper	zhǐ	648	PAPER	纸
+BeijingDaxue-1964-905-364	364	硯臺	182	noun	culture, music	十二、文化、娛樂	名 詞	inkstone	yàn tái			砚台
+BeijingDaxue-1964-905-365	365	毛筆	183	noun	culture, music	十二、文化、娛樂	名 詞	writing brush	máo bǐ			毛笔
+BeijingDaxue-1964-905-366	366	鋼筆	183	noun	culture, music	十二、文化、娛樂	名 詞	fountain pen	gāng bǐ			钢笔
+BeijingDaxue-1964-905-367	367	信	184	noun	culture, music	十二、文化、娛樂	名 詞	letter	xìn	1612	LETTER	信
+BeijingDaxue-1964-905-368	368	信封兒	184	noun	culture, music	十二、文化、娛樂	名 詞	envelope	xìn fēng ér			信封儿
+BeijingDaxue-1964-905-369	369	信紙	185	noun	culture, music	十二、文化、娛樂	名 詞	letter paper	xìn zhǐ			信纸
+BeijingDaxue-1964-905-370	370	橡皮圈兒	185	noun	culture, music	十二、文化、娛樂	名 詞	rubber seal	xiàng pí quān ér			橡皮圈儿
+BeijingDaxue-1964-905-371	371	圖章	186	noun	culture, music	十二、文化、娛樂	名 詞	seal, stamp	tú zhāng	651	SEAL	图章
+BeijingDaxue-1964-905-372	372	徽章	186	noun	culture, music	十二、文化、娛樂	名 詞	badge, emblem	huī zhāng			徽章
+BeijingDaxue-1964-905-373	373	相片	187	noun	culture, music	十二、文化、娛樂	名 詞	foto (picture)	xiāng piàn	2401	PICTURE	相片
+BeijingDaxue-1964-905-374	374	電影	187	noun	culture, music	十二、文化、娛樂	名 詞	film (movie)	diàn yǐng	216	MOVIE	电影
+BeijingDaxue-1964-905-375	375	故事	188	noun	culture, music	十二、文化、娛樂	名 詞	history, story	gù shì	2060	STORY	故事
+BeijingDaxue-1964-905-376	376	球	188	noun	culture, music	十二、文化、娛樂	名 詞	ball	qiú	1845	BALL	球
+BeijingDaxue-1964-905-377	377	秋千	189	noun	culture, music	十二、文化、娛樂	名 詞	swing	qiū qiān			秋千
+BeijingDaxue-1964-905-378	378	風箏	189	noun	culture, music	十二、文化、娛樂	名 詞	kite	fēng zhēng	307	HAWK	风筝
+BeijingDaxue-1964-905-379	379	炮仗	190	noun	culture, music	十二、文化、娛樂	名 詞	firecracker	pào zhàng			炮仗
+BeijingDaxue-1964-905-380	380	哨子	190	noun	culture, music	十二、文化、娛樂	名 詞	whistle	shào zi	1025	WHISTLE	哨子
+BeijingDaxue-1964-905-381	381	頭	191	noun	human body	十三、人體	名 詞	head	tóu	1256	HEAD	头
+BeijingDaxue-1964-905-382	382	頭髮	191	noun	human body	十三、人體	名 詞	hair (of head)	tóu fà	2648	HAIR (HEAD)	头髮
+BeijingDaxue-1964-905-383	383	前額	192	noun	human body	十三、人體	名 詞	forehead	qián é	123	FOREHEAD	前额
+BeijingDaxue-1964-905-384	384	眼睛	192	noun	human body	十三、人體	名 詞	eye	yǎn jīng	1248	EYE	眼睛
+BeijingDaxue-1964-905-385	385	鼻子	193	noun	human body	十三、人體	名 詞	nose	bí zi	1221	NOSE	鼻子
+BeijingDaxue-1964-905-386	386	耳朵	193	noun	human body	十三、人體	名 詞	ear	ěr duǒ	1247	EAR	耳朵
+BeijingDaxue-1964-905-387	387	嘴	194	noun	human body	十三、人體	名 詞	mouth	zuǐ	674	MOUTH	嘴
+BeijingDaxue-1964-905-388	388	舌頭	194	noun	human body	十三、人體	名 詞	tongue	shé tóu	1205	TONGUE	舌头
+BeijingDaxue-1964-905-389	389	脖子	195	noun	human body	十三、人體	名 詞	neck	bó zi	1333	NECK	脖子
+BeijingDaxue-1964-905-390	390	夾肢窩	195	noun	human body	十三、人體	名 詞	armpit	jiā zhī wō	1886	ARMPIT	夹肢窝
+BeijingDaxue-1964-905-391	391	胳膊	196	noun	human body	十三、人體	名 詞	arm	gē bó	1673	ARM	胳膊
+BeijingDaxue-1964-905-392	392	左手	196	noun	human body	十三、人體	名 詞	left hand, left side	zuǒ shǒu	2182	LEFT HAND	左手
+BeijingDaxue-1964-905-393	393	右手	197	noun	human body	十三、人體	名 詞	right hand, right side	yòu shǒu	2183	RIGHT HAND	右手
+BeijingDaxue-1964-905-394	394	手指頭	197	noun	human body	十三、人體	名 詞	fingertip	shǒu zhǐ tóu	2773	FINGERTIP	手指头
+BeijingDaxue-1964-905-395	395	大姆指	198	noun	human body	十三、人體	名 詞	thumb	dà mǔ zhǐ	1781	THUMB	大姆指
+BeijingDaxue-1964-905-396	396	小姆指	198	noun	human body	十三、人體	名 詞	little finger	xiǎo mǔ zhǐ	2774	LITTLE FINGER	小姆指
+BeijingDaxue-1964-905-397	397	指甲	199	noun	human body	十三、人體	名 詞	fingernail	zhǐ jiǎ	1258	FINGERNAIL	指甲
+BeijingDaxue-1964-905-398	398	屁股	199	noun	human body	十三、人體	名 詞	buttocks	pì gǔ	834	BUTTOCKS	屁股
+BeijingDaxue-1964-905-399	399	大腿	200	noun	human body	十三、人體	名 詞	thigh (upper leg)	dà tuǐ	800	THIGH	大腿
+BeijingDaxue-1964-905-400	400	膝蓋	200	noun	human body	十三、人體	名 詞	knee	xī gài	1371	KNEE	膝盖
+BeijingDaxue-1964-905-401	401	男人	201	noun	human character	十四、人品	名 詞	man	nán rén	1554	MAN	男人
+BeijingDaxue-1964-905-402	402	女人	201	noun	human character	十四、人品	名 詞	woman	nǚ rén	962	WOMAN	女人
+BeijingDaxue-1964-905-403	403	老頭兒	202	noun	human character	十四、人品	名 詞	old man	lǎo tóu ér	406	OLD MAN	老头儿
+BeijingDaxue-1964-905-404	404	老太婆	202	noun	human character	十四、人品	名 詞	old woman	lǎo tài pó	907	OLD WOMAN	老太婆
+BeijingDaxue-1964-905-405	405	小夥子	203	noun	human character	十四、人品	名 詞	young fellow	xiǎo huǒ zi			小伙子
+BeijingDaxue-1964-905-406	406	小孩兒	203	noun	human character	十四、人品	名 詞	child	xiǎo hái ér	1304	CHILD (YOUNG HUMAN)	小孩儿
+BeijingDaxue-1964-905-407	407	男孩兒	204	noun	human character	十四、人品	名 詞	boy	nán hái ér	1366	BOY	男孩儿
+BeijingDaxue-1964-905-408	408	女孩兒	204	noun	human character	十四、人品	名 詞	girl	nǚ hái ér	1646	GIRL	女孩儿
+BeijingDaxue-1964-905-409	409	聾子	205	noun	human character	十四、人品	名 詞	deaf person	lóng zi	458	DEAF PERSON	聋子
+BeijingDaxue-1964-905-410	410	瞎子	205	noun	human character	十四、人品	名 詞	blind person	xiā zi	457	BLIND PERSON	瞎子
+BeijingDaxue-1964-905-411	411	啞吧	206	noun	human character	十四、人品	名 詞	mute person	yǎ ba	2320	MUTE PERSON	哑吧
+BeijingDaxue-1964-905-412	412	結巴	206	noun	human character	十四、人品	名 詞	stammerer	jié bā			结巴
+BeijingDaxue-1964-905-413	413	麻子	207	noun	human character	十四、人品	名 詞	person with a pockmarked face	má zi			麻子
+BeijingDaxue-1964-905-414	414	禿子	207	noun	human character	十四、人品	名 詞	baldhead	tū zi			秃子
+BeijingDaxue-1964-905-415	415	駝子	208	noun	human character	十四、人品	名 詞	person with a humpback	tuó zi			驼子
+BeijingDaxue-1964-905-416	416	跛子	208	noun	human character	十四、人品	名 詞	lame person	bǒ zi	2322	LAME PERSON	跛子
+BeijingDaxue-1964-905-417	417	瘋子	209	noun	human character	十四、人品	名 詞	mad person	fēng zi	2321	MAD PERSON	疯子
+BeijingDaxue-1964-905-418	418	單身漢	209	noun	human character	十四、人品	名 詞	bachelor	dān shēn hàn			单身汉
+BeijingDaxue-1964-905-419	419	寡婦	210	noun	human character	十四、人品	名 詞	widow	guǎ fù	1756	WIDOW	寡妇
+BeijingDaxue-1964-905-420	420	雙胞胎	210	noun	human character	十四、人品	名 詞	twins	shuāng bāo tāi	1005	TWINS	双胞胎
+BeijingDaxue-1964-905-421	421	小偷	211	noun	human character	十四、人品	名 詞	thief	xiǎo tōu	1160	THIEF	小偷
+BeijingDaxue-1964-905-422	422	強盜	211	noun	human character	十四、人品	名 詞	robber	qiáng dào	2073	ROB (VERB)	强盗
+BeijingDaxue-1964-905-423	423	爺爺	212	noun	kinship terms	十五、親屬稱呼	名 詞	grandfather	yé yé	1383	GRANDFATHER	爷爷
+BeijingDaxue-1964-905-424	424	奶奶	212	noun	kinship terms	十五、親屬稱呼	名 詞	grandmother	nǎi nǎi	1496	GRANDMOTHER	奶奶
+BeijingDaxue-1964-905-425	425	爸爸	213	noun	kinship terms	十五、親屬稱呼	名 詞	father (daddy)	bà bà	1217	FATHER	爸爸
+BeijingDaxue-1964-905-426	426	媽媽	213	noun	kinship terms	十五、親屬稱呼	名 詞	mother (mommy)	mā mā	1216	MOTHER	妈妈
+BeijingDaxue-1964-905-427	427	後母	214	noun	kinship terms	十五、親屬稱呼	名 詞	stepmother	hòu mǔ	236	STEPMOTHER	后母
+BeijingDaxue-1964-905-428	428	伯父	214	noun	kinship terms	十五、親屬稱呼	名 詞	uncle (father's elder brother)	bó fù			伯父
+BeijingDaxue-1964-905-429	429	伯母	215	noun	kinship terms	十五、親屬稱呼	名 詞	aunt (wife of fatherss elder brother)	bó mǔ			伯母
+BeijingDaxue-1964-905-430	430	叔父	215	noun	kinship terms	十五、親屬稱呼	名 詞	uncle	shū fù	1327	UNCLE	叔父
+BeijingDaxue-1964-905-431	431	嬸母	216	noun	kinship terms	十五、親屬稱呼	名 詞	aunt (wife of father's younger brother)	shěn mǔ	2171	AUNT	婶母
+BeijingDaxue-1964-905-432	432	姑父	216	noun	kinship terms	十五、親屬稱呼	名 詞	uncle (husband of father's sister)	gū fù	2690	UNCLE (HUSBAND OF FATHER'S SISTER)	姑父
+BeijingDaxue-1964-905-433	433	姑母	217	noun	kinship terms	十五、親屬稱呼	名 詞	aunt (father's sister)	gū mǔ	2691	PATERNAL AUNT (FATHER'S SISTER)	姑母
+BeijingDaxue-1964-905-434	434	外公	217	noun	kinship terms	十五、親屬稱呼	名 詞	maternal grandfather	wài gōng	2178	MATERNAL GRANDFATHER	外公
+BeijingDaxue-1964-905-435	435	外婆	218	noun	kinship terms	十五、親屬稱呼	名 詞	maternal grandmother	wài pó	2177	MATERNAL GRANDMOTHER	外婆
+BeijingDaxue-1964-905-436	436	舅父	218	noun	kinship terms	十五、親屬稱呼	名 詞	uncle (mother's brother)	jiù fù	2692	MATERNAL UNCLE (MOTHER'S BROTHER)	舅父
+BeijingDaxue-1964-905-437	437	舅母	219	noun	kinship terms	十五、親屬稱呼	名 詞	aunt (mother's sister)	jiù mǔ	2693	MATERNAL AUNT (MOTHER'S SISTER)	舅母
+BeijingDaxue-1964-905-438	438	姨父	219	noun	kinship terms	十五、親屬稱呼	名 詞	uncle (husband of one's maternal aunt)	yí fù	2694	MATERNAL UNCLE (HUSBAND OF ONE'S MATERNAL AUNT)	姨父
+BeijingDaxue-1964-905-439	439	姨母	220	noun	kinship terms	十五、親屬稱呼	名 詞	maternal aunt	yí mǔ	2176	MATERNAL AUNT	姨母
+BeijingDaxue-1964-905-440	440	丈人	220	noun	kinship terms	十五、親屬稱呼	名 詞	father-in-law (wife's father)	zhàng rén	2255	FATHER-IN-LAW (OF MAN)	丈人
+BeijingDaxue-1964-905-441	441	丈母	221	noun	kinship terms	十五、親屬稱呼	名 詞	mother-in-law (wife's mother)	zhàng mǔ	2257	MOTHER-IN-LAW (OF MAN)	丈母
+BeijingDaxue-1964-905-442	442	公公	221	noun	kinship terms	十五、親屬稱呼	名 詞	father-in-law (husband's father)	gōng gōng	2254	FATHER-IN-LAW (OF WOMAN)	公公
+BeijingDaxue-1964-905-443	443	婆婆	222	noun	kinship terms	十五、親屬稱呼	名 詞	mother-in-law (husband's mother)	pó pó	2256	MOTHER-IN-LAW (OF WOMAN)	婆婆
+BeijingDaxue-1964-905-444	444	丈夫	222	noun	kinship terms	十五、親屬稱呼	名 詞	husband	zhàng fū	1200	HUSBAND	丈夫
+BeijingDaxue-1964-905-445	445	妻子	223	noun	kinship terms	十五、親屬稱呼	名 詞	wife	qī zi	1199	WIFE	妻子
+BeijingDaxue-1964-905-446	446	哥哥	223	noun	kinship terms	十五、親屬稱呼	名 詞	elder brother	gē gē	1759	OLDER BROTHER	哥哥
+BeijingDaxue-1964-905-447	447	嫂子	224	noun	kinship terms	十五、親屬稱呼	名 詞	sister-in-law (elder brother's wife)	sǎo zi	2695	SISTER-IN-LAW (OLDER BROTHER'S WIFE)	嫂子
+BeijingDaxue-1964-905-448	448	弟弟	224	noun	kinship terms	十五、親屬稱呼	名 詞	younger brother	dì dì	1760	YOUNGER BROTHER	弟弟
+BeijingDaxue-1964-905-449	449	姐姐	225	noun	kinship terms	十五、親屬稱呼	名 詞	elder sister	jiě jiě	1758			姐姐
+BeijingDaxue-1964-905-450	450	姐夫	225	noun	kinship terms	十五、親屬稱呼	名 詞	brother-in-law (elder sister's husband)	jiě fū	2696	BROTHER-IN-LAW (OLDER SISTER'S HUSBAND)	姐夫
+BeijingDaxue-1964-905-451	451	妹妹	226	noun	kinship terms	十五、親屬稱呼	名 詞	younger sister	mèi mèi	1761	YOUNGER SISTER	妹妹
+BeijingDaxue-1964-905-452	452	妹夫	226	noun	kinship terms	十五、親屬稱呼	名 詞	brother-in-law (younger sister's husband)	mèi fū	2697	BROTHER-IN-LAW (YOUNGER SISTER'S HUSBAND)	妹夫
+BeijingDaxue-1964-905-453	453	大伯子	227	noun	kinship terms	十五、親屬稱呼	名 詞	brother-in-law (husband's elder brother)	dà bó zi	2698	BROTHER-IN-LAW (HUSBAND'S OLDER BROTHER)	大伯子
+BeijingDaxue-1964-905-454	454	小叔子	227	noun	kinship terms	十五、親屬稱呼	名 詞	brother-in-law (husband's younger brother)	xiǎo shū zi	2699	BROTHER-IN-LAW (HUSBAND'S YOUNGER BROTHER)	小叔子
+BeijingDaxue-1964-905-455	455	大姑子	228	noun	kinship terms	十五、親屬稱呼	名 詞	sister-in-law (husband's elder sister)	dà gū zi	2700	SISTER-IN-LAW (HUSBAND'S OLDER SISTER)	大姑子
+BeijingDaxue-1964-905-456	456	小姑子	228	noun	kinship terms	十五、親屬稱呼	名 詞	sister-in-law	xiǎo gū zi	2701	SISTER-IN-LAW (HUSBANDS YOUNGER SISTER)	小姑子
+BeijingDaxue-1964-905-457	457	兒子	229	noun	kinship terms	十五、親屬稱呼	名 詞	son	ér zi	1620	SON	儿子
+BeijingDaxue-1964-905-458	458	媳婦	229	noun	kinship terms	十五、親屬稱呼	名 詞	daughter-in-law (son's wife)	xí fù	1057	DAUGHTER-IN-LAW	媳妇
+BeijingDaxue-1964-905-459	459	女兒	230	noun	kinship terms	十五、親屬稱呼	名 詞	daughter	nǚ ér	1357	DAUGHTER	女儿
+BeijingDaxue-1964-905-460	460	女婿	230	noun	kinship terms	十五、親屬稱呼	名 詞	son-in-law	nǚ xù	1056	SON-IN-LAW	女婿
+BeijingDaxue-1964-905-461	461	侄兒	231	noun	kinship terms	十五、親屬稱呼	名 詞	nephew	zhí ér	1063	NEPHEW	侄儿
+BeijingDaxue-1964-905-462	462	侄女	231	noun	kinship terms	十五、親屬稱呼	名 詞	niece	zhí nǚ	1642	NIECE	侄女
+BeijingDaxue-1964-905-463	463	外甥	232	noun	kinship terms	十五、親屬稱呼	名 詞	nephew (sister's son)	wài shēng	1063	NEPHEW	外甥
+BeijingDaxue-1964-905-464	464	孫子	232	noun	kinship terms	十五、親屬稱呼	名 詞	grandson	sūn zi	2702	GRANDSON (SON'S SON)	孙子
+BeijingDaxue-1964-905-465	465	孫女	233	noun	kinship terms	十五、親屬稱呼	名 詞	granddaughter	sūn nǚ	1619	GRANDDAUGHTER	孙女
+BeijingDaxue-1964-905-466	466	外孫	233	noun	kinship terms	十五、親屬稱呼	名 詞	grandson (daughter's son)	wài sūn	2703	GRANDCHILD (DAUGHTER'S OFFSPRING)	外孙
+BeijingDaxue-1964-905-467	467	前面	234	noun	directions	十六、方位	名 詞	front, front side	qián miàn	2194	FRONT (PART)	前面
+BeijingDaxue-1964-905-468	468	後面	234	noun	directions	十六、方位	名 詞	back, back side	hòu miàn	2323	BACK (PART)	后面
+BeijingDaxue-1964-905-469	469	裏面	235	noun	directions	十六、方位	名 詞	in, inside	lǐ miàn	1460	IN	里面
+BeijingDaxue-1964-905-470	470	外面	235	noun	directions	十六、方位	名 詞	out, outside	wài miàn	762	OUTSIDE	外面
+BeijingDaxue-1964-905-471	471	上面	236	noun	directions	十六、方位	名 詞	top, top side // top	shàng miàn	1753	TOP	上面
+BeijingDaxue-1964-905-472	472	下面	236	noun	directions	十六、方位	名 詞	under, below	xià miàn	1485	BELOW OR UNDER	下面
+BeijingDaxue-1964-905-473	473	中間	237	noun	directions	十六、方位	名 詞	centre, in the middle of	zhōng jiān	1093	MIDDLE	中间
+BeijingDaxue-1964-905-474	474	旁邊	237	noun	directions	十六、方位	名 詞	side	páng biān	682	SIDE	旁边
+BeijingDaxue-1964-905-475	475	隔壁	238	noun	directions	十六、方位	名 詞	next to	gé bì			隔壁
+BeijingDaxue-1964-905-476	476	城裏	238	noun	directions	十六、方位	名 詞	downtown (inside the city)	chéng lǐ			城里
+BeijingDaxue-1964-905-477	477	鄉下	239	noun	directions	十六、方位	名 詞	countryside	xiāng xià			乡下
+BeijingDaxue-1964-905-478	478	東西	239	noun	other	十七、其他	名 詞	thing	dōng xī	738	THING	东西
+BeijingDaxue-1964-905-479	479	粉	240	noun	other	十七、其他	名 詞	powder	fěn	1798	GUNPOWDER	粉
+BeijingDaxue-1964-905-480	480	末子	240	noun	other	十七、其他	名 詞	dust	mò zi	2	DUST	末子
+BeijingDaxue-1964-905-481	481	泡沫	241	noun	other	十七、其他	名 詞	foam	pào mò	1768	FOAM	泡沫
+BeijingDaxue-1964-905-482	482	口水	241	noun	other	十七、其他	名 詞	saliva, spit	kǒu shuǐ	1503	SALIVA	口水
+BeijingDaxue-1964-905-483	483	垃圾	242	noun	other	十七、其他	名 詞	garbage, trash	lā jī	909	GARBAGE	垃圾
+BeijingDaxue-1964-905-484	484	角落	242	noun	other	十七、其他	名 詞	corner	jiǎo luò	192	CORNER	角落
+BeijingDaxue-1964-905-485	485	窟窿	243	noun	other	十七、其他	名 詞	hole, cavity	kū lóng	1667	HOLE	窟窿
+BeijingDaxue-1964-905-486	486	豬圈	243	noun	other	十七、其他	名 詞	pigsty	zhū quān			猪圈
+BeijingDaxue-1964-905-487	487	雞窩	244	noun	other	十七、其他	名 詞	chicken nest	jī wō	2764	CHICKEN NEST	鸡窝
+BeijingDaxue-1964-905-488	488	墳	244	noun	other	十七、其他	名 詞	grave	fén	1773	GRAVE	坟
+BeijingDaxue-1964-905-489	489	棺材	245	noun	other	十七、其他	名 詞	coffin	guān cái	2011	COFFIN	棺材
+BeijingDaxue-1964-905-490	490	事情	245	noun	other	十七、其他	名 詞	affair, matter	shì qíng	2214	AFFAIR	事情
+BeijingDaxue-1964-905-491	491	刮風	246	verb	natural change	一、自然變化	動詞	blow (of wind)	guā fēng	175	BLOW (OF WIND)	刮风
+BeijingDaxue-1964-905-492	492	下雨	246	verb	natural change	一、自然變化	動詞	rain	xià yǔ	1253	RAIN (RAINING)	下雨
+BeijingDaxue-1964-905-493	493	打閃	247	verb	natural change	一、自然變化	動詞	flash (lightning)	dǎ shǎn	2377	FLASH (VERB)	打闪
+BeijingDaxue-1964-905-494	494	打雷	247	verb	natural change	一、自然變化	動詞	thunder	dǎ léi	1150	THUNDER	打雷
+BeijingDaxue-1964-905-495	495	結冰	248	verb	natural change	一、自然變化	動詞	freeze	jié bīng	1431	FREEZE	结冰
+BeijingDaxue-1964-905-496	496	化雪	248	verb	natural change	一、自然變化	動詞	melt (of snow)	huà xuě	2334	MELT	化雪
+BeijingDaxue-1964-905-497	497	淋雨	249	verb	natural change	一、自然變化	動詞	get wet in the rain	lín yǔ			淋雨
+BeijingDaxue-1964-905-498	498	退色	249	verb	natural change	一、自然變化	動詞	fade (loose color)	tuì sè	2704	FADE (LOOSE COLOR)	退色
+BeijingDaxue-1964-905-499	499	掉(掉下來)	250	verb	natural change	一、自然變化	動詞	fall (down)	diào (diào xià lái)	1280	FALL	掉(掉下来)
+BeijingDaxue-1964-905-500	500	看	250	verb	sense-related actions	二、五官動作	動詞	look, see	kàn	1409	SEE	看
+BeijingDaxue-1964-905-501	501	眨眼	251	verb	sense-related actions	二、五官動作	動詞	blink (with the eyes)	zhǎ yǎn	1655	BLINK	眨眼
+BeijingDaxue-1964-905-502	502	瞪眼	251	verb	sense-related actions	二、五官動作	動詞	stare	dèng yǎn			瞪眼
+BeijingDaxue-1964-905-503	503	聽	252	verb	sense-related actions	二、五官動作	動詞	hear	tīng	1408	HEAR	听
+BeijingDaxue-1964-905-504	504	聞	252	verb	sense-related actions	二、五官動作	動詞	smell (something)	wén	1586	SMELL (PERCEIVE)	闻
+BeijingDaxue-1964-905-505	505	吃	253	verb	sense-related actions	二、五官動作	動詞	eat	chī	1336	EAT	吃
+BeijingDaxue-1964-905-506	506	喝	253	verb	sense-related actions	二、五官動作	動詞	drink	hē	1401	DRINK	喝
+BeijingDaxue-1964-905-507	507	吸	254	verb	sense-related actions	二、五官動作	動詞	inhale	xī	2705	INHALE	吸
+BeijingDaxue-1964-905-508	508	咬	254	verb	sense-related actions	二、五官動作	動詞	bite	yǎo	1403	BITE	咬
+BeijingDaxue-1964-905-509	509	嚙	255	verb	sense-related actions	二、五官動作	動詞	gnaw	niè	2706	GNAW	啮
+BeijingDaxue-1964-905-510	510	嚼	255	verb	sense-related actions	二、五官動作	動詞	chew	jué	321	CHEW	嚼
+BeijingDaxue-1964-905-511	511	舔	256	verb	sense-related actions	二、五官動作	動詞	lick (with tongue)	tiǎn	319	LICK	舔
+BeijingDaxue-1964-905-512	512	呑	256	verb	sense-related actions	二、五官動作	動詞	swallow	tūn	897	SWALLOW	呑
+BeijingDaxue-1964-905-513	513	含	257	verb	sense-related actions	二、五官動作	動詞	keep in the mouth	hán			含
+BeijingDaxue-1964-905-514	514	噴	257	verb	sense-related actions	二、五官動作	動詞	splash	pēn	365	SPLASH	喷
+BeijingDaxue-1964-905-515	515	吹	258	verb	sense-related actions	二、五官動作	動詞	blow	chuī	176	BLOW (WITH MOUTH)	吹
+BeijingDaxue-1964-905-516	516	嚐	258	verb	sense-related actions	二、五官動作	動詞	taste	cháng	21	TASTE (SOMETHING)	嚐
+BeijingDaxue-1964-905-517	517	拿	259	verb	body-part related actions	三、肢體動作	動詞	take, hold	ná	2104	HOLD OR TAKE	拿
+BeijingDaxue-1964-905-518	518	捏	259	verb	body-part related actions	三、肢體動作	動詞	knead	niē	274	KNEAD	捏
+BeijingDaxue-1964-905-519	519	掐	260	verb	body-part related actions	三、肢體動作	動詞	tweak, twitch	qiā	1414	SQUEEZE	掐
+BeijingDaxue-1964-905-520	520	摸	260	verb	body-part related actions	三、肢體動作	動詞	stroke (with hand)	mō	1449	RUB	摸
+BeijingDaxue-1964-905-521	521	撈	261	verb	body-part related actions	三、肢體動作	動詞	catch (fish)	lāo	702	CATCH	捞
+BeijingDaxue-1964-905-522	522	找	261	verb	body-part related actions	三、肢體動作	動詞	search	zhǎo	1468	LOOK FOR	找
+BeijingDaxue-1964-905-523	523	摘	262	verb	body-part related actions	三、肢體動作	動詞	pluck, pick	zhāi	2148	PICK	摘
+BeijingDaxue-1964-905-524	524	擦	262	verb	body-part related actions	三、肢體動作	動詞	wipe, rub	cā	1449	RUB	擦
+BeijingDaxue-1964-905-525	525	搓	263	verb	body-part related actions	三、肢體動作	動詞	to rub one's hands	cuō	1449	RUB	搓
+BeijingDaxue-1964-905-526	526	提	263	verb	body-part related actions	三、肢體動作	動詞	hold (in hand), lift (in hand)	tí	501	LIFT	提
+BeijingDaxue-1964-905-527	527	舉	264	verb	body-part related actions	三、肢體動作	動詞	raise (something with hand)	jǔ	501	LIFT	举
+BeijingDaxue-1964-905-528	528	托	264	verb	body-part related actions	三、肢體動作	動詞	support, rely on	tuō			托
+BeijingDaxue-1964-905-529	529	端	265	verb	body-part related actions	三、肢體動作	動詞	carry horizontally	duān	2763	CARRY HORIZONTALLY	端
+BeijingDaxue-1964-905-530	530	捧	265	verb	body-part related actions	三、肢體動作	動詞	hold in two hands	pěng	412	CARRY IN HAND	捧
+BeijingDaxue-1964-905-531	531	擡	266	verb	body-part related actions	三、肢體動作	動詞	lift, carry	tái	700	CARRY	抬
+BeijingDaxue-1964-905-532	532	搬	266	verb	body-part related actions	三、肢體動作	動詞	transfer, move	bān	765	MOVE	搬
+BeijingDaxue-1964-905-533	533	按	267	verb	body-part related actions	三、肢體動作	動詞	press	àn	1913	PRESS	按
+BeijingDaxue-1964-905-534	534	推	267	verb	body-part related actions	三、肢體動作	動詞	push	tuī	1452	PUSH	推
+BeijingDaxue-1964-905-535	535	擋	268	verb	body-part related actions	三、肢體動作	動詞	block	dǎng	2762	BLOCK (THE WAY)	挡
+BeijingDaxue-1964-905-536	536	撐	268	verb	body-part related actions	三、肢體動作	動詞	stretch	chēng	214	STRETCH	撑
+BeijingDaxue-1964-905-537	537	拖	269	verb	body-part related actions	三、肢體動作	動詞	pull	tuō	1455	PULL	拖
+BeijingDaxue-1964-905-538	538	拉	269	verb	body-part related actions	三、肢體動作	動詞	pull	lā	1455	PULL	拉
+BeijingDaxue-1964-905-539	539	拔	270	verb	body-part related actions	三、肢體動作	動詞	pull out	bá	2325	PULL OUT	拔
+BeijingDaxue-1964-905-540	540	扶	270	verb	body-part related actions	三、肢體動作	動詞	support	fú			扶
+BeijingDaxue-1964-905-541	541	摟	271	verb	body-part related actions	三、肢體動作	動詞	hug	lǒu	928	EMBRACE	搂
+BeijingDaxue-1964-905-542	542	抱	271	verb	body-part related actions	三、肢體動作	動詞	embrace	bào	928	EMBRACE	抱
+BeijingDaxue-1964-905-543	543	開	272	verb	body-part related actions	三、肢體動作	動詞	open	kāi	1156	OPEN	开
+BeijingDaxue-1964-905-544	544	關	272	verb	body-part related actions	三、肢體動作	動詞	close	guān	1046	SHUT	关
+BeijingDaxue-1964-905-545	545	封	273	verb	body-part related actions	三、肢體動作	動詞	close, lock	fēng	1046	SHUT	封
+BeijingDaxue-1964-905-546	546	塞	273	verb	body-part related actions	三、肢體動作	動詞	clog	sāi	2786	CLOG (SOMETHING)	塞
+BeijingDaxue-1964-905-547	547	蓋	274	verb	body-part related actions	三、肢體動作	動詞	hide, cover	gài	761	COVER	盖
+BeijingDaxue-1964-905-548	548	罩	274	verb	body-part related actions	三、肢體動作	動詞	cover	zhào	761	COVER	罩
+BeijingDaxue-1964-905-549	549	套	275	verb	body-part related actions	三、肢體動作	動詞	wrap, cover	tào	1113	WRAP	套
+BeijingDaxue-1964-905-550	550	卷	275	verb	body-part related actions	三、肢體動作	動詞	wrap, spin	juǎn	121	SPIN	卷
+BeijingDaxue-1964-905-551	551	包	276	verb	body-part related actions	三、肢體動作	動詞	wrap, bundle	bāo	1113	WRAP	包
+BeijingDaxue-1964-905-552	552	系	276	verb	body-part related actions	三、肢體動作	動詞	tie, bind	xì	1917	TIE	系
+BeijingDaxue-1964-905-553	553	解	277	verb	body-part related actions	三、肢體動作	動詞	loosen, untie	jiě	352	UNTIE	解
+BeijingDaxue-1964-905-554	554	剝	277	verb	body-part related actions	三、肢體動作	動詞	peel	bō	275	PEEL	剥
+BeijingDaxue-1964-905-555	555	折(折疊)	278	verb	body-part related actions	三、肢體動作	動詞	fold	zhé (zhé dié)	1470	FOLD	折(折叠)
+BeijingDaxue-1964-905-556	556	疊(堆疊)	278	verb	body-part related actions	三、肢體動作	動詞	accumulate	dié (duī dié)			叠(堆叠)
+BeijingDaxue-1964-905-557	557	鋪	279	verb	body-part related actions	三、肢體動作	動詞	spread	pù	38	SPREAD OUT	铺
+BeijingDaxue-1964-905-558	558	裝	279	verb	body-part related actions	三、肢體動作	動詞	fill	zhuāng	2006	FILL	装
+BeijingDaxue-1964-905-559	559	打	280	verb	body-part related actions	三、肢體動作	動詞	beat	dǎ	1665	BEAT	打
+BeijingDaxue-1964-905-560	560	捅	280	verb	body-part related actions	三、肢體動作	動詞	jab	tǒng			捅
+BeijingDaxue-1964-905-561	561	碰	281	verb	body-part related actions	三、肢體動作	動詞	collide, bump into	pèng			碰
+BeijingDaxue-1964-905-562	562	撕	281	verb	body-part related actions	三、肢體動作	動詞	rip, tear	sī	1735	TEAR (SHRED)	撕
+BeijingDaxue-1964-905-563	563	彈	282	verb	body-part related actions	三、肢體動作	動詞	strengh	dàn			弹
+BeijingDaxue-1964-905-564	564	扔	282	verb	body-part related actions	三、肢體動作	動詞	throw, throw away	rēng	1456	THROW	扔
+BeijingDaxue-1964-905-565	565	塡	283	verb	body-part related actions	三、肢體動作	動詞	fill in, fill up	tián	2006	FILL	塡
+BeijingDaxue-1964-905-566	566	埋	283	verb	body-part related actions	三、肢體動作	動詞	bury	mái	1719	BURY	埋
+BeijingDaxue-1964-905-567	567	走	284	verb	body-part related actions	三、肢體動作	動詞	walk, go (on foot), leave	zǒu	1443	WALK	走
+BeijingDaxue-1964-905-568	568	跑	284	verb	body-part related actions	三、肢體動作	動詞	run	pǎo	1519	RUN	跑
+BeijingDaxue-1964-905-569	569	跳	285	verb	body-part related actions	三、肢體動作	動詞	jump	tiào	1829	JUMP	跳
+BeijingDaxue-1964-905-570	570	踩	285	verb	body-part related actions	三、肢體動作	動詞	step (on something with the foot)	cǎi	2065	STEP (VERB)	踩
+BeijingDaxue-1964-905-571	571	跨	286	verb	body-part related actions	三、肢體動作	動詞	stride	kuà			跨
+BeijingDaxue-1964-905-572	572	站	286	verb	body-part related actions	三、肢體動作	動詞	stand, stand up	zhàn	570	STAND UP	站
+BeijingDaxue-1964-905-573	573	蹲	287	verb	body-part related actions	三、肢體動作	動詞	bend down	dūn	2761	BEND (ONESELF)	蹲
+BeijingDaxue-1964-905-574	574	靠	287	verb	body-part related actions	三、肢體動作	動詞	lean on, depend on	kào			靠
+BeijingDaxue-1964-905-575	575	躺	288	verb	body-part related actions	三、肢體動作	動詞	lie down, lie (sleep)	tǎng	215	LIE DOWN	躺
+BeijingDaxue-1964-905-576	576	摔	288	verb	body-part related actions	三、肢體動作	動詞	fall to the ground	shuāi	1280	FALL	摔
+BeijingDaxue-1964-905-577	577	擠	289	verb	body-part related actions	三、肢體動作	動詞	squeeze, push against	jǐ	1414	SQUEEZE	挤
+BeijingDaxue-1964-905-578	578	躱	289	verb	body-part related actions	三、肢體動作	動詞	hide	duǒ	2485	HIDE (ONESELF)	躱
+BeijingDaxue-1964-905-579	579	挑	290	verb	body-part related actions	三、肢體動作	動詞	carry (on shoulder or back)	tiāo	413	CARRY ON SHOULDER	挑
+BeijingDaxue-1964-905-580	580	措	290	verb	body-part related actions	三、肢體動作	動詞	collect	cuò	7	GATHER	措
+BeijingDaxue-1964-905-581	581	跟	291	verb	body-part related actions	三、肢體動作	動詞	follow	gēn	1085	FOLLOW	跟
+BeijingDaxue-1964-905-582	582	逃跑	291	verb	body-part related actions	三、肢體動作	動詞	flee, run away	táo pǎo	2142	RUN AWAY	逃跑
+BeijingDaxue-1964-905-583	583	脫	292	verb	daily actions	四、日常操作	動詞	take off (clothes)	tuō	1755	UNDRESS	脱
+BeijingDaxue-1964-905-584	584	戴	292	verb	daily actions	四、日常操作	動詞	wear (on head)	dài	976	WEAR	戴
+BeijingDaxue-1964-905-585	585	洗	293	verb	daily actions	四、日常操作	動詞	wash	xǐ	1453	WASH	洗
+BeijingDaxue-1964-905-586	586	刷	293	verb	daily actions	四、日常操作	動詞	brush	shuā	1821	BRUSH	刷
+BeijingDaxue-1964-905-587	587	涮	294	verb	daily actions	四、日常操作	動詞	boil out	shuàn			涮
+BeijingDaxue-1964-905-588	588	漱口	294	verb	daily actions	四、日常操作	動詞	gargle	shù kǒu			漱口
+BeijingDaxue-1964-905-589	589	冼澡	295	verb	daily actions	四、日常操作	動詞	wash (onself)	xiǎn zǎo	1453	WASH	冼澡
+BeijingDaxue-1964-905-590	590	曬	295	verb	daily actions	四、日常操作	動詞	take a sunbath	shài			晒
+BeijingDaxue-1964-905-591	591	晾	296	verb	daily actions	四、日常操作	動詞	dry in the sun	liàng	2015	MAKE DRY	晾
+BeijingDaxue-1964-905-592	592	熨	296	verb	daily actions	四、日常操作	動詞	iron	yùn	621	IRON	熨
+BeijingDaxue-1964-905-593	593	染	297	verb	daily actions	四、日常操作	動詞	dye (hair)	rǎn	157	DYE	染
+BeijingDaxue-1964-905-594	594	剪	297	verb	daily actions	四、日常操作	動詞	cut	jiǎn	1432	CUT	剪
+BeijingDaxue-1964-905-595	595	裁	298	verb	daily actions	四、日常操作	動詞	cut	cái	1432	CUT	裁
+BeijingDaxue-1964-905-596	596	切	298	verb	daily actions	四、日常操作	動詞	cut (in two parts)	qiè	2156	CUT (WITH KNIFE)	切
+BeijingDaxue-1964-905-597	597	割	299	verb	daily actions	四、日常操作	動詞	cut off	gē	1432	CUT	割
+BeijingDaxue-1964-905-598	598	刴	299	verb	daily actions	四、日常操作	動詞	hack (to pieces)	duò	1432	CUT	刴
+BeijingDaxue-1964-905-599	599	殺	300	verb	daily actions	四、日常操作	動詞	kill	shā	1417	KILL	杀
+BeijingDaxue-1964-905-600	600	宰	300	verb	daily actions	四、日常操作	動詞	to slaughter	zǎi	1796	SLAUGHTER	宰
+BeijingDaxue-1964-905-601	601	潑	301	verb	daily actions	四、日常操作	動詞	pour, splash	pō	365	SPLASH	泼
+BeijingDaxue-1964-905-602	602	澆	301	verb	daily actions	四、日常操作	動詞	water, sprinkle	jiāo	1487	POUR	浇
+BeijingDaxue-1964-905-603	603	掃	302	verb	daily actions	四、日常操作	動詞	sweep	sǎo	230	SWEEP	扫
+BeijingDaxue-1964-905-604	604	點	302	verb	daily actions	四、日常操作	動詞	point to, nod	diǎn	2669	POINT (WITH FINGER)	点
+BeijingDaxue-1964-905-605	605	收拾	303	verb	daily actions	四、日常操作	動詞	gather, collect	shōu shí	7	GATHER	收拾
+BeijingDaxue-1964-905-606	606	撹和	303	verb	daily actions	四、日常操作	動詞	mix, blend	jiǎo hé	2017	MIX	撹和
+BeijingDaxue-1964-905-607	607	拌	304	verb	daily actions	四、日常操作	動詞	mix	bàn	2017	MIX	拌
+BeijingDaxue-1964-905-608	608	選擇	304	verb	daily actions	四、日常操作	動詞	select	xuǎn zé	1750	CHOOSE	选择
+BeijingDaxue-1964-905-609	609	藏(收存)	305	verb	daily actions	四、日常操作	動詞	safe (money), collect (money)	cáng (shōu cún)	7	GATHER	藏(收存)
+BeijingDaxue-1964-905-610	610	說	305	verb	communication	五、交際、事務、人事	動詞	speak	shuō	1623	SPEAK	说
+BeijingDaxue-1964-905-611	611	閑淡	306	verb	communication	五、交際、事務、人事	動詞	talk, make smalltalk	xián dàn	2708	TALK	闲澹
+BeijingDaxue-1964-905-612	612	問	306	verb	communication	五、交際、事務、人事	動詞	ask	wèn	1309	ASK (INQUIRE)	问
+BeijingDaxue-1964-905-613	613	理	307	verb	communication	五、交際、事務、人事	動詞	manage	lǐ			理
+BeijingDaxue-1964-905-614	614	叫	307	verb	communication	五、交際、事務、人事	動詞	call	jiào	1084	CALL	叫
+BeijingDaxue-1964-905-615	615	喊	308	verb	communication	五、交際、事務、人事	動詞	shout	hǎn	715	SHOUT	喊
+BeijingDaxue-1964-905-616	616	笑	308	verb	communication	五、交際、事務、人事	動詞	smile	xiào	1451	SMILE	笑
+BeijingDaxue-1964-905-617	617	哭	309	verb	communication	五、交際、事務、人事	動詞	weep, cry	kū	1839	CRY	哭
+BeijingDaxue-1964-905-618	618	駡	309	verb	communication	五、交際、事務、人事	動詞	shout, scold	mà	299	SCOLD	駡
+BeijingDaxue-1964-905-619	619	開玩笑	310	verb	communication	五、交際、事務、人事	動詞	make a joke	kāi wán xiào	2760	MAKE A JOKE	开玩笑
+BeijingDaxue-1964-905-620	620	發脾氣	310	verb	communication	五、交際、事務、人事	動詞	get angry	fā pí qì	2215	BECOME ANGRY	发脾气
+BeijingDaxue-1964-905-621	621	吵架	311	verb	communication	五、交際、事務、人事	動詞	argue, quarell	chǎo jià	1848	QUARREL	吵架
+BeijingDaxue-1964-905-622	622	打架	311	verb	communication	五、交際、事務、人事	動詞	fight	dǎ jià	1423	FIGHT	打架
+BeijingDaxue-1964-905-623	623	勸	312	verb	communication	五、交際、事務、人事	動詞	recommend	quàn	2759	RECOMMEND	劝
+BeijingDaxue-1964-905-624	624	吹牛	312	verb	communication	五、交際、事務、人事	動詞	boast	chuī niú	101	BOAST	吹牛
+BeijingDaxue-1964-905-625	625	拍馬	313	verb	communication	五、交際、事務、人事	動詞	flatter	pāi mǎ	2709	FLATTER	拍马
+BeijingDaxue-1964-905-626	626	發誓	313	verb	communication	五、交際、事務、人事	動詞	swear, vow	fā shì	1939	SWEAR	发誓
+BeijingDaxue-1964-905-627	627	陪	314	verb	communication	五、交際、事務、人事	動詞	accompany	péi	1542	ACCOMPANY	陪
+BeijingDaxue-1964-905-628	628	做事兒	314	verb	communication	五、交際、事務、人事	動詞	do something	zuò shì ér	2575	DO OR MAKE	做事儿
+BeijingDaxue-1964-905-629	629	幹活兒	315	verb	communication	五、交際、事務、人事	動詞	work	gàn huó ér	1086	WORK (ACTIVITY)	干活儿
+BeijingDaxue-1964-905-630	630	種地	315	verb	communication	五、交際、事務、人事	動詞	cultivate	zhǒng de	1541	CULTIVATE	种地
+BeijingDaxue-1964-905-631	631	開車	316	verb	communication	五、交際、事務、人事	動詞	drive a car	kāi chē	741	DRIVE	开车
+BeijingDaxue-1964-905-632	632	買布	316	verb	communication	五、交際、事務、人事	動詞	buy cloth	mǎi bù	1869	BUY	买布
+BeijingDaxue-1964-905-633	633	買油	317	verb	communication	五、交際、事務、人事	動詞	buy oil	mǎi yóu	1869	BUY	买油
+BeijingDaxue-1964-905-634	634	買藥(買中藥)	317	verb	communication	五、交際、事務、人事	動詞	buy Chinese medicine	mǎi yào (mǎi zhōng yào)	1869	BUY	买药(买中药)
+BeijingDaxue-1964-905-635	635	活	318	verb	communication	五、交際、事務、人事	動詞	live	huó	1422	BE ALIVE	活
+BeijingDaxue-1964-905-636	636	死	318	verb	communication	五、交際、事務、人事	動詞	die	sǐ	1494	DIE	死
+BeijingDaxue-1964-905-637	637	結婚(指男方)	319	verb	communication	五、交際、事務、人事	動詞	marry (of a man)	jié hūn (zhǐ nán fāng)	2164	MARRY (AS MAN)	结婚(指男方)
+BeijingDaxue-1964-905-638	638	結婚(指女方)	319	verb	communication	五、交際、事務、人事	動詞	marry (of a woman)	jié hūn (zhǐ nǚ fāng)	2163	MARRY (AS WOMAN)	结婚(指女方)
+BeijingDaxue-1964-905-639	639	生(生育)	320	verb	communication	五、交際、事務、人事	動詞	give birth	shēng (shēng yù)	1195	GIVE BIRTH	生(生育)
+BeijingDaxue-1964-905-640	640	上課	320	verb	culture, music	六、文化、娛樂	動詞	start class, go to class	shàng kè			上课
+BeijingDaxue-1964-905-641	641	下課	321	verb	culture, music	六、文化、娛樂	動詞	finish class	xià kè			下课
+BeijingDaxue-1964-905-642	642	敎	321	verb	culture, music	六、文化、娛樂	動詞	teach	jiào	709	TEACH	敎
+BeijingDaxue-1964-905-643	643	學	322	verb	culture, music	六、文化、娛樂	動詞	learn	xué	504	LEARN	学
+BeijingDaxue-1964-905-644	644	玩兒	322	verb	culture, music	六、文化、娛樂	動詞	play	wán ér	1413	PLAY	玩儿
+BeijingDaxue-1964-905-645	645	遊泳	323	verb	culture, music	六、文化、娛樂	動詞	swim	yóu yǒng	1439	SWIM	游泳
+BeijingDaxue-1964-905-646	646	照相	323	verb	culture, music	六、文化、娛樂	動詞	take a picture	zhào xiāng	2710	TAKE A PHOTO	照相
+BeijingDaxue-1964-905-647	647	贏	324	verb	culture, music	六、文化、娛樂	動詞	win	yíng	866	WIN	赢
+BeijingDaxue-1964-905-648	648	輸	324	verb	culture, music	六、文化、娛樂	動詞	transport, carry	shū	2711	TRANSPORT	输
+BeijingDaxue-1964-905-649	649	休息	325	verb	physiology and disease	七、生理、病理	動詞	rest	xiū xī	168	REST	休息
+BeijingDaxue-1964-905-650	650	睡覺	325	verb	physiology and disease	七、生理、病理	動詞	sleep	shuì jué	1585	SLEEP	睡觉
+BeijingDaxue-1964-905-651	651	打呵欠	326	verb	physiology and disease	七、生理、病理	動詞	yawn	dǎ ā qiàn	1028	YAWN	打呵欠
+BeijingDaxue-1964-905-652	652	打瞌睡	326	verb	physiology and disease	七、生理、病理	動詞	doze off	dǎ kē shuì			打瞌睡
+BeijingDaxue-1964-905-653	653	打冷噤	327	verb	physiology and disease	七、生理、病理	動詞	shiver	dǎ lěng jìn	52	SHIVER	打冷噤
+BeijingDaxue-1964-905-654	654	哆嗦	327	verb	physiology and disease	七、生理、病理	動詞	tremble	duō suo	52	SHIVER	哆嗦
+BeijingDaxue-1964-905-655	655	噴嚏	328	verb	physiology and disease	七、生理、病理	動詞	sneeze	pēn tì	1621	SNEEZE	喷嚏
+BeijingDaxue-1964-905-656	656	抓癢	328	verb	physiology and disease	七、生理、病理	動詞	scratch (to relieve itch)	zhuā yǎng	1436	SCRATCH	抓痒
+BeijingDaxue-1964-905-657	657	撒(撒尿)	329	verb	physiology and disease	七、生理、病理	動詞	pee, piss	sā (sā niào)	592	PISS	撒(撒尿)
+BeijingDaxue-1964-905-658	658	拉(拉屎)	329	verb	physiology and disease	七、生理、病理	動詞	defecate, shit	lā (lā shǐ)	676	SHIT (DEFECATE)	拉(拉屎)
+BeijingDaxue-1964-905-659	659	生病	330	verb	physiology and disease	七、生理、病理	動詞	fall ill	shēng bìng	2327	BECOME SICK	生病
+BeijingDaxue-1964-905-660	660	著涼	330	verb	physiology and disease	七、生理、病理	動詞	catch a cold	zhe liáng	2184	CATCH A COLD	着凉
+BeijingDaxue-1964-905-661	661	咳嗽	331	verb	physiology and disease	七、生理、病理	動詞	cough	hāi sòu	879	COUGH	咳嗽
+BeijingDaxue-1964-905-662	662	頭暈	331	verb	physiology and disease	七、生理、病理	動詞	get dizzy	tóu yūn	2712	GET DIZZY	头晕
+BeijingDaxue-1964-905-663	663	發燒	332	verb	physiology and disease	七、生理、病理	動詞	have a fever	fā shāo	2713	HAVE A FEVER	发烧
+BeijingDaxue-1964-905-664	664	瀉肚	332	verb	physiology and disease	七、生理、病理	動詞	have diarrhoea	xiè dù	2714	HAVE DIARREA	泻肚
+BeijingDaxue-1964-905-665	665	生瘧疾	333	verb	physiology and disease	七、生理、病理	動詞	get malaria	shēng nüè jí			生疟疾
+BeijingDaxue-1964-905-666	666	喜歡	333	verb	perceive, reflect	八、感受、思維	動詞	like	xǐ huān	1117	LIKE	喜欢
+BeijingDaxue-1964-905-667	667	討厭	334	verb	perceive, reflect	八、感受、思維	動詞	despise	tǎo yàn	2715	DESPISE	讨厌
+BeijingDaxue-1964-905-668	668	怪	334	verb	perceive, reflect	八、感受、思維	動詞	make responsible for	guài	2716	BLAME (SOMEBODY)	怪
+BeijingDaxue-1964-905-669	669	恨	335	verb	perceive, reflect	八、感受、思維	動詞	hate	hèn	1607	HATE	恨
+BeijingDaxue-1964-905-670	670	後悔	335	verb	perceive, reflect	八、感受、思維	動詞	regret	hòu huǐ	1875	REGRET	后悔
+BeijingDaxue-1964-905-671	671	怕	336	verb	perceive, reflect	八、感受、思維	動詞	fear	pà	1419	FEAR (BE AFRAID)	怕
+BeijingDaxue-1964-905-672	672	知道	336	verb	perceive, reflect	八、感受、思維	動詞	know	zhī dào	1410	KNOW (SOMETHING)	知道
+BeijingDaxue-1964-905-673	673	想	337	verb	perceive, reflect	八、感受、思維	動詞	think	xiǎng	2271	THINK	想
+BeijingDaxue-1964-905-674	674	打算	337	verb	perceive, reflect	八、感受、思維	動詞	plan, intend	dǎ suàn	22	INTEND	打算
+BeijingDaxue-1964-905-675	675	相信	338	verb	perceive, reflect	八、感受、思維	動詞	believe, trust	xiāng xìn	1890	BELIEVE	相信
+BeijingDaxue-1964-905-676	676	懷疑	338	verb	perceive, reflect	八、感受、思維	動詞	doubt	huái yí	1308	DOUBT	怀疑
+BeijingDaxue-1964-905-677	677	小心	339	verb	perceive, reflect	八、感受、思維	動詞	take care	xiǎo xīn	2758	CAREFUL	小心
+BeijingDaxue-1964-905-678	678	想念	339	verb	perceive, reflect	八、感受、思維	動詞	miss, long for	xiǎng niàn	2328	MISS (SOMEBODY)	想念
+BeijingDaxue-1964-905-679	679	忘記	340	verb	perceive, reflect	八、感受、思維	動詞	forget	wàng jì	1523	FORGET	忘记
+BeijingDaxue-1964-905-680	680	要	340	verb	perceive, reflect	八、感受、思維	動詞	want	yào	1784	WANT	要
+BeijingDaxue-1964-905-681	681	不要	341	verb	perceive, reflect	八、感受、思維	動詞	refrain from, do not want	bù yào			不要
+BeijingDaxue-1964-905-682	682	應該	341	verb	desire, judge	九、願望、判斷	動詞	must	yīng gāi	971	MUST	应该
+BeijingDaxue-1964-905-683	683	値得	342	verb	desire, judge	九、願望、判斷	動詞	be necessary	zhí dé	1030	NECESSARY	値得
+BeijingDaxue-1964-905-684	684	是	342	verb	desire, judge	九、願望、判斷	動詞	be	shì	1579	BE	是
+BeijingDaxue-1964-905-685	685	不是	343	verb	desire, judge	九、願望、判斷	動詞	be not	bù shì	1269	NO	不是
+BeijingDaxue-1964-905-686	686	沒有(無)	343	verb	desire, judge	九、願望、判斷	動詞	lack, have not	méi yǒu (wú)	2329	LACK (NOT HAVE)	没有(无)
+BeijingDaxue-1964-905-687	687	接吻	344	verb	other	十、其他	動詞	kiss	jiē wěn	578	KISS	接吻
+BeijingDaxue-1964-905-688	688	上墳	344	verb	other	十、其他	動詞	visit a grave	shàng fén			上坟
+BeijingDaxue-1964-905-689	689	遺失	345	verb	other	十、其他	動詞	loose	yí shī	2506	LOOSE	遗失
+BeijingDaxue-1964-905-690	690	浪費	345	verb	other	十、其他	動詞	waste	làng fèi	79	WASTE	浪费
+BeijingDaxue-1964-905-691	691	大	346	adjective	appearance, situation	一、形狀、情況	形容詞	big	dà	1202	BIG	大
+BeijingDaxue-1964-905-692	692	小	346	adjective	appearance, situation	一、形狀、情況	形容詞	small	xiǎo	1246	SMALL	小
+BeijingDaxue-1964-905-693	693	高	347	adjective	appearance, situation	一、形狀、情況	形容詞	high	gāo	1265	HIGH	高
+BeijingDaxue-1964-905-694	694	低	347	adjective	appearance, situation	一、形狀、情況	形容詞	low	dī	721	LOW	低
+BeijingDaxue-1964-905-695	695	矮	348	adjective	appearance, situation	一、形狀、情況	形容詞	short	ǎi	1645	SHORT	矮
+BeijingDaxue-1964-905-696	696	長	348	adjective	appearance, situation	一、形狀、情況	形容詞	long	zhǎng	1203	LONG	长
+BeijingDaxue-1964-905-697	697	短	349	adjective	appearance, situation	一、形狀、情況	形容詞	short	duǎn	1645	SHORT	短
+BeijingDaxue-1964-905-698	698	粗	349	adjective	appearance, situation	一、形狀、情況	形容詞	rough	cū	1923	ROUGH	粗
+BeijingDaxue-1964-905-699	699	細	350	adjective	appearance, situation	一、形狀、情況	形容詞	fine	xì	2157	FINE OR THIN	细
+BeijingDaxue-1964-905-700	700	寬	350	adjective	appearance, situation	一、形狀、情況	形容詞	broad	kuān	2531	BROAD	宽
+BeijingDaxue-1964-905-701	701	窄	351	adjective	appearance, situation	一、形狀、情況	形容詞	narrow	zhǎi	1267	NARROW	窄
+BeijingDaxue-1964-905-702	702	厚	351	adjective	appearance, situation	一、形狀、情況	形容詞	thick	hòu	1244	THICK	厚
+BeijingDaxue-1964-905-703	703	薄	352	adjective	appearance, situation	一、形狀、情況	形容詞	thin	báo	2249	THIN (OF SHAPE OF OBJECT)	薄
+BeijingDaxue-1964-905-704	704	深	352	adjective	appearance, situation	一、形狀、情況	形容詞	deep	shēn	1593	DEEP	深
+BeijingDaxue-1964-905-705	705	淺	353	adjective	appearance, situation	一、形狀、情況	形容詞	shallow	qiǎn	193	SHALLOW	浅
+BeijingDaxue-1964-905-706	706	空	353	adjective	appearance, situation	一、形狀、情況	形容詞	empty	kōng	1624	EMPTY	空
+BeijingDaxue-1964-905-707	707	滿	354	adjective	appearance, situation	一、形狀、情況	形容詞	full	mǎn	1429	FULL	满
+BeijingDaxue-1964-905-708	708	方	354	adjective	appearance, situation	一、形狀、情況	形容詞	angular, having the form of a square	fāng	2757	ANGULAR (SQUAREFORMED)	方
+BeijingDaxue-1964-905-709	709	圓	355	adjective	appearance, situation	一、形狀、情況	形容詞	circular, round	yuán	1395	ROUND	圆
+BeijingDaxue-1964-905-710	710	平	355	adjective	appearance, situation	一、形狀、情況	形容詞	flat	píng	1633	FLAT	平
+BeijingDaxue-1964-905-711	711	正	356	adjective	appearance, situation	一、形狀、情況	形容詞	straight	zhèng	1404	STRAIGHT	正
+BeijingDaxue-1964-905-712	712	反	356	adjective	appearance, situation	一、形狀、情況	形容詞	reverse, opposite	fǎn	885	OPPOSITE	反
+BeijingDaxue-1964-905-713	713	歪	357	adjective	appearance, situation	一、形狀、情況	形容詞	slanted	wāi	297	CROOKED	歪
+BeijingDaxue-1964-905-714	714	橫	357	adjective	appearance, situation	一、形狀、情況	形容詞	horizontal	héng	2376	HORIZONTAL	横
+BeijingDaxue-1964-905-715	715	竪	358	adjective	appearance, situation	一、形狀、情況	形容詞	vertical	shù	2375	VERTICAL	竪
+BeijingDaxue-1964-905-716	716	直	358	adjective	appearance, situation	一、形狀、情況	形容詞	straight, erect	zhí	1404	STRAIGHT	直
+BeijingDaxue-1964-905-717	717	斜	359	adjective	appearance, situation	一、形狀、情況	形容詞	slanting, inclined	xié			斜
+BeijingDaxue-1964-905-718	718	陡	359	adjective	appearance, situation	一、形狀、情況	形容詞	steep	dǒu	2717	STEEP	陡
+BeijingDaxue-1964-905-719	719	彎	360	adjective	appearance, situation	一、形狀、情況	形容詞	bend	wān	2004	BEND	弯
+BeijingDaxue-1964-905-720	720	亮	360	adjective	appearance, situation	一、形狀、情況	形容詞	bright	liàng	679	BRIGHT	亮
+BeijingDaxue-1964-905-721	721	暗	361	adjective	appearance, situation	一、形狀、情況	形容詞	dark	àn	706	DARK	暗
+BeijingDaxue-1964-905-722	722	黑	361	adjective	appearance, situation	一、形狀、情況	形容詞	black	hēi	163	BLACK	黑
+BeijingDaxue-1964-905-723	723	輕	362	adjective	appearance, situation	一、形狀、情況	形容詞	light (of weight)	qīng	1052	LIGHT (WEIGHT)	轻
+BeijingDaxue-1964-905-724	724	重	362	adjective	appearance, situation	一、形狀、情況	形容詞	heavy	zhòng	1210	HEAVY	重
+BeijingDaxue-1964-905-725	725	幹	363	adjective	appearance, situation	一、形狀、情況	形容詞	dry	gàn	1398	DRY	干
+BeijingDaxue-1964-905-726	726	濕	363	adjective	appearance, situation	一、形狀、情況	形容詞	wet	shī	1726	WET	湿
+BeijingDaxue-1964-905-727	727	稠	364	adjective	appearance, situation	一、形狀、情況	形容詞	stiff (of eggs)	chóu			稠
+BeijingDaxue-1964-905-728	728	釅	364	adjective	appearance, situation	一、形狀、情況	形容詞	thick or strong (of tea)	yàn	2718	STRONG (OF DRINK)	酽
+BeijingDaxue-1964-905-729	729	稀	365	adjective	appearance, situation	一、形狀、情況	形容詞	rare, scarce	xī	209	RARE	稀
+BeijingDaxue-1964-905-730	730	硬	365	adjective	appearance, situation	一、形狀、情況	形容詞	hard, firm	yìng	1884	HARD	硬
+BeijingDaxue-1964-905-731	731	軟	366	adjective	appearance, situation	一、形狀、情況	形容詞	soft, flexible	ruǎn	1856	SOFT	软
+BeijingDaxue-1964-905-732	732	老(不嫩)	366	adjective	appearance, situation	一、形狀、情況	形容詞	old	lǎo (bù nèn)	2112	OLD (AGED)	老(不嫩)
+BeijingDaxue-1964-905-733	733	嫩	367	adjective	appearance, situation	一、形狀、情況	形容詞	inexperienced	nèn			嫩
+BeijingDaxue-1964-905-734	734	脆	367	adjective	appearance, situation	一、形狀、情況	形容詞	fragile	cuì			脆
+BeijingDaxue-1964-905-735	735	結實	368	adjective	appearance, situation	一、形狀、情況	形容詞	robust	jié shí			结实
+BeijingDaxue-1964-905-736	736	生(不熟)	368	adjective	appearance, situation	一、形狀、情況	形容詞	unripe	shēng (bù shú)	1958	UNRIPE	生(不熟)
+BeijingDaxue-1964-905-737	737	整齊	369	adjective	appearance, situation	一、形狀、情況	形容詞	tidy, neat	zhěng qí			整齐
+BeijingDaxue-1964-905-738	738	亂	369	adjective	appearance, situation	一、形狀、情況	形容詞	untidy, chaotic	luàn			乱
+BeijingDaxue-1964-905-739	739	破	370	adjective	appearance, situation	一、形狀、情況	形容詞	broken	pò	588	BROKEN	破
+BeijingDaxue-1964-905-740	740	幹淨	370	adjective	appearance, situation	一、形狀、情況	形容詞	clean	gàn jìng	704	CLEAN	干淨
+BeijingDaxue-1964-905-741	741	骯髒	371	adjective	appearance, situation	一、形狀、情況	形容詞	dirty	āng zāng	1230	DIRTY	肮髒
+BeijingDaxue-1964-905-742	742	熱鬧	371	adjective	appearance, situation	一、形狀、情況	形容詞	crowdy	rè nào			热闹
+BeijingDaxue-1964-905-743	743	淸楚	372	adjective	appearance, situation	一、形狀、情況	形容詞	transparent, clear	qīng chǔ	989	CLEAR	淸楚
+BeijingDaxue-1964-905-744	744	模糊	372	adjective	appearance, situation	一、形狀、情況	形容詞	blurred, intransparent	mó hú			模煳
+BeijingDaxue-1964-905-745	745	渾	373	adjective	appearance, situation	一、形狀、情況	形容詞	muddy	hún	537	TURBID	浑
+BeijingDaxue-1964-905-746	746	快(鋒利)	373	adjective	appearance, situation	一、形狀、情況	形容詞	sharp (knife)	kuài (fēng lì)	1396	SHARP	快(锋利)
+BeijingDaxue-1964-905-747	747	快(迅速)	374	adjective	appearance, situation	一、形狀、情況	形容詞	quick, fast	kuài (xùn sù)	1631	FAST	快(迅速)
+BeijingDaxue-1964-905-748	748	早	374	adjective	appearance, situation	一、形狀、情況	形容詞	early	zǎo	672	EARLY	早
+BeijingDaxue-1964-905-749	749	晚	375	adjective	appearance, situation	一、形狀、情況	形容詞	late	wǎn	477	LATE	晚
+BeijingDaxue-1964-905-750	750	好	375	adjective	character	二、性質	形容詞	good	hǎo	1035	GOOD	好
+BeijingDaxue-1964-905-751	751	壞	376	adjective	character	二、性質	形容詞	bad	huài	1292	BAD	坏
+BeijingDaxue-1964-905-752	752	差	376	adjective	character	二、性質	形容詞	different, wrong	chà	2504	DIFFERENT	差
+BeijingDaxue-1964-905-753	753	難	377	adjective	character	二、性質	形容詞	difficult	nán	584	DIFFICULT	难
+BeijingDaxue-1964-905-754	754	容易	377	adjective	character	二、性質	形容詞	easy	róng yì	686	EASY	容易
+BeijingDaxue-1964-905-755	755	貴	378	adjective	character	二、性質	形容詞	expensive	guì	1426	EXPENSIVE	贵
+BeijingDaxue-1964-905-756	756	便宜	378	adjective	character	二、性質	形容詞	cheap	biàn yí	1887	CHEAP	便宜
+BeijingDaxue-1964-905-757	757	熱	379	adjective	physiological perception	三、生理感覺	形容詞	hot	rè	2272	HOT OR WARM	热
+BeijingDaxue-1964-905-758	758	冷	379	adjective	physiological perception	三、生理感覺	形容詞	cold	lěng	1287	COLD	冷
+BeijingDaxue-1964-905-759	759	燙	380	adjective	physiological perception	三、生理感覺	形容詞	hot (food), sharp (food)	tàng	544	SPICY	烫
+BeijingDaxue-1964-905-760	760	暖和	380	adjective	physiological perception	三、生理感覺	形容詞	warm	nuǎn huo	1232	WARM	暖和
+BeijingDaxue-1964-905-761	761	溫	381	adjective	physiological perception	三、生理感覺	形容詞	lukewarm	wēn			温
+BeijingDaxue-1964-905-762	762	涼	381	adjective	physiological perception	三、生理感覺	形容詞	cold, cool	liáng	2483	COLD (OF WEATHER)	凉
+BeijingDaxue-1964-905-763	763	香	382	adjective	physiological perception	三、生理感覺	形容詞	fragrant	xiāng	376	FRAGRANT	香
+BeijingDaxue-1964-905-764	764	臭	382	adjective	physiological perception	三、生理感覺	形容詞	stinking	chòu	42	STINKING	臭
+BeijingDaxue-1964-905-765	765	餿	383	adjective	physiological perception	三、生理感覺	形容詞	rotten, sour	sōu	1728	ROTTEN	馊
+BeijingDaxue-1964-905-766	766	鹹	383	adjective	physiological perception	三、生理感覺	形容詞	salty	xián	1091	SALTY	咸
+BeijingDaxue-1964-905-767	767	淡	384	adjective	physiological perception	三、生理感覺	形容詞	tasteless	dàn	1771	TASTELESS	澹
+BeijingDaxue-1964-905-768	768	餓	384	adjective	physiological perception	三、生理感覺	形容詞	hungry	è	1533	BE HUNGRY	饿
+BeijingDaxue-1964-905-769	769	渴	385	adjective	physiological perception	三、生理感覺	形容詞	thirsty	kě	847	THIRSTY	渴
+BeijingDaxue-1964-905-770	770	累	385	adjective	physiological perception	三、生理感覺	形容詞	tired	lèi	1757	TIRED	累
+BeijingDaxue-1964-905-771	771	癢	386	adjective	physiological perception	三、生理感覺	形容詞	itchy	yǎng	149	ITCHY	痒
+BeijingDaxue-1964-905-772	772	舒服	386	adjective	physiological perception	三、生理感覺	形容詞	comfortable	shū fú			舒服
+BeijingDaxue-1964-905-773	773	忙	387	adjective	physiological perception	三、生理感覺	形容詞	busy	máng	2755	BUSY	忙
+BeijingDaxue-1964-905-774	774	閑	387	adjective	physiological perception	三、生理感覺	形容詞	idle	xián	2756	IDLE	闲
+BeijingDaxue-1964-905-775	775	胖	388	adjective	describing body appearance	四、形貌體態	形容詞	fat, obese	pàng	1279	FAT (OBESE)	胖
+BeijingDaxue-1964-905-776	776	肥	388	adjective	describing body appearance	四、形貌體態	形容詞	fat, oily	féi	2719	FAT (OILY)	肥
+BeijingDaxue-1964-905-777	777	瘦	389	adjective	describing body appearance	四、形貌體態	形容詞	thin	shòu	1400	THIN (SLIM)	瘦
+BeijingDaxue-1964-905-778	778	老(不年輕)	389	adjective	describing body appearance	四、形貌體態	形容詞	old, aged	lǎo (bù nián qīng)	2112	OLD (AGED)	老(不年轻)
+BeijingDaxue-1964-905-779	779	年輕	390	adjective	describing body appearance	四、形貌體態	形容詞	young	nián qīng	1207	YOUNG	年轻
+BeijingDaxue-1964-905-780	780	好看、漂亮	390	adjective	describing body appearance	四、形貌體態	形容詞	goodlooking, beautiful	hǎo kàn 、 piào liàng	2410	GOOD-LOOKING	好看、漂亮
+BeijingDaxue-1964-905-781	781	難看、醜	391	adjective	describing body appearance	四、形貌體態	形容詞	ugly	nán kàn 、 chǒu	1548	UGLY	难看、丑
+BeijingDaxue-1964-905-782	782	強壯	391	adjective	describing body appearance	四、形貌體態	形容詞	strong	qiáng zhuàng	785	STRONG	强壮
+BeijingDaxue-1964-905-783	783	傻	392	adjective	behavior	五、品性、行為	形容詞	stupid	shǎ	1518	STUPID	傻
+BeijingDaxue-1964-905-784	784	老實	392	adjective	behavior	五、品性、行為	形容詞	honest	lǎo shí	1120	HONEST	老实
+BeijingDaxue-1964-905-785	785	狡猾	393	adjective	behavior	五、品性、行為	形容詞	cunning	jiǎo huá	2335	CUNNING	狡猾
+BeijingDaxue-1964-905-786	786	直爽	393	adjective	behavior	五、品性、行為	形容詞	honest, frank	zhí shuǎng	1120	HONEST	直爽
+BeijingDaxue-1964-905-787	787	大方	394	adjective	behavior	五、品性、行為	形容詞	generous	dà fāng			大方
+BeijingDaxue-1964-905-788	788	小氣	394	adjective	behavior	五、品性、行為	形容詞	cheap, stingy	xiǎo qì	1774	STINGY	小气
+BeijingDaxue-1964-905-789	789	驕傲	395	adjective	behavior	五、品性、行為	形容詞	proud	jiāo ào	174	PROUD	骄傲
+BeijingDaxue-1964-905-790	790	謙虛	395	adjective	behavior	五、品性、行為	形容詞	modest	qiān xū			谦虚
+BeijingDaxue-1964-905-791	791	乖	396	adjective	behavior	五、品性、行為	形容詞	well-behaved	guāi			乖
+BeijingDaxue-1964-905-792	792	頑皮	396	adjective	behavior	五、品性、行為	形容詞	naughty	wán pí			顽皮
+BeijingDaxue-1964-905-793	793	勤快	397	adjective	behavior	五、品性、行為	形容詞	diligent	qín kuài	2077	DILIGENT	勤快
+BeijingDaxue-1964-905-794	794	懶	397	adjective	behavior	五、品性、行為	形容詞	lazy	lǎn	1564	LAZY	懒
+BeijingDaxue-1964-905-795	795	能幹	398	adjective	behavior	五、品性、行為	形容詞	capable	néng gàn			能干
+BeijingDaxue-1964-905-796	796	內行	398	adjective	behavior	五、品性、行為	形容詞	competent	nèi xíng			内行
+BeijingDaxue-1964-905-797	797	外行	399	adjective	behavior	五、品性、行為	形容詞	incompetent	wài xíng			外行
+BeijingDaxue-1964-905-798	798	髙興	399	adjective	mood	六、心理感受	形容詞	happy	gāo xìng	1495	HAPPY	髙兴
+BeijingDaxue-1964-905-799	799	合意	400	adjective	mood	六、心理感受	形容詞	suitable, pleasing	hé yì			合意
+BeijingDaxue-1964-905-800	800	煩惱	400	adjective	mood	六、心理感受	形容詞	annoying	fán nǎo			烦恼
+BeijingDaxue-1964-905-801	801	可憐	401	adjective	mood	六、心理感受	形容詞	pityful	kě lián			可怜
+BeijingDaxue-1964-905-802	802	倒黴	401	adjective	mood	六、心理感受	形容詞	having bad luck	dào méi			倒霉
+BeijingDaxue-1964-905-803	803	奇怪	402	adjective	mood	六、心理感受	形容詞	strange	qí guài	600	STRANGE	奇怪
+BeijingDaxue-1964-905-804	804	害怕	402	adjective	mood	六、心理感受	形容詞	scary	hài pà			害怕
+BeijingDaxue-1964-905-805	805	害羞	403	adjective	mood	六、心理感受	形容詞	shy	hài xiū	487	SHY	害羞
+BeijingDaxue-1964-905-806	806	我	403	pronoun	personal	一、人稱代詞	代詞	I (first person singular)	wǒ	1209	I	我
+BeijingDaxue-1964-905-807	807	你	404	pronoun	personal	一、人稱代詞	代詞	you (second person singular)	nǐ	1215	THOU	你
+BeijingDaxue-1964-905-808	808	他	404	pronoun	personal	一、人稱代詞	代詞	he, she, it (third person singular)	tā	262	HE OR SHE OR IT	他
+BeijingDaxue-1964-905-809	809	我們	405	pronoun	personal	一、人稱代詞	代詞	we (first person plural)	wǒ men	1212	WE	我们
+BeijingDaxue-1964-905-810	810	咱們	405	pronoun	personal	一、人稱代詞	代詞	we (first person plural inclusive)	zán men	1131	WE (INCLUSIVE)	咱们
+BeijingDaxue-1964-905-811	811	你們	406	pronoun	personal	一、人稱代詞	代詞	you (second person plural)	nǐ men	1213	YOU	你们
+BeijingDaxue-1964-905-812	812	他們	406	pronoun	personal	一、人稱代詞	代詞	they (third person plural)	tā men	817	THEY	他们
+BeijingDaxue-1964-905-813	813	大家	407	pronoun	personal	一、人稱代詞	代詞	all, everybody	dà jiā	98	ALL	大家
+BeijingDaxue-1964-905-814	814	自己	407	pronoun	personal	一、人稱代詞	代詞	self, oneself	zì jǐ	1993	SELF	自己
+BeijingDaxue-1964-905-815	815	人家	408	pronoun	personal	一、人稱代詞	代詞	they, the others (third person plural)	rén jiā	817	THEY	人家
+BeijingDaxue-1964-905-816	816	我的	408	pronoun	possessive	二、物主代詞	代詞	my (first person singular)	wǒ de	2090	MY	我的
+BeijingDaxue-1964-905-817	817	你的	409	pronoun	possessive	二、物主代詞	代詞	your (second person singular)	nǐ de	732	YOUR (SINGULAR)	你的
+BeijingDaxue-1964-905-818	818	他的	409	pronoun	possessive	二、物主代詞	代詞	his, her, its (third person singular)	tā de	2092	HIS OR HER	他的
+BeijingDaxue-1964-905-819	819	別的	410	pronoun	possessive	二、物主代詞	代詞	others, of the others	bié de			别的
+BeijingDaxue-1964-905-820	820	這個	410	pronoun	demonstrative	三、指示代詞	代詞	this	zhè gè	1214	THIS	这个
+BeijingDaxue-1964-905-821	821	那個	411	pronoun	demonstrative	三、指示代詞	代詞	that	nà gè	78	THAT	那个
+BeijingDaxue-1964-905-822	822	這些	411	pronoun	demonstrative	三、指示代詞	代詞	these	zhè xiē	1214	THIS	这些
+BeijingDaxue-1964-905-823	823	那些	412	pronoun	demonstrative	三、指示代詞	代詞	those	nà xiē	78	THAT	那些
+BeijingDaxue-1964-905-824	824	這兒	412	pronoun	demonstrative	三、指示代詞	代詞	here	zhè ér	136	HERE	这儿
+BeijingDaxue-1964-905-825	825	那兒	413	pronoun	demonstrative	三、指示代詞	代詞	there	nà ér	1937	THERE	那儿
+BeijingDaxue-1964-905-826	826	這邊	413	pronoun	demonstrative	三、指示代詞	代詞	this side, here	zhè biān	136	HERE	这边
+BeijingDaxue-1964-905-827	827	那邊	414	pronoun	demonstrative	三、指示代詞	代詞	that side, there	nà biān	1937	THERE	那边
+BeijingDaxue-1964-905-828	828	這麽	414	pronoun	demonstrative	三、指示代詞	代詞	this way	zhè me			这么
+BeijingDaxue-1964-905-829	829	那麽	415	pronoun	demonstrative	三、指示代詞	代詞	that way	nà me			那么
+BeijingDaxue-1964-905-830	830	誰	415	pronoun	interrogative	四、疑問代詞	代詞	who	shuí	1235	WHO	谁
+BeijingDaxue-1964-905-831	831	什麽	416	pronoun	interrogative	四、疑問代詞	代詞	what	shén me	1236	WHAT	什么
+BeijingDaxue-1964-905-832	832	哪個	416	pronoun	interrogative	四、疑問代詞	代詞	which	nǎ gè	727	WHICH	哪个
+BeijingDaxue-1964-905-833	833	哪兒	417	pronoun	interrogative	四、疑問代詞	代詞	where	nǎ ér	1237	WHERE	哪儿
+BeijingDaxue-1964-905-834	834	哪邊	417	pronoun	interrogative	四、疑問代詞	代詞	which place, where	nǎ biān	1237	WHERE	哪边
+BeijingDaxue-1964-905-835	835	怎麽	418	pronoun	interrogative	四、疑問代詞	代詞	how	zěn me	1239	HOW	怎么
+BeijingDaxue-1964-905-836	836	多麽	418	pronoun	interrogative	四、疑問代詞	代詞	how much, to which degree	duō me	531	HOW MUCH	多么
+BeijingDaxue-1964-905-837	837	多少	419	pronoun	interrogative	四、疑問代詞	代詞	how much	duō shǎo	531	HOW MUCH	多少
+BeijingDaxue-1964-905-838	838	多久	419	pronoun	interrogative	四、疑問代詞	代詞	how long	duō jiǔ	2338	HOW LONG	多久
+BeijingDaxue-1964-905-839	839	一個人	420	classifier	nominal	一、物量詞	量詞	piece (classifier for persons)	yī gè rén	516	PERSON (CLASSIFIER)	一个人
+BeijingDaxue-1964-905-840	840	一頭牛	420	classifier	nominal	一、物量詞	量詞	head (classifier for cows)	yī tóu niú	1256	HEAD	一头牛
+BeijingDaxue-1964-905-841	841	一只雞	421	classifier	nominal	一、物量詞	量詞	piece (classifier for chickens)	yī zhǐ jī	2081	CHICKEN (CLASSIFIER)	一只鸡
+BeijingDaxue-1964-905-842	842	一條魚	421	classifier	nominal	一、物量詞	量詞	piece (classifier for fishes)	yī tiáo yú	2720	FISH (CLASSIFIER)	一条鱼
+BeijingDaxue-1964-905-843	843	一棵樹	422	classifier	nominal	一、物量詞	量詞	piece (classifier for trees)	yī kē shù	2721	TREE (CLASSIFIER)	一棵树
+BeijingDaxue-1964-905-844	844	一叢草	422	classifier	nominal	一、物量詞	量詞	bush (classifier for grass)	yī cóng cǎo	2722	TUFT (CLASSIFIER)	一丛草
+BeijingDaxue-1964-905-845	845	一朵花兒	423	classifier	nominal	一、物量詞	量詞	bud (classifier for flower)	yī duǒ huā ér	2723	BUD (CLASSIFIER)	一朵花儿
+BeijingDaxue-1964-905-846	846	一串葡萄	423	classifier	nominal	一、物量詞	量詞	chain (classifier for grapes)	yī chuàn pú táo	2724	CHAIN (CLASSIFIER)	一串葡萄
+BeijingDaxue-1964-905-847	847	一頓飯	424	classifier	nominal	一、物量詞	量詞	portion (classifier for food)	yī dùn fàn	2725	PORTION (CLASSIFIER)	一顿饭
+BeijingDaxue-1964-905-848	848	一支煙	424	classifier	nominal	一、物量詞	量詞	piece (classifier for cigarettes)	yī zhī yān	2726	STALK (CLASSIFIER)	一支烟
+BeijingDaxue-1964-905-849	849	一瓶酒	425	classifier	nominal	一、物量詞	量詞	bottle (classifier for alcohol)	yī píng jiǔ	2727	BOTTLE (CLASSIFIER)	一瓶酒
+BeijingDaxue-1964-905-850	850	一口水	425	classifier	nominal	一、物量詞	量詞	mouth (classifier for water)	yī kǒu shuǐ	2728	MOUTHFUL (CLASSIFIER)	一口水
+BeijingDaxue-1964-905-851	851	一套衣服	426	classifier	nominal	一、物量詞	量詞	piece (classifier for clothes)	yī tào yī fú	2088	CLOTHING (CLASSIFIER)	一套衣服
+BeijingDaxue-1964-905-852	852	一雙鞋	426	classifier	nominal	一、物量詞	量詞	pair (classifier for shoes)	yī shuāng xié	2089	PAIR (CLASSIFIER)	一双鞋
+BeijingDaxue-1964-905-853	853	一條被子	427	classifier	nominal	一、物量詞	量詞	piece (classifier for blankets)	yī tiáo bèi zi	2729	SHEET (CLASSIFIER)	一条被子
+BeijingDaxue-1964-905-854	854	一頂帳子	427	classifier	nominal	一、物量詞	量詞	piece (classifier for heats)	yī dǐng zhàng zi	2730	HAT (CLASSIFIER)	一顶帐子
+BeijingDaxue-1964-905-855	855	一把刀	428	classifier	nominal	一、物量詞	量詞	handle (classifier for knives)	yī bǎ dāo	2082	KNIFE (CLASSIFIER)	一把刀
+BeijingDaxue-1964-905-856	856	一根針	428	classifier	nominal	一、物量詞	量詞	piece (classifier for needles)	yī gēn zhēn	2731	NEEDLE (CLASSIFIER)	一根针
+BeijingDaxue-1964-905-857	857	一座房子	429	classifier	nominal	一、物量詞	量詞	piece (classifier for houses)	yī zuò fáng zi	2732	HOUSE (CLASSIFIER)	一座房子
+BeijingDaxue-1964-905-858	858	一座橋	429	classifier	nominal	一、物量詞	量詞	piece (classifier for bridges)	yī zuò qiáo	2733	BRIDGE (CLASSIFIER)	一座桥
+BeijingDaxue-1964-905-859	859	一扇門	430	classifier	nominal	一、物量詞	量詞	fan (classifier for doors)	yī shàn mén	2734	DOOR (CLASSIFIER)	一扇门
+BeijingDaxue-1964-905-860	860	一輛車	430	classifier	nominal	一、物量詞	量詞	piece (classifier for cars)	yī liàng chē	2735	CAR (CLASSIFIER)	一辆车
+BeijingDaxue-1964-905-861	861	一只船	431	classifier	nominal	一、物量詞	量詞	piece (classifier for ship)	yī zhǐ chuán	2736	SHIP (CLASSIFIER)	一只船
+BeijingDaxue-1964-905-862	862	一件事情	431	classifier	nominal	一、物量詞	量詞	piece (classifier for thing)	yī jiàn shì qíng	2737	AFFAIR (CLASSIFIER)	一件事情
+BeijingDaxue-1964-905-863	863	一筆生意	432	classifier	nominal	一、物量詞	量詞	pencil (classifier for business deals)	yī bǐ shēng yì	2738	DEAL (CLASSIFIER)	一笔生意
+BeijingDaxue-1964-905-864	864	逼(看一遍)	432	classifier	verbal	二、動量詞	量詞	time (look one time)	bī (kàn yī biàn)	726	WHILE	逼(看一遍)
+BeijingDaxue-1964-905-865	865	次(這一次)	433	classifier	verbal	二、動量詞	量詞	time (this time)	cì (zhè yī cì)	374	ONE TIME	次(这一次)
+BeijingDaxue-1964-905-866	866	趟(走一趟)	433	classifier	verbal	二、動量詞	量詞	walk (walk a walk)	tàng (zǒu yī tàng)	2739	WALK (CLASSIFIER)	趟(走一趟)
+BeijingDaxue-1964-905-867	867	頓(打一頓)	434	classifier	verbal	二、動量詞	量詞	time (beat one time)	dùn (dǎ yī dùn)	2740	BEAT (CLASSIFIER)	顿(打一顿)
+BeijingDaxue-1964-905-868	868	下(打一下)	434	classifier	verbal	二、動量詞	量詞	a little bit (beat a little)	xià (dǎ yī xià)	2741	BIT (CLASSIFIER)	下(打一下)
+BeijingDaxue-1964-905-869	869	從前	435	adverb			副詞	formerly	cóng qián			从前
+BeijingDaxue-1964-905-870	870	剛才	435	adverb			副詞	just a short while ago	gāng cái	84	JUST	刚才
+BeijingDaxue-1964-905-871	871	現在	436	adverb			副詞	now	xiàn zài	1376	NOW	现在
+BeijingDaxue-1964-905-872	872	一向	437	adverb			副詞	all along	yī xiàng			一向
+BeijingDaxue-1964-905-873	873	預先	437	adverb			副詞	in advance	yù xiān			预先
+BeijingDaxue-1964-905-874	874	巳經	438	adverb			副詞	already	sì jīng	2576	ALREADY	巳经
+BeijingDaxue-1964-905-875	875	常常	438	adverb			副詞	often	cháng cháng	1852	OFTEN	常常
+BeijingDaxue-1964-905-876	876	趕快	439	adverb			副詞	fast, quick	gǎn kuài	1631	FAST	赶快
+BeijingDaxue-1964-905-877	877	馬上	439	adverb			副詞	immediately	mǎ shàng	1963	IMMEDIATELY	马上
+BeijingDaxue-1964-905-878	878	很	440	adverb			副詞	very	hěn	1311	VERY	很
+BeijingDaxue-1964-905-879	879	更	440	adverb			副詞	more	gèng	1992	MORE	更
+BeijingDaxue-1964-905-880	880	最	441	adverb			副詞	most	zuì	1198	MANY	最
+BeijingDaxue-1964-905-881	881	太	441	adverb			副詞	too	tài			太
+BeijingDaxue-1964-905-882	882	稍微	442	adverb			副詞	a little	shāo wēi			稍微
+BeijingDaxue-1964-905-883	883	恰巧	442	adverb			副詞	by chance	qià qiǎo			恰巧
+BeijingDaxue-1964-905-884	884	都	443	adverb			副詞	all	dōu	98	ALL	都
+BeijingDaxue-1964-905-885	885	統統	443	adverb			副詞	completely	tǒng tǒng			统统
+BeijingDaxue-1964-905-886	886	一起	444	adverb			副詞	together	yī qǐ	2482	TOGETHER	一起
+BeijingDaxue-1964-905-887	887	又	444	adverb			副詞	again	yòu	204	AGAIN	又
+BeijingDaxue-1964-905-888	888	再	445	adverb			副詞	again	zài	204	AGAIN	再
+BeijingDaxue-1964-905-889	889	仍舊	445	adverb			副詞	still	réng jiù			仍旧
+BeijingDaxue-1964-905-890	890	反正	446	adverb			副詞	anyhow	fǎn zhèng			反正
+BeijingDaxue-1964-905-891	891	大約	446	adverb			副詞	probably	dà yuē			大约
+BeijingDaxue-1964-905-892	892	一定	447	adverb			副詞	certainly	yī dìng			一定
+BeijingDaxue-1964-905-893	893	不	447	adverb			副詞	not	bù	1240	NOT	不
+BeijingDaxue-1964-905-894	894	沒〔有〕(未)	448	adverb			副 詞	not	méi 〔yǒu〕 (wèi)	1240	NOT	没〔有〕(未)
+BeijingDaxue-1964-905-895	895	別	448	adverb			副詞	other	bié	197	OTHER	别
+BeijingDaxue-1964-905-896	896	不用	449	adverb			副詞	need not	bù yòng			不用
+BeijingDaxue-1964-905-897	897	把	449	preposition			介詞、連詞	regard as, with	bǎ			把
+BeijingDaxue-1964-905-898	898	被	450	preposition			介詞、連詞	by	bèi	2751	BY (PASSIVE MARKER)	被
+BeijingDaxue-1964-905-899	899	替	450	preposition			介詞、連詞	instead of	tì	2752	INSTEAD	替
+BeijingDaxue-1964-905-900	900	在	451	preposition			介詞、連詞	in	zài	1460	IN	在
+BeijingDaxue-1964-905-901	901	從	451	preposition			介詞、連詞	from	cóng	693	FROM	从
+BeijingDaxue-1964-905-902	902	到	452	preposition			介詞、連詞	until	dào	2753	UNTIL	到
+BeijingDaxue-1964-905-903	903	向	452	preposition			介詞、連詞	towards	xiàng	2754	TOWARDS	向
+BeijingDaxue-1964-905-904	904	和	453	preposition			介詞、連詞	and	hé	1577	AND	和
+BeijingDaxue-1964-905-905	905	如果	453	preposition			介詞、連詞	if	rú guǒ	1459	IF	如果
