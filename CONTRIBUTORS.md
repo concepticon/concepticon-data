@@ -2,13 +2,13 @@
 
 ## Grant information
 
-This research was supported by the DFG research fellowship grant 261553824
-Vertical and lateral aspects of Chinese dialect history (JML) and the ERC
-starting grant 240816 Quantitative modelling of historical-comparative
-linguistics (JML, MC). As part of the [CLLD project](http://clld.org) and the
-[GlottoBank project](http: //glottobank.org), the work was supported by the Max
+Originally, this research was supported by the DFG research fellowship grant 261553824
+Vertical and lateral aspects of Chinese dialect history (JML, 2015-2016) and the ERC
+starting grant 240816 *Quantitative modelling of historical-comparative
+linguistics* (JML, MC, 2011-2012). As part of the [CLLD project](http://clld.org) and the [GlottoBank project](http://glottobank.org) (both ongoing), the work is now supported by the Max
 Planck Society, the Max Planck Institute for the Science of Human History and
-the Royal Society of New Zealand (Marsden Fund grant 13-UOA-121, RF).
+the Royal Society of New Zealand (Marsden Fund grant 13-UOA-121, RF). As of April 2017, the project is further supported 
+through the ERC starting grant 715618 *Computer-assisted language comparison* ([CALC](http://calc.digling.org), JML).
 
 ## People
 
