@@ -215,7 +215,8 @@ def _set_operation(args, type_):
     for c, lists in compare_conceptlists(api, *args.args):
         if type_ == 'union' \
                 or len(set([x[0] for x in lists if x[1] >= 0])) == len(args.args):
-            marker = '*' if not len([0 for x in lists if x[1] == 0]) else ''
+            marker = '*' if not len([0 for x in lists if x[1] == 0]) else ' '
+            marker += '<' if len([x for x in lists]) < len(args.args) else ' '
             out += [(
                 marker, c,
                 api.conceptsets[c].gloss, ', '.join(
