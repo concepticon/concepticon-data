@@ -125,7 +125,7 @@ def test():
 
     for cl in api.conceptlists.values():
         for concept in cl.concepts.values():
-            if concept.concepticon_id in deprecated:
+            if concept.concepticon_id in deprecated:  # pragma: no cover
                 error('deprecated concept set {0} linked for {1}'.format(
                     concept.concepticon_id, concept.id), cl.id)
 
