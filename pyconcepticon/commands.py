@@ -485,3 +485,9 @@ def check(args):
     for clist in clists:
         _get_missing(api, clist)
         _get_mergers(api, clist)
+
+
+@command()
+def test(args):
+    from pyconcepticon.tests.test_data import test as _test
+    _test()
