@@ -64,7 +64,7 @@ class Tests(WithTempDirMixin, TestWithFixture):
         with capture(
                 union,
                 Args(data='', args=['Swadesh-1952-200', 'Matisoff-1978-200'])) as out:
-            self.assertEqual(302, len(out.split('\n')))
+            self.assertEqual(301, len(out.split('\n')))
 
     def test_intersection(self):
         from pyconcepticon.commands import intersection
