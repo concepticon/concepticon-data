@@ -43,3 +43,4 @@ Anthony Grant | MS | 1.1
 Evgeniya Korovina | MSPA | 1.1
 Andreea Calude | D | 1.1
 Quentin Atkinson | MD | 1.1
+Isabella Boga | LP | 1.1
