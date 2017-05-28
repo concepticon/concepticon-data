@@ -2,8 +2,8 @@ from __future__ import unicode_literals
 import re
 import warnings
 
-from pyconcepticon.api import Concepticon
-from pyconcepticon.util import split, REPOS_PATH
+from pyconcepticon.api import Concepticon, Conceptlist
+from pyconcepticon.util import split, REPOS_PATH, read_dicts
 
 
 SUCCESS = True
