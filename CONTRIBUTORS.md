@@ -40,7 +40,7 @@ Viola Kirchhoff da Cruz | CLS | 1.0
 Wang Feng | D | 1.0
 Nathan Hill | MSDP | 1.1
 Anthony Grant | MS | 1.1
-Evgeniya Korovina | MSPA | 1.1
+Evgeniya Korovina | MSCLPA | 1.1
 Andreea Calude | D | 1.1
 Quentin Atkinson | MD | 1.1
 Isabella Boga | LP | 1.1
