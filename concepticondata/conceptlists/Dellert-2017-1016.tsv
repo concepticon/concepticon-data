@@ -1,0 +1,1017 @@
+ID	NUMBER	RANK	STABILITY_SCORE	GERMAN	NELEX_ID	ENGLISH	RUSSIAN	GERMAN_ANNOTATION	ENGLISH_ANNOTATION	RUSSIAN_ANNOTATION	CONCEPTICON_GLOSS	CONCEPTICON_ID	NOTE
+Dellert-2017-1016-1	1	44	-2.239237	Auge	Auge::N	eye	глаз	Anatomie	anatomy	анатомия	EYE	1248	
+Dellert-2017-1016-2	2	34	-2.249194	Ohr	Ohr::N	ear	ухо	Anatomie	anatomy	анатомия	EAR	1247	
+Dellert-2017-1016-3	3	149	-1.195463	Nase	Nase::N	nose	нос	Anatomie	anatomy	анатомия	NOSE	1221	
+Dellert-2017-1016-4	4	25	-2.262589	Mund	Mund::N	mouth	рот	Anatomie	anatomy	анатомия	MOUTH	674	
+Dellert-2017-1016-5	5	31	-2.270705	Zahn	Zahn::N	tooth	зуб	BSP:menschlicher Schneidezahn	EX:human incisor	НАПР:человека	TOOTH	1380	
+Dellert-2017-1016-6	6	66	-2.287728	Zunge	Zunge::N	tongue	язык	Anatomie	anatomy	орган в полости рта	TONGUE	1205	
+Dellert-2017-1016-7	7	430	-1.143607	Lippe	Lippe::N	lip	губа	Anatomie	anatomy	анатомия	LIP	478	
+Dellert-2017-1016-8	8	897	0.00952	Wange	Wange::N	cheek	щека	Anatomie	anatomy	анатомия	CHEEK	1730	
+Dellert-2017-1016-9	9	644	-0.05467	Gesicht	Gesicht::N	face	лицо	des Menschen	of a human	человека	FACE	1560	
+Dellert-2017-1016-10	10	452	-1.186739	Stirn	Stirn::N	forehead	лоб	des Menschen	of a human	человека	FOREHEAD	123	
+Dellert-2017-1016-11	11	121	-2.228777	Haar	Haar::N	hair	волос	Kopfhaar des Menschen	of human head	на голове человека	HAIR	1040	
+Dellert-2017-1016-12	12	988	1.103531	Schnurrbart	Schnurrbart::N	moustache	усы	eines Mannes	of a man	мужчины	MOUSTACHE	1165	
+Dellert-2017-1016-13	13	358	-1.116858	Bart	Bart::N	beard	борода	allgemein	generic	волосяной покров нижней части лица	BEARD	678	
+Dellert-2017-1016-14	14	405	-1.11055	Kinn	Kinn::N	chin	подбородок	Anatomie	anatomy	анатомия	CHIN	1510	
+Dellert-2017-1016-15	15	690	-0.047343	KieferAnatomie	KieferAnatomie::N	jaw	челюсть	Anatomie	anatomy	анатомия	JAW	798	
+Dellert-2017-1016-16	16	361	-1.112143	Kehle	Kehle::N	throat	горло	Hals von innen	from inside	НАПР:полоскать горло	THROAT	1346	
+Dellert-2017-1016-17	17	267	-1.138234	Hals	Hals::N	neck	шея	Hals von außen, rundum	from outside	НАПР:бусы на шее	NECK	1333	
+Dellert-2017-1016-18	18	804	-0.044891	Genick	Genick::N	nape	затылок	hinter Teil des Halses	back side of neck	задняя часть головы	NAPE (OF NECK)	1347	
+Dellert-2017-1016-19	19	23	-2.21461	Kopf	Kopf::N	head	голова	BSP:des Menschen	EX:of a human	НАПР:человека	HEAD	1256	
+Dellert-2017-1016-20	20	431	-1.143134	Rücken	Rücken::N	back	спина	des Menschen	of a human	человека	BACK	1291	
+Dellert-2017-1016-21	21	378	-1.17446	Bauch	Bauch::N	belly	живот	des Menschen	of a human	человека	BELLY	1251	
+Dellert-2017-1016-22	22	346	-1.139977	Nabel	Nabel::N	navel	пупок	Anatomie	anatomy	анатомия	NAVEL	1838	
+Dellert-2017-1016-23	23	740	-0.016307	Busen	Busen::N	bosom	грудь	weibliche Brust	female breast	женская грудь	BREAST	1402	
+Dellert-2017-1016-24	24	296	-1.156723	Brust	Brust::N	breast	грудь	BSP:eines Mannes	EX:of a man	НАПР:мужчины	CHEST	1592	
+Dellert-2017-1016-25	25	533	-0.087579	Schulter	Schulter::N	shoulder	плечо	Anatomie	anatomy	анатомия	SHOULDER	1482	
+Dellert-2017-1016-26	26	46	-2.214312	Arm	Arm::N	arm	рука	des Menschen	of a human	от пальцев до плеча	ARM	1673	
+Dellert-2017-1016-27	27	770	-0.043831	Ellenbogen	Ellenbogen::N	elbow	локоть	des Menschen	of a human	человека	ELBOW	981	
+Dellert-2017-1016-28	28	41	-2.255057	Hand	Hand::N	hand	кисть	des Menschen	of a human	руки	HAND	1277	
+Dellert-2017-1016-29	29	678	-0.072581	Handfläche	Handfläche::N	palm	ладонь	Anatomie	anatomy	анатомия	PALM OF HAND	1183	
+Dellert-2017-1016-30	30	191	-1.139551	Finger	Finger::N	finger	палец	des Menschen	of a human	на руке человека	FINGER	1303	
+Dellert-2017-1016-31	31	317	-1.100767	Fingernagel	Fingernagel::N	fingernail	ноготь на руке	Anatomie	anatomy	человека	FINGERNAIL	1258	
+Dellert-2017-1016-32	32	98	-2.240028	NagelAnatomie	NagelAnatomie::N	nail	ноготь	Anatomie	anatomy	на руке или на ноге	FINGERNAIL OR TOENAIL	1896	
+Dellert-2017-1016-33	33	894	0.074736	Zeh	Zeh::N	toe	палец ноги	des Menschen	of a human	человека	TOE	1389	
+Dellert-2017-1016-34	34	73	-2.241286	Fuß	Fuß::N	foot	ступня	des Menschen	of a human	человека	FOOT	1301	
+Dellert-2017-1016-35	35	443	-1.112251	Ferse	Ferse::N	heel	пятка	Anatomie	anatomy	анатомия	HEEL	980	
+Dellert-2017-1016-36	36	271	-1.12634	Knie	Knie::N	knee	колено	Anatomie	anatomy	анатомия	KNEE	1371	
+Dellert-2017-1016-37	37	616	-0.029976	Oberschenkel	Oberschenkel::N	thigh	бедро	Anatomie	anatomy	верхняя часть ноги до колена	THIGH	800	
+Dellert-2017-1016-38	38	57	-2.257644	Bein	Bein::N	leg	нога	des Menschen	of a human	нога не включая ступню	LEG	1297	
+Dellert-2017-1016-39	39	252	-1.17423	Körper	Körper::N	body	тело	eines Lebewesens	of a living organism	живого существа	BODY	1480	
+Dellert-2017-1016-40	40	417	-1.171135	Haut	Haut::N	skin	кожа	des Menschen	of a human	человека	SKIN	763	
+Dellert-2017-1016-41	41	35	-2.23808	Blut	Blut::N	blood	кровь	Flüssigkeit	fluid	жидкая	BLOOD	946	
+Dellert-2017-1016-42	42	297	-1.15507	Ader	Ader::N	vein	вена	Anatomie	anatomy	анатомия	VEIN	1924	
+Dellert-2017-1016-43	43	639	-0.064254	Sehne	Sehne::N	sinew	сухожилие	Anatomie	anatomy	анатомия	TENDON	1137	
+Dellert-2017-1016-44	44	59	-2.245369	Knochen	Knochen::N	bone	кость	Anatomie	anatomy	анатомия	BONE	1394	
+Dellert-2017-1016-45	45	265	-1.139365	Gehirn	Gehirn::N	brain	мозг	Anatomie	anatomy	анатомия	BRAIN	1583	
+Dellert-2017-1016-46	46	306	-1.144068	Herz	Herz::N	heart	сердце	Anatomie	anatomy	анатомия	HEART	1223	
+Dellert-2017-1016-47	47	554	-0.049448	Magen	Magen::N	stomach	желудок	Anatomie	anatomy	анатомия	STOMACH	819	
+Dellert-2017-1016-48	48	368	-1.194606	Leber	Leber::N	liver	печень	Anatomie	anatomy	анатомия	LIVER	1224	
+Dellert-2017-1016-49	49	744	-0.006891	Atem	Atem::N	breath	дыхание	Atmung	breathing	процесс	BREATH	870	
+Dellert-2017-1016-50	50	327	-1.186053	Hunger	Hunger::N	hunger	голод	Zustand	condition	состояние	HUNGER	1864	
+Dellert-2017-1016-51	51	409	-1.191737	Träne	Träne::N	tear	слеза	Tropfen der Flüssigkeit	drop of fluid	капля	TEAR (OF EYE)	1651	
+Dellert-2017-1016-52	52	197	-1.122334	Geschmack	Geschmack::N	flavour	вкус	von etwas	of something	чего-либо	TASTE	2190	
+Dellert-2017-1016-53	53	239	-1.102637	Geruch	Geruch::N	odour	запах	von etwas	of something	чего-либо	FLAVOR	2938	
+Dellert-2017-1016-54	54	78	-2.22481	Schlaf	Schlaf::N	sleep	сон	Zustand	condition	состояние	SLEEP (STATE)	2972	POS
+Dellert-2017-1016-55	55	123	-2.216322	Traum	Traum::N	dream	сновидение	im Schlaf	while sleeping	то, что снится	DREAM	2374	
+Dellert-2017-1016-56	56	92	-2.260565	Himmel	Himmel::N	sky	небо	sichtbar	visible	НАПР:звёзды на небе/солнце на небе	SKY	1732	
+Dellert-2017-1016-57	57	153	-1.184994	Sonne	Sonne::N	sun	солнце	Himmelskörper	celestial body	НАПР:солнце на небе	SUN	1343	
+Dellert-2017-1016-58	58	104	-2.213239	Mond	Mond::N	moon	луна	Himmelskörper	celestial body	НАПР:луна на небе	MOON	1313	
+Dellert-2017-1016-59	59	316	-1.103503	Stern	Stern::N	star	звезда	am Nachthimmel	in the night sky	на ночном небе	STAR	1430	
+Dellert-2017-1016-60	60	234	-1.123365	Luft	Luft::N	air	воздух	wo Vögel fliegen	where birds fly	НАПР:птицы летают по воздуху	AIR	27	
+Dellert-2017-1016-61	61	69	-2.27676	Wind	Wind::N	wind	ветер	draußen	outside	на улице	WIND	960	
+Dellert-2017-1016-62	62	213	-1.172595	Welle	Welle::N	wave	волна	auf Wasser	on water	на воде	WAVE	978	
+Dellert-2017-1016-63	63	19	-2.22383	Wasser	Wasser::N	water	вода	kaltes Wasser	cold water	холодная вода	WATER	948	
+Dellert-2017-1016-64	64	55	-2.26243	Stein	Stein::N	stone	камень	Substanz	substance	вещество	ROCK	668	
+Dellert-2017-1016-65	65	470	-1.143149	Boden	Boden::N	ground	земля	Erdboden	soil, earth	земля, пол; НАПР:падать на землю	GROUND	2159	
+Dellert-2017-1016-66	66	164	-1.145461	Erde	Erde::N	earth	земля, почва	Substanz	substance	вещество; НАПР:комок земли	EARTH (SOIL)	1228	
+Dellert-2017-1016-67	67	292	-1.175208	Staub	Staub::N	dust	пыль	Ablagerung	settled	НАПР:вытереть пыль	DUST	2	
+Dellert-2017-1016-68	68	82	-2.206577	Rauch	Rauch::N	smoke	дым	von einem Feuer	from a fire	от огня	SMOKE (EXHAUST)	778	
+Dellert-2017-1016-69	69	827	-0.054543	Funke	Funke::N	spark	искра	von einem Feuer	from a fire	от огня	SPARK	518	
+Dellert-2017-1016-70	70	129	-2.29136	Feuer	Feuer::N	fire	огонь	Flammen	flames	пламя	FIRE	221	
+Dellert-2017-1016-71	71	192	-1.138404	Licht	Licht::N	light	свет	natürlich	from a natural source	природный	LIGHT (RADIATION)	630	
+Dellert-2017-1016-72	72	481	-1.122783	Schatten	Schatten::N	shadow	тень	schattiger Ort	shady place	тенистое место	SHADE	1388	
+Dellert-2017-1016-73	73	488	-1.113199	Wetter	Wetter::N	weather	погода				WEATHER	952	
+Dellert-2017-1016-74	74	672	-0.096679	Nebel	Nebel::N	fog	туман				FOG	249	
+Dellert-2017-1016-75	75	205	-1.190594	Wolke	Wolke::N	cloud	облако	hell	bright	свётлое	CLOUD	1489	
+Dellert-2017-1016-76	76	255	-1.16627	Regen	Regen::N	rain	дождь	fallend	falling	НАПР:дождь идёт	RAIN (PRECIPITATION)	658	
+Dellert-2017-1016-77	77	37	-2.207532	Schnee	Schnee::N	snow	снег	liegend	on the ground	на земле	SNOW	784	
+Dellert-2017-1016-78	78	32	-2.266068	Eis	Eis::N	ice	лёд	natürliche Substanz	natural substance	природный НАПР:на реке, озере	ICE	617	
+Dellert-2017-1016-79	79	420	-1.169482	Frost	Frost::N	frost	мороз	Temperatur unter Gefrierpunkt	temperature below freezing point	сильный холод	FROST	2034	
+Dellert-2017-1016-80	80	484	-1.117138	Kälte	Kälte::N	chill	холод	niedrige Temperatur	low temperature	низкая температура воздуха	COLD (CHILL)	2932	POS
+Dellert-2017-1016-81	81	730	-0.041652	Hitze	Hitze::N	heat	жара	hohe Temperatur	high temperature	высокая температура воздуха	HEAT	612	
+Dellert-2017-1016-82	82	656	-0.024082	Raureif	Raureif::N	hoarfrost	иней				HOARFROST	2942	
+Dellert-2017-1016-83	83	1007	1.197472	Regenbogen	Regenbogen::N	rainbow	радуга				RAINBOW	1733	
+Dellert-2017-1016-84	84	625	-0.001241	Donner	Donner::N	thunder	гром	bei Gewitter	during a thunderstorm	во время грозы	THUNDER	1150	
+Dellert-2017-1016-85	85	753	-0.089439	Strömung	Strömung::N	current	течение	eines Flusses	of a river	реки	CURRENT (STREAM)	2935	
+Dellert-2017-1016-86	86	458	-1.170306	Tropfen	Tropfen::N	drop	капля	BSP:Wasser	EX:water	НАПР:воды	DROP (CLASSIFIER)	2087	not DROP (CLASSIFIER)
+Dellert-2017-1016-87	87	109	-2.288698	Schaum	Schaum::N	foam	пена	auf Flüssigkeit	on liquid	на поверхности жидкости	FOAM	1768	
+Dellert-2017-1016-88	88	715	-0.077517	Schmutz	Schmutz::N	dirt	грязь	auf Gegenständen	on objects	на предметах	DIRT	25	
+Dellert-2017-1016-89	89	61	-2.228149	See	See::N	lake	озеро	Binnensee			LAKE	624	
+Dellert-2017-1016-90	90	749	-0.093922	Sumpf	Sumpf::N	swamp	топь	Feuchtgebiet	area of impassable wet land	вязкое труднопроходимое место	SWAMP	1145	
+Dellert-2017-1016-91	91	976	0.082546	Moor	Moor::N	moor	болото	Torfmoor	wasteland covered by heath	торфяное болото	MOORLAND	2962	
+Dellert-2017-1016-92	92	575	-0.008312	Wiese	Wiese::N	meadow	луг	Land mit Grasbewuchs	land covered with grass	поросший травой	PASTURE	649	
+Dellert-2017-1016-93	93	284	-1.195172	Wald	Wald::N	forest	лес				FOREST	420	
+Dellert-2017-1016-94	94	756	-0.081831	Hügel	Hügel::N	hill	холм	möglicherweise bewaldet	possibly wooded	горка	HILL	614	
+Dellert-2017-1016-95	95	763	-0.066956	Anhöhe	Anhöhe::N	elevation	возвышенность	höher gelegenes Gelände	of the ground	более высокое, возвышающееся над окрестностью место	ELEVATION	2936	not distinct from HILL
+Dellert-2017-1016-96	96	81	-2.209868	Berg	Berg::N	mountain	гора	unbewaldet	woodless	не поросшая лесом	MOUNTAIN	639	
+Dellert-2017-1016-97	97	822	-0.070502	Gipfel	Gipfel::N	summit	вершина	eines Berges	of a mountain	горы	SUMMIT	1614	
+Dellert-2017-1016-98	98	798	-0.059802	Höhle	Höhle::N	cave	пещера	in einem Berg	in a mountain	в горе	CAVE	1155	
+Dellert-2017-1016-99	99	960	0.073616	Abhang	Abhang::N	slope	склон	eines Berges	of a mountain	горы	PRECIPICE	618	
+Dellert-2017-1016-100	100	867	-0.088111	Quelle	Quelle::N	source	источник	eines Flusses	of a river	реки	SPRING (OF WATER)	849	
+Dellert-2017-1016-101	101	754	-0.084698	Bach	Bach::N	brook	ручей	kleiner Fluss	small river	маленькая река	RIVER	666	not distinct from RIVER
+Dellert-2017-1016-102	102	227	-1.139801	Fluss	Fluss::N	river	река	größerer Fluss	larger river	большая река	RIVER	666	
+Dellert-2017-1016-103	103	372	-1.18519	Ufer	Ufer::N	shore	берег	eines Sees	of a lake	НАПР:озeра	SHORE	113	
+Dellert-2017-1016-104	104	591	-0.070349	Küste	Küste::N	coast	побережье	Meeresküste	seashore	берег моря	COAST	1525	
+Dellert-2017-1016-105	105	788	-0.093131	Festland	Festland::N	land	суша		as opposed to sea	как противоположность морю	MAINLAND	166	
+Dellert-2017-1016-106	106	106	-2.29988	Meer	Meer::N	sea	море				SEA	1474	
+Dellert-2017-1016-107	107	667	-0.003174	Bucht	Bucht::N	cove, bay	бухта	kleine Bucht	small coastal inlet	небольшой залив в море	BAY	663	
+Dellert-2017-1016-108	108	259	-1.152876	Insel	Insel::N	island	остров				ISLAND	622	
+Dellert-2017-1016-109	109	850	-0.073582	Blume	Blume::N	flower	цветок				FLOWER	239	
+Dellert-2017-1016-110	110	277	-1.117369	Gras	Gras::N	grass	трава	Bodenbewuchs	ground cover	зелёный покров земли НАПР:лежать на траве	GRASS	606	
+Dellert-2017-1016-111	111	194	-1.128621	Wurzel	Wurzel::N	root	корень	einer Pflanze	of a plant	растения	ROOT	670	
+Dellert-2017-1016-112	112	48	-2.202903	Baum	Baum::N	tree	дерево	Pflanze	plant	растение	TREE	906	
+Dellert-2017-1016-113	113	791	-0.087953	Stamm	Stamm::N	trunk	ствол	eines Baumes	of a tree	дерева	TREE TRUNK	344	
+Dellert-2017-1016-114	114	224	-1.14791	Rinde	Rinde::N	bark	кора	eines Baumes	of a tree	дерева	BARK	1204	
+Dellert-2017-1016-115	115	257	-1.163897	Ast	Ast::N	limb	сук	eines Baumes	of a tree	дерева	BRANCH	1531	
+Dellert-2017-1016-116	116	612	-0.040117	Zweig	Zweig::N	twig	ветвь	eines Baumes	of a tree	дерева	BRANCH	1531	not distinct from BRANCH
+Dellert-2017-1016-117	117	120	-2.229714	Blatt	Blatt::N	leaf	лист	einer Pflanze	of a plant	растения	LEAF	628	
+Dellert-2017-1016-118	118	319	-1.194508	Birke	Birke::N	birch	берёза				BIRCH	1855	
+Dellert-2017-1016-119	119	514	-1.136112	KieferBaum	KieferBaum::N	pine	сосна		pine tree		PINE	1740	
+Dellert-2017-1016-120	120	385	-1.149515	WeideBaum	WeideBaum::N	willow	ива				WILLOW	818	
+Dellert-2017-1016-121	121	583	-0.087277	Tanne	Tanne::N	fir	ель				FIR	1915	
+Dellert-2017-1016-122	122	84	-2.202967	Horn	Horn::N	horn	рог	eines Tieres	of an animal	животного	HORN (ANATOMY)	1393	
+Dellert-2017-1016-123	123	244	-1.193887	Feder	Feder::N	feather	перо	eines Vogels	of a bird	птицы	FEATHER	1201	
+Dellert-2017-1016-124	124	386	-1.148395	Fell	Fell::N	fur	шкура	eines Tieres	of an animal	животного	FUR	580	
+Dellert-2017-1016-125	125	152	-1.187192	Flügel	Flügel::N	wing	крыло	eines Vogels	of a bird	птицы	WING	1257	
+Dellert-2017-1016-126	126	618	-0.023658	Klaue	Klaue::N	claw	коготь	BSP:eines Vogel	EX:of a bird	НАПР:птицы	CLAW	72	
+Dellert-2017-1016-127	127	563	-0.038216	Kralle	Kralle::N	paw	лапа	BSP:einer Katze	EX:of a cat	НАПР:кошки	PAW	2965	
+Dellert-2017-1016-128	128	335	-1.168923	Schwanz	Schwanz::N	tail	хвост	BSP:eines Hundes	EX:of a dog	НАПР:собаки	TAIL	1220	
+Dellert-2017-1016-129	129	207	-1.183631	Ei	Ei::N	egg	яйцо	BSP:eines Vogel	EX:of a bird	НАПР:птицы	EGG	744	
+Dellert-2017-1016-130	130	86	-2.299024	Nest	Nest::N	nest	гнездо	BSP:eines Vogel	EX:of a bird	НАПР:птицы	NEST	539	
+Dellert-2017-1016-131	131	971	0.092566	Bau	Bau::N	lair	нора	BSP:eines Fuchses	EX:of a fox	НАПР:лисы	LAIR	2949	
+Dellert-2017-1016-132	132	584	-0.085719	Tier	Tier::N	animal	животное				ANIMAL	619	
+Dellert-2017-1016-133	133	446	-1.101006	Herde	Herde::N	flock	стадо	BSP:Schafherde	EX:of sheep	НАПР:овец	FLOCK (OF ANIMALS)	2939	
+Dellert-2017-1016-134	134	72	-2.265435	Kuh	Kuh::N	cow	корова				COW	1007	
+Dellert-2017-1016-135	135	210	-1.177871	Bulle	Bulle::N	bull	бык	männliches Rind	male bovine	самец коровы	BULL	1008	
+Dellert-2017-1016-136	136	107	-2.29378	Pferd	Pferd::N	horse	лошадь				HORSE	615	
+Dellert-2017-1016-137	137	548	-0.064581	Schaf	Schaf::N	sheep	овца				SHEEP	1331	
+Dellert-2017-1016-138	138	892	0.060645	Schwein	Schwein::N	pig	свинья				PIG	1337	
+Dellert-2017-1016-139	139	63	-2.211981	Hund	Hund::N	dog	собака				DOG	2009	
+Dellert-2017-1016-140	140	510	-1.151708	Katze	Katze::N	cat	кошка				CAT	1208	
+Dellert-2017-1016-141	141	245	-1.190992	Bär	Bär::N	bear	медведь				BEAR	1820	
+Dellert-2017-1016-142	142	710	-0.098819	Eichhörnchen	Eichhörnchen::N	squirrel	белка				SQUIRREL	1628	
+Dellert-2017-1016-143	143	600	-0.058561	Elch	Elch::N	elk	лось				ELK	1772	
+Dellert-2017-1016-144	144	641	-0.058215	Fuchs	Fuchs::N	fox	лиса				FOX	1312	
+Dellert-2017-1016-145	145	301	-1.148627	Hase	Hase::N	hare	заяц				HARE	1190	
+Dellert-2017-1016-146	146	258	-1.1587	Maus	Maus::N	mouse	мышь				MOUSE	1491	
+Dellert-2017-1016-147	147	223	-1.149471	Wolf	Wolf::N	wolf	волк				WOLF	522	
+Dellert-2017-1016-148	148	272	-1.124271	Vogel	Vogel::N	bird	птица				BIRD	937	
+Dellert-2017-1016-149	149	411	-1.183932	Schwarm	Schwarm::N	swarm	стая	BSP:Vogelschwarm	EX:of birds	НАПР:птиц	SWARM (OF BIRDS)	2974	
+Dellert-2017-1016-150	150	594	-0.067001	Huhn	Huhn::N	chicken	курица				CHICKEN	1318	
+Dellert-2017-1016-151	151	795	-0.082618	Hahn	Hahn::N	cock	петух	männliches Huhn	male chicken	самец курицы	ROOSTER	1511	
+Dellert-2017-1016-152	152	144	-2.22007	Gans	Gans::N	goose	гусь				GOOSE	1187	
+Dellert-2017-1016-153	153	627	-0.095774	Adler	Adler::N	eagle	орёл				EAGLE	1905	
+Dellert-2017-1016-154	154	582	-0.089301	Ente	Ente::N	duck	утка				DUCK	1360	
+Dellert-2017-1016-155	155	602	-0.05064	Eule	Eule::N	owl	сова				OWL	735	
+Dellert-2017-1016-156	156	334	-1.16941	Kranich	Kranich::N	crane	журавль				CRANE	1830	
+Dellert-2017-1016-157	157	300	-1.150809	Krähe	Krähe::N	crow	ворона				CROW	913	
+Dellert-2017-1016-158	158	448	-1.199481	Kuckuck	Kuckuck::N	cuckoo	кукушка				CUCKOO	2934	
+Dellert-2017-1016-159	159	418	-1.170563	Schwan	Schwan::N	swan	лебедь				SWAN	2837	
+Dellert-2017-1016-160	160	77	-2.227773	Fisch	Fisch::N	fish	рыба				FISH	227	
+Dellert-2017-1016-161	161	698	-0.031216	Barsch	Barsch::N	perch	окунь				PERCH (FISH)	2966	
+Dellert-2017-1016-162	162	854	-0.042238	Hecht	Hecht::N	pike	щука				PIKE (FISH)	2967	
+Dellert-2017-1016-163	163	573	-0.013457	SchlangeTier	SchlangeTier::N	snake	змея				SNAKE	730	
+Dellert-2017-1016-164	164	466	-1.151688	Wurm	Wurm::N	worm	червяк				WORM	1219	
+Dellert-2017-1016-165	165	824	-0.066669	Spinne	Spinne::N	spider	паук				SPIDER	843	
+Dellert-2017-1016-166	166	876	-0.029387	Ameise	Ameise::N	ant	муравей				ANT	587	
+Dellert-2017-1016-167	167	42	-2.253808	Laus	Laus::N	louse	вошь				LOUSE	1392	
+Dellert-2017-1016-168	168	712	-0.088323	Mücke	Mücke::N	gnat	комар				MOSQUITO	1509	
+Dellert-2017-1016-169	169	332	-1.175455	Fliege	Fliege::N	fly	муха	Insekt	insect	насекомое	FLY (INSECT)	1504	
+Dellert-2017-1016-170	170	978	0.096064	Schmetterling	Schmetterling::N	butterfly	бабочка				BUTTERFLY	1791	
+Dellert-2017-1016-171	171	445	-1.101713	Beere	Beere::N	berry	ягода	generische Bezeichnung	generic term	общee название	BERRY	904	
+Dellert-2017-1016-172	172	703	-0.021588	Apfel	Apfel::N	apple	яблоко				APPLE	1320	
+Dellert-2017-1016-173	173	920	0.048615	Pilz	Pilz::N	mushroom	гриб	generische Bezeichnung	generic term	общee название	MUSHROOM	641	
+Dellert-2017-1016-174	174	882	0.008141	Zwiebel	Zwiebel::N	onion	луковица	essbar	edible	репчатый лук	ONION	2366	
+Dellert-2017-1016-175	175	356	-1.122511	Saat	Saat::N	seed	семена	Saatgut	fertilized grain	для посева	SEED	714	
+Dellert-2017-1016-176	176	201	-1.104008	Korn	Korn::N	grain	зерно	Einzelkorn	single grain	одно	GRAIN	605	not GRAIN
+Dellert-2017-1016-177	177	161	-1.154437	Heu	Heu::N	hay	сено				HAY	342	
+Dellert-2017-1016-178	178	545	-0.069049	Schale	Schale::N	peel, husk	кожура́, шелуха	BSP:eines Apfels	EX:of an apple	НАПР:яблока	SKIN (OF FRUIT)	2373	
+Dellert-2017-1016-179	179	204	-1.191714	Grube	Grube::N	pit	яма	Loch im Boden	hole in the ground	углубление в земле	PIT (POTHOLE)	2539	
+Dellert-2017-1016-180	180	782	-0.011876	Falle	Falle::N	trap	ловушка	BSP:Mausefalle	EX:mouse trap	НАПР:мышело́вка	TRAP (PITFALL)	1075	
+Dellert-2017-1016-181	181	636	-0.075389	Schlinge	Schlinge::N	noose	петля	BSP:Schlaufe an Schnur	EX:on a rope	НАПР:на верёвке	NOOSE	2604	
+Dellert-2017-1016-182	182	268	-1.135586	Spur	Spur::N	track	след	BSP:eines Tieres	EX:of an animal	НАПР:животного	FOOTPRINT	318	
+Dellert-2017-1016-183	183	156	-1.174016	Asche	Asche::N	ash	зола	Überbleibsel eines Feuers	solid remains of a fire	пепел	ASH	646	
+Dellert-2017-1016-184	184	781	-0.012997	Dreck	Dreck::N	filth	грязь	Verschmutzung	that which soils or defiles	то, что пачкает	DIRT	25	not distinct from DIRT
+Dellert-2017-1016-185	185	131	-2.288841	Eisen	Eisen::N	iron	железо	Metall	metal	металл	IRON	621	
+Dellert-2017-1016-186	186	146	-2.21276	Gold	Gold::N	gold	золото	Metall	metal	металл	GOLD	1369	
+Dellert-2017-1016-187	187	333	-1.169798	Silber	Silber::N	silver	серебро	Metall	metal	металл	SILVER	759	
+Dellert-2017-1016-188	188	281	-1.10517	Kohle	Kohle::N	coal	уголь	brennbare Substanz	combustible substance	горючее вещество	CHARCOAL	1188	
+Dellert-2017-1016-189	189	720	-0.06915	Glas	Glas::N	glass	стекло	Material	transparent substance	прозрачный материал	GLASS	604	
+Dellert-2017-1016-190	190	351	-1.13087	Lehm	Lehm::N	clay	глина	formbares Material	ductile material	пластичный материал	CLAY	1399	
+Dellert-2017-1016-191	191	218	-1.165285	Sand	Sand::N	sand	песок	Material	material	материал	SAND	671	
+Dellert-2017-1016-192	192	537	-0.078572	Mensch	Mensch::N	human	человек		human being		PERSON	683	
+Dellert-2017-1016-193	193	231	-1.133574	Mann	Mann::N	man	мужчина	erwachsener männlicher Mensch	adult male human		MAN	1554	
+Dellert-2017-1016-194	194	344	-1.148225	Frau	Frau::N	woman	женщина	erwachsener weiblicher Mensch			WOMAN	962	
+Dellert-2017-1016-195	195	451	-1.186794	Kind	Kind::N	child	ребёнок	BSP:10 Jahre alt	EX:10 years old	НАПР:десятилетний	CHILD (YOUNG HUMAN)	1304	
+Dellert-2017-1016-196	196	906	0.053323	Junge	Junge::N	boy	мальчик	männliches Kind	male child	ребёнок мужского пола	BOY	1366	
+Dellert-2017-1016-197	197	689	-0.047849	Mädchen	Mädchen::N	girl	девочка	weibliches Kind	female child	ребёнок женского пола	GIRL	1646	
+Dellert-2017-1016-198	198	810	-0.029355	Familie	Familie::N	family	семья	Gruppe nah verwandter Menschen, zusammenlebend	group of close relatives living together	группа близких родственников, живущих вместе	FAMILY	194	
+Dellert-2017-1016-199	199	705	-0.015528	Großvater	Großvater::N	grandfather	дедушка	BSP:Vater des Vaters	EX:father's father	НАПР:отец отца	GRANDFATHER	1383	
+Dellert-2017-1016-200	200	623	-0.005714	Großmutter	Großmutter::N	grandmother	бабушка	BSP:Mutter des Vaters	EX:father's mother	НАПР:мать отца	GRANDMOTHER	1496	
+Dellert-2017-1016-201	201	945	0.057187	Eltern	Eltern::N	parents	родители				PARENTS	505	
+Dellert-2017-1016-202	202	238	-1.106487	Vater	Vater::N	father	отец				FATHER	1217	
+Dellert-2017-1016-203	203	188	-1.15385	Mutter	Mutter::N	mother	мать				MOTHER	1216	
+Dellert-2017-1016-204	204	20	-2.202475	Sohn	Sohn::N	son	сын				SON	1620	
+Dellert-2017-1016-205	205	135	-2.25425	Tochter	Tochter::N	daughter	дочь				DAUGHTER	1357	
+Dellert-2017-1016-206	206	242	-1.194023	Bruder	Bruder::N	brother	брат	BSP:älterer Bruder	EX:elder brother	НАПР:старший брат	BROTHER	1262	
+Dellert-2017-1016-207	207	185	-1.168282	Schwester	Schwester::N	sister	сестра	BSP:ältere Schwester	EX:elder sister	НАПР:старшая сестра	SISTER	1263	
+Dellert-2017-1016-208	208	486	-1.115147	Onkel	Onkel::N	uncle	дядя	BSP:Bruder des Vaters	EX:father's brother	НАПР:брат отца	UNCLE	1327	
+Dellert-2017-1016-209	209	454	-1.183077	Tante	Tante::N	aunt	тётя	BSP:Schwester des Vaters	EX:father's sister	НАПР:сестра отца	AUNT	1272	
+Dellert-2017-1016-210	210	278	-1.11715	Ehemann	Ehemann::N	husband	муж	Gatte	male spouse	супруг	HUSBAND	1200	
+Dellert-2017-1016-211	211	587	-0.079881	Ehefrau	Ehefrau::N	wife	жена	Gattin	female spouse	супруга	WIFE	1199	
+Dellert-2017-1016-212	212	521	-1.123362	Freude	Freude::N	joy	радость	Gefühl	emotion	чувство	JOY	2524	
+Dellert-2017-1016-213	213	489	-1.108177	Gelächter	Gelächter::N	laughter	смех				LAUGHTER	2958	
+Dellert-2017-1016-214	214	657	-0.023141	Glück	Glück::N	happiness	счастье	Glückseligkeit		чувство довольства	HAPPINESS	2941	POS
+Dellert-2017-1016-215	215	831	-0.051489	Kummer	Kummer::N	grief	горе	Trauer, Traurigkeit	sorrow, sadness	сильная печаль	GRIEF	1668	
+Dellert-2017-1016-216	216	731	-0.039648	Wunsch	Wunsch::N	wish	желание	Sehnsucht	longing	стремление к осуществлению чего-нибудь	LONGING (WISH)	2960	not distinct from DESIRE
+Dellert-2017-1016-217	217	629	-0.091798	Lust	Lust::N	desire	влечение	Streben nach Besitz	to have something	стремление к обладанию	DESIRE	2117	
+Dellert-2017-1016-218	218	119	-2.230855	Geist	Geist::N	spirit	дух	Lebensgeist, innere Kraft	inner energy of a being	внутренняя сила или сущность	SPIRIT	53	
+Dellert-2017-1016-219	219	534	-0.084797	Gedanke	Gedanke::N	thought	мысль				THOUGHT	2975	POS
+Dellert-2017-1016-220	220	669	-0.099963	Gedächtnis	Gedächtnis::N	memory	память	Erinnerungsvermögen	human ability to record information	способность запоминать информацию	MEMORY	1018	
+Dellert-2017-1016-221	221	211	-1.176541	Verstand	Verstand::N	mind	ум	Denkfähigkeit	ability for rational thought	способность мыслить	MIND	1562	
+Dellert-2017-1016-222	222	531	-0.093309	Sinn	Sinn::N	meaning	смысл	Bedeutungsgehalt	denotation	суть, содержание	MEANING	2950	
+Dellert-2017-1016-223	223	518	-1.127483	Grund	Grund::N	reason	причина	Begründung	motive, rationale	основание, повод	REASON	2968	
+Dellert-2017-1016-224	224	722	-0.064448	Wahrheit	Wahrheit::N	truth	правда				TRUTH	1638	
+Dellert-2017-1016-225	225	932	0.06389	Gespräch	Gespräch::N	talk	беседа		conversation		CONVERSATION	2933	POS
+Dellert-2017-1016-226	226	953	0.098739	Märchen	Märchen::N	fairy tale	сказка				FAIRY TALE	2937	not distinct from STORY
+Dellert-2017-1016-227	227	803	-0.045495	Erzählung	Erzählung::N	story	рассказ	mündlich	oral narration	устный	STORY	2060	
+Dellert-2017-1016-228	228	848	-0.083801	Nachricht	Nachricht::N	message	сообщение				MESSAGE	2961	
+Dellert-2017-1016-229	229	547	-0.067276	Neuigkeit	Neuigkeit::N	news	новость				NEWS	2964	
+Dellert-2017-1016-230	230	40	-2.259035	Name	Name::N	name	имя	eines Menschen	of a person	человека	NAME	1405	
+Dellert-2017-1016-231	231	975	0.068077	Rätsel	Rätsel::N	puzzle	загадка	Aufgabe zum Erraten	riddle	НАПР:загадать загадку	RIDDLE	2970	
+Dellert-2017-1016-232	232	913	0.086429	Rede	Rede::N	speech	речь	Ansprache	long oral message	устное выступление	SPEECH	1115	
+Dellert-2017-1016-233	233	90	-2.283234	Sprache	Sprache::N	language	язык			средство общения	LANGUAGE	1307	
+Dellert-2017-1016-234	234	124	-2.212892	Stimme	Stimme::N	voice	голос	von Stimmbändern erzeugte Geräusch	sounds uttered by vocal cords	звуки горловых связок	VOICE	1363	
+Dellert-2017-1016-235	235	154	-1.181753	Wort	Wort::N	word	слово	sprachliche Einheit	unit of language	единица языка	WORD	1599	
+Dellert-2017-1016-236	236	402	-1.118301	Zeichen	Zeichen::N	sign	знак	Gegenstand mit Informationsgehalt	object bearing a message	символ	SIGN	1720	
+Dellert-2017-1016-237	237	752	-0.090531	Ruf	Ruf::N	call	зов	Aufruf	appeal	призыв	CALL (APPEAL)	2944	POS
+Dellert-2017-1016-238	238	877	-0.019077	Lärm	Lärm::N	noise	шум	unangenehm lauter Schall	unwanted loud sounds	гул, разные звуки	NOISE	1182	
+Dellert-2017-1016-239	239	230	-1.13465	Laut	Laut::N	sound	звук	Geräusch	sensation perceived by the ear	то, что воспринимается слухом	SOUND OR NOISE	1811	
+Dellert-2017-1016-240	240	925	0.0209	Ton	Ton::N	tone	тон	Klang einer bestimmten Tonhöhe	sound of a specific pitch	музыкальный звук, звук определённой высоты	TONE (MUSIC)	2995	
+Dellert-2017-1016-241	241	360	-1.115189	Lied	Lied::N	song	песня				SONG	1096	
+Dellert-2017-1016-242	242	631	-0.089142	Ruhe	Ruhe::N	calm	покой	Abwesenheit von Lärm und Störungen	absence of noise and disturbances	отсутствие шума и помех	QUIET	1314	POS
+Dellert-2017-1016-243	243	611	-0.040498	Leute	Leute::N	people	люди		many persons		PEOPLE	789	distinct from PERSON
+Dellert-2017-1016-244	244	401	-1.118646	Volk	Volk::N	nation	народ	Menschen einer Ethnie	community of people with a common culture	совокупность людей общей культуры	PEOPLE	789	
+Dellert-2017-1016-245	245	193	-1.138146	Arbeit	Arbeit::N	work	работа	Tätigkeit	employment	занятие, труд	WORK (LABOUR)	984	
+Dellert-2017-1016-246	246	426	-1.149378	Gast	Gast::N	guest	гость				GUEST	1782	
+Dellert-2017-1016-247	247	780	-0.01435	Geschenk	Geschenk::N	gift	подарок				GIFT	2982	POS (DONATE)
+Dellert-2017-1016-248	248	339	-1.157994	Spiel	Spiel::N	game	игра	spielerische Betätigung	playful activity	занятие для развлечения, отдыха	GAME	2467	
+Dellert-2017-1016-249	249	979	0.040639	Gesellschaft	Gesellschaft::N	company	общество	Begleitung	companionship	компания	COMPANIONSHIP	2983	
+Dellert-2017-1016-250	250	482	-1.120418	Hilfe	Hilfe::N	help	помощь				HELP	1897	POS
+Dellert-2017-1016-251	251	254	-1.173862	Freund	Freund::N	friend	друг	sehr nahestehender Mensch	person whose company one enjoys	связанный хорошими отношениями НАПР:друг детства	FRIEND	1325	
+Dellert-2017-1016-252	252	908	0.056385	Kamerad	Kamerad::N	companion	приятель	mit dem man Zeit verbringt	with whom one spends time	близкий знакомый	FRIEND	1325	not distinct from FRIEND
+Dellert-2017-1016-253	253	295	-1.16408	Angelegenheit	Angelegenheit::N	matter	дело	Sache, Fall	affair	НАПР:важное дело	MATTER	2150	maybe AFFAIR
+Dellert-2017-1016-254	254	599	-0.059318	Anzahl	Anzahl::N	count	количество	zählbarer Dinge	quantity counted	множество, число НАПР:количество/число гостей	COUNT (QUANTITY)	2945	not NUMBER
+Dellert-2017-1016-255	255	298	-1.152476	Art	Art::N	sort	вид	Sorte	type	разновидность	KIND (THING)	844	
+Dellert-2017-1016-256	256	362	-1.105774	Stück	Stück::N	piece	кусок	abtrennbarer Teil eines Ganzen	separable part of a larger whole	отделённая часть чего-л. НАПР:кусок мяса	PIECE	594	
+Dellert-2017-1016-257	257	175	-1.107965	Teil	Teil::N	part	часть	Teilmenge eines Ganzen	fraction of a whole	доля некоего целого НАПР:часть урожая	PART	779	
+Dellert-2017-1016-258	258	220	-1.152555	Hälfte	Hälfte::N	half	половина	einer Menge	of a quantity	количества	HALF	816	
+Dellert-2017-1016-259	259	691	-0.04573	Kreis	Kreis::N	circle	круг	geometrische Figur	geometric figure	геометрическая фигура	CIRCLE	1467	
+Dellert-2017-1016-260	260	491	-1.105002	Kreuz	Kreuz::N	cross	крест	geometrische Figur	geometric figure	геометрическая фигура	CROSS	1367	
+Dellert-2017-1016-261	261	735	-0.027575	Linie	Linie::N	line	линия	geometrische Figur	geometric figure	геометрическая фигура	LINE	1048	
+Dellert-2017-1016-262	262	681	-0.065361	Strich	Strich::N	stroke	черта	mit einem Schreibgerät gezogen	drawn with a writing implement	нарисованная	STROKE (OF PEN)	2993	
+Dellert-2017-1016-263	263	717	-0.074337	Abstand	Abstand::N	gap	промежуток	zwischen Gegenständen	between objects	между предметами	GAP (DISTANCE)	2948	
+Dellert-2017-1016-264	264	787	-0.094296	Entfernung	Entfernung::N	distance	расстояние	zwischen zwei Punkten	between two points	между точками	DISTANCE	2978	
+Dellert-2017-1016-265	265	936	0.000573	Gegend	Gegend::N	area	местность	Gebiet, Bereich	extent of surface, region	окрестности	AREA	2980	
+Dellert-2017-1016-266	266	800	-0.049206	Platz	Platz::N	space	место	verfügbarer Raum, BSP:in einem Schrank	available space between things, EX:in a closet	между предметами, НАПР:в шкафу	SPACE (AVAILABLE)	3006	
+Dellert-2017-1016-267	267	110	-2.285601	Ort	Ort::N	place	место	definierte Stelle	location, position	пространство, пункт, где что-либо происходит, находится НАПР:место встречи, тёплое место, место в горах	PLACE (POSITION)	723	
+Dellert-2017-1016-268	268	112	-2.269715	Seite	Seite::N	side	сторона	eines Gegenstandes	of an object	бок	SIDE	682	not SIDE
+Dellert-2017-1016-269	269	142	-2.228071	Mitte	Mitte::N	middle	середина	mittlerer Teil von etwas	central part of something	центральная часть чего-либо	MIDDLE	1093	
+Dellert-2017-1016-270	270	707	-0.014553	Gegenstand	Gegenstand::N	item	предмет	physisches Objekt	physical object	отдельный материальный объект	ITEM	2981	distinct from THING
+Dellert-2017-1016-271	271	147	-2.211143	Sache	Sache::N	thing	вещь	unterscheidbare Einheit	distinct entity	явление действительности, обстоятельство, событие, случай НАПР:произошла странная вещь	THING	738	
+Dellert-2017-1016-272	272	138	-2.239181	Rand	Rand::N	fringe	край	peripherer Teil	peripheral part	внешняя часть объекта НАПР: край крыши	FRINGE	2989	not distinct from EDGE
+Dellert-2017-1016-273	273	435	-1.130462	Kante	Kante::N	edge	ребро	scharfer Rand	sharp terminating border	пересечение двух граней НАПР:ребро монеты	EDGE	863	
+Dellert-2017-1016-274	274	662	-0.006265	Ecke	Ecke::N	corner	угол	hevorstehend, eines Gegenstandes	external angle	выступающий, на предмете НАПР:угол стола	CORNER	192	
+Dellert-2017-1016-275	275	449	-1.199028	Spitze	Spitze::N	tip	кончик	eines spitzen Gegenstandes	of a pointy object	острый конец предмета НАПР:кончик ножа	TIP (OF OBJECT)	2992	
+Dellert-2017-1016-276	276	151	-1.187531	Ende	Ende::N	end	конец	eines langen Gegenstands	of a long object	длинного предмета НАПР:верёвки	END (OF SPACE)	742	
+Dellert-2017-1016-277	277	225	-1.143991	Loch	Loch::N	hole	дыра	in einem Gegenstand	in an object	отверстие в предмете	HOLE	1667	
+Dellert-2017-1016-278	278	617	-0.025451	Winkel	Winkel::N	angle	угол	BSP: eines Zimmers	internal, EX:of a room	в углублении, НАПР:комнаты	CORNER	192	
+Dellert-2017-1016-279	279	645	-0.054024	Muster	Muster::N	pattern	узор	sich wiederholende Struktur	regular repeated elements	повторяющийся рисунок	PATTERN	2988	
+Dellert-2017-1016-280	280	766	-0.061526	Größe	Größe::N	size	размер	eines Gegenstandes	dimensions of an object	величина объекта	SIZE (OF OBJECT)	2845	not SIZE (OF PERSON)
+Dellert-2017-1016-281	281	463	-1.155302	Länge	Länge::N	length	длина				LENGTH	2537	
+Dellert-2017-1016-282	282	472	-1.141811	Höhe	Höhe::N	height	высота				HEIGHT	2985	
+Dellert-2017-1016-283	283	638	-0.069679	Gewicht	Gewicht::N	weight	вес	gewogene Masse	mass as measured	тяжесть	WEIGHT	2466	
+Dellert-2017-1016-284	284	821	-0.072776	Menge	Menge::N	amount	количество	messbare Menge eines Materials	measurable quantity of a material	величина, объём какого-то материала НАПР:количество воды	AMOUNT	2987	
+Dellert-2017-1016-285	285	453	-1.185272	Haufen	Haufen::N	heap	куча				HEAP	2984	
+Dellert-2017-1016-286	286	404	-1.113998	Reihe	Reihe::N	row	ряд	geradlinig angeordnete Objekte	line of objects	объектов расположенных в линию	ROW	1849	
+Dellert-2017-1016-287	287	307	-1.141926	Boot	Boot::N	boat	лодка				BOAT	1844	
+Dellert-2017-1016-288	288	166	-1.13072	Ruder	Ruder::N	oar	весло	Riemen	rowing implement		PADDLE	234	
+Dellert-2017-1016-289	289	676	-0.077544	Schlitten	Schlitten::N	sleigh	сани	Fahrzeug auf Kufen		повозка на полозьях	SLED	16	
+Dellert-2017-1016-290	290	779	-0.014428	Ski	Ski::N	ski	лыжа				SKI	2991	
+Dellert-2017-1016-291	291	974	0.020956	Lagerfeuer	Lagerfeuer::N	campfire	костёр				CAMPFIRE	2986	
+Dellert-2017-1016-292	292	765	-0.061976	Last	Last::N	load	тяжесть	auf Fahrzeug	on a vehicle	груз на повозке	LOAD	1679	
+Dellert-2017-1016-293	293	509	-1.153809	Gang	Gang::N	walk	ходьба	Zurücklegen eines Weges	trip made by walking	процесс ходьбы	WALK (MANNER)	2979	
+Dellert-2017-1016-294	294	172	-1.1143	Schritt	Schritt::N	step	шаг	Einzelschritt	single pace	одно движение ногой при ходьбе	STEP	1158	
+Dellert-2017-1016-295	295	661	-0.0156	Norden	Norden::N	north	север				NORTH	1598	
+Dellert-2017-1016-296	296	719	-0.070792	Süden	Süden::N	south	юг				SOUTH	1595	
+Dellert-2017-1016-297	297	819	-0.073499	Westen	Westen::N	west	запад				WEST	1817	
+Dellert-2017-1016-298	298	870	-0.077762	Osten	Osten::N	east	восток				EAST	1877	
+Dellert-2017-1016-299	299	183	-1.182374	Holz	Holz::N	wood	древесина	Material	material	материал	WOOD	1803	
+Dellert-2017-1016-300	300	273	-1.123448	Brett	Brett::N	board	доска	längliches flaches Stück Holz	long, wide and thin piece of wood	плоский длинный кусок дерева	BOARD	1227	
+Dellert-2017-1016-301	301	861	-0.000631	Platte	Platte::N	slab	плита	flacher Gegenstand aus festem Material	flat piece of solid material	плоский кусок твёрдого материала	SLAB	2952	
+Dellert-2017-1016-302	302	842	-0.014183	Stütze	Stütze::N	support, rest	опора, подпорка	etwas, das Halt gibt	something which keeps upright	удерживающая в устойчивом положении	SUPPORT (OF OBJECT)	2994	
+Dellert-2017-1016-303	303	574	-0.009048	Stange	Stange::N	pole	жердь	länglicher dünner Gegenstand aus Holz	long and slender piece of wood	длинный тонкий шест из  дерева	POST	281	
+Dellert-2017-1016-304	304	396	-1.124879	Stock	Stock::N	stick	палка	rundes Holzstück als Werkzeug	piece of wood used as a tool	ветка без сучьев или предмет такой формы	STICK	1295	
+Dellert-2017-1016-305	305	620	-0.007761	Stab	Stab::N	staff	шест	langer gerader Stock	long straight stick	длинная палка	STICK	1295	
+Dellert-2017-1016-306	306	721	-0.067171	Rohr	Rohr::N	pipe	труба	zylinderförmiger hohler Gegenstand	hollow conduit, tube	длинный полый предмет цилиндрической формы	TUBE	2956	not PIPE
+Dellert-2017-1016-307	307	111	-2.282746	Haus	Haus::N	house	дом	Gebäude	building	здание	HOUSE	1252	
+Dellert-2017-1016-308	308	355	-1.123574	Heim	Heim::N	home	дом	eigene Heimstatt	one’s own dwelling place	жилище, родной дом	HOME	2406	
+Dellert-2017-1016-309	309	928	0.051695	Ofen	Ofen::N	stove	печь	zum Heizen	heater	для отапливания	STOVE	859	
+Dellert-2017-1016-310	310	695	-0.039618	Fußboden	Fußboden::N	floor	пол	begehbare Fläche in einem Raum	supporting surface of a room	нижнее покрытие, настил в помещении	FLOOR	1632	
+Dellert-2017-1016-311	311	725	-0.050909	Tisch	Tisch::N	table	стол				TABLE	1775	
+Dellert-2017-1016-312	312	674	-0.084402	Stuhl	Stuhl::N	chair	стул				CHAIR	1476	
+Dellert-2017-1016-313	313	541	-0.073293	Wiege	Wiege::N	cradle	колыбель				CRADLE	2946	
+Dellert-2017-1016-314	314	726	-0.050388	Bett	Bett::N	bed	кровать				BED	1663	
+Dellert-2017-1016-315	315	847	-0.090732	Regal	Regal::N	shelf	полка				SHELF	745	
+Dellert-2017-1016-316	316	997	1.181704	Kiste	Kiste::N	box	ящик				BOX	1465	
+Dellert-2017-1016-317	317	768	-0.058886	Fenster	Fenster::N	window	окно				WINDOW	1375	
+Dellert-2017-1016-318	318	134	-2.255442	Tür	Tür::N	door	дверь				DOOR	1567	
+Dellert-2017-1016-319	319	610	-0.040889	Tor	Tor::N	gate	ворота				GATE	2940	
+Dellert-2017-1016-320	320	837	-0.031989	Zaun	Zaun::N	fence	забор				FENCE	1690	
+Dellert-2017-1016-321	321	677	-0.07351	Dach	Dach::N	roof	крыша				ROOF	769	
+Dellert-2017-1016-322	322	888	0.044087	Leiter	Leiter::N	ladder	лестница, стремянка	Steigleiter			LADDER	1464	
+Dellert-2017-1016-323	323	849	-0.077011	Besen	Besen::N	broom	метла				BROOM	245	
+Dellert-2017-1016-324	324	348	-1.135558	Spaten	Spaten::N	spade	лопата				SPADE	1176	
+Dellert-2017-1016-325	325	321	-1.19241	Schaufel	Schaufel::N	shovel	совок				SHOVEL	1901	
+Dellert-2017-1016-326	326	907	155	Gabel	Gabel::N	fork	вилка		for eating		FORK	1302	
+Dellert-2017-1016-327	327	551	-0.055535	Löffel	Löffel::N	spoon	ложка				SPOON	1378	
+Dellert-2017-1016-328	328	246	-1.188976	Messer	Messer::N	knife	нож				KNIFE	1352	
+Dellert-2017-1016-329	329	834	-0.037881	Nagel	Nagel::N	nail	гвоздь	spitzer Metallstift zum Fixieren	spike-shaped metal fastener		NAIL (TOOL)	502	
+Dellert-2017-1016-330	330	450	-1.195024	Netz	Netz::N	net	сеть	geknüpftes maschiges Gebilde	mesh of string	приспособление из переплетёных нитей/верёвок	NET	2963	hypernym of FISHNET
+Dellert-2017-1016-331	331	566	-0.032141	Haken	Haken::N	hook	крюк				HOOK	1071	
+Dellert-2017-1016-332	332	353	-1.125378	Griff	Griff::N	handle	рукоятка, ручка	zu greifender Teil eines Gegenstandes	part of an object which is held	часть предмета, за которую держат	HANDLE	1254	
+Dellert-2017-1016-333	333	659	-0.020932	Schloss	Schloss::N	lock	замок				LOCK	1596	
+Dellert-2017-1016-334	334	633	-0.084574	Bild	Bild::N	picture	картина				PICTURE	2401	
+Dellert-2017-1016-335	335	775	-0.032159	Figur	Figur::N	figure	фигура, изваяние	BSP:Götterbild	EX:representing a god	НАПР:изображение божества	IDOL	1945	
+Dellert-2017-1016-336	336	776	-0.025814	Puppe	Puppe::N	doll	кукла				DOLL	1659	
+Dellert-2017-1016-337	337	887	0.040142	Beutel	Beutel::N	pouch	мешок			мешочек	POUCH	2951	
+Dellert-2017-1016-338	338	713	-0.085133	Bündel	Bündel::N	bundle	связка	zusammengebundene Gegenstände	group of objects tied together	несколько связанных объектов, НАПР:вязанка дров	BUNDLE	2943	
+Dellert-2017-1016-339	339	871	-0.065504	Tasche	Tasche::N	bag	сумка	tragbares Behältnis	container for carrying	для ношения предметов	BAG	2468	
+Dellert-2017-1016-340	340	914	0.087895	Eimer	Eimer::N	bucket	ведро				BUCKET	2052	
+Dellert-2017-1016-341	341	434	-1.131795	Deckel	Deckel::N	cover, lid	крышка		of a container	верхняя закрывающая часть	LID (COVER, CAP)	2319	
+Dellert-2017-1016-342	342	934	0.087807	Geschirr	Geschirr::N	dishes	посуда	Kochgeschirr	dishware, crockery	кухонная утварь	DISH	481	
+Dellert-2017-1016-343	343	637	-0.072639	Sack	Sack::N	sack	мешок			НАПР:для муки	SACK	2990	
+Dellert-2017-1016-344	344	930	0.059295	Tasse	Tasse::N	cup	чашка				CUP	476	
+Dellert-2017-1016-345	345	919	0.039835	Topf	Topf::N	pot	кастрюля	Kochtopf	vessel for cooking		POT	1462	
+Dellert-2017-1016-346	346	363	-1.105024	Kessel	Kessel::N	kettle	котёл				KETTLE	854	
+Dellert-2017-1016-347	347	559	-0.045695	Essen	Essen::N	meal	еда	Nahrungsaufnahme	process of food intake	приём пищи	MEAL	1526	
+Dellert-2017-1016-348	348	564	-0.038161	Nahrung	Nahrung::N	food	пища				FOOD	256	
+Dellert-2017-1016-349	349	890	0.048027	Speise	Speise::N	dish	блюдо				MEAL	1526	
+Dellert-2017-1016-350	350	141	-2.228815	Fleisch	Fleisch::N	meat	мясо	Nahrungsmittel			MEAT	634	
+Dellert-2017-1016-351	351	845	-0.000722	Getreide	Getreide::N	corn	злак		cereal plant grown for its grain		GRAIN	605	
+Dellert-2017-1016-352	352	330	-1.176774	Brei	Brei::N	mush	каша				MUSH	400	maybe GRUEL
+Dellert-2017-1016-353	353	128	-2.295693	Brot	Brot::N	bread	хлеб			пищевой продукт	BREAD	1368	
+Dellert-2017-1016-354	354	714	-0.083365	Scheibe	Scheibe::N	slice	ломоть	BSP:Brot	EX:of bread	кусок отрезанный ножом, ломтик НАПР:кусок хлеба	SLICE	2954	
+Dellert-2017-1016-355	355	116	-2.237866	Fett	Fett::N	fat	жир				FAT (ORGANIC SUBSTANCE)	323	
+Dellert-2017-1016-356	356	113	-2.259152	Butter	Butter::N	butter	масло			сли́вочное	BUTTER	1245	
+Dellert-2017-1016-357	357	184	-1.174151	Öl	Öl::N	oil	масло	Speiseöl	liquid vegetable fat	расти́тельное	OIL (ORGANIC SUBSTANCE)	1484	
+Dellert-2017-1016-358	358	49	-2.287949	Salz	Salz::N	salt	соль				SALT	1274	
+Dellert-2017-1016-359	359	671	-0.097114	Suppe	Suppe::N	soup	суп				SOUP	1547	
+Dellert-2017-1016-360	360	264	-1.140209	Honig	Honig::N	honey	мёд				HONEY	942	
+Dellert-2017-1016-361	361	122	-2.221959	Milch	Milch::N	milk	молоко				MILK	635	
+Dellert-2017-1016-362	362	872	-0.063144	Tee	Tee::N	tea	чай	Getränk	drink	напиток	TEA	1373	
+Dellert-2017-1016-363	363	568	-0.025137	Leder	Leder::N	leather	кожа			обработанная шкура	LEATHER	629	
+Dellert-2017-1016-364	364	53	-2.266778	Wolle	Wolle::N	wool	шерсть				WOOL	964	
+Dellert-2017-1016-365	365	634	-0.082998	Stoff	Stoff::N	cloth	ткань	Gewebe	woven fabric	тканая материя	CLOTH	1616	
+Dellert-2017-1016-366	366	91	-2.268194	Nadel	Nadel::N	needle	игла	Nähnadel	for sewing		NEEDLE (FOR SEWING)	1382	
+Dellert-2017-1016-367	367	395	-1.125565	Faden	Faden::N	thread	нитка				THREAD	1161	
+Dellert-2017-1016-368	368	381	-1.16789	Knopf	Knopf::N	button	пуговица	an Kleidung	fastener on clothes		BUTTON	757	
+Dellert-2017-1016-369	369	247	-1.188553	Knoten	Knoten::N	knot	узел	aus Schnur	looping of string	на верёвке, для завязания	KNOT	760	
+Dellert-2017-1016-370	370	540	-0.074458	Farbe	Farbe::N	paint	краска	Mittel zum Einfärben	substance for colouring	вещество для придания цвета	PAINT (PIGMENTS)	647	
+Dellert-2017-1016-371	371	651	-0.036563	Kleidung	Kleidung::N	clothes	одежда				CLOTHES	1895	
+Dellert-2017-1016-372	372	767	-0.060393	Hemd	Hemd::N	shirt	рубашка				SHIRT	1622	
+Dellert-2017-1016-373	373	747	-0.099163	Kragen	Kragen::N	collar	воротник	BSP:Mantelkragen	EX:on a coat		COLLAR	2012	
+Dellert-2017-1016-374	374	263	-1.140808	Ärmel	Ärmel::N	sleeve	рукав				SLEEVE	2953	
+Dellert-2017-1016-375	375	958	0.039885	Hose	Hose::N	trousers	брюки				TROUSERS	809	
+Dellert-2017-1016-376	376	436	-1.126355	Gürtel	Gürtel::N	belt	пояс	Kleidung	clothing	одежда	BELT	772	
+Dellert-2017-1016-377	377	605	-0.045329	Mütze	Mütze::N	cap	шапка		head covering		CAP	1288	
+Dellert-2017-1016-378	378	947	0.059801	Schuh	Schuh::N	shoe	ботинок				SHOE	1381	
+Dellert-2017-1016-379	379	891	0.054714	Stiefel	Stiefel::N	boot	сапог		heavy shoe covering part of the leg		BOOT	585	
+Dellert-2017-1016-380	380	561	-0.041265	Ring	Ring::N	ring	кольцо	Schmuck	jewellery	украшение	RING	1374	
+Dellert-2017-1016-381	381	1000	1374	Band	Band::N	ribbon	лента	Gewebestreifen	strip of cloth	узкая полоса ткани	RIBBON	2969	
+Dellert-2017-1016-382	382	578	-0.000443	Kamm	Kamm::N	comb	расчёска	zum Kämmen der Haare	implement for grooming	для расчёсывания волос	COMB	1475	
+Dellert-2017-1016-383	383	944	0.053631	Spiegel	Spiegel::N	mirror	зеркало				MIRROR	1171	
+Dellert-2017-1016-384	384	347	-1.139976	Riemen	Riemen::N	strap	ремень	BSP:Lederstreifen	EX:strip of leather	Техника НАПР:полоса из кожи или другого материала	STRAP	2973	
+Dellert-2017-1016-385	385	325	-1.187524	Schnur	Schnur::N	string	верёвка	aus Fäden geflochten	made from twisted threads	свитая из волокон или прядей	STRING	362	
+Dellert-2017-1016-386	386	1008	1.146601	Leine	Leine::N	leash	поводок	BSP:Hundeleine	EX:dog leash	НАПР:для собаки	LEASH	2959	
+Dellert-2017-1016-387	387	956	0.026321	Decke	Decke::N	blanket	одеяло	Bettdecke	for sleeping	постельная принадлежность	BLANKET	806	
+Dellert-2017-1016-388	388	896	0.093189	Kissen	Kissen::N	pillow	подушка	Kopfkissen	for sleeping	постельная принадлежность	PILLOW	1044	
+Dellert-2017-1016-389	389	937	0.009388	Tuch	Tuch::N	scarf	платок	Schultertuch	light, worn around the shoulders	шаль, повязывается на голову или надевается на плечи	CLOTH	1616	
+Dellert-2017-1016-390	390	1003	1.135237	Handtuch	Handtuch::N	towel	полотенце	zum Trockenreiben	sed for wiping	для вытирания	TOWEL	1021	
+Dellert-2017-1016-391	391	412	-1.1835	Kraft	Kraft::N	force	сила	die man ausübt	which is applied to produce an effect	способность совершать работу НАПР:сила рук	POWER	2526	not STRENGTH
+Dellert-2017-1016-392	392	665	-0.003872	Stärke	Stärke::N	strength	крепость	Starksein	being strong	мощь, свойство быть сильным	STRENGTH	202	
+Dellert-2017-1016-393	393	843	-0.009874	Gesundheit	Gesundheit::N	health	здоровье				HEALTHY	1364	POS
+Dellert-2017-1016-394	394	746	-0.001922	Krankheit	Krankheit::N	illness	болезнь				DISEASE	1986	
+Dellert-2017-1016-395	395	304	-1.145065	Schmerz	Schmerz::N	pain	боль			ощущение	PAIN	1783	
+Dellert-2017-1016-396	396	240	-1.101738	Wunde	Wunde::N	wound	рана				WOUND	1109	
+Dellert-2017-1016-397	397	923	0.007225	Fieber	Fieber::N	fever	лихорадка				FEVER	1534	
+Dellert-2017-1016-398	398	648	-0.043546	Arznei	Arznei::N	medicine	лекарство		drug		MEDICINE	1372	
+Dellert-2017-1016-399	399	88	-2.287016	Brücke	Brücke::N	bridge	мост				BRIDGE	1011	
+Dellert-2017-1016-400	400	427	-1.147663	Brunnen	Brunnen::N	well	колодец	zur Gewinnung von Wasser	source of water	для добывания воды	WELL	954	
+Dellert-2017-1016-401	401	940	0.030483	Weide	Weide::N	pasture	пастбище	Viehweide			PASTURE	649	
+Dellert-2017-1016-402	402	683	-0.057681	Pfad	Pfad::N	path	тропа	schmaler Weg für Fußgänger	trail used by pedestrians	дорожка, тропинка, узкая дорога для пешеходов	PATH	2252	
+Dellert-2017-1016-403	403	89	-2.285233	Weg	Weg::N	way	путь	Verbindung zwischen Orten	connection between places	маршрут, линия в пространстве, где что-либо передвигается НАПР:водный путь	ROAD	667	
+Dellert-2017-1016-404	404	632	-0.086574	Straße	Straße::N	road	дорога	befestigter Weg für Fahrzeuge	way for travelling by vehicle	путь для транспорта	ROAD	667	
+Dellert-2017-1016-405	405	581	-0.08999	Dorf	Dorf::N	village	деревня				VILLAGE	930	
+Dellert-2017-1016-406	406	682	-0.060412	Stadt	Stadt::N	town	город				TOWN	1391	
+Dellert-2017-1016-407	407	473	-1.140557	Brief	Brief::N	letter	письмо		written message		LETTER	1612	
+Dellert-2017-1016-408	408	343	-1.148905	Buch	Buch::N	book	книга				BOOK	963	
+Dellert-2017-1016-409	409	593	-0.067623	Buchstabe	Buchstabe::N	character	буква	Schriftzeichen	written symbol, letter	знак алфавита	CHARACTER	1024	
+Dellert-2017-1016-410	410	985	0.074267	Zeitung	Zeitung::N	newspaper	газета				NEWSPAPER	1298	
+Dellert-2017-1016-411	411	433	-1.136931	Leben	Leben::N	life	жизнь	Zustand des Lebendigseins	state of being alive	существование, состояние организма	LIFE	210	
+Dellert-2017-1016-412	412	127	-2.204011	Tod	Tod::N	death	смерть				DEATH	910	
+Dellert-2017-1016-413	413	270	-1.128461	Grab	Grab::N	grave	могила				GRAVE	1773	
+Dellert-2017-1016-414	414	970	0.065346	Kirche	Kirche::N	church	церковь				CHURCH	1349	
+Dellert-2017-1016-415	415	406	-1.108912	Sünde	Sünde::N	sin	грех				SIN	2971	
+Dellert-2017-1016-416	416	65	-2.293946	Gott	Gott::N	god	бог				GOD	1944	
+Dellert-2017-1016-417	417	933	0.076705	Arbeiter	Arbeiter::N	worker	рабочий				WORKER	2977	
+Dellert-2017-1016-418	418	688	-0.047896	Chef	Chef::N	boss	начальник	Vorgesetzter	supervisor	руководитель	BOSS	2930	not MASTER (opp. slave)
+Dellert-2017-1016-419	419	996	1.178351	Meister	Meister::N	master	мастер	eines Handwerks	expert tradesman	ремесленник, человек, занимающийся ремеслом НАПР:сапожный мастер	MASTER	383	not MASTER (opp. slave)
+Dellert-2017-1016-420	420	918	0.033509	Arzt	Arzt::N	doctor	врач		physician		PHYSICIAN	597	
+Dellert-2017-1016-421	421	969	0.06446	Lehrer	Lehrer::N	teacher	учитель				TEACHER	1038	
+Dellert-2017-1016-422	422	743	-0.007048	Geld	Geld::N	money	деньги				MONEY	1559	
+Dellert-2017-1016-423	423	986	0.077976	Geschäft	Geschäft::N	business	бизнес	kaufmännische Tätigkeit	commercial activity	дело, коммерческая деятельность НАПР:у него своё дело/свой бизнес	BUSINESS	2931	
+Dellert-2017-1016-424	424	968	0.05059	Laden	Laden::N	shop	магазин				SHOP	746	
+Dellert-2017-1016-425	425	177	-1.196939	Preis	Preis::N	price	цена				PRICE	657	
+Dellert-2017-1016-426	426	519	-1.12595	Ware	Ware::N	ware	товар				WARE	2957	
+Dellert-2017-1016-427	427	624	-0.002094	Nutzen	Nutzen::N	benefit	выгода	Vorteil	advantage	польза	BENEFIT	2929	
+Dellert-2017-1016-428	428	835	-0.037121	Reichtum	Reichtum::N	wealth	богатство				WEALTH	2996	
+Dellert-2017-1016-429	429	421	-1.164558	Welt	Welt::N	world	мир	Universum	universe	вселенная, свет	WORLD	965	
+Dellert-2017-1016-430	430	199	-1.116727	Land	Land::N	country	страна	abgegrenztes Gebiet	set region of land	территория	COUNTRY	1300	
+Dellert-2017-1016-431	431	946	0.058129	Staat	Staat::N	state	государство	souveräne politische Einheit	sovereign polity	политическая организация	STATE (POLITICS)	2955	
+Dellert-2017-1016-432	432	580	-0.095261	König	König::N	king	король				KING	1508	
+Dellert-2017-1016-433	433	855	-0.041066	Macht	Macht::N	power	власть	Fähigkeit zur Beeinflussung	ability to control	возможность влияния	POWER	2526	
+Dellert-2017-1016-434	434	851	-0.061495	Grenze	Grenze::N	border	граница	zwischen Staaten	between states	между государствами	BORDER	2546	
+Dellert-2017-1016-435	435	367	-1.195135	Krieg	Krieg::N	war	война				WAR	935	
+Dellert-2017-1016-436	436	777	-0.020012	Feind	Feind::N	enemy	враг	feindliche Person	hostile person	человек в состоянии вражды	ENEMY	1358	
+Dellert-2017-1016-437	437	793	-0.087143	Gewalt	Gewalt::N	violence	насилие	Gewalttätigkeit	use of force	применение физической силы	VIOLENCE	2976	
+Dellert-2017-1016-438	438	652	-0.035217	Kampf	Kampf::N	fight	борьба	gewalttätige Auseinandersetzung	physical confrontation	рукопашная схватка	FIGHT	1423	POS
+Dellert-2017-1016-439	439	132	-2.282615	BogenWaffe	BogenWaffe::N	bow	лук	Waffe	weapon	оружие	BOW	994	
+Dellert-2017-1016-440	440	182	-1.182389	Pfeil	Pfeil::N	arrow	стрела	Geschoss von Bogen	projectile shot from a bow	для стрельбы из лука	ARROW	977	
+Dellert-2017-1016-441	441	866	-0.09154	Gewehr	Gewehr::N	gun	ружьё	Schusswaffe	firearm	стрелковое оружие	GUN	1566	
+Dellert-2017-1016-442	442	640	-0.063253	Fehler	Fehler::N	mistake	ошибка	falsche Handlung oder Entscheidung	wrong action or decision	неправильное действие, поступок	MISTAKE	1293	
+Dellert-2017-1016-443	443	464	-1.153829	Lüge	Lüge::N	lie	ложь				UNTRUTH	475	
+Dellert-2017-1016-444	444	525	-1.116686	Schaden	Schaden::N	damage	вред	Beschädigung	material harm, detriment	ущерб	DAMAGE (INJURY)	2947	POS
+Dellert-2017-1016-445	445	903	0.041108	Unglück	Unglück::N	misfortune	беда	unerwünschter Zustand	undesirable condition	неприятное обстоятельство	BAD LUCK	56	
+Dellert-2017-1016-446	446	374	-1.179038	Schuld	Schuld::N	fault	вина	Verantwortung für Fehlverhalten	blame, responsibility	ответственность за проступок, преступление	FAULT	134	
+Dellert-2017-1016-447	447	96	-2.251605	Alter	Alter::N	age	возраст	Lebensalter	number of years since birth	прожитые года	AGE	1789	
+Dellert-2017-1016-448	448	389	-1.142522	Schluss	Schluss::N	end	конец	zeitliches Ende	conclusion	прекращение	END (OF TIME)	743	
+Dellert-2017-1016-449	449	130	-2.289801	Zeit	Zeit::N	time	время	stetiger Lauf der Dinge	constant passing of events		TIME	892	
+Dellert-2017-1016-450	450	12	-3.308012	Tag	Tag::N	day	день				DAY (NOT NIGHT)	1225	
+Dellert-2017-1016-451	451	595	-0.065795	Morgen	Morgen::N	morning	утро				MORNING	1339	
+Dellert-2017-1016-452	452	910	0.071239	Mittag	Mittag::N	noon	полдень			середина дня	MIDDAY	12	
+Dellert-2017-1016-453	453	526	-1.10811	Abend	Abend::N	evening	вечер				EVENING	1629	
+Dellert-2017-1016-454	454	33	-2.262841	Nacht	Nacht::N	night	ночь				NIGHT	1233	
+Dellert-2017-1016-455	455	693	-0.044704	Woche	Woche::N	week	неделя				WEEK	1469	
+Dellert-2017-1016-456	456	45	-2.221643	Monat	Monat::N	month	месяц			период времени	MONTH	1370	
+Dellert-2017-1016-457	457	103	-2.216553	Jahr	Jahr::N	year	год				YEAR	1226	
+Dellert-2017-1016-458	458	459	-1.169241	Frühling	Frühling::N	spring	весна				SPRINGTIME	1537	
+Dellert-2017-1016-459	459	159	-1.162519	Sommer	Sommer::N	summer	лето				SUMMER	1342	
+Dellert-2017-1016-460	460	569	-0.022933	Herbst	Herbst::N	autumn	осень				AUTUMN	1276	
+Dellert-2017-1016-461	461	165	-1.14497	Winter	Winter::N	winter	зима				WINTER	1471	
+Dellert-2017-1016-462	462	1015	3.30345	Januar	Januar::N	January	январь				JANUARY	2036	
+Dellert-2017-1016-463	463	1012	2.243331	Februar	Februar::N	February	февраль				FEBRUARY	2037	
+Dellert-2017-1016-464	464	1004	1.136624	März	März::N	March	март				MARCH	2846	
+Dellert-2017-1016-465	465	1010	2.244712	April	April::N	April	апрель				APRIL	2847	
+Dellert-2017-1016-466	466	981	0.007243	Mai	Mai::N	May	май				MAY (MONTH)	2848	
+Dellert-2017-1016-467	467	993	1.122515	Juni	Juni::N	June	июнь				JUNE	2849	
+Dellert-2017-1016-468	468	994	1.134741	Juli	Juli::N	July	июль				JULY	2850	
+Dellert-2017-1016-469	469	1005	1.126423	August	August::N	August	август				AUGUST	2851	
+Dellert-2017-1016-470	470	1011	2.24475	September	September::N	September	сентябрь				SEPTEMBER	2852	
+Dellert-2017-1016-471	471	1016	3.399396	Oktober	Oktober::N	October	октябрь				OCTOBER	2853	
+Dellert-2017-1016-472	472	1014	2.278637	November	November::N	November	ноябрь				NOVEMBER	2854	
+Dellert-2017-1016-473	473	1013	2.271866	Dezember	Dezember::N	December	декабрь				DECEMBER	2855	
+Dellert-2017-1016-474	474	957	0.028059	Montag	Montag::N	Monday	понедельник				MONDAY	1697	
+Dellert-2017-1016-475	475	912	0.080334	Dienstag	Dienstag::N	Tuesday	вторник				TUESDAY	1695	
+Dellert-2017-1016-476	476	938	0.01205	Mittwoch	Mittwoch::N	Wednesday	среда			третий день недели	WEDNESDAY	1694	
+Dellert-2017-1016-477	477	1006	1.166817	Donnerstag	Donnerstag::N	Thursday	четверг				THURSDAY	1693	
+Dellert-2017-1016-478	478	959	0.068516	Freitag	Freitag::N	Friday	пятница				FRIDAY	1692	
+Dellert-2017-1016-479	479	884	0.01489	Samstag	Samstag::N	Saturday	суббота				SATURDAY	1700	
+Dellert-2017-1016-480	480	921	0.001541	Sonntag	Sonntag::N	Sunday	воскресенье				SUNDAY	1699	
+Dellert-2017-1016-481	481	237	-1.110606	groß	groß::A	big	большой	BSP:Stein	EX:rock	НАПР:о камне	BIG	1202	
+Dellert-2017-1016-482	482	697	-0.033289	klein	klein::A	little	маленький	BSP:Stein	EX:rock	НАПР:о камне	SMALL	1246	
+Dellert-2017-1016-483	483	74	-2.239598	lang	lang::A	long	длинный	Gegenstand	object	о предмете	LONG	1203	
+Dellert-2017-1016-484	484	444	-1.106292	kurz	kurz::A	short	короткий	Gegenstand	object	о предмете	SHORT	1645	
+Dellert-2017-1016-485	485	158	-1.163005	breit	breit::A	wide	широкий	BSP:Fluss, Brücke	EX:river, bridge	BSP:о реке, о мосте	WIDE	1243	
+Dellert-2017-1016-486	486	660	-0.016542	schmal	schmal::A	narrow	узкий	BSP:Fluss, Brücke	EX:river, bridge	BSP:о реке, о мосте	NARROW	1267	
+Dellert-2017-1016-487	487	137	-2.244974	dicht	dicht::A	dense	густой	BSP:Haar, Wald	EX:hair, forest	НАПР:о волосах, о лесе	DENSE	2239	
+Dellert-2017-1016-488	488	302	-1.147568	dickGegenstand	dickGegenstand::A	thick	толстый	flacher Gegenstand	flat object	о плоском предмете	THICK	1244	
+Dellert-2017-1016-489	489	516	-1.132602	dünn	dünn::A	thin	тонкий	flacher Gegenstand	flat object	о плоском предмете	THIN (OF SHAPE OF OBJECT)	2249	
+Dellert-2017-1016-490	490	465	-1.152855	fein	fein::A	delicate, fine	тонкий, хрупкий	BSP:Garn, Netz	EX:yarn, web	НАПР:о нити, о сети	FINE OR THIN	2157	
+Dellert-2017-1016-491	491	476	-1.1358	fest	fest::A	firm, solid	крепкий, прочный	BSP:Holz, Wand	EX:wood, wall	НАПР:о дереве, о стене	SOLID	3003	
+Dellert-2017-1016-492	492	498	-1.193967	flach	flach::A	flat	плоский	Gegenstand	object	о предмете	FLAT	1633	
+Dellert-2017-1016-493	493	311	-1.124969	glatt	glatt::A	smooth	гладкий	Oberfläche	surface	о поверхности	SMOOTH	1234	
+Dellert-2017-1016-494	494	126	-2.208913	hart	hart::A	hard	твёрдый	BSP:Schale	BSP:shell	НАПР:о скорлупе	HARD	1884	
+Dellert-2017-1016-495	495	217	-1.167294	weich	weich::A	soft	мягкий	BSP:Kissen	EX:cushion	НАПР:о подушке	SOFT	1856	
+Dellert-2017-1016-496	496	529	-0.099491	rund	rund::A	round	круглый	kreisförmig	circular	по форме близкий к кругу	ROUND	1395	
+Dellert-2017-1016-497	497	858	-0.02104	spitz	spitz::A	pointed	остроконечный	BSP:Nadel	EX:needle	НАПР:об игле	POINTED	372	
+Dellert-2017-1016-498	498	485	-1.115744	scharf	scharf::A	sharp	острый	BSP:Messer	EX:knife	НАПР:о ноже	SHARP	1396	
+Dellert-2017-1016-499	499	560	-0.044584	stumpf	stumpf::A	blunt	тупой	BSP:Messer	EX:knife	НАПР:о ноже	BLUNT	379	
+Dellert-2017-1016-500	500	666	-0.003185	schwer	schwer::A	heavy	тяжёлый	an Gewicht	of weight	о весе	HEAVY	1210	
+Dellert-2017-1016-501	501	823	-0.067897	schön	schön::A	beautiful	красивый	BSP:Blume	EX:flower	НАПР:о цветке	BEAUTIFUL	1427	
+Dellert-2017-1016-502	502	274	-1.122817	heiß	heiß::A	hot	жаркий	BSP:Feuer	EX:fire	НАПР:об огне	HOT	1286	
+Dellert-2017-1016-503	503	212	-1.17477	warm	warm::A	warm	тёплый				WARM	1232	
+Dellert-2017-1016-504	504	312	-1.121552	kalt	kalt::A	cold	холодный				COLD	1287	
+Dellert-2017-1016-505	505	499	-1.181048	kühl	kühl::A	cool	прохладный				COLD (OF WEATHER)	2483	
+Dellert-2017-1016-506	506	243	-1.193916	frisch	frisch::A	fresh	свежий	BSP:Luft	EX:air	НАПР:о воздухе	FRESH	243	
+Dellert-2017-1016-507	507	497	-1.194711	feucht	feucht::A	damp	влажный				DAMP	2998	
+Dellert-2017-1016-508	508	478	-1.130349	nass	nass::A	wet	мокрый				WET	1726	
+Dellert-2017-1016-509	509	262	-1.141529	trocken	trocken::A	dry	сухой				DRY	1398	
+Dellert-2017-1016-510	510	95	-2.255925	voll	voll::A	full	полный, наполненный	Gefäß	container	о сосуде	FULL	1429	
+Dellert-2017-1016-511	511	393	-1.130087	leer	leer::A	empty	пустой	Gefäß	container	о сосуде	EMPTY	1624	
+Dellert-2017-1016-512	512	415	-1.181553	offen	offen::A	open	открытый	BSP:Tür	EX:door	НАПР:о двери	OPEN	1156	POS
+Dellert-2017-1016-513	513	732	-0.036018	geschlossen	geschlossen::A	closed	закрытый	BSP:Tür	EX:door	НАПР:о двери	CLOSED	589	
+Dellert-2017-1016-514	514	708	-0.002671	sauber	sauber::A	clean	чистый				CLEAN	704	
+Dellert-2017-1016-515	515	846	-0.091876	schmutzig	schmutzig::A	dirty	грязный				DIRTY	1230	
+Dellert-2017-1016-516	516	133	-2.279933	roh	roh::A	raw	сырой	ungekocht	uncooked	не варёный	RAW	1959	
+Dellert-2017-1016-517	517	532	-0.089145	reif	reif::A	ripe	зрелый	BSP:Obst	EX:fruit	НАПР:o плоде	RIPE	178	
+Dellert-2017-1016-518	518	711	-0.095373	lecker	lecker::A	delicious	вкусный	schmackhaft	tasty	лакомый	TASTY	1813	
+Dellert-2017-1016-519	519	256	-1.165099	süß	süß::A	sweet	сладкий	Geschmack	taste	о вкусе	SWEET	717	
+Dellert-2017-1016-520	520	447	-1.10064	bitter	bitter::A	bitter	горький	Geschmack	taste	о вкусе	BITTER	887	
+Dellert-2017-1016-521	521	400	-1.121929	sauer	sauer::A	sour	кислый	BSP:Zitrone	EX:lemon	НАПР:лимон	SOUR	1906	
+Dellert-2017-1016-522	522	310	-1.133087	hell	hell::A	bright	светлый	voller Licht	full of light	хорошо освещённый	BRIGHT	679	
+Dellert-2017-1016-523	523	359	-1.115552	dunkel	dunkel::A	dark	тёмный	ohne Licht	devoid of light	лишённый света	DARK	706	
+Dellert-2017-1016-524	524	303	-1.145769	schwarz	schwarz::A	black	чёрный				BLACK	163	
+Dellert-2017-1016-525	525	99	-2.237421	weiß	weiß::A	white	белый				WHITE	1335	
+Dellert-2017-1016-526	526	502	-1.176709	rot	rot::A	red	красный				RED	156	
+Dellert-2017-1016-527	527	390	-1.140442	gelb	gelb::A	yellow	жёлтый				YELLOW	1424	
+Dellert-2017-1016-528	528	313	-1.118587	blau	blau::A	blue	синий, голубой				BLUE	837	
+Dellert-2017-1016-529	529	377	-1.175302	grün	grün::A	green	зелёный				GREEN	1425	
+Dellert-2017-1016-530	530	493	-1.196892	grau	grau::A	grey	серый				GREY	153	
+Dellert-2017-1016-531	531	931	0.061821	bunt	bunt::A	colourful	пёстрый	vielfarbig	multicolored	разноцветный	COLORFUL	2997	
+Dellert-2017-1016-532	532	739	-0.019286	billig	billig::A	cheap	дешёвый				CHEAP	1887	
+Dellert-2017-1016-533	533	370	-1.188822	teuer	teuer::A	expensive	дорогой	Ware	goods	о товаре	EXPENSIVE	1426	
+Dellert-2017-1016-534	534	778	-0.016036	wertvoll	wertvoll::A	precious	ценный			драгоценный	PRECIOUS	3002	
+Dellert-2017-1016-535	535	236	-1.112181	blind	blind::A	blind	слепой				BLIND	1653	
+Dellert-2017-1016-536	536	413	-1.183279	taub	taub::A	deaf	глухой				DEAF	996	
+Dellert-2017-1016-537	537	797	-0.064709	kräftig	kräftig::A	powerful	могучий	kraftvoll	forceful	мощный	POWERFUL	3001	distinct from STRONG
+Dellert-2017-1016-538	538	442	-1.114765	stark	stark::A	strong	сильный	robust	tough	плотный	STRONG	785	
+Dellert-2017-1016-539	539	603	-0.048236	schwach	schwach::A	weak	слабый	kraftlos	feeble	немощный	WEAK	1601	
+Dellert-2017-1016-540	540	291	-1.177568	fett	fett::A	fat	жирный, толстый	dick	person	тучный	FAT (OBESE)	1279	
+Dellert-2017-1016-541	541	883	0.009313	schlank	schlank::A	slim	стройный				THIN (SLIM)	1400	
+Dellert-2017-1016-542	542	949	0.075628	hübsch	hübsch::A	pretty	красивый, прелестный				GOOD-LOOKING	2410	
+Dellert-2017-1016-543	543	280	-1.108551	böse	böse::A	evil	злой	bösartig	malevolent	несущий в себе зло	EVIL	45	
+Dellert-2017-1016-544	544	527	-1.107908	dumm	dumm::A	stupid	глупый	Mensch	person	о человеке	STUPID	1518	
+Dellert-2017-1016-545	545	601	-0.055687	faul	faul::A	lazy	ленивый	träge			LAZY	1564	
+Dellert-2017-1016-546	546	995	1.169314	fleißig	fleißig::A	diligent	прилежный				DILIGENT	2077	
+Dellert-2017-1016-547	547	905	0.049168	geizig	geizig::A	stingy	жадный, скупой				STINGY	1774	
+Dellert-2017-1016-548	548	772	-0.037563	klug	klug::A	clever	умный	intelligent	intelligent	интеллигентный	CLEVER	1310	
+Dellert-2017-1016-549	549	980	0.073849	geschickt	geschickt::A	skilful	искусный				DEXTEROUS	1824	
+Dellert-2017-1016-550	550	550	-0.05786	lieb	lieb::A	dear	милый		beloved		DEAR	2470	
+Dellert-2017-1016-551	551	857	-0.021116	lustig	lustig::A	merry	весёлый	vergnügt			MERRY	1976	
+Dellert-2017-1016-552	552	984	0.038776	sanft	sanft::A	gentle	нежный		tender	кроткий	GENTLE	1954	
+Dellert-2017-1016-553	553	549	-0.061747	hungrig	hungrig::A	hungry	голодный				BE HUNGRY	1533	
+Dellert-2017-1016-554	554	900	0.020675	krank	krank::A	sick, ill	больной			нездоровый	SICK	1847	
+Dellert-2017-1016-555	555	757	-0.081553	nackt	nackt::A	naked	голый				NAKED	590	
+Dellert-2017-1016-556	556	909	0.059371	traurig	traurig::A	sad	грустный	Gefühl	emotion	чувство	SAD	699	
+Dellert-2017-1016-557	557	331	-1.176372	lebendig	lebendig::A	living	живой	lebend			LIVING	3000	POS
+Dellert-2017-1016-558	558	75	-2.238535	gut	gut::A	good	хороший	BSP:Werkzeug	EX:tool	НАПР:об орудии	GOOD	1035	
+Dellert-2017-1016-559	559	826	-0.05627	schlecht	schlecht::A	bad	плохой	BSP:Werkzeug	EX:tool	НАПР:об орудии	BAD	1292	
+Dellert-2017-1016-560	560	241	-1.194064	richtig	richtig::A	correct	правильный				CORRECT (RIGHT)	1725	
+Dellert-2017-1016-561	561	571	-0.019733	schlimm	schlimm::A	nasty, dire	страшный, отвратительный				SEVERE	419	
+Dellert-2017-1016-562	562	915	0.088099	wahr	wahr::A	true	настоящий	wahrheitsgemäß	truthful	истинный	TRUE	1657	
+Dellert-2017-1016-563	563	163	-1.146849	alt	alt::A	old	старый	BSP:Haus	EX:house	НАПР:о доме	OLD (USED)	2113	
+Dellert-2017-1016-564	564	24	-2.293982	neu	neu::A	new	новый				NEW	1231	
+Dellert-2017-1016-565	565	898	0.012372	ehemalig	ehemalig::A	former	бывший		erstwhile		FORMER	3004	
+Dellert-2017-1016-566	566	206	-1.185645	altLebewesen	altLebewesen::A	aged, old	пожилой, старый		person	о человеке	OLD (AGED)	2112	
+Dellert-2017-1016-567	567	216	-1.168918	jung	jung::A	young	молодой				YOUNG	1207	
+Dellert-2017-1016-568	568	668	-0.001194	arm	arm::A	poor	бедный	bedürftig	needy		POOR	1674	
+Dellert-2017-1016-569	569	423	-1.158927	reich	reich::A	rich	богатый				RICH	712	
+Dellert-2017-1016-570	570	614	-0.039116	bekannt	bekannt::A	familiar	знакомый				FAMILIAR	3005	
+Dellert-2017-1016-571	571	838	-0.028537	berühmt	berühmt::A	famous	знаменитый				FAME	865	POS
+Dellert-2017-1016-572	572	543	-0.070106	fremd	fremd::A	foreign	чужой				FOREIGN	109	
+Dellert-2017-1016-573	573	841	-0.025048	verschieden	verschieden::A	different	разный				DIFFERENT	2504	
+Dellert-2017-1016-574	574	394	-1.12745	nah	nah::A	near	близкий				NEAR	1942	
+Dellert-2017-1016-575	575	398	-1.12413	fern	fern::A	far	далёкий				FAR	1406	
+Dellert-2017-1016-576	576	741	-0.012278	linker	linker::A	left	левый				LEFT	244	
+Dellert-2017-1016-577	577	253	-1.174117	rechter	rechter::A	right	правый	BSP:rechtes Bein	EX:right leg	НАПР:правая нога	RIGHT	1019	
+Dellert-2017-1016-578	578	143	-2.225878	anderer	anderer::A	other	другой				OTHER	197	
+Dellert-2017-1016-579	579	687	-0.049889	erster	erster::A	first	первый				FIRST	728	
+Dellert-2017-1016-580	580	539	-0.07696	zweiter	zweiter::A	second	второй				SECOND	1384	
+Dellert-2017-1016-581	581	840	-0.026455	dritter	dritter::A	third	третий				THIRD	1859	
+Dellert-2017-1016-582	582	808	-0.03506	letzter	letzter::A	last	последний	in einer Reihe	in a row		LAST (FINAL)	1529	
+Dellert-2017-1016-583	583	342	-1.150599	allein	allein::ADV	alone	один				ALONE	1964	
+Dellert-2017-1016-584	584	1002	1.123114	auf einmal	auf einmal::ADV	at once	сразу		in one go		IMMEDIATELY	2913	
+Dellert-2017-1016-585	585	718	-0.071647	zusammen	zusammen::ADV	together	вместе				TOGETHER	2482	
+Dellert-2017-1016-586	586	562	-0.040105	lange	lange::ADV	long	долго				FOR A LONG TIME	418	
+Dellert-2017-1016-587	587	972	0.093543	plötzlich	plötzlich::ADV	suddenly	вдруг				SUDDENLY	2920	
+Dellert-2017-1016-588	588	992	1.118757	sofort	sofort::ADV	instantly	тотчас				INSTANTLY	2916	
+Dellert-2017-1016-589	589	774	-0.033797	später	später::ADV	later	позже				LATE	477	
+Dellert-2017-1016-590	590	208	-1.180635	jetzt	jetzt::ADV	now	теперь				NOW	1376	
+Dellert-2017-1016-591	591	357	-1.117854	heute	heute::ADV	today	сегодня				TODAY	1283	
+Dellert-2017-1016-592	592	422	-1.160065	morgen	morgen::ADV	tomorrow	завтра				TOMORROW	1329	
+Dellert-2017-1016-593	593	973	0.01743	bald	bald::ADV	soon	скоро				SOON	703	
+Dellert-2017-1016-594	594	85	-2.202163	dann	dann::ADV	then	потом				THEN	2921	
+Dellert-2017-1016-595	595	455	-1.183068	gestern	gestern::ADV	yesterday	вчера				YESTERDAY	1174	
+Dellert-2017-1016-596	596	783	-0.011366	einst	einst::ADV	once	однажды	in der Vergangenheit	once upon a time		ONCE (IN THE PAST)	2914	
+Dellert-2017-1016-597	597	670	-0.098181	damals	damals::ADV	at that time	тогда				AT THAT TIME	2922	
+Dellert-2017-1016-598	598	686	-0.052577	danach	danach::ADV	afterwards	затем				AFTERWARDS	2093	
+Dellert-2017-1016-599	599	596	-0.064902	vorher	vorher::ADV	before	раньше				BEFORE	1882	
+Dellert-2017-1016-600	600	506	-1.161869	zuerst	zuerst::ADV	at first	сперва				AT FIRST	2915	
+Dellert-2017-1016-601	601	432	-1.141231	einmal	einmal::ADV	once	один раз				ONE TIME	374	
+Dellert-2017-1016-602	602	999	1.162579	manchmal	manchmal::ADV	sometimes	иногда				SOMETIMES	1544	
+Dellert-2017-1016-603	603	786	-0.097972	oft	oft::ADV	often	часто				OFTEN	1852	
+Dellert-2017-1016-604	604	608	-0.04242	immer	immer::ADV	always	всегда				ALWAYS	1676	
+Dellert-2017-1016-605	605	983	0.035693	niemals	niemals::ADV	never	никогда				NEVER	1656	
+Dellert-2017-1016-606	606	17	-2.245985	hier	hier::ADV	here	здесь				HERE	136	
+Dellert-2017-1016-607	607	195	-1.125499	hierhin	hierhin::ADV	hither	сюда				HITHER (HERE TO)	2925	
+Dellert-2017-1016-608	608	619	-0.012382	von hier	von hier::ADV	hence	отсюда				FROM HERE	2927	
+Dellert-2017-1016-609	609	15	-2.264168	dort	dort::ADV	there	там				THERE	1937	
+Dellert-2017-1016-610	610	320	-1.193899	dorthin	dorthin::ADV	thither	туда				THITHER (THERE TO)	2923	
+Dellert-2017-1016-611	611	941	0.037048	geradeaus	geradeaus::ADV	ahead	прямо				STRAIGHT	1404	
+Dellert-2017-1016-612	612	487	-1.113207	vorwärts	vorwärts::ADV	forward	вперёд				FORWARD	2912	
+Dellert-2017-1016-613	613	806	-0.041419	rückwärts	rückwärts::ADV	backward	назад				BACKWARD	2911	
+Dellert-2017-1016-614	614	503	-1.174261	zurück	zurück::ADV	back	обратно				BACK (DIRECTION)	2910	
+Dellert-2017-1016-615	615	170	-1.123445	unten	unten::ADV	below	внизу				DOWN OR BELOW	2094	
+Dellert-2017-1016-616	616	479	-1.129119	hinab	hinab::ADV	down	вниз				DOWN	1326	
+Dellert-2017-1016-617	617	100	-2.236479	oben	oben::ADV	above	наверху				ABOVE	1741	
+Dellert-2017-1016-618	618	186	-1.164943	hinauf	hinauf::ADV	up	вверх				UP	1591	
+Dellert-2017-1016-619	619	943	0.039972	überall	überall::ADV	everywhere	везде				EVERYWHERE	2999	
+Dellert-2017-1016-620	620	6	-3.362623	nicht	nicht::ADV	not	не				NOT	1240	
+Dellert-2017-1016-621	621	702	-0.022977	ein wenig	ein wenig::ADV	a little	немного				A LITTLE	2924	
+Dellert-2017-1016-622	622	927	0.031049	kaum	kaum::ADV	hardly	едва				HARDLY	2926	
+Dellert-2017-1016-623	623	963	0.005154	sehr	sehr::ADV	very	очень				VERY	1311	
+Dellert-2017-1016-624	624	56	-2.260515	so	so::ADV	so	так				OF THIS KIND (SUCH)	2336	
+Dellert-2017-1016-625	625	260	-1.150059	noch	noch::ADV	still	ещё				STILL (CONTINUING)	2919	
+Dellert-2017-1016-626	626	734	-0.033027	nur	nur::ADV	only	только	BSP:nur eine Kuh	EX:only one cow	НАПР:только одна корова	ONLY	1580	
+Dellert-2017-1016-627	627	202	-1.197019	schon	schon::ADV	already	уже				ALREADY	2576	
+Dellert-2017-1016-628	628	495	-1.196058	wieder	wieder::ADV	again	опять				AGAIN	204	
+Dellert-2017-1016-629	629	839	-0.028218	vergebens	vergebens::ADV	in vain	напрасно				IN VAIN	1765	
+Dellert-2017-1016-630	630	349	-1.133895	vor	vor::PRP	in front of	перед				IN FRONT OF	1883	
+Dellert-2017-1016-631	631	250	-1.184184	hinter	hinter::PRP	behind	позади				BEHIND	1686	
+Dellert-2017-1016-632	632	29	-2.297238	unter	unter::PRP	under	под				BELOW OR UNDER	1485	
+Dellert-2017-1016-633	633	538	-0.077856	durch	durch::PRP	through	сквозь, через	BSP:Fenster,Loch	EX:a window, a hole	НАПР:окно,дыру	THROUGH	97	
+Dellert-2017-1016-634	634	727	-0.047088	neben	neben::PRP	next to	возле				NEXT TO	2917	
+Dellert-2017-1016-635	635	461	-1.162949	zwischen	zwischen::PRP	between	между				BETWEEN	689	
+Dellert-2017-1016-636	636	679	-0.068694	wegen	wegen::PRP	because of	из-за				BECAUSE OF	2918	
+Dellert-2017-1016-637	637	26	-2.239471	dies	dies::PRN	this	это				THIS	1214	
+Dellert-2017-1016-638	638	3	-3.371809	das	das::PRN	that	то				THAT	78	
+Dellert-2017-1016-639	639	287	-1.190837	alles	alles::PRN	everything	всё				ALL	98	
+Dellert-2017-1016-640	640	5	-3.345092	ich	ich::PRN	I	я				I	1209	
+Dellert-2017-1016-641	641	4	-3.349547	du	du::PRN	thou	ты				THOU	1215	
+Dellert-2017-1016-642	642	8	-3.316746	er	er::PRN	he	он				HE OR SHE OR IT	262	
+Dellert-2017-1016-643	643	10	-3.338912	wir	wir::PRN	we	мы				WE	1212	
+Dellert-2017-1016-644	644	67	-2.28367	ihr	ihr::PRN	you	вы		plural		YOU	1213	
+Dellert-2017-1016-645	645	28	-2.201759	sie	sie::PRN	they	они	Plural			THEY	817	
+Dellert-2017-1016-646	646	18	-2.227861	was	was::FPRN	what	что				WHAT	1236	
+Dellert-2017-1016-647	647	13	-3.305855	wer	wer::FPRN	who	кто				WHO	1235	
+Dellert-2017-1016-648	648	14	-2.286457	wo	wo::FADV	where	где				WHERE	1237	
+Dellert-2017-1016-649	649	248	-1.188391	wohin	wohin::FADV	where to	куда				WHITHER (WHERE TO)	2928	
+Dellert-2017-1016-650	650	189	-1.151297	wie	wie::FADV	how	как				HOW	1239	
+Dellert-2017-1016-651	651	392	-1.134378	warum	warum::FADV	why	почему				WHY	1270	
+Dellert-2017-1016-652	652	663	-0.004942	wieviel	wieviel::FNUM	how much	сколько				HOW MUCH	531	
+Dellert-2017-1016-653	653	1	-3.305677	eins	eins::NUM	one	один				ONE	1493	
+Dellert-2017-1016-654	654	7	-3.352278	zwei	zwei::NUM	two	два				TWO	1498	
+Dellert-2017-1016-655	655	30	-2.283703	drei	drei::NUM	three	три				THREE	492	
+Dellert-2017-1016-656	656	173	-1.109905	vier	vier::NUM	four	четыре				FOUR	1500	
+Dellert-2017-1016-657	657	68	-2.279235	fünf	fünf::NUM	five	пять				FIVE	493	
+Dellert-2017-1016-658	658	38	-2.29346	sechs	sechs::NUM	six	шесть				SIX	1703	
+Dellert-2017-1016-659	659	178	-1.18665	sieben	sieben::NUM	seven	семь				SEVEN	1704	
+Dellert-2017-1016-660	660	155	-1.179585	acht	acht::NUM	eight	восемь				EIGHT	1705	
+Dellert-2017-1016-661	661	229	-1.136154	neun	neun::NUM	nine	девять				NINE	1483	
+Dellert-2017-1016-662	662	9	-3.374243	zehn	zehn::NUM	ten	десять				TEN	1515	
+Dellert-2017-1016-663	663	813	-0.008841	elf	elf::NUM	eleven	одиннадцать				ELEVEN	1706	
+Dellert-2017-1016-664	664	853	-0.045298	zwölf	zwölf::NUM	twelve	двенадцать				TWELVE	1707	
+Dellert-2017-1016-665	665	203	-1.192548	zwanzig	zwanzig::NUM	twenty	двадцать				TWENTY	1710	
+Dellert-2017-1016-666	666	469	-1.147388	dreißig	dreißig::NUM	thirty	тридцать				THIRTY	1715	
+Dellert-2017-1016-667	667	654	-0.028583	vierzig	vierzig::NUM	forty	сорок				FORTY	1716	
+Dellert-2017-1016-668	668	865	-0.091974	fünfzig	fünfzig::NUM	fifty	пятьдесят				FIFTY	1717	
+Dellert-2017-1016-669	669	500	-1.178735	sechzig	sechzig::NUM	sixty	шестьдесят				SIXTY	1718	
+Dellert-2017-1016-670	670	939	0.028518	siebzig	siebzig::NUM	seventy	семьдесят				SEVENTY	1721	
+Dellert-2017-1016-671	671	799	-0.055653	achtzig	achtzig::NUM	eighty	восемьдесят				EIGHTY	1722	
+Dellert-2017-1016-672	672	926	0.024318	neunzig	neunzig::NUM	ninety	девяносто				NINETY	1724	
+Dellert-2017-1016-673	673	39	-2.259096	hundert	hundert::NUM	a hundred	сто				HUNDRED	1634	
+Dellert-2017-1016-674	674	425	-1.150922	tausend	tausend::NUM	a thousand	тысяча				THOUSAND	1843	
+Dellert-2017-1016-675	675	21	-2.220901	und	und::CNJ	and	и				AND	1577	
+Dellert-2017-1016-676	676	190	-1.150491	oder	oder::CNJ	or	или				OR	1014	
+Dellert-2017-1016-677	677	162	-1.149524	stehen	stehen::V	stand	стоять	Mensch	of a person	о человеке	STAND	1442	
+Dellert-2017-1016-678	678	125	-2.209513	sitzen	sitzen::V	sit	сидеть	Mensch	of a person	о человеке	SIT	1416	
+Dellert-2017-1016-679	679	490	-1.106772	liegen	liegen::V	lie	лежать	Mensch	of a person	о человеке	LIE (REST)	1411	
+Dellert-2017-1016-680	680	457	-1.178046	hängen	hängen::V	hang	висеть	BSP:``der Mantel hängt''	EX:``the coat is hanging''	НАПР:о пальтo	HANG	2884	intransitive
+Dellert-2017-1016-681	681	54	-2.265655	werden	werden::V	become	стать	zu etwas	turn into	превратиться, НАПР:стать отцом	BECOME	1990	
+Dellert-2017-1016-682	682	511	-1.150125	passieren	passieren::V	happen	случиться	geschehen	occur	произойти	HAPPEN	248	
+Dellert-2017-1016-683	683	365	-1.196821	beginnen	beginnen::V	begin	начаться	anfangen zu bestehen	start existing	начать существовать	BEGIN	1806	intransitive
+Dellert-2017-1016-684	684	269	-1.134073	enden	enden::V	end	кончиться	aufhören zu bestehen	stop existing	перестать существовать	CEASE	1928	
+Dellert-2017-1016-685	685	597	-0.063613	wechseln	wechseln::V	change	меняться	zu etwas anderem werden	become something different	стать чем-то другим, НАПР:о погоде	CHANGE (BECOME DIFFERENT)	2857	
+Dellert-2017-1016-686	686	553	-0.050231	aufgehenSonne	aufgehenSonne::V	rise	взойти		of the sun	о солнце	RISE (MOVE UPWARDS)	568	
+Dellert-2017-1016-687	687	462	-1.162021	untergehenSonne	untergehenSonne::V	set	зайти		of the sun	о солнце	SET (HEAVENLY BODIES)	160	
+Dellert-2017-1016-688	688	383	-1.162861	scheinenSonne	scheinenSonne::V	shine	светить		of the sun	о солнце	SHINE	708	
+Dellert-2017-1016-689	689	524	-1.116719	donnern	donnern::V	thunder	греметь	Donner	BSP:``it thundered''	о громе	THUNDER (VERB)	2378	
+Dellert-2017-1016-690	690	318	-1.198975	wehen	wehen::V	blow	дуть	Wind	of wind	о ветре	BLOW (OF WIND)	175	
+Dellert-2017-1016-691	691	380	-1.17064	strömen	strömen::V	stream	литься	ununterbrochen fließen	to flow in a continuous manner	течь непрерывной струёй	STREAM (FLOW CONTINUOUSLY)	2858	
+Dellert-2017-1016-692	692	171	-1.118084	fließen	fließen::V	flow	течь	BSP:Fluss	EX:a river	НАПР:о реке	FLOW	2003	
+Dellert-2017-1016-693	693	761	-0.073695	sich drehen	sich drehen::V	revolve	вращаться	BSP:Rad	EX:of a wheel	НАПР:о колесе	TURN AROUND	1444	
+Dellert-2017-1016-694	694	805	-0.044178	schwanken	schwanken::V	sway	качаться	sich vor- und zurückbewegen	move backward and forward	двигаться взад и вперед	SWAY	573	
+Dellert-2017-1016-695	695	794	-0.083429	schwingen	schwingen::V	swing	колебаться	sich hin- und herbewegen	repeatedly move from side to side	ритмично, из стороны в сторону, НАПР:о маятнике	SWING (MOVEMENT)	2871	
+Dellert-2017-1016-696	696	47	-2.209665	fallen	fallen::V	fall	падать	sich schnell abwärts bewegen	swiftly move downwards	быстро перемещаться вниз	FALL	1280	
+Dellert-2017-1016-697	697	62	-2.221121	brennen	brennen::V	burn	гореть	BSP:Holz	BSP:of wood	НАПР:о дровах	BURNING	1428	
+Dellert-2017-1016-698	698	692	-0.044994	rauchen	rauchen::V	smoke	дымить	Qualm ausstoßen	give off smoke	производить дым	SMOKE (EMIT SMOKE)	2859	
+Dellert-2017-1016-699	699	592	-0.068005	regnen	regnen::V	rain	идти	BSP:``es regnet''	BSP:``it is raining''	о дожде; дождить	RAIN (RAINING)	1253	
+Dellert-2017-1016-700	700	399	-1.123758	gefrieren	gefrieren::V	freeze	замёрзнуть	durch Kälte erstarren	to become solid due to low temperature	застыть от холода	FREEZE	1431	
+Dellert-2017-1016-701	701	222	-1.150117	tauen	tauen::V	thaw	таять	BSP:Schnee	EX:of snow	НАПР:о снеге	THAW (DEW)	2887	
+Dellert-2017-1016-702	702	180	-1.183325	schmelzen	schmelzen::V	melt	плавиться	BSP:Eis	EX:of ice	НАПР:о льде	MELT	2334	
+Dellert-2017-1016-703	703	167	-1.12829	trocknen	trocknen::V	dry	сохнуть	BSP:von Kleidung	EX:of clothes	НАПР:об одежде	DRY UP	1786	
+Dellert-2017-1016-704	704	407	-1.108831	sieden	sieden::V	boil	кипеть	Wasser	of water	о воде	BOIL (OF LIQUID)	792	
+Dellert-2017-1016-705	705	179	-1.184846	faulen	faulen::V	rot	гнить	BSP:Fleisch	EX:of meat	портиться, НАПР:об овощах, фруктах, еде	SPOIL (BECOME SPOILED)	569	
+Dellert-2017-1016-706	706	288	-1.188351	verfaulen	verfaulen::V	decay	сгнить	BSP:Holz	EX:of wood	НАПР:о дереве	ROT	2907	
+Dellert-2017-1016-707	707	701	-0.023679	reißen	reißen::V	snap	рваться	BSP:Faden	EX:of a thread	НАПР:о нитке	BREAK (CLEAVE)	2558	
+Dellert-2017-1016-708	708	336	-1.161068	versinken	versinken::V	sink	тонуть	BSP:Stein im Wasser	EX:stone in water	НАПР:камень в воду	SINK (DISAPPEAR IN WATER)	2908	
+Dellert-2017-1016-709	709	830	-0.052688	vergehen	vergehen::V	pass	проходи́ть	Zeit	of time	о времени	PASS	1951	
+Dellert-2017-1016-710	710	699	-0.027745	erscheinen	erscheinen::V	appear	появиться	BSP:Licht, Geist	EX:light, ghost	НАПР:о свете, о призраке	EMERGE (APPEAR)	1076	
+Dellert-2017-1016-711	711	586	-0.081335	verschwinden	verschwinden::V	disappear	исчезнуть	BSP:Licht, Geist	EX:light, ghost	НАПР:о свете, о призраке	DISAPPEAR	485	
+Dellert-2017-1016-712	712	706	-0.014616	sinken	sinken::V	drop, descend	спадать	BSP:Wasserspiegel	EX:water level	понижаться, НАПР:об уровне воды	SINK (DESCEND)	1088	
+Dellert-2017-1016-713	713	878	-0.012607	abnehmen	abnehmen::V	decrease	уменьшиться	weniger werden	of quantity	стать меньше	DECREASE	2864	
+Dellert-2017-1016-714	714	874	-0.037772	zunehmen	zunehmen::V	increase	увеличиться	mehr werden	of quantity	в количестве	INCREASE	1041	
+Dellert-2017-1016-715	715	429	-1.144373	steigen	steigen::V	rise	подниматься	BSP:Wasserspiegel	EX:water level	НАПР:об уровне воды	RISE (MOVE UPWARDS)	568	
+Dellert-2017-1016-716	716	50	-2.286656	wachsen	wachsen::V	grow	расти	BSP:Pflanze	EX:of a plant	НАПР:о растении	GROW	479	
+Dellert-2017-1016-717	717	815	-0.088668	glänzen	glänzen::V	shine	блестеть	BSP:Metall, glänzende Oberfläche	EX:of metal, shiny surface	НАПР:о металле, поверхности	SHINE	708	
+Dellert-2017-1016-718	718	1009	1.192674	funkeln	funkeln::V	sparkle, twinkle	сверкать	BSP:Stern, kleines Licht	EX:of star, little light	НАПР:о звезде, об огоньке	TWINKLE	2889	
+Dellert-2017-1016-719	719	1001	1.106422	lärmen	lärmen::V	be noisy	шуметь	BSP:Kinder	EX:children	НАПР:о детях	MAKE NOISE	2895	
+Dellert-2017-1016-720	720	825	-0.065415	läuten	läuten::V	chime	звонить	BSP:Glocke	EX:of bell	НАПР:о колоколе	CHIME (ACTION)	2897	
+Dellert-2017-1016-721	721	875	-0.034984	klingeln	klingeln::V	ring	звонить	BSP:Türklingel, Telefon	EX:doorbell, phone	НАПР:о дверном звонке, телефоне	RING (MAKE SOUND)	2875	
+Dellert-2017-1016-722	722	989	1.118415	klirren	klirren::V	tinkle	звякать	BSP:Glas	EX:glass	НАПР:о стакане, монетах	TINKLE	2888	
+Dellert-2017-1016-723	723	895	0.090194	brausen	brausen::V	roar	бушевать	BSP:Sturm, Meer	EX:storm, sea	НАПР:о буре, море	ROAR (OF SEA)	2876	
+Dellert-2017-1016-724	724	784	-0.007995	rauschen	rauschen::V	rustle	шелестеть	BSP:Blätter im Wind	EX:of leaves in breeze	НАПР:о листьях при ветре	RUSTLE (OF LEAVES)	2877	
+Dellert-2017-1016-725	725	950	0.078018	klingen	klingen::V	sound	звучать	BSP:Musikinstrument	EX:of instrument	НАПР:об инструменте	SOUND (OF INSTRUMENT OR VOICE)	2879	
+Dellert-2017-1016-726	726	379	-1.172562	bellen	bellen::V	bark	лаять	Hund	of dog	о собаке	BARKING	1206	
+Dellert-2017-1016-727	727	118	-2.231521	heulen	heulen::V	howl	выть	BSP:Wolf	EX:of wolf	о волке	HOWL	526	
+Dellert-2017-1016-728	728	115	-2.254939	blasen	blasen::V	blow	дунуть	mit dem Mund	using the mouth	ртом	BLOW (WITH MOUTH)	176	
+Dellert-2017-1016-729	729	885	0.022718	pfeifen	pfeifen::V	whistle	свистеть	mit dem Mund	using the mouth	ртом	WHISTLE	1025	
+Dellert-2017-1016-730	730	675	-0.083098	schreien	schreien::V	shout	кричать	Mensch	of human	о человеке	SHOUT	715	
+Dellert-2017-1016-731	731	341	-1.153449	stöhnen	stöhnen::V	groan	стонать	BSP:vor Schmerz	EX:in pain	НАПР:от сильной боли	GROAN	716	
+Dellert-2017-1016-732	732	555	-0.048732	zittern	zittern::V	tremble	дрожать	BSP:vor Angst	EX:with fear	НАПР:от страха	SHIVER	52	
+Dellert-2017-1016-733	733	60	-2.244067	leben	leben::V	live	жить	lebendig sein	be alive	быть живым	BE ALIVE	1422	
+Dellert-2017-1016-734	734	279	-1.115461	geboren werden	geboren werden::V	be born	родиться	Mensch	of human	о человеке	BE BORN	1090	
+Dellert-2017-1016-735	735	630	-0.091366	atmen	atmen::V	breathe	дышать	Mensch	of human	о человеке	BREATHE	1407	
+Dellert-2017-1016-736	736	22	-2.216412	trinken	trinken::V	drink	пить	Mensch	of human	о человеке	DRINK	1401	
+Dellert-2017-1016-737	737	83	-2.205338	essen	essen::V	eat	кушать, есть	Mensch	of human	о человеке	EAT	1336	
+Dellert-2017-1016-738	738	642	-0.05728	schlucken	schlucken::V	swallow	глотать	hinunterschlucken, BSP:Essen	EX:food	проглоти́ть, НАПР:пищу	SWALLOW	897	
+Dellert-2017-1016-739	739	716	-0.076751	müde werden	müde werden::V	get tired	устать				GET TIRED	1996	
+Dellert-2017-1016-740	740	728	-0.045952	einschlafen	einschlafen::V	fall asleep	заснуть				FALL ASLEEP	1106	
+Dellert-2017-1016-741	741	71	-2.265508	schlafen	schlafen::V	sleep	спать				SLEEP	1585	
+Dellert-2017-1016-742	742	709	-0.098964	aufwachen	aufwachen::V	wake up	проснуться				WAKE UP	1602	
+Dellert-2017-1016-743	743	326	-1.186819	aufstehen	aufstehen::V	get up	встать	vom Bett	rise from one's bed	с постели	WAKE UP	1602	not distinct from STAND UP
+Dellert-2017-1016-744	744	889	0.045065	sich erholen	sich erholen::V	relax	отдыхать	entspannen	recreate		REST	168	
+Dellert-2017-1016-745	745	982	0.017206	krank werden	krank werden::V	fall ill	заболеть			захворать	BECOME SICK	2327	
+Dellert-2017-1016-746	746	935	0.090157	krank sein	krank sein::V	be ill	болеть			страдать болезнью, хворать	SICK	1847	
+Dellert-2017-1016-747	747	397	-1.124395	schmerzen	schmerzen::V	ache	болеть	BSP:Kopf	EX:of head	причинять боль, НАПР:о голове	ACHE	1815	
+Dellert-2017-1016-748	748	314	-1.110005	husten	husten::V	cough	кашлять				COUGH	879	
+Dellert-2017-1016-749	749	954	0.099454	genesen	genesen::V	recover	поправиться	von Krankheit	from an illness	выздороветь	RECOVER	1978	
+Dellert-2017-1016-750	750	36	-2.237937	sterben	sterben::V	die	умереть	Mensch	of human	о человеке	DIE	1494	
+Dellert-2017-1016-751	751	375	-1.178932	umkommen	umkommen::V	perish	погибнуть	eines gewaltsamen Todes sterben	die violently	умереть насильственной смертью	DIE (FROM ACCIDENT)	2865	
+Dellert-2017-1016-752	752	542	-0.070792	sich bewegen	sich bewegen::V	move	двигаться	den Ort wechseln	change place	перемещаться	MOVE (ONESELF)	2874	MOVE = move sth.
+Dellert-2017-1016-753	753	792	-0.087168	sich rühren	sich rühren::V	budge	шевельнуться	ein bisschen, BSP:zucken	change posture	слегка двигаться, НАПР:в траве что-то шевелится	BUDGE (ONESELF)	2861	
+Dellert-2017-1016-754	754	653	-0.030024	sich erheben	sich erheben::V	stand up	встать	BSP:von einem Stuhl	EX:from a chair	НАПР:со стула	STAND UP	570	
+Dellert-2017-1016-755	755	97	-2.246447	sich setzen	sich setzen::V	sit down	сесть	eine sitzende Haltung einnehmen	assume a sitting position	принять сидячее положение	SIT DOWN	1649	
+Dellert-2017-1016-756	756	492	-1.198125	hinfallen	hinfallen::V	tumble	упасть	stürzen	fall end over end	свалиться, о человеке	TUMBLE (FALL DOWN)	2894	
+Dellert-2017-1016-757	757	226	-1.141692	laufen	laufen::V	walk	ходить	zu Fuß gehen	move on the feet	пешком	WALK	1443	
+Dellert-2017-1016-758	758	655	-0.024882	schreiten	schreiten::V	step	шагать	Schritte machen	move the foot in walking	идти шагом	STEP (VERB)	2065	
+Dellert-2017-1016-759	759	990	1.153496	spazierengehen	spazierengehen::V	take a walk	гулять	spazieren		совершать прогулку	WALK (TAKE A WALK)	2890	
+Dellert-2017-1016-760	760	879	-0.000859	eilen	eilen::V	rush	спешить	hasten, sich möglichst schnell bewegen	move in haste	двигаться по возможности быстро	BOLT (MOVE IN HASTE)	2860	HURRY too general
+Dellert-2017-1016-761	761	951	0.095496	sich beeilen	sich beeilen::V	hurry	торопиться	sich abhetzen, in Eile sein	do things quickly	действовать по возможности быстро	HURRY	754	HURRY too general
+Dellert-2017-1016-762	762	965	0.013273	sausen	sausen::V	dash	мчаться	dahineilen, BSP:Fahrzeug	EX:of a vehicle	очень быстро перемещаться, НАПР:о машине	DASH (OF VEHICLE)	2863	
+Dellert-2017-1016-763	763	373	-1.182523	rennen	rennen::V	run	бегать	Mensch	of human	о человеке	RUN	1519	
+Dellert-2017-1016-764	764	517	-1.129859	springen	springen::V	jump	прыгать	Mensch	of human	о человеке	JUMP	1829	
+Dellert-2017-1016-765	765	694	-0.04111	klettern	klettern::V	climb	лазать	Mensch	of human	карабкаться, о человеке	CLIMB	1102	
+Dellert-2017-1016-766	766	977	0.086987	schaukeln	schaukeln::V	seesaw	качаться, раскачиваться	wippen, auf Schaukel	use a seesaw	НАПР:на качелях	SWING (MOVEMENT)	2871	
+Dellert-2017-1016-767	767	441	-1.115912	kriechen	kriechen::V	creep	ползать	Mensch	of human	о человеке	CRAWL	96	
+Dellert-2017-1016-768	768	108	-2.289305	schwimmen	schwimmen::V	swim	плавать	Mensch	of human	о человеке	SWIM	1439	
+Dellert-2017-1016-769	769	952	0.09785	tauchen	tauchen::V	dive	нырять	Mensch	of human	о человеке	DIVE	119	
+Dellert-2017-1016-770	770	494	-1.196761	rudern	rudern::V	row	грести	ein Boot mittels Riemen bewegen	propel a boat using oars	передвигать лодку вёслами	ROW	1849	
+Dellert-2017-1016-771	771	290	-1.18203	fahren	fahren::V	drive	ехать	sich mit einem Fahrzeug fortbewegen	travel by a vehicle	на транспортном средстве	DRIVE	741	
+Dellert-2017-1016-772	772	87	-2.298994	fliegen	fliegen::V	fly	летать	BSP:Vogel	EX:of bird	НАПР:о птице	FLY (MOVE THROUGH AIR)	1441	
+Dellert-2017-1016-773	773	27	-2.236382	gehen	gehen::V	go	идти	sich im Raum fortbewegen	move through space	передвигаться в пространстве	GO	695	
+Dellert-2017-1016-774	774	483	-1.118829	weggehen	weggehen::V	go away	уйти	einen Ort verlassen	leave a place	удалиться откуда-либо	LEAVE	1752	
+Dellert-2017-1016-775	775	881	0.005342	abfahren	abfahren::V	depart	отправиться	sich auf einen Weg begeben	set out on a journey	начать путь	LEAVE	1752	
+Dellert-2017-1016-776	776	552	-0.053666	anhalten	anhalten::V	stop	остановиться	stehenbleiben	cease moving	прекратить двигаться	HALT (STOP)	2880	
+Dellert-2017-1016-777	777	387	-1.143379	hineingehen	hineingehen::V	go in	входить	einen Ort betreten	go into an enclosed space	вступать в помещение	ENTER	749	
+Dellert-2017-1016-778	778	232	-1.128532	eintreten	eintreten::V	enter	войти	betreten, BSP:Gebäude, Raum	EX:a building, a room	НАПР:в здание, в комнату	ENTER	749	
+Dellert-2017-1016-779	779	16	-2.255592	kommen	kommen::V	come	прийти	sich hierher begeben	move here	двигаться сюда	COME	1446	
+Dellert-2017-1016-780	780	579	-0.095781	ankommen	ankommen::V	arrive	прибыть	sein Ziel erreichen	reach one's destination	достигнуть пункта назначения	ARRIVE	1387	
+Dellert-2017-1016-781	781	904	0.04352	zurückkommen	zurückkommen::V	come back	возвратиться	wieder an den Ausgangspunkt kommen	return to a place	вернуться на то же место	COME BACK	581	
+Dellert-2017-1016-782	782	70	-2.272659	bleiben	bleiben::V	stay	остаться	an einem Ort	remain in a place	в прежнем месте	REMAIN	987	
+Dellert-2017-1016-783	783	305	-1.144536	warten	warten::V	wait	ожидать	untätig sein, bis etwas passiert	delay action until something happens	проводить время, ожидая какого-то события НАПР:ждать грозы	WAIT (FOR)	1590	
+Dellert-2017-1016-784	784	460	-1.163951	erwarten	erwarten::V	await	ждать	auf jemanden warten	wait for someone	кого-либо	WAIT (FOR)	1590	
+Dellert-2017-1016-785	785	477	-1.13323	suchen	suchen::V	look for	искать	versuchen zu finden	seek, attempt to find	пытаться найти	LOOK FOR	1468	
+Dellert-2017-1016-786	786	105	-2.209385	finden	finden::V	find	найти	etwas Gesuchtes	locate something searched for	в результате поисков	FIND	719	
+Dellert-2017-1016-787	787	880	0.004959	versuchen	versuchen::V	try	пытаться	etwas zu tun	attempt		TRY	1812	
+Dellert-2017-1016-788	788	613	-0.039309	vorbereiten	vorbereiten::V	prepare	подготовить	bereitmachen	make ready, set up	НАПР:материал для работы	PREPARE	2909	
+Dellert-2017-1016-789	789	471	-1.142732	lieben	lieben::V	love	любить	innige Zuneigung empfinden für	have a strong affection for	быть преданным кому-либо	LOVE	923	
+Dellert-2017-1016-790	790	922	0.007044	mögen	mögen::V	like	любить	gern haben	favor, be in favor of	испытывать чувство симпатии к кому-либо, чему-либо	LIKE	1117	
+Dellert-2017-1016-791	791	174	-1.108193	lachen	lachen::V	laugh	смеяться				LAUGH	1355	
+Dellert-2017-1016-792	792	964	0.007087	rühren	rühren::V	move	растрогать	innerlich, emotional	arouse the feelings of	вызвать чувствa, приятно взволновать	MOVE (AFFECT EMOTIONALLY)	2873	
+Dellert-2017-1016-793	793	169	-1.126978	weinen	weinen::V	weep, cry	плакать	Tränen vergießen	shed tears	проливать слёзы	CRY	1839	
+Dellert-2017-1016-794	794	902	0.033374	schimpfen	schimpfen::V	grumble	ругаться	seinen Ärger kundtun	complain in a surly manner	браниться	SCOLD	299	
+Dellert-2017-1016-795	795	869	-0.082379	sich ärgern	sich ärgern::V	be annoyed	сердиться	verärgert sein	be irritated	испытывать раздражение	BE ANGRY	2223	
+Dellert-2017-1016-796	796	354	-1.124223	sich fürchten	sich fürchten::V	be afraid	бояться, опасаться	Angst haben	be frightened	испытывать боязнь	FEAR (BE AFRAID)	1419	intransitive
+Dellert-2017-1016-797	797	507	-1.159431	fürchten	fürchten::V	be afraid of	бояться, страшиться	sich fürchten vor	fear	чего-либо	FEAR (BE AFRAID)	1419	
+Dellert-2017-1016-798	798	572	-0.019575	fliehen	fliehen::V	flee	убегать	weglaufen, sich retten	run away	удаляться бегом, спасаться бегством	FLEE	956	
+Dellert-2017-1016-799	799	785	-0.000336	flüchten	flüchten::V	escape	убежать, сбежать	entkommen, BSP:aus Gefangenschaft	get away, BSP:from captivity	совершить побег	ESCAPE	1615	
+Dellert-2017-1016-800	800	43	-2.243003	sehen	sehen::V	see	видеть	mit den Augen wahrnehmen	perceive with the eyes	воспринимать зрением	SEE	1409	
+Dellert-2017-1016-801	801	832	-0.043208	anschauen	anschauen::V	look at	посмотреть	den Blick richten auf	turn the eyes toward	направить взгляд на	LOOK	1819	
+Dellert-2017-1016-802	802	802	-0.04821	ansehen	ansehen::V	watch	смотреть	BSP:Film	view for a period of time, EX:movie	быть зрителем чего-либо, НАПР:фильма	WATCH	1650	
+Dellert-2017-1016-803	803	58	-2.254137	hören	hören::V	hear	слышать	mit den Ohren wahrnehmen	perceive with the ears	воспринимать звуки чего-либо	HEAR	1408	
+Dellert-2017-1016-804	804	467	-1.147701	zuhören	zuhören::V	listen	слушать	auf Gesprochenes achten	pay attention to speech	обращать внимание на речь	LISTEN	1608	
+Dellert-2017-1016-805	805	911	0.072342	probieren	probieren::V	taste	пробовать	eine Kostprobe nehmen von, abschmecken	sample the flavor of	кушанье для оценки	TASTE (SOMETHING)	21	
+Dellert-2017-1016-806	806	733	-0.034779	riechen	riechen::V	smell	нюхать	den Geruch wahrnehmen von	sense the smell of	воспринимать запах чего-либо	SMELL (PERCEIVE)	1586	
+Dellert-2017-1016-807	807	414	-1.181685	fühlen	fühlen::V	feel	чувствовать	spüren	sense	ощущать	FEEL (TACTUALLY)	2559	
+Dellert-2017-1016-808	808	664	-0.004274	scheinen	scheinen::V	seem	казаться	den Anschein haben	appear, be perceived as	производить впечатление	SEEM	1521	
+Dellert-2017-1016-809	809	696	-0.038833	zu sehen sein	zu sehen sein::V	show	виднеться	sichtbar sein	be visible	быть видным	VISIBLE	1868	
+Dellert-2017-1016-810	810	556	-0.047446	vernehmen	vernehmen::V	hear	услышать, узнать	erfahren, zu hören bekommen	receive information about	получить информацию о	HEAR	1408	
+Dellert-2017-1016-811	811	917	0.026774	frieren	frieren::V	be cold	холодно	Kälte verspüren	feel the sensation of coldness	об ощущении холода, НАПР:``мне холодно''	SHIVER	52	
+Dellert-2017-1016-812	812	570	-0.020458	tun	tun::V	do	делать	BSP:``was tust du?''	EX:``what are you doing?''	НАПР:``что ты делаешь?''	DO	813	
+Dellert-2017-1016-813	813	187	-1.161166	können	können::V	can	мочь	in der Lage sein zu	be able to	быть в состоянии	BE ABLE	972	
+Dellert-2017-1016-814	814	181	-1.182813	wollen	wollen::V	want	хотеть	wünschen	desire	иметь желание	WANT	1784	
+Dellert-2017-1016-815	815	480	-1.126721	anfangen	anfangen::V	start	начать	BSP:einen Streit	initiate, EX:a quarrel	НАПР:спор	BEGIN	1806	
+Dellert-2017-1016-816	816	382	-1.164409	beenden	beenden::V	finish	закончить	zu Ende bringen, abschließen	EX:a piece of work	НАПР:работу	FINISH	1766	
+Dellert-2017-1016-817	817	403	-1.11743	aufhören	aufhören::V	stop	перестать	die aktuelle Tätigkeit sein lassen	stop the current activity	прекратить действие	FINISH	1766	
+Dellert-2017-1016-818	818	863	-0.094677	gelingen	gelingen::V	succeed	удаться	glücken, Erfolg haben, gut ausfallen	be successful	хорошо завершиться	SUCCEED	1112	
+Dellert-2017-1016-819	819	817	-0.077539	geraten	geraten::V	turn out	оказаться	ausfallen, sich herausstellen als	result, end up	получаться	RESULT IN	1723	
+Dellert-2017-1016-820	820	117	-2.23593	öffnen	öffnen::V	open	открыть	BSP:ein Fenster	EX:a window	НАПР:окно	OPEN	1156	
+Dellert-2017-1016-821	821	338	-1.159273	schließen	schließen::V	close	закрыть	BSP:ein Fenster	EX:a window	НАПР:окно	SHUT	1046	
+Dellert-2017-1016-822	822	51	-2.280914	stellen	stellen::V	put	поставить	aufrecht hinstellen, BSP:ein Glas	in upright position, EX:a glass	поместить вертикально, НАПР:стакан	PUT	998	
+Dellert-2017-1016-823	823	160	-1.155292	setzen	setzen::V	place	посадить	in eine sitzende Position bringen	cause someone to sit	сделать так, чтобы кто-либо сел	SEAT (SOMEBODY)	2878	
+Dellert-2017-1016-824	824	80	-2.211545	legen	legen::V	lay	класть	BSP:Geld auf einen Tisch	EX:money onto a table	НАПР:деньги на стол	LAY (VERB)	2071	
+Dellert-2017-1016-825	825	496	-1.19588	berühren	berühren::V	touch	трогать	in körperlichen Kontakt kommen mit	make physical contact with	прикасаться	TOUCH	1892	
+Dellert-2017-1016-826	826	565	-0.036099	verbinden	verbinden::V	connect	связать	verknüpfen, BSP:mit Schnüren	join, EX:using strings	скрепить вместе, НАПР:верёвками	CONNECT	2862	not distinct from TIE
+Dellert-2017-1016-827	827	176	-1.19734	bedecken	bedecken::V	cover	покрыть	BSP:ein Boot mit einer Plane	EX:a boat using a canvas	НАПР:лодку плёнкой	COVER	761	
+Dellert-2017-1016-828	828	440	-1.118026	aufhängen	aufhängen::V	hang up	повесить	BSP:ein Bild	EX:a picture	НАПР:картину	HANG UP	357	
+Dellert-2017-1016-829	829	512	-1.145345	anzünden	anzünden::V	light	зажечь	BSP:eine Kerze	EX:a candle	НАПР:свечу	LIGHT (IGNITE)	737	
+Dellert-2017-1016-830	830	384	-1.156896	aufheben	aufheben::V	pick up	поднять	vom Fußboden	from the floor	взять с пола	PICK UP	371	
+Dellert-2017-1016-831	831	530	-0.093607	zurücklassen	zurücklassen::V	leave	оставить	BSP:einen Mantel zu Hause	EX:a coat at home	НАПР:пальто дома	LEAVE	1752	
+Dellert-2017-1016-832	832	215	-1.170692	verlieren	verlieren::V	lose	потерять	BSP:einen Schlüssel	EX:a key	НАПР:ключ	LOSE	1660	
+Dellert-2017-1016-833	833	759	-0.079748	fallen lassen	fallen lassen::V	drop	уронить	aus den Händen	let fall from one's hands	выпустить из рук	DROP (SOMETHING)	2866	
+Dellert-2017-1016-834	834	294	-1.168211	machen	machen::V	make	сделать	anfertigen, hervorrufen	create, bring about	совершить, изготовить	MAKE	734	
+Dellert-2017-1016-835	835	828	-0.054193	herstellen	herstellen::V	produce	изготовить	produzieren	manufacture	произвести	PRODUCE	2886	
+Dellert-2017-1016-836	836	844	-0.009776	bauen	bauen::V	build	строить	BSP:ein Haus	EX:a house	НАПР:дом	BUILD	1840	
+Dellert-2017-1016-837	837	729	-0.043419	reparieren	reparieren::V	repair, mend	чинить	BSP:ein Auto	EX:a car	НАПР:машину	REPAIR	2243	
+Dellert-2017-1016-838	838	801	-0.048424	verbessern	verbessern::V	improve	улучшить	besser machen	make better	сделать лучше	IMPROVE (SOMETHING)	2872	
+Dellert-2017-1016-839	839	456	-1.179458	ändern	ändern::V	alter	изменить	anders machen	make different	сделать иным	CHANGE	1264	
+Dellert-2017-1016-840	840	157	-1.166593	graben	graben::V	dig	копать, рыть	in Erde	in earth	землю	DIG	1418	
+Dellert-2017-1016-841	841	523	-1.118683	beugen	beugen::V	bow	согнуть	BSP:den Arm	EX:the arm	НАПР:руку	BEND	2004	
+Dellert-2017-1016-842	842	286	-1.192001	biegen	biegen::V	bend	погнуть	BSP:ein Rohr	EX:a pipe	НАПР:трубу	BEND (SOMETHING)	2224	
+Dellert-2017-1016-843	843	604	-0.04799	drehen	drehen::V	spin	вертеть	BSP:einen Spieß	EX:a skewer	НАПР:вертел	TURN (SOMETHING)	1445	
+Dellert-2017-1016-844	844	647	-0.044863	wenden	wenden::V	turn over	перевернуть	BSP:Pfannkuchen, Fleischstücke	EX:pancakes, pieces of meat	положить на другую сторону, НАПР:блины, куски мяса	TURN (SOMETHING)	1445	
+Dellert-2017-1016-845	845	967	0.02789	umdrehen	umdrehen::V	turn, turn around	повернуть, поворачивать	BSP:die Hand	EX:palm	НАПР:ладонь	TURN AROUND	1444	
+Dellert-2017-1016-846	846	221	-1.150496	heben	heben::V	raise	поднимать	BSP:die Hand	EX:one's hand	переместить в верхнее положение, НАПР:руку, голову	LIFT	501	
+Dellert-2017-1016-847	847	504	-1.173664	hochheben	hochheben::V	lift	поднять	BSP:eine Kiste	EX:a box	что-то тяжёлое, НАПР:ящик	LIFT	501	
+Dellert-2017-1016-848	848	860	-0.013547	ergreifen	ergreifen::V	seize	схватить	in die Hand nehmen, BSP:ein Messer	grab, EX:a knife	хватать, НАПР:нож	GRASP	2021	
+Dellert-2017-1016-849	849	93	-2.260106	halten	halten::V	hold	держать	in Händen	in one's hands	в руках	HOLD	1448	
+Dellert-2017-1016-850	850	364	-1.103148	drücken	drücken::V	press	нажимать	Druck erzeugen auf	exert weight or force against	надавливать	PRESS	1913	
+Dellert-2017-1016-851	851	868	-0.087342	schieben	schieben::V	push	толкать	BSP:eine Kiste	shove, EX:a box	НАПР:ящик	PUSH	1452	
+Dellert-2017-1016-852	852	807	-0.040778	kratzen	kratzen::V	scrape	скрести	BSP:mit Messer auf Teller	EX:a plate using a knife	НАПР:ножом по тарелке	SCRAPE	1767	
+Dellert-2017-1016-853	853	148	-2.202041	lecken	lecken::V	lick	лизать	BSP:eine Wunde	EX:a wound	НАПР:рану	LICK	319	
+Dellert-2017-1016-854	854	266	-1.139337	beißen	beißen::V	bite	кусать, укусить	BSP:ein Kind, von einem Hund	EX:a child, of a dog	НАПР:собака укусила ребёнка	BITE	1403	
+Dellert-2017-1016-855	855	522	-1.119245	abreißen	abreißen::V	tear off	оторвать	BSP:Arm einer Puppe	EX:a doll's arm	НАПР:руку у куклы	TEAR (SHRED)	1735	
+Dellert-2017-1016-856	856	760	-0.078726	abschneiden	abschneiden::V	cut off	отрезать	BSP:ein Stück Kuchen	EX:a piece of cake	НАПР:кусок пирога	CUT	1432	
+Dellert-2017-1016-857	857	52	-2.272992	binden	binden::V	tie	связать	BSP:mit einem Seil	EX:using a rope	НАПР:верёвкой	TIE	1917	
+Dellert-2017-1016-858	858	649	-0.038414	stecken	stecken::V	stick	воткнуть	hineinstecken, BSP:Zweig in Loch	EX:a twig into a hole	НАПР:палку в землю	STICK	1295	
+Dellert-2017-1016-859	859	209	-1.178073	brechen	brechen::V	break	сломать	BSP:einen Knochen	EX:a bone	НАПР:кость	BREAK (DESTROY OR GET DESTROYED)	680	
+Dellert-2017-1016-860	860	790	-0.092148	klopfen	klopfen::V	knock	стучать	BSP:an eine Wand	EX:on a wall	НАПР:по стене	KNOCK	2396	
+Dellert-2017-1016-861	861	322	-1.190448	hauen	hauen::V	hit	ударить	BSP:auf einen Tisch	on purpose, EX:a table	EX:по столу	HIT	1433	
+Dellert-2017-1016-862	862	609	-0.041727	kleben	kleben::V	glue	клеить, приклеить	BSP:ein Plakat an eine Wand	EX:a poster to a wall	НАПР:афишу к стене	GLUE	1069	
+Dellert-2017-1016-863	863	366	-1.196142	reiben	reiben::V	rub	тереть	reiben an, BSP:das Glas mit einem Tuch	EX:glass with a rag	НАПР:мехом о камень	RUB	1449	
+Dellert-2017-1016-864	864	329	-1.177395	streichen	streichen::V	spread	намазать	aufstreichen, BSP:Fett auf Oberfläche	EX:fat on a surface	НАПР:жир на поверхность	SPREAD OUT	38	
+Dellert-2017-1016-865	865	626	-0.09971	schleifen	schleifen::V	sharpen	точить	BSP:ein Messer	EX:a knife	НАПР:нож	SHARPEN (SOMETHING)	251	
+Dellert-2017-1016-866	866	293	-1.170564	schneiden	schneiden::V	cut	резать	BSP:Papier	EX:paper	НАПР:бумагу	CUT	1432	
+Dellert-2017-1016-867	867	929	0.05263	rütteln	rütteln::V	jog	шатать	BSP:an einer Tür	EX:on a door	НАПР:дверь	JOG (SOMETHING)	2899	
+Dellert-2017-1016-868	868	474	-1.139991	schütteln	schütteln::V	shake	трясти	BSP:eine Flasche	EX:a bottle	НАПР:бутылку	SHAKE	1909	
+Dellert-2017-1016-869	869	520	-1.125247	schwenken	schwenken::V	swing	махать	BSP:eine Fahne, ein Tuch	EX:a flag, cloth	НАПР:знаменем, платком	SWING (SOMETHING)	2901	
+Dellert-2017-1016-870	870	283	-1.100002	schütten	schütten::V	pour	налить	BSP:Wasser in ein Glas	EX:water into a glass	НАПР:воду в стакан	POUR	1487	
+Dellert-2017-1016-871	871	200	-1.11008	füllen	füllen::V	fill	наполнить	BSP:ein Glas mit Wasser	EX:a glass with water	НАПР:стакан водой	FILL	2006	
+Dellert-2017-1016-872	872	505	-1.17274	einwickeln	einwickeln::V	wrap	завернуть	BSP:einen Fisch mit Papier	EX:a fish in paper	НАПР:рыбу в бумагу	WRAP	1113	
+Dellert-2017-1016-873	873	371	-1.185959	tragen	tragen::V	carry	нести	BSP:eine Kiste	EX:a box	НАПР:ящик	CARRY	700	
+Dellert-2017-1016-874	874	736	-0.025092	schleppen	schleppen::V	drag	тащить	BSP:Baumstamm	EX:the trunk of a tree	НАПР:ствол дерева	DRAG	2030	
+Dellert-2017-1016-875	875	219	-1.160575	ziehen	ziehen::V	pull	тянуть	BSP:an einer Schnur	EX:a rope	НАПР:верёвку	PULL	1455	
+Dellert-2017-1016-876	876	635	-0.081575	aufbewahren	aufbewahren::V	keep	хранить	BSP:Lebensmittel Geld	EX:food, money	НАПР:продукты, деньги	KEEP	1477	
+Dellert-2017-1016-877	877	723	-0.054351	werfen	werfen::V	throw	бросать	BSP:einen Ball	EX:a ball	НАПР:мяч	THROW	1456	
+Dellert-2017-1016-878	878	285	-1.192343	fangen	fangen::V	catch	ловить	auffangen, BSP:Ball	EX:a ball	НАПР:мяч	CATCH	702	
+Dellert-2017-1016-879	879	873	-0.045431	packen	packen::V	grab	схватить	BSP:jemandes Arm	EX:someone's arm	НАПР:за руку	SEIZE	855	
+Dellert-2017-1016-880	880	410	-1.188558	verstecken	verstecken::V	hide	спрятать				HIDE (CONCEAL)	602	
+Dellert-2017-1016-881	881	150	-1.194771	teilen	teilen::V	divide	разделить	zerteilen	split into parts	разъединить	DIVIDE	1119	
+Dellert-2017-1016-882	882	337	-1.159681	schicken	schicken::V	send	посылать	BSP: einen Brief	EX:a letter	НАПР:письмо	SEND	1127	
+Dellert-2017-1016-883	883	145	-2.2139	bringen	bringen::V	bring	принести				BRING	692	
+Dellert-2017-1016-884	884	750	-0.091771	hinzufügen	hinzufügen::V	add	добавить				ADD	2882	
+Dellert-2017-1016-885	885	102	-2.221503	bekommen	bekommen::V	get	достать	beschaffen, sich verschaffen	obtain, EX:an important item		GET	694	
+Dellert-2017-1016-886	886	251	-1.176509	erhalten	erhalten::V	receive	получить	empfangen	be given		GET	694	
+Dellert-2017-1016-887	887	11	-3.337664	nehmen	nehmen::V	take	взять				TAKE	1749	
+Dellert-2017-1016-888	888	233	-1.126605	wählen	wählen::V	choose	выбрать	die Wahl haben zwischen			CHOOSE	1750	
+Dellert-2017-1016-889	889	437	-1.125686	auswählen	auswählen::V	select	отобрать	sich entscheiden zwischen, aussuchen			CHOOSE	1750	
+Dellert-2017-1016-890	890	769	-0.052355	bewahren	bewahren::V	preserve	сохранить	aufrechterhalten, unverändert lassen			PRESERVE	1997	
+Dellert-2017-1016-891	891	948	0.067861	behindern	behindern::V	hinder	препятствовать			НАПР:движению	HINDER	554	
+Dellert-2017-1016-892	892	886	0.02841	verderben	verderben::V	spoil	испортить	BSP:Laune	EX:the mood	НАПР:настроение	SPOIL (SOMEBODY OR SOMETHING)	92	
+Dellert-2017-1016-893	893	859	-0.017062	beschädigen	beschädigen::V	damage	повредить	BSP:Haus, Fahrzeug	EX:a house, a vehicle	НАПР:дом, машину	DAMAGE	1116	
+Dellert-2017-1016-894	894	535	-0.082461	zerbrechen	zerbrechen::V	break	разбить	BSP:einen Teller	EX:a plate	НАПР:тарелку	BREAK (CLEAVE)	2558	
+Dellert-2017-1016-895	895	513	-1.145133	zerreißen	zerreißen::V	tear	разорвать	BSP:Lappen	EX:a cloth	НАПР:тряпку	TEAR (SHRED)	1735	TEAR (SHRED) is described as “tear apart from” (see abreißen::V), and not as “shred”
+Dellert-2017-1016-896	896	818	-0.075699	zerstören	zerstören::V	destroy	разрушить	BSP:Dorf	EX:a village	НАПР:село	DESTROY	681	
+Dellert-2017-1016-897	897	289	-1.183587	verbrennen	verbrennen::V	burn	сжечь	BSP:Papier, Holz	EX:paper, wood	НАПР:бумагу, дрова	BURN (SOMETHING)	141	
+Dellert-2017-1016-898	898	2	-3.382883	geben	geben::V	give	дать	allgemein, BSP:Gegenstand			GIVE	1447	
+Dellert-2017-1016-899	899	309	-1.139581	reichen	reichen::V	hand	передать	hinüberreichen, BSP:dsa Salz bei Tisch	BSP:salt at table	НАПР:соль за столом	HAND	1277	
+Dellert-2017-1016-900	900	745	-0.004299	schenken	schenken::V	give	дарить	BSP:ein Buch	as a present, EX:a book	НАПР:книгу	DONATE	196	
+Dellert-2017-1016-901	901	811	-0.021625	versprechen	versprechen::V	promise	обещать				PROMISE	1675	
+Dellert-2017-1016-902	902	588	-0.075626	wünschen	wünschen::V	wish	желaть	jm etwas, BSP:Glück	ЕX:luck	НАПР:счастья	WANT	1784	
+Dellert-2017-1016-903	903	261	-1.142721	loben	loben::V	praise	хвалить				PRAISE	1687	
+Dellert-2017-1016-904	904	724	-0.051244	küssen	küssen::V	kiss	целовать				KISS	578	
+Dellert-2017-1016-905	905	615	-0.033801	wiegen	wiegen::V	rock	качать	ein Kind in den Schlaf	a child	ребёнка	STONE OR ROCK	2125	
+Dellert-2017-1016-906	906	308	-1.141124	zudecken	zudecken::V	cover	накрыть	BSP:ein Kind mit einer Decke	EX:a child with a blanket	НАПР:ребёнка одеялом	COVER	761	
+Dellert-2017-1016-907	907	388	-1.142837	wecken	wecken::V	wake	разбудить				WAKE UP	1602	
+Dellert-2017-1016-908	908	340	-1.154715	zeigen	zeigen::V	show	показать				SHOW	1039	
+Dellert-2017-1016-909	909	508	-1.157343	führen	führen::V	guide	вести	BSP:ans Ziel	EX:to one's destination	НАПР:к цели	LEAD (GUIDE)	43	not distinct from LEAD (GUIDE)
+Dellert-2017-1016-910	910	369	-1.191239	lehren	lehren::V	teach	учить	beibringen, BSP:Schwimmen, Nähen	EX:to swim, to sew	НАПР:плавать, шитью	TEACH	709	
+Dellert-2017-1016-911	911	704	-0.01729	unterrichten	unterrichten::V	instruct	преподавать, обучать	BSP:Kinder	EX:children	НАПР:детям	TEACH	709	
+Dellert-2017-1016-912	912	764	-0.065493	aufziehen	aufziehen::V	bring up	растить	großziehen, BSP:ein Kind	raise, ЕX:a child	НАПР:ребёнка	RAISE (A CHILD)	2134	
+Dellert-2017-1016-913	913	796	-0.071896	leiten	leiten::V	lead	руководить	anführen			LEAD (GUIDE)	43	
+Dellert-2017-1016-914	914	924	0.008072	antreiben	antreiben::V	urge	подгонять	zur Eile treiben		торопить	URGE (SOMEONE)	2881	
+Dellert-2017-1016-915	915	814	-0.008394	lassen	lassen::V	let	заставить			кого-либо сделать что-то	CAUSE TO (LET)	2896	
+Dellert-2017-1016-916	916	557	-0.047427	einladen	einladen::V	invite	пригласить	nach Hause	to one's place	домой	INVITE	1611	
+Dellert-2017-1016-917	917	816	-0.081565	vereinigen	vereinigen::V	unite	объединить				JOIN	1743	
+Dellert-2017-1016-918	918	962	0.099967	besuchen	besuchen::V	visit	повидать, посетить	BSP:einen Freund	EX:a friend	НАПР:друга	VISIT	1377	
+Dellert-2017-1016-919	919	758	-0.081395	treffen	treffen::V	meet	встретить	jemanden	someone	кого-то	MEET	1831	not MEET
+Dellert-2017-1016-920	920	833	-0.038883	sich versammeln	sich versammeln::V	assemble	собраться	von einer Gruppe	of a group	о группе	MEET	1831	
+Dellert-2017-1016-921	921	439	-1.120828	spielen	spielen::V	play	играть	BSP:von Kindern	EX:of children	НАПР:о детях	PLAY	1413	
+Dellert-2017-1016-922	922	275	-1.120117	singen	singen::V	sing	петь				SING	1261	
+Dellert-2017-1016-923	923	685	-0.052985	tanzen	tanzen::V	dance	плясать, танцевать				DANCE	1879	
+Dellert-2017-1016-924	924	893	0.06391	sich trennen	sich trennen::V	separate	разойтись	verschiedener Wege gehen	part ways		SEPARATE	1359	
+Dellert-2017-1016-925	925	376	-1.175487	verlassen	verlassen::V	leave	покинуть	jemanden	someone	кого-то	LEAVE	1752	
+Dellert-2017-1016-926	926	658	-0.021409	retten	retten::V	rescue	спасти	jemanden	someone	кого-то	RESCUE	2008	
+Dellert-2017-1016-927	927	737	-0.023238	bewachen	bewachen::V	guard	охранять	BSP:Gebäude	EX:a building	НАПР:здание	GUARD	1940	POS
+Dellert-2017-1016-928	928	748	-0.094972	schützen	schützen::V	protect	уберегать	Person	a person	человека	PROTECT	2900	
+Dellert-2017-1016-929	929	700	-0.023868	verteidigen	verteidigen::V	defend	защитить	BSP:Stadt, Staat	EX:city, state	НАПР:город, государство	DEFEND	1330	
+Dellert-2017-1016-930	930	546	-0.067805	sich schlagen	sich schlagen::V	brawl	драться	sich prügeln			BRAWL (FIGHT)	2902	
+Dellert-2017-1016-931	931	350	-1.13346	schießen	schießen::V	shoot	стрелять	BSP:mit einem Gewehr	EX:with a gun	НАПР:из ружья	SHOOT	1172	
+Dellert-2017-1016-932	932	515	-1.13437	siegen	siegen::V	win	победить				WIN	866	
+Dellert-2017-1016-933	933	955	0.005035	ärgern	ärgern::V	annoy	сердить				MAKE ANGRY (ANNOY)	2892	
+Dellert-2017-1016-934	934	558	-0.046352	schlagen	schlagen::V	beat	ударить	jemanden	someone	кого-то	BEAT	1665	
+Dellert-2017-1016-935	935	856	-0.024994	treten	treten::V	kick	пнуть	jemanden, einen Hund	someone, a dog	кого-то, собаку	KICK	1135	
+Dellert-2017-1016-936	936	606	-0.045148	stechen	stechen::V	sting	уколоть	BSP:mit einer Nadel	EX:with a needle	НАПР:иглой	STING	571	
+Dellert-2017-1016-937	937	684	-0.056466	stoßen	stoßen::V	shove	толкнуть	jemanden	someone	кого-то	PUSH	1452	
+Dellert-2017-1016-938	938	228	-1.13904	stehlen	stehlen::V	steal	украсть				STEAL	713	
+Dellert-2017-1016-939	939	901	0.03309	stören	stören::V	disturb	помешать				DISTURB	2883	
+Dellert-2017-1016-940	940	966	0.025794	belästigen	belästigen::V	bother	беспокоить, потревожить				BOTHER (HARASS)	2869	
+Dellert-2017-1016-941	941	598	-0.061851	verbergen	verbergen::V	conceal	скрыть	BSP:eine Tatsache	EX:a fact	НАПР:факт	HIDE (CONCEAL)	602	
+Dellert-2017-1016-942	942	862	-0.096565	täuschen	täuschen::V	deceive	обмануть	in die Irre führen		ввести в заблуждение	BETRAY	1902	
+Dellert-2017-1016-943	943	961	0.079686	betrügen	betrügen::V	cheat	смошенничать	BSP:jemanden um Geld	EX:someone of money		BETRAY	1902	
+Dellert-2017-1016-944	944	76	-2.228426	töten	töten::V	kill	убить				KILL	1417	
+Dellert-2017-1016-945	945	324	-1.187722	wohnen	wohnen::V	dwell	проживать, жить				DWELL (LIVE, RESIDE)	363	
+Dellert-2017-1016-946	946	650	-0.037503	arbeiten	arbeiten::V	work	работать				WORK (ACTIVITY)	1086	
+Dellert-2017-1016-947	947	428	-1.144594	sammeln	sammeln::V	gather	собрать	BSP:Pilze, Beeren	EX:mushrooms, berries	НАПР:грибы, ягоды	GATHER	7	
+Dellert-2017-1016-948	948	544	-0.069326	pflücken	pflücken::V	pick	рвать	BSP:einen Apfel	EX:an apple	НАПР:яблоко с дерева	PICK	2148	
+Dellert-2017-1016-949	949	673	-0.096218	jagen	jagen::V	hunt	охотиться	auf die Jagd gehen			HUNT	1435	
+Dellert-2017-1016-950	950	916	0.088242	fischen	fischen::V	fish	рыбачить		catch fish	ловить рыбу	FISHING	2638	
+Dellert-2017-1016-951	951	416	-1.173761	fassen	fassen::V	catch	поймать	erbeuten, fangen	an animal	животное на охоте	CATCH	702	
+Dellert-2017-1016-952	952	590	-0.072541	hüten	hüten::V	herd	пасти	Vieh	cattle	скот	HERD (SOMETHING)	2885	
+Dellert-2017-1016-953	953	282	-1.104607	treiben	treiben::V	drive	гнать	Vieh	cattle	скот	DRIVE (CATTLE)	2868	
+Dellert-2017-1016-954	954	276	-1.118999	anbinden	anbinden::V	tie up	привязать	ein Tier	an animal	животное	TIE UP (TETHER)	2891	
+Dellert-2017-1016-955	955	528	-1.106449	füttern	füttern::V	feed	кормить	ein Tier	an animal	животное	FEED	739	
+Dellert-2017-1016-956	956	249	-1.186193	melken	melken::V	milk	доить	eine Kuh	a cow	корову	DRAW MILK	93	
+Dellert-2017-1016-957	957	621	-0.006171	hacken	hacken::V	chop	рубить	BSP:Kohl	EX:kale	НАПР:капусту	CHOP	155	
+Dellert-2017-1016-958	958	323	-1.187874	gießen	gießen::V	water	полить	BSP:Blumen	EX:flowers	НАПР:цветы	POUR	1487	
+Dellert-2017-1016-959	959	589	-0.072859	reifen	reifen::V	ripen	созреть	von einer Pflanze, einer Frucht	of a plant, of a fruit	о растении, о плоде	RIPEN	179	
+Dellert-2017-1016-960	960	585	-0.0835	zubereiten	zubereiten::V	cook	приготовить	BSP:eine Speise	EX:a meal	НАПР:блюдо	COOK (SOMETHING)	1100	
+Dellert-2017-1016-961	961	136	-2.247943	kochen	kochen::V	boil	варить	BSP:Gemüse	EX:vegetables	НАПР:овощи	BOIL (SOMETHING)	2492	
+Dellert-2017-1016-962	962	475	-1.138628	backen	backen::V	bake	печь	BSP:Brot, einen Kuchen	EX:bread, a cake	НАПР:хлеб, пирог	BAKE	183	
+Dellert-2017-1016-963	963	536	-0.080833	braten	braten::V	fry	жарить	BSP:Fleisch	EX:meat	НАПР:мясо	FRY	991	
+Dellert-2017-1016-964	964	567	-0.029943	umrühren	umrühren::V	stir	помешать, перемешать	BSP:Suppe	EX:soup	НАПР:суп	STIR	696	
+Dellert-2017-1016-965	965	419	-1.170283	stricken	stricken::V	knit	вязать	BSP:eine Jacke	EX:a jacket	НАПР:кофту	KNIT	2905	
+Dellert-2017-1016-966	966	94	-2.257639	nähen	nähen::V	sew	шить				SEW	1457	
+Dellert-2017-1016-967	967	820	-0.07341	färben	färben::V	dye	покрасить	BSP:Haare	EX:hair	НАПР:волосы	DYE	157	
+Dellert-2017-1016-968	968	836	-0.03444	reinigen	reinigen::V	clean	очистить, почистить	BSP:mit einer Bürste	EX:using a brush	НАПР:щёткой	CLEAN (SOMETHING)	2235	
+Dellert-2017-1016-969	969	101	-2.230289	waschen	waschen::V	wash	стирать	BSP:Wäsche	EX:clothes	НАПР:бельё	WASH	1453	
+Dellert-2017-1016-970	970	622	-0.005718	abwischen	abwischen::V	wipe	вытереть				WIPE	1454	
+Dellert-2017-1016-971	971	628	-0.093587	spülen	spülen::V	rinse	полоскать	BSP:Wäsche, Geschirr	EX:clothes, dishes	НАПР:бельё, посуду	RINSE	2904	
+Dellert-2017-1016-972	972	408	-1.106639	fegen	fegen::V	sweep	подметать	BSP:Zimmer	EX:a room	НАПР:комнату	SWEEP	230	not SWEEP
+Dellert-2017-1016-973	973	773	-0.034864	kehren	kehren::V	sweep	мести	BSP:Laub	EX:leaves	НАПР:листья, двор	SWEEP	230	
+Dellert-2017-1016-974	974	576	-0.00615	baden	baden::V	bath	купаться	BSp:in einem Fluss	EX:in a river	НАПР:в реке	BATHE	138	
+Dellert-2017-1016-975	975	424	-1.151453	sich waschen	sich waschen::V	wash	мыться				WASH	1453	
+Dellert-2017-1016-976	976	755	-0.08271	ausziehen	ausziehen::V	take off	снять	BSP:den Mantel	EX:one's coat	НАПР:пальто	UNDRESS	1755	
+Dellert-2017-1016-977	977	607	-0.044519	anziehen	anziehen::V	put on	надеть	BSP:den Mantel	EX:one's coat	НАПР:пальто	PUT ON	158	
+Dellert-2017-1016-978	978	742	-0.009286	sich anziehen	sich anziehen::V	get dressed	одеться				DRESS UP	814	
+Dellert-2017-1016-979	979	646	-0.051208	kämmen	kämmen::V	comb	причесать			кого-то, НАПР:дочь	COMB (VERB)	2070	
+Dellert-2017-1016-980	980	809	-0.030631	schmücken	schmücken::V	decorate	украсить	BSP:ein Haus	EX:a house	НАПР:дом	DECORATE	1739	
+Dellert-2017-1016-981	981	114	-2.258457	sagen	sagen::V	say	сказать				SAY	1458	
+Dellert-2017-1016-982	982	345	-1.145579	sprechen	sprechen::V	speak	говорить				SPEAK	1623	
+Dellert-2017-1016-983	983	812	-0.020568	reden	reden::V	talk	разговаривать				TALK	2708	
+Dellert-2017-1016-984	984	987	0.092396	sich unterhalten	sich unterhalten::V	chat	беседовать				CHAT (WITH SOMEBODY)	2903	
+Dellert-2017-1016-985	985	643	-0.056512	fragen	fragen::V	ask	спросить				ASK (INQUIRE)	1309	
+Dellert-2017-1016-986	986	214	-1.171588	bitten	bitten::V	request	просить				ASK (REQUEST)	1828	
+Dellert-2017-1016-987	987	829	-0.053267	erzählen	erzählen::V	tell	рассказать				TELL	1711	
+Dellert-2017-1016-988	988	762	-0.070104	mitteilen	mitteilen::V	convey	сообщить				CONVEY (A MESSAGE)	2898	
+Dellert-2017-1016-989	989	991	1.156512	nennen	nennen::V	name	назвать	benennen	give a name to	давать имя	CALL BY NAME	180	
+Dellert-2017-1016-990	990	468	-1.147637	rufen	rufen::V	call	звать, позвать	herbeirufen	someone to come	кого-то	CALL	1084	
+Dellert-2017-1016-991	991	998	1.120687	prahlen	prahlen::V	brag	хвастаться				BOAST	101	
+Dellert-2017-1016-992	992	942	0.037371	übersetzen	übersetzen::V	translate	перевести	BSP:Text	EX:text	НАПР:текст	TRANSLATE	2906	
+Dellert-2017-1016-993	993	577	-0.005234	denken	denken::V	think	думать				THINK (REFLECT)	1415	
+Dellert-2017-1016-994	994	196	-1.125419	glauben	glauben::V	believe	верить				BELIEVE	1890	
+Dellert-2017-1016-995	995	852	-0.049321	bemerken	bemerken::V	notice	заметить	merken, sich bewusst werden			NOTICE (SOMETHING)	2893	
+Dellert-2017-1016-996	996	328	-1.183136	erkennen	erkennen::V	recognize	узна́ть	wiedererkennen			RECOGNIZE (SOMEBODY)	2870	
+Dellert-2017-1016-997	997	771	-0.042509	begreifen	begreifen::V	grasp	пости́чь, поня́ть	verstandesmäßig	understand, become aware of the meaning of	усвоить смысл чего-либо	UNDERSTAND	1536	
+Dellert-2017-1016-998	998	438	-1.123614	verstehen	verstehen::V	understand	услышать	akustisch, BSP:einen Zuruf	acoustically, EX:a call	НАПР:оклик	UNDERSTAND	1536	
+Dellert-2017-1016-999	999	391	-1.137368	lernen	lernen::V	learn	учиться	BSP:zu nähen	EX:to sew	НАПР:шитью	LEARN	504	
+Dellert-2017-1016-1000	1000	64	-2.294674	wissen	wissen::V	know	знать	Kenntnis haben von	be aware of	быть осведомленным о	KNOW (SOMETHING)	1410	
+Dellert-2017-1016-1001	1001	864	-0.092023	sich erinnern an	sich erinnern an::V	remember	вспомнить	aus dem Gedächtnis zurückholen	recall from one's memory	вернуться мыслью к	REMEMBER	707	
+Dellert-2017-1016-1002	1002	501	-1.177742	vergessen	vergessen::V	forget	забыть	die Erinnerung verlieren an	lose remembrance of	утратить воспоминание о	FORGET	1523	
+Dellert-2017-1016-1003	1003	315	-1.109279	messen	messen::V	measure	мерить	BSP:die Höhe bestimmen von	EX:ascertain the height of	НАПР:определять величину чего-либо	MEASURE	1506	
+Dellert-2017-1016-1004	1004	299	-1.151128	zählen	zählen::V	count	считать	die Anzahl bestimmen von	determine the number of	перечислять по порядку	COUNT	1420	
+Dellert-2017-1016-1005	1005	680	-0.067109	rechnen	rechnen::V	calculate	считать	mit Zahlen	reckon	вычислять	CALCULATE	2867	
+Dellert-2017-1016-1006	1006	79	-2.22331	lesen	lesen::V	read	читать	BSP:Buch	EX:a book	НАПР:книгу	READ	724	
+Dellert-2017-1016-1007	1007	789	-0.092526	malen	malen::V	paint	рисовать	BSP:Bild	EX:a picture	НАПР:картину	PAINTING	2001	
+Dellert-2017-1016-1008	1008	738	-0.021588	zeichnen	zeichnen::V	draw	рисовать	BSP:Linie	EX:a line	НАПР:линию	PAINTING	2001	
+Dellert-2017-1016-1009	1009	168	-1.127829	schreiben	schreiben::V	write	писать	BSP:Brief	EX:a letter	НАПР:письмо	WRITE	1672	
+Dellert-2017-1016-1010	1010	352	-1.127095	besitzen	besitzen::V	own	иметь	als Eigentum haben	possess	в своей собственности	OWN	684	
+Dellert-2017-1016-1011	1011	139	-2.232848	kaufen	kaufen::V	buy	купить	BSP:Ware	EX:goods	НАПР:товар	BUY	1869	
+Dellert-2017-1016-1012	1012	140	-2.229052	verkaufen	verkaufen::V	sell	продать	BSP:Ware	EX:goods	НАПР:товар	SELL	1571	
+Dellert-2017-1016-1013	1013	198	-1.122012	bezahlen	bezahlen::V	pay for	заплатить	BSP:Ware	EX:goods	НАПР:за товар	PAY	718	
+Dellert-2017-1016-1014	1014	235	-1.115766	zahlen	zahlen::V	pay	платить	BSP:im Restaurant	EX:in a restaurant	НАПР:в ресторане	PAY	718	
+Dellert-2017-1016-1015	1015	899	0.018183	beherrschen	beherrschen::V	rule	владеть	BSP:Land	EX:country	НАПР:страной	RULE	1846	
+Dellert-2017-1016-1016	1016	751	-0.091453	ertragen	ertragen::V	endure	вытерпеть	BSP:Schmerz	EX:pain	выдержать, НАПР:боль	ENDURE	833	

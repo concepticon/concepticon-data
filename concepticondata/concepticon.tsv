@@ -1074,7 +1074,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1073	CAPTIVE	Warfare and hunting	A person held against his will.	Person/Thing	1072
 1074	FISHHOOK	Warfare and hunting	A metal hook for catching fish.	Person/Thing	
 1075	TRAP (PITFALL)	Warfare and hunting	A device for catching and holding animals.	Person/Thing	
-1076	EMERGE, APPEAR	Basic actions and technology	To become known or apparent.	Action/Process	
+1076	EMERGE (APPEAR)	Basic actions and technology	To become known or apparent.	Action/Process	
 1077	WHEAT	Agriculture and vegetation	Plant belonging to genus Triticum and to family Poaceae (also known as Gramineae).	Person/Thing	
 1078	MAIN	Cognition	The most important element.	Other	
 1079	FEEL	Sense perception	To be in some emotional state.	Action/Process	
@@ -2843,3 +2843,165 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2842	TURMERIC	Agriculture and vegetation	A rhizomatous herbaceous perennial plant (Curcuma longa) of the ginger family.	Person/Thing	
 2843	CAULIFLOWER	Food and drink	One of several vegetables in the species Brassica oleracea in the genus Brassica.	Person/Thing	
 2844	YOU (FORMAL ADDRESS)	Kinship	The formal way to address the second person.	Other	
+2845	SIZE (OF OBJECT)	Spatial relations	The height of objects.	Person/Thing	
+2846	MARCH	Time	The third month of the Gregorian calendar.	Person/Thing	
+2847	APRIL	Time	The 4th month of the Gregorian calendar.	Person/Thing	
+2848	MAY (MONTH)	Time	The 5th month of the Gregorian calendar.	Person/Thing	
+2849	JUNE	Time	The 6th month of the Gregorian calendar.	Person/Thing	
+2850	JULY	Time	The 7th month of the Gregorian calendar.	Person/Thing	
+2851	AUGUST	Time	The 8th month of the Gregorian calendar.	Person/Thing	
+2852	SEPTEMBER	Time	The 9th month of the Gregorian calendar.	Person/Thing	
+2853	OCTOBER	Time	The 10th month of the Gregorian calendar.	Person/Thing	
+2854	NOVEMBER	Time	The 11th month of the Gregorian calendar.	Person/Thing	
+2855	DECEMBER	Time	The 12th month of the Gregorian calendar.	Person/Thing	
+2856	CHANGE (SOMETHING)	Spatial relations	To modify something.	Action/Process	
+2857	CHANGE (BECOME DIFFERENT)	Spatial relations	To be modified.	Action/Process	
+2858	STREAM (FLOW CONTINUOUSLY)	Spatial relations	To flow in a continous manner (like the water in a river).	Action/Process	
+2859	SMOKE (EMIT SMOKE)	Basic actions and technology	To emit smoke (such as something which burns).	Action/Process	
+2860	BOLT (MOVE IN HASTE)	Motion	Move in great haste.	Action/Process	
+2861	BUDGE (ONESELF)	Motion	To move oneself.	Action/Process	
+2862	CONNECT	Motion	To link two objects with each other.	Action/Process	
+2863	DASH (OF VEHICLE)	Motion	To move quickly (of a vehicle).	Action/Process	
+2864	DECREASE	Basic actions and technology	A reduction in number or size.	Action/Process	
+2865	DIE (FROM ACCIDENT)	Basic actions and technology	To cease to live due to unforeseen circumstances.	Action/Process	
+2866	DROP (SOMETHING)	Basic actions and technology	To let something fall down.	Action/Process	
+2867	CALCULATE	Modern world	To determine by mathematical processes.	Action/Process	
+2868	DRIVE (CATTLE)	Animals	To impart a forward motion to by physical force.	Action/Process	
+2869	BOTHER (HARASS)	Emotions and values	To annoy persistently.	Action/Process	
+2870	RECOGNIZE (SOMEBODY)	Basic actions and technology	Perceive to see something or someone previously known.	Action/Process	
+2871	SWING (MOVEMENT)	Basic actions and technology	To move freely to and fro.	Action/Process	
+2872	IMPROVE (SOMETHING)	Basic actions and technology	Improvement is the process of a thing moving from one state to a state considered to be better, usually through some action intended to bring about that better state.	Action/Process	
+2873	MOVE (AFFECT EMOTIONALLY)	Basic actions and technology	To affect somebody emotionally.	Action/Process	
+2874	MOVE (ONESELF)	Basic actions and technology	To get oneself in motion in order to arrive at some other place.	Action/Process	
+2875	RING (MAKE SOUND)	Basic actions and technology	Ring most broadly refers to a hollow circular shape or to a high-pitched sound.	Action/Process	
+2876	ROAR (OF SEA)	Basic actions and technology	A sound emitted by a stormy sea.	Action/Process	
+2877	RUSTLE (OF LEAVES)	Basic actions and technology	A sound emitted by leaves moving in the trees.	Action/Process	
+2878	SEAT (SOMEBODY)	Basic actions and technology	To cause somebody to sit (e.g. by offering a seat).	Action/Process	
+2879	SOUND (OF INSTRUMENT OR VOICE)	Basic actions and technology	The noise emitted by musical instruments or humans speaking.	Action/Process	
+2880	HALT (STOP)	Basic actions and technology	To halt one’s movement.	Action/Process	
+2881	URGE (SOMEONE)	Emotions and values	Urge means a strong desire.	Action/Process	
+2882	ADD	Basic actions and technology	Join or unite so as to bring about an increase.	Action/Process	
+2883	DISTURB	Emotions and values	Interfere with somebody.	Action/Process	
+2884	HANG	Basic actions and technology	Remain suspended to some point above.	Action/Process	
+2885	HERD (SOMETHING)	Basic actions and technology	Keep or move animals together.	Action/Process	
+2886	PRODUCE	Modern world	To cause to have existence.	Action/Process	
+2887	THAW (DEW)	Basic actions and technology	Go from a frozen to a liquid state.	Action/Process	
+2888	TINKLE	Basic actions and technology	Emit a sound suggestive of a tinkle.	Action/Process	
+2889	TWINKLE	Basic actions and technology	Shine with flickering light.	Action/Process	
+2890	WALK (TAKE A WALK)	Basic actions and technology	To wander around.	Action/Process	
+2891	TIE UP (TETHER)	Basic actions and technology	To attach something or somebody to prevent that it is taken away.	Action/Process	
+2892	MAKE ANGRY (ANNOY)	Emotions and values	To cause somebody to be annoyed.	Action/Process	
+2893	NOTICE (SOMETHING)	Basic actions and technology	To become aware of something.	Action/Process	
+2894	TUMBLE (FALL DOWN)	Basic actions and technology	To fall down accidentally.	Action/Process	
+2895	MAKE NOISE	Basic actions and technology	To be loud.	Action/Process	
+2896	CAUSE TO (LET)	Basic actions and technology	To allow or cause somebody to do something.	Action/Process	
+2897	CHIME (ACTION)	Modern world	To ring the bells.	Action/Process	
+2898	CONVEY (A MESSAGE)	Basic actions and technology	To share a message with somebody.	Action/Process	
+2899	JOG (SOMETHING)	Basic actions and technology	To shake something.	Action/Process	
+2900	PROTECT	Basic actions and technology	To prevent something or somebody from being harmed.	Action/Process	
+2901	SWING (SOMETHING)	Basic actions and technology	To set something in swinging motion.	Action/Process	
+2902	BRAWL (FIGHT)	Basic actions and technology	To get into a physical fight with somebody else.	Action/Process	
+2903	CHAT (WITH SOMEBODY)	Basic actions and technology	To have a conversation with somebody.	Action/Process	
+2904	RINSE	Basic actions and technology	To clean by pouring water over the objects.	Action/Process	
+2905	KNIT	Basic actions and technology	Knitting is a method by which yarn is manipulated to create a textile or fabric for use in many types of garments.	Action/Process	
+2906	TRANSLATE	Basic actions and technology	To communicate of the meaning of a source-language text by means of an equivalent target-language text.	Action/Process	
+2907	ROT	Basic actions and technology	To be exposed to decomposition.	Action/Process	
+2908	SINK (DISAPPEAR IN WATER)	Basic actions and technology	To descend completely, leaving no trace in the surface.	Action/Process	
+2909	PREPARE	Basic actions and technology	To carry out things in advance to avoid to be later not able to do them.	Action/Process	
+2910	BACK (DIRECTION)	Spatial relations	The opposite direction from where one came.	Other	
+2911	BACKWARD	Spatial relations	A relative direction pointed to the back of an object.	Other	
+2912	FORWARD	Spatial relations	A relative direction pointed to the front of an object.	Other	
+2913	IMMEDIATELY	Time	Without interval of time.	Other	
+2914	ONCE (IN THE PAST)	Time	One time during a certain time in the past.	Other	
+2915	AT FIRST	Time	When first seen or considered.	Other	
+2916	INSTANTLY	Time	Without delay.	Other	
+2917	NEXT TO	Spatial relations	Adjacent to.	Other	
+2918	BECAUSE OF	Basic actions and technology	Undergo decomposition.	Other	
+2919	STILL (CONTINUING)	Time	Continuance of motion or state.	Other	
+2920	SUDDENLY	Time	Happening unexpectedly.	Other	
+2921	THEN	Time	Soon after that.	Other	
+2922	AT THAT TIME	Time	At a certain time in the past.	Other	
+2923	THITHER (THERE TO)	Spatial relations	Directed towards this place there.	Other	
+2924	A LITTLE	Basic actions and technology	In a small amount.	Other	
+2925	HITHER (HERE TO)	Spatial relations	Directed towards this place here.	Other	
+2926	HARDLY	Basic actions and technology	Barely perceivable or noticeable.	Other	
+2927	FROM HERE	Spatial relations	Directed from here towards another direction.	Other	
+2928	WHITHER (WHERE TO)	Spatial relations	Directed to what location?	Other	
+2929	BENEFIT	Modern world	The profit of some action.	Person/Thing	
+2930	BOSS	Modern world	A boss is a person in charge, or a supervisor.	Person/Thing	
+2931	BUSINESS	Modern world	A business is an organizational entity involved in the provision of goods and services to consumers.	Person/Thing	
+2932	COLD (CHILL)	Sense perception	Cold is the presence of low temperature, especially in the atmosphere.	Person/Thing	
+2933	CONVERSATION	Basic actions and technology	Conversation is interactive, communication between two or more people.	Person/Thing	
+2934	CUCKOO	Animals	The cuckoos are a family of birds, Cuculidae, the sole taxon in the order Cuculiformes.	Person/Thing	
+2935	CURRENT (STREAM)	The physical world	A current, in a river or stream, is the flow of water influenced by gravity as the water moves downhill to reduce its potential energy.	Person/Thing	
+2936	ELEVATION	The physical world	The elevation of a geographic location is its height above or below a fixed reference point, most commonly a reference geoid, a mathematical model of the Earth's sea level as an equipotential gravitational surface (see Geodetic system, vertical datum).	Person/Thing	
+2937	FAIRY TALE	Modern world	A fairy tale is a type of short story that typically features folkloric fantasy characters, such as dwarves, dragons, elves, fairies, giants, gnomes, goblins, griffins, mermaids, talking animals, trolls, unicorns, or witches, and usually magic or enchantments.	Person/Thing	
+2938	FLAVOR	Sense perception	Flavor is the sensory impression of food or other substance, and is determined primarily by the chemical senses of taste and smell.	Person/Thing	
+2939	FLOCK (OF ANIMALS)	Animals	A large number of animals, especially birds, sheep or goats.	Person/Thing	
+2940	GATE	The house	A gate or gateway is a point of entry to a space which is enclosed by walls.	Person/Thing	
+2941	HAPPINESS	Emotions and values	In philosophy, happiness translates the Greek concept of eudaimonia, and refers to the good life, or flourishing, rather than simply an emotion.	Person/Thing	
+2942	HOARFROST	Sense perception	Refers to white ice crystals, deposited on the ground or loosely attached to exposed objects such as wires or leaves	Person/Thing	
+2943	BUNDLE	Basic actions and technology	A group of things fastened together.	Person/Thing	
+2944	CALL (APPEAL)	Basic actions and technology	An act of calling with the voice.	Person/Thing	
+2945	COUNT (QUANTITY)	Modern world	The total number of individual things in a given unit or sample obtained by counting all or a subsample of them.	Person/Thing	
+2946	CRADLE	Modern world	A bed for a baby.	Person/Thing	
+2947	DAMAGE (INJURY)	Modern world	Loss or harm resulting from injury to person or objects.	Person/Thing	
+2948	GAP (DISTANCE)	Spatial relations	A separation in space.	Person/Thing	
+2949	LAIR	Animals	The resting or living place of a wild animal.	Person/Thing	
+2950	MEANING	Emotions and values	The thing one intends to convey especially by language.	Person/Thing	
+2951	POUCH	Basic actions and technology	A small bag.	Person/Thing	
+2952	SLAB	Modern world	Thick plate or slice.	Person/Thing	
+2953	SLEEVE	Clothing and grooming	Part of a garment covering the arm.	Person/Thing	
+2954	SLICE	Modern world	A thin flat piece cut from something.	Person/Thing	
+2955	STATE (POLITICS)	Modern world	A politically organized body of people usually occupying a definite territory.	Person/Thing	
+2956	TUBE	Modern world	Cylindrical structure or device.	Person/Thing	
+2957	WARE	Modern world	Manufactured articles.	Person/Thing	
+2958	LAUGHTER	Emotions and values	Laughter is a physical reaction in humans and some other species of primate, consisting typically of rhythmical, often audible contractions of the diaphragm and other parts of the respiratory system.	Person/Thing	
+2959	LEASH	Basic actions and technology	A leash is a rope or similar material attached to the neck or head of an animal for restraint or control.	Person/Thing	
+2960	LONGING (WISH)	Emotions and values	The strong desire for something.	Person/Thing	
+2961	MESSAGE	Basic actions and technology	A message is a discrete unit of communication intended by the source for consumption by some recipient or group of recipients.	Person/Thing	
+2962	MOORLAND	The physical world	Moorland or moor is a type of habitat found in upland areas in temperate grasslands, savannas, and shrublands and montane grasslands and shrublands biomes, characterised by low-growing vegetation on acidic soils.	Person/Thing	
+2963	NET	Basic actions and technology	A grid-like device or object.	Person/Thing	
+2964	NEWS	Basic actions and technology	News is information about current events.	Person/Thing	
+2965	PAW	Animals	A paw is the soft foot of a mammal, generally a quadruped, that has claws.	Person/Thing	
+2966	PERCH (FISH)	Animals	Perch is a common name for fish of the genus Perca, freshwater gamefish belonging to the family Percidae.	Person/Thing	
+2967	PIKE (FISH)	Animals	The northern pike is a species of carnivorous fish of the genus Esox (the pikes).	Person/Thing	
+2968	REASON	Emotions and values	Reason is the capacity for consciously making sense of things, applying logic, establishing and verifying facts, and changing or justifying practices, institutions, and beliefs based on new or existing information.	Person/Thing	
+2969	RIBBON	Basic actions and technology	A ribbon is a thin band of material, typically cloth but also plastic or sometimes metal, used primarily as decorative binding and tying.	Person/Thing	
+2970	RIDDLE	Emotions and values	A riddle is a statement or question or phrase having a double or veiled meaning, put forth as a puzzle to be solved.	Person/Thing	
+2971	SIN	Religion and belief	In a religious context, sin is the act of violating God's will by transgressing his commandments.	Person/Thing	
+2972	SLEEP (STATE)	Basic actions and technology	Sleep is a naturally recurring state of mind and body characterized by altered consciousness, relatively inhibited sensory activity, inhibition of nearly all voluntary muscles, and reduced interactions with surroundings.	Person/Thing	
+2973	STRAP	Basic actions and technology	A strap is an elongated flap or ribbon, usually of fabric or leather.	Person/Thing	
+2974	SWARM (OF BIRDS)	Animals	Swarm behaviour, or swarming, is a collective behaviour exhibited by entities, particularly animals, of similar size which aggregate together, perhaps milling about the same spot or perhaps moving en masse or migrating in some direction.	Person/Thing	
+2975	THOUGHT	Emotions and values	Thought refers to ideas or arrangements of ideas that are the result of the process of thinking.	Person/Thing	
+2976	VIOLENCE	Emotions and values	Violence is defined by the World Health Organization as "the intentional use of physical force or power, threatened or actual, against oneself, another person, or against a group or community, which either results in or has a high likelihood of resulting in injury, death, psychological harm, maldevelopment, or deprivation", although the group acknowledges that the inclusion of "the use of power" in its definition expands on the conventional understanding of the word.	Person/Thing	
+2977	WORKER	Modern world	Somebody who works.	Person/Thing	
+2978	DISTANCE	Spatial relations	Distance is a numerical description of how far apart objects are.	Person/Thing	
+2979	WALK (MANNER)	Basic actions and technology	The act of walking, the way one walks.	Person/Thing	
+2980	AREA	The physical world	Area is the quantity that expresses the extent of a two-dimensional figure or shape, or planar lamina, in the plane.	Person/Thing	
+2981	ITEM	The physical world	Any object that can be grasped.	Person/Thing	
+2982	GIFT	Basic actions and technology	A gift or a present is an item given to someone without the expectation of payment or return.	Person/Thing	
+2983	COMPANIONSHIP	Modern world	An interpersonal relationship is a strong, deep, or close association or acquaintance between two or more people that may range in duration from brief to enduring.	Person/Thing	
+2984	HEAP	Basic actions and technology	A collection of things thrown one on another.	Person/Thing	
+2985	HEIGHT	Spatial relations	Height is the measure of vertical distance, either how "tall" something is, or how "high up" it is.	Person/Thing	
+2986	CAMPFIRE	Basic actions and technology	A campfire is a fire at a campsite that provides light and warmth, and heat for cooking.	Person/Thing	
+2987	AMOUNT	Basic actions and technology	Quantity is a property that can exist as a magnitude or multitude.	Person/Thing	
+2988	PATTERN	The physical world	A pattern is a discernible regularity in the world or in a manmade design.	Person/Thing	
+2989	FRINGE	Spatial relations	The border of an object.	Person/Thing	
+2990	SACK	Basic actions and technology	A specific bag used to store or carry items.	Person/Thing	
+2991	SKI	Modern world	A ski is a narrow strip of semi-rigid material worn underfoot to glide over snow.	Person/Thing	
+2992	TIP (OF OBJECT)	Spatial relations	The pointed end of something.	Person/Thing	
+2993	STROKE (OF PEN)	Modern world	A single movement with a pen in order to write or paint something.	Person/Thing	
+2994	SUPPORT (OF OBJECT)	Spatial relations	An object that keeps another object in its place.	Person/Thing	
+2995	TONE (MUSIC)	Sense perception	Traditionally in Western music, a musical tone is a steady periodic sound.	Person/Thing	
+2996	WEALTH	Modern world	Wealth is the abundance of valuable resources or valuable material possessions.	Person/Thing	
+2997	COLORFUL	Sense perception	Having many colors.	Property	
+2998	DAMP	Sense perception	Refers to the presence of a liquid, especially water, often in trace amounts.	Property	
+2999	EVERYWHERE	Spatial relations	In all places.	Other	
+3000	LIVING	The body	Being alive.	Property	
+3001	POWERFUL	Emotions and values	Having great power.	Property	
+3002	PRECIOUS	Emotions and values	Being deer or important to somebody.	Property	
+3003	SOLID	Basic actions and technology	One of the four fundamental states of matter (the others being liquid, gas, and plasma).	Property	
+3004	FORMER	Time	Coming before in time.	Property	
+3005	FAMILIAR	Emotions and values	Knowing somebody or something well.	Property	
+3006	SPACE (AVAILABLE)	Spatial relations	Available space to place things.	Person/Thing	
