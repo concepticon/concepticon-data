@@ -110,7 +110,7 @@ def test():
         for target, rel in cs.relations.items():
             if rel == 'sameas':
                 for group in sameas.values():
-                    if target in group:
+                    if target in group:  # pragma: no cover
                         group.add(cs.id)
                         break
                 else:
