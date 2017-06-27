@@ -13,7 +13,7 @@ Dellert-2017-1016-11	11	121	-2.228777	Haar	Haar::N	hair	волос	Kopfhaar des 
 Dellert-2017-1016-12	12	988	1.103531	Schnurrbart	Schnurrbart::N	moustache	усы	eines Mannes	of a man	мужчины	MOUSTACHE	1165	
 Dellert-2017-1016-13	13	358	-1.116858	Bart	Bart::N	beard	борода	allgemein	generic	волосяной покров нижней части лица	BEARD	678	
 Dellert-2017-1016-14	14	405	-1.11055	Kinn	Kinn::N	chin	подбородок	Anatomie	anatomy	анатомия	CHIN	1510	
-Dellert-2017-1016-15	15	690	-0.047343	KieferAnatomie	KieferAnatomie::N	jaw	челюсть	Anatomie	anatomy	анатомия	JAW	798	
+Dellert-2017-1016-15	15	690	-0.047343	Kiefer[Anatomie]	Kiefer[Anatomie]::N	jaw	челюсть	Anatomie	anatomy	анатомия	JAW	798	
 Dellert-2017-1016-16	16	361	-1.112143	Kehle	Kehle::N	throat	горло	Hals von innen	from inside	НАПР:полоскать горло	THROAT	1346	
 Dellert-2017-1016-17	17	267	-1.138234	Hals	Hals::N	neck	шея	Hals von außen, rundum	from outside	НАПР:бусы на шее	NECK	1333	
 Dellert-2017-1016-18	18	804	-0.044891	Genick	Genick::N	nape	затылок	hinter Teil des Halses	back side of neck	задняя часть головы	NAPE (OF NECK)	1347	
@@ -30,7 +30,7 @@ Dellert-2017-1016-28	28	41	-2.255057	Hand	Hand::N	hand	кисть	des Menschen	o
 Dellert-2017-1016-29	29	678	-0.072581	Handfläche	Handfläche::N	palm	ладонь	Anatomie	anatomy	анатомия	PALM OF HAND	1183	
 Dellert-2017-1016-30	30	191	-1.139551	Finger	Finger::N	finger	палец	des Menschen	of a human	на руке человека	FINGER	1303	
 Dellert-2017-1016-31	31	317	-1.100767	Fingernagel	Fingernagel::N	fingernail	ноготь на руке	Anatomie	anatomy	человека	FINGERNAIL	1258	
-Dellert-2017-1016-32	32	98	-2.240028	NagelAnatomie	NagelAnatomie::N	nail	ноготь	Anatomie	anatomy	на руке или на ноге	FINGERNAIL OR TOENAIL	1896	
+Dellert-2017-1016-32	32	98	-2.240028	Nagel[Anatomie]	Nagel[Anatomie]::N	nail	ноготь	Anatomie	anatomy	на руке или на ноге	FINGERNAIL OR TOENAIL	1896	
 Dellert-2017-1016-33	33	894	0.074736	Zeh	Zeh::N	toe	палец ноги	des Menschen	of a human	человека	TOE	1389	
 Dellert-2017-1016-34	34	73	-2.241286	Fuß	Fuß::N	foot	ступня	des Menschen	of a human	человека	FOOT	1301	
 Dellert-2017-1016-35	35	443	-1.112251	Ferse	Ferse::N	heel	пятка	Anatomie	anatomy	анатомия	HEEL	980	
@@ -117,8 +117,8 @@ Dellert-2017-1016-115	115	257	-1.163897	Ast	Ast::N	limb	сук	eines Baumes	of a
 Dellert-2017-1016-116	116	612	-0.040117	Zweig	Zweig::N	twig	ветвь	eines Baumes	of a tree	дерева	BRANCH	1531	not distinct from BRANCH
 Dellert-2017-1016-117	117	120	-2.229714	Blatt	Blatt::N	leaf	лист	einer Pflanze	of a plant	растения	LEAF	628	
 Dellert-2017-1016-118	118	319	-1.194508	Birke	Birke::N	birch	берёза				BIRCH	1855	
-Dellert-2017-1016-119	119	514	-1.136112	KieferBaum	KieferBaum::N	pine	сосна		pine tree		PINE	1740	
-Dellert-2017-1016-120	120	385	-1.149515	WeideBaum	WeideBaum::N	willow	ива				WILLOW	818	
+Dellert-2017-1016-119	119	514	-1.136112	Kiefer[Baum]	Kiefer[Baum]::N	pine	сосна		pine tree		PINE	1740	
+Dellert-2017-1016-120	120	385	-1.149515	Weide[Baum]	Weide[Baum]::N	willow	ива				WILLOW	818	
 Dellert-2017-1016-121	121	583	-0.087277	Tanne	Tanne::N	fir	ель				FIR	1915	
 Dellert-2017-1016-122	122	84	-2.202967	Horn	Horn::N	horn	рог	eines Tieres	of an animal	животного	HORN (ANATOMY)	1393	
 Dellert-2017-1016-123	123	244	-1.193887	Feder	Feder::N	feather	перо	eines Vogels	of a bird	птицы	FEATHER	1201	
@@ -161,7 +161,7 @@ Dellert-2017-1016-159	159	418	-1.170563	Schwan	Schwan::N	swan	лебедь				SW
 Dellert-2017-1016-160	160	77	-2.227773	Fisch	Fisch::N	fish	рыба				FISH	227	
 Dellert-2017-1016-161	161	698	-0.031216	Barsch	Barsch::N	perch	окунь				PERCH (FISH)	2966	
 Dellert-2017-1016-162	162	854	-0.042238	Hecht	Hecht::N	pike	щука				PIKE (FISH)	2967	
-Dellert-2017-1016-163	163	573	-0.013457	SchlangeTier	SchlangeTier::N	snake	змея				SNAKE	730	
+Dellert-2017-1016-163	163	573	-0.013457	Schlange[Tier]	Schlange[Tier]::N	snake	змея				SNAKE	730	
 Dellert-2017-1016-164	164	466	-1.151688	Wurm	Wurm::N	worm	червяк				WORM	1219	
 Dellert-2017-1016-165	165	824	-0.066669	Spinne	Spinne::N	spider	паук				SPIDER	843	
 Dellert-2017-1016-166	166	876	-0.029387	Ameise	Ameise::N	ant	муравей				ANT	587	
@@ -437,7 +437,7 @@ Dellert-2017-1016-435	435	367	-1.195135	Krieg	Krieg::N	war	война				WAR	935
 Dellert-2017-1016-436	436	777	-0.020012	Feind	Feind::N	enemy	враг	feindliche Person	hostile person	человек в состоянии вражды	ENEMY	1358	
 Dellert-2017-1016-437	437	793	-0.087143	Gewalt	Gewalt::N	violence	насилие	Gewalttätigkeit	use of force	применение физической силы	VIOLENCE	2976	
 Dellert-2017-1016-438	438	652	-0.035217	Kampf	Kampf::N	fight	борьба	gewalttätige Auseinandersetzung	physical confrontation	рукопашная схватка	FIGHT	1423	POS
-Dellert-2017-1016-439	439	132	-2.282615	BogenWaffe	BogenWaffe::N	bow	лук	Waffe	weapon	оружие	BOW	994	
+Dellert-2017-1016-439	439	132	-2.282615	Bogen[Waffe]	Bogen[Waffe]::N	bow	лук	Waffe	weapon	оружие	BOW	994	
 Dellert-2017-1016-440	440	182	-1.182389	Pfeil	Pfeil::N	arrow	стрела	Geschoss von Bogen	projectile shot from a bow	для стрельбы из лука	ARROW	977	
 Dellert-2017-1016-441	441	866	-0.09154	Gewehr	Gewehr::N	gun	ружьё	Schusswaffe	firearm	стрелковое оружие	GUN	1566	
 Dellert-2017-1016-442	442	640	-0.063253	Fehler	Fehler::N	mistake	ошибка	falsche Handlung oder Entscheidung	wrong action or decision	неправильное действие, поступок	MISTAKE	1293	
@@ -486,7 +486,7 @@ Dellert-2017-1016-484	484	444	-1.106292	kurz	kurz::A	short	короткий	Gege
 Dellert-2017-1016-485	485	158	-1.163005	breit	breit::A	wide	широкий	BSP:Fluss, Brücke	EX:river, bridge	BSP:о реке, о мосте	WIDE	1243	
 Dellert-2017-1016-486	486	660	-0.016542	schmal	schmal::A	narrow	узкий	BSP:Fluss, Brücke	EX:river, bridge	BSP:о реке, о мосте	NARROW	1267	
 Dellert-2017-1016-487	487	137	-2.244974	dicht	dicht::A	dense	густой	BSP:Haar, Wald	EX:hair, forest	НАПР:о волосах, о лесе	DENSE	2239	
-Dellert-2017-1016-488	488	302	-1.147568	dickGegenstand	dickGegenstand::A	thick	толстый	flacher Gegenstand	flat object	о плоском предмете	THICK	1244	
+Dellert-2017-1016-488	488	302	-1.147568	dick[Gegenstand]	dick[Gegenstand]::A	thick	толстый	flacher Gegenstand	flat object	о плоском предмете	THICK	1244	
 Dellert-2017-1016-489	489	516	-1.132602	dünn	dünn::A	thin	тонкий	flacher Gegenstand	flat object	о плоском предмете	THIN (OF SHAPE OF OBJECT)	2249	
 Dellert-2017-1016-490	490	465	-1.152855	fein	fein::A	delicate, fine	тонкий, хрупкий	BSP:Garn, Netz	EX:yarn, web	НАПР:о нити, о сети	FINE OR THIN	2157	
 Dellert-2017-1016-491	491	476	-1.1358	fest	fest::A	firm, solid	крепкий, прочный	BSP:Holz, Wand	EX:wood, wall	НАПР:о дереве, о стене	SOLID	3003	
@@ -564,7 +564,7 @@ Dellert-2017-1016-562	562	915	0.088099	wahr	wahr::A	true	настоящий	wahr
 Dellert-2017-1016-563	563	163	-1.146849	alt	alt::A	old	старый	BSP:Haus	EX:house	НАПР:о доме	OLD (USED)	2113	
 Dellert-2017-1016-564	564	24	-2.293982	neu	neu::A	new	новый				NEW	1231	
 Dellert-2017-1016-565	565	898	0.012372	ehemalig	ehemalig::A	former	бывший		erstwhile		FORMER	3004	
-Dellert-2017-1016-566	566	206	-1.185645	altLebewesen	altLebewesen::A	aged, old	пожилой, старый		person	о человеке	OLD (AGED)	2112	
+Dellert-2017-1016-566	566	206	-1.185645	alt[Lebewesen]	alt[Lebewesen]::A	aged, old	пожилой, старый		person	о человеке	OLD (AGED)	2112	
 Dellert-2017-1016-567	567	216	-1.168918	jung	jung::A	young	молодой				YOUNG	1207	
 Dellert-2017-1016-568	568	668	-0.001194	arm	arm::A	poor	бедный	bedürftig	needy		POOR	1674	
 Dellert-2017-1016-569	569	423	-1.158927	reich	reich::A	rich	богатый				RICH	712	
@@ -684,9 +684,9 @@ Dellert-2017-1016-682	682	511	-1.150125	passieren	passieren::V	happen	случи
 Dellert-2017-1016-683	683	365	-1.196821	beginnen	beginnen::V	begin	начаться	anfangen zu bestehen	start existing	начать существовать	BEGIN	1806	intransitive
 Dellert-2017-1016-684	684	269	-1.134073	enden	enden::V	end	кончиться	aufhören zu bestehen	stop existing	перестать существовать	CEASE	1928	
 Dellert-2017-1016-685	685	597	-0.063613	wechseln	wechseln::V	change	меняться	zu etwas anderem werden	become something different	стать чем-то другим, НАПР:о погоде	CHANGE (BECOME DIFFERENT)	2857	
-Dellert-2017-1016-686	686	553	-0.050231	aufgehenSonne	aufgehenSonne::V	rise	взойти		of the sun	о солнце	RISE (MOVE UPWARDS)	568	
-Dellert-2017-1016-687	687	462	-1.162021	untergehenSonne	untergehenSonne::V	set	зайти		of the sun	о солнце	SET (HEAVENLY BODIES)	160	
-Dellert-2017-1016-688	688	383	-1.162861	scheinenSonne	scheinenSonne::V	shine	светить		of the sun	о солнце	SHINE	708	
+Dellert-2017-1016-686	686	553	-0.050231	aufgehen[Sonne]	aufgehen[Sonne]::V	rise	взойти		of the sun	о солнце	RISE (MOVE UPWARDS)	568	
+Dellert-2017-1016-687	687	462	-1.162021	untergehen[Sonne]	untergehen[Sonne]::V	set	зайти		of the sun	о солнце	SET (HEAVENLY BODIES)	160	
+Dellert-2017-1016-688	688	383	-1.162861	scheinen[Sonne]	scheinen[Sonne]::V	shine	светить		of the sun	о солнце	SHINE	708	
 Dellert-2017-1016-689	689	524	-1.116719	donnern	donnern::V	thunder	греметь	Donner	BSP:``it thundered''	о громе	THUNDER (VERB)	2378	
 Dellert-2017-1016-690	690	318	-1.198975	wehen	wehen::V	blow	дуть	Wind	of wind	о ветре	BLOW (OF WIND)	175	
 Dellert-2017-1016-691	691	380	-1.17064	strömen	strömen::V	stream	литься	ununterbrochen fließen	to flow in a continuous manner	течь непрерывной струёй	STREAM (FLOW CONTINUOUSLY)	2858	
