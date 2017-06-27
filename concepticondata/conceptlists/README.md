@@ -5,8 +5,10 @@
 | [Allen-2007-500](Allen-2007-500.tsv) | 500 | 100 | 1 |
 | [Alpher-1999-151](Alpher-1999-151.tsv) | 151 | 100 | 0 |
 | [Ardila-2007-40](Ardila-2007-40.tsv) | 40 | 100 | 0 |
+| [Backstrom-1992-210a](Backstrom-1992-210a.tsv) | 210 | 100 | 2 |
+| [Backstrom-1992-210b](Backstrom-1992-210b.tsv) | 205 | 100 | 2 |
 | [Beaufils-2015-18](Beaufils-2015-18.tsv) | 18 | 100 | 0 |
-| [BeijingDaxue-1964-905](BeijingDaxue-1964-905.tsv) | 757 | 83 | 49 |
+| [BeijingDaxue-1964-905](BeijingDaxue-1964-905.tsv) | 756 | 83 | 49 |
 | [Benedict-1976-100](Benedict-1976-100.tsv) | 100 | 100 | 0 |
 | [Bengtson-1994-27](Bengtson-1994-27.tsv) | 27 | 100 | 2 |
 | [Bennet-1976-100](Bennet-1976-100.tsv) | 100 | 100 | 0 |
@@ -21,6 +23,7 @@
 | [Bowern-2011-204](Bowern-2011-204.tsv) | 204 | 100 | 1 |
 | [Bowern-2012-189](Bowern-2012-189.tsv) | 190 | 100 | 1 |
 | [Bowern-2012-205](Bowern-2012-205.tsv) | 205 | 100 | 2 |
+| [Bowern-2012-644](Bowern-2012-644.tsv) | 479 | 74 | 13 |
 | [Brinton-1891-21](Brinton-1891-21.tsv) | 21 | 100 | 0 |
 | [Bromley-1967-111](Bromley-1967-111.tsv) | 108 | 97 | 0 |
 | [Buck-1949-1108](Buck-1949-1108.tsv) | 1040 | 93 | 28 |
@@ -50,6 +53,7 @@
 | [Dyen-1964-196](Dyen-1964-196.tsv) | 196 | 100 | 0 |
 | [Dyen-1992-200](Dyen-1992-200.tsv) | 200 | 100 | 1 |
 | [Ferguson-1964-30](Ferguson-1964-30.tsv) | 28 | 93 | 0 |
+| [Foley-1986-50](Foley-1986-50.tsv) | 49 | 98 | 0 |
 | [Forni-2013-201](Forni-2013-201.tsv) | 197 | 98 | 13 |
 | [Forster-2006-100](Forster-2006-100.tsv) | 100 | 100 | 0 |
 | [Gabelentz-1861-24](Gabelentz-1861-24.tsv) | 24 | 100 | 0 |
@@ -67,6 +71,7 @@
 | [Hattori-1961-236](Hattori-1961-236.tsv) | 236 | 100 | 0 |
 | [Hattori-1973-200](Hattori-1973-200.tsv) | 200 | 100 | 0 |
 | [He-2010-207](He-2010-207.tsv) | 207 | 100 | 5 |
+| [Heeschen-1978-104](Heeschen-1978-104.tsv) | 102 | 98 | 1 |
 | [Heggarty-2005-150](Heggarty-2005-150.tsv) | 150 | 100 | 0 |
 | [Heggarty-2005-30a](Heggarty-2005-30a.tsv) | 30 | 100 | 0 |
 | [Heggarty-2005-30b](Heggarty-2005-30b.tsv) | 30 | 100 | 0 |
@@ -132,6 +137,7 @@
 | [Peust-2013-54](Peust-2013-54.tsv) | 54 | 100 | 0 |
 | [Pozdniakov-2014-100a](Pozdniakov-2014-100a.tsv) | 100 | 100 | 0 |
 | [Pozdniakov-2014-100b](Pozdniakov-2014-100b.tsv) | 100 | 100 | 0 |
+| [Ray-1895-26](Ray-1895-26.tsv) | 26 | 100 | 0 |
 | [Rea-1958-100](Rea-1958-100.tsv) | 100 | 100 | 0 |
 | [Ringe-1992-100](Ringe-1992-100.tsv) | 100 | 100 | 0 |
 | [Ringe-2002-333](Ringe-2002-333.tsv) | 333 | 100 | 0 |
@@ -201,5 +207,5 @@
 | [Zorc-1974-100](Zorc-1974-100.tsv) | 100 | 100 | 0 |
 | [vanderWouw-1974-28](vanderWouw-1974-28.tsv) | 28 | 100 | 0 |
 
-(198 rows)
+(204 rows)
 
