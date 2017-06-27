@@ -20,7 +20,9 @@ from pyconcepticon.glosses import concept_map, concept_map2
 
 @attr.s
 class Languoid(object):
+    name = attr.ib(convert=lambda s: s.lower())
     glottocode = attr.ib()
+    iso2 = attr.ib()
 
 
 class Concepticon(object):
@@ -52,7 +54,7 @@ class Concepticon(object):
         for k in res['COLUMN_TYPES']:
             v = res['COLUMN_TYPES'][k]
             if isinstance(v, list) and v and v[0] == 'languoid':
-                res['COLUMN_TYPES'][k] = Languoid(v[1])
+                res['COLUMN_TYPES'][k] = Languoid(k, *v[1:])
         return res
 
     @property

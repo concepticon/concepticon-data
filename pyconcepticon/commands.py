@@ -11,8 +11,10 @@ from clldutils.path import Path, as_unicode
 from clldutils.clilib import ParserError, command
 from clldutils.markup import Table
 from clldutils.misc import format_size
+from clldutils.dsv import UnicodeWriter
 from cdstarcat.catalog import Catalog
 
+import pyconcepticon
 from pyconcepticon.util import rewrite, CS_ID, CS_GLOSS, SourcesCatalog, UnicodeWriter
 from pyconcepticon.api import Concepticon, Conceptlist
 
@@ -482,3 +484,55 @@ def check(args):
 def test(args):
     from pyconcepticon.tests.test_data import test as _test
     _test()
+
+
+@command()
+def recreate_linking_data(args):
+    api = Concepticon(args.data)
+    for l in api.vocabularies['COLUMN_TYPES'].values():
+        if getattr(l, 'iso2', None):
+            _write_linking_data(api, l)
+
+
+def _write_linking_data(api, l):
+    out = defaultdict(int)
+    freqs = defaultdict(int)
+
+    for clist in api.conceptlists.values():
+        for row in clist.concepts.values():
+            if row.concepticon_id:
+                gls = None
+                if l.iso2 == 'en':
+                    if row.english:
+                        gls = row.english.strip('*$-—+')
+                else:
+                    if l.name in row.attributes:
+                        gls = row.attributes[l.name].strip('*$-—+')
+
+                if gls:
+                    out[row.concepticon_gloss + '///' + gls, row.concepticon_id] += 1
+                    freqs[row.concepticon_id] += 1
+
+    if l.iso2 == 'en':
+        for cset in api.conceptsets.values():
+            gloss = cset.gloss
+            if cset.ontological_category == 'Person/Thing':
+                out[gloss + '///the ' + cset.gloss.lower(), cset.id] = freqs[cset.id]
+                out[gloss + '///the ' + cset.gloss.lower() + 's', cset.id] = \
+                    freqs[cset.id]
+            elif cset.ontological_category == 'Action/Process':
+                out[gloss + '///to ' + cset.gloss.lower(), cset.id] = freqs[cset.id]
+            elif cset.ontological_category == 'Property':
+                out[gloss + '///' + cset.gloss.lower() + ' (adjective)', cset.id] = \
+                    freqs[cset.id]
+            elif cset.ontological_category == 'Classifier':
+                out[gloss + '///' + cset.gloss.lower() + ' (classifier)', cset.id] = \
+                    freqs[cset.id]
+            else:
+                out[gloss + '///' + cset.gloss.lower(), cset.id] = freqs[cset.id]
+
+    p = Path(pyconcepticon.__file__).parent.joinpath('data', 'map-{0}.tsv'.format(l.iso2))
+    with UnicodeWriter(p, delimiter='\t') as f:
+        f.writerow(['ID', 'GLOSS', 'PRIORITY'])
+        for i, (gloss, cid) in enumerate(sorted(out)):
+            f.writerow([cid, gloss, out[gloss, cid]])
