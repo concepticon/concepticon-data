@@ -59,75 +59,93 @@
         "PART_OF_SPEECH": "string",
         "ENGLISH": [
             "languoid",
-            "stan1293"
+            "stan1293",
+            "en"
         ],
         "SPANISH": [
             "languoid",
-            "stan1288"
+            "stan1288",
+            "es"
         ],
         "FRENCH": [
             "languoid",
-            "stan1290"
+            "stan1290",
+            "fr"
         ],
         "GERMAN": [
             "languoid",
-            "stan1295"
+            "stan1295",
+            "de"
         ],
         "RUSSIAN": [
             "languoid",
-            "russ1263"
+            "russ1263",
+            "ru"
         ],
         "CHINESE": [
             "languoid",
-            "mand1415"
+            "mand1415",
+            "zh"
         ],
         "LATIN": [
             "languoid",
-            "lati1261"
+            "lati1261",
+            "lt"
         ],
         "BASQUE": [
             "languoid",
-            "basq1248"
+            "basq1248",
+            null
         ],
         "ESPERANTO": [
             "languoid",
-            "espe1235"
+            "espe1235",
+            null
         ],
         "SWEDISH": [
             "languoid",
-            "swed1254"
+            "swed1254",
+            "sv"
         ],
         "SIKUANI": [
             "languoid",
-            "guah1255"
+            "guah1255",
+            null
         ],
         "PROTOWORLD": [
             "languoid",
+            null,
             null
         ],
         "PROTO_INDO_EUROPEAN": [
             "languoid",
+            null,
             null
         ],
         "DUTCH": [
             "languoid",
-            "dutc1256"
+            "dutc1256",
+            "nl"
         ],
         "TURKISH": [
             "languoid",
-            "nucl1301"
+            "nucl1301",
+            "tr"
         ],
         "HAUSA": [
             "languoid",
-            "haus1257"
+            "haus1257",
+            "ha"
         ],
         "JAPANESE": [
             "languoid",
-            "nucl1643"
+            "nucl1643",
+            "ja"
         ],
         "PORTUGUESE": [
             "languoid",
-            "port1283"
+            "port1283",
+            "pt"
         ],
         "FREQUENCY": "int or float",
         "RANK": "int",
