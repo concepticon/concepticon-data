@@ -37,7 +37,10 @@
                     },
                     {
                         "name": "GLOSS",
-                        "titles": "ENGLISH",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "ENGLISH",
                         "datatype": "string"
                     }
                 ],

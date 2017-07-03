@@ -98,7 +98,8 @@ def test():
 
             for lg in cl.source_language:  # pragma: no cover
                 if not (concept.attributes.get(lg.lower()) or
-                        getattr(concept, lg.lower(), None)):
+                        getattr(concept, lg.lower(), None) or
+                        (lg.lower() == 'english' and not concept.gloss)):
                     error('missing source language translation %s' % lg, cl.id, i + 2)
             for attr, values in ref_cols.items():
                 val = getattr(concept, attr)

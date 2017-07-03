@@ -11,22 +11,15 @@ from clldutils.path import Path
 from clldutils import jsonlib
 from clldutils.misc import cached_property
 from clldutils.csvw.metadata import TableGroup, Link
+from clldutils.apilib import API, DataObject
 
 from pyconcepticon.util import (
-    REPOS_PATH, PKG_PATH, data_path, read_dicts, split, lowercase, to_dict, split_ids,
-    UnicodeWriter,
+    REPOS_PATH, PKG_PATH, read_dicts, split, lowercase, to_dict, split_ids, UnicodeWriter,
 )
 from pyconcepticon.glosses import concept_map, concept_map2
 
 
-@attr.s
-class Languoid(object):
-    name = attr.ib(convert=lambda s: s.lower())
-    glottocode = attr.ib()
-    iso2 = attr.ib()
-
-
-class Concepticon(object):
+class Concepticon(API):
     """
     API to access the concepticon data.
 
@@ -37,14 +30,14 @@ class Concepticon(object):
         """
         :param repos: Path to a clone or source dump of concepticon-data.
         """
-        self.repos = Path(repos) if repos else REPOS_PATH
+        API.__init__(self, repos or REPOS_PATH)
         self._to_mapping = {}
 
     def data_path(self, *comps):
         """
         Create a path relative to the `concepticondata` directory within the source repos.
         """
-        return data_path(*comps, **{'repos': self.repos})
+        return self.path('concepticondata', *comps)
 
     @cached_property()
     def vocabularies(self):
@@ -226,10 +219,17 @@ class Concepticon(object):
             yield set((e, to[m][0], to[m][1].split("///")[0], simil) for m in match)
 
 
-class Bag(object):
+@attr.s
+class Languoid(object):
+    name = attr.ib(convert=lambda s: s.lower())
+    glottocode = attr.ib()
+    iso2 = attr.ib()
+
+
+class Bag(DataObject):
     @classmethod
     def public_fields(cls):
-        return [f.name for f in attr.fields(cls) if not f.name.startswith('_')]
+        return [n for n in cls.fieldnames() if not n.startswith('_')]
 
 
 def valid_key(instance, attribute, value):
@@ -353,7 +353,8 @@ class ConceptRelations(dict):
 class Concept(Bag):
     id = attr.ib(validator=valid_concept)
     number = attr.ib()
-    concepticon_id = attr.ib()
+    concepticon_id = attr.ib(
+        default=None, convert=lambda s: s if s is None else '{0}'.format(s))
     concepticon_gloss = attr.ib(default=None)
     gloss = attr.ib(default=None)
     english = attr.ib(default=None)
@@ -389,10 +390,14 @@ class Conceptlist(Bag):
 
     @property
     def metadata(self):
-        md = self._api.data_path('conceptlists', self.id + '.tsv-metadata.json')
+        md = self.path.parent.joinpath(self.path.name + '-metadata.json')
         if not md.exists():
-            md = self._api.data_path('conceptlists', 'default-metadata.json')
+            ddir = self._api.data_path() if hasattr(self._api, 'data_path') \
+                else REPOS_PATH.joinpath('concepticondata')
+            md = ddir.joinpath('conceptlists', 'default-metadata.json')
         tg = TableGroup.from_file(md)
+        if isinstance(self._api, Path):
+            tg._fname = self._api.parent.joinpath(self._api.name + '-metadata.json')
         tg.tables[0].url = Link('{0}.tsv'.format(self.id))
         return tg.tables[0]
 
@@ -404,17 +409,14 @@ class Conceptlist(Bag):
 
     @cached_property()
     def attributes(self):
-        header = []
-        if self.path.exists():
-            with self.path.open(encoding='utf8') as fp:
-                header = fp.readline().strip().split('\t')
-        return [h for h in header if h.lower() not in Concept.public_fields()]
+        return [c.name for c in self.metadata.tableSchema.columns
+                if c.name.lower() not in Concept.public_fields()]
 
     @cached_property()
     def concepts(self):
         res = []
         if self.path.exists():
-            for item in read_dicts(self.path):
+            for item in self.metadata:
                 kw, attributes = {}, {}
                 for k, v in item.items():
                     if k:
