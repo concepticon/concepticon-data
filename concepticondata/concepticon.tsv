@@ -2358,7 +2358,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2357	APRICOT TREE	Agriculture and vegetation	A tree that bears the apricot fruit.	Person/Thing	
 2358	PEACH TREE	Agriculture and vegetation	The tree that bears peaches as fruits.	Person/Thing	
 2359	LOTUS	Agriculture and vegetation	One of two species of aquatic plant in the family Nelumbonaceae. 	Person/Thing	
-2360	OSMANTHUS FRAGRANS	Agriculture and vegetation	 A species native to Asia from the Himalayas through southern China (Guizhou, Sichuan, Yunnan) to Taiwan and southern Japan and southeast Asia as far south as Cambodia and Thailand. 	Person/Thing	
+2360	SWEET OLIVE	Agriculture and vegetation	 A species native to Asia from the Himalayas through southern China (Guizhou, Sichuan, Yunnan) to Taiwan and southern Japan and southeast Asia as far south as Cambodia and Thailand. 	Person/Thing	
 2361	MUGWORT	Agriculture and vegetation	A common name for several species of aromatic plants in the genus Artemisia. 	Person/Thing	
 2362	BRAN	Agriculture and vegetation	The hard outer layers of cereal grain. It consists of the combined aleurone and pericarp. 	Person/Thing	
 2363	CHAFF (HUSK)	Agriculture and vegetation	The outer shell or coating of a seed. 	Person/Thing	
@@ -2745,12 +2745,11 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2744	PLUM BLOSSOM	Agriculture and vegetation	The flower of the Chinese Plum.	Person/Thing	
 2745	APRICOT BLOSSOM	Agriculture and vegetation	The flower of the Apricot Tree.	Person/Thing	
 2746	PEACH BLOSSOM	Agriculture and vegetation	The flower of the Peach Tree.	Person/Thing	
-2747	OSMANTHUS FRAGRANS	Agriculture and vegetation	A small tree species native to Asia from the Himalayas through southern China.	Person/Thing	
+2747	OSMANTHUS FRAGRANS	Agriculture and vegetation	A small tree species native to Asia from the Himalayas through southern China.	Person/Thing	2360
 2748	SWEET OLIVE FLOWER	Agriculture and vegetation	The flower of teh Osmanthus Fragrans.	Person/Thing	
 2749	UNHUSKED RICE	Agriculture and vegetation	The unhusked crops of the rice plant.	Person/Thing	
 2750	GLUTINOUS RICE	Agriculture and vegetation	Polished rice.	Person/Thing	
 2751	BY (PASSIVE MARKER)	Basic actions and technology	Marker of the agent in a passive sentence.	Other	
-2752	INSTEAD	Basic actions and technology	Preposition marking replacment.	Other	
 2753	UNTIL	Time	Preposition marking the end of a period.	Other	
 2754	TOWARDS	Spatial relations	Preposition marking the goal of direction.	Other	
 2755	BUSY	Time	The state of being occupied with something.	Person/Thing	
@@ -2778,13 +2777,10 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2777	PIG TONGUE	The body	The tongue of a pig.	Person/Thing	
 2778	PIG LIVER	The body	The liver of a pig.	Person/Thing	
 2779	CHICKEN EGG	Food and drink	The egg of a chicken.	Person/Thing	
-2780	YEAR BEFORE LAST YEAR	Time	The year before the last year.	Person/Thing	
-2781	YEAR AFTER NEXT YEAR	Time	The year after the next year.	Person/Thing	
 2782	FOOT (MEASURE)	Quantity	A measure unit.	Person/Thing	
 2783	SCALES (MEASURE INSTRUMENT)	Quantity	Instrument to measure the weight of objects.	Person/Thing	
 2784	CRUCIAN CARP	Animals	A medium-sized member of the common carp family.	Person/Thing	
 2785	BIVALVIA (MUSSELS OR OYSTERS)	Animals	A class of marine and freshwater molluscs that have laterally compressed bodies enclosed by a shell consisting of two hinged parts.	Person/Thing	
-2786	CLOG (SOMETHING)	Basic actions and technology	To prevent something from getting through.	Action/Process	
 2787	CONSUME (DRINK OR EAT)	Food and drink	To consume food or drink.	Action/Process	
 2788	LADLE (WATER)	Food and drink	To use some device or one's hands to fill fluid from one container to another.	Action/Process	
 2789	BURP	Basic actions and technology	To release gas from the digestive tract through the mouth.	Action/Process	
@@ -2911,7 +2907,6 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2910	BACK (DIRECTION)	Spatial relations	The opposite direction from where one came.	Other	
 2911	BACKWARD	Spatial relations	A relative direction pointed to the back of an object.	Other	
 2912	FORWARD	Spatial relations	A relative direction pointed to the front of an object.	Other	
-2913	IMMEDIATELY	Time	Without interval of time.	Other	
 2914	ONCE (IN THE PAST)	Time	One time during a certain time in the past.	Other	
 2915	AT FIRST	Time	When first seen or considered.	Other	
 2916	INSTANTLY	Time	Without delay.	Other	
