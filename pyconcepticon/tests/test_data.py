@@ -106,7 +106,11 @@ def test():
                     error('invalid value for %s: %s' % (attr, val), cl.id, i + 2)
 
     sameas = {}
+    glosses = set()
     for cs in api.conceptsets.values():
+        if cs.gloss in glosses:
+            error('duplicate conceptset gloss: {0}'.format(cs.gloss), cs.id)
+        glosses.add(cs.gloss)
         for target, rel in cs.relations.items():
             if rel == 'sameas':
                 for group in sameas.values():

@@ -384,7 +384,7 @@ class Conceptlist(Bag):
     pdf = attr.ib(convert=split_ids)
     note = attr.ib()
     pages = attr.ib()
-    alias = attr.ib(convert=split)
+    alias = attr.ib(convert=lambda s: [] if s is None else split(s))
 
     @property
     def path(self):
