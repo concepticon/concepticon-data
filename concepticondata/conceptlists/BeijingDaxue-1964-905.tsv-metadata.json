@@ -1,0 +1,88 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw", 
+        {
+            "@language": "en"
+        }
+    ], 
+    "dialect": {
+        "delimiter": "\t", 
+        "skipBlankRows": true
+    }, 
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string", 
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        }, 
+                        "name": "ID"
+                    }, 
+                    {
+                        "datatype": {
+                            "base": "string", 
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        }, 
+                        "name": "NUMBER"
+                    }, 
+                    {
+                        "datatype": {
+                            "base": "integer", 
+                            "minimum": 1
+                        }, 
+                        "name": "CONCEPTICON_ID"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "CONCEPTICON_GLOSS"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "GLOSS", 
+                        "titles": "ENGLISH"
+                    }, 
+                    {
+                        "dc:description": "gloss in CHINESE", 
+                        "datatype": "string", 
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/mand1415", 
+                        "name": "CHINESE"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "PAGENO"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "POS"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "SEMANTIC_FIELD"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "SF_IN_SOURCE"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "POS_IN_SOURCE"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "PINYIN"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "CHINESE_SIMPLIFIED"
+                    }
+                ], 
+                "primaryKey": [
+                    "ID"
+                ]
+            }, 
+            "url": "BeijingDaxue-1964-905.tsv"
+        }
+    ]
+}

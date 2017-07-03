@@ -1,0 +1,90 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw", 
+        {
+            "@language": "en"
+        }
+    ], 
+    "dialect": {
+        "delimiter": "\t", 
+        "skipBlankRows": true
+    }, 
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string", 
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        }, 
+                        "name": "ID"
+                    }, 
+                    {
+                        "datatype": {
+                            "base": "string", 
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        }, 
+                        "name": "NUMBER"
+                    }, 
+                    {
+                        "datatype": {
+                            "base": "integer", 
+                            "minimum": 1
+                        }, 
+                        "name": "CONCEPTICON_ID"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "CONCEPTICON_GLOSS"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "GLOSS", 
+                        "titles": "ENGLISH"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "PART_OF_SPEECH"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "STATES"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "MEAN_RATE"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "RATE_SD"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "ENGLISH_FREQUENCY"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "SPANISH_FREQUENCY"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "RUSSIAN_FREQUENCY"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "GREEK_FREQUENCY"
+                    }, 
+                    {
+                        "datatype": "integer", 
+                        "name": "RANK"
+                    }
+                ], 
+                "primaryKey": [
+                    "ID"
+                ]
+            }, 
+            "url": "Pagel-2007-200.tsv"
+        }
+    ]
+}
