@@ -100,6 +100,16 @@ def link(args):
 
 
 @command()
+def validate(args):
+    api = Concepticon(args.data)
+    for cl in api.conceptlists.values():
+        items = list(cl.metadata)
+        if set(items[0].keys()) != \
+                set(c.name for c in cl.metadata.tableSchema.columns):
+            print('unspecified column in concept list {0}'.format(cl.id))
+
+
+@command()
 def attributes(args):
     """Calculate the addditional attributes in the lists."""
     api = Concepticon(args.data)

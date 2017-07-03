@@ -10,6 +10,7 @@ import attr
 from clldutils.path import Path
 from clldutils import jsonlib
 from clldutils.misc import cached_property
+from clldutils.csvw.metadata import TableGroup, Link
 
 from pyconcepticon.util import (
     REPOS_PATH, PKG_PATH, data_path, read_dicts, split, lowercase, to_dict, split_ids,
@@ -385,6 +386,15 @@ class Conceptlist(Bag):
     note = attr.ib()
     pages = attr.ib()
     alias = attr.ib(convert=lambda s: [] if s is None else split(s))
+
+    @property
+    def metadata(self):
+        md = self._api.data_path('conceptlists', self.id + '.tsv-metadata.json')
+        if not md.exists():
+            md = self._api.data_path('conceptlists', 'default-metadata.json')
+        tg = TableGroup.from_file(md)
+        tg.tables[0].url = Link('{0}.tsv'.format(self.id))
+        return tg.tables[0]
 
     @property
     def path(self):
