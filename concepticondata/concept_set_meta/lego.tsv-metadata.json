@@ -1,0 +1,37 @@
+{
+  "url": "lego.tsv",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Mapping to LEGO identifiers",
+  "dc:source": "http://lego.linguistlist.org/",
+  "dcat:keyword": ["dictionary", "multilingual"],
+  "dc:description": "Mapping from Concepticon Concept Sets to (possibly multiple) identifiers in LEGO",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tableSchema": {
+    "columns": [
+      {
+        "name": "CONCEPTICON_ID",
+        "datatype": "string"
+      }, {
+        "name": "LEGO_ID",
+        "datatype": "string",
+        "propertyUrl": "dc:relation",
+        "separator": ";",
+        "valueUrl": "http://purl.org/linguistics/lego/concept/{LEGO_ID}"
+      }
+    ],
+    "foreignKeys": [
+      {
+        "columnReference": "CONCEPTICON_ID",
+        "reference": {
+          "resource": "../concepticon.tsv",
+          "columnReference": "ID"
+        }
+      }
+    ],
+    "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+  }
+}
