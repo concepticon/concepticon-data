@@ -373,8 +373,8 @@ def readme_concepticondata(api, cls):
     ]
 
     for attr, key in [
-        ('Diverse', lambda x: (len(set([label for _, label in x[1]])), x[0])),
-        ('Frequent', lambda x: (len(set([clist for clist, _ in x[1]])), x[0])),
+        ('Diverse', lambda x: (len(set([label for _, label in x[1]])), x[0] or '')),
+        ('Frequent', lambda x: (len(set([clist for clist, _ in x[1]])), x[0] or '')),
     ]:
         table = Table(
             'No.', 'concept set', 'distinct labels', 'concept lists', 'examples')
