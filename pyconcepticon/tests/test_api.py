@@ -66,6 +66,12 @@ class TestConcepticon(TestWithFixture):
 
             self.assertGreater(len(self.api.conceptsets['217'].concepts), 8)
 
+            with capture(
+                    self.api.map,
+                    self.fixture_path('conceptlist.tsv'),
+                    self.fixture_path('conceptlist2.tsv')) as out:
+                self.assertIn('CONCEPTICON_ID', out)
+
     def test_lookup(self):
         if self.api.repos.exists():
             self.assertEqual(
