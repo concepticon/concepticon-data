@@ -11,7 +11,6 @@ from clldutils.path import Path, as_unicode
 from clldutils.clilib import ParserError, command
 from clldutils.markup import Table
 from clldutils.misc import format_size
-from clldutils.dsv import UnicodeWriter
 from cdstarcat.catalog import Catalog
 
 import pyconcepticon
@@ -374,7 +373,7 @@ def readme_concepticondata(api, cls):
 
     for attr, key in [
         ('Diverse', lambda x: (len(set([label for _, label in x[1]])), x[0] or '')),
-        ('Frequent', lambda x: (len(set([clist for clist, _ in x[1]])), x[0] or '')),
+        ('Frequent', lambda x: (len(set([clist for clist, _ in x[1]])), x[0] or '18G18G')),
     ]:
         table = Table(
             'No.', 'concept set', 'distinct labels', 'concept lists', 'examples')
