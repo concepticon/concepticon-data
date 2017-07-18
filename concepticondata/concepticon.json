@@ -55,7 +55,7 @@
     ],
     "COLUMN_TYPES": {
         "SUBLIST": "link",
-        "URL": "url",
+        "URL": "anyURI",
         "PART_OF_SPEECH": "string",
         "ENGLISH": [
             "languoid",
@@ -147,8 +147,8 @@
             "port1283",
             "pt"
         ],
-        "FREQUENCY": "int or float",
-        "RANK": "int",
-        "*SCORE": "int or float"
+        "FREQUENCY": "decimal",
+        "RANK": "integer",
+        "*SCORE": "decimal"
     }
 }

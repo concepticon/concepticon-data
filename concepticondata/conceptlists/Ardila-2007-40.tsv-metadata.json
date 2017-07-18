@@ -1,0 +1,111 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw", 
+        {
+            "@language": "en"
+        }
+    ], 
+    "dialect": {
+        "delimiter": "\t", 
+        "skipBlankRows": true
+    }, 
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string", 
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        }, 
+                        "name": "ID"
+                    }, 
+                    {
+                        "datatype": {
+                            "base": "string", 
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        }, 
+                        "name": "NUMBER"
+                    }, 
+                    {
+                        "datatype": {
+                            "base": "integer", 
+                            "minimum": 1
+                        }, 
+                        "name": "CONCEPTICON_ID"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "CONCEPTICON_GLOSS"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "ENGLISH"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "CATEGORY"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "ENGLISH_FREQUENCY"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "SPANISH_ORDER_OF_DIFFICULTY"
+                    }, 
+                    {
+                        "dc:description": "gloss in SPANISH", 
+                        "datatype": "string", 
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/stan1288", 
+                        "name": "SPANISH"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "SPANISH_FREQUENCY"
+                    }, 
+                    {
+                        "dc:description": "gloss in ESPERANTO", 
+                        "datatype": "string", 
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/espe1235", 
+                        "name": "ESPERANTO"
+                    }, 
+                    {
+                        "dc:description": "gloss in LATIN", 
+                        "datatype": "string", 
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/lati1261", 
+                        "name": "LATIN"
+                    }, 
+                    {
+                        "dc:description": "gloss in TURKISH", 
+                        "datatype": "string", 
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/nucl1301", 
+                        "name": "TURKISH"
+                    }, 
+                    {
+                        "dc:description": "gloss in BASQUE", 
+                        "datatype": "string", 
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/basq1248", 
+                        "name": "BASQUE"
+                    }, 
+                    {
+                        "dc:description": "gloss in RUSSIAN", 
+                        "datatype": "string", 
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/russ1263", 
+                        "name": "RUSSIAN"
+                    }, 
+                    {
+                        "dc:description": "gloss in SIKUANI", 
+                        "datatype": "string", 
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/guah1255", 
+                        "name": "SIKUANI"
+                    }
+                ], 
+                "primaryKey": [
+                    "ID"
+                ]
+            }, 
+            "url": "Ardila-2007-40.tsv"
+        }
+    ]
+}

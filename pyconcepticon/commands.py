@@ -100,6 +100,16 @@ def link(args):
 
 
 @command()
+def validate(args):
+    api = Concepticon(args.data)
+    for cl in api.conceptlists.values():
+        items = list(cl.metadata)
+        if set(items[0].keys()) != \
+                set(c.name for c in cl.metadata.tableSchema.columns):
+            print('unspecified column in concept list {0}'.format(cl.id))
+
+
+@command()
 def attributes(args):
     """Calculate the addditional attributes in the lists."""
     api = Concepticon(args.data)
@@ -363,8 +373,8 @@ def readme_concepticondata(api, cls):
     ]
 
     for attr, key in [
-        ('Diverse', lambda x: (len(set([label for _, label in x[1]])), x[0])),
-        ('Frequent', lambda x: (len(set([clist for clist, _ in x[1]])), x[0])),
+        ('Diverse', lambda x: (len(set([label for _, label in x[1]])), x[0] or '')),
+        ('Frequent', lambda x: (len(set([clist for clist, _ in x[1]])), x[0] or '')),
     ]:
         table = Table(
             'No.', 'concept set', 'distinct labels', 'concept lists', 'examples')

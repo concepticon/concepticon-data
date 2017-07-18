@@ -99,10 +99,6 @@ def split_ids(s):
     return unique(id_.strip() for id_ in ID_SEP_PATTERN.split(s) if id_.strip())
 
 
-def data_path(*comps, **kw):
-    return kw.get('repos', REPOS_PATH).joinpath('concepticondata', *comps)
-
-
 def visit(visitor, fname):
     return rewrite(fname, visitor)
 

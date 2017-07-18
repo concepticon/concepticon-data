@@ -1,0 +1,121 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw", 
+        {
+            "@language": "en"
+        }
+    ], 
+    "dialect": {
+        "delimiter": "\t", 
+        "skipBlankRows": true
+    }, 
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string", 
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        }, 
+                        "name": "ID"
+                    }, 
+                    {
+                        "datatype": {
+                            "base": "string", 
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        }, 
+                        "name": "NUMBER"
+                    }, 
+                    {
+                        "datatype": {
+                            "base": "integer", 
+                            "minimum": 1
+                        }, 
+                        "name": "CONCEPTICON_ID"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "CONCEPTICON_GLOSS"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "ENGLISH"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "ENGLISH_FREQUENCY"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "SPANISH_FREQUENCY"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "RUSSIAN_FREQUENCY"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "GREEK_FREQUENCY"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "PORTUGUESE_FREQUENCY"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "CHINESE_FREQUENCY"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "SWAHILI_FREQUENCY"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "CHILEAN_FREQUENCY"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "FINNISH_FREQUENCY"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "ESTONIAN_FREQUENCY"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "FRENCH_FREQUENCY"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "TURKISH_FREQUENCY"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "CZECH_FREQUENCY"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "POLISH_FREQUENCY"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "BASQUE_FREQUENCY"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "MAORI_FREQUENCY"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "TOK_PISIN_FREQUENCY"
+                    }
+                ], 
+                "primaryKey": [
+                    "ID"
+                ]
+            }, 
+            "url": "Calude-2011-200.tsv"
+        }
+    ]
+}

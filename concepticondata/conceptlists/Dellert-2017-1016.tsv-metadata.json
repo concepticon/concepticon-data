@@ -1,0 +1,93 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw", 
+        {
+            "@language": "en"
+        }
+    ], 
+    "dialect": {
+        "delimiter": "\t", 
+        "skipBlankRows": true
+    }, 
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string", 
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        }, 
+                        "name": "ID"
+                    }, 
+                    {
+                        "datatype": {
+                            "base": "string", 
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        }, 
+                        "name": "NUMBER"
+                    }, 
+                    {
+                        "datatype": {
+                            "base": "integer", 
+                            "minimum": 1
+                        }, 
+                        "name": "CONCEPTICON_ID"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "CONCEPTICON_GLOSS"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "ENGLISH"
+                    }, 
+                    {
+                        "datatype": "integer", 
+                        "name": "RANK"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "STABILITY_SCORE"
+                    }, 
+                    {
+                        "dc:description": "gloss in GERMAN", 
+                        "datatype": "string", 
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/stan1295", 
+                        "name": "GERMAN"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "NELEX_ID"
+                    }, 
+                    {
+                        "dc:description": "gloss in RUSSIAN", 
+                        "datatype": "string", 
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/russ1263", 
+                        "name": "RUSSIAN"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "GERMAN_ANNOTATION"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "ENGLISH_ANNOTATION"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "RUSSIAN_ANNOTATION"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "NOTE"
+                    }
+                ], 
+                "primaryKey": [
+                    "ID"
+                ]
+            }, 
+            "url": "Dellert-2017-1016.tsv"
+        }
+    ]
+}
