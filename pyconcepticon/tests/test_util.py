@@ -4,9 +4,21 @@ from __future__ import unicode_literals, print_function, division
 from cdstarcat.catalog import Object, Bitstream
 from clldutils.testing import WithTempDir
 from clldutils.jsonlib import load
+from clldutils.path import read_text
 
 
 class Tests(WithTempDir):
+    def test_UnicodeWriter(self):
+        from pyconcepticon.util import UnicodeWriter
+
+        with UnicodeWriter(self.tmp_path('tst')) as fp:
+            with self.assertRaises(AssertionError):
+                fp.writeblock([['a', 'b'], ['c', 'd']])
+            fp.writerow(['x', 'y'])
+            fp.writeblock([['a', 'b'], ['c', 'd']])
+        self.assertEqual(
+            read_text(self.tmp_path('tst')), 'x\ty\n#<<<\t\na\tb\nc\td\n#>>>\t\n')
+
     def test_to_dict(self):
         from pyconcepticon.util import to_dict
 

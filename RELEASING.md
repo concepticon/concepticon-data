@@ -67,6 +67,7 @@ git push --tags
 
 - Release to PyPI:
 ```
-python setup.py sdist register upload
+python setup.py sdist
+~/venvs/py34/bin/twine upload dist/pyconcepticon-<version>.tar.gz
 ```
 

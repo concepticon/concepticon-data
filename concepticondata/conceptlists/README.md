@@ -37,7 +37,7 @@
 | [Chen-1996-200](Chen-1996-200.tsv) | 200 | 100 | 0 |
 | [Clouse-1993-71](Clouse-1993-71.tsv) | 69 | 97 | 0 |
 | [Comrie-1977-207](Comrie-1977-207.tsv) | 207 | 100 | 0 |
-| [ConradandDye1975-102](ConradandDye1975-102.tsv) | 102 | 100 | 0 |
+| [ConradDye-1975-102](ConradDye-1975-102.tsv) | 102 | 100 | 0 |
 | [Cross-1964-241](Cross-1964-241.tsv) | 241 | 100 | 2 |
 | [Cysouw-2006-110](Cysouw-2006-110.tsv) | 110 | 100 | 0 |
 | [Daniels-2016-85](Daniels-2016-85.tsv) | 85 | 100 | 0 |

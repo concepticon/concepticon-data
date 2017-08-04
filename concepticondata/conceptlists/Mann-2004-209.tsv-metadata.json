@@ -1,0 +1,68 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw", 
+        {
+            "@language": "en"
+        }
+    ], 
+    "dialect": {
+        "delimiter": "\t", 
+        "skipBlankRows": true
+    }, 
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string", 
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        }, 
+                        "name": "ID"
+                    }, 
+                    {
+                        "datatype": {
+                            "base": "string", 
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        }, 
+                        "name": "NUMBER"
+                    }, 
+                    {
+                        "datatype": {
+                            "base": "integer", 
+                            "minimum": 1
+                        }, 
+                        "name": "CONCEPTICON_ID"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "CONCEPTICON_GLOSS"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "ENGLISH"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "valueUrl": "Mann-2004-500-{MANN_2004_500}", 
+                        "name": "MANN_2004_500"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "valueUrl": "Swadesh-1955-100-{SWADESH_1955_100}", 
+                        "name": "SWADESH_1955_100"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "valueUrl": "Swadesh-1952-200-{SWADESH_1952_200}", 
+                        "name": "SWADESH_1952_200"
+                    }
+                ], 
+                "primaryKey": [
+                    "ID"
+                ]
+            }, 
+            "url": "Mann-2004-209.tsv"
+        }
+    ]
+}

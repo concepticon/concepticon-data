@@ -1,0 +1,83 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw", 
+        {
+            "@language": "en"
+        }
+    ], 
+    "dialect": {
+        "delimiter": "\t", 
+        "skipBlankRows": true
+    }, 
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string", 
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        }, 
+                        "name": "ID"
+                    }, 
+                    {
+                        "datatype": {
+                            "base": "string", 
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        }, 
+                        "name": "NUMBER"
+                    }, 
+                    {
+                        "datatype": {
+                            "base": "integer", 
+                            "minimum": 1
+                        }, 
+                        "name": "CONCEPTICON_ID"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "CONCEPTICON_GLOSS"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "ENGLISH"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "valueUrl": "Swadesh-1955-100-{SWADESH_1955_100}", 
+                        "name": "SWADESH_1955_100"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "valueUrl": "Swadesh-1952-200-{SWADESH_1952_200}", 
+                        "name": "SWADESH_1952_200"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "SWADESH_GLOSS"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "valueUrl": "Wiktionary-2003-207-{WIKTIONARY_2003_207}", 
+                        "name": "WIKTIONARY_2003_207"
+                    }, 
+                    {
+                        "dc:description": "gloss in SPANISH", 
+                        "datatype": "string", 
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/stan1288", 
+                        "name": "SPANISH"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "valueUrl": "Yakhontov-1991-35-{YAKHONTOV_1991_35}", 
+                        "name": "YAKHONTOV_1991_35"
+                    }
+                ], 
+                "primaryKey": [
+                    "ID"
+                ]
+            }, 
+            "url": "Heggarty-2005-150.tsv"
+        }
+    ]
+}

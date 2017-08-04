@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pyconcepticon',
-    version='1.1.1',
+    version='1.2.0',
     description='programmatic access to concepticon-data',
     long_description='',
     classifiers=[
@@ -20,7 +20,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        'clldutils>=1.7.1',
+        'clldutils>=1.12.7',
         'bibtexparser',
         'tabulate',
         'attrs',

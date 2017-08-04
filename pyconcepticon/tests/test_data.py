@@ -2,8 +2,8 @@ from __future__ import unicode_literals
 import re
 import warnings
 
-from pyconcepticon.api import Concepticon, Conceptlist
-from pyconcepticon.util import split, REPOS_PATH, read_dicts
+from pyconcepticon.api import Concepticon
+from pyconcepticon.util import split, REPOS_PATH
 
 
 SUCCESS = True
@@ -98,7 +98,8 @@ def test():
 
             for lg in cl.source_language:  # pragma: no cover
                 if not (concept.attributes.get(lg.lower()) or
-                        getattr(concept, lg.lower(), None)):
+                        getattr(concept, lg.lower(), None) or
+                        (lg.lower() == 'english' and not concept.gloss)):
                     error('missing source language translation %s' % lg, cl.id, i + 2)
             for attr, values in ref_cols.items():
                 val = getattr(concept, attr)
@@ -106,7 +107,11 @@ def test():
                     error('invalid value for %s: %s' % (attr, val), cl.id, i + 2)
 
     sameas = {}
+    glosses = set()
     for cs in api.conceptsets.values():
+        if cs.gloss in glosses:  # pragma: no cover
+            error('duplicate conceptset gloss: {0}'.format(cs.gloss), cs.id)
+        glosses.add(cs.gloss)
         for target, rel in cs.relations.items():
             if rel == 'sameas':
                 for group in sameas.values():
