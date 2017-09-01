@@ -16,7 +16,7 @@ Many people helped us in many
 ways in assembling the data. They pointed us to missing
 lists (M), provided scans (S), digitized data (D), typed off
 and corrected concept lists (C), provided translations (T),
-linked concept lists (L), provided corrections of concept definitions and concept linkings (P), or gave important advice (A). 
+linked concept lists (L), provided corrections of concept definitions and concept linkings (P), or gave important advice (A), and (G) contributed new data via the GitHub-Workflow. 
 
 For all this help, we are very grateful and express our gratitude.
 
@@ -47,3 +47,4 @@ Isabella Boga | LP | 1.1
 Claire Bowern | D | 1.1
 Johannes Dellert | LPD | 1.1
 Maurizio Serva | MD | 1.1
+Michael Dunn | G | 1.1
