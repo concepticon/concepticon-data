@@ -6,6 +6,7 @@
 - [Backstrom1992 [PDF 142.6KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-7024-94E9-3662-0/Backstrom1992.pdf)
 - [Bakstrom1992 [PDF 83.2KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-10D7-907D-55FE-0/Bakstrom1992.pdf)
 - [Beaufils2015 [PDF 82.0KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-D39A-50FB-EF52-0/Beaufils2015.pdf)
+- [Bender1971 [PDF 792.0KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-5FFB-17AB-9DF7-0/Bender1971.pdf)
 - [Benedict1976 [PDF 34.2KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-3348-2E93-56EC-0/Benedict1976.pdf)
 - [Borin2012 [PDF 11.9KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-6727-D480-0CFA-0/Borin2012.pdf)
 - [Bowern2008 [PDF 14.0KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-E2BF-10CA-4D98-0/Bowern2008.pdf)
