@@ -9,6 +9,7 @@
 | [Backstrom-1992-210b](Backstrom-1992-210b.tsv) | 205 | 100 | 2 |
 | [Beaufils-2015-18](Beaufils-2015-18.tsv) | 18 | 100 | 0 |
 | [BeijingDaxue-1964-905](BeijingDaxue-1964-905.tsv) | 756 | 83 | 49 |
+| [Bender-1971-99](Bender-1971-99.tsv) | 98 | 98 | 0 |
 | [Benedict-1976-100](Benedict-1976-100.tsv) | 100 | 100 | 0 |
 | [Bengtson-1994-27](Bengtson-1994-27.tsv) | 27 | 100 | 2 |
 | [Bennet-1976-100](Bennet-1976-100.tsv) | 100 | 100 | 0 |
@@ -77,6 +78,7 @@
 | [Heggarty-2005-30a](Heggarty-2005-30a.tsv) | 30 | 100 | 0 |
 | [Heggarty-2005-30b](Heggarty-2005-30b.tsv) | 30 | 100 | 0 |
 | [Heggarty-2014-110](Heggarty-2014-110.tsv) | 108 | 98 | 1 |
+| [Hill-2017-240](Hill-2017-240.tsv) | 240 | 100 | 1 |
 | [Holman-2008-100](Holman-2008-100.tsv) | 100 | 100 | 0 |
 | [Holman-2008-40](Holman-2008-40.tsv) | 40 | 100 | 0 |
 | [Hooley-1971-128](Hooley-1971-128.tsv) | 127 | 99 | 0 |
@@ -149,6 +151,7 @@
 | [Sato-2002-200](Sato-2002-200.tsv) | 200 | 100 | 0 |
 | [SatterthwaitePhillips-2011-423](SatterthwaitePhillips-2011-423.tsv) | 417 | 98 | 5 |
 | [SatterthwaitePhillips-2011-50](SatterthwaitePhillips-2011-50.tsv) | 50 | 100 | 0 |
+| [Serva-2012-200](Serva-2012-200.tsv) | 200 | 100 | 0 |
 | [Shevoroshkin-1991-23](Shevoroshkin-1991-23.tsv) | 23 | 100 | 0 |
 | [Sidwell-2015-200](Sidwell-2015-200.tsv) | 200 | 100 | 0 |
 | [Smith-2015-97](Smith-2015-97.tsv) | 94 | 96 | 0 |
@@ -208,5 +211,5 @@
 | [Zorc-1974-100](Zorc-1974-100.tsv) | 100 | 100 | 0 |
 | [vanderWouw-1974-28](vanderWouw-1974-28.tsv) | 28 | 100 | 0 |
 
-(205 rows)
+(208 rows)
 
