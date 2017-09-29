@@ -97,6 +97,7 @@ If you write a pull request to Concepticon, make sure that you have added the re
 5 Do you reference a source file in PDF, in your description of the concept list in [```conceptlists.tsv```](https://github.com/clld/concepticon-data/blob/master/concepticondata/conceptlists.tsv)? If so, have you added it (in the form ```FirstAuthorLastNameYear```) to the folder [```sources/```](https://github.com/clld/concepticon-data/blob/master/concepticondata/sources/)?
 6 Do you have to thank some person for help with the concept list? If you are contributing and not part of our core editorial team, we will add you, so please provide us with your name and affiliation. To keep track of whom to thank, please edit the [```CONTRIBUTORS.MD```](https://github.com/clld/concepticon-data/blob/master/CONTRIBUTORS.md) document.
 7 Have you tested your modifications by typing ```$ concepticon test``` in the command line?
+8 Have you computed the new statistics, by typing ```$ concepticon stats``` and commited the files [```concepticondata/README.md```](https://github.com/clld/concepticon-data/blob/master/concepticondata/README.md) and [```concepticondata/conceptlists/README.md```](https://github.com/clld/concepticon-data/blob/master/concepticondata/conceptlists/README.md)?
 
 In brief, whenever you add a new concept list, you could use the following check-list:
 
@@ -107,6 +108,7 @@ In brief, whenever you add a new concept list, you could use the following check
 * [ ] source file in PDF?
 * [ ] thank and acknowledge contributors?
 * [ ] tested the code?
+* [ ] computed and committed new statistics? 
 
 
 
