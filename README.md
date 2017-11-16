@@ -85,6 +85,9 @@ the data as follows:
 >>> from pyconcepticon.api import Concepticon
 >>> api = Concepticon('concepticon-data-1.0.2')
 >>> conceptlist = api.conceptlists.values()[0]
+# If you're using Python 3.x, rather run the following:
+# conceptlist = list(api.conceptlists.values())
+# concept_list[0].author) # etc.
 >>> conceptlist.author
 u'Phillipe Mennecier and John Nerbonne and Evelyne Heyer and Franz Manni'
 >>> conceptlist.tags
