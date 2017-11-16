@@ -3,7 +3,8 @@
     "dialect": {
         "header": true,
         "skipBlankRows": true,
-        "delimiter": "\t"
+        "delimiter": "\t",
+	"encoding": "utf-8-sig"
     },
     "tables": [
         {
