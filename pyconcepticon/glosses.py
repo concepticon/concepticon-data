@@ -103,6 +103,7 @@ def parse_gloss(gloss, language='en'):
     and may thus help to compare different glosses across different resources.
     """
     if not gloss:
+        print(gloss)
         raise ValueError("Your gloss is empty")
     G = []
     gpos = ''

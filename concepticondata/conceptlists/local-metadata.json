@@ -14,8 +14,7 @@
                     {
                         "name": "ID",
                         "datatype": {
-                            "base": "string",
-                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                            "base": "string"
                         }
                     },
                     {
