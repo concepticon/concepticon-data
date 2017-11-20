@@ -99,6 +99,19 @@ def link(args):
 
 
 @command()
+def mergers(args):
+    """Return all merged concepts in a concept list (checks for local concept
+    list).
+    """
+    # @todo: check output
+    api = Concepticon(args.data)
+    cl = Conceptlist.from_file(args.args[0])
+    mapped, mapped_ratio, mergers = cl_stats(cl)
+    for k, v in mergers:
+        print(k, v)
+
+
+@command()
 def validate(args):
     api = Concepticon(args.data)
     for cl in api.conceptlists.values():
@@ -298,18 +311,27 @@ def stats(args):
     readme_concepticondata(api, cls)
 
 
+def cl_stats(cl):
+    """Return simple statistics for a given concept list"""
+    # @todo: refine for custom-concept lists
+    concepts = cl.concepts.values()
+    mapped = [c for c in concepts if c.concepticon_id]
+    mapped_ratio = 0
+    if concepts:
+        mapped_ratio = int((len(mapped) / len(concepts)) * 100)
+    concepticon_ids = Counter(
+        [c.concepticon_id for c in concepts if c.concepticon_id])
+    mergers = [(k, v) for k, v in concepticon_ids.items() if v > 1]
+    
+    return mapped, mapped_ratio, mergers
+
 def readme_conceptlists(api, cls):
     table = Table('name', '# mapped', '% mapped', 'mergers')
     for cl in cls:
-        concepts = cl.concepts.values()
-        mapped = len([c for c in concepts if c.concepticon_id])
-        mapped_ratio = 0
-        if concepts:
-            mapped_ratio = int((mapped / len(concepts)) * 100)
-        concepticon_ids = Counter(
-            [c.concepticon_id for c in concepts if c.concepticon_id])
-        mergers = len([k for k, v in concepticon_ids.items() if v > 1])
-        table.append(['[%s](%s) ' % (cl.id, cl.path.name), mapped, mapped_ratio, mergers])
+        print(cl.path.name)
+        mapped, mapped_ratio, mergers = cl_stats(cl)
+        table.append(['[%s](%s) ' % (cl.id, cl.path.name), len(mapped),
+            mapped_ratio, len(mergers)])
     readme(
         api.data_path('conceptlists'),
         '# Concept Lists\n\n{0}'.format(

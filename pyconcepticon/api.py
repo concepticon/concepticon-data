@@ -433,6 +433,8 @@ class Conceptlist(Bag):
     def from_file(cls, path, **keywords):
         """
         Function loads a concept list outside the Concepticon collection.
+
+        @todo: uniqueness-check hier einbauen, siehe Funktion read_dicts
         """
         path = Path(path)
         assert path.exists()
