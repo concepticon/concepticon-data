@@ -387,6 +387,7 @@ class Conceptlist(Bag):
     note = attr.ib()
     pages = attr.ib()
     alias = attr.ib(convert=lambda s: [] if s is None else split(s))
+    local = attr.ib(default=False)
 
     @property
     def metadata(self):
@@ -394,7 +395,10 @@ class Conceptlist(Bag):
         if not md.exists():
             ddir = self._api.data_path() if hasattr(self._api, 'data_path') \
                 else REPOS_PATH.joinpath('concepticondata')
-            md = ddir.joinpath('conceptlists', 'default-metadata.json')
+            if self.local:
+                md = ddir.joinpath('conceptlists', 'local-metadata.json')
+            else:
+                md = ddir.joinpath('conceptlists', 'default-metadata.json')
         tg = TableGroup.from_file(md)
         if isinstance(self._api, Path):
             tg._fname = self._api.parent.joinpath(self._api.name + '-metadata.json')
@@ -436,5 +440,6 @@ class Conceptlist(Bag):
         attrs.update(
             id=path.stem,
             items=keywords.get('items', len(read_dicts(path))),
-            year=keywords.get('year', 0))
+            year=keywords.get('year', 0),
+            local=True)
         return cls(api=path, **attrs)

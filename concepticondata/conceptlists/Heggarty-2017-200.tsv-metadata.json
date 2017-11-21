@@ -33,15 +33,23 @@
                         }
                     },
                     {
+                        "name": "URL",
+                        "datatype": "anyURI"
+		    },
+                    {
                         "name": "CONCEPTICON_GLOSS",
                         "datatype": "string"
                     },
                     {
-                        "name": "GLOSS",
+                        "name": "ENGLISH",
                         "datatype": "string"
                     },
                     {
-                        "name": "ENGLISH",
+                        "name": "DESCRIPTION",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "EXAMPLE_CONTEXT",
                         "datatype": "string"
                     }
                 ],
