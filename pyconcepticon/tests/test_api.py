@@ -47,7 +47,7 @@ class Tests(TestWithFixture):
 
 class TestConcepticon(TestWithFixture):
     @classmethod
-    def setupClass(cls):
+    def setUpClass(cls):
         cls.api = Concepticon()
 
     def test_Conceptset(self):
