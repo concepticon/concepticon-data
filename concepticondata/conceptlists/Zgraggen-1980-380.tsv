@@ -1,17 +1,17 @@
 ID	CONCEPTICON_ID	CONCEPTICON_GLOSS	NUMBER	ENGLISH
 Zgraggen-1980-380-1	1554	MAN	1	man
 Zgraggen-1980-380-2	962	WOMAN	2	woman
-Zgraggen-1980-380-3	1229	OLD	3	old (of humans)
+Zgraggen-1980-380-3	2112	OLD (AGED)	3	old (of humans)
 Zgraggen-1980-380-4	98	ALL	4	all
 Zgraggen-1980-380-6	2099	CHILD	6	child
 Zgraggen-1980-380-9	1366	BOY	9	boy
 Zgraggen-1980-380-10	1646	GIRL	10	girl
 Zgraggen-1980-380-11	1217	FATHER	11	father
 Zgraggen-1980-380-12	1216	MOTHER	12	mother
-Zgraggen-1980-380-13	405	OLDER SIBLING	13	sibling same sex, older
-Zgraggen-1980-380-14	427	YOUNGER SIBLING	14	sibling same sex, younger
-Zgraggen-1980-380-15	405	OLDER SIBLING	15	sibling different sex, older
-Zgraggen-1980-380-16	427	YOUNGER SIBLING	16	sibling different sex, younger
+Zgraggen-1980-380-13	3037	SAME-SEX OLDER SIBLING	13	sibling same sex, older
+Zgraggen-1980-380-14	3038	SAME-SEX YOUNGER SIBLING	14	sibling same sex, younger
+Zgraggen-1980-380-15	3039	DIFFERENT-SEX OLDER SIBLING	15	sibling different sex, older
+Zgraggen-1980-380-16	3040	DIFFERENT-SEX YOUNGER SIBLING	16	sibling different sex, younger
 Zgraggen-1980-380-24	1209	I	24	I
 Zgraggen-1980-380-25	1215	THOU	25	thou
 Zgraggen-1980-380-26	1211	HE	26	he
@@ -47,7 +47,7 @@ Zgraggen-1980-380-68	471	UPPER LEG	68	upper leg
 Zgraggen-1980-380-70	498	CALF OF LEG	70	calf (of leg)
 Zgraggen-1980-380-71	1371	KNEE	71	knee
 Zgraggen-1980-380-72	1251	BELLY	72	belly
-Zgraggen-1980-380-73	1334	GUTS	73	stomach (guts)
+Zgraggen-1980-380-73	819	STOMACH	73	stomach (guts)
 Zgraggen-1980-380-74	1402	BREAST	74	breast (woman)
 Zgraggen-1980-380-75	1592	CHEST	75	chest
 Zgraggen-1980-380-77	1838	NAVEL	77	navel
@@ -69,11 +69,11 @@ Zgraggen-1980-380-93	1405	NAME	93	name
 Zgraggen-1980-380-95	1837	VULVA	95	vulva
 Zgraggen-1980-380-96	937	BIRD	96	bird
 Zgraggen-1980-380-98	1257	WING	98	wing
-Zgraggen-1980-380-99	1220	TAIL	99	tail (of bird)
+Zgraggen-1980-380-99			99	tail (of bird)
 Zgraggen-1980-380-100	744	EGG	100	egg
 Zgraggen-1980-380-101	466	CASSOWARY	101	cassowary
 Zgraggen-1980-380-102	1318	CHICKEN	102	chicken (tame)
-Zgraggen-1980-380-103	1318	CHICKEN	103	chicken (wild)
+Zgraggen-1980-380-103			103	chicken (wild)
 Zgraggen-1980-380-104	2009	DOG	104	dog
 Zgraggen-1980-380-106	1220	TAIL	106	tail (of dog)
 Zgraggen-1980-380-107	1553	MALE	107	male
@@ -92,7 +92,7 @@ Zgraggen-1980-380-120	503	FROG	120	frog
 Zgraggen-1980-380-121	1490	RAT	121	rat
 Zgraggen-1980-380-122	730	SNAKE	122	snake
 Zgraggen-1980-380-123	165	WALLABY	123	wallaby
-Zgraggen-1980-380-124	470	POSSUM	124	possum (tree)
+Zgraggen-1980-380-124			124	possum (tree)
 Zgraggen-1980-380-125	470	POSSUM	125	possum (ground)
 Zgraggen-1980-380-126	1791	BUTTERFLY	126	butterfly
 Zgraggen-1980-380-127	868	BANANA	127	banana
@@ -104,23 +104,23 @@ Zgraggen-1980-380-132	469	PANDANUS	132	pandanus
 Zgraggen-1980-380-133	593	POTATO	133	potato
 Zgraggen-1980-380-134	146	SUGAR CANE	134	sugar cane
 Zgraggen-1980-380-135	351	TARO	135	taro
-Zgraggen-1980-380-136	351	TARO	136	singapore taro
+Zgraggen-1980-380-136			136	singapore taro
 Zgraggen-1980-380-137	410	YAM	137	yam
 Zgraggen-1980-380-138	410	YAM	138	yam (discorea esculenta)
 Zgraggen-1980-380-139	974	TOBACCO	139	tobacco
 Zgraggen-1980-380-140	2270	SAGO	140	sago
 Zgraggen-1980-380-141	147	COCONUT TREE	141	coconut tree
-Zgraggen-1980-380-142	970	COCONUT	142	ripe coconut
-Zgraggen-1980-380-143	970	COCONUT	143	green coconut
+Zgraggen-1980-380-142	3035	RIPE COCONUT	142	ripe coconut
+Zgraggen-1980-380-143	3034	GREEN COCONUT	143	green coconut
 Zgraggen-1980-380-144	906	TREE	144	tree
 Zgraggen-1980-380-148	1507	FRUIT	148	fruit
 Zgraggen-1980-380-149	345	SAP	149	sap
 Zgraggen-1980-380-150	1023	STUMP OF TREE	150	stump (of tree)
-Zgraggen-1980-380-151	1753	TOP	151	top (of tree)
+Zgraggen-1980-380-151	3036	TREETOP	151	top (of tree)
 Zgraggen-1980-380-152	344	TREE TRUNK	152	trunk (of tree)
 Zgraggen-1980-380-153	670	ROOT	153	root (of tree)
 Zgraggen-1980-380-154	1803	WOOD	154	piece of wood
-Zgraggen-1980-380-156	146	SUGAR CANE	156	cane
+Zgraggen-1980-380-156			156	cane
 Zgraggen-1980-380-157	1295	STICK	157	stick
 Zgraggen-1980-380-158	1927	BAMBOO	158	bamboo
 Zgraggen-1980-380-159	832	BEAN	159	bean
@@ -152,20 +152,20 @@ Zgraggen-1980-380-189	420	FOREST	189	woods
 Zgraggen-1980-380-190	948	WATER	190	water
 Zgraggen-1980-380-191	658	RAIN (PRECIPITATION)	191	rain
 Zgraggen-1980-380-194	960	WIND	194	wind
-Zgraggen-1980-380-196a	977	ARROW	196a	arrow (a)
-Zgraggen-1980-380-196b	977	ARROW	196b	arrow (b)
-Zgraggen-1980-380-196c	977	ARROW	196c	arrow (c)
-Zgraggen-1980-380-196d	977	ARROW	196d	arrow (d)
+Zgraggen-1980-380-196a	977	ARROW	196a	arrow (arrow a)
+Zgraggen-1980-380-196b			196b	barred arrow (arrow b)
+Zgraggen-1980-380-196c			196c	hooked arrow (arrow c)
+Zgraggen-1980-380-196d			196d	pronged arrow (arrow d)
 Zgraggen-1980-380-197a	945	SPEAR	197a	spear
 Zgraggen-1980-380-197b	841	FISHING SPEAR	197b	fish spear
-Zgraggen-1980-380-198a	677	AXE	198a	axe (stone)
+Zgraggen-1980-380-198a			198a	axe (stone)
 Zgraggen-1980-380-198b	677	AXE	198b	axe (iron)
 Zgraggen-1980-380-199	994	BOW	199	bow
-Zgraggen-1980-380-200	1218	ROPE	200	rope (of bow)
+Zgraggen-1980-380-200	2119	BOW STRING	200	rope (of bow)
 Zgraggen-1980-380-203	1475	COMB	203	comb
 Zgraggen-1980-380-204	328	GRASS-SKIRT	204	grass skirt
 Zgraggen-1980-380-205	468	G-STRING	205	G-string
-Zgraggen-1980-380-206	908	DRUM	206	hand drum
+Zgraggen-1980-380-206	111	DRUMMING	206	hand drum
 Zgraggen-1980-380-207	908	DRUM	207	signal drum
 Zgraggen-1980-380-208	1352	KNIFE	208	knife
 Zgraggen-1980-380-209	480	PLATE	209	wooden plate
@@ -272,8 +272,8 @@ Zgraggen-1980-380-337	155	CHOP	337	chop (with axe)
 Zgraggen-1980-380-338	2156	CUT (WITH KNIFE)	338	cut (with knife)
 Zgraggen-1980-380-340	463	FELL (A TREE)	340	fell (a tree)
 Zgraggen-1980-380-341	1719	BURY	341	bury
-Zgraggen-1980-380-342	653	PLANT (VEGETATION)	342	plant
-Zgraggen-1980-380-343	1869	BUY	343	buy
+Zgraggen-1980-380-342	1486	PLANT (SOMETHING)	342	plant
+Zgraggen-1980-380-343	2135	TRADE OR BARTER	343	buy
 Zgraggen-1980-380-344	1962	ROAST (SOMETHING)	344	roast
 Zgraggen-1980-380-345	2493	BOIL	345	boil
 Zgraggen-1980-380-346	2102	BURN	346	burn
@@ -284,7 +284,7 @@ Zgraggen-1980-380-350	1417	KILL	350	kill
 Zgraggen-1980-380-351	1456	THROW	351	throw (stone)
 Zgraggen-1980-380-352	1172	SHOOT	352	shoot
 Zgraggen-1980-380-353	1468	LOOK FOR	353	look for
-Zgraggen-1980-380-354	734	MAKE	354	make
+Zgraggen-1980-380-354	2575	DO OR MAKE	354	make
 Zgraggen-1980-380-355	251	SHARPEN (SOMETHING)	355	sharpen a bow
 Zgraggen-1980-380-356	1448	HOLD	356	hold
 Zgraggen-1980-380-357	1487	POUR	357	pour out (liquid)
@@ -292,7 +292,7 @@ Zgraggen-1980-380-358	1455	PULL	358	pull
 Zgraggen-1980-380-359	1452	PUSH	359	push
 Zgraggen-1980-380-360	998	PUT	360	put
 Zgraggen-1980-380-361	1436	SCRATCH	361	scratch (skin)
-Zgraggen-1980-380-363	2124	SMELL	363	smell
+Zgraggen-1980-380-363	1586	SMELL (PERCEIVE)	363	smell
 Zgraggen-1980-380-364	897	SWALLOW	364	swallow
 Zgraggen-1980-380-365	1749	TAKE	365	take
 Zgraggen-1980-380-366a	1917	TIE	366a	tie
@@ -300,10 +300,51 @@ Zgraggen-1980-380-366b	1094	FASTEN	366b	fasten
 Zgraggen-1980-380-367	1084	CALL	367	call out
 Zgraggen-1980-380-368	1839	CRY	368	cry
 Zgraggen-1980-380-369	1355	LAUGH	369	laugh
-Zgraggen-1980-380-370a	1261	SING	370a	singsing
+Zgraggen-1980-380-370a	131	FESTIVAL	370a	singsing
 Zgraggen-1980-380-370b	1879	DANCE	370b	dance
 Zgraggen-1980-380-371	1588	TURN	371	turn (oneself)
 Zgraggen-1980-380-373	2271	THINK	373	think
-Zgraggen-1980-380-374	1920	DREAM (SOMETHING)	374	dream
-Zgraggen-1980-380-375	1419	FEAR (BE AFRAID)	375	be afraid
+Zgraggen-1980-380-374	2374	DREAM	374	dream
+Zgraggen-1980-380-375	3033	SCARED	375	be afraid
 Zgraggen-1980-380-380	1847	SICK	380	be sick
+Zgraggen-1980-380-381			381	you
+Zgraggen-1980-380-382			382	our-dual
+Zgraggen-1980-380-383	2310	US (OBLIQUE CASE OF WE)	383	us
+Zgraggen-1980-380-384			384	you-pl-o2p
+Zgraggen-1980-380-385	2279	NO OR NOT	385	no-not
+Zgraggen-1980-380-387			387	negation-marker
+Zgraggen-1980-380-388	2680	MACHETE	388	kunai
+Zgraggen-1980-380-389	2274	YOUR (PLURAL)	389	your-pl
+Zgraggen-1980-380-390	970	COCONUT	390	coconut
+Zgraggen-1980-380-391			391	you-dual
+Zgraggen-1980-380-392	2046	APRON	392	tanket
+Zgraggen-1980-380-393	732	YOUR (SINGULAR)	393	your-sg
+Zgraggen-1980-380-394	2642	HE OR SHE	394	he-she
+Zgraggen-1980-380-395			395	theirs
+Zgraggen-1980-380-396			396	your-pl-dual
+Zgraggen-1980-380-397			397	his
+Zgraggen-1980-380-398	2400	THEIR	398	their
+Zgraggen-1980-380-399			399	they-dual
+Zgraggen-1980-380-400	31	PAN	400	pan
+Zgraggen-1980-380-401			401	you-o2s
+Zgraggen-1980-380-402			402	we-dual
+Zgraggen-1980-380-403	780	OUR	403	our
+Zgraggen-1980-380-404	984	WORK (LABOUR)	404	work-n
+Zgraggen-1980-380-405			405	you-pl
+Zgraggen-1980-380-406	862	SUGAR	406	sugar
+Zgraggen-1980-380-407			407	them-dual
+Zgraggen-1980-380-408			408	their-dual
+Zgraggen-1980-380-409			409	them
+Zgraggen-1980-380-410			410	us-two
+Zgraggen-1980-380-411	1753	TOP	411	top
+Zgraggen-1980-380-412			412	him-her-it
+Zgraggen-1980-380-413	159	SWEET POTATO	413	sweet-potato
+Zgraggen-1980-380-414	1560	FACE	414	face
+Zgraggen-1980-380-415			415	possessive-marker
+Zgraggen-1980-380-416			416	you-pl-dual-o2p
+Zgraggen-1980-380-417	800	THIGH	417	thigh
+Zgraggen-1980-380-418	2090	MY	418	my
+Zgraggen-1980-380-419	2301	ME	419	me
+Zgraggen-1980-380-420	1334	GUTS	420	guts
+Zgraggen-1980-380-421	1651	TEAR (OF EYE)	421	tears
+Zgraggen-1980-380-422	1920	DREAM (SOMETHING)	422	to-dream
