@@ -38,14 +38,14 @@ If you link a concept list manually, we will assume and check automatically and 
 
 * the concept list itself, which should be placed into the folder [conceptlists/](https://github.com/clld/concepticon-data/tree/master/concepticondata/conceptlists). Here, we follow the convention of naming the file according to the schema FirstAuthor-Year-NumberOfItems.tsv. Each list needs to have the following fields (the order is irrelevant):
   - ID: an identifier, following the schema FirstAuthor-Year-NumberOfItems-Number
-  - NUMBER: a number or a string that is unique to the given concept
+  - NUMBER: a number or a string that is unique to the given concept (CR: this is slightly ambiguous I think)
   - ENGLISH or GLOSS: use ENGLISH, if the original language is ENGLISH, use GLOSS, if the original entry of the concept label is another language and the gloss is your translation
   - CONCEPTICON_ID: either a valid id of our Concepticon, or an empty field, if you don't know how to map it (we automatically compute the amount of missing links and badge them for each concept list)
   - CONCEPTICON_GLOSS: the corresponding gloss
   Apart from this, you can add as many further columns as you want. Here, we have further conventions:
   - if you have translations of the gloss in different languages, label them accordingly (CHINESE, FRENCH, etc.)
   - if you have a ranked list, provide the RANK as an integer and name the field RANK
-  - there are further "soft" conventions, which you can inspect by having a look at the different concept lists which are already mapped
+  - there are further "soft" conventions, which you can inspect by having a look at the different concept lists which are already mapped (CR: examples might be beneficial)
 * the reference, provided as a BibTex entry in the file[references.bib](https://github.com/clld/concepticon-data/blob/master/concepticondata/references/references.bib). Please use the schema FirstAuthorYear and add a, b, c, etc. if there are multiple entires for the same author and the same yere, 
 * a description of the basic characteristics of the list in the file [conceptlists.tsv](https://github.com/clld/concepticon-data/blob/master/concepticondata/conceptlists.tsv). Here, we recommend you to either contact us if there are further questions, or to just look up how we usually encode the respective values. Not all information is required, but it is our goal to try always to fill out as many cells for a new concept list as possible. 
 * if you have a scan of your list which does not fall under the copyright law (no full books, but pages in which one can see the concept lists should be acceptable), please label it as BibTexKey.pdf and put it in the folder [sources](https://github.com/clld/concepticon-data/tree/master/concepticondata/sources)
