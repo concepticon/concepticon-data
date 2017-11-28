@@ -233,7 +233,7 @@ def concept_map2(from_, to, freqs=None, language='en', **_):
     return mapping
 
 
-def concept_map(from_, to, similarity_level=5, **_):
+def concept_map(from_, to, similarity_level=5, **kw):
     """
     Function compares two concept lists and outputs suggestions for mapping.
 
@@ -262,7 +262,6 @@ def concept_map(from_, to, similarity_level=5, **_):
                 for gloss in glosses[key][i]:
                     gloss.pos = pos
                     gloss.frequency = frequency
-
     # now that we have prepared all the glossed list as planned, we compare them item by
     # item and check for similarity
     sims = []

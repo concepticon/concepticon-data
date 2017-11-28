@@ -488,6 +488,7 @@ def lookup(args):
         language=args.language,
         full_search=args.full_search,
         similarity_level=args.similarity)
+    
     with UnicodeWriter(None) as writer:
         writer.writerow(['GLOSS', 'CONCEPTICON_ID', 'CONCEPTICON_GLOSS', 'SIMILARITY'])
         for matches in found:
