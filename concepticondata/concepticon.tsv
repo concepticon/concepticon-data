@@ -2350,7 +2350,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2349	SHRIMP	Animals	Refers to some decapod crustaceans, although the exact animals covered can vary. Used broadly, it may cover any of the groups with elongated bodies and a primarily swimming mode of locomotion – chiefly Caridea and Dendrobranchiata. 	Person/Thing	
 2350	EARTHWORM	Animals	A tube-shaped, segmented worm found in the phylum Annelida. 	Person/Thing	
 2351	SILKWORM	Animals	The larva or caterpillar of the domesticated silkmoth (Bombyx mori) 	Person/Thing	
-2352	DRAGONFLY	Animals	---	Person/Thing	
+2352	DRAGONFLY	Animals	Predatory insect of the order Odonata.	Person/Thing	
 2353	CICADA	Animals	 Insects in the order Hemiptera, suborder Auchenorrhyncha. 	Person/Thing	
 2354	CRICKET	Animals	Insects related to grasshoppers. 	Person/Thing	
 2355	GECKO	Animals	 Lizards belonging to the infraorder Gekkota, found in warm climates throughout the world. They r 	Person/Thing	
@@ -3000,3 +3000,63 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3004	FORMER	Time	Coming before in time.	Property	
 3005	FAMILIAR	Emotions and values	Knowing somebody or something well.	Property	
 3006	SPACE (AVAILABLE)	Spatial relations	Available space to place things.	Person/Thing	
+3007	EUCALYPT	Agriculture and vegetation	Tree or wood for plants with capsule fruiting bodies belonging to closely related genera found across Australia.	Person/Thing	
+3008	ECHIDNA	Animals	Egg-laying mammal of the Tachyglossidae family.	Person/Thing	
+3009	WHITE COCKATOO	Animals	Large white cockatoo, species C. galerita.	Person/Thing	
+3010	WAGTAIL	Animals	Passerine bird of genus Motacilla.	Person/Thing	
+3011	GRUB	Animals	Larva of Coleoptera order.	Person/Thing	
+3012	BANDICOOT	Animals	Marsupial of Peramelemorphia order.	Person/Thing	
+3013	BLACK COCKATOO	Animals	Black cockatoo, usually the Palm cockatoo.	Person/Thing	
+3014	BLACK DUCK	Animals	Pacific black duck (Anas superciliosa).	Person/Thing	
+3015	PATERNAL GRANDMOTHER	Kinship	Father's mother.	Person/Thing	
+3016	FIRE STICK	Basic actions and technology	Sticks used specifically to set fire to smt. or to burn.	Person/Thing	
+3017	MONITOR LIZARD	Animals	Monitor lizard of the genus Varanus, such as the goanna and the Komodo dragon.	Person/Thing	
+3018	NATIVE CAT	Animals	Small mammal predator with long and slender bodyshape, usually referred to as "native cat" by European colonizers (but not a true Felidae).	Person/Thing	
+3019	SAND HILL	The physical world	Ecological community or xeric wildfire-maintained ecosystem (different from sand dune).	Person/Thing	
+3020	BREAK (BREAKING)	Basic actions and technology	To come apart or split into pieces (intransitive)	Action/Process	
+3021	BLUE TONGUED SKINK	Animals	Australian skins comprising the genus Tiliqua.	Person/Thing	
+3022	TOP GRINDSTONE	Basic actions and technology	The top (and usually proper) element in a two-stone grindstone. 	Person/Thing	
+3023	BOTTOM GRINDSTONE	Basic actions and technology	The bottom element in a two-stone grindstone. 	Person/Thing	
+3024	BRIDE PRICE	Social and political relations	Money or other form of wealth paid by a groom to the family of his bride.	Person/Thing	
+3025	BARN OR SHED	The house	A building for storing agricultural products or sheltering livestock.	Person/Thing	
+3026	CONJUNCTIVITIS	The body	An inflammation of the eye conjunctiva.	Person/Thing	
+3027	COOKED CORN	Food and drink	Boiled corn.	Person/Thing	
+3028	GRAVEL	The physical world	An uncosolidated mixture of pebbles and/or rock fragments of different sizes.	Person/Thing	
+3029	SUGAR PALM	Agriculture and vegetation	Common name for several palm species used to produce sugar, especially Arenga pinnata.	Person/Thing	
+3030	LONTAR PALM	Agriculture and vegetation	Species of the genus Borassus of fan palms.	Person/Thing	
+3031	MORINGA TREE	Agriculture and vegetation	Species of the genus Moringa, widely cultivated in tropical and subtropical areas and used in herbal medicine.	Person/Thing	
+3032	STARFISH	Animals	Star-shaped echinoderm of class Asteroidea, occuring in all the world's oceans.	Person/Thing	
+3033	SCARED	Emotions and values	Property of being scared of something or someone, having an uncontrollable emotion of anxiety.	Property	
+3034	GREEN COCONUT	Agriculture and vegetation	A green (i.e., not mature) oval nut with a fibrous husk of the cocos palm, used as source of coconut water.	Person/Thing	
+3035	RIPE COCONUT	Agriculture and vegetation	A ripe (i.e., mature) oval nut with a fibrous husk of the cocos palm, used as source of coconut meat.	Person/Thing	
+3036	TREETOP	Agriculture and vegetation	The uppermost part of a tree; crown.	Person/Thing	
+3037	SAME-SEX OLDER SIBLING	Kinship	A person of the same sex who is born before another person who has the same parents.	Person/Thing	
+3038	SAME-SEX YOUNGER SIBLING	Kinship	A person of the same sex who is born after another person who has the same parents.	Person/Thing	
+3039	DIFFERENT-SEX OLDER SIBLING	Kinship	A person of the different sex who is born before another person who has the same parents.	Person/Thing	
+3040	DIFFERENT-SEX YOUNGER SIBLING	Kinship	A person of the different sex who is born after another person who has the same parents.	Person/Thing	
+3041	PATERNAL AUNT (FATHER'S OLDER SISTER)	Kinship	The older sister of one's father.	Person/Thing	
+3042	MATERNAL AUNT (MOTHER'S OLDER SISTER)	Kinship	The older sister of one's mother.	Person/Thing	
+3043	MATERNAL AUNT (MOTHER'S YOUNGER SISTER)	Kinship	The younger sister of one's mother.	Person/Thing	
+3044	BOVINE	Animals	Member of the Bovinae subfamily, mostly pointing to bulls, cows and oxes.	Person/Thing	
+3045	COPPER (COLOR)	Sense perception	Having a red to yellow metallic color that resembles the metal copper.	Property	
+3046	FODDER	Food and drink	Feed for livestock, especially chopped hay or straw.	Person/Thing	
+3047	HOT SEASON	Time	Period of the year associated with hot or warm weather.	Person/Thing	
+3048	MOUTH HARP	Modern world	Lamellophone instrument consisting of a tongue or reed attached to a frame, placed in the performer's mouth and plucked; Jew's harp, jaw harp.	Person/Thing	
+3049	COURAGE	Emotions and values	A state or quality of mind that enables to face danger and fear; bravery.	Property	
+3050	SEEDLING	Agriculture and vegetation	A young plant produced from a seed.	Person/Thing	
+3051	REED PIPE	Modern world	Organ pipe that is sounded by a vibrating a metal tongue which rests agains a tunnel.	Person/Thing	
+3052	ERHU	Modern world	A two-stringed fiddle common in Eastern Asia; Chinese violin, Chinese two-stringed fiddle.	Person/Thing	
+3053	TIGHT	Basic actions and technology	Being not loose.	Property	
+3054	BEAR FRUIT	Agriculture and vegetation	To produce or yield fruits.	Action/Process	
+3055	SWINDLE	Law	To deceive or deprive by trickery and fraud; to cheat.	Action/Process	
+3056	ANIMAL (CLASSIFIER)	Quantity	Classifier for animals.	Classifier	
+3057	FLAIL	Basic actions and technology	A manual device used for beating or striking with, consisting of a free-swinging stick attached to a handle.	Person/Thing	
+3058	GRAZE	Animals	To feed on grasses and herbage in a field or on pastureland.	Action/Process	
+3059	MALARIA	The body	Infectious disease characterized by chills, fevers, and sweating, caused by a protozoan of the genus Plasmodium and transmitted by infected Anopheles mosquitos.	Person/Thing	
+3060	PHEASANT	Animals	Bird of the family Phasianidae.	Person/Thing	
+3061	PHLEGM	The body	Mucus secreted by the respiratory tract, particularly during respiratory infections, usually thick and sticky.	Person/Thing	
+3062	TURNIP	Agriculture and vegetation	A cultivated Eurasian plant, Brassica rapa, of the mustard family, whose whitish root and leaves are edible.	Person/Thing	
+3063	RAMIE	Agriculture and vegetation	A perennial shrub native to Eastern Asia, with broad leaves and clusters of greenish flowers.	Person/Thing	
+3064	RUST	Basic actions and technology	Any of various metallic coatings formed by corrosion, especially after oxidation in presence of water.	Person/Thing	
+3065	SADDLE	Basic actions and technology	A seat for an animal (especially horse) rider, secured by a girth.	Person/Thing	
+3066	TURBAN	Clothing and grooming	A headdress, consisting of a scarf or other long piece of cloth, wound around the head.	Person/Thing	
