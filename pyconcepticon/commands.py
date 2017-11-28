@@ -4,6 +4,7 @@ import os
 from collections import Counter, defaultdict
 import operator
 from functools import partial
+import json
 
 from six import text_type
 from tabulate import tabulate
@@ -14,7 +15,8 @@ from clldutils.misc import format_size
 from cdstarcat.catalog import Catalog
 
 import pyconcepticon
-from pyconcepticon.util import rewrite, CS_ID, CS_GLOSS, SourcesCatalog, UnicodeWriter
+from pyconcepticon.util import (rewrite, CS_ID, CS_GLOSS, SourcesCatalog,
+        UnicodeWriter, REPOS_PATH)
 from pyconcepticon.api import Concepticon, Conceptlist
 
 
@@ -119,6 +121,31 @@ def validate(args):
         if set(items[0].keys()) != \
                 set(c.name for c in cl.metadata.tableSchema.columns):
             print('unspecified column in concept list {0}'.format(cl.id))
+
+@command()
+def html(args):
+    api = Concepticon(args.data)
+    data = defaultdict(list)
+    for lang in ['en', 'de', 'zh', 'fr']:
+        for cidx, gloss in api._get_map_for_language(lang):
+            data[gloss.split('///')[1]+'---'+lang] += [(
+                    cidx,
+                    api.conceptsets[cidx].gloss,
+                    api.conceptsets[cidx].definition,
+                    api.conceptsets[cidx].ontological_category)]
+            data[gloss.split('///')[0]+'---'+lang] += [(
+                    cidx,
+                    api.conceptsets[cidx].gloss,
+                    api.conceptsets[cidx].definition,
+                    api.conceptsets[cidx].ontological_category)]
+            data[gloss.split('///')[0].lower()+'---'+lang] += [(
+                    cidx,
+                    api.conceptsets[cidx].gloss,
+                    api.conceptsets[cidx].definition,
+                    api.conceptsets[cidx].ontological_category)]
+    data['language'] = 'en'
+    with REPOS_PATH.joinpath('html', 'data.js').open('w', encoding='utf-8') as f:
+        f.write('var Concepticon = '+json.dumps(data, indent=2)+';\n')
 
 
 @command()
@@ -259,8 +286,8 @@ def intersection(args):
     """
     Compare how many concepts overlap in concept lists.
 
-    Note
-    ----
+    Notes
+    -----
     This takes concept relations into account by searching for each concept
     set for broader concept sets in the depth of two edges on the network. If
     one concept A in one list is broader than concept B in another list, the
