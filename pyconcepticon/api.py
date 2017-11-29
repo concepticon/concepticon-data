@@ -158,8 +158,6 @@ class Concepticon(API):
             [i.get('GLOSS', i.get('ENGLISH')) for i in from_],
             [i[1] for i in to],
             similarity_level=similarity_level,
-            freqs=self.frequencies,
-            language=language
         )
         good_matches = 0
         with UnicodeWriter(out) as writer:
@@ -207,12 +205,11 @@ class Concepticon(API):
         similarity).
         """
         to = self._get_map_for_language(language, None)
+        tox = [i[1] for i in to]
         cfunc = concept_map2 if full_search else concept_map
         cmap = cfunc(
             entries,
-            [i[1] for i in to],
-            freqs=self.frequencies,
-            language=language,
+            tox,
             similarity_level=similarity_level)
         for i, e in enumerate(entries):
             match, simil = cmap.get(i, [[], 100])
@@ -433,6 +430,8 @@ class Conceptlist(Bag):
     def from_file(cls, path, **keywords):
         """
         Function loads a concept list outside the Concepticon collection.
+
+        @todo: uniqueness-check hier einbauen, siehe Funktion read_dicts
         """
         path = Path(path)
         assert path.exists()

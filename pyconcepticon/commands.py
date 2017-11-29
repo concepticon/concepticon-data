@@ -4,6 +4,7 @@ import os
 from collections import Counter, defaultdict
 import operator
 from functools import partial
+import json
 
 from six import text_type
 from tabulate import tabulate
@@ -14,7 +15,8 @@ from clldutils.misc import format_size
 from cdstarcat.catalog import Catalog
 
 import pyconcepticon
-from pyconcepticon.util import rewrite, CS_ID, CS_GLOSS, SourcesCatalog, UnicodeWriter
+from pyconcepticon.util import (rewrite, CS_ID, CS_GLOSS, SourcesCatalog,
+        UnicodeWriter, REPOS_PATH)
 from pyconcepticon.api import Concepticon, Conceptlist
 
 
@@ -99,6 +101,19 @@ def link(args):
 
 
 @command()
+def mergers(args):
+    """Return all merged concepts in a concept list (checks for local concept
+    list).
+    """
+    # @todo: check output
+    api = Concepticon(args.data)
+    cl = Conceptlist.from_file(args.args[0])
+    mapped, mapped_ratio, mergers = cl_stats(cl)
+    for k, v in mergers:
+        print(k, v)
+
+
+@command()
 def validate(args):
     api = Concepticon(args.data)
     for cl in api.conceptlists.values():
@@ -106,6 +121,31 @@ def validate(args):
         if set(items[0].keys()) != \
                 set(c.name for c in cl.metadata.tableSchema.columns):
             print('unspecified column in concept list {0}'.format(cl.id))
+
+@command()
+def html(args):
+    api = Concepticon(args.data)
+    data = defaultdict(list)
+    for lang in ['en', 'de', 'zh', 'fr']:
+        for cidx, gloss in api._get_map_for_language(lang):
+            data[gloss.split('///')[1]+'---'+lang] += [(
+                    cidx,
+                    api.conceptsets[cidx].gloss,
+                    api.conceptsets[cidx].definition,
+                    api.conceptsets[cidx].ontological_category)]
+            data[gloss.split('///')[0]+'---'+lang] += [(
+                    cidx,
+                    api.conceptsets[cidx].gloss,
+                    api.conceptsets[cidx].definition,
+                    api.conceptsets[cidx].ontological_category)]
+            data[gloss.split('///')[0].lower()+'---'+lang] += [(
+                    cidx,
+                    api.conceptsets[cidx].gloss,
+                    api.conceptsets[cidx].definition,
+                    api.conceptsets[cidx].ontological_category)]
+    data['language'] = 'en'
+    with REPOS_PATH.joinpath('html', 'data.js').open('w', encoding='utf-8') as f:
+        f.write('var Concepticon = '+json.dumps(data, indent=2)+';\n')
 
 
 @command()
@@ -246,8 +286,8 @@ def intersection(args):
     """
     Compare how many concepts overlap in concept lists.
 
-    Note
-    ----
+    Notes
+    -----
     This takes concept relations into account by searching for each concept
     set for broader concept sets in the depth of two edges on the network. If
     one concept A in one list is broader than concept B in another list, the
@@ -298,18 +338,27 @@ def stats(args):
     readme_concepticondata(api, cls)
 
 
+def cl_stats(cl):
+    """Return simple statistics for a given concept list"""
+    # @todo: refine for custom-concept lists
+    concepts = cl.concepts.values()
+    mapped = [c for c in concepts if c.concepticon_id]
+    mapped_ratio = 0
+    if concepts:
+        mapped_ratio = int((len(mapped) / len(concepts)) * 100)
+    concepticon_ids = Counter(
+        [c.concepticon_id for c in concepts if c.concepticon_id])
+    mergers = [(k, v) for k, v in concepticon_ids.items() if v > 1]
+    
+    return mapped, mapped_ratio, mergers
+
 def readme_conceptlists(api, cls):
     table = Table('name', '# mapped', '% mapped', 'mergers')
     for cl in cls:
-        concepts = cl.concepts.values()
-        mapped = len([c for c in concepts if c.concepticon_id])
-        mapped_ratio = 0
-        if concepts:
-            mapped_ratio = int((mapped / len(concepts)) * 100)
-        concepticon_ids = Counter(
-            [c.concepticon_id for c in concepts if c.concepticon_id])
-        mergers = len([k for k, v in concepticon_ids.items() if v > 1])
-        table.append(['[%s](%s) ' % (cl.id, cl.path.name), mapped, mapped_ratio, mergers])
+        print(cl.path.name)
+        mapped, mapped_ratio, mergers = cl_stats(cl)
+        table.append(['[%s](%s) ' % (cl.id, cl.path.name), len(mapped),
+            mapped_ratio, len(mergers)])
     readme(
         api.data_path('conceptlists'),
         '# Concept Lists\n\n{0}'.format(
@@ -439,6 +488,7 @@ def lookup(args):
         language=args.language,
         full_search=args.full_search,
         similarity_level=args.similarity)
+    
     with UnicodeWriter(None) as writer:
         writer.writerow(['GLOSS', 'CONCEPTICON_ID', 'CONCEPTICON_GLOSS', 'SIMILARITY'])
         for matches in found:
