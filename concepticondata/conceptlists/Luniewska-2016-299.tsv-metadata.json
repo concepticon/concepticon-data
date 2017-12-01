@@ -1,0 +1,278 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw", 
+        {
+            "@language": "en"
+        }
+    ], 
+    "dialect": {
+        "delimiter": "\t", 
+        "skipBlankRows": true
+    }, 
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string", 
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        }, 
+                        "name": "ID"
+                    }, 
+                    {
+                        "datatype": {
+                            "base": "string", 
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        }, 
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": "string", 
+                        "name": "GLOSS"
+                    }, 
+                    {
+                        "datatype": {
+                            "base": "integer", 
+                            "minimum": 1
+                        }, 
+                        "name": "CONCEPTICON_ID"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "AFRIKAANS_AOA"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/afri1274",
+                        "name": "AFRIKAANS"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "CATALAN_AOA"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/stan1289",
+                        "name": "CATALAN"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "DANISH_AOA"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/dani1285",
+                        "name": "DANISH"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "DUTCH_AOA"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/dutc1256",
+                        "name": "DUTCH"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "ENGLISH_AOA"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/stan1293",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "FINNISH_AOA"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/finn1318",
+                        "name": "FINNISH"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "GERMAN_AOA"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/stan1295",
+                        "name": "GERMAN"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "GREEK_AOA"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/mode1248",
+                        "name": "GREEK"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "HEBREW_AOA"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/hebr1245",
+                        "name": "HEBREW"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "HUNGARIAN_AOA"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/hung1274",
+                        "name": "HUNGARIAN"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "ICELANDIC_AOA"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/icel1247",
+                        "name": "ICELANDIC"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "IRISH_AOA"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/iris1253",
+                        "name": "IRISH"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "XHOSA_AOA"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/xhos1239",
+                        "name": "XHOSA"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "ITALIAN_AOA"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/ital1282",
+                        "name": "ITALIAN"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "LITHUANIAN_AOA"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/lith1251",
+                        "name": "LITHUANIAN"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "LUXEMBOURGISH_AOA"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/luxe1241",
+                        "name": "LUXEMBOURGISH"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "MALTESE_AOA"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/malt1254",
+                        "name": "MALTESE"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "POLISH_AOA"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/poli1260",
+                        "name": "POLISH"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "RUSSIAN_AOA"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/russ1263",
+                        "name": "RUSSIAN"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "SOUTHAFRICANENGLISH_AOA"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "",
+                        "name": "SOUTHAFRICANENGLISH"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "SERBIAN_AOA"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/serb1264",
+                        "name": "SERBIAN"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "SLOVAK_AOA"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/slov1269",
+                        "name": "SLOVAK"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "SPANISH_AOA"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/stan1288",
+                        "name": "SPANISH"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "SWEDISH_AOA"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/swed1254",
+                        "name": "SWEDISH"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "TURKISH_AOA"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/nucl1301",
+                        "name": "TURKISH"
+                    }
+                ], 
+                "primaryKey": [
+                    "ID"
+                ]
+            }, 
+            "url": "Luniewska-2015-299.tsv"
+        }
+    ]
+}
