@@ -49,3 +49,4 @@ Johannes Dellert | LPD | 1.1
 Maurizio Serva | MD | 1.1
 Michael Dunn | G | 1.1
 Doug Cooper | DCSM | 1.1
+Magdalena Łuniewska | D | 1.1
