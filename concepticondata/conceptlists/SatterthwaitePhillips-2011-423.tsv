@@ -32,8 +32,8 @@ SatterthwaitePhillips-2011-423-30	1403	BITE	30	325	172	bite	咬	bite
 SatterthwaitePhillips-2011-423-31	887	BITTER	31	266	173	bitter	苦	bitter
 SatterthwaitePhillips-2011-423-32	163	BLACK	32	65	173	black	黑	black
 SatterthwaitePhillips-2011-423-33	946	BLOOD	33	127	173	blood	血	blood*
-SatterthwaitePhillips-2011-423-34			34	?	173	blow (out)	?	blow (out)%
-SatterthwaitePhillips-2011-423-35	176	BLOW (WITH MOUTH)	35	335	173	blow [of person]	吹	blow [of person]
+SatterthwaitePhillips-2011-423-34	127	EXTINGUISH	34	?	173	blow (out)	吹 (灭)	blow (out)%
+SatterthwaitePhillips-2011-423-35	176	BLOW (WITH MOUTH)	35	?	173	blow [of person]	吹	blow [of person]
 SatterthwaitePhillips-2011-423-36	175	BLOW (OF WIND)	36	351	174	blow [of wind]	刮	blow [of wind]
 SatterthwaitePhillips-2011-423-37	837	BLUE	37	71	174	blue	蓝	blue
 SatterthwaitePhillips-2011-423-38	1844	BOAT	38	169,1	174	boat	船	boat
@@ -44,7 +44,7 @@ SatterthwaitePhillips-2011-423-42	1530	BOWL	42	147	175	bowl	碗	bowl
 SatterthwaitePhillips-2011-423-43	1366	BOY	43	253	175	boy	男孩 [B = 男青年]	boy
 SatterthwaitePhillips-2011-423-44	1583	BRAIN	44	119	175	brain	脑子 [B= 脑髓]	brain>>
 SatterthwaitePhillips-2011-423-45	1531	BRANCH	45	53	175	branch	树枝	branch
-SatterthwaitePhillips-2011-423-46	680	BREAK (DESTROY OR GET DESTROYED)	46	317	176	break (damage)	弄坏 [B = pohuai]	break
+SatterthwaitePhillips-2011-423-46	681	DESTROY	46	317	176	break (damage)	弄坏 [B = pohuai]	break
 SatterthwaitePhillips-2011-423-47	2558	BREAK (CLEAVE)	47	361	176	break in two (as a branch)	断（小枝）	break （branch）
 SatterthwaitePhillips-2011-423-48	1402	BREAST	48	116	176	breast	奶 [B = 乳房]	breast
 SatterthwaitePhillips-2011-423-49	1407	BREATHE	49	242	176	breathe	呼吸	breathe
@@ -99,8 +99,8 @@ SatterthwaitePhillips-2011-423-97	379	BLUNT	97	220	184	dull	钝	dull
 SatterthwaitePhillips-2011-423-98	1247	EAR	98	101	184	ear	耳朵	ear*
 SatterthwaitePhillips-2011-423-99	672	EARLY	99	299	184	early	早	early
 SatterthwaitePhillips-2011-423-100	1705	EIGHT	100	8	185	eight	八	192
-SatterthwaitePhillips-2011-423-101	2159	GROUND	101	73	185	earth	地；土地 [B = 地（天地）]	earth
-SatterthwaitePhillips-2011-423-102	1228	EARTH (SOIL)	102	73,1	185	earth%	土地	earth%
+SatterthwaitePhillips-2011-423-101	2159	GROUND	101	73	185	earth1	地；土地 [B = 地（天地）]	earth
+SatterthwaitePhillips-2011-423-102	1228	EARTH (SOIL)	102	73,1	185	earth2	土地	earth%
 SatterthwaitePhillips-2011-423-103	686	EASY	103	214	185	easy	容易	easy
 SatterthwaitePhillips-2011-423-104	1336	EAT	104	178	185	eat	吃	eat
 SatterthwaitePhillips-2011-423-105	744	EGG	105	20	185	egg	（鸡）蛋	egg*
