@@ -41,7 +41,11 @@
                     {
                         "datatype": "string", 
                         "name": "ENGLISH"
-                    }, 
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SPREADSHEET"
+                    },
                     {
                         "datatype": "string", 
                         "name": "PAGENUMBER"
