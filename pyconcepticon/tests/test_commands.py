@@ -4,7 +4,7 @@ from collections import namedtuple
 
 from mock import Mock, patch, MagicMock
 from clldutils.path import copy
-from clldutils.testing import WithTempDirMixin, capture
+from pyconcepticon.tests.util_testing import WithTempDirMixin, capture
 from clldutils.misc import nfilter
 from clldutils.clilib import ParserError
 

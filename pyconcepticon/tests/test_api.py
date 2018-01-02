@@ -1,7 +1,7 @@
 # coding: utf8
 from __future__ import unicode_literals, print_function, division
 
-from clldutils.testing import capture
+from pyconcepticon.tests.util_testing import capture
 
 from pyconcepticon.api import Concepticon
 from pyconcepticon.tests.util import TestWithFixture
