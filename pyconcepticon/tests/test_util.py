@@ -2,7 +2,7 @@
 from __future__ import unicode_literals, print_function, division
 
 from cdstarcat.catalog import Object, Bitstream
-from clldutils.testing import WithTempDir
+from pyconcepticon.tests.util_testing import WithTempDir
 from clldutils.jsonlib import load
 from clldutils.path import read_text
 
