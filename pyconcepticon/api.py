@@ -10,7 +10,7 @@ import attr
 from clldutils.path import Path
 from clldutils import jsonlib
 from clldutils.misc import cached_property
-from clldutils.csvw.metadata import TableGroup, Link
+from csvw.metadata import TableGroup, Link
 from clldutils.apilib import API, DataObject
 
 from pyconcepticon.util import (
