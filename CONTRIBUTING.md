@@ -56,9 +56,9 @@ If you feel that you need to add new identifiers which are currently missing in 
 
 The concepticon API allows you to automatically link your concept list to the concepticon. We currently support two different styles, one which exhaustively compars each gloss with each other, and one quick style, which compares only those glosses which have been filtered as similar enough in a first run. The styles also differe slightly in their output. Here is, how you can carry out a linking using the quick style of your list called "input.tsv"
 ```shell
-$ concepticon --map_type=2 map_concepts input.tsv
+$ concepticon map_concepts input.tsv
 # or 
-$ concepticon --map_type=2 map_concepts input.tsv > automatic.tsv  # redirect output to file.
+$ concepticon map_concepts input.tsv > automatic.tsv  # redirect output to file.
 ```
 This script requires that the concepticon API has been installed, and that your input list contains at least two columns: one labeled "ID" and one labelded "GLOSS" or "ENGLISH".
 
