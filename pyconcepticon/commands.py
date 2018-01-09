@@ -16,7 +16,7 @@ from cdstarcat.catalog import Catalog
 
 import pyconcepticon
 from pyconcepticon.util import (rewrite, CS_ID, CS_GLOSS, SourcesCatalog,
-        UnicodeWriter, REPOS_PATH)
+                                UnicodeWriter, read_dicts, REPOS_PATH)
 from pyconcepticon.api import Concepticon, Conceptlist
 
 
@@ -349,8 +349,9 @@ def cl_stats(cl):
     concepticon_ids = Counter(
         [c.concepticon_id for c in concepts if c.concepticon_id])
     mergers = [(k, v) for k, v in concepticon_ids.items() if v > 1]
-    
+
     return mapped, mapped_ratio, mergers
+
 
 def readme_conceptlists(api, cls):
     table = Table('name', '# mapped', '% mapped', 'mergers')
@@ -488,7 +489,7 @@ def lookup(args):
         language=args.language,
         full_search=args.full_search,
         similarity_level=args.similarity)
-    
+
     with UnicodeWriter(None) as writer:
         writer.writerow(['GLOSS', 'CONCEPTICON_ID', 'CONCEPTICON_GLOSS', 'SIMILARITY'])
         for matches in found:
@@ -537,6 +538,99 @@ def check(args):
             clist = api.conceptlists[clist]
             _get_missing(clist, api)
             _get_mergers(clist, api)
+
+
+@command()
+def check_new(args):
+    """
+    Expects a well-formed concept list as input (i.e. tsv, 'ID',
+    'CONCEPTICON_ID', 'NUMBER', 'CONCEPTICON_GLOSS' columns, etc.) and tests
+    for a number of potential issues:
+        - mismatch between glosses and Concepticon IDs
+        - availability of glosses in Concepticon
+        - if proposed glosses (starting with !) don't have IDs (they shouldn't!)
+        - if glosses are mapped more than once
+        - if 'NUMBER' and 'ID' are unique for the respective concept list.
+
+    concepticon checknew path_to_conceptlist.tsv
+    """
+    list_to_check = read_dicts(args.args[0])
+    api = Concepticon(args.data)
+    con_glosses = {c.id: c.gloss for c in api.conceptsets.values()}
+
+    def _get_duplicates(to_check):
+        known_items = set()
+        return [(i, key) for i, key in enumerate(to_check)
+                if key in known_items or known_items.add(key)]
+
+    for index, entry_to_check in enumerate(list_to_check):
+        # Test if gloss matches Concepticon ID:
+        try:
+            if (con_glosses[entry_to_check['CONCEPTICON_ID']]
+                    != entry_to_check['CONCEPTICON_GLOSS']):
+                print("Gloss " + entry_to_check['CONCEPTICON_GLOSS'] +
+                      " in line " + str(index + 1) + " doesn't match ID " +
+                      entry_to_check['CONCEPTICON_ID'] + ".")
+        except KeyError:
+            print("Gloss " + entry_to_check['CONCEPTICON_GLOSS'] +
+                  " in line " + str(index + 1) + " doesn't match ID " +
+                  entry_to_check['CONCEPTICON_ID'] + ".")
+
+        # Test if gloss exists in Concepticon:
+        try:
+            if (entry_to_check['CONCEPTICON_GLOSS']
+                    not in con_glosses.values()):
+                print("Gloss " + entry_to_check['CONCEPTICON_GLOSS'] +
+                      " in line " + str(index + 1) + 
+                      " doesn't exist in Concepticon.")
+        except KeyError:
+            print("Gloss " + entry_to_check[
+                'CONCEPTICON_GLOSS'] + " in line " + str(
+                index + 1) + " doesn't exist in Concepticon.")
+
+        # Test if proposed glosses (!GLOSS) have NULL ID:
+        try:
+            if (entry_to_check['CONCEPTICON_GLOSS'].startswith('!')
+                    and entry_to_check['CONCEPTICON_ID']):
+                print("Proposed gloss " + entry_to_check['CONCEPTICON_GLOSS'] +
+                      " in line " + str(index + 1) +
+                      " shouldn't have a CONCEPTICON_ID.")
+        except KeyError:
+            print("Proposed gloss " + entry_to_check['CONCEPTICON_GLOSS'] +
+                  " in line " + str(index + 1) +
+                  " shouldn't have a CONCEPTICON_ID.")
+
+    print("\nChecking for uniquness of glosses:")
+    try:
+        glosses = _get_duplicates(
+            [dict(d)['CONCEPTICON_GLOSS'] for d in list_to_check]
+        )
+
+        for double in glosses:
+            print("Gloss " + double[1] +
+                  " doubled in line " + str(double[0] + 3) + ".")
+    except KeyError:
+        pass
+
+    print("\nChecking for uniqueness of 'NUMBER' and 'ID':")
+    try:
+        concept_ids = _get_duplicates(
+            [dict(d)['ID'] for d in list_to_check]
+        )
+
+        for double in concept_ids:
+            print("ID " + double[1] +
+                  " doubled in line " + str(double[0] + 2) + ".")
+
+        numbers = _get_duplicates(
+            [dict(d)['NUMBER'] for d in list_to_check]
+        )
+
+        for double in numbers:
+            print("NUMBER " + double[1] +
+                  " doubled in line " + str(double[0] + 2) + ".")
+    except KeyError:
+        pass
 
 
 @command()
