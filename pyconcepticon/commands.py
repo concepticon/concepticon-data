@@ -560,9 +560,8 @@ def check_new(args):
 
     def _get_duplicates(to_check):
         known_items = set()
-        known_items_add = known_items.add
-        return [(i, key) for i, key in enumerate(to_check) if
-                key in known_items or known_items_add(key)]
+        return [(i, key) for i, key in enumerate(to_check)
+                if key in known_items or known_items.add(key)]
 
     for index, entry_to_check in enumerate(list_to_check):
         # Test if gloss matches Concepticon ID:
