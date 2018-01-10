@@ -102,8 +102,11 @@ def link(args):
 
 @command()
 def mergers(args):
-    """Return all merged concepts in a concept list (checks for local concept
+    """
+    Return all merged concepts in a concept list (checks for local concept
     list).
+
+    concepticon mergers path_to_conceptlist.tsv
     """
     # @todo: check output
     api = Concepticon(args.data)
@@ -115,6 +118,13 @@ def mergers(args):
 
 @command()
 def validate(args):
+    """
+    Checks for the availability of metadata for concept lists and the meta-
+    data's respetive coverage (i.e. whether all columns are described within
+    the metadata file).
+
+    concepticon validate
+    """
     api = Concepticon(args.data)
     for cl in api.conceptlists.values():
         items = list(cl.metadata)
@@ -122,8 +132,15 @@ def validate(args):
                 set(c.name for c in cl.metadata.tableSchema.columns):
             print('unspecified column in concept list {0}'.format(cl.id))
 
+
 @command()
 def html(args):
+    """
+    Dumps Concepticon's contentss for English, German, Chinese, and French
+    into a structured JSON file (html/data.js).
+
+    concepticon html
+    """
     api = Concepticon(args.data)
     data = defaultdict(list)
     for lang in ['en', 'de', 'zh', 'fr']:
@@ -150,7 +167,12 @@ def html(args):
 
 @command()
 def attributes(args):
-    """Calculate the addditional attributes in the lists."""
+    """
+    Print all columns in Concepticon's concept lists that contain surplus
+    information (i.e. information not immediately required by Concepticon).
+
+    concepticon attributes
+    """
     api = Concepticon(args.data)
     attrs = Counter()
     for cl in api.conceptlists.values():
@@ -295,18 +317,30 @@ def intersection(args):
     share the same broader concept, they will also be retained, but only, if
     none of the narrower concepts match. As a default we use a depth of 2 for
     the search.
+
+    concepticon intersection id-first-list id-second-list id-third-list ...
     """
     return _set_operation(args, 'intersection')
 
 
 @command()
 def union(args):
-    """Calculate the union of several concept lists."""
+    """
+    Calculate the union of several concepts within multiple lists.
+
+    concepticon union id-first-list id-second-list id-third-list ...
+    """
     return _set_operation(args, 'union')
 
 
 @command()
 def map_concepts(args):
+    """
+    Attempt an automatic mapping for a new (well-formed) concept list (i.e.
+    contaning an ENGLISH or GLOSS column).
+
+    concepticon map_concepts path_to_conceptlist.tsv
+    """
     api = Concepticon(args.data)
     api.map(
         Path(args.args[0]),
@@ -327,7 +361,7 @@ def readme(outdir, text):
 @command()
 def stats(args):
     """
-    write statistics to README
+    Generate new statistics for concepticondata/README.md.
 
     concepticon stats
     """
@@ -448,6 +482,8 @@ def readme_concepticondata(api, cls):
 @command()
 def upload_sources(args):
     """
+    Compile sources and upload the result to GWDG CDSTAR instance.
+
     concepticon upload_sources path/to/cdstar/catalog
     """
     catalog_path = args.args[0] if args.args else os.environ['CDSTAR_CATALOG']
@@ -635,12 +671,26 @@ def check_new(args):
 
 @command()
 def test(args):
+    """
+    Perform a number of tests (column names, file names, IDs, source
+    availability, etc.) on all concept lists that have been added to
+    concepticondata/conceptlists. Best run after you went through the whole
+    procedure of adding a new list to Concepticon.
+
+    concepticon test
+    """
     from pyconcepticon.tests.test_data import test as _test
     _test()
 
 
 @command()
 def recreate_linking_data(args):
+    """
+    Regenerate pyconcepticon/data/map* which contains a list of all
+    concept-to-word-in-language mappings available within Concepticon.
+
+    concepticon recreate_linking_data
+    """
     api = Concepticon(args.data)
     for l in api.vocabularies['COLUMN_TYPES'].values():
         if getattr(l, 'iso2', None):
