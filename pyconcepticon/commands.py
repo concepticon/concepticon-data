@@ -126,23 +126,24 @@ def validate(args):
 def html(args):
     api = Concepticon(args.data)
     data = defaultdict(list)
-    for lang in ['en', 'de', 'zh', 'fr']:
+    for lang in ['en', 'de', 'zh', 'fr', 'ru', 'es', 'pt']:
         for cidx, gloss in api._get_map_for_language(lang):
             data[gloss.split('///')[1]+'---'+lang] += [(
                     cidx,
                     api.conceptsets[cidx].gloss,
                     api.conceptsets[cidx].definition,
                     api.conceptsets[cidx].ontological_category)]
-            data[gloss.split('///')[0]+'---'+lang] += [(
-                    cidx,
-                    api.conceptsets[cidx].gloss,
-                    api.conceptsets[cidx].definition,
-                    api.conceptsets[cidx].ontological_category)]
-            data[gloss.split('///')[0].lower()+'---'+lang] += [(
-                    cidx,
-                    api.conceptsets[cidx].gloss,
-                    api.conceptsets[cidx].definition,
-                    api.conceptsets[cidx].ontological_category)]
+            if lang == 'en':
+                data[gloss.split('///')[0]+'---'+lang] += [(
+                        cidx,
+                        api.conceptsets[cidx].gloss,
+                        api.conceptsets[cidx].definition,
+                        api.conceptsets[cidx].ontological_category)]
+                data[gloss.split('///')[0].lower()+'---'+lang] += [(
+                        cidx,
+                        api.conceptsets[cidx].gloss,
+                        api.conceptsets[cidx].definition,
+                        api.conceptsets[cidx].ontological_category)]
     data['language'] = 'en'
     with REPOS_PATH.joinpath('html', 'data.js').open('w', encoding='utf-8') as f:
         f.write('var Concepticon = '+json.dumps(data, indent=2)+';\n')
@@ -175,6 +176,7 @@ def compare_conceptlists(api, *conceptlists, **kw):
     for arg in conceptlists:
         if arg not in api.conceptlists:
             clist = Conceptlist.from_file(arg)
+            print(clist)
         else:
             clist = api.conceptlists[arg]
         for c in clist.concepts.values():
