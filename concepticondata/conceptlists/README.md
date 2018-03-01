@@ -5,6 +5,7 @@
 | [Allen-2007-500](Allen-2007-500.tsv) | 500 | 100 | 1 |
 | [Alpher-1999-151](Alpher-1999-151.tsv) | 151 | 100 | 0 |
 | [Ardila-2007-40](Ardila-2007-40.tsv) | 40 | 100 | 0 |
+| [Auracher-2017-16](Auracher-2017-16.tsv) | 16 | 100 | 0 |
 | [Backstrom-1992-210a](Backstrom-1992-210a.tsv) | 210 | 100 | 2 |
 | [Backstrom-1992-210b](Backstrom-1992-210b.tsv) | 205 | 100 | 2 |
 | [Beaufils-2015-18](Beaufils-2015-18.tsv) | 18 | 100 | 0 |
@@ -137,6 +138,7 @@
 | [Ogden-1930-200](Ogden-1930-200.tsv) | 184 | 92 | 0 |
 | [Pagel-2007-200](Pagel-2007-200.tsv) | 200 | 100 | 0 |
 | [Pagel-2013-23](Pagel-2013-23.tsv) | 23 | 100 | 0 |
+| [Pagel-2018-200](Pagel-2018-200.tsv) | 200 | 100 | 0 |
 | [Pallas-1786-441](Pallas-1786-441.tsv) | 440 | 99 | 15 |
 | [Pallas-1789-285](Pallas-1789-285.tsv) | 282 | 98 | 10 |
 | [Payne-1991-202](Payne-1991-202.tsv) | 202 | 100 | 39 |
@@ -154,7 +156,7 @@
 | [Samarin-1967-100](Samarin-1967-100.tsv) | 100 | 100 | 0 |
 | [Samarin-1967-218](Samarin-1967-218.tsv) | 218 | 100 | 0 |
 | [Sato-2002-200](Sato-2002-200.tsv) | 200 | 100 | 0 |
-| [SatterthwaitePhillips-2011-423](SatterthwaitePhillips-2011-423.tsv) | 423 | 100 | 6 |
+| [SatterthwaitePhillips-2011-423](SatterthwaitePhillips-2011-423.tsv) | 420 | 99 | 2 |
 | [SatterthwaitePhillips-2011-50](SatterthwaitePhillips-2011-50.tsv) | 50 | 100 | 0 |
 | [Serva-2012-200](Serva-2012-200.tsv) | 200 | 100 | 0 |
 | [Shevoroshkin-1991-23](Shevoroshkin-1991-23.tsv) | 23 | 100 | 0 |
@@ -217,5 +219,5 @@
 | [Zorc-1974-100](Zorc-1974-100.tsv) | 100 | 100 | 0 |
 | [vanderWouw-1974-28](vanderWouw-1974-28.tsv) | 28 | 100 | 0 |
 
-(214 rows)
+(216 rows)
 
