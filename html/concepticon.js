@@ -40,6 +40,26 @@ function getGlossesBySimilarity(gloss) {
     return out;
   }
 
+  function addchar(word, alphabet) {
+    var word_array, out, new_gloss;
+    if (!word) {
+      return [];
+    }
+    out = [];
+    for (i=0; i<=word.length; i++) {
+      for (j=0; j<alphabet.length; j++) {
+	word_array = word.split('');
+	word_array.splice(i, 0, alphabet[j]);
+	new_gloss = word_array.join('')
+	out.push([new_gloss, 3]);
+	out.push([new_gloss.toUpperCase(), 4]);
+	out.push([new_gloss.toLowerCase(), 4]);
+      }
+      console.log(new_gloss);
+    }
+    return out;
+  }
+
   glosses = {};
   glosses[gloss] = 0
 
@@ -52,6 +72,19 @@ function getGlossesBySimilarity(gloss) {
   for (i=0; i<out.length; i++) {
     add_or_not(out[i][0], glosses, out[i][1]);
   }
+  out = subchar(gloss, alphabet.toUpperCase());
+  for (i=0; i<out.length; i++) {
+    add_or_not(out[i][0], glosses, out[i][1]);
+  }
+  out = addchar(gloss, alphabet);
+  for (i=0; i<out.length; i++) {
+    add_or_not(out[i][0], glosses, out[i][1]);
+  }
+  out = addchar(gloss, alphabet.toUpperCase());
+  for (i=0; i<out.length; i++) {
+    add_or_not(out[i][0], glosses, out[i][1]);
+  }
+
   splitted = gloss.split(' ');
   if (splitted.length > 1) {
     for (i=0; i<splitted.length; i++) {

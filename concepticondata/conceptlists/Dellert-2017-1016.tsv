@@ -84,7 +84,7 @@ Dellert-2017-1016-82	82	656	-0.024082	Raureif	Raureif::N	hoarfrost	иней				H
 Dellert-2017-1016-83	83	1007	1.197472	Regenbogen	Regenbogen::N	rainbow	радуга				RAINBOW	1733	
 Dellert-2017-1016-84	84	625	-0.001241	Donner	Donner::N	thunder	гром	bei Gewitter	during a thunderstorm	во время грозы	THUNDER	1150	
 Dellert-2017-1016-85	85	753	-0.089439	Strömung	Strömung::N	current	течение	eines Flusses	of a river	реки	CURRENT (STREAM)	2935	
-Dellert-2017-1016-86	86	458	-1.170306	Tropfen	Tropfen::N	drop	капля	BSP:Wasser	EX:water	НАПР:воды	DROP (CLASSIFIER)	2087	not DROP (CLASSIFIER)
+Dellert-2017-1016-86	86	458	-1.170306	Tropfen	Tropfen::N	drop	капля	BSP:Wasser	EX:water	НАПР:воды			not DROP (CLASSIFIER)
 Dellert-2017-1016-87	87	109	-2.288698	Schaum	Schaum::N	foam	пена	auf Flüssigkeit	on liquid	на поверхности жидкости	FOAM	1768	
 Dellert-2017-1016-88	88	715	-0.077517	Schmutz	Schmutz::N	dirt	грязь	auf Gegenständen	on objects	на предметах	DIRT	25	
 Dellert-2017-1016-89	89	61	-2.228149	See	See::N	lake	озеро	Binnensee			LAKE	624	
@@ -99,7 +99,7 @@ Dellert-2017-1016-97	97	822	-0.070502	Gipfel	Gipfel::N	summit	вершина	ein
 Dellert-2017-1016-98	98	798	-0.059802	Höhle	Höhle::N	cave	пещера	in einem Berg	in a mountain	в горе	CAVE	1155	
 Dellert-2017-1016-99	99	960	0.073616	Abhang	Abhang::N	slope	склон	eines Berges	of a mountain	горы	PRECIPICE	618	
 Dellert-2017-1016-100	100	867	-0.088111	Quelle	Quelle::N	source	источник	eines Flusses	of a river	реки	SPRING (OF WATER)	849	
-Dellert-2017-1016-101	101	754	-0.084698	Bach	Bach::N	brook	ручей	kleiner Fluss	small river	маленькая река	RIVER	666	not distinct from RIVER
+Dellert-2017-1016-101	101	754	-0.084698	Bach	Bach::N	brook	ручей	kleiner Fluss	small river	маленькая река			not distinct from RIVER
 Dellert-2017-1016-102	102	227	-1.139801	Fluss	Fluss::N	river	река	größerer Fluss	larger river	большая река	RIVER	666	
 Dellert-2017-1016-103	103	372	-1.18519	Ufer	Ufer::N	shore	берег	eines Sees	of a lake	НАПР:озeра	SHORE	113	
 Dellert-2017-1016-104	104	591	-0.070349	Küste	Küste::N	coast	побережье	Meeresküste	seashore	берег моря	COAST	1525	
@@ -114,7 +114,7 @@ Dellert-2017-1016-112	112	48	-2.202903	Baum	Baum::N	tree	дерево	Pflanze	pl
 Dellert-2017-1016-113	113	791	-0.087953	Stamm	Stamm::N	trunk	ствол	eines Baumes	of a tree	дерева	TREE TRUNK	344	
 Dellert-2017-1016-114	114	224	-1.14791	Rinde	Rinde::N	bark	кора	eines Baumes	of a tree	дерева	BARK	1204	
 Dellert-2017-1016-115	115	257	-1.163897	Ast	Ast::N	limb	сук	eines Baumes	of a tree	дерева	BRANCH	1531	
-Dellert-2017-1016-116	116	612	-0.040117	Zweig	Zweig::N	twig	ветвь	eines Baumes	of a tree	дерева	BRANCH	1531	not distinct from BRANCH
+Dellert-2017-1016-116	116	612	-0.040117	Zweig	Zweig::N	twig	ветвь	eines Baumes	of a tree	дерева			not distinct from BRANCH
 Dellert-2017-1016-117	117	120	-2.229714	Blatt	Blatt::N	leaf	лист	einer Pflanze	of a plant	растения	LEAF	628	
 Dellert-2017-1016-118	118	319	-1.194508	Birke	Birke::N	birch	берёза				BIRCH	1855	
 Dellert-2017-1016-119	119	514	-1.136112	Kiefer[Baum]	Kiefer[Baum]::N	pine	сосна		pine tree		PINE	1740	
@@ -186,7 +186,7 @@ Dellert-2017-1016-184	184	781	-0.012997	Dreck	Dreck::N	filth	грязь	Verschmu
 Dellert-2017-1016-185	185	131	-2.288841	Eisen	Eisen::N	iron	железо	Metall	metal	металл	IRON	621	
 Dellert-2017-1016-186	186	146	-2.21276	Gold	Gold::N	gold	золото	Metall	metal	металл	GOLD	1369	
 Dellert-2017-1016-187	187	333	-1.169798	Silber	Silber::N	silver	серебро	Metall	metal	металл	SILVER	759	
-Dellert-2017-1016-188	188	281	-1.10517	Kohle	Kohle::N	coal	уголь	brennbare Substanz	combustible substance	горючее вещество	CHARCOAL	1188	
+Dellert-2017-1016-188	188	281	-1.10517	Kohle	Kohle::N	coal	уголь	brennbare Substanz	combustible substance	горючее вещество	COAL	2658	
 Dellert-2017-1016-189	189	720	-0.06915	Glas	Glas::N	glass	стекло	Material	transparent substance	прозрачный материал	GLASS	604	
 Dellert-2017-1016-190	190	351	-1.13087	Lehm	Lehm::N	clay	глина	formbares Material	ductile material	пластичный материал	CLAY	1399	
 Dellert-2017-1016-191	191	218	-1.165285	Sand	Sand::N	sand	песок	Material	material	материал	SAND	671	
@@ -214,8 +214,8 @@ Dellert-2017-1016-212	212	521	-1.123362	Freude	Freude::N	joy	радость	Gef�
 Dellert-2017-1016-213	213	489	-1.108177	Gelächter	Gelächter::N	laughter	смех				LAUGHTER	2958	
 Dellert-2017-1016-214	214	657	-0.023141	Glück	Glück::N	happiness	счастье	Glückseligkeit		чувство довольства	HAPPINESS	2941	POS
 Dellert-2017-1016-215	215	831	-0.051489	Kummer	Kummer::N	grief	горе	Trauer, Traurigkeit	sorrow, sadness	сильная печаль	GRIEF	1668	
-Dellert-2017-1016-216	216	731	-0.039648	Wunsch	Wunsch::N	wish	желание	Sehnsucht	longing	стремление к осуществлению чего-нибудь	LONGING (WISH)	2960	not distinct from DESIRE
-Dellert-2017-1016-217	217	629	-0.091798	Lust	Lust::N	desire	влечение	Streben nach Besitz	to have something	стремление к обладанию	DESIRE	2117	
+Dellert-2017-1016-216	216	731	-0.039648	Wunsch	Wunsch::N	wish	желание	Sehnsucht	longing	стремление к осуществлению чего-нибудь			not distinct from DESIRE
+Dellert-2017-1016-217	217	629	-0.091798	Lust	Lust::N	desire	влечение	Streben nach Besitz	to have something	стремление к обладанию			
 Dellert-2017-1016-218	218	119	-2.230855	Geist	Geist::N	spirit	дух	Lebensgeist, innere Kraft	inner energy of a being	внутренняя сила или сущность	SPIRIT	53	
 Dellert-2017-1016-219	219	534	-0.084797	Gedanke	Gedanke::N	thought	мысль				THOUGHT	2975	POS
 Dellert-2017-1016-220	220	669	-0.099963	Gedächtnis	Gedächtnis::N	memory	память	Erinnerungsvermögen	human ability to record information	способность запоминать информацию	MEMORY	1018	
@@ -241,17 +241,17 @@ Dellert-2017-1016-239	239	230	-1.13465	Laut	Laut::N	sound	звук	Geräusch	sen
 Dellert-2017-1016-240	240	925	0.0209	Ton	Ton::N	tone	тон	Klang einer bestimmten Tonhöhe	sound of a specific pitch	музыкальный звук, звук определённой высоты	TONE (MUSIC)	2995	
 Dellert-2017-1016-241	241	360	-1.115189	Lied	Lied::N	song	песня				SONG	1096	
 Dellert-2017-1016-242	242	631	-0.089142	Ruhe	Ruhe::N	calm	покой	Abwesenheit von Lärm und Störungen	absence of noise and disturbances	отсутствие шума и помех	QUIET	1314	POS
-Dellert-2017-1016-243	243	611	-0.040498	Leute	Leute::N	people	люди		many persons		PEOPLE	789	distinct from PERSON
+Dellert-2017-1016-243	243	611	-0.040498	Leute	Leute::N	people	люди		many persons				distinct from PERSON
 Dellert-2017-1016-244	244	401	-1.118646	Volk	Volk::N	nation	народ	Menschen einer Ethnie	community of people with a common culture	совокупность людей общей культуры	PEOPLE	789	
 Dellert-2017-1016-245	245	193	-1.138146	Arbeit	Arbeit::N	work	работа	Tätigkeit	employment	занятие, труд	WORK (LABOUR)	984	
 Dellert-2017-1016-246	246	426	-1.149378	Gast	Gast::N	guest	гость				GUEST	1782	
 Dellert-2017-1016-247	247	780	-0.01435	Geschenk	Geschenk::N	gift	подарок				GIFT	2982	POS (DONATE)
 Dellert-2017-1016-248	248	339	-1.157994	Spiel	Spiel::N	game	игра	spielerische Betätigung	playful activity	занятие для развлечения, отдыха	GAME	2467	
 Dellert-2017-1016-249	249	979	0.040639	Gesellschaft	Gesellschaft::N	company	общество	Begleitung	companionship	компания	COMPANIONSHIP	2983	
-Dellert-2017-1016-250	250	482	-1.120418	Hilfe	Hilfe::N	help	помощь				HELP	1897	POS
+Dellert-2017-1016-250	250	482	-1.120418	Hilfe	Hilfe::N	help	помощь						POS
 Dellert-2017-1016-251	251	254	-1.173862	Freund	Freund::N	friend	друг	sehr nahestehender Mensch	person whose company one enjoys	связанный хорошими отношениями НАПР:друг детства	FRIEND	1325	
-Dellert-2017-1016-252	252	908	0.056385	Kamerad	Kamerad::N	companion	приятель	mit dem man Zeit verbringt	with whom one spends time	близкий знакомый	FRIEND	1325	not distinct from FRIEND
-Dellert-2017-1016-253	253	295	-1.16408	Angelegenheit	Angelegenheit::N	matter	дело	Sache, Fall	affair	НАПР:важное дело	MATTER	2150	maybe AFFAIR
+Dellert-2017-1016-252	252	908	0.056385	Kamerad	Kamerad::N	companion	приятель	mit dem man Zeit verbringt	with whom one spends time	близкий знакомый			not distinct from FRIEND
+Dellert-2017-1016-253	253	295	-1.16408	Angelegenheit	Angelegenheit::N	matter	дело	Sache, Fall	affair	НАПР:важное дело			maybe AFFAIR
 Dellert-2017-1016-254	254	599	-0.059318	Anzahl	Anzahl::N	count	количество	zählbarer Dinge	quantity counted	множество, число НАПР:количество/число гостей	COUNT (QUANTITY)	2945	not NUMBER
 Dellert-2017-1016-255	255	298	-1.152476	Art	Art::N	sort	вид	Sorte	type	разновидность	KIND (THING)	844	
 Dellert-2017-1016-256	256	362	-1.105774	Stück	Stück::N	piece	кусок	abtrennbarer Teil eines Ganzen	separable part of a larger whole	отделённая часть чего-л. НАПР:кусок мяса	PIECE	594	
@@ -276,7 +276,7 @@ Dellert-2017-1016-274	274	662	-0.006265	Ecke	Ecke::N	corner	угол	hevorstehen
 Dellert-2017-1016-275	275	449	-1.199028	Spitze	Spitze::N	tip	кончик	eines spitzen Gegenstandes	of a pointy object	острый конец предмета НАПР:кончик ножа	TIP (OF OBJECT)	2992	
 Dellert-2017-1016-276	276	151	-1.187531	Ende	Ende::N	end	конец	eines langen Gegenstands	of a long object	длинного предмета НАПР:верёвки	END (OF SPACE)	742	
 Dellert-2017-1016-277	277	225	-1.143991	Loch	Loch::N	hole	дыра	in einem Gegenstand	in an object	отверстие в предмете	HOLE	1667	
-Dellert-2017-1016-278	278	617	-0.025451	Winkel	Winkel::N	angle	угол	BSP: eines Zimmers	internal, EX:of a room	в углублении, НАПР:комнаты	CORNER	192	
+Dellert-2017-1016-278	278	617	-0.025451	Winkel	Winkel::N	angle	угол	BSP: eines Zimmers	internal, EX:of a room	в углублении, НАПР:комнаты			
 Dellert-2017-1016-279	279	645	-0.054024	Muster	Muster::N	pattern	узор	sich wiederholende Struktur	regular repeated elements	повторяющийся рисунок	PATTERN	2988	
 Dellert-2017-1016-280	280	766	-0.061526	Größe	Größe::N	size	размер	eines Gegenstandes	dimensions of an object	величина объекта	SIZE (OF OBJECT)	2845	not SIZE (OF PERSON)
 Dellert-2017-1016-281	281	463	-1.155302	Länge	Länge::N	length	длина				LENGTH	2537	
@@ -303,7 +303,7 @@ Dellert-2017-1016-301	301	861	-0.000631	Platte	Platte::N	slab	плита	flacher
 Dellert-2017-1016-302	302	842	-0.014183	Stütze	Stütze::N	support, rest	опора, подпорка	etwas, das Halt gibt	something which keeps upright	удерживающая в устойчивом положении	SUPPORT (OF OBJECT)	2994	
 Dellert-2017-1016-303	303	574	-0.009048	Stange	Stange::N	pole	жердь	länglicher dünner Gegenstand aus Holz	long and slender piece of wood	длинный тонкий шест из  дерева	POST	281	
 Dellert-2017-1016-304	304	396	-1.124879	Stock	Stock::N	stick	палка	rundes Holzstück als Werkzeug	piece of wood used as a tool	ветка без сучьев или предмет такой формы	STICK	1295	
-Dellert-2017-1016-305	305	620	-0.007761	Stab	Stab::N	staff	шест	langer gerader Stock	long straight stick	длинная палка	STICK	1295	
+Dellert-2017-1016-305	305	620	-0.007761	Stab	Stab::N	staff	шест	langer gerader Stock	long straight stick	длинная палка			
 Dellert-2017-1016-306	306	721	-0.067171	Rohr	Rohr::N	pipe	труба	zylinderförmiger hohler Gegenstand	hollow conduit, tube	длинный полый предмет цилиндрической формы	TUBE	2956	not PIPE
 Dellert-2017-1016-307	307	111	-2.282746	Haus	Haus::N	house	дом	Gebäude	building	здание	HOUSE	1252	
 Dellert-2017-1016-308	308	355	-1.123574	Heim	Heim::N	home	дом	eigene Heimstatt	one’s own dwelling place	жилище, родной дом	HOME	2406	
@@ -399,9 +399,9 @@ Dellert-2017-1016-397	397	923	0.007225	Fieber	Fieber::N	fever	лихорадка
 Dellert-2017-1016-398	398	648	-0.043546	Arznei	Arznei::N	medicine	лекарство		drug		MEDICINE	1372	
 Dellert-2017-1016-399	399	88	-2.287016	Brücke	Brücke::N	bridge	мост				BRIDGE	1011	
 Dellert-2017-1016-400	400	427	-1.147663	Brunnen	Brunnen::N	well	колодец	zur Gewinnung von Wasser	source of water	для добывания воды	WELL	954	
-Dellert-2017-1016-401	401	940	0.030483	Weide	Weide::N	pasture	пастбище	Viehweide			PASTURE	649	
+Dellert-2017-1016-401	401	940	0.030483	Weide	Weide::N	pasture	пастбище	Viehweide					
 Dellert-2017-1016-402	402	683	-0.057681	Pfad	Pfad::N	path	тропа	schmaler Weg für Fußgänger	trail used by pedestrians	дорожка, тропинка, узкая дорога для пешеходов	PATH	2252	
-Dellert-2017-1016-403	403	89	-2.285233	Weg	Weg::N	way	путь	Verbindung zwischen Orten	connection between places	маршрут, линия в пространстве, где что-либо передвигается НАПР:водный путь	ROAD	667	
+Dellert-2017-1016-403	403	89	-2.285233	Weg	Weg::N	way	путь	Verbindung zwischen Orten	connection between places	маршрут, линия в пространстве, где что-либо передвигается НАПР:водный путь	PATH OR ROAD	2457	
 Dellert-2017-1016-404	404	632	-0.086574	Straße	Straße::N	road	дорога	befestigter Weg für Fahrzeuge	way for travelling by vehicle	путь для транспорта	ROAD	667	
 Dellert-2017-1016-405	405	581	-0.08999	Dorf	Dorf::N	village	деревня				VILLAGE	930	
 Dellert-2017-1016-406	406	682	-0.060412	Stadt	Stadt::N	town	город				TOWN	1391	
@@ -417,7 +417,7 @@ Dellert-2017-1016-415	415	406	-1.108912	Sünde	Sünde::N	sin	грех				SIN	297
 Dellert-2017-1016-416	416	65	-2.293946	Gott	Gott::N	god	бог				GOD	1944	
 Dellert-2017-1016-417	417	933	0.076705	Arbeiter	Arbeiter::N	worker	рабочий				WORKER	2977	
 Dellert-2017-1016-418	418	688	-0.047896	Chef	Chef::N	boss	начальник	Vorgesetzter	supervisor	руководитель	BOSS	2930	not MASTER (opp. slave)
-Dellert-2017-1016-419	419	996	1.178351	Meister	Meister::N	master	мастер	eines Handwerks	expert tradesman	ремесленник, человек, занимающийся ремеслом НАПР:сапожный мастер	MASTER	383	not MASTER (opp. slave)
+Dellert-2017-1016-419	419	996	1.178351	Meister	Meister::N	master	мастер	eines Handwerks	expert tradesman	ремесленник, человек, занимающийся ремеслом НАПР:сапожный мастер			not MASTER (opp. slave)
 Dellert-2017-1016-420	420	918	0.033509	Arzt	Arzt::N	doctor	врач		physician		PHYSICIAN	597	
 Dellert-2017-1016-421	421	969	0.06446	Lehrer	Lehrer::N	teacher	учитель				TEACHER	1038	
 Dellert-2017-1016-422	422	743	-0.007048	Geld	Geld::N	money	деньги				MONEY	1559	
@@ -436,13 +436,13 @@ Dellert-2017-1016-434	434	851	-0.061495	Grenze	Grenze::N	border	граница	z
 Dellert-2017-1016-435	435	367	-1.195135	Krieg	Krieg::N	war	война				WAR	935	
 Dellert-2017-1016-436	436	777	-0.020012	Feind	Feind::N	enemy	враг	feindliche Person	hostile person	человек в состоянии вражды	ENEMY	1358	
 Dellert-2017-1016-437	437	793	-0.087143	Gewalt	Gewalt::N	violence	насилие	Gewalttätigkeit	use of force	применение физической силы	VIOLENCE	2976	
-Dellert-2017-1016-438	438	652	-0.035217	Kampf	Kampf::N	fight	борьба	gewalttätige Auseinandersetzung	physical confrontation	рукопашная схватка	FIGHT	1423	POS
+Dellert-2017-1016-438	438	652	-0.035217	Kampf	Kampf::N	fight	борьба	gewalttätige Auseinandersetzung	physical confrontation	рукопашная схватка			
 Dellert-2017-1016-439	439	132	-2.282615	Bogen[Waffe]	Bogen[Waffe]::N	bow	лук	Waffe	weapon	оружие	BOW	994	
 Dellert-2017-1016-440	440	182	-1.182389	Pfeil	Pfeil::N	arrow	стрела	Geschoss von Bogen	projectile shot from a bow	для стрельбы из лука	ARROW	977	
 Dellert-2017-1016-441	441	866	-0.09154	Gewehr	Gewehr::N	gun	ружьё	Schusswaffe	firearm	стрелковое оружие	GUN	1566	
 Dellert-2017-1016-442	442	640	-0.063253	Fehler	Fehler::N	mistake	ошибка	falsche Handlung oder Entscheidung	wrong action or decision	неправильное действие, поступок	MISTAKE	1293	
 Dellert-2017-1016-443	443	464	-1.153829	Lüge	Lüge::N	lie	ложь				UNTRUTH	475	
-Dellert-2017-1016-444	444	525	-1.116686	Schaden	Schaden::N	damage	вред	Beschädigung	material harm, detriment	ущерб	DAMAGE (INJURY)	2947	POS
+Dellert-2017-1016-444	444	525	-1.116686	Schaden	Schaden::N	damage	вред	Beschädigung	material harm, detriment	ущерб	DAMAGE (INJURY)	2947	
 Dellert-2017-1016-445	445	903	0.041108	Unglück	Unglück::N	misfortune	беда	unerwünschter Zustand	undesirable condition	неприятное обстоятельство	BAD LUCK	56	
 Dellert-2017-1016-446	446	374	-1.179038	Schuld	Schuld::N	fault	вина	Verantwortung für Fehlverhalten	blame, responsibility	ответственность за проступок, преступление	FAULT	134	
 Dellert-2017-1016-447	447	96	-2.251605	Alter	Alter::N	age	возраст	Lebensalter	number of years since birth	прожитые года	AGE	1789	
@@ -510,7 +510,7 @@ Dellert-2017-1016-508	508	478	-1.130349	nass	nass::A	wet	мокрый				WET	172
 Dellert-2017-1016-509	509	262	-1.141529	trocken	trocken::A	dry	сухой				DRY	1398	
 Dellert-2017-1016-510	510	95	-2.255925	voll	voll::A	full	полный, наполненный	Gefäß	container	о сосуде	FULL	1429	
 Dellert-2017-1016-511	511	393	-1.130087	leer	leer::A	empty	пустой	Gefäß	container	о сосуде	EMPTY	1624	
-Dellert-2017-1016-512	512	415	-1.181553	offen	offen::A	open	открытый	BSP:Tür	EX:door	НАПР:о двери	OPEN	1156	POS
+Dellert-2017-1016-512	512	415	-1.181553	offen	offen::A	open	открытый	BSP:Tür	EX:door	НАПР:о двери			
 Dellert-2017-1016-513	513	732	-0.036018	geschlossen	geschlossen::A	closed	закрытый	BSP:Tür	EX:door	НАПР:о двери	CLOSED	589	
 Dellert-2017-1016-514	514	708	-0.002671	sauber	sauber::A	clean	чистый				CLEAN	704	
 Dellert-2017-1016-515	515	846	-0.091876	schmutzig	schmutzig::A	dirty	грязный				DIRTY	1230	
@@ -551,7 +551,7 @@ Dellert-2017-1016-549	549	980	0.073849	geschickt	geschickt::A	skilful	искус
 Dellert-2017-1016-550	550	550	-0.05786	lieb	lieb::A	dear	милый		beloved		DEAR	2470	
 Dellert-2017-1016-551	551	857	-0.021116	lustig	lustig::A	merry	весёлый	vergnügt			MERRY	1976	
 Dellert-2017-1016-552	552	984	0.038776	sanft	sanft::A	gentle	нежный		tender	кроткий	GENTLE	1954	
-Dellert-2017-1016-553	553	549	-0.061747	hungrig	hungrig::A	hungry	голодный				BE HUNGRY	1533	
+Dellert-2017-1016-553	553	549	-0.061747	hungrig	hungrig::A	hungry	голодный						
 Dellert-2017-1016-554	554	900	0.020675	krank	krank::A	sick, ill	больной			нездоровый	SICK	1847	
 Dellert-2017-1016-555	555	757	-0.081553	nackt	nackt::A	naked	голый				NAKED	590	
 Dellert-2017-1016-556	556	909	0.059371	traurig	traurig::A	sad	грустный	Gefühl	emotion	чувство	SAD	699	
@@ -561,7 +561,7 @@ Dellert-2017-1016-559	559	826	-0.05627	schlecht	schlecht::A	bad	плохой	BSP
 Dellert-2017-1016-560	560	241	-1.194064	richtig	richtig::A	correct	правильный				CORRECT (RIGHT)	1725	
 Dellert-2017-1016-561	561	571	-0.019733	schlimm	schlimm::A	nasty, dire	страшный, отвратительный				SEVERE	419	
 Dellert-2017-1016-562	562	915	0.088099	wahr	wahr::A	true	настоящий	wahrheitsgemäß	truthful	истинный	TRUE	1657	
-Dellert-2017-1016-563	563	163	-1.146849	alt	alt::A	old	старый	BSP:Haus	EX:house	НАПР:о доме	OLD (USED)	2113	
+Dellert-2017-1016-563	563	163	-1.146849	alt	alt::A	old	старый	BSP:Haus	EX:house	НАПР:о доме	OLD	1229	
 Dellert-2017-1016-564	564	24	-2.293982	neu	neu::A	new	новый				NEW	1231	
 Dellert-2017-1016-565	565	898	0.012372	ehemalig	ehemalig::A	former	бывший		erstwhile		FORMER	3004	
 Dellert-2017-1016-566	566	206	-1.185645	alt[Lebewesen]	alt[Lebewesen]::A	aged, old	пожилой, старый		person	о человеке	OLD (AGED)	2112	
@@ -569,7 +569,7 @@ Dellert-2017-1016-567	567	216	-1.168918	jung	jung::A	young	молодой				YOU
 Dellert-2017-1016-568	568	668	-0.001194	arm	arm::A	poor	бедный	bedürftig	needy		POOR	1674	
 Dellert-2017-1016-569	569	423	-1.158927	reich	reich::A	rich	богатый				RICH	712	
 Dellert-2017-1016-570	570	614	-0.039116	bekannt	bekannt::A	familiar	знакомый				FAMILIAR	3005	
-Dellert-2017-1016-571	571	838	-0.028537	berühmt	berühmt::A	famous	знаменитый				FAME	865	POS
+Dellert-2017-1016-571	571	838	-0.028537	berühmt	berühmt::A	famous	знаменитый						
 Dellert-2017-1016-572	572	543	-0.070106	fremd	fremd::A	foreign	чужой				FOREIGN	109	
 Dellert-2017-1016-573	573	841	-0.025048	verschieden	verschieden::A	different	разный				DIFFERENT	2504	
 Dellert-2017-1016-574	574	394	-1.12745	nah	nah::A	near	близкий				NEAR	1942	
@@ -584,7 +584,7 @@ Dellert-2017-1016-582	582	808	-0.03506	letzter	letzter::A	last	последни�
 Dellert-2017-1016-583	583	342	-1.150599	allein	allein::ADV	alone	один				ALONE	1964	
 Dellert-2017-1016-584	584	1002	1.123114	auf einmal	auf einmal::ADV	at once	сразу		in one go		IMMEDIATELY	1963	
 Dellert-2017-1016-585	585	718	-0.071647	zusammen	zusammen::ADV	together	вместе				TOGETHER	2482	
-Dellert-2017-1016-586	586	562	-0.040105	lange	lange::ADV	long	долго				FOR A LONG TIME	418	
+Dellert-2017-1016-586	586	562	-0.040105	lange	lange::ADV	long	долго						
 Dellert-2017-1016-587	587	972	0.093543	plötzlich	plötzlich::ADV	suddenly	вдруг				SUDDENLY	2920	
 Dellert-2017-1016-588	588	992	1.118757	sofort	sofort::ADV	instantly	тотчас				INSTANTLY	2916	
 Dellert-2017-1016-589	589	774	-0.033797	später	später::ADV	later	позже				LATE	477	
@@ -613,7 +613,7 @@ Dellert-2017-1016-611	611	941	0.037048	geradeaus	geradeaus::ADV	ahead	прямо
 Dellert-2017-1016-612	612	487	-1.113207	vorwärts	vorwärts::ADV	forward	вперёд				FORWARD	2912	
 Dellert-2017-1016-613	613	806	-0.041419	rückwärts	rückwärts::ADV	backward	назад				BACKWARD	2911	
 Dellert-2017-1016-614	614	503	-1.174261	zurück	zurück::ADV	back	обратно				BACK (DIRECTION)	2910	
-Dellert-2017-1016-615	615	170	-1.123445	unten	unten::ADV	below	внизу				DOWN OR BELOW	2094	
+Dellert-2017-1016-615	615	170	-1.123445	unten	unten::ADV	below	внизу						
 Dellert-2017-1016-616	616	479	-1.129119	hinab	hinab::ADV	down	вниз				DOWN	1326	
 Dellert-2017-1016-617	617	100	-2.236479	oben	oben::ADV	above	наверху				ABOVE	1741	
 Dellert-2017-1016-618	618	186	-1.164943	hinauf	hinauf::ADV	up	вверх				UP	1591	
@@ -630,7 +630,7 @@ Dellert-2017-1016-628	628	495	-1.196058	wieder	wieder::ADV	again	опять				A
 Dellert-2017-1016-629	629	839	-0.028218	vergebens	vergebens::ADV	in vain	напрасно				IN VAIN	1765	
 Dellert-2017-1016-630	630	349	-1.133895	vor	vor::PRP	in front of	перед				IN FRONT OF	1883	
 Dellert-2017-1016-631	631	250	-1.184184	hinter	hinter::PRP	behind	позади				BEHIND	1686	
-Dellert-2017-1016-632	632	29	-2.297238	unter	unter::PRP	under	под				BELOW OR UNDER	1485	
+Dellert-2017-1016-632	632	29	-2.297238	unter	unter::PRP	under	под						
 Dellert-2017-1016-633	633	538	-0.077856	durch	durch::PRP	through	сквозь, через	BSP:Fenster,Loch	EX:a window, a hole	НАПР:окно,дыру	THROUGH	97	
 Dellert-2017-1016-634	634	727	-0.047088	neben	neben::PRP	next to	возле				NEXT TO	2917	
 Dellert-2017-1016-635	635	461	-1.162949	zwischen	zwischen::PRP	between	между				BETWEEN	689	
@@ -640,8 +640,8 @@ Dellert-2017-1016-638	638	3	-3.371809	das	das::PRN	that	то				THAT	78
 Dellert-2017-1016-639	639	287	-1.190837	alles	alles::PRN	everything	всё				ALL	98	
 Dellert-2017-1016-640	640	5	-3.345092	ich	ich::PRN	I	я				I	1209	
 Dellert-2017-1016-641	641	4	-3.349547	du	du::PRN	thou	ты				THOU	1215	
-Dellert-2017-1016-642	642	8	-3.316746	er	er::PRN	he	он				HE OR SHE OR IT	262	
-Dellert-2017-1016-643	643	10	-3.338912	wir	wir::PRN	we	мы				WE	1212	
+Dellert-2017-1016-642	642	8	-3.316746	er	er::PRN	he	он				HE	262	
+Dellert-2017-1016-643	643	10	-3.338912	wir	wir::PRN	we	мы				WE	262	
 Dellert-2017-1016-644	644	67	-2.28367	ihr	ihr::PRN	you	вы		plural		YOU	1213	
 Dellert-2017-1016-645	645	28	-2.201759	sie	sie::PRN	they	они	Plural			THEY	817	
 Dellert-2017-1016-646	646	18	-2.227861	was	was::FPRN	what	что				WHAT	1236	
@@ -871,7 +871,7 @@ Dellert-2017-1016-869	869	520	-1.125247	schwenken	schwenken::V	swing	махат�
 Dellert-2017-1016-870	870	283	-1.100002	schütten	schütten::V	pour	налить	BSP:Wasser in ein Glas	EX:water into a glass	НАПР:воду в стакан	POUR	1487	
 Dellert-2017-1016-871	871	200	-1.11008	füllen	füllen::V	fill	наполнить	BSP:ein Glas mit Wasser	EX:a glass with water	НАПР:стакан водой	FILL	2006	
 Dellert-2017-1016-872	872	505	-1.17274	einwickeln	einwickeln::V	wrap	завернуть	BSP:einen Fisch mit Papier	EX:a fish in paper	НАПР:рыбу в бумагу	WRAP	1113	
-Dellert-2017-1016-873	873	371	-1.185959	tragen	tragen::V	carry	нести	BSP:eine Kiste	EX:a box	НАПР:ящик	CARRY	700	
+Dellert-2017-1016-873	873	371	-1.185959	tragen	tragen::V	carry	нести	BSP:eine Kiste	EX:a box	НАПР:ящик	STONE OR ROCK	700	
 Dellert-2017-1016-874	874	736	-0.025092	schleppen	schleppen::V	drag	тащить	BSP:Baumstamm	EX:the trunk of a tree	НАПР:ствол дерева	DRAG	2030	
 Dellert-2017-1016-875	875	219	-1.160575	ziehen	ziehen::V	pull	тянуть	BSP:an einer Schnur	EX:a rope	НАПР:верёвку	PULL	1455	
 Dellert-2017-1016-876	876	635	-0.081575	aufbewahren	aufbewahren::V	keep	хранить	BSP:Lebensmittel Geld	EX:food, money	НАПР:продукты, деньги	KEEP	1477	
@@ -903,7 +903,7 @@ Dellert-2017-1016-901	901	811	-0.021625	versprechen	versprechen::V	promise	об�
 Dellert-2017-1016-902	902	588	-0.075626	wünschen	wünschen::V	wish	желaть	jm etwas, BSP:Glück	ЕX:luck	НАПР:счастья	WANT	1784	
 Dellert-2017-1016-903	903	261	-1.142721	loben	loben::V	praise	хвалить				PRAISE	1687	
 Dellert-2017-1016-904	904	724	-0.051244	küssen	küssen::V	kiss	целовать				KISS	578	
-Dellert-2017-1016-905	905	615	-0.033801	wiegen	wiegen::V	rock	качать	ein Kind in den Schlaf	a child	ребёнка	STONE OR ROCK	2125	
+Dellert-2017-1016-905	905	615	-0.033801	wiegen	wiegen::V	rock	качать	ein Kind in den Schlaf	a child	ребёнка			
 Dellert-2017-1016-906	906	308	-1.141124	zudecken	zudecken::V	cover	накрыть	BSP:ein Kind mit einer Decke	EX:a child with a blanket	НАПР:ребёнка одеялом	COVER	761	
 Dellert-2017-1016-907	907	388	-1.142837	wecken	wecken::V	wake	разбудить				WAKE UP	1602	
 Dellert-2017-1016-908	908	340	-1.154715	zeigen	zeigen::V	show	показать				SHOW	1039	
