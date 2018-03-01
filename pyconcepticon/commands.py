@@ -547,7 +547,7 @@ def test(args):
     _test()
 
 
-@command()
+@command('relink-data')
 def recreate_linking_data(args):
     api = Concepticon(args.data)
     for l in api.vocabularies['COLUMN_TYPES'].values():

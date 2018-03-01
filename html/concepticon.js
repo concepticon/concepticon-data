@@ -80,6 +80,10 @@ function getGlossesBySimilarity(gloss) {
   for (i=0; i<out.length; i++) {
     add_or_not(out[i][0], glosses, out[i][1]);
   }
+  out = addchar(gloss, alphabet.toUpperCase());
+  for (i=0; i<out.length; i++) {
+    add_or_not(out[i][0], glosses, out[i][1]);
+  }
 
   splitted = gloss.split(' ');
   if (splitted.length > 1) {
