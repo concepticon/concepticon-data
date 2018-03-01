@@ -84,7 +84,7 @@ Dellert-2017-1016-82	82	656	-0.024082	Raureif	Raureif::N	hoarfrost	иней				H
 Dellert-2017-1016-83	83	1007	1.197472	Regenbogen	Regenbogen::N	rainbow	радуга				RAINBOW	1733	
 Dellert-2017-1016-84	84	625	-0.001241	Donner	Donner::N	thunder	гром	bei Gewitter	during a thunderstorm	во время грозы	THUNDER	1150	
 Dellert-2017-1016-85	85	753	-0.089439	Strömung	Strömung::N	current	течение	eines Flusses	of a river	реки	CURRENT (STREAM)	2935	
-Dellert-2017-1016-86	86	458	-1.170306	Tropfen	Tropfen::N	drop	капля	BSP:Wasser	EX:water	НАПР:воды	!DROP (OF WATER)		not DROP (CLASSIFIER)
+Dellert-2017-1016-86	86	458	-1.170306	Tropfen	Tropfen::N	drop	капля	BSP:Wasser	EX:water	НАПР:воды			not DROP (CLASSIFIER)
 Dellert-2017-1016-87	87	109	-2.288698	Schaum	Schaum::N	foam	пена	auf Flüssigkeit	on liquid	на поверхности жидкости	FOAM	1768	
 Dellert-2017-1016-88	88	715	-0.077517	Schmutz	Schmutz::N	dirt	грязь	auf Gegenständen	on objects	на предметах	DIRT	25	
 Dellert-2017-1016-89	89	61	-2.228149	See	See::N	lake	озеро	Binnensee			LAKE	624	
@@ -99,7 +99,7 @@ Dellert-2017-1016-97	97	822	-0.070502	Gipfel	Gipfel::N	summit	вершина	ein
 Dellert-2017-1016-98	98	798	-0.059802	Höhle	Höhle::N	cave	пещера	in einem Berg	in a mountain	в горе	CAVE	1155	
 Dellert-2017-1016-99	99	960	0.073616	Abhang	Abhang::N	slope	склон	eines Berges	of a mountain	горы	PRECIPICE	618	
 Dellert-2017-1016-100	100	867	-0.088111	Quelle	Quelle::N	source	источник	eines Flusses	of a river	реки	SPRING (OF WATER)	849	
-Dellert-2017-1016-101	101	754	-0.084698	Bach	Bach::N	brook	ручей	kleiner Fluss	small river	маленькая река	!BROOK		not distinct from RIVER
+Dellert-2017-1016-101	101	754	-0.084698	Bach	Bach::N	brook	ручей	kleiner Fluss	small river	маленькая река			not distinct from RIVER
 Dellert-2017-1016-102	102	227	-1.139801	Fluss	Fluss::N	river	река	größerer Fluss	larger river	большая река	RIVER	666	
 Dellert-2017-1016-103	103	372	-1.18519	Ufer	Ufer::N	shore	берег	eines Sees	of a lake	НАПР:озeра	SHORE	113	
 Dellert-2017-1016-104	104	591	-0.070349	Küste	Küste::N	coast	побережье	Meeresküste	seashore	берег моря	COAST	1525	
@@ -114,7 +114,7 @@ Dellert-2017-1016-112	112	48	-2.202903	Baum	Baum::N	tree	дерево	Pflanze	pl
 Dellert-2017-1016-113	113	791	-0.087953	Stamm	Stamm::N	trunk	ствол	eines Baumes	of a tree	дерева	TREE TRUNK	344	
 Dellert-2017-1016-114	114	224	-1.14791	Rinde	Rinde::N	bark	кора	eines Baumes	of a tree	дерева	BARK	1204	
 Dellert-2017-1016-115	115	257	-1.163897	Ast	Ast::N	limb	сук	eines Baumes	of a tree	дерева	BRANCH	1531	
-Dellert-2017-1016-116	116	612	-0.040117	Zweig	Zweig::N	twig	ветвь	eines Baumes	of a tree	дерева	!TWIG		not distinct from BRANCH
+Dellert-2017-1016-116	116	612	-0.040117	Zweig	Zweig::N	twig	ветвь	eines Baumes	of a tree	дерева			not distinct from BRANCH
 Dellert-2017-1016-117	117	120	-2.229714	Blatt	Blatt::N	leaf	лист	einer Pflanze	of a plant	растения	LEAF	628	
 Dellert-2017-1016-118	118	319	-1.194508	Birke	Birke::N	birch	берёза				BIRCH	1855	
 Dellert-2017-1016-119	119	514	-1.136112	Kiefer[Baum]	Kiefer[Baum]::N	pine	сосна		pine tree		PINE	1740	
@@ -214,8 +214,8 @@ Dellert-2017-1016-212	212	521	-1.123362	Freude	Freude::N	joy	радость	Gef�
 Dellert-2017-1016-213	213	489	-1.108177	Gelächter	Gelächter::N	laughter	смех				LAUGHTER	2958	
 Dellert-2017-1016-214	214	657	-0.023141	Glück	Glück::N	happiness	счастье	Glückseligkeit		чувство довольства	HAPPINESS	2941	POS
 Dellert-2017-1016-215	215	831	-0.051489	Kummer	Kummer::N	grief	горе	Trauer, Traurigkeit	sorrow, sadness	сильная печаль	GRIEF	1668	
-Dellert-2017-1016-216	216	731	-0.039648	Wunsch	Wunsch::N	wish	желание	Sehnsucht	longing	стремление к осуществлению чего-нибудь	!WISH (NOUN)		not distinct from DESIRE
-Dellert-2017-1016-217	217	629	-0.091798	Lust	Lust::N	desire	влечение	Streben nach Besitz	to have something	стремление к обладанию	!DESIRE (LUST)		
+Dellert-2017-1016-216	216	731	-0.039648	Wunsch	Wunsch::N	wish	желание	Sehnsucht	longing	стремление к осуществлению чего-нибудь			not distinct from DESIRE
+Dellert-2017-1016-217	217	629	-0.091798	Lust	Lust::N	desire	влечение	Streben nach Besitz	to have something	стремление к обладанию			
 Dellert-2017-1016-218	218	119	-2.230855	Geist	Geist::N	spirit	дух	Lebensgeist, innere Kraft	inner energy of a being	внутренняя сила или сущность	SPIRIT	53	
 Dellert-2017-1016-219	219	534	-0.084797	Gedanke	Gedanke::N	thought	мысль				THOUGHT	2975	POS
 Dellert-2017-1016-220	220	669	-0.099963	Gedächtnis	Gedächtnis::N	memory	память	Erinnerungsvermögen	human ability to record information	способность запоминать информацию	MEMORY	1018	
@@ -248,7 +248,7 @@ Dellert-2017-1016-246	246	426	-1.149378	Gast	Gast::N	guest	гость				GUEST	1
 Dellert-2017-1016-247	247	780	-0.01435	Geschenk	Geschenk::N	gift	подарок				GIFT	2982	POS (DONATE)
 Dellert-2017-1016-248	248	339	-1.157994	Spiel	Spiel::N	game	игра	spielerische Betätigung	playful activity	занятие для развлечения, отдыха	GAME	2467	
 Dellert-2017-1016-249	249	979	0.040639	Gesellschaft	Gesellschaft::N	company	общество	Begleitung	companionship	компания	COMPANIONSHIP	2983	
-Dellert-2017-1016-250	250	482	-1.120418	Hilfe	Hilfe::N	help	помощь				!HELP (NOUN)		POS
+Dellert-2017-1016-250	250	482	-1.120418	Hilfe	Hilfe::N	help	помощь						POS
 Dellert-2017-1016-251	251	254	-1.173862	Freund	Freund::N	friend	друг	sehr nahestehender Mensch	person whose company one enjoys	связанный хорошими отношениями НАПР:друг детства	FRIEND	1325	
 Dellert-2017-1016-252	252	908	0.056385	Kamerad	Kamerad::N	companion	приятель	mit dem man Zeit verbringt	with whom one spends time	близкий знакомый			not distinct from FRIEND
 Dellert-2017-1016-253	253	295	-1.16408	Angelegenheit	Angelegenheit::N	matter	дело	Sache, Fall	affair	НАПР:важное дело			maybe AFFAIR
@@ -276,7 +276,7 @@ Dellert-2017-1016-274	274	662	-0.006265	Ecke	Ecke::N	corner	угол	hevorstehen
 Dellert-2017-1016-275	275	449	-1.199028	Spitze	Spitze::N	tip	кончик	eines spitzen Gegenstandes	of a pointy object	острый конец предмета НАПР:кончик ножа	TIP (OF OBJECT)	2992	
 Dellert-2017-1016-276	276	151	-1.187531	Ende	Ende::N	end	конец	eines langen Gegenstands	of a long object	длинного предмета НАПР:верёвки	END (OF SPACE)	742	
 Dellert-2017-1016-277	277	225	-1.143991	Loch	Loch::N	hole	дыра	in einem Gegenstand	in an object	отверстие в предмете	HOLE	1667	
-Dellert-2017-1016-278	278	617	-0.025451	Winkel	Winkel::N	angle	угол	BSP: eines Zimmers	internal, EX:of a room	в углублении, НАПР:комнаты	!ANGLE		
+Dellert-2017-1016-278	278	617	-0.025451	Winkel	Winkel::N	angle	угол	BSP: eines Zimmers	internal, EX:of a room	в углублении, НАПР:комнаты			
 Dellert-2017-1016-279	279	645	-0.054024	Muster	Muster::N	pattern	узор	sich wiederholende Struktur	regular repeated elements	повторяющийся рисунок	PATTERN	2988	
 Dellert-2017-1016-280	280	766	-0.061526	Größe	Größe::N	size	размер	eines Gegenstandes	dimensions of an object	величина объекта	SIZE (OF OBJECT)	2845	not SIZE (OF PERSON)
 Dellert-2017-1016-281	281	463	-1.155302	Länge	Länge::N	length	длина				LENGTH	2537	
@@ -551,7 +551,7 @@ Dellert-2017-1016-549	549	980	0.073849	geschickt	geschickt::A	skilful	искус
 Dellert-2017-1016-550	550	550	-0.05786	lieb	lieb::A	dear	милый		beloved		DEAR	2470	
 Dellert-2017-1016-551	551	857	-0.021116	lustig	lustig::A	merry	весёлый	vergnügt			MERRY	1976	
 Dellert-2017-1016-552	552	984	0.038776	sanft	sanft::A	gentle	нежный		tender	кроткий	GENTLE	1954	
-Dellert-2017-1016-553	553	549	-0.061747	hungrig	hungrig::A	hungry	голодный				!HUNGRY		
+Dellert-2017-1016-553	553	549	-0.061747	hungrig	hungrig::A	hungry	голодный						
 Dellert-2017-1016-554	554	900	0.020675	krank	krank::A	sick, ill	больной			нездоровый	SICK	1847	
 Dellert-2017-1016-555	555	757	-0.081553	nackt	nackt::A	naked	голый				NAKED	590	
 Dellert-2017-1016-556	556	909	0.059371	traurig	traurig::A	sad	грустный	Gefühl	emotion	чувство	SAD	699	
@@ -613,7 +613,7 @@ Dellert-2017-1016-611	611	941	0.037048	geradeaus	geradeaus::ADV	ahead	прямо
 Dellert-2017-1016-612	612	487	-1.113207	vorwärts	vorwärts::ADV	forward	вперёд				FORWARD	2912	
 Dellert-2017-1016-613	613	806	-0.041419	rückwärts	rückwärts::ADV	backward	назад				BACKWARD	2911	
 Dellert-2017-1016-614	614	503	-1.174261	zurück	zurück::ADV	back	обратно				BACK (DIRECTION)	2910	
-Dellert-2017-1016-615	615	170	-1.123445	unten	unten::ADV	below	внизу				!DOWNSTAIRS		
+Dellert-2017-1016-615	615	170	-1.123445	unten	unten::ADV	below	внизу						
 Dellert-2017-1016-616	616	479	-1.129119	hinab	hinab::ADV	down	вниз				DOWN	1326	
 Dellert-2017-1016-617	617	100	-2.236479	oben	oben::ADV	above	наверху				ABOVE	1741	
 Dellert-2017-1016-618	618	186	-1.164943	hinauf	hinauf::ADV	up	вверх				UP	1591	
@@ -630,7 +630,7 @@ Dellert-2017-1016-628	628	495	-1.196058	wieder	wieder::ADV	again	опять				A
 Dellert-2017-1016-629	629	839	-0.028218	vergebens	vergebens::ADV	in vain	напрасно				IN VAIN	1765	
 Dellert-2017-1016-630	630	349	-1.133895	vor	vor::PRP	in front of	перед				IN FRONT OF	1883	
 Dellert-2017-1016-631	631	250	-1.184184	hinter	hinter::PRP	behind	позади				BEHIND	1686	
-Dellert-2017-1016-632	632	29	-2.297238	unter	unter::PRP	under	под				!UNDER		
+Dellert-2017-1016-632	632	29	-2.297238	unter	unter::PRP	under	под						
 Dellert-2017-1016-633	633	538	-0.077856	durch	durch::PRP	through	сквозь, через	BSP:Fenster,Loch	EX:a window, a hole	НАПР:окно,дыру	THROUGH	97	
 Dellert-2017-1016-634	634	727	-0.047088	neben	neben::PRP	next to	возле				NEXT TO	2917	
 Dellert-2017-1016-635	635	461	-1.162949	zwischen	zwischen::PRP	between	между				BETWEEN	689	
