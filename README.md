@@ -58,14 +58,7 @@ for this behaviour.
 
 ### Installation
 
-`pyconcepticon` can be installed from [PyPI](https://pypi.python.org/pypi), e.g. using pip
-```
-pip install pyconcepticon
-```
-This will install the latest released version.
-
-Alternatively (in particular if you want to hack on `pyconcepticon`), you can install from a clone of this repository;
-i.e. running
+For the time being, until a new stable version of `pyconcepticon` is released, always install `pyconcepticon` locally from a clone of this repository, i.e. by running:
 ```
 python setup.py develop
 ```
