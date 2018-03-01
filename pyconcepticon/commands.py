@@ -8,7 +8,7 @@ import json
 
 from six import text_type
 from tabulate import tabulate
-from clldutils.path import Path, as_unicode
+from clldutils.path import Path, as_unicode, write_text
 from clldutils.clilib import ParserError, command
 from clldutils.markup import Table
 from clldutils.misc import format_size
@@ -144,7 +144,7 @@ def validate(args):
 
 
 @command()
-def html(args):
+def html(args):  # pragma: no cover
     """
     Dumps Concepticon's contents for English, German, Chinese, and French.
 
@@ -177,8 +177,9 @@ def html(args):
                         api.conceptsets[cidx].definition,
                         api.conceptsets[cidx].ontological_category)]
     data['language'] = 'en'
-    with REPOS_PATH.joinpath('html', 'data.js').open('w', encoding='utf-8') as f:
-        f.write('var Concepticon = '+json.dumps(data, indent=2)+';\n')
+    write_text(
+        REPOS_PATH.joinpath('html', 'data.js'),
+        'var Concepticon = {0};\n'.format(json.dumps(data, indent=2)))
 
 
 @command()
