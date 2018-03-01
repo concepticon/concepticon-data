@@ -1,12 +1,11 @@
 language: python
 python:
+  - "2.7"
   - "3.4"
-install:
-  - pip install nose mock coverage
-script:
-  - python setup.py develop
-  - nosetests
-notifications:
-  email:
-    - mattis.list@lingpy.org
-    - robert_forkel@eva.mpg.de
+  - "3.5"
+  - "3.6"
+cache: pip
+before_cache: rm -f $HOME/.cache/pip/log/debug.log
+install: pip install .[test] codecov
+script: pytest
+after_success: codecov
