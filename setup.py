@@ -21,7 +21,7 @@ setup(
     zip_safe=False,
     install_requires=[
         'csvw',
-        'clldutils>=2.0.1',
+        'clldutils>=2.1.0',
         'bibtexparser',
         'tabulate',
         'attrs',

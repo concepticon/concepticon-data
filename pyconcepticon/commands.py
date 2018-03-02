@@ -15,8 +15,9 @@ from clldutils.misc import format_size
 from cdstarcat.catalog import Catalog
 
 import pyconcepticon
-from pyconcepticon.util import (rewrite, CS_ID, CS_GLOSS, SourcesCatalog,
-                                UnicodeWriter, read_dicts, REPOS_PATH)
+from pyconcepticon.util import (
+    rewrite, CS_ID, CS_GLOSS, SourcesCatalog, UnicodeWriter, read_dicts,
+)
 from pyconcepticon.api import Concepticon, Conceptlist
 
 
@@ -95,7 +96,7 @@ def link(args):
     --------
     $ concepticon link path_to_conceptlist.tsv
     """
-    api = Concepticon(args.data)
+    api = Concepticon(args.repos)
     conceptlist = Path(args.args[0])
     if not conceptlist.exists() or not conceptlist.is_file():
         conceptlist = api.data_path('conceptlists', args.args[0])
@@ -135,7 +136,7 @@ def validate(args):
     --------
     $ concepticon validate
     """
-    api = Concepticon(args.data)
+    api = Concepticon(args.repos)
     for cl in api.conceptlists.values():
         items = list(cl.metadata)
         if set(items[0].keys()) != \
@@ -144,7 +145,8 @@ def validate(args):
 
 
 @command()
-def html(args):  # pragma: no cover
+@Concepticon.app_wrapper
+def app(args):  # pragma: no cover
     """
     Dumps Concepticon's contents for English, German, Chinese, and French.
 
@@ -156,30 +158,28 @@ def html(args):  # pragma: no cover
     --------
     $ concepticon html
     """
-    api = Concepticon(args.data)
     data = defaultdict(list)
+
+    def key(g, l):
+        return '{0}---{1}'.format(g, l)
+
     for lang in ['en', 'de', 'zh', 'fr', 'ru', 'es', 'pt']:
-        for cidx, gloss in api._get_map_for_language(lang):
-            data[gloss.split('///')[1]+'---'+lang] += [(
-                    cidx,
-                    api.conceptsets[cidx].gloss,
-                    api.conceptsets[cidx].definition,
-                    api.conceptsets[cidx].ontological_category)]
+        for cidx, gloss in args.api._get_map_for_language(lang):
+            g0, _, g1 = gloss.partition('///')
+            csspec = (
+                cidx,
+                args.api.conceptsets[cidx].gloss,
+                args.api.conceptsets[cidx].definition,
+                args.api.conceptsets[cidx].ontological_category)
+            data[key(g1, lang)].append(csspec)
             if lang == 'en':
-                data[gloss.split('///')[0]+'---'+lang] += [(
-                        cidx,
-                        api.conceptsets[cidx].gloss,
-                        api.conceptsets[cidx].definition,
-                        api.conceptsets[cidx].ontological_category)]
-                data[gloss.split('///')[0].lower()+'---'+lang] += [(
-                        cidx,
-                        api.conceptsets[cidx].gloss,
-                        api.conceptsets[cidx].definition,
-                        api.conceptsets[cidx].ontological_category)]
+                data[key(g0, lang)].append(csspec)
+                data[key(g0.lower(), lang)].append(csspec)
     data['language'] = 'en'
     write_text(
-        REPOS_PATH.joinpath('html', 'data.js'),
+        args.api.appdatadir.joinpath('data.js'),
         'var Concepticon = {0};\n'.format(json.dumps(data, indent=2)))
+    args.log.info('app data recreated')
 
 
 @command()
@@ -195,7 +195,7 @@ def attributes(args):
     --------
     $ concepticon attributes
     """
-    api = Concepticon(args.data)
+    api = Concepticon(args.repos)
     attrs = Counter()
     for cl in api.conceptlists.values():
         attrs.update(cl.attributes)
@@ -305,7 +305,7 @@ def compare_conceptlists(api, *conceptlists, **kw):
 
 def _set_operation(args, type_):
     assert type_ in ['union', 'intersection']
-    api = Concepticon(args.data)
+    api = Concepticon(args.repos)
     out, clen = [], 0
 
     for c, lists in compare_conceptlists(api, *args.args):
@@ -375,7 +375,7 @@ def map_concepts(args):
     --------
     $ concepticon map_concepts path_to_conceptlist.tsv
     """
-    api = Concepticon(args.data)
+    api = Concepticon(args.repos)
     api.map(
         Path(args.args[0]),
         otherlist=args.args[1] if len(args.args) > 1 else None,
@@ -401,7 +401,7 @@ def stats(args):
     --------
     $ concepticon stats
     """
-    api = Concepticon(args.data)
+    api = Concepticon(args.repos)
     cls = api.conceptlists.values()
     readme_conceptlists(api, cls)
     readme_concept_list_meta(api)
@@ -428,8 +428,11 @@ def readme_conceptlists(api, cls):
     for cl in cls:
         print(cl.path.name)
         mapped, mapped_ratio, mergers = cl_stats(cl)
-        table.append(['[%s](%s) ' % (cl.id, cl.path.name), len(mapped),
-            mapped_ratio, len(mergers)])
+        table.append([
+            '[%s](%s) ' % (cl.id, cl.path.name),
+            len(mapped),
+            mapped_ratio,
+            len(mergers)])
     readme(
         api.data_path('conceptlists'),
         '# Concept Lists\n\n{0}'.format(
@@ -534,7 +537,7 @@ def upload_sources(args):
     """
     catalog_path = args.args[0] if args.args else os.environ['CDSTAR_CATALOG']
     toc = ['# Sources\n']
-    api = Concepticon(args.data)
+    api = Concepticon(args.repos)
     with SourcesCatalog(api.data_path('sources', 'cdstar.json')) as lcat:
         with Catalog(
                 catalog_path,
@@ -617,7 +620,7 @@ def check(args):
                 _pprint(
                     o.id, 'MISSING', o.concepts[m].number, '"%s"' % o.concepts[m].english)
 
-    api = Concepticon(args.data)
+    api = Concepticon(args.repos)
     for clist in api.conceptlists:
         if (len(args.args) and clist in args.args) or not args.args:
             clist = api.conceptlists[clist]
@@ -646,7 +649,7 @@ def check_new(args):
     $ concepticon checknew path_to_conceptlist.tsv
     """
     list_to_check = read_dicts(args.args[0])
-    api = Concepticon(args.data)
+    api = Concepticon(args.repos)
     con_glosses = {c.id: c.gloss for c in api.conceptsets.values()}
 
     def _get_duplicates(to_check):
@@ -657,8 +660,8 @@ def check_new(args):
     for index, entry_to_check in enumerate(list_to_check):
         # Test if gloss matches Concepticon ID:
         try:
-            if (con_glosses[entry_to_check['CONCEPTICON_ID']]
-                    != entry_to_check['CONCEPTICON_GLOSS']):
+            if (con_glosses[entry_to_check['CONCEPTICON_ID']] !=
+                    entry_to_check['CONCEPTICON_GLOSS']):
                 print("Gloss " + entry_to_check['CONCEPTICON_GLOSS'] +
                       " in line " + str(index + 1) + " doesn't match ID " +
                       entry_to_check['CONCEPTICON_ID'] + ".")
@@ -672,7 +675,7 @@ def check_new(args):
             if (entry_to_check['CONCEPTICON_GLOSS']
                     not in con_glosses.values()):
                 print("Gloss " + entry_to_check['CONCEPTICON_GLOSS'] +
-                      " in line " + str(index + 1) + 
+                      " in line " + str(index + 1) +
                       " doesn't exist in Concepticon.")
         except KeyError:
             print("Gloss " + entry_to_check[
@@ -681,8 +684,8 @@ def check_new(args):
 
         # Test if proposed glosses (!GLOSS) have NULL ID:
         try:
-            if (entry_to_check['CONCEPTICON_GLOSS'].startswith('!')
-                    and entry_to_check['CONCEPTICON_ID']):
+            if (entry_to_check['CONCEPTICON_GLOSS'].startswith('!') and
+                    entry_to_check['CONCEPTICON_ID']):
                 print("Proposed gloss " + entry_to_check['CONCEPTICON_GLOSS'] +
                       " in line " + str(index + 1) +
                       " shouldn't have a CONCEPTICON_ID.")
@@ -725,7 +728,7 @@ def check_new(args):
 
 
 @command()
-def test(args):
+def test(args):  # pragma: no cover
     """
     Run a number of tests on all concept lists in Concepticon.
 
@@ -739,8 +742,9 @@ def test(args):
     --------
     $ concepticon test
     """
-    from pyconcepticon.tests.test_data import test as _test
-    _test()
+    from pyconcepticon.check_data import check
+    if check(Concepticon(args.repos)):
+        args.log.info('all integrity tests passed: OK')
 
 
 @command('relink-data')
@@ -757,7 +761,7 @@ def recreate_linking_data(args):
     --------
     $ concepticon recreate_linking_data
     """
-    api = Concepticon(args.data)
+    api = Concepticon(args.repos)
     for l in api.vocabularies['COLUMN_TYPES'].values():
         if getattr(l, 'iso2', None):
             _write_linking_data(api, l)

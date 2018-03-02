@@ -16,7 +16,7 @@ from __future__ import unicode_literals
 import sys
 
 from six import text_type
-from clldutils.clilib import ArgumentParser
+from clldutils.clilib import ArgumentParserWithLogging
 from clldutils.path import Path
 
 import pyconcepticon
@@ -25,9 +25,9 @@ assert commands
 
 
 def main():  # pragma: no cover
-    parser = ArgumentParser(__name__)
+    parser = ArgumentParserWithLogging(__name__)
     parser.add_argument(
-        '--data',
+        '--repos',
         help="path to concepticon-data",
         default=Path(pyconcepticon.__file__).parent.parent)
     parser.add_argument(
