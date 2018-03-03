@@ -52,3 +52,4 @@ Doug Cooper | DCSM | 1.1
 Magdalena Łuniewska | D | 1.1
 Anja Gampe | D | 1.1
 Jan Auracher | D | 1.1
+Cormac Anderson | C | 1.1
