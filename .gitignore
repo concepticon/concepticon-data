@@ -3,6 +3,14 @@ concepticondata/conceptrelations.modified.tsv
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+helpers/
+
+*.bak
+unlinked/*
+.*
+
+# jabref
+jabref.xml
 
 # C extensions
 *.so
