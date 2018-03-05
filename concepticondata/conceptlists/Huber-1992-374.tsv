@@ -14,7 +14,7 @@ Huber-1992-374-12	678	BEARD	12	barba	beard
 Huber-1992-374-13	1333	NECK	13	cuello	neck
 Huber-1992-374-14	1592	CHEST	14	pecho	chest
 Huber-1992-374-15	1402	BREAST	15	teta, seno, pecho	woman’s breasts
-Huber-1992-374-16	1251	BELLY	16	vientre, abdomen	abdomen, belly
+Huber-1992-374-16			16	vientre, abdomen	abdomen, belly
 Huber-1992-374-17	1291	BACK	17	espalda	back
 Huber-1992-374-18	1482	SHOULDER	18	hombro	shoulder
 Huber-1992-374-19	1673	ARM	19	brazo	arm
@@ -76,16 +76,16 @@ Huber-1992-374-74	671	SAND	74	arena	sand
 Huber-1992-374-75	1252	HOUSE	75	casa	house
 Huber-1992-374-76	769	ROOF	76	techo	roof
 Huber-1992-374-77	1567	DOOR	77	puerta	doorway
-Huber-1992-374-78	1476	CHAIR	78	banco	seat, stool
+Huber-1992-374-78	2058	STOOL	78	banco	seat, stool
 Huber-1992-374-79	195	MAT	79	estera	mat
 Huber-1992-374-80	2019	HAMMOCK	80	hamaca	hammock
 Huber-1992-374-81	1663	BED	81	catre, cama de barbacoa	bed
 Huber-1992-374-82	1462	POT	82	olla	cooking pot
-Huber-1992-374-83	212	FIELD	83	roza, sementera	cultivated clearing
+Huber-1992-374-83			83	roza, sementera	cultivated clearing
 Huber-1992-374-84	930	VILLAGE	84	caserío	village
-Huber-1992-374-85	2252	PATH	85	camino, sendero, trocha	path, trail
-Huber-1992-374-86	388	FISHNET	86	red	fish net
-Huber-1992-374-87	1074	FISHHOOK	87	anzuelo	fish hook
+Huber-1992-374-85			85	camino, sendero, trocha	path, trail
+Huber-1992-374-86	388	FISH NET	86	red	fish net
+Huber-1992-374-87	1074	FISH HOOK	87	anzuelo	fish hook
 Huber-1992-374-88	677	AXE	88	hacha	axe
 Huber-1992-374-89	1352	KNIFE	89	cuchillo	knife
 Huber-1992-374-90	1970	CANOE	90	canoa	canoe
@@ -109,7 +109,7 @@ Huber-1992-374-107	434	SPIDER MONKEY	107	marimonda, maquisapa	spider monkey
 Huber-1992-374-108	314	CAPYBARA	108	chigüiro, ronsoco	capybara
 Huber-1992-374-109	181	ANTEATER	109	oso hormiguero	anteater
 Huber-1992-374-110	316	PACA	110	paca, guagua, majas	paca
-Huber-1992-374-111	1581	ALLIGATOR	111	caimán	cayman
+Huber-1992-374-111	2438	CAIMAN	111	caimán	cayman
 Huber-1992-374-112	1578	IGUANA	112	iguana	iguana
 Huber-1992-374-113	895	TORTOISE	113	tortuga	tortoise
 Huber-1992-374-114	112	TURTLE	114	tortuga, motelo	river turtle
@@ -123,7 +123,7 @@ Huber-1992-374-121	1220	TAIL	121	cola	tail
 Huber-1992-374-122	730	SNAKE	122	serpiente, culebra	snake
 Huber-1992-374-123	896	ANACONDA (WATER BOA)	123	mapana	anaconda, water boa
 Huber-1992-374-124	871	RATTLESNAKE	124	cascabel	rattlesnake
-Huber-1992-374-125	730	SNAKE	125	coral	coral snake
+Huber-1992-374-125	2240	CORAL SNAKE	125	coral	coral snake
 Huber-1992-374-126	894	TOAD	126	sapo	toad
 Huber-1992-374-127	937	BIRD	127	pájaro	bird
 Huber-1992-374-128	1589	HUMMINGBIRD	128	picaflor, colibrí	hummingbird
@@ -161,7 +161,7 @@ Huber-1992-374-159	714	SEED	159	semilla	seed
 Huber-1992-374-160	1295	STICK	160	palo	stick
 Huber-1992-374-161	606	GRASS	161	hierba	grass
 Huber-1992-374-162	506	MAIZE	162	maíz	corn, maize
-Huber-1992-374-163	925	CASSAVA	163	yuca	manioc
+Huber-1992-374-163	927	MANIOC	163	yuca	manioc
 Huber-1992-374-164	324	MANIOC FLOUR	164	harina de yuca	manioc flour
 Huber-1992-374-165	974	TOBACCO	165	tabaco	tobacco
 Huber-1992-374-166	1850	COTTON	166	algodón	cotton
@@ -188,7 +188,7 @@ Huber-1992-374-192	1529	LAST (FINAL)	192	último	last
 Huber-1992-374-193	300	RATTLE	193	sonajero, maraca	rattle
 Huber-1992-374-194	908	DRUM	194	tambor	drum
 Huber-1992-374-195	450	CUSHMA	195	cushma	cushma
-Huber-1992-374-196	770	EARRING	196	orejera, arete	ear ornament
+Huber-1992-374-196			196	orejera, arete	ear ornament
 Huber-1992-374-197	2005	MASK	197	máscara	mask
 Huber-1992-374-198	394	SHAMAN (FOLK HEALER)	198	curandero	shaman, folk healer
 Huber-1992-374-199	301	CHIEFTAIN	199	cacique, curaca, capitán	chief
@@ -221,10 +221,10 @@ Huber-1992-374-225	1292	BAD	225	malo	bad
 Huber-1992-374-226	1335	WHITE	226	blanco	white
 Huber-1992-374-227	163	BLACK	227	negro	black
 Huber-1992-374-228	695	GO	228	vaya, ve	go
-Huber-1992-374-229			229	ven	come
-Huber-1992-374-230			230	come	eat
-Huber-1992-374-231			231	bebe	drink
-Huber-1992-374-232			232	duerme	sleep
+Huber-1992-374-229	1446	COME	229	ven	come
+Huber-1992-374-230	1336	EAT	230	come	eat
+Huber-1992-374-231	1401	DRINK	231	bebe	drink
+Huber-1992-374-232	1585	SLEEP	232	duerme	sleep
 Huber-1992-374-233	1943	CROWN (OF HEAD)	233	corona	crown of head
 Huber-1992-374-234	442	FRONT TOOTH (INCISOR)	234	dientes delanteros incisivos	front teeth, ineisors
 Huber-1992-374-235	443	TIP (OF TONGUE)	235	punta de la lengua	tip of tongue
@@ -242,9 +242,9 @@ Huber-1992-374-246	907	OLD WOMAN	246	viejita	old woman
 Huber-1992-374-247	1489	CLOUD	247	nubes quietas	clouds at rest
 Huber-1992-374-248	448	STORM CLOUDS	248	nubes de tormenta	storm clouds
 Huber-1992-374-249	449	CORN FIELD	249	sementera de maíz	corn field
-Huber-1992-374-250	947	STREAM	250	quebrada, caño	stream
+Huber-1992-374-250			250	quebrada, caño	stream
 Huber-1992-374-251	961	PEBBLES	251	piedrecillas	pebbles
-Huber-1992-374-252	668	ROCK	252	rocas grandes	huge rocks
+Huber-1992-374-252			252	rocas grandes	huge rocks
 Huber-1992-374-253	2252	PATH	253	trocha	path
 Huber-1992-374-255	1678	HUT	255	rancho	shelter
 Huber-1992-374-256	1214	THIS	256	este	this
@@ -261,7 +261,7 @@ Huber-1992-374-267	1282	FAT (FROM ANIMALS)	267	grasa	grease, animal fat
 Huber-1992-374-268	744	EGG	268	huevo	egg
 Huber-1992-374-269	1393	HORN (ANATOMY)	269	cuerno	horn
 Huber-1992-374-270	1201	FEATHER	270	pluma	feather
-Huber-1992-374-271	1896	FINGERNAIL OR TOENAIL	271	uña, garra	fingernail, claw
+Huber-1992-374-271	2128	CLAW OR NAIL	271	uña, garra	fingernail, claw
 Huber-1992-374-272	1251	BELLY	272	barriga	belly
 Huber-1992-374-273	1224	LIVER	273	hígado	liver
 Huber-1992-374-274	1401	DRINK	274	beber	drink
@@ -312,7 +312,7 @@ Huber-1992-374-318	1503	SALIVA	318	saliva	saliva
 Huber-1992-374-319	635	MILK	319	leche	milk
 Huber-1992-374-320	1340	WITH	320	con	with
 Huber-1992-374-321	1460	IN	321	en	in
-Huber-1992-374-322	1461	AT	322	en, lugar definido	at
+Huber-1992-374-322			322	en, lugar definido	at
 Huber-1992-374-323	1459	IF	323	si	if
 Huber-1992-374-324	617	ICE	324	hielo	ice
 Huber-1992-374-325	784	SNOW	325	nieve	snow
