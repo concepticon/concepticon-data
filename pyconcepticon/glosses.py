@@ -10,6 +10,8 @@ from clldutils.misc import cached_property
 
 import attr
 
+__all__ = ['parse_gloss', 'Gloss', 'concept_map']
+
 
 @attr.s
 class Gloss(object):

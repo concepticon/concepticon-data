@@ -10,6 +10,10 @@ from clldutils import dsv
 
 import pyconcepticon
 
+__all__ = [
+    'natural_sort', 'to_dict', 'SourcesCatalog', 'UnicodeWriter', 'visit',
+    'load_conceptlist', 'write_conceptlist']
+
 REPOS_PATH = Path(pyconcepticon.__file__).parent.parent
 PKG_PATH = Path(pyconcepticon.__file__).parent
 ID_SEP_PATTERN = re.compile('\.|,|;')
@@ -167,7 +171,7 @@ def write_conceptlist(clist, filename, header=False):
 
 class SourcesCatalog(object):
     def __init__(self, path):
-        self.path = path
+        self.path = Path(path)
         self.items = jsonlib.load(self.path) if self.path.exists() else {}
 
     def __contains__(self, item):

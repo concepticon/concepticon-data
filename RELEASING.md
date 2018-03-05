@@ -45,7 +45,7 @@ tox -r
 
 - Make sure flake8 is happy:
 ```
-flake8 --ignore=E711,E712,D100,D101,D103,D102,D301 --max-line-length=100 pyconcepticon
+flake8 pyconcepticon
 ```
 
 - Bump version number:
@@ -59,15 +59,15 @@ git commit -a -m"bumped version number"
 git tag -a pyconcepticon-0.2 -m"first version to be released on pypi"
 ```
 
+- Release to PyPI:
+```
+rm dist/*
+python setup.py sdist bdist_wheel
+twine upload dist/*
+```
+
 - Push to github:
 ```
 git push origin
 git push --tags
 ```
-
-- Release to PyPI:
-```
-python setup.py sdist
-~/venvs/py34/bin/twine upload dist/pyconcepticon-<version>.tar.gz
-```
-

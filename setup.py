@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pyconcepticon',
-    version='1.2.0',
+    version='1.3.0',
     description='programmatic access to concepticon-data',
     long_description='',
     classifiers=[
@@ -21,16 +21,30 @@ setup(
     zip_safe=False,
     install_requires=[
         'csvw',
-        'clldutils>=2.0.1',
+        'clldutils>=2.1.0',
         'bibtexparser',
         'tabulate',
         'attrs',
         'cdstarcat',
     ],
+    extras_require={
+        'dev': [
+            'tox',
+            'flake8',
+            'wheel',
+            'twine',
+        ],
+        'test': [
+            'mock',
+            'pytest>=3.1',
+            'pytest-mock',
+            'pytest-cov',
+            'coverage>=4.2',
+        ],
+    },
     entry_points={
         'console_scripts': [
-            'concepticon=pyconcepticon.cli:main',
+            'concepticon=pyconcepticon.__main__:main',
         ]
     },
-    tests_require=[],
     test_suite="pyconcepticon")
