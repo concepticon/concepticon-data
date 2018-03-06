@@ -2,7 +2,7 @@
   "url": "babelnet.tsv",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
   "dc:title": "Mapping to BabelNet",
-  "dc:source": "https://babelnet.org",
+  "dc:source": "http://babelnet.org",
   "dcat:keyword": ["dictionary", "multilingual"],
   "dc:description": "Mapping from Concepticon Concept Sets to BabelNet. Babelnet is an extension of Wordnet and offers Word senses in multiple languages.",
   "dialect": {
