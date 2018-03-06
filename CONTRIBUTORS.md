@@ -2,13 +2,25 @@
 
 ## Grant information
 
-Originally, this research was supported by the DFG research fellowship grant 261553824
-Vertical and lateral aspects of Chinese dialect history (JML, 2015-2016) and the ERC
-starting grant 240816 *Quantitative modelling of historical-comparative
-linguistics* (JML, MC, 2011-2012). As part of the [CLLD project](http://clld.org) and the [GlottoBank project](http://glottobank.org) (both ongoing), the work is now supported by the Max
-Planck Society, the Max Planck Institute for the Science of Human History and
-the Royal Society of New Zealand (Marsden Fund grant 13-UOA-121, RF). As of April 2017, the project is further supported 
-through the ERC starting grant 715618 *Computer-assisted language comparison* ([CALC](http://calc.digling.org), JML).
+The Concepticon resource is the result of ongoing efforts which date back to
+early 2012. Without the generous support of many different funding agencies, we
+would not have been able to carry out this research. The table below lists, who
+has profited during which time periods from what research projects awarded by
+which funding agency.
+
+Period    | Grant Name                                                     | Grant Type                                        | Funding Agency                                        | Grant Number | Beneficiaries
+---       | ---                                                            | ---                                               | ---                                                   | --- | ---
+2012-2014 | *Quantitative modelling of historical-comparative linguistics* | ERC Starting Grant                                | European Research Council                             | 240816       | MC, JML
+2015-2016 | *Vertical and lateral aspects of Chinese dialect history*      | Research Fellowship                               | German Research Council                               | 261553824    | JML
+2017-now | [*Computer-Assisted Language Comparison*](http://calc.digling.org)      | Research Fellowship                               | German Research Council                               | 261553824    | JML
+2012-2016 |                                                                | ARC Discovery Projects                            | Australian Research Council                           | DE 120101954 | SJG
+2015-now  |                                                                | Center of Excellence for the Dynamics of Language | Australian Research Council                           | CE140100041  | SJG
+2014-2017 | [Glottobank Project](http://glottobank.org)                                             | Marsden Fund                                      | Royal Society of New Zealand                          | 13-UOA-121   | SJG, JML, RF
+2014-now  | [Glottobank Project](http://glottobank.org)                                             |                                                   | Max Planck Institute for the Science of Human history |              | SJG, JML, RF
+2014-2017 | [CLLD Project](http://clld.org)                                                   |                                                   | Max Planck Society                                    |              |
+
+
+
 
 ## People
 
