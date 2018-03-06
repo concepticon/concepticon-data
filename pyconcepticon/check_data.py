@@ -64,6 +64,7 @@ def check(api=None):
         for ref in cl.pdf:
             if ref not in api.sources:  # pragma: no cover
                 warning('no PDF found for {0}'.format(ref), 'conceptlists.tsv')
+    all_refs.add('List2016a')
 
     for ref in api.bibliography:
         if ref not in all_refs:  # pragma: no cover
