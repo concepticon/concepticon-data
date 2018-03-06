@@ -68,3 +68,4 @@ Thiago Chacon | MSD | 1.0, 1.1
 Tiago Tresoldi | CTLG | 1.1
 Viola Kirchhoff da Cruz | CLS | 1.0 
 Wang Feng | D | 1.0
+Yunfan Lai | CTLG | 1.1
