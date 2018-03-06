@@ -40,7 +40,7 @@ Andrew Kitchen | D | 1.0
 Anja Gampe | D | 1.1
 Anthony Grant | MS | 1.1
 Ben Yackley | P | 1.1
-Christoph Rzymski | 1.1
+Christoph Rzymski | CLPG | 1.1
 Claire Bowern | D | 1.1
 Cormac Anderson | C | 1.1
 Damian Satterthwaite-Phillips | D | 1.0 
