@@ -23,6 +23,7 @@
 - [Cross1964 [PDF 770.6KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-1DC5-ACF0-4FCC-0/Cross1964.pdf)
 - [DaCosta2016 [PDF 90.5KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-B8C2-6659-EA50-0/DaCosta2016.pdf)
 - [Daniels2016 [PDF 132.8KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-E0F9-102F-27A0-0/Daniels2016.pdf)
+- [Davies1985 [PDF 1.9MB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-5435-1785-476C-0/Davies1985.pdf)
 - [Dixon1919 [PDF 745.4KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-E523-184F-B67A-0/Dixon1919.pdf)
 - [Dolch1936 [PDF 413.6KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-B309-4F71-ECFE-0/Dolch1936.pdf)
 - [Dolgopolsky1964 [PDF 2.8MB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-F41D-6AB7-0B17-0/Dolgopolsky1964.pdf)
