@@ -3,13 +3,13 @@ from __future__ import unicode_literals, print_function, division
 import logging
 from operator import itemgetter, setitem
 import re
-from collections import defaultdict, deque
+from collections import defaultdict, deque, namedtuple
 
 import bibtexparser
 import attr
-from clldutils.path import Path
+from clldutils.path import Path, readlines
 from clldutils import jsonlib
-from clldutils.misc import cached_property
+from clldutils.misc import lazyproperty
 from csvw.metadata import TableGroup, Link
 from clldutils.apilib import API, DataObject
 
@@ -39,7 +39,32 @@ class Concepticon(API):
         """
         return self.path('concepticondata', *comps)
 
-    @cached_property()
+    @lazyproperty
+    def editors(self):
+        res = []
+        Editor = namedtuple('Editor', ['name', 'start', 'end'])
+        in_editors, in_table = False, False
+        for line in readlines(self.path('CONTRIBUTORS.md'), strip=True):
+            if in_editors and line.startswith('#'):
+                in_editors, in_table = False, False
+                continue
+
+            if line.endswith('# Editors'):
+                in_editors = True
+                continue
+
+            if in_editors and line.startswith('--- '):
+                in_table = True
+                continue
+
+            if in_table and '|' in line:
+                period, _, name = line.partition('|')
+                period = period.strip().partition('-')
+                res.append(
+                    Editor(name.strip(), period[0].strip(), period[2].strip() or None))
+        return res
+
+    @lazyproperty
     def vocabularies(self):
         """
         Provide access to a `dict` of controlled vocabularies.
@@ -55,11 +80,11 @@ class Concepticon(API):
     def bibfile(self):
         return self.data_path('references', 'references.bib')
 
-    @cached_property()
+    @lazyproperty
     def sources(self):
         return jsonlib.load(self.data_path('sources', 'cdstar.json'))
 
-    @cached_property()
+    @lazyproperty
     def bibliography(self):
         """
         :returns: `dict` mapping BibTeX IDs to `Reference` instances.
@@ -73,7 +98,7 @@ class Concepticon(API):
                     Reference(id=rec.pop('ID'), type=rec.pop('ENTRYTYPE'), record=rec))
         return to_dict(refs)
 
-    @cached_property()
+    @lazyproperty
     def conceptsets(self):
         """
         :returns: `dict` mapping ConceptSet IDs to `Conceptset` instances.
@@ -82,7 +107,7 @@ class Concepticon(API):
             Conceptset(api=self, **lowercase(d))
             for d in read_dicts(self.data_path('concepticon.tsv')))
 
-    @cached_property()
+    @lazyproperty
     def conceptlists(self):
         """
         :returns: `dict` mapping ConceptList IDs to `Conceptlist` instances.
@@ -93,7 +118,7 @@ class Concepticon(API):
             Conceptlist(api=self, **lowercase(d))
             for d in read_dicts(self.data_path('conceptlists.tsv')))
 
-    @cached_property()
+    @lazyproperty
     def metadata(self):
         """
         :returns: `dict` mapping metadata provider IDs to `Metadata` instances.
@@ -114,14 +139,14 @@ class Concepticon(API):
                 read_dicts(values_path, schema=md['tableSchema']),
                 key=itemgetter('CONCEPTICON_ID')))
 
-    @cached_property()
+    @lazyproperty
     def relations(self):
         """
         :returns: `dict` mapping concept sets to related concepts.
         """
         return ConceptRelations(self.data_path('conceptrelations.tsv'))
 
-    @cached_property()
+    @lazyproperty
     def frequencies(self):
         D = defaultdict(int)
         for cl in self.conceptlists.values():
@@ -275,11 +300,11 @@ class Conceptset(Bag):
         if self._api and self.replacement_id:
             return self._api.conceptsets[self.replacement_id]
 
-    @cached_property()
+    @lazyproperty
     def relations(self):
         return self._api.relations.get(self.id, {}) if self._api else {}
 
-    @cached_property()
+    @lazyproperty
     def concepts(self):
         res = []
         if self._api:
@@ -362,7 +387,7 @@ class Concept(Bag):
     def label(self):
         return self.gloss or self.english
 
-    @cached_property()
+    @lazyproperty
     def cols(self):
         return Concept.public_fields() + list(self.attributes.keys())
 
@@ -408,12 +433,12 @@ class Conceptlist(Bag):
             return self._api
         return self._api.data_path('conceptlists', self.id + '.tsv')
 
-    @cached_property()
+    @lazyproperty
     def attributes(self):
         return [c.name for c in self.metadata.tableSchema.columns
                 if c.name.lower() not in Concept.public_fields()]
 
-    @cached_property()
+    @lazyproperty
     def concepts(self):
         res = []
         if self.path.exists():

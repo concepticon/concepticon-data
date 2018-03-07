@@ -59,6 +59,11 @@ def test_Conceptset(api):
         Conceptset(**d)
 
 
+def test_editors(api):
+    if api.repos.exists():
+        assert len(api.editors) == 4
+
+
 def test_map(api, capsys, fixturedir):
     if api.repos.exists():
         api.map(fixturedir.joinpath('conceptlist.tsv'))
