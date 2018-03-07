@@ -23,7 +23,7 @@ $ bibtool -r concepticondata/references/bibtool.rsc -o concepticondata/reference
   - using `CLLD Concepticon 1.0.0` as the title
   - and giving the citation as release description:
 
-> List, Johann-Mattis & Cysouw, Michael & Forkel, Robert (eds.) 2016. Concepticon. 
+> List, Johann-Mattis & Cysouw, Michael & Greenhill, Simon & Forkel, Robert (eds.) 2018. Concepticon. 
 > A Resource for the Linking of Concept Lists. 
 > Jena: Max Planck Institute for the Science of Human History.
 > Available online at http://concepticon.clld.org

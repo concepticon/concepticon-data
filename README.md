@@ -58,11 +58,15 @@ for this behaviour.
 
 ### Installation
 
-For the time being, until a new stable version of `pyconcepticon` is released, always install `pyconcepticon` locally from a clone of this repository, i.e. by running:
+While `pyconcepticon` can be installed from [PyPI](https://pypi.python.org/pypi), this has the drawback that additionally, a clone or export of the data repository
+is required and its location needs to be passed whenever invoking the `pyconcepticon` API. Thus, we recommend installation of
+`pyconcepticon` from a local clone of this repository, i.e. by running:
 ```
-python setup.py develop
+pip install -e .
 ```
-in the top-level directory of your clone of `concepticon-data`.
+in the top-level directory of your clone of `concepticon-data`. This way,
+`pyconcepticon` will correctly infer the location of the data from the location
+of its own source.
 
 
 ### Usage
