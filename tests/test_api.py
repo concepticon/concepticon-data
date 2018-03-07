@@ -88,6 +88,12 @@ def test_Concepticon(api):
     assert len(api.frequencies) <= len(api.conceptsets)
 
 
+def test_ConceptRelations(fixturedir):
+    from pyconcepticon.api import ConceptRelations
+    rels = ConceptRelations(fixturedir.joinpath('conceptrelations.tsv'))
+    assert list(rels.iter_related('1212', 'narrower'))[0][0] == '1131'
+    assert list(rels.iter_related('1212', 'hasform'))[0][0] == '2310'
+
 def test_superseded_concepts(api):
     # 282 POLE has a replacement to 281 POST
     assert api.conceptsets['282'].superseded
