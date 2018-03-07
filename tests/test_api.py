@@ -86,3 +86,10 @@ def test_lookup(api):
 
 def test_Concepticon(api):
     assert len(api.frequencies) <= len(api.conceptsets)
+
+
+def test_superseded_concepts(api):
+    # 282 POLE has a replacement to 281 POST
+    assert api.conceptsets['282'].superseded
+    assert api.conceptsets['282'].replacement == api.conceptsets['281']
+    
