@@ -17,16 +17,24 @@ $ bibtool -r concepticondata/references/bibtool.rsc -o concepticondata/reference
 - Make sure all tests pass.
 - Make sure the data in `master` can be imported into the web app `clld/concepticon`.
 - Make sure all tests pass for the web app.
-- Draft a release 
+- Recreate and push the statistics pages, running 
+```
+concepticon stats
+git commit -a -m"release <version>"
+git push origin
+```
+
+- Draft a release via GitHub UI 
   - using the correct version number, e.g. `v1.1.0` (don't forget the `v` 
     prefix, since otherwise ZENODO will not pick up the release). 
   - using `CLLD Concepticon 1.0.0` as the title
   - and giving the citation as release description:
-
-> List, Johann-Mattis & Cysouw, Michael & Greenhill, Simon & Forkel, Robert (eds.) 2018. Concepticon. 
-> A Resource for the Linking of Concept Lists. 
-> Jena: Max Planck Institute for the Science of Human History.
-> Available online at http://concepticon.clld.org
+```
+List, Johann-Mattis & Cysouw, Michael & Greenhill, Simon & Forkel, Robert (eds.) 2018. Concepticon. 
+A Resource for the Linking of Concept Lists. 
+Jena: Max Planck Institute for the Science of Human History.
+Available online at http://concepticon.clld.org
+```
 
 - After a while, check on https://zenodo.org for the DOI assigned to the release
   - complete the metadata for the release on ZENODO and

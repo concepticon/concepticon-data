@@ -9,10 +9,11 @@
 | [Backstrom-1992-210a](Backstrom-1992-210a.tsv) | 210 | 100 | 2 |
 | [Backstrom-1992-210b](Backstrom-1992-210b.tsv) | 205 | 100 | 2 |
 | [Beaufils-2015-18](Beaufils-2015-18.tsv) | 18 | 100 | 0 |
-| [BeijingDaxue-1964-905](BeijingDaxue-1964-905.tsv) | 756 | 83 | 49 |
-| [Bender-1971-99](Bender-1971-99.tsv) | 98 | 98 | 0 |
+| [BeijingDaxue-1964-905](BeijingDaxue-1964-905.tsv) | 703 | 77 | 0 |
+| [Bender-1971-99](Bender-1971-99.tsv) | 98 | 100 | 0 |
 | [Benedict-1976-100](Benedict-1976-100.tsv) | 100 | 100 | 0 |
 | [Bengtson-1994-27](Bengtson-1994-27.tsv) | 27 | 100 | 2 |
+| [Bengtson-2017-12](Bengtson-2017-12.tsv) | 12 | 100 | 0 |
 | [Bennet-1976-100](Bennet-1976-100.tsv) | 100 | 100 | 0 |
 | [Bennet-1976-50a](Bennet-1976-50a.tsv) | 50 | 100 | 0 |
 | [Bennet-1976-50b](Bennet-1976-50b.tsv) | 50 | 100 | 0 |
@@ -30,7 +31,7 @@
 | [Brinton-1891-21](Brinton-1891-21.tsv) | 21 | 100 | 0 |
 | [Bromley-1967-111](Bromley-1967-111.tsv) | 108 | 97 | 0 |
 | [Buck-1949-1108](Buck-1949-1108.tsv) | 1040 | 93 | 28 |
-| [Bulakh-2013-870](Bulakh-2013-870.tsv) | 870 | 100 | 21 |
+| [Bulakh-2013-870](Bulakh-2013-870.tsv) | 869 | 99 | 20 |
 | [Calero-2002-15](Calero-2002-15.tsv) | 13 | 86 | 0 |
 | [Calude-2011-200](Calude-2011-200.tsv) | 200 | 100 | 0 |
 | [Campbell-1999-100](Campbell-1999-100.tsv) | 100 | 100 | 1 |
@@ -44,8 +45,9 @@
 | [Cross-1964-241](Cross-1964-241.tsv) | 241 | 100 | 2 |
 | [Cysouw-2006-110](Cysouw-2006-110.tsv) | 110 | 100 | 0 |
 | [Daniels-2016-85](Daniels-2016-85.tsv) | 85 | 100 | 0 |
+| [Davies-1985-116](Davies-1985-116.tsv) | 116 | 100 | 0 |
 | [Deepadung-2015-100](Deepadung-2015-100.tsv) | 100 | 100 | 0 |
-| [Dellert-2017-1016](Dellert-2017-1016.tsv) | 995 | 97 | 45 |
+| [Dellert-2017-1016](Dellert-2017-1016.tsv) | 941 | 92 | 0 |
 | [Dixon-1919-175](Dixon-1919-175.tsv) | 170 | 98 | 39 |
 | [Dolch-1936-220](Dolch-1936-220.tsv) | 185 | 84 | 19 |
 | [Dolch-1936-95](Dolch-1936-95.tsv) | 94 | 98 | 1 |
@@ -87,7 +89,7 @@
 | [Holman-2008-40](Holman-2008-40.tsv) | 40 | 100 | 0 |
 | [Hooley-1971-128](Hooley-1971-128.tsv) | 127 | 99 | 0 |
 | [Hou-2004-180](Hou-2004-180.tsv) | 180 | 100 | 0 |
-| [Huber-1992-374](Huber-1992-374.tsv) | 350 | 95 | 3 |
+| [Huber-1992-374](Huber-1992-374.tsv) | 347 | 94 | 4 |
 | [Janhunan-2008-235](Janhunan-2008-235.tsv) | 268 | 98 | 19 |
 | [Kassian-2010-116](Kassian-2010-116.tsv) | 116 | 100 | 1 |
 | [Kassian-2015-50](Kassian-2015-50.tsv) | 50 | 100 | 0 |
@@ -156,7 +158,7 @@
 | [Samarin-1967-100](Samarin-1967-100.tsv) | 100 | 100 | 0 |
 | [Samarin-1967-218](Samarin-1967-218.tsv) | 218 | 100 | 0 |
 | [Sato-2002-200](Sato-2002-200.tsv) | 200 | 100 | 0 |
-| [SatterthwaitePhillips-2011-423](SatterthwaitePhillips-2011-423.tsv) | 420 | 99 | 2 |
+| [SatterthwaitePhillips-2011-423](SatterthwaitePhillips-2011-423.tsv) | 419 | 99 | 1 |
 | [SatterthwaitePhillips-2011-50](SatterthwaitePhillips-2011-50.tsv) | 50 | 100 | 0 |
 | [Serva-2012-200](Serva-2012-200.tsv) | 200 | 100 | 0 |
 | [Shevoroshkin-1991-23](Shevoroshkin-1991-23.tsv) | 23 | 100 | 0 |
@@ -168,7 +170,7 @@
 | [Starostin-2010-50](Starostin-2010-50.tsv) | 50 | 100 | 0 |
 | [Stokhof-1975-117](Stokhof-1975-117.tsv) | 115 | 98 | 0 |
 | [Struve-2014-100](Struve-2014-100.tsv) | 100 | 100 | 0 |
-| [Sun-1991-1004](Sun-1991-1004.tsv) | 927 | 92 | 12 |
+| [Sun-1991-1004](Sun-1991-1004.tsv) | 926 | 92 | 11 |
 | [Swadesh-1950-165](Swadesh-1950-165.tsv) | 165 | 100 | 0 |
 | [Swadesh-1950-215](Swadesh-1950-215.tsv) | 215 | 100 | 0 |
 | [Swadesh-1952-200](Swadesh-1952-200.tsv) | 200 | 100 | 0 |
@@ -219,5 +221,5 @@
 | [Zorc-1974-100](Zorc-1974-100.tsv) | 100 | 100 | 0 |
 | [vanderWouw-1974-28](vanderWouw-1974-28.tsv) | 28 | 100 | 0 |
 
-(216 rows)
+(218 rows)
 
