@@ -30,7 +30,7 @@ Naturally, we'd appreciate it even more if you could provide us with
 * a digitized (typed-off) version of the list, or even better
 * a linked version of the list.
 In all these cases, you could still just write an email or attach the data to the issue, but you could also fork your own version of the concepticon (see "GitHub Pull Requests" above) and officially add the data. 
-The advantage of this is that you could be listed as a co-author in the next of the yearly releases of the CLLD Concepticon. We gurantee co-authorship to all authors of **linked versions of new missing concept lists**. We officially thank all people who provided scans and digitized versions on the website at http://clld.concepticon.org.
+The advantage of this is that you could be listed as a co-author in the next of the yearly releases of the CLLD Concepticon. We gurantee co-authorship to all authors of **linked versions of new missing concept lists**. We officially thank all people who provided scans and digitized versions on the website at http://concepticon.clld.org.
 
 ### Linking Concept Lists: The Manual Style
 
