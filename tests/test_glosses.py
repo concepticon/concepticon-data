@@ -49,6 +49,9 @@ def test_parse_gloss():
     with pytest.raises(ValueError):
         parse_gloss(None)
 
+    with pytest.raises(ValueError):
+        parse_gloss('')
+
 
 def test_concept_map():
     f, t = ['the dog', 'to kill'], ['kill', 'dog (verb)', 'to kill']
