@@ -1,126 +1,123 @@
-NUMBER	ID	GLOSS	DISAMBIGUATION	SEMANTIC_CLASS	MAJOR_SEMANTIC_CATEGORY	SUBCATEGORY	CONCEPTICON_ID	CONCEPTICON_GLOSS
-1	Kibrik-2012-122-1	find		Existence	Change of state	Presence, absence, and recurrence of objects	719	FIND
-2	Kibrik-2012-122-2	turn on		Existence	Change of state	Presence, absence, and recurrence of objects		
-3	Kibrik-2012-122-3	turn off		Existence	Change of state	Presence, absence, and recurrence of objects		
-4	Kibrik-2012-122-4	go away	disappear	Existence	Change of state	Presence, absence, and recurrence of objects	1752	LEAVE
-5	Kibrik-2012-122-5	make		Existence	Change of state	Presence, absence, and recurrence of objects	734	MAKE
-5	Kibrik-2012-122-5	make		Existence	Change of state	Presence, absence, and recurrence of objects	2575	DO OR MAKE
-6	Kibrik-2012-122-6	do		Other	Change of state	Presence, absence, and recurrence of activities	813	DO
-7	Kibrik-2012-122-7	help		Other	Change of state	Presence, absence, and recurrence of activities	1897	HELP
-8	Kibrik-2012-122-8	stop		Phasal	Change of state	Presence, absence, and recurrence of activities	2880	HALT (STOP)
-9	Kibrik-2012-122-9	wait		Phasal	Change of state	Presence, absence, and recurrence of activities	1590	WAIT (FOR)
-10	Kibrik-2012-122-10	finish		Phasal	Change of state	Presence, absence, and recurrence of activities	1766	FINISH
-11	Kibrik-2012-122-11	get		Manipulation	Change of state	Exchange and possession of objects	694	GET
-12	Kibrik-2012-122-12	hold		Manipulation	Change of state	Exchange and possession of objects	1448	HOLD
-13	Kibrik-2012-122-13	have		Possession	Change of state	Exchange and possession of objects	773	HAVE
-14	Kibrik-2012-122-14	give		Manipulation	Change of state	Exchange and possession of objects	1447	GIVE
-15	Kibrik-2012-122-15	share		Possession	Change of state	Exchange and possession of objects	884	SHARE
-16	Kibrik-2012-122-16	use		Possession	Change of state	Exchange and possession of objects	2072	USE (VERB)
-17	Kibrik-2012-122-17	buy		Possession	Change of state	Exchange and possession of objects	1869	BUY
-18	Kibrik-2012-122-18	keep		Possession	Change of state	Exchange and possession of objects	1477	KEEP
-19	Kibrik-2012-122-19	leave		Possession	Change of state	Exchange and possession of objects		
-20	Kibrik-2012-122-20	move	intransitive	Motion	Change of state	Movement of objects	2874	MOVE (ONESELF)
-20	Kibrik-2012-122-20	move	intransitive	Motion	Change of state	Movement of objects	765	MOVE
-20	Kibrik-2012-122-20	move	intransitive	Motion	Change of state	Movement of objects	2873	MOVE (AFFECT EMOTIONALLY)
-21	Kibrik-2012-122-21	move	transitive	Motion	Change of state	Movement of objects	765	MOVE
-22	Kibrik-2012-122-22	stay		Location	Change of state	Movement of objects	987	REMAIN
-23	Kibrik-2012-122-23	go	talking about a person	Motion	Change of state	Movement of objects	695	GO
-24	Kibrik-2012-122-24	come	talking about a person	Motion	Change of state	Movement of objects	1446	COME
-25	Kibrik-2012-122-25	bring		Manipulation	Change of state	Movement of objects	692	BRING
-26	Kibrik-2012-122-26	take		Manipulation	Change of state	Movement of objects	1749	TAKE
-27	Kibrik-2012-122-27	get out		Motion	Change of state	Movement of objects		
-28	Kibrik-2012-122-28	get down		Motion	Change of state	Movement of objects		
-29	Kibrik-2012-122-29	get off		Motion	Change of state	Movement of objects		
-30	Kibrik-2012-122-30	put		Manipulation	Change of state	Movement of objects	998	PUT
-31	Kibrik-2012-122-31	open	transitive	Manipulation	Change of state	State of objects	1156	OPEN
-32	Kibrik-2012-122-32	close	transitive	Manipulation	Change of state	State of objects	1046	SHUT
-33	Kibrik-2012-122-33	fall down		Motion	Change of state	State of objects	1280	FALL
-34	Kibrik-2012-122-34	drop		Motion	Change of state	State of objects	2866	DROP (SOMETHING)
-35	Kibrik-2012-122-35	spill		Manipulation	Change of state	State of objects	3130	SPILL (SOMETHING)
-36	Kibrik-2012-122-36	fix		Physical impact	Change of state	State of objects	3074	FIX
-37	Kibrik-2012-122-37	break		Physical impact	Change of state	State of objects	680	BREAK (DESTROY OR GET DESTROYED)
-38	Kibrik-2012-122-38	tear		Physical impact	Change of state	State of objects	1735	TEAR (SHRED)
-39	Kibrik-2012-122-39	crack		Physical impact	Change of state	State of objects	3080	SPLIT OPEN
-40	Kibrik-2012-122-40	sweep		Labor	Activities	Activities involving objects	230	SWEEP
-41	Kibrik-2012-122-41	brush		Labor	Activities	Activities involving objects		
-42	Kibrik-2012-122-42	wash		Labor	Activities	Activities involving objects	1453	WASH
-43	Kibrik-2012-122-43	clean		Labor	Activities	Activities involving objects	2235	CLEAN (SOMETHING)
-44	Kibrik-2012-122-44	paint		Labor	Activities	Activities involving objects	3122	PAINT (SOMETHING)
-45	Kibrik-2012-122-45	hammer		Physical impact	Activities	Activities involving objects	3115	HAMMER (SOMETHING)
-46	Kibrik-2012-122-46	lock		Manipulation	Activities	Activities involving objects		
-47	Kibrik-2012-122-47	draw	a picture	Intellectual activity	Activities	Activities involving objects	2001	PAINTING
-48	Kibrik-2012-122-48	read		Intellectual activity	Activities	Activities involving objects	724	READ
-49	Kibrik-2012-122-49	work		Labor	Activities	Activities involving objects	1086	WORK (ACTIVITY)
-50	Kibrik-2012-122-50	write		Intellectual activity	Activities	Activities involving objects	1672	WRITE
-51	Kibrik-2012-122-51	cut		Physical impact	Activities	Activities involving objects	1432	CUT
-52	Kibrik-2012-122-52	cook		Labor	Activities	Activities involving objects	1100	COOK (SOMETHING)
-53	Kibrik-2012-122-53	cover		Manipulation	Activities	Activities involving objects	761	COVER
-54	Kibrik-2012-122-54	button		Manipulation	Activities	Activities involving objects		
-55	Kibrik-2012-122-55	ride		Motion	Activities	Activities involving objects	367	RIDE
-56	Kibrik-2012-122-56	drive		Motion	Activities	Activities involving objects	741	DRIVE
-57	Kibrik-2012-122-57	bump		Manipulation	Activities	Activities involving objects		
-58	Kibrik-2012-122-58	catch	an object	Manipulation	Activities	Activities involving objects	702	CATCH
-59	Kibrik-2012-122-59	throw		Motion	Activities	Activities involving objects	1456	THROW
-60	Kibrik-2012-122-60	roll	transitive	Manipulation	Activities	Activities involving objects		
-61	Kibrik-2012-122-61	kick		Manipulation	Activities	Activities involving objects	1135	KICK
-62	Kibrik-2012-122-62	hit		Physical impact	Activities	Activities involving objects	1433	HIT
-63	Kibrik-2012-122-63	touch		Manipulation	Activities	Activities involving objects	1892	TOUCH
-64	Kibrik-2012-122-64	pat		Manipulation	Activities	Activities involving objects		
-65	Kibrik-2012-122-65	stick	a body part	Manipulation	Activities	Activities involving objects		
-66	Kibrik-2012-122-66	squeeze		Physical impact	Activities	Activities involving objects	1414	SQUEEZE
-67	Kibrik-2012-122-67	rub	liquid into something	Physical impact	Activities	Activities involving objects		
-68	Kibrik-2012-122-68	eat		Physiology	Activities	Activities involving objects	1336	EAT
-69	Kibrik-2012-122-69	drink		Physiology	Activities	Activities involving objects	1401	DRINK
-70	Kibrik-2012-122-70	swallow		Physiology	Activities	Activities involving objects	897	SWALLOW
-71	Kibrik-2012-122-71	bite		Physical impact	Activities	Activities involving objects	1403	BITE
-72	Kibrik-2012-122-72	chew		Physical impact	Activities	Activities involving objects	321	CHEW
-73	Kibrik-2012-122-73	lick		Physical impact	Activities	Activities involving objects	319	LICK
-74	Kibrik-2012-122-74	blow		Physical impact	Activities	Activities involving objects	176	BLOW (WITH MOUTH)
-75	Kibrik-2012-122-75	play		Intellectual activity	Activities	Activities involving objects	1413	PLAY
-76	Kibrik-2012-122-76	kiss		Emotion	Activities	Activities involving objects	578	KISS
-77	Kibrik-2012-122-77	hug		Emotion	Activities	Activities involving objects	928	EMBRACE
-78	Kibrik-2012-122-78	kill		Physical impact	Activities	Activities involving objects	1417	KILL
-79	Kibrik-2012-122-79	step in		Motion	Activities	Activities involving objects		
-80	Kibrik-2012-122-80	pick		Manipulation	Activities	Activities involving objects		
-81	Kibrik-2012-122-81	wipe		Physical impact	Activities	Activities involving objects	1454	WIPE
-82	Kibrik-2012-122-82	burn	transitive	Physical impact	Activities	Activities involving objects	141	BURN (SOMETHING)
-83	Kibrik-2012-122-83	push		Manipulation	Activities	Activities involving objects	1452	PUSH
-84	Kibrik-2012-122-84	pull	a vehicle	Manipulation	Activities	Activities involving objects	1455	PULL
-85	Kibrik-2012-122-85	lift		Manipulation	Activities	Activities involving objects	501	LIFT
-86	Kibrik-2012-122-86	pour		Manipulation	Activities	Activities involving objects	1487	POUR
-87	Kibrik-2012-122-87	sit down		Motion	Activities	Activities not involving objects	1649	SIT DOWN
-88	Kibrik-2012-122-88	lie down		Motion	Activities	Activities not involving objects	215	LIE DOWN
-89	Kibrik-2012-122-89	climb		Motion	Activities	Activities not involving objects	1102	CLIMB
-90	Kibrik-2012-122-90	stand		Location	Activities	Activities not involving objects	1442	STAND
-91	Kibrik-2012-122-91	jump		Motion	Activities	Activities not involving objects	1829	JUMP
-92	Kibrik-2012-122-92	walk		Motion	Activities	Activities not involving objects	1443	WALK
-93	Kibrik-2012-122-93	swim		Motion	Activities	Activities not involving objects	1439	SWIM
-94	Kibrik-2012-122-94	run		Motion	Activities	Activities not involving objects	1519	RUN
-95	Kibrik-2012-122-95	cry		Emotion	Activities	Activities not involving objects	1839	CRY
-96	Kibrik-2012-122-96	sing		Speech/sound	Activities	Activities not involving objects	1261	SING
-97	Kibrik-2012-122-97	sleep		Physiology	Activities	Activities not involving objects	1585	SLEEP
-98	Kibrik-2012-122-98	scream		Speech/sound	Activities	Activities not involving objects	2522	SCREAMING
-99	Kibrik-2012-122-99	pee		Physiology	Activities	Activities not involving objects	592	PISS
-100	Kibrik-2012-122-100	wave	with the hand	Manipulation	Activities	Activities not involving objects		
-101	Kibrik-2012-122-101	clap		Manipulation	Activities	Activities not involving objects	3110	CLAP
-102	Kibrik-2012-122-102	swing	on a rope	Motion	Activities	Activities not involving objects	2871	SWING (MOVEMENT)
-103	Kibrik-2012-122-103	see		Perception	Activities	Activities not involving objects	1409	SEE
-104	Kibrik-2012-122-104	look		Perception	Activities	Activities not involving objects	1819	LOOK
-105	Kibrik-2012-122-105	watch		Perception	Activities	Activities not involving objects	1650	WATCH
-106	Kibrik-2012-122-106	taste	intransitive	Perception	Activities	Activities not involving objects	21	TASTE (SOMETHING)
-107	Kibrik-2012-122-107	smell	transitive	Perception	Activities	Activities not involving objects	1586	SMELL (PERCEIVE)
-108	Kibrik-2012-122-108	listen		Perception	Activities	Activities not involving objects	1608	LISTEN
-109	Kibrik-2012-122-109	feel		Perception	Activities	Activities not involving objects	2559	FEEL (TACTUALLY)
-110	Kibrik-2012-122-110	hurt	transitive	Physical impact	Activities	Activities not involving objects	2411	HURT (SOMEBODY)
-111	Kibrik-2012-122-111	hurt	intransitive	Physical condition	Activities	Activities not involving objects	1129	PAINFUL
-112	Kibrik-2012-122-112	try	clothes on	Manipulation	Activities	Activities not involving objects		
-113	Kibrik-2012-122-113	mean	to do something	Intellectual activity	Activities	Activities not involving objects		
-114	Kibrik-2012-122-114	like	someone or something	Emotion	Activities	Activities not involving objects	1117	LIKE
-115	Kibrik-2012-122-115	love	food	Emotion	Activities	Activities not involving objects		любить
-116	Kibrik-2012-122-116	want		Emotion	Activities	Activities not involving objects	1784	WANT
-117	Kibrik-2012-122-117	need		Emotion	Activities	Activities not involving objects	2339	NEED (SOMETHING)
-118	Kibrik-2012-122-118	tell		Speech/sound	Activities	Activities not involving objects	1711	TELL
-119	Kibrik-2012-122-119	call		Speech/sound	Activities	Activities not involving objects	1084	CALL
-120	Kibrik-2012-122-120	talk		Speech/sound	Activities	Activities not involving objects	2708	TALK
-121	Kibrik-2012-122-121	say		Speech/sound	Activities	Activities not involving objects	1458	SAY
-122	Kibrik-2012-122-122	remember		Intellectual activity	Activities	Activities not involving objects	707	REMEMBER
+NUMBER	ID	ENGLISH	SEMANTIC_CLASS	MAJOR_SEMANTIC_CATEGORY	SUBCATEGORY	CONCEPTICON_ID	CONCEPTICON_GLOSS
+1	Kibrik-2012-122-1	find	Existence	Change of state	Presence, absence, and recurrence of objects	719	FIND
+2	Kibrik-2012-122-2	turn on	Existence	Change of state	Presence, absence, and recurrence of objects		
+3	Kibrik-2012-122-3	turn off	Existence	Change of state	Presence, absence, and recurrence of objects		
+4	Kibrik-2012-122-4	go away	Existence	Change of state	Presence, absence, and recurrence of objects	1752	LEAVE
+5	Kibrik-2012-122-5	make	Existence	Change of state	Presence, absence, and recurrence of objects	734	MAKE
+6	Kibrik-2012-122-6	do	Other	Change of state	Presence, absence, and recurrence of activities	813	DO
+7	Kibrik-2012-122-7	help	Other	Change of state	Presence, absence, and recurrence of activities	1897	HELP
+8	Kibrik-2012-122-8	stop	Phasal	Change of state	Presence, absence, and recurrence of activities	2880	HALT (STOP)
+9	Kibrik-2012-122-9	wait	Phasal	Change of state	Presence, absence, and recurrence of activities	1590	WAIT (FOR)
+10	Kibrik-2012-122-10	finish	Phasal	Change of state	Presence, absence, and recurrence of activities	1766	FINISH
+11	Kibrik-2012-122-11	get	Manipulation	Change of state	Exchange and possession of objects	694	GET
+12	Kibrik-2012-122-12	hold	Manipulation	Change of state	Exchange and possession of objects	1448	HOLD
+13	Kibrik-2012-122-13	have	Possession	Change of state	Exchange and possession of objects	773	HAVE
+14	Kibrik-2012-122-14	give	Manipulation	Change of state	Exchange and possession of objects	1447	GIVE
+15	Kibrik-2012-122-15	share	Possession	Change of state	Exchange and possession of objects	884	SHARE
+16	Kibrik-2012-122-16	use	Possession	Change of state	Exchange and possession of objects	2072	USE (VERB)
+17	Kibrik-2012-122-17	buy	Possession	Change of state	Exchange and possession of objects	1869	BUY
+18	Kibrik-2012-122-18	keep	Possession	Change of state	Exchange and possession of objects	1477	KEEP
+19	Kibrik-2012-122-19	leave	Possession	Change of state	Exchange and possession of objects		
+20	Kibrik-2012-122-20	move	Motion	Change of state	Movement of objects	2874	MOVE (ONESELF)
+21	Kibrik-2012-122-21	move	Motion	Change of state	Movement of objects	765	MOVE
+22	Kibrik-2012-122-22	stay	Location	Change of state	Movement of objects	987	REMAIN
+23	Kibrik-2012-122-23	go	Motion	Change of state	Movement of objects	695	GO
+24	Kibrik-2012-122-24	come	Motion	Change of state	Movement of objects	1446	COME
+25	Kibrik-2012-122-25	bring	Manipulation	Change of state	Movement of objects	692	BRING
+26	Kibrik-2012-122-26	take	Manipulation	Change of state	Movement of objects	1749	TAKE
+27	Kibrik-2012-122-27	get out	Motion	Change of state	Movement of objects		
+28	Kibrik-2012-122-28	get down	Motion	Change of state	Movement of objects		
+29	Kibrik-2012-122-29	get off	Motion	Change of state	Movement of objects		
+30	Kibrik-2012-122-30	put	Manipulation	Change of state	Movement of objects	998	PUT
+31	Kibrik-2012-122-31	open	Manipulation	Change of state	State of objects	1156	OPEN
+32	Kibrik-2012-122-32	close	Manipulation	Change of state	State of objects	1046	SHUT
+33	Kibrik-2012-122-33	fall down	Motion	Change of state	State of objects	1280	FALL
+34	Kibrik-2012-122-34	drop	Motion	Change of state	State of objects	2866	DROP (SOMETHING)
+35	Kibrik-2012-122-35	spill	Manipulation	Change of state	State of objects	3130	SPILL (SOMETHING)
+36	Kibrik-2012-122-36	fix	Physical impact	Change of state	State of objects	3074	FIX
+37	Kibrik-2012-122-37	break	Physical impact	Change of state	State of objects	680	BREAK (DESTROY OR GET DESTROYED)
+38	Kibrik-2012-122-38	tear	Physical impact	Change of state	State of objects	1735	TEAR (SHRED)
+39	Kibrik-2012-122-39	crack	Physical impact	Change of state	State of objects	3080	SPLIT OPEN
+40	Kibrik-2012-122-40	sweep	Labor	Activities	Activities involving objects	230	SWEEP
+41	Kibrik-2012-122-41	brush	Labor	Activities	Activities involving objects		
+42	Kibrik-2012-122-42	wash	Labor	Activities	Activities involving objects	1453	WASH
+43	Kibrik-2012-122-43	clean	Labor	Activities	Activities involving objects	2235	CLEAN (SOMETHING)
+44	Kibrik-2012-122-44	paint	Labor	Activities	Activities involving objects	3122	PAINT (SOMETHING)
+45	Kibrik-2012-122-45	hammer	Physical impact	Activities	Activities involving objects	3115	HAMMER (SOMETHING)
+46	Kibrik-2012-122-46	lock	Manipulation	Activities	Activities involving objects		
+47	Kibrik-2012-122-47	draw	Intellectual activity	Activities	Activities involving objects	2001	PAINTING
+48	Kibrik-2012-122-48	read	Intellectual activity	Activities	Activities involving objects	724	READ
+49	Kibrik-2012-122-49	work	Labor	Activities	Activities involving objects	1086	WORK (ACTIVITY)
+50	Kibrik-2012-122-50	write	Intellectual activity	Activities	Activities involving objects	1672	WRITE
+51	Kibrik-2012-122-51	cut	Physical impact	Activities	Activities involving objects	1432	CUT
+52	Kibrik-2012-122-52	cook	Labor	Activities	Activities involving objects	1100	COOK (SOMETHING)
+53	Kibrik-2012-122-53	cover	Manipulation	Activities	Activities involving objects	761	COVER
+54	Kibrik-2012-122-54	button	Manipulation	Activities	Activities involving objects		
+55	Kibrik-2012-122-55	ride	Motion	Activities	Activities involving objects	367	RIDE
+56	Kibrik-2012-122-56	drive	Motion	Activities	Activities involving objects	741	DRIVE
+57	Kibrik-2012-122-57	bump	Manipulation	Activities	Activities involving objects		
+58	Kibrik-2012-122-58	catch	Manipulation	Activities	Activities involving objects	702	CATCH
+59	Kibrik-2012-122-59	throw	Motion	Activities	Activities involving objects	1456	THROW
+60	Kibrik-2012-122-60	roll	Manipulation	Activities	Activities involving objects		
+61	Kibrik-2012-122-61	kick	Manipulation	Activities	Activities involving objects	1135	KICK
+62	Kibrik-2012-122-62	hit	Physical impact	Activities	Activities involving objects	1433	HIT
+63	Kibrik-2012-122-63	touch	Manipulation	Activities	Activities involving objects	1892	TOUCH
+64	Kibrik-2012-122-64	pat	Manipulation	Activities	Activities involving objects		
+65	Kibrik-2012-122-65	stick	Manipulation	Activities	Activities involving objects		
+66	Kibrik-2012-122-66	squeeze	Physical impact	Activities	Activities involving objects	1414	SQUEEZE
+67	Kibrik-2012-122-67	rub	Physical impact	Activities	Activities involving objects		
+68	Kibrik-2012-122-68	eat	Physiology	Activities	Activities involving objects	1336	EAT
+69	Kibrik-2012-122-69	drink	Physiology	Activities	Activities involving objects	1401	DRINK
+70	Kibrik-2012-122-70	swallow	Physiology	Activities	Activities involving objects	897	SWALLOW
+71	Kibrik-2012-122-71	bite	Physical impact	Activities	Activities involving objects	1403	BITE
+72	Kibrik-2012-122-72	chew	Physical impact	Activities	Activities involving objects	321	CHEW
+73	Kibrik-2012-122-73	lick	Physical impact	Activities	Activities involving objects	319	LICK
+74	Kibrik-2012-122-74	blow	Physical impact	Activities	Activities involving objects	176	BLOW (WITH MOUTH)
+75	Kibrik-2012-122-75	play	Intellectual activity	Activities	Activities involving objects	1413	PLAY
+76	Kibrik-2012-122-76	kiss	Emotion	Activities	Activities involving objects	578	KISS
+77	Kibrik-2012-122-77	hug	Emotion	Activities	Activities involving objects	928	EMBRACE
+78	Kibrik-2012-122-78	kill	Physical impact	Activities	Activities involving objects	1417	KILL
+79	Kibrik-2012-122-79	step in	Motion	Activities	Activities involving objects		
+80	Kibrik-2012-122-80	pick	Manipulation	Activities	Activities involving objects		
+81	Kibrik-2012-122-81	wipe	Physical impact	Activities	Activities involving objects	1454	WIPE
+82	Kibrik-2012-122-82	burn	Physical impact	Activities	Activities involving objects	141	BURN (SOMETHING)
+83	Kibrik-2012-122-83	push	Manipulation	Activities	Activities involving objects	1452	PUSH
+84	Kibrik-2012-122-84	pull	Manipulation	Activities	Activities involving objects	1455	PULL
+85	Kibrik-2012-122-85	lift	Manipulation	Activities	Activities involving objects	501	LIFT
+86	Kibrik-2012-122-86	pour	Manipulation	Activities	Activities involving objects	1487	POUR
+87	Kibrik-2012-122-87	sit down	Motion	Activities	Activities not involving objects	1649	SIT DOWN
+88	Kibrik-2012-122-88	lie down	Motion	Activities	Activities not involving objects	215	LIE DOWN
+89	Kibrik-2012-122-89	climb	Motion	Activities	Activities not involving objects	1102	CLIMB
+90	Kibrik-2012-122-90	stand	Location	Activities	Activities not involving objects	1442	STAND
+91	Kibrik-2012-122-91	jump	Motion	Activities	Activities not involving objects	1829	JUMP
+92	Kibrik-2012-122-92	walk	Motion	Activities	Activities not involving objects	1443	WALK
+93	Kibrik-2012-122-93	swim	Motion	Activities	Activities not involving objects	1439	SWIM
+94	Kibrik-2012-122-94	run	Motion	Activities	Activities not involving objects	1519	RUN
+95	Kibrik-2012-122-95	cry	Emotion	Activities	Activities not involving objects	1839	CRY
+96	Kibrik-2012-122-96	sing	Speech/sound	Activities	Activities not involving objects	1261	SING
+97	Kibrik-2012-122-97	sleep	Physiology	Activities	Activities not involving objects	1585	SLEEP
+98	Kibrik-2012-122-98	scream	Speech/sound	Activities	Activities not involving objects	2522	SCREAMING
+99	Kibrik-2012-122-99	pee	Physiology	Activities	Activities not involving objects	592	PISS
+100	Kibrik-2012-122-100	wave	Manipulation	Activities	Activities not involving objects		
+101	Kibrik-2012-122-101	clap	Manipulation	Activities	Activities not involving objects	3110	CLAP
+102	Kibrik-2012-122-102	swing	Motion	Activities	Activities not involving objects	2871	SWING (MOVEMENT)
+103	Kibrik-2012-122-103	see	Perception	Activities	Activities not involving objects	1409	SEE
+104	Kibrik-2012-122-104	look	Perception	Activities	Activities not involving objects	1819	LOOK
+105	Kibrik-2012-122-105	watch	Perception	Activities	Activities not involving objects	1650	WATCH
+106	Kibrik-2012-122-106	taste	Perception	Activities	Activities not involving objects	21	TASTE (SOMETHING)
+107	Kibrik-2012-122-107	smell	Perception	Activities	Activities not involving objects	1586	SMELL (PERCEIVE)
+108	Kibrik-2012-122-108	listen	Perception	Activities	Activities not involving objects	1608	LISTEN
+109	Kibrik-2012-122-109	feel	Perception	Activities	Activities not involving objects	2559	FEEL (TACTUALLY)
+110	Kibrik-2012-122-110	hurt	Physical impact	Activities	Activities not involving objects	2411	HURT (SOMEBODY)
+111	Kibrik-2012-122-111	hurt	Physical condition	Activities	Activities not involving objects	1129	PAINFUL
+112	Kibrik-2012-122-112	try	Manipulation	Activities	Activities not involving objects		
+113	Kibrik-2012-122-113	mean	Intellectual activity	Activities	Activities not involving objects		
+114	Kibrik-2012-122-114	like	Emotion	Activities	Activities not involving objects	1117	LIKE
+115	Kibrik-2012-122-115	love	Emotion	Activities	Activities not involving objects		
+116	Kibrik-2012-122-116	want	Emotion	Activities	Activities not involving objects	1784	WANT
+117	Kibrik-2012-122-117	need	Emotion	Activities	Activities not involving objects	2339	NEED (SOMETHING)
+118	Kibrik-2012-122-118	tell	Speech/sound	Activities	Activities not involving objects	1711	TELL
+119	Kibrik-2012-122-119	call	Speech/sound	Activities	Activities not involving objects	1084	CALL
+120	Kibrik-2012-122-120	talk	Speech/sound	Activities	Activities not involving objects	2708	TALK
+121	Kibrik-2012-122-121	say	Speech/sound	Activities	Activities not involving objects	1458	SAY
+122	Kibrik-2012-122-122	remember	Intellectual activity	Activities	Activities not involving objects	707	REMEMBER
