@@ -219,7 +219,6 @@ def compare_conceptlists(api, *conceptlists, **kw):
     for arg in conceptlists:
         if arg not in api.conceptlists:
             clist = Conceptlist.from_file(arg)
-            print(clist)
         else:
             clist = api.conceptlists[arg]
         for c in clist.concepts.values():
@@ -269,7 +268,7 @@ def compare_conceptlists(api, *conceptlists, **kw):
 
     for cid, lists in sorted(
             commons.items(), key=lambda x: api.conceptsets[x[0]].gloss):
-        sorted_lists = sorted(lists)
+        sorted_lists = sorted(lists, key=lambda x: str(x))
         depths = [x[1] for x in sorted_lists]
         reflexes = [x[2] for x in sorted_lists]
 
