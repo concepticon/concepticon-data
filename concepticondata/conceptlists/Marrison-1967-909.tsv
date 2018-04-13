@@ -41,9 +41,6 @@ Marrison-1967-38	38	beam	1132	BEAM	2
 Marrison-1967-39	39	bean	832	BEAN	2
 Marrison-1967-40	40	bear (animal)	1820	BEAR	4
 Marrison-1967-41	41	bear (fruit)			4
-Marrison-1967-41	41	bear (fruit)			4
-Marrison-1967-41	41	bear (fruit)			4
-Marrison-1967-41	41	bear (fruit)			4
 Marrison-1967-42	42	bear fruit	3054	BEAR FRUIT	2
 Marrison-1967-43	43	beard	678	BEARD	2
 Marrison-1967-44	44	beat	1665	BEAT	2
@@ -186,7 +183,7 @@ Marrison-1967-181	181	deaf	996	DEAF	2
 Marrison-1967-182	182	dear (expensive)	1426	EXPENSIVE	4
 Marrison-1967-183	183	deceive	1902	BETRAY	2
 Marrison-1967-184	184	deep	1593	DEEP	2
-Marrison-1967-185	185	deer (barking)	1936	* dear barking	4
+Marrison-1967-185	185	deer (barking)		*barking deer	4
 Marrison-1967-186	186	deer (generic)	1936	DEER	4
 Marrison-1967-187	187	deer (sambhur)	2456	LARGE WILD HERBIVORE	4
 Marrison-1967-188	188	descend	2014	GO DOWN (DESCEND)	2
@@ -224,7 +221,7 @@ Marrison-1967-219	219	east	1877	EAST	2
 Marrison-1967-220	220	easy	686	EASY	2
 Marrison-1967-221	221	eat	1336	EAT	2
 Marrison-1967-222	222	egg	744	EGG	2
-Marrison-1967-223	223	"egg (""bird-egg"")"		*bird egg	4
+Marrison-1967-223	223	"egg (""bird-egg"")"			4
 Marrison-1967-224	224	eight	1705	EIGHT	2
 Marrison-1967-225	225	eighteen	1713	EIGHTEEN	2
 Marrison-1967-226	226	eighty	1722	EIGHTY	2
@@ -247,7 +244,7 @@ Marrison-1967-242	242	fall	1280	FALL	2
 Marrison-1967-243	243	false	3069	FALSE	2
 Marrison-1967-244	244	far	1406	FAR	2
 Marrison-1967-245	245	fast	1631	FAST	2
-Marrison-1967-246	246	fast (quick)	1631	FAST	4
+Marrison-1967-246	246	fast (quick)			4
 Marrison-1967-247	247	fat	323	FAT (ORGANIC SUBSTANCE)	2
 Marrison-1967-248	248	father	1217	FATHER	2
 Marrison-1967-249	249	fear	1419	FEAR (BE AFRAID)	2
@@ -483,9 +480,9 @@ Marrison-1967-478	478	mistake	1293	MISTAKE	2
 Marrison-1967-479	479	mithan (gayal, bos fontalis)			
 Marrison-1967-480	480	money	1559	MONEY	2
 Marrison-1967-481	481	monkey (generic)	1350	MONKEY	4
-Marrison-1967-482	482	monkey (huluk)		*huluk monkey	4
+Marrison-1967-482	482	monkey (huluk)			4
 Marrison-1967-483	483	monkey (langur)			4
-Marrison-1967-484	484	monkey (macaque)		*Macaque monkey	4
+Marrison-1967-484	484	monkey (macaque)			4
 Marrison-1967-485	485	moon	1313	MOON	2
 Marrison-1967-486	486	morning	1339	MORNING	2
 Marrison-1967-487	487	morung (men's dormitory)			
@@ -556,9 +553,7 @@ Marrison-1967-551	551	people	789	PEOPLE	2
 Marrison-1967-552	552	person	683	PERSON	2
 Marrison-1967-553	553	pierce	398	PIERCE	2
 Marrison-1967-554	554	pig (domestic)	1337	PIG	4
-Marrison-1967-555	555	pig (wild)		* wild pig	4
-Marrison-1967-556	556	pig(wild)			4
-Marrison-1967-556	556	pig(wild)			4
+Marrison-1967-555	555	pig (wild)		*WILD BOAR	4
 Marrison-1967-556	556	pig(wild)			4
 Marrison-1967-557	557	pigeon	1853	DOVE	2
 Marrison-1967-558	558	pillow	1044	PILLOW	2
@@ -608,9 +603,6 @@ Marrison-1967-601	601	rhinoceros	2591	RHINOCEROS	2
 Marrison-1967-602	602	rib	801	RIB	2
 Marrison-1967-603	603	rice (cooked)	1191	COOKED RICE	2
 Marrison-1967-604	604	rice (paddy	2026	RICE PLANT	4
-Marrison-1967-605	605	rice (paddy)			4
-Marrison-1967-605	605	rice (paddy)			4
-Marrison-1967-605	605	rice (paddy)			4
 Marrison-1967-605	605	rice (paddy)			4
 Marrison-1967-606	606	rice (uncooked)	926	RICE	2
 Marrison-1967-607	607	rice-beer			
@@ -915,4 +907,3 @@ Marrison-1967-906	906	you two	2111	YOU TWO	2
 Marrison-1967-907	907	young	1207	YOUNG	2
 Marrison-1967-908	908	young man	76	YOUNG MAN	2
 Marrison-1967-909	909	young woman	77	YOUNG WOMAN	2
-
