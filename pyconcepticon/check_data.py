@@ -105,8 +105,16 @@ def check(api=None):
                     error('missing source language translation %s' % lg, cl.id, i + 2)
             for attr, values in ref_cols.items():
                 val = getattr(concept, attr)
-                if val and val not in values:  # pragma: no cover
-                    error('invalid value for %s: %s' % (attr, val), cl.id, i + 2)
+                if val:
+                    # check that there are not leading and trailing spaces
+                    # (while computationally expensive, this helps catch really
+                    # hard to find typos)
+                    if val != val.strip():
+                        error("leading or trailing spaces in value for %s: '%s'" %
+                              (attr, val), cl.id, i+2)
+
+                    if val not in values:  # pragma: no cover
+                        error('invalid value for %s: %s' % (attr, val), cl.id, i + 2)
 
     sameas = {}
     glosses = set()
