@@ -91,6 +91,7 @@
 | [Hou-2004-180](Hou-2004-180.tsv) | 180 | 100 | 0 |
 | [Huber-1992-374](Huber-1992-374.tsv) | 347 | 94 | 4 |
 | [Janhunan-2008-235](Janhunan-2008-235.tsv) | 268 | 98 | 19 |
+| [Kaiping-2018-591](Kaiping-2018-591.tsv) | 0 | 0 | 0 |
 | [Kassian-2010-116](Kassian-2010-116.tsv) | 116 | 100 | 1 |
 | [Kassian-2015-50](Kassian-2015-50.tsv) | 50 | 100 | 0 |
 | [Kessler-2001-200](Kessler-2001-200.tsv) | 200 | 100 | 0 |
@@ -120,6 +121,7 @@
 | [Mann-2004-210](Mann-2004-210.tsv) | 210 | 100 | 0 |
 | [Mann-2004-500](Mann-2004-500.tsv) | 500 | 100 | 13 |
 | [Marrison-1967-909](Marrison-1967-909.tsv) | 825 | 90 | 17 |
+| [Marrison-1967-917](Marrison-1967-917.tsv) | 851 | 93 | 19 |
 | [Marsden-1782-50](Marsden-1782-50.tsv) | 50 | 100 | 0 |
 | [Matisoff-1978-200](Matisoff-1978-200.tsv) | 210 | 100 | 0 |
 | [Matisoff-2009-47](Matisoff-2009-47.tsv) | 47 | 100 | 0 |
@@ -153,6 +155,7 @@
 | [Pozdniakov-2014-100b](Pozdniakov-2014-100b.tsv) | 100 | 100 | 0 |
 | [Ray-1895-26](Ray-1895-26.tsv) | 26 | 100 | 0 |
 | [Rea-1958-100](Rea-1958-100.tsv) | 100 | 100 | 0 |
+| [Reinhard-1970-337](Reinhard-1970-337.tsv) | 295 | 87 | 27 |
 | [Ringe-1992-100](Ringe-1992-100.tsv) | 100 | 100 | 0 |
 | [Ringe-2002-333](Ringe-2002-333.tsv) | 333 | 100 | 0 |
 | [Robinson-2012-398](Robinson-2012-398.tsv) | 386 | 96 | 0 |
@@ -224,5 +227,5 @@
 | [Zorc-1974-100](Zorc-1974-100.tsv) | 100 | 100 | 0 |
 | [vanderWouw-1974-28](vanderWouw-1974-28.tsv) | 28 | 100 | 0 |
 
-(221 rows)
+(224 rows)
 

@@ -22,7 +22,6 @@ ID	GLOSS	PRIORITY
 404	ALCOHOL (FERMENTED DRINK)///bebida fermentada	1
 98	ALL///cada uno, todo	1
 98	ALL///todos	2
-1581	ALLIGATOR///caimán	1
 853	ALTAR///altar	1
 1676	ALWAYS///siempre	1
 65	AMBUSH///acechar, emboscar	1
@@ -55,7 +54,6 @@ ID	GLOSS	PRIORITY
 1309	ASK (INQUIRE)///preguntar	1
 1828	ASK (REQUEST)///pedir	1
 1828	ASK (REQUEST)///suplicar	1
-1461	AT///en, lugar definido	1
 722	ATTACK///atacar	1
 1272	AUNT///tía	1
 1276	AUTUMN///otoño	1
@@ -121,7 +119,6 @@ ID	GLOSS	PRIORITY
 2246	BELL///campana	1
 1251	BELLY///Estomago	1
 1251	BELLY///barriga	3
-1251	BELLY///vientre, abdomen	1
 1485	BELOW OR UNDER///debajo	1
 772	BELT///cinturón	1
 772	BELT///cinturón, faja	1
@@ -224,6 +221,7 @@ ID	GLOSS	PRIORITY
 757	BUTTON///botón	2
 1869	BUY///comprar	1
 1865	BUZZARD///gallinazo	1
+2438	CAIMAN///caimán	1
 498	CALF OF LEG///pantorrilla	1
 1989	CALF///becerro, ternero	1
 180	CALL BY NAME///llamarse	1
@@ -260,7 +258,6 @@ ID	GLOSS	PRIORITY
 1974	CENTIPEDE///ciempiés	1
 509	CERTAIN///seguro	1
 1627	CHAIN///cadena	2
-1476	CHAIR///banco	1
 1476	CHAIR///silla	2
 1264	CHANGE///cambiar	1
 1188	CHARCOAL///carbón	2
@@ -290,6 +287,7 @@ ID	GLOSS	PRIORITY
 1126	CITRUS FRUIT///cítrico	1
 302	CLAN///tribu, clan	1
 3110	CLAP///aplaudir	1
+2128	CLAW OR NAIL///uña, garra	1
 72	CLAW///garra	1
 1399	CLAY///barro, arcilla	1
 2235	CLEAN (SOMETHING)///limpiar	1
@@ -324,6 +322,7 @@ ID	GLOSS	PRIORITY
 2070	COMB (VERB)///peinar	1
 1475	COMB///peine	2
 581	COME BACK///volver, regresar	1
+1446	COME///ven	1
 1446	COME///venir	4
 102	COMMON COLD (DISEASE)///catarro	1
 2606	COMPASS///CompÁs	1
@@ -336,6 +335,7 @@ ID	GLOSS	PRIORITY
 269	COOKED///cocido, cocinado	1
 334	COOKHOUSE///cocina (lugar)	1
 1825	COPPER///cobre, bronce	1
+2240	CORAL SNAKE///coral	1
 449	CORN FIELD///sementera de maíz	1
 192	CORNER///esquina, rincón	1
 767	CORPSE///cadáver	1
@@ -429,6 +429,7 @@ ID	GLOSS	PRIORITY
 474	DRESS///vestido	2
 268	DRIBBLE///gotear, babear	1
 1401	DRINK///Beber	1
+1401	DRINK///bebe	1
 1401	DRINK///beber	4
 1401	DRINK///tomar, beber	1
 2253	DRIP (EMIT LIQUID)///gotear	1
@@ -454,7 +455,6 @@ ID	GLOSS	PRIORITY
 672	EARLY///temprano	1
 733	EARN///ganar (dinero)	1
 770	EARRING///arete, aro, pendiente	1
-770	EARRING///orejera, arete	1
 1228	EARTH (SOIL)///suelo	1
 1228	EARTH (SOIL)///tierra	2
 6	EARTHQUAKE///terremoto	1
@@ -462,6 +462,7 @@ ID	GLOSS	PRIORITY
 1877	EAST///este (punto cardinal), levante	1
 686	EASY///fácil	1
 1336	EAT///Comer	1
+1336	EAT///come	1
 1336	EAT///comer	5
 863	EDGE///borde, orilla, margen	1
 744	EGG///Huevo	1
@@ -525,7 +526,6 @@ ID	GLOSS	PRIORITY
 1534	FEVER///fiebre	1
 1242	FEW///poco	2
 212	FIELD///campo (de cultivo), chacra	1
-212	FIELD///roza, sementera	1
 1709	FIFTEEN///quince	1
 322	FIG///higo	1
 1423	FIGHT///pelear	2
@@ -535,7 +535,6 @@ ID	GLOSS	PRIORITY
 218	FINE (PENALTY)///multa	1
 1303	FINGER///dedo	1
 1303	FINGER///dedo de la mano	1
-1896	FINGERNAIL OR TOENAIL///uña, garra	1
 1258	FINGERNAIL///garra/uña	1
 1258	FINGERNAIL///uña	3
 1766	FINISH///acabar, terminar, finalizar	1
@@ -1084,7 +1083,6 @@ ID	GLOSS	PRIORITY
 649	PASTURE///pradera, potrero	1
 2252	PATH///camino	1
 2252	PATH///camino, senda	1
-2252	PATH///camino, sendero, trocha	1
 2252	PATH///trocha	1
 718	PAY///pagar	1
 1338	PEACE///paz	1
@@ -1243,7 +1241,6 @@ ID	GLOSS	PRIORITY
 667	ROAD///carretera	1
 1962	ROAST (SOMETHING)///asar	2
 2146	ROAST OR FRY///asar, freír	1
-668	ROCK///rocas grandes	1
 827	ROLL///rodar, arrollar, enrollar	1
 769	ROOF///techo	2
 769	ROOF///tejado	1
@@ -1377,6 +1374,7 @@ ID	GLOSS	PRIORITY
 812	SLAVE///esclavo	1
 1585	SLEEP///Dormir	1
 1585	SLEEP///dormir	5
+1585	SLEEP///duerme	1
 387	SLING///honda	1
 1324	SLIP///deslizar	1
 1324	SLIP///resbalar	2
@@ -1396,7 +1394,6 @@ ID	GLOSS	PRIORITY
 1234	SMOOTH///suave, liso	1
 1543	SNAIL///caracol	2
 730	SNAKE///Serpiente	1
-730	SNAKE///coral	1
 730	SNAKE///culebra, serpiente	1
 730	SNAKE///serpiente, culebra	1
 730	SNAKE///víbora	1
@@ -1478,7 +1475,7 @@ ID	GLOSS	PRIORITY
 819	STOMACH///estómago	2
 2125	STONE OR ROCK///piedra, roca	1
 857	STONE///piedra	3
-2058	STOOL///banco	1
+2058	STOOL///banco	2
 752	STORE///tienda, almacen	1
 448	STORM CLOUDS///nubes de tormenta	1
 858	STORM///tempestad, tormenta	1
@@ -1487,7 +1484,6 @@ ID	GLOSS	PRIORITY
 1404	STRAIGHT///recto	1
 791	STRANGER///extranjero, forastero	1
 3138	STRAWBERRY///fresa	1
-947	STREAM///quebrada, caño	1
 214	STRETCH///alargar, estirar, tender	1
 2133	STRIKE OR BEAT///golpear	1
 2993	STROKE (OF PEN)///acariciar	1
