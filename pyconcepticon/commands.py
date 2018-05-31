@@ -763,14 +763,15 @@ def recreate_linking_data(args):
     api = Concepticon(args.repos)
     for l in api.vocabularies['COLUMN_TYPES'].values():
         if getattr(l, 'iso2', None):
-            _write_linking_data(api, l)
+            _write_linking_data(api, l, args)
 
 
-def _write_linking_data(api, l):
+def _write_linking_data(api, l, args):
     out = defaultdict(int)
     freqs = defaultdict(int)
 
     for clist in api.conceptlists.values():
+        args.log.info("checking {clist.id}".format(clist=clist))
         for row in clist.concepts.values():
             if row.concepticon_id:
                 gls = None
@@ -778,7 +779,7 @@ def _write_linking_data(api, l):
                     if row.english:
                         gls = row.english.strip('*$-—+')
                 else:
-                    if l.name in row.attributes:
+                    if l.name in row.attributes and row.attributes[l.name]:
                         gls = row.attributes[l.name].strip('*$-—+')
 
                 if gls:
