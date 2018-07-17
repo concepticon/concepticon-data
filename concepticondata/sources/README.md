@@ -87,6 +87,7 @@
 - [Pallas1789 [PDF 300.2KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-7476-0A24-F9C6-0/Pallas1789.pdf)
 - [Payne1991 [PDF 2.0MB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-63A0-89F9-9503-0/Payne1991.pdf)
 - [Peiros1999 [PDF 53.6KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-FBBB-8141-42C2-0/Peiros1999.pdf)
+- [Perrin2010 [PDF 34.2KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-EBFF-6187-6C67-0/Perrin2010.pdf)
 - [Peust2013 [PDF 54.2KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-890C-FAC5-01DF-0/Peust2013.pdf)
 - [Pozdniakov2014 [PDF 105.6KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-61E8-C809-F350-0/Pozdniakov2014.pdf)
 - [QLAA1979 [PDF 7.3MB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-7C15-387E-ADDC-0/QLAA1979.pdf)

@@ -1,6 +1,5 @@
 
-Releasing concepticon-data
-==========================
+# Releasing concepticon-data
 
 We try to follow a [semantic versioning](http://semver.org/) scheme for releases of
 concepticon-data.
@@ -14,7 +13,7 @@ $ bibtool -r concepticondata/references/bibtool.rsc -o concepticondata/reference
 ```
 
 - Make sure all changes are pushed and merged into the `master` branch.
-- Make sure all tests pass.
+- Make sure all tests pass, and also address warnings about missing PDFs (see [handling source PDFs](#upload_sources))
 - Make sure the data in `master` can be imported into the web app `clld/concepticon`.
 - Make sure all tests pass for the web app.
 - Recreate and push the statistics pages, running 
@@ -43,8 +42,22 @@ Available online at http://concepticon.clld.org
   link to issues for the next version.
 
 
-Releasing pyconcepticon
-=======================
+<a name="upload_sources"> </a>
+## Handling source PDFs
+
+Source PDFs for concept lists - like all binary or media content of CLLD databases - are
+uploaded to [CDSTAR](https://cdstar.shh.mpg.de). This is done by
+
+1. running
+   ```bash
+   concepticon upload_sources
+   ```
+2. deleting the uploaded PDF files from `concepticondata/sources`
+3. commiting and pushing the changes
+
+
+
+# Releasing pyconcepticon
 
 - Make sure the tests pass
 ```
