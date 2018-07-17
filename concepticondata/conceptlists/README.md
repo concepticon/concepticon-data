@@ -99,7 +99,7 @@
 | [Kibrik-2012-122](Kibrik-2012-122.tsv) | 103 | 84 | 0 |
 | [Kingsada-1999-303](Kingsada-1999-303.tsv) | 297 | 98 | 1 |
 | [Kitchen-2009-95](Kitchen-2009-95.tsv) | 95 | 100 | 0 |
-| [Kolipakam-2018-100](Kolipakam-2018-100.tsv) | 0 | 0 | 0 |
+| [Kolipakam-2018-100](Kolipakam-2018-100.tsv) | 100 | 100 | 0 |
 | [Kraft-1981-434](Kraft-1981-434.tsv) | 434 | 100 | 6 |
 | [Krisadawan-2000-210](Krisadawan-2000-210.tsv) | 211 | 100 | 1 |
 | [Larson-1972-68](Larson-1972-68.tsv) | 66 | 100 | 0 |
@@ -150,6 +150,7 @@
 | [Pallas-1789-285](Pallas-1789-285.tsv) | 282 | 98 | 10 |
 | [Payne-1991-202](Payne-1991-202.tsv) | 202 | 100 | 39 |
 | [Peiros-1999-100](Peiros-1999-100.tsv) | 100 | 100 | 0 |
+| [Perrin-2010-110](Perrin-2010-110.tsv) | 98 | 89 | 5 |
 | [Peust-2013-54](Peust-2013-54.tsv) | 54 | 100 | 0 |
 | [Pozdniakov-2014-100a](Pozdniakov-2014-100a.tsv) | 100 | 100 | 0 |
 | [Pozdniakov-2014-100b](Pozdniakov-2014-100b.tsv) | 100 | 100 | 0 |
@@ -158,7 +159,7 @@
 | [Reinhard-1970-337](Reinhard-1970-337.tsv) | 295 | 87 | 27 |
 | [Ringe-1992-100](Ringe-1992-100.tsv) | 100 | 100 | 0 |
 | [Ringe-2002-333](Ringe-2002-333.tsv) | 333 | 100 | 0 |
-| [Robinson-2012-398](Robinson-2012-398.tsv) | 386 | 96 | 0 |
+| [Robinson-2012-398](Robinson-2012-398.tsv) | 393 | 98 | 0 |
 | [SIL-1980-281](SIL-1980-281.tsv) | 282 | 100 | 1 |
 | [SIL-2002-436](SIL-2002-436.tsv) | 442 | 100 | 5 |
 | [Samarin-1967-100](Samarin-1967-100.tsv) | 100 | 100 | 0 |
@@ -227,5 +228,5 @@
 | [Zorc-1974-100](Zorc-1974-100.tsv) | 100 | 100 | 0 |
 | [vanderWouw-1974-28](vanderWouw-1974-28.tsv) | 28 | 100 | 0 |
 
-(224 rows)
+(225 rows)
 

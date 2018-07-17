@@ -52,7 +52,8 @@ Anthony Grant | MS | 1.1
 Ben Yackley | P | 1.1
 Christoph Rzymski | CLPG | 1.1
 Claire Bowern | D | 1.1
-Cormac Anderson | C | 1.1
+Christoph Rzymski | CTLG | 1.2
+Cormac Anderson | CP | 1.1, 1.2
 Damian Satterthwaite-Phillips | D | 1.0 
 Doug Cooper | DCSM | 1.1
 Evgeniya Korovina | MSCLPA | 1.1
@@ -66,6 +67,7 @@ Lars Borin | DL | 1.0
 Magdalena Łuniewska | D | 1.1
 Martin Haspelmath | AD | 1.0  
 Maurizio Serva | MD | 1.1
+Mei-Shin Wu | CTLG | 1.2
 Michael Dunn | G | 1.1
 Nathan Hill | MSDP | 1.1
 Nicholas Evans | A | 1.0
@@ -75,7 +77,7 @@ Robert Blust | D | 1.0
 Sean Lee | D | 1.0
 Sebastian Nicolai | CMS | 1.0  
 Thiago Chacon | MSD | 1.0, 1.1 
-Tiago Tresoldi | CTLG | 1.1
+Tiago Tresoldi | CTLG | 1.1, 1.2
 Viola Kirchhoff da Cruz | CLS | 1.0 
 Wang Feng | D | 1.0
 Yunfan Lai | CTLG | 1.1
