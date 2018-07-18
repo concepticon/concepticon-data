@@ -9,6 +9,8 @@ from pyconcepticon.util import split, REPOS_PATH, BIB_PATTERN
 
 SUCCESS = True
 NUMBER_PATTERN = re.compile('(?P<number>[0-9]+)(?P<suffix>.*)')
+REF_WITHOUT_LABEL_PATTERN = re.compile('[^\]]\(:(ref|bib):[A-Za-z0-9\-]+\)')
+REF_WITHOUT_LINK_PATTERN = re.compile('[^(]:(ref|bib):[A-Za-z0-9\-]+')
 
 
 def _msg(type_, msg, name, line):  # pragma: no cover
@@ -58,6 +60,12 @@ def check(api=None):
                 error('cited bibtex record not in bib: {0}'.format(ref), 'conceptlists.tsv', i + 2)
             else:
                 all_refs.add(ref)
+
+        for m in REF_WITHOUT_LABEL_PATTERN.finditer(cl.note):
+            error('link without label: {0}'.format(m.string[m.start():m.end()]), 'conceptlists.tsv', i + 2)
+
+        for m in REF_WITHOUT_LINK_PATTERN.finditer(cl.note):
+            error('reference not in link: {0}'.format(m.string[m.start():m.end()]), 'conceptlists.tsv', i + 2)
 
         for m in REF_PATTERN.finditer(cl.note):
             if m.group('id') not in api.conceptlists:
