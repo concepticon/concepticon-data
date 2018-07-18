@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pyconcepticon',
-    version='1.3.0',
+    version='1.4.0',
     description='programmatic access to concepticon-data',
     long_description='',
     classifiers=[
@@ -11,6 +11,8 @@ setup(
         "Programming Language :: Python :: 2.7",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.4",
+        "Programming Language :: Python :: 3.5",
+        "Programming Language :: Python :: 3.6",
     ],
     author='',
     author_email='forkel@shh.mpg.de',

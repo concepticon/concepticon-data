@@ -16,7 +16,7 @@ def test_check_new(fixturedir, capsys, mocker, tmpdir):
 
     test = tmpdir.join('test.tsv')
     copy(fixturedir.joinpath('conceptlist2.tsv'), str(test))
-    check_new(mocker.Mock(args=[str(test)], repos=None))
+    check_new(mocker.Mock(args=[str(test)], repos=fixturedir))
     out, err = capsys.readouterr()
     assert 'Gloss DUST' in out
 
@@ -33,11 +33,11 @@ def test_link(mocker, fixturedir, tmpdir, capsys):
     test = tmpdir.join('test.tsv')
     copy(fixturedir.joinpath('conceptlist.tsv'), str(test))
     assert nattr(test, 'CONCEPTICON_GLOSS') == 0
-    link(mocker.Mock(args=[str(test)], repos=None))
+    link(mocker.Mock(args=[str(test)], repos=fixturedir))
     assert nattr(test, 'CONCEPTICON_GLOSS') == 1
 
     copy(fixturedir.joinpath('conceptlist2.tsv'), str(test))
-    link(mocker.Mock(args=[str(test)], repos=None))
+    link(mocker.Mock(args=[str(test)], repos=fixturedir))
     out, err = capsys.readouterr()
     assert 'unknown CONCEPTICON_GLOSS' in out
     assert 'mismatch' in out
@@ -50,43 +50,39 @@ def test_readme(tmpdir):
     assert tmpdir.join('README.md').ensure()
 
 
-def test_stats(mocker):
+def test_stats(mocker, fixturedir):
     from pyconcepticon.commands import stats
 
     readme = mocker.Mock()
     mocker.patch('pyconcepticon.commands.readme', readme)
-    stats(mocker.MagicMock(repos=None))
+    stats(mocker.MagicMock(repos=fixturedir))
     assert readme.call_count == 3
 
 
-def test_attributes(mocker, capsys):
+def test_attributes(mocker, capsys, fixturedir):
     from pyconcepticon.commands import attributes
 
-    attributes(mocker.MagicMock(repos=None))
+    attributes(mocker.MagicMock(repos=fixturedir))
     out, err = capsys.readouterr()
     assert 'Occurrences' in out
 
 
-def test_union(capsys):
+def test_union(capsys, fixturedir):
     from pyconcepticon.commands import union
     Args = namedtuple('Args', ['repos', 'args'])
 
-    union(Args(repos='', args=['Swadesh-1955-100', 'Swadesh-1952-200']))
+    union(Args(repos=fixturedir, args=['Perrin-2010-110', 'Sun-1991-1004']))
     out, err = capsys.readouterr()
-    assert 208 == len(out.split('\n'))
-
-    union(Args(repos='', args=['Swadesh-1952-200', 'Matisoff-1978-200']))
-    out, err = capsys.readouterr()
-    assert 301 == len(out.split('\n'))
+    assert 920 == len(out.split('\n'))
 
 
-def test_intersection(capsys):
+def test_intersection(capsys, fixturedir):
     from pyconcepticon.commands import intersection
     Args = namedtuple('Args', ['repos', 'args'])
 
-    intersection(Args(repos='', args=['Swadesh-1955-100', 'Swadesh-1952-200']))
+    intersection(Args(repos=fixturedir, args=['Perrin-2010-110', 'Sun-1991-1004']))
     out, err = capsys.readouterr()
-    assert 94 == len(out.split('\n'))
+    assert 69 == len(out.split('\n'))
 
 
 def test_lookup(capsys, mocker):

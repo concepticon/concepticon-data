@@ -1,0 +1,52 @@
+{
+    "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+    "dialect": {
+        "header": true,
+        "skipBlankRows": true,
+        "delimiter": "\t",
+	"encoding": "utf-8-sig"
+    },
+    "tables": [
+        {
+            "url": null,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "name": "ID",
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        }
+                    },
+                    {
+                        "name": "NUMBER",
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\–]+)?$"
+                        }
+                    },
+                    {
+                        "name": "CONCEPTICON_ID",
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": 1
+                        }
+                    },
+                    {
+                        "name": "CONCEPTICON_GLOSS",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "GLOSS",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "ENGLISH",
+                        "datatype": "string"
+                    }
+                ],
+                "primaryKey": "ID"
+            }
+        }
+    ]
+}
