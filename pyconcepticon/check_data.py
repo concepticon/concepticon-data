@@ -110,7 +110,7 @@ def check(api=None):
                     # hard to find typos)
                     if val != val.strip():
                         error("leading or trailing spaces in value for %s: '%s'" %
-                              (attr, val), cl.id, i+2)
+                              (attr, val), cl.id, i + 2)
 
                     if val not in values:  # pragma: no cover
                         error('invalid value for %s: %s' % (attr, val), cl.id, i + 2)
