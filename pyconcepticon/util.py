@@ -20,6 +20,7 @@ ID_SEP_PATTERN = re.compile('\.|,|;')
 PREFIX = 'CONCEPTICON'
 CS_GLOSS = PREFIX + '_GLOSS'
 CS_ID = PREFIX + '_ID'
+BIB_PATTERN = re.compile(':bib:(?P<id>[a-zA-Z0-9]+)')
 
 rewrite = partial(dsv.rewrite, delimiter='\t')
 

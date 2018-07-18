@@ -419,7 +419,7 @@ class Conceptlist(Bag):
                 else REPOS_PATH.joinpath('concepticondata')
             if self.local:
                 md = ddir.joinpath('conceptlists', 'local-metadata.json')
-            else:
+            if not md.exists():
                 md = ddir.joinpath('conceptlists', 'default-metadata.json')
         tg = TableGroup.from_file(md)
         if isinstance(self._api, Path):

@@ -2,12 +2,6 @@
 from __future__ import unicode_literals, print_function, division
 
 import pytest
-from pyconcepticon.api import Concepticon
-
-
-@pytest.fixture(scope='module')
-def api():
-    return Concepticon()
 
 
 def test_Concept():
@@ -33,10 +27,11 @@ def test_Concept():
     Concept(**d)
 
 
-def test_Conceptlist(fixturedir):
+def test_Conceptlist(fixturedir, api, mocker):
     from pyconcepticon.api import Conceptlist
 
-    clist = Conceptlist.from_file(fixturedir.joinpath('conceptlist.tsv'))
+    mocker.patch('pyconcepticon.api.REPOS_PATH', fixturedir)
+    clist = Conceptlist.from_file(fixturedir.joinpath('conceptlist.tsv'), api=api)
     assert len(clist.concepts) == 1
 
 
@@ -61,21 +56,20 @@ def test_Conceptset(api):
 
 def test_editors(api):
     if api.repos.exists():
-        assert len(api.editors) == 4
+        assert len(api.editors) == 1
 
 
 def test_map(api, capsys, fixturedir):
-    if api.repos.exists():
-        api.map(fixturedir.joinpath('conceptlist.tsv'))
-        out, err = capsys.readouterr()
-        assert 'CONCEPTICON_ID' in out
-        assert len(api.conceptsets['217'].concepts) > 8
+    api.map(fixturedir.joinpath('conceptlist.tsv'))
+    out, err = capsys.readouterr()
+    assert 'CONCEPTICON_ID' in out
+    assert len(api.conceptsets['1'].concepts) == 0
 
-        api.map(
-            fixturedir.joinpath('conceptlist.tsv'),
-            fixturedir.joinpath('conceptlist2.tsv'))
-        out, err = capsys.readouterr()
-        assert 'CONCEPTICON_ID' in out
+    api.map(
+        fixturedir.joinpath('conceptlist.tsv'),
+        fixturedir.joinpath('conceptlist2.tsv'))
+    out, err = capsys.readouterr()
+    assert 'CONCEPTICON_ID' in out
 
 
 def test_lookup(api):
@@ -90,17 +84,18 @@ def test_lookup(api):
 
 
 def test_Concepticon(api):
-    assert len(api.frequencies) <= len(api.conceptsets)
+    assert len(api.frequencies) == 941
+    assert len(api.conceptsets) == 3175
 
 
 def test_ConceptRelations(fixturedir):
     from pyconcepticon.api import ConceptRelations
-    rels = ConceptRelations(fixturedir.joinpath('conceptrelations.tsv'))
-    assert list(rels.iter_related('1212', 'narrower'))[0][0] == '1131'
+    rels = ConceptRelations(fixturedir / 'concepticondata' / 'conceptrelations.tsv')
+    assert list(rels.iter_related('1212', 'narrower'))[0][0] in ['1130', '1131']
     assert list(rels.iter_related('1212', 'hasform'))[0][0] == '2310'
+
 
 def test_superseded_concepts(api):
     # 282 POLE has a replacement to 281 POST
-    assert api.conceptsets['282'].superseded
-    assert api.conceptsets['282'].replacement == api.conceptsets['281']
-    
+    assert api.conceptsets['283'].superseded
+    assert api.conceptsets['283'].replacement == api.conceptsets['140']

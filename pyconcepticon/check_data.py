@@ -4,12 +4,11 @@ import re
 import warnings
 
 from pyconcepticon.api import Concepticon
-from pyconcepticon.util import split, REPOS_PATH
+from pyconcepticon.util import split, REPOS_PATH, BIB_PATTERN
 
 
 SUCCESS = True
 NUMBER_PATTERN = re.compile('(?P<number>[0-9]+)(?P<suffix>.*)')
-BIB_PATTERN = re.compile(':bib:([a-zA-Z0-9]+)')
 
 
 def _msg(type_, msg, name, line):  # pragma: no cover
@@ -36,6 +35,7 @@ def check(api=None):
 
     # We collect all cite keys used to refer to references.
     all_refs = set()
+    refs_in_bib = set(ref for ref in api.bibliography)
     for meta in api.metadata.values():
         cnames_schema = set(var['name'] for var in meta.meta['tableSchema']['columns'])
         cnames_tsv = set(list(meta.values.values())[0])
@@ -46,18 +46,18 @@ def check(api=None):
                 error('meta data {0} contains irregular number of columns in line {1}'
                       .format(meta.id, i + 2), 'name')
         for ref in split(meta.meta.get('dc:references') or ''):
+            if ref not in refs_in_bib:
+                error('cited bibtex record not in bib: {0}'.format(ref), 'name')
             all_refs.add(ref)
 
     # Make sure only records in the BibTeX file references.bib are referenced by
     # concept lists.
     for i, cl in enumerate(api.conceptlists.values()):
-        for ref in cl.refs:
-            if ref not in api.bibliography:  # pragma: no cover
-                error('invalid bibtex record: {0}'.format(ref), 'conceptlists.tsv', i + 2)
-            all_refs.add(ref)
-        refs_in_text = re.findall(BIB_PATTERN, cl.note)
-        for ref in refs_in_text:
-            all_refs.add(ref)
+        for ref in re.findall(BIB_PATTERN, cl.note) + cl.refs:
+            if ref not in refs_in_bib:
+                error('cited bibtex record not in bib: {0}'.format(ref), 'conceptlists.tsv', i + 2)
+            else:
+                all_refs.add(ref)
 
         # make also sure that all sources are accompanied by a PDF, but only write a
         # warning if this is not the case
@@ -66,9 +66,8 @@ def check(api=None):
                 warning('no PDF found for {0}'.format(ref), 'conceptlists.tsv')
     all_refs.add('List2016a')
 
-    for ref in api.bibliography:
-        if ref not in all_refs:  # pragma: no cover
-            error('unused bibtex record: {0}'.format(ref), 'references.bib')
+    for ref in refs_in_bib - all_refs:
+        error('unused bibtex record: {0}'.format(ref), 'references.bib')
 
     ref_cols = {
         'concepticon_id': set(api.conceptsets.keys()),

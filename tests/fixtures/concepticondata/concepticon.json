@@ -1,0 +1,244 @@
+{
+    "TAGS": {
+        "acquisition": "Concept lists related to studies on language acquisition",
+        "annotated": "Concept lists which contain further annotations which exceed the complexity of ranks",
+        "areal": "Concept lists designed for a specific linguistic area.",
+        "basic": "Concept lists which are supposed to represent the basic vocabulary.",
+        "body parts": "Concept lists which concentrate on body parts.",
+        "documentation": "Concept lists which serve to document one language or one language family.",
+        "hihi": "A list of highly reconstructable and highly retentive items (term from McMahon & McMahon 2005).",
+        "historical": "A list which is historically interesting, mostly referring to lists published before the 20th century.",
+        "lolo": "A list of less stable basic items, with low reconstructability and low retentiveness (term from McMahon & McMahon 2005).",
+        "naming test": "A list designed for a naming test in neurology or psycholinguistics to asses the linguistic capability of children and adults.",
+        "proto-language": "A list illustrating the concepts in a proto-language which can be reconstructed with high certainty.",
+        "questionnaire": "A questionnaire for linguistic field work.",
+        "ranked": "A list that shows items in a ranked order, and has one column reflecting the rank.",
+        "sign language": "A list which was designed to investigate sign languages.",
+        "specific": "A list that we deem specific, since it is not easy to compare with other lists in our sample.",
+        "stable": "A list that is supposed to represent the stable part of a larger list. Usually, the stable part has an unstable counterpart.",
+        "ultra-stable": "A usually very short list of the supposedly most stable concepts.",
+        "unstable": "A list that is supposed to represent the unstable part of a larger list. Usually has a stable counterpart."
+    },
+    "SEMANTICFIELD": [
+        "Agriculture and vegetation",
+        "Animals",
+        "Basic actions and technology",
+        "Clothing and grooming",
+        "Cognition",
+        "Emotions and values",
+        "Food and drink",
+        "Kinship",
+        "Law",
+        "Miscellaneous function words",
+        "Modern world",
+        "Motion",
+        "Possession",
+        "Quantity",
+        "Religion and belief",
+        "Sense perception",
+        "Social and political relations",
+        "Spatial relations",
+        "Speech and language",
+        "The body",
+        "The house",
+        "The physical world",
+        "Time",
+        "Warfare and hunting"
+    ],
+    "ONTOLOGICAL_CATEGORY": [
+        "Action/Process",
+        "Person/Thing",
+        "Classifier",
+        "Property",
+        "Number",
+        "Other"
+    ],
+    "COLUMN_TYPES": {
+        "SUBLIST": "link",
+        "URL": "anyURI",
+        "PART_OF_SPEECH": "string",
+        "ENGLISH": [
+            "languoid",
+            "stan1293",
+            "en"
+        ],
+        "SPANISH": [
+            "languoid",
+            "stan1288",
+            "es"
+        ],
+        "FRENCH": [
+            "languoid",
+            "stan1290",
+            "fr"
+        ],
+        "GERMAN": [
+            "languoid",
+            "stan1295",
+            "de"
+        ],
+        "RUSSIAN": [
+            "languoid",
+            "russ1263",
+            "ru"
+        ],
+        "CHINESE": [
+            "languoid",
+            "mand1415",
+            "zh"
+        ],
+        "LATIN": [
+            "languoid",
+            "lati1261",
+            "lt"
+        ],
+        "BASQUE": [
+            "languoid",
+            "basq1248",
+            null
+        ],
+        "ESPERANTO": [
+            "languoid",
+            "espe1235",
+            null
+        ],
+        "SWEDISH": [
+            "languoid",
+            "swed1254",
+            "sv"
+        ],
+        "SIKUANI": [
+            "languoid",
+            "guah1255",
+            null
+        ],
+        "PROTOWORLD": [
+            "languoid",
+            null,
+            null
+        ],
+        "PROTO_INDO_EUROPEAN": [
+            "languoid",
+            null,
+            null
+        ],
+        "DUTCH": [
+            "languoid",
+            "dutc1256",
+            "nl"
+        ],
+        "TURKISH": [
+            "languoid",
+            "nucl1301",
+            "tr"
+        ],
+        "HAUSA": [
+            "languoid",
+            "haus1257",
+            "ha"
+        ],
+        "JAPANESE": [
+            "languoid",
+            "nucl1643",
+            "ja"
+        ],
+        "PORTUGUESE": [
+            "languoid",
+            "port1283",
+            "pt"
+        ],
+        "AFRIKAANS": [
+            "languoid",
+            "afri1274",
+            "af"
+        ],
+        "CATALAN": [
+            "languoid",
+            "stan1289",
+            "ca"
+        ],
+        "DANISH": [
+            "languoid",
+            "dani1285",
+            "da"
+        ],
+        "FINNISH": [
+            "languoid",
+            "finn1318",
+            "fi"
+        ],
+        "GREEK": [
+            "languoid",
+            "mode1248",
+            "el"
+        ],
+        "HEBREW": [
+            "languoid",
+            "hebr1245",
+            "he"
+        ],
+        "HUNGARIAN": [
+            "languoid",
+            "hung1274",
+            "hu"
+        ],
+        "ICELANDIC": [
+            "languoid",
+            "icel1247",
+            "is"
+        ],
+        "IRISH": [
+            "languoid",
+            "iris1253",
+            "ga"
+        ],
+        "XHOSA": [
+            "languoid",
+            "xhos1239",
+            "xh"
+        ],
+        "ITALIAN": [
+            "languoid",
+            "ital1282",
+            "it"
+        ],
+        "LITHUANIAN": [
+            "languoid",
+            "lith1251",
+            "lt"
+        ],
+        "LUXEMBOURRGISH": [
+            "languoid",
+            "luxe1241",
+            "lb"
+        ],
+        "MALTESE": [
+            "languoid",
+            "malt1254",
+            "mt"
+        ],
+        "POLISH": [
+            "languoid",
+            "poli1260",
+            "pl"
+        ],
+        "SOUTHAFRICANENGLISH": [
+            "languoid",
+            null,
+            null
+        ],
+        "SERBIAN": [
+            "languoid",
+            "serb1264",
+            "sr"
+        ],
+        "SLOVAK": [
+            "languoid",
+            "slov1269",
+            "sk"
+        ],
+        "FREQUENCY": "decimal",
+        "RANK": "integer",
+        "*SCORE": "decimal"
+    }
+}
