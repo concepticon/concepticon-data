@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 import re
 import warnings
 
-from pyconcepticon.api import Concepticon
+from pyconcepticon.api import Concepticon, CONCEPTLIST_ID_PATTERN, REF_PATTERN
 from pyconcepticon.util import split, REPOS_PATH, BIB_PATTERN
 
 
@@ -58,6 +58,10 @@ def check(api=None):
                 error('cited bibtex record not in bib: {0}'.format(ref), 'conceptlists.tsv', i + 2)
             else:
                 all_refs.add(ref)
+
+        for m in REF_PATTERN.finditer(cl.note):
+            if m.group('id') not in api.conceptlists:
+                error('invalid conceptlist ref: {0}'.format(m.group('id')), 'conceptlists.tsv', i + 2)
 
         # make also sure that all sources are accompanied by a PDF, but only write a
         # warning if this is not the case
