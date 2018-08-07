@@ -607,8 +607,8 @@ Key-2016-1310-605	bury (the dead)	605	4-780	http://ids.clld.org/parameters/4-780
 Key-2016-1310-606	corpse	606	4-770	http://ids.clld.org/parameters/4-770	cadavre	cadáver	труп	cadáver	4	770	767	CORPSE
 Key-2016-1310-607	kill	607	4-760	http://ids.clld.org/parameters/4-760	tuer	matar	убивать	matar	4	760	1417	KILL
 Key-2016-1310-608	drowned	608	4-751	http://ids.clld.org/parameters/4-751	noyé	afogado	утонувший, утопленник	ahogado	4	751	1904	DROWN
-Key-2016-1310-609	die, dead	609	4-750	http://ids.clld.org/parameters/4-750	mourir, mort	morrer, morto	умереть, скончаться, мертвый	morir, muerto	4	750	1494	DIE
-Key-2016-1310-610	live, living, life	610	4-740	http://ids.clld.org/parameters/4-740	vivre, vivant, vie	viver, vivo/a, vida	жить, живой, жизнь	vivir, vivo, vida	4	740	1422	BE ALIVE
+Key-2016-1310-609	die, dead	609	4-750	http://ids.clld.org/parameters/4-750	mourir, mort	morrer, morto	умереть, скончаться, мертвый	morir, muerto	4	750	2101	DIE OR BE DEAD
+Key-2016-1310-610	live, living, life	610	4-740	http://ids.clld.org/parameters/4-740	vivre, vivant, vie	viver, vivo/a, vida	жить, живой, жизнь	vivir, vivo, vida	4	740	3184	BE ALIVE OR LIFE
 Key-2016-1310-611	conceive	611	4-732	http://ids.clld.org/parameters/4-732	concevoir	conceber	зачать, забеременнеть	concebir	4	732	1087	CONCEIVE
 Key-2016-1310-612	pregnant	612	4-730	http://ids.clld.org/parameters/4-730	enceinte	grávida (mulher), prenhe (fêmea)	беременная	embarazada (mujer), preñada (hembra)	4	730	1123	PREGNANT
 Key-2016-1310-613	born (to be)	613	4-720	http://ids.clld.org/parameters/4-720	né, naître	nascer	родиться	nacer	4	720	1090	BE BORN
@@ -633,7 +633,7 @@ Key-2016-1310-631	sneeze	631	4-540	http://ids.clld.org/parameters/4-540	éternue
 Key-2016-1310-632	cough	632	4-530	http://ids.clld.org/parameters/4-530	tousser	tossir	кашлять	toser	4	530	879	COUGH
 Key-2016-1310-633	hiccough	633	4-521	http://ids.clld.org/parameters/4-521	hoqueter	soluço	икать	tener hipo	4	521	162	HICCOUGH
 Key-2016-1310-634	yawn, gape	634	4-520	http://ids.clld.org/parameters/4-520	bailler	bocejar	зевать	bostezar	4	520	1028	YAWN
-Key-2016-1310-635	breathe, breath	635	4-510	http://ids.clld.org/parameters/4-510	respirer, haleine	respirar, respiração	дышать, дыхание	respirar, aliento	4	510	1407	BREATHE
+Key-2016-1310-635	breathe, breath	635	4-510	http://ids.clld.org/parameters/4-510	respirer, haleine	respirar, respiração	дышать, дыхание	respirar, aliento	4	510	3183	BREATHE OR BREATH
 Key-2016-1310-636	penis	636	4-492	http://ids.clld.org/parameters/4-492	pénis	pênis	пенис	pene	4	492	1222	PENIS
 Key-2016-1310-637	testicle	637	4-490	http://ids.clld.org/parameters/4-490	testicule	testículo	тестикул (мужское яичко)	testículo	4	490	797	TESTICLES
 Key-2016-1310-638	womb	638	4-470	http://ids.clld.org/parameters/4-470	matrice, utérus	útero, ventre	матка, лоно	matriz, vientre	4	470	804	WOMB
@@ -877,7 +877,7 @@ Key-2016-1310-875	parents	875	2-370	http://ids.clld.org/parameters/2-370	parents
 Key-2016-1310-876	mother	876	2-360	http://ids.clld.org/parameters/2-360	mère	mãe	мать	madre	2	360	1216	MOTHER
 Key-2016-1310-877	father	877	2-350	http://ids.clld.org/parameters/2-350	père	pai	отец	padre	2	350	1217	FATHER
 Key-2016-1310-878	divorce	878	2-341	http://ids.clld.org/parameters/2-341	divorce	divórcio	развод	divorcio	2	341	1134	DIVORCE
-Key-2016-1310-879	marriage, wedding	879	2-340	http://ids.clld.org/parameters/2-340	mariage, noces	matrimônio, casamento	свадьба, брак	casamiento, boda	2	340	1259	WEDDING
+Key-2016-1310-879	marriage, wedding	879	2-340	http://ids.clld.org/parameters/2-340	mariage, noces	matrimônio, casamento	свадьба, брак	casamiento, boda	2	340	3182	MARRIAGE OR WEDDING
 Key-2016-1310-880	marry	880	2-330	http://ids.clld.org/parameters/2-330	se marier, épouser	casar	жениться, выйти замуж	casarse	2	330	203	MARRY
 Key-2016-1310-881	wife	881	2-320	http://ids.clld.org/parameters/2-320	femme, épouse	esposa, mulher	жена	esposa	2	320	1199	WIFE
 Key-2016-1310-882	husband	882	2-310	http://ids.clld.org/parameters/2-310	mari, époux	marido	муж	marido, esposo	2	310	1200	HUSBAND

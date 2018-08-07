@@ -208,7 +208,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 207	SPARSE	Quantity	Occupied or populated by a small number of people.	Property	
 208	NASAL MUCUS (SNOT)	The body	Mucus from the nose.	Person/Thing	
 209	RARE	Possession	Not easily found.	Property	
-210	LIFE	The body	The state of being.	Person/Thing	
+210	LIFE	The body	The time between birth or conception and death.	Person/Thing	
 211	CAST	Basic actions and technology	To pour [a hardenable liquid material, like metal, plaster, glass, concrete etc.] into a mold in order to produce a solid object of the shape of the mold.	Action/Process	
 212	FIELD	Agriculture and vegetation	A limited area of land with grass or crops growing on it, which is usually surrounded by fences or closely planted bushes when it is part of a farm.	Person/Thing	
 213	FIN	Animals	An appendage of a fish used for swimming.	Person/Thing	
@@ -2676,7 +2676,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2675	FIRE OR FIREWOOD	The physical world	The state of combustion in which inflammable material burns, producing heat, flames and often smoke or the Wood intended to be burned.	Person/Thing	
 2676	TWO HUNDRED	Quantity	The cardinal number occurring after one hundred and ninety-nine and before two hundred one, represented in Roman numerals as CC and in Arabic numerals as 200.	Number	
 2677	SPEARTHROWER	Warfare and hunting	A spear-thrower or atlatl is a tool that uses leverage to achieve greater velocity in dart-throwing, and includes a bearing surface which allows the user to store energy during the throw.	Person/Thing	
-2678	HAIR OR FUR	The body	The cover of a mammal or a bird.	Person/Thing	
+2678	HAIR OR FUR	The body	The hair covering the body of a mammal, including the body hair of humans.	Person/Thing	
 2679	BLOW (WITH NOSE)	Basic actions and technology	To expel air through nose.	Action/Process	
 2680	MACHETE	Food and drink	A machete is a broad blade used either as an implement like an axe, or in combat like a short sword.	Person/Thing	
 2681	LUTE	Speech and language	A plucked string musical instrument with with a neck and a deep round back	Person/Thing	
@@ -3174,3 +3174,6 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3179	CORAL ROCK	The physical world	Limestone created from the skeleton of reef-forming stony corals (Scleractinia), displaying their growth patterns.	Person/Thing	
 3180	SHOOT (WITH SLINGSHOT)	Warfare and hunting	Use a rubber-based projectile weapon to propel projectiles against a target.	Action/Process	
 3181	MUSTARD	Food and drink	It can be a yellow sauce with a strong taste or a plant which is used to make mustard sauce.	Person/Thing	
+3182	MARRIAGE OR WEDDING	Kinship	The ceremony of marrying someone, or the state of being married	Person/Thing	
+3183	BREATHE OR BREATH	The body	The act of breathing or the air that goes into one's lungs	Other	
+3184	BE ALIVE OR LIFE	The body	The act of being alive or the life itself	Other	
