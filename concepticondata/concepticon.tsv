@@ -31,7 +31,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 30	DISPEL	Motion	Force to go away.	Action/Process	
 31	PAN	Food and drink	Cooking utensil relatively flat, having a handle, used to cook food such as meat, vegetables or eggs, usually in oil or butter.	Person/Thing	
 32	EARWAX	The body	A yellowish, waxlike secretion from certain glands in the external auditory canal.	Person/Thing	
-33	NETTLE	Agriculture and vegetation	The common name for between 30-45 species of flowering plants with a cosmopolitan though mainly temperate distribution. They are mostly herbaceous perennial plants, but some are annual and a few are shrubby.	Person/Thing	
+33	NETTLE	Agriculture and vegetation	Any of numerous plants having stinging hairs that cause skin irritation on contact (especially of the genus Urtica or family Urticaceae) (Source: BabelNet)	Person/Thing	
 34	STAIRS	The house	A contiguous set of steps connecting two floors.	Person/Thing	
 35	TAMARIND	Agriculture and vegetation	A tropical tree, native to Africa, including Sudan and parts of the Madagascar dry deciduous forests.	Person/Thing	
 36	PUBIC HAIR	The body	Dense, coarse hair that grows on the male and female genital area beginning in puberty.	Person/Thing	
@@ -208,7 +208,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 207	SPARSE	Quantity	Occupied or populated by a small number of people.	Property	
 208	NASAL MUCUS (SNOT)	The body	Mucus from the nose.	Person/Thing	
 209	RARE	Possession	Not easily found.	Property	
-210	LIFE	The body	The state of being.	Person/Thing	
+210	LIFE	The body	The time between birth or conception and death.	Person/Thing	
 211	CAST	Basic actions and technology	To pour [a hardenable liquid material, like metal, plaster, glass, concrete etc.] into a mold in order to produce a solid object of the shape of the mold.	Action/Process	
 212	FIELD	Agriculture and vegetation	A limited area of land with grass or crops growing on it, which is usually surrounded by fences or closely planted bushes when it is part of a farm.	Person/Thing	
 213	FIN	Animals	An appendage of a fish used for swimming.	Person/Thing	
@@ -478,8 +478,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 477	LATE	Time	Towards the end of a time period.	Other	
 478	LIP	The body	Either of the two fleshy protrusions around the opening of the mouth.	Person/Thing	
 479	GROW	Spatial relations	(For a living being) To become bigger.	Action/Process	
-480	PLATE	Food and drink	A dish on which food is served or from which food is eaten.	Person/Thing	
-481	DISH	Food and drink	A vessel such as a plate for holding or serving food, often flat with a depressed region in the middle.	Person/Thing	
+480	PLATE	Food and drink	A flat dish on which food is served or from which food is eaten.	Person/Thing	
+481	DISH	Food and drink	Any kind of vessel for holding or serving meals.	Person/Thing	
 482	NOBLE	Social and political relations	Someone of aristocratic blood.	Person/Thing	
 483	COMPOUND	Social and political relations	An enclosure of residences and other buildings.	Person/Thing	
 484	CONDEMN	Law	To declare, after a judgement, that somebody is guilty of commiting a crime.	Action/Process	
@@ -678,7 +678,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 677	AXE	Basic actions and technology	A tool for felling trees or chopping wood consisting of a heavy metallic head flattened to a blade on one side, and which is attached to a usually wooden handle.	Person/Thing	
 678	BEARD	The body	Facial hair of humans on the chin, cheeks and jaw.	Person/Thing	
 679	BRIGHT	Sense perception	Visually dazzling.	Property	
-680	BREAK (DESTROY OR GET DESTROYED)	Basic actions and technology	To end up in two or more pieces, which can't easily be reassembled.	Action/Process	
+680	BREAK (DESTROY OR GET DESTROYED)	Basic actions and technology	To divide or be divided into pieces and thereby damaged.	Action/Process	
 681	DESTROY	Possession	To damage beyond use or repair.	Action/Process	
 682	SIDE	Spatial relations	One side of a leaf of a book or manuscript.	Person/Thing	
 683	PERSON	Kinship	A human being.	Person/Thing	
@@ -1141,7 +1141,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1140	FATIGUE	The body	A state of physical and/or mental weakness and a lack of vigor.	Person/Thing	
 1141	PITY	Emotions and values	Deep awareness of the suffering of another, coupled with the wish to relieve it.	Person/Thing	
 1142	URINE	The body	Liquid excrement consisting of water, salts and urea, which is made in the kidneys, stored in the bladder, then released through the urethra.	Person/Thing	
-1143	OVEN	Food and drink	An enclosed heated compartment usually lined with a refractory material used for drying substances, firing ceramics, heat-treating, etc.	Person/Thing	
+1143	OVEN	Food and drink	An enclosed heated compartment usually lined with a refractory material used for baking or drying substances, firing ceramics, heat-treating, etc.	Person/Thing	
 1144	WITNESS	Law	Someone who has a personal knowledge of something.	Person/Thing	
 1145	SWAMP	The physical world	A permanently waterlogged area in which there is often associated tree growth, e.g. mangroves in hot climates.	Person/Thing	
 1146	AUBERGINE	Food and drink	An Asian plant, Solanum melongena, cultivated for its edible purple, green, or white ovoid fruit.	Person/Thing	
@@ -1755,7 +1755,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1754	BRACELET	Clothing and grooming	Piece of jewellery worn around the wrist.	Person/Thing	
 1755	UNDRESS	Clothing and grooming	To take off all of one's clothes.	Action/Process	
 1756	WIDOW	Kinship	A woman whose spouse has died.	Person/Thing	
-1757	TIRED	The body	In need of some rest or sleep, usually as a result of hard work or physical activity.	Property	
+1757	TIRED	The body	In need of some rest or sleep, due to lack of sleep or as a result of hard work or physical activity.	Property	
 1758	OLDER SISTER	Kinship	A female with more years of age than one or more of her siblings.	Person/Thing	
 1759	OLDER BROTHER	Kinship	A male with more years of age than one or more of his siblings.	Person/Thing	
 1760	YOUNGER BROTHER	Kinship	A male with fewer years of age than one or more of his siblings.	Person/Thing	
@@ -1999,7 +1999,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1998	COMMAND	Social and political relations	That which is enjoined or ordered to one or several persons by a superior authority.	Action/Process	
 1999	OVERCOME	Motion	To surmount a physical or an abstract obstacle.	Action/Process	
 2000	CLOVE	Agriculture and vegetation	The aromatic flower bud of a clove tree, used as a spice.	Person/Thing	
-2001	PAINTING	Basic actions and technology	To make a painting.	Action/Process	
+2001	PAINTING	Basic actions and technology	To make a painting or drawing.	Action/Process	
 2002	DITCH	Agriculture and vegetation	A long, narrow excavation artificially dug in the ground; especially an open and usually unpaved waterway, channel, or trench for conveying water for drainage or irrigation, and usually smaller than a canal. Some ditches may be natural watercourses.	Person/Thing	
 2003	FLOW	Motion	To move as a fluid from one position to another (e.g. of people).	Action/Process	
 2004	BEND	Basic actions and technology	Movement that causes the formation of a curve.	Action/Process	
@@ -2099,7 +2099,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2098	FOOT OR LEG	The body	Lower part of the human body which is used for walking.	Person/Thing	
 2099	CHILD	Kinship	A young human or the descendant of a human.	Person/Thing	
 2100	THATCH OR ROOF	The house	The cover of a house or a hut.	Person/Thing	
-2101	DIE OR BE DEAD	Time	To cease or have ceased to live.	Action/Process	
+2101	BE DEAD OR DIE	Time	To cease or have ceased to live.	Action/Process	
 2102	BURN	Basic actions and technology	To put fire on something or to be on fire.	Action/Process	
 2103	PAINFUL OR SICK	Emotions and values	To cause pain or to be ill.	Other	
 2104	HOLD OR TAKE	Basic actions and technology	To grasp something or to carry something in ones hands.	Action/Process	
@@ -2448,7 +2448,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2447	WOODPECKER	Animals	Part of the Picidae family, a group of near-passerine birds that also consist of piculets, wrynecks, and sapsuckers. 	Person/Thing	
 2448	WILD DOG	Animals	Any of several wild canine species that are commonly called 'dogs' or 'wild dogs' but are not true dogs. 	Person/Thing	
 2449	FAT (OF MEAT AND FOOD)	Food and drink	The property of food, especially meat, to contain a large proportion of fat.	Property	
-2450	FOOT OR WALK	The body	Either the body part or the action by which one uses the body part to advance.	Person/Thing	
+2450	FOOT OR WALK	The body	Either the body part or the action by which one uses the body part to advance.	Other	
 2451	FOURTEEN	Quantity	The cardinal number occurring after thirteen and before fifteen, represented in Roman numerals as XIV and in Arabic numerals as 14.	Number	
 2452	PURPLE	Sense perception	Having purple as its color.	Property	
 2453	SEVENTEEN	Quantity	The cardinal number 17.	Number	
@@ -2676,7 +2676,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2675	FIRE OR FIREWOOD	The physical world	The state of combustion in which inflammable material burns, producing heat, flames and often smoke or the Wood intended to be burned.	Person/Thing	
 2676	TWO HUNDRED	Quantity	The cardinal number occurring after one hundred and ninety-nine and before two hundred one, represented in Roman numerals as CC and in Arabic numerals as 200.	Number	
 2677	SPEARTHROWER	Warfare and hunting	A spear-thrower or atlatl is a tool that uses leverage to achieve greater velocity in dart-throwing, and includes a bearing surface which allows the user to store energy during the throw.	Person/Thing	
-2678	HAIR OR FUR	The body	The cover of a mammal or a bird.	Person/Thing	
+2678	HAIR OR FUR	The body	The hair covering the body of a mammal, including the body hair of humans.	Person/Thing	
 2679	BLOW (WITH NOSE)	Basic actions and technology	To expel air through nose.	Action/Process	
 2680	MACHETE	Food and drink	A machete is a broad blade used either as an implement like an axe, or in combat like a short sword.	Person/Thing	
 2681	LUTE	Speech and language	A plucked string musical instrument with with a neck and a deep round back	Person/Thing	
@@ -2994,7 +2994,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2998	DAMP	Sense perception	Refers to the presence of a liquid, especially water, often in trace amounts.	Property	
 2999	EVERYWHERE	Spatial relations	In all places.	Other	
 3000	LIVING	The body	Being alive.	Property	
-3001	POWERFUL	Emotions and values	Having great power.	Property	
+3001	POWERFUL	Emotions and values	Being done using a huge amount of energy.	Property	
 3002	PRECIOUS	Emotions and values	Being deer or important to somebody.	Property	
 3003	SOLID	Basic actions and technology	One of the four fundamental states of matter (the others being liquid, gas, and plasma).	Property	
 3004	FORMER	Time	Coming before in time.	Property	
@@ -3174,3 +3174,16 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3179	CORAL ROCK	The physical world	Limestone created from the skeleton of reef-forming stony corals (Scleractinia), displaying their growth patterns.	Person/Thing	
 3180	SHOOT (WITH SLINGSHOT)	Warfare and hunting	Use a rubber-based projectile weapon to propel projectiles against a target.	Action/Process	
 3181	MUSTARD	Food and drink	It can be a yellow sauce with a strong taste or a plant which is used to make mustard sauce.	Person/Thing	
+3182	MARRIAGE OR WEDDING	Kinship	The ceremony of marrying someone or the state of being married.	Person/Thing	
+3183	BREATH OR BREATHE	The body	The air that goes into one's lungs or the act of breathing	Other	
+3184	BE ALIVE OR LIFE	The body	The act of being alive or the life itself.	Other	
+3185	BE DEAD OR DIE OR KILL	The body	To be not alive or to cease to live or to cause the end of a life.	Other	
+3186	BE DEAD OR DEATH OR DIE	The body	To be not alive or the end of a life or to cease to live.	Other	
+3187	DROWNED	The body	To have perished by suffocation in water.	Property	
+3188	MIGHTY OR POWERFUL OR STRONG		Holding much (political, social, ...) power or being done using a huge amount of energy or having great physical strength.	Property	
+3189	STAB TO DEATH	The body	To kill by stabbing with a knife.	Action/Process	
+3190	BROKEN OR SHATTERED	Basic actions and technology	Not capable of working or broken into pieces.	Property	
+3191	SHATTERED	Basic actions and technology	Broken into pieces.	Property	
+3192	BRONZE OR COPPER	The physical world	Chemical element with symbol Cu and atomic number 29 or an alloy made from it.	Person/Thing	
+3193	PAINT (WALL)	Basic actions and technology	To apply color to a wall.	Action/Process	
+3194	PAINT (WALL) OR PAINTING	Basic actions and technology	To apply color to a wall or to make a painting or drawing.	Action/Process	
