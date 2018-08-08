@@ -31,7 +31,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 30	DISPEL	Motion	Force to go away.	Action/Process	
 31	PAN	Food and drink	Cooking utensil relatively flat, having a handle, used to cook food such as meat, vegetables or eggs, usually in oil or butter.	Person/Thing	
 32	EARWAX	The body	A yellowish, waxlike secretion from certain glands in the external auditory canal.	Person/Thing	
-33	NETTLE	Agriculture and vegetation	The common name for between 30-45 species of flowering plants with a cosmopolitan though mainly temperate distribution. They are mostly herbaceous perennial plants, but some are annual and a few are shrubby.	Person/Thing	
+33	NETTLE	Agriculture and vegetation	Any of numerous plants having stinging hairs that cause skin irritation on contact (especially of the genus Urtica or family Urticaceae) (Source: BabelNet)	Person/Thing	
 34	STAIRS	The house	A contiguous set of steps connecting two floors.	Person/Thing	
 35	TAMARIND	Agriculture and vegetation	A tropical tree, native to Africa, including Sudan and parts of the Madagascar dry deciduous forests.	Person/Thing	
 36	PUBIC HAIR	The body	Dense, coarse hair that grows on the male and female genital area beginning in puberty.	Person/Thing	
@@ -678,7 +678,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 677	AXE	Basic actions and technology	A tool for felling trees or chopping wood consisting of a heavy metallic head flattened to a blade on one side, and which is attached to a usually wooden handle.	Person/Thing	
 678	BEARD	The body	Facial hair of humans on the chin, cheeks and jaw.	Person/Thing	
 679	BRIGHT	Sense perception	Visually dazzling.	Property	
-680	BREAK (DESTROY OR GET DESTROYED)	Basic actions and technology	To end up in two or more pieces, which can't easily be reassembled.	Action/Process	
+680	BREAK (DESTROY OR GET DESTROYED)	Basic actions and technology	To divide or be divided into pieces and thereby damaged.	Action/Process	
 681	DESTROY	Possession	To damage beyond use or repair.	Action/Process	
 682	SIDE	Spatial relations	One side of a leaf of a book or manuscript.	Person/Thing	
 683	PERSON	Kinship	A human being.	Person/Thing	
@@ -3181,4 +3181,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3186	BE DEAD OR DEATH OR DIE	The body	To be not alive or the end of a life or to cease to live.	Other	
 3187	DROWNED	The body	To have perished by suffocation in water.	Property	
 3188	MIGHTY OR POWERFUL OR STRONG		Holding much (political, social, ...) power or being done using a huge amount of energy or having great physical strength.	Property	
-
+3189	STAB TO DEATH	The body	To kill by stabbing with a knife.	Action/Process	
+3190	BROKEN OR SHATTERED	Basic actions and technology	Not capable of working or broken into pieces.	Property	
+3191	SHATTERED	Basic actions and technology	Broken into pieces.	Property	
+3192	BRONZE OR COPPER	The physical world	Chemical element with symbol Cu and atomic number 29 or an alloy made from it.	Person/Thing	
