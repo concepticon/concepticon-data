@@ -93,7 +93,7 @@ Key-2016-1310-91	near (adv)	91	12-430	http://ids.clld.org/parameters/12-430	prè
 Key-2016-1310-92	far (adv)	92	12-440	http://ids.clld.org/parameters/12-440	loin	longe	далеко	lejos	12	440	1406	FAR
 Key-2016-1310-93	left (side)	93	12-420	http://ids.clld.org/parameters/12-420	gauche	esquerda	левая (сторна)	izquierda	12	420	244	LEFT
 Key-2016-1310-94	right (side)	94	12-410	http://ids.clld.org/parameters/12-410	droite	direita	правая (сторона)	derecha	12	410	1019	RIGHT
-Key-2016-1310-95	middle, center	95	12-370	http://ids.clld.org/parameters/12-370	milieu, centre	meio, centro	середина, центр	medio, centro	12	370	1093	MIDDLE
+Key-2016-1310-95	middle, center	95	12-370	http://ids.clld.org/parameters/12-370	milieu, centre	meio, centro	середина, центр	medio, centro	12	370	3208	CENTER OR MIDDLE
 Key-2016-1310-96	side	96	12-360	http://ids.clld.org/parameters/12-360	côte	lado	сторона	lado, costado	12	360	682	SIDE
 Key-2016-1310-97	edge	97	12-353	http://ids.clld.org/parameters/12-353	bord, orée	beira, borda	край	borde, orilla, margen	12	353	863	EDGE
 Key-2016-1310-98	pointed	98	12-352	http://ids.clld.org/parameters/12-352	pointu	afiado, agudo	остроконечный	puntiagudo	12	352	372	POINTED
@@ -142,7 +142,7 @@ Key-2016-1310-140	sell	140	11-820	http://ids.clld.org/parameters/11-820	vendre	v
 Key-2016-1310-141	buy	141	11-810	http://ids.clld.org/parameters/11-810	acheter	comprar	покупать	comprar	11	810	1869	BUY
 Key-2016-1310-142	earn	142	11-790	http://ids.clld.org/parameters/11-790	gagner	ganhar	зарабатывать	ganar (dinero)	11	790	733	EARN
 Key-2016-1310-143	wages	143	11-780	http://ids.clld.org/parameters/11-780	salaire	salário	заработная плата	salario, sueldo	11	780	1122	WAGES
-Key-2016-1310-144	hire	144	11-770	http://ids.clld.org/parameters/11-770	louer	alugar	нанимать, брать на прокат	alquilar, emplear	11	770	856	HIRE
+Key-2016-1310-144	hire	144	11-770	http://ids.clld.org/parameters/11-770	louer	alugar	нанимать, брать на прокат	alquilar, emplear	11	770	3213	HIRE OR RENT
 Key-2016-1310-145	tax, tribute	145	11-690	http://ids.clld.org/parameters/11-690	taxe, impôt	imposto, taxa	налог	impuesto, tributo	11	690	873	TAX
 Key-2016-1310-146	account, reckoning	146	11-660	http://ids.clld.org/parameters/11-660	compte	conta	счет	calcul, cuenta	11	660	1081	BILL
 Key-2016-1310-147	pay (vb)	147	11-650	http://ids.clld.org/parameters/11-650	payer	pagar	платить	pagar	11	650	718	PAY
@@ -230,11 +230,11 @@ Key-2016-1310-228	jump, leap	228	10-430	http://ids.clld.org/parameters/10-430	sa
 Key-2016-1310-229	slide, slip	229	10-420	http://ids.clld.org/parameters/10-420	glisser	escorregar, resvalar	скользить	resbalar	10	420	1324	SLIP
 Key-2016-1310-230	crouch	230	10-413	http://ids.clld.org/parameters/10-413	s'accroupir	agachar-se	приседать	agacharse, ponerse en cuclillas	10	413	296	CROUCH
 Key-2016-1310-231	kneel	231	10-412	http://ids.clld.org/parameters/10-412	s'agenouiller	ajoelhar	становиться на колени	arrodillarse	10	412	66	KNEEL
-Key-2016-1310-232	creep, crawl	232	10-410	http://ids.clld.org/parameters/10-410	ramper	rastejar, arrastar-se	ползти	gatear	10	410	96	CRAWL
+Key-2016-1310-232	creep, crawl	232	10-410	http://ids.clld.org/parameters/10-410	ramper	rastejar, arrastar-se	ползти	gatear	10	410	3214	CRAWL OR CREEP
 Key-2016-1310-233	blow	233	10-380	http://ids.clld.org/parameters/10-380	souffler	soprar	дуть	soplar	10	380	175	BLOW (OF WIND)
 Key-2016-1310-234	fly (vb)	234	10-370	http://ids.clld.org/parameters/10-370	voler	voar	летать	volar	10	370	1441	FLY (MOVE THROUGH AIR)
 Key-2016-1310-235	sail (vb)	235	10-360	http://ids.clld.org/parameters/10-360	naviguer	navegar	плыть под парусом	navegar	10	360	787	SAIL
-Key-2016-1310-236	splash	236	10-352	http://ids.clld.org/parameters/10-352	éclabousser	chapinhar	плескаться	salpicar	10	352	365	SPLASH
+Key-2016-1310-236	splash	236	10-352	http://ids.clld.org/parameters/10-352	éclabousser	chapinhar	плескаться	salpicar	10	352	3219	SPLASH OR SPRAY
 Key-2016-1310-237	dive	237	10-351	http://ids.clld.org/parameters/10-351	plonger	mergulhar	нырять	zambullirse	10	351	119	DIVE
 Key-2016-1310-238	swim	238	10-350	http://ids.clld.org/parameters/10-350	nager	nadar	плыть	nadar	10	350	1439	SWIM
 Key-2016-1310-239	float	239	10-340	http://ids.clld.org/parameters/10-340	flotter	flutuar	плыть по поверхности воды	flotar	10	340	1574	FLOAT
@@ -246,9 +246,9 @@ Key-2016-1310-244	throw	244	10-250	http://ids.clld.org/parameters/10-250	jeter	a
 Key-2016-1310-245	drip	245	10-240	http://ids.clld.org/parameters/10-240	s'égoutter	gotejar, escorrer	лить по каплям	gotear, escurrir	10	240	2253	DRIP (EMIT LIQUID)
 Key-2016-1310-246	fall	246	10-230	http://ids.clld.org/parameters/10-230	tomber	cair	падать	caer	10	230	1280	FALL
 Key-2016-1310-247	raise, lift	247	10-220	http://ids.clld.org/parameters/10-220	lever, élever	levantar, içar	поднимать	levantar	10	220	501	LIFT
-Key-2016-1310-248	rise	248	10-210	http://ids.clld.org/parameters/10-210	monter, se lever	subir	подниматься, восходить	ascender	10	210	568	RISE (MOVE UPWARDS)
+Key-2016-1310-248	rise	248	10-210	http://ids.clld.org/parameters/10-210	monter, se lever	subir	подниматься, восходить	ascender	10	210	705	GO UP (ASCEND)
 Key-2016-1310-249	twist	249	10-170	http://ids.clld.org/parameters/10-170	tordre	torcer	скручивать	torcer	10	170	430	TWIST
-Key-2016-1310-250	drop (vb)	250	10-160	http://ids.clld.org/parameters/10-160	laisser tomber	deixar cair	капать	dejar caer	10	160	808	DRIP (FALL IN GLOBULES)
+Key-2016-1310-250	drop (vb)	250	10-160	http://ids.clld.org/parameters/10-160	laisser tomber	deixar cair	капать	dejar caer	10	160	2866	DROP (SOMETHING)
 Key-2016-1310-251	roll	251	10-150	http://ids.clld.org/parameters/10-150	rouler	rolar	вращать	rodar, arrollar, enrollar	10	150	827	ROLL
 Key-2016-1310-252	wind, wrap	252	10-140	http://ids.clld.org/parameters/10-140	enrouler, envelopper	envolver, enrolar	обертывать	enrollar, envolver	10	140	1113	WRAP
 Key-2016-1310-253	turn around	253	10-130	http://ids.clld.org/parameters/10-130	culbuter, se retourner	voltar, dar a volta	развернуть(ся)	dar vuelta, voltear	10	130	1445	TURN (SOMETHING)
@@ -271,7 +271,7 @@ Key-2016-1310-269	glass	269	9-740	http://ids.clld.org/parameters/9-740	verre	vid
 Key-2016-1310-270	clay	270	9-730	http://ids.clld.org/parameters/9-730	argile, glaise	barro, argila	глина	barro, arcilla	9	730	1399	CLAY
 Key-2016-1310-271	mold (clay etc)	271	9-720	http://ids.clld.org/parameters/9-720	mouler	moldar, amoldar	формовать	moldear, formar	9	720	289	MOLD
 Key-2016-1310-272	potter	272	9-710	http://ids.clld.org/parameters/9-710	pottier	oleiro	гончар	alfarero	9	710	359	POTTER
-Key-2016-1310-273	tin, tinplate	273	9-690	http://ids.clld.org/parameters/9-690	étain	estanho	(белая) жесть	estaño	9	690	358	TINPLATE
+Key-2016-1310-273	tin, tinplate	273	9-690	http://ids.clld.org/parameters/9-690	étain	estanho	(белая) жесть	estaño	9	690	3217	TIN OR TINPLATE
 Key-2016-1310-274	lead (noun)	274	9-680	http://ids.clld.org/parameters/9-680	plomb	chumbo	свинец	plomo	9	680	627	LEAD (CHEMICAL ELEMENT)
 Key-2016-1310-275	iron	275	9-670	http://ids.clld.org/parameters/9-670	fer	ferro	железо	hierro	9	670	621	IRON
 Key-2016-1310-276	copper, bronze	276	9-660	http://ids.clld.org/parameters/9-660	cuivre, bronze	cobre, bronze	медь, бронза	cobre, bronce	9	660	3192	BRONZE OR COPPER
@@ -542,7 +542,7 @@ Key-2016-1310-540	breakfast	540	5-420	http://ids.clld.org/parameters/5-420	petit
 Key-2016-1310-541	meal (a)	541	5-410	http://ids.clld.org/parameters/5-410	repas	refeição	еда, принятие пищи	comida	5	410	1526	MEAL
 Key-2016-1310-542	tongs	542	5-391	http://ids.clld.org/parameters/5-391	pinces	pinça	щипцы	tenazas	5	391	272	TONGS
 Key-2016-1310-543	fork (2)	543	5-390	http://ids.clld.org/parameters/5-390	fourchette	garfo	вилка	tenedor	5	390	1302	FORK
-Key-2016-1310-544	knife (2)	544	5-380	http://ids.clld.org/parameters/5-380	couteau (de table)	faca	нож	cuchillo (para cortar comida)	5	380	1352	KNIFE
+Key-2016-1310-544	knife (2)	544	5-380	http://ids.clld.org/parameters/5-380	couteau (de table)	faca	нож	cuchillo (para cortar comida)	5	380	3210	KNIFE (FOR EATING)
 Key-2016-1310-545	spoon	545	5-370	http://ids.clld.org/parameters/5-370	cuiller	colher	ложка	cuchara	5	370	1378	SPOON
 Key-2016-1310-546	saucer	546	5-360	http://ids.clld.org/parameters/5-360	soucoupe	pires	блюдце	platillo	5	360	271	SAUCER
 Key-2016-1310-547	cup, drinking vessel	547	5-350	http://ids.clld.org/parameters/5-350	tasse, coupe	xícara, chávena, copo	чашка, кубок	taza, copa	5	350	476	CUP
@@ -1158,7 +1158,7 @@ Key-2016-1310-1156	speak, talk	1156	18-210	http://ids.clld.org/parameters/18-210
 Key-2016-1310-1157	stutter, stammer	1157	18-211	http://ids.clld.org/parameters/18-211	bégayer, balbutier	gaguejar	заикаться, запинаться	tartamudear, balbucear	18	211	1866	STUTTER
 Key-2016-1310-1158	say	1158	18-220	http://ids.clld.org/parameters/18-220	dire	dizer	сказать	decir	18	220	1458	SAY
 Key-2016-1310-1159	tell story	1159	18-221	http://ids.clld.org/parameters/18-221	raconter, narrer	contar, relatar	рассказывать историю	narrar, contar	18	221	1711	TELL
-Key-2016-1310-1160	speech (make a)	1160	18-222	http://ids.clld.org/parameters/18-222	discours (faire une)	discursar	речь (сделать)	pronunciar un discurso	18	222	1115	SPEECH
+Key-2016-1310-1160	speech (make a)	1160	18-222	http://ids.clld.org/parameters/18-222	discours (faire une)	discursar	речь (сделать)	pronunciar un discurso	18	222	3209	MAKE A SPEECH
 Key-2016-1310-1161	silent (be)	1161	18-230	http://ids.clld.org/parameters/18-230	(rester) silencieux	ficar em silêncio	молчать	callarse	18	230	48	BE SILENT
 Key-2016-1310-1162	language	1162	18-240	http://ids.clld.org/parameters/18-240	langue, langage	língua	язык	lengua, idioma	18	240	1307	LANGUAGE
 Key-2016-1310-1163	word	1163	18-260	http://ids.clld.org/parameters/18-260	mot, parole	palavra	слово	palabra	18	260	1599	WORD
