@@ -18,6 +18,10 @@ from pyconcepticon.util import (
 )
 from pyconcepticon.glosses import concept_map, concept_map2
 
+CONCEPTLIST_ID_PATTERN = re.compile(
+    '(?P<author>[A-Za-z]+)-(?P<year>[0-9]+)-(?P<items>[0-9]+)(?P<letter>[a-z]?)$')
+REF_PATTERN = re.compile(':ref:(?P<id>[a-zA-Z0-9\-]+)')
+
 
 class Concepticon(API):
     """
@@ -254,6 +258,15 @@ class Bag(DataObject):
         return [n for n in cls.fieldnames() if not n.startswith('_')]
 
 
+def valid_conceptlist_id(instance, attribute, value):
+    if not instance.local:
+        if not CONCEPTLIST_ID_PATTERN.match(value):
+            raise ValueError('invalid {0}.{1}: {2}'.format(
+                instance.__class__.__name__,
+                attribute.name,
+                value))
+
+
 def valid_key(instance, attribute, value):
     vocabulary = None
     if isinstance(instance._api, Concepticon):
@@ -395,7 +408,7 @@ class Concept(Bag):
 @attr.s
 class Conceptlist(Bag):
     _api = attr.ib()
-    id = attr.ib()
+    id = attr.ib(validator=valid_conceptlist_id)
     author = attr.ib()
     year = attr.ib(convert=int)
     list_suffix = attr.ib()
