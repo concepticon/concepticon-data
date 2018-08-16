@@ -578,15 +578,15 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 577	FOREFINGER	The body	The finger between thumb and long finger.	Person/Thing	
 578	KISS	Emotions and values	To touch with the lips to express love or affection.	Action/Process	
 579	BATTLE	Warfare and hunting	An instance of combat in warfare between two or more parties wherein each group will seek to defeat the others.	Person/Thing	
-580	FUR	Clothing and grooming	The hair-covered, dressed pelt of a mammal, used in the making of garments and as trimming or decoration.	Person/Thing	
+580	FUR	The body	The body-hair of an animal or a piece of cothing made thereof.	Person/Thing	
 581	COME BACK	Motion	To go there where one was before.	Action/Process	
 582	LEND	Possession	To put an item or resource at the disposal of another, with the requirement to have the same or its equivalent returned eventually.	Action/Process	
 583	KIND OR POLITE	Emotions and values	Possessing charm and attractiveness.	Property	
-584	DIFFICULT	Cognition	Not easy, which needs hard work, patience and effort.	Property	
+584	DIFFICULT	Cognition	Not easy, which needs hard work, patience and effort of either the physical or mental kind.	Property	
 585	BOOT	Clothing and grooming	A shoe that covers part of the leg.	Person/Thing	
 586	GARDEN	Agriculture and vegetation	A piece of land next to a house where flowers and other plants are grown and which often has an area of grass.	Person/Thing	
 587	ANT	Animals	Any of the black, red, brown, or yellow insects of the family Formicidae characterized by a large head and by living in organized colonies.	Person/Thing	
-588	BROKEN	Basic actions and technology	Not capable of working.	Property	
+588	BROKEN	Basic actions and technology	Not capable of working or broken into pieces.	Property	
 589	CLOSED	Spatial relations	Inaccessible	Property	
 590	NAKED	The body	Without clothing.	Property	
 591	ADDRESS	Modern world	Direction or superscription of a letter, or the name, title, and place of residence of the person addressed.	Person/Thing	
@@ -670,7 +670,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 669	RODENT	Animals	Any of the relatively small placental mammals that constitute the order Rodentia, having constantly growing incisor teeth specialized for gnawing.	Person/Thing	
 670	ROOT	Agriculture and vegetation	The absorbing and anchoring organ of a vascular plant; it bears neither leaves nor flowers and is usually subterranean.	Person/Thing	
 671	SAND	The physical world	A loose material consisting of small mineral particles, or rock and mineral particles, distinguishable by the naked eye; grains vary from almost spherical to angular, with a diameter range from 1/16 to 2 millimeters.	Person/Thing	
-672	EARLY	Time	Towards the end of a time period. or before the expected time.	Property	
+672	EARLY	Time	Towards the end of a time period or before the expected time.	Property	
 673	SCHOOL	Cognition	An institution or building at which children and young people receive education.	Person/Thing	
 674	MOUTH	The body	Opening in the lower half of a human face which is used for food ingestion and articulation.	Person/Thing	
 675	FAECES (EXCREMENT)	The body	Substance that human and animal bodies release from time to time as a little pile of waste remaining from digestion, after it has been collected in the colon.	Person/Thing	
@@ -1086,7 +1086,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1085	FOLLOW	Motion	To go or come after (in physical space) someone or something.	Action/Process	
 1086	WORK (ACTIVITY)	Basic actions and technology	To do a specific task by employing physical or mental powers.	Action/Process	
 1087	CONCEIVE	The body	To become pregnant.	Action/Process	
-1088	SINK (DESCEND)	Motion	To go down in water.	Action/Process	
+1088	SINK (DESCEND)	Motion	To go down in water, mud, quicksand etc. or to cause something to go down in it.	Action/Process	
 1089	FRAXINUS	Agriculture and vegetation	Any of the trees belonging to the genus Fraxinus.	Person/Thing	
 1090	BE BORN	The body	To start living.	Action/Process	
 1091	SALTY	Sense perception	Containing salt.	Property	
@@ -1942,7 +1942,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1941	SOLDIER	Warfare and hunting	A person who is actively engaged in battle, conflict or warfare.	Person/Thing	
 1942	NEAR	Spatial relations	Not far distant in time or space or degree or circumstances.	Property	
 1943	CROWN (OF HEAD)	The body	A royal, imperial or princely headdress; a diadem.	Person/Thing	
-1944	GOD	Religion and belief	A supernatural, typically immortal being with superior powers.	Person/Thing	
+1944	GOD	Religion and belief	The deity of a monotheistic religion.	Person/Thing	
 1945	IDOL	Religion and belief	A representation of a deity, notably a statue or a statuette.	Person/Thing	
 1946	INITIATION CEREMONY	Religion and belief	A formal entry into an organization or position or office.	Person/Thing	
 1947	BASTARD	Kinship	A child born of parents not married to each other.	Person/Thing	
@@ -2136,7 +2136,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2135	TRADE OR BARTER	Possession	To exchange goods with or without exchanging money.	Action/Process	
 2136	BRASS INSTRUMENT (HORN OR TRUMPET)	Speech and language	Any musical instrument that is a member of the brass family of musical instruments, usually a horn or a trumpet.	Person/Thing	
 2137	MAGICIAN	Religion and belief	A perspon who practices magic.	Person/Thing	
-2138	LEGENDARY CREATURE	Religion and belief	A human or an animal described in non-historical or yet to be verified stories that sometimes involve the supernatural.	Person/Thing	
+2138	LEGENDARY CREATURE	Religion and belief	A human or an animal described in non-historical or yet to be verified stories that sometimes involve the supernatural.	Person/Thing	2641
 2139	MUROID (MOUSE OR RAT)	Animals	A large superfamily of rodents, including hamsters, gerbils, true mice and rats, and many other relatives.	Person/Thing	
 2140	DAY OR SUN	The physical world	Either the bright object at the sky that illuminates the earth completely, or the time when the object illuminates the earth.	Person/Thing	
 2141	TREE OR WOOD	Agriculture and vegetation	Either any  perennial plant with an elongated stem, or trunk, supporting branches and leaves, or the porous and vibrous structural tissue of which the stems of these plants consist.	Person/Thing	
@@ -2769,7 +2769,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2769	PORK	Food and drink	The edible flesh of pigs.	Person/Thing	
 2770	JACKET	Clothing and grooming	A mid-stomach–length garment for the upper body.	Person/Thing	
 2771	SHAWL	Clothing and grooming	A garment which is wrapped around the neck to prevent from cold.	Person/Thing	
-2772	VEGETABLE KNIFE	Food and drink	A knife for cutting vegetables and other things in the kitchen.	Person/Thing	
+2772	VEGETABLE KNIFE	Food and drink	A knife for cutting vegetables.	Person/Thing	
 2773	FINGERTIP	The body	The top of the finger.	Person/Thing	
 2774	LITTLE FINGER	The body	The smallest of the five fingers.	Person/Thing	
 2775	FORENOON	Time	The time before noon.	Person/Thing	
@@ -2902,7 +2902,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2905	KNIT	Basic actions and technology	Knitting is a method by which yarn is manipulated to create a textile or fabric for use in many types of garments.	Action/Process	
 2906	TRANSLATE	Basic actions and technology	To communicate of the meaning of a source-language text by means of an equivalent target-language text.	Action/Process	
 2907	ROT	Basic actions and technology	To be exposed to decomposition.	Action/Process	
-2908	SINK (DISAPPEAR IN WATER)	Basic actions and technology	To descend completely, leaving no trace in the surface.	Action/Process	
+2908	SINK (DISAPPEAR IN WATER)	Basic actions and technology	To go down in water, mud, quicksand etc.	Action/Process	
 2909	PREPARE	Basic actions and technology	To carry out things in advance to avoid to be later not able to do them.	Action/Process	
 2910	BACK (DIRECTION)	Spatial relations	The opposite direction from where one came.	Other	
 2911	BACKWARD	Spatial relations	A relative direction pointed to the back of an object.	Other	
@@ -3182,8 +3182,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3187	DROWNED	The body	To have perished by suffocation in water.	Property	
 3188	MIGHTY OR POWERFUL OR STRONG	Emotions and values	Holding much (political, social, ...) power or being done using a huge amount of energy or having great physical strength.	Property	
 3189	STAB TO DEATH	The body	To kill by stabbing with a knife.	Action/Process	
-3190	BROKEN OR SHATTERED	Basic actions and technology	Not capable of working or broken into pieces.	Property	
-3191	SHATTERED	Basic actions and technology	Broken into pieces.	Property	
+3190	BROKEN (NOT WORKING)	Basic actions and technology	Not capable of working.	Property	
+3191	BROKEN (SHATTERED)	Basic actions and technology	Broken into pieces.	Property	
 3192	BRONZE OR COPPER	The physical world	Chemical element with symbol Cu and atomic number 29 or an alloy made from it.	Person/Thing	
 3193	PAINT (WALL)	Basic actions and technology	To apply color to a wall.	Action/Process	
 3194	PAINT (WALL) OR PAINTING	Basic actions and technology	To apply color to a wall or to make a painting or drawing.	Action/Process	
@@ -3214,3 +3214,15 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3219	SPLASH OR SPRAY	Motion	To cause a liquid to spatter about [WN:365] or to cause it to fly through the air in small droplets.	Action/Process	
 3220	MATERNAL UNCLE	Kinship	A brother of someone's mother.	Person/Thing	
 3221	PLANTAGO	Agriculture and vegetation	A plant of the genus Plantago, with a rosette of sessile leaves about 10 cm long with a narrow part instead of a petiole, and with a spike inflorescence with the flower spacing varying widely among the species.	Person/Thing	
+3222	TWIG	Agriculture and vegetation	A branch that doesn't arise from the trunk but from another branch.	Person/Thing	
+3223	BRANCH OR TWIG	Agriculture and vegetation	A woody part of a tree arising from the trunk or from another branch.	Person/Thing	
+3224	WRING	Basic actions and technology	To take a cloth and twist its ends into different directions in order to dry it.	Action/Process	
+3225	SQUEEZE OR WRING	Basic actions and technology	To apply pressure from more than one side or to twist a cloth's ends into different directions.	Action/Process	
+3226	FASTEN OR SQUEEZE	Basic actions and technology	To close tightly or to apply pressure from more than one side.	Action/Process	
+3227	SPHERE	Spatial relations	Any spherical object.	Person/Thing	
+3228	BALL OR SPHERE	Spatial relations	An object, generally spherical, used for playing games, or any spherical object.	Person/Thing	
+3229	STINK	Sense perception	To emit an unpleasant odour.	Action/Process	
+3230	DECEIVE	Cognition	To cause someone to believe an untruth; to practice trickery or fraud.	Action/Process	
+3231	DEITY	Religion and belief	A supernatural, typically immortal being with superior powers.	Person/Thing	
+3232	PELT	Clothing and grooming	The hair-covered, dressed pelt of a mammal, used in the making of garments and as trimming or decoration.	Person/Thing	
+3233	KITCHEN KNIFE	Food and drink	A knife for cutting vegetables and other things in the kitchen.	Person/Thing	

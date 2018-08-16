@@ -61,7 +61,7 @@ Key-2016-1310-59	change	59	12-930	http://ids.clld.org/parameters/12-930	changer	
 Key-2016-1310-60	like, similar	60	12-920	http://ids.clld.org/parameters/12-920	semblable	parecido	похожий, подобный	semejante	12	920	1558	SIMILAR
 Key-2016-1310-61	line	61	12-840	http://ids.clld.org/parameters/12-840	ligne, rang	linha	линия	línea	12	840	1048	LINE
 Key-2016-1310-62	hole	62	12-850	http://ids.clld.org/parameters/12-850	trou	buraco	дыра	agujero	12	850	1667	HOLE
-Key-2016-1310-63	sphere, ball	63	12-830	http://ids.clld.org/parameters/12-830	sphère, ballon	esfera, bola	сфера, шар	pelota, esfera, globo	12	830	1845	BALL
+Key-2016-1310-63	sphere, ball	63	12-830	http://ids.clld.org/parameters/12-830	sphère, ballon	esfera, bola	сфера, шар	pelota, esfera, globo	12	830	3228	BALL OR SPHERE
 Key-2016-1310-64	round	64	12-810	http://ids.clld.org/parameters/12-810	rond	redondo	круглый	redondo	12	810	1395	ROUND
 Key-2016-1310-65	circle	65	12-820	http://ids.clld.org/parameters/12-820	cercle	círculo, roda	круг, окружность	círculo	12	820	1467	CIRCLE
 Key-2016-1310-66	square	66	12-780	http://ids.clld.org/parameters/12-780	carré	quadrado	квадрат	cuadrado	12	780	850	SQUARE
@@ -294,7 +294,7 @@ Key-2016-1310-292	broom	292	9-380	http://ids.clld.org/parameters/9-380	balai	vas
 Key-2016-1310-293	wash	293	9-360	http://ids.clld.org/parameters/9-360	laver	lavar	мыть	lavar	9	360	1453	WASH
 Key-2016-1310-294	sweep	294	9-370	http://ids.clld.org/parameters/9-370	balayer	varrer	мести	barrer	9	370	230	SWEEP
 Key-2016-1310-295	pour	295	9-350	http://ids.clld.org/parameters/9-350	verser	verter, despejar	лить, наливать	vaciar, verter, derramar	9	350	1487	POUR
-Key-2016-1310-296	squeeze, wring	296	9-343	http://ids.clld.org/parameters/9-343	presser	espremer, comprimir	выжимать	estrujar, exprimir	9	343	1414	SQUEEZE
+Key-2016-1310-296	squeeze, wring	296	9-343	http://ids.clld.org/parameters/9-343	presser	espremer, comprimir	выжимать	estrujar, exprimir	9	343	3225	SQUEEZE OR WRING
 Key-2016-1310-297	press	297	9-342	http://ids.clld.org/parameters/9-342	presser, appuyer	comprimir, apertar	нажимать, давить	apretar, oprimir	9	342	1913	PRESS
 Key-2016-1310-298	hang up	298	9-341	http://ids.clld.org/parameters/9-341	suspendre	pendurar	повесить	colgar	9	341	357	HANG UP
 Key-2016-1310-299	spread out	299	9-340	http://ids.clld.org/parameters/9-340	étaler, éparpiller	estender, espalhar	распространять, распростроняться	extender, esparcir	9	340	38	SPREAD OUT
@@ -304,7 +304,7 @@ Key-2016-1310-302	rub, wipe	302	9-310	http://ids.clld.org/parameters/9-310	frott
 Key-2016-1310-303	flay, skin	303	9-290	http://ids.clld.org/parameters/9-290	écorcher	esfolar	сдирать кожу	desollar	9	290	291	PULL OFF (SKIN)
 Key-2016-1310-304	tear	304	9-280	http://ids.clld.org/parameters/9-280	déchirer	romper, rasgar	рвать	romper, rasgar	9	280	1735	TEAR (SHRED)
 Key-2016-1310-305	split	305	9-270	http://ids.clld.org/parameters/9-270	fendre	fender, partir	расколоть	hender, partir	9	270	1437	SPLIT
-Key-2016-1310-306	broken	306	9-261	http://ids.clld.org/parameters/9-261	brisé, cassé	partido, quebrado	сломанный, разбитый	quebrado	9	261	3190	BROKEN OR SHATTERED
+Key-2016-1310-306	broken	306	9-261	http://ids.clld.org/parameters/9-261	brisé, cassé	partido, quebrado	сломанный, разбитый	quebrado	9	261	588	BROKEN
 Key-2016-1310-307	break	307	9-260	http://ids.clld.org/parameters/9-260	casser, briser	romper, quebrar	разбивать	quebrar	9	260	680	BREAK (DESTROY OR GET DESTROYED)
 Key-2016-1310-308	ax	308	9-250	http://ids.clld.org/parameters/9-250	hache	machado	топор	hacha	9	250	677	AXE
 Key-2016-1310-309	adze	309	9-251	http://ids.clld.org/parameters/9-251	herminette	enxó	тесло	azuela	9	251	290	ADZE
@@ -358,7 +358,7 @@ Key-2016-1310-356	oak	356	8-610	http://ids.clld.org/parameters/8-610	chêne	carv
 Key-2016-1310-357	tree	357	8-600	http://ids.clld.org/parameters/8-600	arbre	árvore	дерево	árbol	8	600	906	TREE
 Key-2016-1310-358	flower	358	8-570	http://ids.clld.org/parameters/8-570	fleur	flor	цветок	flor	8	570	239	FLOWER
 Key-2016-1310-359	leaf	359	8-560	http://ids.clld.org/parameters/8-560	feuille	folha	лист	hoja	8	560	628	LEAF
-Key-2016-1310-360	branch	360	8-550	http://ids.clld.org/parameters/8-550	branche, rameau	ramo, galho	ветка	rama	8	550	1531	BRANCH
+Key-2016-1310-360	branch	360	8-550	http://ids.clld.org/parameters/8-550	branche, rameau	ramo, galho	ветка	rama	8	550	3223	BRANCH OR TWIG
 Key-2016-1310-361	root	361	8-540	http://ids.clld.org/parameters/8-540	racine	raiz	корень	raíz	8	540	670	ROOT
 Key-2016-1310-362	plant (vb)	362	8-531	http://ids.clld.org/parameters/8-531	planter	plantar, semear	выращивать	plantar, sembrar	8	531	1486	PLANT (SOMETHING)
 Key-2016-1310-363	hay	363	8-520	http://ids.clld.org/parameters/8-520	foin	palha, feno	сено	heno, paja	8	520	342	HAY
