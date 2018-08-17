@@ -35,6 +35,8 @@ def check(api=None):
             return  # pragma: no cover
         api = Concepticon(REPOS_PATH)
 
+    assert api.retirements
+
     # We collect all cite keys used to refer to references.
     all_refs = set()
     refs_in_bib = set(ref for ref in api.bibliography)

@@ -89,6 +89,10 @@ class Concepticon(API):
         return jsonlib.load(self.data_path('sources', 'cdstar.json'))
 
     @lazyproperty
+    def retirements(self):
+        return jsonlib.load(self.data_path('retired.json'))
+
+    @lazyproperty
     def bibliography(self):
         """
         :returns: `dict` mapping BibTeX IDs to `Reference` instances.
