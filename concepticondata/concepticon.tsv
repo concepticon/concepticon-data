@@ -6,7 +6,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 5	GAZELLE	Animals	An antelope of the genus Gazella mostly native to Africa and capable of running at high speeds for long periods.	Person/Thing	
 6	EARTHQUAKE	The physical world	The violent shaking of the ground produced by deep seismic waves, originating from the epicentre.	Person/Thing	
 7	GATHER	Spatial relations	To collect or gather (e.g. work, magazines, etc.).	Action/Process	
-8	CURSE	Religion and belief	To wish for evil or misfortune to befall someone or something.	Action/Process	
+8	CURSE	Religion and belief	To imprecate evil or misfortune upon someone or something, usually by means of a prayer or implication.	Action/Process	
 9	ANNOUNCE	Speech and language	To make known by stating or announcing.	Action/Process	
 10	FIREWOOD	The physical world	Wood intended to be burned.	Person/Thing	
 11	DARKNESS	The physical world	Absence of light.	Person/Thing	
@@ -97,7 +97,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 96	CRAWL	Motion	To move using ones hands and knees.	Action/Process	
 97	THROUGH	Miscellaneous function words	From one side of an opening to the other.	Other	
 98	ALL	Quantity	The totality of.	Other	
-99	HUNCHBACK	Spatial relations	A person whose back is hunched because of abnormal curvature of the upper spine.	Person/Thing	
+99	HUNCHBACK	The body	A person whose back is hunched because of abnormal curvature of the upper spine.	Person/Thing	
 100	FAITHFUL	Emotions and values	Steadfast in affection.	Property	
 101	BOAST	Speech and language	To show off.	Action/Process	
 102	COMMON COLD (DISEASE)	The body	A contagious, viral infectious disease of the upper respiratory system; common symptoms include cough, sore throat, runny nose, nasal congestion and sneezing.	Person/Thing	
@@ -153,7 +153,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 152	HOOF	The body	Natural horn covering of an animal's foot.	Person/Thing	
 153	GREY	Sense perception	Having a colour between black and white, like ash or stone.	Property	
 154	UDDER	The body	An organ in female quadruped mammals which consists of mammary glands and has several teats.	Person/Thing	
-155	CHOP	Basic actions and technology	To cut meat, vegetables or fruits in very small pieces.	Action/Process	
+155	CHOP	Basic actions and technology	To cut or fell with an axe.	Action/Process	
 156	RED	Sense perception	Having red as its colour.	Property	
 157	DYE	Clothing and grooming	To modify the color of something by applying dye.	Action/Process	
 158	PUT ON	Clothing and grooming	To put clothes onto ones body to wear them.	Action/Process	
@@ -365,7 +365,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 364	SMEAR	Basic actions and technology	To spread (a substance) across a surface by rubbing.	Action/Process	
 365	SPLASH	Motion	To cause a liquid to spatter about. [WN:365]	Action/Process	
 366	LIMP	Motion	To walk lamely, as if favouring one leg.	Action/Process	
-367	RIDE	Motion	To transport oneself by sitting on and directing a horse (or later: bicycle)	Action/Process	
+367	RIDE	Motion	To transport oneself by sitting on and directing a horse.	Action/Process	
 368	SLEDGE	Motion	A low sled drawn by animals, typically on snow, ice or grass.	Person/Thing	16
 369	OWE	Possession	To be under an obligation to give something back to someone or to perform some action for someone; to have debt.	Action/Process	
 370	BARTER	Possession	To exchange goods without involving money.	Action/Process	
@@ -489,7 +489,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 488	MANNER	Cognition	Way of performing or effecting anything.	Person/Thing	
 489	KIDNEY	The body	An organ in the body that produces urine.	Person/Thing	
 490	DESCENDANTS	Kinship	One who is the progeny of someone at any distance of time.	Person/Thing	
-491	CENTER	Spatial relations	What's in the mid of a plane or sphere.	Person/Thing	
+491	CENTER	Spatial relations	What's in the mid of a plane or sphere, i.e. in 2- or 3-dimensional space.	Person/Thing	
 492	THREE	Quantity	The third natural number (3).	Number	
 493	FIVE	Quantity	The fifth natural number (5).	Number	
 494	FLIRT	Emotions and values	To talk or behave amorously, without serious intentions.	Action/Process	
@@ -524,7 +524,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 523	BACK OF HEAD	The body	The back part of the head.	Person/Thing	
 524	BARBEL	Animals	European freshwater fish belonging to the family of carps (Cyprinidae), Genus of barbus.	Person/Thing	
 525	BLOOD VESSEL	The body	The blood vessels are the part of the circulatory system that transports blood throughout the human body.	Person/Thing	
-526	HOWL	Speech and language	To cry like a wolf.	Action/Process	
+526	HOWL	Speech and language	To cry like a wolf, dog, or other canids.	Action/Process	
 527	DOG-ROSE	Agriculture and vegetation	The dog-rose (rosa canina) is a variable climbing wild rose species native to Europe, northwest Africa and western Asia and whose fruit is known as hip.	Person/Thing	
 528	DREADFUL	Emotions and values	Causing dread; very bad.	Property	
 529	FLANK	Warfare and hunting	The extreme left or right edge of a military formation, army etc.	Person/Thing	
@@ -578,7 +578,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 577	FOREFINGER	The body	The finger between thumb and long finger.	Person/Thing	
 578	KISS	Emotions and values	To touch with the lips to express love or affection.	Action/Process	
 579	BATTLE	Warfare and hunting	An instance of combat in warfare between two or more parties wherein each group will seek to defeat the others.	Person/Thing	
-580	FUR	The body	The body-hair of an animal or a piece of cothing made thereof.	Person/Thing	
+580	FUR	The body	The body-hair of an animal (excluding humans) or a piece of cothing made thereof.	Person/Thing	
 581	COME BACK	Motion	To go there where one was before.	Action/Process	
 582	LEND	Possession	To put an item or resource at the disposal of another, with the requirement to have the same or its equivalent returned eventually.	Action/Process	
 583	KIND OR POLITE	Emotions and values	Possessing charm and attractiveness.	Property	
@@ -670,7 +670,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 669	RODENT	Animals	Any of the relatively small placental mammals that constitute the order Rodentia, having constantly growing incisor teeth specialized for gnawing.	Person/Thing	
 670	ROOT	Agriculture and vegetation	The absorbing and anchoring organ of a vascular plant; it bears neither leaves nor flowers and is usually subterranean.	Person/Thing	
 671	SAND	The physical world	A loose material consisting of small mineral particles, or rock and mineral particles, distinguishable by the naked eye; grains vary from almost spherical to angular, with a diameter range from 1/16 to 2 millimeters.	Person/Thing	
-672	EARLY	Time	Towards the end of a time period or before the expected time.	Property	
+672	EARLY	Time	Before the expected time or towards the beginning of a time period.	Property	
 673	SCHOOL	Cognition	An institution or building at which children and young people receive education.	Person/Thing	
 674	MOUTH	The body	Opening in the lower half of a human face which is used for food ingestion and articulation.	Person/Thing	
 675	FAECES (EXCREMENT)	The body	Substance that human and animal bodies release from time to time as a little pile of waste remaining from digestion, after it has been collected in the colon.	Person/Thing	
@@ -853,8 +853,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 852	PRIEST	Religion and belief	A minister of the Catholic church empowered to administer the sacraments, most particularly that of the Eucharist or Holy Communion, as well as those of confession and extreme unction.	Person/Thing	
 853	ALTAR	Religion and belief	Table for religious ceremonies.	Person/Thing	
 854	KETTLE	Food and drink	A metal container used to boil any kind of liquid.	Person/Thing	
-855	SEIZE	Possession	To take possession of by force or authority.	Action/Process	
-856	HIRE	Possession	To employ a person.	Action/Process	
+855	SEIZE	Possession	To grasp and hold firmly.	Action/Process	
+856	HIRE	Possession	To employ a person or people in exchange of some kind of remuneration, usually a payment.	Action/Process	
 857	STONE	The physical world	A general term for rock that is used in construction, either crushed for use as aggregate or cut into shaped blocks as dimension stone.	Person/Thing	
 858	STORM	The physical world	An atmospheric disturbance involving perturbations of the prevailing pressure and wind fields on scales ranging from tornadoes to extratropical cyclones; also the associated weather and the like. (Source: MGH)	Person/Thing	
 859	STOVE	The house	A chamber within which a fuel-air mixture is burned to provide heat, the heat itself being radiated outward from the chamber; used for space heating, process-fluid heating, and steel blast furnaces.	Person/Thing	
@@ -996,12 +996,12 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 995	QUIVER	Warfare and hunting	A container for arrows, crossbow bolts or darts, such as those fired from a bow, crossbow or blowgun.	Person/Thing	52
 996	DEAF	The body	Not having the faculty of hearing, or only having a restricted capability to hear.	Property	
 997	BAOBAB TREE	Agriculture and vegetation	Genus of big trees (Adansonia) from the mallow family, growing in tropical countries	Person/Thing	
-998	PUT	Spatial relations	To set or place an object somehwere.	Action/Process	
+998	PUT	Spatial relations	To set or place an object somewhere.	Action/Process	
 999	JOINT	The body	Any part of the body where two bones join.	Person/Thing	
 1000	ANXIETY	Emotions and values	An unpleasant complex combination of emotions that includes fear, apprehension and worry, and is often accompanied by physical sensations such as palpitations, nausea, chest pain and/or shortness of breath.	Person/Thing	
 1001	BLACKSMITH	Basic actions and technology	A craftsman expert in iron and other metals work.	Person/Thing	
 1002	STATUE	Basic actions and technology	A three-dimension work of art, usually of a person or animal, usually created by sculpting, carving, moulding, or casting.	Person/Thing	
-1003	PERMIT	Social and political relations	To give permission to an action or to not try to stop someone from doing it.	Action/Process	
+1003	PERMIT	Social and political relations	To give permission to an action.	Action/Process	
 1004	MUSCLE	The body	An organ formed by contractile tissue that moves other organs.	Person/Thing	
 1005	TWINS	Kinship	A case of multiple birth in which the mother gives birth to two offspring from the same pregnancy.	Person/Thing	
 1006	BRICK	The house	A building material usually made from clay, molded as a rectangular block, and baked or burned in a kiln.	Person/Thing	
@@ -1045,7 +1045,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1044	PILLOW	The house	Cushion placed under the head for sleeping.	Person/Thing	
 1045	POET	Speech and language	A person who writes poems.	Person/Thing	
 1046	SHUT	Spatial relations	To move (a door, a window, etc.) so that it closes its opening.	Action/Process	
-1047	PURSUE	Motion	Trying to achieve, to catch or to reach something or someone.	Action/Process	
+1047	PURSUE	Motion	Trying to achieve, to catch, or to reach something or someone.	Action/Process	
 1048	LINE	Spatial relations	An infinitely long, infinitely thin, not bent line in geometry.	Person/Thing	
 1049	MOLAR TOOTH	The body	A tooth located in the back of the mouth used for crushing and grinding food.	Person/Thing	
 1050	MOTHER-IN-LAW	Kinship	The mother of someone's spouse.	Person/Thing	
@@ -1082,7 +1082,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1081	BILL	Possession	Sum owed in a restaurant, or the relative bill.	Person/Thing	
 1082	MERCHANT	Possession	A businessperson engaged in trade.	Person/Thing	
 1083	MESS	The physical world	A state of confusion and disorderliness.	Person/Thing	
-1084	CALL	Speech and language	To ask or order someone to come.	Action/Process	
+1084	CALL	Speech and language	To address or summon someone.	Action/Process	
 1085	FOLLOW	Motion	To go or come after (in physical space) someone or something.	Action/Process	
 1086	WORK (ACTIVITY)	Basic actions and technology	To do a specific task by employing physical or mental powers.	Action/Process	
 1087	CONCEIVE	The body	To become pregnant.	Action/Process	
@@ -1114,7 +1114,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1113	WRAP	Motion	To surround on all sides.	Action/Process	
 1114	BULLET	Warfare and hunting	A projectile, usually of metal, shot from a gun at high speed.	Person/Thing	
 1115	SPEECH	Speech and language	An address or form of oral communication in which a speaker makes his thoughts and emotions known before an audience, often for a given purpose. (Source: RHW)	Person/Thing	
-1116	DAMAGE	Possession	To put a thing in bad condition by making it suffer some damage.	Action/Process	
+1116	DAMAGE	Possession	To put a thing in bad condition by causing damage to it.	Action/Process	
 1117	LIKE	Emotions and values	To enjoy, be in favor/favour of.	Action/Process	
 1118	ACCUSTOM	Basic actions and technology	Avoir l'habitude.	Action/Process	
 1119	DIVIDE	Spatial relations	To split or separate something into two or more parts.	Action/Process	
@@ -1136,7 +1136,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1135	KICK	Motion	To strike somebody or something with the foot.	Action/Process	
 1136	RABBIT	Animals	One of several small mammals of the family Leporidae, with long ears, long hind legs and a short, fluffy tail.	Person/Thing	
 1137	TENDON	The body	Tissue that connects muscle to bone.	Person/Thing	
-1138	FAIRY	Religion and belief	one of a class of female supernatural beings, generally conceived as having a diminutive human form and possessing magical powers.	Person/Thing	
+1138	FAIRY	Religion and belief	One of a class of female supernatural beings, generally conceived as having a diminutive human form and possessing magical powers.	Person/Thing	
 1139	LEOPARD	Animals	A large wild cat with a spotted coat, Panthera pardus, indigenous to Africa and Asia.	Person/Thing	
 1140	FATIGUE	The body	A state of physical and/or mental weakness and a lack of vigor.	Person/Thing	
 1141	PITY	Emotions and values	Deep awareness of the suffering of another, coupled with the wish to relieve it.	Person/Thing	
@@ -1190,7 +1190,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1189	ULCER	The body	An open sore of the skin, eyes or mucous membrane, often caused by an initial abrasion and generally maintained by an inflammation and/or an infection.	Person/Thing	
 1190	HARE	Animals	Mammal of the family hares and rabbits (Leporidae) with long ears, short tail and hindlegs which are shorter than the forelegs and permit running quickly.	Person/Thing	
 1191	COOKED RICE	Food and drink	Boiled rice.	Person/Thing	
-1192	THREATEN	Speech and language	To utter intentions of injury or punishment against. [WN:1192]	Action/Process	
+1192	THREATEN	Speech and language	To make a threat of injury or punishment against someone.	Action/Process	
 1193	STEAM	The physical world	The gas phase of water.	Person/Thing	
 1194	BEAVER	Animals	A mammal of the genus Castor, having a wide, flat tail and webbed feet.	Person/Thing	
 1195	GIVE BIRTH	Kinship	To release an offspring from one's own body; to cause to be born.	Action/Process	
@@ -1365,7 +1365,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1364	HEALTHY	The body	In good physical and mental condition; free from disease.	Property	
 1365	KITCHEN	The house	A room equipped for preparing and cooking food.	Person/Thing	
 1366	BOY	Kinship	A young male person, usually a child or teenager.	Person/Thing	
-1367	CROSS	Spatial relations	A geometrical figure consisting of two straight lines or bars bisecting each other, or anything of similar shape.	Person/Thing	
+1367	CROSS	Spatial relations	A geometrical figure consisting of two straight lines or bars bisecting each other, or any figure or object of similar shape.	Person/Thing	
 1368	BREAD	Food and drink	A common food made mainly from flour, water and yeast and produced by kneading and baking a dough.	Person/Thing	
 1369	GOLD	Basic actions and technology	A heavy yellow elemental metal of great value, with atomic number 79 and symbol Au.	Person/Thing	
 1370	MONTH	Time	A period into which a year is divided, historically based on the phases of the moon. In the Gregorian calendar there are twelve months.	Person/Thing	
@@ -1673,7 +1673,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1672	WRITE	Speech and language	To form (letters, words or symbols) on a surface in order to communicate.	Action/Process	
 1673	ARM	The body	The upper limb, extending from the shoulder to the wrist and sometimes including the hand.	Person/Thing	
 1674	POOR	Possession	With little or no possessions or money.	Property	
-1675	PROMISE	Speech and language	To assure someone that one will do something or that something will happen.	Action/Process	
+1675	PROMISE	Speech and language	To commit to doing something or assure that something will happen.	Action/Process	
 1676	ALWAYS	Time	At all times.	Other	
 1677	WORKSHOP	Modern world	a room or building in which work, especially mechanical work, is carried on.	Person/Thing	
 1678	HUT	The house	a simple roofed shelter, often with one  open side.	Person/Thing	
@@ -1723,7 +1723,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1722	EIGHTY	Quantity	The cardinal number occurring after seventy-nine and before eighty-one, represented in Roman numerals as LXXX and in Arabic numerals as 80.	Number	
 1723	RESULT IN	Cognition	Having a specific result, a logical consequence.	Action/Process	
 1724	NINETY	Quantity	The cardinal number occurring after eighty-nine and before ninety-one, represented in Roman numerals as XC and in Arabic numerals as 90.	Number	
-1725	CORRECT (RIGHT)	Emotions and values	To be in accordance with fact.	Property	
+1725	CORRECT (RIGHT)	Emotions and values	To be in accordance with expectations.	Property	
 1726	WET	Sense perception	Covered with or impregnated with liquid.	Property	
 1727	THRESHOLD	The house	The bottom-most part of a doorway that one crosses to enter; a sill.	Person/Thing	
 1728	ROTTEN	Food and drink	Having changed its colour, smell or composition (partially or completely), due to being attacked and decomposed by microorganisms (relating to organic matter).	Property	
@@ -1787,7 +1787,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1786	DRY UP	Basic actions and technology	To lose moisture, usually through evaporation or absorption.	Action/Process	
 1787	LOOM	Clothing and grooming	A frame or machine (made of wood or other material) in which a weaver forms cloth out of thread; a machine for interweaving yarn or threads into a fabric.	Person/Thing	
 1788	TELEVISION	Modern world	A device for receiving television signals and displaying them in visual form.	Person/Thing	
-1789	AGE	Time	The amount of time that a person, animal or plant has lived.	Person/Thing	
+1789	AGE	Time	The amount of time that a person, animal or plant has lived or that an object has existed.	Person/Thing	
 1790	LICENSE PLATE	Modern world	Metal sheet for alphanumerical identification of vehicles, on their front and/or rear parts.	Person/Thing	
 1791	BUTTERFLY	Animals	A lepidopteran that is active at day	Person/Thing	
 1792	PERJURY	Law	The deliberate giving of false or misleading testimony under oath.	Person/Thing	
@@ -1930,7 +1930,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1929	STUDY	Cognition	To follow a course of study; to be enrolled at an institute of learning.	Action/Process	
 1930	RAVINE	The physical world	A deep narrow valley or gorge in the earth's surface worn by running water.	Person/Thing	
 1931	BEESWAX	Animals	a yellowish or dark brown wax secreted by honeybees for constructing honeycombs.	Person/Thing	
-1932	GUESS	Cognition	To make a surmise.	Action/Process	
+1932	GUESS	Cognition	To suppose, to estimate or to make a surmise.	Action/Process	
 1933	LOOSEN	Basic actions and technology	To make undone or untied ; to free from any fastening.	Action/Process	
 1934	BEGGAR	Possession	A person who begs.	Person/Thing	
 1935	ANUS	The body	The lower opening of the digestive tract, through which faeces pass.	Person/Thing	
@@ -2061,7 +2061,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2060	STORY	Speech and language	A retelling of real or fictive events.	Person/Thing	
 2061	BUDDHA	Religion and belief	One who has purified obscurations (སངས) and developed pristine cognition (རྒྱས).	Person/Thing	
 2062	INTEREST	Possession	A sum paid or charged for the use of money or for borrowing money over a given time period.	Person/Thing	
-2063	CLOSE (EYES)	Basic actions and technology	Move ones eyes in such a way that they are no longer visible.	Action/Process	
+2063	CLOSE (EYES)	Basic actions and technology	Move ones eyelids in such a way that the eyes are no longer visible.	Action/Process	
 2064	SCATTER (SEEDS)	Basic actions and technology	To distribute seeds over a field.	Action/Process	
 2065	STEP (VERB)	Basic actions and technology	To move the foot in walking; to advance or recede by raising and moving one of the feet to another resting place, or by moving both feet in succession.	Action/Process	
 2066	PULL UP (RICE SEEDLINGS)	Basic actions and technology		Action/Process	
@@ -2115,7 +2115,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2114	BELLY OR STOMACH	The body	The lower part of the front of the torso, including the interior part below.	Person/Thing	
 2115	CEASE OR FINISH	Basic actions and technology	To stop doing something, voluntarily or involuntarily.	Action/Process	
 2116	REST OR SLEEP	Basic actions and technology	Lie down or sleep.	Action/Process	
-2117	DESIRE	Emotions and values	To have affection for someone or to want to do something or to wish for something to happen.	Action/Process	
+2117	DESIRE	Emotions and values	To want to do something, to wish for something to happen, or to have affection for someone.	Action/Process	
 2118	MOUNTAIN OR HILL	The physical world	A small or big rise in the surface of the earth.	Person/Thing	
 2119	BOW STRING	Basic actions and technology	The string of a bow used to hunt.	Person/Thing	
 2120	FINGER OR TOE	The body	Limb of the human body found in the hands and foots of humans and primates.	Person/Thing	
@@ -2247,7 +2247,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2246	BELL	Basic actions and technology	A simple sound-making device.	Person/Thing	
 2247	CATERPILLAR	Animals	The larvae of members of the order Lepidoptera (the insect order comprising butterflies and moths).	Person/Thing	
 2248	KNOW (SOMEBODY)	Cognition	To have met and recognize somebody.	Action/Process	
-2249	THIN (OF SHAPE OF OBJECT)	Spatial relations	Being very narrow (of flat or long objects).	Property	
+2249	THIN (OF SHAPE OF OBJECT)	Spatial relations	Being narrow (of flat or long objects).	Property	
 2250	LEAF (LEAFLIKE OBJECT)	Spatial relations	An object that is similar in shape to the leaves of a tree, such as a sheet of paper.	Person/Thing	
 2251	BEER BANANA	Agriculture and vegetation	Triploid banana cultivars originating from the African Great Lakes region.	Person/Thing	
 2252	PATH	Motion	A narrow piece of ground that people can walk along.	Person/Thing	
@@ -2306,7 +2306,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2305	THIN (OF HAIR AND THREAD)	Spatial relations	Being very narrow (of long objects, like hairs or wires).	Property	
 2306	THIN (OF LEAF AND CLOTH)	Spatial relations	Being very narrow (of flat objects, like leaves or cloth).	Property	
 2307	THIN (OF HAIR AND LEAF)	Spatial relations	Being very narrow (of flat or long objects).	Property	2249
-2308	THIN	Spatial relations	Being very narrow or carrying a very small amount of fat.	Property	
+2308	THIN	Spatial relations	Being narrow or carrying a small amount of fat.	Property	
 2309	LIVE	The body	To be alive; to have a life.	Action/Process	1422
 2310	US (OBLIQUE CASE OF WE)	Kinship	Oblique case of the first person plural pronoun.	Other	
 2311	WOODS	The physical world	A vegetation community dominated by trees and other woody shrubs, growing close enough together that the tree tops touch or overlap, creating various degrees of shade on the forest floor.	Person/Thing	420
@@ -3185,27 +3185,27 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3190	BROKEN (NOT WORKING)	Basic actions and technology	Not capable of working.	Property	
 3191	BROKEN (SHATTERED)	Basic actions and technology	Broken into pieces.	Property	
 3192	BRONZE OR COPPER	The physical world	Chemical element with symbol Cu and atomic number 29 or an alloy made from it.	Person/Thing	
-3193	PAINT (WALL)	Basic actions and technology	To apply color to a wall.	Action/Process	
-3194	PAINT (WALL) OR PAINTING	Basic actions and technology	To apply color to a wall or to make a painting or drawing.	Action/Process	
-3195	DAMAGE OR INJURE	Possession	To put a thing in bad condition by making it suffer some damage or to cause physical harm to a living creature.	Action/Process	
-3196	BE LEFT	Spatial relations	To continue to be in the same place after others have left or been removed.	Property	
+3193	CROSSBOW	Warfare and hunting	A weapon based on the bow, consisting of a bow mounted on a stock.	Person/Thing	
+3194	PAINT (SOMETHING) OR PAINTING	Basic actions and technology	To apply color to a wall or to make a painting or drawing.	Action/Process	
+3195	DAMAGE OR INJURE	Possession	To put a thing in bad condition by causing damage to it or to cause physical harm to a living creature.	Action/Process	
+3196	BE LEFT	Spatial relations	To remain in the same place after others have left or been removed.	Property	
 3197	SUSPICION	Cognition	An assumption without direct evidence.	Person/Thing	
 3198	NOTHING OR ZERO	Miscellaneous function words	Not anything or the cardinal number that denotes no quantity or amount at all.	Other	
-3199	GUESS (SUCCESSFULLY)	Cognition	To succeed to know, or discover, by way of surmises.	Action/Process	
+3199	TWIST (AROUND)	Motion	To wind something around something else.	Action/Process	
 3200	COUNTRYSIDE	The physical world	The region outside of a city or town.	Person/Thing	
 3201	HINDER OR PREVENT	Social and political relations	To make it difficult for something to occur or to fully stop it from occurring.	Action/Process	
 3202	CANNON	Warfare and hunting	A bullet firing weapon mounted on a carriage.	Person/Thing	
 3203	CANNON OR GUN	Warfare and hunting	A bullet-firing weapon mounted on a carriage or to be held in the hands or arms.	Person/Thing	
 3204	INSULT	Social and political relations	To use swear-words towards someone.	Action/Process	
 3205	GRAVEN IMAGE	Religion and belief	A representation of a deity who is considered to be false.	Person/Thing	
-3206	ELF OR FAIRY	Religion and belief	A human-like, often youthful-looking being with supernatural powers.	Person/Thing	
+3206	ELF OR FAIRY	Religion and belief	A mythical being similar to but distinct from human, related to nature, and usually with supernatural or magic powers.	Person/Thing	
 3207	GO UP OR RISE (ONESELF)	Motion	To move from a lower to a higher position or to get up from a lying, sitting, or kneeling position.	Action/Process	
 3208	CENTER OR MIDDLE	Spatial relations	What's in the mid of a plane or sphere or equally far away from two ends.	Person/Thing	
 3209	MAKE A SPEECH	Speech and language	To give a speech in front of an audience	Action/Process	
 3210	KNIFE (FOR EATING)	Food and drink	A knife used while eating food.	Person/Thing	
 3211	HOPE (FAITH)	Emotions and values	The belief in the possibility that something one wants will happen.	Person/Thing	
 3212	HOPE (SOMETHING)	Emotions and values	To want something to happen.	Action/Process	
-3213	HIRE OR RENT	Social and political relations	To employ a person or to pay for using an object.	Action/Process	
+3213	HIRE OR RENT	Social and political relations	To employ a person or people in exchange of some kind of remuneration, usually a payment, or to pay for using an object.	Action/Process	
 3214	CRAWL OR CREEP	Motion	To move using ones hands and knees or in a prone position with the body resting on or close to the ground.	Action/Process	
 3215	CREEP	Motion	To move in a prone position with the body resting on or close to the ground.	Action/Process	
 3216	DRIP OR DROP SOMETHING	Motion	To fall in globules or small portions, as water or other liquid or to let something fall down.	Action/Process	
@@ -3220,9 +3220,14 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3225	SQUEEZE OR WRING	Basic actions and technology	To apply pressure from more than one side or to twist a cloth's ends into different directions.	Action/Process	
 3226	FASTEN OR SQUEEZE	Basic actions and technology	To close tightly or to apply pressure from more than one side.	Action/Process	
 3227	SPHERE	Spatial relations	Any spherical object.	Person/Thing	
-3228	BALL OR SPHERE	Spatial relations	An object, generally spherical, used for playing games, or any spherical object.	Person/Thing	
+3228	BOW OR CROSSBOW	Warfare and hunting	A weapon made of a curved piece of wood or other flexible material whose ends are connected by a string, used for shooting arrows, or a weapon based on it, consisting of a bow mounted on a stock.	Person/Thing	
 3229	STINK	Sense perception	To emit an unpleasant odour.	Action/Process	
 3230	DECEIVE	Cognition	To cause someone to believe an untruth; to practice trickery or fraud.	Action/Process	
 3231	DEITY	Religion and belief	A supernatural, typically immortal being with superior powers.	Person/Thing	
 3232	PELT	Clothing and grooming	The hair-covered, dressed pelt of a mammal, used in the making of garments and as trimming or decoration.	Person/Thing	
 3233	KITCHEN KNIFE	Food and drink	A knife for cutting vegetables and other things in the kitchen.	Person/Thing	
+3234	OPEN (EYES)	Basic actions and technology	Move ones eyelids in such a way that the eyes are visible.	Action/Process	
+3235	OPENED	Basic actions and technology	To be accessible and/or not closed.	Property	
+3236	TWIST (TOGETHER)	Motion	To wind several things around each other (e.g. in order to form a rope or thread).	Action/Process	
+3237	ALLOW OR PERMIT	Social and political relations	To give permission to an action or to not try to stop someone from doing it.	Action/Process	
+3238	ALLOW	Social and political relations	To not try to stop someone from doing something.		

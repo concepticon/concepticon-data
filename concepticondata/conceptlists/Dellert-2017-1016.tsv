@@ -713,7 +713,7 @@ Dellert-2017-1016-711	711	586	-0.081335	verschwinden	verschwinden::V	disappear	�
 Dellert-2017-1016-712	712	706	-0.014616	sinken	sinken::V	drop, descend	спадать	BSP:Wasserspiegel	EX:water level	понижаться, НАПР:об уровне воды	SINK (DESCEND)	1088	
 Dellert-2017-1016-713	713	878	-0.012607	abnehmen	abnehmen::V	decrease	уменьшиться	weniger werden	of quantity	стать меньше	DECREASE	2864	
 Dellert-2017-1016-714	714	874	-0.037772	zunehmen	zunehmen::V	increase	увеличиться	mehr werden	of quantity	в количестве	INCREASE	1041	
-Dellert-2017-1016-715	715	429	-1.144373	steigen	steigen::V	rise	подниматься	BSP:Wasserspiegel	EX:water level	НАПР:об уровне воды	RISE (MOVE UPWARDS)	568	
+Dellert-2017-1016-715	715	429	-1.144373	steigen	steigen::V	rise	подниматься	BSP:Wasserspiegel	EX:water level	НАПР:об уровне воды	GO UP (ASCEND)	705	
 Dellert-2017-1016-716	716	50	-2.286656	wachsen	wachsen::V	grow	расти	BSP:Pflanze	EX:of a plant	НАПР:о растении	GROW	479	
 Dellert-2017-1016-717	717	815	-0.088668	glänzen	glänzen::V	shine	блестеть	BSP:Metall, glänzende Oberfläche	EX:of metal, shiny surface	НАПР:о металле, поверхности			
 Dellert-2017-1016-718	718	1009	1.192674	funkeln	funkeln::V	sparkle, twinkle	сверкать	BSP:Stern, kleines Licht	EX:of star, little light	НАПР:о звезде, об огоньке	TWINKLE	2889	
@@ -940,7 +940,7 @@ Dellert-2017-1016-938	938	228	-1.13904	stehlen	stehlen::V	steal	украсть		
 Dellert-2017-1016-939	939	901	0.03309	stören	stören::V	disturb	помешать				DISTURB	2883	
 Dellert-2017-1016-940	940	966	0.025794	belästigen	belästigen::V	bother	беспокоить, потревожить				BOTHER (HARASS)	2869	
 Dellert-2017-1016-941	941	598	-0.061851	verbergen	verbergen::V	conceal	скрыть	BSP:eine Tatsache	EX:a fact	НАПР:факт	HIDE (CONCEAL)	602	
-Dellert-2017-1016-942	942	862	-0.096565	täuschen	täuschen::V	deceive	обмануть	in die Irre führen		ввести в заблуждение	DECEIVE	3230	
+Dellert-2017-1016-942	942	862	-0.096565	täuschen	täuschen::V	deceive	обмануть	in die Irre führen		ввести в заблуждение			
 Dellert-2017-1016-943	943	961	0.079686	betrügen	betrügen::V	cheat	смошенничать	BSP:jemanden um Geld	EX:someone of money		DECEIVE	3230	
 Dellert-2017-1016-944	944	76	-2.228426	töten	töten::V	kill	убить				KILL	1417	
 Dellert-2017-1016-945	945	324	-1.187722	wohnen	wohnen::V	dwell	проживать, жить				DWELL (LIVE, RESIDE)	363	

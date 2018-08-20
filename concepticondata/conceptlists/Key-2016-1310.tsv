@@ -61,7 +61,7 @@ Key-2016-1310-59	change	59	12-930	http://ids.clld.org/parameters/12-930	changer	
 Key-2016-1310-60	like, similar	60	12-920	http://ids.clld.org/parameters/12-920	semblable	parecido	похожий, подобный	semejante	12	920	1558	SIMILAR
 Key-2016-1310-61	line	61	12-840	http://ids.clld.org/parameters/12-840	ligne, rang	linha	линия	línea	12	840	1048	LINE
 Key-2016-1310-62	hole	62	12-850	http://ids.clld.org/parameters/12-850	trou	buraco	дыра	agujero	12	850	1667	HOLE
-Key-2016-1310-63	sphere, ball	63	12-830	http://ids.clld.org/parameters/12-830	sphère, ballon	esfera, bola	сфера, шар	pelota, esfera, globo	12	830	3228	BALL OR SPHERE
+Key-2016-1310-63	sphere, ball	63	12-830	http://ids.clld.org/parameters/12-830	sphère, ballon	esfera, bola	сфера, шар	pelota, esfera, globo	12	830	3227	SPHERE
 Key-2016-1310-64	round	64	12-810	http://ids.clld.org/parameters/12-810	rond	redondo	круглый	redondo	12	810	1395	ROUND
 Key-2016-1310-65	circle	65	12-820	http://ids.clld.org/parameters/12-820	cercle	círculo, roda	круг, окружность	círculo	12	820	1467	CIRCLE
 Key-2016-1310-66	square	66	12-780	http://ids.clld.org/parameters/12-780	carré	quadrado	квадрат	cuadrado	12	780	850	SQUARE
@@ -170,7 +170,7 @@ Key-2016-1310-168	thing	168	11-180	http://ids.clld.org/parameters/11-180	chose	c
 Key-2016-1310-169	keep, retain	169	11-170	http://ids.clld.org/parameters/11-170	garder, retenir	guardar, conservar	хранить	conservar, retener	11	170	1477	KEEP
 Key-2016-1310-170	get, obtain	170	11-160	http://ids.clld.org/parameters/11-160	obtenir	obter, conseguir	получать	obtener	11	160	694	GET
 Key-2016-1310-171	hold	171	11-150	http://ids.clld.org/parameters/11-150	tenir	segurar, agarrar	держать	tener (en mano), apoyar	11	150	1448	HOLD
-Key-2016-1310-172	seize, grasp	172	11-140	http://ids.clld.org/parameters/11-140	saisir, attraper	agarrar	хватать, схватить	agarrar, empuñar, coger, asir	11	140	2021	GRASP
+Key-2016-1310-172	seize, grasp	172	11-140	http://ids.clld.org/parameters/11-140	saisir, attraper	agarrar	хватать, схватить	agarrar, empuñar, coger, asir	11	140	855	SEIZE
 Key-2016-1310-173	take	173	11-130	http://ids.clld.org/parameters/11-130	prendre	tomar	брать	tomar, coger	11	130	1749	TAKE
 Key-2016-1310-174	own, possess	174	11-120	http://ids.clld.org/parameters/11-120	posséder	possuir	владеть	poseer, tener	11	120	684	OWN
 Key-2016-1310-175	have	175	11-110	http://ids.clld.org/parameters/11-110	avoir	ter	иметь	tener	11	110	773	HAVE
@@ -234,7 +234,7 @@ Key-2016-1310-232	creep, crawl	232	10-410	http://ids.clld.org/parameters/10-410	
 Key-2016-1310-233	blow	233	10-380	http://ids.clld.org/parameters/10-380	souffler	soprar	дуть	soplar	10	380	175	BLOW (OF WIND)
 Key-2016-1310-234	fly (vb)	234	10-370	http://ids.clld.org/parameters/10-370	voler	voar	летать	volar	10	370	1441	FLY (MOVE THROUGH AIR)
 Key-2016-1310-235	sail (vb)	235	10-360	http://ids.clld.org/parameters/10-360	naviguer	navegar	плыть под парусом	navegar	10	360	787	SAIL
-Key-2016-1310-236	splash	236	10-352	http://ids.clld.org/parameters/10-352	éclabousser	chapinhar	плескаться	salpicar	10	352	3219	SPLASH OR SPRAY
+Key-2016-1310-236	splash	236	10-352	http://ids.clld.org/parameters/10-352	éclabousser	chapinhar	плескаться	salpicar	10	352	365	SPLASH
 Key-2016-1310-237	dive	237	10-351	http://ids.clld.org/parameters/10-351	plonger	mergulhar	нырять	zambullirse	10	351	119	DIVE
 Key-2016-1310-238	swim	238	10-350	http://ids.clld.org/parameters/10-350	nager	nadar	плыть	nadar	10	350	1439	SWIM
 Key-2016-1310-239	float	239	10-340	http://ids.clld.org/parameters/10-340	flotter	flutuar	плыть по поверхности воды	flotar	10	340	1574	FLOAT
@@ -246,8 +246,8 @@ Key-2016-1310-244	throw	244	10-250	http://ids.clld.org/parameters/10-250	jeter	a
 Key-2016-1310-245	drip	245	10-240	http://ids.clld.org/parameters/10-240	s'égoutter	gotejar, escorrer	лить по каплям	gotear, escurrir	10	240	2253	DRIP (EMIT LIQUID)
 Key-2016-1310-246	fall	246	10-230	http://ids.clld.org/parameters/10-230	tomber	cair	падать	caer	10	230	1280	FALL
 Key-2016-1310-247	raise, lift	247	10-220	http://ids.clld.org/parameters/10-220	lever, élever	levantar, içar	поднимать	levantar	10	220	501	LIFT
-Key-2016-1310-248	rise	248	10-210	http://ids.clld.org/parameters/10-210	monter, se lever	subir	подниматься, восходить	ascender	10	210	705	GO UP (ASCEND)
-Key-2016-1310-249	twist	249	10-170	http://ids.clld.org/parameters/10-170	tordre	torcer	скручивать	torcer	10	170	430	TWIST
+Key-2016-1310-248	rise	248	10-210	http://ids.clld.org/parameters/10-210	monter, se lever	subir	подниматься, восходить	ascender	10	210	568	RISE (MOVE UPWARDS)
+Key-2016-1310-249	twist	249	10-170	http://ids.clld.org/parameters/10-170	tordre	torcer	скручивать	torcer	10	170	3199	TWIST (AROUND)
 Key-2016-1310-250	drop (vb)	250	10-160	http://ids.clld.org/parameters/10-160	laisser tomber	deixar cair	капать	dejar caer	10	160	2866	DROP (SOMETHING)
 Key-2016-1310-251	roll	251	10-150	http://ids.clld.org/parameters/10-150	rouler	rolar	вращать	rodar, arrollar, enrollar	10	150	827	ROLL
 Key-2016-1310-252	wind, wrap	252	10-140	http://ids.clld.org/parameters/10-140	enrouler, envelopper	envolver, enrolar	обертывать	enrollar, envolver	10	140	1113	WRAP
@@ -1101,7 +1101,7 @@ Key-2016-1310-1099	think (= be of the opinion)	1099	17-140	http://ids.clld.org/p
 Key-2016-1310-1100	believe	1100	17-150	http://ids.clld.org/parameters/17-150	croire	crer	верить	creer	17	150	1890	BELIEVE
 Key-2016-1310-1101	understand	1101	17-160	http://ids.clld.org/parameters/17-160	comprendre	compreender	понимать	entender	17	160	1536	UNDERSTAND
 Key-2016-1310-1102	know	1102	17-170	http://ids.clld.org/parameters/17-170	savoir	saber	знать	saber	17	170	1410	KNOW (SOMETHING)
-Key-2016-1310-1103	guess	1103	17-171	http://ids.clld.org/parameters/17-171	deviner	adivinhar, conjeturar	полагать	adivinar, acertar	17	171	3199	GUESS (SUCCESSFULLY)
+Key-2016-1310-1103	guess	1103	17-171	http://ids.clld.org/parameters/17-171	deviner	adivinhar, conjeturar	полагать	adivinar, acertar	17	171	3199	GUESS
 Key-2016-1310-1104	imitate	1104	17-172	http://ids.clld.org/parameters/17-172	imiter	imitar	имитировать	imitar	17	172	117	IMITATE
 Key-2016-1310-1105	seem	1105	17-180	http://ids.clld.org/parameters/17-180	sembler	parecer	казаться	parecer	17	180	1521	SEEM
 Key-2016-1310-1106	idea, notion	1106	17-190	http://ids.clld.org/parameters/17-190	idée	idéia	идея, понятие	idea, concepto	17	190	1609	IDEA
@@ -1158,7 +1158,7 @@ Key-2016-1310-1156	speak, talk	1156	18-210	http://ids.clld.org/parameters/18-210
 Key-2016-1310-1157	stutter, stammer	1157	18-211	http://ids.clld.org/parameters/18-211	bégayer, balbutier	gaguejar	заикаться, запинаться	tartamudear, balbucear	18	211	1866	STUTTER
 Key-2016-1310-1158	say	1158	18-220	http://ids.clld.org/parameters/18-220	dire	dizer	сказать	decir	18	220	1458	SAY
 Key-2016-1310-1159	tell story	1159	18-221	http://ids.clld.org/parameters/18-221	raconter, narrer	contar, relatar	рассказывать историю	narrar, contar	18	221	1711	TELL
-Key-2016-1310-1160	speech (make a)	1160	18-222	http://ids.clld.org/parameters/18-222	discours (faire une)	discursar	речь (сделать)	pronunciar un discurso	18	222	3209	MAKE A SPEECH
+Key-2016-1310-1160	speech (make a)	1160	18-222	http://ids.clld.org/parameters/18-222	discours (faire une)	discursar	речь (сделать)	pronunciar un discurso	18	222	1115	SPEECH
 Key-2016-1310-1161	silent (be)	1161	18-230	http://ids.clld.org/parameters/18-230	(rester) silencieux	ficar em silêncio	молчать	callarse	18	230	48	BE SILENT
 Key-2016-1310-1162	language	1162	18-240	http://ids.clld.org/parameters/18-240	langue, langage	língua	язык	lengua, idioma	18	240	1307	LANGUAGE
 Key-2016-1310-1163	word	1163	18-260	http://ids.clld.org/parameters/18-260	mot, parole	palavra	слово	palabra	18	260	1599	WORD
@@ -1207,7 +1207,7 @@ Key-2016-1310-1205	servant	1205	19-430	http://ids.clld.org/parameters/19-430	dom
 Key-2016-1310-1206	freeman	1206	19-440	http://ids.clld.org/parameters/19-440	homme libre	homem livre	свободный человек	hombre libre	19	440	384	FREEMAN
 Key-2016-1310-1207	command, order	1207	19-450	http://ids.clld.org/parameters/19-450	commander, ordonner	mandar, dar ordem	приказывать	mandar	19	450	1128	ORDER
 Key-2016-1310-1208	obey	1208	19-460	http://ids.clld.org/parameters/19-460	obéir	obedecer	повиноваться	obedecer	19	460	1635	OBEY
-Key-2016-1310-1209	let, permit	1209	19-470	http://ids.clld.org/parameters/19-470	permettre	deixar, permitir	разрешать	permitir, dejar	19	470	1003	PERMIT
+Key-2016-1310-1209	let, permit	1209	19-470	http://ids.clld.org/parameters/19-470	permettre	deixar, permitir	разрешать	permitir, dejar	19	470	3237	ALLOW OR PERMIT
 Key-2016-1310-1210	friend, companion	1210	19-510	http://ids.clld.org/parameters/19-510	ami, compagnon	amigo, companheiro	друг	amigo, compañero	19	510	1325	FRIEND
 Key-2016-1310-1211	enemy	1211	19-520	http://ids.clld.org/parameters/19-520	ennemi	inimigo	враг	enemigo	19	520	1358	ENEMY
 Key-2016-1310-1212	neighbor	1212	19-540	http://ids.clld.org/parameters/19-540	voisin	vizinho	сосед	vecino	19	540	1332	NEIGHBOUR
@@ -1303,7 +1303,7 @@ Key-2016-1310-1301	fast (vb)	1301	22-260	http://ids.clld.org/parameters/22-260	j
 Key-2016-1310-1302	heaven	1302	22-310	http://ids.clld.org/parameters/22-310	ciel, cieux	céu	небеса, рай	cielo, paraíso	22	310	1565	HEAVEN
 Key-2016-1310-1303	hell	1303	22-320	http://ids.clld.org/parameters/22-320	enfer	inferno	ад	infierno	22	320	878	HELL
 Key-2016-1310-1304	demon (evil spirit)	1304	22-350	http://ids.clld.org/parameters/22-350	démon, diable	demônio	демон, злой дух	demonio	22	350	1973	DEMON
-Key-2016-1310-1305	idol	1305	22-370	http://ids.clld.org/parameters/22-370	idole	ídolo	идол	ídolo	22	370	3205	GRAVEN IMAGE
+Key-2016-1310-1305	idol	1305	22-370	http://ids.clld.org/parameters/22-370	idole	ídolo	идол	ídolo	22	370	1945	IDOL
 Key-2016-1310-1306	magic, witchcraft, sorcery	1306	22-420	http://ids.clld.org/parameters/22-420	magie, sorcellerie	magia, feitiçaria	волшебство, колдовство	brujería, hechicería	22	420	392	MAGIC
 Key-2016-1310-1307	sorcerer, witch	1307	22-430	http://ids.clld.org/parameters/22-430	sorcier, sorcière	feiticeiro, bruxo/bruxa	колдунья, ведьма	brujo/bruja, hechicero	22	430	2137	MAGICIAN
 Key-2016-1310-1308	fairy, elf	1308	22-440	http://ids.clld.org/parameters/22-440	fée	fada	фея, yльф	hada, duende	22	440	3206	ELF OR FAIRY
