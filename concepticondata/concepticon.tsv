@@ -404,7 +404,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 403	GARDEN-HOUSE	The house	A small building in a garden, such as a shed, which is not usually build to be inhabitated for long times.	Person/Thing	
 404	ALCOHOL (FERMENTED DRINK)	Food and drink	A fermented drink is a beverage containing alcohol because of a metabolic process that converts sugar to acids, gases and/or alcohol (e.g. beer or wine).	Person/Thing	
 405	OLDER SIBLING	Kinship	A person who is born before another person who has the same parents.	Person/Thing	
-406	OLD MAN	Kinship	A male person who is old of age.	Person/Thing	
+406	OLD MAN	Kinship	A male pe喷rson who is old of age.	Person/Thing	
 407	MANIOC BREAD	Food and drink	Bread made of the roots of the cassava plant.	Person/Thing	
 408	MEN'S HOUSE	The house	A separate building for male persons.	Person/Thing	
 409	FORKED BRANCH	Agriculture and vegetation	At this point a branch is forked into two or more branches.	Person/Thing	
@@ -2769,7 +2769,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2769	PORK	Food and drink	The edible flesh of pigs.	Person/Thing	
 2770	JACKET	Clothing and grooming	A mid-stomach–length garment for the upper body.	Person/Thing	
 2771	SHAWL	Clothing and grooming	A garment which is wrapped around the neck to prevent from cold.	Person/Thing	
-2772	VEGETABLE KNIFE	Food and drink	A knife for cutting vegetables.	Person/Thing	
+2772	KITCHEN KNIFE	Food and drink	A knife for cutting vegetables etc. in order to prepare food.	Person/Thing	
 2773	FINGERTIP	The body	The top of the finger.	Person/Thing	
 2774	LITTLE FINGER	The body	The smallest of the five fingers.	Person/Thing	
 2775	FORENOON	Time	The time before noon.	Person/Thing	
@@ -2902,14 +2902,14 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2905	KNIT	Basic actions and technology	Knitting is a method by which yarn is manipulated to create a textile or fabric for use in many types of garments.	Action/Process	
 2906	TRANSLATE	Basic actions and technology	To communicate of the meaning of a source-language text by means of an equivalent target-language text.	Action/Process	
 2907	ROT	Basic actions and technology	To be exposed to decomposition.	Action/Process	
-2908	SINK (DISAPPEAR IN WATER)	Basic actions and technology	To go down in water, mud, quicksand etc.	Action/Process	
+2908	*SINK (DISAPPEAR IN WATER)	Basic actions and technology	To go down in water, mud, quicksand etc.	Action/Process	
 2909	PREPARE	Basic actions and technology	To carry out things in advance to avoid to be later not able to do them.	Action/Process	
 2910	BACK (DIRECTION)	Spatial relations	The opposite direction from where one came.	Other	
 2911	BACKWARD	Spatial relations	A relative direction pointed to the back of an object.	Other	
 2912	FORWARD	Spatial relations	A relative direction pointed to the front of an object.	Other	
 2914	ONCE (IN THE PAST)	Time	One time during a certain time in the past.	Other	
 2915	AT FIRST	Time	When first seen or considered.	Other	
-2916	INSTANTLY	Time	Without delay.	Other	
+2916	INSTANTLY (IMMEDIATELY)	Time	Without delay.	Other	
 2917	NEXT TO	Spatial relations	Adjacent to.	Other	
 2918	BECAUSE OF	Basic actions and technology	Undergo decomposition.	Other	
 2919	STILL (CONTINUING)	Time	Continuance of motion or state.	Other	
@@ -3009,11 +3009,11 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3013	BLACK COCKATOO	Animals	Black cockatoo, usually the Palm cockatoo.	Person/Thing	
 3014	BLACK DUCK	Animals	Pacific black duck (Anas superciliosa).	Person/Thing	
 3015	PATERNAL GRANDMOTHER	Kinship	Father's mother.	Person/Thing	
-3016	FIRE STICK	Basic actions and technology	Sticks used specifically to set fire to smt. or to burn.	Person/Thing	
+3016	FIRE STICK	Basic actions and technology	Sticks used specifically to set fire to something or to burn.	Person/Thing	
 3017	MONITOR LIZARD	Animals	Monitor lizard of the genus Varanus, such as the goanna and the Komodo dragon.	Person/Thing	
 3018	NATIVE CAT	Animals	Small mammal predator with long and slender bodyshape, usually referred to as native cat by European colonizers (but not a true Felidae).	Person/Thing	
 3019	SAND HILL	The physical world	Ecological community or xeric wildfire-maintained ecosystem (different from sand dune).	Person/Thing	
-3020	BREAK (BREAKING)	Basic actions and technology	To come apart or split into pieces (intransitive)	Action/Process	
+3020	BREAK (BREAKING)	Basic actions and technology	To come apart or split into pieces (intransitive).	Action/Process	
 3021	BLUE TONGUED SKINK	Animals	Australian skins comprising the genus Tiliqua.	Person/Thing	
 3022	TOP GRINDSTONE	Basic actions and technology	The top (and usually proper) element in a two-stone grindstone. 	Person/Thing	
 3023	BOTTOM GRINDSTONE	Basic actions and technology	The bottom element in a two-stone grindstone. 	Person/Thing	
@@ -3144,7 +3144,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3148	MEERKAT	Animals	Southern African animal known for its long tail and often seen standing up on its back legs.	Person/Thing	
 3149	ARMLET	Clothing and grooming	A band or bracelet worn round the upper part of a person's arm.	Person/Thing	
 3150	BOX OR CHEST	Modern world	Either a generic manmade object with space in it that is used to keep and store many various different objects, or a strong box with a lid on top.	Property	
-3151	CUT (WITH AXE)	Basic actions and technology	To slice or to divide into pieces with help of an axe.	Person/Thing	
+3151	*CUT (WITH AXE)	Basic actions and technology	To slice or to divide into pieces with help of an axe.	Person/Thing	
 3152	MUNTJACS	Animals	Also known as barking deer, a kind of small deer of the genus Muntiacus.	Person/Thing	
 3153	LORD	Social and political relations	A man of noble rank or high office; a nobleman.	Person/Thing	
 3154	WILD BOAR	Animals	Also known as wild pig, an undomestic four-legged animal (Sus scrofa) living in the wild. 	Person/Thing	
@@ -3206,28 +3206,28 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3211	HOPE (FAITH)	Emotions and values	The belief in the possibility that something one wants will happen.	Person/Thing	
 3212	HOPE (SOMETHING)	Emotions and values	To want something to happen.	Action/Process	
 3213	HIRE OR RENT	Social and political relations	To employ a person or people in exchange of some kind of remuneration, usually a payment, or to pay for using an object.	Action/Process	
-3214	CRAWL OR CREEP	Motion	To move using ones hands and knees or in a prone position with the body resting on or close to the ground.	Action/Process	
-3215	CREEP	Motion	To move in a prone position with the body resting on or close to the ground.	Action/Process	
-3216	DRIP OR DROP SOMETHING	Motion	To fall in globules or small portions, as water or other liquid or to let something fall down.	Action/Process	
+3214	*CRAWL OR CREEP	Motion	To move using ones hands and knees or in a prone position with the body resting on or close to the ground.	Action/Process	
+3215	*CREEP	Motion	To move in a prone position with the body resting on or close to the ground.	Action/Process	
+3216	*DRIP OR DROP SOMETHING	Motion	To fall in globules or small portions, as water or other liquid or to let something fall down.	Action/Process	
 3217	TIN OR TINPLATE	Basic actions and technology	A metallic element with symbol Sn or a thin sheet of steel coated with tin to prevent rusting.	Person/Thing	
-3218	SPRAY	Motion	To cause a liquid to fly through the air in small droplets.	Action/Process	
-3219	SPLASH OR SPRAY	Motion	To cause a liquid to spatter about [WN:365] or to cause it to fly through the air in small droplets.	Action/Process	
+3218	*SPRAY (SOMETHING)	Motion	To cause a liquid to fly through the air in small droplets.	Action/Process	
+3219	*SPLASH OR SPRAY	Motion	To cause a liquid to spatter about [WN:365] or to cause it to fly through the air in small droplets.	Action/Process	
 3220	MATERNAL UNCLE	Kinship	A brother of someone's mother.	Person/Thing	
 3221	PLANTAGO	Agriculture and vegetation	A plant of the genus Plantago, with a rosette of sessile leaves about 10 cm long with a narrow part instead of a petiole, and with a spike inflorescence with the flower spacing varying widely among the species.	Person/Thing	
 3222	TWIG	Agriculture and vegetation	A branch that doesn't arise from the trunk but from another branch.	Person/Thing	
 3223	BRANCH OR TWIG	Agriculture and vegetation	A woody part of a tree arising from the trunk or from another branch.	Person/Thing	
 3224	WRING	Basic actions and technology	To take a cloth and twist its ends into different directions in order to dry it.	Action/Process	
-3225	SQUEEZE OR WRING	Basic actions and technology	To apply pressure from more than one side or to twist a cloth's ends into different directions.	Action/Process	
-3226	FASTEN OR SQUEEZE	Basic actions and technology	To close tightly or to apply pressure from more than one side.	Action/Process	
-3227	SPHERE	Spatial relations	Any spherical object.	Person/Thing	
+3225	*SQUEEZE OR WRING	Basic actions and technology	To apply pressure from more than one side or to twist a cloth's ends into different directions.	Action/Process	
+3226	*FASTEN OR SQUEEZE	Basic actions and technology	To close tightly or to apply pressure from more than one side.	Action/Process	
+3227	*BALL (FOR PLAYING)	Spatial relations	Any spherical object.	Person/Thing	
 3228	BOW OR CROSSBOW	Warfare and hunting	A weapon made of a curved piece of wood or other flexible material whose ends are connected by a string, used for shooting arrows, or a weapon based on it, consisting of a bow mounted on a stock.	Person/Thing	
-3229	STINK	Sense perception	To emit an unpleasant odour.	Action/Process	
+3229	*STINK	Sense perception	To emit an unpleasant odour.	Action/Process	
 3230	DECEIVE	Cognition	To cause someone to believe an untruth; to practice trickery or fraud.	Action/Process	
 3231	DEITY	Religion and belief	A supernatural, typically immortal being with superior powers.	Person/Thing	
 3232	PELT	Clothing and grooming	The hair-covered, dressed pelt of a mammal, used in the making of garments and as trimming or decoration.	Person/Thing	
-3233	KITCHEN KNIFE	Food and drink	A knife for cutting vegetables and other things in the kitchen.	Person/Thing	
+3233	SMALL KNIFE	Food and drink	A knife for cutting vegetables and other things in the kitchen.	Person/Thing	
 3234	OPEN (EYES)	Basic actions and technology	Move ones eyelids in such a way that the eyes are visible.	Action/Process	
-3235	OPENED	Basic actions and technology	To be accessible and/or not closed.	Property	
+3235	OPEN (STATE)	Basic actions and technology	To be accessible and/or not closed.	Property	
 3236	TWIST (TOGETHER)	Motion	To wind several things around each other (e.g. in order to form a rope or thread).	Action/Process	
 3237	ALLOW OR PERMIT	Social and political relations	To give permission to an action or to not try to stop someone from doing it.	Action/Process	
 3238	ALLOW	Social and political relations	To not try to stop someone from doing something.		
