@@ -586,7 +586,7 @@ Dellert-2017-1016-584	584	1002	1.123114	auf einmal	auf einmal::ADV	at once	ср�
 Dellert-2017-1016-585	585	718	-0.071647	zusammen	zusammen::ADV	together	вместе				TOGETHER	2482	
 Dellert-2017-1016-586	586	562	-0.040105	lange	lange::ADV	long	долго						
 Dellert-2017-1016-587	587	972	0.093543	plötzlich	plötzlich::ADV	suddenly	вдруг				SUDDENLY	2920	
-Dellert-2017-1016-588	588	992	1.118757	sofort	sofort::ADV	instantly	тотчас				INSTANTLY	2916	
+Dellert-2017-1016-588	588	992	1.118757	sofort	sofort::ADV	instantly	тотчас				INSTANTLY (IMMEDIATELY)	2916	
 Dellert-2017-1016-589	589	774	-0.033797	später	später::ADV	later	позже						
 Dellert-2017-1016-590	590	208	-1.180635	jetzt	jetzt::ADV	now	теперь				NOW	1376	
 Dellert-2017-1016-591	591	357	-1.117854	heute	heute::ADV	today	сегодня				TODAY	1283	
@@ -706,7 +706,7 @@ Dellert-2017-1016-704	704	407	-1.108831	sieden	sieden::V	boil	кипеть	Wasse
 Dellert-2017-1016-705	705	179	-1.184846	faulen	faulen::V	rot	гнить	BSP:Fleisch	EX:of meat	портиться, НАПР:об овощах, фруктах, еде	SPOIL (BECOME SPOILED)	569	
 Dellert-2017-1016-706	706	288	-1.188351	verfaulen	verfaulen::V	decay	сгнить	BSP:Holz	EX:of wood	НАПР:о дереве	ROT	2907	
 Dellert-2017-1016-707	707	701	-0.023679	reißen	reißen::V	snap	рваться	BSP:Faden	EX:of a thread	НАПР:о нитке	BREAK (OF ROPE)	460	
-Dellert-2017-1016-708	708	336	-1.161068	versinken	versinken::V	sink	тонуть	BSP:Stein im Wasser	EX:stone in water	НАПР:камень в воду	SINK (DISAPPEAR IN WATER)	2908	
+Dellert-2017-1016-708	708	336	-1.161068	versinken	versinken::V	sink	тонуть	BSP:Stein im Wasser	EX:stone in water	НАПР:камень в воду	SINK (DESCEND)	1088	
 Dellert-2017-1016-709	709	830	-0.052688	vergehen	vergehen::V	pass	проходи́ть	Zeit	of time	о времени	PASS	1951	
 Dellert-2017-1016-710	710	699	-0.027745	erscheinen	erscheinen::V	appear	появиться	BSP:Licht, Geist	EX:light, ghost	НАПР:о свете, о призраке	EMERGE (APPEAR)	1076	
 Dellert-2017-1016-711	711	586	-0.081335	verschwinden	verschwinden::V	disappear	исчезнуть	BSP:Licht, Geist	EX:light, ghost	НАПР:о свете, о призраке	DISAPPEAR	485	
@@ -765,7 +765,7 @@ Dellert-2017-1016-763	763	373	-1.182523	rennen	rennen::V	run	бегать	Mensch
 Dellert-2017-1016-764	764	517	-1.129859	springen	springen::V	jump	прыгать	Mensch	of human	о человеке	JUMP	1829	
 Dellert-2017-1016-765	765	694	-0.04111	klettern	klettern::V	climb	лазать	Mensch	of human	карабкаться, о человеке	CLIMB	1102	
 Dellert-2017-1016-766	766	977	0.086987	schaukeln	schaukeln::V	seesaw	качаться, раскачиваться	wippen, auf Schaukel	use a seesaw	НАПР:на качелях			
-Dellert-2017-1016-767	767	441	-1.115912	kriechen	kriechen::V	creep	ползать	Mensch	of human	о человеке	CREEP	3215	
+Dellert-2017-1016-767	767	441	-1.115912	kriechen	kriechen::V	creep	ползать	Mensch	of human	о человеке	CRAWL	96	
 Dellert-2017-1016-768	768	108	-2.289305	schwimmen	schwimmen::V	swim	плавать	Mensch	of human	о человеке	SWIM	1439	
 Dellert-2017-1016-769	769	952	0.09785	tauchen	tauchen::V	dive	нырять	Mensch	of human	о человеке	DIVE	119	
 Dellert-2017-1016-770	770	494	-1.196761	rudern	rudern::V	row	грести	ein Boot mittels Riemen bewegen	propel a boat using oars	передвигать лодку вёслами	ROW	1849	

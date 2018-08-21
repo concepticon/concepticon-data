@@ -30,7 +30,7 @@
 | [Bowern-2017-348](Bowern-2017-348.tsv) | 342 | 98 | 0 |
 | [Brinton-1891-21](Brinton-1891-21.tsv) | 21 | 100 | 0 |
 | [Bromley-1967-111](Bromley-1967-111.tsv) | 108 | 97 | 0 |
-| [Buck-1949-1108](Buck-1949-1108.tsv) | 1040 | 93 | 28 |
+| [Buck-1949-1108](Buck-1949-1108.tsv) | 1040 | 93 | 26 |
 | [Bulakh-2013-870](Bulakh-2013-870.tsv) | 869 | 99 | 20 |
 | [Calero-2002-15](Calero-2002-15.tsv) | 13 | 86 | 0 |
 | [Calude-2011-200](Calude-2011-200.tsv) | 200 | 100 | 0 |
@@ -47,7 +47,7 @@
 | [Daniels-2016-85](Daniels-2016-85.tsv) | 85 | 100 | 0 |
 | [Davies-1985-116](Davies-1985-116.tsv) | 116 | 100 | 0 |
 | [Deepadung-2015-100](Deepadung-2015-100.tsv) | 100 | 100 | 0 |
-| [Dellert-2017-1016](Dellert-2017-1016.tsv) | 941 | 92 | 0 |
+| [Dellert-2017-1016](Dellert-2017-1016.tsv) | 942 | 92 | 1 |
 | [Dixon-1919-175](Dixon-1919-175.tsv) | 170 | 98 | 39 |
 | [Dolch-1936-220](Dolch-1936-220.tsv) | 185 | 84 | 19 |
 | [Dolch-1936-95](Dolch-1936-95.tsv) | 94 | 98 | 1 |
@@ -74,7 +74,7 @@
 | [Grollemund-2015-100](Grollemund-2015-100.tsv) | 100 | 100 | 0 |
 | [Gudschinsky-1956-200](Gudschinsky-1956-200.tsv) | 200 | 100 | 0 |
 | [Hale-1961-100](Hale-1961-100.tsv) | 100 | 100 | 0 |
-| [Haspelmath-2009-1460](Haspelmath-2009-1460.tsv) | 1460 | 100 | 3 |
+| [Haspelmath-2009-1460](Haspelmath-2009-1460.tsv) | 1460 | 100 | 2 |
 | [Hattori-1961-236](Hattori-1961-236.tsv) | 236 | 100 | 0 |
 | [Hattori-1973-200](Hattori-1973-200.tsv) | 200 | 100 | 0 |
 | [He-2010-207](He-2010-207.tsv) | 207 | 100 | 5 |
@@ -88,7 +88,7 @@
 | [Holman-2008-100](Holman-2008-100.tsv) | 100 | 100 | 0 |
 | [Holman-2008-40](Holman-2008-40.tsv) | 40 | 100 | 0 |
 | [Hooley-1971-128](Hooley-1971-128.tsv) | 127 | 99 | 0 |
-| [Hou-2004-180](Hou-2004-180.tsv) | 180 | 100 | 0 |
+| [Hou-2004-180](Hou-2004-180.tsv) | 179 | 99 | 0 |
 | [Huber-1992-374](Huber-1992-374.tsv) | 347 | 94 | 4 |
 | [Janhunan-2008-235](Janhunan-2008-235.tsv) | 268 | 98 | 19 |
 | [Kaiping-2018-591](Kaiping-2018-591.tsv) | 0 | 0 | 0 |
@@ -120,7 +120,6 @@
 | [Mann-2004-209](Mann-2004-209.tsv) | 209 | 100 | 1 |
 | [Mann-2004-210](Mann-2004-210.tsv) | 210 | 100 | 0 |
 | [Mann-2004-500](Mann-2004-500.tsv) | 500 | 100 | 13 |
-| [Marrison-1967-909](Marrison-1967-909.tsv) | 825 | 90 | 17 |
 | [Marrison-1967-917](Marrison-1967-917.tsv) | 851 | 93 | 19 |
 | [Marsden-1782-50](Marsden-1782-50.tsv) | 50 | 100 | 0 |
 | [Matisoff-1978-200](Matisoff-1978-200.tsv) | 210 | 100 | 0 |
@@ -131,7 +130,7 @@
 | [Meillet-1921-16](Meillet-1921-16.tsv) | 16 | 100 | 0 |
 | [Mennecier-2016-183](Mennecier-2016-183.tsv) | 183 | 100 | 0 |
 | [Miedema-1985-40](Miedema-1985-40.tsv) | 40 | 100 | 0 |
-| [Miller-1994-281](Miller-1994-281.tsv) | 284 | 100 | 2 |
+| [Miller-1994-281](Miller-1994-281.tsv) | 284 | 100 | 1 |
 | [Mitterhofer-2013-300](Mitterhofer-2013-300.tsv) | 298 | 99 | 3 |
 | [Mitterhofer-2013-353](Mitterhofer-2013-353.tsv) | 344 | 97 | 8 |
 | [Mitterhofer-2013-92](Mitterhofer-2013-92.tsv) | 87 | 93 | 4 |
@@ -159,7 +158,7 @@
 | [Reinhard-1970-337](Reinhard-1970-337.tsv) | 295 | 87 | 27 |
 | [Ringe-1992-100](Ringe-1992-100.tsv) | 100 | 100 | 0 |
 | [Ringe-2002-333](Ringe-2002-333.tsv) | 333 | 100 | 0 |
-| [Robinson-2012-398](Robinson-2012-398.tsv) | 393 | 98 | 0 |
+| [Robinson-2012-398](Robinson-2012-398.tsv) | 392 | 98 | 0 |
 | [SIL-1980-281](SIL-1980-281.tsv) | 282 | 100 | 1 |
 | [SIL-2002-436](SIL-2002-436.tsv) | 442 | 100 | 5 |
 | [Samarin-1967-100](Samarin-1967-100.tsv) | 100 | 100 | 0 |
@@ -177,7 +176,7 @@
 | [Starostin-2010-50](Starostin-2010-50.tsv) | 50 | 100 | 0 |
 | [Stokhof-1975-117](Stokhof-1975-117.tsv) | 115 | 98 | 0 |
 | [Struve-2014-100](Struve-2014-100.tsv) | 100 | 100 | 0 |
-| [Sun-1991-1004](Sun-1991-1004.tsv) | 926 | 92 | 11 |
+| [Sun-1991-1004](Sun-1991-1004.tsv) | 926 | 92 | 12 |
 | [Swadesh-1950-165](Swadesh-1950-165.tsv) | 165 | 100 | 0 |
 | [Swadesh-1950-215](Swadesh-1950-215.tsv) | 215 | 100 | 0 |
 | [Swadesh-1952-200](Swadesh-1952-200.tsv) | 200 | 100 | 0 |
@@ -228,5 +227,5 @@
 | [Zorc-1974-100](Zorc-1974-100.tsv) | 100 | 100 | 0 |
 | [vanderWouw-1974-28](vanderWouw-1974-28.tsv) | 28 | 100 | 0 |
 
-(225 rows)
+(224 rows)
 
