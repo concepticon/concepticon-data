@@ -114,7 +114,7 @@ Dellert-2017-1016-112	112	48	-2.202903	Baum	Baum::N	tree	дерево	Pflanze	pl
 Dellert-2017-1016-113	113	791	-0.087953	Stamm	Stamm::N	trunk	ствол	eines Baumes	of a tree	дерева	TREE TRUNK	344	
 Dellert-2017-1016-114	114	224	-1.14791	Rinde	Rinde::N	bark	кора	eines Baumes	of a tree	дерева	BARK	1204	
 Dellert-2017-1016-115	115	257	-1.163897	Ast	Ast::N	limb	сук	eines Baumes	of a tree	дерева	BRANCH	1531	
-Dellert-2017-1016-116	116	612	-0.040117	Zweig	Zweig::N	twig	ветвь	eines Baumes	of a tree	дерева			!TWIG
+Dellert-2017-1016-116	116	612	-0.040117	Zweig	Zweig::N	twig	ветвь	eines Baumes	of a tree	дерева	TWIG	3222	
 Dellert-2017-1016-117	117	120	-2.229714	Blatt	Blatt::N	leaf	лист	einer Pflanze	of a plant	растения	LEAF	628	
 Dellert-2017-1016-118	118	319	-1.194508	Birke	Birke::N	birch	берёза				BIRCH	1855	
 Dellert-2017-1016-119	119	514	-1.136112	Kiefer[Baum]	Kiefer[Baum]::N	pine	сосна		pine tree		PINE	1740	
@@ -414,7 +414,7 @@ Dellert-2017-1016-412	412	127	-2.204011	Tod	Tod::N	death	смерть				DEATH	9
 Dellert-2017-1016-413	413	270	-1.128461	Grab	Grab::N	grave	могила				GRAVE	1773	
 Dellert-2017-1016-414	414	970	0.065346	Kirche	Kirche::N	church	церковь				CHURCH	1349	
 Dellert-2017-1016-415	415	406	-1.108912	Sünde	Sünde::N	sin	грех				SIN	2971	
-Dellert-2017-1016-416	416	65	-2.293946	Gott	Gott::N	god	бог				GOD	1944	
+Dellert-2017-1016-416	416	65	-2.293946	Gott	Gott::N	god	бог				DEITY	3231	
 Dellert-2017-1016-417	417	933	0.076705	Arbeiter	Arbeiter::N	worker	рабочий				WORKER	2977	
 Dellert-2017-1016-418	418	688	-0.047896	Chef	Chef::N	boss	начальник	Vorgesetzter	supervisor	руководитель	BOSS	2930	not MASTER (opp. slave)
 Dellert-2017-1016-419	419	996	1.178351	Meister	Meister::N	master	мастер	eines Handwerks	expert tradesman	ремесленник, человек, занимающийся ремеслом НАПР:сапожный мастер	MASTER	383	not MASTER (opp. slave)
@@ -713,7 +713,7 @@ Dellert-2017-1016-711	711	586	-0.081335	verschwinden	verschwinden::V	disappear	�
 Dellert-2017-1016-712	712	706	-0.014616	sinken	sinken::V	drop, descend	спадать	BSP:Wasserspiegel	EX:water level	понижаться, НАПР:об уровне воды	SINK (DESCEND)	1088	
 Dellert-2017-1016-713	713	878	-0.012607	abnehmen	abnehmen::V	decrease	уменьшиться	weniger werden	of quantity	стать меньше	DECREASE	2864	
 Dellert-2017-1016-714	714	874	-0.037772	zunehmen	zunehmen::V	increase	увеличиться	mehr werden	of quantity	в количестве	INCREASE	1041	
-Dellert-2017-1016-715	715	429	-1.144373	steigen	steigen::V	rise	подниматься	BSP:Wasserspiegel	EX:water level	НАПР:об уровне воды	RISE (MOVE UPWARDS)	568	
+Dellert-2017-1016-715	715	429	-1.144373	steigen	steigen::V	rise	подниматься	BSP:Wasserspiegel	EX:water level	НАПР:об уровне воды	GO UP (ASCEND)	705	
 Dellert-2017-1016-716	716	50	-2.286656	wachsen	wachsen::V	grow	расти	BSP:Pflanze	EX:of a plant	НАПР:о растении	GROW	479	
 Dellert-2017-1016-717	717	815	-0.088668	glänzen	glänzen::V	shine	блестеть	BSP:Metall, glänzende Oberfläche	EX:of metal, shiny surface	НАПР:о металле, поверхности			
 Dellert-2017-1016-718	718	1009	1.192674	funkeln	funkeln::V	sparkle, twinkle	сверкать	BSP:Stern, kleines Licht	EX:of star, little light	НАПР:о звезде, об огоньке	TWINKLE	2889	
@@ -765,7 +765,7 @@ Dellert-2017-1016-763	763	373	-1.182523	rennen	rennen::V	run	бегать	Mensch
 Dellert-2017-1016-764	764	517	-1.129859	springen	springen::V	jump	прыгать	Mensch	of human	о человеке	JUMP	1829	
 Dellert-2017-1016-765	765	694	-0.04111	klettern	klettern::V	climb	лазать	Mensch	of human	карабкаться, о человеке	CLIMB	1102	
 Dellert-2017-1016-766	766	977	0.086987	schaukeln	schaukeln::V	seesaw	качаться, раскачиваться	wippen, auf Schaukel	use a seesaw	НАПР:на качелях			
-Dellert-2017-1016-767	767	441	-1.115912	kriechen	kriechen::V	creep	ползать	Mensch	of human	о человеке	CRAWL	96	
+Dellert-2017-1016-767	767	441	-1.115912	kriechen	kriechen::V	creep	ползать	Mensch	of human	о человеке	CREEP	3215	
 Dellert-2017-1016-768	768	108	-2.289305	schwimmen	schwimmen::V	swim	плавать	Mensch	of human	о человеке	SWIM	1439	
 Dellert-2017-1016-769	769	952	0.09785	tauchen	tauchen::V	dive	нырять	Mensch	of human	о человеке	DIVE	119	
 Dellert-2017-1016-770	770	494	-1.196761	rudern	rudern::V	row	грести	ein Boot mittels Riemen bewegen	propel a boat using oars	передвигать лодку вёслами	ROW	1849	
@@ -941,7 +941,7 @@ Dellert-2017-1016-939	939	901	0.03309	stören	stören::V	disturb	помешат�
 Dellert-2017-1016-940	940	966	0.025794	belästigen	belästigen::V	bother	беспокоить, потревожить				BOTHER (HARASS)	2869	
 Dellert-2017-1016-941	941	598	-0.061851	verbergen	verbergen::V	conceal	скрыть	BSP:eine Tatsache	EX:a fact	НАПР:факт	HIDE (CONCEAL)	602	
 Dellert-2017-1016-942	942	862	-0.096565	täuschen	täuschen::V	deceive	обмануть	in die Irre führen		ввести в заблуждение			
-Dellert-2017-1016-943	943	961	0.079686	betrügen	betrügen::V	cheat	смошенничать	BSP:jemanden um Geld	EX:someone of money		BETRAY	1902	
+Dellert-2017-1016-943	943	961	0.079686	betrügen	betrügen::V	cheat	смошенничать	BSP:jemanden um Geld	EX:someone of money		DECEIVE	3230	
 Dellert-2017-1016-944	944	76	-2.228426	töten	töten::V	kill	убить				KILL	1417	
 Dellert-2017-1016-945	945	324	-1.187722	wohnen	wohnen::V	dwell	проживать, жить				DWELL (LIVE, RESIDE)	363	
 Dellert-2017-1016-946	946	650	-0.037503	arbeiten	arbeiten::V	work	работать				WORK (ACTIVITY)	1086	

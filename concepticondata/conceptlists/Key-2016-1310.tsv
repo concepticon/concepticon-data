@@ -56,12 +56,12 @@ Key-2016-1310-54	four	54	13-40	http://ids.clld.org/parameters/13-40	quatre	quatr
 Key-2016-1310-55	two	55	13-20	http://ids.clld.org/parameters/13-20	deux	dois, duas	два	dos	13	20	1498	TWO
 Key-2016-1310-56	three	56	13-30	http://ids.clld.org/parameters/13-30	trois	três	три	tres	13	30	492	THREE
 Key-2016-1310-57	one	57	13-10	http://ids.clld.org/parameters/13-10	un	um, uma	один	uno	13	10	1493	ONE
-Key-2016-1310-58	zero, nothing	58	13-0	http://ids.clld.org/parameters/13-0	zéro, rien	zero, nada	ноль	cero, nada	13	0	1294	ZERO
+Key-2016-1310-58	zero, nothing	58	13-0	http://ids.clld.org/parameters/13-0	zéro, rien	zero, nada	ноль	cero, nada	13	0	3198	NOTHING OR ZERO
 Key-2016-1310-59	change	59	12-930	http://ids.clld.org/parameters/12-930	changer	mudar	менять	cambiar	12	930	1264	CHANGE
 Key-2016-1310-60	like, similar	60	12-920	http://ids.clld.org/parameters/12-920	semblable	parecido	похожий, подобный	semejante	12	920	1558	SIMILAR
 Key-2016-1310-61	line	61	12-840	http://ids.clld.org/parameters/12-840	ligne, rang	linha	линия	línea	12	840	1048	LINE
 Key-2016-1310-62	hole	62	12-850	http://ids.clld.org/parameters/12-850	trou	buraco	дыра	agujero	12	850	1667	HOLE
-Key-2016-1310-63	sphere, ball	63	12-830	http://ids.clld.org/parameters/12-830	sphère, ballon	esfera, bola	сфера, шар	pelota, esfera, globo	12	830	1845	BALL
+Key-2016-1310-63	sphere, ball	63	12-830	http://ids.clld.org/parameters/12-830	sphère, ballon	esfera, bola	сфера, шар	pelota, esfera, globo	12	830	3227	SPHERE
 Key-2016-1310-64	round	64	12-810	http://ids.clld.org/parameters/12-810	rond	redondo	круглый	redondo	12	810	1395	ROUND
 Key-2016-1310-65	circle	65	12-820	http://ids.clld.org/parameters/12-820	cercle	círculo, roda	круг, окружность	círculo	12	820	1467	CIRCLE
 Key-2016-1310-66	square	66	12-780	http://ids.clld.org/parameters/12-780	carré	quadrado	квадрат	cuadrado	12	780	850	SQUARE
@@ -93,7 +93,7 @@ Key-2016-1310-91	near (adv)	91	12-430	http://ids.clld.org/parameters/12-430	prè
 Key-2016-1310-92	far (adv)	92	12-440	http://ids.clld.org/parameters/12-440	loin	longe	далеко	lejos	12	440	1406	FAR
 Key-2016-1310-93	left (side)	93	12-420	http://ids.clld.org/parameters/12-420	gauche	esquerda	левая (сторна)	izquierda	12	420	244	LEFT
 Key-2016-1310-94	right (side)	94	12-410	http://ids.clld.org/parameters/12-410	droite	direita	правая (сторона)	derecha	12	410	1019	RIGHT
-Key-2016-1310-95	middle, center	95	12-370	http://ids.clld.org/parameters/12-370	milieu, centre	meio, centro	середина, центр	medio, centro	12	370	1093	MIDDLE
+Key-2016-1310-95	middle, center	95	12-370	http://ids.clld.org/parameters/12-370	milieu, centre	meio, centro	середина, центр	medio, centro	12	370	3208	CENTER OR MIDDLE
 Key-2016-1310-96	side	96	12-360	http://ids.clld.org/parameters/12-360	côte	lado	сторона	lado, costado	12	360	682	SIDE
 Key-2016-1310-97	edge	97	12-353	http://ids.clld.org/parameters/12-353	bord, orée	beira, borda	край	borde, orilla, margen	12	353	863	EDGE
 Key-2016-1310-98	pointed	98	12-352	http://ids.clld.org/parameters/12-352	pointu	afiado, agudo	остроконечный	puntiagudo	12	352	372	POINTED
@@ -142,7 +142,7 @@ Key-2016-1310-140	sell	140	11-820	http://ids.clld.org/parameters/11-820	vendre	v
 Key-2016-1310-141	buy	141	11-810	http://ids.clld.org/parameters/11-810	acheter	comprar	покупать	comprar	11	810	1869	BUY
 Key-2016-1310-142	earn	142	11-790	http://ids.clld.org/parameters/11-790	gagner	ganhar	зарабатывать	ganar (dinero)	11	790	733	EARN
 Key-2016-1310-143	wages	143	11-780	http://ids.clld.org/parameters/11-780	salaire	salário	заработная плата	salario, sueldo	11	780	1122	WAGES
-Key-2016-1310-144	hire	144	11-770	http://ids.clld.org/parameters/11-770	louer	alugar	нанимать, брать на прокат	alquilar, emplear	11	770	856	HIRE
+Key-2016-1310-144	hire	144	11-770	http://ids.clld.org/parameters/11-770	louer	alugar	нанимать, брать на прокат	alquilar, emplear	11	770	3213	HIRE OR RENT
 Key-2016-1310-145	tax, tribute	145	11-690	http://ids.clld.org/parameters/11-690	taxe, impôt	imposto, taxa	налог	impuesto, tributo	11	690	873	TAX
 Key-2016-1310-146	account, reckoning	146	11-660	http://ids.clld.org/parameters/11-660	compte	conta	счет	calcul, cuenta	11	660	1081	BILL
 Key-2016-1310-147	pay (vb)	147	11-650	http://ids.clld.org/parameters/11-650	payer	pagar	платить	pagar	11	650	718	PAY
@@ -160,7 +160,7 @@ Key-2016-1310-158	release, let go	158	11-340	http://ids.clld.org/parameters/11-3
 Key-2016-1310-159	lose	159	11-330	http://ids.clld.org/parameters/11-330	perdre	perder	терять	perder	11	330	1660	LOSE
 Key-2016-1310-160	find	160	11-320	http://ids.clld.org/parameters/11-320	trouver	achar, encontrar	находить	encontrar, hallar	11	320	719	FIND
 Key-2016-1310-161	seek, look for	161	11-310	http://ids.clld.org/parameters/11-310	chercher	buscar, procurar	искать	buscar	11	310	1468	LOOK FOR
-Key-2016-1310-162	harm, injure, damage	162	11-280	http://ids.clld.org/parameters/11-280	blesser, endommager	danificar, ferir, estragar	наносить ущерб	dañar, herir	11	280	44	INJURE
+Key-2016-1310-162	harm, injure, damage	162	11-280	http://ids.clld.org/parameters/11-280	blesser, endommager	danificar, ferir, estragar	наносить ущерб	dañar, herir	11	280	3195	DAMAGE OR INJURE
 Key-2016-1310-163	destroy	163	11-270	http://ids.clld.org/parameters/11-270	détruire	destruir	разрушать	destruir	11	270	681	DESTROY
 Key-2016-1310-164	save, rescue	164	11-250	http://ids.clld.org/parameters/11-250	sauver	salvar	спасать	salvar	11	250	2008	RESCUE
 Key-2016-1310-165	preserve, look after	165	11-240	http://ids.clld.org/parameters/11-240	préserver	cuidar de, preservar	сохранять	conservar, proteger	11	240	1997	PRESERVE
@@ -170,7 +170,7 @@ Key-2016-1310-168	thing	168	11-180	http://ids.clld.org/parameters/11-180	chose	c
 Key-2016-1310-169	keep, retain	169	11-170	http://ids.clld.org/parameters/11-170	garder, retenir	guardar, conservar	хранить	conservar, retener	11	170	1477	KEEP
 Key-2016-1310-170	get, obtain	170	11-160	http://ids.clld.org/parameters/11-160	obtenir	obter, conseguir	получать	obtener	11	160	694	GET
 Key-2016-1310-171	hold	171	11-150	http://ids.clld.org/parameters/11-150	tenir	segurar, agarrar	держать	tener (en mano), apoyar	11	150	1448	HOLD
-Key-2016-1310-172	seize, grasp	172	11-140	http://ids.clld.org/parameters/11-140	saisir, attraper	agarrar	хватать, схватить	agarrar, empuñar, coger, asir	11	140	2021	GRASP
+Key-2016-1310-172	seize, grasp	172	11-140	http://ids.clld.org/parameters/11-140	saisir, attraper	agarrar	хватать, схватить	agarrar, empuñar, coger, asir	11	140	855	SEIZE
 Key-2016-1310-173	take	173	11-130	http://ids.clld.org/parameters/11-130	prendre	tomar	брать	tomar, coger	11	130	1749	TAKE
 Key-2016-1310-174	own, possess	174	11-120	http://ids.clld.org/parameters/11-120	posséder	possuir	владеть	poseer, tener	11	120	684	OWN
 Key-2016-1310-175	have	175	11-110	http://ids.clld.org/parameters/11-110	avoir	ter	иметь	tener	11	110	773	HAVE
@@ -230,7 +230,7 @@ Key-2016-1310-228	jump, leap	228	10-430	http://ids.clld.org/parameters/10-430	sa
 Key-2016-1310-229	slide, slip	229	10-420	http://ids.clld.org/parameters/10-420	glisser	escorregar, resvalar	скользить	resbalar	10	420	1324	SLIP
 Key-2016-1310-230	crouch	230	10-413	http://ids.clld.org/parameters/10-413	s'accroupir	agachar-se	приседать	agacharse, ponerse en cuclillas	10	413	296	CROUCH
 Key-2016-1310-231	kneel	231	10-412	http://ids.clld.org/parameters/10-412	s'agenouiller	ajoelhar	становиться на колени	arrodillarse	10	412	66	KNEEL
-Key-2016-1310-232	creep, crawl	232	10-410	http://ids.clld.org/parameters/10-410	ramper	rastejar, arrastar-se	ползти	gatear	10	410	96	CRAWL
+Key-2016-1310-232	creep, crawl	232	10-410	http://ids.clld.org/parameters/10-410	ramper	rastejar, arrastar-se	ползти	gatear	10	410	3214	CRAWL OR CREEP
 Key-2016-1310-233	blow	233	10-380	http://ids.clld.org/parameters/10-380	souffler	soprar	дуть	soplar	10	380	175	BLOW (OF WIND)
 Key-2016-1310-234	fly (vb)	234	10-370	http://ids.clld.org/parameters/10-370	voler	voar	летать	volar	10	370	1441	FLY (MOVE THROUGH AIR)
 Key-2016-1310-235	sail (vb)	235	10-360	http://ids.clld.org/parameters/10-360	naviguer	navegar	плыть под парусом	navegar	10	360	787	SAIL
@@ -247,8 +247,8 @@ Key-2016-1310-245	drip	245	10-240	http://ids.clld.org/parameters/10-240	s'égout
 Key-2016-1310-246	fall	246	10-230	http://ids.clld.org/parameters/10-230	tomber	cair	падать	caer	10	230	1280	FALL
 Key-2016-1310-247	raise, lift	247	10-220	http://ids.clld.org/parameters/10-220	lever, élever	levantar, içar	поднимать	levantar	10	220	501	LIFT
 Key-2016-1310-248	rise	248	10-210	http://ids.clld.org/parameters/10-210	monter, se lever	subir	подниматься, восходить	ascender	10	210	568	RISE (MOVE UPWARDS)
-Key-2016-1310-249	twist	249	10-170	http://ids.clld.org/parameters/10-170	tordre	torcer	скручивать	torcer	10	170	430	TWIST
-Key-2016-1310-250	drop (vb)	250	10-160	http://ids.clld.org/parameters/10-160	laisser tomber	deixar cair	капать	dejar caer	10	160	808	DRIP (FALL IN GLOBULES)
+Key-2016-1310-249	twist	249	10-170	http://ids.clld.org/parameters/10-170	tordre	torcer	скручивать	torcer	10	170	3199	TWIST (AROUND)
+Key-2016-1310-250	drop (vb)	250	10-160	http://ids.clld.org/parameters/10-160	laisser tomber	deixar cair	капать	dejar caer	10	160	2866	DROP (SOMETHING)
 Key-2016-1310-251	roll	251	10-150	http://ids.clld.org/parameters/10-150	rouler	rolar	вращать	rodar, arrollar, enrollar	10	150	827	ROLL
 Key-2016-1310-252	wind, wrap	252	10-140	http://ids.clld.org/parameters/10-140	enrouler, envelopper	envolver, enrolar	обертывать	enrollar, envolver	10	140	1113	WRAP
 Key-2016-1310-253	turn around	253	10-130	http://ids.clld.org/parameters/10-130	culbuter, se retourner	voltar, dar a volta	развернуть(ся)	dar vuelta, voltear	10	130	1445	TURN (SOMETHING)
@@ -271,10 +271,10 @@ Key-2016-1310-269	glass	269	9-740	http://ids.clld.org/parameters/9-740	verre	vid
 Key-2016-1310-270	clay	270	9-730	http://ids.clld.org/parameters/9-730	argile, glaise	barro, argila	глина	barro, arcilla	9	730	1399	CLAY
 Key-2016-1310-271	mold (clay etc)	271	9-720	http://ids.clld.org/parameters/9-720	mouler	moldar, amoldar	формовать	moldear, formar	9	720	289	MOLD
 Key-2016-1310-272	potter	272	9-710	http://ids.clld.org/parameters/9-710	pottier	oleiro	гончар	alfarero	9	710	359	POTTER
-Key-2016-1310-273	tin, tinplate	273	9-690	http://ids.clld.org/parameters/9-690	étain	estanho	(белая) жесть	estaño	9	690	358	TINPLATE
+Key-2016-1310-273	tin, tinplate	273	9-690	http://ids.clld.org/parameters/9-690	étain	estanho	(белая) жесть	estaño	9	690	3217	TIN OR TINPLATE
 Key-2016-1310-274	lead (noun)	274	9-680	http://ids.clld.org/parameters/9-680	plomb	chumbo	свинец	plomo	9	680	627	LEAD (CHEMICAL ELEMENT)
 Key-2016-1310-275	iron	275	9-670	http://ids.clld.org/parameters/9-670	fer	ferro	железо	hierro	9	670	621	IRON
-Key-2016-1310-276	copper, bronze	276	9-660	http://ids.clld.org/parameters/9-660	cuivre, bronze	cobre, bronze	медь, бронза	cobre, bronce	9	660	1825	COPPER
+Key-2016-1310-276	copper, bronze	276	9-660	http://ids.clld.org/parameters/9-660	cuivre, bronze	cobre, bronze	медь, бронза	cobre, bronce	9	660	3192	BRONZE OR COPPER
 Key-2016-1310-277	silver	277	9-650	http://ids.clld.org/parameters/9-650	argent	prata	серебро	plata	9	650	759	SILVER
 Key-2016-1310-278	gold	278	9-640	http://ids.clld.org/parameters/9-640	or	ouro	золото	oro	9	640	1369	GOLD
 Key-2016-1310-279	cast (metals)	279	9-630	http://ids.clld.org/parameters/9-630	mouler, couler	fundir	отливать в форму (металлы)	fundir	9	630	211	CAST
@@ -294,7 +294,7 @@ Key-2016-1310-292	broom	292	9-380	http://ids.clld.org/parameters/9-380	balai	vas
 Key-2016-1310-293	wash	293	9-360	http://ids.clld.org/parameters/9-360	laver	lavar	мыть	lavar	9	360	1453	WASH
 Key-2016-1310-294	sweep	294	9-370	http://ids.clld.org/parameters/9-370	balayer	varrer	мести	barrer	9	370	230	SWEEP
 Key-2016-1310-295	pour	295	9-350	http://ids.clld.org/parameters/9-350	verser	verter, despejar	лить, наливать	vaciar, verter, derramar	9	350	1487	POUR
-Key-2016-1310-296	squeeze, wring	296	9-343	http://ids.clld.org/parameters/9-343	presser	espremer, comprimir	выжимать	estrujar, exprimir	9	343	1414	SQUEEZE
+Key-2016-1310-296	squeeze, wring	296	9-343	http://ids.clld.org/parameters/9-343	presser	espremer, comprimir	выжимать	estrujar, exprimir	9	343	3225	SQUEEZE OR WRING
 Key-2016-1310-297	press	297	9-342	http://ids.clld.org/parameters/9-342	presser, appuyer	comprimir, apertar	нажимать, давить	apretar, oprimir	9	342	1913	PRESS
 Key-2016-1310-298	hang up	298	9-341	http://ids.clld.org/parameters/9-341	suspendre	pendurar	повесить	colgar	9	341	357	HANG UP
 Key-2016-1310-299	spread out	299	9-340	http://ids.clld.org/parameters/9-340	étaler, éparpiller	estender, espalhar	распространять, распростроняться	extender, esparcir	9	340	38	SPREAD OUT
@@ -310,7 +310,7 @@ Key-2016-1310-308	ax	308	9-250	http://ids.clld.org/parameters/9-250	hache	machad
 Key-2016-1310-309	adze	309	9-251	http://ids.clld.org/parameters/9-251	herminette	enxó	тесло	azuela	9	251	290	ADZE
 Key-2016-1310-310	scissors, shears	310	9-240	http://ids.clld.org/parameters/9-240	ciseaux	tesoura	ножницы	tijeras	9	240	356	SHEARS
 Key-2016-1310-311	knife	311	9-230	http://ids.clld.org/parameters/9-230	couteau	faca	нож	cuchillo (herramienta)	9	230	1352	KNIFE
-Key-2016-1310-312	stab	312	9-223	http://ids.clld.org/parameters/9-223	poignarder	apunhalar	заколоть	apuñalar	9	223	1434	STAB
+Key-2016-1310-312	stab	312	9-223	http://ids.clld.org/parameters/9-223	poignarder	apunhalar	заколоть	apuñalar	9	223	3189	STAB TO DEATH
 Key-2016-1310-313	chop, hew	313	9-222	http://ids.clld.org/parameters/9-222	tailler, couper	abater, cortar	рубить	tajar, picar	9	222	155	CHOP
 Key-2016-1310-314	cut down	314	9-221	http://ids.clld.org/parameters/9-221	abattre	derrubar	сокращать	tumbar, talar	9	221	355	CUT DOWN
 Key-2016-1310-315	cut	315	9-220	http://ids.clld.org/parameters/9-220	couper	cortar	резать	cortar	9	220	1432	CUT
@@ -336,7 +336,7 @@ Key-2016-1310-334	tapioca, manioc, cassava	334	8-920	http://ids.clld.org/paramet
 Key-2016-1310-335	yam	335	8-912	http://ids.clld.org/parameters/8-912	igname	inhame, cará	ямс (разн. батата)	ñame	8	912	410	YAM
 Key-2016-1310-336	sweet potato	336	8-910	http://ids.clld.org/parameters/8-910	patate douce	batata doce	батат	camote, batata	8	910	159	SWEET POTATO
 Key-2016-1310-337	banyan	337	8-850	http://ids.clld.org/parameters/8-850	banian (higuera de la India)	baniana (figueira da India)	смоковница	baniano	8	850	346	BANYAN
-Key-2016-1310-338	banana tree	338	8-840	http://ids.clld.org/parameters/8-840	bananier	bananeira	банановое дерево	plátano, banano	8	840	868	BANANA
+Key-2016-1310-338	banana tree	338	8-840	http://ids.clld.org/parameters/8-840	bananier	bananeira	банановое дерево	plátano, banano	8	840	1795	BANANA TREE
 Key-2016-1310-339	citrus fruit	339	8-830	http://ids.clld.org/parameters/8-830	citrique	fruta cítrica	цитрусовый фрукт	cítrico	8	830	1126	CITRUS FRUIT
 Key-2016-1310-340	coconut	340	8-820	http://ids.clld.org/parameters/8-820	noix de coco	coco	кокос	coco	8	820	970	COCONUT
 Key-2016-1310-341	palm tree	341	8-810	http://ids.clld.org/parameters/8-810	palmier	palmeira	пальма	palmera	8	810	1181	PALM TREE
@@ -358,7 +358,7 @@ Key-2016-1310-356	oak	356	8-610	http://ids.clld.org/parameters/8-610	chêne	carv
 Key-2016-1310-357	tree	357	8-600	http://ids.clld.org/parameters/8-600	arbre	árvore	дерево	árbol	8	600	906	TREE
 Key-2016-1310-358	flower	358	8-570	http://ids.clld.org/parameters/8-570	fleur	flor	цветок	flor	8	570	239	FLOWER
 Key-2016-1310-359	leaf	359	8-560	http://ids.clld.org/parameters/8-560	feuille	folha	лист	hoja	8	560	628	LEAF
-Key-2016-1310-360	branch	360	8-550	http://ids.clld.org/parameters/8-550	branche, rameau	ramo, galho	ветка	rama	8	550	1531	BRANCH
+Key-2016-1310-360	branch	360	8-550	http://ids.clld.org/parameters/8-550	branche, rameau	ramo, galho	ветка	rama	8	550	3223	BRANCH OR TWIG
 Key-2016-1310-361	root	361	8-540	http://ids.clld.org/parameters/8-540	racine	raiz	корень	raíz	8	540	670	ROOT
 Key-2016-1310-362	plant (vb)	362	8-531	http://ids.clld.org/parameters/8-531	planter	plantar, semear	выращивать	plantar, sembrar	8	531	1486	PLANT (SOMETHING)
 Key-2016-1310-363	hay	363	8-520	http://ids.clld.org/parameters/8-520	foin	palha, feno	сено	heno, paja	8	520	342	HAY
@@ -542,7 +542,7 @@ Key-2016-1310-540	breakfast	540	5-420	http://ids.clld.org/parameters/5-420	petit
 Key-2016-1310-541	meal (a)	541	5-410	http://ids.clld.org/parameters/5-410	repas	refeição	еда, принятие пищи	comida	5	410	1526	MEAL
 Key-2016-1310-542	tongs	542	5-391	http://ids.clld.org/parameters/5-391	pinces	pinça	щипцы	tenazas	5	391	272	TONGS
 Key-2016-1310-543	fork (2)	543	5-390	http://ids.clld.org/parameters/5-390	fourchette	garfo	вилка	tenedor	5	390	1302	FORK
-Key-2016-1310-544	knife (2)	544	5-380	http://ids.clld.org/parameters/5-380	couteau (de table)	faca	нож	cuchillo (para cortar comida)	5	380	1352	KNIFE
+Key-2016-1310-544	knife (2)	544	5-380	http://ids.clld.org/parameters/5-380	couteau (de table)	faca	нож	cuchillo (para cortar comida)	5	380	3210	KNIFE (FOR EATING)
 Key-2016-1310-545	spoon	545	5-370	http://ids.clld.org/parameters/5-370	cuiller	colher	ложка	cuchara	5	370	1378	SPOON
 Key-2016-1310-546	saucer	546	5-360	http://ids.clld.org/parameters/5-360	soucoupe	pires	блюдце	platillo	5	360	271	SAUCER
 Key-2016-1310-547	cup, drinking vessel	547	5-350	http://ids.clld.org/parameters/5-350	tasse, coupe	xícara, chávena, copo	чашка, кубок	taza, copa	5	350	476	CUP
@@ -601,14 +601,14 @@ Key-2016-1310-599	fever	599	4-841	http://ids.clld.org/parameters/4-841	fièvre	f
 Key-2016-1310-600	sick, sickness	600	4-840	http://ids.clld.org/parameters/4-840	malade, maladie	doente, doença	больной, болезнь	enfermo, enfermedad	4	840	1847	SICK
 Key-2016-1310-601	well, health	601	4-830	http://ids.clld.org/parameters/4-830	santé, en bonne santé	bem, saúde, são	здоровый, здоровье	sano, salud	4	830	1364	HEALTHY
 Key-2016-1310-602	weak	602	4-820	http://ids.clld.org/parameters/4-820	faible	débil, fraco	слабый, хилый	débil	4	820	1601	WEAK
-Key-2016-1310-603	strong, mighty, powerful	603	4-810	http://ids.clld.org/parameters/4-810	fort, puissant	forte, poderoso	сильный, могущественный	fuerte, poderoso	4	810	785	STRONG
+Key-2016-1310-603	strong, mighty, powerful	603	4-810	http://ids.clld.org/parameters/4-810	fort, puissant	forte, poderoso	сильный, могущественный	fuerte, poderoso	4	810	3188	MIGHTY OR POWERFUL OR STRONG
 Key-2016-1310-604	grave, tomb	604	4-790	http://ids.clld.org/parameters/4-790	tombe, tombeau	túmulo, sepultura	могила	sepulcro	4	790	1773	GRAVE
 Key-2016-1310-605	bury (the dead)	605	4-780	http://ids.clld.org/parameters/4-780	enterrer	enterrar	хоронить	sepultar	4	780	1719	BURY
 Key-2016-1310-606	corpse	606	4-770	http://ids.clld.org/parameters/4-770	cadavre	cadáver	труп	cadáver	4	770	767	CORPSE
 Key-2016-1310-607	kill	607	4-760	http://ids.clld.org/parameters/4-760	tuer	matar	убивать	matar	4	760	1417	KILL
-Key-2016-1310-608	drowned	608	4-751	http://ids.clld.org/parameters/4-751	noyé	afogado	утонувший, утопленник	ahogado	4	751	1904	DROWN
-Key-2016-1310-609	die, dead	609	4-750	http://ids.clld.org/parameters/4-750	mourir, mort	morrer, morto	умереть, скончаться, мертвый	morir, muerto	4	750	1494	DIE
-Key-2016-1310-610	live, living, life	610	4-740	http://ids.clld.org/parameters/4-740	vivre, vivant, vie	viver, vivo/a, vida	жить, живой, жизнь	vivir, vivo, vida	4	740	1422	BE ALIVE
+Key-2016-1310-608	drowned	608	4-751	http://ids.clld.org/parameters/4-751	noyé	afogado	утонувший, утопленник	ahogado	4	751	3187	DROWNED
+Key-2016-1310-609	die, dead	609	4-750	http://ids.clld.org/parameters/4-750	mourir, mort	morrer, morto	умереть, скончаться, мертвый	morir, muerto	4	750	2101	BE DEAD OR DIE
+Key-2016-1310-610	live, living, life	610	4-740	http://ids.clld.org/parameters/4-740	vivre, vivant, vie	viver, vivo/a, vida	жить, живой, жизнь	vivir, vivo, vida	4	740	3184	BE ALIVE OR LIFE
 Key-2016-1310-611	conceive	611	4-732	http://ids.clld.org/parameters/4-732	concevoir	conceber	зачать, забеременнеть	concebir	4	732	1087	CONCEIVE
 Key-2016-1310-612	pregnant	612	4-730	http://ids.clld.org/parameters/4-730	enceinte	grávida (mulher), prenhe (fêmea)	беременная	embarazada (mujer), preñada (hembra)	4	730	1123	PREGNANT
 Key-2016-1310-613	born (to be)	613	4-720	http://ids.clld.org/parameters/4-720	né, naître	nascer	родиться	nacer	4	720	1090	BE BORN
@@ -633,7 +633,7 @@ Key-2016-1310-631	sneeze	631	4-540	http://ids.clld.org/parameters/4-540	éternue
 Key-2016-1310-632	cough	632	4-530	http://ids.clld.org/parameters/4-530	tousser	tossir	кашлять	toser	4	530	879	COUGH
 Key-2016-1310-633	hiccough	633	4-521	http://ids.clld.org/parameters/4-521	hoqueter	soluço	икать	tener hipo	4	521	162	HICCOUGH
 Key-2016-1310-634	yawn, gape	634	4-520	http://ids.clld.org/parameters/4-520	bailler	bocejar	зевать	bostezar	4	520	1028	YAWN
-Key-2016-1310-635	breathe, breath	635	4-510	http://ids.clld.org/parameters/4-510	respirer, haleine	respirar, respiração	дышать, дыхание	respirar, aliento	4	510	1407	BREATHE
+Key-2016-1310-635	breathe, breath	635	4-510	http://ids.clld.org/parameters/4-510	respirer, haleine	respirar, respiração	дышать, дыхание	respirar, aliento	4	510	3183	BREATH OR BREATHE
 Key-2016-1310-636	penis	636	4-492	http://ids.clld.org/parameters/4-492	pénis	pênis	пенис	pene	4	492	1222	PENIS
 Key-2016-1310-637	testicle	637	4-490	http://ids.clld.org/parameters/4-490	testicule	testículo	тестикул (мужское яичко)	testículo	4	490	797	TESTICLES
 Key-2016-1310-638	womb	638	4-470	http://ids.clld.org/parameters/4-470	matrice, utérus	útero, ventre	матка, лоно	matriz, vientre	4	470	804	WOMB
@@ -877,7 +877,7 @@ Key-2016-1310-875	parents	875	2-370	http://ids.clld.org/parameters/2-370	parents
 Key-2016-1310-876	mother	876	2-360	http://ids.clld.org/parameters/2-360	mère	mãe	мать	madre	2	360	1216	MOTHER
 Key-2016-1310-877	father	877	2-350	http://ids.clld.org/parameters/2-350	père	pai	отец	padre	2	350	1217	FATHER
 Key-2016-1310-878	divorce	878	2-341	http://ids.clld.org/parameters/2-341	divorce	divórcio	развод	divorcio	2	341	1134	DIVORCE
-Key-2016-1310-879	marriage, wedding	879	2-340	http://ids.clld.org/parameters/2-340	mariage, noces	matrimônio, casamento	свадьба, брак	casamiento, boda	2	340	1259	WEDDING
+Key-2016-1310-879	marriage, wedding	879	2-340	http://ids.clld.org/parameters/2-340	mariage, noces	matrimônio, casamento	свадьба, брак	casamiento, boda	2	340	3182	MARRIAGE OR WEDDING
 Key-2016-1310-880	marry	880	2-330	http://ids.clld.org/parameters/2-330	se marier, épouser	casar	жениться, выйти замуж	casarse	2	330	203	MARRY
 Key-2016-1310-881	wife	881	2-320	http://ids.clld.org/parameters/2-320	femme, épouse	esposa, mulher	жена	esposa	2	320	1199	WIFE
 Key-2016-1310-882	husband	882	2-310	http://ids.clld.org/parameters/2-310	mari, époux	marido	муж	marido, esposo	2	310	1200	HUSBAND
@@ -1101,7 +1101,7 @@ Key-2016-1310-1099	think (= be of the opinion)	1099	17-140	http://ids.clld.org/p
 Key-2016-1310-1100	believe	1100	17-150	http://ids.clld.org/parameters/17-150	croire	crer	верить	creer	17	150	1890	BELIEVE
 Key-2016-1310-1101	understand	1101	17-160	http://ids.clld.org/parameters/17-160	comprendre	compreender	понимать	entender	17	160	1536	UNDERSTAND
 Key-2016-1310-1102	know	1102	17-170	http://ids.clld.org/parameters/17-170	savoir	saber	знать	saber	17	170	1410	KNOW (SOMETHING)
-Key-2016-1310-1103	guess	1103	17-171	http://ids.clld.org/parameters/17-171	deviner	adivinhar, conjeturar	полагать	adivinar, acertar	17	171	1932	GUESS
+Key-2016-1310-1103	guess	1103	17-171	http://ids.clld.org/parameters/17-171	deviner	adivinhar, conjeturar	полагать	adivinar, acertar	17	171	3199	GUESS
 Key-2016-1310-1104	imitate	1104	17-172	http://ids.clld.org/parameters/17-172	imiter	imitar	имитировать	imitar	17	172	117	IMITATE
 Key-2016-1310-1105	seem	1105	17-180	http://ids.clld.org/parameters/17-180	sembler	parecer	казаться	parecer	17	180	1521	SEEM
 Key-2016-1310-1106	idea, notion	1106	17-190	http://ids.clld.org/parameters/17-190	idée	idéia	идея, понятие	idea, concepto	17	190	1609	IDEA
@@ -1207,7 +1207,7 @@ Key-2016-1310-1205	servant	1205	19-430	http://ids.clld.org/parameters/19-430	dom
 Key-2016-1310-1206	freeman	1206	19-440	http://ids.clld.org/parameters/19-440	homme libre	homem livre	свободный человек	hombre libre	19	440	384	FREEMAN
 Key-2016-1310-1207	command, order	1207	19-450	http://ids.clld.org/parameters/19-450	commander, ordonner	mandar, dar ordem	приказывать	mandar	19	450	1128	ORDER
 Key-2016-1310-1208	obey	1208	19-460	http://ids.clld.org/parameters/19-460	obéir	obedecer	повиноваться	obedecer	19	460	1635	OBEY
-Key-2016-1310-1209	let, permit	1209	19-470	http://ids.clld.org/parameters/19-470	permettre	deixar, permitir	разрешать	permitir, dejar	19	470	1003	PERMIT
+Key-2016-1310-1209	let, permit	1209	19-470	http://ids.clld.org/parameters/19-470	permettre	deixar, permitir	разрешать	permitir, dejar	19	470	3237	ALLOW OR PERMIT
 Key-2016-1310-1210	friend, companion	1210	19-510	http://ids.clld.org/parameters/19-510	ami, compagnon	amigo, companheiro	друг	amigo, compañero	19	510	1325	FRIEND
 Key-2016-1310-1211	enemy	1211	19-520	http://ids.clld.org/parameters/19-520	ennemi	inimigo	враг	enemigo	19	520	1358	ENEMY
 Key-2016-1310-1212	neighbor	1212	19-540	http://ids.clld.org/parameters/19-540	voisin	vizinho	сосед	vecino	19	540	1332	NEIGHBOUR
@@ -1215,7 +1215,7 @@ Key-2016-1310-1213	stranger	1213	19-550	http://ids.clld.org/parameters/19-550	é
 Key-2016-1310-1214	guest	1214	19-560	http://ids.clld.org/parameters/19-560	invité	convidado, hóspede	гость	huésped	19	560	1782	GUEST
 Key-2016-1310-1215	host	1215	19-570	http://ids.clld.org/parameters/19-570	hôte	hospedeiro, anfitrião	хозяин	huésped, hospedero	19	570	1545	HOST
 Key-2016-1310-1216	help, aid	1216	19-580	http://ids.clld.org/parameters/19-580	aider	ajudar	помощь	ayudar	19	580	1897	HELP
-Key-2016-1310-1217	hinder, prevent	1217	19-590	http://ids.clld.org/parameters/19-590	empêcher	impedir, estorvar	мешать, препятствовать	impedir, estorbar	19	590	1550	PREVENT
+Key-2016-1310-1217	hinder, prevent	1217	19-590	http://ids.clld.org/parameters/19-590	empêcher	impedir, estorvar	мешать, препятствовать	impedir, estorbar	19	590	3201	HINDER OR PREVENT
 Key-2016-1310-1218	custom	1218	19-610	http://ids.clld.org/parameters/19-610	coutume	costume, hábito	обычай	costumbre	19	610	1747	CUSTOM
 Key-2016-1310-1219	strife, quarrel	1219	19-620	http://ids.clld.org/parameters/19-620	lutte, querelle	disputa, luta	ссора	lucha, pleito	19	620	1848	QUARREL
 Key-2016-1310-1220	conspiracy, plot	1220	19-630	http://ids.clld.org/parameters/19-630	conspiration, complot	conspiração	заговор	conspiración	19	630	2024	PLOT
@@ -1234,7 +1234,7 @@ Key-2016-1310-1232	bow	1232	20-240	http://ids.clld.org/parameters/20-240	arc	arc
 Key-2016-1310-1233	arrow	1233	20-250	http://ids.clld.org/parameters/20-250	flèche	flecha	стрела	flecha	20	250	977	ARROW
 Key-2016-1310-1234	spear	1234	20-260	http://ids.clld.org/parameters/20-260	épieu, lance	lança	копье	lanza	20	260	945	SPEAR
 Key-2016-1310-1235	sword	1235	20-270	http://ids.clld.org/parameters/20-270	épée	espada	меч	espada	20	270	1535	SWORD
-Key-2016-1310-1236	gun, cannon	1236	20-280	http://ids.clld.org/parameters/20-280	fusil, canon	arma, pistola, canhão	ружье, пушка	escopeta, cañón	20	280	1566	GUN
+Key-2016-1310-1236	gun, cannon	1236	20-280	http://ids.clld.org/parameters/20-280	fusil, canon	arma, pistola, canhão	ружье, пушка	escopeta, cañón	20	280	3203	CANNON OR GUN
 Key-2016-1310-1237	armor (defensive)	1237	20-310	http://ids.clld.org/parameters/20-310	armure	armadura	доспехи	armadura	20	310	1061	ARMOUR
 Key-2016-1310-1238	helmet	1238	20-330	http://ids.clld.org/parameters/20-330	casque	elmo, capacete	шлем	yelmo	20	330	1680	HELMET
 Key-2016-1310-1239	shield	1239	20-340	http://ids.clld.org/parameters/20-340	bouclier	escudo	щит	escudo	20	340	1064	SHIELD
@@ -1306,6 +1306,6 @@ Key-2016-1310-1304	demon (evil spirit)	1304	22-350	http://ids.clld.org/parameter
 Key-2016-1310-1305	idol	1305	22-370	http://ids.clld.org/parameters/22-370	idole	ídolo	идол	ídolo	22	370	1945	IDOL
 Key-2016-1310-1306	magic, witchcraft, sorcery	1306	22-420	http://ids.clld.org/parameters/22-420	magie, sorcellerie	magia, feitiçaria	волшебство, колдовство	brujería, hechicería	22	420	392	MAGIC
 Key-2016-1310-1307	sorcerer, witch	1307	22-430	http://ids.clld.org/parameters/22-430	sorcier, sorcière	feiticeiro, bruxo/bruxa	колдунья, ведьма	brujo/bruja, hechicero	22	430	2137	MAGICIAN
-Key-2016-1310-1308	fairy, elf	1308	22-440	http://ids.clld.org/parameters/22-440	fée	fada	фея, yльф	hada, duende	22	440	2138	LEGENDARY CREATURE
+Key-2016-1310-1308	fairy, elf	1308	22-440	http://ids.clld.org/parameters/22-440	fée	fada	фея, yльф	hada, duende	22	440	3206	ELF OR FAIRY
 Key-2016-1310-1309	ghost, phantom	1309	22-450	http://ids.clld.org/parameters/22-450	fantôme, esprit, revenant	fantasma	призрак	fantasma	22	450	1175	GHOST
 Key-2016-1310-1310	omen, portent	1310	22-470	http://ids.clld.org/parameters/22-470	présage, augure	agouro, presságio	знамение	agüero, presagio	22	470	107	OMEN
