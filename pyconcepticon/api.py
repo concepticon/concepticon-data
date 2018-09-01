@@ -251,7 +251,7 @@ class Concepticon(API):
 
 @attr.s
 class Languoid(object):
-    name = attr.ib(convert=lambda s: s.lower())
+    name = attr.ib(converter=lambda s: s.lower())
     glottocode = attr.ib()
     iso2 = attr.ib()
 
@@ -393,7 +393,7 @@ class Concept(Bag):
     id = attr.ib(validator=valid_concept)
     number = attr.ib()
     concepticon_id = attr.ib(
-        default=None, convert=lambda s: s if s is None else '{0}'.format(s))
+        default=None, converter=lambda s: s if s is None else '{0}'.format(s))
     concepticon_gloss = attr.ib(default=None)
     gloss = attr.ib(default=None)
     english = attr.ib(default=None)
@@ -414,18 +414,18 @@ class Conceptlist(Bag):
     _api = attr.ib()
     id = attr.ib(validator=valid_conceptlist_id)
     author = attr.ib()
-    year = attr.ib(convert=int)
+    year = attr.ib(converter=int)
     list_suffix = attr.ib()
-    items = attr.ib(convert=int)
-    tags = attr.ib(convert=split_ids, validator=valid_key)
-    source_language = attr.ib(convert=lambda v: split(v.lower()))
+    items = attr.ib(converter=int)
+    tags = attr.ib(converter=split_ids, validator=valid_key)
+    source_language = attr.ib(converter=lambda v: split(v.lower()))
     target_language = attr.ib()
     url = attr.ib()
-    refs = attr.ib(convert=split_ids)
-    pdf = attr.ib(convert=split_ids)
+    refs = attr.ib(converter=split_ids)
+    pdf = attr.ib(converter=split_ids)
     note = attr.ib()
     pages = attr.ib()
-    alias = attr.ib(convert=lambda s: [] if s is None else split(s))
+    alias = attr.ib(converter=lambda s: [] if s is None else split(s))
     local = attr.ib(default=False)
 
     @property
