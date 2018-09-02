@@ -13,6 +13,7 @@ setup(
         "Programming Language :: Python :: 3.4",
         "Programming Language :: Python :: 3.5",
         "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
     ],
     author='',
     author_email='forkel@shh.mpg.de',
@@ -22,12 +23,12 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        'csvw',
-        'clldutils>=2.1.0',
+        'attrs>=18.1.0',
         'bibtexparser',
-        'tabulate',
-        'attrs',
         'cdstarcat',
+        'clldutils>=2.1.0',
+        'csvw',
+        'tabulate',
     ],
     extras_require={
         'dev': [
