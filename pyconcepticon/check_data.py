@@ -9,8 +9,8 @@ from pyconcepticon.util import split, REPOS_PATH, BIB_PATTERN
 
 SUCCESS = True
 NUMBER_PATTERN = re.compile('(?P<number>[0-9]+)(?P<suffix>.*)')
-REF_WITHOUT_LABEL_PATTERN = re.compile('[^\]]\(:(ref|bib):[A-Za-z0-9\-]+\)')
-REF_WITHOUT_LINK_PATTERN = re.compile('[^(]:(ref|bib):[A-Za-z0-9\-]+')
+REF_WITHOUT_LABEL_PATTERN = re.compile(r'[^\]]\(:(ref|bib):[A-Za-z0-9\-]+\)')
+REF_WITHOUT_LINK_PATTERN = re.compile(r'[^(]:(ref|bib):[A-Za-z0-9\-]+')
 
 
 def _msg(type_, msg, name, line):  # pragma: no cover

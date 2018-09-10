@@ -6,7 +6,7 @@ from __future__ import print_function, division, unicode_literals
 import re
 from collections import defaultdict
 
-from clldutils.misc import cached_property
+from clldutils.misc import lazyproperty
 
 import attr
 
@@ -37,7 +37,7 @@ class Gloss(object):
 
     frequency = attr.ib(default=0)
 
-    @cached_property()
+    @lazyproperty
     def tokens(self):
         return ' '.join(s for s in self.gloss.split() if s not in ['or'])
 
@@ -140,7 +140,7 @@ def parse_gloss(gloss, language='en'):
 
     # if the gloss consists of multiple parts, we store both the separate part
     # and a normalized form of the full gloss
-    constituents = [x.strip() for x in re.split(',|;|\:|/| or | OR ', gloss) if x.strip()]
+    constituents = [x.strip() for x in re.split(r',|;|\:|/| or | OR ', gloss) if x.strip()]
     if len(constituents) > 1:
         constituents += [' / '.join(sorted([c.strip() for c in constituents]))]
 
