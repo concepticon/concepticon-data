@@ -11,6 +11,13 @@ from pyconcepticon.util import read_all
 from pyconcepticon import __main__
 
 
+def test_validate(fixturedir, mocker, capsys):
+    from pyconcepticon.commands import validate
+    validate(mocker.MagicMock(repos=fixturedir))
+    out, err = capsys.readouterr()
+    assert 'unspecified column' in out
+
+
 def test_check_new(fixturedir, capsys, mocker, tmpdir):
     from pyconcepticon.commands import check_new
 
