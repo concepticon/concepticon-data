@@ -33,7 +33,7 @@ class Gloss(object):
     # split by whitespace:
     longest_part = attr.ib(default='')
     # the original gloss (for the purpose of testing):
-    gloss = attr.ib(default='', convert=lambda s: s.lower().replace('*', ''))
+    gloss = attr.ib(default='', converter=lambda s: s.lower().replace('*', ''))
 
     frequency = attr.ib(default=0)
 
