@@ -16,7 +16,7 @@ __all__ = [
 
 REPOS_PATH = Path(pyconcepticon.__file__).parent.parent
 PKG_PATH = Path(pyconcepticon.__file__).parent
-ID_SEP_PATTERN = re.compile('\.|,|;')
+ID_SEP_PATTERN = re.compile(r'\.|,|;')
 PREFIX = 'CONCEPTICON'
 CS_GLOSS = PREFIX + '_GLOSS'
 CS_ID = PREFIX + '_ID'
