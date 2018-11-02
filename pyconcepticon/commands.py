@@ -402,7 +402,7 @@ def stats(args):
     """
     api = Concepticon(args.repos)
     cls = api.conceptlists.values()
-    readme_conceptlists(api, cls)
+    readme_conceptlists(api, cls, args)
     readme_concept_list_meta(api)
     readme_concepticondata(api, cls)
 
@@ -422,10 +422,10 @@ def cl_stats(cl):
     return mapped, mapped_ratio, mergers
 
 
-def readme_conceptlists(api, cls):
+def readme_conceptlists(api, cls, args):
     table = Table('name', '# mapped', '% mapped', 'mergers')
     for cl in cls:
-        print(cl.path.name)
+        args.log.info('processing <'+cl.path.name+'>')
         mapped, mapped_ratio, mergers = cl_stats(cl)
         table.append([
             '[%s](%s) ' % (cl.id, cl.path.name),
