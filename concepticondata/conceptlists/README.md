@@ -91,7 +91,6 @@
 | [Hou-2004-180](Hou-2004-180.tsv) | 179 | 99 | 0 |
 | [Huber-1992-374](Huber-1992-374.tsv) | 347 | 94 | 4 |
 | [Janhunan-2008-235](Janhunan-2008-235.tsv) | 268 | 98 | 19 |
-| [Kaiping-2018-591](Kaiping-2018-591.tsv) | 0 | 0 | 0 |
 | [Kassian-2010-116](Kassian-2010-116.tsv) | 116 | 100 | 1 |
 | [Kassian-2015-50](Kassian-2015-50.tsv) | 50 | 100 | 0 |
 | [Kessler-2001-200](Kessler-2001-200.tsv) | 200 | 100 | 0 |
@@ -227,5 +226,5 @@
 | [Zorc-1974-100](Zorc-1974-100.tsv) | 100 | 100 | 0 |
 | [vanderWouw-1974-28](vanderWouw-1974-28.tsv) | 28 | 100 | 0 |
 
-(224 rows)
+(223 rows)
 
