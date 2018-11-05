@@ -600,7 +600,7 @@ def check(args):
     def _get_mergers(o, api):
         clashes = defaultdict(list)
         for cid, c in o.concepts.items():
-            if c.concepticon_id != '':
+            if c.concepticon_id:
                 clashes[c.concepticon_id].append(cid)
 
         for c in sorted([c for c in clashes if len(clashes[c]) > 1]):
