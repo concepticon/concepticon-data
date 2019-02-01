@@ -4,4 +4,4 @@ python:
 cache: pip
 before_cache: rm -f $HOME/.cache/pip/log/debug.log
 install: pip install pyconcepticon>=2.0.0 pytest
-script: pytest test.py
+script: pytest
