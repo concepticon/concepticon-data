@@ -510,7 +510,7 @@ Dellert-2017-1016-508	508	478	-1.130349	nass	nass::A	wet	мокрый				WET	172
 Dellert-2017-1016-509	509	262	-1.141529	trocken	trocken::A	dry	сухой				DRY	1398	
 Dellert-2017-1016-510	510	95	-2.255925	voll	voll::A	full	полный, наполненный	Gefäß	container	о сосуде	FULL	1429	
 Dellert-2017-1016-511	511	393	-1.130087	leer	leer::A	empty	пустой	Gefäß	container	о сосуде	EMPTY	1624	
-Dellert-2017-1016-512	512	415	-1.181553	offen	offen::A	open	открытый	BSP:Tür	EX:door	НАПР:о двери			TO BE OPEN
+Dellert-2017-1016-512	512	415	-1.181553	offen	offen::A	open	открытый	BSP:Tür	EX:door	НАПР:о двери	OPEN (STATE)	3235	TO BE OPEN
 Dellert-2017-1016-513	513	732	-0.036018	geschlossen	geschlossen::A	closed	закрытый	BSP:Tür	EX:door	НАПР:о двери	CLOSED	589	
 Dellert-2017-1016-514	514	708	-0.002671	sauber	sauber::A	clean	чистый				CLEAN	704	
 Dellert-2017-1016-515	515	846	-0.091876	schmutzig	schmutzig::A	dirty	грязный				DIRTY	1230	

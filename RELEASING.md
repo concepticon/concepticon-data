@@ -6,6 +6,12 @@ concepticon-data.
 
 Creating a release comprises the following tasks:
 
+- Check the list of not linked concepts - with new concept sets some of these could
+  be ticked off!
+```
+concepticon --repos=. notlinked
+```
+
 - Run [bibtool](http://www.gerd-neugebauer.de/software/TeX/BibTool/en/) on the references 
 to normalize them for import:
 ```
