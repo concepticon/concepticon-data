@@ -16,9 +16,18 @@ $ bibtool -r concepticondata/references/bibtool.rsc -o concepticondata/reference
 - Make sure all tests pass, and also address warnings about missing PDFs (see [handling source PDFs](#upload_sources))
 - Make sure the data in `master` can be imported into the web app `clld/concepticon`.
 - Make sure all tests pass for the web app.
-- Recreate and push the statistics pages, running 
+- Recreate the statistics pages:
 ```
 concepticon stats
+```
+
+- Recreate and push the linking data:
+```
+concepticon --repos=. relink-data
+```
+
+- Commit the updates for this version and push updated data:
+```
 git commit -a -m"release <version>"
 git push origin
 ```
@@ -55,40 +64,3 @@ uploaded to [CDSTAR](https://cdstar.shh.mpg.de). This is done by
 2. deleting the uploaded PDF files from `concepticondata/sources`
 3. commiting and pushing the changes
 
-
-
-# Releasing pyconcepticon
-
-- Make sure the tests pass
-```
-tox -r
-```
-
-- Make sure flake8 is happy:
-```
-flake8 pyconcepticon
-```
-
-- Bump version number:
-  - Change the version number in `setup.py` and commit the change:
-```
-git commit -a -m"bumped version number"
-```
-
-- Create a release tag:
-```
-git tag -a pyconcepticon-0.2 -m"first version to be released on pypi"
-```
-
-- Release to PyPI:
-```
-rm dist/*
-python setup.py sdist bdist_wheel
-twine upload dist/*
-```
-
-- Push to github:
-```
-git push origin
-git push --tags
-```

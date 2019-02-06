@@ -1,13 +1,14 @@
 # CLLD Concepticon
 
-The data underlying the [Concepticon](http://concepticon.clld.org) of the [CLLD](http://clld.org) project is maintained in this repository. Here, you can find 
+[![Build Status](https://travis-ci.org/clld/concepticon-data.svg?branch=master)](https://travis-ci.org/clld/concepticon-data)
+
+The data underlying the [Concepticon](https://concepticon.clld.org) of the [CLLD](http://clld.org) project is maintained in this repository. Here, you can find 
 
 * [previous and current releases](https://github.com/clld/concepticon-data/releases), 
 * [issues we are trying to handle](https://github.com/clld/concepticon-data/issues),
 * the [current unreleased form of the data](https://github.com/clld/concepticon-data/tree/master/concepticondata), as well as
 * [errata that have been corrected](https://github.com/clld/concepticon-data/issues?q=label%3Aerrata+is%3Aclosed)
 
-The repository also contains the sources of [`pyconcepticon`](#pyconcepticon), a python package providing an API to access and manipulate the Concepticon data.
 
 ## Concepticon Data
 
@@ -50,68 +51,8 @@ using the concepticon-data API throws an error, you should consult the [list of 
 for this behaviour.
 
 
-<a id="pyconcepticon"> </a>
+## pyconcepticon
 
-## `pyconcepticon`
+[pyconcepticon](https://pypi.org/project/pyconcepticon) provides a Python package 
+to programmatically access Concepticon data.
 
-[![Build Status](https://travis-ci.org/clld/concepticon-data.svg?branch=master)](https://travis-ci.org/clld/concepticon-data)
-
-### Installation
-
-While `pyconcepticon` can be installed from [PyPI](https://pypi.python.org/pypi), this has the drawback that additionally, a clone or export of the data repository
-is required and its location needs to be passed whenever invoking the `pyconcepticon` API. Thus, we recommend installation of
-`pyconcepticon` from a local clone of this repository, i.e. by running:
-```
-pip install -e .
-```
-in the top-level directory of your clone of `concepticon-data`. This way,
-`pyconcepticon` will correctly infer the location of the data from the location
-of its own source.
-
-
-### Usage
-
-To use `pyconcepticon` you must have a local copy of the Concepticon data, i.e. either
-
-* the sources of a [released version](https://github.com/clld/concepticon-data/releases), as provided in the **Downloads** section of a release, or
-* a clone of this repository (or your personal fork of it).
-
-Assuming you have downloaded release 1.0.2 and unpacked the sources to a directory `concepticon-data-1.0.2`, you can access
-the data as follows:
-```python
->>> from pyconcepticon.api import Concepticon
->>> api = Concepticon('concepticon-data-1.0.2')
->>> conceptlist = api.conceptlists.values()[0]
-# If you're using Python 3.x, rather run the following:
-# conceptlist = list(api.conceptlists.values())
-# concept_list[0].author) # etc.
->>> conceptlist.author
-u'Phillipe Mennecier and John Nerbonne and Evelyne Heyer and Franz Manni'
->>> conceptlist.tags
-[u'basic']
->>> len(conceptlist.concepts)
-183
->>> conceptlist.concepts.values()[0]
-Concept(id=u'Mennecier-2016-183-1', number=u'1', concepticon_id=u'619', concepticon_gloss=u'ANIMAL', gloss=None, english=u'animal', attributes={u'russian': u'\u0436\u0438\u0432\u043e\u0442\u043d\u043e\u0435', u'swadesh_id': u'44', u'english_1': u'animal'})
->>> api.bibliography.values()[0]
-Reference(id=u'Mennecier2016', type=u'article', record={u'doi': u'10.1163/22105832-00601015', u'author': u'Phillipe Mennecier and John Nerbonne and Evelyne Heyer and Franz Manni', u'journal': u'Language Dynamics and Change', u'title': u'A Central Asian language survey', u'number': u'1', u'volume': u'6', u'year': u'2016', u'pages': u'57\u201398'})
-```
-
-Having installed pyconcepticon, you can also directly query concept lists via the terminal command `concepticon`. For example, to learn about the intersection between two or more lists, you can type:
-
-```shell
-$ concepticon intersection Swadesh-1955-100 Swadesh-1952-200
-```
-
-This yields an output of 93 lines, which look as follows:
-
-```shell
- 69 *SKIN                    [763 ] SKIN (HUMAN) (1, Swadesh-1952-200)
- 70  SLEEP                   [1585] 
- 71  SMALL                   [1246] 
- 72  SMOKE (EXHAUST)         [778 ] 
-```
-
-The output can interpreted as follows: The first number shows the number in the intersection of items (alphabetically ordered, following the Concepticon gloss). The Concepticon gloss is shown as a next item. If it is preceded by an asterisk, this means that the mapping was not complete, as it involves concept relations. The alternative concept sets are then listed in the end of the line. The number in squared brackets indicates the Concepticon concept set ID.
-
-You can use the same technique with the command "union", to obtain the union of two consept lists. 

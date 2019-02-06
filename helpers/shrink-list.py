@@ -22,8 +22,7 @@ for line in csv[1:]:
         for h in rest:
             D[tmp[head]][h] = [tmp[h]]
 
-with open(argv[1].replace('.tsv','.shrink.tsv'), 'w') as f:
-    
+with open(argv[1].replace('.tsv','.shrink.tsv'), 'w') as f:    
     f.write('\t'.join([x.upper() for x in [head]+rest])+'\n')
     for k in sorted(D):
 
@@ -31,6 +30,4 @@ with open(argv[1].replace('.tsv','.shrink.tsv'), 'w') as f:
         for h in rest:
             f.write('\t'+' / '.join(sorted(set(D[k][h]))))
         f.write('\n')
-
-        
 
