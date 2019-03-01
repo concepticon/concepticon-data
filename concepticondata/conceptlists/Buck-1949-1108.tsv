@@ -35,7 +35,7 @@ Buck-1949-1108-33	1.63	shade	1388	SHADE
 Buck-1949-1108-34	1.71	air	27	AIR
 Buck-1949-1108-35	1.72	wind (sb.)	960	WIND
 Buck-1949-1108-36	1.73	cloud	1489	CLOUD
-Buck-1949-1108-37	1.74	mist	249	FOG
+Buck-1949-1108-37	1.74	fog; haze; mist	249	FOG
 Buck-1949-1108-38	1.75	rain	658	RAIN (PRECIPITATION)
 Buck-1949-1108-39	1.76	snow	784	SNOW
 Buck-1949-1108-40	1.77	ice	617	ICE
@@ -128,7 +128,7 @@ Buck-1949-1108-126	3.43	gelding	2566	GELDING
 Buck-1949-1108-127	3.44	mare	938	MARE
 Buck-1949-1108-128	3.45	colt; foal	1647	FOAL
 Buck-1949-1108-129	3.46	ass	1862	DONKEY
-Buck-1949-1108-130	3.51	hen (generic)	1318	CHICKEN
+Buck-1949-1108-130	3.51	fowl; hen (generic)	1318	CHICKEN
 Buck-1949-1108-131	3.52	cock	1511	ROOSTER
 Buck-1949-1108-132	3.53	capon	2567	CAPON
 Buck-1949-1108-133	3.54	hen (female)	1514	HEN
@@ -144,7 +144,7 @@ Buck-1949-1108-142	3.65	fish	227	FISH
 Buck-1949-1108-143	3.71	wolf	522	WOLF
 Buck-1949-1108-144	3.72	lion	1386	LION
 Buck-1949-1108-145	3.73	bear (sb.)	1820	BEAR
-Buck-1949-1108-146	3.74	fowl (3.51) fox	1312	FOX
+Buck-1949-1108-146	3.74	fox	1312	FOX
 Buck-1949-1108-147	3.75	deer	1936	DEER
 Buck-1949-1108-148	3.76	ape; monkey	1350	MONKEY
 Buck-1949-1108-149	3.78	camel	1871	CAMEL
@@ -165,7 +165,7 @@ Buck-1949-1108-163	4.16	bone	1394	BONE
 Buck-1949-1108-164	4.17	horn	1393	HORN (ANATOMY)
 Buck-1949-1108-165	4.18	tail	1220	TAIL
 Buck-1949-1108-166	4.19	back (part of body)	1291	BACK
-Buck-1949-1108-167	4.20	haze (1.74) head	1256	HEAD
+Buck-1949-1108-167	4.20	head	1256	HEAD
 Buck-1949-1108-168	4.202	skull	1605	SKULL
 Buck-1949-1108-169	4.203	brain	1583	BRAIN
 Buck-1949-1108-170	4.204	face	1560	FACE
@@ -205,7 +205,7 @@ Buck-1949-1108-203	4.45	liver	1224	LIVER
 Buck-1949-1108-204	4.46	belly; stomach	819	STOMACH
 Buck-1949-1108-205	4.47	womb	804	WOMB
 Buck-1949-1108-206	4.48	egg	744	EGG
-Buck-1949-1108-207	4.49	test (9.98) testicle	797	TESTICLES
+Buck-1949-1108-207	4.49	testicle	797	TESTICLES
 Buck-1949-1108-208	4.492	penis	1222	PENIS
 Buck-1949-1108-209	4.51	breath, breathe	3183	BREATH OR BREATHE
 Buck-1949-1108-210	4.52	gape	1028	YAWN
@@ -233,7 +233,7 @@ Buck-1949-1108-231	4.76	kill	1417	KILL
 Buck-1949-1108-232	4.77	corpse	767	CORPSE
 Buck-1949-1108-233	4.78	bury (the dead)	1719	BURY
 Buck-1949-1108-234	4.79	grave (sb.)	1773	GRAVE
-Buck-1949-1108-235	4.81	mighty; power (4.81) powerful; strong	3188	MIGHTY OR POWERFUL OR STRONG
+Buck-1949-1108-235	4.81	mighty; power; powerful; strong	3188	MIGHTY OR POWERFUL OR STRONG
 Buck-1949-1108-236	4.82	weak	1601	WEAK
 Buck-1949-1108-237	4.83	health; well (adj.)	1364	HEALTHY
 Buck-1949-1108-238	4.84	ill (in health); sick; sickness	1847	SICK
@@ -302,7 +302,7 @@ Buck-1949-1108-300	5.72	apple	1320	APPLE
 Buck-1949-1108-301	5.73	pear	922	PEAR
 Buck-1949-1108-302	5.74	peach	2043	PEACH
 Buck-1949-1108-303	5.75	fig	322	FIG
-Buck-1949-1108-304	5.76	grape	920	GRAPE
+Buck-1949-1108-304	5.76	grape; raisin	920	GRAPE
 Buck-1949-1108-305	5.77	nut	191	NUT
 Buck-1949-1108-306	5.78	olive	1154	OLIVE
 Buck-1949-1108-307	5.79	oil	1484	OIL (ORGANIC SUBSTANCE)
@@ -336,7 +336,7 @@ Buck-1949-1108-334	6.33	weave	133	WEAVE
 Buck-1949-1108-335	6.34	loom	1787	LOOM
 Buck-1949-1108-336	6.35	sew	1457	SEW
 Buck-1949-1108-337	6.37	awl; needle	278	AWL
-Buck-1949-1108-338	6.38	thought (17.14) thread	1161	THREAD
+Buck-1949-1108-338	6.38	thread	1161	THREAD
 Buck-1949-1108-339	6.39	dye (vb.)	157	DYE
 Buck-1949-1108-340	6.41	cloak	326	CLOAK
 Buck-1949-1108-341	6.412	overcoat		
@@ -377,7 +377,7 @@ Buck-1949-1108-375	7.11	dwell; live (= reside); reside	363	DWELL (LIVE, RESIDE)
 Buck-1949-1108-376	7.12	house	1252	HOUSE
 Buck-1949-1108-377	7.122	home	2406	HOME
 Buck-1949-1108-378	7.13	hut	1678	HUT
-Buck-1949-1108-379	7.14	tempt (9.98) tent	1316	TENT
+Buck-1949-1108-379	7.14	tent	1316	TENT
 Buck-1949-1108-380	7.15	court (= courtyard); yard	736	YARD
 Buck-1949-1108-381	7.21	room (in a house)	1450	ROOM
 Buck-1949-1108-382	7.22	door; gate	1567	DOOR
@@ -408,7 +408,7 @@ Buck-1949-1108-406	8.23	spade (sb.)	1176	SPADE
 Buck-1949-1108-407	8.24	shovel (sb.)	1901	SHOVEL
 Buck-1949-1108-408	8.25	hoe	284	HOE
 Buck-1949-1108-409	8.26	fork (= farm-fork)	337	PITCHFORK
-Buck-1949-1108-410	8.27	raisin (5.76) rake	338	RAKE
+Buck-1949-1108-410	8.27	rake	338	RAKE
 Buck-1949-1108-411	8.28	harrow	339	DIGGING STICK
 Buck-1949-1108-412	8.31	seed; sow (vb., sow seed)	748	SOW SEEDS
 Buck-1949-1108-413	8.32	mow (vb.); reap	190	MOW
@@ -445,7 +445,7 @@ Buck-1949-1108-443	9.11	do; make	2575	DO OR MAKE
 Buck-1949-1108-444	9.12	labor (sb.); toil (sb.); work (sb.	984	WORK (LABOUR)
 Buck-1949-1108-445	9.13	labor (vb.); toil (vb.); work (vb.)	1086	WORK (ACTIVITY)
 Buck-1949-1108-446	9.14	bend	2004	BEND
-Buck-1949-1108-447	9.15	fog (1.74) fold	1470	FOLD
+Buck-1949-1108-447	9.15	fold	1470	FOLD
 Buck-1949-1108-448	9.16	bind	1917	TIE
 Buck-1949-1108-449	9.17	bond		
 Buck-1949-1108-450	9.18	chain	1627	CHAIN
@@ -520,7 +520,7 @@ Buck-1949-1108-518	9.943	fitting; suitable
 Buck-1949-1108-519	9.95	able, be; can (vb.); may	972	BE ABLE
 Buck-1949-1108-520	9.96	easy	686	EASY
 Buck-1949-1108-521	9.97	difficult; hard (= difficult)	584	DIFFICULT
-Buck-1949-1108-522	9.98	try¹ (= make trial of, test)	2571	TRY (TEST)
+Buck-1949-1108-522	9.98	tempt; test; try¹ (= make trial of, test)	2571	TRY (TEST)
 Buck-1949-1108-523	9.99	attempt (vb.); try² (= attempt, endeavor)	1812	TRY
 Buck-1949-1108-524	9.992	manner; way (manner)	488	MANNER
 Buck-1949-1108-525	9.993	happen	248	HAPPEN
@@ -554,7 +554,7 @@ Buck-1949-1108-552	10.48	come	1446	COME
 Buck-1949-1108-553	10.49	depart	1752	LEAVE
 Buck-1949-1108-554	10.51	flee	956	FLEE
 Buck-1949-1108-555	10.52	follow	1085	FOLLOW
-Buck-1949-1108-556	10.53	pursue	1047	PURSUE
+Buck-1949-1108-556	10.53	persecute; pursue	1047	PURSUE
 Buck-1949-1108-557	10.54	overtake		
 Buck-1949-1108-558	10.55	arrive; reach	1387	ARRIVE
 Buck-1949-1108-559	10.56	approach	1778	APPROACH
@@ -563,7 +563,7 @@ Buck-1949-1108-561	10.61	bear (carry); carry	700	CARRY
 Buck-1949-1108-562	10.62	bring	692	BRING
 Buck-1949-1108-563	10.63	send	1127	SEND
 Buck-1949-1108-564	10.64	lead (vb.)	43	LEAD (GUIDE)
-Buck-1949-1108-565	10.65	drive	741	DRIVE
+Buck-1949-1108-565	10.65	drive	3290	IMPEL
 Buck-1949-1108-566	10.66	ride	367	RIDE
 Buck-1949-1108-567	10.67	push (vb.); shove (vb.)	1452	PUSH
 Buck-1949-1108-568	10.71	road; way (road)	667	ROAD
@@ -602,7 +602,7 @@ Buck-1949-1108-600	11.28	damage (vb.); harm (vb.); injure	3195	DAMAGE OR INJURE
 Buck-1949-1108-601	11.29	spoil (vb.)	1116	DAMAGE
 Buck-1949-1108-602	11.31	search for; seek	1468	LOOK FOR
 Buck-1949-1108-603	11.32	find	719	FIND
-Buck-1949-1108-604	11.33	lord, Lord (19.41) lose	1660	LOSE
+Buck-1949-1108-604	11.33	lose	1660	LOSE
 Buck-1949-1108-605	11.34	let go; release	1095	LET GO OR SET FREE
 Buck-1949-1108-606	11.41	property		
 Buck-1949-1108-607	11.42	riches; wealth		
@@ -626,7 +626,7 @@ Buck-1949-1108-624	11.63	owe	369	OWE
 Buck-1949-1108-625	11.64	debt	1914	DEBT
 Buck-1949-1108-626	11.65	pay (vb.)	718	PAY
 Buck-1949-1108-627	11.66	account; reckoning	1081	BILL
-Buck-1949-1108-628	11.67	surety		
+Buck-1949-1108-628	11.67	pledge; surety		
 Buck-1949-1108-629	11.68	interest (sb.); tribute	2062	INTEREST
 Buck-1949-1108-630	11.69	tax (sb.)	873	TAX
 Buck-1949-1108-631	11.71	income (from property)		
@@ -701,7 +701,7 @@ Buck-1949-1108-699	12.68	shallow (adj.)	193	SHALLOW
 Buck-1949-1108-700	12.71	flat (adj.)	1633	FLAT
 Buck-1949-1108-701	12.72	concave; hollow	1155	CAVE
 Buck-1949-1108-702	12.73	straight	1404	STRAIGHT
-Buck-1949-1108-703	12.74	crooked	297	CROOKED
+Buck-1949-1108-703	12.74	curved; crooked	297	CROOKED
 Buck-1949-1108-704	12.75	hook	1071	HOOK
 Buck-1949-1108-705	12.76	corner	192	CORNER
 Buck-1949-1108-706	12.77	cross (sb.)	1367	CROSS
@@ -754,7 +754,7 @@ Buck-1949-1108-752	14.16	early	672	EARLY
 Buck-1949-1108-753	14.17	late	477	LATE
 Buck-1949-1108-754	14.18	now	1376	NOW
 Buck-1949-1108-755	14.19	immediately; soon	1963	IMMEDIATELY
-Buck-1949-1108-756	14.21	fast ( = swift); question (18.31) quick; swift	1631	FAST
+Buck-1949-1108-756	14.21	fast ( = swift); quick; swift	1631	FAST
 Buck-1949-1108-757	14.22	slow	701	SLOW
 Buck-1949-1108-758	14.23	hasten	754	HURRY
 Buck-1949-1108-759	14.24	delay (vb. intr.)	425	BE LATE
@@ -851,7 +851,7 @@ Buck-1949-1108-849	16.18	fortune (good)	720	GOOD LUCK
 Buck-1949-1108-850	16.19	disaster; misfortune	56	BAD LUCK
 Buck-1949-1108-851	16.21	please	1271	DELIGHT
 Buck-1949-1108-852	16.212	please (in polite phrase)		
-Buck-1949-1108-853	16.22	joy	2524	JOY
+Buck-1949-1108-853	16.22	joy; pleasure	2524	JOY
 Buck-1949-1108-854	16.23	glad; joyful	1495	HAPPY
 Buck-1949-1108-855	16.24	happy	1495	HAPPY
 Buck-1949-1108-856	16.25	laugh (vb.); scream; smile (vb.)	1355	LAUGH
@@ -903,7 +903,7 @@ Buck-1949-1108-901	16.81	beautiful	1427	BEAUTIFUL
 Buck-1949-1108-902	16.82	homely (in appearance); plain (adj., in appearance); ugly (in appearance)	1548	UGLY
 Buck-1949-1108-903	17.11	mind (sb.)	1562	MIND
 Buck-1949-1108-904	17.12	intelligence; reason (= intelligence)		
-Buck-1949-1108-905	17.14	think1 (= reflect)	1513	THINK (BELIEVE)
+Buck-1949-1108-905	17.14	thought; think1 (= reflect)	1513	THINK (BELIEVE)
 Buck-1949-1108-906	17.15	believe; think2 (= be of the opin­ion)	1890	BELIEVE
 Buck-1949-1108-907	17.16	understand	1536	UNDERSTAND
 Buck-1949-1108-908	17.17	know	1410	KNOW (SOMETHING)
@@ -943,7 +943,7 @@ Buck-1949-1108-941	18.25	dialect	2815	DIALECT
 Buck-1949-1108-942	18.26	word	1599	WORD
 Buck-1949-1108-943	18.27	dictionary		
 Buck-1949-1108-944	18.28	name	1405	NAME
-Buck-1949-1108-945	18.31	ask1 (inquire)	1309	ASK (INQUIRE)
+Buck-1949-1108-945	18.31	ask1 (inquire); question	1309	ASK (INQUIRE)
 Buck-1949-1108-946	18.32	answer (vb.)	1275	ANSWER
 Buck-1949-1108-947	18.33	admit; confess	2022	ADMIT
 Buck-1949-1108-948	18.34	deny	755	DENY
@@ -991,7 +991,7 @@ Buck-1949-1108-989	19.352	count (title)	1420	COUNT
 Buck-1949-1108-990	19.36	noble (sb.), nobleman	482	NOBLE
 Buck-1949-1108-991	19.37	citizen	1032	CITIZEN
 Buck-1949-1108-992	19.38	subject (sb.)		
-Buck-1949-1108-993	19.41	master	383	MASTER
+Buck-1949-1108-993	19.41	lord, Lord; master	383	MASTER
 Buck-1949-1108-994	19.42	slave	812	SLAVE
 Buck-1949-1108-995	19.43	servant	255	SERVANT
 Buck-1949-1108-996	19.44	free (adj.)	384	FREEMAN
@@ -1008,9 +1008,9 @@ Buck-1949-1108-1006	19.56	guest	1782	GUEST
 Buck-1949-1108-1007	19.57	host	1545	HOST
 Buck-1949-1108-1008	19.58	aid (vb.); help	1897	HELP
 Buck-1949-1108-1009	19.59	hinder; prevent	3201	HINDER OR PREVENT
-Buck-1949-1108-1010	19.61	curved (12.74) custom	1747	CUSTOM
+Buck-1949-1108-1010	19.61	custom	1747	CUSTOM
 Buck-1949-1108-1011	19.62	quarrel; strife	1848	QUARREL
-Buck-1949-1108-1012	19.63	conspiracy; pleasure (16.22) pledge (11.67) plot	2024	PLOT
+Buck-1949-1108-1012	19.63	conspiracy; plot	2024	PLOT
 Buck-1949-1108-1013	19.64	common	102	COMMON COLD (DISEASE)
 Buck-1949-1108-1014	19.65	meet	1831	MEET
 Buck-1949-1108-1015	19.72	prostitute; whore	1610	PROSTITUTE
@@ -1064,7 +1064,7 @@ Buck-1949-1108-1062	21.33	convict	983	CONVICT
 Buck-1949-1108-1063	21.34	acquit	988	ACQUIT
 Buck-1949-1108-1064	21.35	guilty	1682	GUILTY
 Buck-1949-1108-1065	21.36	innocent	90	INNOCENT
-Buck-1949-1108-1066	21.37	penalty; punish (21.37) punishment	390	PUNISHMENT
+Buck-1949-1108-1066	21.37	penalty; punish; punishment	390	PUNISHMENT
 Buck-1949-1108-1067	21.38	fine (sb.)	218	FINE (PENALTY)
 Buck-1949-1108-1068	21.39	prison	1281	PRISON
 Buck-1949-1108-1069	21.41	crime	1066	CRIME
@@ -1103,7 +1103,7 @@ Buck-1949-1108-1101	22.41	superstition
 Buck-1949-1108-1102	22.42	magic (sb.); sorcery; witchcraft	392	MAGIC
 Buck-1949-1108-1103	22.43	sorceress; witch	2137	MAGICIAN
 Buck-1949-1108-1104	22.44	fairy	3206	ELF OR FAIRY
-Buck-1949-1108-1105	22.45	ghost; persecute (10.53) phantom; specter	1175	GHOST
+Buck-1949-1108-1105	22.45	ghost; phantom; specter	1175	GHOST
 Buck-1949-1108-1106	22.46	spirit (guardian spirit)	53	SPIRIT
 Buck-1949-1108-1107	22.47	omen	107	OMEN
 Buck-1949-1108-1108	25.11	law (general)	1062	LAW
