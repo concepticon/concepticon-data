@@ -365,7 +365,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 364	SMEAR	Basic actions and technology	To spread (a substance) across a surface by rubbing.	Action/Process	
 365	SPLASH	Motion	To cause a liquid to spatter about. [WN:365]	Action/Process	
 366	LIMP	Motion	To walk lamely, as if favouring one leg.	Action/Process	
-367	RIDE	Motion	To transport oneself by sitting on and directing a horse.	Action/Process	
+367	RIDE	Motion	To transport oneself by sitting on and directing an animal.	Action/Process	
 368	SLEDGE	Motion	A low sled drawn by animals, typically on snow, ice or grass.	Person/Thing	16
 369	OWE	Possession	To be under an obligation to give something back to someone or to perform some action for someone; to have debt.	Action/Process	
 370	BARTER	Possession	To exchange goods without involving money.	Action/Process	
@@ -739,7 +739,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 738	THING	Possession	That which is considered to exist as a separate entity, quality or concept.	Person/Thing	
 739	FEED	Food and drink	To give food.	Action/Process	
 740	SHIP	Motion	A vessel propelled by engines or sails for navigating on the water, especially a large vessel that can not be carried aboard another, as distinguished from a boat.	Person/Thing	
-741	DRIVE	Motion	To operate a (motorized) vehicle (with wheels).	Action/Process	
+741	DRIVE	Motion	To operate a vehicle.	Action/Process	
 742	END (OF SPACE)	Spatial relations	Extreme part.	Person/Thing	
 743	END (OF TIME)	Time	The last or final part.	Person/Thing	
 744	EGG	Food and drink	Egg (either fertilized or not) from domesticated birds, most commonly hens, seen as food.	Person/Thing	
@@ -2862,7 +2862,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2865	DIE (FROM ACCIDENT)	Basic actions and technology	To cease to live due to unforeseen circumstances.	Action/Process	
 2866	DROP (SOMETHING)	Basic actions and technology	To let something fall down.	Action/Process	
 2867	CALCULATE	Modern world	To determine by mathematical processes.	Action/Process	
-2868	DRIVE (CATTLE)	Animals	To impart a forward motion to by physical force.	Action/Process	
+2868	DRIVE (CATTLE)	Animals	Cause animals to move while following them.	Action/Process	
 2869	BOTHER (HARASS)	Emotions and values	To annoy persistently.	Action/Process	
 2870	RECOGNIZE (SOMEBODY)	Basic actions and technology	Perceive to see something or someone previously known.	Action/Process	
 2871	SWING (MOVEMENT)	Basic actions and technology	To move freely to and fro.	Action/Process	
@@ -3282,3 +3282,5 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3287	BLOOM	Agriculture and vegetation	To bear flowers or to start bearing flowers; to blossom.	Action/Process	
 3288	WEED	Agriculture and vegetation	A plant that grows wild and profusely, especially when considered undesirable for agriculture.	Person/Thing	
 3289	UNCOOKED RICE	Food and drink	Rice that has not been boiled or otherwise prepared for eating.	Person/Thing	
+3290	IMPEL	Motion	Cause vehicles, people or animals to move (typically while following them or sitting/standing on them).	Action/Process	
+3291	DRIVE OR IMPEL	Motion	Drive a vehicle or cause vehicles, people or animals to move (typically while following them or sitting/standing on them).	Action/Process	
