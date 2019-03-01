@@ -233,7 +233,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 232	FLEA	Animals	Any of the wingless insects composing the order Siphonaptera; most are ectoparasites of mammals and birds. (Source: MGH)	Person/Thing	
 233	SNOWSHOE	Clothing and grooming	Footwear for walking over the snow.	Person/Thing	
 234	PADDLE	Motion	A tool used for pushing against liquid, generally for the propulsion of a boat.	Person/Thing	
-235	FLYING FOX	Animals	A squirrel of the sub-family Pteromyinae of the family Sciuridae.	Person/Thing	
+235	FLYING FOX	Animals	A large bat of the genus Pteropus of the family Pteropodidae.	Person/Thing	
 236	STEPMOTHER	Kinship	The wife of one's biological father, other than one's biological mother.	Person/Thing	
 237	STEPFATHER	Kinship	The husband of one's biological mother, other than one's biological father.	Person/Thing	
 238	PRAWNS	Animals	A decapod crustacean of the suborder Dendrobranchiata.	Person/Thing	
@@ -3230,7 +3230,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3235	OPEN (STATE)	Basic actions and technology	To be accessible and/or not closed.	Property	
 3236	TWIST (TOGETHER)	Motion	To wind several things around each other (e.g. in order to form a rope or thread).	Action/Process	
 3237	ALLOW OR PERMIT	Social and political relations	To give permission to an action or to not try to stop someone from doing it.	Action/Process	
-3238	ALLOW	Social and political relations	To not try to stop someone from doing something.		
+3238	ALLOW	Social and political relations	To not try to stop someone from doing something.	Action/Process	
 3239	AMUSE ONESELF (HAVE FUN)	Basic actions and technology	To do something joyful.	Action/Process	
 3240	BAMBOO MAT	Modern world	A mat made from bamboo.	Person/Thing	
 3241	CORIANDER	Agriculture and vegetation	Annual herb in the family Apiaceae.	Person/Thing	
@@ -3248,3 +3248,37 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3253	PRICKLY ASH	Agriculture and vegetation	A flowering plant in the family Rutaceae.	Person/Thing	
 3254	YOUNG ANIMAL	Animals	Like a puppy of a dog, a general term for naming younger animals.	Person/Thing	
 3255	POINT (POINTED END)	Spatial relations	The pointed, sharp end of an object like e.g. a spear or arrowhead.	Person/Thing	
+3256	BITTER BUCKWHEAT	Agriculture and vegetation	Fagopyrum tataricum, a domesticated plant similar to the (sweet) buckwheat.	Person/Thing	
+3257	CLITORIS	The body	A part of the female genitalia located at the front of the vulva, consisting of a sensitive erectile body.	Person/Thing	
+3258	FALCON	Animals	A bird of prey of genus Falco, which kill preys with its beak (unlike Accipitridae as eagles and hawks, which kill with its feet).	Person/Thing	
+3259	GORAL	Animals	A small ungulate with goat-like and antelope-like appearance.	Person/Thing	
+3260	HORNBILL	Animals	A bird characterized by a long, down-curved, and frequently colored beak.	Person/Thing	
+3261	HORNET	Animals	A large wasp that can inflict a severe sting, characteristically building large papery nests.	Person/Thing	
+3262	HORSEFLY	Animals	A fly of the family Tabanidae, known for biting humans.	Person/Thing	
+3263	LAP	The body	The front area from waist to knees, especially when sitting.	Person/Thing	
+3264	TRIVET	Food and drink	A stand, usually metallic, used to support cooking vessels on top of fire.	Person/Thing	
+3265	FINGER MILLET	Agriculture and vegetation	Eleusine coracana, a herbaceous plant characteristic for the hability to withstand cultivation at high altitudes.	Person/Thing	
+3266	FOXTAIL MILLET	Agriculture and vegetation	Staria italica, an annual grass grown for human food and related to (broomcorn) millet.	Person/Thing	
+3267	PULSE	The body	The rhytmic contraction and expansion of arteries at each heart beat, often discernible at points such the wrists and the neck.	Person/Thing	
+3268	QUESTION	Speech and language	A sentence used to obtain information by evoking a response.	Person/Thing	
+3269	PORCH	The house	A structure attached to the exterior of a building, often acting as a roofed entrance; a balcony; a veranda.	Person/Thing	
+3270	SEROW	Animals	A short-horned, dark-coated goat antelope of southeast Asia mountain areas.	Person/Thing	
+3271	FLYING SQUIRREL	Animals	A squirrel of the sub-family Pteromyinae of the family Sciuridae.	Person/Thing	
+3272	TAKIN	Animals	A large goat antelope of eastern Himalayan area, Budorcas taxicolor.	Person/Thing	
+3273	TILL	Agriculture and vegetation	Prepare land for cultivation by work such as ploughing, harrowing, and manuring.	Action/Process	
+3274	ENCIRCLE	Basic actions and technology	To enclose or cause to be enclosed; to surround; to confine.	Action/Process	
+3275	CLOUD OR FOG	The physical world	High or low elevation water suspensions.	Person/Thing	
+3276	SUNSHINE	The physical world	The light emitted by the sun.	Person/Thing	
+3277	FOUR DAYS FROM NOW	Time	Four days from today.	Other	
+3278	FOUR DAYS BEFORE NOW	Time	Four days before today.	Other	
+3279	MANTIS	Animals	A predatory insect of the order Mantodea; mantid; praying mantis.	Person/Thing	
+3280	TUSK	Animals	A pointed elongated tooth, usually one of a pair, extending outside the mouth of a mammal.	Person/Thing	
+3281	JOB'S TEARS	Agriculture and vegetation	A tall grain-bearing plant of the Poaceae family; coixseed; yi yi.	Person/Thing	
+3282	GROOM	Kinship	A man who is going to get married or has just married.	Person/Thing	
+3283	CAGE	Animals	A structure, usually made with bars or wire, for confining animals.	Person/Thing	
+3284	GRAVEYARD	The body	A tract of land used for burials; burial ground; cemetery.	Person/Thing	
+3285	RICE FLOUR	Agriculture and vegetation	A flour made from finely milled rice, distinct from rice starch which is produced by steeping rice in lye; rice powder.	Person/Thing	
+3286	LARGE BOWL	Food and drink	A large utensil for eating fluid food.	Person/Thing	
+3287	BLOOM	Agriculture and vegetation	To bear flowers or to start bearing flowers; to blossom.	Action/Process	
+3288	WEED	Agriculture and vegetation	A plant that grows wild and profusely, especially when considered undesirable for agriculture.	Person/Thing	
+3289	UNCOOKED RICE	Food and drink	Rice that has not been boiled or otherwise prepared for eating.	Person/Thing	
