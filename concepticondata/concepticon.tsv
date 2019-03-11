@@ -490,8 +490,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 489	KIDNEY	The body	An organ in the body that produces urine.	Person/Thing	
 490	DESCENDANTS	Kinship	One who is the progeny of someone at any distance of time.	Person/Thing	
 491	CENTER	Spatial relations	What's in the mid of a plane or sphere, i.e. in 2- or 3-dimensional space.	Person/Thing	
-492	THREE	Quantity	The third natural number (3).	Number	
-493	FIVE	Quantity	The fifth natural number (5).	Number	
+492	THREE	Quantity	The natural number three (3).	Number	
+493	FIVE	Quantity	The natural number five (5).	Number	
 494	FLIRT	Emotions and values	To talk or behave amorously, without serious intentions.	Action/Process	
 495	REVENGE	Emotions and values	To take revenge for a perceived wrong.	Action/Process	
 496	CUCUMBER	Agriculture and vegetation	The edible fruit of the cucumber plant, having a green rind and crisp white flesh.	Person/Thing	
@@ -1292,7 +1292,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1291	BACK	The body	The rear of body, especially the part between the neck and the end of the spine and opposite the chest and belly.	Person/Thing	
 1292	BAD	Emotions and values	Not good; unfavorable; negative.	Property	
 1293	MISTAKE	Emotions and values	A mistake, an oversight, a slight; usually apologetic, referring to one's own failures.	Person/Thing	
-1294	ZERO	Quantity	The cardinal number that denotes no quantity or amount at all.	Number	
+1294	ZERO	Quantity	The integer zero (0).	Number	
 1295	STICK	The physical world	A long, thin piece of wood, mainly left in the shape in which it grew, that does not bend.	Person/Thing	
 1296	WALKING STICK	Social and political relations	An object, specifically for providing support when walking.	Person/Thing	
 1297	LEG	The body	The limb of an animal (including humans) that extends from the groin to the ankle.	Person/Thing	
@@ -1481,7 +1481,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1480	BODY	The body	The physical structure of a human or animal.	Person/Thing	
 1481	HAMMER	Basic actions and technology	A tool with a heavy head and a handle used for pounding.	Person/Thing	
 1482	SHOULDER	The body	One side of the top of the torso, where an arm attaches or joins.	Person/Thing	
-1483	NINE	Quantity	The ninth natural number (9).	Number	
+1483	NINE	Quantity	The natural number nine (9).	Number	
 1484	OIL (ORGANIC SUBSTANCE)	Food and drink	Fat from animals or plants in a liquid form.	Person/Thing	
 1485	BELOW OR UNDER	Spatial relations	Lower in spatial position than.	Other	
 1486	PLANT (SOMETHING)	Agriculture and vegetation	To put a plant in the ground so that it strikes root and grows.	Action/Process	
@@ -1491,14 +1491,14 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1490	RAT	Animals	A nearly omnivorous rodent of the genus ''rattus'' characterised by a long hairless tail, rounded ears, and a pointed nose.	Person/Thing	
 1491	MOUSE	Animals	Any of numerous small rodents of the genus ''mus'' or various related genera of the ''Muridæ'' family characterised by a long hairless tail, rounded ears, and a pointed nose.	Person/Thing	
 1492	DUMB	The body	Unable to speak; lacking power of speech.	Property	
-1493	ONE	Quantity	The cardinal number that directly follows zero and precedes two, represented in Roman numerals as I, and in Arabic numerals as 1.	Number	
+1493	ONE	Quantity	The natural number one (1).	Number	
 1494	DIE	The body	To cease to live.	Action/Process	
 1495	HAPPY	Emotions and values	Having a feeling of satisfaction, enjoyment or well-being, often arising from a positive situation or set of circumstances.	Property	
 1496	GRANDMOTHER	Kinship	The mother of one of someone's parents.	Person/Thing	
 1497	POSTCARD	Modern world	A rectangular piece of thick paper or thin cardboard intended to be written on and mailed without an envelope.	Person/Thing	
-1498	TWO	Quantity	The cardinal number occurring after one and before three, represented in Roman numerals as II and in Arabic numerals as 2.	Number	
+1498	TWO	Quantity	The natural number two (2).	Number	
 1499	JUICE	Food and drink	The liquid that is produced by squeezing or crushing fruits or vegetables.	Person/Thing	
-1500	FOUR	Quantity	The cardinal number occurring after three and before five, represented in Roman numerals as IV, in Arabic numerals as 4.	Number	
+1500	FOUR	Quantity	The natural number four (4).	Number	
 1501	BORE	Basic actions and technology	To create a hole by removing material with a drill.	Action/Process	
 1502	GOAT	Animals	A common four-legged animal (Capra) that is related to sheep and bred by humans for its coat and milk.	Person/Thing	
 1503	SALIVA	The body	A secretion from the salivary glands (found in the mouth) that can be spat out.	Person/Thing	
@@ -1513,7 +1513,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1512	RISE (ONESELF)	Motion	To get up from a lying, sitting, or kneeling position.	Action/Process	
 1513	THINK (BELIEVE)	Cognition	To have as opinion, belief, or idea.	Action/Process	
 1514	HEN	Animals	A female chicken.	Person/Thing	
-1515	TEN	Quantity	The cardinal number occurring after nine and before eleven, represented in Roman numerals as X, in Arabic numerals as 10, and in the hexadecimal system (base 16) as A.	Other	
+1515	TEN	Quantity	The natural number ten (10).	Number	
 1516	SUBJUGATE	Social and political relations	To put somebody under one's authority.	Action/Process	
 1517	WASP	Animals	A flying stinging insect related to the bee, which is usually coloured yellow and black.	Person/Thing	
 1518	STUPID	Cognition	Lacking in intelligence.	Property	
@@ -1632,7 +1632,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1631	FAST	Time	Occurring or happening within a short time.	Property	
 1632	FLOOR	The house	The bottom or lower part of any room; the supporting surface of a room.	Person/Thing	
 1633	FLAT	Spatial relations	Having no variations in altitude.	Property	
-1634	HUNDRED	Quantity	The cardinal number occurring after ninety-nine and before one hundred one, represented in Roman numerals as C and in Arabic numerals as 100.	Number	
+1634	HUNDRED	Quantity	The natural number one hundred (100).	Number	
 1635	OBEY	Social and political relations	To do as you are told.	Action/Process	
 1636	MOTIONLESS	Motion	Not moving.	Other	
 1637	AUTHORITY	Social and political relations	The power to enforce rules or give orders.	Person/Thing	
@@ -1701,28 +1701,28 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1700	SATURDAY	Time	The sixth day of the week in Europe and in systems using the ISO 8601 norm; the seventh day of the week in the United States of America.	Person/Thing	
 1701	RIVER MOUTH	The physical world	A river mouth or stream mouth is a part of a river where it flows into the sea, river, lake, reservoir or ocean.	Person/Thing	
 1702	HOLY	Religion and belief	specially recognized as or declared sacred by religious use or authority.	Property	
-1703	SIX	Quantity	The cardinal number occurring after five and before seven, represented in Roman numerals as VI, in Arabic numerals as 6.	Number	
-1704	SEVEN	Quantity	The cardinal number occurring after six and before eight, represented in Roman numerals as VII, in Arabic numerals as 7.	Number	
-1705	EIGHT	Quantity	The cardinal number occurring after seven and before nine, represented in Roman numerals as VIII, in Arabic numerals as 8.	Number	
-1706	ELEVEN	Quantity	The cardinal number occurring after ten and before twelve, represented in Roman numerals as XI, in Arabic numerals as 11.	Number	
-1707	TWELVE	Quantity	The cardinal number occurring after eleven and before thirteen, represented in Roman numerals as XII and in Arabic numerals as 12.	Number	
-1708	THIRTEEN	Quantity	The cardinal number occurring after twelve and before fourteen, represented in Roman numerals as XIII and in Arabic numerals as 13.	Number	
-1709	FIFTEEN	Quantity	The cardinal number occurring after fourteen and before sixteen, represented in Roman numerals as XV and in Arabic numerals as 15.	Number	
-1710	TWENTY	Quantity	The cardinal number occurring after nineteen and before twenty-one, represented in Roman numerals as XX and in Arabic numerals as 20.	Number	
+1703	SIX	Quantity	The natural number six (6).	Number	
+1704	SEVEN	Quantity	The natural number seven (7).	Number	
+1705	EIGHT	Quantity	The natural number eight (8).	Number	
+1706	ELEVEN	Quantity	The natural number eleven (11).	Number	
+1707	TWELVE	Quantity	The natural number twelve (12).	Number	
+1708	THIRTEEN	Quantity	The natural number thirteen (13).	Number	
+1709	FIFTEEN	Quantity	The natural number fifteen (15).	Number	
+1710	TWENTY	Quantity	The natural number twenty (20).	Number	
 1711	TELL	Speech and language	To talk about a story giving its details; to give a detailed account of.	Action/Process	
 1712	OATH	Law	Promise or solemn declaration in front of an authority, another person or to oneself.	Person/Thing	
-1713	EIGHTEEN	Quantity	The cardinal number occurring after seventeen and before nineteen, represented in Roman numerals as XVIII and in Arabic numerals as 18.	Number	
-1714	NINETEEN	Quantity	The cardinal number occurring after eighteen and before twenty, represented in Roman numerals as XIX and in Arabic numerals as 19.	Number	
-1715	THIRTY	Quantity	The cardinal number occurring after twenty-nine and before thirty-one, represented in Roman numerals as XXX and in Arabic numerals as 30.	Number	
-1716	FORTY	Quantity	The cardinal number occurring after thirty-nine and before forty-one, represented in Roman numerals as XL and in Arabic numerals as 40.	Number	
-1717	FIFTY	Quantity	The cardinal number occurring after forty-nine and before fifty-one, represented in Roman numerals as L and in Arabic numerals as 50.	Number	
-1718	SIXTY	Quantity	The cardinal number occurring after fifty-nine and before sixty-one, represented in Roman numerals as LX and in Arabic numerals as 60.	Number	
+1713	EIGHTEEN	Quantity	The natural number eighteen (18).	Number	
+1714	NINETEEN	Quantity	The natural number nineteen (19).	Number	
+1715	THIRTY	Quantity	The natural number thirty (30).	Number	
+1716	FORTY	Quantity	The natural number forty (40).	Number	
+1717	FIFTY	Quantity	The natural number fifty (50).	Number	
+1718	SIXTY	Quantity	The natural number sixty (60).	Number	
 1719	BURY	The body	to put in the ground and cover with earth.	Action/Process	
 1720	SIGN	Speech and language	Feature element which permits to refer to anything or any person.	Person/Thing	
-1721	SEVENTY	Quantity	The cardinal number occurring after sixty-nine and before seventy-one, represented in Roman numerals as LXX and in Arabic numerals as 70.	Number	
-1722	EIGHTY	Quantity	The cardinal number occurring after seventy-nine and before eighty-one, represented in Roman numerals as LXXX and in Arabic numerals as 80.	Number	
+1721	SEVENTY	Quantity	The natural number seventy (70).	Number	
+1722	EIGHTY	Quantity	The natural number eighty (80).	Number	
 1723	RESULT IN	Cognition	Having a specific result, a logical consequence.	Action/Process	
-1724	NINETY	Quantity	The cardinal number occurring after eighty-nine and before ninety-one, represented in Roman numerals as XC and in Arabic numerals as 90.	Number	
+1724	NINETY	Quantity	The natural number ninety (90).	Number	
 1725	CORRECT (RIGHT)	Emotions and values	To be in accordance with expectations.	Property	
 1726	WET	Sense perception	Covered with or impregnated with liquid.	Property	
 1727	THRESHOLD	The house	The bottom-most part of a doorway that one crosses to enter; a sill.	Person/Thing	
@@ -1732,11 +1732,11 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1731	MORTAR BINDER	The house	Paste made of a mixture of a binder (cement, plaster or lime), sand and water used in masonry to make bricks, stones, etc. stick together.	Person/Thing	
 1732	SKY	The physical world	The part of the earth's atmosphere and space outside it that is visible from earth's surface. During the day it is perceived as blue, and at night as black.	Person/Thing	
 1733	RAINBOW	The physical world	A multicoloured arc in the sky caused by the refraction of light within droplets of rain in the air.	Person/Thing	
-1734	TWENTY ONE	Quantity	The cardinal number occurring after twenty and before twenty-two, represented in Roman numerals as XXI and in Arabic numerals as 21.	Number	
+1734	TWENTY ONE	Quantity	The natural number twenty-one (21).	Number	
 1735	TEAR (SHRED)	Basic actions and technology	To pull at something in such a way that it ends up divided.	Action/Process	
-1736	TWENTY FOUR	Quantity	The cardinal number occurring after twenty-three and before twenty-five, represented in Roman numerals as XXIV and in Arabic numerals as 24.	Number	
+1736	TWENTY FOUR	Quantity	The natural number twenty-four (24).	Number	
 1737	OKRA	Agriculture and vegetation	-	Person/Thing	
-1738	TWENTY FIVE	Quantity	The cardinal number occurring after twenty-four and before twenty-six, represented in Roman numerals as XXV and in Arabic numerals as 25.	Number	
+1738	TWENTY FIVE	Quantity	The natural number twenty-five (25).	Number	
 1739	DECORATE	Clothing and grooming	To make more attractive by adding ornament, colour, etc.	Action/Process	
 1740	PINE	Agriculture and vegetation	Evergreen coniferous tree of the genus Pinus.	Person/Thing	
 1741	ABOVE	Spatial relations	In or to a higher place; higher than; on or over the upper surface.	Other	
@@ -1841,7 +1841,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1840	BUILD	Basic actions and technology	To form by combining materials or parts.	Action/Process	
 1841	SUSPECT	Cognition	To assume something to be true without direct evidence.	Action/Process	
 1842	OBSTINATE	Cognition	Persisting in a reactionary stand.	Property	
-1843	THOUSAND	Quantity	Ten times hundred.	Number	
+1843	THOUSAND	Quantity	The natural number one thousand (1000).	Number	
 1844	BOAT	Motion	A craft used for transportation of goods, fishing, racing, recreational cruising, or military use on or in the water, propelled by oars or outboard motor or inboard motor or by wind.	Person/Thing	
 1845	BALL	Spatial relations	Any spherical object.	Person/Thing	
 1846	RULE	Social and political relations	To exercise power or authority over a person, a group of persons, animals, territories or an organization.	Action/Process	
@@ -2076,7 +2076,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2075	BROOD (VERB)	Animals	To keep an egg warm to make it hatch.	Action/Process	
 2076	SPROUT (VERB)	Basic actions and technology	The process by which a plant grows from a seed.	Action/Process	
 2077	DILIGENT	Emotions and values	Being busy-working.	Property	
-2078	TEN THOUSAND	Quantity	Ten to the power of four.	Number	
+2078	TEN THOUSAND	Quantity	The natural number ten thousand (10000).	Number	
 2079	CUNNING PERSON	Emotions and values	A smart and witty person.	Person/Thing	
 2080	BOWL (CLASSIFIER)	Quantity	classifier for bowl-like objects	Classifier	
 2081	CHICKEN (CLASSIFIER)	Quantity	classifier for bird-like animals	Classifier	
@@ -2189,7 +2189,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2188	NEW YEAR'S EVE	Social and political relations	The last day of the year.	Person/Thing	
 2189	DUGOUT	Motion	A boat made from a hollowed tree trunk.	Person/Thing	
 2190	TASTE	Food and drink	The sensory impression of food or other substances on the tongue.	Person/Thing	
-2191	LOW (HEIGHT)	Spatial relations	 Having little relative height; not high or tall.	Property	
+2191	LOW (HEIGHT)	Spatial relations	Having little relative height; not high or tall.	Property	
 2192	REJOICE	Emotions and values	To feel joyful; be delighted.	Action/Process	
 2193	CARP	Emotions and values	To complain or find fault in a petty or disagreeable way.	Action/Process	
 2194	FRONT (PART)	Spatial relations	The forward part or surface, as of a building.	Person/Thing	
@@ -2211,7 +2211,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2210	BECOME PREPARED (OF FOOD)	Food and drink	(Of food) being prepared and then ready to be eaten.	Action/Process	
 2211	CLOSE THE EYES	Motion	To shut down the eyes such that one cannot see anything anymore.	Action/Process	2063
 2212	ARRIVE (OF AN EVENT)	Time	The process by which an event (day, night, etc.) arrives.	Action/Process	
-2213	BODY PART	The body	 Part of a human body or an animal body.	Person/Thing	
+2213	BODY PART	The body	Part of a human body or an animal body.	Person/Thing	
 2214	AFFAIR	Possession	That which is considered to exist as a separate quality or concept.	Person/Thing	
 2215	BECOME ANGRY	Emotions and values	To turn into an angry mental state.	Action/Process	
 2216	BECOME NUMB	Sense perception	Be caused not to be sensitive (usually of body parts).	Action/Process	
@@ -2238,7 +2238,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2237	FIND OUT	Cognition	To apprehend something involuntarily.	Action/Process	
 2238	KNOW OR BE ABLE	Cognition	To be able to do something which required that one would learn it before or which could require that one learns it before.	Action/Process	
 2239	DENSE	Spatial relations	To be thick, of liquids.	Property	
-2240	CORAL SNAKE	Animals	A large group of elapid snakes that can be subdivided into two distinct groups, Old World coral snakes and New World coral snakes. 	Person/Thing	
+2240	CORAL SNAKE	Animals	A large group of elapid snakes that can be subdivided into two distinct groups, Old World coral snakes and New World coral snakes.	Person/Thing	
 2241	WILD CAT	Animals	A small cat found throughout most of Africa, Europe, and southwest and central Asia into India, China, and Mongolia.	Person/Thing	
 2242	BEETLE	Animals	A group of insects which are biologically classified in the order Coleoptera /koʊliːˈɒptərə/.	Person/Thing	
 2243	REPAIR	Basic actions and technology	To patch up something which was broken before.	Action/Process	
@@ -2281,23 +2281,23 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2280	LOUSE OR NIT	Animals	A parasitic wingless insect that lives on humans and other mammals or the eggs that this insect produces.	Person/Thing	
 2281	WORKING OR WORK	Basic actions and technology	The process by which one produces something (sometimes also in exchange for money).	Other	
 2282	SEA OR OCEAN	The physical world	A large body of salt water which is in proximity to a continent.	Person/Thing	
-2283	SEMEN	The body	An organic fluid that may contain spermatozoa. It is secreted by the gonads (sexual glands) and other sexual organs of male or hermaphroditic animals and can fertilize female ova. 	Person/Thing	
+2283	SEMEN	The body	An organic fluid that may contain spermatozoa. It is secreted by the gonads (sexual glands) and other sexual organs of male or hermaphroditic animals and can fertilize female ova.	Person/Thing	
 2284	CLEARING	The physical world	A part of a forest that contains no trees.	Person/Thing	
-2285	ECLIPSE	The physical world	An astronomical event that occurs when an astronomical object is temporarily obscured, either by passing into the shadow of another body or by having another body pass between it and the viewer. 	Person/Thing	
-2286	ESTUARY	The physical world	A partly enclosed coastal body of brackish water with one or more rivers or streams flowing into it, and with a free connection to the open sea. 	Person/Thing	
-2287	HORIZON	The physical world	The apparent line that separates earth from sky, the line that divides all visible directions into two categories: those that intersect the Earth's surface, and those that do not. 	Person/Thing	
-2288	METEROID (SHOOTING OR SHINING STAR)	The physical world	 The visible path of a meteoroid as it enters the atmosphere, becoming a meteor. 	Person/Thing	
-2289	MILKY WAY	The physical world	The galaxy that contains our Solar System. Its name milky is derived from its appearance as a dim glowing band arching across the night sky in which the naked eye cannot distinguish individual stars. 	Person/Thing	
-2290	PUDDLE	The physical world	A small accumulation of liquid, usually water, on a surface. It can form either by pooling in a depression on the surface, or by surface tension upon a flat surface. Puddles are usually formed from rain water or from irrigation. 	Person/Thing	
-2291	VOLCANO	The physical world	A rupture on the crust of a planetary-mass object, such as Earth, that allows hot lava, volcanic ash, and gases to escape from a magma chamber below the surface. 	Person/Thing	
-2292	GLASSES	Basic actions and technology	Frames bearing lenses worn in front of the eyes used for vision correction. 	Person/Thing	
-2293	UVULA	The body	A conic projection from the posterior edge of the middle of the soft palate. 	Person/Thing	
-2294	WRINKLE	The body	A fold, ridge or crease in the skin. 	Person/Thing	
-2295	SUNSET	Time	The daily disappearance of the Sun below the western horizon as a result of Earth's rotation. 	Person/Thing	
-2296	SUNRISE	Time	The instant at which the upper edge of the Sun appears over the eastern horizon in the morning. 	Person/Thing	
-2297	DUSK	Time	The darkest stage of twilight in the evening. 	Person/Thing	
-2298	VIRGIN	Kinship	A person who has never engaged in sexual intercourse. 	Person/Thing	
-2299	STRAW	The physical world	The dry stalks of cereal plants, after the grain and chaff have been removed. 	Person/Thing	
+2285	ECLIPSE	The physical world	An astronomical event that occurs when an astronomical object is temporarily obscured, either by passing into the shadow of another body or by having another body pass between it and the viewer.	Person/Thing	
+2286	ESTUARY	The physical world	A partly enclosed coastal body of brackish water with one or more rivers or streams flowing into it, and with a free connection to the open sea.	Person/Thing	
+2287	HORIZON	The physical world	The apparent line that separates earth from sky, the line that divides all visible directions into two categories: those that intersect the Earth's surface, and those that do not.	Person/Thing	
+2288	METEROID (SHOOTING OR SHINING STAR)	The physical world	The visible path of a meteoroid as it enters the atmosphere, becoming a meteor.	Person/Thing	
+2289	MILKY WAY	The physical world	The galaxy that contains our Solar System. Its name milky is derived from its appearance as a dim glowing band arching across the night sky in which the naked eye cannot distinguish individual stars.	Person/Thing	
+2290	PUDDLE	The physical world	A small accumulation of liquid, usually water, on a surface. It can form either by pooling in a depression on the surface, or by surface tension upon a flat surface. Puddles are usually formed from rain water or from irrigation.	Person/Thing	
+2291	VOLCANO	The physical world	A rupture on the crust of a planetary-mass object, such as Earth, that allows hot lava, volcanic ash, and gases to escape from a magma chamber below the surface.	Person/Thing	
+2292	GLASSES	Basic actions and technology	Frames bearing lenses worn in front of the eyes used for vision correction.	Person/Thing	
+2293	UVULA	The body	A conic projection from the posterior edge of the middle of the soft palate.	Person/Thing	
+2294	WRINKLE	The body	A fold, ridge or crease in the skin.	Person/Thing	
+2295	SUNSET	Time	The daily disappearance of the Sun below the western horizon as a result of Earth's rotation.	Person/Thing	
+2296	SUNRISE	Time	The instant at which the upper edge of the Sun appears over the eastern horizon in the morning.	Person/Thing	
+2297	DUSK	Time	The darkest stage of twilight in the evening.	Person/Thing	
+2298	VIRGIN	Kinship	A person who has never engaged in sexual intercourse.	Person/Thing	
+2299	STRAW	The physical world	The dry stalks of cereal plants, after the grain and chaff have been removed.	Person/Thing	
 2300	GREEN OR UNRIPE	Sense perception	Having a green color or being not ripe (of fruits).	Property	
 2301	ME	Kinship	Oblique cases of the first person singular pronoun.	Other	
 2302	CIRCULAR (ROUND IN TWO DIMENSIONS)	Spatial relations	Having a circular shape.	Property	
@@ -2311,7 +2311,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2310	US (OBLIQUE CASE OF WE)	Kinship	Oblique case of the first person plural pronoun.	Other	
 2311	WOODS	The physical world	A vegetation community dominated by trees and other woody shrubs, growing close enough together that the tree tops touch or overlap, creating various degrees of shade on the forest floor.	Person/Thing	420
 2312	YOU (OBLIQUE CASE OF YOU)		The oblique case of the second person plural pronoun.	Other	
-2313	BRONZE	The physical world	An alloy consisting primarily of copper and the addition of other metals (usually tin) and sometimes arsenic, phosphorus, aluminium, manganese, and silicon. 	Person/Thing	
+2313	BRONZE	The physical world	An alloy consisting primarily of copper and the addition of other metals (usually tin) and sometimes arsenic, phosphorus, aluminium, manganese, and silicon.	Person/Thing	
 2314	BROTHER-IN-LAW	Kinship	The brother of one's partner in a marriage.	Person/Thing	
 2315	COOK (PERSON)	Food and drink	The person who prepares food.	Person/Thing	
 2316	FREE	Possession	Able to act at will; not hampered; not under compulsion or restraint.	Property	
@@ -2340,41 +2340,41 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2339	NEED (SOMETHING)	Cognition	Feeling the desire or the urge for something.	Other	
 2340	SUNNY	The physical world	Full of sunshine (mostly referring to &quot;a sunny day&quot;).	Property	
 2341	CLOUDY	The physical world	Full of clouds (mostly referring to &quot;a cloudy day&quot;).	Property	
-2342	LANDSCAPE	The physical world	The visible features of a land. 	Person/Thing	
-2343	STEEL	Basic actions and technology	Alloys of iron and carbon, widely used in construction and other applications because of their high tensile strengths and low costs. 	Person/Thing	
+2342	LANDSCAPE	The physical world	The visible features of a land.	Person/Thing	
+2343	STEEL	Basic actions and technology	Alloys of iron and carbon, widely used in construction and other applications because of their high tensile strengths and low costs.	Person/Thing	
 2344	PETROL	Modern world	A transparent, petroleum-derived liquid that is used primarily as a fuel in internal combustion engines.	Person/Thing	
 2345	LEPORID (RABBIT OR HARE)	Animals	Mammal of the family hares and rabbits (Leporidae) with long ears, short tail and hindlegs which are shorter than the forelegs and permit running quickly.	Person/Thing	
-2346	CRESTED MYNA	Animals	A species of starling native to southeastern China and Indochina. 	Person/Thing	
-2347	YELLOW CROAKER	Animals	A species of croaker native to the western Pacific, generally in temperate waters such as the East China Sea and the Yellow Sea. 	Person/Thing	
-2348	CRAB	Animals	 decapod crustaceans of the infraorder Brachyura, which typically have a very short projecting &quot;tail&quot; (abdomen) (Greek: βραχύς / brachys = short, οὐρά / οura = tail), usually entirely hidden under the thorax. 	Person/Thing	
-2349	SHRIMP	Animals	Refers to some decapod crustaceans, although the exact animals covered can vary. Used broadly, it may cover any of the groups with elongated bodies and a primarily swimming mode of locomotion – chiefly Caridea and Dendrobranchiata. 	Person/Thing	
-2350	EARTHWORM	Animals	A tube-shaped, segmented worm found in the phylum Annelida. 	Person/Thing	
-2351	SILKWORM	Animals	The larva or caterpillar of the domesticated silkmoth (Bombyx mori) 	Person/Thing	
+2346	CRESTED MYNA	Animals	A species of starling native to southeastern China and Indochina.	Person/Thing	
+2347	YELLOW CROAKER	Animals	A species of croaker native to the western Pacific, generally in temperate waters such as the East China Sea and the Yellow Sea.	Person/Thing	
+2348	CRAB	Animals	decapod crustaceans of the infraorder Brachyura, which typically have a very short projecting &quot;tail&quot; (abdomen) (Greek: βραχύς / brachys = short, οὐρά / οura = tail), usually entirely hidden under the thorax.	Person/Thing	
+2349	SHRIMP	Animals	Refers to some decapod crustaceans, although the exact animals covered can vary. Used broadly, it may cover any of the groups with elongated bodies and a primarily swimming mode of locomotion – chiefly Caridea and Dendrobranchiata.	Person/Thing	
+2350	EARTHWORM	Animals	A tube-shaped, segmented worm found in the phylum Annelida.	Person/Thing	
+2351	SILKWORM	Animals	The larva or caterpillar of the domesticated silkmoth (Bombyx mori)	Person/Thing	
 2352	DRAGONFLY	Animals	Predatory insect of the order Odonata.	Person/Thing	
-2353	CICADA	Animals	 Insects in the order Hemiptera, suborder Auchenorrhyncha. 	Person/Thing	
-2354	CRICKET	Animals	Insects related to grasshoppers. 	Person/Thing	
-2355	GECKO	Animals	 Lizards belonging to the infraorder Gekkota, found in warm climates throughout the world. They r 	Person/Thing	
-2356	CHINESE PLUM	Agriculture and vegetation	An Asian tree species classified in the Armeniaca section of the genus Prunus subgenus Prunus. 	Person/Thing	
+2353	CICADA	Animals	Insects in the order Hemiptera, suborder Auchenorrhyncha.	Person/Thing	
+2354	CRICKET	Animals	Insects related to grasshoppers.	Person/Thing	
+2355	GECKO	Animals	Lizards belonging to the infraorder Gekkota, found in warm climates throughout the world. They r	Person/Thing	
+2356	CHINESE PLUM	Agriculture and vegetation	An Asian tree species classified in the Armeniaca section of the genus Prunus subgenus Prunus.	Person/Thing	
 2357	APRICOT TREE	Agriculture and vegetation	A tree that bears the apricot fruit.	Person/Thing	
 2358	PEACH TREE	Agriculture and vegetation	The tree that bears peaches as fruits.	Person/Thing	
-2359	LOTUS	Agriculture and vegetation	One of two species of aquatic plant in the family Nelumbonaceae. 	Person/Thing	
-2360	SWEET OLIVE	Agriculture and vegetation	 A species native to Asia from the Himalayas through southern China (Guizhou, Sichuan, Yunnan) to Taiwan and southern Japan and southeast Asia as far south as Cambodia and Thailand. 	Person/Thing	
-2361	MUGWORT	Agriculture and vegetation	A common name for several species of aromatic plants in the genus Artemisia. 	Person/Thing	
-2362	BRAN	Agriculture and vegetation	The hard outer layers of cereal grain. It consists of the combined aleurone and pericarp. 	Person/Thing	
-2363	CHAFF (HUSK)	Agriculture and vegetation	The outer shell or coating of a seed. 	Person/Thing	
-2364	PEANUT	Agriculture and vegetation	 A species in the family Fabaceae (commonly known as the bean, pea or legume family). 	Person/Thing	
-2365	RADISH	Agriculture and vegetation	An edible root vegetable of the Brassicaceae family that was domesticated in Europe in pre-Roman times. 	Person/Thing	
-2366	ONION	Agriculture and vegetation	A vegetable and is the most widely cultivated species of the genus Allium. 	Person/Thing	
-2367	MANDARINE	Agriculture and vegetation	 A small citrus tree with fruit resembling other oranges. Mandarin oranges are usually eaten plain or in fruit salads. 	Person/Thing	
-2368	GARLIC	Agriculture and vegetation	 A species in the onion genus, Allium. 	Person/Thing	
-2369	BETEL NUT	Food and drink	 The seed of the areca palm (Mama'an in Meranau common version). 	Person/Thing	217
+2359	LOTUS	Agriculture and vegetation	One of two species of aquatic plant in the family Nelumbonaceae.	Person/Thing	
+2360	SWEET OLIVE	Agriculture and vegetation	A species native to Asia from the Himalayas through southern China (Guizhou, Sichuan, Yunnan) to Taiwan and southern Japan and southeast Asia as far south as Cambodia and Thailand.	Person/Thing	
+2361	MUGWORT	Agriculture and vegetation	A common name for several species of aromatic plants in the genus Artemisia.	Person/Thing	
+2362	BRAN	Agriculture and vegetation	The hard outer layers of cereal grain. It consists of the combined aleurone and pericarp.	Person/Thing	
+2363	CHAFF (HUSK)	Agriculture and vegetation	The outer shell or coating of a seed.	Person/Thing	
+2364	PEANUT	Agriculture and vegetation	A species in the family Fabaceae (commonly known as the bean, pea or legume family).	Person/Thing	
+2365	RADISH	Agriculture and vegetation	An edible root vegetable of the Brassicaceae family that was domesticated in Europe in pre-Roman times.	Person/Thing	
+2366	ONION	Agriculture and vegetation	A vegetable and is the most widely cultivated species of the genus Allium.	Person/Thing	
+2367	MANDARINE	Agriculture and vegetation	A small citrus tree with fruit resembling other oranges. Mandarin oranges are usually eaten plain or in fruit salads.	Person/Thing	
+2368	GARLIC	Agriculture and vegetation	A species in the onion genus, Allium.	Person/Thing	
+2369	BETEL NUT	Food and drink	The seed of the areca palm (Mama'an in Meranau common version).	Person/Thing	217
 2370	CUT NUT	Food and drink	A fruit from an evergreen fruit-bearing tropical tree. [L: http://fruitandnuttrees.com/]	Person/Thing	
-2371	BREADFRUIT	Food and drink	A species of flowering tree in the mulberry family, Moraceae originating in the South Pacific and that was eventually spread to the rest of Oceania. 	Person/Thing	
-2372	SAGO PALM	Food and drink	Common name for several plants which are used to produce a starchy food known as sago. 	Person/Thing	
+2371	BREADFRUIT	Food and drink	A species of flowering tree in the mulberry family, Moraceae originating in the South Pacific and that was eventually spread to the rest of Oceania.	Person/Thing	
+2372	SAGO PALM	Food and drink	Common name for several plants which are used to produce a starchy food known as sago.	Person/Thing	
 2373	SKIN (OF FRUIT)	Food and drink	The outer layer of fruits.	Person/Thing	
-2374	DREAM	The body	Successions of images, ideas, emotions, and sensations that occur usually involuntarily in the mind during certain stages of sleep. 	Person/Thing	
-2375	VERTICAL	Spatial relations	Direction passing by a given point is said to be vertical if it is locally aligned with the gradient of the gravity field. 	Property	
-2376	HORIZONTAL	Spatial relations	Plane is said to be horizontal at a given point if it is perpendicular to the gradient of the gravity field at that point— in other words, if apparent gravity makes a plumb bob hang perpendicular to the plane at that point. 	Person/Thing	
+2374	DREAM	The body	Successions of images, ideas, emotions, and sensations that occur usually involuntarily in the mind during certain stages of sleep.	Person/Thing	
+2375	VERTICAL	Spatial relations	Direction passing by a given point is said to be vertical if it is locally aligned with the gradient of the gravity field.	Property	
+2376	HORIZONTAL	Spatial relations	Plane is said to be horizontal at a given point if it is perpendicular to the gradient of the gravity field at that point— in other words, if apparent gravity makes a plumb bob hang perpendicular to the plane at that point.	Person/Thing	
 2377	FLASH (VERB)	The physical world	The process by which flashes of light are caused by the discharge of atmospheric electrical charge.	Action/Process	
 2378	THUNDER (VERB)	The physical world	The process producing the noise after a lightning.	Action/Process	
 2379	UP OR ABOVE	Spatial relations	Moving from a lower position to a higher one, or being at a higher position.	Other	
@@ -2387,31 +2387,31 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2386	TURKEY	Animals	A large bird from the family of Phasanidae.	Person/Thing	
 2387	UNCLE OR FATHER-IN-LAW	Kinship	Either an uncle or the father-in-law.	Person/Thing	
 2388	LIANA	Agriculture and vegetation	A liana is any of various long-stemmed, woody vines that are rooted in the soil at ground level and use trees, as well as other means of vertical support, to climb up to the canopy to get access to well-lit areas of the fores .	Person/Thing	
-2389	COATI (COATIMUNDI)	Animals	Coatis, genera Nasua and Nasuella, also known as the coatimundi, Mexican tejón, cholugo, or moncún, Costa Rican pizote, hog-nosed coon,[3] Colombian cusumbo, and other names, are members of the raccoon family (Procyonidae). 	Person/Thing	
-2390	PECCARY	Animals	The collared peccary (Pecari tajacu) is a species of mammal in the family Tayassuidae found in North, Central, and South America. 	Person/Thing	
+2389	COATI (COATIMUNDI)	Animals	Coatis, genera Nasua and Nasuella, also known as the coatimundi, Mexican tejón, cholugo, or moncún, Costa Rican pizote, hog-nosed coon,[3] Colombian cusumbo, and other names, are members of the raccoon family (Procyonidae).	Person/Thing	
+2390	PECCARY	Animals	The collared peccary (Pecari tajacu) is a species of mammal in the family Tayassuidae found in North, Central, and South America.	Person/Thing	
 2391	BOY OR SON	Kinship	Either a son or a boy.	Person/Thing	
 2392	DAUGHTER OR GIRL	Kinship	Either a daughter or a girl.	Person/Thing	
 2393	JOURNEY	Motion	Moving from one place to the other or moving around without.	Action/Process	
 2394	CHIEF	Social and political relations	The head of a company or group.	Person/Thing	301
 2395	CONGEAL (BLOOD)	The body	The process by which frech blood gets dry and hard.	Action/Process	
 2396	KNOCK	Motion	Making a sound by beating with the hand or with a tool against something.	Action/Process	
-2397	LOBSTER	Animals	Clawed lobsters comprise a family (Nephropidae, sometimes also Homaridae) of large marine crustaceans. 	Person/Thing	
+2397	LOBSTER	Animals	Clawed lobsters comprise a family (Nephropidae, sometimes also Homaridae) of large marine crustaceans.	Person/Thing	
 2398	MANGO	Agriculture and vegetation	The fruit from the Mango tree.	Person/Thing	
 2399	GRANDPARENT	Kinship	Either the grandfather or the grandmother.	Person/Thing	305
 2400	THEIR	Possession	belonging to the third person that is addressed (of many people)	Other	
 2401	PICTURE	Modern world	A foto or a painting.	Person/Thing	
-2402	ROBIN	Animals	The European robin (Erithacus rubecula), most commonly known in Anglophone Europe simply as the robin, is a small insectivorous passerine bird, specifically a chat, that was formerly classed as a member of the thrush family (Turdidae), but is now considered to be an Old World flycatcher. 	Person/Thing	
-2403	TOY	Modern world	A toy is an item that can be used for play. 	Person/Thing	
-2404	SANTA CLAUS	Modern world	Santa Claus, also known as Saint Nicholas, Father Christmas, Kris Kringle and simply Santa, is an important figure with legendary, historical and folkloric origins who, in many Western cultures, is said to bring gifts to the homes of the good children on 24 December, the night before Christmas Day. 	Person/Thing	
-2405	CHRISTMAS	Modern world	Christmas or Christmas Day (Old English: Crīstesmæsse, meaning Christ's Mass) is an annual festival commemorating the birth of Jesus Christ, observed most commonly on December 25 as a religious and cultural celebration among billions of people around the world. 	Person/Thing	
+2402	ROBIN	Animals	The European robin (Erithacus rubecula), most commonly known in Anglophone Europe simply as the robin, is a small insectivorous passerine bird, specifically a chat, that was formerly classed as a member of the thrush family (Turdidae), but is now considered to be an Old World flycatcher.	Person/Thing	
+2403	TOY	Modern world	A toy is an item that can be used for play.	Person/Thing	
+2404	SANTA CLAUS	Modern world	Santa Claus, also known as Saint Nicholas, Father Christmas, Kris Kringle and simply Santa, is an important figure with legendary, historical and folkloric origins who, in many Western cultures, is said to bring gifts to the homes of the good children on 24 December, the night before Christmas Day.	Person/Thing	
+2405	CHRISTMAS	Modern world	Christmas or Christmas Day (Old English: Crīstesmæsse, meaning Christ's Mass) is an annual festival commemorating the birth of Jesus Christ, observed most commonly on December 25 as a religious and cultural celebration among billions of people around the world.	Person/Thing	
 2406	HOME	The house	The place where one lives.	Person/Thing	
 2407	BIRTHDAY	Social and political relations	The day when one was born.	Person/Thing	
-2408	CAKE	Modern world	Cake is a form of sweet dessert that is typically baked. 	Person/Thing	
+2408	CAKE	Modern world	Cake is a form of sweet dessert that is typically baked.	Person/Thing	
 2409	BROWN	Sense perception	Having a brown color.	Property	
 2410	GOOD-LOOKING	Sense perception	Being pleasant to watch (of humans).	Property	
 2411	HURT (SOMEBODY)	Sense perception	Imposing pain on somebody else.	Action/Process	
 2412	THANK (SOMBEODY)	Social and political relations	To express one's gratitude.	Action/Process	
-2413	SARONG	Clothing and grooming	A sarong or sarung is a large tube or length of fabric, often wrapped around the waist and worn by men and women throughout much of South Asia. 	Person/Thing	
+2413	SARONG	Clothing and grooming	A sarong or sarung is a large tube or length of fabric, often wrapped around the waist and worn by men and women throughout much of South Asia.	Person/Thing	
 2414	OLDER BROTHER (OF MAN)	Kinship	The older brother of a man.	Person/Thing	
 2415	OLDER BROTHER (OF WOMAN)	Kinship	The older brother of a woman.	Person/Thing	
 2416	YOUNGER BROTHER (OF MAN)	Kinship	The younger brother of a man.	Person/Thing	
@@ -2421,46 +2421,46 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2420	YOUNGER SISTER (OF MAN)	Kinship	The younger sister of a man.	Person/Thing	
 2421	YOUNGER SISTER (OF WOMAN)	Kinship	The younger sister of a woman.	Person/Thing	
 2422	SOMEONE	Quantity	An unspecified person.	Other	
-2423	CHANNEL	Modern world	In physical geography, a channel is a type of landform consisting of the outline of a path of relatively shallow and narrow body of fluid, most commonly the confine of a river, river delta or strait. 	Person/Thing	
+2423	CHANNEL	Modern world	In physical geography, a channel is a type of landform consisting of the outline of a path of relatively shallow and narrow body of fluid, most commonly the confine of a river, river delta or strait.	Person/Thing	
 2424	MEMBER	Modern world	Part of a team.	Person/Thing	
 2425	PROBLEM	Modern world	Something that poses difficulties and requires to be solved in someway.	Person/Thing	
-2426	CLIMATE	The physical world	Climate is the long-term pattern of weather in a particular area. 	Person/Thing	
-2427	FUTURE		The future is what will happen in the time after the present. 	Person/Thing	
-2428	LIBRARY	Modern world	A library is a collection of sources of information and similar resources, made accessible to a defined community for reference or borrowing. 	Person/Thing	
-2429	LOGIC	Modern world	Logic (from the Ancient Greek: λογική, logike) is the branch of philosophy concerned with the use and study of valid reasoning. The study of logic also features prominently in mathematics and computer science. 	Person/Thing	
-2430	OFFICE	Modern world	An office is generally a room or other area where administrative work is done. 	Person/Thing	
-2431	REVOLUTION	Modern world	A revolution (from the Latin revolutio, a turn around) is a fundamental change in power or organizational structures that takes place in a relatively short period of time.  	Person/Thing	
-2432	MARRIAGE	Kinship	Marriage, also called matrimony or wedlock, is a socially or ritually recognized union or legal contract between spouses that establishes rights and obligations between them, between them and their children, and between them and their in-laws. 	Person/Thing	
-2433	THEORY	Modern world	Theory is a contemplative and rational type of abstract or generalizing thinking, or the results of such thinking. Depending on the context, the results might for example include generalized explanations of how nature works. 	Person/Thing	
-2434	TRAGEDY	Modern world	Tragedy (from the Greek: τραγῳδία, tragōidia[a]) is a form of drama based on human suffering that invokes in its audience an accompanying catharsis or pleasure in the viewing. 	Person/Thing	
-2435	UNIVERSITY	Modern world	A university (Latin: universitas, a whole) is an institution of higher (or tertiary) education and research which grants academic degrees in various subjects and typically provides undergraduate education and postgraduate education. 	Person/Thing	
+2426	CLIMATE	The physical world	Climate is the long-term pattern of weather in a particular area.	Person/Thing	
+2427	FUTURE		The future is what will happen in the time after the present.	Person/Thing	
+2428	LIBRARY	Modern world	A library is a collection of sources of information and similar resources, made accessible to a defined community for reference or borrowing.	Person/Thing	
+2429	LOGIC	Modern world	Logic (from the Ancient Greek: λογική, logike) is the branch of philosophy concerned with the use and study of valid reasoning. The study of logic also features prominently in mathematics and computer science.	Person/Thing	
+2430	OFFICE	Modern world	An office is generally a room or other area where administrative work is done.	Person/Thing	
+2431	REVOLUTION	Modern world	A revolution (from the Latin revolutio, a turn around) is a fundamental change in power or organizational structures that takes place in a relatively short period of time.	Person/Thing	
+2432	MARRIAGE	Kinship	Marriage, also called matrimony or wedlock, is a socially or ritually recognized union or legal contract between spouses that establishes rights and obligations between them, between them and their children, and between them and their in-laws.	Person/Thing	
+2433	THEORY	Modern world	Theory is a contemplative and rational type of abstract or generalizing thinking, or the results of such thinking. Depending on the context, the results might for example include generalized explanations of how nature works.	Person/Thing	
+2434	TRAGEDY	Modern world	Tragedy (from the Greek: τραγῳδία, tragōidia[a]) is a form of drama based on human suffering that invokes in its audience an accompanying catharsis or pleasure in the viewing.	Person/Thing	
+2435	UNIVERSITY	Modern world	A university (Latin: universitas, a whole) is an institution of higher (or tertiary) education and research which grants academic degrees in various subjects and typically provides undergraduate education and postgraduate education.	Person/Thing	
 2436	GUTS OR HEART	The body	Either the human heart or the human guts.	Person/Thing	
-2437	ACAI PALM	Agriculture and vegetation	A species of palm tree in the genus Euterpe cultivated for its fruit and hearts of palm. 	Person/Thing	
-2438	CAIMAN	Animals	An alligatorid crocodilian belonging to the subfamily Caimaninae, one of two primary lineages within Alligatoridae, the other being alligators. 	Person/Thing	
-2439	TUCUMA PALM	Agriculture and vegetation	A palm native to Amazon Rainforest vegetation, typical of the Pará state in Brazil. 	Person/Thing	
-2440	PINEAPPLE	Agriculture and vegetation	A tropical plant with edible multiple fruit consisting of coalesced berries, also called pineapples, and the most economically significant plant in the Bromeliaceae family. 	Person/Thing	
-2441	CASHEW	Agriculture and vegetation	A tropical evergreen tree that produces the cashew seed and the cashew apple. 	Person/Thing	
-2442	COCOA BEAN	Agriculture and vegetation	The dried and fully fermented fatty seed of Theobroma cacao, from which cocoa solids and cocoa butter are extracted. 	Person/Thing	
-2443	ELECTRIC EEL	Animals	An electric fish, and the only species in that genus. They are capable of generating powerful electric shocks of up to 600 volts, which they use for hunting, self-defense, and communicating with fellow eels. 	Person/Thing	
-2444	KINGFISHER	Animals	A group of small to medium-sized brightly colored birds in the order Coraciiformes. 	Person/Thing	
-2445	PAPAYA	Food and drink	The fruit of the plant Carica papaya, and is one of the 22 accepted species in the genus Carica of the plant family Caricaceae. 	Person/Thing	
-2446	SLOTH	Animals	Medium-sized mammals belonging to the families Megalonychidae (two-toed sloth) and Bradypodidae (three-toed sloth), classified into six species. 	Person/Thing	
-2447	WOODPECKER	Animals	Part of the Picidae family, a group of near-passerine birds that also consist of piculets, wrynecks, and sapsuckers. 	Person/Thing	
-2448	WILD DOG	Animals	Any of several wild canine species that are commonly called 'dogs' or 'wild dogs' but are not true dogs. 	Person/Thing	
+2437	ACAI PALM	Agriculture and vegetation	A species of palm tree in the genus Euterpe cultivated for its fruit and hearts of palm.	Person/Thing	
+2438	CAIMAN	Animals	An alligatorid crocodilian belonging to the subfamily Caimaninae, one of two primary lineages within Alligatoridae, the other being alligators.	Person/Thing	
+2439	TUCUMA PALM	Agriculture and vegetation	A palm native to Amazon Rainforest vegetation, typical of the Pará state in Brazil.	Person/Thing	
+2440	PINEAPPLE	Agriculture and vegetation	A tropical plant with edible multiple fruit consisting of coalesced berries, also called pineapples, and the most economically significant plant in the Bromeliaceae family.	Person/Thing	
+2441	CASHEW	Agriculture and vegetation	A tropical evergreen tree that produces the cashew seed and the cashew apple.	Person/Thing	
+2442	COCOA BEAN	Agriculture and vegetation	The dried and fully fermented fatty seed of Theobroma cacao, from which cocoa solids and cocoa butter are extracted.	Person/Thing	
+2443	ELECTRIC EEL	Animals	An electric fish, and the only species in that genus. They are capable of generating powerful electric shocks of up to 600 volts, which they use for hunting, self-defense, and communicating with fellow eels.	Person/Thing	
+2444	KINGFISHER	Animals	A group of small to medium-sized brightly colored birds in the order Coraciiformes.	Person/Thing	
+2445	PAPAYA	Food and drink	The fruit of the plant Carica papaya, and is one of the 22 accepted species in the genus Carica of the plant family Caricaceae.	Person/Thing	
+2446	SLOTH	Animals	Medium-sized mammals belonging to the families Megalonychidae (two-toed sloth) and Bradypodidae (three-toed sloth), classified into six species.	Person/Thing	
+2447	WOODPECKER	Animals	Part of the Picidae family, a group of near-passerine birds that also consist of piculets, wrynecks, and sapsuckers.	Person/Thing	
+2448	WILD DOG	Animals	Any of several wild canine species that are commonly called 'dogs' or 'wild dogs' but are not true dogs.	Person/Thing	
 2449	FAT (OF MEAT AND FOOD)	Food and drink	The property of food, especially meat, to contain a large proportion of fat.	Property	
 2450	FOOT OR WALK	The body	Either the body part or the action by which one uses the body part to advance.	Other	
-2451	FOURTEEN	Quantity	The cardinal number occurring after thirteen and before fifteen, represented in Roman numerals as XIV and in Arabic numerals as 14.	Number	
+2451	FOURTEEN	Quantity	The natural number fourteen (14).	Number	
 2452	PURPLE	Sense perception	Having purple as its color.	Property	
-2453	SEVENTEEN	Quantity	The cardinal number 17.	Number	
-2454	SIXTEEN	Quantity	The cardinal number 16.	Number	
+2453	SEVENTEEN	Quantity	The natural number seventeen (17).	Number	
+2454	SIXTEEN	Quantity	The natural number sixteen (16).	Number	
 2455	DREAMING OR DREAM	The body	Either the act of seeing images when sleeping, or the result of this act, the dream itself.	Other	
 2456	LARGE WILD HERBIVORE	Animals	Wild herbivores, like deer or kangaroo, wo are traditionally hunted for their meat.	Person/Thing	
 2457	PATH OR ROAD	Motion	A piece of ground that people can walk or drive along.	Person/Thing	
 2458	PERSPIRE OR SWEAT	The body	Either the action of sweating or the product.	Other	
-2459	GRINDSTONE	Basic actions and technology	A grindstone is a round sharpening stone used for grinding or sharpening ferrous tools. 	Person/Thing	
-2460	DINGO	Animals	The dingo (Canis lupus dingo) is a free-ranging dog found mainly in Australia. 	Person/Thing	
-2461	WOLF-LIKE ANIMAL	Animals	Refers to *genus canis*, a genus containing seven to ten extant species, including wolves, domestic dogs, coyotes, and jackals 	Person/Thing	
-2462	WINNOWING	Basic actions and technology	Wind winnowing is an agricultural method developed by ancient cultures for separating grain from chaff. 	Action/Process	
+2459	GRINDSTONE	Basic actions and technology	A grindstone is a round sharpening stone used for grinding or sharpening ferrous tools.	Person/Thing	
+2460	DINGO	Animals	The dingo (Canis lupus dingo) is a free-ranging dog found mainly in Australia.	Person/Thing	
+2461	WOLF-LIKE ANIMAL	Animals	Refers to *genus canis*, a genus containing seven to ten extant species, including wolves, domestic dogs, coyotes, and jackals	Person/Thing	
+2462	WINNOWING	Basic actions and technology	Wind winnowing is an agricultural method developed by ancient cultures for separating grain from chaff.	Action/Process	
 2463	MOON OR MONTH	The physical world	Either the moon as the object or the time period.	Person/Thing	
 2464	LAY EGGS	Basic actions and technology	The process by which birds produce eggs.	Action/Process	
 2465	DISGUST	Basic actions and technology	The feeling that one gets when seeing something rotten.	Person/Thing	
@@ -2508,11 +2508,11 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2507	DISGUSTING	Basic actions and technology	Creating disgust in somebody.	Property	
 2508	PANGOLIN	Animals	Mammals of the order Pholidota. The one extant family, Manidae, has three genera: Manis which comprises four species living in Asia, Phataginus which comprises two species living in Africa, and Smutsia which comprises two species also living in Africa.	Person/Thing	
 2509	EXCHANGE	Basic actions and technology	To hand out one thing while receiving another thing or to replace one thing with another.	Action/Process	
-2510	PORCUPINE	Animals	 Rodents with a coat of sharp spines, or quills, that protect against predators.	Person/Thing	
-2511	GIBBON	Animals	 Apes in the family Hylobatidae.	Person/Thing	
+2510	PORCUPINE	Animals	Rodents with a coat of sharp spines, or quills, that protect against predators.	Person/Thing	
+2511	GIBBON	Animals	Apes in the family Hylobatidae.	Person/Thing	
 2512	CHICK	Animals	A young bird that has not yet reached adulthood.	Person/Thing	
 2513	CHICKEN CHICK	Animals	A young chicken that has not yeet reached adulthood.	Person/Thing	
-2514	SPOUSE	Kinship	One of the partners in a marriage, be they male or femaile. 	Person/Thing	
+2514	SPOUSE	Kinship	One of the partners in a marriage, be they male or femaile.	Person/Thing	
 2515	CARABAO	Animals	A swamp-type domestic water buffalo found in the Philippines.	Person/Thing	
 2516	WATER BUFFALO	Animals	A large bovid originating in South Asia, Southeast Asia, and China.	Person/Thing	
 2517	CROWDED	Social and political relations	Full of people.	Property	
@@ -2638,7 +2638,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2637	WE TWO (INCLUSIVE)	Kinship	Inclusive dual of the first person: I and exactly one other person, including the addressed person (you).	Other	
 2638	FISHING	Basic actions and technology	To hunt for fishes (general expression).	Action/Process	
 2639	FISHING (WITH A NET)	Basic actions and technology	To hunt for fishes by using a fishnet.	Action/Process	
-2640	LARVA	Animals	 A distinct juvenile form many animals undergo before metamorphosis into adults.	Person/Thing	
+2640	LARVA	Animals	A distinct juvenile form many animals undergo before metamorphosis into adults.	Person/Thing	
 2641	MYTHICAL BEING	Religion and belief	Any living creature that occurs in stories and fary-tales and does not exist in the real world.	Person/Thing	
 2642	HE OR SHE	Kinship	Third person singular addressing living things or persons.	Other	
 2643	INK	Modern world	A liquid or paste that contains pigments or dyes and is used to color a surface to produce an image, text, or design.	Person/Thing	
@@ -2674,7 +2674,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2673	BIRD OF PARADISE	Animals	A bird of the family Paradisaeidae.	Person/Thing	
 2674	ORAL CAVITY	The body	Cavity that is limited by the lips in front, the cheeks on the side, the soft and hard palate at the top and the floor of the mouth below.	Person/Thing	
 2675	FIRE OR FIREWOOD	The physical world	The state of combustion in which inflammable material burns, producing heat, flames and often smoke or the Wood intended to be burned.	Person/Thing	
-2676	TWO HUNDRED	Quantity	The cardinal number occurring after one hundred and ninety-nine and before two hundred one, represented in Roman numerals as CC and in Arabic numerals as 200.	Number	
+2676	TWO HUNDRED	Quantity	The natural number two hundred (200).	Number	
 2677	SPEARTHROWER	Warfare and hunting	A spear-thrower or atlatl is a tool that uses leverage to achieve greater velocity in dart-throwing, and includes a bearing surface which allows the user to store energy during the throw.	Person/Thing	
 2678	HAIR OR FUR	The body	The hair covering the body of a mammal, including the body hair of humans.	Person/Thing	
 2679	BLOW (WITH NOSE)	Basic actions and technology	To expel air through nose.	Action/Process	
@@ -2802,7 +2802,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2805	BIRTH (ACCOUCHEMENT)	Basic actions and technology	The process of giving birth to a child.	Person/Thing	
 2806	BLACK MAN	Kinship	Term used to describe men who are perceived to be dark-skinned.	Person/Thing	
 2807	BLACK WOMAN	Kinship	Term used to describe women who are perceived to be dark-skinned.	Person/Thing	
-2808	BLACKEN	Basic actions and technology	 To change the color of something into black.	Action/Process	
+2808	BLACKEN	Basic actions and technology	To change the color of something into black.	Action/Process	
 2809	BLUEBERRY	Agriculture and vegetation	Perennial flowering plants with indigo-coloured berries from the section Cyanococcus.	Person/Thing	
 2810	BREASTBONE	The body	Long flat bone located in the center of the chest.	Person/Thing	
 2811	BUSHFIRE	Basic actions and technology	An uncontrolled fire in a wooded or grassy area.	Person/Thing	
@@ -3015,8 +3015,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3019	SAND HILL	The physical world	Ecological community or xeric wildfire-maintained ecosystem (different from sand dune).	Person/Thing	
 3020	BREAK (BREAKING)	Basic actions and technology	To come apart or split into pieces (intransitive).	Action/Process	
 3021	BLUE TONGUED SKINK	Animals	Australian skins comprising the genus Tiliqua.	Person/Thing	
-3022	TOP GRINDSTONE	Basic actions and technology	The top (and usually proper) element in a two-stone grindstone. 	Person/Thing	
-3023	BOTTOM GRINDSTONE	Basic actions and technology	The bottom element in a two-stone grindstone. 	Person/Thing	
+3022	TOP GRINDSTONE	Basic actions and technology	The top (and usually proper) element in a two-stone grindstone.	Person/Thing	
+3023	BOTTOM GRINDSTONE	Basic actions and technology	The bottom element in a two-stone grindstone.	Person/Thing	
 3024	BRIDE PRICE	Social and political relations	Money or other form of wealth paid by a groom to the family of his bride.	Person/Thing	
 3025	BARN OR SHED	The house	A building for storing agricultural products or sheltering livestock.	Person/Thing	
 3026	CONJUNCTIVITIS	The body	An inflammation of the eye conjunctiva.	Person/Thing	
@@ -3080,10 +3080,10 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3084	BLACKBOARD	The house	Reusable surface for writing or drawing.	Person/Thing	
 3085	CARROT	Agriculture and vegetation	Domesticated root vegetable usually orange or red in colour.	Person/Thing	
 3086	COMPUTER	Modern world	A device for automatically performing sets of logical or arithmetical instructions.	Person/Thing	
-3087	PACIFIER	Clothing and grooming	An artificial teat made of rubber, plastic, or silicone put into an infant's mouth to calm it. 	Person/Thing	
+3087	PACIFIER	Clothing and grooming	An artificial teat made of rubber, plastic, or silicone put into an infant's mouth to calm it.	Person/Thing	
 3088	ENVELOPE	Basic actions and technology	An item to commonly used to package or wrap letters.	Person/Thing	
 3089	GIRAFFE	Animals	A quadruped animal native to Africa, remarkable for the length of its legs and neck.	Person/Thing	
-3090	GUITAR	Speech and language	Musical instrument with usally six strings. 	Person/Thing	
+3090	GUITAR	Speech and language	Musical instrument with usally six strings.	Person/Thing	
 3091	LEMON	Agriculture and vegetation	Fruit with yellow rind and acidic/sour juice.	Person/Thing	
 3092	LIGHTER	Basic actions and technology	Portable instrument for igniting something.	Person/Thing	
 3093	LIPSTICK	Clothing and grooming	Stick containing wax, oil, or pigments used to apply colour to one's lips.	Person/Thing	
@@ -3097,7 +3097,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3101	SWING	Basic actions and technology	Tool used for play with a seat hanging from ropes.	Person/Thing	
 3102	TANK	Warfare and hunting	Armoured vehicle used by the military.	Person/Thing	
 3103	TENNIS BALL	Modern world	Yellow, spherical object used for playing the game of tennis.	Person/Thing	
-3104	THERMOMETER	Basic actions and technology	Instrument used for measuring temperature, mostly by means of a contracting or expanding substanced contained within the instrument. 	Person/Thing	
+3104	THERMOMETER	Basic actions and technology	Instrument used for measuring temperature, mostly by means of a contracting or expanding substanced contained within the instrument.	Person/Thing	
 3105	UMBRELLA	Clothing and grooming	Portable folding canopy used for protection against weather influences.	Person/Thing	
 3106	WARDROBE	The house	Large object, often made out of wood, used for storing clothes or other fabrics.	Person/Thing	
 3107	WHISTLE (INSTRUMENT)	Basic actions and technology	Wind instrument most often made out of metal or wood used for producing a loud, shrill tone.	Person/Thing	
@@ -3147,7 +3147,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3151	*CUT (WITH AXE)	Basic actions and technology	To slice or to divide into pieces with help of an axe.	Person/Thing	
 3152	MUNTJACS	Animals	Also known as barking deer, a kind of small deer of the genus Muntiacus.	Person/Thing	
 3153	LORD	Social and political relations	A man of noble rank or high office; a nobleman.	Person/Thing	
-3154	WILD BOAR	Animals	Also known as wild pig, an undomestic four-legged animal (Sus scrofa) living in the wild. 	Person/Thing	
+3154	WILD BOAR	Animals	Also known as wild pig, an undomestic four-legged animal (Sus scrofa) living in the wild.	Person/Thing	
 3155	DIBBLE STICK	Agriculture and vegetation	A piece of wood with a point used for making holes in the ground for seeds, seedlings or small bulbs.	Person/Thing	
 3156	GEBANG PALM	Agriculture and vegetation	Tree of the Corypha Utan species.	Person/Thing	
 3157	CIVET	Animals	A carnivorous mammal of the Viverridae family, found across South East Asia.	Person/Thing	
@@ -3157,9 +3157,9 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3161	CHEW BETEL	Food and drink	To consume a mixture of areca nut and betel leaf.	Action/Process	
 3162	CROSS-COUSIN	Kinship	The child of a parent’s opposite-sex sibling, for example the father’s sister’s son.	Person/Thing	
 3163	SQUAT	Motion	Have bent knees with the body weight is on the feet.	Action/Process	
-3164	ONE HUNDRED AND TWENTY THREE	Quantity	The cardinal number represented in Roman numerals as CXXIII, and in Arabic numerals as 123.	Other	
-3165	TWENTY THREE	Quantity	The cardinal number represented in Roman numerals as XXIII, and in Arabic numerals as 23.	Other	
-3166	TWENTY TWO	Quantity	The cardinal number represented in Roman numerals as XXII, and in Arabic numerals as 22.	Other	
+3164	ONE HUNDRED AND TWENTY THREE	Quantity	The natural number one hundred and twenty-three (123).	Number	
+3165	TWENTY THREE	Quantity	The natural number twenty-three (23).	Number	
+3166	TWENTY TWO	Quantity	The natural number twenty-two (22).	Number	
 3167	SERMON	Religion and belief	A religious lecture or speech, addressing issues of religion or morality.	Person/Thing	
 3168	DOWRY	Social and political relations	Property, gifts or money transfered from the parents of a daughter to her new family at marriage.	Person/Thing	
 3169	TREATY	Social and political relations	Formal agreement between nations, states or other international bodies.	Person/Thing	
@@ -3284,3 +3284,6 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3289	UNCOOKED RICE	Food and drink	Rice that has not been boiled or otherwise prepared for eating.	Person/Thing	
 3290	IMPEL	Motion	Cause objects, people or animals to move (typically by following them).	Action/Process	
 3291	DRIVE OR IMPEL OR RIDE	Motion	Drive a vehicle or cause vehicles, other objects, people or animals to move (typically while following them or sitting/standing on them).	Action/Process	
+3292	THOU (HONORIFIC)	Kinship	The person addressed (honorific).	Other	
+3293	YOU (HONORIFIC)	Kinship	The group of persons addressed (honorific)	Other	
+
