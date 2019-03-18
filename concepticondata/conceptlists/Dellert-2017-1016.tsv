@@ -332,7 +332,7 @@ Dellert-2017-1016-330	330	450	-1.195024	Netz	Netz::N	net	сеть	geknüpftes ma
 Dellert-2017-1016-331	331	566	-0.032141	Haken	Haken::N	hook	крюк				HOOK	1071	
 Dellert-2017-1016-332	332	353	-1.125378	Griff	Griff::N	handle	рукоятка, ручка	zu greifender Teil eines Gegenstandes	part of an object which is held	часть предмета, за которую держат	HANDLE	1254	
 Dellert-2017-1016-333	333	659	-0.020932	Schloss	Schloss::N	lock	замок				LOCK	1596	
-Dellert-2017-1016-334	334	633	-0.084574	Bild	Bild::N	picture	картина				PICTURE	2401	
+Dellert-2017-1016-334	334	633	-0.084574	Bild	Bild::N	picture	картина				PICTURE (PAINTING)	3303	
 Dellert-2017-1016-335	335	775	-0.032159	Figur	Figur::N	figure	фигура, изваяние	BSP:Götterbild	EX:representing a god	НАПР:изображение божества	IDOL	1945	
 Dellert-2017-1016-336	336	776	-0.025814	Puppe	Puppe::N	doll	кукла				DOLL	1659	
 Dellert-2017-1016-337	337	887	0.040142	Beutel	Beutel::N	pouch	мешок			мешочек	POUCH	2951	
@@ -955,7 +955,7 @@ Dellert-2017-1016-953	953	282	-1.104607	treiben	treiben::V	drive	гнать	Vieh
 Dellert-2017-1016-954	954	276	-1.118999	anbinden	anbinden::V	tie up	привязать	ein Tier	an animal	животное	TIE UP (TETHER)	2891	
 Dellert-2017-1016-955	955	528	-1.106449	füttern	füttern::V	feed	кормить	ein Tier	an animal	животное	FEED	739	
 Dellert-2017-1016-956	956	249	-1.186193	melken	melken::V	milk	доить	eine Kuh	a cow	корову	DRAW MILK	93	
-Dellert-2017-1016-957	957	621	-0.006171	hacken	hacken::V	chop	рубить	BSP:Kohl	EX:kale	НАПР:капусту	CHOP	155	
+Dellert-2017-1016-957	957	621	-0.006171	hacken	hacken::V	chop	рубить	BSP:Kohl	EX:kale	НАПР:капусту	CHOP (INTO PIECES)	2149	
 Dellert-2017-1016-958	958	323	-1.187874	gießen	gießen::V	water	полить	BSP:Blumen	EX:flowers	НАПР:цветы			
 Dellert-2017-1016-959	959	589	-0.072859	reifen	reifen::V	ripen	созреть	von einer Pflanze, einer Frucht	of a plant, of a fruit	о растении, о плоде	RIPEN	179	
 Dellert-2017-1016-960	960	585	-0.0835	zubereiten	zubereiten::V	cook	приготовить	BSP:eine Speise	EX:a meal	НАПР:блюдо	COOK (SOMETHING)	1100	
