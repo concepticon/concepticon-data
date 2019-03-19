@@ -76,7 +76,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 75	DISGRACE	Social and political relations	To make a person morally inferior.	Action/Process	
 76	YOUNG MAN	Kinship	A male juvenile between the onset of puberty and maturity; in the state of development between puberty and maturity.	Person/Thing	
 77	YOUNG WOMAN	Kinship	A female juvenile between the onset of puberty and maturity; in the state of development between puberty and maturity.	Person/Thing	
-78	THAT	Miscellaneous function words	Demonstrative pronoun (feminine, singular): the indicated thing is implied, since it is previously mentioned. Collocation: that of; to that of.	Other	
+78	THAT	Miscellaneous function words	The indicated object, item, etc. distant from the speaker.	Other	
 79	WASTE	Warfare and hunting	To cause extensive destruction or ruin utterly.	Action/Process	
 80	DOORPOST	The house	The frame that supports a door.	Person/Thing	
 81	FATHOM	Spatial relations	A linear unit of measurement, equal to 6 feet, for water depth.	Person/Thing	
@@ -159,7 +159,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 158	PUT ON	Clothing and grooming	To put clothes onto ones body to wear them.	Action/Process	
 159	SWEET POTATO	Agriculture and vegetation	A dicotyledonous plant of the family Convolvulaceae, having an edible tuberous root.	Person/Thing	
 160	SET (HEAVENLY BODIES)	The physical world	[Of a heavenly body, essentially the Sun and the Moon] To disappear below the horizon of a planet or another heavenly body (most often the Earth).	Action/Process	
-161	MISS (A TARGET)	Warfare and hunting	To fail to hit (a target, a bell, etc.).	Action/Process	
+161	MISS (A TARGET)	Basic actions and technology	To fail to hit (a target, a bell, etc.).	Action/Process	
 162	HICCOUGH	The body	To have spasms of the diaphragm.	Action/Process	
 163	BLACK	Sense perception	Dark and colourless; not reflecting visible light.	Property	
 164	KANGAROO	Animals	A marsupial from the family Macropodidae having powerful hind legs and large feet for leaping.	Person/Thing	
@@ -351,7 +351,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 350	MANGROVE	Agriculture and vegetation	Any of various tropical evergreen trees or shrubs that grow in shallow coastal water; Plants of the Rhizophoraceae family and/or of the genus Rhizophora.	Person/Thing	
 351	TARO	Agriculture and vegetation	Colocasia esculenta, raised as a food primarily for its corm, which distantly resembles potato.	Person/Thing	
 352	UNTIE	Basic actions and technology	To loosen, as something interlaced or knotted; to disengage the parts of. To unbind, to free from restraint	Action/Process	
-353	STRIKE	Basic actions and technology	To hit against something.	Action/Process	
+353	STRIKE	Basic actions and technology	To intentionally hit with a sharp blow or to impel, usually with a hand or weapon.	Action/Process	
 354	POUND	Basic actions and technology	To strike hard, usually repeatedly.	Action/Process	
 355	CUT DOWN	Basic actions and technology	To bring down by cutting.	Action/Process	
 356	SHEARS	Basic actions and technology	A tool consisting of two blades with bevel edges, connected by a pivot, used for cutting cloth, or for removing the fleece from sheep etc	Person/Thing	
@@ -811,7 +811,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 810	LOCUST	Animals	Migratory grasshoppers of the order Orthoptera of warm regions having short antennae.	Person/Thing	
 811	SOUL	Religion and belief	In philosophical or religious belief the immaterial part of a human being.	Person/Thing	
 812	SLAVE	Social and political relations	A person who is owned and forced to work, usually without pay, by another.	Person/Thing	
-813	DO	Basic actions and technology	To act, to behave.	Action/Process	
+813	DO	Basic actions and technology	To perform an action.	Action/Process	
 814	DRESS UP	Clothing and grooming	To clothe oneself; to put on clothes.	Action/Process	
 815	GOVERNMENT	Modern world	A body that has the authority to make and the power to enforce laws within a civil, corporate, religious, academic, or other organization or group.	Person/Thing	
 816	HALF	Quantity	One of the two equal parts of a whole.	Person/Thing	
@@ -1212,7 +1212,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1211	HE	Kinship	A male other; the male previously mentioned; himself.  3rd person singular masculine subject pronoun.	Other	
 1212	WE	Kinship	The speaker or writer and at least one other person.	Other	
 1213	YOU	Kinship	The group of persons addressed.	Other	
-1214	THIS	Miscellaneous function words	The indicated object, item, etc.	Other	
+1214	THIS	Miscellaneous function words	The indicated object, item, etc. close to the speaker.	Other	
 1215	THOU	Kinship	The person addressed.	Other	
 1216	MOTHER	Kinship	A woman who has at least one child.	Person/Thing	
 1217	FATHER	Kinship	A male parent.	Person/Thing	
@@ -1431,7 +1431,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1430	STAR	The physical world	A luminous celestial body that is made from gases (particularly hydrogen and helium) and forms the shape of a sphere.	Person/Thing	
 1431	FREEZE	The physical world	To reach a chemically solid state, by the process of cooling.	Action/Process	
 1432	CUT	Basic actions and technology	To perform an incision (for example, with a knife).	Action/Process	
-1433	HIT	Basic actions and technology	To give one blow or more with a swift movement.	Action/Process	
+1433	HIT	Basic actions and technology	To hit against with a sharp blow or to impel, usually with a hand or weapon or to be forcefully or suddenly contacting, e.g. a tree falling down and hitting the ground.	Action/Process	
 1434	STAB	Basic actions and technology	To pierce or to wound with a pointed tool or weapon, especially a knife or dagger.	Action/Process	
 1435	HUNT	Warfare and hunting	To chase down prey and (usually) kill it.	Action/Process	
 1436	SCRATCH	The body	To rub or scrape (a part of the body) with a sharp object (e.g. to relieve an itching).	Action/Process	
@@ -1735,7 +1735,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1734	TWENTY ONE	Quantity	The natural number twenty-one (21).	Number	
 1735	TEAR (SHRED)	Basic actions and technology	To pull at something in such a way that it ends up divided.	Action/Process	
 1736	TWENTY FOUR	Quantity	The natural number twenty-four (24).	Number	
-1737	OKRA	Agriculture and vegetation	-	Person/Thing	
+1737	OKRA	Agriculture and vegetation	A flowering plant in the mallow (Malvaceae) family valued for its edible pods; okro, ochro; ladies' fingers.	Person/Thing	
 1738	TWENTY FIVE	Quantity	The natural number twenty-five (25).	Number	
 1739	DECORATE	Clothing and grooming	To make more attractive by adding ornament, colour, etc.	Action/Process	
 1740	PINE	Agriculture and vegetation	Evergreen coniferous tree of the genus Pinus.	Person/Thing	
@@ -2131,7 +2131,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2130	HEADGEAR	Clothing and grooming	Any element of clothing which is worn on one's head.	Person/Thing	
 2131	TORCH OR LAMP	Basic actions and technology	Any portable device that produces light.	Person/Thing	
 2132	SICKLE OR SCYTHE	Basic actions and technology	Any portable tool that is used to cut grass or cereal crops in agriculture.	Person/Thing	
-2133	STRIKE OR BEAT	Basic actions and technology	To strike repeatedly, usually with bare hands and directed towards another person.	Action/Process	
+2133	STRIKE OR BEAT	Basic actions and technology	To hit or strike, either repeatedly or a single time.	Action/Process	
 2134	RAISE (A CHILD)	Basic actions and technology	To take care of an infant or some other living creature, usually until it can live indepentendly.	Action/Process	
 2135	TRADE OR BARTER	Possession	To exchange goods with or without exchanging money.	Action/Process	
 2136	BRASS INSTRUMENT (HORN OR TRUMPET)	Speech and language	Any musical instrument that is a member of the brass family of musical instruments, usually a horn or a trumpet.	Person/Thing	
@@ -3298,3 +3298,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3303	PICTURE (PAINTING)	Basic actions and technology	A painted image.	Person/Thing	
 3304	PICTURE (PHOTOGRAPH)	Modern world	An image taken with a camera.	Person/Thing	
 3305	INSIDE A HOUSE	The house	Inside a building as opposed to outside in the open air.	Other	
+3306	NAIL	Basic actions and technology	To hammer a nail into something.	Action/Process	
+3307	HIT TARGET	Basic actions and technology	To hit something that someone has aimed for.	Action/Process	
+3308	STRIKE (SOMEONE)	Basic actions and technology	To intentionally hit someone with a sharp blow or to impel, usually with a hand or weapon.	Action/Process	
+3309	STRIKE (SOMETHING)	Basic actions and technology	To intentionally hit something with a sharp blow or to impel, usually with a hand.	Action/Process	
