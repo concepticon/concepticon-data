@@ -859,7 +859,7 @@ Dellert-2017-1016-857	857	52	-2.272992	binden	binden::V	tie	связать	BSP:m
 Dellert-2017-1016-858	858	649	-0.038414	stecken	stecken::V	stick	воткнуть	hineinstecken, BSP:Zweig in Loch	EX:a twig into a hole	НАПР:палку в землю			
 Dellert-2017-1016-859	859	209	-1.178073	brechen	brechen::V	break	сломать	BSP:einen Knochen	EX:a bone	НАПР:кость	BREAK (DESTROY OR GET DESTROYED)	680	
 Dellert-2017-1016-860	860	790	-0.092148	klopfen	klopfen::V	knock	стучать	BSP:an eine Wand	EX:on a wall	НАПР:по стене	KNOCK	2396	
-Dellert-2017-1016-861	861	322	-1.190448	hauen	hauen::V	hit	ударить	BSP:auf einen Tisch	on purpose, EX:a table	EX:по столу	HIT	1433	
+Dellert-2017-1016-861	861	322	-1.190448	hauen	hauen::V	hit	ударить	BSP:auf einen Tisch	on purpose, EX:a table	EX:по столу	STRIKE (SOMETHING)	3309	
 Dellert-2017-1016-862	862	609	-0.041727	kleben	kleben::V	glue	клеить, приклеить	BSP:ein Plakat an eine Wand	EX:a poster to a wall	НАПР:афишу к стене	GLUE	1069	
 Dellert-2017-1016-863	863	366	-1.196142	reiben	reiben::V	rub	тереть	reiben an, BSP:das Glas mit einem Tuch	EX:glass with a rag	НАПР:мехом о камень	RUB	1449	
 Dellert-2017-1016-864	864	329	-1.177395	streichen	streichen::V	spread	намазать	aufstreichen, BSP:Fett auf Oberfläche	EX:fat on a surface	НАПР:жир на поверхность	SPREAD OUT	38	
@@ -932,7 +932,7 @@ Dellert-2017-1016-930	930	546	-0.067805	sich schlagen	sich schlagen::V	brawl	д�
 Dellert-2017-1016-931	931	350	-1.13346	schießen	schießen::V	shoot	стрелять	BSP:mit einem Gewehr	EX:with a gun	НАПР:из ружья	SHOOT	1172	
 Dellert-2017-1016-932	932	515	-1.13437	siegen	siegen::V	win	победить				WIN	866	
 Dellert-2017-1016-933	933	955	0.005035	ärgern	ärgern::V	annoy	сердить				MAKE ANGRY (ANNOY)	2892	
-Dellert-2017-1016-934	934	558	-0.046352	schlagen	schlagen::V	beat	ударить	jemanden	someone	кого-то	BEAT	1665	
+Dellert-2017-1016-934	934	558	-0.046352	schlagen	schlagen::V	beat	ударить	jemanden	someone	кого-то	STRIKE (SOMEONE)	3308	
 Dellert-2017-1016-935	935	856	-0.024994	treten	treten::V	kick	пнуть	jemanden, einen Hund	someone, a dog	кого-то, собаку	KICK	1135	
 Dellert-2017-1016-936	936	606	-0.045148	stechen	stechen::V	sting	уколоть	BSP:mit einer Nadel	EX:with a needle	НАПР:иглой	STING	571	
 Dellert-2017-1016-937	937	684	-0.056466	stoßen	stoßen::V	shove	толкнуть	jemanden	someone	кого-то			
