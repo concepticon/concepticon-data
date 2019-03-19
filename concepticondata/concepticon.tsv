@@ -51,7 +51,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 50	JACK	Modern world	A playing card marked with the figure of a servant or soldier.	Person/Thing	
 51	SORE	The body	An injured, infected, inflamed or diseased patch of skin.	Person/Thing	
 52	SHIVER	The body	To shake nervously, as if from fear.	Action/Process	
-53	SPIRIT	Emotions and values	The undying essence of a human.	Person/Thing	
+53	SPIRIT	Religion and belief	A spiritual entity that is not as powerful as a deity.	Person/Thing	
 54	SHRINK	The physical world	To decrease in size, range, or extent.	Action/Process	
 55	WHISPER	Speech and language	To speak in a quiet voice, without vibration of the vocal cords.	Action/Process	
 56	BAD LUCK	Emotions and values	An undesirable event such as an accident.	Person/Thing	
@@ -70,7 +70,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 69	SOBER	Food and drink	Not under the influence of alcohol or other drugs.	Property	
 70	BRACKISH	Sense perception	(Of water) Salty or slightly salty, as a mixture of fresh and sea water.	Property	
 71	BY HEART	Cognition	Completely and faithfully, refering to something that has been learnt and memorized.	Other	
-72	CLAW	Animals	A curved pointed appendage, found at the end of a toe or finger or, in arthropods, of the tarsus.	Person/Thing	
+72	CLAW	Animals	The hard, keratin part growing at the feet of animals.	Person/Thing	
 73	BEAK	The body	External anatomical structure of birds which is used for taking food and for eating.	Person/Thing	
 74	PUPPY	Animals	A young dog.	Person/Thing	
 75	DISGRACE	Social and political relations	To make a person morally inferior.	Action/Process	
@@ -119,7 +119,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 118	BEWITCH	Religion and belief	To cast a spell on someone or something.	Action/Process	
 119	DIVE	Motion	To swim under water.	Action/Process	
 120	PITCHER	Food and drink	A container shaped like a vase with a handle and a spout used to serve liquids.	Person/Thing	
-121	SPIN	Clothing and grooming	to make (yarn) by drawing out, twisting, and winding fibers.	Action/Process	
+121	SPIN	Clothing and grooming	To make (yarn) by drawing out, twisting, and winding fibers.	Action/Process	
 122	CART	Motion	a two-wheeled vehicle, commonly without springs, drawn by mules, oxen, or the like, used for the conveyance of heavy goods.	Person/Thing	
 123	FOREHEAD	The body	The part of the face between the hairline and the eyebrows.	Person/Thing	
 124	THORN	Agriculture and vegetation	A sharp and hard structure that grows on a plant.	Person/Thing	
@@ -131,7 +131,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 130	GRATIS (OF CHARGE)	Possession	Without cost.	Other	
 131	FESTIVAL	Social and political relations	Manifestation of collective joy, lasting longer than a few minutes.	Person/Thing	
 132	SAUCE	Food and drink	A liquid food accompanying a dish.	Person/Thing	
-133	WEAVE	Clothing and grooming	To make, as fabric, by enterlacing threads.	Action/Process	
+133	WEAVE	Clothing and grooming	To create a fabric by interlacing threads.	Action/Process	
 134	FAULT	Emotions and values	Wrong act done deliberately or good act omitted deliberately.	Person/Thing	
 135	BOOMERANG	Basic actions and technology	A tool with a curved shape used as a weapon or for sport which returns when thrown into the air.	Person/Thing	
 136	HERE	Miscellaneous function words	at this place	Other	
@@ -153,7 +153,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 152	HOOF	The body	Natural horn covering of an animal's foot.	Person/Thing	
 153	GREY	Sense perception	Having a colour between black and white, like ash or stone.	Property	
 154	UDDER	The body	An organ in female quadruped mammals which consists of mammary glands and has several teats.	Person/Thing	
-155	CHOP	Basic actions and technology	To cut or fell with an axe.	Action/Process	
+155	CHOP	Basic actions and technology	To chop wood, or to chop meat, vegetables etc. into small pieces.	Action/Process	
 156	RED	Sense perception	Having red as its colour.	Property	
 157	DYE	Clothing and grooming	To modify the color of something by applying dye.	Action/Process	
 158	PUT ON	Clothing and grooming	To put clothes onto ones body to wear them.	Action/Process	
@@ -233,7 +233,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 232	FLEA	Animals	Any of the wingless insects composing the order Siphonaptera; most are ectoparasites of mammals and birds. (Source: MGH)	Person/Thing	
 233	SNOWSHOE	Clothing and grooming	Footwear for walking over the snow.	Person/Thing	
 234	PADDLE	Motion	A tool used for pushing against liquid, generally for the propulsion of a boat.	Person/Thing	
-235	FLYING FOX	Animals	A squirrel of the sub-family Pteromyinae of the family Sciuridae.	Person/Thing	
+235	FLYING FOX	Animals	A large bat of the genus Pteropus of the family Pteropodidae.	Person/Thing	
 236	STEPMOTHER	Kinship	The wife of one's biological father, other than one's biological mother.	Person/Thing	
 237	STEPFATHER	Kinship	The husband of one's biological mother, other than one's biological father.	Person/Thing	
 238	PRAWNS	Animals	A decapod crustacean of the suborder Dendrobranchiata.	Person/Thing	
@@ -252,10 +252,10 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 251	SHARPEN (SOMETHING)	Basic actions and technology	To make sharp or sharper.	Action/Process	
 252	FRIGHTEN	Sense perception	To make someone afraid or anxious.	Action/Process	
 253	CARE FOR	Social and political relations	To keep under careful scrutiny.	Action/Process	
-254	STICKING	The physical world	To come or be in close contact with; to stick or hold together and resist separation.	Action/Process	
+254	STICKING	The physical world	To stick or hold together and resist separation.	Action/Process	
 255	SERVANT	Social and political relations	A person performing duties for others. For example a person employed in a household which cares about the domestic duties.	Person/Thing	
 256	FOOD	Food and drink	A substance that can be ingested and utilized by the organism as a source of nutrition and energy.	Person/Thing	
-257	WORSHIP	Religion and belief	To show devotion to (a deity).	Action/Process	
+257	WORSHIP	Religion and belief	To show devotion and obeisance to.	Action/Process	
 258	CALM	The physical world	Smooth or having only gentle waves.	Property	
 259	ROUGH (OF SEA)	The physical world	With large waves (of sea).	Property	
 260	SAVANNA	The physical world	A large open grassland in tropical and subtropical regions.	Person/Thing	
@@ -288,20 +288,20 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 287	CONE	Agriculture and vegetation	The fruit of a pine or fir tree.	Person/Thing	
 288	FORGE	Basic actions and technology	To create and mold by hammering.	Action/Process	
 289	MOLD	Basic actions and technology	To create something, usually for a specific function.	Action/Process	
-290	ADZE	Basic actions and technology	A sharp tool with the blade at a right angle to the handle, used to shape pieces of wood	Person/Thing	
-291	PULL OFF (SKIN)	Basic actions and technology	Strip or pull off the skin or hide of	Action/Process	
-292	RUG	Basic actions and technology	A piece of thick cloth or wool that is smaller than a carpet and is put on the floor as decoration	Person/Thing	
-293	NETBAG	Basic actions and technology	Bag made of net used to carry things	Person/Thing	
-294	TUMPLINE	Basic actions and technology	A strap slung over the forehead or chest used (especially by native Americans) for carrying packs or loads	Person/Thing	
+290	ADZE	Basic actions and technology	A sharp tool with the blade at a right angle to the handle, used to shape pieces of wood.	Person/Thing	
+291	PULL OFF (SKIN)	Basic actions and technology	To strip or pull off the skin or hide of.	Action/Process	
+292	RUG	Basic actions and technology	A piece of thick cloth or wool that is smaller than a carpet and is put on the floor as decoration.	Person/Thing	
+293	NETBAG	Basic actions and technology	Bag made of net used to carry things.	Person/Thing	
+294	TUMPLINE	Basic actions and technology	A strap slung over the forehead or chest used (especially by native Americans) for carrying packs or loads.	Person/Thing	
 295	WHETSTONE	Basic actions and technology	Before cutting the meat, he sharpened his knife with a whetstone.	Person/Thing	
 296	CROUCH	Motion	To lower one's body close to the ground by bending one's knees completely.	Action/Process	
-297	CROOKED	Spatial relations	Opposite of straight	Property	
+297	CROOKED	Spatial relations	Opposite of straight.	Property	
 298	SHRIEK	Speech and language	To make a very high, loud sound.	Action/Process	
-299	SCOLD	Speech and language	to rebuke	Action/Process	
+299	SCOLD	Speech and language	To rebuke.	Action/Process	
 300	RATTLE	Speech and language	A wooden instrument that makes a loud knocking noise [used by people watching football games].	Person/Thing	
-301	CHIEFTAIN	Social and political relations	The leader/ruler of a tribe/clan	Person/Thing	
-302	CLAN	Social and political relations	Extended family	Person/Thing	
-303	ABSTAIN FROM FOOD	Religion and belief	To refrain from eating	Action/Process	
+301	CHIEFTAIN	Social and political relations	The leader/ruler of a tribe/clan.	Person/Thing	
+302	CLAN	Social and political relations	Extended family.	Person/Thing	
+303	ABSTAIN FROM FOOD	Religion and belief	To refrain from eating.	Action/Process	
 304	PREACH	Religion and belief	To deliver a sermon.	Action/Process	
 305	GRANDPARENTS	Kinship	The parents of someone's parent.	Person/Thing	
 306	PARENTS-IN-LAW	Kinship	Mother-in-law and father-in-law.	Person/Thing	
@@ -355,7 +355,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 354	POUND	Basic actions and technology	To strike hard, usually repeatedly.	Action/Process	
 355	CUT DOWN	Basic actions and technology	To bring down by cutting.	Action/Process	
 356	SHEARS	Basic actions and technology	A tool consisting of two blades with bevel edges, connected by a pivot, used for cutting cloth, or for removing the fleece from sheep etc	Person/Thing	
-357	HANG UP	Basic actions and technology	To put up to hang	Action/Process	
+357	HANG UP	Basic actions and technology	To put up to hang.	Action/Process	
 358	TINPLATE	Basic actions and technology	A thin sheet of steel coated with tin to prevent rusting; used to make cans etc.	Person/Thing	
 359	POTTER	Basic actions and technology	One who makes pots and other ceramic wares.	Person/Thing	
 360	FAN ACTION	Basic actions and technology	To blow air on (something) by means of a fan (hand-held, mechanical or electrical) or otherwise.	Action/Process	
@@ -365,7 +365,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 364	SMEAR	Basic actions and technology	To spread (a substance) across a surface by rubbing.	Action/Process	
 365	SPLASH	Motion	To cause a liquid to spatter about. [WN:365]	Action/Process	
 366	LIMP	Motion	To walk lamely, as if favouring one leg.	Action/Process	
-367	RIDE	Motion	To transport oneself by sitting on and directing a horse.	Action/Process	
+367	RIDE	Motion	To transport oneself by sitting on and directing an animal.	Action/Process	
 368	SLEDGE	Motion	A low sled drawn by animals, typically on snow, ice or grass.	Person/Thing	16
 369	OWE	Possession	To be under an obligation to give something back to someone or to perform some action for someone; to have debt.	Action/Process	
 370	BARTER	Possession	To exchange goods without involving money.	Action/Process	
@@ -458,10 +458,10 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 457	BLIND PERSON	Kinship	Person who has a complete lack of form and visual light perception.	Person/Thing	
 458	DEAF PERSON	Kinship	Person who is  partial or total unable to hear.	Person/Thing	
 459	SNAPP (OF STICK)	Basic actions and technology	Quick breaking or cracking sound or the action of producing such a sound.	Action/Process	
-460	BREAK (OF ROPE)	Basic actions and technology	the breaking of a thread or strap.	Action/Process	
+460	BREAK (OF ROPE)	Basic actions and technology	The breaking of a thread or strap.	Action/Process	
 461	BOUBOU	Clothing and grooming	a flowing wide sleeved robe worn by men in much of West Africa, and to a lesser extent in North Africa.	Person/Thing	
 462	WRAPPER	Clothing and grooming	a colorful women's garment widely worn in West Africa.	Person/Thing	
-463	FELL (A TREE)	Agriculture and vegetation	To knock somebody or cut something down, e.g. a tree.	Action/Process	
+463	FELL (A TREE)	Agriculture and vegetation	To cut down a tree.	Action/Process	
 464	ALANG-ALANG GRASS	Agriculture and vegetation	It is a perennial high grown grass native to Asia, Australia and Africa.	Person/Thing	
 465	CARRY ON BACK	Motion	To hold or to take something from one place to another on the back.	Action/Process	
 466	CASSOWARY	Animals	A big flightless bird native to tropical forests of New Guinea, nearby islands and northeastern Australia.	Person/Thing	
@@ -490,8 +490,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 489	KIDNEY	The body	An organ in the body that produces urine.	Person/Thing	
 490	DESCENDANTS	Kinship	One who is the progeny of someone at any distance of time.	Person/Thing	
 491	CENTER	Spatial relations	What's in the mid of a plane or sphere, i.e. in 2- or 3-dimensional space.	Person/Thing	
-492	THREE	Quantity	The third natural number (3).	Number	
-493	FIVE	Quantity	The fifth natural number (5).	Number	
+492	THREE	Quantity	The natural number three (3).	Number	
+493	FIVE	Quantity	The natural number five (5).	Number	
 494	FLIRT	Emotions and values	To talk or behave amorously, without serious intentions.	Action/Process	
 495	REVENGE	Emotions and values	To take revenge for a perceived wrong.	Action/Process	
 496	CUCUMBER	Agriculture and vegetation	The edible fruit of the cucumber plant, having a green rind and crisp white flesh.	Person/Thing	
@@ -549,7 +549,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 548	INFECTED	The body	Referring to something that has received an infection	Property	
 549	COPULATE	The body	To engage in sexual intercourse.	Action/Process	
 550	DILUTE	The physical world	To weaken or make thinner by adding a foreign substance or a solvent (e.g. water) to a solution.	Action/Process	
-551	DISLOCATE	The body	to (accidentally) dislodge a skeletal bone from its joint	Action/Process	
+551	DISLOCATE	The body	To (accidentally) dislodge a skeletal bone from its joint.	Action/Process	
 552	GROW UP	Cognition	To mature and become an adult.	Action/Process	
 553	HEW	The physical world	To chop away at; to whittle down; to mow down.	Action/Process	
 554	HINDER	The physical world	To make difficult to accomplish; to frustrate, act as obstacle; to keep back; to delay or impede.	Action/Process	
@@ -581,7 +581,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 580	FUR	The body	The body-hair of an animal (excluding humans) or a piece of cothing made thereof.	Person/Thing	
 581	COME BACK	Motion	To go there where one was before.	Action/Process	
 582	LEND	Possession	To put an item or resource at the disposal of another, with the requirement to have the same or its equivalent returned eventually.	Action/Process	
-583	KIND OR POLITE	Emotions and values	Possessing charm and attractiveness.	Property	
+583	KIND OR POLITE	Emotions and values	Being nice and giving off the impression of benevolence or keeping to a given society's standards of social manners in order to show respect.	Property	
 584	DIFFICULT	Cognition	Not easy, which needs hard work, patience and effort of either the physical or mental kind.	Property	
 585	BOOT	Clothing and grooming	A shoe that covers part of the leg.	Person/Thing	
 586	GARDEN	Agriculture and vegetation	A piece of land next to a house where flowers and other plants are grown and which often has an area of grass.	Person/Thing	
@@ -616,7 +616,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 615	HORSE	Animals	A large animal with four legs of the Equus caballus species which people ride on or use for carrying things or pulling vehicles.	Person/Thing	
 616	HOSPITAL	Modern world	A place where people who are ill or injured are treated and taken care of by doctors and nurses.	Person/Thing	
 617	ICE	The physical world	The dense substance formed by the freezing of water to the solid state; it commonly occurs in the form of hexagonal crystals.	Person/Thing	
-618	PRECIPICE	The physical world	The inclined surface of any part of the Earth's surface, as a hillslope; also, a broad part of a continent descending toward an ocean, as the Pacific slope. (Source: BJGEO)	Person/Thing	
+618	PRECIPICE	The physical world	A very steep decline, typically found in the mountains or on shores.	Person/Thing	
 619	ANIMAL	Animals	Any living organism characterized by voluntary movement, the possession of cells with noncellulose cell walls and specialized sense organs enabling rapid response to stimuli, and the ingestion of complex organic substances such as plants and other animals.	Person/Thing	
 620	INSECT	Animals	A class of the Arthropoda typically having a segmented body with an external chitinous covering, a pair of compound eyes, a pair of antennae, three pairs of mouthparts, and two pairs of wings.	Person/Thing	
 621	IRON	Basic actions and technology	A malleable ductile silvery-white ferromagnetic metallic element with symbol Fe and atomic number 26, occurring principally in haematite and magnetite. It is widely used for structural and engineering purposes.	Person/Thing	
@@ -693,7 +693,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 692	BRING	Motion	To transport toward somewhere; to take something or somebody with oneself somewhere.	Action/Process	
 693	FROM	Spatial relations	Indicates the source or provenance.	Other	
 694	GET	Possession	To get or obtain an item; to come into the possession of something.	Action/Process	
-695	GO	Motion	To move from a place to another that is further away.	Action/Process	
+695	GO	Motion	To move something from a place to another that is further away.	Action/Process	
 696	STIR	Food and drink	To stir two or more substances together.	Action/Process	
 697	CONTAIN	Possession	To contain or hold; have within.	Action/Process	
 698	WISE	Cognition	Showing good judgement or the benefit of experience.	Property	
@@ -739,7 +739,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 738	THING	Possession	That which is considered to exist as a separate entity, quality or concept.	Person/Thing	
 739	FEED	Food and drink	To give food.	Action/Process	
 740	SHIP	Motion	A vessel propelled by engines or sails for navigating on the water, especially a large vessel that can not be carried aboard another, as distinguished from a boat.	Person/Thing	
-741	DRIVE	Motion	To operate a (motorized) vehicle (with wheels).	Action/Process	
+741	DRIVE	Motion	To operate a vehicle.	Action/Process	
 742	END (OF SPACE)	Spatial relations	Extreme part.	Person/Thing	
 743	END (OF TIME)	Time	The last or final part.	Person/Thing	
 744	EGG	Food and drink	Egg (either fertilized or not) from domesticated birds, most commonly hens, seen as food.	Person/Thing	
@@ -754,7 +754,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 753	PUPIL (STUDENT)	Cognition	A student under the supervision of a teacher or professor.	Person/Thing	
 754	HURRY	Time	To move or do something at a fast pace.	Action/Process	
 755	DENY	Speech and language	To refuse strongly and solemnly to own or acknowledge.	Action/Process	
-756	DEPEND	Social and political relations	To rely on for support; to be conditioned or contingent; to be connected with anything, as a cause of existence, or as a necessary condition.	Action/Process	
+756	DEPEND	Social and political relations	To be connected with something as a cause of existence or as a necessary condition.	Action/Process	
 757	BUTTON	Clothing and grooming	A fastener consisting of a knob or disc that is passed through a slit in the adjacent material.	Person/Thing	
 758	HERON	Animals	A long-legged, long-necked wading bird of the family Ardeidae.	Person/Thing	
 759	SILVER	Basic actions and technology	A very ductile malleable brilliant greyish-white element with symbol Ar and atomic number 47 having the highest electrical and thermal conductivity of any metal.	Person/Thing	
@@ -809,7 +809,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 808	DRIP (FALL IN GLOBULES)	Motion	To fall in globules or small portions, as water or other liquid.	Action/Process	
 809	TROUSERS	Clothing and grooming	An item of clothing worn on the lower part of the body and covering both legs separately.	Person/Thing	
 810	LOCUST	Animals	Migratory grasshoppers of the order Orthoptera of warm regions having short antennae.	Person/Thing	
-811	SOUL	Emotions and values	In philosophical or religious belief the immaterial part of a human being.	Person/Thing	
+811	SOUL	Religion and belief	In philosophical or religious belief the immaterial part of a human being.	Person/Thing	
 812	SLAVE	Social and political relations	A person who is owned and forced to work, usually without pay, by another.	Person/Thing	
 813	DO	Basic actions and technology	To act, to behave.	Action/Process	
 814	DRESS UP	Clothing and grooming	To clothe oneself; to put on clothes.	Action/Process	
@@ -990,7 +990,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 989	CLEAR	Cognition	Free of ambiguity or doubt.	Property	
 990	CREEK (TIDAL)	The physical world	A narrow inlet or bay, especially of the sea.	Person/Thing	
 991	FRY	Food and drink	To cook in hot fat.	Action/Process	
-992	CLIFF	The physical world	A steep coastal declivity which may or may not be precipitous, the slope angle being dependent partly on the jointing, bedding and hardness of the materials from which the cliff has been formed, and partly on the erosional processes at work. Where wave attack is dominant the cliff-foot will be rapidly eroded and cliff retreat will take place, especially in unconsolidated materials such as clays, sands, etc., frequently leaving behind an abrasion platform at the foot of the cliff. (Source: WHIT)	Person/Thing	
+992	CLIFF	The physical world	A steep coastal declivity which may or may not be precipitous, the slope angle being dependent partly on the jointing, bedding and hardness of the materials from which the cliff has been formed, and partly on the erosional processes at work.(Source: WHIT)	Person/Thing	
 993	RIVER BED	The physical world	The channel containing or formerly containing the water of a river.	Person/Thing	
 994	BOW	Warfare and hunting	A weapon made of a curved piece of wood or other flexible material whose ends are connected by a string, used for shooting arrows.	Person/Thing	
 995	QUIVER	Warfare and hunting	A container for arrows, crossbow bolts or darts, such as those fired from a bow, crossbow or blowgun.	Person/Thing	52
@@ -1041,7 +1041,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1040	HAIR	The body	The hair on humans, usually on the head but also including the hair on the body.	Person/Thing	
 1041	INCREASE	Basic actions and technology	(Of a quantity) to become bigger.	Action/Process	
 1042	CARPENTER	Basic actions and technology	Artisan who works with wood.	Person/Thing	
-1043	BRAID	Clothing and grooming	a hair style formed by interweaving three or more strands of hair.	Person/Thing	
+1043	BRAID	Clothing and grooming	A hair style formed by interweaving three or more strands of hair.	Person/Thing	
 1044	PILLOW	The house	Cushion placed under the head for sleeping.	Person/Thing	
 1045	POET	Speech and language	A person who writes poems.	Person/Thing	
 1046	SHUT	Spatial relations	To move (a door, a window, etc.) so that it closes its opening.	Action/Process	
@@ -1100,7 +1100,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1099	RESIDE	The house	To have permanent residence.	Action/Process	363
 1100	COOK (SOMETHING)	Food and drink	To prepare a meal or a single dish.	Action/Process	
 1101	SUFFER	The body	To physically feel a damage, a pain, a disease or a punishment.	Action/Process	
-1102	CLIMB	Motion	To mount to a high or little accessible place using feet and hands.	Action/Process	
+1102	CLIMB	Motion	To mount to a high or little accessible place using feet and hands, e.g. a tree, a mountain or a ladder.	Action/Process	
 1103	SACRIFICE	Religion and belief	Something surrendered or lost in order to gain an objective.	Person/Thing	
 1104	NURSE	Modern world	A person trained to provide care for the sick.	Person/Thing	
 1105	CAMP	The house	Tents, cabins, etc., used as temporary lodgings by a group of travellers, holiday-makers, Scouts, Gypsies, etc.	Person/Thing	
@@ -1116,7 +1116,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1115	SPEECH	Speech and language	An address or form of oral communication in which a speaker makes his thoughts and emotions known before an audience, often for a given purpose. (Source: RHW)	Person/Thing	
 1116	DAMAGE	Possession	To put a thing in bad condition by causing damage to it.	Action/Process	
 1117	LIKE	Emotions and values	To enjoy, be in favor/favour of.	Action/Process	
-1118	ACCUSTOM	Basic actions and technology	Avoir l'habitude.	Action/Process	
+1118	ACCUSTOM	Basic actions and technology	Get used to something.	Action/Process	
 1119	DIVIDE	Spatial relations	To split or separate something into two or more parts.	Action/Process	
 1120	HONEST	Emotions and values	Not disposed to cheat or defraud.	Property	
 1121	SECRET	Cognition	Being or kept hidden from public perception.	Property	
@@ -1170,7 +1170,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1169	OX	Animals	A castrated bull.	Person/Thing	
 1170	TRAP (CATCH)	Warfare and hunting	To catch in a trap, to immobilize.	Action/Process	
 1171	MIRROR	Clothing and grooming	A smooth surface, usually made of glass with reflective material painted on the underside, that reflects light so as to give an image of what is in front of it.	Person/Thing	
-1172	SHOOT	Warfare and hunting	To kill a person or an animal with a shot from a firearm.	Action/Process	
+1172	SHOOT	Warfare and hunting	To fire a shot from a firearm, bow or other weapon.	Action/Process	
 1173	EYEBROW	The body	The hair that grows over the bone ridge above the eye socket.	Person/Thing	
 1174	YESTERDAY	Time	The day before today.	Other	
 1175	GHOST	Religion and belief	The visible disembodied soul of a dead person.	Person/Thing	
@@ -1252,7 +1252,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1251	BELLY	The body	The lower part of the front of the torso (or a comparable part of an animal), confined by the upper side by the midriff and the lowerside by the pelvis. Contains the intestines.	Person/Thing	
 1252	HOUSE	The house	The abode of a human being, their place of residence.	Person/Thing	
 1253	RAIN (RAINING)	The physical world	To fall from the clouds in drops of water.	Action/Process	
-1254	HANDLE	Basic actions and technology	A closed loop that is normally placed horizontally on an object (for example, on a mug or a cup).	Person/Thing	
+1254	HANDLE	Basic actions and technology	A part of an object meant to hold that object with (e.g. the handle of a mug, pan or bag).	Person/Thing	
 1255	SNOWING	The physical world	To fall from the clouds in the form of ice crystals.	Action/Process	
 1256	HEAD	The body	The part of the body of an animal or human which contains the brain, mouth and main sense organs.	Person/Thing	
 1257	WING	The body	The appendage of an animal's (bird, bat, insect) body that enables it to fly in the air.	Person/Thing	
@@ -1292,7 +1292,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1291	BACK	The body	The rear of body, especially the part between the neck and the end of the spine and opposite the chest and belly.	Person/Thing	
 1292	BAD	Emotions and values	Not good; unfavorable; negative.	Property	
 1293	MISTAKE	Emotions and values	A mistake, an oversight, a slight; usually apologetic, referring to one's own failures.	Person/Thing	
-1294	ZERO	Quantity	The cardinal number that denotes no quantity or amount at all.	Number	
+1294	ZERO	Quantity	The integer zero (0).	Number	
 1295	STICK	The physical world	A long, thin piece of wood, mainly left in the shape in which it grew, that does not bend.	Person/Thing	
 1296	WALKING STICK	Social and political relations	An object, specifically for providing support when walking.	Person/Thing	
 1297	LEG	The body	The limb of an animal (including humans) that extends from the groin to the ankle.	Person/Thing	
@@ -1388,7 +1388,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1387	ARRIVE	Motion	To come to a destination.	Action/Process	
 1388	SHADE	The physical world	Darkness, where light (particularly sunlight) is blocked.	Person/Thing	
 1389	TOE	The body	One of the extremities of the foot.	Person/Thing	
-1390	WRONG	Emotions and values	Contradicting the facts.	Property	
+1390	WRONG	Emotions and values	Not correct.	Property	
 1391	TOWN	Social and political relations	An area with residential districts, shops and amenities, and its own local government.	Person/Thing	
 1392	LOUSE	Animals	A small wingless parasitic insect of the order Phthiraptera that lives on humans, other mammals and birds.	Person/Thing	
 1393	HORN (ANATOMY)	The body	A hard growth of keratin that protrudes from the top of the head of certain animals.	Person/Thing	
@@ -1418,7 +1418,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1417	KILL	The body	To put to death; to end a life.	Action/Process	
 1418	DIG	Agriculture and vegetation	To move earth, rocks, etc. out of the way, usually to create a hole.	Action/Process	
 1419	FEAR (BE AFRAID)	Emotions and values	To be scared of; to have an uncontrollable emotion of anxiety about something that causes a scared reaction or frightening impression.	Action/Process	
-1420	COUNT	Quantity	To enumerate the digits of one's numeral system.	Action/Process	
+1420	COUNT	Quantity	To determine the amount of something or to enumerate the digits of one's numeral system.	Action/Process	
 1421	SUCK	Food and drink	To draw in a substance by creating a practical vacuum in the mouth, and as a result a difference in pressure.	Action/Process	
 1422	BE ALIVE	The body	To be alive; to have a life.	Action/Process	
 1423	FIGHT	Warfare and hunting	To be involved in a physical confrontation.	Action/Process	
@@ -1481,7 +1481,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1480	BODY	The body	The physical structure of a human or animal.	Person/Thing	
 1481	HAMMER	Basic actions and technology	A tool with a heavy head and a handle used for pounding.	Person/Thing	
 1482	SHOULDER	The body	One side of the top of the torso, where an arm attaches or joins.	Person/Thing	
-1483	NINE	Quantity	The ninth natural number (9).	Number	
+1483	NINE	Quantity	The natural number nine (9).	Number	
 1484	OIL (ORGANIC SUBSTANCE)	Food and drink	Fat from animals or plants in a liquid form.	Person/Thing	
 1485	BELOW OR UNDER	Spatial relations	Lower in spatial position than.	Other	
 1486	PLANT (SOMETHING)	Agriculture and vegetation	To put a plant in the ground so that it strikes root and grows.	Action/Process	
@@ -1491,14 +1491,14 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1490	RAT	Animals	A nearly omnivorous rodent of the genus ''rattus'' characterised by a long hairless tail, rounded ears, and a pointed nose.	Person/Thing	
 1491	MOUSE	Animals	Any of numerous small rodents of the genus ''mus'' or various related genera of the ''Muridæ'' family characterised by a long hairless tail, rounded ears, and a pointed nose.	Person/Thing	
 1492	DUMB	The body	Unable to speak; lacking power of speech.	Property	
-1493	ONE	Quantity	The cardinal number that directly follows zero and precedes two, represented in Roman numerals as I, and in Arabic numerals as 1.	Number	
+1493	ONE	Quantity	The natural number one (1).	Number	
 1494	DIE	The body	To cease to live.	Action/Process	
 1495	HAPPY	Emotions and values	Having a feeling of satisfaction, enjoyment or well-being, often arising from a positive situation or set of circumstances.	Property	
 1496	GRANDMOTHER	Kinship	The mother of one of someone's parents.	Person/Thing	
 1497	POSTCARD	Modern world	A rectangular piece of thick paper or thin cardboard intended to be written on and mailed without an envelope.	Person/Thing	
-1498	TWO	Quantity	The cardinal number occurring after one and before three, represented in Roman numerals as II and in Arabic numerals as 2.	Number	
+1498	TWO	Quantity	The natural number two (2).	Number	
 1499	JUICE	Food and drink	The liquid that is produced by squeezing or crushing fruits or vegetables.	Person/Thing	
-1500	FOUR	Quantity	The cardinal number occurring after three and before five, represented in Roman numerals as IV, in Arabic numerals as 4.	Number	
+1500	FOUR	Quantity	The natural number four (4).	Number	
 1501	BORE	Basic actions and technology	To create a hole by removing material with a drill.	Action/Process	
 1502	GOAT	Animals	A common four-legged animal (Capra) that is related to sheep and bred by humans for its coat and milk.	Person/Thing	
 1503	SALIVA	The body	A secretion from the salivary glands (found in the mouth) that can be spat out.	Person/Thing	
@@ -1513,7 +1513,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1512	RISE (ONESELF)	Motion	To get up from a lying, sitting, or kneeling position.	Action/Process	
 1513	THINK (BELIEVE)	Cognition	To have as opinion, belief, or idea.	Action/Process	
 1514	HEN	Animals	A female chicken.	Person/Thing	
-1515	TEN	Quantity	The cardinal number occurring after nine and before eleven, represented in Roman numerals as X, in Arabic numerals as 10, and in the hexadecimal system (base 16) as A.	Other	
+1515	TEN	Quantity	The natural number ten (10).	Number	
 1516	SUBJUGATE	Social and political relations	To put somebody under one's authority.	Action/Process	
 1517	WASP	Animals	A flying stinging insect related to the bee, which is usually coloured yellow and black.	Person/Thing	
 1518	STUPID	Cognition	Lacking in intelligence.	Property	
@@ -1574,7 +1574,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1573	SWELL	Basic actions and technology	To grow larger in volume.	Action/Process	
 1574	FLOAT	Motion	Of an object or substance, to be supported by a liquid of greater density than the object so as that part of the object or substance remains above the surface. [WK:float]	Action/Process	
 1575	COCKROACH	Animals	The most primitive of the living winged insects.	Person/Thing	
-1576	PILE UP	Spatial relations	To gather together in stacks or in a heap.	Action/Process	
+1576	PILE UP	Spatial relations	To gather together in a heap or unsorted stack.	Action/Process	
 1577	AND	Cognition	Used to connect two homogeneous words or phrases.	Other	
 1578	IGUANA	Animals	(Iguanidae) A lizard family.	Person/Thing	
 1579	BE	Miscellaneous function words	To have existence.	Action/Process	
@@ -1604,7 +1604,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1603	MOSQUE	Religion and belief	A place of worship for followers of the Islamic faith.	Person/Thing	
 1604	TEMPLES	The body	The region of the skull on either side of the forehead.	Person/Thing	
 1605	SKULL	The body	The main bone of the head; the cranium.	Person/Thing	
-1606	INSIDE	Spatial relations	Within the confines of a building.	Other	
+1606	INSIDE	Spatial relations	Within the confines of something.	Other	
 1607	HATE	Emotions and values	To dislike intensely; to feel strong hostility towards.	Action/Process	
 1608	LISTEN	Sense perception	To perceive with the ear (paying attention to what is heard).	Action/Process	
 1609	IDEA	Cognition	A plan or notion that is formed and exists in the mind as a result of mental activity.	Person/Thing	
@@ -1632,7 +1632,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1631	FAST	Time	Occurring or happening within a short time.	Property	
 1632	FLOOR	The house	The bottom or lower part of any room; the supporting surface of a room.	Person/Thing	
 1633	FLAT	Spatial relations	Having no variations in altitude.	Property	
-1634	HUNDRED	Quantity	The cardinal number occurring after ninety-nine and before one hundred one, represented in Roman numerals as C and in Arabic numerals as 100.	Number	
+1634	HUNDRED	Quantity	The natural number one hundred (100).	Number	
 1635	OBEY	Social and political relations	To do as you are told.	Action/Process	
 1636	MOTIONLESS	Motion	Not moving.	Other	
 1637	AUTHORITY	Social and political relations	The power to enforce rules or give orders.	Person/Thing	
@@ -1678,7 +1678,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1677	WORKSHOP	Modern world	a room or building in which work, especially mechanical work, is carried on.	Person/Thing	
 1678	HUT	The house	a simple roofed shelter, often with one  open side.	Person/Thing	
 1679	LOAD	Basic actions and technology	The weight (materials, products, etc.) to be borne or conveyed.	Person/Thing	
-1680	HELMET	Warfare and hunting	any of various forms of protective head covering worn e.g.  by soldiers, firefighters, divers, cyclists, etc.	Person/Thing	
+1680	HELMET	Warfare and hunting	Any of various forms of protective head covering worn e.g.  by soldiers, firefighters, divers, cyclists, etc.	Person/Thing	
 1681	WAIST	The body	In human beings, the part between the thorax and hips.	Person/Thing	
 1682	GUILTY	Law	having committed an offense, crime, violation, or wrong, especially against moral or penal law.	Property	
 1683	BUSH	Agriculture and vegetation	A plant resembling a small tree, but has no, and will never develop, a stem.	Person/Thing	
@@ -1700,43 +1700,43 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1699	SUNDAY	Time	The seventh day of the week in Europe and in systems using the ISO 8601 standard, or the first day of the week in the United States of America, the Sabbath for most Christians.	Person/Thing	
 1700	SATURDAY	Time	The sixth day of the week in Europe and in systems using the ISO 8601 norm; the seventh day of the week in the United States of America.	Person/Thing	
 1701	RIVER MOUTH	The physical world	A river mouth or stream mouth is a part of a river where it flows into the sea, river, lake, reservoir or ocean.	Person/Thing	
-1702	HOLY	Religion and belief	specially recognized as or declared sacred by religious use or authority.	Property	
-1703	SIX	Quantity	The cardinal number occurring after five and before seven, represented in Roman numerals as VI, in Arabic numerals as 6.	Number	
-1704	SEVEN	Quantity	The cardinal number occurring after six and before eight, represented in Roman numerals as VII, in Arabic numerals as 7.	Number	
-1705	EIGHT	Quantity	The cardinal number occurring after seven and before nine, represented in Roman numerals as VIII, in Arabic numerals as 8.	Number	
-1706	ELEVEN	Quantity	The cardinal number occurring after ten and before twelve, represented in Roman numerals as XI, in Arabic numerals as 11.	Number	
-1707	TWELVE	Quantity	The cardinal number occurring after eleven and before thirteen, represented in Roman numerals as XII and in Arabic numerals as 12.	Number	
-1708	THIRTEEN	Quantity	The cardinal number occurring after twelve and before fourteen, represented in Roman numerals as XIII and in Arabic numerals as 13.	Number	
-1709	FIFTEEN	Quantity	The cardinal number occurring after fourteen and before sixteen, represented in Roman numerals as XV and in Arabic numerals as 15.	Number	
-1710	TWENTY	Quantity	The cardinal number occurring after nineteen and before twenty-one, represented in Roman numerals as XX and in Arabic numerals as 20.	Number	
+1702	HOLY	Religion and belief	Specially recognized as or declared sacred by religious use or authority.	Property	
+1703	SIX	Quantity	The natural number six (6).	Number	
+1704	SEVEN	Quantity	The natural number seven (7).	Number	
+1705	EIGHT	Quantity	The natural number eight (8).	Number	
+1706	ELEVEN	Quantity	The natural number eleven (11).	Number	
+1707	TWELVE	Quantity	The natural number twelve (12).	Number	
+1708	THIRTEEN	Quantity	The natural number thirteen (13).	Number	
+1709	FIFTEEN	Quantity	The natural number fifteen (15).	Number	
+1710	TWENTY	Quantity	The natural number twenty (20).	Number	
 1711	TELL	Speech and language	To talk about a story giving its details; to give a detailed account of.	Action/Process	
 1712	OATH	Law	Promise or solemn declaration in front of an authority, another person or to oneself.	Person/Thing	
-1713	EIGHTEEN	Quantity	The cardinal number occurring after seventeen and before nineteen, represented in Roman numerals as XVIII and in Arabic numerals as 18.	Number	
-1714	NINETEEN	Quantity	The cardinal number occurring after eighteen and before twenty, represented in Roman numerals as XIX and in Arabic numerals as 19.	Number	
-1715	THIRTY	Quantity	The cardinal number occurring after twenty-nine and before thirty-one, represented in Roman numerals as XXX and in Arabic numerals as 30.	Number	
-1716	FORTY	Quantity	The cardinal number occurring after thirty-nine and before forty-one, represented in Roman numerals as XL and in Arabic numerals as 40.	Number	
-1717	FIFTY	Quantity	The cardinal number occurring after forty-nine and before fifty-one, represented in Roman numerals as L and in Arabic numerals as 50.	Number	
-1718	SIXTY	Quantity	The cardinal number occurring after fifty-nine and before sixty-one, represented in Roman numerals as LX and in Arabic numerals as 60.	Number	
+1713	EIGHTEEN	Quantity	The natural number eighteen (18).	Number	
+1714	NINETEEN	Quantity	The natural number nineteen (19).	Number	
+1715	THIRTY	Quantity	The natural number thirty (30).	Number	
+1716	FORTY	Quantity	The natural number forty (40).	Number	
+1717	FIFTY	Quantity	The natural number fifty (50).	Number	
+1718	SIXTY	Quantity	The natural number sixty (60).	Number	
 1719	BURY	The body	to put in the ground and cover with earth.	Action/Process	
 1720	SIGN	Speech and language	Feature element which permits to refer to anything or any person.	Person/Thing	
-1721	SEVENTY	Quantity	The cardinal number occurring after sixty-nine and before seventy-one, represented in Roman numerals as LXX and in Arabic numerals as 70.	Number	
-1722	EIGHTY	Quantity	The cardinal number occurring after seventy-nine and before eighty-one, represented in Roman numerals as LXXX and in Arabic numerals as 80.	Number	
+1721	SEVENTY	Quantity	The natural number seventy (70).	Number	
+1722	EIGHTY	Quantity	The natural number eighty (80).	Number	
 1723	RESULT IN	Cognition	Having a specific result, a logical consequence.	Action/Process	
-1724	NINETY	Quantity	The cardinal number occurring after eighty-nine and before ninety-one, represented in Roman numerals as XC and in Arabic numerals as 90.	Number	
+1724	NINETY	Quantity	The natural number ninety (90).	Number	
 1725	CORRECT (RIGHT)	Emotions and values	To be in accordance with expectations.	Property	
 1726	WET	Sense perception	Covered with or impregnated with liquid.	Property	
 1727	THRESHOLD	The house	The bottom-most part of a doorway that one crosses to enter; a sill.	Person/Thing	
 1728	ROTTEN	Food and drink	Having changed its colour, smell or composition (partially or completely), due to being attacked and decomposed by microorganisms (relating to organic matter).	Property	
-1729	PLAIT OR BRAID OR WEAVE	Basic actions and technology	to unite or arrange (threads, strips, parts, branches, etc.) so as to intercross one another passing it alternately over and under.	Action/Process	
+1729	PLAIT OR BRAID OR WEAVE	Basic actions and technology	To add pleats to cloth, to braid together hair, threads, strings, twigs etc. in order to create a larger string-like object or to create a fabric by interlacing threads.	Action/Process	
 1730	CHEEK	The body	The soft skin on each side of the face, between the eyes and the chin; the outer surface of the sides of the oral cavity.	Person/Thing	
 1731	MORTAR BINDER	The house	Paste made of a mixture of a binder (cement, plaster or lime), sand and water used in masonry to make bricks, stones, etc. stick together.	Person/Thing	
 1732	SKY	The physical world	The part of the earth's atmosphere and space outside it that is visible from earth's surface. During the day it is perceived as blue, and at night as black.	Person/Thing	
 1733	RAINBOW	The physical world	A multicoloured arc in the sky caused by the refraction of light within droplets of rain in the air.	Person/Thing	
-1734	TWENTY ONE	Quantity	The cardinal number occurring after twenty and before twenty-two, represented in Roman numerals as XXI and in Arabic numerals as 21.	Number	
+1734	TWENTY ONE	Quantity	The natural number twenty-one (21).	Number	
 1735	TEAR (SHRED)	Basic actions and technology	To pull at something in such a way that it ends up divided.	Action/Process	
-1736	TWENTY FOUR	Quantity	The cardinal number occurring after twenty-three and before twenty-five, represented in Roman numerals as XXIV and in Arabic numerals as 24.	Number	
+1736	TWENTY FOUR	Quantity	The natural number twenty-four (24).	Number	
 1737	OKRA	Agriculture and vegetation	-	Person/Thing	
-1738	TWENTY FIVE	Quantity	The cardinal number occurring after twenty-four and before twenty-six, represented in Roman numerals as XXV and in Arabic numerals as 25.	Number	
+1738	TWENTY FIVE	Quantity	The natural number twenty-five (25).	Number	
 1739	DECORATE	Clothing and grooming	To make more attractive by adding ornament, colour, etc.	Action/Process	
 1740	PINE	Agriculture and vegetation	Evergreen coniferous tree of the genus Pinus.	Person/Thing	
 1741	ABOVE	Spatial relations	In or to a higher place; higher than; on or over the upper surface.	Other	
@@ -1841,7 +1841,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1840	BUILD	Basic actions and technology	To form by combining materials or parts.	Action/Process	
 1841	SUSPECT	Cognition	To assume something to be true without direct evidence.	Action/Process	
 1842	OBSTINATE	Cognition	Persisting in a reactionary stand.	Property	
-1843	THOUSAND	Quantity	Ten times hundred.	Number	
+1843	THOUSAND	Quantity	The natural number one thousand (1000).	Number	
 1844	BOAT	Motion	A craft used for transportation of goods, fishing, racing, recreational cruising, or military use on or in the water, propelled by oars or outboard motor or inboard motor or by wind.	Person/Thing	
 1845	BALL	Spatial relations	Any spherical object.	Person/Thing	
 1846	RULE	Social and political relations	To exercise power or authority over a person, a group of persons, animals, territories or an organization.	Action/Process	
@@ -2044,7 +2044,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2043	PEACH	Agriculture and vegetation	The soft, sweet, juicy fruit of the peach tree, usually with a red or orange skin, yellow flesh and a large stone inside.	Person/Thing	
 2044	PERSIMMON	Agriculture and vegetation	Edible fruit of a number of species of trees of the genus Diospyros in the ebony wood family.	Person/Thing	
 2045	COLUMN	The house	An upright supporting beam.	Person/Thing	
-2046	APRON	Clothing and grooming	A piece of cloth, plastic, worn over the front of the clothes for protection against dirt.	Person/Thing	
+2046	APRON	Clothing and grooming	A piece of cloth or plastic, worn over the front of the clothes for protection against dirt.	Person/Thing	
 2047	STRAW SANDAL	Clothing and grooming	An open type of outdoor footwear leaving most of the upper part of the foot exposed, particularly the toes.	Person/Thing	
 2048	QUILT	Clothing and grooming	To stitch or sew together.	Person/Thing	
 2049	CONGEE	Food and drink	A type of rice porridge or gruel popular in many Asian countries	Person/Thing	
@@ -2067,7 +2067,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2066	PULL UP (RICE SEEDLINGS)	Basic actions and technology		Action/Process	
 2067	STEAM (VERB)	Food and drink	A method of cooking using steam.	Action/Process	
 2068	BRAISE (VERB)	Food and drink	A method of cooking using steam that avoids overcooking or burning food.	Action/Process	
-2069	SOAK (VERB)	Food and drink	A combination-cooking method that uses both moist and dry heats	Action/Process	
+2069	SOAK (VERB)	Food and drink	To put into water in order to soften something, e.g. seeds.	Action/Process	
 2070	COMB (VERB)	Clothing and grooming	To groom the hair with a comb or a similar object.	Action/Process	
 2071	LAY (VERB)	Basic actions and technology	To place down in a position of rest, or in a horizontal position.	Action/Process	
 2072	USE (VERB)	Basic actions and technology	To employ an object, often to reach a certain goal; to put into service.	Action/Process	
@@ -2076,7 +2076,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2075	BROOD (VERB)	Animals	To keep an egg warm to make it hatch.	Action/Process	
 2076	SPROUT (VERB)	Basic actions and technology	The process by which a plant grows from a seed.	Action/Process	
 2077	DILIGENT	Emotions and values	Being busy-working.	Property	
-2078	TEN THOUSAND	Quantity	Ten to the power of four.	Number	
+2078	TEN THOUSAND	Quantity	The natural number ten thousand (10000).	Number	
 2079	CUNNING PERSON	Emotions and values	A smart and witty person.	Person/Thing	
 2080	BOWL (CLASSIFIER)	Quantity	classifier for bowl-like objects	Classifier	
 2081	CHICKEN (CLASSIFIER)	Quantity	classifier for bird-like animals	Classifier	
@@ -2147,7 +2147,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2146	ROAST OR FRY	Food and drink	Preparing food by exposing it to open fire or to hot fat.	Action/Process	
 2147	WHO OR WHAT	Cognition	What person or which thing.	Other	
 2148	PICK	Basic actions and technology	To take off the fruits or other useful parts of a plant.	Action/Process	
-2149	CHOP (INTO PIECES)	Basic actions and technology	To use a knife or a similar tool to cut something into small pieces.	Action/Process	
+2149	CHOP (INTO PIECES)	Basic actions and technology	To chop meat, vegetables etc. into small pieces.	Action/Process	
 2150	MATTER	Possession	That which is considered to exist as a separate physical entity.	Person/Thing	
 2151	COARSE	Spatial relations	Unrefined with reference to material.	Property	
 2152	THERE IS OR THERE ARE	Miscellaneous function words	Existing from the perspective of the speaker.	Action/Process	
@@ -2189,7 +2189,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2188	NEW YEAR'S EVE	Social and political relations	The last day of the year.	Person/Thing	
 2189	DUGOUT	Motion	A boat made from a hollowed tree trunk.	Person/Thing	
 2190	TASTE	Food and drink	The sensory impression of food or other substances on the tongue.	Person/Thing	
-2191	LOW (HEIGHT)	Spatial relations	 Having little relative height; not high or tall.	Property	
+2191	LOW (HEIGHT)	Spatial relations	Having little relative height; not high or tall.	Property	
 2192	REJOICE	Emotions and values	To feel joyful; be delighted.	Action/Process	
 2193	CARP	Emotions and values	To complain or find fault in a petty or disagreeable way.	Action/Process	
 2194	FRONT (PART)	Spatial relations	The forward part or surface, as of a building.	Person/Thing	
@@ -2211,7 +2211,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2210	BECOME PREPARED (OF FOOD)	Food and drink	(Of food) being prepared and then ready to be eaten.	Action/Process	
 2211	CLOSE THE EYES	Motion	To shut down the eyes such that one cannot see anything anymore.	Action/Process	2063
 2212	ARRIVE (OF AN EVENT)	Time	The process by which an event (day, night, etc.) arrives.	Action/Process	
-2213	BODY PART	The body	 Part of a human body or an animal body.	Person/Thing	
+2213	BODY PART	The body	Part of a human body or an animal body.	Person/Thing	
 2214	AFFAIR	Possession	That which is considered to exist as a separate quality or concept.	Person/Thing	
 2215	BECOME ANGRY	Emotions and values	To turn into an angry mental state.	Action/Process	
 2216	BECOME NUMB	Sense perception	Be caused not to be sensitive (usually of body parts).	Action/Process	
@@ -2236,14 +2236,14 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2235	CLEAN (SOMETHING)	Motion	To cause something to be no longer dirty.	Action/Process	
 2236	SHINE (EMITTED LIGHT)	The physical world	The emission of light on a surface.	Person/Thing	
 2237	FIND OUT	Cognition	To apprehend something involuntarily.	Action/Process	
-2238	KNOW OR BE ABLE	Cognition	To be able to do something which required that one would learn it before or which could require that one learns it before.	Action/Process	
+2238	KNOW OR BE ABLE	Cognition	To be able to do something which requires or could require that one would learn it before.	Action/Process	
 2239	DENSE	Spatial relations	To be thick, of liquids.	Property	
-2240	CORAL SNAKE	Animals	A large group of elapid snakes that can be subdivided into two distinct groups, Old World coral snakes and New World coral snakes. 	Person/Thing	
+2240	CORAL SNAKE	Animals	A large group of elapid snakes that can be subdivided into two distinct groups, Old World coral snakes and New World coral snakes.	Person/Thing	
 2241	WILD CAT	Animals	A small cat found throughout most of Africa, Europe, and southwest and central Asia into India, China, and Mongolia.	Person/Thing	
 2242	BEETLE	Animals	A group of insects which are biologically classified in the order Coleoptera /koʊliːˈɒptərə/.	Person/Thing	
 2243	REPAIR	Basic actions and technology	To patch up something which was broken before.	Action/Process	
 2244	METAL	The physical world	A material (an element, compound, or alloy) that is typically hard, opaque, shiny, and has good electrical and thermal conductivity.	Person/Thing	
-2245	BELCH	Basic actions and technology	To release gas fromt he digestive tract through the mouth.	Action/Process	
+2245	BELCH	Basic actions and technology	To release gas fromt the digestive tract through the mouth.	Action/Process	
 2246	BELL	Basic actions and technology	A simple sound-making device.	Person/Thing	
 2247	CATERPILLAR	Animals	The larvae of members of the order Lepidoptera (the insect order comprising butterflies and moths).	Person/Thing	
 2248	KNOW (SOMEBODY)	Cognition	To have met and recognize somebody.	Action/Process	
@@ -2281,23 +2281,23 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2280	LOUSE OR NIT	Animals	A parasitic wingless insect that lives on humans and other mammals or the eggs that this insect produces.	Person/Thing	
 2281	WORKING OR WORK	Basic actions and technology	The process by which one produces something (sometimes also in exchange for money).	Other	
 2282	SEA OR OCEAN	The physical world	A large body of salt water which is in proximity to a continent.	Person/Thing	
-2283	SEMEN	The body	An organic fluid that may contain spermatozoa. It is secreted by the gonads (sexual glands) and other sexual organs of male or hermaphroditic animals and can fertilize female ova. 	Person/Thing	
+2283	SEMEN	The body	An organic fluid that may contain spermatozoa. It is secreted by the gonads (sexual glands) and other sexual organs of male or hermaphroditic animals and can fertilize female ova.	Person/Thing	
 2284	CLEARING	The physical world	A part of a forest that contains no trees.	Person/Thing	
-2285	ECLIPSE	The physical world	An astronomical event that occurs when an astronomical object is temporarily obscured, either by passing into the shadow of another body or by having another body pass between it and the viewer. 	Person/Thing	
-2286	ESTUARY	The physical world	A partly enclosed coastal body of brackish water with one or more rivers or streams flowing into it, and with a free connection to the open sea. 	Person/Thing	
-2287	HORIZON	The physical world	The apparent line that separates earth from sky, the line that divides all visible directions into two categories: those that intersect the Earth's surface, and those that do not. 	Person/Thing	
-2288	METEROID (SHOOTING OR SHINING STAR)	The physical world	 The visible path of a meteoroid as it enters the atmosphere, becoming a meteor. 	Person/Thing	
-2289	MILKY WAY	The physical world	The galaxy that contains our Solar System. Its name milky is derived from its appearance as a dim glowing band arching across the night sky in which the naked eye cannot distinguish individual stars. 	Person/Thing	
-2290	PUDDLE	The physical world	A small accumulation of liquid, usually water, on a surface. It can form either by pooling in a depression on the surface, or by surface tension upon a flat surface. Puddles are usually formed from rain water or from irrigation. 	Person/Thing	
-2291	VOLCANO	The physical world	A rupture on the crust of a planetary-mass object, such as Earth, that allows hot lava, volcanic ash, and gases to escape from a magma chamber below the surface. 	Person/Thing	
-2292	GLASSES	Basic actions and technology	Frames bearing lenses worn in front of the eyes used for vision correction. 	Person/Thing	
-2293	UVULA	The body	A conic projection from the posterior edge of the middle of the soft palate. 	Person/Thing	
-2294	WRINKLE	The body	A fold, ridge or crease in the skin. 	Person/Thing	
-2295	SUNSET	Time	The daily disappearance of the Sun below the western horizon as a result of Earth's rotation. 	Person/Thing	
-2296	SUNRISE	Time	The instant at which the upper edge of the Sun appears over the eastern horizon in the morning. 	Person/Thing	
-2297	DUSK	Time	The darkest stage of twilight in the evening. 	Person/Thing	
-2298	VIRGIN	Kinship	A person who has never engaged in sexual intercourse. 	Person/Thing	
-2299	STRAW	The physical world	The dry stalks of cereal plants, after the grain and chaff have been removed. 	Person/Thing	
+2285	ECLIPSE	The physical world	An astronomical event that occurs when an astronomical object is temporarily obscured, either by passing into the shadow of another body or by having another body pass between it and the viewer.	Person/Thing	
+2286	ESTUARY	The physical world	A partly enclosed coastal body of brackish water with one or more rivers or streams flowing into it, and with a free connection to the open sea.	Person/Thing	
+2287	HORIZON	The physical world	The apparent line that separates earth from sky, the line that divides all visible directions into two categories: those that intersect the Earth's surface, and those that do not.	Person/Thing	
+2288	METEROID (SHOOTING OR SHINING STAR)	The physical world	The visible path of a meteoroid as it enters the atmosphere, becoming a meteor.	Person/Thing	
+2289	MILKY WAY	The physical world	The galaxy that contains our Solar System. Its name milky is derived from its appearance as a dim glowing band arching across the night sky in which the naked eye cannot distinguish individual stars.	Person/Thing	
+2290	PUDDLE	The physical world	A small accumulation of liquid, usually water, on a surface. It can form either by pooling in a depression on the surface, or by surface tension upon a flat surface. Puddles are usually formed from rain water or from irrigation.	Person/Thing	
+2291	VOLCANO	The physical world	A rupture on the crust of a planetary-mass object, such as Earth, that allows hot lava, volcanic ash, and gases to escape from a magma chamber below the surface.	Person/Thing	
+2292	GLASSES	Basic actions and technology	Frames bearing lenses worn in front of the eyes used for vision correction.	Person/Thing	
+2293	UVULA	The body	A conic projection from the posterior edge of the middle of the soft palate.	Person/Thing	
+2294	WRINKLE	The body	A fold, ridge or crease in the skin.	Person/Thing	
+2295	SUNSET	Time	The daily disappearance of the Sun below the western horizon as a result of Earth's rotation.	Person/Thing	
+2296	SUNRISE	Time	The instant at which the upper edge of the Sun appears over the eastern horizon in the morning.	Person/Thing	
+2297	DUSK	Time	The darkest stage of twilight in the evening.	Person/Thing	
+2298	VIRGIN	Kinship	A person who has never engaged in sexual intercourse.	Person/Thing	
+2299	STRAW	The physical world	The dry stalks of cereal plants, after the grain and chaff have been removed.	Person/Thing	
 2300	GREEN OR UNRIPE	Sense perception	Having a green color or being not ripe (of fruits).	Property	
 2301	ME	Kinship	Oblique cases of the first person singular pronoun.	Other	
 2302	CIRCULAR (ROUND IN TWO DIMENSIONS)	Spatial relations	Having a circular shape.	Property	
@@ -2311,7 +2311,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2310	US (OBLIQUE CASE OF WE)	Kinship	Oblique case of the first person plural pronoun.	Other	
 2311	WOODS	The physical world	A vegetation community dominated by trees and other woody shrubs, growing close enough together that the tree tops touch or overlap, creating various degrees of shade on the forest floor.	Person/Thing	420
 2312	YOU (OBLIQUE CASE OF YOU)		The oblique case of the second person plural pronoun.	Other	
-2313	BRONZE	The physical world	An alloy consisting primarily of copper and the addition of other metals (usually tin) and sometimes arsenic, phosphorus, aluminium, manganese, and silicon. 	Person/Thing	
+2313	BRONZE	The physical world	An alloy consisting primarily of copper and the addition of other metals (usually tin) and sometimes arsenic, phosphorus, aluminium, manganese, and silicon.	Person/Thing	
 2314	BROTHER-IN-LAW	Kinship	The brother of one's partner in a marriage.	Person/Thing	
 2315	COOK (PERSON)	Food and drink	The person who prepares food.	Person/Thing	
 2316	FREE	Possession	Able to act at will; not hampered; not under compulsion or restraint.	Property	
@@ -2340,41 +2340,41 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2339	NEED (SOMETHING)	Cognition	Feeling the desire or the urge for something.	Other	
 2340	SUNNY	The physical world	Full of sunshine (mostly referring to &quot;a sunny day&quot;).	Property	
 2341	CLOUDY	The physical world	Full of clouds (mostly referring to &quot;a cloudy day&quot;).	Property	
-2342	LANDSCAPE	The physical world	The visible features of a land. 	Person/Thing	
-2343	STEEL	Basic actions and technology	Alloys of iron and carbon, widely used in construction and other applications because of their high tensile strengths and low costs. 	Person/Thing	
+2342	LANDSCAPE	The physical world	The visible features of a land.	Person/Thing	
+2343	STEEL	Basic actions and technology	Alloys of iron and carbon, widely used in construction and other applications because of their high tensile strengths and low costs.	Person/Thing	
 2344	PETROL	Modern world	A transparent, petroleum-derived liquid that is used primarily as a fuel in internal combustion engines.	Person/Thing	
 2345	LEPORID (RABBIT OR HARE)	Animals	Mammal of the family hares and rabbits (Leporidae) with long ears, short tail and hindlegs which are shorter than the forelegs and permit running quickly.	Person/Thing	
-2346	CRESTED MYNA	Animals	A species of starling native to southeastern China and Indochina. 	Person/Thing	
-2347	YELLOW CROAKER	Animals	A species of croaker native to the western Pacific, generally in temperate waters such as the East China Sea and the Yellow Sea. 	Person/Thing	
-2348	CRAB	Animals	 decapod crustaceans of the infraorder Brachyura, which typically have a very short projecting &quot;tail&quot; (abdomen) (Greek: βραχύς / brachys = short, οὐρά / οura = tail), usually entirely hidden under the thorax. 	Person/Thing	
-2349	SHRIMP	Animals	Refers to some decapod crustaceans, although the exact animals covered can vary. Used broadly, it may cover any of the groups with elongated bodies and a primarily swimming mode of locomotion – chiefly Caridea and Dendrobranchiata. 	Person/Thing	
-2350	EARTHWORM	Animals	A tube-shaped, segmented worm found in the phylum Annelida. 	Person/Thing	
-2351	SILKWORM	Animals	The larva or caterpillar of the domesticated silkmoth (Bombyx mori) 	Person/Thing	
+2346	CRESTED MYNA	Animals	A species of starling native to southeastern China and Indochina.	Person/Thing	
+2347	YELLOW CROAKER	Animals	A species of croaker native to the western Pacific, generally in temperate waters such as the East China Sea and the Yellow Sea.	Person/Thing	
+2348	CRAB	Animals	decapod crustaceans of the infraorder Brachyura, which typically have a very short projecting &quot;tail&quot; (abdomen) (Greek: βραχύς / brachys = short, οὐρά / οura = tail), usually entirely hidden under the thorax.	Person/Thing	
+2349	SHRIMP	Animals	Refers to some decapod crustaceans, although the exact animals covered can vary. Used broadly, it may cover any of the groups with elongated bodies and a primarily swimming mode of locomotion – chiefly Caridea and Dendrobranchiata.	Person/Thing	
+2350	EARTHWORM	Animals	A tube-shaped, segmented worm found in the phylum Annelida.	Person/Thing	
+2351	SILKWORM	Animals	The larva or caterpillar of the domesticated silkmoth (Bombyx mori)	Person/Thing	
 2352	DRAGONFLY	Animals	Predatory insect of the order Odonata.	Person/Thing	
-2353	CICADA	Animals	 Insects in the order Hemiptera, suborder Auchenorrhyncha. 	Person/Thing	
-2354	CRICKET	Animals	Insects related to grasshoppers. 	Person/Thing	
-2355	GECKO	Animals	 Lizards belonging to the infraorder Gekkota, found in warm climates throughout the world. They r 	Person/Thing	
-2356	CHINESE PLUM	Agriculture and vegetation	An Asian tree species classified in the Armeniaca section of the genus Prunus subgenus Prunus. 	Person/Thing	
+2353	CICADA	Animals	Insects in the order Hemiptera, suborder Auchenorrhyncha.	Person/Thing	
+2354	CRICKET	Animals	Insects related to grasshoppers.	Person/Thing	
+2355	GECKO	Animals	Lizards belonging to the infraorder Gekkota, found in warm climates throughout the world. They r	Person/Thing	
+2356	CHINESE PLUM	Agriculture and vegetation	An Asian tree species classified in the Armeniaca section of the genus Prunus subgenus Prunus.	Person/Thing	
 2357	APRICOT TREE	Agriculture and vegetation	A tree that bears the apricot fruit.	Person/Thing	
 2358	PEACH TREE	Agriculture and vegetation	The tree that bears peaches as fruits.	Person/Thing	
-2359	LOTUS	Agriculture and vegetation	One of two species of aquatic plant in the family Nelumbonaceae. 	Person/Thing	
-2360	SWEET OLIVE	Agriculture and vegetation	 A species native to Asia from the Himalayas through southern China (Guizhou, Sichuan, Yunnan) to Taiwan and southern Japan and southeast Asia as far south as Cambodia and Thailand. 	Person/Thing	
-2361	MUGWORT	Agriculture and vegetation	A common name for several species of aromatic plants in the genus Artemisia. 	Person/Thing	
-2362	BRAN	Agriculture and vegetation	The hard outer layers of cereal grain. It consists of the combined aleurone and pericarp. 	Person/Thing	
-2363	CHAFF (HUSK)	Agriculture and vegetation	The outer shell or coating of a seed. 	Person/Thing	
-2364	PEANUT	Agriculture and vegetation	 A species in the family Fabaceae (commonly known as the bean, pea or legume family). 	Person/Thing	
-2365	RADISH	Agriculture and vegetation	An edible root vegetable of the Brassicaceae family that was domesticated in Europe in pre-Roman times. 	Person/Thing	
-2366	ONION	Agriculture and vegetation	A vegetable and is the most widely cultivated species of the genus Allium. 	Person/Thing	
-2367	MANDARINE	Agriculture and vegetation	 A small citrus tree with fruit resembling other oranges. Mandarin oranges are usually eaten plain or in fruit salads. 	Person/Thing	
-2368	GARLIC	Agriculture and vegetation	 A species in the onion genus, Allium. 	Person/Thing	
-2369	BETEL NUT	Food and drink	 The seed of the areca palm (Mama'an in Meranau common version). 	Person/Thing	217
+2359	LOTUS	Agriculture and vegetation	One of two species of aquatic plant in the family Nelumbonaceae.	Person/Thing	
+2360	SWEET OLIVE	Agriculture and vegetation	A species native to Asia from the Himalayas through southern China (Guizhou, Sichuan, Yunnan) to Taiwan and southern Japan and southeast Asia as far south as Cambodia and Thailand.	Person/Thing	
+2361	MUGWORT	Agriculture and vegetation	A common name for several species of aromatic plants in the genus Artemisia.	Person/Thing	
+2362	BRAN	Agriculture and vegetation	The hard outer layers of cereal grain. It consists of the combined aleurone and pericarp.	Person/Thing	
+2363	CHAFF (HUSK)	Agriculture and vegetation	The outer shell or coating of a seed.	Person/Thing	
+2364	PEANUT	Agriculture and vegetation	A species in the family Fabaceae (commonly known as the bean, pea or legume family).	Person/Thing	
+2365	RADISH	Agriculture and vegetation	An edible root vegetable of the Brassicaceae family that was domesticated in Europe in pre-Roman times.	Person/Thing	
+2366	ONION	Agriculture and vegetation	A vegetable and is the most widely cultivated species of the genus Allium.	Person/Thing	
+2367	MANDARINE	Agriculture and vegetation	A small citrus tree with fruit resembling other oranges. Mandarin oranges are usually eaten plain or in fruit salads.	Person/Thing	
+2368	GARLIC	Agriculture and vegetation	A species in the onion genus, Allium.	Person/Thing	
+2369	BETEL NUT	Food and drink	The seed of the areca palm (Mama'an in Meranau common version).	Person/Thing	217
 2370	CUT NUT	Food and drink	A fruit from an evergreen fruit-bearing tropical tree. [L: http://fruitandnuttrees.com/]	Person/Thing	
-2371	BREADFRUIT	Food and drink	A species of flowering tree in the mulberry family, Moraceae originating in the South Pacific and that was eventually spread to the rest of Oceania. 	Person/Thing	
-2372	SAGO PALM	Food and drink	Common name for several plants which are used to produce a starchy food known as sago. 	Person/Thing	
+2371	BREADFRUIT	Food and drink	A species of flowering tree in the mulberry family, Moraceae originating in the South Pacific and that was eventually spread to the rest of Oceania.	Person/Thing	
+2372	SAGO PALM	Food and drink	Common name for several plants which are used to produce a starchy food known as sago.	Person/Thing	
 2373	SKIN (OF FRUIT)	Food and drink	The outer layer of fruits.	Person/Thing	
-2374	DREAM	The body	Successions of images, ideas, emotions, and sensations that occur usually involuntarily in the mind during certain stages of sleep. 	Person/Thing	
-2375	VERTICAL	Spatial relations	Direction passing by a given point is said to be vertical if it is locally aligned with the gradient of the gravity field. 	Property	
-2376	HORIZONTAL	Spatial relations	Plane is said to be horizontal at a given point if it is perpendicular to the gradient of the gravity field at that point— in other words, if apparent gravity makes a plumb bob hang perpendicular to the plane at that point. 	Person/Thing	
+2374	DREAM	The body	Successions of images, ideas, emotions, and sensations that occur usually involuntarily in the mind during certain stages of sleep.	Person/Thing	
+2375	VERTICAL	Spatial relations	Direction passing by a given point is said to be vertical if it is locally aligned with the gradient of the gravity field.	Property	
+2376	HORIZONTAL	Spatial relations	Plane is said to be horizontal at a given point if it is perpendicular to the gradient of the gravity field at that point— in other words, if apparent gravity makes a plumb bob hang perpendicular to the plane at that point.	Person/Thing	
 2377	FLASH (VERB)	The physical world	The process by which flashes of light are caused by the discharge of atmospheric electrical charge.	Action/Process	
 2378	THUNDER (VERB)	The physical world	The process producing the noise after a lightning.	Action/Process	
 2379	UP OR ABOVE	Spatial relations	Moving from a lower position to a higher one, or being at a higher position.	Other	
@@ -2387,31 +2387,31 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2386	TURKEY	Animals	A large bird from the family of Phasanidae.	Person/Thing	
 2387	UNCLE OR FATHER-IN-LAW	Kinship	Either an uncle or the father-in-law.	Person/Thing	
 2388	LIANA	Agriculture and vegetation	A liana is any of various long-stemmed, woody vines that are rooted in the soil at ground level and use trees, as well as other means of vertical support, to climb up to the canopy to get access to well-lit areas of the fores .	Person/Thing	
-2389	COATI (COATIMUNDI)	Animals	Coatis, genera Nasua and Nasuella, also known as the coatimundi, Mexican tejón, cholugo, or moncún, Costa Rican pizote, hog-nosed coon,[3] Colombian cusumbo, and other names, are members of the raccoon family (Procyonidae). 	Person/Thing	
-2390	PECCARY	Animals	The collared peccary (Pecari tajacu) is a species of mammal in the family Tayassuidae found in North, Central, and South America. 	Person/Thing	
+2389	COATI (COATIMUNDI)	Animals	Coatis, genera Nasua and Nasuella, also known as the coatimundi, Mexican tejón, cholugo, or moncún, Costa Rican pizote, hog-nosed coon,[3] Colombian cusumbo, and other names, are members of the raccoon family (Procyonidae).	Person/Thing	
+2390	PECCARY	Animals	The collared peccary (Pecari tajacu) is a species of mammal in the family Tayassuidae found in North, Central, and South America.	Person/Thing	
 2391	BOY OR SON	Kinship	Either a son or a boy.	Person/Thing	
 2392	DAUGHTER OR GIRL	Kinship	Either a daughter or a girl.	Person/Thing	
 2393	JOURNEY	Motion	Moving from one place to the other or moving around without.	Action/Process	
 2394	CHIEF	Social and political relations	The head of a company or group.	Person/Thing	301
 2395	CONGEAL (BLOOD)	The body	The process by which frech blood gets dry and hard.	Action/Process	
 2396	KNOCK	Motion	Making a sound by beating with the hand or with a tool against something.	Action/Process	
-2397	LOBSTER	Animals	Clawed lobsters comprise a family (Nephropidae, sometimes also Homaridae) of large marine crustaceans. 	Person/Thing	
+2397	LOBSTER	Animals	Clawed lobsters comprise a family (Nephropidae, sometimes also Homaridae) of large marine crustaceans.	Person/Thing	
 2398	MANGO	Agriculture and vegetation	The fruit from the Mango tree.	Person/Thing	
 2399	GRANDPARENT	Kinship	Either the grandfather or the grandmother.	Person/Thing	305
 2400	THEIR	Possession	belonging to the third person that is addressed (of many people)	Other	
-2401	PICTURE	Modern world	A foto or a painting.	Person/Thing	
-2402	ROBIN	Animals	The European robin (Erithacus rubecula), most commonly known in Anglophone Europe simply as the robin, is a small insectivorous passerine bird, specifically a chat, that was formerly classed as a member of the thrush family (Turdidae), but is now considered to be an Old World flycatcher. 	Person/Thing	
-2403	TOY	Modern world	A toy is an item that can be used for play. 	Person/Thing	
-2404	SANTA CLAUS	Modern world	Santa Claus, also known as Saint Nicholas, Father Christmas, Kris Kringle and simply Santa, is an important figure with legendary, historical and folkloric origins who, in many Western cultures, is said to bring gifts to the homes of the good children on 24 December, the night before Christmas Day. 	Person/Thing	
-2405	CHRISTMAS	Modern world	Christmas or Christmas Day (Old English: Crīstesmæsse, meaning Christ's Mass) is an annual festival commemorating the birth of Jesus Christ, observed most commonly on December 25 as a religious and cultural celebration among billions of people around the world. 	Person/Thing	
+2401	PICTURE	Modern world	A photograph or a painting.	Person/Thing	
+2402	ROBIN	Animals	The European robin (Erithacus rubecula), most commonly known in Anglophone Europe simply as the robin, is a small insectivorous passerine bird, specifically a chat, that was formerly classed as a member of the thrush family (Turdidae), but is now considered to be an Old World flycatcher.	Person/Thing	
+2403	TOY	Modern world	A toy is an item that can be used for play.	Person/Thing	
+2404	SANTA CLAUS	Modern world	Santa Claus, also known as Saint Nicholas, Father Christmas, Kris Kringle and simply Santa, is an important figure with legendary, historical and folkloric origins who, in many Western cultures, is said to bring gifts to the homes of the good children on 24 December, the night before Christmas Day.	Person/Thing	
+2405	CHRISTMAS	Modern world	Christmas or Christmas Day (Old English: Crīstesmæsse, meaning Christ's Mass) is an annual festival commemorating the birth of Jesus Christ, observed most commonly on December 25 as a religious and cultural celebration among billions of people around the world.	Person/Thing	
 2406	HOME	The house	The place where one lives.	Person/Thing	
 2407	BIRTHDAY	Social and political relations	The day when one was born.	Person/Thing	
-2408	CAKE	Modern world	Cake is a form of sweet dessert that is typically baked. 	Person/Thing	
+2408	CAKE	Modern world	Cake is a form of sweet dessert that is typically baked.	Person/Thing	
 2409	BROWN	Sense perception	Having a brown color.	Property	
 2410	GOOD-LOOKING	Sense perception	Being pleasant to watch (of humans).	Property	
 2411	HURT (SOMEBODY)	Sense perception	Imposing pain on somebody else.	Action/Process	
 2412	THANK (SOMBEODY)	Social and political relations	To express one's gratitude.	Action/Process	
-2413	SARONG	Clothing and grooming	A sarong or sarung is a large tube or length of fabric, often wrapped around the waist and worn by men and women throughout much of South Asia. 	Person/Thing	
+2413	SARONG	Clothing and grooming	A sarong or sarung is a large tube or length of fabric, often wrapped around the waist and worn by men and women throughout much of South Asia.	Person/Thing	
 2414	OLDER BROTHER (OF MAN)	Kinship	The older brother of a man.	Person/Thing	
 2415	OLDER BROTHER (OF WOMAN)	Kinship	The older brother of a woman.	Person/Thing	
 2416	YOUNGER BROTHER (OF MAN)	Kinship	The younger brother of a man.	Person/Thing	
@@ -2421,46 +2421,46 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2420	YOUNGER SISTER (OF MAN)	Kinship	The younger sister of a man.	Person/Thing	
 2421	YOUNGER SISTER (OF WOMAN)	Kinship	The younger sister of a woman.	Person/Thing	
 2422	SOMEONE	Quantity	An unspecified person.	Other	
-2423	CHANNEL	Modern world	In physical geography, a channel is a type of landform consisting of the outline of a path of relatively shallow and narrow body of fluid, most commonly the confine of a river, river delta or strait. 	Person/Thing	
+2423	CHANNEL	Modern world	In physical geography, a channel is a type of landform consisting of the outline of a path of relatively shallow and narrow body of fluid, most commonly the confine of a river, river delta or strait.	Person/Thing	
 2424	MEMBER	Modern world	Part of a team.	Person/Thing	
 2425	PROBLEM	Modern world	Something that poses difficulties and requires to be solved in someway.	Person/Thing	
-2426	CLIMATE	The physical world	Climate is the long-term pattern of weather in a particular area. 	Person/Thing	
-2427	FUTURE		The future is what will happen in the time after the present. 	Person/Thing	
-2428	LIBRARY	Modern world	A library is a collection of sources of information and similar resources, made accessible to a defined community for reference or borrowing. 	Person/Thing	
-2429	LOGIC	Modern world	Logic (from the Ancient Greek: λογική, logike) is the branch of philosophy concerned with the use and study of valid reasoning. The study of logic also features prominently in mathematics and computer science. 	Person/Thing	
-2430	OFFICE	Modern world	An office is generally a room or other area where administrative work is done. 	Person/Thing	
-2431	REVOLUTION	Modern world	A revolution (from the Latin revolutio, a turn around) is a fundamental change in power or organizational structures that takes place in a relatively short period of time.  	Person/Thing	
-2432	MARRIAGE	Kinship	Marriage, also called matrimony or wedlock, is a socially or ritually recognized union or legal contract between spouses that establishes rights and obligations between them, between them and their children, and between them and their in-laws. 	Person/Thing	
-2433	THEORY	Modern world	Theory is a contemplative and rational type of abstract or generalizing thinking, or the results of such thinking. Depending on the context, the results might for example include generalized explanations of how nature works. 	Person/Thing	
-2434	TRAGEDY	Modern world	Tragedy (from the Greek: τραγῳδία, tragōidia[a]) is a form of drama based on human suffering that invokes in its audience an accompanying catharsis or pleasure in the viewing. 	Person/Thing	
-2435	UNIVERSITY	Modern world	A university (Latin: universitas, a whole) is an institution of higher (or tertiary) education and research which grants academic degrees in various subjects and typically provides undergraduate education and postgraduate education. 	Person/Thing	
+2426	CLIMATE	The physical world	Climate is the long-term pattern of weather in a particular area.	Person/Thing	
+2427	FUTURE		The future is what will happen in the time after the present.	Person/Thing	
+2428	LIBRARY	Modern world	A library is a collection of sources of information and similar resources, made accessible to a defined community for reference or borrowing.	Person/Thing	
+2429	LOGIC	Modern world	Logic (from the Ancient Greek: λογική, logike) is the branch of philosophy concerned with the use and study of valid reasoning. The study of logic also features prominently in mathematics and computer science.	Person/Thing	
+2430	OFFICE	Modern world	An office is generally a room or other area where administrative work is done.	Person/Thing	
+2431	REVOLUTION	Modern world	A revolution (from the Latin revolutio, a turn around) is a fundamental change in power or organizational structures that takes place in a relatively short period of time.	Person/Thing	
+2432	MARRIAGE	Kinship	Marriage, also called matrimony or wedlock, is a socially or ritually recognized union or legal contract between spouses that establishes rights and obligations between them, between them and their children, and between them and their in-laws.	Person/Thing	
+2433	THEORY	Modern world	Theory is a contemplative and rational type of abstract or generalizing thinking, or the results of such thinking. Depending on the context, the results might for example include generalized explanations of how nature works.	Person/Thing	
+2434	TRAGEDY	Modern world	Tragedy (from the Greek: τραγῳδία, tragōidia[a]) is a form of drama based on human suffering that invokes in its audience an accompanying catharsis or pleasure in the viewing.	Person/Thing	
+2435	UNIVERSITY	Modern world	A university (Latin: universitas, a whole) is an institution of higher (or tertiary) education and research which grants academic degrees in various subjects and typically provides undergraduate education and postgraduate education.	Person/Thing	
 2436	GUTS OR HEART	The body	Either the human heart or the human guts.	Person/Thing	
-2437	ACAI PALM	Agriculture and vegetation	A species of palm tree in the genus Euterpe cultivated for its fruit and hearts of palm. 	Person/Thing	
-2438	CAIMAN	Animals	An alligatorid crocodilian belonging to the subfamily Caimaninae, one of two primary lineages within Alligatoridae, the other being alligators. 	Person/Thing	
-2439	TUCUMA PALM	Agriculture and vegetation	A palm native to Amazon Rainforest vegetation, typical of the Pará state in Brazil. 	Person/Thing	
-2440	PINEAPPLE	Agriculture and vegetation	A tropical plant with edible multiple fruit consisting of coalesced berries, also called pineapples, and the most economically significant plant in the Bromeliaceae family. 	Person/Thing	
-2441	CASHEW	Agriculture and vegetation	A tropical evergreen tree that produces the cashew seed and the cashew apple. 	Person/Thing	
-2442	COCOA BEAN	Agriculture and vegetation	The dried and fully fermented fatty seed of Theobroma cacao, from which cocoa solids and cocoa butter are extracted. 	Person/Thing	
-2443	ELECTRIC EEL	Animals	An electric fish, and the only species in that genus. They are capable of generating powerful electric shocks of up to 600 volts, which they use for hunting, self-defense, and communicating with fellow eels. 	Person/Thing	
-2444	KINGFISHER	Animals	A group of small to medium-sized brightly colored birds in the order Coraciiformes. 	Person/Thing	
-2445	PAPAYA	Food and drink	The fruit of the plant Carica papaya, and is one of the 22 accepted species in the genus Carica of the plant family Caricaceae. 	Person/Thing	
-2446	SLOTH	Animals	Medium-sized mammals belonging to the families Megalonychidae (two-toed sloth) and Bradypodidae (three-toed sloth), classified into six species. 	Person/Thing	
-2447	WOODPECKER	Animals	Part of the Picidae family, a group of near-passerine birds that also consist of piculets, wrynecks, and sapsuckers. 	Person/Thing	
-2448	WILD DOG	Animals	Any of several wild canine species that are commonly called 'dogs' or 'wild dogs' but are not true dogs. 	Person/Thing	
+2437	ACAI PALM	Agriculture and vegetation	A species of palm tree in the genus Euterpe cultivated for its fruit and hearts of palm.	Person/Thing	
+2438	CAIMAN	Animals	An alligatorid crocodilian belonging to the subfamily Caimaninae, one of two primary lineages within Alligatoridae, the other being alligators.	Person/Thing	
+2439	TUCUMA PALM	Agriculture and vegetation	A palm native to Amazon Rainforest vegetation, typical of the Pará state in Brazil.	Person/Thing	
+2440	PINEAPPLE	Agriculture and vegetation	A tropical plant with edible multiple fruit consisting of coalesced berries, also called pineapples, and the most economically significant plant in the Bromeliaceae family.	Person/Thing	
+2441	CASHEW	Agriculture and vegetation	A tropical evergreen tree that produces the cashew seed and the cashew apple.	Person/Thing	
+2442	COCOA BEAN	Agriculture and vegetation	The dried and fully fermented fatty seed of Theobroma cacao, from which cocoa solids and cocoa butter are extracted.	Person/Thing	
+2443	ELECTRIC EEL	Animals	An electric fish, and the only species in that genus. They are capable of generating powerful electric shocks of up to 600 volts, which they use for hunting, self-defense, and communicating with fellow eels.	Person/Thing	
+2444	KINGFISHER	Animals	A group of small to medium-sized brightly colored birds in the order Coraciiformes.	Person/Thing	
+2445	PAPAYA	Food and drink	The fruit of the plant Carica papaya, and is one of the 22 accepted species in the genus Carica of the plant family Caricaceae.	Person/Thing	
+2446	SLOTH	Animals	Medium-sized mammals belonging to the families Megalonychidae (two-toed sloth) and Bradypodidae (three-toed sloth), classified into six species.	Person/Thing	
+2447	WOODPECKER	Animals	Part of the Picidae family, a group of near-passerine birds that also consist of piculets, wrynecks, and sapsuckers.	Person/Thing	
+2448	WILD DOG	Animals	Any of several wild canine species that are commonly called 'dogs' or 'wild dogs' but are not true dogs.	Person/Thing	
 2449	FAT (OF MEAT AND FOOD)	Food and drink	The property of food, especially meat, to contain a large proportion of fat.	Property	
 2450	FOOT OR WALK	The body	Either the body part or the action by which one uses the body part to advance.	Other	
-2451	FOURTEEN	Quantity	The cardinal number occurring after thirteen and before fifteen, represented in Roman numerals as XIV and in Arabic numerals as 14.	Number	
+2451	FOURTEEN	Quantity	The natural number fourteen (14).	Number	
 2452	PURPLE	Sense perception	Having purple as its color.	Property	
-2453	SEVENTEEN	Quantity	The cardinal number 17.	Number	
-2454	SIXTEEN	Quantity	The cardinal number 16.	Number	
+2453	SEVENTEEN	Quantity	The natural number seventeen (17).	Number	
+2454	SIXTEEN	Quantity	The natural number sixteen (16).	Number	
 2455	DREAMING OR DREAM	The body	Either the act of seeing images when sleeping, or the result of this act, the dream itself.	Other	
 2456	LARGE WILD HERBIVORE	Animals	Wild herbivores, like deer or kangaroo, wo are traditionally hunted for their meat.	Person/Thing	
 2457	PATH OR ROAD	Motion	A piece of ground that people can walk or drive along.	Person/Thing	
 2458	PERSPIRE OR SWEAT	The body	Either the action of sweating or the product.	Other	
-2459	GRINDSTONE	Basic actions and technology	A grindstone is a round sharpening stone used for grinding or sharpening ferrous tools. 	Person/Thing	
-2460	DINGO	Animals	The dingo (Canis lupus dingo) is a free-ranging dog found mainly in Australia. 	Person/Thing	
-2461	WOLF-LIKE ANIMAL	Animals	Refers to *genus canis*, a genus containing seven to ten extant species, including wolves, domestic dogs, coyotes, and jackals 	Person/Thing	
-2462	WINNOWING	Basic actions and technology	Wind winnowing is an agricultural method developed by ancient cultures for separating grain from chaff. 	Action/Process	
+2459	GRINDSTONE	Basic actions and technology	A grindstone is a round sharpening stone used for grinding or sharpening ferrous tools.	Person/Thing	
+2460	DINGO	Animals	The dingo (Canis lupus dingo) is a free-ranging dog found mainly in Australia.	Person/Thing	
+2461	WOLF-LIKE ANIMAL	Animals	Refers to *genus canis*, a genus containing seven to ten extant species, including wolves, domestic dogs, coyotes, and jackals	Person/Thing	
+2462	WINNOWING	Basic actions and technology	Wind winnowing is an agricultural method developed by ancient cultures for separating grain from chaff.	Action/Process	
 2463	MOON OR MONTH	The physical world	Either the moon as the object or the time period.	Person/Thing	
 2464	LAY EGGS	Basic actions and technology	The process by which birds produce eggs.	Action/Process	
 2465	DISGUST	Basic actions and technology	The feeling that one gets when seeing something rotten.	Person/Thing	
@@ -2508,11 +2508,11 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2507	DISGUSTING	Basic actions and technology	Creating disgust in somebody.	Property	
 2508	PANGOLIN	Animals	Mammals of the order Pholidota. The one extant family, Manidae, has three genera: Manis which comprises four species living in Asia, Phataginus which comprises two species living in Africa, and Smutsia which comprises two species also living in Africa.	Person/Thing	
 2509	EXCHANGE	Basic actions and technology	To hand out one thing while receiving another thing or to replace one thing with another.	Action/Process	
-2510	PORCUPINE	Animals	 Rodents with a coat of sharp spines, or quills, that protect against predators.	Person/Thing	
-2511	GIBBON	Animals	 Apes in the family Hylobatidae.	Person/Thing	
+2510	PORCUPINE	Animals	Rodents with a coat of sharp spines, or quills, that protect against predators.	Person/Thing	
+2511	GIBBON	Animals	Apes in the family Hylobatidae.	Person/Thing	
 2512	CHICK	Animals	A young bird that has not yet reached adulthood.	Person/Thing	
 2513	CHICKEN CHICK	Animals	A young chicken that has not yeet reached adulthood.	Person/Thing	
-2514	SPOUSE	Kinship	One of the partners in a marriage, be they male or femaile. 	Person/Thing	
+2514	SPOUSE	Kinship	One of the partners in a marriage, be they male or femaile.	Person/Thing	
 2515	CARABAO	Animals	A swamp-type domestic water buffalo found in the Philippines.	Person/Thing	
 2516	WATER BUFFALO	Animals	A large bovid originating in South Asia, Southeast Asia, and China.	Person/Thing	
 2517	CROWDED	Social and political relations	Full of people.	Property	
@@ -2638,8 +2638,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2637	WE TWO (INCLUSIVE)	Kinship	Inclusive dual of the first person: I and exactly one other person, including the addressed person (you).	Other	
 2638	FISHING	Basic actions and technology	To hunt for fishes (general expression).	Action/Process	
 2639	FISHING (WITH A NET)	Basic actions and technology	To hunt for fishes by using a fishnet.	Action/Process	
-2640	LARVA	Animals	 A distinct juvenile form many animals undergo before metamorphosis into adults.	Person/Thing	
-2641	MYTHICAL BEING	Religion and belief	Any living creature that occurs in stories and fary-tales and does not exist in the real world.	Person/Thing	
+2640	LARVA	Animals	A distinct juvenile form many animals undergo before metamorphosis into adults.	Person/Thing	
+2641	MYTHICAL BEING	Religion and belief	Any living creature that occurs in stories and fairytales and does not exist in the real world.	Person/Thing	
 2642	HE OR SHE	Kinship	Third person singular addressing living things or persons.	Other	
 2643	INK	Modern world	A liquid or paste that contains pigments or dyes and is used to color a surface to produce an image, text, or design.	Person/Thing	
 2644	GRANDFATHER OR OLDER BROTHER	Kinship	Either the grandfather or the older brother of a person.	Person/Thing	
@@ -2674,10 +2674,10 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2673	BIRD OF PARADISE	Animals	A bird of the family Paradisaeidae.	Person/Thing	
 2674	ORAL CAVITY	The body	Cavity that is limited by the lips in front, the cheeks on the side, the soft and hard palate at the top and the floor of the mouth below.	Person/Thing	
 2675	FIRE OR FIREWOOD	The physical world	The state of combustion in which inflammable material burns, producing heat, flames and often smoke or the Wood intended to be burned.	Person/Thing	
-2676	TWO HUNDRED	Quantity	The cardinal number occurring after one hundred and ninety-nine and before two hundred one, represented in Roman numerals as CC and in Arabic numerals as 200.	Number	
+2676	TWO HUNDRED	Quantity	The natural number two hundred (200).	Number	
 2677	SPEARTHROWER	Warfare and hunting	A spear-thrower or atlatl is a tool that uses leverage to achieve greater velocity in dart-throwing, and includes a bearing surface which allows the user to store energy during the throw.	Person/Thing	
 2678	HAIR OR FUR	The body	The hair covering the body of a mammal, including the body hair of humans.	Person/Thing	
-2679	BLOW (WITH NOSE)	Basic actions and technology	To expel air through nose.	Action/Process	
+2679	BLOW (WITH NOSE)	Basic actions and technology	To clean one's nose by exhaling through it.	Action/Process	
 2680	MACHETE	Food and drink	A machete is a broad blade used either as an implement like an axe, or in combat like a short sword.	Person/Thing	
 2681	LUTE	Speech and language	A plucked string musical instrument with with a neck and a deep round back	Person/Thing	
 2682	AUNT OR UNCLE	Kinship	The brother or mother of someone’s father or mother.	Person/Thing	
@@ -2721,7 +2721,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2720	FISH (CLASSIFIER)	Quantity	Classifier for fishes.	Classifier	
 2721	TREE (CLASSIFIER)	Quantity	Classifier for trees.	Classifier	
 2722	TUFT (CLASSIFIER)	Quantity	Classifier for grass.	Classifier	
-2723	BUD (CLASSIFIER)	Quantity	Classifier for flower.	Classifier	
+2723	BUD (CLASSIFIER)	Quantity	Classifier for flowers.	Classifier	
 2724	CHAIN (CLASSIFIER)	Quantity	Classifier for objects that can be put or are arranged on a chain.	Classifier	
 2725	PORTION (CLASSIFIER)	Quantity	Classifier for a certain amount of something.	Classifier	
 2726	STALK (CLASSIFIER)	Quantity	Classifier for cigarettes and similar objects.	Classifier	
@@ -2748,7 +2748,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2747	OSMANTHUS FRAGRANS	Agriculture and vegetation	A small tree species native to Asia from the Himalayas through southern China.	Person/Thing	2360
 2748	SWEET OLIVE FLOWER	Agriculture and vegetation	The flower of teh Osmanthus Fragrans.	Person/Thing	
 2749	UNHUSKED RICE	Agriculture and vegetation	The unhusked crops of the rice plant.	Person/Thing	
-2750	GLUTINOUS RICE	Agriculture and vegetation	Polished rice.	Person/Thing	
+2750	GLUTINOUS RICE	Agriculture and vegetation	A type of rice grown mainly in Southeast and East Asia and the eastern parts of South Asia, which has opaque grains, very low amylose content, and is especially sticky when cooked. Also called oryza sativa var. glutinosa, sticky rice, sweet rice or waxy rice.	Person/Thing	
 2751	BY (PASSIVE MARKER)	Basic actions and technology	Marker of the agent in a passive sentence.	Other	
 2753	UNTIL	Time	Preposition marking the end of a period.	Other	
 2754	TOWARDS	Spatial relations	Preposition marking the goal of direction.	Other	
@@ -2759,7 +2759,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2759	RECOMMEND	Basic actions and technology	To suggest something or somebody.	Person/Thing	
 2760	MAKE A JOKE	Basic actions and technology	To say something which is not meant seriously.	Person/Thing	
 2761	BEND (ONESELF)	Basic actions and technology	To turn oneself over.	Person/Thing	
-2762	BLOCK (THE WAY)	Basic actions and technology	To prevent the somebody to pass.	Person/Thing	
+2762	BLOCK (THE WAY)	Basic actions and technology	To prevent somebody to pass.	Person/Thing	
 2763	CARRY HORIZONTALLY	Basic actions and technology	To carry some object horizontally.	Person/Thing	
 2764	CHICKEN NEST	Animals	The nest of a chicken.	Person/Thing	
 2765	CHERRY	Food and drink	Fruit of the Cherry tree.	Person/Thing	
@@ -2802,7 +2802,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2805	BIRTH (ACCOUCHEMENT)	Basic actions and technology	The process of giving birth to a child.	Person/Thing	
 2806	BLACK MAN	Kinship	Term used to describe men who are perceived to be dark-skinned.	Person/Thing	
 2807	BLACK WOMAN	Kinship	Term used to describe women who are perceived to be dark-skinned.	Person/Thing	
-2808	BLACKEN	Basic actions and technology	 To change the color of something into black.	Action/Process	
+2808	BLACKEN	Basic actions and technology	To change the color of something into black.	Action/Process	
 2809	BLUEBERRY	Agriculture and vegetation	Perennial flowering plants with indigo-coloured berries from the section Cyanococcus.	Person/Thing	
 2810	BREASTBONE	The body	Long flat bone located in the center of the chest.	Person/Thing	
 2811	BUSHFIRE	Basic actions and technology	An uncontrolled fire in a wooded or grassy area.	Person/Thing	
@@ -2862,7 +2862,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2865	DIE (FROM ACCIDENT)	Basic actions and technology	To cease to live due to unforeseen circumstances.	Action/Process	
 2866	DROP (SOMETHING)	Basic actions and technology	To let something fall down.	Action/Process	
 2867	CALCULATE	Modern world	To determine by mathematical processes.	Action/Process	
-2868	DRIVE (CATTLE)	Animals	To impart a forward motion to by physical force.	Action/Process	
+2868	DRIVE (CATTLE)	Animals	Cause animals to move while following them.	Action/Process	
 2869	BOTHER (HARASS)	Emotions and values	To annoy persistently.	Action/Process	
 2870	RECOGNIZE (SOMEBODY)	Basic actions and technology	Perceive to see something or someone previously known.	Action/Process	
 2871	SWING (MOVEMENT)	Basic actions and technology	To move freely to and fro.	Action/Process	
@@ -2875,7 +2875,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2878	SEAT (SOMEBODY)	Basic actions and technology	To cause somebody to sit (e.g. by offering a seat).	Action/Process	
 2879	SOUND (OF INSTRUMENT OR VOICE)	Basic actions and technology	The noise emitted by musical instruments or humans speaking.	Action/Process	
 2880	HALT (STOP)	Basic actions and technology	To halt one’s movement.	Action/Process	
-2881	URGE (SOMEONE)	Emotions and values	Urge means a strong desire.	Action/Process	
+2881	URGE (SOMEONE)	Emotions and values	To encourage someone to do something.	Action/Process	
 2882	ADD	Basic actions and technology	Join or unite so as to bring about an increase.	Action/Process	
 2883	DISTURB	Emotions and values	Interfere with somebody.	Action/Process	
 2884	HANG	Basic actions and technology	Remain suspended to some point above.	Action/Process	
@@ -2885,7 +2885,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2888	TINKLE	Basic actions and technology	Emit a sound suggestive of a tinkle.	Action/Process	
 2889	TWINKLE	Basic actions and technology	Shine with flickering light.	Action/Process	
 2890	WALK (TAKE A WALK)	Basic actions and technology	To wander around.	Action/Process	
-2891	TIE UP (TETHER)	Basic actions and technology	To attach something or somebody to prevent that it is taken away.	Action/Process	
+2891	TIE UP (TETHER)	Basic actions and technology	To attach an animal to something to prevent that it leaves.	Action/Process	
 2892	MAKE ANGRY (ANNOY)	Emotions and values	To cause somebody to be annoyed.	Action/Process	
 2893	NOTICE (SOMETHING)	Basic actions and technology	To become aware of something.	Action/Process	
 2894	TUMBLE (FALL DOWN)	Basic actions and technology	To fall down accidentally.	Action/Process	
@@ -2896,10 +2896,10 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2899	JOG (SOMETHING)	Basic actions and technology	To shake something.	Action/Process	
 2900	PROTECT	Basic actions and technology	To prevent something or somebody from being harmed.	Action/Process	
 2901	SWING (SOMETHING)	Basic actions and technology	To set something in swinging motion.	Action/Process	
-2902	BRAWL (FIGHT)	Basic actions and technology	To get into a physical fight with somebody else.	Action/Process	
+2902	BRAWL (FIGHT)	Basic actions and technology	To be involved in a normally unarmed and ruleless scuffle.	Action/Process	
 2903	CHAT (WITH SOMEBODY)	Basic actions and technology	To have a conversation with somebody.	Action/Process	
 2904	RINSE	Basic actions and technology	To clean by pouring water over the objects.	Action/Process	
-2905	KNIT	Basic actions and technology	Knitting is a method by which yarn is manipulated to create a textile or fabric for use in many types of garments.	Action/Process	
+2905	KNIT	Basic actions and technology	To create a textile by manipulating yarn with the help of two long needles.	Action/Process	
 2906	TRANSLATE	Basic actions and technology	To communicate of the meaning of a source-language text by means of an equivalent target-language text.	Action/Process	
 2907	ROT	Basic actions and technology	To be exposed to decomposition.	Action/Process	
 2908	GUEST OR STRANGER	Kinship	Either a guest or a stranger.	Person/Thing	
@@ -2996,7 +2996,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3000	LIVING	The body	Being alive.	Property	
 3001	POWERFUL	Emotions and values	Being done using a huge amount of energy.	Property	
 3002	PRECIOUS	Emotions and values	Being deer or important to somebody.	Property	
-3003	SOLID	Basic actions and technology	One of the four fundamental states of matter (the others being liquid, gas, and plasma).	Property	
+3003	SOLID	Basic actions and technology	Firm to the touch.	Property	
 3004	FORMER	Time	Coming before in time.	Property	
 3005	FAMILIAR	Emotions and values	Knowing somebody or something well.	Property	
 3006	SPACE (AVAILABLE)	Spatial relations	Available space to place things.	Person/Thing	
@@ -3015,8 +3015,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3019	SAND HILL	The physical world	Ecological community or xeric wildfire-maintained ecosystem (different from sand dune).	Person/Thing	
 3020	BREAK (BREAKING)	Basic actions and technology	To come apart or split into pieces (intransitive).	Action/Process	
 3021	BLUE TONGUED SKINK	Animals	Australian skins comprising the genus Tiliqua.	Person/Thing	
-3022	TOP GRINDSTONE	Basic actions and technology	The top (and usually proper) element in a two-stone grindstone. 	Person/Thing	
-3023	BOTTOM GRINDSTONE	Basic actions and technology	The bottom element in a two-stone grindstone. 	Person/Thing	
+3022	TOP GRINDSTONE	Basic actions and technology	The top (and usually proper) element in a two-stone grindstone.	Person/Thing	
+3023	BOTTOM GRINDSTONE	Basic actions and technology	The bottom element in a two-stone grindstone.	Person/Thing	
 3024	BRIDE PRICE	Social and political relations	Money or other form of wealth paid by a groom to the family of his bride.	Person/Thing	
 3025	BARN OR SHED	The house	A building for storing agricultural products or sheltering livestock.	Person/Thing	
 3026	CONJUNCTIVITIS	The body	An inflammation of the eye conjunctiva.	Person/Thing	
@@ -3069,7 +3069,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3073	MANAGE	Basic actions and technology	To watch and direct someone and/or some activity; to be in charge.	Action/Process	
 3074	FIX	Basic actions and technology	To restore something by replacing a broken part or putting together what is broken; to patch; to restore; to mend.	Action/Process	
 3075	SLANTED	Spatial relations	Having an oblique or slated direction, deviating from both the horizontal and the vertical planes.	Property	
-3076	SLOPE	The physical world	A stretch of ground forming a geological incline; bank; hillside.	Person/Thing	
+3076	SLOPE	The physical world	A stretch of ground forming a geological incline, e.g. a hillside.	Person/Thing	
 3077	SWALLOW (BIRD)	Animals	Any of the various passerine birds of the family Hirundinidae; martin.	Person/Thing	
 3078	IRRIGATE	Agriculture and vegetation	To supply with water; to water.	Action/Process	
 3079	HIGHLAND BARLEY	Agriculture and vegetation	A subpecies of the cereal of the genus Hordeum, typically cultivated in the Himalaya region.	Person/Thing	
@@ -3080,10 +3080,10 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3084	BLACKBOARD	The house	Reusable surface for writing or drawing.	Person/Thing	
 3085	CARROT	Agriculture and vegetation	Domesticated root vegetable usually orange or red in colour.	Person/Thing	
 3086	COMPUTER	Modern world	A device for automatically performing sets of logical or arithmetical instructions.	Person/Thing	
-3087	PACIFIER	Clothing and grooming	An artificial teat made of rubber, plastic, or silicone put into an infant's mouth to calm it. 	Person/Thing	
+3087	PACIFIER	Clothing and grooming	An artificial teat made of rubber, plastic, or silicone put into an infant's mouth to calm it.	Person/Thing	
 3088	ENVELOPE	Basic actions and technology	An item to commonly used to package or wrap letters.	Person/Thing	
 3089	GIRAFFE	Animals	A quadruped animal native to Africa, remarkable for the length of its legs and neck.	Person/Thing	
-3090	GUITAR	Speech and language	Musical instrument with usally six strings. 	Person/Thing	
+3090	GUITAR	Speech and language	Musical instrument with usally six strings.	Person/Thing	
 3091	LEMON	Agriculture and vegetation	Fruit with yellow rind and acidic/sour juice.	Person/Thing	
 3092	LIGHTER	Basic actions and technology	Portable instrument for igniting something.	Person/Thing	
 3093	LIPSTICK	Clothing and grooming	Stick containing wax, oil, or pigments used to apply colour to one's lips.	Person/Thing	
@@ -3097,7 +3097,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3101	SWING	Basic actions and technology	Tool used for play with a seat hanging from ropes.	Person/Thing	
 3102	TANK	Warfare and hunting	Armoured vehicle used by the military.	Person/Thing	
 3103	TENNIS BALL	Modern world	Yellow, spherical object used for playing the game of tennis.	Person/Thing	
-3104	THERMOMETER	Basic actions and technology	Instrument used for measuring temperature, mostly by means of a contracting or expanding substanced contained within the instrument. 	Person/Thing	
+3104	THERMOMETER	Basic actions and technology	Instrument used for measuring temperature, mostly by means of a contracting or expanding substanced contained within the instrument.	Person/Thing	
 3105	UMBRELLA	Clothing and grooming	Portable folding canopy used for protection against weather influences.	Person/Thing	
 3106	WARDROBE	The house	Large object, often made out of wood, used for storing clothes or other fabrics.	Person/Thing	
 3107	WHISTLE (INSTRUMENT)	Basic actions and technology	Wind instrument most often made out of metal or wood used for producing a loud, shrill tone.	Person/Thing	
@@ -3144,10 +3144,10 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3148	MEERKAT	Animals	Southern African animal known for its long tail and often seen standing up on its back legs.	Person/Thing	
 3149	ARMLET	Clothing and grooming	A band or bracelet worn round the upper part of a person's arm.	Person/Thing	
 3150	BOX OR CHEST	Modern world	Either a generic manmade object with space in it that is used to keep and store many various different objects, or a strong box with a lid on top.	Property	
-3151	*CUT (WITH AXE)	Basic actions and technology	To slice or to divide into pieces with help of an axe.	Person/Thing	
+3151	CUT (WITH AXE)	Basic actions and technology	To chop with an axe, e.g. wood in order to use it as firewood.	Person/Thing	
 3152	MUNTJACS	Animals	Also known as barking deer, a kind of small deer of the genus Muntiacus.	Person/Thing	
 3153	LORD	Social and political relations	A man of noble rank or high office; a nobleman.	Person/Thing	
-3154	WILD BOAR	Animals	Also known as wild pig, an undomestic four-legged animal (Sus scrofa) living in the wild. 	Person/Thing	
+3154	WILD BOAR	Animals	Also known as wild pig, an undomestic four-legged animal (Sus scrofa) living in the wild.	Person/Thing	
 3155	DIBBLE STICK	Agriculture and vegetation	A piece of wood with a point used for making holes in the ground for seeds, seedlings or small bulbs.	Person/Thing	
 3156	GEBANG PALM	Agriculture and vegetation	Tree of the Corypha Utan species.	Person/Thing	
 3157	CIVET	Animals	A carnivorous mammal of the Viverridae family, found across South East Asia.	Person/Thing	
@@ -3157,9 +3157,9 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3161	CHEW BETEL	Food and drink	To consume a mixture of areca nut and betel leaf.	Action/Process	
 3162	CROSS-COUSIN	Kinship	The child of a parent’s opposite-sex sibling, for example the father’s sister’s son.	Person/Thing	
 3163	SQUAT	Motion	Have bent knees with the body weight is on the feet.	Action/Process	
-3164	ONE HUNDRED AND TWENTY THREE	Quantity	The cardinal number represented in Roman numerals as CXXIII, and in Arabic numerals as 123.	Other	
-3165	TWENTY THREE	Quantity	The cardinal number represented in Roman numerals as XXIII, and in Arabic numerals as 23.	Other	
-3166	TWENTY TWO	Quantity	The cardinal number represented in Roman numerals as XXII, and in Arabic numerals as 22.	Other	
+3164	ONE HUNDRED AND TWENTY THREE	Quantity	The natural number one hundred and twenty-three (123).	Number	
+3165	TWENTY THREE	Quantity	The natural number twenty-three (23).	Number	
+3166	TWENTY TWO	Quantity	The natural number twenty-two (22).	Number	
 3167	SERMON	Religion and belief	A religious lecture or speech, addressing issues of religion or morality.	Person/Thing	
 3168	DOWRY	Social and political relations	Property, gifts or money transfered from the parents of a daughter to her new family at marriage.	Person/Thing	
 3169	TREATY	Social and political relations	Formal agreement between nations, states or other international bodies.	Person/Thing	
@@ -3207,11 +3207,11 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3212	HOPE (SOMETHING)	Emotions and values	To want something to happen.	Action/Process	
 3213	HIRE OR RENT	Social and political relations	To employ a person or people in exchange of some kind of remuneration, usually a payment, or to pay for using an object.	Action/Process	
 3214	*CRAWL OR CREEP	Motion	To move using ones hands and knees or in a prone position with the body resting on or close to the ground.	Action/Process	
-3215	*CREEP	Motion	To move in a prone position with the body resting on or close to the ground.	Action/Process	
+3215	CREEP	Motion	To move in a prone position with the body resting on or close to the ground.	Action/Process	
 3216	*DRIP OR DROP SOMETHING	Motion	To fall in globules or small portions, as water or other liquid or to let something fall down.	Action/Process	
 3217	TIN OR TINPLATE	Basic actions and technology	A metallic element with symbol Sn or a thin sheet of steel coated with tin to prevent rusting.	Person/Thing	
-3218	*SPRAY (SOMETHING)	Motion	To cause a liquid to fly through the air in small droplets.	Action/Process	
-3219	*SPLASH OR SPRAY	Motion	To cause a liquid to spatter about [WN:365] or to cause it to fly through the air in small droplets.	Action/Process	
+3218	*SPRAY (SOMETHING)	Motion	To hit something with a liquid flying through the air in small droplets.	Action/Process	
+3219	*SPLASH OR SPRAY	Motion	To cause a liquid to spatter about [WN:365] or to hit something with a liquid flying through the air in small droplets.	Action/Process	
 3220	MATERNAL UNCLE	Kinship	A brother of someone's mother.	Person/Thing	
 3221	PLANTAGO	Agriculture and vegetation	A plant of the genus Plantago, with a rosette of sessile leaves about 10 cm long with a narrow part instead of a petiole, and with a spike inflorescence with the flower spacing varying widely among the species.	Person/Thing	
 3222	TWIG	Agriculture and vegetation	A branch that doesn't arise from the trunk but from another branch.	Person/Thing	
@@ -3230,4 +3230,71 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3235	OPEN (STATE)	Basic actions and technology	To be accessible and/or not closed.	Property	
 3236	TWIST (TOGETHER)	Motion	To wind several things around each other (e.g. in order to form a rope or thread).	Action/Process	
 3237	ALLOW OR PERMIT	Social and political relations	To give permission to an action or to not try to stop someone from doing it.	Action/Process	
-3238	ALLOW	Social and political relations	To not try to stop someone from doing something.		
+3238	ALLOW	Social and political relations	To not try to stop someone from doing something.	Action/Process	
+3239	AMUSE ONESELF (HAVE FUN)	Basic actions and technology	To do something joyful.	Action/Process	
+3240	BAMBOO MAT	Modern world	A mat made from bamboo.	Person/Thing	
+3241	CORIANDER	Agriculture and vegetation	Annual herb in the family Apiaceae.	Person/Thing	
+3242	*CROSSBOW	Warfare and hunting	An elastic ranged weapon, similar to a bow.	Person/Thing	3193
+3243	CYPRESS	Agriculture and vegetation	A common name for various coniferous trees or shrubs of northern temperate regions that belong to the family Cupressaceae.	Person/Thing	
+3244	EAR (OF GRAIN)	Agriculture and vegetation	The upper part of grain plants.	Person/Thing	
+3245	FROG (SMALL)	Animals	A small kind of frog (as opposed to big ones).	Person/Thing	
+3246	FRUIT (CLASSIFIER)	Food and drink	The measure word used for typical fruits.	Person/Thing	
+3247	KIWIFRUIT	Agriculture and vegetation	Edible berry of several species of woody vines in the genus Actinidia.	Person/Thing	
+3248	MAPLE TREE	Agriculture and vegetation	A group of trees belonging to the genus acer.	Person/Thing	
+3249	MATERNAL UNCLE (MOTHER'S OLDER BROTHER)	Kinship	Older brother of ego's mother.	Person/Thing	
+3250	MATERNAL UNCLE (MOTHER'S YOUNGER BROTHER)	Kinship	Younger brother of ego's mother.	Person/Thing	
+3251	MOLD (GET ROTTEN)	Basic actions and technology	Discoloration and food caused by fungal species.	Person/Thing	
+3252	PANCREAS	The body	An organ of the digestive system of vertebrates.	Person/Thing	
+3253	PRICKLY ASH	Agriculture and vegetation	A flowering plant in the family Rutaceae.	Person/Thing	
+3254	YOUNG ANIMAL	Animals	Like a puppy of a dog, a general term for naming younger animals.	Person/Thing	
+3255	POINT (POINTED END)	Spatial relations	The pointed, sharp end of an object like e.g. a spear or arrowhead.	Person/Thing	
+3256	BITTER BUCKWHEAT	Agriculture and vegetation	Fagopyrum tataricum, a domesticated plant similar to the (sweet) buckwheat.	Person/Thing	
+3257	CLITORIS	The body	A part of the female genitalia located at the front of the vulva, consisting of a sensitive erectile body.	Person/Thing	
+3258	FALCON	Animals	A bird of prey of genus Falco, which kill preys with its beak (unlike Accipitridae as eagles and hawks, which kill with its feet).	Person/Thing	
+3259	GORAL	Animals	A small ungulate with goat-like and antelope-like appearance.	Person/Thing	
+3260	HORNBILL	Animals	A bird characterized by a long, down-curved, and frequently colored beak.	Person/Thing	
+3261	HORNET	Animals	A large wasp that can inflict a severe sting, characteristically building large papery nests.	Person/Thing	
+3262	HORSEFLY	Animals	A fly of the family Tabanidae, known for biting humans.	Person/Thing	
+3263	LAP	The body	The front area from waist to knees, especially when sitting.	Person/Thing	
+3264	TRIVET	Food and drink	A stand, usually metallic, used to support cooking vessels on top of fire.	Person/Thing	
+3265	FINGER MILLET	Agriculture and vegetation	Eleusine coracana, a herbaceous plant characteristic for the hability to withstand cultivation at high altitudes.	Person/Thing	
+3266	FOXTAIL MILLET	Agriculture and vegetation	Staria italica, an annual grass grown for human food and related to (broomcorn) millet.	Person/Thing	
+3267	PULSE	The body	The rhytmic contraction and expansion of arteries at each heart beat, often discernible at points such the wrists and the neck.	Person/Thing	
+3268	QUESTION	Speech and language	A sentence used to obtain information by evoking a response.	Person/Thing	
+3269	PORCH	The house	A structure attached to the exterior of a building, often acting as a roofed entrance; a balcony; a veranda.	Person/Thing	
+3270	SEROW	Animals	A short-horned, dark-coated goat antelope of southeast Asia mountain areas.	Person/Thing	
+3271	FLYING SQUIRREL	Animals	A squirrel of the sub-family Pteromyinae of the family Sciuridae.	Person/Thing	
+3272	TAKIN	Animals	A large goat antelope of eastern Himalayan area, Budorcas taxicolor.	Person/Thing	
+3273	TILL	Agriculture and vegetation	Prepare land for cultivation by work such as ploughing, harrowing, and manuring.	Action/Process	
+3274	ENCIRCLE	Basic actions and technology	To enclose or cause to be enclosed; to surround; to confine.	Action/Process	
+3275	CLOUD OR FOG	The physical world	High or low elevation water suspensions.	Person/Thing	
+3276	SUNSHINE	The physical world	The light emitted by the sun.	Person/Thing	
+3277	FOUR DAYS FROM NOW	Time	Four days from today.	Other	
+3278	FOUR DAYS BEFORE NOW	Time	Four days before today.	Other	
+3279	MANTIS	Animals	A predatory insect of the order Mantodea; mantid; praying mantis.	Person/Thing	
+3280	TUSK	Animals	A pointed elongated tooth, usually one of a pair, extending outside the mouth of a mammal.	Person/Thing	
+3281	JOB'S TEARS	Agriculture and vegetation	A tall grain-bearing plant of the Poaceae family; coixseed; yi yi.	Person/Thing	
+3282	GROOM	Kinship	A man who is going to get married or has just married.	Person/Thing	
+3283	CAGE	Animals	A structure, usually made with bars or wire, for confining animals.	Person/Thing	
+3284	GRAVEYARD	The body	A tract of land used for burials; burial ground; cemetery.	Person/Thing	
+3285	RICE FLOUR	Agriculture and vegetation	A flour made from finely milled rice, distinct from rice starch which is produced by steeping rice in lye; rice powder.	Person/Thing	
+3286	LARGE BOWL	Food and drink	A large utensil for eating fluid food.	Person/Thing	
+3287	BLOOM	Agriculture and vegetation	To bear flowers or to start bearing flowers; to blossom.	Action/Process	
+3288	WEED	Agriculture and vegetation	A plant that grows wild and profusely, especially when considered undesirable for agriculture.	Person/Thing	
+3289	UNCOOKED RICE	Food and drink	Rice that has not been boiled or otherwise prepared for eating.	Person/Thing	
+3290	IMPEL	Motion	Cause objects, people or animals to move (typically by following them).	Action/Process	
+3291	DRIVE OR IMPEL OR RIDE	Motion	Drive a vehicle or cause vehicles, other objects, people or animals to move (typically while following them or sitting/standing on them).	Action/Process	
+3292	THOU (HONORIFIC)	Kinship	The person addressed (honorific).	Other	
+3293	YOU (HONORIFIC)	Kinship	The group of persons addressed (honorific)	Other	
+3294	BRAID (VERB) OR WEAVE (BASKET)	Basic actions and technology	To braid together hair, threads, strings, twigs etc. in order to create a larger string-like object or to weave a basket or use similar techniques for creating other objects.	Action/Process	
+3295	BRAID (VERB)	Basic actions and technology	To braid together hair, threads, strings, twigs etc. in order to create a larger string-like object (which can be linear as in a braid of hair or circular as in a wreath).	Action/Process	
+3296	WEAVE (BASKET)	Basic actions and technology	To weave a basket or use similar techniques for creating other objects.	Action/Process	
+3297	PRECIPICE OR SLOPE	The physical world	A very steep decline, typically found in the mountains or on shores, or a stretch of ground forming a geological incline, e.g. a hillside.	Person/Thing	
+3298	APE OR MONKEY	Animals	Any of the species of Simiiformes, including Hominoidea (but typically excluding humans).	Person/Thing	
+3299	KIND	Emotions and values	Being nice and giving off the impression of benevolence.	Property	
+3300	POLITE	Emotions and values	Keeping to a given society's standards of social manners in order to show respect.	Property	
+3301	BRAWL	Basic actions and technology	A normally unarmed and ruleless scuffle.	Action/Process	
+3302	QUARREL (VERB)	Social and political relations	To have a loud or noisy verbal confrontation between two or more people.	Action/Process	
+3303	PICTURE (PAINTING)	Basic actions and technology	A painted image.	Person/Thing	
+3304	PICTURE (PHOTOGRAPH)	Modern world	An image taken with a camera.	Person/Thing	
+3305	INSIDE A HOUSE	The house	Inside a building as opposed to outside in the open air.	Other	

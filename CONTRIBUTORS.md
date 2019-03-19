@@ -81,3 +81,4 @@ Tiago Tresoldi | CTLG | 1.1, 1.2
 Viola Kirchhoff da Cruz | CLS | 1.0 
 Wang Feng | D | 1.0
 Yunfan Lai | CTLG | 1.1
+Andy Castro | T | 1.3
