@@ -1906,7 +1906,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1905	EAGLE	Animals	Any of several large carnivorous birds in the family Accipitridae, having a powerful hooked bill and keen vision.	Person/Thing	
 1906	SOUR	Sense perception	Having an acid, sharp or tangy taste.	Property	
 1907	MOLE	Animals	Small insectivorous mammal, especially of the family Talpidae, living chiefly underground, and having velvety fur, very small eyes, and strong forefeet.	Person/Thing	
-1908	ATTENTIVE	Cognition	Giving attention.	Person/Thing	
+1908	ATTENTIVE	Cognition	Giving attention.	Property	
 1909	SHAKE	Motion	To cause (something) to move rapidly from side to side.	Action/Process	
 1910	STINGRAY	Animals	Any of various large, venomous rays, of the orders Rajiformes and Myliobatiformes, having a barbed, whiplike tail.	Person/Thing	
 1911	DRAW (WATER)	Basic actions and technology	To draw by a physical force causing or tending to cause to approach, adhere, or unite	Action/Process	
@@ -2374,7 +2374,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2373	SKIN (OF FRUIT)	Food and drink	The outer layer of fruits.	Person/Thing	
 2374	DREAM	The body	Successions of images, ideas, emotions, and sensations that occur usually involuntarily in the mind during certain stages of sleep.	Person/Thing	
 2375	VERTICAL	Spatial relations	Direction passing by a given point is said to be vertical if it is locally aligned with the gradient of the gravity field.	Property	
-2376	HORIZONTAL	Spatial relations	Plane is said to be horizontal at a given point if it is perpendicular to the gradient of the gravity field at that point— in other words, if apparent gravity makes a plumb bob hang perpendicular to the plane at that point.	Person/Thing	
+2376	HORIZONTAL	Spatial relations	Plane is said to be horizontal at a given point if it is perpendicular to the gradient of the gravity field at that point— in other words, if apparent gravity makes a plumb bob hang perpendicular to the plane at that point.	Property	
 2377	FLASH (VERB)	The physical world	The process by which flashes of light are caused by the discharge of atmospheric electrical charge.	Action/Process	
 2378	THUNDER (VERB)	The physical world	The process producing the noise after a lightning.	Action/Process	
 2379	UP OR ABOVE	Spatial relations	Moving from a lower position to a higher one, or being at a higher position.	Other	
@@ -2529,7 +2529,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2528	SIZE (OF PERSON)	Spatial relations	The height of a person or an animal.	Person/Thing	
 2529	BLESSED	Religion and belief	To have received blessing.	Person/Thing	
 2530	SMART	Emotions and values	To be of high intelligence.	Person/Thing	
-2531	BROAD	Spatial relations	Having a large width.	Person/Thing	
+2531	BROAD	Spatial relations	Having a large width.	Property	
 2532	TORNADO	The physical world	A violently rotating column of air that is in contact with both the surface of the earth and a cumulonimbus cloud or, in rare cases, the base of a cumulus cloud.	Person/Thing	
 2533	WATERSIDE	The physical world	The margin or shore of a river, lake, or ocean.	Person/Thing	
 2534	DEPTH	Spatial relations	The dimension of an object, downward from an upper surface.	Person/Thing	
@@ -2752,10 +2752,10 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2751	BY (PASSIVE MARKER)	Basic actions and technology	Marker of the agent in a passive sentence.	Other	
 2753	UNTIL	Time	Preposition marking the end of a period.	Other	
 2754	TOWARDS	Spatial relations	Preposition marking the goal of direction.	Other	
-2755	BUSY	Time	The state of being occupied with something.	Person/Thing	
+2755	BUSY	Time	The state of being occupied with something.	Property	
 2756	IDLE	Time	The state of not being occupied with anything.	Person/Thing	
 2757	ANGULAR (SQUAREFORMED)	Spatial relations	Having the form of a square.	Person/Thing	
-2758	CAREFUL	Basic actions and technology	Be cautious.	Person/Thing	
+2758	CAREFUL	Basic actions and technology	Be cautious.	Property	
 2759	RECOMMEND	Basic actions and technology	To suggest something or somebody.	Person/Thing	
 2760	MAKE A JOKE	Basic actions and technology	To say something which is not meant seriously.	Person/Thing	
 2761	BEND (ONESELF)	Basic actions and technology	To turn oneself over.	Person/Thing	
