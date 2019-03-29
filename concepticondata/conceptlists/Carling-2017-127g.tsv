@@ -18,14 +18,14 @@ Carling-2017-127g-16	16	1360	DUCK	duck	12016	Farm animals
 Carling-2017-127g-17	17	2009	DOG	dog	12017	Farm animals	
 Carling-2017-127g-18	18	1208	CAT	cat	12018	Farm animals	
 Carling-2017-127g-19	19	665	BEE	bee	12019	Farm animals	
-Carling-2017-127g-20	20		*YEARLING (HORSE)	yearling	12020	Farm animals	
+Carling-2017-127g-20	20	3329	YEARLING (HORSE)	yearling	12020	Farm animals	
 Carling-2017-127g-21	21	522	WOLF	wolf	12021	Wild animals	
 Carling-2017-127g-22	22	1820	BEAR	bear	12022	Wild animals	
 Carling-2017-127g-23	23	3154	WILD BOAR	wild pig	12023	Wild animals	
 Carling-2017-127g-24	24	1139	LEOPARD	leopard	12024	Wild animals	
 Carling-2017-127g-25	25	1386	LION	lion	12025	Wild animals	
 Carling-2017-127g-26	26	1312	FOX	fox	12026	Wild animals	
-Carling-2017-127g-27	27		*JACKAL	jackal	12027	Wild animals	
+Carling-2017-127g-27	27	3313	JACKAL	jackal	12027	Wild animals	
 Carling-2017-127g-28	28	3142	BISON	bison	12028	Wild animals	
 Carling-2017-127g-29	29	1190	HARE	hare	12029	Wild animals	
 Carling-2017-127g-30	30	1136	RABBIT	rabbit	12030	Wild animals	
@@ -40,7 +40,7 @@ Carling-2017-127g-38	38	635	MILK	milk	12038	Products
 Carling-2017-127g-39	39	1274	SALT	salt	12039	Products	
 Carling-2017-127g-40	40	1524	WINE	wine	12040	Products	
 Carling-2017-127g-41	41	941	MEAD	mead	12041	Products	(i.e. based on honey)
-Carling-2017-127g-42	42		*HOPS	hops	12042	Products	(Swe. humle)
+Carling-2017-127g-42	42	3316	HOPS	hops	12042	Products	(Swe. humle)
 Carling-2017-127g-43	43	1931	BEESWAX	beeswax	12043	Products	
 Carling-2017-127g-44	44	634	MEAT	meat	12044	Products	
 Carling-2017-127g-45	45	323	FAT (ORGANIC SUBSTANCE)	grease	12045	Products	
@@ -53,13 +53,13 @@ Carling-2017-127g-51	51	1077	WHEAT	wheat	12051	Crops & fruit
 Carling-2017-127g-52	52	932	BARLEY	barley	12052	Crops & fruit	
 Carling-2017-127g-53	53	23	RYE	rye	12053	Crops & fruit	
 Carling-2017-127g-54	54	60	OAT	oats	12054	Crops & fruit	
-Carling-2017-127g-55	55		*LENTILS	lentils	12055	Crops & fruit	
+Carling-2017-127g-55	55	3330	LENTILS	lentils	12055	Crops & fruit	
 Carling-2017-127g-56	56	605	GRAIN	grain (generic)	12056	Crops & fruit	
 Carling-2017-127g-57	57	3062	TURNIP	turnip	12057	Crops & fruit	
 Carling-2017-127g-58	58	1320	APPLE	apple	12058	Crops & fruit	
 Carling-2017-127g-59	59	904	BERRY	berry	12059	Crops & fruit	
 Carling-2017-127g-60	60	920	GRAPE	grape	12060	Crops & fruit	
-Carling-2017-127g-61	61		*FLAX	flax	12061	Crops & fruit	
+Carling-2017-127g-61	61	3315	FLAX	flax	12061	Crops & fruit	
 Carling-2017-127g-62	62	20	SCYTHE	scythe	12062	Cultural artefacts & tools	
 Carling-2017-127g-63	63	341	SICKLE	sickle	12063	Cultural artefacts & tools	
 Carling-2017-127g-64	64	1176	SPADE	spade	12064	Cultural artefacts & tools	
@@ -98,22 +98,22 @@ Carling-2017-127g-96	96	1561	ARMY	army	12096	Weapons etc.
 Carling-2017-127g-97	97	386	BATTLE-AXE	battle axe	12097	Weapons etc.	
 Carling-2017-127g-98	98	911	TEMPLE	temple	12098	Belief	
 Carling-2017-127g-99	99	1103	SACRIFICE	sacrifice	12099	Belief	
-Carling-2017-127g-100	100		*FASTING	fast	12100	Belief	
+Carling-2017-127g-100	100	3331	FASTING	fast	12100	Belief	
 Carling-2017-127g-101	101	24	PRAY	to pray	12101	Belief	
-Carling-2017-127g-102	102		*PRIEST OR SHAMAN	priest / shaman	12102	Belief	
+Carling-2017-127g-102	102	3332	PRIEST OR SHAMAN	priest / shaman	12102	Belief	
 Carling-2017-127g-103	103	1773	GRAVE	grave	12103	Belief	
 Carling-2017-127g-104	104	1259	WEDDING	wedding	12104	Belief	
-Carling-2017-127g-105	105		*BELIEF (RELIGOUS)	belief	12105	Belief	
-Carling-2017-127g-106	106		*RITE	rite	12106	Belief	
+Carling-2017-127g-105	105	3333	BELIEF (RELIGIOUS)	belief	12105	Belief	
+Carling-2017-127g-106	106	3334	RITE	rite	12106	Belief	
 Carling-2017-127g-107	107	1702	HOLY	sacred	12107	Belief	
 Carling-2017-127g-108	108	852	PRIEST	priest	12108	Belief	
 Carling-2017-127g-109	109	1973	DEMON	demon	12109	Belief	
 Carling-2017-127g-110	110	1175	GHOST	ghost	12110	Belief	
-Carling-2017-127g-111	111		*SACRED GROVE	sacred grove	12113	Belief	
-Carling-2017-127g-112	112		*FUNERAL	funeral	12114	Belief	
-Carling-2017-127g-113	113		*BURIAL MOUND	burial mound	12115	Belief	
+Carling-2017-127g-111	111	3335	SACRED GROVE	sacred grove	12113	Belief	
+Carling-2017-127g-112	112	3336	FUNERAL	funeral	12114	Belief	
+Carling-2017-127g-113	113	3337	BURIAL MOUND	burial mound	12115	Belief	
 Carling-2017-127g-114	114	1669	ANCESTORS	ancestor	12116	Belief	
-Carling-2017-127g-115	115		*LIBATE	to give to drink, to libate	12117	Belief	
+Carling-2017-127g-115	115	3338	LIBATE	to give to drink, to libate	12117	Belief	
 Carling-2017-127g-116	116			witchcraft (evil)	12118	Belief	
 Carling-2017-127g-117	117			healing witchcraft	12119	Belief	
 Carling-2017-127g-118	118	823	SORCERER	sorcerer (evil)	12120	Belief	
@@ -121,8 +121,8 @@ Carling-2017-127g-119	119			witch-doctor	12121	Belief
 Carling-2017-127g-120	120	1343	SUN	sun	12122	Astronomy	
 Carling-2017-127g-121	121	1313	MOON	moon	12123	Astronomy	
 Carling-2017-127g-122	122	1430	STAR	star	12124	Astronomy	
-Carling-2017-127g-123	123		*POLAR STAR	polar star	12125	Astronomy	
-Carling-2017-127g-124	124		*MORNING STAR	Morning Star	12126	Astronomy	
-Carling-2017-127g-125	125		*EVENING STAR	Evening Star	12127	Astronomy	
-Carling-2017-127g-126	126		*URSA MAJOR	Ursa Major (Big Dipper)	12128	Astronomy	
-Carling-2017-127g-127	127		*ORION’S BELT	Orion’s belt	12129	Astronomy	
+Carling-2017-127g-123	123	3339	POLAR STAR	polar star	12125	Astronomy	
+Carling-2017-127g-124	124	3340	MORNING STAR	Morning Star	12126	Astronomy	
+Carling-2017-127g-125	125	3341	EVENING STAR	Evening Star	12127	Astronomy	
+Carling-2017-127g-126	126	3342	URSA MAJOR	Ursa Major (Big Dipper)	12128	Astronomy	
+Carling-2017-127g-127	127	3343	ORION’S BELT	Orion’s belt	12129	Astronomy	
