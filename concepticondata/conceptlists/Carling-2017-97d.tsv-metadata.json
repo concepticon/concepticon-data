@@ -1,0 +1,67 @@
+{
+    "tables": [
+        {
+            "url": "Carling-2017-97d.tsv",
+            "tableSchema": {
+                "primaryKey": "ID",
+                "columns": [
+                    {
+                        "name": "ID",
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        }
+                    },
+                    {
+                        "name": "NUMBER",
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        }
+                    },
+                    {
+                        "name": "CONCEPTICON_ID",
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": 1
+                        }
+                    },
+                    {
+                        "name": "CONCEPTICON_GLOSS",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "ENGLISH",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "DIACL_ID",
+                        "datatype": "string",
+                        "valueUrl": "https://diacl.ht.lu.se/WordListItem/Details/{DIACL_ID}"
+                    },
+                    {
+                        "name": "DIACL_CATEGORY",
+                        "datatype": "string"
+                    },
+                    {
+                        "name": "DIACL_NOTE",
+                        "datatype": "string"
+                    }
+                ]
+            }
+        }
+    ],
+    "dc:title": "Culture words for Indo-European",
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dialect": {
+        "header": true,
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    }
+}
