@@ -1906,7 +1906,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1905	EAGLE	Animals	Any of several large carnivorous birds in the family Accipitridae, having a powerful hooked bill and keen vision.	Person/Thing	
 1906	SOUR	Sense perception	Having an acid, sharp or tangy taste.	Property	
 1907	MOLE	Animals	Small insectivorous mammal, especially of the family Talpidae, living chiefly underground, and having velvety fur, very small eyes, and strong forefeet.	Person/Thing	
-1908	ATTENTIVE	Cognition	Giving attention.	Person/Thing	
+1908	ATTENTIVE	Cognition	Giving attention.	Property	
 1909	SHAKE	Motion	To cause (something) to move rapidly from side to side.	Action/Process	
 1910	STINGRAY	Animals	Any of various large, venomous rays, of the orders Rajiformes and Myliobatiformes, having a barbed, whiplike tail.	Person/Thing	
 1911	DRAW (WATER)	Basic actions and technology	To draw by a physical force causing or tending to cause to approach, adhere, or unite	Action/Process	
@@ -2243,7 +2243,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2242	BEETLE	Animals	A group of insects which are biologically classified in the order Coleoptera /koʊliːˈɒptərə/.	Person/Thing	
 2243	REPAIR	Basic actions and technology	To patch up something which was broken before.	Action/Process	
 2244	METAL	The physical world	A material (an element, compound, or alloy) that is typically hard, opaque, shiny, and has good electrical and thermal conductivity.	Person/Thing	
-2245	BELCH	Basic actions and technology	To release gas fromt the digestive tract through the mouth.	Action/Process	
+2245	BELCH	Basic actions and technology	To release gas from the digestive tract through the mouth.	Action/Process	
 2246	BELL	Basic actions and technology	A simple sound-making device.	Person/Thing	
 2247	CATERPILLAR	Animals	The larvae of members of the order Lepidoptera (the insect order comprising butterflies and moths).	Person/Thing	
 2248	KNOW (SOMEBODY)	Cognition	To have met and recognize somebody.	Action/Process	
@@ -2374,7 +2374,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2373	SKIN (OF FRUIT)	Food and drink	The outer layer of fruits.	Person/Thing	
 2374	DREAM	The body	Successions of images, ideas, emotions, and sensations that occur usually involuntarily in the mind during certain stages of sleep.	Person/Thing	
 2375	VERTICAL	Spatial relations	Direction passing by a given point is said to be vertical if it is locally aligned with the gradient of the gravity field.	Property	
-2376	HORIZONTAL	Spatial relations	Plane is said to be horizontal at a given point if it is perpendicular to the gradient of the gravity field at that point— in other words, if apparent gravity makes a plumb bob hang perpendicular to the plane at that point.	Person/Thing	
+2376	HORIZONTAL	Spatial relations	Plane is said to be horizontal at a given point if it is perpendicular to the gradient of the gravity field at that point— in other words, if apparent gravity makes a plumb bob hang perpendicular to the plane at that point.	Property	
 2377	FLASH (VERB)	The physical world	The process by which flashes of light are caused by the discharge of atmospheric electrical charge.	Action/Process	
 2378	THUNDER (VERB)	The physical world	The process producing the noise after a lightning.	Action/Process	
 2379	UP OR ABOVE	Spatial relations	Moving from a lower position to a higher one, or being at a higher position.	Other	
@@ -2529,7 +2529,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2528	SIZE (OF PERSON)	Spatial relations	The height of a person or an animal.	Person/Thing	
 2529	BLESSED	Religion and belief	To have received blessing.	Person/Thing	
 2530	SMART	Emotions and values	To be of high intelligence.	Person/Thing	
-2531	BROAD	Spatial relations	Having a large width.	Person/Thing	
+2531	BROAD	Spatial relations	Having a large width.	Property	
 2532	TORNADO	The physical world	A violently rotating column of air that is in contact with both the surface of the earth and a cumulonimbus cloud or, in rare cases, the base of a cumulus cloud.	Person/Thing	
 2533	WATERSIDE	The physical world	The margin or shore of a river, lake, or ocean.	Person/Thing	
 2534	DEPTH	Spatial relations	The dimension of an object, downward from an upper surface.	Person/Thing	
@@ -2752,10 +2752,10 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2751	BY (PASSIVE MARKER)	Basic actions and technology	Marker of the agent in a passive sentence.	Other	
 2753	UNTIL	Time	Preposition marking the end of a period.	Other	
 2754	TOWARDS	Spatial relations	Preposition marking the goal of direction.	Other	
-2755	BUSY	Time	The state of being occupied with something.	Person/Thing	
+2755	BUSY	Time	The state of being occupied with something.	Property	
 2756	IDLE	Time	The state of not being occupied with anything.	Person/Thing	
 2757	ANGULAR (SQUAREFORMED)	Spatial relations	Having the form of a square.	Person/Thing	
-2758	CAREFUL	Basic actions and technology	Be cautious.	Person/Thing	
+2758	CAREFUL	Basic actions and technology	Be cautious.	Property	
 2759	RECOMMEND	Basic actions and technology	To suggest something or somebody.	Person/Thing	
 2760	MAKE A JOKE	Basic actions and technology	To say something which is not meant seriously.	Person/Thing	
 2761	BEND (ONESELF)	Basic actions and technology	To turn oneself over.	Person/Thing	
@@ -3302,3 +3302,37 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3307	HIT (A TARGET)	Basic actions and technology	To hit something that someone has aimed for.	Action/Process	
 3308	STRIKE (SOMEONE)	Basic actions and technology	To intentionally hit someone with a sharp blow or to impel, usually with a hand or weapon.	Action/Process	
 3309	STRIKE (SOMETHING)	Basic actions and technology	To intentionally hit something with a sharp blow or to impel, usually with a hand.	Action/Process	
+3310	SHORE OR BANK	The physical world	The land touching a body of water, irrespective of the special characteristics of the body of water.	Person/Thing	
+3311	FLOWING BODY OF WATER	The physical world	A generic way to refer to a flowing body of water, for example used to refer to rivers, brooks, streams, creeks etc.	Person/Thing	
+3312	SHORT (TIME)	Time	For a brief period or a short amount of time.	Other	
+3313	JACKAL	Animals	A wild dog-like animal of the Canis genus home to parts of Asia and Africa.	Person/Thing	
+3314	LYNX	Animals	A wild animal of the Lynx genus, with characteristic spots on its fur and a short tail.	Person/Thing	
+3315	FLAX	Agriculture and vegetation	A plant with blue flowers that is cultivated for its stem to make linen or its seeds to make oil.	Person/Thing	
+3316	HOPS	Agriculture and vegetation	Used to refer to flowers of the hop plant, used as flavouring or bittering agent in cooking and brewing activities.	Person/Thing	
+3317	ELM	Agriculture and vegetation	A tall tree with broad leaves.	Person/Thing	
+3318	OAR OR PADDLE	Basic actions and technology	Referring to tools used for water-based motion, either connected to the water vehicle or not.	Person/Thing	
+3319	JEW’S HARP	Speech and language	A small musical instruments put between the teeth and played with a finger.	Person/Thing	
+3320	SNARE (TRAP)	Warfare and hunting	A specific trap for catching small animals with a string that prevents caught animals from escaping.	Person/Thing	
+3321	POND OR LAKE	The physical world	A body of water of undefined size, e.g. ranging from small ponds to large lakes.	Person/Thing	
+3322	SNOW OR ICE	The physical world	Referring to frozen water irrespective of its exact nature, e.g. falling from the sky or being frozen on the ground.	Person/Thing	
+3323	MONSOON SEASON	Time	A period of heavy rain particularly during summer time.	Other	
+3324	IRON OR METAL	Basic actions and technology	A generic way of referring to either the ore or the finished product.	Person/Thing	
+3325	PEARL	Basic actions and technology	A small hard shiny ball formed in mussels or oysters.	Person/Thing	
+3326	LEATHER OR HIDE	Basic actions and technology	A generic way of referring to either cured or uncured animal hides.	Person/Thing	
+3327	AUTUMN OR HARVEST SEASON	Time	The time during which crops are typically harvested, often co-occuring with the season of autumn.	Other	
+3328	ORANGE (COLOR)	Sense perception	A bright reddish-yellowish colour. 	Property	
+3329	YEARLING (HORSE)	Animals	A young horse between one and two years old.	Person/Thing	
+3330	LENTILS	Agriculture and vegetation	A small seed that is dried and used in cooking.	Person/Thing	
+3331	FASTING	Religion and belief	To consume little or no food for a specific period of time, usually done for religious reasons.	Action/Process	
+3332	PRIEST OR SHAMAN	Religion and belief	A generic way of referring to a person of religious authority, irrespective of specific religious schools.	Person/Thing	
+3333	BELIEF (RELIGIOUS)	Religion and belief	A school of thought rooted in religious beliefs and traditions and used for guiding actions.	Action/Process	
+3334	RITE	Religion and belief	A specific process or action used to practise religious beliefs.	Action/Process	
+3335	SACRED GROVE	Religion and belief	A place in nature believed to hold special religious, magical, etc. powers.	Person/Thing	
+3336	FUNERAL	Religion and belief	The ceremonial act of bidding farewell to a deceased person or animal.	Action/Process	
+3337	BURIAL MOUND	Religion and belief	A mound of earth raised around burial sites/graves.	Person/Thing	
+3338	LIBATE	Religion and belief	The act of pouring a liquid over a site/object in an act of honour.	Action/Process	
+3339	POLAR STAR	The physical world	Referring to Polaris or Alpha Ursae Minoris, a star aligned with earth’s axis of rotation and often used for navigation.	Person/Thing	
+3340	MORNING STAR	The physical world	A name for Venus when it appears before sunrise.	Person/Thing	
+3341	EVENING STAR	The physical world	A name for Venus when it appears after sunset.	Person/Thing	
+3342	URSA MAJOR	The physical world	A large group of stars in the shape of a bear visible on the northern hemisphere.	Person/Thing	
+3343	ORION’S BELT	The physical world	A pattern of three stars in the constellation Orion.	Person/Thing	
