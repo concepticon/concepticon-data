@@ -613,9 +613,9 @@ Dellert-2017-1016-611	611	941	0.037048	geradeaus	geradeaus::ADV	ahead	прямо
 Dellert-2017-1016-612	612	487	-1.113207	vorwärts	vorwärts::ADV	forward	вперёд				FORWARD	2912	
 Dellert-2017-1016-613	613	806	-0.041419	rückwärts	rückwärts::ADV	backward	назад				BACKWARD	2911	
 Dellert-2017-1016-614	614	503	-1.174261	zurück	zurück::ADV	back	обратно				BACK (DIRECTION)	2910	
-Dellert-2017-1016-615	615	170	-1.123445	unten	unten::ADV	below	внизу						BELOW
+Dellert-2017-1016-615	615	170	-1.123445	unten	unten::ADV	below	внизу				LOW	721	
 Dellert-2017-1016-616	616	479	-1.129119	hinab	hinab::ADV	down	вниз				DOWN	1326	
-Dellert-2017-1016-617	617	100	-2.236479	oben	oben::ADV	above	наверху				ABOVE	1741	
+Dellert-2017-1016-617	617	100	-2.236479	oben	oben::ADV	above	наверху				HIGH	1265	
 Dellert-2017-1016-618	618	186	-1.164943	hinauf	hinauf::ADV	up	вверх				UP	1591	
 Dellert-2017-1016-619	619	943	0.039972	überall	überall::ADV	everywhere	везде				EVERYWHERE	2999	
 Dellert-2017-1016-620	620	6	-3.362623	nicht	nicht::ADV	not	не				NOT	1240	
@@ -630,7 +630,7 @@ Dellert-2017-1016-628	628	495	-1.196058	wieder	wieder::ADV	again	опять				A
 Dellert-2017-1016-629	629	839	-0.028218	vergebens	vergebens::ADV	in vain	напрасно				IN VAIN	1765	
 Dellert-2017-1016-630	630	349	-1.133895	vor	vor::PRP	in front of	перед				IN FRONT OF	1883	
 Dellert-2017-1016-631	631	250	-1.184184	hinter	hinter::PRP	behind	позади				BEHIND	1686	
-Dellert-2017-1016-632	632	29	-2.297238	unter	unter::PRP	under	под						UNDER
+Dellert-2017-1016-632	632	29	-2.297238	unter	unter::PRP	under	под				BELOW OR UNDER	1485	
 Dellert-2017-1016-633	633	538	-0.077856	durch	durch::PRP	through	сквозь, через	BSP:Fenster,Loch	EX:a window, a hole	НАПР:окно,дыру	THROUGH	97	
 Dellert-2017-1016-634	634	727	-0.047088	neben	neben::PRP	next to	возле				NEXT TO	2917	
 Dellert-2017-1016-635	635	461	-1.162949	zwischen	zwischen::PRP	between	между				BETWEEN	689	
