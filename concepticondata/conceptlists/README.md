@@ -2,6 +2,7 @@
 
 | name | # mapped | % mapped | mergers |
 |:---------------------------------------------------------------------|-----------:|-----------:|----------:|
+| [Abraham-2018-307](Abraham-2018-307.tsv) | 305 | 99 | 0 |
 | [Allen-2007-500](Allen-2007-500.tsv) | 500 | 100 | 1 |
 | [Alpher-1999-151](Alpher-1999-151.tsv) | 151 | 100 | 0 |
 | [Ardila-2007-40](Ardila-2007-40.tsv) | 40 | 100 | 0 |
@@ -9,7 +10,7 @@
 | [Backstrom-1992-210a](Backstrom-1992-210a.tsv) | 210 | 100 | 2 |
 | [Backstrom-1992-210b](Backstrom-1992-210b.tsv) | 205 | 100 | 2 |
 | [Beaufils-2015-18](Beaufils-2015-18.tsv) | 18 | 100 | 0 |
-| [BeijingDaxue-1964-905](BeijingDaxue-1964-905.tsv) | 703 | 77 | 0 |
+| [BeijingDaxue-1964-905](BeijingDaxue-1964-905.tsv) | 713 | 78 | 0 |
 | [Bender-1971-99](Bender-1971-99.tsv) | 98 | 100 | 0 |
 | [Benedict-1976-100](Benedict-1976-100.tsv) | 100 | 100 | 0 |
 | [Bengtson-1994-27](Bengtson-1994-27.tsv) | 27 | 100 | 2 |
@@ -26,15 +27,26 @@
 | [Bowern-2011-204](Bowern-2011-204.tsv) | 204 | 100 | 1 |
 | [Bowern-2012-189](Bowern-2012-189.tsv) | 190 | 100 | 1 |
 | [Bowern-2012-205](Bowern-2012-205.tsv) | 205 | 100 | 2 |
-| [Bowern-2012-644](Bowern-2012-644.tsv) | 479 | 74 | 13 |
+| [Bowern-2012-644](Bowern-2012-644.tsv) | 485 | 75 | 13 |
 | [Bowern-2017-348](Bowern-2017-348.tsv) | 342 | 98 | 0 |
 | [Brinton-1891-21](Brinton-1891-21.tsv) | 21 | 100 | 0 |
 | [Bromley-1967-111](Bromley-1967-111.tsv) | 108 | 97 | 0 |
 | [Buck-1949-1108](Buck-1949-1108.tsv) | 1040 | 93 | 26 |
-| [Bulakh-2013-870](Bulakh-2013-870.tsv) | 869 | 99 | 20 |
+| [Bulakh-2013-870](Bulakh-2013-870.tsv) | 869 | 99 | 19 |
 | [Calero-2002-15](Calero-2002-15.tsv) | 13 | 86 | 0 |
 | [Calude-2011-200](Calude-2011-200.tsv) | 200 | 100 | 0 |
 | [Campbell-1999-100](Campbell-1999-100.tsv) | 100 | 100 | 1 |
+| [Carling-2017-104a](Carling-2017-104a.tsv) | 104 | 100 | 0 |
+| [Carling-2017-10h](Carling-2017-10h.tsv) | 10 | 100 | 0 |
+| [Carling-2017-112e](Carling-2017-112e.tsv) | 110 | 98 | 0 |
+| [Carling-2017-127g](Carling-2017-127g.tsv) | 123 | 96 | 0 |
+| [Carling-2017-209b](Carling-2017-209b.tsv) | 209 | 100 | 0 |
+| [Carling-2017-240c](Carling-2017-240c.tsv) | 220 | 91 | 13 |
+| [Carling-2017-87f](Carling-2017-87f.tsv) | 87 | 100 | 0 |
+| [Carling-2017-87k](Carling-2017-87k.tsv) | 87 | 100 | 0 |
+| [Carling-2017-97d](Carling-2017-97d.tsv) | 96 | 98 | 0 |
+| [Carling-2017-97i](Carling-2017-97i.tsv) | 96 | 98 | 0 |
+| [Carling-2017-97j](Carling-2017-97j.tsv) | 96 | 98 | 0 |
 | [Castro-2015-608](Castro-2015-608.tsv) | 519 | 85 | 10 |
 | [Chacon-2014-142](Chacon-2014-142.tsv) | 128 | 90 | 3 |
 | [Chen-1996-100a](Chen-1996-100a.tsv) | 100 | 100 | 0 |
@@ -48,9 +60,9 @@
 | [Daniels-2016-85](Daniels-2016-85.tsv) | 85 | 100 | 0 |
 | [Davies-1985-116](Davies-1985-116.tsv) | 116 | 100 | 0 |
 | [Deepadung-2015-100](Deepadung-2015-100.tsv) | 100 | 100 | 0 |
-| [Dellert-2017-1016](Dellert-2017-1016.tsv) | 942 | 92 | 1 |
+| [Dellert-2017-1016](Dellert-2017-1016.tsv) | 943 | 92 | 1 |
 | [Dixon-1919-175](Dixon-1919-175.tsv) | 170 | 98 | 39 |
-| [Dolch-1936-220](Dolch-1936-220.tsv) | 185 | 84 | 19 |
+| [Dolch-1936-220](Dolch-1936-220.tsv) | 189 | 85 | 19 |
 | [Dolch-1936-95](Dolch-1936-95.tsv) | 94 | 98 | 1 |
 | [Dolgopolsky-1964-15](Dolgopolsky-1964-15.tsv) | 15 | 100 | 0 |
 | [Dunn-2011-146](Dunn-2011-146.tsv) | 146 | 100 | 0 |
@@ -85,7 +97,7 @@
 | [Heggarty-2005-30b](Heggarty-2005-30b.tsv) | 30 | 100 | 0 |
 | [Heggarty-2014-110](Heggarty-2014-110.tsv) | 108 | 98 | 1 |
 | [Heggarty-2017-200](Heggarty-2017-200.tsv) | 200 | 100 | 0 |
-| [Hill-2017-240](Hill-2017-240.tsv) | 240 | 100 | 1 |
+| [Hill-2017-240](Hill-2017-240.tsv) | 240 | 100 | 0 |
 | [Holman-2008-100](Holman-2008-100.tsv) | 100 | 100 | 0 |
 | [Holman-2008-40](Holman-2008-40.tsv) | 40 | 100 | 0 |
 | [Hooley-1971-128](Hooley-1971-128.tsv) | 127 | 99 | 0 |
@@ -140,8 +152,8 @@
 | [Nicholas-1989-60](Nicholas-1989-60.tsv) | 58 | 96 | 0 |
 | [Norman-2003-40](Norman-2003-40.tsv) | 40 | 100 | 0 |
 | [OGrady-1969-100](OGrady-1969-100.tsv) | 100 | 100 | 0 |
-| [Ogden-1930-100](Ogden-1930-100.tsv) | 72 | 72 | 1 |
-| [Ogden-1930-200](Ogden-1930-200.tsv) | 184 | 92 | 0 |
+| [Ogden-1930-100](Ogden-1930-100.tsv) | 77 | 77 | 1 |
+| [Ogden-1930-200](Ogden-1930-200.tsv) | 185 | 92 | 0 |
 | [Pagel-2007-200](Pagel-2007-200.tsv) | 200 | 100 | 0 |
 | [Pagel-2013-23](Pagel-2013-23.tsv) | 23 | 100 | 0 |
 | [Pagel-2018-200](Pagel-2018-200.tsv) | 200 | 100 | 0 |
@@ -155,7 +167,7 @@
 | [Pozdniakov-2014-100b](Pozdniakov-2014-100b.tsv) | 100 | 100 | 0 |
 | [Ray-1895-26](Ray-1895-26.tsv) | 26 | 100 | 0 |
 | [Rea-1958-100](Rea-1958-100.tsv) | 100 | 100 | 0 |
-| [Reinhard-1970-337](Reinhard-1970-337.tsv) | 295 | 87 | 27 |
+| [Reinhard-1970-337](Reinhard-1970-337.tsv) | 296 | 88 | 27 |
 | [Ringe-1992-100](Ringe-1992-100.tsv) | 100 | 100 | 0 |
 | [Ringe-2002-333](Ringe-2002-333.tsv) | 333 | 100 | 0 |
 | [Robinson-2012-398](Robinson-2012-398.tsv) | 392 | 98 | 0 |
@@ -176,7 +188,7 @@
 | [Starostin-2010-50](Starostin-2010-50.tsv) | 50 | 100 | 0 |
 | [Stokhof-1975-117](Stokhof-1975-117.tsv) | 115 | 98 | 0 |
 | [Struve-2014-100](Struve-2014-100.tsv) | 100 | 100 | 0 |
-| [Sun-1991-1004](Sun-1991-1004.tsv) | 926 | 92 | 12 |
+| [Sun-1991-1004](Sun-1991-1004.tsv) | 927 | 92 | 12 |
 | [Swadesh-1950-165](Swadesh-1950-165.tsv) | 165 | 100 | 0 |
 | [Swadesh-1950-215](Swadesh-1950-215.tsv) | 215 | 100 | 0 |
 | [Swadesh-1952-200](Swadesh-1952-200.tsv) | 200 | 100 | 0 |
@@ -200,7 +212,7 @@
 | [Trask-2000-15](Trask-2000-15.tsv) | 15 | 100 | 0 |
 | [Trick-1983-100](Trick-1983-100.tsv) | 100 | 100 | 0 |
 | [Tryon-1983-200](Tryon-1983-200.tsv) | 200 | 100 | 0 |
-| [Tryon-1983-324](Tryon-1983-324.tsv) | 316 | 97 | 4 |
+| [Tryon-1983-324](Tryon-1983-324.tsv) | 317 | 97 | 3 |
 | [Urban-2011-160](Urban-2011-160.tsv) | 160 | 100 | 1 |
 | [Voorhoeve-1971-125](Voorhoeve-1971-125.tsv) | 115 | 99 | 0 |
 | [Voorhoeve-1975-40](Voorhoeve-1975-40.tsv) | 40 | 100 | 0 |
@@ -216,7 +228,7 @@
 | [Wilkins-1996-41](Wilkins-1996-41.tsv) | 41 | 100 | 0 |
 | [Wilkins-1996-75](Wilkins-1996-75.tsv) | 75 | 100 | 1 |
 | [Wilson-1969-35](Wilson-1969-35.tsv) | 35 | 100 | 0 |
-| [Woll-2010-301](Woll-2010-301.tsv) | 256 | 85 | 2 |
+| [Woll-2010-301](Woll-2010-301.tsv) | 260 | 86 | 2 |
 | [Woodward-1991-100](Woodward-1991-100.tsv) | 100 | 100 | 0 |
 | [Yakhontov-1991-100](Yakhontov-1991-100.tsv) | 100 | 100 | 0 |
 | [Yakhontov-1991-35](Yakhontov-1991-35.tsv) | 35 | 100 | 0 |
@@ -227,5 +239,5 @@
 | [Zorc-1974-100](Zorc-1974-100.tsv) | 100 | 100 | 0 |
 | [vanderWouw-1974-28](vanderWouw-1974-28.tsv) | 28 | 100 | 0 |
 
-(224 rows)
+(236 rows)
 
