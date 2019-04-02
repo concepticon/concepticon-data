@@ -38,6 +38,8 @@ The data underlying the [Concepticon](https://concepticon.clld.org) of the [CLLD
 - **concept_set_meta/** contains lists of metadata, relating concept sets to additional information, e.g. on Wikipedia. 
   These lists are described by accompanying metadata files following the recommendations of the 
   [Model for Tabular Data and Metadata on the Web](http://www.w3.org/TR/tabular-data-model/).
+- **app/** contains data for running the JavaScript-based Concepticon lookup
+  tool.
 
 
 ### Update policy
