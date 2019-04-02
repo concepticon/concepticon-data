@@ -5,8 +5,10 @@
 Period | Name
 --- | ---
 2013- | Johann Mattis List
-2013- | Michael Cysouw
+2013-2018 | Michael Cysouw
 2017- | Simon Greenhill
+2019- | Christoph Rzymski
+2019- | Nathanael Schweikhard
 2015- | Robert Forkel
 
 
@@ -27,7 +29,7 @@ Period    | Grant Name                                                     | Gra
 2015-now  | [ARC Center of Excellence for the Dynamics of Language](http://www.dynamicsoflanguage.edu.au/)                                                               | Center of Excellence for the Dynamics of Language | Australian Research Council                           | CE140100041  | SJG
 2014-2017 | [Glottobank Project](http://glottobank.org)                                             | Marsden Fund                                      | Royal Society of New Zealand                          | 13-UOA-121   | SJG, JML, RF
 2014-now  | [Glottobank Project](http://glottobank.org)                                             |                                                   | Max Planck Institute for the Science of Human history |              | SJG, JML, RF
-2014-2017 | [CLLD Project](http://clld.org)                                                   |                                                   | Max Planck Society                                    |              |
+2014-2017 | [CLLD Project](http://clld.org)                                                   |                                                   | Max Planck Society                                    |              | RF
 
 
 
