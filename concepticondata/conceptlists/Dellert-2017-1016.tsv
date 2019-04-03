@@ -90,7 +90,7 @@ Dellert-2017-1016-88	88	715	-0.077517	Schmutz	Schmutz::N	dirt	грязь	auf Geg
 Dellert-2017-1016-89	89	61	-2.228149	See	See::N	lake	озеро	Binnensee			LAKE	624	
 Dellert-2017-1016-90	90	749	-0.093922	Sumpf	Sumpf::N	swamp	топь	Feuchtgebiet	area of impassable wet land	вязкое труднопроходимое место	SWAMP	1145	
 Dellert-2017-1016-91	91	976	0.082546	Moor	Moor::N	moor	болото	Torfmoor	wasteland covered by heath	торфяное болото	MOORLAND	2962	
-Dellert-2017-1016-92	92	575	-0.008312	Wiese	Wiese::N	meadow	луг	Land mit Grasbewuchs	land covered with grass	поросший травой	PASTURE	649	
+Dellert-2017-1016-92	92	575	-0.008312	Wiese	Wiese::N	meadow	луг	Land mit Grasbewuchs	land covered with grass	поросший травой	GRASSLAND	2819	
 Dellert-2017-1016-93	93	284	-1.195172	Wald	Wald::N	forest	лес				FOREST	420	
 Dellert-2017-1016-94	94	756	-0.081831	Hügel	Hügel::N	hill	холм	möglicherweise bewaldet	possibly wooded	горка	HILL	614	
 Dellert-2017-1016-95	95	763	-0.066956	Anhöhe	Anhöhe::N	elevation	возвышенность	höher gelegenes Gelände	of the ground	более высокое, возвышающееся над окрестностью место	ELEVATION	2936	not distinct from HILL
@@ -215,7 +215,7 @@ Dellert-2017-1016-213	213	489	-1.108177	Gelächter	Gelächter::N	laughter	сме
 Dellert-2017-1016-214	214	657	-0.023141	Glück	Glück::N	happiness	счастье	Glückseligkeit		чувство довольства	HAPPINESS	2941	POS
 Dellert-2017-1016-215	215	831	-0.051489	Kummer	Kummer::N	grief	горе	Trauer, Traurigkeit	sorrow, sadness	сильная печаль	GRIEF	1668	
 Dellert-2017-1016-216	216	731	-0.039648	Wunsch	Wunsch::N	wish	желание	Sehnsucht	longing	стремление к осуществлению чего-нибудь			!WISH (NOUN)
-Dellert-2017-1016-217	217	629	-0.091798	Lust	Lust::N	desire	влечение	Streben nach Besitz	to have something	стремление к обладанию			!DESIRE (LUST)
+Dellert-2017-1016-217	217	629	-0.091798	Lust	Lust::N	desire	влечение	Streben nach Besitz	to have something	стремление к обладанию	LONGING (WISH)	2960	!DESIRE (LUST)
 Dellert-2017-1016-218	218	119	-2.230855	Geist	Geist::N	spirit	дух	Lebensgeist, innere Kraft	inner energy of a being	внутренняя сила или сущность	SPIRIT	53	
 Dellert-2017-1016-219	219	534	-0.084797	Gedanke	Gedanke::N	thought	мысль				THOUGHT	2975	POS
 Dellert-2017-1016-220	220	669	-0.099963	Gedächtnis	Gedächtnis::N	memory	память	Erinnerungsvermögen	human ability to record information	способность запоминать информацию	MEMORY	1018	
@@ -251,7 +251,7 @@ Dellert-2017-1016-249	249	979	0.040639	Gesellschaft	Gesellschaft::N	company	об
 Dellert-2017-1016-250	250	482	-1.120418	Hilfe	Hilfe::N	help	помощь						!HELP (NOUN)
 Dellert-2017-1016-251	251	254	-1.173862	Freund	Freund::N	friend	друг	sehr nahestehender Mensch	person whose company one enjoys	связанный хорошими отношениями НАПР:друг детства	FRIEND	1325	
 Dellert-2017-1016-252	252	908	0.056385	Kamerad	Kamerad::N	companion	приятель	mit dem man Zeit verbringt	with whom one spends time	близкий знакомый			not distinct from FRIEND
-Dellert-2017-1016-253	253	295	-1.16408	Angelegenheit	Angelegenheit::N	matter	дело	Sache, Fall	affair	НАПР:важное дело			maybe AFFAIR
+Dellert-2017-1016-253	253	295	-1.16408	Angelegenheit	Angelegenheit::N	matter	дело	Sache, Fall	affair	НАПР:важное дело	AFFAIR	2214	
 Dellert-2017-1016-254	254	599	-0.059318	Anzahl	Anzahl::N	count	количество	zählbarer Dinge	quantity counted	множество, число НАПР:количество/число гостей	COUNT (QUANTITY)	2945	
 Dellert-2017-1016-255	255	298	-1.152476	Art	Art::N	sort	вид	Sorte	type	разновидность	KIND (THING)	844	
 Dellert-2017-1016-256	256	362	-1.105774	Stück	Stück::N	piece	кусок	abtrennbarer Teil eines Ganzen	separable part of a larger whole	отделённая часть чего-л. НАПР:кусок мяса	PIECE	594	
@@ -345,9 +345,9 @@ Dellert-2017-1016-343	343	637	-0.072639	Sack	Sack::N	sack	мешок			НАПР:
 Dellert-2017-1016-344	344	930	0.059295	Tasse	Tasse::N	cup	чашка				CUP	476	
 Dellert-2017-1016-345	345	919	0.039835	Topf	Topf::N	pot	кастрюля	Kochtopf	vessel for cooking		POT	1462	
 Dellert-2017-1016-346	346	363	-1.105024	Kessel	Kessel::N	kettle	котёл				KETTLE	854	
-Dellert-2017-1016-347	347	559	-0.045695	Essen	Essen::N	meal	еда	Nahrungsaufnahme	process of food intake	приём пищи	MEAL	1526	
+Dellert-2017-1016-347	347	559	-0.045695	Essen	Essen::N	meal	еда	Nahrungsaufnahme	process of food intake	приём пищи			
 Dellert-2017-1016-348	348	564	-0.038161	Nahrung	Nahrung::N	food	пища				FOOD	256	
-Dellert-2017-1016-349	349	890	0.048027	Speise	Speise::N	dish	блюдо						
+Dellert-2017-1016-349	349	890	0.048027	Speise	Speise::N	dish	блюдо				MEAL	1526	
 Dellert-2017-1016-350	350	141	-2.228815	Fleisch	Fleisch::N	meat	мясо	Nahrungsmittel			MEAT	634	
 Dellert-2017-1016-351	351	845	-0.000722	Getreide	Getreide::N	corn	злак		cereal plant grown for its grain				GRAIN (PLANT)
 Dellert-2017-1016-352	352	330	-1.176774	Brei	Brei::N	mush	каша				MUSH	400	
@@ -399,7 +399,7 @@ Dellert-2017-1016-397	397	923	0.007225	Fieber	Fieber::N	fever	лихорадка
 Dellert-2017-1016-398	398	648	-0.043546	Arznei	Arznei::N	medicine	лекарство		drug		MEDICINE	1372	
 Dellert-2017-1016-399	399	88	-2.287016	Brücke	Brücke::N	bridge	мост				BRIDGE	1011	
 Dellert-2017-1016-400	400	427	-1.147663	Brunnen	Brunnen::N	well	колодец	zur Gewinnung von Wasser	source of water	для добывания воды	WELL	954	
-Dellert-2017-1016-401	401	940	0.030483	Weide	Weide::N	pasture	пастбище	Viehweide					
+Dellert-2017-1016-401	401	940	0.030483	Weide	Weide::N	pasture	пастбище	Viehweide			PASTURE	649	
 Dellert-2017-1016-402	402	683	-0.057681	Pfad	Pfad::N	path	тропа	schmaler Weg für Fußgänger	trail used by pedestrians	дорожка, тропинка, узкая дорога для пешеходов	PATH	2252	
 Dellert-2017-1016-403	403	89	-2.285233	Weg	Weg::N	way	путь	Verbindung zwischen Orten	connection between places	маршрут, линия в пространстве, где что-либо передвигается НАПР:водный путь	PATH OR ROAD	2457	
 Dellert-2017-1016-404	404	632	-0.086574	Straße	Straße::N	road	дорога	befestigter Weg für Fahrzeuge	way for travelling by vehicle	путь для транспорта	ROAD	667	
@@ -584,7 +584,7 @@ Dellert-2017-1016-582	582	808	-0.03506	letzter	letzter::A	last	последни�
 Dellert-2017-1016-583	583	342	-1.150599	allein	allein::ADV	alone	один				ALONE	1964	
 Dellert-2017-1016-584	584	1002	1.123114	auf einmal	auf einmal::ADV	at once	сразу		in one go		IMMEDIATELY	1963	
 Dellert-2017-1016-585	585	718	-0.071647	zusammen	zusammen::ADV	together	вместе				TOGETHER	2482	
-Dellert-2017-1016-586	586	562	-0.040105	lange	lange::ADV	long	долго						
+Dellert-2017-1016-586	586	562	-0.040105	lange	lange::ADV	long	долго				FOR A LONG TIME	418	
 Dellert-2017-1016-587	587	972	0.093543	plötzlich	plötzlich::ADV	suddenly	вдруг				SUDDENLY	2920	
 Dellert-2017-1016-588	588	992	1.118757	sofort	sofort::ADV	instantly	тотчас				INSTANTLY (IMMEDIATELY)	2916	
 Dellert-2017-1016-589	589	774	-0.033797	später	später::ADV	later	позже						
@@ -684,7 +684,7 @@ Dellert-2017-1016-682	682	511	-1.150125	passieren	passieren::V	happen	случи
 Dellert-2017-1016-683	683	365	-1.196821	beginnen	beginnen::V	begin	начаться	anfangen zu bestehen	start existing	начать существовать			
 Dellert-2017-1016-684	684	269	-1.134073	enden	enden::V	end	кончиться	aufhören zu bestehen	stop existing	перестать существовать	CEASE	1928	
 Dellert-2017-1016-685	685	597	-0.063613	wechseln	wechseln::V	change	меняться	zu etwas anderem werden	become something different	стать чем-то другим, НАПР:о погоде	CHANGE (BECOME DIFFERENT)	2857	
-Dellert-2017-1016-686	686	553	-0.050231	aufgehen[Sonne]	aufgehen[Sonne]::V	rise	взойти		of the sun	о солнце			RISE (HEAVENLY BODIES)
+Dellert-2017-1016-686	686	553	-0.050231	aufgehen[Sonne]	aufgehen[Sonne]::V	rise	взойти		of the sun	о солнце	RISE (MOVE UPWARDS)	568	RISE (HEAVENLY BODIES)
 Dellert-2017-1016-687	687	462	-1.162021	untergehen[Sonne]	untergehen[Sonne]::V	set	зайти		of the sun	о солнце	SET (HEAVENLY BODIES)	160	
 Dellert-2017-1016-688	688	383	-1.162861	scheinen[Sonne]	scheinen[Sonne]::V	shine	светить		of the sun	о солнце	SHINE	708	
 Dellert-2017-1016-689	689	524	-1.116719	donnern	donnern::V	thunder	греметь	Donner	BSP:``it thundered''	о громе	THUNDER (VERB)	2378	
@@ -740,7 +740,7 @@ Dellert-2017-1016-738	738	642	-0.05728	schlucken	schlucken::V	swallow	глота
 Dellert-2017-1016-739	739	716	-0.076751	müde werden	müde werden::V	get tired	устать				GET TIRED	1996	
 Dellert-2017-1016-740	740	728	-0.045952	einschlafen	einschlafen::V	fall asleep	заснуть				FALL ASLEEP	1106	
 Dellert-2017-1016-741	741	71	-2.265508	schlafen	schlafen::V	sleep	спать				SLEEP	1585	
-Dellert-2017-1016-742	742	709	-0.098964	aufwachen	aufwachen::V	wake up	проснуться						
+Dellert-2017-1016-742	742	709	-0.098964	aufwachen	aufwachen::V	wake up	проснуться				WAKE UP	1602	
 Dellert-2017-1016-743	743	326	-1.186819	aufstehen	aufstehen::V	get up	встать	vom Bett	rise from one's bed	с постели			
 Dellert-2017-1016-744	744	889	0.045065	sich erholen	sich erholen::V	relax	отдыхать	entspannen	recreate		REST	168	
 Dellert-2017-1016-745	745	982	0.017206	krank werden	krank werden::V	fall ill	заболеть			захворать	BECOME SICK	2327	
@@ -781,8 +781,8 @@ Dellert-2017-1016-779	779	16	-2.255592	kommen	kommen::V	come	прийти	sich h
 Dellert-2017-1016-780	780	579	-0.095781	ankommen	ankommen::V	arrive	прибыть	sein Ziel erreichen	reach one's destination	достигнуть пункта назначения	ARRIVE	1387	
 Dellert-2017-1016-781	781	904	0.04352	zurückkommen	zurückkommen::V	come back	возвратиться	wieder an den Ausgangspunkt kommen	return to a place	вернуться на то же место	COME BACK	581	
 Dellert-2017-1016-782	782	70	-2.272659	bleiben	bleiben::V	stay	остаться	an einem Ort	remain in a place	в прежнем месте	REMAIN	987	
-Dellert-2017-1016-783	783	305	-1.144536	warten	warten::V	wait	ожидать	untätig sein, bis etwas passiert	delay action until something happens	проводить время, ожидая какого-то события НАПР:ждать грозы			
-Dellert-2017-1016-784	784	460	-1.163951	erwarten	erwarten::V	await	ждать	auf jemanden warten	wait for someone	кого-либо	WAIT (FOR)	1590	
+Dellert-2017-1016-783	783	305	-1.144536	warten	warten::V	wait	ожидать	untätig sein, bis etwas passiert	delay action until something happens	проводить время, ожидая какого-то события НАПР:ждать грозы	WAIT (FOR)	1590	
+Dellert-2017-1016-784	784	460	-1.163951	erwarten	erwarten::V	await	ждать	auf jemanden warten	wait for someone	кого-либо			
 Dellert-2017-1016-785	785	477	-1.13323	suchen	suchen::V	look for	искать	versuchen zu finden	seek, attempt to find	пытаться найти	LOOK FOR	1468	
 Dellert-2017-1016-786	786	105	-2.209385	finden	finden::V	find	найти	etwas Gesuchtes	locate something searched for	в результате поисков	FIND	719	
 Dellert-2017-1016-787	787	880	0.004959	versuchen	versuchen::V	try	пытаться	etwas zu tun	attempt		TRY	1812	
@@ -807,7 +807,7 @@ Dellert-2017-1016-805	805	911	0.072342	probieren	probieren::V	taste	пробов
 Dellert-2017-1016-806	806	733	-0.034779	riechen	riechen::V	smell	нюхать	den Geruch wahrnehmen von	sense the smell of	воспринимать запах чего-либо	SMELL (PERCEIVE)	1586	
 Dellert-2017-1016-807	807	414	-1.181685	fühlen	fühlen::V	feel	чувствовать	spüren	sense	ощущать	FEEL (TACTUALLY)	2559	
 Dellert-2017-1016-808	808	664	-0.004274	scheinen	scheinen::V	seem	казаться	den Anschein haben	appear, be perceived as	производить впечатление	SEEM	1521	
-Dellert-2017-1016-809	809	696	-0.038833	zu sehen sein	zu sehen sein::V	show	виднеться	sichtbar sein	be visible	быть видным			
+Dellert-2017-1016-809	809	696	-0.038833	zu sehen sein	zu sehen sein::V	show	виднеться	sichtbar sein	be visible	быть видным	VISIBLE	1868	
 Dellert-2017-1016-810	810	556	-0.047446	vernehmen	vernehmen::V	hear	услышать, узнать	erfahren, zu hören bekommen	receive information about	получить информацию о			
 Dellert-2017-1016-811	811	917	0.026774	frieren	frieren::V	be cold	холодно	Kälte verspüren	feel the sensation of coldness	об ощущении холода, НАПР:``мне холодно''			
 Dellert-2017-1016-812	812	570	-0.020458	tun	tun::V	do	делать	BSP:``was tust du?''	EX:``what are you doing?''	НАПР:``что ты делаешь?''	DO	813	
@@ -820,7 +820,7 @@ Dellert-2017-1016-818	818	863	-0.094677	gelingen	gelingen::V	succeed	удать�
 Dellert-2017-1016-819	819	817	-0.077539	geraten	geraten::V	turn out	оказаться	ausfallen, sich herausstellen als	result, end up	получаться	RESULT IN	1723	
 Dellert-2017-1016-820	820	117	-2.23593	öffnen	öffnen::V	open	открыть	BSP:ein Fenster	EX:a window	НАПР:окно	OPEN	1156	
 Dellert-2017-1016-821	821	338	-1.159273	schließen	schließen::V	close	закрыть	BSP:ein Fenster	EX:a window	НАПР:окно	SHUT	1046	
-Dellert-2017-1016-822	822	51	-2.280914	stellen	stellen::V	put	поставить	aufrecht hinstellen, BSP:ein Glas	in upright position, EX:a glass	поместить вертикально, НАПР:стакан	PUT	998	
+Dellert-2017-1016-822	822	51	-2.280914	stellen	stellen::V	put	поставить	aufrecht hinstellen, BSP:ein Glas	in upright position, EX:a glass	поместить вертикально, НАПР:стакан			
 Dellert-2017-1016-823	823	160	-1.155292	setzen	setzen::V	place	посадить	in eine sitzende Position bringen	cause someone to sit	сделать так, чтобы кто-либо сел			
 Dellert-2017-1016-824	824	80	-2.211545	legen	legen::V	lay	класть	BSP:Geld auf einen Tisch	EX:money onto a table	НАПР:деньги на стол	LAY (VERB)	2071	
 Dellert-2017-1016-825	825	496	-1.19588	berühren	berühren::V	touch	трогать	in körperlichen Kontakt kommen mit	make physical contact with	прикасаться	TOUCH	1892	
@@ -905,7 +905,7 @@ Dellert-2017-1016-903	903	261	-1.142721	loben	loben::V	praise	хвалить				
 Dellert-2017-1016-904	904	724	-0.051244	küssen	küssen::V	kiss	целовать				KISS	578	
 Dellert-2017-1016-905	905	615	-0.033801	wiegen	wiegen::V	rock	качать	ein Kind in den Schlaf	a child	ребёнка			
 Dellert-2017-1016-906	906	308	-1.141124	zudecken	zudecken::V	cover	накрыть	BSP:ein Kind mit einer Decke	EX:a child with a blanket	НАПР:ребёнка одеялом			
-Dellert-2017-1016-907	907	388	-1.142837	wecken	wecken::V	wake	разбудить				WAKE UP	1602	
+Dellert-2017-1016-907	907	388	-1.142837	wecken	wecken::V	wake	разбудить				WAKE UP (SOMEONE)	3174	
 Dellert-2017-1016-908	908	340	-1.154715	zeigen	zeigen::V	show	показать				SHOW	1039	
 Dellert-2017-1016-909	909	508	-1.157343	führen	führen::V	guide	вести	BSP:ans Ziel	EX:to one's destination	НАПР:к цели			
 Dellert-2017-1016-910	910	369	-1.191239	lehren	lehren::V	teach	учить	beibringen, BSP:Schwimmen, Nähen	EX:to swim, to sew	НАПР:плавать, шитью	TEACH	709	
@@ -956,7 +956,7 @@ Dellert-2017-1016-954	954	276	-1.118999	anbinden	anbinden::V	tie up	привяз
 Dellert-2017-1016-955	955	528	-1.106449	füttern	füttern::V	feed	кормить	ein Tier	an animal	животное	FEED	739	
 Dellert-2017-1016-956	956	249	-1.186193	melken	melken::V	milk	доить	eine Kuh	a cow	корову	DRAW MILK	93	
 Dellert-2017-1016-957	957	621	-0.006171	hacken	hacken::V	chop	рубить	BSP:Kohl	EX:kale	НАПР:капусту	CHOP (INTO PIECES)	2149	
-Dellert-2017-1016-958	958	323	-1.187874	gießen	gießen::V	water	полить	BSP:Blumen	EX:flowers	НАПР:цветы			
+Dellert-2017-1016-958	958	323	-1.187874	gießen	gießen::V	water	полить	BSP:Blumen	EX:flowers	НАПР:цветы	WATER	3078	
 Dellert-2017-1016-959	959	589	-0.072859	reifen	reifen::V	ripen	созреть	von einer Pflanze, einer Frucht	of a plant, of a fruit	о растении, о плоде	RIPEN	179	
 Dellert-2017-1016-960	960	585	-0.0835	zubereiten	zubereiten::V	cook	приготовить	BSP:eine Speise	EX:a meal	НАПР:блюдо	COOK (SOMETHING)	1100	
 Dellert-2017-1016-961	961	136	-2.247943	kochen	kochen::V	boil	варить	BSP:Gemüse	EX:vegetables	НАПР:овощи	BOIL (SOMETHING)	2492	
