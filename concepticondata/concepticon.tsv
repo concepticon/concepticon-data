@@ -55,7 +55,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 54	SHRINK	The physical world	To decrease in size, range, or extent.	Action/Process	
 55	WHISPER	Speech and language	To speak in a quiet voice, without vibration of the vocal cords.	Action/Process	
 56	BAD LUCK	Emotions and values	An undesirable event such as an accident.	Person/Thing	
-57	ATOP	Spatial relations	In a higher position, with respect to a lower one.	Other	
+57	ATOP	Spatial relations	To be situated on something.	Other	
 58	LIQUID	The physical world	Existing as or having characteristics of a liquid.	Property	
 59	ELECTRICITY	Modern world	A general term used for all phenomena caused by electric charge whether static or in motion.	Person/Thing	
 60	OAT	Agriculture and vegetation	A species of grass (Avena sativa) grown for its seed.	Person/Thing	
@@ -426,8 +426,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 425	BE LATE	Time	To be later than the expected time.	Property	
 426	MARRIED WOMAN	Kinship	A married woman.	Person/Thing	
 427	YOUNGER SIBLING	Kinship	A person who is born after another person who has the same parents.	Person/Thing	
-428	BE MANY	Quantity	existence of an indefinite large number of someone or something.	Other	
-429	SWIDDEN FIELD	Agriculture and vegetation	a piece of land cleared for farming by burning away vegetation.	Person/Thing	
+428	BE MANY	Quantity	Existence of an indefinite large number of someone or something.	Other	1198
+429	SWIDDEN FIELD	Agriculture and vegetation	A piece of land cleared for farming by burning away vegetation.	Person/Thing	
 430	TWIST	Motion	To wind something around something else or several things around each other.	Action/Process	
 431	UPPER ARM	The body	the part of the arm between the shoulder and the elbow.	Person/Thing	
 432	BLOWGUN	Warfare and hunting	A pipe or tube through which darts or other missiles are blown by the breath.	Person/Thing	
@@ -510,11 +510,11 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 509	CERTAIN	Cognition	Without any doubt or possibility of deviation.	Property	
 510	STRONG EFFECT	Sense perception	Having a strong physiological or chemical effect.	Property	
 511	BAOZI	Food and drink	A baozi or simply known as bao, bau, humbow, nunu, bausak, pow or pau is a type of steamed, filled bun or bread-like (i.e. made with yeast) item in various Chinese cuisines.	Person/Thing	
-512	SEE A DOCTOR	Motion	to see a doctor	Action/Process	
-513	THIS YEAR	Time	this year	Other	
-514	LAST YEAR	Time	last year	Other	
-515	NEXT YEAR	Time	next year	Other	
-516	PERSON (CLASSIFIER)	Quantity	classifier for persons	Classifier	
+512	SEE A DOCTOR	Motion	To go to a doctor.	Action/Process	
+513	THIS YEAR	Time	The current year.	Other	
+514	LAST YEAR	Time	The year before the current one.	Other	
+515	NEXT YEAR	Time	The year after the current one.	Other	
+516	PERSON (CLASSIFIER)	Quantity	Classifier for human beings.	Classifier	
 517	FIREDRILL	Motion	A fire drill is a method of practicing the evacuation of a building for a fire or other emergency.	Person/Thing	
 518	SPARK	The physical world	A small particle or body of shining or glowing matter, either molten or on fire.	Person/Thing	
 519	SPOT	The physical world	A round or irregular patch on the surface of a thing having a different color, texture etc. and generally round in shape.	Person/Thing	
@@ -680,7 +680,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 679	BRIGHT	Sense perception	Emitting or reflecting light readily or in large amounts. [WN:679]	Property	
 680	BREAK (DESTROY OR GET DESTROYED)	Basic actions and technology	To divide or be divided into pieces and thereby damaged.	Action/Process	
 681	DESTROY	Possession	To damage beyond use or repair.	Action/Process	
-682	SIDE	Spatial relations	One side of a leaf of a book or manuscript.	Person/Thing	
+682	SIDE	Spatial relations	The side of an object or person.	Person/Thing	
 683	PERSON	Kinship	A human being.	Person/Thing	
 684	OWN	Possession	To have rightful possession of property, goods or capital.	Action/Process	
 685	DECIDE	Cognition	To reach, make, or come to a decision about something.	Action/Process	
@@ -691,7 +691,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 690	BOTTOM	The physical world	The part furthest in the direction toward which an unsupported object would fall.	Person/Thing	
 691	SEASON	Time	One of the four equal periods into which the year is divided by the equinoxes and solstices, resulting from the apparent movement of the sun north and south of the equator during the course of the earth's orbit around it. These periods (spring, summer, autumn and winter) have their characteristic weather conditions in different regions, and occur at opposite times of the year in the N and S hemispheres.	Person/Thing	
 692	BRING	Motion	To transport toward somewhere; to take something or somebody with oneself somewhere.	Action/Process	
-693	FROM	Spatial relations	Indicates the source or provenance.	Other	
+693	FROM	Spatial relations	Starting at a given point in space or time.	Other	
 694	GET	Possession	To get or obtain an item; to come into the possession of something.	Action/Process	
 695	GO	Motion	To move something from a place to another that is further away.	Action/Process	
 696	STIR	Food and drink	To stir two or more substances together.	Action/Process	
@@ -709,7 +709,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 708	SHINE	Sense perception	To emit light.	Action/Process	
 709	TEACH	Cognition	To pass on knowledge and skills.	Action/Process	
 710	WHEEL	Motion	A circular object that spins around a central axe thereby allowing relatively low-friction movement.	Person/Thing	
-711	TALL	Spatial relations	Having a vertical extent greater than the average; Having the upper end, tip, top, head, etc. a long way up; Having a great vertical extent (often greater than the horizontal extent); High.	Property	
+711	TALL	Spatial relations	Having a vertical extent greater than the average.	Property	
 712	RICH	Possession	Possessing in abundance a particular trait.	Property	
 713	STEAL	Law	To take possession of property belonging to another without the consent of this owner; most typically when not observed, rather than by force.	Action/Process	
 714	SEED	Agriculture and vegetation	A mature fertilized plant ovule, consisting of an embryo and its food store surrounded by a protective seed coat (testa).	Person/Thing	
@@ -719,7 +719,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 718	PAY	Possession	To give money in exchange for goods or services.	Action/Process	
 719	FIND	Possession	To encounter something by accident or after searching for it.	Action/Process	
 720	GOOD LUCK	Emotions and values	Something positive that happens to someone by chance.	Person/Thing	
-721	LOW	Spatial relations	In a position comparatively close to the ground.	Property	
+721	LOW	Spatial relations	Being in a position comparatively close to the ground.	Property	
 722	ATTACK	Warfare and hunting	The application of violent force to someone or something.	Person/Thing	
 723	PLACE (POSITION)	Spatial relations	A position or area in a space.	Person/Thing	
 724	READ	Speech and language	To look at and interpret letters or other information that is written.	Action/Process	
@@ -1263,7 +1263,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1262	BROTHER	Kinship	A male person who has the same parents as another person.	Person/Thing	
 1263	SISTER	Kinship	A female person who has the same parents as another person.	Person/Thing	
 1264	CHANGE	Spatial relations	To make different.	Action/Process	
-1265	HIGH	Spatial relations	Having relatively great height.	Property	
+1265	HIGH	Spatial relations	Being in a position comparatively far above to the ground.	Property	
 1266	BRIDE	Kinship	A woman who is going to get married or has just got married.	Person/Thing	
 1267	NARROW	Spatial relations	(Of a path, cave etc.) having a small width.	Property	
 1268	YES	Cognition	A word used to show agreement or affirmation of something.	Other	
@@ -1324,7 +1324,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1323	CLOCK	Time	An instrument used to measure or keep track of time.	Person/Thing	
 1324	SLIP	Motion	To fall over (usually unexpectedly) onto the ground or floor, due to the floor being slippery, smooth or slimy.	Action/Process	
 1325	FRIEND	Social and political relations	A person other than a family member, spouse or lover whose company one enjoys and towards whom one feels affection.	Person/Thing	
-1326	DOWN	Spatial relations	From an higher position to a lower one.	Other	
+1326	DOWN	Spatial relations	Moving to a lower position.	Other	
 1327	UNCLE	Kinship	The brother of someone’s father or mother.	Person/Thing	
 1328	SCISSORS	Basic actions and technology	A tool used for cutting thin material, consisting of two crossing blades attached at a pivot point in such a way that the blades slide across each other when the handles are closed.	Person/Thing	356
 1329	TOMORROW	Time	The day after the present day.	Other	
@@ -1338,7 +1338,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1337	PIG	Animals	A common, four-legged animal (Sus scrofa) that has cloven hooves, bristles and a nose adapted for digging and is farmed by humans for its meat.	Person/Thing	
 1338	PEACE	Warfare and hunting	A state free of war, in particular war between different countries.	Person/Thing	
 1339	MORNING	Time	The period of time from the start of the day (midnight) until midday (12:00).	Person/Thing	
-1340	WITH	Miscellaneous function words	In the company of	Other	
+1340	WITH	Miscellaneous function words	In the company of.	Other	
 1341	HEAT UP	The physical world	To cause an increase in temperature of an object or space; to cause something to become hot.	Action/Process	
 1342	SUMMER	Time	Traditionally the second of the four seasons regarded as being from June 21 to September 20 (or just June, July and August) in the Northern Hemisphere and from December 21 to March 20 (or just December, January and February) in the Southern Hemisphere.	Person/Thing	
 1343	SUN	The physical world	The particular star at the centre of our solar system, from which the Earth gets light and heat.	Person/Thing	
@@ -1458,8 +1458,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1457	SEW	Clothing and grooming	To pass thread repeatedly through fabric or a material, using a needle, in order to join two or more parts or to make a pattern or motif.	Action/Process	
 1458	SAY	Speech and language	To utter specific words or notions.	Action/Process	
 1459	IF	Cognition	[The introduction of a condition or decision.]	Other	
-1460	IN	Spatial relations	Contained or encased by.	Other	
-1461	AT	Spatial relations	With very little distance to or in a particular place or location.	Other	
+1460	IN	Spatial relations	Contained or encased by something.	Other	
+1461	AT	Spatial relations	To be in a particular place or location.	Other	
 1462	POT	Food and drink	A generic kitchen utensil used for cooking food by boiling, frying or other methods.	Person/Thing	
 1463	DRUNK	The body	Being in a temporary state in which one's physical and mental faculties are impaired due to excessive consumption of alcohol.	Property	
 1464	LADDER	The house	A frame usually portable, of wood, metal, or rope, for ascent and descent, consisting of two vertical side pieces to which are horizontally fastened cross strips or rounds forming steps.	Person/Thing	
@@ -1483,7 +1483,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1482	SHOULDER	The body	One side of the top of the torso, where an arm attaches or joins.	Person/Thing	
 1483	NINE	Quantity	The natural number nine (9).	Number	
 1484	OIL (ORGANIC SUBSTANCE)	Food and drink	Fat from animals or plants in a liquid form.	Person/Thing	
-1485	BELOW OR UNDER	Spatial relations	Lower in spatial position than.	Other	
+1485	BELOW OR UNDER	Spatial relations	Situated in a lower place than something else.	Other	
 1486	PLANT (SOMETHING)	Agriculture and vegetation	To put a plant in the ground so that it strikes root and grows.	Action/Process	
 1487	POUR	Basic actions and technology	To cause a liquid to flow into a container.	Action/Process	
 1488	FAUCET	Modern world	A device applied to the end of a pipe in order to interrupt and regulate the flow of a liquid or gas.	Person/Thing	
@@ -1589,7 +1589,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1588	TURN	Motion	To change direction of movement.	Action/Process	
 1589	HUMMINGBIRD	Animals	A small bird in the family Trochilidae.	Person/Thing	
 1590	WAIT (FOR)	Motion	To refrain from acting or moving for some duration or until some event occurs.	Action/Process	
-1591	UP	Spatial relations	The direction that is away from the centre of the Earth.	Other	
+1591	UP	Spatial relations	Moving to a higher position.	Other	
 1592	CHEST	The body	The portion of the body from the base of the neck to the top of the abdomen; the thorax.	Person/Thing	
 1593	DEEP	Spatial relations	Having a bottom or base that is far away from the top.	Property	
 1594	FLOUR	Food and drink	Ground or milled grain or cereal.	Person/Thing	
@@ -1604,7 +1604,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1603	MOSQUE	Religion and belief	A place of worship for followers of the Islamic faith.	Person/Thing	
 1604	TEMPLES	The body	The region of the skull on either side of the forehead.	Person/Thing	
 1605	SKULL	The body	The main bone of the head; the cranium.	Person/Thing	
-1606	INSIDE	Spatial relations	Within the confines of something.	Other	
+1606	INSIDE	Spatial relations	Contained or encased by something or inside a building as opposed to outside in the open air.	Other	
 1607	HATE	Emotions and values	To dislike intensely; to feel strong hostility towards.	Action/Process	
 1608	LISTEN	Sense perception	To perceive with the ear (paying attention to what is heard).	Action/Process	
 1609	IDEA	Cognition	A plan or notion that is formed and exists in the mind as a result of mental activity.	Person/Thing	
@@ -1739,7 +1739,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1738	TWENTY FIVE	Quantity	The natural number twenty-five (25).	Number	
 1739	DECORATE	Clothing and grooming	To make more attractive by adding ornament, colour, etc.	Action/Process	
 1740	PINE	Agriculture and vegetation	Evergreen coniferous tree of the genus Pinus.	Person/Thing	
-1741	ABOVE	Spatial relations	In or to a higher place; higher than; on or over the upper surface.	Other	
+1741	ABOVE	Spatial relations	Situated in a higher place than something else.	Other	
 1742	TRAVERSE	Motion	To go or pass through something.	Action/Process	
 1743	JOIN	Spatial relations	To join or unite, as one thing to another, or as several particulars, so as to increase the number, augment the quantity, enlarge the magnitude, or so as to form into one aggregate; to sum up; to put together mentally, as, to add numbers; to add up a column.	Action/Process	
 1744	SPLEEN	The body	A ductless vascular gland, located in the left upper abdomen near the stomach.	Person/Thing	
@@ -1814,7 +1814,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1813	TASTY	Food and drink	Pleasing to the sense of taste.	Property	
 1814	ACCUSE	Law	To lay a charge against; bring an accusation against.	Action/Process	
 1815	ACHE	The body	To be in continuous pain.	Action/Process	
-1816	BESIDE	Spatial relations	Having the position next to a given place, location or object	Other	
+1816	BESIDE	Spatial relations	To be positioned at the side of a given object.	Other	
 1817	WEST	Spatial relations	One of the four principal compass points, specifically 270°, conventionally directed to the left on maps. The direction of the setting sun.	Person/Thing	
 1818	ADJUDICATE	Law	To act as a judge.	Action/Process	
 1819	LOOK	Sense perception	To actively use one's eyes.	Action/Process	
@@ -2377,7 +2377,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2376	HORIZONTAL	Spatial relations	Plane is said to be horizontal at a given point if it is perpendicular to the gradient of the gravity field at that point— in other words, if apparent gravity makes a plumb bob hang perpendicular to the plane at that point.	Property	
 2377	FLASH (VERB)	The physical world	The process by which flashes of light are caused by the discharge of atmospheric electrical charge.	Action/Process	
 2378	THUNDER (VERB)	The physical world	The process producing the noise after a lightning.	Action/Process	
-2379	UP OR ABOVE	Spatial relations	Moving from a lower position to a higher one, or being at a higher position.	Other	
+2379	UP OR ABOVE	Spatial relations	Moving from a lower position to a higher one or being at a higher position.	Other	
 2380	BROTHER-IN-LAW (OF MAN)	Kinship	The brother of a man's partner in a marriage.	Person/Thing	
 2381	FEATHER OR FUR OR HAIR	The body	The cover of a mammal or a bird.	Person/Thing	
 2382	BLUE OR GREEN	Sense perception	Having green or blue as color.	Property	
@@ -2398,7 +2398,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2397	LOBSTER	Animals	Clawed lobsters comprise a family (Nephropidae, sometimes also Homaridae) of large marine crustaceans.	Person/Thing	
 2398	MANGO	Agriculture and vegetation	The fruit from the Mango tree.	Person/Thing	
 2399	GRANDPARENT	Kinship	Either the grandfather or the grandmother.	Person/Thing	305
-2400	THEIR	Possession	belonging to the third person that is addressed (of many people)	Other	
+2400	THEIR	Possession	Belonging to the third person that is addressed (of many people).	Other	
 2401	PICTURE	Modern world	A photograph or a painting.	Person/Thing	
 2402	ROBIN	Animals	The European robin (Erithacus rubecula), most commonly known in Anglophone Europe simply as the robin, is a small insectivorous passerine bird, specifically a chat, that was formerly classed as a member of the thrush family (Turdidae), but is now considered to be an Old World flycatcher.	Person/Thing	
 2403	TOY	Modern world	A toy is an item that can be used for play.	Person/Thing	
@@ -2482,7 +2482,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2481	FEMALE DOG	Animals	A female dog.	Person/Thing	
 2482	TOGETHER	Spatial relations	In proximity to each other (of two things).	Other	
 2483	COLD (OF WEATHER)	Sense perception	Having a low temperature (of the weather).	Property	
-2484	SMALL (NOT TALL)	Spatial relations	Small in height of objects (especially persons).	Property	
+2484	SMALL (NOT TALL)	Spatial relations	Small in height (of persons).	Property	
 2485	HIDE (ONESELF)	Spatial relations	To put oneself in a place where one cannot be found.	Action/Process	
 2486	HIDE	Spatial relations	To put oneself in a place where one cannot be found, or an object so that the object is hidden.	Action/Process	
 2487	MALE PIG	Animals	A male pig.	Person/Thing	
@@ -2750,8 +2750,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2749	UNHUSKED RICE	Agriculture and vegetation	The unhusked crops of the rice plant.	Person/Thing	
 2750	GLUTINOUS RICE	Agriculture and vegetation	A type of rice grown mainly in Southeast and East Asia and the eastern parts of South Asia, which has opaque grains, very low amylose content, and is especially sticky when cooked. Also called oryza sativa var. glutinosa, sticky rice, sweet rice or waxy rice.	Person/Thing	
 2751	BY (PASSIVE MARKER)	Basic actions and technology	Marker of the agent in a passive sentence.	Other	
-2753	UNTIL	Time	Preposition marking the end of a period.	Other	
-2754	TOWARDS	Spatial relations	Preposition marking the goal of direction.	Other	
+2753	UNTIL	Time	Up to that point in time.	Other	
+2754	TOWARDS	Spatial relations	Going into the direction of.	Other	
 2755	BUSY	Time	The state of being occupied with something.	Property	
 2756	IDLE	Time	The state of not being occupied with anything.	Person/Thing	
 2757	ANGULAR (SQUAREFORMED)	Spatial relations	Having the form of a square.	Person/Thing	
@@ -2784,7 +2784,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2787	CONSUME (DRINK OR EAT)	Food and drink	To consume food or drink.	Action/Process	
 2788	LADLE (WATER)	Food and drink	To use some device or one's hands to fill fluid from one container to another.	Action/Process	
 2789	BURP	Basic actions and technology	To release gas from the digestive tract through the mouth.	Action/Process	
-2790	HIGH OR TALL	Spatial relations	Be of great height (of objects and persons).	Property	
+2790	HIGH OR TALL	Spatial relations	Being in a position comparatively far above to the ground or be of great height (of objects and persons).	Property	
 2791	THIS MONTH	Time	The same month as today.	Person/Thing	
 2792	LAST MONTH	Time	The month before this month.	Person/Thing	
 2793	NEXT MONTH	Time	The month after this month.	Person/Thing	
@@ -2905,12 +2905,12 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2908	GUEST OR STRANGER	Kinship	Either a guest or a stranger.	Person/Thing	
 2909	PREPARE	Basic actions and technology	To carry out things in advance to avoid to be later not able to do them.	Action/Process	
 2910	BACK (DIRECTION)	Spatial relations	The opposite direction from where one came.	Other	
-2911	BACKWARD	Spatial relations	A relative direction pointed to the back of an object.	Other	
-2912	FORWARD	Spatial relations	A relative direction pointed to the front of an object.	Other	
+2911	BACKWARD	Spatial relations	Moving in the direction of one's backside.	Other	
+2912	FORWARD	Spatial relations	Moving ahead.	Other	
 2914	ONCE (IN THE PAST)	Time	One time during a certain time in the past.	Other	
 2915	AT FIRST	Time	When first seen or considered.	Other	
 2916	INSTANTLY (IMMEDIATELY)	Time	Without delay.	Other	
-2917	NEXT TO	Spatial relations	Adjacent to.	Other	
+2917	NEXT TO	Spatial relations	To be positioned adjacent to.	Other	
 2918	BECAUSE OF	Basic actions and technology	Undergo decomposition.	Other	
 2919	STILL (CONTINUING)	Time	Continuance of motion or state.	Other	
 2920	SUDDENLY	Time	Happening unexpectedly.	Other	
@@ -3336,3 +3336,9 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3341	EVENING STAR	The physical world	A name for Venus when it appears after sunset.	Person/Thing	
 3342	URSA MAJOR	The physical world	A large group of stars in the shape of a bear visible on the northern hemisphere.	Person/Thing	
 3343	ORION’S BELT	The physical world	A pattern of three stars in the constellation Orion.	Person/Thing	
+3344	SIDE (BODY)	The body	The side of the body.	Person/Thing	
+3345	ATOP OR UP	Spatial relations	To be situated on something or to move upwards.	Other	
+3346	TALL (PERSON)	Spatial relations	Being of a tall stature.	Other	
+3347	HIGH OR UP	Spatial relations	Being in a position comparatively far above to the ground or moving in that direction.	Other	
+3348	LOW (POSITION OR HEIGHT)	Spatial relations	Being in a position comparatively close to the ground or having little relative height.	Other	
+3349	WRISTWATCH	Time	An instrument used to measure or keep track of time that is carried around the wrist	Person/Thing	
