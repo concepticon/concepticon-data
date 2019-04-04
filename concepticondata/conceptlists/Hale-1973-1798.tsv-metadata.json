@@ -23,7 +23,7 @@
                     {
                         "datatype": {
                             "base": "string", 
-                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                            "format": "[0-9a-zA-Z\\.]+([a-z\\\u2013]+)?$"
                         }, 
                         "name": "NUMBER"
                     }, 
@@ -44,20 +44,18 @@
                     }, 
                     {
                         "datatype": "string", 
-                        "valueUrl": "Mitterhofer-2013-300-{MITTERHOFER_2013_300}", 
-                        "name": "MITTERHOFER_2013_300"
+                        "name": "CATEGORY"
                     }, 
                     {
                         "datatype": "string", 
-                        "valueUrl": "Mitterhofer-2013-92-{MITTERHOFER_2013_92}", 
-                        "name": "MITTERHOFER_2013_92"
+                        "name": "PART_OF_SPEECH"
                     }
                 ], 
                 "primaryKey": [
                     "ID"
                 ]
             }, 
-            "url": "Mitterhofer-2013-353.tsv"
+            "url": "Haspelmath-2009-1460.tsv"
         }
     ]
 }

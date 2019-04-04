@@ -28,6 +28,7 @@ ID	GLOSS	PRIORITY
 1501	BORE///foradar	1
 1321	BOTTLE///ampolla	1
 3108	BOX (SOMEBODY OR SOMETHING)///boxejar	1
+2902	BRAWL (FIGHT)///barallar-se	1
 680	BREAK (DESTROY OR GET DESTROYED)///explotar	1
 245	BROOM///escombra	1
 3109	BRUSH (TEETH)///respallar-se les dents	1
@@ -93,7 +94,6 @@ ID	GLOSS	PRIORITY
 1280	FALL///caure	1
 1201	FEATHER///ploma	1
 739	FEED///donar menjar	1
-1423	FIGHT///barallar-se	1
 3113	FILE (SOMETHING)///llimar les ungles	1
 227	FISH///peix	1
 2638	FISHING///pescar	1
@@ -115,7 +115,6 @@ ID	GLOSS	PRIORITY
 3114	GRATE (SOMETHING)///ratllar	1
 3090	GUITAR///guitarra	1
 1566	GUN///pistola	1
-3115	HAMMER (SOMETHING)///picar amb un martell	1
 771	HAT///barret	1
 3116	HATCH (OUT)///sortir de l’ou	1
 1223	HEART///cor	1
@@ -160,6 +159,7 @@ ID	GLOSS	PRIORITY
 638	MOTORCYCLE///moto	1
 1491	MOUSE///ratolí	1
 641	MUSHROOM///bolet	1
+3306	NAIL///picar amb un martell	1
 1382	NEEDLE (FOR SEWING)///agulla	1
 539	NEST///niu	1
 1298	NEWSPAPER///diari	1
@@ -210,7 +210,7 @@ ID	GLOSS	PRIORITY
 787	SAIL///navegar	1
 1948	SAW///serra	1
 1948	SAW///serrar	1
-266	SCALE///balança	1
+2783	SCALES (MEASURE INSTRUMENT)///balança	1
 1457	SEW///cosir	1
 3097	SEWING MACHINE///màquina de cosir	1
 251	SHARPEN (SOMETHING)///afilar	1
