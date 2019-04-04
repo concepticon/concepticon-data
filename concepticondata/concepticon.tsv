@@ -2750,6 +2750,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2749	UNHUSKED RICE	Agriculture and vegetation	The unhusked crops of the rice plant.	Person/Thing	
 2750	GLUTINOUS RICE	Agriculture and vegetation	A type of rice grown mainly in Southeast and East Asia and the eastern parts of South Asia, which has opaque grains, very low amylose content, and is especially sticky when cooked. Also called oryza sativa var. glutinosa, sticky rice, sweet rice or waxy rice.	Person/Thing	
 2751	BY (PASSIVE MARKER)	Basic actions and technology	Marker of the agent in a passive sentence.	Other	
+2752	*ORPHAN 2752	Motion	NONE	Action/Process	
 2753	UNTIL	Time	Up to that point in time.	Other	
 2754	TOWARDS	Spatial relations	Going into the direction of.	Other	
 2755	BUSY	Time	The state of being occupied with something.	Property	
@@ -2777,10 +2778,13 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2777	PIG TONGUE	The body	The tongue of a pig.	Person/Thing	
 2778	PIG LIVER	The body	The liver of a pig.	Person/Thing	
 2779	CHICKEN EGG	Food and drink	The egg of a chicken.	Person/Thing	
+2780	*ORPHAN 2780	Motion	NONE	Action/Process	
+2781	*ORPHAN 2781	Motion	NONE	Action/Process	
 2782	FOOT (MEASURE)	Quantity	A measure unit.	Person/Thing	
 2783	SCALES (MEASURE INSTRUMENT)	Quantity	Instrument to measure the weight of objects.	Person/Thing	
 2784	CRUCIAN CARP	Animals	A medium-sized member of the common carp family.	Person/Thing	
 2785	BIVALVIA (MUSSELS OR OYSTERS)	Animals	A class of marine and freshwater molluscs that have laterally compressed bodies enclosed by a shell consisting of two hinged parts.	Person/Thing	
+2786	*ORPHAN-2786	Motion	NONE	Action/Process	
 2787	CONSUME (DRINK OR EAT)	Food and drink	To consume food or drink.	Action/Process	
 2788	LADLE (WATER)	Food and drink	To use some device or one's hands to fill fluid from one container to another.	Action/Process	
 2789	BURP	Basic actions and technology	To release gas from the digestive tract through the mouth.	Action/Process	
@@ -2907,6 +2911,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2910	BACK (DIRECTION)	Spatial relations	The opposite direction from where one came.	Other	
 2911	BACKWARD	Spatial relations	Moving in the direction of one's backside.	Other	
 2912	FORWARD	Spatial relations	Moving ahead.	Other	
+2913	*ORPHAN 2913	Motion	NONE	Action/Process	
 2914	ONCE (IN THE PAST)	Time	One time during a certain time in the past.	Other	
 2915	AT FIRST	Time	When first seen or considered.	Other	
 2916	INSTANTLY (IMMEDIATELY)	Time	Without delay.	Other	
@@ -3168,6 +3173,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3172	SCABIES	The body	A contagious skin rash caused by the mite Sarcoptes scabiei.	Person/Thing	
 3173	TINEA	The body	Dermatophytosis, fungal skin infection making white spots/non-symmetrical white patches on the skin.	Person/Thing	
 3174	WAKE UP (SOMEONE)	The body	Rouse from sleep.	Action/Process	
+3175	*ORPHAN 3175	Motion	NONE	Action/Process	
 3176	RACK (FOR STORING FOOD)	The house	Bamboo shelves in the kitchen to store food and utensils.	Person/Thing	
 3177	BALE-BALE (RAISED PLATFORM IN HOUSE)	The house	An elevated wooden or bamboo platform on which people can sit, squat or sleep.	Person/Thing	
 3178	RITUAL GROUND	The house	An uncovered open area used for ritual activities and public meetings.	Person/Thing	
@@ -3206,22 +3212,22 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3211	HOPE (FAITH)	Emotions and values	The belief in the possibility that something one wants will happen.	Person/Thing	
 3212	HOPE (SOMETHING)	Emotions and values	To want something to happen.	Action/Process	
 3213	HIRE OR RENT	Social and political relations	To employ a person or people in exchange of some kind of remuneration, usually a payment, or to pay for using an object.	Action/Process	
-3214	*CRAWL OR CREEP	Motion	To move using ones hands and knees or in a prone position with the body resting on or close to the ground.	Action/Process	
-3215	CREEP	Motion	To move in a prone position with the body resting on or close to the ground.	Action/Process	
+3214	*ORPHAN 3214	Motion	NONE	Action/Process	
+3215	CREEP	Motion	NONE	Action/Process	
 3216	*DRIP OR DROP SOMETHING	Motion	To fall in globules or small portions, as water or other liquid or to let something fall down.	Action/Process	
 3217	TIN OR TINPLATE	Basic actions and technology	A metallic element with symbol Sn or a thin sheet of steel coated with tin to prevent rusting.	Person/Thing	
-3218	*SPRAY (SOMETHING)	Motion	To hit something with a liquid flying through the air in small droplets.	Action/Process	
-3219	*SPLASH OR SPRAY	Motion	To cause a liquid to spatter about [WN:365] or to hit something with a liquid flying through the air in small droplets.	Action/Process	
+3218	*ORPHAN 3218	Motion	NONE	Action/Process	
+3219	*ORPHAN 3219	Motion	NONE	Action/Process	
 3220	MATERNAL UNCLE	Kinship	A brother of someone's mother.	Person/Thing	
 3221	PLANTAGO	Agriculture and vegetation	A plant of the genus Plantago, with a rosette of sessile leaves about 10 cm long with a narrow part instead of a petiole, and with a spike inflorescence with the flower spacing varying widely among the species.	Person/Thing	
 3222	TWIG	Agriculture and vegetation	A branch that doesn't arise from the trunk but from another branch.	Person/Thing	
 3223	BRANCH OR TWIG	Agriculture and vegetation	A woody part of a tree arising from the trunk or from another branch.	Person/Thing	
 3224	WRING	Basic actions and technology	To take a cloth and twist its ends into different directions in order to dry it.	Action/Process	
-3225	*SQUEEZE OR WRING	Basic actions and technology	To apply pressure from more than one side or to twist a cloth's ends into different directions.	Action/Process	
-3226	*FASTEN OR SQUEEZE	Basic actions and technology	To close tightly or to apply pressure from more than one side.	Action/Process	
-3227	*BALL (FOR PLAYING)	Spatial relations	Any spherical object.	Person/Thing	
+3225	*ORPHAN 3225	Motion	NONE	Action/Process	
+3226	*ORPHAN 3226	Motion	NONE	Action/Process	
+3227	*ORPHAN 3227	Motion	NONE	Action/Process	
 3228	BOW OR CROSSBOW	Warfare and hunting	A weapon made of a curved piece of wood or other flexible material whose ends are connected by a string, used for shooting arrows, or a weapon based on it, consisting of a bow mounted on a stock.	Person/Thing	
-3229	*STINK	Sense perception	To emit an unpleasant odour.	Action/Process	
+3229	*ORPHAN 3229	Motion	NONE	Action/Process	
 3230	DECEIVE	Cognition	To cause someone to believe an untruth; to practice trickery or fraud.	Action/Process	
 3231	DEITY	Religion and belief	A supernatural, typically immortal being with superior powers.	Person/Thing	
 3232	PELT	Clothing and grooming	The hair-covered, dressed pelt of a mammal, used in the making of garments and as trimming or decoration.	Person/Thing	
@@ -3234,7 +3240,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3239	AMUSE ONESELF (HAVE FUN)	Basic actions and technology	To do something joyful.	Action/Process	
 3240	BAMBOO MAT	Modern world	A mat made from bamboo.	Person/Thing	
 3241	CORIANDER	Agriculture and vegetation	Annual herb in the family Apiaceae.	Person/Thing	
-3242	*CROSSBOW	Warfare and hunting	An elastic ranged weapon, similar to a bow.	Person/Thing	3193
+3242	*ORPHAN 3242	Motion	NONE	Action/Process	3193
 3243	CYPRESS	Agriculture and vegetation	A common name for various coniferous trees or shrubs of northern temperate regions that belong to the family Cupressaceae.	Person/Thing	
 3244	EAR (OF GRAIN)	Agriculture and vegetation	The upper part of grain plants.	Person/Thing	
 3245	FROG (SMALL)	Animals	A small kind of frog (as opposed to big ones).	Person/Thing	
