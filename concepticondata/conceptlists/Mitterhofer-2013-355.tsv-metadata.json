@@ -46,13 +46,18 @@
                         "datatype": "string", 
                         "valueUrl": "Mitterhofer-2013-300-{MITTERHOFER_2013_300}", 
                         "name": "MITTERHOFER_2013_300"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "valueUrl": "Mitterhofer-2013-94-{MITTERHOFER_2013_94}", 
+                        "name": "MITTERHOFER_2013_94"
                     }
                 ], 
                 "primaryKey": [
                     "ID"
                 ]
             }, 
-            "url": "Mitterhofer-2013-92.tsv"
+            "url": "Mitterhofer-2013-355.tsv"
         }
     ]
 }
