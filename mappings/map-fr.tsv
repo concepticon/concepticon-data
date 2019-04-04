@@ -74,7 +74,6 @@ ID	GLOSS	PRIORITY
 1845	BALL///sphère, ballon	1
 1927	BAMBOO///bambou	1
 1795	BANANA TREE///bananier	1
-1284	BANK///Banc	1
 346	BANYAN///banian (higuera de la India)	1
 1204	BARK///Ecorce	1
 1204	BARK///écorce	3
@@ -112,7 +111,6 @@ ID	GLOSS	PRIORITY
 1820	BEAR///ours	1
 678	BEARD///Barbe	1
 678	BEARD///barbe	1
-1665	BEAT///Battre	1
 1427	BEAUTIFUL///Beau	1
 1427	BEAUTIFUL///beau	1
 1427	BEAUTIFUL///beau, joli	1
@@ -139,6 +137,7 @@ ID	GLOSS	PRIORITY
 1485	BELOW OR UNDER///dessous, sous	1
 772	BELT///Ceinture	1
 772	BELT///ceinture, gaine	1
+2584	BENCH///Banc	1
 2004	BEND///plier, courber	1
 904	BERRY///Baye	1
 1816	BESIDE///à côté de	1
@@ -200,11 +199,14 @@ ID	GLOSS	PRIORITY
 1366	BOY///garçon	1
 1754	BRACELET///bracelet	1
 70	BRACKISH///saumâtre	1
+3294	BRAID (VERB) OR WEAVE (BASKET)///tisser, tresser	1
+1043	BRAID///tresser	1
 1583	BRAIN///cerveau	1
 3223	BRANCH OR TWIG///branche, rameau	1
 1531	BRANCH///Branche	1
 2136	BRASS INSTRUMENT (HORN OR TRUMPET)///cor, trompette	1
 3	BRAVE///courageux	2
+3301	BRAWL///Batterie	1
 1368	BREAD///Pain	1
 1368	BREAD///pain	1
 2536	BREADTH///Largeur	1
@@ -565,11 +567,9 @@ ID	GLOSS	PRIORITY
 1534	FEVER///fièvre	1
 1242	FEW///peu	1
 212	FIELD///Champ	1
-212	FIELD///Plaine	1
 212	FIELD///champ	1
 1709	FIFTEEN///quinze	1
 322	FIG///figue	1
-1423	FIGHT///Batterie	1
 1423	FIGHT///se battre	1
 213	FIN///nageoire	1
 719	FIND///trouver	1
@@ -701,6 +701,7 @@ ID	GLOSS	PRIORITY
 606	GRASS///Verdure	1
 606	GRASS///herbe	1
 607	GRASSHOPPER///sauterelle	1
+2819	GRASSLAND///Prairie	1
 1773	GRAVE///tombe, tombeau	1
 2018	GREEDY///avide, glouton, gourmand	1
 1425	GREEN///Verd	1
@@ -714,7 +715,7 @@ ID	GLOSS	PRIORITY
 479	GROW///grandir, croître, pousser	1
 1940	GUARD///Garde	1
 1940	GUARD///garde, sentinelle	1
-3199	GUESS///deviner	1
+1932	GUESS///deviner	1
 1782	GUEST///invité	1
 1682	GUILTY///coupable	1
 139	GUMS///gencives	1
@@ -773,6 +774,7 @@ ID	GLOSS	PRIORITY
 162	HICCOUGH///hoqueter	1
 602	HIDE (CONCEAL)///cacher, dissimuler	1
 2486	HIDE///Cacher	1
+2790	HIGH OR TALL///Haut	1
 613	HIGH TIDE///marée haute	1
 1265	HIGH///haut	1
 614	HILL///Colline	1
@@ -857,7 +859,6 @@ ID	GLOSS	PRIORITY
 1972	KID///chevreau	1
 489	KIDNEY///rein	1
 1417	KILL///tuer	3
-583	KIND OR POLITE///poli	1
 1508	KING///Roy	1
 1508	KING///roi	1
 578	KISS///baiser, embrasser	1
@@ -946,8 +947,8 @@ ID	GLOSS	PRIORITY
 923	LOVE///Aimer	1
 923	LOVE///Amour	1
 923	LOVE///aimer, amour	1
+3348	LOW (POSITION OR HEIGHT)///Bas	1
 1026	LOW TIDE///marée basse	1
-721	LOW///Bas	1
 721	LOW///bas	1
 768	LUNCH///déjeuner, repas de midi	1
 688	LUNG///poumon	1
@@ -1140,7 +1141,6 @@ ID	GLOSS	PRIORITY
 505	PARENTS///parents	1
 882	PARROT///perroquet	1
 779	PART///morceau, partie	1
-649	PASTURE///Prairie	1
 649	PASTURE///pâturage, pâture	1
 2252	PATH///chemin	1
 2252	PATH///sentier, chemin	1
@@ -1174,10 +1174,9 @@ ID	GLOSS	PRIORITY
 337	PITCHFORK///fourche, fourchette	1
 1141	PITY///pitié, compassion	1
 723	PLACE (POSITION)///endroit, place, lieu	1
+652	PLAIN///Plaine	1
 652	PLAIN///plaine, campagne	1
 2020	PLAINTIFF///plaignant	1
-1729	PLAIT OR BRAID OR WEAVE///tisser, tresser	1
-333	PLAIT///tresser	1
 1486	PLANT (SOMETHING)///planter	1
 653	PLANT (VEGETATION)///plante	1
 480	PLATE///assiette	1
@@ -1192,6 +1191,7 @@ ID	GLOSS	PRIORITY
 372	POINTED///pointu	2
 655	POISON///Poißon	1
 655	POISON///poison	1
+3300	POLITE///poli	1
 327	PONCHO///poncho	1
 1674	POOR///pauvre	2
 610	PORT///port, mouillage	1
@@ -1471,6 +1471,7 @@ ID	GLOSS	PRIORITY
 1620	SON///fils	1
 703	SOON///bientôt	1
 811	SOUL///Ame	1
+811	SOUL///âme, esprit	1
 1811	SOUND OR NOISE///son, bruit	1
 1547	SOUP///soupe, potage	1
 1906	SOUR///acide	1
@@ -1497,7 +1498,6 @@ ID	GLOSS	PRIORITY
 277	SPINDLE///fuseau	1
 805	SPINE///épine dorsale, colonne vertébrale	1
 53	SPIRIT///Eßprit	1
-53	SPIRIT///âme, esprit	1
 1440	SPIT///cracher	1
 365	SPLASH///éclabousser	1
 1744	SPLEEN///rate	1
@@ -1545,6 +1545,7 @@ ID	GLOSS	PRIORITY
 791	STRANGER///étranger	1
 202	STRENGTH///Force	1
 214	STRETCH///étendre	1
+2133	STRIKE OR BEAT///Battre	1
 2133	STRIKE OR BEAT///frapper, battre	1
 785	STRONG///Fort	1
 785	STRONG///fort	1
@@ -1583,7 +1584,6 @@ ID	GLOSS	PRIORITY
 881	TAILOR///tailleur	1
 1749	TAKE///Prendre	1
 1749	TAKE///prendre	1
-711	TALL///Haut	1
 711	TALL///grand	1
 21	TASTE (SOMETHING)///sentir (le goût de), goûter	1
 2190	TASTE///Gout	1

@@ -55,6 +55,7 @@ ID	GLOSS	PRIORITY
 1309	ASK (INQUIRE)///preguntar	1
 1828	ASK (REQUEST)///pedir	1
 1828	ASK (REQUEST)///suplicar	1
+1461	AT///en, lugar definido	1
 722	ATTACK///atacar	1
 1272	AUNT///tía	1
 1276	AUTUMN///otoño	1
@@ -182,11 +183,14 @@ ID	GLOSS	PRIORITY
 1366	BOY///muchacho	1
 1754	BRACELET///brazalete, pulsera	1
 70	BRACKISH///salobre	1
+3294	BRAID (VERB) OR WEAVE (BASKET)///tejer, trenzar	1
+1043	BRAID///trenzar	1
 1583	BRAIN///cerebro, sesos	1
 3223	BRANCH OR TWIG///rama	1
 1531	BRANCH///rama	1
 2136	BRASS INSTRUMENT (HORN OR TRUMPET)///trompeta, trompa	1
 3	BRAVE///valiente	1
+2902	BRAWL (FIGHT)///pelear	1
 1368	BREAD///pan	2
 680	BREAK (DESTROY OR GET DESTROYED)///explotar	1
 680	BREAK (DESTROY OR GET DESTROYED)///quebrar	1
@@ -534,7 +538,7 @@ ID	GLOSS	PRIORITY
 212	FIELD///campo (de cultivo), chacra	1
 1709	FIFTEEN///quince	1
 322	FIG///higo	1
-1423	FIGHT///pelear	2
+1423	FIGHT///pelear	1
 3113	FILE (SOMETHING)///archivar	1
 213	FIN///aleta	1
 719	FIND///encontrar, hallar	1
@@ -676,7 +680,7 @@ ID	GLOSS	PRIORITY
 479	GROW///crecer	1
 437	GUAN///pava de monte	1
 1940	GUARD///guardia, centinela	1
-3199	GUESS///adivinar, acertar	1
+1932	GUESS///adivinar, acertar	1
 1782	GUEST///huésped	1
 1682	GUILTY///culpable	1
 3090	GUITAR///guitarra	1
@@ -687,7 +691,6 @@ ID	GLOSS	PRIORITY
 2648	HAIR (HEAD)///cabello	2
 2648	HAIR (HEAD)///cabello, pelo	2
 816	HALF///mitad	1
-3115	HAMMER (SOMETHING)///clavar	1
 1481	HAMMER///martillo	1
 2019	HAMMOCK///hamaca	1
 1277	HAND///mano	4
@@ -733,7 +736,7 @@ ID	GLOSS	PRIORITY
 3201	HINDER OR PREVENT///impedir, estorbar	1
 1745	HIP///cadera	1
 3213	HIRE OR RENT///alquilar, emplear	1
-1433	HIT///golpear	2
+1433	HIT///golpear	1
 3117	HITCHHIKE///hacer autostop	1
 284	HOE///azadón, azada	1
 1448	HOLD///sostener	1
@@ -986,6 +989,7 @@ ID	GLOSS	PRIORITY
 641	MUSHROOM///seta	1
 1666	MUTE///mudo	1
 502	NAIL (TOOL)///clavo	1
+3306	NAIL///clavar	1
 590	NAKED///desnudo	1
 1405	NAME///nombre	4
 1347	NAPE (OF NECK)///la garganta y cuello	1
@@ -1128,8 +1132,6 @@ ID	GLOSS	PRIORITY
 723	PLACE (POSITION)///lugar, sitio	1
 652	PLAIN///pampa, llanura, campo	1
 2020	PLAINTIFF///demandante	1
-1729	PLAIT OR BRAID OR WEAVE///tejer, trenzar	1
-333	PLAIT///trenzar	1
 1486	PLANT (SOMETHING)///plantar, sembrar	1
 653	PLANT (VEGETATION)///planta	1
 653	PLANT (VEGETATION)///plantar	1
@@ -1284,8 +1286,8 @@ ID	GLOSS	PRIORITY
 1948	SAW///serrucho, sierra	1
 1458	SAY///Decir (hablar)	1
 1458	SAY///decir	3
-266	SCALE///báscula	1
 266	SCALE///escama	1
+2783	SCALES (MEASURE INSTRUMENT)///báscula	1
 497	SCAR///cicatriz	1
 673	SCHOOL///escuela, colegio	1
 299	SCOLD///reprender	1
@@ -1403,6 +1405,7 @@ ID	GLOSS	PRIORITY
 1621	SNEEZE///estornudar	1
 375	SNIFF///husmear	1
 1983	SNORE///roncar	1
+2200	SNOUT///Bozal	1
 784	SNOW///nieve	2
 1255	SNOWING///nevar	1
 3098	SNOWMAN///muñeco de nieve	1
@@ -1417,6 +1420,7 @@ ID	GLOSS	PRIORITY
 2266	SON-IN-LAW (OF WOMAN)///yerno (de mujer)	1
 1620	SON///hijo	1
 703	SOON///pronto	1
+811	SOUL///alma	1
 1811	SOUND OR NOISE///ruido, sonido	1
 1547	SOUP///sopa	1
 1906	SOUR///ácido, agrio	1
@@ -1435,7 +1439,6 @@ ID	GLOSS	PRIORITY
 121	SPIN///hilar	1
 277	SPINDLE///huso	1
 805	SPINE///espinazo, espina dorsal	1
-53	SPIRIT///alma	1
 1440	SPIT///escupir	1
 1440	SPIT///escupir (saliva [noun])	1
 365	SPLASH///salpicar	1
@@ -1489,6 +1492,7 @@ ID	GLOSS	PRIORITY
 3138	STRAWBERRY///fresa	1
 214	STRETCH///alargar, estirar, tender	1
 2133	STRIKE OR BEAT///golpear	1
+353	STRIKE///golpear	1
 2993	STROKE (OF PEN)///acariciar	1
 1929	STUDY///estudiar	1
 1518	STUPID///necio, estúpido	1

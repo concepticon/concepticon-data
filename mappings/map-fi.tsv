@@ -28,6 +28,7 @@ ID	GLOSS	PRIORITY
 1501	BORE///porata	1
 1321	BOTTLE///pullo	1
 3108	BOX (SOMEBODY OR SOMETHING)///nyrkkeillä	1
+2902	BRAWL (FIGHT)///tapella	1
 680	BREAK (DESTROY OR GET DESTROYED)///poksahtaa	1
 245	BROOM///luuta	1
 3109	BRUSH (TEETH)///harjata (hampaat)	1
@@ -93,7 +94,6 @@ ID	GLOSS	PRIORITY
 1280	FALL///pudota	1
 1201	FEATHER///sulka	1
 739	FEED///syöttää	1
-1423	FIGHT///tapella	1
 3113	FILE (SOMETHING)///viilata	1
 227	FISH///kala	1
 2638	FISHING///onkia	1
@@ -115,7 +115,6 @@ ID	GLOSS	PRIORITY
 3114	GRATE (SOMETHING)///raastaa	1
 3090	GUITAR///kitara	1
 1566	GUN///pyssy	1
-3115	HAMMER (SOMETHING)///naulata	1
 771	HAT///hattu	1
 3116	HATCH (OUT)///kuoriutua	1
 1223	HEART///sydän	1
@@ -161,6 +160,7 @@ ID	GLOSS	PRIORITY
 638	MOTORCYCLE///moottoripyörä	1
 1491	MOUSE///hiiri	1
 641	MUSHROOM///sieni	1
+3306	NAIL///naulata	1
 1382	NEEDLE (FOR SEWING)///neula	1
 539	NEST///pesä	1
 1298	NEWSPAPER///sanomalehti	1
@@ -212,7 +212,7 @@ ID	GLOSS	PRIORITY
 787	SAIL///purjehtia	1
 1948	SAW///saha	1
 1948	SAW///sahata	1
-266	SCALE///vaaka	1
+2783	SCALES (MEASURE INSTRUMENT)///vaaka	1
 1457	SEW///ommella	1
 3097	SEWING MACHINE///ompelukone	1
 251	SHARPEN (SOMETHING)///teroittaa	1

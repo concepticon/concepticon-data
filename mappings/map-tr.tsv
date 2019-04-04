@@ -15,23 +15,24 @@ ID	GLOSS	PRIORITY
 1820	BEAR///ayı	1
 1663	BED///yatak	1
 2246	BELL///çan	1
-1251	BELLY///Kemik	1
+1251	BELLY///Karın	1
 772	BELT///kemer	1
 747	BICYCLE///bisiklet	1
-937	BIRD///Yemek	1
+937	BIRD///Kus	1
 937	BIRD///kuş	1
 1403	BITE///ısırmak	1
-163	BLACK///Demek	1
+163	BLACK///Siyah	1
 3084	BLACKBOARD///karatahta	1
 1655	BLINK///göz kırpmak	1
 176	BLOW (WITH MOUTH)///üflemek	1
 2493	BOIL///kaynamak	1
-1394	BONE///Sarý	1
+1394	BONE///Kemik	1
 1394	BONE///kemik	1
 585	BOOT///çizme	1
 1501	BORE///delmek	1
 1321	BOTTLE///şişe	1
 3108	BOX (SOMEBODY OR SOMETHING)///boks yapmak	1
+2902	BRAWL (FIGHT)///dövüşmek	1
 680	BREAK (DESTROY OR GET DESTROYED)///patlamak	1
 245	BROOM///süpürge	1
 3109	BRUSH (TEETH)///fırçalamak	1
@@ -58,7 +59,7 @@ ID	GLOSS	PRIORITY
 1616	CLOTH///atkı	1
 1895	CLOTHES///kazak	1
 1895	CLOTHES///yelek	1
-1489	CLOUD///Yýlan	1
+1489	CLOUD///Bulut	1
 1489	CLOUD///bulut	1
 2070	COMB (VERB)///taramak	1
 1475	COMB///tarak	1
@@ -74,14 +75,14 @@ ID	GLOSS	PRIORITY
 1879	DANCE///dans etmek	1
 1418	DIG///kazmak	1
 119	DIVE///dalmak	1
-2009	DOG///Içmek	1
+2009	DOG///Kopek	1
 2009	DOG///köpek	1
 1659	DOLL///oyuncak bebek	1
 1567	DOOR///kapı	1
 2030	DRAG///sürüklemek	1
 93	DRAW MILK///süt sağmak	1
 474	DRESS///elbise	1
-1401	DRINK///Kulak	1
+1401	DRINK///Içmek	1
 1401	DRINK///içmek	1
 2253	DRIP (EMIT LIQUID)///damlamak	1
 741	DRIVE///araba kullanmak	1
@@ -89,36 +90,35 @@ ID	GLOSS	PRIORITY
 908	DRUM///davul	1
 1786	DRY UP///kurutmak	1
 1360	DUCK///ördek	1
-1247	EAR///Güneþ	1
+1247	EAR///Kulak	1
 1247	EAR///kulak	1
-1336	EAT///Göz	1
+1336	EAT///Yemek	1
 1336	EAT///yemek	1
-744	EGG///Beyaz	1
+744	EGG///Yumurta	1
 1290	ELEPHANT///fil	1
 928	EMBRACE///sarılmak	1
 3088	ENVELOPE///zarf	1
 3112	ERUPT///patlamak	1
 127	EXTINGUISH///söndürmek	1
-1248	EYE///Ay	1
+1248	EYE///Göz	1
 1248	EYE///göz	1
 1280	FALL///düşmek	1
-1201	FEATHER///Siyah	1
+1201	FEATHER///Tüy	1
 1201	FEATHER///tüy	1
 739	FEED///beslemek	1
-1423	FIGHT///dövüşmek	1
 3113	FILE (SOMETHING)///törpülemek	1
-221	FIRE///Balık	1
-227	FISH///Uyumak	1
+221	FIRE///Ates	1
+227	FISH///Balık	1
 227	FISH///balık	1
 2638	FISHING///balık avlamak	1
 2623	FLAG///bayrak	1
 239	FLOWER///çiçek	1
 1504	FLY (INSECT)///sinek	1
-1441	FLY (MOVE THROUGH AIR)///Dil	1
+1441	FLY (MOVE THROUGH AIR)///Uçmak	1
 1441	FLY (MOVE THROUGH AIR)///uçmak	1
 256	FOOD///pizza	1
 256	FOOD///sandviç	1
-1301	FOOT///Tüy	1
+1301	FOOT///Ayak	1
 1302	FORK///çatal	1
 503	FROG///kurbağa	1
 991	FRY///kızartmak	1
@@ -129,13 +129,12 @@ ID	GLOSS	PRIORITY
 1069	GLUE///yapıştırmak	1
 1502	GOAT///keçi	1
 3114	GRATE (SOMETHING)///rendelemek	1
-1425	GREEN///Yürümek	1
+1425	GREEN///Yeþi	1
 3090	GUITAR///gitar	1
 1566	GUN///silah	1
-3115	HAMMER (SOMETHING)///çakmak	1
 771	HAT///şapka	1
 3116	HATCH (OUT)///yumurtadan çıkmak	1
-1408	HEAR///Burun	1
+1408	HEAR///Duymak	1
 1223	HEART///kalp	1
 2580	HELICOPTER///helikopter	1
 1514	HEN///tavuk	1
@@ -151,19 +150,19 @@ ID	GLOSS	PRIORITY
 1135	KICK///şut atmak	1
 1508	KING///cetvel	1
 578	KISS///öpmek	1
-1371	KNEE///Yaprak	1
+1371	KNEE///Diz	1
 1352	KNIFE///bıçak	1
 2905	KNIT///örmek	1
 2396	KNOCK///kapı çalmak	1
 1464	LADDER///merdiven	1
 625	LAMP///lamba	1
 1355	LAUGH///gülmek	1
-628	LEAF///Yeþi	1
+628	LEAF///Yaprak	1
 628	LEAF///yaprak	1
 1297	LEG///bacak	1
 3091	LEMON///limon	1
 319	LICK///yalamak	1
-215	LIE DOWN///Karın	1
+215	LIE DOWN///Yatmak	1
 737	LIGHT (IGNITE)///yakmak	1
 3092	LIGHTER///çakmak	1
 1386	LION///aslan	1
@@ -177,19 +176,20 @@ ID	GLOSS	PRIORITY
 2334	MELT///erimek	1
 2017	MIX///çırpmak	1
 1350	MONKEY///maymun	1
-1313	MOON///Kus	1
+1313	MOON///Ay	1
 1313	MOON///ay	1
 3120	MOP (SOMETHING)///yer silmek	1
 638	MOTORCYCLE///motosiklet	1
-639	MOUNTAIN///Kurt	1
+639	MOUNTAIN///Dað	1
 1491	MOUSE///fare	1
-674	MOUTH///Ates	1
+674	MOUTH///Ağız	1
 641	MUSHROOM///mantar	1
-1333	NECK///Yumurta	1
+3306	NAIL///çakmak	1
+1333	NECK///Ense	1
 1382	NEEDLE (FOR SEWING)///dikiş iğnesi	1
 539	NEST///kuş yuvası	1
 1298	NEWSPAPER///gazete	1
-1221	NOSE///Bulut	1
+1221	NOSE///Burun	1
 1221	NOSE///burun	1
 2366	ONION///soğan	1
 1156	OPEN///açmak	1
@@ -228,7 +228,7 @@ ID	GLOSS	PRIORITY
 2108	RAINING OR RAIN///yağmur yağmak	1
 3127	RAKE (SOMETHING)///tırmıklamak	1
 724	READ///okumak	1
-156	RED///Uçmak	1
+156	RED///Kýrmýzý	1
 367	RIDE///ata binmek	1
 2875	RING (MAKE SOUND)///zil çalmak	1
 1962	ROAST (SOMETHING)///ateşte pişirmek	1
@@ -239,8 +239,8 @@ ID	GLOSS	PRIORITY
 787	SAIL///yelken açmak	1
 1948	SAW///kesmek	1
 1948	SAW///testere	1
-1458	SAY///Ayak	1
-266	SCALE///tartı	1
+1458	SAY///Demek	1
+2783	SCALES (MEASURE INSTRUMENT)///tartı	1
 1457	SEW///dikiş dikmek	1
 3097	SEWING MACHINE///dikiş makinası	1
 251	SHARPEN (SOMETHING)///bilemek	1
@@ -252,18 +252,18 @@ ID	GLOSS	PRIORITY
 3128	SHOWER (ACTION)///duş yapmak	1
 1261	SING///şarkı söylemek	1
 1088	SINK (DESCEND)///batmak	1
-1416	SIT///Ense	1
+1416	SIT///Oturmak	1
 1416	SIT///oturmak	1
 3129	SKATE///paten kaymak	1
 2991	SKI///kayak yapmak	1
-1585	SLEEP///Ağız	1
+1585	SLEEP///Uyumak	1
 1585	SLEEP///uyumak	1
 1324	SLIP///kaydırak	1
 1324	SLIP///kaymak	2
 1586	SMELL (PERCEIVE)///koklamak	1
 1689	SMOKE (INHALE)///sigara içmek	1
 1543	SNAIL///salyangoz	1
-730	SNAKE///Duymak	1
+730	SNAKE///Yýlan	1
 730	SNAKE///yılan	1
 1255	SNOWING///kar yağmak	1
 3098	SNOWMAN///kardan adam	1
@@ -282,13 +282,13 @@ ID	GLOSS	PRIORITY
 2058	STOOL///tabure	1
 3138	STRAWBERRY///çilek	1
 2993	STROKE (OF PEN)///okşamak	1
-1343	SUN///Kopek	1
+1343	SUN///Güneþ	1
 1343	SUN///güneş	1
 3131	SUNBATHE///güneşlenmek	1
 3100	SUNGLASSES///güneş gözlüğü	1
 3132	SURF///sörf yapmak	1
 230	SWEEP///süpürmek	1
-1439	SWIM///Diş	1
+1439	SWIM///Yüzmek	1
 1439	SWIM///yüzmek	1
 2871	SWING (MOVEMENT)///sallanmak	1
 3101	SWING///salıncak	1
@@ -306,10 +306,10 @@ ID	GLOSS	PRIORITY
 1917	TIE///kravat	1
 846	TIGER///kaplan	1
 986	TOMATO///domates	1
-1205	TONGUE///Agac	1
-1380	TOOTH///Dað	1
+1205	TONGUE///Dil	1
+1380	TOOTH///Diş	1
 2579	TOOTHBRUSH///diş fırçası	1
-906	TREE///Kýrmýzý	1
+906	TREE///Agac	1
 906	TREE///ağaç	1
 809	TROUSERS///pantolon	1
 112	TURTLE///kaplumbağa	1
@@ -319,7 +319,7 @@ ID	GLOSS	PRIORITY
 2549	VEHICLE///kamyon	1
 2549	VEHICLE///traktör	1
 1602	WAKE UP///uyanmak	1
-1443	WALK///Diz	1
+1443	WALK///Yürümek	1
 1443	WALK///yürümek	1
 3106	WARDROBE///dolap	1
 1453	WASH///çamaşır yıkamak	1
@@ -332,8 +332,8 @@ ID	GLOSS	PRIORITY
 55	WHISPER///fısıldamak	1
 3107	WHISTLE (INSTRUMENT)///düdük	1
 1025	WHISTLE///düdük çalmak	1
-1335	WHITE///Oturmak	1
+1335	WHITE///Beyaz	1
 958	WILD ANIMAL///zebra	1
-1219	WORM///Yüzmek	1
+1219	WORM///Kurt	1
 1672	WRITE///yazmak	1
-1424	YELLOW///Yatmak	1
+1424	YELLOW///Sarý	1
