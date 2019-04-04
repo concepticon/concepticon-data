@@ -5,8 +5,10 @@
 Period | Name
 --- | ---
 2013- | Johann Mattis List
-2013- | Michael Cysouw
+2013-2018 | Michael Cysouw
 2017- | Simon Greenhill
+2019- | Christoph Rzymski
+2019- | Nathanael Schweikhard
 2015- | Robert Forkel
 
 
@@ -22,12 +24,12 @@ Period    | Grant Name                                                     | Gra
 ---       | ---                                                            | ---                                               | ---                                                   | --- | ---
 2012-2014 | *Quantitative modelling of historical-comparative linguistics* | ERC Starting Grant                                | European Research Council                             | 240816       | MC, JML
 2015-2016 | *Vertical and lateral aspects of Chinese dialect history*      | Research Fellowship                               | German Research Council                               | 261553824    | JML
-2017-now | [*Computer-Assisted Language Comparison*](http://calc.digling.org)      | Research Fellowship                               | German Research Council                               | 261553824    | JML
+2017-now | [*Computer-Assisted Language Comparison*](http://calc.digling.org)      | ERC Starting Grant                              | European Research Council                               | [206320](https://cordis.europa.eu/project/rcn/206320/factsheet/en)    | JML
 2012-2016 | [Discovering Trans-New Guinea: Revealing the history of New Guinea](http://transnewguinea.org)                                                            | ARC Discovery Projects                            | Australian Research Council                           | DE 120101954 | SJG
 2015-now  | [ARC Center of Excellence for the Dynamics of Language](http://www.dynamicsoflanguage.edu.au/)                                                               | Center of Excellence for the Dynamics of Language | Australian Research Council                           | CE140100041  | SJG
 2014-2017 | [Glottobank Project](http://glottobank.org)                                             | Marsden Fund                                      | Royal Society of New Zealand                          | 13-UOA-121   | SJG, JML, RF
 2014-now  | [Glottobank Project](http://glottobank.org)                                             |                                                   | Max Planck Institute for the Science of Human history |              | SJG, JML, RF
-2014-2017 | [CLLD Project](http://clld.org)                                                   |                                                   | Max Planck Society                                    |              |
+2014-2017 | [CLLD Project](http://clld.org)                                                   |                                                   | Max Planck Society                                    |              | RF
 
 
 
@@ -67,9 +69,10 @@ Lars Borin | DL | 1.0
 Magdalena Łuniewska | D | 1.1
 Martin Haspelmath | AD | 1.0  
 Maurizio Serva | MD | 1.1
-Mei-Shin Wu | CTLG | 1.2
+Mei-Shin Wu | CTLG | 1.2, 2.0
 Michael Dunn | G | 1.1
 Nathan Hill | MSDP | 1.1
+Nathanael Schweikhard | 1.2 
 Nicholas Evans | A | 1.0
 Paul Heggarty | D | 1.0
 Quentin Atkinson | MD | 1.1
@@ -77,8 +80,9 @@ Robert Blust | D | 1.0
 Sean Lee | D | 1.0
 Sebastian Nicolai | CMS | 1.0  
 Thiago Chacon | MSD | 1.0, 1.1 
-Tiago Tresoldi | CTLG | 1.1, 1.2
+Tiago Tresoldi | CTLG | 1.1, 1.2, 2.0
 Viola Kirchhoff da Cruz | CLS | 1.0 
 Wang Feng | D | 1.0
 Yunfan Lai | CTLG | 1.1
-Andy Castro | T | 1.3
+Andy Castro | T | 2.0
+Natalia Morozowa | 2.0 

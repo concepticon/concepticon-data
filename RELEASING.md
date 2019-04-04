@@ -65,8 +65,9 @@ uploaded to [CDSTAR](https://cdstar.shh.mpg.de). This is done by
 
 1. running
    ```bash
-   concepticon upload_sources
+   concepticon --repos=. upload_sources
    ```
 2. deleting the uploaded PDF files from `concepticondata/sources`
-3. commiting and pushing the changes
+3. commiting and pushing the changes in concepticon/concepticon-data
+4. commiting and pushing the changes in the global media catalog in clld/meta
 
