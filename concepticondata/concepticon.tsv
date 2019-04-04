@@ -43,7 +43,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 42	STINKING	Sense perception	Having a bad smell.	Property	
 43	LEAD (GUIDE)	Motion	To guide by moving in front.	Action/Process	
 44	INJURE	Possession	To cause physical harm to a living creature.	Action/Process	
-45	EVIL	Emotions and values	Intending to harm.	Property	
+45	EVIL	Emotions and values	Intending to harm or being/acting ethically wrong.	Property	
 46	HOLLOW OUT	Basic actions and technology	To make a hole in something.	Action/Process	
 47	EXCRETA	The body	Waste matter, such as sweat, urine, or faeces, discharged from the body.	Person/Thing	
 48	BE SILENT	Speech and language	To stop speaking or making noise.	Action/Process	
@@ -675,7 +675,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 674	MOUTH	The body	Opening in the lower half of a human face which is used for food ingestion and articulation.	Person/Thing	
 675	FAECES (EXCREMENT)	The body	Substance that human and animal bodies release from time to time as a little pile of waste remaining from digestion, after it has been collected in the colon.	Person/Thing	
 676	SHIT (DEFECATE)	The body	To excrete faeces from one's body through the anus.	Action/Process	
-677	AXE	Basic actions and technology	A tool for felling trees or chopping wood consisting of a heavy metallic head flattened to a blade on one side, and which is attached to a usually wooden handle.	Person/Thing	
+677	AXE	Basic actions and technology	A tool for felling trees or chopping wood consisting of a heavy metallic or stone head flattened to a blade on one side, and which is attached to a usually wooden handle.	Person/Thing	
 678	BEARD	The body	Facial hair of humans on the chin, cheeks and jaw.	Person/Thing	
 679	BRIGHT	Sense perception	Emitting or reflecting light readily or in large amounts. [WN:679]	Property	
 680	BREAK (DESTROY OR GET DESTROYED)	Basic actions and technology	To divide or be divided into pieces and thereby damaged.	Action/Process	
@@ -1524,7 +1524,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1523	FORGET	Cognition	To lose memory of something.	Action/Process	
 1524	WINE	Food and drink	An alcoholic beverage made by fermenting juice of grapes.	Person/Thing	
 1525	COAST	The physical world	A line or zone where the land meets the sea or some other large expanse of water.	Person/Thing	
-1526	MEAL	Food and drink	Food that is prepared and eaten, usually at a specific time.	Person/Thing	
+1526	MEAL	Food and drink	The act of eating food, usually at a specific time.	Person/Thing	
 1527	TICK	Animals	A small arachnid which lives on and sucks the blood of other animals including man.	Person/Thing	
 1528	FORGIVE	Emotions and values	To stop blaming someone for an offense.	Action/Process	
 1529	LAST (FINAL)	Quantity	After all the others.	Other	
@@ -3342,3 +3342,5 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3347	HIGH OR UP	Spatial relations	Being in a position comparatively far above to the ground or moving in that direction.	Other	
 3348	LOW (POSITION OR HEIGHT)	Spatial relations	Being in a position comparatively close to the ground or having little relative height.	Other	
 3349	WRISTWATCH	Time	An instrument used to measure or keep track of time that is carried around the wrist	Person/Thing	
+3350	GET UP FROM BED	Basic actions and technology	To leave one's place of sleeping.	Action/Process	
+3351	STOP DOING	Basic actions and technology	To stop doing the action one was doing.	Action/Process	
