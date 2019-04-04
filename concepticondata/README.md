@@ -2,9 +2,9 @@
 # Concepticon Statistics
 * concept sets (used): 3189
 * concept lists: 237
-* concept labels: 44912
-* concept labels (unique): 10602
-* Ø concepts per list: 189.50
+* concept labels: 44907
+* concept labels (unique): 10599
+* Ø concepts per list: 189.48
 * Ø concepts per concept set: 14.08
 * Ø unique concept labels per concept set: 3.43
 
