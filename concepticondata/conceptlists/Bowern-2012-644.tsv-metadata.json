@@ -1,58 +1,53 @@
 {
     "@context": [
-        "http://www.w3.org/ns/csvw", 
+        "http://www.w3.org/ns/csvw",
         {
             "@language": "en"
         }
-    ], 
+    ],
     "dialect": {
-        "delimiter": "\t", 
+        "delimiter": "\t",
         "skipBlankRows": true
-    }, 
+    },
     "tables": [
         {
             "tableSchema": {
                 "columns": [
                     {
                         "datatype": {
-                            "base": "string", 
+                            "base": "string",
                             "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
-                        }, 
+                        },
                         "name": "ID"
-                    }, 
+                    },
                     {
                         "datatype": {
-                            "base": "string", 
+                            "base": "string",
                             "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
-                        }, 
+                        },
                         "name": "NUMBER"
-                    }, 
+                    },
                     {
                         "datatype": {
-                            "base": "integer", 
+                            "base": "integer",
                             "minimum": 1
-                        }, 
+                        },
                         "name": "CONCEPTICON_ID"
-                    }, 
+                    },
                     {
-                        "datatype": "string", 
+                        "datatype": "string",
                         "name": "CONCEPTICON_GLOSS"
-                    }, 
+                    },
                     {
-                        "datatype": "string", 
+                        "datatype": "string",
                         "name": "ENGLISH"
-                    }, 
-                    {
-                        "datatype": "string", 
-                        "valueUrl": "Mitterhofer-2013-95-{MITTERHOFER_2013_95}", 
-                        "name": "MITTERHOFER_2013_92"
                     }
-                ], 
+                ],
                 "primaryKey": [
                     "ID"
                 ]
-            }, 
-            "url": "Mitterhofer-2013-300.tsv"
+            },
+            "url": "Bowern-2012-644.tsv"
         }
     ]
 }
