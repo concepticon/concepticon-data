@@ -53,7 +53,7 @@ Available online at http://concepticon.clld.org
 - After a while, check on https://zenodo.org for the DOI assigned to the release
   - complete the metadata for the release on ZENODO and
   - add the DOI badge to the release description on GitHub.
-- Create a [new milestone](https://github.com/clld/concepticon-data/milestones) to
+- Create a [new milestone](https://github.com/concepticon/concepticon-data/milestones) to
   link to issues for the next version.
 
 
