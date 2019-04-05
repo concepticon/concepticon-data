@@ -6,7 +6,6 @@
         }
     ],
     "dialect": {
-        "encoding": "utf-8-sig",
         "delimiter": "\t",
         "skipBlankRows": true
     },
@@ -42,13 +41,18 @@
                     {
                         "datatype": "string",
                         "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://concepticon.clld.org/terms#link",
+                        "name": "SUBLIST"
                     }
                 ],
                 "primaryKey": [
                     "ID"
                 ]
             },
-            "url": "Bennet-1976-50b.tsv"
+            "url": "Bennett-1976-100.tsv-metadata.json"
         }
     ]
 }

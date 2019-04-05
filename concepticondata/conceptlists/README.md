@@ -15,9 +15,9 @@
 | [Benedict-1976-100](Benedict-1976-100.tsv) | 100 | 100 | 0 |
 | [Bengtson-1994-27](Bengtson-1994-27.tsv) | 27 | 100 | 2 |
 | [Bengtson-2017-12](Bengtson-2017-12.tsv) | 12 | 100 | 0 |
-| [Bennet-1976-100](Bennet-1976-100.tsv) | 100 | 100 | 0 |
-| [Bennet-1976-50a](Bennet-1976-50a.tsv) | 50 | 100 | 0 |
-| [Bennet-1976-50b](Bennet-1976-50b.tsv) | 50 | 100 | 0 |
+| [Bennett-1976-100](Bennett-1976-100.tsv) | 100 | 100 | 0 |
+| [Bennett-1976-50a](Bennett-1976-50a.tsv) | 50 | 100 | 0 |
+| [Bennett-1976-50b](Bennett-1976-50b.tsv) | 50 | 100 | 0 |
 | [Birchall-2016-125](Birchall-2016-125.tsv) | 125 | 100 | 0 |
 | [Blust-1981-200](Blust-1981-200.tsv) | 206 | 100 | 0 |
 | [Blust-2008-210](Blust-2008-210.tsv) | 210 | 100 | 0 |
@@ -60,7 +60,7 @@
 | [Daniels-2016-85](Daniels-2016-85.tsv) | 85 | 100 | 0 |
 | [Davies-1985-116](Davies-1985-116.tsv) | 116 | 100 | 0 |
 | [Deepadung-2015-100](Deepadung-2015-100.tsv) | 100 | 100 | 0 |
-| [Dellert-2017-1016](Dellert-2017-1016.tsv) | 951 | 93 | 0 |
+| [Dellert-2017-1016](Dellert-2017-1016.tsv) | 951 | 93 | 1 |
 | [Dixon-1919-175](Dixon-1919-175.tsv) | 170 | 98 | 39 |
 | [Dolch-1936-220](Dolch-1936-220.tsv) | 194 | 88 | 19 |
 | [Dolch-1936-95](Dolch-1936-95.tsv) | 94 | 98 | 1 |
@@ -147,6 +147,7 @@
 | [Mitterhofer-2013-300](Mitterhofer-2013-300.tsv) | 298 | 99 | 3 |
 | [Mitterhofer-2013-355](Mitterhofer-2013-355.tsv) | 342 | 96 | 7 |
 | [Mitterhofer-2013-95](Mitterhofer-2013-95.tsv) | 88 | 92 | 4 |
+| [Nagano-2013-1256](Nagano-2013-1256.tsv) | 963 | 76 | 84 |
 | [Nagaraja-2013-200](Nagaraja-2013-200.tsv) | 200 | 100 | 0 |
 | [Nahhas-2006-100](Nahhas-2006-100.tsv) | 100 | 100 | 0 |
 | [Nelson-2001-89](Nelson-2001-89.tsv) | 89 | 100 | 0 |
@@ -162,7 +163,7 @@
 | [Pallas-1789-285](Pallas-1789-285.tsv) | 282 | 98 | 9 |
 | [Payne-1991-202](Payne-1991-202.tsv) | 202 | 100 | 39 |
 | [Peiros-1999-100](Peiros-1999-100.tsv) | 100 | 100 | 0 |
-| [Perrin-2010-110](Perrin-2010-110.tsv) | 98 | 89 | 5 |
+| [Perrin-2010-110](Perrin-2010-110.tsv) | 97 | 88 | 5 |
 | [Peust-2013-54](Peust-2013-54.tsv) | 54 | 100 | 0 |
 | [Pozdniakov-2014-100a](Pozdniakov-2014-100a.tsv) | 100 | 100 | 0 |
 | [Pozdniakov-2014-100b](Pozdniakov-2014-100b.tsv) | 100 | 100 | 0 |
@@ -199,8 +200,8 @@
 | [Swadesh-1960-100a](Swadesh-1960-100a.tsv) | 100 | 100 | 0 |
 | [Swadesh-1960-100b](Swadesh-1960-100b.tsv) | 100 | 100 | 0 |
 | [Swadesh-1960-200](Swadesh-1960-200.tsv) | 200 | 100 | 0 |
-| [Swadesh-1964-100](Swadesh-1964-100.tsv) | 100 | 100 | 0 |
 | [Swadesh-1960-215](Swadesh-1960-215.tsv) | 215 | 100 | 0 |
+| [Swadesh-1964-100](Swadesh-1964-100.tsv) | 100 | 100 | 0 |
 | [Swadesh-1971-100](Swadesh-1971-100.tsv) | 100 | 100 | 0 |
 | [Syrjaenen-2013-226](Syrjaenen-2013-226.tsv) | 226 | 100 | 0 |
 | [Tadmor-2009-100](Tadmor-2009-100.tsv) | 100 | 100 | 0 |
@@ -234,11 +235,12 @@
 | [Yakhontov-1991-100](Yakhontov-1991-100.tsv) | 100 | 100 | 0 |
 | [Yakhontov-1991-35](Yakhontov-1991-35.tsv) | 35 | 100 | 0 |
 | [Yakhontov-1991-65](Yakhontov-1991-65.tsv) | 65 | 100 | 0 |
+| [Yang-2011-1014](Yang-2011-1014.tsv) | 891 | 87 | 35 |
 | [Youn-2016-22](Youn-2016-22.tsv) | 22 | 100 | 0 |
 | [Zgraggen-1980-380](Zgraggen-1980-380.tsv) | 326 | 93 | 4 |
 | [Zheng-2007-86](Zheng-2007-86.tsv) | 86 | 100 | 1 |
 | [Zorc-1974-100](Zorc-1974-100.tsv) | 100 | 100 | 0 |
 | [vanderWouw-1974-28](vanderWouw-1974-28.tsv) | 28 | 100 | 0 |
 
-(237 rows)
+(239 rows)
 
