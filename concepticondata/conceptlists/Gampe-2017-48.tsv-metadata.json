@@ -1,76 +1,72 @@
 {
     "@context": [
-        "http://www.w3.org/ns/csvw", 
+        "http://www.w3.org/ns/csvw",
         {
             "@language": "en"
         }
-    ], 
+    ],
     "dialect": {
-        "delimiter": "\t", 
+        "delimiter": "\t",
         "skipBlankRows": true
-    }, 
+    },
     "tables": [
         {
             "tableSchema": {
                 "columns": [
                     {
                         "datatype": {
-                            "base": "string", 
+                            "base": "string",
                             "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
-                        }, 
+                        },
                         "name": "ID"
-                    }, 
+                    },
                     {
                         "datatype": {
-                            "base": "string", 
+                            "base": "string",
                             "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
-                        }, 
+                        },
                         "name": "NUMBER"
-                    }, 
+                    },
                     {
                         "datatype": {
-                            "base": "integer", 
+                            "base": "integer",
                             "minimum": 1
-                        }, 
+                        },
                         "name": "CONCEPTICON_ID"
-                    }, 
+                    },
                     {
-                        "datatype": "string", 
+                        "datatype": "string",
                         "name": "CONCEPTICON_GLOSS"
-                    }, 
+                    },
                     {
-                        "datatype": "string", 
+                        "datatype": "string",
                         "name": "ENGLISH"
-                    }, 
-                    {
-                        "datatype": "string", 
-                        "name": "CATEGORY"
                     },
                     {
-                      "datatype": "string",
-                      "name": "CODE"
+                        "datatype": "string",
+                        "name": "CODE"
                     },
                     {
-                      "datatype": "float",
-                      "name": "MEAN_SWISS_GERMAN"
+                        "datatype": "float",
+                        "name": "MEAN_SWISS_GERMAN"
                     },
                     {
-                      "datatype": "float",
-                      "name": "MEAN_SECOND_L1"
+                        "datatype": "float",
+                        "name": "MEAN_SECOND_L1"
                     },
                     {
-                      "datatype": "float",
-                      "name": "MEAN_TRANSLATIONAL_EQUIV"
+                        "datatype": "float",
+                        "name": "MEAN_TRANSLATIONAL_EQUIV"
                     },
                     {
-                      "datatype": "float",
-                      "name": "MEAN_CONCEP_VOCAB"
+                        "datatype": "float",
+                        "name": "MEAN_CONCEP_VOCAB"
                     }
-                ], 
+                ],
                 "primaryKey": [
                     "ID"
                 ]
-            }, 
+            },
             "url": "Gampe-2017-48.tsv"
         }
     ]

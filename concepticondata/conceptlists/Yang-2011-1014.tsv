@@ -1,0 +1,1014 @@
+ID	NUMBER	NUMBER_IN_SOURCE	ENGLISH	CHINESE	NUMBERS	GLOSSES	CONCEPTICON_ID	CONCEPTICON_GLOSS	SIMILARITY	SP_NOTE	SP_PROPOSAL	SP_COMMENT
+Yang-2011-1014-1	1	1	sky	天 (天空)	1,0 / 1,1 / 1,2	sky-1 / sky-2a / sky-2b	1732	SKY	2			
+Yang-2011-1014-2	2	2	sun	太阳	2,0 / 2,1	sun-2 / sun-3	1343	SUN	2			
+Yang-2011-1014-3	3	3	sunshine	阳光	3	sunshine	3276	SUNSHINE		lacuna	SUNSHINE	
+Yang-2011-1014-4	4	4	moon	月亮	4,0 / 4,1	moon-1 / moon-2	1313	MOON	2			
+Yang-2011-1014-5	5	5	star	星星	5	star	1430	STAR	2			
+Yang-2011-1014-6	6	6	cloud	云	6	cloud	1489	CLOUD	2			
+Yang-2011-1014-7	7	7	wind	风	7	wind	960	WIND	2			
+Yang-2011-1014-8	8	8	rain	雨	8	rain	658	RAIN (PRECIPITATION)	2			
+Yang-2011-1014-9	9	9	lightning	闪电	9	lightning	1654	LIGHTNING	2			
+Yang-2011-1014-10	10	10	thunder	雷	10,0 / 10,1	thunder / thunder-2	1150	THUNDER	2			
+Yang-2011-1014-11	11	11	rainbow	彩虹	11,0 / 11,1	rainbow / rainbow	1733	RAINBOW	2			
+Yang-2011-1014-12	12	12	snow	雪	12	snow	784	SNOW	2			
+Yang-2011-1014-13	13	13	water 	水	13,1 / 13,0	water (b) / water (a)	948	WATER	4			
+Yang-2011-1014-14	14	14	fog	雾	14	fog	249	FOG	2			
+Yang-2011-1014-15	15	15	frost	霜	15,0 / 15,1	frost-1 / frost-2	2034	FROST	2			
+Yang-2011-1014-16	16	16	dew	露	16	dew	1977	DEW	2			
+Yang-2011-1014-17	17	17	hail	雹 (雹暴)	17	hail	609	HAIL	2			
+Yang-2011-1014-18	18	18	earth	地 (大地/草地)	18,0 / 18,1	earth-1 / earth-2	2159	GROUND	2			
+Yang-2011-1014-19	19	19	soil; dirt	土(干) (土壤)	19,0 / 19,1	soil; dirt-1 / soil; dirt-2	1015	SOIL	4			
+Yang-2011-1014-20	20	20	mud	泥(巴)	20	mud	640	MUD	2			
+Yang-2011-1014-21	21	21	river 	河	21,0 / 21,1 / 21,2	river (a) / river (b) / river (c)	666	RIVER	4			
+Yang-2011-1014-22	22	22	ditch	沟	22,0 / 22,1	ditch / ditch	2002	DITCH	2			
+Yang-2011-1014-23	23	23	pond	池塘	23	pond	2035	POND	2			
+Yang-2011-1014-24	24	24	puddle	小池塘	24	puddle	2290	PUDDLE	2			
+Yang-2011-1014-25	25	25	well inside	井	25	well inside	954	WELL		comment		More general concept accepted
+Yang-2011-1014-26	26	25	well outside	井	25.1	well outside	954	WELL		comment		More general concept accepted
+Yang-2011-1014-27	27	26	mountain (dirt)	山(土山)	26,1 / 26,0	mountain (dirt) / mountain (dirt)	639	MOUNTAIN	4			
+Yang-2011-1014-28	28	27	cliff	悬崖	27	cliff	992	CLIFF	2			
+Yang-2011-1014-29	29	28	valley	(山)谷	28,0 / 28,1	valley / valley	921	VALLEY	2			
+Yang-2011-1014-30	30	29	cave	(山)洞	29,2 / 29,0 / 29,1	cave / cave / cave	1155	CAVE	2			
+Yang-2011-1014-31	31	30	hole (in ground)	洞	30	hole (in ground)	1667	HOLE	4			
+Yang-2011-1014-32	32	31	gold	金	31	gold	1369	GOLD	2			
+Yang-2011-1014-33	33	32	silver	银	32	silver	759	SILVER	2			
+Yang-2011-1014-34	34	33	iron (ore)	铁	33	iron (ore)	621	IRON	4			
+Yang-2011-1014-35	35	34	tin	锡	34	tin	893	TIN (METAL)	2			
+Yang-2011-1014-36	36	35	coal	煤	35	coal	2658	COAL	2			
+Yang-2011-1014-37	37	36	stone	石头	36,0 / 36,1	stone / stone	857	STONE	2			
+Yang-2011-1014-38	38	37	sand	沙	37	sand	671	SAND	2			
+Yang-2011-1014-39	39	38	fire	火	38	fire	221	FIRE	2			
+Yang-2011-1014-40	40	39	flame	火焰	39	flame	889	FLAME	2			
+Yang-2011-1014-41	41	40	smoke	烟 (炊烟)	40,1 / 40,0	smoke / smoke	778	SMOKE (EXHAUST)	2			
+Yang-2011-1014-42	42	41	night	夜	41	night	1233	NIGHT	2			
+Yang-2011-1014-43	43	42	day	天	42	day	1225	DAY (NOT NIGHT)	2			
+Yang-2011-1014-44	44	43	today	今天	43	today	1283	TODAY	2			
+Yang-2011-1014-45	45	44	yesterday	昨天	44	yesterday	1174	YESTERDAY	2			
+Yang-2011-1014-46	46	45	day before yesterday	前天	45	day before yesterday	1180	DAY BEFORE YESTERDAY	2			
+Yang-2011-1014-47	47	46	three days ago	大前天	46	three days ago	2333	THREE DAYS BEFORE NOW				
+Yang-2011-1014-48	48	47	four days ago	四天前	47	four days ago	3278	FOUR DAYS BEFORE NOW				
+Yang-2011-1014-49	49	48	tomorrow	明天	48	tomorrow	1329	TOMORROW	2			
+Yang-2011-1014-50	50	49	day after tomorrow	后天	49,0 / 49,1	day after tomorrow / day after tomorrow	1179	DAY AFTER TOMORROW	2			
+Yang-2011-1014-51	51	50	three days from now	大后天	50	three days from now	2332	THREE DAYS FROM NOW	2			
+Yang-2011-1014-52	52	51	four days from now	四天后	51	four days from now	3277	FOUR DAYS FROM NOW				
+Yang-2011-1014-53	53	52	year	年	52	year	1226	YEAR	2			
+Yang-2011-1014-54	54	53	new year	新年	53,1 / 53,0	new year / new year				lacuna	NEW YEAR	
+Yang-2011-1014-55	55	54	this year	今年	54,0 / 54,1	this year / this year	513	THIS YEAR	2			
+Yang-2011-1014-56	56	55	last year	去年	55	last year	514	LAST YEAR	2			
+Yang-2011-1014-57	57	56	year before last	前年	56,0 / 56,1	year before last / year before last	2331	YEAR BEFORE LAST YEAR	2			
+Yang-2011-1014-58	58	57	three years ago	大前年	57	three years ago						
+Yang-2011-1014-59	59	58	four years ago	四年前	58	four years ago						
+Yang-2011-1014-60	60	59	next year	明年	59,0 / 59,1	next year / next year	515	NEXT YEAR	2			
+Yang-2011-1014-61	61	60	year after next	后年	60,0 / 60,1	year after next / year after next	2330	YEAR AFTER NEXT YEAR	2			
+Yang-2011-1014-62	62	61	three years from now	大后年	61	three years from now						
+Yang-2011-1014-63	63	62	four years from now	四年后	62	four years from now						
+Yang-2011-1014-64	64	63	daytime	白天	63	daytime	1225	DAY (NOT NIGHT)	2			
+Yang-2011-1014-65	65	64	dawn	黎明	64	dawn	729	DAWN	2			
+Yang-2011-1014-66	66	65	morning (early)	早晨	65,0 / 65,1	morning (early) / morning (early)	1339	MORNING	4			
+Yang-2011-1014-67	67	66	noon	中午	66	noon	12	MIDDAY	2			
+Yang-2011-1014-68	68	67	afternoon	下午	67	afternoon	1807	AFTERNOON	2			
+Yang-2011-1014-69	69	68	dusk/evening	黄昏	68,0 / 68,1	dusk/evening / dusk/evening	1629	EVENING	4			
+Yang-2011-1014-70	70	69	night(time)	夜(里)/黑夜	69	night(time)	1233	NIGHT	4			
+Yang-2011-1014-71	71	70	this evening	今晚	70,0 / 70,1	this evening / this evening				lacuna	THIS EVENING	
+Yang-2011-1014-72	72	71	this morning	今早	71,0 / 71,1	this morning / this morning			2			
+Yang-2011-1014-73	73	72	time	时间	72	time	892	TIME	2			
+Yang-2011-1014-74	74	73	cow	牛	73,0 / 73,1	cow / cow	1007	COW	2			
+Yang-2011-1014-75	75	74	buffalo (water)	水牛	74,0 / 74,1	buffalo (water) / buffalo (water)	934	BUFFALO	4			
+Yang-2011-1014-76	76	75	field cow	黄牛	75	field cow				comment		More specific than 1007 COW, which already exists in the data set as #73
+Yang-2011-1014-77	77	76	horse	马	76	horse	615	HORSE	2			
+Yang-2011-1014-78	78	77	pig	猪	77	pig	1337	PIG	2			
+Yang-2011-1014-79	79	78	sow	母猪	78	sow	1351	SOW (FEMALE PIG)	2			
+Yang-2011-1014-80	80	79	piglet	小猪	79	piglet	2564	PIGLET	4			
+Yang-2011-1014-81	81	80	boar	公猪	80	boar	1348	BOAR	2			
+Yang-2011-1014-82	82	81	boar (wild)	野猪	81,0 / 81,1	boar (wild) / boar (wild)	3154	WILD BOAR	4			
+Yang-2011-1014-83	83	82	goat	山羊	82	goat	1502	GOAT	2			
+Yang-2011-1014-84	84	83	ram	公羊	83	ram	1344	RAM	2			
+Yang-2011-1014-85	85	84	sheep	绵羊	84	sheep	1331	SHEEP	2			
+Yang-2011-1014-86	86	85	dog	狗	85,1 / 85,0	dog / dog	2009	DOG	2			
+Yang-2011-1014-87	87	86	cat	猫	86,0 / 86,1	cat / cat	1208	CAT	2			
+Yang-2011-1014-88	88	87	rabbit	兔子	87,0 / 87,1 / 87,2	rabbit / rabbit / rabbit	1136	RABBIT	2			
+Yang-2011-1014-89	89	88	dragon	龙	88	dragon	2038	DRAGON	2			
+Yang-2011-1014-90	90	89	animal	动物	89	animal	619	ANIMAL	2			
+Yang-2011-1014-91	91	90	wild animal	野兽	90,0 / 90,1	wild animal / wild animal	958	WILD ANIMAL	2			
+Yang-2011-1014-92	92	91	bear	熊	91	bear	1820	BEAR	2			
+Yang-2011-1014-93	93	92	tiger	老虎	92,0 / 92,1	tiger / tiger	846	TIGER	2			
+Yang-2011-1014-94	94	93	leopard; panther	豹	93	leopard; panther	1139	LEOPARD	4			
+Yang-2011-1014-95	95	94	wolf	狼	94	wolf	522	WOLF	2			
+Yang-2011-1014-96	96	95	monkey	猴子	95	monkey	1350	MONKEY	2			
+Yang-2011-1014-97	97	96	otter	水獭	96	otter	15	OTTER	2			
+Yang-2011-1014-98	98	97	weasel	黄鼠狼	97	weasel						
+Yang-2011-1014-99	99	98	pangolin	穿山甲	98,0 / 98,1 / 98,2	pangolin / pangolin / pangolin	2508	PANGOLIN	2			
+Yang-2011-1014-100	100	99	muntjak deer	麂子／赤鹿	99	muntjak deer	3152	MUNTJACS				
+Yang-2011-1014-101	101	100	sambar deer	水鹿/黑鹿	100	sambar deer						
+Yang-2011-1014-102	102	101	porcupine	豪猪/箭猪	101	porcupine	2510	PORCUPINE	2			
+Yang-2011-1014-103	103	102	rat; mouse	老鼠	102	rat; mouse	2139	MUROID (MOUSE OR RAT)	4			
+Yang-2011-1014-104	104	103	squirrel	松鼠	103	squirrel	1628	SQUIRREL	2			
+Yang-2011-1014-105	105	104	chicken	鸡	104	chicken	1318	CHICKEN	2			
+Yang-2011-1014-106	106	105	rooster	公鸡	105	rooster	1511	ROOSTER	2			
+Yang-2011-1014-107	107	106	hen	母鸡	106,0 / 106,1	hen / hen	1514	HEN	2			
+Yang-2011-1014-108	108	107	duck	鸭子	107,0 / 107,1 / 107,2	duck / duck / duck	1360	DUCK	2			
+Yang-2011-1014-109	109	108	goose	鹅	108	goose	1187	GOOSE	2			
+Yang-2011-1014-110	110	109	bird	鸟	109	bird	937	BIRD	2			
+Yang-2011-1014-111	111	110	swallow	燕子	110	swallow	3077	SWALLOW (BIRD)	2			
+Yang-2011-1014-112	112	111	sparrow	麻雀	111,0 / 111,1	sparrow / sparrow	1854	SPARROW	2			
+Yang-2011-1014-113	113	112	crow	乌鸦	112,0 / 112,1 / 112,2	crow / crow / crow	913	CROW	2			
+Yang-2011-1014-114	114	113	magpie	喜鹊	113	magpie	2039	MAGPIE	2			
+Yang-2011-1014-115	115	114	dove; pigeon	鸽	114	dove; pigeon	1853	DOVE	4			
+Yang-2011-1014-116	116	115	pheasant	野鸟/野鸡	115	pheasant	3060	PHEASANT	2			
+Yang-2011-1014-117	117	116	eagle; hawk	老鹰	116	eagle; hawk	2683	EAGLE OR HAWK	4			
+Yang-2011-1014-118	118	117	owl	猫头鹰	117,2 / 117,0 / 117,1	owl / owl / owl	735	OWL	2			
+Yang-2011-1014-119	119	118	bat	蝙蝠	118,0 / 118,1	bat / bat	1793	BAT	2			
+Yang-2011-1014-120	120	119	frog	青蛙	119,1 / 119,0	frog / frog	503	FROG	2			
+Yang-2011-1014-121	121	120	toad	癞蛤蟆	120	toad	894	TOAD	2			
+Yang-2011-1014-122	122	121	fish	鱼	121	fish	227	FISH	2			
+Yang-2011-1014-123	123	122	snake	蛇	122,0 / 122,1	snake / snake	730	SNAKE	2			
+Yang-2011-1014-124	124	123	lizard	蜥蜴／壁虎	123	lizard	632	LIZARD	2			
+Yang-2011-1014-125	125	124	leech	蚂蟥/水蛭	124	leech	2273	LEECH	2			
+Yang-2011-1014-126	126	125	spider	蜘蛛	125	spider	843	SPIDER	2			
+Yang-2011-1014-127	127	126	insect	昆虫	126,0 / 126,2	insect / insect	620	INSECT	2			
+Yang-2011-1014-128	128	127	ant	蚂蚁	127,0 / 127,1 / 127,2	ant / ant / ant	587	ANT	2			
+Yang-2011-1014-129	129	128	termite	白蚁	128,1 / 128,0	termite / termite	883	TERMITE	2			
+Yang-2011-1014-130	130	129	mantis	螳螂	129,1 / 129,0	mantis / mantis	3279	MANTIS				
+Yang-2011-1014-131	131	130	roach	蟑螂	130	roach	1575	COCKROACH				
+Yang-2011-1014-132	132	131	fly	苍蝇	131,0 / 131,1	fly / fly	1504	FLY (INSECT)	2			
+Yang-2011-1014-133	133	132	honeybee	蜜蜂	132	honeybee	665	BEE	2			
+Yang-2011-1014-134	134	133	wasp	黄蜂	133,1 / 133,0	wasp / wasp	1517	WASP	2			
+Yang-2011-1014-135	135	134	mosquito	蚊子	134,0 / 134,1	mosquito / mosquito	1509	MOSQUITO	2			
+Yang-2011-1014-136	136	135	dragonfly	蜻蜓	135,0 / 135,1 / 135,2 / 135,1	dragonfly / dragonfly / dragonfly / dragonfly	2352	DRAGONFLY	2			
+Yang-2011-1014-137	137	136	butterfly	蝴蝶	136,0 / 136,1	butterfly / butterfly	1791	BUTTERFLY	2			
+Yang-2011-1014-138	138	137	cricket	蟋蟀	137,0 / 137,1	cricket / cricket	2354	CRICKET	2			
+Yang-2011-1014-139	139	138	grasshopper	蚱蜢	138,0 / 138,1	grasshopper / grasshopper	607	GRASSHOPPER	2			
+Yang-2011-1014-140	140	139	flea	跳蚤	139	flea	232	FLEA	2			
+Yang-2011-1014-141	141	140	louse (clothing)	虱子(衣上)	140	louse (clothing)	1392	LOUSE	4			
+Yang-2011-1014-142	142	141	centipede	蜈蚣	141,0 / 141,1 / 141,2	centipede / centipede / centipede	1974	CENTIPEDE	2			
+Yang-2011-1014-143	143	142	earthworm	蚯蚓	142	earthworm	2350	EARTHWORM	2			
+Yang-2011-1014-144	144	143	worm	虫	143	worm	1219	WORM	2			
+Yang-2011-1014-145	145	144	caterpillar	毛虫	144,0 / 144,1	caterpillar / caterpillar	2247	CATERPILLAR	2			
+Yang-2011-1014-146	146	145	maggot	蛆/蛆虫	145	maggot	2640	LARVA	2			
+Yang-2011-1014-147	147	146	nest	窝 (鸟窝)	146,0 / 146,1	nest / nest	539	NEST	2			
+Yang-2011-1014-148	148	147	egg	蛋	147	egg	744	EGG	2			
+Yang-2011-1014-149	149	148	wing	翅膀	148,1 / 148,0	wing / wing	1257	WING	2			
+Yang-2011-1014-150	150	149	claw; talon	爪	149,0 / 149,1	claw; talon / claw; talon	72	CLAW	4			
+Yang-2011-1014-151	151	150	hoof	蹄	150	hoof	152	HOOF	2			
+Yang-2011-1014-152	152	151	horn	角	151	horn	1393	HORN (ANATOMY)	2			
+Yang-2011-1014-153	153	152	tail	尾巴	152,0 / 152,1	tail / tail	1220	TAIL	2			
+Yang-2011-1014-154	154	153	tusk	长牙	153	tusk	3280	TUSK	2			
+Yang-2011-1014-155	155	154	(cocks)comb	冠（鸡冠）	154	(cocks)comb	188	COMB OF BIRD	4			
+Yang-2011-1014-156	156	155	tree	树	155,0 / 155,1	tree / tree	906	TREE	2			
+Yang-2011-1014-157	157	156	pine tree	松树	156,0 / 156,1	pine tree / pine tree	1740	PINE	2			
+Yang-2011-1014-158	158	157	fir tree	杉树	157	fir tree	1915	FIR				
+Yang-2011-1014-159	159	158	willow tree	柳树	158,0 / 158,1 / 158,2	willow tree / willow tree / willow tree	818	WILLOW				
+Yang-2011-1014-160	160	159	bamboo	竹子	159,0 / 159,1	bamboo / bamboo	1927	BAMBOO	2			
+Yang-2011-1014-161	161	160	bamboo shoot	竹笋	160	bamboo shoot	2494	BAMBOO SHOOT	2			
+Yang-2011-1014-162	162	161	wheat	小麦	161	wheat	1077	WHEAT	2			
+Yang-2011-1014-163	163	162	buckwheat	荞麦/荞子	162	buckwheat	2040	BUCKWHEAT	2			
+Yang-2011-1014-164	164	163	millet	稷	163	millet	931	MILLET	2			
+Yang-2011-1014-165	165	164	barley	大麦	164	barley	932	BARLEY	2			
+Yang-2011-1014-166	166	165	sorghum	高粱	165	sorghum	347	SORGHUM	2			
+Yang-2011-1014-167	167	166	job's tears	薏苡	166	job's tears	3281	JOB'S TEARS				
+Yang-2011-1014-168	168	167	corn	玉米	167,0 / 167,1	corn / corn	506	MAIZE	2			
+Yang-2011-1014-169	169	168	ear of grain	穗子	168	ear of grain	3244	EAR (OF GRAIN)				
+Yang-2011-1014-170	170	169	peanut	花生	169	peanut	2364	PEANUT	2			
+Yang-2011-1014-171	171	170	walnut	核桃	170,0 / 170,1	walnut / walnut	2042	WALNUT	2			
+Yang-2011-1014-172	172	171	cotton	棉花	171,0 / 171,1	cotton / cotton	1850	COTTON	2			
+Yang-2011-1014-173	173	172	ramie	苎麻	172	ramie	3063	RAMIE	2			
+Yang-2011-1014-174	174	173	bean	豆子	173	bean	832	BEAN	2			
+Yang-2011-1014-175	175	174	melon	瓜	174	melon	507	MELON	2			
+Yang-2011-1014-176	176	175	gourd	葫芦	175	gourd	411	GOURD	2			
+Yang-2011-1014-177	177	176	cucumber	黄瓜	176,0 / 176,1	cucumber / cucumber	496	CUCUMBER	2			
+Yang-2011-1014-178	178	177	eggplant	茄子	177,0 / 177,1	eggplant / eggplant	1146	AUBERGINE	2			
+Yang-2011-1014-179	179	178	vegetable	蔬菜	178,0 / 178,1	vegetable / vegetable	924	VEGETABLES	2			
+Yang-2011-1014-180	180	179	cabbage greens	青菜	179	cabbage greens	774	CABBAGE				
+Yang-2011-1014-181	181	180	radish	萝卜	180	radish	2365	RADISH	4			
+Yang-2011-1014-182	182	181	garlic	蒜	181	garlic	2368	GARLIC	2			
+Yang-2011-1014-183	183	182	ginger	姜	182	ginger	2500	GINGER	2			
+Yang-2011-1014-184	184	183	galangal	高良姜 (山奈)	183	galangal						
+Yang-2011-1014-185	185	184	chili pepper	辣椒	184	chili pepper	919	CHILI PEPPER	2			
+Yang-2011-1014-186	186	185	fruit	水果	185	fruit	1507	FRUIT	2			
+Yang-2011-1014-187	187	186	peach	桃子	186,0 / 186,1 / 186,2	peach / peach / peach	2043	PEACH	2			
+Yang-2011-1014-188	188	187	persimmon	柿子	187,0 / 187,1	persimmon / persimmon	2044	PERSIMMON	2			
+Yang-2011-1014-189	189	188	banana	香蕉	188,0 / 188,1	banana / banana	868	BANANA	2			
+Yang-2011-1014-190	190	189	taro	芋头	189,0 / 189,1	taro / taro	351	TARO	2			
+Yang-2011-1014-191	191	190	tobacco	烟/烟草	190	tobacco	974	TOBACCO	2			
+Yang-2011-1014-192	192	191	grass	草	191,2 / 191,0 / 191,1	grass / grass / grass	606	GRASS	2			
+Yang-2011-1014-193	193	192	thatch (cogon grass)	茅草	192	thatch (cogon grass)	279	THATCH	4			
+Yang-2011-1014-194	194	193	reed	芦苇	193	reed	659	REED	2			
+Yang-2011-1014-195	195	194	mushroom	菌子	194	mushroom	641	MUSHROOM	2			
+Yang-2011-1014-196	196	195	seed	种子	195,0 / 195,1	seed / seed	714	SEED	2			
+Yang-2011-1014-197	197	196	root	根	196	root	670	ROOT	2			
+Yang-2011-1014-198	198	197	stem; stalk	茎	197	stem; stalk	2628	PLANT STEM	4			
+Yang-2011-1014-199	199	198	leaf	叶子	198	leaf	628	LEAF	2			
+Yang-2011-1014-200	200	199	sprout; bud	芽(种子芽)	199	sprout; bud	1684	BUD	4			
+Yang-2011-1014-201	201	200	flower	花	200	flower	239	FLOWER	2			
+Yang-2011-1014-202	202	201	wood	木	201	wood	1803	WOOD	2			
+Yang-2011-1014-203	203	202	board	板子	202,0 / 202,1	board / board	1227	BOARD	2			
+Yang-2011-1014-204	204	203	stick	棍子	203,1 / 203,0	stick / stick	1295	STICK	2			
+Yang-2011-1014-205	205	204	branch	树枝	204	branch	1531	BRANCH	2			
+Yang-2011-1014-206	206	205	tree bark	树皮	205,0 / 205,1	tree bark / tree bark	1204	BARK	2			
+Yang-2011-1014-207	207	206	unhulled rice	谷子（稻谷）	206	unhulled rice	2749	UNHUSKED RICE				
+Yang-2011-1014-208	208	207	rice (grains)	米	207	rice (grains)	926	RICE	4			
+Yang-2011-1014-209	209	208	cooked rice	饭	208	cooked rice	1191	COOKED RICE	2			
+Yang-2011-1014-210	210	209	glutinous rice	糯米	209	glutinous rice	2750	GLUTINOUS RICE	4			
+Yang-2011-1014-211	211	210	rice seedling	秧苗	210	rice seedling	926	RICE	2			
+Yang-2011-1014-212	212	211	rice hulls	稻壳	211	rice hulls	2501	RICE HUSK				
+Yang-2011-1014-213	213	212	chaff	谷壳	212	chaff	2363	CHAFF (HUSK)	2			
+Yang-2011-1014-214	214	213	fruit peel	果皮	213	fruit peel	2373	SKIN (OF FRUIT)				
+Yang-2011-1014-215	215	214	shell (egg, etc)	皮/壳(蛋)	214	shell (egg, etc)	598	SHELL	4			
+Yang-2011-1014-216	216	215	thorn	刺	215	thorn	124	THORN	2			
+Yang-2011-1014-217	217	216	moss	苔(青苔)	216,0 / 216,1	moss / moss	637	MOSS	2			
+Yang-2011-1014-218	218	217	fern	蕨草	217,0 / 217,1 / 217,2	fern / fern / fern						
+Yang-2011-1014-219	219	218	yeast	酵母	218	yeast	967	YEAST	2			
+Yang-2011-1014-220	220	219	ashes	灰(草木灰)	219	ashes	646	ASH	2			
+Yang-2011-1014-221	221	220	body	身体	220	body	1480	BODY	2			
+Yang-2011-1014-222	222	221	head	头	221,2 / 221,0 / 221,1	head / head / head	1256	HEAD	2			
+Yang-2011-1014-223	223	222	brains	脑髓	222	brains	1583	BRAIN	2			
+Yang-2011-1014-224	224	223	forehead	额头	223	forehead	123	FOREHEAD	2			
+Yang-2011-1014-225	225	224	head hair	头发	224	head hair	2648	HAIR (HEAD)	2			
+Yang-2011-1014-226	226	225	braid	辫子	225	braid	1043	BRAID	2			
+Yang-2011-1014-227	227	226	face	脸	226,0 / 226,1	face / face	1560	FACE	2			
+Yang-2011-1014-228	228	227	eyebrow	眉毛	227	eyebrow	1173	EYEBROW	2			
+Yang-2011-1014-229	229	228	eye	眼睛	228	eye	1248	EYE	2			
+Yang-2011-1014-230	230	229	eyeball	眼球	229	eyeball	1248	EYE	2			
+Yang-2011-1014-231	231	230	tears	眼泪	230	tears	1651	TEAR (OF EYE)	2			
+Yang-2011-1014-232	232	231	nose	鼻子	231,0 / 231,1	nose / nose	1221	NOSE	2			
+Yang-2011-1014-233	233	232	ear	耳朵	232	ear	1247	EAR	2			
+Yang-2011-1014-234	234	233	cheeks	颊	233	cheeks	1730	CHEEK	2			
+Yang-2011-1014-235	235	234	mouth	嘴	234,0 / 234,1	mouth / mouth	674	MOUTH	2			
+Yang-2011-1014-236	236	235	lips	嘴唇	235,0 / 235,1	lips / lips	478	LIP	2			
+Yang-2011-1014-237	237	236	teeth	牙齿	236	teeth	1380	TOOTH	2			
+Yang-2011-1014-238	238	237	front teeth	前牙	237	front teeth	442	FRONT TOOTH (INCISOR)	4			
+Yang-2011-1014-239	239	238	back teeth	后牙	238	back teeth	1049	MOLAR TOOTH				
+Yang-2011-1014-240	240	239	gums	齿龈	239	gums	139	GUMS	2			
+Yang-2011-1014-241	241	240	tongue	舌头	240	tongue	1205	TONGUE	2			
+Yang-2011-1014-242	242	241	beard; mustache	胡子	241	beard; mustache	678	BEARD	4			
+Yang-2011-1014-243	243	242	chin	下巴	242	chin	1510	CHIN	2			
+Yang-2011-1014-244	244	243	neck	脖子	243	neck	1333	NECK	2			
+Yang-2011-1014-245	245	244	throat	喉咙	244	throat	1346	THROAT	2			
+Yang-2011-1014-246	246	245	shoulder	肩膀	245	shoulder	1482	SHOULDER	2			
+Yang-2011-1014-247	247	246	joint	关节	246	joint	999	JOINT	2			
+Yang-2011-1014-248	248	247	hand/arm	手·胳臂	247,0 / 247,1	hand/arm / hand/arm	2121	ARM OR HAND	2			
+Yang-2011-1014-249	249	248	hand	手	248	hand	1277	HAND	2			
+Yang-2011-1014-250	250	249	arm	手臂	249	arm	1673	ARM	2			
+Yang-2011-1014-251	251	250	palm (of hand)	手掌	250	palm (of hand)	1183	PALM OF HAND	2			
+Yang-2011-1014-252	252	251	wrist	手腕	251	wrist	799	WRIST	2			
+Yang-2011-1014-253	253	252	elbow	肘	252	elbow	981	ELBOW	2			
+Yang-2011-1014-254	254	253	finger	指/手指	253	finger	1303	FINGER	2			
+Yang-2011-1014-255	255	254	index finger	食指	254	index finger	577	FOREFINGER				
+Yang-2011-1014-256	256	255	pinkie finger	小手指	255	pinkie finger	2774	LITTLE FINGER				
+Yang-2011-1014-257	257	256	thumb	拇指	256	thumb	1781	THUMB	2			
+Yang-2011-1014-258	258	257	fingernail	指甲	257	fingernail	1258	FINGERNAIL	2			
+Yang-2011-1014-259	259	258	buttocks	屁股	258	buttocks	834	BUTTOCKS	2			
+Yang-2011-1014-260	260	259	hip	臀部	259	hip	1745	HIP	2			
+Yang-2011-1014-261	261	260	foot/leg	脚·腿	260	foot/leg	2098	FOOT OR LEG	2			
+Yang-2011-1014-262	262	261	leg	腿	261	leg	1297	LEG	2			
+Yang-2011-1014-263	263	262	foot	脚	262	foot	1301	FOOT	2			
+Yang-2011-1014-264	264	263	thigh	大腿	263	thigh	800	THIGH	2			
+Yang-2011-1014-265	265	264	calf (of leg)	小腿	264	calf (of leg)	498	CALF OF LEG	2			
+Yang-2011-1014-266	266	265	sole (of foot)	脚底	265	sole (of foot)	2666	SOLE (FOOT)	4			
+Yang-2011-1014-267	267	266	heel	脚后跟	266	heel	980	HEEL	2			
+Yang-2011-1014-268	268	267	ankle (joint)	踝	267	ankle (joint)	803	ANKLE	4			
+Yang-2011-1014-269	269	268	knee	膝/膝盖	268	knee	1371	KNEE	2			
+Yang-2011-1014-270	270	269	toe	趾/脚趾	269	toe	1389	TOE	2			
+Yang-2011-1014-271	271	270	big toe	大趾	270	big toe				lacuna	BIG TOE	
+Yang-2011-1014-272	272	271	chest	胸脯	271	chest	1592	CHEST	2			
+Yang-2011-1014-273	273	272	back	脊背	272	back	1291	BACK	2			
+Yang-2011-1014-274	274	273	breast	乳房	273,0 / 273,1	breast / breast	1402	BREAST	2			
+Yang-2011-1014-275	275	274	armpit	腋下/腋窝	274	armpit	1886	ARMPIT	2			
+Yang-2011-1014-276	276	275	skin	皮肤	275	skin	763	SKIN	2			
+Yang-2011-1014-277	277	276	bone	骨头	276	bone	1394	BONE	2			
+Yang-2011-1014-278	278	277	rib	肋骨	277	rib	801	RIB	2			
+Yang-2011-1014-279	279	278	stomach	胃	278	stomach	819	STOMACH	2			
+Yang-2011-1014-280	280	279	belly	肚子/腹部	279,0 / 279,1	belly / belly	1251	BELLY	2			
+Yang-2011-1014-281	281	280	navel	脐 (肚脐)	280	navel	1838	NAVEL	2			
+Yang-2011-1014-282	282	281	waist	腰	281	waist	1681	WAIST	2			
+Yang-2011-1014-283	283	282	kidney	肾/腰子	282	kidney	489	KIDNEY	2			
+Yang-2011-1014-284	284	283	intestines	肠子	283	intestines	1991	INTESTINES	2			
+Yang-2011-1014-285	285	284	heart	心	284	heart	1223	HEART	2			
+Yang-2011-1014-286	286	285	liver	肝	285,0 / 285,1	liver / liver	1224	LIVER	2			
+Yang-2011-1014-287	287	286	lung	肺/肺脏	286,0 / 286,1	lung / lung	688	LUNG	2			
+Yang-2011-1014-288	288	287	bladder?	膀胱	287	bladder?	1746	BLADDER	4			
+Yang-2011-1014-289	289	288	gallbladder	胆/苦胆	288	gallbladder						
+Yang-2011-1014-290	290	289	bile	胆汁	289	bile	1780	BILE	2			
+Yang-2011-1014-291	291	290	sweat	汗	290	sweat	125	SWEAT (SUBSTANCE)	2			
+Yang-2011-1014-292	292	291	blood	血	291	blood	946	BLOOD	2			
+Yang-2011-1014-293	293	292	snot	鼻涕/粘液	292	snot	208	NASAL MUCUS (SNOT)	2			
+Yang-2011-1014-294	294	293	phlegm	痰	293,0 / 293,1	phlegm / phlegm	3061	PHLEGM	2			
+Yang-2011-1014-295	295	294	saliva	口水	294	saliva	1503	SALIVA	2			
+Yang-2011-1014-296	296	295	milk	奶	295	milk	635	MILK	2			
+Yang-2011-1014-297	297	296	excrement	屎	296	excrement	675	FAECES (EXCREMENT)	2			
+Yang-2011-1014-298	298	297	urine	尿	297	urine	1142	URINE	2			
+Yang-2011-1014-299	299	298	pus	脓	298	pus	1808	PUS	2			
+Yang-2011-1014-300	300	299	sore (wound)	疮	299	sore (wound)	51	SORE	4			
+Yang-2011-1014-301	301	300	body hair; feathers	毛(翎毛)	300	body hair; feathers	2381	FEATHER OR FUR OR HAIR				
+Yang-2011-1014-302	302	301	penis	阴茎	301	penis	1222	PENIS	2			
+Yang-2011-1014-303	303	302	vulva	女阴	302,1 / 302,0	vulva-2 / vulva-1	1837	VULVA	2			
+Yang-2011-1014-304	304	303	anus	肛门	303	anus	1935	ANUS	2			
+Yang-2011-1014-305	305	304	tendon	筋/腱	304	tendon	1137	TENDON	2			
+Yang-2011-1014-306	306	305	breath	呼吸	305,0 / 305,1	breath / breath	870	BREATH	2			
+Yang-2011-1014-307	307	306	strength	力气	306	strength	202	STRENGTH	2			
+Yang-2011-1014-308	308	307	person	人	307	person	683	PERSON	2			
+Yang-2011-1014-309	309	308	male	男人	308	male	1553	MALE	2			
+Yang-2011-1014-310	310	309	female	女人	309,0 / 309,1	female / female	1551	FEMALE	2			
+Yang-2011-1014-311	311	310	Autonym	(自称)	310,1 / 310,0	Autonym / Autonym						
+Yang-2011-1014-312	312	311	Han Chinese	汉族	311,0 / 311,1	Han Chinese / Han Chinese						
+Yang-2011-1014-313	313	312	Yi/Lo	彝族	312	Yi/Lo						
+Yang-2011-1014-314	314	313	Bai	白族	313	Bai						
+Yang-2011-1014-315	315	314	Dai	傣族	314	Dai						
+Yang-2011-1014-316	316	315	child	儿童	315	child	2099	CHILD	2			
+Yang-2011-1014-317	317	316	elderly person	老人	316	elderly person	725	OLD PERSON				
+Yang-2011-1014-318	318	317	older man	老男人	317	older man	406	OLD MAN		lacuna	OLDER MAN	
+Yang-2011-1014-319	319	318	older woman	老女人	318	older woman	907	OLD WOMAN		lacuna	OLDER WOMAN	
+Yang-2011-1014-320	320	319	boy	青年男人	319	boy	1366	BOY	2			
+Yang-2011-1014-321	321	320	girl	青年女人	320	girl	1646	GIRL	2			
+Yang-2011-1014-322	322	321	friend	朋友	321	friend	1325	FRIEND	2			
+Yang-2011-1014-323	323	322	enemy	敌人	322	enemy	1358	ENEMY	2			
+Yang-2011-1014-324	324	323	host	主人	323,0 / 323,1	host / host	1545	HOST	2			
+Yang-2011-1014-325	325	324	guest	客人	324,0 / 324,1	guest / guest	1782	GUEST	2			
+Yang-2011-1014-326	326	325	lame person	瘸子/跛子	325,0 / 325,1	lame person / lame person	2322	LAME PERSON	2			
+Yang-2011-1014-327	327	326	official	官	326	official						
+Yang-2011-1014-328	328	327	high official	大官	327	high official						
+Yang-2011-1014-329	329	328	low official	小官	328	low official						
+Yang-2011-1014-330	330	329	emperor	皇帝	329	emperor	1508	KING	2			
+Yang-2011-1014-331	331	330	doctor	医生	330	doctor	597	PHYSICIAN	2			
+Yang-2011-1014-332	332	331	blacksmith	铁匠/锻工	331	blacksmith	1001	BLACKSMITH	2			
+Yang-2011-1014-333	333	332	soldier	兵/士兵	332	soldier	1941	SOLDIER	2			
+Yang-2011-1014-334	334	333	bride	新娘	333	bride	1266	BRIDE	2			
+Yang-2011-1014-335	335	334	groom	新郎	334	groom	3282	GROOM		lacuna	GROOM	Cf. 1266 BRIDE
+Yang-2011-1014-336	336	335	widow	寡妇	335	widow	1756	WIDOW	2			
+Yang-2011-1014-337	337	336	widower	寡郎	336	widower	1981	WIDOWER	2			
+Yang-2011-1014-339	339	337	blind	盲; 瞎子	337,1 / 337,1	blind-1 / blind-2	1653	BLIND	2			
+Yang-2011-1014-340	340	338	deaf 	聋(子)	338	deaf (person)	996	DEAF	4			
+Yang-2011-1014-341	341	339	father's father	爷爷	339	father's father	2560	PATERNAL GRANDFATHER	2			
+Yang-2011-1014-342	342	340	father's mother	奶奶	340	father's mother	3015	PATERNAL GRANDMOTHER	2	data error		Chinese gloss (mother-mother) <> English gloss (father's mother)
+Yang-2011-1014-343	343	341	GP father	祖父	341	GP father				lacuna/data error	GREAT GRANDFATHER	Chinese gloss suggests grandmother or paternal grandmother <>  GP father
+Yang-2011-1014-344	344	342	GP mother	祖母	342,0 / 342,1	GP mother / GP mother				lacuna/data error	GREAT GRANDMOTHER	Chinese gloss suggests grandfather or paternal grandfather <>  GP mother
+Yang-2011-1014-345	345	343	father	父亲	343	father	1217	FATHER	2			
+Yang-2011-1014-346	346	344	mother	母亲	344	mother	1216	MOTHER	2			
+Yang-2011-1014-347	347	345	wife's father	岳父	345	wife's father	1055	FATHER-IN-LAW				
+Yang-2011-1014-348	348	346	wife's mother	岳母	346	wife's mother	1050	MOTHER-IN-LAW	2			
+Yang-2011-1014-349	349	347	older brother	哥哥	347	older brother	1759	OLDER BROTHER	2			
+Yang-2011-1014-350	350	348	older sister	姐姐	348	older sister	1758	OLDER SISTER	2			
+Yang-2011-1014-351	351	349	younger brother of a male	弟弟	349	younger brother of a male	2416	YOUNGER BROTHER (OF MAN)				
+Yang-2011-1014-352	352	349	younger brother of a female	弟弟	349.1	younger brother of a female	2417	YOUNGER BROTHER (OF WOMAN)				
+Yang-2011-1014-353	353	350	younger sister of a female	?	350.1	younger sister of a female	2421	YOUNGER SISTER (OF WOMAN)				
+Yang-2011-1014-354	354	350	younger sister of a male	妹妹	350	younger sister of a male	2420	YOUNGER SISTER (OF MAN)				
+Yang-2011-1014-355	355	351	siblings	兄弟姐妹	351	siblings	1640	SIBLING	4			
+Yang-2011-1014-356	356	352	oldest sibling	老大	352	oldest sibling				lacuna	OLDEST SIBLING	
+Yang-2011-1014-357	357	353	second sibling	老二	353	second sibling				lacuna	SECOND SIBLING	
+Yang-2011-1014-358	358	354	third sibling	老三	354	third sibling				lacuna	THIRD SIBLING	
+Yang-2011-1014-359	359	354	youngest child	老幺	354.1	youngest child				lacuna	YOUNGEST CHILD	
+Yang-2011-1014-360	360	355	husband	丈夫	355	husband	1200	HUSBAND	2			
+Yang-2011-1014-361	361	356	wife	妻子	356,1 / 356,0	wife / wife	1199	WIFE	2			
+Yang-2011-1014-362	362	357	son	儿子	357	son	1620	SON	2			
+Yang-2011-1014-363	363	358	daughter	女儿 (姑娘)	358	daughter	1357	DAUGHTER	2			
+Yang-2011-1014-364	364	359	daughter-in-law	儿媳 (媳妇)	359	daughter-in-law	1057	DAUGHTER-IN-LAW	2			
+Yang-2011-1014-365	365	360	son-in-law	女婿	360,1 / 360,0	son-in-law / son-in-law	1056	SON-IN-LAW	2			
+Yang-2011-1014-366	366	361	brother's son	侄子	361	brother's son				lacuna	BROTHER'S SON	NEPHEW too general
+Yang-2011-1014-367	367	362	brother's daughter	侄女	362	brother's daughter				lacuna	BROTHER'S DAUGHTER	NIECE too general
+Yang-2011-1014-368	368	363	sis' child (Mvpt)	外甥/外甥女	363	sis' child (Mvpt)				lacuna	SISTER'S CHILD	SIBLING'S CHILD too general
+Yang-2011-1014-369	369	364	son's son	孙子	364	son's son	2702	GRANDSON (SON'S SON)				
+Yang-2011-1014-370	370	365	son's daughter	孙女	365	son's daughter				lacuna	SON'S DAUGHTER	GRANDCHILD and GRANDCHILD (DAUGHTER'S OFFSPRING) both too general
+Yang-2011-1014-371	371	366	ancestor	祖先	366,0 / 366,1	ancestor / ancestor	1669	ANCESTORS	2			
+Yang-2011-1014-372	372	367	father's OB	伯父	367	father's OB	2173	PATERNAL UNCLE (FATHER'S OLDER BROTHER)				
+Yang-2011-1014-373	373	368	father's BW	伯母	368	father's BW				lacuna	PATERNAL AUNT (WIFE OF FATHER'S BROTHER)	2170/2171 PATERNAL AUNT (WIFE OF FATHER'S OLDER/YOUNGER BROTHER) both more specific
+Yang-2011-1014-374	374	369	father's OS	姑妈	369	father's OS	3041	PATERNAL AUNT (FATHER'S OLDER SISTER)				
+Yang-2011-1014-375	375	370	father's YB	叔叔	370	father's YB	2174	PATERNAL UNCLE (FATHER'S YOUNGER BROTHER)				
+Yang-2011-1014-376	376	371	mother's OB	舅舅	371	mother's OB				lacuna	MATERNAL UNCLE (MOTHER'S OLDER BROTHER)	cf. PATERNAL UNCLE (FATHER'S OLDER BROTHER)
+Yang-2011-1014-377	377	372	mother's OS	姨母	372	mother's OS	3042	MATERNAL AUNT (MOTHER'S OLDER SISTER)				
+Yang-2011-1014-378	378	373	male suffix	公的	373	male suffix						
+Yang-2011-1014-379	379	374	female suffix	母的	374	female suffix						
+Yang-2011-1014-380	380	375	father+children (CLF)	三父子	375	father+children (CLF)						
+Yang-2011-1014-381	381	376	mother+children (CLF)	三母子	376	mother+children (CLF)						
+Yang-2011-1014-382	382	377	grandfather+grandchildren (CLF)	三爷孙	377	grandfather+grandchildren (CLF)						
+Yang-2011-1014-383	383	378	grandmother+grandchildren (CLF)	三奶孙	378	grandmother+grandchildren (CLF)						
+Yang-2011-1014-384	384	379	house	房子	379	house	1252	HOUSE	2			
+Yang-2011-1014-385	385	380	home	家	380	home	2406	HOME	2			
+Yang-2011-1014-386	386	381	wall	墙壁	381	wall	933	WALL (OF HOUSE)	2			
+Yang-2011-1014-387	387	382	roof	房顶	382	roof	769	ROOF	2			
+Yang-2011-1014-388	388	383	tile (ceramic)	瓦片	383	tile (ceramic)				lacuna	TILE (CERAMIC)	
+Yang-2011-1014-389	389	384	beam [main]	梁(主)	384	beam [main]	1132	BEAM	4			
+Yang-2011-1014-390	390	385	beam[small]	梁(小)	385	beam[small]	1132	BEAM	4			
+Yang-2011-1014-391	391	386	post; pillar	柱子(大)	386	post; pillar	281	POST	4			
+Yang-2011-1014-392	392	387	door	门	387	door	1567	DOOR	2			
+Yang-2011-1014-393	393	388	room	房间	388	room	1450	ROOM	2			
+Yang-2011-1014-394	394	389	fire-pit	火塘	389	fire-pit				lacuna	FIRE-PIT	185 FIREPLACE too general. Need not be a pit.
+Yang-2011-1014-395	395	390	charcoal	木炭	390,0 / 390,1	charcoal / charcoal	1188	CHARCOAL	2			
+Yang-2011-1014-396	396	391	field; wet field	田 (稻田)	391	field; wet field	140	PADDY FIELD	4			
+Yang-2011-1014-397	397	392	dry field	田 (旱田)	392,0 / 392,1	dry field / dry field	2794	FIELD (UPLAND)				
+Yang-2011-1014-398	398	393	garden	菜园	393	garden	586	GARDEN	2			
+Yang-2011-1014-399	399	394	pen; fold	圈(牛圈)	394	pen; fold	1470	FOLD	4			
+Yang-2011-1014-400	400	395	granary	仓（装粮食的柜子）	395	granary	3025	BARN OR SHED	2			
+Yang-2011-1014-401	401	396	shrine; temple	庙	396	shrine; temple	911	TEMPLE	4			
+Yang-2011-1014-402	402	397	tomb; grave	坟墓	397	tomb; grave	1773	GRAVE	4			
+Yang-2011-1014-403	403	398	graveyard	墓地	398,1 / 398,0	graveyard / graveyard	3284	GRAVEYARD		lacuna	GRAVEYARD	
+Yang-2011-1014-404	404	399	head-wrap	头巾	399	head-wrap				lacuna	HEAD-WRAP	2130 HEADGEAR too general. Need not wrap around head.
+Yang-2011-1014-405	405	400	headdress	饰头巾	400	headdress	331	HEADDRESS	4			
+Yang-2011-1014-406	406	401	hat	帽子	401	hat	771	HAT	2			
+Yang-2011-1014-407	407	402	earring	耳环	402	earring	770	EARRING	2			
+Yang-2011-1014-408	408	403	bracelet	手镯	403	bracelet	1754	BRACELET	2			
+Yang-2011-1014-409	409	404	ring (for finger)	戒指	404	ring (for finger)	1374	RING	2			
+Yang-2011-1014-410	410	405	clothing	衣服	405	clothing	1895	CLOTHES	2			
+Yang-2011-1014-411	411	406	collar	衣领	406	collar	2012	COLLAR	2			
+Yang-2011-1014-412	412	407	sleeve	袖子	407	sleeve	2953	SLEEVE	2			
+Yang-2011-1014-413	413	408	button	钮扣	408	button	757	BUTTON	2			
+Yang-2011-1014-414	414	409	palm bark rain cape	蓑衣	409,0 / 409,1	palm bark rain cape / palm bark rain cape			2			
+Yang-2011-1014-415	415	410	pants	裤子	410	pants	809	TROUSERS	4			
+Yang-2011-1014-416	416	411	belt	裤带	411	belt	772	BELT	2			
+Yang-2011-1014-417	417	412	shoes	鞋	412	shoes	1381	SHOE	2			
+Yang-2011-1014-418	418	413	cloth (fabric)	布	413	cloth (fabric)	1616	CLOTH	4			
+Yang-2011-1014-419	419	414	baby sling	背兜	414	baby sling						
+Yang-2011-1014-420	420	415	shoulder bag	肩袋	415	shoulder bag						
+Yang-2011-1014-421	421	416	blanket; quilt	被子	416,3 / 416,0 / 416,1 / 416,2	blanket; quilt / blanket; quilt / blanket; quilt / blanket; quilt	806	BLANKET	4			
+Yang-2011-1014-422	422	417	pillow	枕头	417,1 / 417,0	pillow / pillow	1044	PILLOW	2			
+Yang-2011-1014-423	423	418	mat	(垫)席	418,0 / 418,1	mat / mat	195	MAT	2			
+Yang-2011-1014-424	424	419	rice powder	米粉	419	rice powder	3285	RICE FLOUR				
+Yang-2011-1014-425	425	420	flour	面粉	420,1 / 420,0	flour / flour	1594	FLOUR	2			
+Yang-2011-1014-426	426	421	porridge	粥	421	porridge	2049	CONGEE				
+Yang-2011-1014-427	427	422	oil	油	422	oil	1484	OIL (ORGANIC SUBSTANCE)	2			
+Yang-2011-1014-428	428	423	lard	动物油	423	lard	1282	FAT (FROM ANIMALS)				
+Yang-2011-1014-429	429	424	salt	盐	424,1 / 424,0	salt / salt	1274	SALT	2			
+Yang-2011-1014-430	430	425	meat	肉	425	meat	2615	FLESH OR MEAT	2			
+Yang-2011-1014-431	431	426	soup	汤 (菜汤)	426	soup	1547	SOUP	2			
+Yang-2011-1014-432	432	427	liquor	酒	427	liquor	842	LIQUOR	2			
+Yang-2011-1014-433	433	428	tea	茶 （茶水）	428	tea	1373	TEA	2			
+Yang-2011-1014-434	434	429	sugar	糖	429,0 / 429,1	sugar / sugar	862	SUGAR	2			
+Yang-2011-1014-435	435	430	jaggery	红糖	430	jaggery						
+Yang-2011-1014-436	436	431	saw	锯子	431,0 / 431,1	saw / saw	1948	SAW	2			
+Yang-2011-1014-437	437	432	knife	刀	432	knife	1352	KNIFE	2			
+Yang-2011-1014-438	438	433	kitchen knife	菜刀	433	kitchen knife	2772	KITCHEN KNIFE				
+Yang-2011-1014-439	439	434	pointed knife	尖刀	434	pointed knife						
+Yang-2011-1014-440	440	435	sickle	镰刀	435	sickle	341	SICKLE	2			
+Yang-2011-1014-441	441	436	hatchet	斧头	436	hatchet	677	AXE				
+Yang-2011-1014-442	442	437	hoe (large)	锄头	437	hoe (large)	284	HOE	4			
+Yang-2011-1014-443	443	438	plow	犁	438	plow	2154	PLOUGH (INSTRUMENT)	2			
+Yang-2011-1014-444	444	439	yoke	牛轭	439	yoke	14	YOKE	2			
+Yang-2011-1014-445	445	440	thing	东西	440	thing			2			
+Yang-2011-1014-446	446	441	loom	织布机	441	loom	1787	LOOM	2			
+Yang-2011-1014-447	447	442	needle	针	442	needle	1382	NEEDLE (FOR SEWING)	2			
+Yang-2011-1014-448	448	443	awl	锥子	443	awl	278	AWL	2			
+Yang-2011-1014-449	449	444	thread	线 (缝衣用的)	444	thread	1161	THREAD	2			
+Yang-2011-1014-450	450	445	ball (of thread)	线球	445	ball (of thread)	1845	BALL	4			
+Yang-2011-1014-451	451	446	rope; string	绳子	446	rope; string	362	STRING	4			
+Yang-2011-1014-452	452	447	chain	链子	447	chain	1627	CHAIN	2			
+Yang-2011-1014-453	453	448	whip (horse whip)	鞭子 (马鞭子)	448	whip (horse whip)	2630	WHIP	4			
+Yang-2011-1014-454	454	449	winnowing basket	簸箕 (簸米用)	449	winnowing basket						
+Yang-2011-1014-455	455	450	bamboo sieve; sifter (fine)	筛子(细的)	450	bamboo sieve; sifter (fine)						
+Yang-2011-1014-456	456	451	whetstone	磨刀石	451	whetstone	295	WHETSTONE	4			
+Yang-2011-1014-457	457	452	millstone	石磨	452	millstone	2459	GRINDSTONE				
+Yang-2011-1014-458	458	453	hammer	锤子	453	hammer	1481	HAMMER	2			
+Yang-2011-1014-459	459	454	chisel	凿子	454	chisel	1979	CHISEL	2			
+Yang-2011-1014-460	460	455	rice huller	碓	455	rice huller						
+Yang-2011-1014-461	461	456	rice pounder	米臼	456	rice pounder						
+Yang-2011-1014-462	462	457	mortar	臼	457	mortar	224	MORTAR CRUSHER	2			
+Yang-2011-1014-463	463	458	pestle	杵	458	pestle	225	PESTLE	2			
+Yang-2011-1014-464	464	459	medicine; herbal medicine	药	459,0 / 459,1	medicine; herbal medicine / medicine; herbal medicine	1372	MEDICINE	4			
+Yang-2011-1014-465	465	460	bamboo basket	箩筐 (背东西用)	460	bamboo basket						
+Yang-2011-1014-466	466	461	broom	扫帚	461	broom	245	BROOM	2			
+Yang-2011-1014-467	467	462	pot; pan; wok	锅 (炒菜的)	462	pot; pan; wok	1462	POT	4			
+Yang-2011-1014-468	468	463	tub; bucket	桶	463	tub; bucket	2052	BUCKET	4			
+Yang-2011-1014-469	469	464	barrel, ceramic	土罐	464	barrel, ceramic	2548	BARREL	4			
+Yang-2011-1014-470	470	465	washbasin	盆	465	washbasin	915	SINK (BASIN)	2			
+Yang-2011-1014-471	471	466	bag; sack	袋子	466	bag; sack	2468	BAG	4			
+Yang-2011-1014-472	472	467	comb (regular)	梳子	467	comb (regular)	1475	COMB	4			
+Yang-2011-1014-473	473	468	fine toothed comb	细密梳子	468	fine toothed comb						
+Yang-2011-1014-474	474	469	bowl	碗	469	bowl	1530	BOWL	2			
+Yang-2011-1014-475	475	470	small bowl	小碗	470	small bowl	2053	SMALL BOWL	2			
+Yang-2011-1014-476	476	471	large bowl	大碗	471	large bowl	3286	LARGE BOWL				
+Yang-2011-1014-477	477	472	chopsticks	筷子	472	chopsticks	1987	CHOPSTICKS	2			
+Yang-2011-1014-478	478	473	bed	床	473	bed	1663	BED	2			
+Yang-2011-1014-479	479	474	ladder	梯子	474,1 / 474,0	ladder / ladder	1464	LADDER	2			
+Yang-2011-1014-480	480	475	firewood	柴	475	firewood	10	FIREWOOD	2			
+Yang-2011-1014-481	481	476	manure; fertilizer	粪 (肥料)	476	manure; fertilizer	2057	DUNG (ANIMAL FAECES)	4	uncertain		probably same extension, but different intensions…
+Yang-2011-1014-482	482	477	road	路	477,0 / 477,1 / 477,2	road / road / road	2457	PATH OR ROAD	2			
+Yang-2011-1014-483	483	478	bridge	桥	478	bridge	1011	BRIDGE	2			
+Yang-2011-1014-484	484	479	market	街子(市场)	479	market	633	MARKET	2			
+Yang-2011-1014-485	485	480	money	钱	480,0 / 480,1	money / money	1559	MONEY	2			
+Yang-2011-1014-486	486	481	price	价钱 (价格)	481	price	657	PRICE	2			
+Yang-2011-1014-487	487	482	folksong	民歌／山歌	482	folksong	2059	FOLK SONG	2			
+Yang-2011-1014-488	488	483	song	歌	483	song	1096	SONG	2			
+Yang-2011-1014-489	489	484	story	故事	484	story	2060	STORY	2			
+Yang-2011-1014-490	490	485	word (written)	字	485	word (written)	1599	WORD	4			
+Yang-2011-1014-491	491	486	speech	话	486,0 / 486,1	speech / speech	1115	SPEECH	2			
+Yang-2011-1014-492	492	487	sound; voice	声音	487,0 / 487,1	sound; voice / sound; voice	1811	SOUND OR NOISE	4			
+Yang-2011-1014-493	493	488	book	书	488	book	963	BOOK	2			
+Yang-2011-1014-494	494	489	name	名字	489	name	1405	NAME	2			
+Yang-2011-1014-495	495	490	dream	梦	490,0 / 490,1	dream / dream	2374	DREAM	2			
+Yang-2011-1014-496	496	491	shadow	影子	491	shadow	1388	SHADE	2			
+Yang-2011-1014-497	497	492	deity	神	492	deity	1944	GOD	4			
+Yang-2011-1014-498	498	493	God	上帝	493,0 / 493,1	God / God	1944	GOD	2			
+Yang-2011-1014-499	499	494	soul (1)	魂	494	soul (1)	811	SOUL	4			
+Yang-2011-1014-500	500	495	spirit (evil)	鬼	495	spirit (evil)	1973	DEMON		lacuna	SPIRIT (EVIL)	More general concept SPIRIT (SUPERNATURAL BEING) also missing
+Yang-2011-1014-501	501	496	boundary marker	边界记号	496	boundary marker						
+Yang-2011-1014-502	502	497	fence	栅栏	497	fence	1690	FENCE	2			
+Yang-2011-1014-503	503	498	gun	枪	498	gun	1566	GUN	2			
+Yang-2011-1014-504	504	499	bow	弓	499,0 / 499,1	bow / bow	994	BOW	2			
+Yang-2011-1014-505	505	500	arrow	箭	500	arrow	977	ARROW	2			
+Yang-2011-1014-506	506	501	arrow (head)	箭头	501	arrow (head)			4			
+Yang-2011-1014-507	507	502	cage (e.g., for ducks)	笼	502	cage (e.g., for ducks)	3283	CAGE		lacuna	CAGE	
+Yang-2011-1014-508	508	503	drum	鼓	503	drum	908	DRUM	2			
+Yang-2011-1014-509	509	504	gong	铜锣	504	gong	2502	GONG	2			
+Yang-2011-1014-510	510	505	town	城	505	town	1391	TOWN	2			
+Yang-2011-1014-511	511	506	village	村(寨)	506	village	930	VILLAGE	2			
+Yang-2011-1014-512	512	507	custom	风俗	507	custom	1747	CUSTOM	2			
+Yang-2011-1014-513	513	508	ritual tree	龙树	508	ritual tree						
+Yang-2011-1014-514	514	509	invocation	祈祷	509	invocation						
+Yang-2011-1014-515	515	510	bell	铃	510	bell	2246	BELL	2			
+Yang-2011-1014-516	516	511	flute	笛子	511,1 / 511,0	flute / flute	777	FLUTE	2			
+Yang-2011-1014-517	517	512	gourd reed-organ	芦笙	512	gourd reed-organ						
+Yang-2011-1014-518	518	513	pipe (yuantong)	烟筒	513	pipe (yuantong)	1124	PIPE	4			
+Yang-2011-1014-519	519	514	trap	陷阱	514	trap	1075	TRAP (PITFALL)	2			
+Yang-2011-1014-520	520	515	poison	毒药	515	poison	655	POISON	2			
+Yang-2011-1014-521	521	516	look at	看	516	look at	1819	LOOK	2			
+Yang-2011-1014-522	522	517	see	看见	517	see	1409	SEE	2			
+Yang-2011-1014-523	523	518	show	给看	518	show	1039	SHOW	2			
+Yang-2011-1014-524	524	519	listen	听	519	listen	1608	LISTEN	2			
+Yang-2011-1014-525	525	520	hear	听见	520	hear	1408	HEAR	2			
+Yang-2011-1014-526	526	521	eat	吃	521	eat	1336	EAT	2			
+Yang-2011-1014-527	527	522	feed	喂（人、猪）	522	feed	739	FEED	2			
+Yang-2011-1014-528	528	523	feed animals	喂 (喂鸡)	523,0 / 523,1	feed animals / feed animals				lacuna	FEED (ANIMALS)	739 FEED too general
+Yang-2011-1014-529	529	524	drink	喝	524	drink	1401	DRINK	2			
+Yang-2011-1014-530	530	525	give to drink	给喝	525	give to drink						
+Yang-2011-1014-531	531	526	bite	咬	526	bite	1403	BITE	2			
+Yang-2011-1014-532	532	527	chew	嚼	527	chew	321	CHEW	2			
+Yang-2011-1014-533	533	528	lick	舔	528	lick	319	LICK	2			
+Yang-2011-1014-534	534	529	savor	含	529	savor	2190	TASTE				
+Yang-2011-1014-535	535	530	swallow	咽	530,0 / 530,1	swallow / swallow	897	SWALLOW	2			
+Yang-2011-1014-536	536	531	spit	吐 (吐口水)	531	spit	1440	SPIT	2			
+Yang-2011-1014-537	537	532	vomit	呕吐	532	vomit	1278	VOMIT	2			
+Yang-2011-1014-538	538	533	suck	吸	533	suck	1421	SUCK	2			
+Yang-2011-1014-539	539	534	blow (on)	吹 (吹火)	534	blow (on)	176	BLOW (WITH MOUTH)	4			
+Yang-2011-1014-540	540	535	say	说	535	say	1458	SAY	2			
+Yang-2011-1014-541	541	536	speak	讲	536	speak	1623	SPEAK	2			
+Yang-2011-1014-542	542	537	tell	告诉	537	tell	1711	TELL	2			
+Yang-2011-1014-543	543	538	call; be called	叫	538	call; be called	180	CALL BY NAME	4			
+Yang-2011-1014-544	544	539	ask	问	539	ask	1309	ASK (INQUIRE)	2			
+Yang-2011-1014-545	545	540	answer	答 (回答)	540	answer	1275	ANSWER	2			
+Yang-2011-1014-546	546	541	send for; request	请	541	send for; request	1828	ASK (REQUEST)	4			
+Yang-2011-1014-547	547	542	smell	闻 (嗅)	542	smell	1586	SMELL (PERCEIVE)	2			
+Yang-2011-1014-548	548	543	touch; feel; stroke	摸 (摸摸刀口)	543	touch; feel; stroke	1892	TOUCH	4			
+Yang-2011-1014-549	549	544	take	拿 (拿书)	544	take	1749	TAKE	2			
+Yang-2011-1014-550	550	545	grasp; grip	握(握刀把)	545	grasp; grip	2021	GRASP	4			
+Yang-2011-1014-551	551	546	grab	抓住	546	grab	855	SEIZE	2			
+Yang-2011-1014-552	552	547	pick (e.g., fruit)	摘 (摘果子)	547,0 / 547,1	pick (e.g., fruit) / pick (e.g., fruit)	2148	PICK	4			
+Yang-2011-1014-553	553	548	rub (with hands)	搓 (措绳子)	548	rub (with hands)	1449	RUB	4			
+Yang-2011-1014-554	554	549	rip; tear	撕	549	rip; tear	1735	TEAR (SHRED)	4			
+Yang-2011-1014-555	555	550	twist; wring	拧 (拧毛巾)	550	twist; wring	430	TWIST	4			
+Yang-2011-1014-556	556	551	pick up	拾 (拾起)	551	pick up	371	PICK UP	2			
+Yang-2011-1014-557	557	552	catch; seize	捉 (捉鸡)	552	catch; seize	702	CATCH	4			
+Yang-2011-1014-558	558	553	scatter; sprinkle (e.g., seed)	撒 (撒种子)	553	scatter; sprinkle (e.g., seed)	2064	SCATTER (SEEDS)	4			
+Yang-2011-1014-559	559	554	throw away	丢掉	554	throw away						
+Yang-2011-1014-560	560	555	pitch (throw from side way)	摔 (石头)	555	pitch (throw from side way)			4			
+Yang-2011-1014-561	561	556	toss (overhand)	投	556	toss (overhand)	1456	THROW				
+Yang-2011-1014-562	562	557	stretch; stretch out	伸 (伸手)	557,0 / 557,1 / 557,1	stretch; stretch out / stretch; stretch out / stretch; stretch out	214	STRETCH	4			
+Yang-2011-1014-563	563	558	pound	舂/捣碎	558	pound	354	POUND	4			
+Yang-2011-1014-564	564	559	lift (over head)	举起	559	lift (over head)	501	LIFT	4			
+Yang-2011-1014-565	565	560	fold	折	560	fold	1470	FOLD	2			
+Yang-2011-1014-566	566	561	squeeze	挤压/榨	561	squeeze	1414	SQUEEZE	2			
+Yang-2011-1014-567	567	562	pinch	捏	562,1 / 562,0	pinch / pinch	378	PINCH	2			
+Yang-2011-1014-568	568	563	massage	按摩	563	massage	3119	MASSAGE (SOMEBODY)	2			
+Yang-2011-1014-569	569	564	bend	使弯曲	564	bend	2224	BEND (SOMETHING)	2			
+Yang-2011-1014-570	570	565	pull a	拉	565	pull a	1455	PULL				
+Yang-2011-1014-571	571	565	pull b	拉	565.1	pull b	1455	PULL				
+Yang-2011-1014-572	572	566	push	推	566	push	1452	PUSH	2			
+Yang-2011-1014-573	573	567	kick	踢	567	kick	1135	KICK	2			
+Yang-2011-1014-574	574	568	kneel	跪	568,0 / 568,1	kneel / kneel	66	KNEEL	2			
+Yang-2011-1014-575	575	569	sit	坐	569,0 / 569,1	sit / sit	1416	SIT	2			
+Yang-2011-1014-576	576	570	carry, on back	背 (背小孩)	570	carry, on back	465	CARRY ON BACK	4			
+Yang-2011-1014-577	577	571	carry,  in arms	抱 (抱小孩)	571	carry,  in arms			4	lacuna	CARRY (IN ARMS)	700 CARRY too general
+Yang-2011-1014-578	578	572	carry, from hand	提	572	carry, from hand	412	CARRY IN HAND	4			
+Yang-2011-1014-579	579	573	carry, mid pole	担	573	carry, mid pole			4	lacuna	CARRY (ON POLE)	413 CARRY ON SHOULDER too general. This denotes a specific way of carrying something on the shoulder (i.e. using a pole)
+Yang-2011-1014-580	580	574	fall	跌 (跌倒)	574	fall	1280	FALL	2			
+Yang-2011-1014-581	581	575	lean (against)	靠 (人靠在树上)	575	lean (against)	2219	LEAN (MEAT)	4			
+Yang-2011-1014-582	582	576	spend night	过夜	576	spend night						
+Yang-2011-1014-583	583	577	rest	休息	577	rest	168	REST	2			
+Yang-2011-1014-584	584	578	sleep	睡觉	578,0 / 578,1 / 578,2	sleep / sleep / sleep	1585	SLEEP	2			
+Yang-2011-1014-585	585	579	put to sleep	使睡	579	put to sleep						
+Yang-2011-1014-586	586	580	awake	醒 (睡醒)	580	awake	825	AWAKE	2			
+Yang-2011-1014-587	587	581	awaken	唤醒	581	awaken	825	AWAKE	2			
+Yang-2011-1014-588	588	582	do (work)	做 (做工)	582	do (work)	813	DO	2			
+Yang-2011-1014-589	589	583	labor; work	劳动	583	labor; work	984	WORK (LABOUR)	4			
+Yang-2011-1014-590	590	584	to plow	犁 (犁地)	584	to plow	1921	PLOUGH	3			
+Yang-2011-1014-591	591	585	dig (a hole)	挖 (挖洞)	585,1 / 585,0	dig (a hole) / dig (a hole)	1418	DIG	4			
+Yang-2011-1014-592	592	586	plant; grow	种/栽秧	586.1	plant; grow	1486	PLANT (SOMETHING)	4			
+Yang-2011-1014-593	593	586	plant; grow	种	586	plant; grow	1486	PLANT (SOMETHING)	4			
+Yang-2011-1014-594	594	587	water	浇 (浇菜)	587	water	3078	IRRIGATE	2			
+Yang-2011-1014-595	595	588	slice; cut	切 (切菜)	588	slice; cut				lacuna	CUT (INTO SLICES)	155 CHOP too general; 1432 too specific. CUT is subdivided by tool. Should it also be subdivided by shape of result (slices, cubes, halves, etc.)?
+Yang-2011-1014-596	596	589	slice; cut	切 (切苹果、西瓜)	589	slice; cut				lacuna	CUT (INTO HALVES)	155 CHOP too general
+Yang-2011-1014-597	597	590	split; chop; cleave	劈 (劈木柴)	590	split; chop; cleave	1437	SPLIT	4			
+Yang-2011-1014-598	598	591	chop (down)	砍 (砍树)	591	chop (down)	463	FELL (A TREE)				
+Yang-2011-1014-599	599	592	cut (reap)	割 (割稻)	592	cut (reap)				lacuna	CUT (WITH SICKLE)	cf. CUT (WITH KNIFE) etc.
+Yang-2011-1014-600	600	593	whittle	削	593	whittle				lacuna	WHITTLE	CUT (WITH KNIFE) too general; 553 HEW suitable?
+Yang-2011-1014-601	601	594	stab	刺	594,1 / 594,0 / 594,1	stab / stab / stab	1434	STAB	2			
+Yang-2011-1014-602	602	595	pull up; pull out	拔 (拔草)	595,0 / 595,1	pull up; pull out / pull up; pull out	2325	PULL OUT	4			
+Yang-2011-1014-603	603	596	graze; herd (a flock)	放牧	596	graze; herd (a flock)	3058	GRAZE	4			
+Yang-2011-1014-604	604	597	raise animals	饲养	597	raise animals				lacuna	RAISE (ANIMALS)	cf. 2134 RAISE (A CHILD)
+Yang-2011-1014-605	605	598	lead along	牵 (牵牛)	598	lead along						
+Yang-2011-1014-606	606	599	buy	买	599	buy	1869	BUY	2			
+Yang-2011-1014-607	607	600	sell	卖	600	sell	1571	SELL	2			
+Yang-2011-1014-608	608	601	count (number)	数 (数东西)	601,0 / 601,1 / 601,2	count (number) / count (number) / count (number)	1420	COUNT	4			
+Yang-2011-1014-609	609	602	teach	教	602	teach	709	TEACH	2			
+Yang-2011-1014-610	610	602	teach/train	教	602.1	teach/train	709	TEACH	4			
+Yang-2011-1014-611	611	603	study	学	603	study	1929	STUDY	2			
+Yang-2011-1014-612	612	604	cook; boil	煮	604	cook; boil	1100	COOK (SOMETHING)	4			
+Yang-2011-1014-613	613	605	fry (stirfry)	炒	605	fry (stirfry)	991	FRY	4			
+Yang-2011-1014-614	614	606	steam	蒸	606,1 / 606,0	steam / steam	1193	STEAM	2			
+Yang-2011-1014-615	615	607	hunt; go hunting	打猎	607	hunt; go hunting	1435	HUNT	4			
+Yang-2011-1014-616	616	608	shoot (a gun)	射	608	shoot (a gun)	1172	SHOOT	4			
+Yang-2011-1014-617	617	609	hit (a target)	中 (射中)	609	hit (a target)	1433	HIT	4			
+Yang-2011-1014-618	618	610	kill	杀 (杀鸡)	610	kill	1417	KILL	2			
+Yang-2011-1014-619	619	611	die	死	611	die	1494	DIE	2			
+Yang-2011-1014-620	620	612	sharpen (grinding)	磨 (磨刀)	612	sharpen (grinding)	251	SHARPEN (SOMETHING)	4			
+Yang-2011-1014-621	621	613	mill (grinding)	磨 (磨米)	613	mill (grinding)	636	MILL	4			
+Yang-2011-1014-622	622	614	winnow with a fan	簸 (簸米)	614	winnow with a fan	2462	WINNOWING		uncertain		Can 2462 WINNOWING (gerund) be used here?
+Yang-2011-1014-623	623	615	ladle out; spoon up	舀 (舀水)	615	ladle out; spoon up	2788	LADLE (WATER)				
+Yang-2011-1014-624	624	616	wear; put on	穿 (衣服)	616	wear; put on	976	WEAR	4			
+Yang-2011-1014-625	625	617	wear (hat); put on (hat)	戴 (帽子)	617	wear (hat); put on (hat)				lacuna	WEAR (ON HEAD)	
+Yang-2011-1014-626	626	618	wear (turban)	戴(头巾)	618	wear (turban)				lacuna	WEAR (ON HEAD)	
+Yang-2011-1014-627	627	619	wear (upper clothes)	穿(上衣)	619	wear (upper clothes)				lacuna	WEAR (ON UPPER BODY)	
+Yang-2011-1014-628	628	620	clothe	给穿	620	clothe	158	PUT ON	4			
+Yang-2011-1014-629	629	621	take off	脱 (脱衣服)	621	take off	1755	UNDRESS	4			
+Yang-2011-1014-630	630	622	roll up	卷 (卷烟)	622	roll up						
+Yang-2011-1014-631	631	623	shave	剃 (头)	623	shave	231	SHAVE	2			
+Yang-2011-1014-632	632	624	comb	梳 (梳头)	624	comb	2070	COMB (VERB)	2			
+Yang-2011-1014-633	633	625	dye	染 (染衣服)	625	dye	157	DYE	2			
+Yang-2011-1014-634	634	626	sew	缝(缝衣服)	626	sew	1457	SEW	2			
+Yang-2011-1014-635	635	627	mend; patch	补 (补衣服)	627	mend; patch	2243	REPAIR	4			
+Yang-2011-1014-636	636	628	weave	编织	628	weave	133	WEAVE	2			
+Yang-2011-1014-637	637	629	plait; braid	编 (编辫子)	629	plait; braid	1729	PLAIT OR BRAID OR WEAVE	4			
+Yang-2011-1014-638	638	630	make the bed	铺 (铺床)	630	make the bed						
+Yang-2011-1014-639	639	631	sweep	扫 (扫地)	631	sweep	230	SWEEP	2			
+Yang-2011-1014-640	640	632	open	开 (开门)	632	open	1156	OPEN	2			
+Yang-2011-1014-641	641	633	close	关	633	close	1046	SHUT	2			
+Yang-2011-1014-642	642	634	shut	闭 (闭眼)	634,0 / 634,1	shut / shut	1046	SHUT	2			
+Yang-2011-1014-643	643	635	put down; put/place	放 (下) [放置]	635	put down; put/place	998	PUT	4			
+Yang-2011-1014-644	644	636	release; let go; set free	放 (把鸟放走)	636	release; let go; set free	1095	LET GO OR SET FREE	4			
+Yang-2011-1014-645	645	637	hang	挂 (挂在墙上)	637	hang	2884	HANG	2			
+Yang-2011-1014-646	646	638	tie into a bundle	捆(绑)	638	tie into a bundle				comment		1917 TIE too general
+Yang-2011-1014-647	647	639	tie; bind	系	639	tie; bind	1917	TIE	4			
+Yang-2011-1014-648	648	639	tie a belt	系	639.1	tie a belt				comment		1917 TIE too general
+Yang-2011-1014-649	649	640	untie	解 (解绳结)	640	untie	352	UNTIE	2			
+Yang-2011-1014-650	650	641	load; pack (put in)	装 (装进袋里)	641	load; pack (put in)	1679	LOAD	4			
+Yang-2011-1014-651	651	642	take out	拿出	642	take out						
+Yang-2011-1014-652	652	643	press; fill in; squeeze in; stuff	塞 (塞在洞口)	643	press; fill in; squeeze in; stuff	1913	PRESS	4			
+Yang-2011-1014-653	653	644	bury; cover up	埋 (埋物)	644	bury; cover up	1719	BURY	4			
+Yang-2011-1014-654	654	645	hide (thing)	藏 (东西)	645	hide (thing)	602	HIDE (CONCEAL)	4			
+Yang-2011-1014-655	655	646	hide (self)	藏/躲 (自己)	646	hide (self)	2485	HIDE (ONESELF)	4			
+Yang-2011-1014-656	656	647	choose	挑选	647	choose	1750	CHOOSE	2			
+Yang-2011-1014-657	657	648	pile up; heap up	堆 (堆积泥土)	648	pile up; heap up	1576	PILE UP	4			
+Yang-2011-1014-658	658	649	nail	钉(钉钉子)	649	nail				lacuna	NAIL (SOMETHING)	NB Action/Process, not Person/Thing
+Yang-2011-1014-659	659	650	want	要 (我要这个)	650	want	1784	WANT	2			
+Yang-2011-1014-660	660	651	get; obtain;	得 (得到)	651,0 / 651,1	get; obtain; / get; obtain;	694	GET	4			
+Yang-2011-1014-661	661	652	receive	收 (收起来)	652	receive	694	GET	2			
+Yang-2011-1014-662	662	653	lose	遗失	653	lose	1660	LOSE	2			
+Yang-2011-1014-663	663	654	seek (look for)	找/寻找	654	seek (look for)	1468	LOOK FOR	4			
+Yang-2011-1014-664	664	655	use	用 (使用)	655	use	2072	USE (VERB)	2			
+Yang-2011-1014-665	665	656	play	玩	656	play	1413	PLAY	2			
+Yang-2011-1014-666	666	657	win	赢	657,0 / 657,1	win / win	866	WIN	2			
+Yang-2011-1014-667	667	658	sing	唱（歌）	658	sing	1261	SING	2			
+Yang-2011-1014-668	668	659	dance	跳舞	659,0 / 659,1	dance / dance	1879	DANCE	2			
+Yang-2011-1014-669	669	660	borrow (money)	借 (借钱)	660	borrow (money)	1823	BORROW	4			
+Yang-2011-1014-670	670	661	borrow (thing)	借(借东西）	661	borrow (thing)	1823	BORROW	4			
+Yang-2011-1014-671	671	662	give back; return; repay	还 (还钱)	662	give back; return; repay	85	GIVE BACK	4			
+Yang-2011-1014-672	672	663	owe	欠	663	owe	369	OWE	2			
+Yang-2011-1014-673	673	664	compensate for; reimburse	赔偿	664	compensate for; reimburse						
+Yang-2011-1014-674	674	665	send-off; deliver	送	665	send-off; deliver	2033	DELIVER	4			
+Yang-2011-1014-675	675	666	wait; await; expect	等(候)	666	wait; await; expect	1590	WAIT (FOR)	4			
+Yang-2011-1014-676	676	667	meet; come across	遇见	667,1 / 667,0	meet; come across / meet; come across	1831	MEET	4			
+Yang-2011-1014-677	677	668	marry a husband	嫁	668	marry a husband	2163	MARRY (AS WOMAN)				
+Yang-2011-1014-678	678	669	marry a wife	娶	669	marry a wife	2164	MARRY (AS MAN)				
+Yang-2011-1014-679	679	670	scold; curse	骂	670	scold; curse	299	SCOLD	4			
+Yang-2011-1014-680	680	671	fight	打架	671	fight	1423	FIGHT	2			
+Yang-2011-1014-681	681	672	hit; beat	打 (打人)	672	hit; beat	1433	HIT	4			
+Yang-2011-1014-682	682	673	rob; loot	抢	673	rob; loot	2073	ROB (VERB)	4			
+Yang-2011-1014-683	683	674	steal	偷	674	steal	713	STEAL	2			
+Yang-2011-1014-684	684	675	cheat	骗	675	cheat	1902	BETRAY	2			
+Yang-2011-1014-685	685	676	help	帮助	676	help	1897	HELP	2			
+Yang-2011-1014-686	686	677	cure; treat; heal	医治	677	cure; treat; heal	499	CURE	4			
+Yang-2011-1014-687	687	678	divide; separate; distribute	分	678	divide; separate; distribute	1119	DIVIDE	4			
+Yang-2011-1014-688	688	679	laugh	笑	679	laugh	1355	LAUGH	2			
+Yang-2011-1014-689	689	680	cry	哭	680	cry	1839	CRY	2			
+Yang-2011-1014-690	690	681	love	爱 (爱小孩)	681	love	923	LOVE	2			
+Yang-2011-1014-691	691	682	like; enjoy	喜欢 (喜欢唱歌)	682	like; enjoy	1117	LIKE	4			
+Yang-2011-1014-692	692	683	know; understand	懂; 知道	683	know; understand	1410	KNOW (SOMETHING)	4			
+Yang-2011-1014-693	693	684	remember	记得	684	remember	707	REMEMBER	2			
+Yang-2011-1014-694	694	685	forget	忘记	685	forget	1523	FORGET	2			
+Yang-2011-1014-695	695	686	think	思考	686,0 / 686,1	think / think	1415	THINK (REFLECT)	2			
+Yang-2011-1014-696	696	687	be angry	生气	687	be angry	2223	BE ANGRY	4			
+Yang-2011-1014-697	697	688	hate	恨	688	hate	1607	HATE	2			
+Yang-2011-1014-698	698	689	fear	怕	689	fear	1419	FEAR (BE AFRAID)	2			
+Yang-2011-1014-699	699	690	have courage	敢	690	have courage						
+Yang-2011-1014-700	700	691	can (well)	会 (会做)	691	can (well)	972	BE ABLE	4			
+Yang-2011-1014-701	701	692	affirmative	是 (这是什么)	692	affirmative	1268	YES	4			
+Yang-2011-1014-702	702	693	is not	不是(这不是我的)	693	is not						
+Yang-2011-1014-703	703	694	have	有	694	have	773	HAVE	2			
+Yang-2011-1014-704	704	695	not have; lack; without	没有(我没有书)	695	not have; lack; without	2329	LACK (NOT HAVE)	4			
+Yang-2011-1014-705	705	696	walk	走	696	walk	1443	WALK	2			
+Yang-2011-1014-706	706	697	run	跑	697,0 / 697,1	run / run	1519	RUN	2			
+Yang-2011-1014-707	707	698	ascend	上 (上山)	698	ascend	705	GO UP (ASCEND)	2			
+Yang-2011-1014-708	708	699	descend	下 (下山)	699	descend	2014	GO DOWN (DESCEND)	2			
+Yang-2011-1014-709	709	700	come	来	700	come	1446	COME	2			
+Yang-2011-1014-710	710	701	come up	上来	701	come up						
+Yang-2011-1014-711	711	702	come down	下来	702	come down						
+Yang-2011-1014-712	712	703	go	去	703	go	695	GO	2			
+Yang-2011-1014-713	713	704	go up	上去	704	go up	705	GO UP (ASCEND)	2			
+Yang-2011-1014-714	714	705	go down	下去	705	go down	2014	GO DOWN (DESCEND)	2			
+Yang-2011-1014-715	715	706	climb	爬(上)	706	climb	1102	CLIMB	2			
+Yang-2011-1014-716	716	707	return	回	707	return	581	COME BACK	2			
+Yang-2011-1014-717	717	708	arrive	到	708	arrive	1387	ARRIVE	2			
+Yang-2011-1014-718	718	709	cross (over)	过 (过河)	709	cross (over)	574	TRANSIT	4			
+Yang-2011-1014-719	719	710	go through	经过	710	go through	1742	TRAVERSE	4			
+Yang-2011-1014-720	720	711	exit (come out)	出 (出去)	711	exit (come out)	1107	GO OUT	4			
+Yang-2011-1014-721	721	712	enter	进 (进来)	712	enter	749	ENTER	2			
+Yang-2011-1014-722	722	713	move back	退	713	move back						
+Yang-2011-1014-723	723	714	flee; escape	逃	714	flee; escape	956	FLEE	4			
+Yang-2011-1014-724	724	715	chase	追 (追上)	715	chase	1435	HUNT	2			
+Yang-2011-1014-725	725	716	step on	踩	716	step on	2065	STEP (VERB)	2			
+Yang-2011-1014-726	726	717	jump; leap	跳	717	jump; leap	1829	JUMP	4			
+Yang-2011-1014-727	727	718	stride	跨 (跨小沟)	718	stride						
+Yang-2011-1014-728	728	719	ride; ride on	骑 (骑马)	719	ride; ride on	367	RIDE	4			
+Yang-2011-1014-729	729	720	EXIST; to be	在; 有	720	EXIST; to be	1579	BE	3			
+Yang-2011-1014-730	730	721	dry (in the sun)	晒 (晒太阳)	721	dry (in the sun)	1786	DRY UP		comment		2015 MAKE DRY too general
+Yang-2011-1014-731	731	722	rain (V)	下雨	722	rain (V)	1253	RAIN (RAINING)	4			
+Yang-2011-1014-732	732	723	(of the wind) blow	刮风	723	(of the wind) blow	175	BLOW (OF WIND)	4			
+Yang-2011-1014-733	733	724	light (on fire)	点 (点火)	724	light (on fire)	737	LIGHT (IGNITE)	4			
+Yang-2011-1014-734	734	725	burn	焚 (烧)	725,0 / 725,1	burn / burn	2102	BURN	2			
+Yang-2011-1014-735	735	726	burn up	烧掉	726	burn up						
+Yang-2011-1014-736	736	727	roast (in fire)	烧(火里)	727	roast (in fire)	1962	ROAST (SOMETHING)	4			
+Yang-2011-1014-737	737	728	roast (over fire)	烤(火上)	728	roast (over fire)	1962	ROAST (SOMETHING)	4			
+Yang-2011-1014-738	738	729	smoke	冒烟	729	smoke	2859	SMOKE (EMIT SMOKE)	2			
+Yang-2011-1014-739	739	730	explode	爆炸	730	explode						
+Yang-2011-1014-740	740	731	flow	流 (水流)	731	flow	2003	FLOW	2			
+Yang-2011-1014-741	741	732	overflow; spill	溢	732	overflow; spill	3130	SPILL (SOMETHING)	4			
+Yang-2011-1014-742	742	733	float	浮 (浮在水面)	733	float	1574	FLOAT	2			
+Yang-2011-1014-743	743	734	crack open; split open	裂开 (墙裂开)	734	crack open; split open	3080	SPLIT OPEN	4			
+Yang-2011-1014-744	744	735	collapse; topple down	倒塌	735	collapse; topple down	2894	TUMBLE (FALL DOWN)				
+Yang-2011-1014-745	745	736	be short of; lack	缺 (碗缺了一个口)	736	be short of; lack	2329	LACK (NOT HAVE)	4			
+Yang-2011-1014-746	746	737	roll	滚 (石头滚)	737	roll	827	ROLL	2			
+Yang-2011-1014-747	747	738	revolve; rotate; spin	旋转	738	revolve; rotate; spin	121	SPIN	4			
+Yang-2011-1014-748	748	739	fall; drop	掉 (掉在地下)	739	fall; drop	1280	FALL	4			
+Yang-2011-1014-749	749	740	snap in two (rope, string)	断 (绳子断了)	740	snap in two (rope, string)				concepticon error		rename as SNAP (OF STICK)
+Yang-2011-1014-750	750	741	break	破 (罐子破了)	741	break	680	BREAK (DESTROY OR GET DESTROYED)	2			
+Yang-2011-1014-751	751	742	leak	漏 (水桶漏水)	742	leak	2253	DRIP (EMIT LIQUID)	2			
+Yang-2011-1014-752	752	743	boil	沸	743	boil	2493	BOIL	2			
+Yang-2011-1014-753	753	744	change	变 (蛹变蛾)	744	change	1264	CHANGE	2			
+Yang-2011-1014-754	754	745	birth	生 (生孩子)	745,2 / 745,0 / 745,1 / 745,3 / 745,4	birth / birth / birth / birth / birth	1195	GIVE BIRTH	2			
+Yang-2011-1014-755	755	746	grow	长 (长大)	746	grow	479	GROW	2			
+Yang-2011-1014-756	756	747	tremble; shiver	发抖	747	tremble; shiver	52	SHIVER	4			
+Yang-2011-1014-757	757	748	swell	肿	748	swell	1573	SWELL	2			
+Yang-2011-1014-758	758	749	fly	飞	749	fly	1441	FLY (MOVE THROUGH AIR)	2			
+Yang-2011-1014-759	759	750	bark	吠 (狗叫)fei	750	bark	1206	BARKING	2			
+Yang-2011-1014-760	760	751	call; crow (of animals)	啼 (公鸡啼)	751	call; crow (of animals)	2074	CROW (VERB)	4			
+Yang-2011-1014-761	761	752	lay (an egg)	生 (生蛋)	752	lay (an egg)	2464	LAY EGGS	4			
+Yang-2011-1014-762	762	753	brood, incubate	孵	753	brood, incubate	2075	BROOD (VERB)	4			
+Yang-2011-1014-763	763	754	germinate, sprout, bud	发(芽)	754	germinate, sprout, bud	2076	SPROUT (VERB)	4			
+Yang-2011-1014-764	764	754	bud on trees	发(芽)	754.1	bud on trees	1684	BUD				
+Yang-2011-1014-765	765	755	bloom; blossom	开(花)	755	bloom; blossom	3287	BLOOM		lacuna	BLOOM	NB Action/Process, not Person/Thing
+Yang-2011-1014-766	766	756	bear fruit	结(果)	756	bear fruit	3054	BEAR FRUIT	2			
+Yang-2011-1014-767	767	757	rot (fruit)	腐烂	757	rot (fruit)			4	lacuna	ROT (OF FRUIT)	2907 ROT too general
+Yang-2011-1014-768	768	757	rot (meat)	腐烂	757.1	rot (meat)			4	lacuna	ROT (OF MEAT)	2907 ROT too general
+Yang-2011-1014-769	769	758	begin; start	开始	758	begin; start	1806	BEGIN	4			
+Yang-2011-1014-770	770	759	stop	停	759	stop	1928	CEASE	2			
+Yang-2011-1014-771	771	760	remain	留下	760	remain	987	REMAIN	2			
+Yang-2011-1014-772	772	761	write	写	761	write	1672	WRITE	2			
+Yang-2011-1014-773	773	762	wash (self)	洗(手)	762	wash (self)	1453	WASH	4			
+Yang-2011-1014-774	774	763	get up	起来	763	get up	1602	WAKE UP	2			
+Yang-2011-1014-775	775	764	shake	摇动	764	shake	1909	SHAKE	2			
+Yang-2011-1014-776	776	765	sink	沉 (下)	765	sink	1088	SINK (DESCEND)	2			
+Yang-2011-1014-777	777	766	finish	完成	766	finish	1766	FINISH	2			
+Yang-2011-1014-778	778	767	give; BEN	给	767	give; BEN	1447	GIVE	4			
+Yang-2011-1014-779	779	768	destroy	破坏	768	destroy	681	DESTROY	2			
+Yang-2011-1014-780	780	769	draw water (well)	吊（水）	769	draw water (well)	1911	DRAW (WATER)	4			
+Yang-2011-1014-781	781	770	drain	排（水）	770	drain, to						
+Yang-2011-1014-782	782	771	be standing	站 (站位)	771	be standing	1442	STAND	2			
+Yang-2011-1014-783	783	772	skin (animal), to	剥皮	772	skin (animal), to	291	PULL OFF (SKIN)	4			
+Yang-2011-1014-784	784	773	peel (eggs, fruit)	剥	773	peel (eggs, fruit)	275	PEEL	4			
+Yang-2011-1014-785	785	774	clear field	除田	774	clear field						
+Yang-2011-1014-786	786	775	weed	除草	775	weed	3288	WEED				
+Yang-2011-1014-787	787	776	stir	搅拌	776,0 / 776,1	stir / stir	696	STIR	2			
+Yang-2011-1014-788	788	777	weigh	称	777,0 / 777,1	weigh / weigh	1098	WEIGH	2			
+Yang-2011-1014-789	789	778	soak; pickle	泡	778	soak; pickle	2069	SOAK (VERB)	4			
+Yang-2011-1014-790	790	779	drown	淹死/溺死	779	drown	1904	DROWN	2			
+Yang-2011-1014-791	791	780	accompany someone	陪	780	accompany someone	1542	ACCOMPANY				
+Yang-2011-1014-792	792	781	swim	游泳	781	swim	1439	SWIM	2			
+Yang-2011-1014-793	793	782	drill (a hole)	钻 (钻孔)	782	drill (a hole)	1501	BORE	4			
+Yang-2011-1014-794	794	783	insert	插	783	insert	3071	INSERT	4			
+Yang-2011-1014-795	795	784	drive out	赶 (驱逐)	784	drive out						
+Yang-2011-1014-796	796	785	wither	枯（树叶枯）	785	wither	2907	ROT	2			
+Yang-2011-1014-797	797	786	cough	咳嗽	786	cough	879	COUGH	2			
+Yang-2011-1014-798	798	787	yawn	打呵欠	787,0 / 787,1	yawn / yawn	1028	YAWN	2			
+Yang-2011-1014-799	799	788	sneeze	打喷嚏	788	sneeze	1621	SNEEZE	2			
+Yang-2011-1014-800	800	789	hiccup	打嗝	789	hiccup	162	HICCOUGH				
+Yang-2011-1014-801	801	790	belch	打饱嗝	790	belch	2245	BELCH	2			
+Yang-2011-1014-802	802	791	fart	放屁	791	fart	1159	FART	2			
+Yang-2011-1014-803	803	792	defecate	解大便	792,0 / 792,1	defecate / defecate	676	SHIT (DEFECATE)	2			
+Yang-2011-1014-804	804	793	urinate	解小便	793	urinate	592	PISS	2			
+Yang-2011-1014-805	805	794	scratch	挠/搔	794,0 / 794,1	scratch / scratch	1436	SCRATCH	2			
+Yang-2011-1014-806	806	795	live	活	795,0 / 795,1	live / live	1422	BE ALIVE	2			
+Yang-2011-1014-807	807	796	exchange	交换	796	exchange	2509	EXCHANGE	2			
+Yang-2011-1014-808	808	797	butt	(用头)碰撞	797	butt	834	BUTTOCKS	2			
+Yang-2011-1014-809	809	798	white	白	798,0 / 798,1	white / white	1335	WHITE	2			
+Yang-2011-1014-810	810	799	black	黑	799	black	163	BLACK	2			
+Yang-2011-1014-811	811	800	red	红	800	red	156	RED	2			
+Yang-2011-1014-812	812	801	yellow	黄	801	yellow	1424	YELLOW	2			
+Yang-2011-1014-813	813	802	blue	蓝	802	blue	837	BLUE	2			
+Yang-2011-1014-814	814	803	green	绿	803	green	1425	GREEN	2			
+Yang-2011-1014-815	815	804	grey	灰色	804	grey	153	GREY	2			
+Yang-2011-1014-816	816	805	sharp (point)	尖 (笔嘴很尖)	805	sharp (point)	1396	SHARP	4			
+Yang-2011-1014-817	817	806	sharp (blade)	快 (刀快)	806	sharp (blade)	1396	SHARP	2			
+Yang-2011-1014-818	818	807	dull	钝 (刀钝)	807,0 / 807,1	dull / dull	379	BLUNT	2			
+Yang-2011-1014-819	819	808	round	圆 (球很圆)	808	round	1395	ROUND	2			
+Yang-2011-1014-820	820	809	flat	平 (路很平)	809	flat	1633	FLAT	2			
+Yang-2011-1014-821	821	810	steep	陡 (山很陡)	810	steep	2717	STEEP	2			
+Yang-2011-1014-822	822	811	situated straight	正 (帽子戴得正)	811	situated straight						
+Yang-2011-1014-823	823	812	situated crooked	歪 (帽子戴歪了)	812	situated crooked						
+Yang-2011-1014-824	824	813	straight	直 (棍子很直)	813	straight	1404	STRAIGHT	2			
+Yang-2011-1014-825	825	814	crooked; bent	弯 (棍子弯)	814	crooked; bent	297	CROOKED	4			
+Yang-2011-1014-826	826	815	thick; dense	稠 (粥很稠)	815	thick; dense	1244	THICK	4			
+Yang-2011-1014-827	827	816	thin; watery; sparse	稀 (粥很稀)	816	thin; watery; sparse	207	SPARSE	4			
+Yang-2011-1014-828	828	817	hard	硬	817,0 / 817,1	hard / hard	1884	HARD	2			
+Yang-2011-1014-829	829	818	soft	软	818	soft	1856	SOFT	2			
+Yang-2011-1014-830	830	819	bright; light	亮 (房子很亮)	819	bright; light	679	BRIGHT	4			
+Yang-2011-1014-831	831	820	dim; dark	暗 (房子很暗)	820	dim; dark	706	DARK	4			
+Yang-2011-1014-832	832	821	clear (sky)	晴	821	clear (sky)				lacuna	CLEAR (OF SKY)	989 CLEAR not appropriate
+Yang-2011-1014-833	833	822	overcast	阴	822	overcast	2341	CLOUDY				
+Yang-2011-1014-834	834	823	full	满	823	full	1429	FULL	2			
+Yang-2011-1014-835	835	824	beautiful	美丽 {漂亮}	824	beautiful	1427	BEAUTIFUL	2			
+Yang-2011-1014-836	836	825	ugly	丑	825,0 / 825,1	ugly / ugly	1548	UGLY	2			
+Yang-2011-1014-837	837	826	fat 	胖	826	fat (person)	1279	FAT (OBESE)	4			
+Yang-2011-1014-838	838	827	fat; fatty (meat)	肥 (肉肥)	827	fat; fatty (meat)	2449	FAT (OF MEAT AND FOOD)	4			
+Yang-2011-1014-839	839	828	lean	瘦 (瘦肉)	828	lean	2219	LEAN (MEAT)	2			
+Yang-2011-1014-840	840	829	skinny; thin	瘦 (人瘦)	829,1 / 829,0	skinny; thin / skinny; thin	1400	THIN (SLIM)	4			
+Yang-2011-1014-841	841	830	clean	干净	830	clean	704	CLEAN	2			
+Yang-2011-1014-842	842	831	dirty	脏	831	dirty	1230	DIRTY	2			
+Yang-2011-1014-843	843	832	old 	老 (老人)	832	old (person)	2112	OLD (AGED)	4			
+Yang-2011-1014-844	844	833	young	年轻	833,2 / 833,0 / 833,1 / 833,1	young / young / young / young	1207	YOUNG	2			
+Yang-2011-1014-845	845	834	good	好 (东西好)	834	good	1035	GOOD	2			
+Yang-2011-1014-846	846	835	bad	坏 (人坏)	835,0 / 835,1	bad / bad	1292	BAD	2			
+Yang-2011-1014-847	847	836	fast	快 (走得快)	836	fast	1631	FAST	2			
+Yang-2011-1014-848	848	837	slow	慢 (走得慢)	837	slow	701	SLOW	2			
+Yang-2011-1014-849	849	838	wet	湿 (衣服湿)	838,0 / 838,1 / 838,1 / 838,2	wet / wet / wet / wet	1726	WET	2			
+Yang-2011-1014-850	850	839	dry	干 (衣服干)	839	dry	1398	DRY	2			
+Yang-2011-1014-851	851	840	new	新	840	new	1231	NEW	2			
+Yang-2011-1014-852	852	841	old	旧	841	old	2113	OLD (USED)	2			
+Yang-2011-1014-853	853	842	raw; unripe	生 (生肉)	842	raw; unripe	1959	RAW	4			
+Yang-2011-1014-854	854	843	cooked; ripe	熟 (熟肉)	843	cooked; ripe	269	COOKED	4			
+Yang-2011-1014-855	855	844	early	早 (来得早)	844	early	672	EARLY	2			
+Yang-2011-1014-856	856	845	late	迟 (来迟了)	845	late	477	LATE	2			
+Yang-2011-1014-857	857	846	easy	容易	846,0 / 846,1	easy / easy	686	EASY	2			
+Yang-2011-1014-858	858	847	difficult	难	847	difficult	584	DIFFICULT	2			
+Yang-2011-1014-859	859	848	hot (temp.)	热	848	hot (temp.)	1286	HOT	4			
+Yang-2011-1014-860	860	849	cold (weather)	冷	849	cold (weather)	2483	COLD (OF WEATHER)	2			
+Yang-2011-1014-861	861	849	cold (body)	?	849.1	cold (body)				lacuna	COLD (OF BODY)	1287 COLD too general
+Yang-2011-1014-862	862	850	warm	暖和	850	warm	1232	WARM	2			
+Yang-2011-1014-863	863	851	cool	凉快	851	cool				lacuna	COOL	
+Yang-2011-1014-864	864	852	sour	酸	852	sour	1906	SOUR	2			
+Yang-2011-1014-865	865	853	sweet	甜	853	sweet	717	SWEET	2			
+Yang-2011-1014-866	866	854	bitter	苦	854	bitter	887	BITTER	2			
+Yang-2011-1014-867	867	855	hot (spicy)	辣	855,0 / 855,1	hot (spicy) / hot (spicy)	544	SPICY	2			
+Yang-2011-1014-868	868	856	salty	咸	856	salty	1091	SALTY	2			
+Yang-2011-1014-869	869	857	delicious	好吃	857	delicious	1813	TASTY	2			
+Yang-2011-1014-870	870	858	insipid	没味道	858	insipid	1771	TASTELESS				
+Yang-2011-1014-871	871	859	fragrant	香 (花香)	859	fragrant	376	FRAGRANT	2			
+Yang-2011-1014-872	872	860	stinky	臭	860	stinky	42	STINKING	2			
+Yang-2011-1014-873	873	860	really stinky	?	860.1	really stinky						
+Yang-2011-1014-874	874	861	fishy (smell)	腥 (鱼腥)	861	fishy (smell)						
+Yang-2011-1014-875	875	862	rotten	腐烂的	862	rotten	1728	ROTTEN	2			
+Yang-2011-1014-876	876	863	full (stomach)	饱	863	full (stomach)	106	SATIATED	4			
+Yang-2011-1014-877	877	864	hungry	饿	864	hungry	1533	BE HUNGRY	2			
+Yang-2011-1014-878	878	865	thirsty	渴	865	thirsty	847	THIRSTY	2			
+Yang-2011-1014-879	879	866	tired	累 (疲乏/疲劳/疲倦)	866	tired	1757	TIRED	2			
+Yang-2011-1014-880	880	867	blessed; happy	幸福 (日子好过)	867	blessed; happy	2529	BLESSED	4			
+Yang-2011-1014-881	881	868	sad	忧愁	868	sad	699	SAD	2			
+Yang-2011-1014-882	882	869	ashamed	惭愧/害羞	869,0 / 869,1	ashamed / ashamed	1894	ASHAMED	2			
+Yang-2011-1014-883	883	870	itchy; ticklish	痒	870	itchy; ticklish	149	ITCHY	4			
+Yang-2011-1014-884	884	871	sick	病 (生病)	871	sick	1847	SICK	2			
+Yang-2011-1014-885	885	872	intelligent; clever	聪明	872	intelligent; clever	1310	CLEVER	4			
+Yang-2011-1014-886	886	873	proud	骄傲	873	proud	174	PROUD	2			
+Yang-2011-1014-887	887	874	stupid	愚蠢	874	stupid	1518	STUPID	2			
+Yang-2011-1014-888	888	875	crazy	疯狂	875	crazy	1899	MAD	4			
+Yang-2011-1014-889	889	876	diligent	勤(勤奋)	876,0 / 876,1	diligent / diligent	2077	DILIGENT	2			
+Yang-2011-1014-890	890	877	busy	忙	877	busy	2755	BUSY	4			
+Yang-2011-1014-891	891	878	capable	能干(的)	878	capable						
+Yang-2011-1014-892	892	879	lazy	懒	879	lazy	1564	LAZY	2			
+Yang-2011-1014-893	893	880	rich	富	880,0 / 880,1	rich / rich	712	RICH	2			
+Yang-2011-1014-894	894	881	poor	穷	881	poor	1674	POOR	2			
+Yang-2011-1014-895	895	882	alive	活着	882,0 / 882,1	alive / alive	1422	BE ALIVE	2			
+Yang-2011-1014-896	896	883	brave	勇敢	883	brave	3	BRAVE	2			
+Yang-2011-1014-897	897	884	drunk	醉	884	drunk	1463	DRUNK	2			
+Yang-2011-1014-898	898	885	backwards	落后	885	backwards	2911	BACKWARD	2			
+Yang-2011-1014-899	899	886	different	不同	886	different	2504	DIFFERENT	2			
+Yang-2011-1014-900	900	887	same	一样 (相同)	887	same	200	SAME	2			
+Yang-2011-1014-901	901	888	sticky	粘	888,0 / 888,1	sticky / sticky						
+Yang-2011-1014-902	902	889	slick	(光)滑	889	slick						
+Yang-2011-1014-903	903	890	tight	紧 (绑的紧)	890	tight	3053	TIGHT	2			
+Yang-2011-1014-904	904	891	loose	松 (绑的松)	891	loose	2506	LOOSE	2			
+Yang-2011-1014-905	905	892	expensive	贵	892	expensive	1426	EXPENSIVE	2			
+Yang-2011-1014-906	906	893	cheap	便宜	893	cheap	1887	CHEAP	2			
+Yang-2011-1014-907	907	894	correct	正确	894	correct	1725	CORRECT (RIGHT)	2			
+Yang-2011-1014-908	908	895	enough	足够	895	enough	1881	ENOUGH	2			
+Yang-2011-1014-909	909	896	FAR	远	896	FAR	1406	FAR	2			
+Yang-2011-1014-910	910	897	NEAR	近	897	NEAR	1942	NEAR	2			
+Yang-2011-1014-911	911	898	HIGH	高	898	HIGH	1265	HIGH	2			
+Yang-2011-1014-912	912	899	LOW	低	899	LOW	721	LOW	2			
+Yang-2011-1014-913	913	900	LONG (distance)	长	900	LONG (distance)	1203	LONG	4			
+Yang-2011-1014-914	914	901	SHORT	短	901	SHORT	1645	SHORT	2			
+Yang-2011-1014-915	915	902	MANY	多	902	MANY	1198	MANY	2			
+Yang-2011-1014-916	916	903	FEW	少	903	FEW	1242	FEW	2			
+Yang-2011-1014-917	917	904	WIDE	宽	904	WIDE	1243	WIDE	2			
+Yang-2011-1014-918	918	905	NARROW	窄	905	NARROW	1267	NARROW	2			
+Yang-2011-1014-919	919	906	BIG	大	906	BIG	1202	BIG	2			
+Yang-2011-1014-920	920	907	LITTLE	小	907,0 / 907,1	LITTLE / LITTLE	1246	SMALL	2			
+Yang-2011-1014-921	921	908	DEEP	深 (水深)	908	DEEP	1593	DEEP	2			
+Yang-2011-1014-922	922	909	SHALLOW	浅 (水浅)	909	SHALLOW	193	SHALLOW	2			
+Yang-2011-1014-923	923	910	LIGHT	轻	910	LIGHT	1052	LIGHT (WEIGHT)	2			
+Yang-2011-1014-924	924	911	HEAVY	重	911	HEAVY	1210	HEAVY	2			
+Yang-2011-1014-925	925	912	THICK (2d)	厚	912	THICK (2d)	1244	THICK	4			
+Yang-2011-1014-926	926	913	THIN (2d)	薄	913	THIN (2d)	2308	THIN	4			
+Yang-2011-1014-927	927	914	THICK (3d)	粗 (粗大)	914	THICK (3d)	1244	THICK	4			
+Yang-2011-1014-928	928	915	THIN (3d)	细 (细小)	915	THIN (3d)	2308	THIN	4			
+Yang-2011-1014-929	929	916	HOW FAR?	有多远？	916	HOW FAR?				lacuna	HOW FAR	cf. 2338 HOW LONG, etc.
+Yang-2011-1014-930	930	917	HOW HIGH?	有多高？	917	HOW HIGH?				lacuna	HOW HIGH	cf. 2338 HOW LONG, etc.
+Yang-2011-1014-931	931	918	HOW LONG?	有多长？	918	HOW LONG?	2338	HOW LONG	4			
+Yang-2011-1014-932	932	919	HOW WIDE?	有多宽？	919	HOW WIDE?				lacuna	HOW WIDE	cf. 2338 HOW LONG, etc.
+Yang-2011-1014-933	933	920	HOW BIG?	有多大？	920	HOW BIG?				lacuna	HOW BIG	cf. 2338 HOW LONG, etc.
+Yang-2011-1014-934	934	921	HOW DEEP?	有多深？	921	HOW DEEP?				lacuna	HOW DEEP	cf. 2338 HOW LONG, etc.
+Yang-2011-1014-935	935	922	HOW HEAVY?	有多重？	922	HOW HEAVY?				lacuna	HOW HEAVY	cf. 2338 HOW LONG, etc.
+Yang-2011-1014-936	936	923	one	一	923	one	1493	ONE	2			
+Yang-2011-1014-937	937	924	two	二	924	two	1498	TWO	2			
+Yang-2011-1014-938	938	925	three	三	925	three	492	THREE	2			
+Yang-2011-1014-939	939	926	four	四	926	four	1500	FOUR	2			
+Yang-2011-1014-940	940	927	five	五	927	five	493	FIVE	2			
+Yang-2011-1014-941	941	928	six	六	928	six	1703	SIX	2			
+Yang-2011-1014-942	942	929	seven	七	929	seven	1704	SEVEN	2			
+Yang-2011-1014-943	943	930	eight	八	930	eight	1705	EIGHT	2			
+Yang-2011-1014-944	944	931	nine	九	931	nine	1483	NINE	2			
+Yang-2011-1014-945	945	932	ten	十	932	ten	1515	TEN	2			
+Yang-2011-1014-946	946	933	eleven	十一	933	eleven	1706	ELEVEN	2			
+Yang-2011-1014-947	947	934	twelve	十二	934	twelve	1707	TWELVE	2			
+Yang-2011-1014-948	948	935	twenty	二十	935	twenty	1710	TWENTY	2			
+Yang-2011-1014-949	949	936	twentyone	二十一	936	twentyone	1734	TWENTY ONE	4			
+Yang-2011-1014-950	950	937	hundred	百	937	hundred	1634	HUNDRED	2			
+Yang-2011-1014-951	951	938	thousand	千	938	thousand	1843	THOUSAND	2			
+Yang-2011-1014-952	952	939	half	半 (一半)	939,1 / 939,1 / 939,0	half / half / half	816	HALF	2			
+Yang-2011-1014-953	953	940	bowlful (MW)	碗	940	bowlful (MW)						
+Yang-2011-1014-954	954	941	arm spread (2 arms)	庹(两臂伸直）pai	941	arm spread (2 arms)				lacuna	FATHOM (TWO ARM'S LENGTHS)	
+Yang-2011-1014-955	955	942	span (hand-width)	柞 (拇指-中指)	942	span (hand-width)			4			
+Yang-2011-1014-956	956	943	CLF.times	次	943	CLF.times						
+Yang-2011-1014-957	957	944	1S	我	944	1S	1209	I				
+Yang-2011-1014-958	958	945	1PL	我们	945,0 / 945,1	1PL / 1PL	1212	WE				
+Yang-2011-1014-959	959	946	1PL (inclusive)	咱们	946	1PL (inclusive)	1131	WE (INCLUSIVE)				
+Yang-2011-1014-960	960	947	2S	你	947	2S	1215	THOU				
+Yang-2011-1014-961	961	948	2PL	你们	948,0 / 948,1	2PL / 2PL	1213	YOU	2			
+Yang-2011-1014-962	962	949	3S	他	949	3S	262	HE OR SHE OR IT				
+Yang-2011-1014-963	963	950	3PL	他们	950,0 / 950,1	3PL / 3PL	817	THEY	2			
+Yang-2011-1014-964	964	951	3SR (another)	其他人／别人	951	3SR (another)						
+Yang-2011-1014-965	965	952	self	自己	952	self	1993	SELF	2			
+Yang-2011-1014-966	966	953	another (thing)	另外	953	another (thing)	197	OTHER	4			
+Yang-2011-1014-967	967	954	POSS	的	954	POSS						
+Yang-2011-1014-968	968	955	this (1)	这 (个)	955	this (1)	1214	THIS	2			
+Yang-2011-1014-969	969	956	this kind	这种	956	this kind						
+Yang-2011-1014-970	970	957	here (1)	这里	957	here (1)	136	HERE	4			
+Yang-2011-1014-971	971	958	that one	那个	958	that one	78	THAT	4			
+Yang-2011-1014-972	972	959	that (higher)	那 (上位)	959	that (higher)	78	THAT	4			
+Yang-2011-1014-973	973	960	that (lower)	那 (下位)	960	that (lower)	78	THAT	4			
+Yang-2011-1014-974	974	961	that (far)	那 (远位)	961	that (far)	78	THAT	4			
+Yang-2011-1014-975	975	962	there	那里	962	there	1937	THERE	2			
+Yang-2011-1014-976	976	963	in front	前面	963,2 / 963,0 / 963,1	in front / in front / in front	1883	IN FRONT OF	2			
+Yang-2011-1014-977	977	964	on the other side	对面	964	on the other side	885	OPPOSITE				
+Yang-2011-1014-978	978	965	behind	后面	965,0 / 965,1	behind / behind	1686	BEHIND	2			
+Yang-2011-1014-979	979	966	between	中间	966	between	689	BETWEEN	2			
+Yang-2011-1014-980	980	967	left	左边	967	left	244	LEFT	2			
+Yang-2011-1014-981	981	968	right	右边	968	right	1019	RIGHT	2			
+Yang-2011-1014-982	982	969	beside	旁边	969	beside	1816	BESIDE	2			
+Yang-2011-1014-983	983	970	side	边	970	side	682	SIDE	2			
+Yang-2011-1014-984	984	971	upon	上面	971	upon	1741	ABOVE				
+Yang-2011-1014-985	985	972	beneath	下面	972	beneath	1485	BELOW OR UNDER				
+Yang-2011-1014-986	986	973	inside	里面	973	inside	1606	INSIDE	2			
+Yang-2011-1014-987	987	974	outside	外面	974	outside	762	OUTSIDE	2			
+Yang-2011-1014-988	988	975	everywhere	到处	975	everywhere	2999	EVERYWHERE	2			
+Yang-2011-1014-989	989	976	who?	谁?	976	who?	1235	WHO	2			
+Yang-2011-1014-990	990	977	what?	什么?	977	what?	1236	WHAT	2			
+Yang-2011-1014-991	991	978	where?	哪里?	978	where?	1237	WHERE	2			
+Yang-2011-1014-992	992	979	why?	为什么?	979	why?	1270	WHY	2			
+Yang-2011-1014-993	993	980	which (one)?	哪 (一个)?	980	which (one)?	727	WHICH	4			
+Yang-2011-1014-994	994	981	how?	怎么?	981	how?	1239	HOW	2			
+Yang-2011-1014-995	995	982	how much?	多少?	982	how much?	531	HOW MUCH	2			
+Yang-2011-1014-996	996	983	now	现在	983	now	1376	NOW	2			
+Yang-2011-1014-997	997	984	just now	刚才	984	just now	84	JUST	2			
+Yang-2011-1014-998	998	985	before (sequential)	先 (先去)	985	before (sequential)	1882	BEFORE	4			
+Yang-2011-1014-999	999	986	after	后 (后去)	986	after	1685	AFTER	2			
+Yang-2011-1014-1000	1000	987	before (temporal)	以前	987	before (temporal)	1882	BEFORE	4			
+Yang-2011-1014-1001	1001	988	formerly	从前	988	formerly	1882	BEFORE		uncertain		too tenuous?
+Yang-2011-1014-1002	1002	989	already	已经	989	already	2576	ALREADY	2			
+Yang-2011-1014-1003	1003	990	immediately	立刻	990	immediately	1963	IMMEDIATELY	2			
+Yang-2011-1014-1004	1004	991	frequently	常常 (常常来)	991	frequently	1852	OFTEN		comment		This synonym should be captured automatically
+Yang-2011-1014-1005	1005	992	slowly	慢慢 (慢慢走)	992	slowly	701	SLOW	2			
+Yang-2011-1014-1006	1006	993	quickly	快快 (快快走)	993	quickly	1631	FAST	2			
+Yang-2011-1014-1007	1007	994	very	很 (很漂亮)	994	very	1311	VERY	2			
+Yang-2011-1014-1008	1008	995	most	最 (最大)	995	most	1198	MANY	2			
+Yang-2011-1014-1009	1009	996	all	都 (大家都来)	996	all	98	ALL	2			
+Yang-2011-1014-1010	1010	997	again	再 (明天再来)	997	again	204	AGAIN	2			
+Yang-2011-1014-1011	1011	998	really; certainly	一定 (我一定去)	998	really; certainly	509	CERTAIN	4			
+Yang-2011-1014-1012	1012	999	not (NEG)	不 (他不来)	999	not (NEG)	1240	NOT	4			
+Yang-2011-1014-1013	1013	1000	don't	别 (别去)	1000	don't	813	DO	2			
+Yang-2011-1014-1014	1014	1001	each other	互相	1001	each other						
