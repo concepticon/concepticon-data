@@ -18,19 +18,24 @@ to normalize them for import:
 $ bibtool -r concepticondata/references/bibtool.rsc -o concepticondata/references/references.bib concepticondata/references/references.bib
 ```
 
-- Make sure all changes are pushed and merged into the `master` branch.
-- Make sure all tests pass, and also address warnings about missing PDFs (see [handling source PDFs](#upload_sources))
-- Make sure the data in `master` can be imported into the web app `clld/concepticon`.
-- Make sure all tests pass for the web app.
 - Recreate the statistics pages:
 ```
-concepticon stats
+concepticon --repos=. stats
 ```
 
 - Recreate and push the linking data:
 ```
 concepticon --repos=. relink-data
 ```
+
+- Make sure all changes are pushed and merged into the `master` branch.
+- Make sure all tests pass, and also address warnings about missing PDFs (see [handling source PDFs](#upload_sources))
+```bash
+concepticon --repos=. test
+```
+
+- Make sure the data in `master` can be imported into the web app `clld/concepticon`.
+- Make sure all tests pass for the web app.
 
 - Commit the updates for this version and push updated data:
 ```
@@ -44,10 +49,10 @@ git push origin
   - using `CLLD Concepticon 1.0.0` as the title
   - and giving the citation as release description:
 ```
-List, Johann-Mattis & Cysouw, Michael & Greenhill, Simon & Forkel, Robert (eds.) 2018. Concepticon. 
+List, Johann-Mattis & Greenhill, Simon & Rzymski, Christoph & Schweikhard, Nathanael & Forkel, Robert (eds.) 2019. Concepticon. 
 A Resource for the Linking of Concept Lists. 
 Jena: Max Planck Institute for the Science of Human History.
-Available online at http://concepticon.clld.org
+Available online at https://concepticon.clld.org
 ```
 
 - After a while, check on https://zenodo.org for the DOI assigned to the release
