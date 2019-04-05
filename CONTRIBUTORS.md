@@ -54,7 +54,6 @@ Anthony Grant | MS | 1.1
 Ben Yackley | P | 1.1
 Christoph Rzymski | CLPG | 1.1
 Claire Bowern | D | 1.1
-Christoph Rzymski | CTLG | 1.2
 Cormac Anderson | CP | 1.1, 1.2
 Damian Satterthwaite-Phillips | D | 1.0 
 Doug Cooper | DCSM | 1.1
@@ -72,7 +71,6 @@ Maurizio Serva | MD | 1.1
 Mei-Shin Wu | CTLG | 1.2, 2.0
 Michael Dunn | G | 1.1
 Nathan Hill | MSDP | 1.1
-Nathanael Schweikhard | 1.2 
 Nicholas Evans | A | 1.0
 Paul Heggarty | D | 1.0
 Quentin Atkinson | MD | 1.1
@@ -85,4 +83,4 @@ Viola Kirchhoff da Cruz | CLS | 1.0
 Wang Feng | D | 1.0
 Yunfan Lai | CTLG | 1.1
 Andy Castro | T | 2.0
-Natalia Morozowa | 2.0 
+Natalia Morozowa | TL | 2.0 
