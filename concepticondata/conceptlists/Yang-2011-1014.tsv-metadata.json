@@ -6,6 +6,7 @@
         }
     ],
     "dialect": {
+        "encoding": "utf-8-sig",
         "delimiter": "\t",
         "skipBlankRows": true
     },
@@ -43,31 +44,35 @@
                         "name": "ENGLISH"
                     },
                     {
-                        "datatype": "string",
-                        "name": "CODE"
+                        "name": "SP_NOTE"
                     },
                     {
-                        "datatype": "float",
-                        "name": "MEAN_SWISS_GERMAN"
+                        "name": "SIMILARITY"
                     },
                     {
-                        "datatype": "float",
-                        "name": "MEAN_SECOND_L1"
+                        "name": "NUMBER_IN_SOURCE"
                     },
                     {
-                        "datatype": "float",
-                        "name": "MEAN_TRANSLATIONAL_EQUIV"
+                        "name": "GLOSSES"
                     },
                     {
-                        "datatype": "float",
-                        "name": "MEAN_CONCEP_VOCAB"
+                        "name": "NUMBERS"
+                    },
+                    {
+                        "name": "CHINESE"
+                    },
+                    {
+                        "name": "SP_COMMENT"
+                    },
+                    {
+                        "name": "SP_PROPOSAL"
                     }
                 ],
                 "primaryKey": [
                     "ID"
                 ]
             },
-            "url": "Gampe-2017-48.tsv"
+            "url": "Yang-2011-1014.tsv"
         }
     ]
 }
