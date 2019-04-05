@@ -200,7 +200,7 @@
 | [Swadesh-1960-100b](Swadesh-1960-100b.tsv) | 100 | 100 | 0 |
 | [Swadesh-1960-200](Swadesh-1960-200.tsv) | 200 | 100 | 0 |
 | [Swadesh-1964-100](Swadesh-1964-100.tsv) | 100 | 100 | 0 |
-| [Swadesh-1964-215](Swadesh-1964-215.tsv) | 215 | 100 | 0 |
+| [Swadesh-1960-215](Swadesh-1960-215.tsv) | 215 | 100 | 0 |
 | [Swadesh-1971-100](Swadesh-1971-100.tsv) | 100 | 100 | 0 |
 | [Syrjaenen-2013-226](Syrjaenen-2013-226.tsv) | 226 | 100 | 0 |
 | [Tadmor-2009-100](Tadmor-2009-100.tsv) | 100 | 100 | 0 |
