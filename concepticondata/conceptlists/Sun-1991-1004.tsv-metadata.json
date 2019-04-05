@@ -6,6 +6,7 @@
         }
     ],
     "dialect": {
+        "encoding": "utf-8-sig",
         "delimiter": "\t",
         "skipBlankRows": true
     },
@@ -43,31 +44,14 @@
                         "name": "ENGLISH"
                     },
                     {
-                        "datatype": "string",
-                        "name": "CODE"
-                    },
-                    {
-                        "datatype": "float",
-                        "name": "MEAN_SWISS_GERMAN"
-                    },
-                    {
-                        "datatype": "float",
-                        "name": "MEAN_SECOND_L1"
-                    },
-                    {
-                        "datatype": "float",
-                        "name": "MEAN_TRANSLATIONAL_EQUIV"
-                    },
-                    {
-                        "datatype": "float",
-                        "name": "MEAN_CONCEP_VOCAB"
+                        "name": "CHINESE"
                     }
                 ],
                 "primaryKey": [
                     "ID"
                 ]
             },
-            "url": "Gampe-2017-48.tsv"
+            "url": "Sun-1991-1004.tsv"
         }
     ]
 }

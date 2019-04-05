@@ -6,6 +6,7 @@
         }
     ],
     "dialect": {
+        "encoding": "utf-8-sig",
         "delimiter": "\t",
         "skipBlankRows": true
     },
@@ -43,31 +44,20 @@
                         "name": "ENGLISH"
                     },
                     {
-                        "datatype": "string",
-                        "name": "CODE"
+                        "name": "ENGLISH2"
                     },
                     {
-                        "datatype": "float",
-                        "name": "MEAN_SWISS_GERMAN"
+                        "name": "NOTE"
                     },
                     {
-                        "datatype": "float",
-                        "name": "MEAN_SECOND_L1"
-                    },
-                    {
-                        "datatype": "float",
-                        "name": "MEAN_TRANSLATIONAL_EQUIV"
-                    },
-                    {
-                        "datatype": "float",
-                        "name": "MEAN_CONCEP_VOCAB"
+                        "name": "CHINESE"
                     }
                 ],
                 "primaryKey": [
                     "ID"
                 ]
             },
-            "url": "Gampe-2017-48.tsv"
+            "url": "Castro-2015-608.tsv"
         }
     ]
 }
