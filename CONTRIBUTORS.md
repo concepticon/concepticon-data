@@ -83,4 +83,6 @@ Viola Kirchhoff da Cruz | CLS | 1.0
 Wang Feng | D | 1.0
 Yunfan Lai | CTLG | 1.1
 Andy Castro | T | 2.0
-Natalia Morozowa | TL | 2.0 
+Natalia Morozowa | DCPTL | 2.0 
+Kristina Pianykh | L | 2.0
+
