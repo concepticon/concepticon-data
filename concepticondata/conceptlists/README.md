@@ -15,9 +15,9 @@
 | [Benedict-1976-100](Benedict-1976-100.tsv) | 100 | 100 | 0 |
 | [Bengtson-1994-27](Bengtson-1994-27.tsv) | 27 | 100 | 2 |
 | [Bengtson-2017-12](Bengtson-2017-12.tsv) | 12 | 100 | 0 |
-| [Bennet-1976-100](Bennet-1976-100.tsv) | 100 | 100 | 0 |
-| [Bennet-1976-50a](Bennet-1976-50a.tsv) | 50 | 100 | 0 |
-| [Bennet-1976-50b](Bennet-1976-50b.tsv) | 50 | 100 | 0 |
+| [Bennett-1976-100](Bennett-1976-100.tsv) | 100 | 100 | 0 |
+| [Bennett-1976-50a](Bennett-1976-50a.tsv) | 50 | 100 | 0 |
+| [Bennett-1976-50b](Bennett-1976-50b.tsv) | 50 | 100 | 0 |
 | [Birchall-2016-125](Birchall-2016-125.tsv) | 125 | 100 | 0 |
 | [Blust-1981-200](Blust-1981-200.tsv) | 206 | 100 | 0 |
 | [Blust-2008-210](Blust-2008-210.tsv) | 210 | 100 | 0 |

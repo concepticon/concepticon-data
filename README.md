@@ -1,20 +1,20 @@
 # CLLD Concepticon
 
-[![Build Status](https://travis-ci.org/clld/concepticon-data.svg?branch=master)](https://travis-ci.org/clld/concepticon-data)
+[![Build Status](https://travis-ci.org/concepticon/concepticon-data.svg?branch=master)](https://travis-ci.org/concepticon/concepticon-data)
 
 The data underlying the [Concepticon](https://concepticon.clld.org) of the [CLLD](http://clld.org) project is maintained in this repository. Here, you can find 
 
-* [previous and current releases](https://github.com/clld/concepticon-data/releases), 
-* [issues we are trying to handle](https://github.com/clld/concepticon-data/issues),
-* the [current unreleased form of the data](https://github.com/clld/concepticon-data/tree/master/concepticondata), as well as
-* [errata that have been corrected](https://github.com/clld/concepticon-data/issues?q=label%3Aerrata+is%3Aclosed)
+* [previous and current releases](https://github.com/concepticon/concepticon-data/releases), 
+* [issues we are trying to handle](https://github.com/concepticon/concepticon-data/issues),
+* the [current unreleased form of the data](https://github.com/concepticon/concepticon-data/tree/master/concepticondata), as well as
+* [errata that have been corrected](https://github.com/concepticon/concepticon-data/issues?q=label%3Aerrata+is%3Aclosed)
 
 
 ## Concepticon Data
 
-* For an overview on the status of all currently linked conceptlists, see [here](https://github.com/clld/concepticon-data/blob/master/concepticondata/conceptlists/README.md).
-* For basic information on metadata, see [here](https://github.com/clld/concepticon-data/blob/master/concepticondata/concept_set_meta/README.md).
-* For information on how you can contribute to the project or profit from the data sources we offer, see [here](https://github.com/clld/concepticon-data/blob/master/CONTRIBUTING.md).
+* For an overview on the status of all currently linked conceptlists, see [here](https://github.com/concepticon/concepticon-data/blob/master/concepticondata/conceptlists/README.md).
+* For basic information on metadata, see [here](https://github.com/concepticon/concepticon-data/blob/master/concepticondata/concept_set_meta/README.md).
+* For information on how you can contribute to the project or profit from the data sources we offer, see [here](https://github.com/concepticon/concepticon-data/blob/master/CONTRIBUTING.md).
 
 
 ### Data Structure
@@ -47,9 +47,9 @@ The data underlying the [Concepticon](https://concepticon.clld.org) of the [CLLD
 We try to [release](RELEASING.md) concepticon-data (as well as the [concepticon web app](http://concepticon.clld.org))
 regularly at least once a year. Generally, new releases should only become more comprehensive, i.e. all data
 ever released should also be part of the newest release. Occasionally, though, we may have to correct an
-[erratum](https://github.com/clld/concepticon-data/issues?q=label%3Aerrata), which may result in some
+[erratum](https://github.com/concepticon/concepticon-data/issues?q=label%3Aerrata), which may result in some
 data being removed, or changes in identifiers of objects. So whenever a link to the web app breaks or a script
-using the concepticon-data API throws an error, you should consult the [list of errata](https://github.com/clld/concepticon-data/issues?q=label%3Aerrata) to see, whether an error correction may be the reason
+using the concepticon-data API throws an error, you should consult the [list of errata](https://github.com/concepticon/concepticon-data/issues?q=label%3Aerrata) to see, whether an error correction may be the reason
 for this behaviour.
 
 
@@ -57,4 +57,3 @@ for this behaviour.
 
 [pyconcepticon](https://pypi.org/project/pyconcepticon) provides a Python package 
 to programmatically access Concepticon data.
-
