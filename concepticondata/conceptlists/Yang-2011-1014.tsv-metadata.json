@@ -44,12 +44,6 @@
                         "name": "ENGLISH"
                     },
                     {
-                        "name": "SP_NOTE"
-                    },
-                    {
-                        "name": "SIMILARITY"
-                    },
-                    {
                         "name": "NUMBER_IN_SOURCE"
                     },
                     {
@@ -60,13 +54,8 @@
                     },
                     {
                         "name": "CHINESE"
-                    },
-                    {
-                        "name": "SP_COMMENT"
-                    },
-                    {
-                        "name": "SP_PROPOSAL"
                     }
+
                 ],
                 "primaryKey": [
                     "ID"
