@@ -78,11 +78,11 @@ Robert Blust | D | 1.0
 Sean Lee | D | 1.0
 Sebastian Nicolai | CMS | 1.0  
 Thiago Chacon | MSD | 1.0, 1.1 
-Tiago Tresoldi | CTLG | 1.1, 1.2, 2.0
+Tiago Tresoldi | CTLG | 1.1, 1.2, 2.0, 2.1
 Viola Kirchhoff da Cruz | CLS | 1.0 
 Wang Feng | D | 1.0
 Yunfan Lai | CTLG | 1.1
 Andy Castro | T | 2.0
 Natalia Morozowa | DCPTL | 2.0, 2.1 
-Kristina Pianykh | L | 2.1
+Kristina Pianykh | LP | 2.1
 
