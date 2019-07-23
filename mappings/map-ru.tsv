@@ -1,6 +1,7 @@
 ID	GLOSS	PRIORITY
 2924	A LITTLE///немного	1
 2527	ABILITY///Мочъ	1
+2527	ABILITY///Мочь	1
 1741	ABOVE///Надъ	2
 303	ABSTAIN FROM FOOD///поститься	1
 1814	ACCUSE///обвинять	1
@@ -80,8 +81,7 @@ ID	GLOSS	PRIORITY
 1276	AUTUMN///Осень	2
 1276	AUTUMN///осень	3
 278	AWL///шило	1
-677	AXE///Топор	1
-677	AXE///Топоръ	1
+677	AXE///Топоръ	2
 677	AXE///топор	2
 1769	AXLE///ось	1
 1289	BABY///младенец	1
@@ -135,21 +135,23 @@ ID	GLOSS	PRIORITY
 1533	BE HUNGRY///голодный	1
 425	BE LATE///замедлять, задерживать	1
 48	BE SILENT///молчать	1
-1579	BE///Былъ	1
+1579	BE///Былъ, Бѣ	1
 1579	BE///Быть	1
 1579	BE///Еси	1
+1579	BE///Есми	1
 1579	BE///Есмь	1
 1579	BE///Есте	1
 1579	BE///Есть	2
-1579	BE///Есъми	1
 1860	BEAD///бусина	1
 73	BEAK///клюв	1
-1132	BEAM///Лучь	2
+1132	BEAM///Лучъ	1
+1132	BEAM///Лучь	1
 1132	BEAM///балка, перекладина	1
 832	BEAN///боб	1
 1820	BEAR///Медвѣдь	1
 1820	BEAR///медведь	3
-678	BEARD///Брада	2
+678	BEARD///Борода	1
+678	BEARD///Брада	1
 678	BEARD///борода	2
 1427	BEAUTIFUL///Лѣпо	2
 1427	BEAUTIFUL///красивый	2
@@ -183,7 +185,7 @@ ID	GLOSS	PRIORITY
 1251	BELLY///живот	9
 1485	BELOW OR UNDER///Подъ	2
 1485	BELOW OR UNDER///под	2
-772	BELT///Поясь	2
+772	BELT///Поясъ	2
 772	BELT///пояс	1
 772	BELT///ремень	2
 2584	BENCH///Скамья	1
@@ -226,7 +228,7 @@ ID	GLOSS	PRIORITY
 525	BLOOD VESSEL///вена, артерия	1
 946	BLOOD///Кровь	2
 946	BLOOD///кровь	10
-175	BLOW (OF WIND)///Вѣть	1
+175	BLOW (OF WIND)///Вѣять	1
 175	BLOW (OF WIND)///дуть	4
 176	BLOW (WITH MOUTH)///дунуть	1
 176	BLOW (WITH MOUTH)///дуть	2
@@ -249,7 +251,7 @@ ID	GLOSS	PRIORITY
 2860	BOLT (MOVE IN HASTE)///спешить	1
 2007	BOLT (OF LIGHTNING)///удар молнии	1
 1394	BONE///Kost	1
-1394	BONE///Кость	3
+1394	BONE///Кость	2
 1394	BONE///кость	11
 963	BOOK///книга	2
 585	BOOT///ботинок	2
@@ -428,8 +430,7 @@ ID	GLOSS	PRIORITY
 2149	CHOP (INTO PIECES)///рубить	1
 155	CHOP///рубить	1
 1349	CHURCH///церковь	1
-1467	CIRCLE///Круг	1
-1467	CIRCLE///Кругъ	1
+1467	CIRCLE///Кругъ	2
 1467	CIRCLE///круг	1
 1467	CIRCLE///круг, окружность	1
 2302	CIRCULAR (ROUND IN TWO DIMENSIONS)///круглый	1
@@ -636,7 +637,8 @@ ID	GLOSS	PRIORITY
 2575	DO OR MAKE///делать	1
 813	DO///делать	2
 2009	DOG///Sobaka	1
-2009	DOG///Собака,Пѣсь	2
+2009	DOG///Собака	1
+2009	DOG///Собака,Пѣсь	1
 2009	DOG///собака	10
 2009	DOG///собака, пес	1
 1659	DOLL///кукла	2
@@ -644,7 +646,7 @@ ID	GLOSS	PRIORITY
 196	DONATE///дарить	1
 1862	DONKEY///Оселъ	1
 1862	DONKEY///осел	1
-1567	DOOR///Дверъ	2
+1567	DOOR///Дверь	2
 1567	DOOR///дверь	2
 1567	DOOR///дверь, ворота	1
 80	DOORPOST///дверной косяк	1
@@ -711,6 +713,7 @@ ID	GLOSS	PRIORITY
 1877	EAST///восток	2
 686	EASY///легкий	1
 1336	EAT///Iedit	1
+1336	EAT///Ясти	1
 1336	EAT///Ястй	1
 1336	EAT///есть	7
 1336	EAT///есть (питаться)	2
@@ -718,13 +721,12 @@ ID	GLOSS	PRIORITY
 1336	EAT///кушать, есть	1
 1336	EAT///Ѣмъ	1
 1336	EAT///Ѣсть	1
-1336	EAT///ѣстй	1
+1336	EAT///Ѣшь	1
 863	EDGE///край	1
 863	EDGE///ребро	1
 744	EGG///Jaitso	1
-744	EGG///Яицо	1
+744	EGG///Яицо	2
 744	EGG///яйцо	10
-744	EGG///ѣицо	1
 1705	EIGHT///Восемь	2
 1705	EIGHT///восемь	3
 1722	EIGHTY///восемьдесят	1
@@ -754,7 +756,8 @@ ID	GLOSS	PRIORITY
 40	ENVY///зависть, ревность	1
 3112	ERUPT///извергаться	1
 1615	ESCAPE///убежать, сбежать	1
-1629	EVENING///Вечеръ	2
+1629	EVENING///Вечеръ	1
+1629	EVENING///Вечерь	1
 1629	EVENING///вечер	2
 2999	EVERYWHERE///везде	1
 45	EVIL///Зло	2
@@ -765,7 +768,8 @@ ID	GLOSS	PRIORITY
 127	EXTINGUISH///гасить, тушить	1
 127	EXTINGUISH///тушить	1
 1248	EYE///Glaz	1
-1248	EYE///Око	2
+1248	EYE///Глазъ	1
+1248	EYE///Око	1
 1248	EYE///глаз	12
 1173	EYEBROW///Брови	2
 1173	EYEBROW///бровь	1
@@ -796,7 +800,8 @@ ID	GLOSS	PRIORITY
 1282	FAT (FROM ANIMALS)///жир	5
 1279	FAT (OBESE)///жирный	2
 1279	FAT (OBESE)///жирный, толстый	1
-2449	FAT (OF MEAT AND FOOD)///Толсто	2
+2449	FAT (OF MEAT AND FOOD)///Толсто	1
+2449	FAT (OF MEAT AND FOOD)///Толстъ	1
 323	FAT (ORGANIC SUBSTANCE)///жир	2
 323	FAT (ORGANIC SUBSTANCE)///жир, сало	1
 1985	FATHER'S BROTHER///дядя, брат отца	1
@@ -842,9 +847,11 @@ ID	GLOSS	PRIORITY
 719	FIND///находить	1
 218	FINE (PENALTY)///денежный штраф	1
 2157	FINE OR THIN///тонкий, хрупкий	1
-1303	FINGER///Палцы	2
+1303	FINGER///Палцы	1
+1303	FINGER///Пальцы	1
 1303	FINGER///палец	1
 1303	FINGER///палец (рука)	1
+1896	FINGERNAIL OR TOENAIL///Ногти	2
 1896	FINGERNAIL OR TOENAIL///ноготь	4
 1258	FINGERNAIL///ноготь	1
 1258	FINGERNAIL///ноготь на руке	1
@@ -877,7 +884,6 @@ ID	GLOSS	PRIORITY
 3074	FIX///чинить	1
 2623	FLAG///флаг	1
 889	FLAME///пламя	1
-2377	FLASH (VERB)///Молнiя	2
 1633	FLAT///плоский	2
 232	FLEA///блоха	1
 956	FLEE///бежать, спасаться бегством	1
@@ -955,7 +961,8 @@ ID	GLOSS	PRIORITY
 2034	FROST///Морозъ	1
 2034	FROST///Хладъ	1
 2034	FROST///мороз	1
-1507	FRUIT///Плодъ	2
+1507	FRUIT///Плодъ	1
+1507	FRUIT///Плоды	1
 1507	FRUIT///фрукт	2
 991	FRY///жарить	2
 1429	FULL///pолный	1
@@ -1012,12 +1019,13 @@ ID	GLOSS	PRIORITY
 1369	GOLD///золото	2
 720	GOOD LUCK///удача	1
 2410	GOOD-LOOKING///красивый, прелестный	1
-1035	GOOD///Хорошо	2
+1035	GOOD///Хорошо	1
+1035	GOOD///Хорошо, добро	1
 1035	GOOD///хороший	10
 1187	GOOSE///Гусь	2
 1187	GOOSE///гусь	2
 411	GOURD///бутылочная тыква (разновидность)	1
-605	GRAIN///Жыто	2
+605	GRAIN///Жито	2
 605	GRAIN///зерно	1
 605	GRAIN///зерно (ячмень, овес и др.)	1
 1619	GRANDDAUGHTER///внучка	1
@@ -1107,11 +1115,12 @@ ID	GLOSS	PRIORITY
 1211	HE///Онъ	2
 1211	HE///он	3
 310	HEAD LOUSE///вошь	1
-1256	HEAD///Глава	2
+1256	HEAD///Глава	1
+1256	HEAD///Голова	1
 1256	HEAD///голова	10
 330	HEADBAND///повязка на голову, головной убор	1
 2130	HEADGEAR///шляпа	1
-1364	HEALTHY///Зсравъ	2
+1364	HEALTHY///Здравъ	2
 1364	HEALTHY///здоровый, здоровье	1
 1364	HEALTHY///здоровье	1
 2984	HEAP///куча	1
@@ -1165,7 +1174,8 @@ ID	GLOSS	PRIORITY
 284	HOE///мотыга	1
 1448	HOLD///Держать	1
 1448	HOLD///держать	5
-1667	HOLE///Дира	2
+1667	HOLE///Дира	1
+1667	HOLE///Дыра	1
 1667	HOLE///дыра	2
 46	HOLLOW OUT///выдалбливать	1
 1702	HOLY///священный	1
@@ -1207,12 +1217,10 @@ ID	GLOSS	PRIORITY
 1678	HUT///Шалашъ, хижина	1
 1678	HUT///хижина	1
 1209	I///1-е лицо	1
-1209	I///Я	1
+1209	I///Я	2
 1209	I///я	8
 1209	I///я (местоимение)	2
-1209	I///ѣ	1
-617	ICE///Лед	1
-617	ICE///Ледъ	1
+617	ICE///Ледъ	2
 617	ICE///лед	1
 617	ICE///лед, гололед	1
 617	ICE///лёд	2
@@ -1282,7 +1290,8 @@ ID	GLOSS	PRIORITY
 578	KISS///целовать	4
 274	KNEAD///месить (тесто)	1
 1371	KNEE///Koliena	1
-1371	KNEE///Колено	2
+1371	KNEE///Колено	1
+1371	KNEE///Колѣно	1
 1371	KNEE///колено	9
 66	KNEEL///становиться на колени	1
 3210	KNIFE (FOR EATING)///нож	1
@@ -1311,7 +1320,7 @@ ID	GLOSS	PRIORITY
 1529	LAST (FINAL)///последний	2
 1012	LATCH///запор, засов	1
 477	LATE///поздно	1
-1355	LAUGH///Смѣаться	1
+1355	LAUGH///Смѣяться	1
 1355	LAUGH///смеяться	5
 2958	LAUGHTER///смех	1
 1062	LAW///Законъ	1
@@ -1365,6 +1374,7 @@ ID	GLOSS	PRIORITY
 1052	LIGHT (WEIGHT)///Легокъ	2
 1052	LIGHT (WEIGHT)///легкий	1
 3092	LIGHTER///зажигалка	1
+1654	LIGHTNING///Молнïя	2
 1654	LIGHTNING///молния	1
 1117	LIKE///любить	1
 1117	LIKE///нравиться	1
@@ -1513,7 +1523,7 @@ ID	GLOSS	PRIORITY
 1491	MOUSE///мышь	2
 1165	MOUSTACHE///усы	1
 674	MOUTH///Rot	1
-674	MOUTH///Ротъ	1
+674	MOUTH///Ротъ	2
 674	MOUTH///рот	10
 2873	MOVE (AFFECT EMOTIONALLY)///растрогать	1
 2874	MOVE (ONESELF)///двигаться	2
@@ -1528,8 +1538,7 @@ ID	GLOSS	PRIORITY
 400	MUSH///каша	1
 641	MUSHROOM///гриб	3
 1666	MUTE///немой	1
-502	NAIL (TOOL)///Гвосдъ	1
-502	NAIL (TOOL)///Ногти	2
+502	NAIL (TOOL)///Гвоздъ	1
 502	NAIL (TOOL)///гвоздь	2
 3306	NAIL///забивать гвозди	1
 590	NAKED///голый	1
@@ -1600,7 +1609,7 @@ ID	GLOSS	PRIORITY
 1376	NOW///сейчас	1
 1376	NOW///теперь	1
 1356	NUMBER///Число	1
-191	NUT///Орѣьъ	1
+191	NUT///Орѣхъ	1
 191	NUT///орех	1
 644	OAK///Дубъ	2
 644	OAK///дуб	1
@@ -1729,9 +1738,8 @@ ID	GLOSS	PRIORITY
 1124	PIPE///трубка	1
 592	PISS///мочиться	1
 592	PISS///писать	2
-2539	PIT (POTHOLE)///Яма	1
+2539	PIT (POTHOLE)///Яма	2
 2539	PIT (POTHOLE)///яма	1
-2539	PIT (POTHOLE)///ѣма	1
 337	PITCHFORK///вилка, вилы	1
 1141	PITY///жалость	1
 723	PLACE (POSITION)///место	2
@@ -1776,7 +1784,6 @@ ID	GLOSS	PRIORITY
 1487	POUR///налить	1
 1487	POUR///поливать	1
 2526	POWER///Власть	2
-2526	POWER///Мочь	1
 2526	POWER///власть	1
 3001	POWERFUL///могучий	1
 1687	PRAISE///хвалить	2
@@ -1852,8 +1859,7 @@ ID	GLOSS	PRIORITY
 2870	RECOGNIZE (SOMEBODY)///узна́ть	1
 1978	RECOVER///поправиться	1
 156	RED///Krasno	1
-156	RED///Краско	1
-156	RED///Красно	1
+156	RED///Красно	2
 156	RED///красный	10
 660	REEF///риф	1
 49	REFUSE///отказывать	1
@@ -1964,7 +1970,7 @@ ID	GLOSS	PRIORITY
 691	SEASON///время года	1
 1384	SECOND///второй	2
 1121	SECRET///секрет	1
-1409	SEE///Бидѣть	1
+1409	SEE///Видѣть	1
 1409	SEE///видеть	11
 714	SEED///Сѣмя	1
 714	SEED///семена	1
@@ -2052,7 +2058,8 @@ ID	GLOSS	PRIORITY
 1720	SIGN///знак	1
 1641	SILK///Шелкъ	1
 1641	SILK///шелк	1
-759	SILVER///Сребро	2
+759	SILVER///Серебро	1
+759	SILVER///Сребро	1
 759	SILVER///серебро	2
 1558	SIMILAR///похожий, подобный	1
 2971	SIN///грех	1
@@ -2069,7 +2076,8 @@ ID	GLOSS	PRIORITY
 1703	SIX///шесть	3
 1718	SIXTY///шестьдесят	1
 2845	SIZE (OF OBJECT)///размер	1
-2528	SIZE (OF PERSON)///Рость	2
+2528	SIZE (OF PERSON)///Ростъ	1
+2528	SIZE (OF PERSON)///Рость	1
 3129	SKATE///кататься на роликах	1
 2991	SKI///кататься на лыжах	1
 2991	SKI///лыжа	1
@@ -2085,9 +2093,9 @@ ID	GLOSS	PRIORITY
 812	SLAVE///Рабъ	1
 812	SLAVE///раб	1
 16	SLED///сани	1
+2972	SLEEP (STATE)///Сонъ	2
 2972	SLEEP (STATE)///сон	1
 1585	SLEEP///Spat	1
-1585	SLEEP///Сонъ	2
 1585	SLEEP///Спать	2
 1585	SLEEP///спать	12
 2953	SLEEVE///рукав	1
@@ -2122,7 +2130,8 @@ ID	GLOSS	PRIORITY
 1621	SNEEZE///чихать	1
 375	SNIFF///сопеть, нюхать	1
 1983	SNORE///храпеть	1
-784	SNOW///Снѣгъ	2
+784	SNOW///Снегъ	1
+784	SNOW///Снѣгъ	1
 784	SNOW///снег	4
 1255	SNOWING///идёт снег	1
 3098	SNOWMAN///снеговик	1
@@ -2152,14 +2161,14 @@ ID	GLOSS	PRIORITY
 1906	SOUR///кислый	2
 1595	SOUTH///Югъ	1
 1595	SOUTH///юг	2
-1351	SOW (FEMALE PIG)///Сѣять	2
 1351	SOW (FEMALE PIG)///свинья, свиноматка	1
+748	SOW SEEDS///Сѣять	2
 748	SOW SEEDS///сеять, засевать	1
 3006	SPACE (AVAILABLE)///место	1
 1176	SPADE///лопата	2
 518	SPARK///искра	1
 1854	SPARROW///Воробей	1
-1623	SPEAK///Горовить	1
+1623	SPEAK///Говорить	1
 1623	SPEAK///говорить	2
 1623	SPEAK///говорить, разговаривать	1
 945	SPEAR///Копье	1
@@ -2255,8 +2264,7 @@ ID	GLOSS	PRIORITY
 214	STRETCH///тянуть, натягивать	1
 3308	STRIKE (SOMEONE)///ударить	1
 3309	STRIKE (SOMETHING)///ударить	1
-2133	STRIKE OR BEAT///Битъ	1
-2133	STRIKE OR BEAT///Бить	1
+2133	STRIKE OR BEAT///Бить	2
 2133	STRIKE OR BEAT///бить	1
 353	STRIKE///ударять	1
 362	STRING///верёвка	1
@@ -2362,7 +2370,7 @@ ID	GLOSS	PRIORITY
 1937	THERE///Тамъ	2
 1937	THERE///там	2
 3104	THERMOMETER///термометр	1
-817	THEY///Им	1
+817	THEY///Имъ	1
 817	THEY///Они	2
 817	THEY///Суть	1
 817	THEY///они	4
@@ -2383,7 +2391,7 @@ ID	GLOSS	PRIORITY
 2271	THINK///думать	2
 1859	THIRD///третий	2
 848	THIRST///жажда	1
-1715	THIRTY///Трицать	1
+1715	THIRTY///Тритцать	1
 1715	THIRTY///тридцать	1
 1214	THIS///это	1
 1214	THIS///этот	7
@@ -2441,9 +2449,8 @@ ID	GLOSS	PRIORITY
 2995	TONE (MUSIC)///тон	1
 272	TONGS///щипцы	1
 1205	TONGUE///Jazyk	1
-1205	TONGUE///Языкъ	1
+1205	TONGUE///Языкъ	2
 1205	TONGUE///язык	11
-1205	TONGUE///ѣзыкъ	1
 1361	TOOL///инструмент	1
 1380	TOOTH///Zub	1
 1380	TOOTH///Зубъ	1
@@ -2465,7 +2472,8 @@ ID	GLOSS	PRIORITY
 344	TREE TRUNK///ствол	1
 344	TREE TRUNK///ствол дерева	1
 906	TREE///Diereva	1
-906	TREE///Древо	2
+906	TREE///Дерево	1
+906	TREE///Древо	1
 906	TREE///дерево	12
 2538	TRENCH (FOSSE)///Ровъ	2
 205	TROUGH///желоб для стока воды	1
@@ -2520,8 +2528,7 @@ ID	GLOSS	PRIORITY
 1151	VEIL///вуаль	1
 1924	VEIN///вена	1
 1311	VERY///очень	1
-2550	VIANDS (PROVISIONS)///Яствы	1
-2550	VIANDS (PROVISIONS)///Ѣств	1
+2550	VIANDS (PROVISIONS)///Яствы	2
 783	VICTORY///Побѣда	2
 783	VICTORY///победа	1
 930	VILLAGE///Деревня	1
@@ -2592,7 +2599,7 @@ ID	GLOSS	PRIORITY
 133	WEAVE///плести	1
 1259	WEDDING///Свадба	1
 1694	WEDNESDAY///среда	2
-1469	WEEK///Семдица	1
+1469	WEEK///Седмица	1
 1469	WEEK///неделя	2
 1098	WEIGH///взвешивать	1
 1098	WEIGH///взвешивать, весить	1
@@ -2644,7 +2651,8 @@ ID	GLOSS	PRIORITY
 958	WILD ANIMAL///зебра	1
 818	WILLOW///ива	1
 866	WIN///победить	1
-960	WIND///Вѣтрь	2
+960	WIND///Вѣтръ	1
+960	WIND///Вѣтрь	1
 960	WIND///ветер	8
 960	WIND///ветер 	1
 1375	WINDOW///окно	2
@@ -2672,7 +2680,7 @@ ID	GLOSS	PRIORITY
 1599	WORD///слово	2
 1086	WORK (ACTIVITY)///работать	3
 984	WORK (LABOUR)///Работа	2
-984	WORK (LABOUR)///Труд	1
+984	WORK (LABOUR)///Трудъ	1
 984	WORK (LABOUR)///работа	2
 2977	WORKER///рабочий	1
 965	WORLD///Миръ	1
@@ -2699,8 +2707,7 @@ ID	GLOSS	PRIORITY
 736	YARD///двор	1
 1028	YAWN///Зѣвать	1
 1028	YAWN///зевать	1
-1226	YEAR///Годъ	1
-1226	YEAR///Гоъ	1
+1226	YEAR///Годъ	2
 1226	YEAR///год	8
 1226	YEAR///год 	1
 1424	YELLOW///Zhiolty	1
