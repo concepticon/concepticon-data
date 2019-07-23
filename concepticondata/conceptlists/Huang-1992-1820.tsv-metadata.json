@@ -44,24 +44,20 @@
                         "name": "ENGLISH"
                     },
                     {
-                        "name": "NUMBER_IN_SOURCE"
+                        "name": "POS"
                     },
                     {
-                        "name": "GLOSSES"
-                    },
-                    {
-                        "name": "NUMBERS"
+                        "name": "TBL_ENGLISH"
                     },
                     {
                         "name": "CHINESE"
                     }
-
                 ],
                 "primaryKey": [
                     "ID"
                 ]
             },
-            "url": "Yang-2011-1014.tsv"
+            "url": "Castro-2015-608.tsv"
         }
     ]
 }
