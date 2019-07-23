@@ -68,7 +68,7 @@ Lars Borin | DL | 1.0
 Magdalena Łuniewska | D | 1.1
 Martin Haspelmath | AD | 1.0  
 Maurizio Serva | MD | 1.1
-Mei-Shin Wu | CTLG | 1.2, 2.0
+Mei-Shin Wu | CTLG | 1.2, 2.0, 2.1
 Michael Dunn | G | 1.1
 Nathan Hill | MSDP | 1.1
 Nicholas Evans | A | 1.0
@@ -83,6 +83,6 @@ Viola Kirchhoff da Cruz | CLS | 1.0
 Wang Feng | D | 1.0
 Yunfan Lai | CTLG | 1.1
 Andy Castro | T | 2.0
-Natalia Morozowa | DCPTL | 2.0 
+Natalia Morozowa | DCPTL | 2.0, 2.1 
 Kristina Pianykh | L | 2.1
 
