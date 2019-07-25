@@ -56,7 +56,7 @@ Christoph Rzymski | CLPG | 1.1
 Claire Bowern | D | 1.1
 Cormac Anderson | CP | 1.1, 1.2
 Damian Satterthwaite-Phillips | D | 1.0 
-Doug Cooper | DCSM | 1.1
+Doug Cooper | DCSM | 1.1, 2.1
 Evgeniya Korovina | MSCLPA | 1.1
 Frederike Urke | CLS | 1.0  
 Harald Hammarström | DMS | 1.0 
