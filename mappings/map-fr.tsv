@@ -437,7 +437,7 @@ ID	GLOSS	PRIORITY
 1479	DOLPHIN///marsouin, dauphin	1
 1862	DONKEY///Ane	1
 1862	DONKEY///âne	1
-1567	DOOR///Porter	1
+1567	DOOR///Porte	1
 1567	DOOR///porte	1
 80	DOORPOST///pied-droit, montant de porte	1
 1308	DOUBT///douter	1
@@ -462,7 +462,7 @@ ID	GLOSS	PRIORITY
 1398	DRY///sec	3
 1360	DUCK///Canard	1
 1360	DUCK///canard	1
-2	DUST///Pußière	1
+2	DUST///Poußière	1
 2	DUST///poussière	1
 363	DWELL (LIVE, RESIDE)///habiter, demeurer	1
 157	DYE///teindre	1
@@ -484,6 +484,7 @@ ID	GLOSS	PRIORITY
 1877	EAST///est, orient	1
 686	EASY///facile	2
 1336	EAT///Il mange	1
+1336	EAT///Je mange	1
 1336	EAT///Manger	1
 1336	EAT///Tu mange	1
 1336	EAT///manger	4
@@ -575,6 +576,7 @@ ID	GLOSS	PRIORITY
 218	FINE (PENALTY)///amende	1
 1303	FINGER///Doigts	1
 1303	FINGER///doigt	1
+1896	FINGERNAIL OR TOENAIL///Ongles	1
 1258	FINGERNAIL///griffe	1
 1258	FINGERNAIL///ongle	2
 1766	FINISH///finir, terminer	1
@@ -597,7 +599,6 @@ ID	GLOSS	PRIORITY
 493	FIVE///Cinq	1
 493	FIVE///cinq	2
 889	FLAME///flamme	1
-2377	FLASH (VERB)///Eclair	1
 1633	FLAT///plat	2
 232	FLEA///puce	1
 956	FLEE///s'enfuir	1
@@ -615,7 +616,7 @@ ID	GLOSS	PRIORITY
 1441	FLY (MOVE THROUGH AIR)///voler	3
 1647	FOAL///poulain	1
 1768	FOAM///écume, mousse	1
-249	FOG///Brouillar	1
+249	FOG///Brouillard	1
 249	FOG///brume, brouillard	1
 1470	FOLD///plier	1
 1085	FOLLOW///suivre	1
@@ -801,7 +802,7 @@ ID	GLOSS	PRIORITY
 1286	HOT///chaud (brûlant)	1
 1353	HOUR///Heure	1
 1353	HOUR///heure	1
-1252	HOUSE///Maison	1
+1252	HOUSE///Maißon	1
 1252	HOUSE///maison	2
 822	HOW MANY///combien?	1
 531	HOW MUCH///combien?	1
@@ -829,7 +830,7 @@ ID	GLOSS	PRIORITY
 117	IMITATE///imiter	1
 1963	IMMEDIATELY///tout de suite	1
 1883	IN FRONT OF///devant	1
-1460	IN///Enemi	1
+1460	IN///En	1
 90	INNOCENT///innocent	1
 620	INSECT///insecte	1
 1606	INSIDE///dans, dedans	1
@@ -918,6 +919,7 @@ ID	GLOSS	PRIORITY
 630	LIGHT (RADIATION)///lumière	1
 1052	LIGHT (WEIGHT)///Leger	1
 1052	LIGHT (WEIGHT)///léger	2
+1654	LIGHTNING///Eclair	1
 1654	LIGHTNING///éclair	1
 2540	LIME (MATERIAL)///Chaux	1
 366	LIMP///boiter	1
@@ -1033,7 +1035,6 @@ ID	GLOSS	PRIORITY
 2139	MUROID (MOUSE OR RAT)///souris, rat	1
 641	MUSHROOM///champignon	1
 1666	MUTE///muet	1
-502	NAIL (TOOL)///Ongles	1
 502	NAIL (TOOL)///clou, ongle, pointe	1
 590	NAKED///nu	1
 1405	NAME///Nom	1
@@ -1349,7 +1350,7 @@ ID	GLOSS	PRIORITY
 1127	SEND///envoyer	2
 1359	SEPARATE///séparer	1
 255	SERVANT///domestique, serviteur	1
-1704	SEVEN///Septentrion	1
+1704	SEVEN///Sept	1
 1704	SEVEN///sept	1
 419	SEVERE///méchant	1
 1457	SEW///coudre	1
@@ -1424,8 +1425,8 @@ ID	GLOSS	PRIORITY
 1732	SKY///ciel	2
 812	SLAVE///Serf	1
 812	SLAVE///esclave	1
+2972	SLEEP (STATE)///Someil	1
 1585	SLEEP///Dormir	1
-1585	SLEEP///Someil	1
 1585	SLEEP///dormir	2
 1585	SLEEP///sommeil	1
 387	SLING///fronde	1
@@ -1478,8 +1479,8 @@ ID	GLOSS	PRIORITY
 1906	SOUR///âpre, acide, aigre	1
 1595	SOUTH///Midi	1
 1595	SOUTH///sud	1
-1351	SOW (FEMALE PIG)///Semer	1
 1351	SOW (FEMALE PIG)///truie	1
+748	SOW SEEDS///Semer	1
 748	SOW SEEDS///semer	1
 1176	SPADE///bêche	1
 1854	SPARROW///Moineau	1

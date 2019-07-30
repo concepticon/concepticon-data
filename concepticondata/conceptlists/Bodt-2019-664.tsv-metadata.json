@@ -1,67 +1,53 @@
 {
     "@context": [
-        "http://www.w3.org/ns/csvw",
+        "http://www.w3.org/ns/csvw", 
         {
             "@language": "en"
         }
-    ],
+    ], 
     "dialect": {
-        "encoding": "utf-8-sig",
-        "delimiter": "\t",
+        "delimiter": "\t", 
         "skipBlankRows": true
-    },
+    }, 
     "tables": [
         {
             "tableSchema": {
                 "columns": [
                     {
                         "datatype": {
-                            "base": "string",
+                            "base": "string", 
                             "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
-                        },
+                        }, 
                         "name": "ID"
-                    },
+                    }, 
                     {
                         "datatype": {
-                            "base": "string",
+                            "base": "string", 
                             "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
-                        },
+                        }, 
                         "name": "NUMBER"
-                    },
+                    }, 
                     {
                         "datatype": {
-                            "base": "integer",
+                            "base": "integer", 
                             "minimum": 1
-                        },
+                        }, 
                         "name": "CONCEPTICON_ID"
-                    },
+                    }, 
                     {
-                        "datatype": "string",
+                        "datatype": "string", 
                         "name": "CONCEPTICON_GLOSS"
-                    },
+                    }, 
                     {
-                        "datatype": "string",
+                        "datatype": "string", 
                         "name": "ENGLISH"
-                    },
-                    {
-                        "name": "NUMBER_IN_SOURCE"
-                    },
-                    {
-                        "name": "GLOSSES"
-                    },
-                    {
-                        "name": "NUMBERS"
-                    },
-                    {
-                        "name": "CHINESE"
                     }
-
-                ],
+                ], 
                 "primaryKey": [
                     "ID"
                 ]
-            },
-            "url": "Yang-2011-1014.tsv"
+            }, 
+            "url": "Bodt-2019-664.tsv"
         }
     ]
 }

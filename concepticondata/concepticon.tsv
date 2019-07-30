@@ -1867,7 +1867,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1866	STUTTER	Speech and language	To have problems articulating the words, repeting sometimes some syllables.	Action/Process	
 1867	COIN	Possession	A piece of currency, usually metallic and in the shape of a disc, but sometimes polygonal, or with a hole in the middle.	Person/Thing	
 1868	VISIBLE	Sense perception	That one can see.	Property	
-1869	BUY	Possession	To obtain in exchange for money.	Action/Process	
+1869	BUY	Possession	To obtain in exchange for money or goods.	Action/Process	
 1870	ANCHOR	Motion	Something, usually a heavy piece of metal with points which dig into the sea-bed, used to hold a boat in one position.	Person/Thing	
 1871	CAMEL	Animals	A beast of burden, much used in desert areas, of the genus Camelus.	Person/Thing	
 1872	DUIKER	Animals	Any of several ruminants of the family Bovidae, chiefly of Africa and Asia, having permanent, hollow, unbranched horns.	Person/Thing	
@@ -2163,7 +2163,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2162	STIR FRY	Food and drink	Stir frying (Chinese: 炒; pinyin: chǎo) is a Chinese cooking technique in which ingredients are fried in a small amount of very hot oil while being stirred in a wok.	Action/Process	
 2163	MARRY (AS WOMAN)	Kinship	To enter marriage from the perspective of a woman.	Action/Process	
 2164	MARRY (AS MAN)	Kinship	To enter marriage from the perspective of a man.	Action/Process	
-2165	SLOWLY	Motion	With low speed.	Other	701
+2165	SLOWLY	Motion	With low speed.	Other	
 2166	PILLOW (CLASSIFIER)	Quantity	Classifier for pillows and other objects related to the bed.	Classifier	
 2167	VEHICLE (CLASSIFIER)	Quantity	Classifier for vehicles.	Classifier	
 2168	COW (CLASSIFIER)	Quantity	Classifier for cows and animals as large as cows.	Classifier	
@@ -2473,7 +2473,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2472	SUCKLE (BREASTFEED, NURSE)	Basic actions and technology	Giving milk to babies and young children with milk from a woman's breast.	Action/Process	
 2473	HIS (GENITIVE OF HE)	Possession	Belonging to the male third person.	Person/Thing	
 2474	HER (GENITIVE OF SHE)	Possession	Belonging to the female third person.	Person/Thing	
-2475	MALE GOAT	Animals	A male goat.	Person/Thing	264
+2475	MALE GOAT	Animals	A male goat.	Person/Thing	
 2476	FEMALE GOAT	Animals	A female goat.	Person/Thing	
 2477	YAK	Animals	A long-haired bovid found throughout the Himalaya region of southern Central Asia, the Tibetan Plateau and as far north as Mongolia and Russia.	Person/Thing	
 2478	MALE YAK	Animals	A male yak.	Person/Thing	
@@ -3190,7 +3190,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3195	DAMAGE OR INJURE	Possession	To put a thing in bad condition by causing damage to it or to cause physical harm to a living creature.	Action/Process	
 3196	BE LEFT	Spatial relations	To remain in the same place after others have left or been removed.	Property	
 3197	SUSPICION	Cognition	An assumption without direct evidence.	Person/Thing	
-3198	NOTHING OR ZERO	Miscellaneous function words	Not anything or the cardinal number that denotes no quantity or amount at all.	Other	
+3198	NOTHING OR ZERO	Miscellaneous function words	Not anything or the cardinal number that denotes no quantity or amount at all.	Number	
 3199	TWIST (AROUND)	Motion	To wind something around something else.	Action/Process	
 3200	COUNTRYSIDE	The physical world	The region outside of a city or town.	Person/Thing	
 3201	HINDER OR PREVENT	Social and political relations	To make it difficult for something to occur or to fully stop it from occurring.	Action/Process	
@@ -3207,7 +3207,6 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3212	HOPE (SOMETHING)	Emotions and values	To want something to happen.	Action/Process	
 3213	HIRE OR RENT	Social and political relations	To employ a person or people in exchange of some kind of remuneration, usually a payment, or to pay for using an object.	Action/Process	
 3215	CREEP	Motion	NONE	Action/Process	
-3216	*DRIP OR DROP SOMETHING	Motion	To fall in globules or small portions, as water or other liquid or to let something fall down.	Action/Process	
 3217	TIN OR TINPLATE	Basic actions and technology	A metallic element with symbol Sn or a thin sheet of steel coated with tin to prevent rusting.	Person/Thing	
 3220	MATERNAL UNCLE	Kinship	A brother of someone's mother.	Person/Thing	
 3221	PLANTAGO	Agriculture and vegetation	A plant of the genus Plantago, with a rosette of sessile leaves about 10 cm long with a narrow part instead of a petiole, and with a spike inflorescence with the flower spacing varying widely among the species.	Person/Thing	
@@ -3312,7 +3311,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3325	PEARL	Basic actions and technology	A small hard shiny ball formed in mussels or oysters.	Person/Thing	
 3326	LEATHER OR HIDE	Basic actions and technology	A generic way of referring to either cured or uncured animal hides.	Person/Thing	
 3327	AUTUMN OR HARVEST SEASON	Time	The time during which crops are typically harvested, often co-occuring with the season of autumn.	Other	
-3328	ORANGE (COLOR)	Sense perception	A bright reddish-yellowish colour. 	Property	
+3328	ORANGE (COLOR)	Sense perception	A bright reddish-yellowish colour.	Property	
 3329	YEARLING (HORSE)	Animals	A young horse between one and two years old.	Person/Thing	
 3330	LENTILS	Agriculture and vegetation	A small seed that is dried and used in cooking.	Person/Thing	
 3331	FASTING	Religion and belief	To consume little or no food for a specific period of time, usually done for religious reasons.	Action/Process	
@@ -3336,3 +3335,98 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3349	WRISTWATCH	Time	An instrument used to measure or keep track of time that is carried around the wrist	Person/Thing	
 3350	GET UP FROM BED	Basic actions and technology	To leave one's place of sleeping.	Action/Process	
 3351	STOP DOING	Basic actions and technology	To stop doing the action one was doing.	Action/Process	
+3352	THIRD DAY OF THE MONTH	Time	The third day of the month.	Person/Thing	
+3353	SIEVE (TOOL)	Basic actions and technology	A device for separating wanted elements from unwanted material.	Person/Thing	
+3354	FIRST DAY OF THE MONTH	Time	The first day of the month.	Person/Thing	
+3355	SECOND DAY OF THE MONTH	Time	The second day of the month.	Person/Thing	
+3356	INCENSE	The house	An aromatic material that releases fragrant smoke when burned.	Person/Thing	
+3357	CUPBOARD	The house	Storing space with a door that can be closed.	Person/Thing	
+3358	SPROUT (SHOOT)	Agriculture and vegetation	The early growth of a plant.	Person/Thing	
+3359	DRIP OR DROP SOMETHING	Motion	To fall in globules or small portions, as water or other liquid or to let something fall down.	Action/Process	
+3360	BAMBOO BASKET	Basic actions and technology	A basket from bamboo that is carried on the back.	Person/Thing	
+3361	OFFICIAL	Social and political relations	A person who acts on behalf of a governmental or non-governmental organization within the scope of their prescribed authority.	Person/Thing	
+3362	BOILED WATER	Food and drink	Water that was boiled and is still hot.	Person/Thing	
+3363	NOT HAVE	Basic actions and technology	Not being in possession of something (both abstract and concrete).	Action/Process	
+3364	DRY IN SUN	Basic actions and technology	To put something in the sun in order to dry it. 	Action/Process	
+3365	QUICKLY	Basic actions and technology	To carry out an action in a quick manner.	Property	
+3366	PIMPLEFACE	Social and political relations	A person with acne marks in the face.	Person/Thing	
+3367	STUTTERER	Social and political relations	A person that stutters.	Person/Thing	
+3368	POWDER	Modern world	The granular state of solid matter that was crushed or ground into finest particles.	Person/Thing	
+3369	PIGSTY	Animals	A barn for pigs.		
+3370	RELY ON	Social and political relations	To trust someone's ability to help or expect something to happen in a particular way.	Action/Process	
+3371	WASH (ONESELF)	Basic actions and technology	To cleanse one's body in/with water.	Action/Process	
+3372	GALL BLADDER	The body	A pear-shaped organ located beneath the liver that serves as a storage sac for bile until it is released into the small intestine.	Person/Thing	
+3373	HAN CHINESE		Referring to the Han Chinese people, their cultural practices or heritage.	Person/Thing	
+3374	TIBETAN		Referring to the Tibetan people, their cultural practices or heritage.	Person/Thing	
+3375	PATIENT (SICK PERSON)		A person registered as a recipient of medical services.	Person/Thing	
+3376	ROBBER	Law	A criminal that forcefully takes possession of someone else's money or property.	Person/Thing	
+3377	EMPEROR	Social and political relations	A male monarch, supreme leader of an empire.	Person/Thing	
+3378	HORSE DUNG	Animals	The faeces of a horse.	Person/Thing	
+3379	PIG DUNG	Animals	The faeces of a pig.	Person/Thing	
+3380	HUNTING DOG	Warfare and hunting	A type of canine bred for hunting or a dog trained to assist humans with hunting.	Person/Thing	
+3381	SHEEP DUNG	Animals	The faeces of a sheep.	Person/Thing	
+3382	PEACOCK	Animals	A male peafowl, a species of the family Phasianidae, which is known for displaying its massive tail as part of mate-selection ritual.	Person/Thing	
+3383	SCALD (BURN ONESELF WITH LIQUID)		To cause an injury by contact with steam or hot liquid.	Action/Process	
+3384	WEASEL	Animals	A small predator of the genus Mustela characterized by a slender body that lets it hunt burrowing animals.	Person/Thing	
+3385	ALUMINIUM	The physical world	A metallic chemical element of silver-white colour that occurs mainly in bauxite, with assigned symbol Al and proton number 13.	Person/Thing	
+3386	SULPHUR	The physical world	A crystalline solid, nonmetallic chemical element of a distinct yellow colour, with assigned symbol S and proton number 16.	Person/Thing	
+3387	MIDDLE FINGER	The body	The third and longest finger on the human hand.	Person/Thing	
+3388	PLACENTA	The body	A vascular organ that is formed inside the womb to ensure the transfer of vital nutrients and regulation of metabolic exchange between mother and the foetus.	Person/Thing	
+3389	MEASLES	The body	A contagious airborne disease caused by Measles morbillivirus and characterized by red rash, Koplik's spots, and fever.	Person/Thing	
+3390	WILD RICE		A plant of the genus Zizania with edible grains and stem.	Person/Thing	
+3391	RICE STRAW	Agriculture and vegetation	The dry stalks of the rice plant.	Person/Thing	
+3392	MUER (FUNGUS)		An ear-shaped edible fungus that belongs to the species of Auriculariaceae and is used in medicine and culinary.	Person/Thing	
+3393	LEAN MEAT	Food and drink	Any animal meat with a lower fat content.	Person/Thing	
+3394	SHEEP MEAT	Food and drink	The meat of domestic sheep, such as lamb and mutton.	Person/Thing	
+3395	SICHUAN PEPPER		A spice from Sichuan Province that is famous for causing tingling sensation and its unique citrus flavour.	Person/Thing	
+3396	BUILDING		A solid construction comprised of walls and a roof.	Person/Thing	
+3397	ROUNDWORM		A worm that belongs to Nematode species; parasitic types of roundworms infest the digestive tract of humans and other mammals.	Person/Thing	
+3398	GOURD OR MELON	Agriculture and vegetation	Either a gourd or a melon.	Person/Thing	
+3399	WAREHOUSE		A spacious building that serves as a storage for produced goods before they are delivered to shops or customers.	Person/Thing	
+3400	COWSHED		A barn for cows.	Person/Thing	
+3401	HENHOUSE		A barn for chickens.	Person/Thing	
+3402	SHEEPFOLD		A barn for sheep.	Person/Thing	
+3403	HORSE BARN		A barn for horses.	Person/Thing	
+3404	TILE		The long-lasting material that is manufactured in multiple pieces and used for covering flat surfaces of a building, such as a roof, walls, or floor.	Person/Thing	
+3405	RULER		A long flat device that is designed to assist with drawing straight lines or measuring by means of distance markings.	Person/Thing	
+3406	MERCHANDISE		Products offered to retail customers for money.	Person/Thing	
+3407	FILE (TOOL)	Basic actions and technology	A hand tool with a long flat metal bar used to re-shape objects.	Person/Thing	
+3408	PLANE (TOOL)	Basic actions and technology	A hand tool that is designed to flatten or shape wood.	Person/Thing	
+3409	EARTHEN JUG	Food and drink	A liquid container made of baked clay.	Person/Thing	
+3410	OVER HERE	Spatial relations	Near here.	Other	
+3411	OVER THERE	Spatial relations	There in the distance.	Other	
+3412	WASP NEST	Animals	The nest of wasps.	Person/Thing	
+3413	IN THIS WAY	Miscellaneous function words	Doing something in this manner.	Other	
+3414	IN THAT WAY	Miscellaneous function words	Doing something in that manner.	Other	
+3415	BALDHEAD	Social and political relations	Person with a bald head.	Person/Thing	
+3416	EVERY (EACH)	Miscellaneous function words	All the members of a referred group individually.	Other	
+3417	EGG (CLASSIFIER)	Quantity	Classifier for eggs.	Classifier	
+3418	RIVER (CLASSIFIER)	Quantity	Classifier for rivers.	Classifier	
+3419	STONE (CLASSIFIER)	Quantity	Classifier for stones.	Classifier	
+3420	STOREY (CLASSIFIER)	Quantity	Classifier for storeys (of a building).	Classifier	
+3421	SENTENCE (CLASSIFIER)	Quantity	Classifier for sentences.	Classifier	
+3422	SONG (CLASSIFIER)	Quantity	Classifier for songs.	Classifier	
+3423	DRILL	Basic actions and technology	A power tool designed to create holes by means of rotating the drill bits into hard material.	Person/Thing	
+3424	SHEATH	Basic actions and technology	A protection cover for a sharp blade (of a sword or knife).	Person/Thing	
+3425	JOKE	Speech and language	Something that is said or done in a non-serious, comic way.	Person/Thing	
+3426	SURNAME	Kinship	The family name of a person.	Person/Thing	
+3427	DIRECTION	Spatial relations	A determined trajectory of movement.	Person/Thing	
+3428	WEAR (ON HEAD)	Clothing and grooming	Wear an object for shelter on the head.	Person/Thing	
+3429	COMPARE	Basic actions and technology	To estimate something in terms of similar or contrasting features as opposed to the other(s).	Action/Process	
+3430	CELEBRATE NEW YEAR	Social and political relations	To take part in festivities on the occasion of the beginning of a new calendar year.	Action/Process	
+3431	RICE STEAMER	Food and drink	A device to steam rice.	Person/Thing	
+3432	SHOULDER POLE	Basic actions and technology	A pole that is used to carry things on the shoulder.	Person/Thing	
+3433	AUTONYM (OF PEOPLE)	Social and political relations	The identity term that a group of people uses to refer to themselves as the members of an ethnic group or nation.	Person/Thing	
+3434	WASH (CLOTHES)	Basic actions and technology	To clean pieces of clothing by using water and supplementary cleansing products as a part of hygiene routine. 	Person/Thing	
+3435	COW DUNG	Animals	The faeces of a cow.	Person/Thing	
+3436	FAT MEAT	Food and drink	Any animal meat with a higher fat content.	Person/Thing	
+3437	OPEN (MOUTH)	Basic actions and technology	To move one's jaw(s) in a way that the oral cavity becomes partially or fully visible.	Action/Process	
+3438	CARRY (WITH POLE ON SHOULDER)	Basic actions and technology	The act of transporting something by means of a carrying pole placed on one's shoulder.	Action/Process	
+3439	WHITE (OF EGGS)	Food and drink	The clear, semifluid part of a bird's egg that serves as protection for the yolk.	Person/Thing	
+3440	BROWN SUGAR	Food and drink	Unrefined natural sugar that owes its brown colour and softer consistency to the preservation of molasses.	Person/Thing	
+3441	WHITE SUGAR	Food and drink	Purified sugar that is separated from molasses in the process of refining.	Person/Thing	
+3442	COTTON WOOL	Agriculture and vegetation	The cotton-looking seeds of a cottonwood tree that are spread around by the wind during the shedding season (usually from late spring to early summer).	Person/Thing	
+3443	TOFU	Food and drink	Coagulated soy milk that is bland in taste and formed into solid blocks; a popular ingredient in Asian and vegetarian cuisine. 	Person/Thing	
+3444	WAX GOURD	Agriculture and vegetation	Benincasa hispida, a species of Cucurbitaceae family, which owes its name to the wax coating of its shell. Wax gourd is cultivated for its fruit and used in both savoury and sweet dishes due to its mild flavour.	Person/Thing	
+3445	YARN	Clothing and grooming	Consists of multiple strings of natural or synthetic fibre twisted together in a continuous bulky thread; used in textile production.	Person/Thing	
+3446	PINK	Sense perception	Having pink as its colour.	Property	

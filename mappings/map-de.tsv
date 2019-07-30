@@ -395,7 +395,7 @@ ID	GLOSS	PRIORITY
 1877	EAST///Osten	2
 1877	EAST///Oßt, Aufgang	1
 686	EASY///einfach	1
-1336	EAT///Eßßen	1
+1336	EAT///Eßßen	2
 1336	EAT///Ißßet	1
 1336	EAT///Ißßeßt	1
 1336	EAT///essen	3
@@ -469,6 +469,7 @@ ID	GLOSS	PRIORITY
 2157	FINE OR THIN///fein	1
 1303	FINGER///Finger	1
 1303	FINGER///Finger, Zaehen	1
+1896	FINGERNAIL OR TOENAIL///Naegel	1
 1896	FINGERNAIL OR TOENAIL///Nagel[Anatomie]	1
 1258	FINGERNAIL///Fingernagel	1
 1258	FINGERNAIL///Nagel	1
@@ -484,7 +485,6 @@ ID	GLOSS	PRIORITY
 493	FIVE///fünf	3
 2623	FLAG///Fahne	1
 889	FLAME///Flamme	1
-2377	FLASH (VERB)///Blitz	1
 1633	FLAT///flach	2
 956	FLEE///fliehen	1
 2259	FLESH///Fleisch	1
@@ -769,6 +769,7 @@ ID	GLOSS	PRIORITY
 1052	LIGHT (WEIGHT)///Leicht	1
 1052	LIGHT (WEIGHT)///leicht	1
 3092	LIGHTER///Feuerzeug	1
+1654	LIGHTNING///Blitz	1
 1117	LIKE///mögen	1
 2540	LIME (MATERIAL)///Kalk	1
 1048	LINE///Linie	1
@@ -853,7 +854,6 @@ ID	GLOSS	PRIORITY
 400	MUSH///Brei	1
 641	MUSHROOM///Pilz	2
 2090	MY///mein	1
-502	NAIL (TOOL)///Naegel	1
 502	NAIL (TOOL)///Nagel	1
 3306	NAIL///hämmern	1
 590	NAKED///nackt	1
@@ -892,7 +892,7 @@ ID	GLOSS	PRIORITY
 1240	NOT///nicht	2
 2893	NOTICE (SOMETHING)///bemerken	1
 2854	NOVEMBER///November	1
-1376	NOW///Ozt	1
+1376	NOW///Izt	1
 1376	NOW///jetzt	1
 1356	NUMBER///Zahl	1
 191	NUT///Nußs	1
@@ -1185,8 +1185,8 @@ ID	GLOSS	PRIORITY
 2952	SLAB///Platte	1
 812	SLAVE///Knecht	1
 16	SLED///Schlitten	1
-2972	SLEEP (STATE)///Schlaf	1
-1585	SLEEP///Schlafen	2
+2972	SLEEP (STATE)///Schlaf	2
+1585	SLEEP///Schlafen	1
 1585	SLEEP///schlafen	3
 2953	SLEEVE///Ärmel	1
 2954	SLICE///Scheibe	1
@@ -1229,16 +1229,15 @@ ID	GLOSS	PRIORITY
 1906	SOUR///sauer	3
 1595	SOUTH///Süd, Mittag	1
 1595	SOUTH///Süden	2
-1351	SOW (FEMALE PIG)///Sæen	1
+748	SOW SEEDS///Sæen	1
 3006	SPACE (AVAILABLE)///Platz	1
 1176	SPADE///Spaten	1
 518	SPARK///Funke	2
-1854	SPARROW///Serling	1
+1854	SPARROW///Sperling	1
 1623	SPEAK///Reden	1
 1623	SPEAK///sprechen	2
 945	SPEAR///Spießs, Lanze	1
-1115	SPEECH///Rede	1
-1115	SPEECH///Reden	1
+1115	SPEECH///Rede	2
 843	SPIDER///Spinne	2
 3130	SPILL (SOMETHING)///umkippen	1
 121	SPIN///spinnen	1
@@ -1297,8 +1296,7 @@ ID	GLOSS	PRIORITY
 1518	STUPID///dumm	2
 1112	SUCCEED///gelingen	1
 2920	SUDDENLY///plötzlich	1
-1342	SUMMER///Somer	1
-1342	SUMMER///Sommer	1
+1342	SUMMER///Sommer	2
 1614	SUMMIT///Gipfel	1
 1343	SUN///Sonne	5
 3131	SUNBATHE///sonnen	1

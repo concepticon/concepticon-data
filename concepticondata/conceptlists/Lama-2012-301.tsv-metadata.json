@@ -43,25 +43,16 @@
                         "datatype": "string",
                         "name": "ENGLISH"
                     },
-                    {
-                        "name": "NUMBER_IN_SOURCE"
-                    },
-                    {
-                        "name": "GLOSSES"
-                    },
-                    {
-                        "name": "NUMBERS"
-                    },
+
                     {
                         "name": "CHINESE"
                     }
-
                 ],
                 "primaryKey": [
                     "ID"
                 ]
             },
-            "url": "Yang-2011-1014.tsv"
+            "url": "Lama-2012-301.tsv"
         }
     ]
 }

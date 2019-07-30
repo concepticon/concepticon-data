@@ -29,6 +29,10 @@
                         "name": "NUMBER"
                     },
                     {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
                         "datatype": {
                             "base": "integer",
                             "minimum": 1
@@ -38,30 +42,13 @@
                     {
                         "datatype": "string",
                         "name": "CONCEPTICON_GLOSS"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "ENGLISH"
-                    },
-                    {
-                        "name": "NUMBER_IN_SOURCE"
-                    },
-                    {
-                        "name": "GLOSSES"
-                    },
-                    {
-                        "name": "NUMBERS"
-                    },
-                    {
-                        "name": "CHINESE"
                     }
-
                 ],
                 "primaryKey": [
                     "ID"
                 ]
             },
-            "url": "Yang-2011-1014.tsv"
+            "url": "Hays-1972-11.tsv"
         }
     ]
 }

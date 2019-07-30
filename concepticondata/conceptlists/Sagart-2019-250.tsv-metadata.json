@@ -41,27 +41,22 @@
                     },
                     {
                         "datatype": "string",
+                        "name": "HUANG_1992_1820"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "COVERAGE"
+                    },
+                    {
+                        "datatype": "string",
                         "name": "ENGLISH"
-                    },
-                    {
-                        "name": "NUMBER_IN_SOURCE"
-                    },
-                    {
-                        "name": "GLOSSES"
-                    },
-                    {
-                        "name": "NUMBERS"
-                    },
-                    {
-                        "name": "CHINESE"
                     }
-
                 ],
                 "primaryKey": [
                     "ID"
                 ]
             },
-            "url": "Yang-2011-1014.tsv"
+            "url": "Sagart-2019-250.tsv"
         }
     ]
 }

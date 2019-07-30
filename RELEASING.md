@@ -39,17 +39,16 @@ concepticon --repos=. test
 
 - Commit the updates for this version and push updated data:
 ```
-git commit -a -m"release <version>"
-git push origin
+git tag -a v<version> -m"release <version>"
+git push origin --tags
 ```
 
 - Draft a release via GitHub UI 
-  - using the correct version number, e.g. `v1.1.0` (don't forget the `v` 
-    prefix, since otherwise ZENODO will not pick up the release). 
+  - picking the correct tag, e.g. `v1.1.0`
   - using `CLLD Concepticon 1.0.0` as the title
   - and giving the citation as release description:
 ```
-List, Johann-Mattis & Greenhill, Simon & Rzymski, Christoph & Schweikhard, Nathanael & Forkel, Robert (eds.) 2019. Concepticon. 
+List, Johann-Mattis & Greenhill, Simon & Rzymski, Christoph & Schweikhard, Nathanael & Forkel, Robert (eds.) 2019. Concepticon <version>. 
 A Resource for the Linking of Concept Lists. 
 Jena: Max Planck Institute for the Science of Human History.
 Available online at https://concepticon.clld.org
