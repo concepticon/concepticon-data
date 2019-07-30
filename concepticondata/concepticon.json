@@ -241,7 +241,7 @@
         "FREQUENCY": "decimal",
         "RANK": "integer",
         "*SCORE": "decimal"
-    }
+    },
     "CONCEPTRELATIONS": [
         "broader": {
              "definition": "Broader than x.",
