@@ -250,53 +250,38 @@
         "narrower": {
              "definition": "Narrower than x.",
              "inverseof": "broader"
-        }
+        },
         "hyperonymof": {
              "definition": "Category superordinate to x.",
              "inverseof": "instanceof"
-        }
+        },
          "instanceof": {
              "definition": "Subcategory of x.",
              "inverseof": "hyperonymof"
-        }
+        },
         "haspart": {
              "definition": "A whole that x is a part of.",
              "inverseof": "partof"
-        }
+        },
          "partof": {
              "definition": "A part of x.",
              "inverseof": "haspart"
-        }
+        },
          "transitiveof": {
              "definition": "The same action as x, but involving an object different from the subject.",
              "inverseof": "intransitiveof"
-        }
+        },
          "intransitiveof": {
              "definition": "The same action as x, but not involving an object different from the subject.",
              "inverseof": "transitiveof"
-        }
+        },
          "antonymof": {
             "definition": "The opposite of x.",
-        }
+        },
          "similar": {
             "definition": "Having almost but not quite the same meaning as x.",
-        }
+        },
          "hasform": {
             "definition": "The oblique case form of x.",
-     ]
+     ],
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
