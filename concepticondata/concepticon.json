@@ -242,7 +242,7 @@
         "RANK": "integer",
         "*SCORE": "decimal"
     }
-    "CONCEPTRELATIONS": {
+    "CONCEPTRELATIONS": [
         "broader": {
              "definition": "Broader than x.",
              "inverseof": "narrower"
@@ -283,7 +283,7 @@
         }
          "hasform": {
             "definition": "The oblique case form of x.",
-        }
+     ]
 }
 
 
