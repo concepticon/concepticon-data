@@ -465,7 +465,7 @@ Nagano-2013-1256-463	463	0849	get lost (vi)	423	GET LOST
 Nagano-2013-1256-464	464	0851	arrive (vi)	1387	ARRIVE	
 Nagano-2013-1256-465	465	0852	reach (v)			
 Nagano-2013-1256-466	466	0854	stop (v)	2880	HALT (STOP)	
-Nagano-2013-1256-467	467	0855	stop (vt)	2115	CEASE OR FINISH	
+Nagano-2013-1256-467	467	0855	stop (vt)	3351	STOP DOING	
 Nagano-2013-1256-468	468	0856	perch on (v)			
 Nagano-2013-1256-469	469	0860	go over (v)			
 Nagano-2013-1256-470	470	0862	walk (vi)	1443	WALK	
@@ -473,7 +473,7 @@ Nagano-2013-1256-471	471	0864	run (vi)	1519	RUN
 Nagano-2013-1256-472	472	0866	swift	1631	FAST	
 Nagano-2013-1256-473	473	0868	slow	701	SLOW	
 Nagano-2013-1256-474	474	0869	slowly			
-Nagano-2013-1256-475	475	0871	creep (vi)	3215	CREEP	
+Nagano-2013-1256-475	475	0871	creep (vi)	96	CRAWL	
 Nagano-2013-1256-476	476	0873	ride it (vt)	367	RIDE	
 Nagano-2013-1256-477	477	0875	carry (vt)	700	CARRY	
 Nagano-2013-1256-478	478	0877	road	667	ROAD	
@@ -590,7 +590,7 @@ Nagano-2013-1256-588	588	1072	repair it (v)	2243	REPAIR
 Nagano-2013-1256-589	589	1074	split (vi)	1437	SPLIT	
 Nagano-2013-1256-590	590	1075	split (vi)	1437	SPLIT	
 Nagano-2013-1256-591	591	1076	tear (vt)	1735	TEAR (SHRED)	
-Nagano-2013-1256-592	592	1078	bend it (v)	2004	BEND	
+Nagano-2013-1256-592	592	1078	bend it (v)	2224	BEND (SOMETHING)	
 Nagano-2013-1256-593	593	1080	fold (v)	1470	FOLD	
 Nagano-2013-1256-594	594	1081	fold (v)	1470	FOLD	
 Nagano-2013-1256-595	595	1083	wash it (v)	1453	WASH	
@@ -630,11 +630,11 @@ Nagano-2013-1256-628	628	1133	do it (v)	813	DO
 Nagano-2013-1256-629	629	1134	do it (v)	813	DO	
 Nagano-2013-1256-630	630	1135	do it (v)	813	DO	
 Nagano-2013-1256-631	631	1137	begin it (vt)	1806	BEGIN	
-Nagano-2013-1256-632	632	1138	begin (vi)	1806	BEGIN	
-Nagano-2013-1256-633	633	1140	end (vi)	1766	FINISH	
+Nagano-2013-1256-632	632	1138	begin (vi)	3449	START	
+Nagano-2013-1256-633	633	1140	end (vi)	1928	CEASE	
 Nagano-2013-1256-634	634	1142	exhaust (vi)			
 Nagano-2013-1256-635	635	1145	continue (v)			
-Nagano-2013-1256-636	636	1147	stop it (v)	1928	CEASE	
+Nagano-2013-1256-636	636	1147	stop it (v)	3351	STOP DOING	
 Nagano-2013-1256-637	637	1148	give up (v)	1097	ABANDON	
 Nagano-2013-1256-638	638	1149	decline (v)			
 Nagano-2013-1256-639	639	1150	stop (a habit) (vt)			
@@ -643,7 +643,7 @@ Nagano-2013-1256-641	641	1154	slide (v)
 Nagano-2013-1256-642	642	1156	fall down (v)	2894	TUMBLE (FALL DOWN)	
 Nagano-2013-1256-643	643	1157	fall upside down (v)			
 Nagano-2013-1256-644	644	1159	assemble (vi)			
-Nagano-2013-1256-645	645	1160	meet, assemble (v)	1831	MEET	
+Nagano-2013-1256-645	645	1160	meet, assemble (v)			
 Nagano-2013-1256-646	646	1162	bounce (v)			
 Nagano-2013-1256-647	647	1164	jump (v)	1829	JUMP	
 Nagano-2013-1256-648	648	1166	rise (v)/rise (上去) (v)	3207	GO UP OR RISE (ONESELF)	
@@ -878,8 +878,8 @@ Nagano-2013-1256-876	876	1556	fly (v)	1441	FLY (MOVE THROUGH AIR)
 Nagano-2013-1256-877	877	1558	swim (v)	1439	SWIM	
 Nagano-2013-1256-878	878	1560	cry (v)			
 Nagano-2013-1256-879	879	1562	lay an egg (v)	2464	LAY EGGS	
-Nagano-2013-1256-880	880	1564	raise (v)			
-Nagano-2013-1256-881	881	1567	shape	2134	RAISE (A CHILD)	
+Nagano-2013-1256-880	880	1564	raise (v)	2134	RAISE (A CHILD)	
+Nagano-2013-1256-881	881	1567	shape			
 Nagano-2013-1256-882	882	1569	round	1395	ROUND	
 Nagano-2013-1256-883	883	1570	round	1395	ROUND	
 Nagano-2013-1256-884	884	1572	sharp	1396	SHARP	
@@ -1209,7 +1209,7 @@ Nagano-2013-1256-1207	1207	2162	Don't go.
 Nagano-2013-1256-1208	1208	2163	Don't come.			
 Nagano-2013-1256-1209	1209	2164	Don't spit.			
 Nagano-2013-1256-1210	1210	2166	(quotative particle)			
-Nagano-2013-1256-1211	1211	2167	(He) said, "I come tomorrow."			
+Nagano-2013-1256-1211	1211	2167	"(He) said, ""I come tomorrow."""			
 Nagano-2013-1256-1212	1212	2169	because	1157	BECAUSE	
 Nagano-2013-1256-1213	1213	2171	but, though			
 Nagano-2013-1256-1214	1214	2172	but, though			
