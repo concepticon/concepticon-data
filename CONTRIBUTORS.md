@@ -53,7 +53,7 @@ Anja Gampe | D | 1.1
 Anthony Grant | MS | 1.1
 Ben Yackley | P | 1.1
 Christoph Rzymski | CLPG | 1.1
-Claire Bowern | D | 1.1
+Claire Bowern | D | 1.1, 2.2
 Cormac Anderson | CP | 1.1, 1.2
 Damian Satterthwaite-Phillips | D | 1.0 
 Doug Cooper | DCSM | 1.1, 2.1
