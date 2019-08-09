@@ -182,7 +182,7 @@ Key-2016-1310-180	mast	180	10-870	http://ids.clld.org/parameters/10-870	mât	mas
 Key-2016-1310-181	rudder	181	10-860	http://ids.clld.org/parameters/10-860	gouvernail	leme	руль	timón	10	860	108	RUDDER
 Key-2016-1310-182	row (vb)	182	10-852	http://ids.clld.org/parameters/10-852	ramer	remar	грести	remar	10	852	1849	ROW
 Key-2016-1310-183	paddle (noun)	183	10-851	http://ids.clld.org/parameters/10-851	pagaie	remo	весло (байдарочный гребок)	remo corto	10	851	234	PADDLE
-Key-2016-1310-184	oar	184	10-850	http://ids.clld.org/parameters/10-850	rame	remo	весло	remo	10	850	108	RUDDER
+Key-2016-1310-184	oar	184	10-850	http://ids.clld.org/parameters/10-850	rame	remo	весло	remo	10	850	3137	OAR
 Key-2016-1310-185	raft	185	10-840	http://ids.clld.org/parameters/10-840	radeau	balsa	плот	balsa	10	840	1664	RAFT
 Key-2016-1310-186	outrigger	186	10-832	http://ids.clld.org/parameters/10-832	balancier	jangada	шлюпка с выносными уключинами	batanga	10	832	416	OUTRIGGER
 Key-2016-1310-187	canoe	187	10-831	http://ids.clld.org/parameters/10-831	canoe, pirogue	canoa	каноэ	canoa	10	831	1970	CANOE
@@ -230,7 +230,7 @@ Key-2016-1310-228	jump, leap	228	10-430	http://ids.clld.org/parameters/10-430	sa
 Key-2016-1310-229	slide, slip	229	10-420	http://ids.clld.org/parameters/10-420	glisser	escorregar, resvalar	скользить	resbalar	10	420	1324	SLIP
 Key-2016-1310-230	crouch	230	10-413	http://ids.clld.org/parameters/10-413	s'accroupir	agachar-se	приседать	agacharse, ponerse en cuclillas	10	413	296	CROUCH
 Key-2016-1310-231	kneel	231	10-412	http://ids.clld.org/parameters/10-412	s'agenouiller	ajoelhar	становиться на колени	arrodillarse	10	412	66	KNEEL
-Key-2016-1310-232	creep, crawl	232	10-410	http://ids.clld.org/parameters/10-410	ramper	rastejar, arrastar-se	ползти	gatear	10	410	96	CRAWL
+Key-2016-1310-232	creep, crawl	232	10-410	http://ids.clld.org/parameters/10-410	ramper	rastejar, arrastar-se	ползти	gatear	10	410	3456	CRAWL OR CREEP
 Key-2016-1310-233	blow	233	10-380	http://ids.clld.org/parameters/10-380	souffler	soprar	дуть	soplar	10	380	175	BLOW (OF WIND)
 Key-2016-1310-234	fly (vb)	234	10-370	http://ids.clld.org/parameters/10-370	voler	voar	летать	volar	10	370	1441	FLY (MOVE THROUGH AIR)
 Key-2016-1310-235	sail (vb)	235	10-360	http://ids.clld.org/parameters/10-360	naviguer	navegar	плыть под парусом	navegar	10	360	787	SAIL
@@ -393,7 +393,7 @@ Key-2016-1310-391	garden	391	8-130	http://ids.clld.org/parameters/8-130	jardin	j
 Key-2016-1310-392	field (for cultivation)	392	8-120	http://ids.clld.org/parameters/8-120	champ	campo	поле (для обработки)	campo (de cultivo), chacra	8	120	212	FIELD
 Key-2016-1310-393	farmer	393	8-110	http://ids.clld.org/parameters/8-110	fermier	lavrador, fazendeiro	фермер	labrador, ranchero	8	110	979	FARMER
 Key-2016-1310-394	adobe	394	7-640	http://ids.clld.org/parameters/7-640	adobe	adobe	глинобитная постройка	adobe	7	640	901	ADOBE
-Key-2016-1310-395	mortar	395	7-630	http://ids.clld.org/parameters/7-630	mortier	argamassa	известковый раствор	argamasa	7	630	224	MORTAR CRUSHER
+Key-2016-1310-395	mortar	395	7-630	http://ids.clld.org/parameters/7-630	mortier	argamassa	известковый раствор	argamasa	7	630	1731	MORTAR BINDER
 Key-2016-1310-396	brick	396	7-620	http://ids.clld.org/parameters/7-620	brique	tijolo	кирпич	ladrillo	7	620	1006	BRICK
 Key-2016-1310-397	arch	397	7-580	http://ids.clld.org/parameters/7-580	arche	arco	арка	arco	7	580	876	ARCH
 Key-2016-1310-398	mason	398	7-610	http://ids.clld.org/parameters/7-610	maçon	pedreiro	каменщик	albañil	7	610	877	MASON
@@ -524,7 +524,7 @@ Key-2016-1310-522	soup, broth	522	5-640	http://ids.clld.org/parameters/5-640	sou
 Key-2016-1310-523	sausage	523	5-630	http://ids.clld.org/parameters/5-630	saucisse	linguiça, chouriço	колбаса, сосиска	salchicha	5	630	1874	SAUSAGE
 Key-2016-1310-524	meat	524	5-610	http://ids.clld.org/parameters/5-610	viande	carne	мясо	carne	5	610	634	MEAT
 Key-2016-1310-525	pestle	525	5-590	http://ids.clld.org/parameters/5-590	pilon	mão de pilão, almofariz	пестик	mano de mortero	5	590	225	PESTLE
-Key-2016-1310-526	mortar (2)	526	5-580	http://ids.clld.org/parameters/5-580	mortier	morteiro	ступка, ступа	mortero	5	580	224	MORTAR CRUSHER
+Key-2016-1310-526	mortar (2)	526	5-580	http://ids.clld.org/parameters/5-580	mortier	morteiro	ступка, ступа	mortero	5	580	1731	MORTAR BINDER
 Key-2016-1310-527	mill	527	5-570	http://ids.clld.org/parameters/5-570	moulin	moinho	мельница	molino	5	570	636	MILL
 Key-2016-1310-528	crush, grind	528	5-560	http://ids.clld.org/parameters/5-560	écraser, broyer	esmagar, moer	давить, дробить	aplastar, moler	5	560	1033	GRIND
 Key-2016-1310-529	meal, flour	529	5-550	http://ids.clld.org/parameters/5-550	farine	farinha	мука	harina	5	550	1594	FLOUR
@@ -816,7 +816,7 @@ Key-2016-1310-814	herdsman	814	3-180	http://ids.clld.org/parameters/3-180	bouvie
 Key-2016-1310-815	pasture	815	3-160	http://ids.clld.org/parameters/3-160	pâturage, pâture	pasto, pastagem	пастбище, выгон	pradera, potrero	3	160	649	PASTURE
 Key-2016-1310-816	livestock	816	3-150	http://ids.clld.org/parameters/3-150	bétail	gado	(домашний) скот	ganado	3	150	631	LIVESTOCK
 Key-2016-1310-817	female (adj)	817	3-130	http://ids.clld.org/parameters/3-130	femelle	feminino	женский	femenino, hembra	3	130	2262	FEMALE (OF ANIMAL)
-Key-2016-1310-818	male (adj)	818	3-120	http://ids.clld.org/parameters/3-120	mâle	masculino	мужской	masculino, macho	3	120	2261	MALE (OF PERSON)
+Key-2016-1310-818	male (adj)	818	3-120	http://ids.clld.org/parameters/3-120	mâle	masculino	мужской	masculino, macho	3	120	2263	MALE (OF ANIMAL)
 Key-2016-1310-819	animal	819	3-110	http://ids.clld.org/parameters/3-110	animal, bête	animal, bicho	животное	animal	3	110	619	ANIMAL
 Key-2016-1310-820	they	820	2-960	http://ids.clld.org/parameters/2-960	eux, elles	eles, elas	они	ellos, ellas	2	960	817	THEY
 Key-2016-1310-821	you (plural)	821	2-950	http://ids.clld.org/parameters/2-950	vous	vocês, vós	вы	ustedes	2	950	1213	YOU
@@ -839,8 +839,8 @@ Key-2016-1310-837	daughter-in-law (of a woman)	837	2-641	http://ids.clld.org/par
 Key-2016-1310-838	daughter-in-law (of a man)	838	2-640	http://ids.clld.org/parameters/2-640	bru, belle-fille (d'un homme)	nora (de homem)	сноха	nuera (de hombre)	2	640	2265	DAUGHTER-IN-LAW (OF MAN)
 Key-2016-1310-839	son-in-law (of a woman)	839	2-631	http://ids.clld.org/parameters/2-631	gendre (d'une femme)	genro	зять (как называют женщины)	yerno (de mujer)	2	631	2266	SON-IN-LAW (OF WOMAN)
 Key-2016-1310-840	son-in-law (of a man)	840	2-630	http://ids.clld.org/parameters/2-630	gendre (d'un homme)	genro	зять (как называют мужчины)	yerno (de hombre)	2	630	2267	SON-IN-LAW (OF MAN)
-Key-2016-1310-841	mother-in-law (of a woman)	841	2-621	http://ids.clld.org/parameters/2-621	belle-mère (d'une femme)	sogra (de mulher)	теща	suegra (de mujer)	2	621	2257	MOTHER-IN-LAW (OF MAN)
-Key-2016-1310-842	mother-in-law (of a man)	842	2-620	http://ids.clld.org/parameters/2-620	belle-mère (d'un homme)	sogra (de homem)	свекровь	suegra (de hombre)	2	620	2256	MOTHER-IN-LAW (OF WOMAN)
+Key-2016-1310-841	mother-in-law (of a woman)	841	2-621	http://ids.clld.org/parameters/2-621	belle-mère (d'une femme)	sogra (de mulher)	теща	suegra (de mujer)	2	621	2256	MOTHER-IN-LAW (OF WOMAN)
+Key-2016-1310-842	mother-in-law (of a man)	842	2-620	http://ids.clld.org/parameters/2-620	belle-mère (d'un homme)	sogra (de homem)	свекровь	suegra (de hombre)	2	620	2257	MOTHER-IN-LAW (OF MAN)
 Key-2016-1310-843	father-in-law (of a woman)	843	2-611	http://ids.clld.org/parameters/2-611	beau-père (d'une femme)	sogro (de mulher)	тесть	suegro (de mujer)	2	611	2254	FATHER-IN-LAW (OF WOMAN)
 Key-2016-1310-844	father-in-law (of a man)	844	2-610	http://ids.clld.org/parameters/2-610	beau-père (d'un homme)	sogro (de homem)	свекор	suegro (de hombre)	2	610	2255	FATHER-IN-LAW (OF MAN)
 Key-2016-1310-845	descendants	845	2-570	http://ids.clld.org/parameters/2-570	descendants	descendentes	потомки	descendientes	2	570	490	DESCENDANTS
@@ -887,8 +887,8 @@ Key-2016-1310-885	young woman (adolescent)	885	2-261	http://ids.clld.org/paramet
 Key-2016-1310-886	girl	886	2-260	http://ids.clld.org/parameters/2-260	fille	menina, garota	девочка	muchacha	2	260	1646	GIRL
 Key-2016-1310-887	young man (adolescent)	887	2-251	http://ids.clld.org/parameters/2-251	jeune homme	jovem, rapaz	юноша, молодой человек	el joven	2	251	76	YOUNG MAN
 Key-2016-1310-888	boy	888	2-250	http://ids.clld.org/parameters/2-250	garçon	menino, garoto	мальчик	muchacho	2	250	1366	BOY
-Key-2016-1310-889	female	889	2-240	http://ids.clld.org/parameters/2-240	femelle	fêmea	самка	hembra	2	240	1551	FEMALE
-Key-2016-1310-890	male	890	2-230	http://ids.clld.org/parameters/2-230	mâle	macho	самец	varón, macho	2	230	1553	MALE
+Key-2016-1310-889	female	889	2-240	http://ids.clld.org/parameters/2-240	femelle	fêmea	самка	hembra	2	240	2260	FEMALE (OF PERSON)
+Key-2016-1310-890	male	890	2-230	http://ids.clld.org/parameters/2-230	mâle	macho	самец	varón, macho	2	230	2261	MALE (OF PERSON)
 Key-2016-1310-891	woman	891	2-220	http://ids.clld.org/parameters/2-220	femme	mulher	женщина	mujer	2	220	962	WOMAN
 Key-2016-1310-892	man (vs. woman)	892	2-210	http://ids.clld.org/parameters/2-210	homme	homem	мужчина	hombre	2	210	1554	MAN
 Key-2016-1310-893	person, human being	893	2-100	http://ids.clld.org/parameters/2-100	personne, être humain	pessoa, ser humano	человек, личность	persona	2	100	683	PERSON
@@ -1138,7 +1138,7 @@ Key-2016-1310-1136	or	1136	17-540	http://ids.clld.org/parameters/17-540	ou	ou	и
 Key-2016-1310-1137	yes, affirmative	1137	17-550	http://ids.clld.org/parameters/17-550	oui, affirmatif	sim, afirmativo	да	sí, afirmativo	17	550	1268	YES
 Key-2016-1310-1138	no, negative	1138	17-560	http://ids.clld.org/parameters/17-560	non, négatif	não, negativo	нет	no, negativo	17	560	1269	NO
 Key-2016-1310-1139	how?	1139	17-610	http://ids.clld.org/parameters/17-610	comment?	como?	как?	¿cómo?	17	610	1239	HOW
-Key-2016-1310-1140	how many?	1140	17-620	http://ids.clld.org/parameters/17-620	combien?	quantos?	сколько (счётные)?	¿cuántos?	17	620	822	HOW MANY
+Key-2016-1310-1140	how many?	1140	17-620	http://ids.clld.org/parameters/17-620	combien?	quantos?	сколько (счётные)?	¿cuántos?	17	620	3450	HOW MANY PIECES
 Key-2016-1310-1141	how much?	1141	17-630	http://ids.clld.org/parameters/17-630	combien?	quanto?	сколько (несчётные)?	¿cuánto?	17	630	531	HOW MUCH
 Key-2016-1310-1142	what?	1142	17-640	http://ids.clld.org/parameters/17-640	quoi?	que?	что?	¿qué?	17	640	1236	WHAT
 Key-2016-1310-1143	when?	1143	17-650	http://ids.clld.org/parameters/17-650	quand?	quando?	когда?	¿cuándo?	17	650	1238	WHEN

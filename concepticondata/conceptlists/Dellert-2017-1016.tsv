@@ -650,7 +650,7 @@ Dellert-2017-1016-648	648	14	-2.286457	wo	wo::FADV	where	где				WHERE	1237
 Dellert-2017-1016-649	649	248	-1.188391	wohin	wohin::FADV	where to	куда				WHITHER (WHERE TO)	2928	
 Dellert-2017-1016-650	650	189	-1.151297	wie	wie::FADV	how	как				HOW	1239	
 Dellert-2017-1016-651	651	392	-1.134378	warum	warum::FADV	why	почему				WHY	1270	
-Dellert-2017-1016-652	652	663	-0.004942	wieviel	wieviel::FNUM	how much	сколько				HOW MUCH	531	
+Dellert-2017-1016-652	652	663	-0.004942	wieviel	wieviel::FNUM	how much	сколько				HOW MANY	822	
 Dellert-2017-1016-653	653	1	-3.305677	eins	eins::NUM	one	один				ONE	1493	
 Dellert-2017-1016-654	654	7	-3.352278	zwei	zwei::NUM	two	два				TWO	1498	
 Dellert-2017-1016-655	655	30	-2.283703	drei	drei::NUM	three	три				THREE	492	
@@ -765,7 +765,7 @@ Dellert-2017-1016-763	763	373	-1.182523	rennen	rennen::V	run	бегать	Mensch
 Dellert-2017-1016-764	764	517	-1.129859	springen	springen::V	jump	прыгать	Mensch	of human	о человеке	JUMP	1829	
 Dellert-2017-1016-765	765	694	-0.04111	klettern	klettern::V	climb	лазать	Mensch	of human	карабкаться, о человеке	CLIMB	1102	
 Dellert-2017-1016-766	766	977	0.086987	schaukeln	schaukeln::V	seesaw	качаться, раскачиваться	wippen, auf Schaukel	use a seesaw	НАПР:на качелях			
-Dellert-2017-1016-767	767	441	-1.115912	kriechen	kriechen::V	creep	ползать	Mensch	of human	о человеке	CRAWL	96	
+Dellert-2017-1016-767	767	441	-1.115912	kriechen	kriechen::V	creep	ползать	Mensch	of human	о человеке	CREEP	3215	
 Dellert-2017-1016-768	768	108	-2.289305	schwimmen	schwimmen::V	swim	плавать	Mensch	of human	о человеке	SWIM	1439	
 Dellert-2017-1016-769	769	952	0.09785	tauchen	tauchen::V	dive	нырять	Mensch	of human	о человеке	DIVE	119	
 Dellert-2017-1016-770	770	494	-1.196761	rudern	rudern::V	row	грести	ein Boot mittels Riemen bewegen	propel a boat using oars	передвигать лодку вёслами	ROW	1849	
@@ -901,7 +901,7 @@ Dellert-2017-1016-899	899	309	-1.139581	reichen	reichen::V	hand	передать
 Dellert-2017-1016-900	900	745	-0.004299	schenken	schenken::V	give	дарить	BSP:ein Buch	as a present, EX:a book	НАПР:книгу	DONATE	196	
 Dellert-2017-1016-901	901	811	-0.021625	versprechen	versprechen::V	promise	обещать				PROMISE	1675	
 Dellert-2017-1016-902	902	588	-0.075626	wünschen	wünschen::V	wish	желaть	jm etwas, BSP:Glück	ЕX:luck	НАПР:счастья			
-Dellert-2017-1016-903	903	261	-1.142721	loben	loben::V	praise	хвалить				PRAISE	1687	
+Dellert-2017-1016-903	903	261	-1.142721	loben	loben::V	praise	хвалить				COMMEND	3455	
 Dellert-2017-1016-904	904	724	-0.051244	küssen	küssen::V	kiss	целовать				KISS	578	
 Dellert-2017-1016-905	905	615	-0.033801	wiegen	wiegen::V	rock	качать	ein Kind in den Schlaf	a child	ребёнка			
 Dellert-2017-1016-906	906	308	-1.141124	zudecken	zudecken::V	cover	накрыть	BSP:ein Kind mit einer Decke	EX:a child with a blanket	НАПР:ребёнка одеялом			
