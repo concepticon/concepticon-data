@@ -73,7 +73,7 @@ Haspelmath-2009-1460-71	1188	CHARCOAL	71	the charcoal	1-89	http://wold.clld.org/
 Haspelmath-2009-1460-72	683	PERSON	72	the person	2-1	http://wold.clld.org/meaning/2-1	2.1	‘human being’	This table can be lifted by one person.	Noun	2	0.929927007299	0.32299270073	0.934306569343	51	6
 Haspelmath-2009-1460-73	1554	MAN	73	the man	2-21	http://wold.clld.org/meaning/2-21	2.21	(vs. woman)	The man had a long beard.	Noun	2	0.886310904872	0.0962877030162	0.880510440835	52	72
 Haspelmath-2009-1460-74	962	WOMAN	74	the woman	2-22	http://wold.clld.org/meaning/2-22	2.22	-	The woman wore a pretty dress.	Noun	2	0.823695345557	0.157498824636	0.890691114245	53	697
-Haspelmath-2009-1460-75	2263	MALE (OF ANIMAL)	75	male(1)	2-23	http://wold.clld.org/meaning/2-23	2.23	(of humans, cf. 3.12)	I have ten male and twelve female students.	Adjective	2	0.867862199151	0.189476168004	0.829872581406	44	166
+Haspelmath-2009-1460-75	2261	MALE (OF PERSON)	75	male(1)	2-23	http://wold.clld.org/meaning/2-23	2.23	(of humans, cf. 3.12)	I have ten male and twelve female students.	Adjective	2	0.867862199151	0.189476168004	0.829872581406	44	166
 Haspelmath-2009-1460-76	2260	FEMALE (OF PERSON)	76	female(1)	2-24	http://wold.clld.org/meaning/2-24	2.24	(of humans, cf. 3.13)	I have ten male and twelve female students.	Adjective	2	0.855341738553	0.157597876576	0.847378898474	44	275
 Haspelmath-2009-1460-77	1366	BOY	77	the boy	2-25	http://wold.clld.org/meaning/2-25	2.25	-	One day this boy will grow to be a man.	Noun	2	0.864285714286	0.169642857143	0.738095238095	49	201
 Haspelmath-2009-1460-78	76	YOUNG MAN	78	the young man	2-251	http://wold.clld.org/meaning/2-251	2.251	-	The young man was not married.	Noun	2	0.865631067961	0.243203883495	0.739805825243	51	189
@@ -122,8 +122,8 @@ Haspelmath-2009-1460-120	1669	ANCESTORS	120	the ancestors	2-56	http://wold.clld.
 Haspelmath-2009-1460-121	490	DESCENDANTS	121	the descendants	2-57	http://wold.clld.org/meaning/2-57	2.57	-	-	Noun	2	0.824242424242	0.345454545455	0.70303030303	45	691
 Haspelmath-2009-1460-122	2255	FATHER-IN-LAW (OF MAN)	122	the father-in-law (of a man)	2-61	http://wold.clld.org/meaning/2-61	2.61	-	-	Noun	2	0.831332684825	0.125486381323	0.734435797665	43	596
 Haspelmath-2009-1460-123	2254	FATHER-IN-LAW (OF WOMAN)	123	the father-in-law (of a woman)	2-611	http://wold.clld.org/meaning/2-611	2.611	-	-	Noun	2	0.79216204781	0.169769409774	0.755658980326	42	1146
-Haspelmath-2009-1460-124	2256	MOTHER-IN-LAW (OF WOMAN)	124	the mother-in-law (of a man)	2-62	http://wold.clld.org/meaning/2-62	2.62	-	-	Noun	2	0.802355187778	0.121737746658	0.718332272438	44	1023
-Haspelmath-2009-1460-125	2257	MOTHER-IN-LAW (OF MAN)	125	the mother-in-law (of a woman)	2-621	http://wold.clld.org/meaning/2-621	2.621	-	-	Noun	2	0.829515706806	0.188972513089	0.752945026178	43	622
+Haspelmath-2009-1460-124	2257	MOTHER-IN-LAW (OF MAN)	124	the mother-in-law (of a man)	2-62	http://wold.clld.org/meaning/2-62	2.62	-	-	Noun	2	0.802355187778	0.121737746658	0.718332272438	44	1023
+Haspelmath-2009-1460-125	2256	MOTHER-IN-LAW (OF WOMAN)	125	the mother-in-law (of a woman)	2-621	http://wold.clld.org/meaning/2-621	2.621	-	-	Noun	2	0.829515706806	0.188972513089	0.752945026178	43	622
 Haspelmath-2009-1460-126	2267	SON-IN-LAW (OF MAN)	126	the son-in-law (of a man)	2-63	http://wold.clld.org/meaning/2-63	2.63	-	-	Noun	2	0.84545228009	0.204086718166	0.847371044107	43	389
 Haspelmath-2009-1460-127	2266	SON-IN-LAW (OF WOMAN)	127	the son-in-law (of a woman)	2-631	http://wold.clld.org/meaning/2-631	2.631	-	-	Noun	2	0.834233485667	0.218113834649	0.859437751004	41	551
 Haspelmath-2009-1460-128	2265	DAUGHTER-IN-LAW (OF MAN)	128	the daughter-in-law (of a man)	2-64	http://wold.clld.org/meaning/2-64	2.64	-	-	Noun	2	0.854328112119	0.0939818631492	0.804204451772	42	286
@@ -146,7 +146,7 @@ Haspelmath-2009-1460-144	1130	WE (EXCLUSIVE)	144	we (exclusive)	2-942	http://wol
 Haspelmath-2009-1460-145	1213	YOU	145	you (plural)	2-95	http://wold.clld.org/meaning/2-95	2.95	-	-	Function word	2	0.789523809524	0.0380952380952	0.809523809524	53	1171
 Haspelmath-2009-1460-146	817	THEY	146	they	2-96	http://wold.clld.org/meaning/2-96	2.96	-	-	Function word	2	0.801906779661	0.0741525423729	0.798728813559	49	1028
 Haspelmath-2009-1460-147	619	ANIMAL	147	the animal	3-11	http://wold.clld.org/meaning/3-11	3.11	'living creature that can move (including or excluding humans)'	On the small island they found rabbits, foxes, snakes, mice and many other animals.	Noun	3	0.82962962963	0.456140350877	0.897660818713	50	620
-Haspelmath-2009-1460-148	2261	MALE (OF PERSON)	148	male(2)	3-12	http://wold.clld.org/meaning/3-12	3.12	(of animals) cf. 2.23	Only male lions have manes.	Adjective	3	0.934779516358	0.168918918919	0.883001422475	48	3
+Haspelmath-2009-1460-148	2263	MALE (OF ANIMAL)	148	male(2)	3-12	http://wold.clld.org/meaning/3-12	3.12	(of animals) cf. 2.23	Only male lions have manes.	Adjective	3	0.934779516358	0.168918918919	0.883001422475	48	3
 Haspelmath-2009-1460-149	2262	FEMALE (OF ANIMAL)	149	female(2)	3-13	http://wold.clld.org/meaning/3-13	3.13	(of animals) cf. 2.24	Only female monkeys look after their offspring.	Adjective	3	0.903430079156	0.117414248021	0.890501319261	44	18
 Haspelmath-2009-1460-150	631	LIVESTOCK	150	the livestock	3-15	http://wold.clld.org/meaning/3-15	3.15	'domestic mammals kept for service or for useful products (cows, horses, donkeys, sheep, goats, pigs, reindeer, camels, etc.)'	-	Noun	3	0.815677966102	0.276483050847	0.780720338983	45	811
 Haspelmath-2009-1460-151	649	PASTURE	151	the pasture	3-16	http://wold.clld.org/meaning/3-16	3.16	'land or field that is covered with grass and is used for livestock to feed on'	-	Noun	3	0.815416666667	0.358333333333	0.8375	43	818
@@ -731,7 +731,7 @@ Haspelmath-2009-1460-730	365	SPLASH	730	to splash	10-352	http://wold.clld.org/me
 Haspelmath-2009-1460-731	787	SAIL	731	to sail	10-36	http://wold.clld.org/meaning/10-36	10.36	-	The ship sailed from America to Australia.	Verb	10	0.823529411765	0.147058823529	0.612299465241	21	699
 Haspelmath-2009-1460-732	1441	FLY (MOVE THROUGH AIR)	732	to fly	10-37	http://wold.clld.org/meaning/10-37	10.37	(intransitive)	Look at that bird flying up in the sky!	Verb	10	0.847626977519	0.13114071607	0.912572855953	44	361
 Haspelmath-2009-1460-733	175	BLOW (OF WIND)	733	to blow	10-38	http://wold.clld.org/meaning/10-38	10.38	(intransitive)	The wind is blowing hard.	Verb	10	0.813953488372	0.0377906976744	0.877906976744	46	843
-Haspelmath-2009-1460-734	96	CRAWL	734	to crawl	10-41	http://wold.clld.org/meaning/10-41	10.41	-	The baby is still crawling, it can't walk yet.	Verb	10	0.8175	0.1125	0.8375	43	785
+Haspelmath-2009-1460-734	3456	CRAWL OR CREEP	734	to crawl	10-41	http://wold.clld.org/meaning/10-41	10.41	-	The baby is still crawling, it can't walk yet.	Verb	10	0.8175	0.1125	0.8375	43	785
 Haspelmath-2009-1460-735	66	KNEEL	735	to kneel	10-412	http://wold.clld.org/meaning/10-412	10.412	'to get down on one's knees'	The messenger kneeled before the king.	Verb	10	0.831707317073	0.0670731707317	0.658536585366	41	585
 Haspelmath-2009-1460-736	296	CROUCH	736	to crouch	10-413	http://wold.clld.org/meaning/10-413	10.413	‘lower one’s body close to the ground by bending one’s knees completely’	She crouched under the sink to fix the pipes.	Verb	10	0.768181818182	0.215909090909	0.806818181818	45	1330
 Haspelmath-2009-1460-737	1324	SLIP	737	to slide or slip	10-42	http://wold.clld.org/meaning/10-42	10.42	(intransitive)	-	Verb	10	0.828971962617	0.11214953271	0.883177570093	54	628
@@ -779,7 +779,7 @@ Haspelmath-2009-1460-778	1844	BOAT	778	the boat	10-83	http://wold.clld.org/meani
 Haspelmath-2009-1460-779	1970	CANOE	779	the canoe	10-831	http://wold.clld.org/meaning/10-831	10.831	-	-	Noun	10	0.837857142857	0.435714285714	0.942857142857	38	481
 Haspelmath-2009-1460-780	416	OUTRIGGER	780	the outrigger	10-832	http://wold.clld.org/meaning/10-832	10.832	-	-	Noun	10	0.767567567568	0.25	0.824324324324	19	1336
 Haspelmath-2009-1460-781	1664	RAFT	781	the raft	10-84	http://wold.clld.org/meaning/10-84	10.84	-	-	Noun	10	0.84358974359	0.34188034188	0.880341880342	30	416
-Haspelmath-2009-1460-782	108	RUDDER	782	the oar	10-85	http://wold.clld.org/meaning/10-85	10.85	-	-	Noun	10	0.868823529412	0.455882352941	0.866176470588	36	784
+Haspelmath-2009-1460-782	3137	OAR	782	the oar	10-85	http://wold.clld.org/meaning/10-85	10.85	-	-	Noun	10	0.868823529412	0.455882352941	0.866176470588	36	784
 Haspelmath-2009-1460-783	234	PADDLE	783	the paddle	10-851	http://wold.clld.org/meaning/10-851	10.851	-	-	Noun	10	0.815189873418	0.28164556962	0.884493670886	34	822
 Haspelmath-2009-1460-784	1849	ROW	784	to row	10-852	http://wold.clld.org/meaning/10-852	10.852	-	-	Verb	10	0.827962085308	0.210900473934	0.78672985782	37	639
 Haspelmath-2009-1460-785	108	RUDDER	785	the rudder	10-86	http://wold.clld.org/meaning/10-86	10.86	-	-	Noun	10	0.817613636364	0.460227272727	0.849431818182	31	784
@@ -1137,7 +1137,7 @@ Haspelmath-2009-1460-1138	1014	OR	1138	or	17-54	http://wold.clld.org/meaning/17-
 Haspelmath-2009-1460-1139	1268	YES	1139	yes	17-55	http://wold.clld.org/meaning/17-55	17.55	-	-	Function word	17	0.829166666667	0.136363636364	0.982954545455	47	627
 Haspelmath-2009-1460-1140	1269	NO	1140	no	17-56	http://wold.clld.org/meaning/17-56	17.56	-	-	Function word	17	0.840909090909	0.159090909091	0.960227272727	51	447
 Haspelmath-2009-1460-1141	1239	HOW	1141	how?	17-61	http://wold.clld.org/meaning/17-61	17.61	-	-	Function word	17	0.803891050584	0.0204280155642	0.812256809339	47	994
-Haspelmath-2009-1460-1142	822	HOW MANY	1142	how many?	17-62	http://wold.clld.org/meaning/17-62	17.62	-	-	Function word	17	0.867027027027	0.0608108108108	0.805405405405	46	173
+Haspelmath-2009-1460-1142	3450	HOW MANY PIECES	1142	how many?	17-62	http://wold.clld.org/meaning/17-62	17.62	-	-	Function word	17	0.867027027027	0.0608108108108	0.805405405405	46	173
 Haspelmath-2009-1460-1143	531	HOW MUCH	1143	how much?	17-63	http://wold.clld.org/meaning/17-63	17.63	-	-	Function word	17	0.833333333333	0.0541666666667	0.8	46	565
 Haspelmath-2009-1460-1144	1236	WHAT	1144	what?	17-64	http://wold.clld.org/meaning/17-64	17.64	-	What is that thing on the table?	Function word	17	0.823391812865	0.0292397660819	0.938596491228	45	700
 Haspelmath-2009-1460-1145	1238	WHEN	1145	when?	17-65	http://wold.clld.org/meaning/17-65	17.65	-	-	Function word	17	0.815789473684	0.0473684210526	0.821052631579	48	808

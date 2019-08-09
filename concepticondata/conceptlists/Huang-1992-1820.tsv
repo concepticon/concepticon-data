@@ -727,11 +727,11 @@ Huang-1992-1820-725	725	under (the table)	下(桌子~)	1485	BELOW OR UNDER	n	und
 Huang-1992-1820-726	726	in (the sky)	上(天~)			n	in (the sky)
 Huang-1992-1820-727	727	under (the sky)	底下(天~)			n	under (the sky)
 Huang-1992-1820-728	728	on (the wall)	上(挂在墙~)			n	on (the wall)
-Huang-1992-1820-729	729	on top (of the roof)	顶上(房~)	1753	TOP	n	on top (of the roof)
-Huang-1992-1820-730	730	at the bottom of (a hill)	下(山~)	690	BOTTOM	n	at the bottom of (a hill)
+Huang-1992-1820-729	729	on top (of the roof)	顶上(房~)	57	ATOP	n	on top (of the roof)
+Huang-1992-1820-730	730	at the bottom of (a hill)	下(山~)			n	at the bottom of (a hill)
 Huang-1992-1820-731	731	over / above	以上			n	over / above
 Huang-1992-1820-732	732	below / under	以下			n	below / under
-Huang-1992-1820-733	733	upwards	往上			n	upwards
+Huang-1992-1820-733	733	upwards	往上	1591	UP	n	upwards
 Huang-1992-1820-734	734	downwards	往下	1326	DOWN	n	downwards
 Huang-1992-1820-735	735	upper half of the body	上半身			n	upper half of the body
 Huang-1992-1820-736	736	lower half of the body	下半身			n	lower half of the body
@@ -922,7 +922,7 @@ Huang-1992-1820-920	920	time / instance (of hitting)	下(打一~)	2741	BIT (CLAS
 Huang-1992-1820-921	921	time / instance (of kicking)	脚(踢一~)			n	time / instance (of kicking)
 Huang-1992-1820-922	922	time / instance (of biting)	口(咬一~)	2728	MOUTHFUL (CLASSIFIER)	n	time / instance (of biting)
 Huang-1992-1820-923	923	some	一些	1241	SOME	n	some
-Huang-1992-1820-924	924	several / few, a	几个	1242	FEW	n	several / few, a
+Huang-1992-1820-924	924	several / few, a	几个			n	several / few, a
 Huang-1992-1820-925	925	every day	每天			n	every day
 Huang-1992-1820-926	926	each / every (thing) (note:+human)	每个 ((指每"人"))	3416	EVERY (EACH)	n	each / every (thing) (note:+human)
 Huang-1992-1820-927	927	double / twice	倍(一~)	1546	TWICE	n	double / twice
@@ -956,8 +956,8 @@ Huang-1992-1820-954	954	what	什么	1236	WHAT	n	what
 Huang-1992-1820-955	955	where	哪里	1237	WHERE	n	where
 Huang-1992-1820-956	956	when	几时	1238	WHEN	n	when
 Huang-1992-1820-957	957	how	怎么	1239	HOW	n	how
-Huang-1992-1820-958	958	how many / how much	多少	531	HOW MUCH	n	how many / how much
-Huang-1992-1820-959	959	how many (a small number) (things) (note:+human)	几个(疑问代词) (~(人))	822	HOW MANY	n	how many (a small number) (things) (note:+human)
+Huang-1992-1820-958	958	how many / how much	多少	822	HOW MANY	n	how many / how much
+Huang-1992-1820-959	959	how many (a small number) (things) (note:+human)	几个(疑问代词) (~(人))	3450	HOW MANY PIECES	n	how many (a small number) (things) (note:+human)
 Huang-1992-1820-960	960	others / miscellaneous	其他	2422	SOMEONE	n	others / miscellaneous
 Huang-1992-1820-961	961	respective / individual / each	各自			n	respective / individual / each
 Huang-1992-1820-962	962	all / everything	一切			n	all / everything
@@ -986,7 +986,7 @@ Huang-1992-1820-984	984	full	满	1429	FULL	adj	full
 Huang-1992-1820-985	985	empty	空	1624	EMPTY	adj	empty
 Huang-1992-1820-986	986	shrivelled / shrunken	瘪			adj	shrivelled / shrunken
 Huang-1992-1820-987	987	many / much	多	1198	MANY	adj	many / much
-Huang-1992-1820-988	988	few / little	少	2924	A LITTLE	adj	few / little
+Huang-1992-1820-988	988	few / little	少	1242	FEW	adj	few / little
 Huang-1992-1820-989	989	square / rectangular (lit. 'four face four corner') (note:"four-face-four-angle")	方 ("四面四角")	850	SQUARE	adj	square / rectangular (lit. 'four face four corner') (note:"four-face-four-angle")
 Huang-1992-1820-990	990	circle / circular (planar)	圆 ((圆筒形))	1395	ROUND	adj	circle / circular (planar)||circle / circular||circle / circular (spherical)||circle / circular (tubular)
 Huang-1992-1820-991	991	flat / shallow	扁			adj	flat / shallow
@@ -1187,7 +1187,7 @@ Huang-1992-1820-1185	1185	make a row,	吵			v.	make a row,
 Huang-1992-1820-1186	1186	stir-fry	炒	2162	STIR FRY	v.	stir-fry
 Huang-1992-1820-1187	1187	sink	沉	1088	SINK (DESCEND)	v.	sink
 Huang-1992-1820-1188	1188	weigh	称(~粮食)	1098	WEIGH	v.	weigh
-Huang-1992-1820-1189	1189	commend /	称赞	1687	PRAISE	v.	commend /
+Huang-1992-1820-1189	1189	commend /	称赞	3455	COMMEND	v.	commend /
 Huang-1992-1820-1190	1190	prop up /	撑住			v.	prop up /
 Huang-1992-1820-1191	1191	open (an	撑(~伞)			v.	open (an
 Huang-1992-1820-1192	1192	done, be /	成了			v.	done, be /

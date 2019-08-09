@@ -390,7 +390,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 389	FISH TRAP	Warfare and hunting	A contraption made of wires, rods, fishing-net or other suitable materials with the purpose of catching fish alive.	Person/Thing	
 390	PUNISHMENT	Law	The act or process of punishing, imposing and/or applying a sanction; a penalty to punish wrongdoing, especially for crime.	Person/Thing	
 391	BLESS	Religion and belief	To make something blessed; to confer blessing upon.	Action/Process	
-392	MAGIC	Religion and belief	The use of rituals or actions, especially based on supernatural or occult knowledge, to manipulate or obtain information about the natural world, especially when seen as falling outside the realm of religion; also the forces allegedly drawn on for such practices. A specific ritual or procedure associated with supernatural magic or with mysticism; a spell.	Person/Thing	
+392	MAGIC	Religion and belief	The use of rituals or actions, especially based on supernatural or occult knowledge, to manipulate or obtain information about the natural world, especially when seen as falling outside the realm of religion.	Person/Thing	
 393	CIRCUMCISION	Religion and belief	The act of excising or amputating the prepuce (the foreskin on penises, the clitoral hood on clitorises)	Person/Thing	
 394	SHAMAN (FOLK HEALER)	Religion and belief	A traditional (prescientific) faith healer; a member of certain tribal societies who acts as a religious medium between the concrete and spirit worlds.	Person/Thing	
 395	PILL	Modern world	A small, usually cylindrical object designed for easy swallowing, usually containing some sort of medication.	Person/Thing	
@@ -529,7 +529,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 528	DREADFUL	Emotions and values	Causing dread; very bad.	Property	
 529	FLANK	Warfare and hunting	The extreme left or right edge of a military formation, army etc.	Person/Thing	
 530	FRECKLE	The body	A small brownish or reddish pigmentation spot on the surface of the skin.	Person/Thing	
-531	HOW MUCH	Cognition	In what amount.	Other	
+531	HOW MUCH	Cognition	Which quantity? (for mass nouns)	Other	
 532	GIPSY	Social and political relations	Gipsy is a common word used to indicate Romani people, Tinkers and Travellers.	Person/Thing	
 533	GLUTTON	Food and drink	Person who habitually eats and drinks excessively.	Person/Thing	
 534	HUMP	The body	A hump may refer to a camel's hump containing its fat reservoir or alternatively to the curve on an upper spine that causes a hunchback.	Person/Thing	
@@ -650,7 +650,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 649	PASTURE	Animals	Land covered with grass or herbage and grazed by or suitable for grazing by livestock.	Person/Thing	
 650	PETROLEUM	Modern world	A comparatively volatile liquid bitumen composed principally of hydrocarbon, with traces of sulphur, nitrogen or oxygen compounds; can be removed from the earth in a liquid state.	Person/Thing	
 651	SEAL	Animals	A mammal belonging to the Pinnipedia, an order of aquatic placental mammals having a streamlined body and limbs specialized as flippers: includes seals, sea lions, and the walrus.	Person/Thing	
-652	PLAIN	The physical world	Level or rolling open land, ususually at a low elevation.	Person/Thing	
+652	PLAIN	The physical world	Level or rolling open land, usually at a low elevation.	Person/Thing	
 653	PLANT (VEGETATION)	Agriculture and vegetation	Any living organism that synthesizes its food from inorganic substances, possesses cellulose cell walls, responds slowly and often permanently to a stimulus, lacks specialized sense organs and nervous system, and has no powers of locomotion.	Person/Thing	
 654	PLASTIC	Modern world	A polymeric material (usually organic) of large molecular weight which can be shaped by flow; usually refers to the final product with fillers, plasticizers, pigments, and stabilizers included (versus the resin, the homogeneous polymeric starting material); examples are polyvinyl chloride, polyethylene, and urea-formaldehyde.	Person/Thing	
 655	POISON	The body	A substance which, when ingested, inhaled, or absorbed, or when applied to, injected into, or developed within the body, in relatively small amounts, may cause injury, harm, or destruction to organs, tissue, or life.	Person/Thing	
@@ -1685,7 +1685,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1684	BUD	Agriculture and vegetation	A bud is an undeveloped or embryonic shoot and normally occurs in the axil of a leaf or at the tip of the stem.	Person/Thing	
 1685	AFTER	Spatial relations	Subsequent, following, in time or space.	Other	
 1686	BEHIND	Spatial relations	At the back of.	Other	
-1687	PRAISE	Emotions and values	the act of expressing approval or admiration; commendation; laudation.	Person/Thing	
+1687	PRAISE	Emotions and values	The act of expressing approval or admiration; commendation; laudation.	Person/Thing	
 1688	FATE	Religion and belief	The power or agency that, according to certain belief systems, predetermines and orders unalterably the course of events.	Person/Thing	
 1689	SMOKE (INHALE)	Agriculture and vegetation	To inhale smoke from for example a cigarette or a cigar.	Action/Process	
 1690	FENCE	Agriculture and vegetation	Delimitation for an area.	Person/Thing	
@@ -2917,7 +2917,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2921	THEN	Time	Soon after that.	Other	
 2922	AT THAT TIME	Time	At a certain time in the past.	Other	
 2923	THITHER (THERE TO)	Spatial relations	Directed towards this place there.	Other	
-2924	A LITTLE	Basic actions and technology	In a small amount.	Other	
+2924	A LITTLE	Basic actions and technology	More than one, but not as many as usual or as expected. (for mass nouns)	Other	
 2925	HITHER (HERE TO)	Spatial relations	Directed towards this place here.	Other	
 2926	HARDLY	Basic actions and technology	Barely perceivable or noticeable.	Other	
 2927	FROM HERE	Spatial relations	Directed from here towards another direction.	Other	
@@ -3206,7 +3206,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3211	HOPE (FAITH)	Emotions and values	The belief in the possibility that something one wants will happen.	Person/Thing	
 3212	HOPE (SOMETHING)	Emotions and values	To want something to happen.	Action/Process	
 3213	HIRE OR RENT	Social and political relations	To employ a person or people in exchange of some kind of remuneration, usually a payment, or to pay for using an object.	Action/Process	
-3215	CREEP	Motion	NONE	Action/Process	96
+3215	CREEP	Motion	To move with one's belly touching the ground.	Action/Process	
 3217	TIN OR TINPLATE	Basic actions and technology	A metallic element with symbol Sn or a thin sheet of steel coated with tin to prevent rusting.	Person/Thing	
 3220	MATERNAL UNCLE	Kinship	A brother of someone's mother.	Person/Thing	
 3221	PLANTAGO	Agriculture and vegetation	A plant of the genus Plantago, with a rosette of sessile leaves about 10 cm long with a narrow part instead of a petiole, and with a spike inflorescence with the flower spacing varying widely among the species.	Person/Thing	
@@ -3433,3 +3433,10 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3447	BEGIN OR START	Time	To begin doing an activity, of (of an activity) to begin.	Action/Process	
 3448	SIEVE OR STRAIN	Food and drink	To separate solids from each other by passing through a sieve or other straining device or to separate or isolate components from a liquid with the help of a filter.	Action/Process	
 3449	START	Time	(Of an activity) to begin.	Action/Process	
+3450	HOW MANY PIECES	Cognition	Which quantity? (for countable nouns)	Other	
+3451	FEW PIECES	Cognition	More than one, but not as many as usual or as expected. (for countable nouns)	Other	
+3452	MUCH	Cognition	An indefinite large number of. (for mass nouns)	Other	
+3453	MANY PIECES	Cognition	An indefinite large number of. (for countable nouns)	Other	
+3454	KISS (NOUN)	Emotions and values	The action of touching with the lips to express love or affection.	Person/Thing	
+3455	COMMEND	Emotions and values	To express approval or admiration.	Action/Process	
+3456	CRAWL OR CREEP	Motion	To move using ones hands and knees or with one's belly touching the ground.	Action/Process	
