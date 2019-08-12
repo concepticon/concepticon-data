@@ -19,7 +19,14 @@
                             "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
                         }, 
                         "name": "ID"
-                    }, 
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        },
+                        "name": "NUMBER"
+                    },					
                     {
                         "datatype": {
                             "base": "integer",
@@ -33,11 +40,11 @@
                     }, 
                     {
                         "datatype": "string", 
-                        "name": "GLOSS",
+                        "name": "ENGLISH"
                     },
 					{
                         "datatype": "float", 
-                        "name": "S(i)"
+                        "name": "S_I"
                     }					
                 ], 
                 "primaryKey": [
