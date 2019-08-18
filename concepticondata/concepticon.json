@@ -5,6 +5,7 @@
         "areal": "Concept lists designed for a specific linguistic area.",
         "basic": "Concept lists which are supposed to represent the basic vocabulary.",
         "body parts": "Concept lists which concentrate on body parts.",
+        "colors": "Concept lists which concentrate on color terms.",
         "documentation": "Concept lists which serve to document one language or one language family.",
         "hihi": "A list of highly reconstructable and highly retentive items (term from McMahon & McMahon 2005).",
         "historical": "A list which is historically interesting, mostly referring to lists published before the 20th century.",
@@ -240,5 +241,48 @@
         "FREQUENCY": "decimal",
         "RANK": "integer",
         "*SCORE": "decimal"
+    },
+    "CONCEPTRELATIONS": {
+        "broader": {
+            "definition": "Broader than x.",
+            "inverseof": "narrower"
+        },
+        "narrower": {
+            "definition": "Narrower than x.",
+            "inverseof": "broader"
+        },
+        "hyperonymof": {
+            "definition": "Category superordinate to x.",
+            "inverseof": "instanceof"
+        },
+        "instanceof": {
+            "definition": "Subcategory of x.",
+            "inverseof": "hyperonymof"
+        },
+        "haspart": {
+            "definition": "A whole that x is a part of.",
+            "inverseof": "partof"
+        },
+        "partof": {
+            "definition": "A part of x.",
+            "inverseof": "haspart"
+        },
+        "transitiveof": {
+            "definition": "The same action as x, but involving an object different from the subject.",
+            "inverseof": "intransitiveof"
+        },
+        "intransitiveof": {
+            "definition": "The same action as x, but not involving an object different from the subject.",
+            "inverseof": "transitiveof"
+        },
+        "antonymof": {
+            "definition": "The opposite of x."
+        },
+        "similar": {
+            "definition": "Having almost but not quite the same meaning as x."
+        },
+        "hasform": {
+            "definition": "The oblique case form of x."
+        }
     }
 }

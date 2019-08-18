@@ -292,7 +292,7 @@ Dellert-2017-1016-290	290	779	-0.014428	Ski	Ski::N	ski	лыжа				SKI	2991
 Dellert-2017-1016-291	291	974	0.020956	Lagerfeuer	Lagerfeuer::N	campfire	костёр				CAMPFIRE	2986	
 Dellert-2017-1016-292	292	765	-0.061976	Last	Last::N	load	тяжесть	auf Fahrzeug	on a vehicle	груз на повозке	LOAD	1679	
 Dellert-2017-1016-293	293	509	-1.153809	Gang	Gang::N	walk	ходьба	Zurücklegen eines Weges	trip made by walking	процесс ходьбы	WALK (MANNER)	2979	
-Dellert-2017-1016-294	294	172	-1.1143	Schritt	Schritt::N	step	шаг	Einzelschritt	single pace	одно движение ногой при ходьбе	STEP	1158	
+Dellert-2017-1016-294	294	172	-1.1143	Schritt	Schritt::N	step	шаг	Einzelschritt	single pace	одно движение ногой при ходьбе			
 Dellert-2017-1016-295	295	661	-0.0156	Norden	Norden::N	north	север				NORTH	1598	
 Dellert-2017-1016-296	296	719	-0.070792	Süden	Süden::N	south	юг				SOUTH	1595	
 Dellert-2017-1016-297	297	819	-0.073499	Westen	Westen::N	west	запад				WEST	1817	
@@ -609,7 +609,7 @@ Dellert-2017-1016-607	607	195	-1.125499	hierhin	hierhin::ADV	hither	сюда				
 Dellert-2017-1016-608	608	619	-0.012382	von hier	von hier::ADV	hence	отсюда				FROM HERE	2927	
 Dellert-2017-1016-609	609	15	-2.264168	dort	dort::ADV	there	там				THERE	1937	
 Dellert-2017-1016-610	610	320	-1.193899	dorthin	dorthin::ADV	thither	туда				THITHER (THERE TO)	2923	
-Dellert-2017-1016-611	611	941	0.037048	geradeaus	geradeaus::ADV	ahead	прямо				STRAIGHT	1404	
+Dellert-2017-1016-611	611	941	0.037048	geradeaus	geradeaus::ADV	ahead	прямо						
 Dellert-2017-1016-612	612	487	-1.113207	vorwärts	vorwärts::ADV	forward	вперёд				FORWARD	2912	
 Dellert-2017-1016-613	613	806	-0.041419	rückwärts	rückwärts::ADV	backward	назад				BACKWARD	2911	
 Dellert-2017-1016-614	614	503	-1.174261	zurück	zurück::ADV	back	обратно				BACK (DIRECTION)	2910	
@@ -650,7 +650,7 @@ Dellert-2017-1016-648	648	14	-2.286457	wo	wo::FADV	where	где				WHERE	1237
 Dellert-2017-1016-649	649	248	-1.188391	wohin	wohin::FADV	where to	куда				WHITHER (WHERE TO)	2928	
 Dellert-2017-1016-650	650	189	-1.151297	wie	wie::FADV	how	как				HOW	1239	
 Dellert-2017-1016-651	651	392	-1.134378	warum	warum::FADV	why	почему				WHY	1270	
-Dellert-2017-1016-652	652	663	-0.004942	wieviel	wieviel::FNUM	how much	сколько				HOW MUCH	531	
+Dellert-2017-1016-652	652	663	-0.004942	wieviel	wieviel::FNUM	how much	сколько				HOW MANY	822	
 Dellert-2017-1016-653	653	1	-3.305677	eins	eins::NUM	one	один				ONE	1493	
 Dellert-2017-1016-654	654	7	-3.352278	zwei	zwei::NUM	two	два				TWO	1498	
 Dellert-2017-1016-655	655	30	-2.283703	drei	drei::NUM	three	три				THREE	492	
@@ -765,7 +765,7 @@ Dellert-2017-1016-763	763	373	-1.182523	rennen	rennen::V	run	бегать	Mensch
 Dellert-2017-1016-764	764	517	-1.129859	springen	springen::V	jump	прыгать	Mensch	of human	о человеке	JUMP	1829	
 Dellert-2017-1016-765	765	694	-0.04111	klettern	klettern::V	climb	лазать	Mensch	of human	карабкаться, о человеке	CLIMB	1102	
 Dellert-2017-1016-766	766	977	0.086987	schaukeln	schaukeln::V	seesaw	качаться, раскачиваться	wippen, auf Schaukel	use a seesaw	НАПР:на качелях			
-Dellert-2017-1016-767	767	441	-1.115912	kriechen	kriechen::V	creep	ползать	Mensch	of human	о человеке	CRAWL	96	
+Dellert-2017-1016-767	767	441	-1.115912	kriechen	kriechen::V	creep	ползать	Mensch	of human	о человеке	CREEP	3215	
 Dellert-2017-1016-768	768	108	-2.289305	schwimmen	schwimmen::V	swim	плавать	Mensch	of human	о человеке	SWIM	1439	
 Dellert-2017-1016-769	769	952	0.09785	tauchen	tauchen::V	dive	нырять	Mensch	of human	о человеке	DIVE	119	
 Dellert-2017-1016-770	770	494	-1.196761	rudern	rudern::V	row	грести	ein Boot mittels Riemen bewegen	propel a boat using oars	передвигать лодку вёслами	ROW	1849	
@@ -901,7 +901,7 @@ Dellert-2017-1016-899	899	309	-1.139581	reichen	reichen::V	hand	передать
 Dellert-2017-1016-900	900	745	-0.004299	schenken	schenken::V	give	дарить	BSP:ein Buch	as a present, EX:a book	НАПР:книгу	DONATE	196	
 Dellert-2017-1016-901	901	811	-0.021625	versprechen	versprechen::V	promise	обещать				PROMISE	1675	
 Dellert-2017-1016-902	902	588	-0.075626	wünschen	wünschen::V	wish	желaть	jm etwas, BSP:Glück	ЕX:luck	НАПР:счастья			
-Dellert-2017-1016-903	903	261	-1.142721	loben	loben::V	praise	хвалить				PRAISE	1687	
+Dellert-2017-1016-903	903	261	-1.142721	loben	loben::V	praise	хвалить				COMMEND	3455	
 Dellert-2017-1016-904	904	724	-0.051244	küssen	küssen::V	kiss	целовать				KISS	578	
 Dellert-2017-1016-905	905	615	-0.033801	wiegen	wiegen::V	rock	качать	ein Kind in den Schlaf	a child	ребёнка			
 Dellert-2017-1016-906	906	308	-1.141124	zudecken	zudecken::V	cover	накрыть	BSP:ein Kind mit einer Decke	EX:a child with a blanket	НАПР:ребёнка одеялом			

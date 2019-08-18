@@ -44,42 +44,14 @@
                     }, 
                     {
                         "datatype": "string", 
-                        "name": "CATEGORY"
-                    },
-                    {
-                        "datatype": "string", 
-                        "name": "GLOSS"
-                    },
-                    {
-                        "datatype": "string", 
-                        "name": "SEMANTICFIELD"
-                    },
-                    {
-                        "datatype": "integer", 
-                        "name": "LOANS"
-                    },
-                    {
-                        "datatype": "integer", 
-                        "name": "HAPAXES"
-                    },
-                    {
-                        "datatype": "integer", 
-                        "name": "MISSING"
-                    },
-                    {
-                        "datatype": "float", 
-                        "name": "LOANPC"
-                    },
-                    {
-                        "datatype": "float", 
-                        "name": "HAPPC"
+                        "name": "PAGE"
                     }
                 ], 
                 "primaryKey": [
                     "ID"
                 ]
             }, 
-            "url": "Bowern-2011-204.tsv"
+            "url": "Backstrom-1992-210d.tsv"
         }
     ]
 }
