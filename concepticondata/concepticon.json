@@ -238,6 +238,41 @@
             "slov1269",
             "sk"
         ],
+        "AMERICANENGLISH": [
+            "languoid",
+            "nort3314",
+            null
+        ],
+        "CZECH": [
+            "languoid",
+            "czec1258",
+            null
+        ],
+        "GAELIC": [
+            "languoid",
+            "scot1245",
+            null
+        ],
+        "LEBANESEARABIC": [
+            "languoid",
+            "stan1323",
+            null
+        ],
+        "MALAY": [
+            "languoid",
+            "indo1326",
+            null
+        ],
+        "PERSIAN": [
+            "languoid",
+            "fars1255",
+            null
+        ],
+        "WESTERNARMENIAN": [
+            "languoid",
+            "homs1234",
+            null
+        ],
         "FREQUENCY": "decimal",
         "RANK": "integer",
         "*SCORE": "decimal"
