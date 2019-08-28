@@ -445,7 +445,7 @@ Key-2016-1310-443	comb	443	6-910	http://ids.clld.org/parameters/6-910	peigne	pen
 Key-2016-1310-444	towel	444	6-820	http://ids.clld.org/parameters/6-820	serviette	toalha	полотенце	toalla	6	820	1021	TOWEL
 Key-2016-1310-445	handkerchief, rag	445	6-810	http://ids.clld.org/parameters/6-810	mouchoir, chiffon	lenço, trapo	носовой платок	pañuelo, trapo	6	810	332	RAG
 Key-2016-1310-446	tattoo	446	6-790	http://ids.clld.org/parameters/6-790	tatouage	tatuagem	татуировка	tatuaje	6	790	68	TATTOO
-Key-2016-1310-447	headband, headdress	447	6-780	http://ids.clld.org/parameters/6-780	couronne, bandeau	fita para cabeça	повязка на голову, головной убор	cinta (para la cabeza), tocado	6	780	330	HEADBAND
+Key-2016-1310-447	headband, headdress	447	6-780	http://ids.clld.org/parameters/6-780	couronne, bandeau	fita para cabeça	повязка на голову, головной убор	cinta (para la cabeza), tocado	6	780	3457	HEADBAND OR HEADDRESS
 Key-2016-1310-448	earring	448	6-770	http://ids.clld.org/parameters/6-770	boucle d'oreille	brinco	сережка	arete, aro, pendiente	6	770	770	EARRING
 Key-2016-1310-449	bead	449	6-760	http://ids.clld.org/parameters/6-760	graine	contas, miçanga	бусина	chaquira, abalorio	6	760	1860	BEAD
 Key-2016-1310-450	necklace	450	6-750	http://ids.clld.org/parameters/6-750	collier	colar	ожерелье, бусы	collar	6	750	1961	NECKLACE
@@ -487,7 +487,7 @@ Key-2016-1310-485	fur	485	6-280	http://ids.clld.org/parameters/6-280	fourrure	pe
 Key-2016-1310-486	felt	486	6-270	http://ids.clld.org/parameters/6-270	feutre	feltro	фетр, войлок	fieltro	6	270	325	FELT
 Key-2016-1310-487	silk	487	6-250	http://ids.clld.org/parameters/6-250	soie	seda	шелк	seda	6	250	1641	SILK
 Key-2016-1310-488	cotton	488	6-240	http://ids.clld.org/parameters/6-240	coton	algodão	хлопок (хлопчатобумажная ткань)	algodón	6	240	1850	COTTON
-Key-2016-1310-489	linen, flax	489	6-230	http://ids.clld.org/parameters/6-230	lin	linho	лен (льняная ткань)	lino	6	230	916	LINEN
+Key-2016-1310-489	linen, flax	489	6-230	http://ids.clld.org/parameters/6-230	lin	linho	лен (льняная ткань)	lino	6	230	3462	FLAX OR LINEN
 Key-2016-1310-490	wool	490	6-220	http://ids.clld.org/parameters/6-220	laine	lã	шерсть (шерстяная ткань)	lana	6	220	964	WOOL
 Key-2016-1310-491	cloth	491	6-210	http://ids.clld.org/parameters/6-210	étoffe, tissu	tecido, pano	ткань, сукно	tela	6	210	1616	CLOTH
 Key-2016-1310-492	tailor	492	6-130	http://ids.clld.org/parameters/6-130	tailleur	alfaiate	портной	sastre	6	130	881	TAILOR
@@ -1013,7 +1013,7 @@ Key-2016-1310-1011	hear	1011	15-410	http://ids.clld.org/parameters/15-410	entend
 Key-2016-1310-1012	listen	1012	15-420	http://ids.clld.org/parameters/15-420	écouter	escutar	слушать	escuchar	15	420	1608	LISTEN
 Key-2016-1310-1013	sound, noise	1013	15-440	http://ids.clld.org/parameters/15-440	son, bruit	ruído, barulho	звук, шум	ruido, sonido	15	440	1811	SOUND OR NOISE
 Key-2016-1310-1014	loud	1014	15-450	http://ids.clld.org/parameters/15-450	fort, sonore, bruyant, retentissant	ruidoso, barulhento	громкий	alta (voz), ruidoso	15	450	377	LOUD
-Key-2016-1310-1015	quiet, silence	1015	15-460	http://ids.clld.org/parameters/15-460	tranquillité, silence	quieto	спокойный, тихий	silencio, tranquilo	15	460	1314	QUIET
+Key-2016-1310-1015	quiet, silence	1015	15-460	http://ids.clld.org/parameters/15-460	tranquillité, silence	quieto	спокойный, тихий	silencio, tranquilo	15	460	3458	SILENCE
 Key-2016-1310-1016	see	1016	15-510	http://ids.clld.org/parameters/15-510	voir	ver	видеть	ver	15	510	1409	SEE
 Key-2016-1310-1017	look, look at	1017	15-520	http://ids.clld.org/parameters/15-520	regarder	olhar para, fitar	смотреть (на)	mirar, contemplar	15	520	1819	LOOK
 Key-2016-1310-1018	show	1018	15-550	http://ids.clld.org/parameters/15-550	montrer	mostrar	показывать	mostrar, señalar	15	550	1039	SHOW
@@ -1205,7 +1205,7 @@ Key-2016-1310-1203	master	1203	19-410	http://ids.clld.org/parameters/19-410	maî
 Key-2016-1310-1204	slave	1204	19-420	http://ids.clld.org/parameters/19-420	esclave	escravo	раб	esclavo	19	420	812	SLAVE
 Key-2016-1310-1205	servant	1205	19-430	http://ids.clld.org/parameters/19-430	domestique, serviteur	criado, servo	слуга	sirviente	19	430	255	SERVANT
 Key-2016-1310-1206	freeman	1206	19-440	http://ids.clld.org/parameters/19-440	homme libre	homem livre	свободный человек	hombre libre	19	440	384	FREEMAN
-Key-2016-1310-1207	command, order	1207	19-450	http://ids.clld.org/parameters/19-450	commander, ordonner	mandar, dar ordem	приказывать	mandar	19	450	1128	ORDER
+Key-2016-1310-1207	command, order	1207	19-450	http://ids.clld.org/parameters/19-450	commander, ordonner	mandar, dar ordem	приказывать	mandar	19	450	1998	COMMAND
 Key-2016-1310-1208	obey	1208	19-460	http://ids.clld.org/parameters/19-460	obéir	obedecer	повиноваться	obedecer	19	460	1635	OBEY
 Key-2016-1310-1209	let, permit	1209	19-470	http://ids.clld.org/parameters/19-470	permettre	deixar, permitir	разрешать	permitir, dejar	19	470	3237	ALLOW OR PERMIT
 Key-2016-1310-1210	friend, companion	1210	19-510	http://ids.clld.org/parameters/19-510	ami, compagnon	amigo, companheiro	друг	amigo, compañero	19	510	1325	FRIEND

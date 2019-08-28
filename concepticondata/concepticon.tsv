@@ -111,7 +111,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 110	MOTOR	Modern world	A machine in which power is applied to do work by the conversion of various forms of energy into mechanical force and motion.	Person/Thing	
 111	DRUMMING	Motion	To produce sound with a drum.	Action/Process	
 112	TURTLE	Animals	A reptile of the order Testudines (the crown group of the superorder Chelonia), characterised by a special bony or cartilaginous shell developed from their ribs that acts as a shield.	Person/Thing	
-113	SHORE	The physical world	The land along the edge of a body of water.	Person/Thing	
+113	SHORE	The physical world	The margin or shore of a river, lake, or ocean.	Person/Thing	
 114	PORPOISE	Animals	A short-snouted genus of the dolphin family, 1.2 to 2.5 metres (4 to 8 feet) long, gregarious in habits, yielding an oil and leather.	Person/Thing	
 115	PROFLIGATE	Possession	Someone who spends money prodigiously and who is extravagant and recklessly wasteful.	Person/Thing	
 116	LARCH	Agriculture and vegetation	A coniferous  tree, of genus Larix, having deciduous leaves	Person/Thing	
@@ -132,7 +132,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 131	FESTIVAL	Social and political relations	Manifestation of collective joy, lasting longer than a few minutes.	Person/Thing	
 132	SAUCE	Food and drink	A liquid food accompanying a dish.	Person/Thing	
 133	WEAVE	Clothing and grooming	To create a fabric by interlacing threads.	Action/Process	
-134	FAULT	Emotions and values	Wrong act done deliberately or good act omitted deliberately.	Person/Thing	
+134	FAULT	Emotions and values	Responsibility for a wrong act done deliberately or a good act omitted deliberately.	Person/Thing	
 135	BOOMERANG	Basic actions and technology	A tool with a curved shape used as a weapon or for sport which returns when thrown into the air.	Person/Thing	
 136	HERE	Miscellaneous function words	At this place.	Other	
 137	COCA	Agriculture and vegetation	A plant in the family Erythroxylaceae, native to western South America.	Person/Thing	
@@ -328,7 +328,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 327	PONCHO	Clothing and grooming	A simple garment, made from a rectangle of cloth, with a slit in the middle for the head.	Person/Thing	
 328	GRASS-SKIRT	Clothing and grooming	A skirt made from long dried grass, or synthetic material resembling it.	Person/Thing	
 329	STOCKING	Clothing and grooming	A soft garment worn on the foot and lower leg, usually knit or woven, worn under shoes or other footwear.	Person/Thing	
-330	HEADBAND	Clothing and grooming	A strip of fabric worn around the head or a hair-accessory, made of a flexible material and curved like a horseshoe, for holding one's hair back.	Person/Thing	
+330	HEADBAND	Clothing and grooming	A strip of fabric worn around the head, or a hair-accessory made of a flexible material and curved like a horseshoe, for holding one's hair back.	Person/Thing	
 331	HEADDRESS	Clothing and grooming	A decorative covering or ornament worn on the head.	Person/Thing	
 332	RAG	Clothing and grooming	A piece of old cloth; a tattered piece of cloth; a shred, a tatter.	Person/Thing	
 333	PLAIT	Clothing and grooming	A flat fold; a doubling, as of cloth; a pleat.	Person/Thing	
@@ -379,7 +379,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 378	PINCH	Sense perception	To squeeze a small amount of a person's skin and flesh, making it hurt.	Action/Process	
 379	BLUNT	Sense perception	Having a thick edge or point, as an instrument; not sharp.	Property	
 380	WRINKLED	Sense perception	Uneven, with many furrows and prominent points, often in reference to the skin or hide of animals.	Property	
-381	BLAME	Emotions and values	Culpability for something negative or undesirable.	Person/Thing	
+381	BLAME	Emotions and values	Accusation for something negative or undesirable.	Person/Thing	
 382	GOVERN	Social and political relations	To make and administer the public policy and affairs of; to exercise sovereign authority in.	Action/Process	
 383	MASTER	Social and political relations	Someone who has control over something or someone; the owner of an animal or slave or someone who employs others.	Person/Thing	
 384	FREEMAN	Social and political relations	A free man, one who is not a serf or slave.	Person/Thing	
@@ -1126,7 +1126,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1125	BALD	The body	Without hair on the head.	Property	
 1126	CITRUS FRUIT	Agriculture and vegetation	The fruits of a plant in the citrus genus. They have a leathery rind surrounding segments filled with pulp vesicles.	Person/Thing	
 1127	SEND	Motion	To make something (an object, a message) go from one place to another.	Action/Process	
-1128	ORDER	Social and political relations	To express as instruction to be executed by the receiver, in accordance with an authority acknowledged by him.	Action/Process	
+1128	ORDER	Basic actions and technology	To order someone or several persons by a superior authority to do something, or to arrange something in a tidy manner.	Action/Process	
 1129	PAINFUL	Sense perception	Full of pain; causing uneasiness or distress, either physical or mental.	Property	
 1130	WE (EXCLUSIVE)	Kinship	exclusive “we”: I and at least one other person, but not the addressed person (you) (pronoun 1st person plural without 2nd person)	Other	
 1131	WE (INCLUSIVE)	Kinship	inclusive “we”: I and at least one other person, including the addressed person(s) (pronoun 1st person plural with 2nd person)	Other	
@@ -1262,7 +1262,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1261	SING	Speech and language	To produce harmonious sounds with one's voice.	Action/Process	
 1262	BROTHER	Kinship	A male person who has the same parents as another person.	Person/Thing	
 1263	SISTER	Kinship	A female person who has the same parents as another person.	Person/Thing	
-1264	CHANGE	Spatial relations	To make different.	Action/Process	
+1264	CHANGE	Spatial relations	To make different or to become different.	Action/Process	
 1265	HIGH	Spatial relations	Being in a position comparatively far above to the ground.	Property	
 1266	BRIDE	Kinship	A woman who is going to get married or has just got married.	Person/Thing	
 1267	NARROW	Spatial relations	(Of a path, cave etc.) having a small width.	Property	
@@ -1579,7 +1579,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1578	IGUANA	Animals	(Iguanidae) A lizard family.	Person/Thing	
 1579	BE	Miscellaneous function words	To have existence.	Action/Process	
 1580	ONLY	Quantity	Nothing more than.	Other	
-1581	ALLIGATOR	Animals	(Alligatoridae) A reptile belonging to the order Crocodilia.	Person/Thing	
+1581	ALLIGATOR	Animals	A reptile belonging to the subfamily Alligatorinae in the family Alligatoridae in the order Crocodylia.	Person/Thing	
 1582	TIN (CAN)	Modern world	A tin-plate canister, often cylindrical, for preserved foods such as fruit, meat, or fish.	Person/Thing	
 1583	BRAIN	The body	The organ of the central nervous system of an animal located in the skull that controls the actions and thoughts of the animal.	Person/Thing	
 1584	BLISTER	The body	A small bubble on the skin, that contains watery fluid and is caused by heat, pressure or infection.	Person/Thing	
@@ -1675,12 +1675,12 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1674	POOR	Possession	With little or no possessions or money.	Property	
 1675	PROMISE	Speech and language	To commit to doing something or assure that something will happen.	Action/Process	
 1676	ALWAYS	Time	At all times.	Other	
-1677	WORKSHOP	Modern world	a room or building in which work, especially mechanical work, is carried on.	Person/Thing	
-1678	HUT	The house	a simple roofed shelter, often with one  open side.	Person/Thing	
+1677	WORKSHOP	Modern world	A room or building in which work, especially mechanical work, is carried on.	Person/Thing	
+1678	HUT	The house	A simple roofed shelter, often with one  open side.	Person/Thing	
 1679	LOAD	Basic actions and technology	The weight (materials, products, etc.) to be borne or conveyed.	Person/Thing	
 1680	HELMET	Warfare and hunting	Any of various forms of protective head covering worn e.g.  by soldiers, firefighters, divers, cyclists, etc.	Person/Thing	
 1681	WAIST	The body	In human beings, the part between the thorax and hips.	Person/Thing	
-1682	GUILTY	Law	having committed an offense, crime, violation, or wrong, especially against moral or penal law.	Property	
+1682	GUILTY	Law	Having committed an offense, crime, violation, or wrong, especially against moral or penal law.	Property	
 1683	BUSH	Agriculture and vegetation	A plant resembling a small tree, but has no, and will never develop, a stem.	Person/Thing	
 1684	BUD	Agriculture and vegetation	A bud is an undeveloped or embryonic shoot and normally occurs in the axil of a leaf or at the tip of the stem.	Person/Thing	
 1685	AFTER	Spatial relations	Subsequent, following, in time or space.	Other	
@@ -1996,7 +1996,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1995	DEFECT	Modern world	A fault or malfunction.	Person/Thing	
 1996	GET TIRED	The body	To become tired through overuse or great strain or stress.	Action/Process	
 1997	PRESERVE	Possession	To protect; to keep; to maintain the condition of.	Action/Process	
-1998	COMMAND	Social and political relations	That which is enjoined or ordered to one or several persons by a superior authority.	Action/Process	
+1998	COMMAND	Social and political relations	To order someone or several persons by a superior authority to do something.	Action/Process	
 1999	OVERCOME	Motion	To surmount a physical or an abstract obstacle.	Action/Process	
 2000	CLOVE	Agriculture and vegetation	The aromatic flower bud of a clove tree, used as a spice.	Person/Thing	
 2001	PAINTING	Basic actions and technology	To make a painting or drawing.	Action/Process	
@@ -2266,7 +2266,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2265	DAUGHTER-IN-LAW (OF MAN)	Kinship	The daughter-in-law of a man.	Person/Thing	
 2266	SON-IN-LAW (OF WOMAN)	Kinship	The son-in-law of a woman.	Person/Thing	
 2267	SON-IN-LAW (OF MAN)	Kinship	The son-in-law of a man.	Person/Thing	
-2268	POTION	Food and drink	A specific drink that enhances healing and recovering.	Person/Thing	
+2268	POTION	Food and drink	Either the liquid that is produced by squeezing or crushing fruits or vegetables, or a substance which specifically promotes healing.	Person/Thing	
 2269	BREATH OR LIFE	Basic actions and technology	The act of inhalation and exhalation of air as one part of physiological respiration required to sustain life, or the fact that life is sustained itself.	Person/Thing	
 2270	SAGO	Food and drink	Starch extracted from the spongy centre, or pith, of various tropical palm stems, especially Metroxylon sagu.	Person/Thing	
 2271	THINK	Cognition	Use ones mental power to form ideas or having used ones mental power to form ideas of conviction or belief.	Action/Process	
@@ -2346,7 +2346,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2345	LEPORID (RABBIT OR HARE)	Animals	Mammal of the family hares and rabbits (Leporidae) with long ears, short tail and hindlegs which are shorter than the forelegs and permit running quickly.	Person/Thing	
 2346	CRESTED MYNA	Animals	A species of starling native to southeastern China and Indochina.	Person/Thing	
 2347	YELLOW CROAKER	Animals	A species of croaker native to the western Pacific, generally in temperate waters such as the East China Sea and the Yellow Sea.	Person/Thing	
-2348	CRAB	Animals	decapod crustaceans of the infraorder Brachyura, which typically have a very short projecting &quot;tail&quot; (abdomen) (Greek: βραχύς / brachys = short, οὐρά / οura = tail), usually entirely hidden under the thorax.	Person/Thing	
+2348	CRAB	Animals	"Decapod crustaceans of the infraorder Brachyura, which typically have a very short projecting ""tail"" (abdomen) (Greek: βραχύς / brachys = short, οὐρά / οura = tail), usually entirely hidden under the thorax."	Person/Thing	
 2349	SHRIMP	Animals	Refers to some decapod crustaceans, although the exact animals covered can vary. Used broadly, it may cover any of the groups with elongated bodies and a primarily swimming mode of locomotion – chiefly Caridea and Dendrobranchiata.	Person/Thing	
 2350	EARTHWORM	Animals	A tube-shaped, segmented worm found in the phylum Annelida.	Person/Thing	
 2351	SILKWORM	Animals	The larva or caterpillar of the domesticated silkmoth (Bombyx mori)	Person/Thing	
@@ -2436,7 +2436,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2435	UNIVERSITY	Modern world	A university (Latin: universitas, a whole) is an institution of higher (or tertiary) education and research which grants academic degrees in various subjects and typically provides undergraduate education and postgraduate education.	Person/Thing	
 2436	GUTS OR HEART	The body	Either the human heart or the human guts.	Person/Thing	
 2437	ACAI PALM	Agriculture and vegetation	A species of palm tree in the genus Euterpe cultivated for its fruit and hearts of palm.	Person/Thing	
-2438	CAIMAN	Animals	An alligatorid crocodilian belonging to the subfamily Caimaninae, one of two primary lineages within Alligatoridae, the other being alligators.	Person/Thing	
+2438	CAIMAN	Animals	A reptile belonging to the subfamily Caimaniae in the family Alligatoridae in the order Crocodylia.	Person/Thing	
 2439	TUCUMA PALM	Agriculture and vegetation	A palm native to Amazon Rainforest vegetation, typical of the Pará state in Brazil.	Person/Thing	
 2440	PINEAPPLE	Agriculture and vegetation	A tropical plant with edible multiple fruit consisting of coalesced berries, also called pineapples, and the most economically significant plant in the Bromeliaceae family.	Person/Thing	
 2441	CASHEW	Agriculture and vegetation	A tropical evergreen tree that produces the cashew seed and the cashew apple.	Person/Thing	
@@ -2531,7 +2531,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2530	SMART	Emotions and values	To be of high intelligence.	Person/Thing	
 2531	BROAD	Spatial relations	Having a large width.	Property	
 2532	TORNADO	The physical world	A violently rotating column of air that is in contact with both the surface of the earth and a cumulonimbus cloud or, in rare cases, the base of a cumulus cloud.	Person/Thing	
-2533	WATERSIDE	The physical world	The margin or shore of a river, lake, or ocean.	Person/Thing	
+2533	WATERSIDE	The physical world	The margin or shore of a river, lake, or ocean.	Person/Thing	113
 2534	DEPTH	Spatial relations	The dimension of an object, downward from an upper surface.	Person/Thing	
 2535	ALTITUDE	Spatial relations	A distance measurement in the vertical direction.	Person/Thing	
 2536	BREADTH	Spatial relations	The measurement of the width of an object.	Person/Thing	
@@ -2669,8 +2669,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2668	SKELETON	The body	The body part that forms the supporting structure inside of the human body or the body of animals.	Person/Thing	
 2669	POINT (WITH FINGER)	The body	To use the finger to show something to somebody.	Person/Thing	
 2670	ACROSS	Spatial relations	Located directly across from something else, or from each other.	Other	
-2671	PENIS SHEATH	Clothing and grooming	Sheath to cover a penis	Person/Thing	
-2672	HEADWATERS	The physical world	The source of a river or stream	Person/Thing	
+2671	PENIS SHEATH	Clothing and grooming	Sheath to cover a penis.	Person/Thing	
+2672	HEADWATERS	The physical world	The source of a river or stream.	Person/Thing	
 2673	BIRD OF PARADISE	Animals	A bird of the family Paradisaeidae.	Person/Thing	
 2674	ORAL CAVITY	The body	Cavity that is limited by the lips in front, the cheeks on the side, the soft and hard palate at the top and the floor of the mouth below.	Person/Thing	
 2675	FIRE OR FIREWOOD	The physical world	The state of combustion in which inflammable material burns, producing heat, flames and often smoke or the Wood intended to be burned.	Person/Thing	
@@ -3293,7 +3293,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3307	HIT (A TARGET)	Basic actions and technology	To hit something that someone has aimed for.	Action/Process	
 3308	STRIKE (SOMEONE)	Basic actions and technology	To intentionally hit someone with a sharp blow or to impel, usually with a hand or weapon.	Action/Process	
 3309	STRIKE (SOMETHING)	Basic actions and technology	To intentionally hit something with a sharp blow or to impel, usually with a hand.	Action/Process	
-3310	SHORE OR BANK	The physical world	The land touching a body of water, irrespective of the special characteristics of the body of water.	Person/Thing	
+3310	SHORE OR BANK	The physical world	The land touching a body of water, irrespective of the special characteristics of the body of water.	Person/Thing	113
 3311	FLOWING BODY OF WATER	The physical world	A generic way to refer to a flowing body of water, for example used to refer to rivers, brooks, streams, creeks etc.	Person/Thing	
 3312	SHORT (TIME)	Time	For a brief period or a short amount of time.	Other	
 3313	JACKAL	Animals	A wild dog-like animal of the Canis genus home to parts of Asia and Africa.	Person/Thing	
@@ -3356,9 +3356,9 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3370	RELY ON	Social and political relations	To trust someone's ability to help or expect something to happen in a particular way.	Action/Process	
 3371	WASH (ONESELF)	Basic actions and technology	To cleanse one's body in/with water.	Action/Process	
 3372	GALL BLADDER	The body	A pear-shaped organ located beneath the liver that serves as a storage sac for bile until it is released into the small intestine.	Person/Thing	
-3373	HAN CHINESE		Referring to the Han Chinese people, their cultural practices or heritage.	Person/Thing	
-3374	TIBETAN		Referring to the Tibetan people, their cultural practices or heritage.	Person/Thing	
-3375	PATIENT (SICK PERSON)		A person registered as a recipient of medical services.	Person/Thing	
+3373	HAN CHINESE	Social and political relations	Referring to the Han Chinese people, their cultural practices or heritage.	Person/Thing	
+3374	TIBETAN	Social and political relations	Referring to the Tibetan people, their cultural practices or heritage.	Person/Thing	
+3375	PATIENT (SICK PERSON)	The body	A person registered as a recipient of medical services.	Person/Thing	
 3376	ROBBER	Law	A criminal that forcefully takes possession of someone else's money or property.	Person/Thing	
 3377	EMPEROR	Social and political relations	A male monarch, supreme leader of an empire.	Person/Thing	
 3378	HORSE DUNG	Animals	The faeces of a horse.	Person/Thing	
@@ -3366,30 +3366,30 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3380	HUNTING DOG	Warfare and hunting	A type of canine bred for hunting or a dog trained to assist humans with hunting.	Person/Thing	
 3381	SHEEP DUNG	Animals	The faeces of a sheep.	Person/Thing	
 3382	PEACOCK	Animals	A male peafowl, a species of the family Phasianidae, which is known for displaying its massive tail as part of mate-selection ritual.	Person/Thing	
-3383	SCALD (BURN ONESELF WITH LIQUID)		To cause an injury by contact with steam or hot liquid.	Action/Process	
+3383	SCALD (BURN ONESELF WITH LIQUID)	The body	To cause an injury by contact with steam or hot liquid.	Action/Process	
 3384	WEASEL	Animals	A small predator of the genus Mustela characterized by a slender body that lets it hunt burrowing animals.	Person/Thing	
 3385	ALUMINIUM	The physical world	A metallic chemical element of silver-white colour that occurs mainly in bauxite, with assigned symbol Al and proton number 13.	Person/Thing	
 3386	SULPHUR	The physical world	A crystalline solid, nonmetallic chemical element of a distinct yellow colour, with assigned symbol S and proton number 16.	Person/Thing	
 3387	MIDDLE FINGER	The body	The third and longest finger on the human hand.	Person/Thing	
 3388	PLACENTA	The body	A vascular organ that is formed inside the womb to ensure the transfer of vital nutrients and regulation of metabolic exchange between mother and the foetus.	Person/Thing	
 3389	MEASLES	The body	A contagious airborne disease caused by Measles morbillivirus and characterized by red rash, Koplik's spots, and fever.	Person/Thing	
-3390	WILD RICE		A plant of the genus Zizania with edible grains and stem.	Person/Thing	
+3390	WILD RICE	Agriculture and vegetation	A plant of the genus Zizania with edible grains and stem.	Person/Thing	
 3391	RICE STRAW	Agriculture and vegetation	The dry stalks of the rice plant.	Person/Thing	
-3392	MUER (FUNGUS)		An ear-shaped edible fungus that belongs to the species of Auriculariaceae and is used in medicine and culinary.	Person/Thing	
+3392	MUER (FUNGUS)	Agriculture and vegetation	An ear-shaped edible fungus that belongs to the species of Auriculariaceae and is used in medicine and culinary.	Person/Thing	
 3393	LEAN MEAT	Food and drink	Any animal meat with a lower fat content.	Person/Thing	
 3394	SHEEP MEAT	Food and drink	The meat of domestic sheep, such as lamb and mutton.	Person/Thing	
-3395	SICHUAN PEPPER		A spice from Sichuan Province that is famous for causing tingling sensation and its unique citrus flavour.	Person/Thing	
-3396	BUILDING		A solid construction comprised of walls and a roof.	Person/Thing	
-3397	ROUNDWORM		A worm that belongs to Nematode species; parasitic types of roundworms infest the digestive tract of humans and other mammals.	Person/Thing	
+3395	SICHUAN PEPPER	Food and drink	A spice from Sichuan Province that is famous for causing tingling sensation and its unique citrus flavour.	Person/Thing	
+3396	BUILDING	The house	A solid construction comprised of walls and a roof.	Person/Thing	
+3397	ROUNDWORM	Animals	A worm that belongs to Nematode species; parasitic types of roundworms infest the digestive tract of humans and other mammals.	Person/Thing	
 3398	GOURD OR MELON	Agriculture and vegetation	Either a gourd or a melon.	Person/Thing	
-3399	WAREHOUSE		A spacious building that serves as a storage for produced goods before they are delivered to shops or customers.	Person/Thing	
-3400	COWSHED		A barn for cows.	Person/Thing	
-3401	HENHOUSE		A barn for chickens.	Person/Thing	
-3402	SHEEPFOLD		A barn for sheep.	Person/Thing	
-3403	HORSE BARN		A barn for horses.	Person/Thing	
-3404	TILE		The long-lasting material that is manufactured in multiple pieces and used for covering flat surfaces of a building, such as a roof, walls, or floor.	Person/Thing	
-3405	RULER		A long flat device that is designed to assist with drawing straight lines or measuring by means of distance markings.	Person/Thing	
-3406	MERCHANDISE		Products offered to retail customers for money.	Person/Thing	
+3399	WAREHOUSE	Possession	A spacious building that serves as a storage for produced goods before they are delivered to shops or customers.	Person/Thing	
+3400	COWSHED	Animals	A barn for cows.	Person/Thing	
+3401	HENHOUSE	Animals	A barn for chickens.	Person/Thing	
+3402	SHEEPFOLD	Animals	A barn for sheep.	Person/Thing	
+3403	HORSE BARN	Animals	A barn for horses.	Person/Thing	
+3404	TILE	The house	The long-lasting material that is manufactured in multiple pieces and used for covering flat surfaces of a building, such as a roof, walls, or floor.	Person/Thing	
+3405	RULER	Basic actions and technology	A long flat device that is designed to assist with drawing straight lines or measuring by means of distance markings.	Person/Thing	
+3406	MERCHANDISE	Possession	Products offered to retail customers for money.	Person/Thing	
 3407	FILE (TOOL)	Basic actions and technology	A hand tool with a long flat metal bar used to re-shape objects.	Person/Thing	
 3408	PLANE (TOOL)	Basic actions and technology	A hand tool that is designed to flatten or shape wood.	Person/Thing	
 3409	EARTHEN JUG	Food and drink	A liquid container made of baked clay.	Person/Thing	
@@ -3440,3 +3440,19 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3454	KISS (NOUN)	Emotions and values	The action of touching with the lips to express love or affection.	Person/Thing	
 3455	COMMEND	Emotions and values	To express approval or admiration.	Action/Process	
 3456	CRAWL OR CREEP	Motion	To move using ones hands and knees or with one's belly touching the ground.	Action/Process	
+3457	HEADBAND OR HEADDRESS	Clothing and grooming	An cloth or strip of cloth worn on or around the head.	Person/Thing	
+3458	SILENCE	Sense perception	Absence of sound, especially of noise.	Person/Thing	
+3459	PUT IN ORDER	Basic actions and technology	To arrange something in a tidy manner.	Action/Process	
+3460	BEACH	The physical world	A sandy strip of land close to the sea or ocean.	Person/Thing	
+3461	GROW PLANTS	Agriculture and vegetation	To cultivate a specific type of plant in order to harvest it.	Action/Process	
+3462	FLAX OR LINEN	Agriculture and vegetation	A plant with blue flowers that is cultivated for its stem to make linen or its seeds to make oil, or a material made from the fibers of the flax plant.	Person/Thing	
+3463	RIVERBANK	The physical world	The margin or shore of a river.	Person/Thing	
+3464	SHORE OF LAKE	The physical world	The margin or shore of a lake.	Person/Thing	
+3465	SHORE OF SEA	The physical world	The margin or shore of a sea or ocean.	Person/Thing	
+3466	DANGEROUS	Emotions and values	Capable of injuring or harming someone.	Property	
+3467	HELP (ASSISTANCE)	Social and political relations	The act of helping someone.	Person/Thing	
+3468	KINDNESS	Emotions and values	The quality of being caring, generous and helpful towards other people.	Property	
+3469	LEVEL	Quantity	The amount or degree of something; the height of the surface of something liquid with respect to its bottom.	Person/Thing	
+3470	LIAR	Social and political relations	A person who tells lies.	Person/Thing	
+3471	OBLIGATION (DUTY)	Emotions and values	Either a moral or legal responsibility to accomplish a certain task.	Person/Thing	
+3472	DANCE (MOVEMENT)	Motion	A series of rhythmic movements performed to music.	Person/Thing	

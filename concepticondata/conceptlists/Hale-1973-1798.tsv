@@ -623,7 +623,7 @@ Hale-1973-1798-621	Time_Weather_Geography-67	lake	n	05a.67	624	LAKE
 Hale-1973-1798-622	Time_Weather_Geography-68	pond	n	05a.68	2035	POND
 Hale-1973-1798-623	Time_Weather_Geography-69	stream	n	05a.69	947	STREAM
 Hale-1973-1798-624	Time_Weather_Geography-70	river	n	05a.70	666	RIVER
-Hale-1973-1798-625	Time_Weather_Geography-71	bank	n	05a.71		
+Hale-1973-1798-625	Time_Weather_Geography-71	bank	n	05a.71	3463	RIVERBANK
 Hale-1973-1798-626	Time_Weather_Geography-72	ford	n	05a.72	2818	FORD (CROSSING)
 Hale-1973-1798-627	Time_Weather_Geography-73	bridge	n	05a.73	1011	BRIDGE
 Hale-1973-1798-628	Time_Weather_Geography-74	whirlpool	n	05a.74	1982	WHIRLPOOL
@@ -862,7 +862,7 @@ Hale-1973-1798-860	Food_and_Clothing-57	be mixed	v	07b1.07
 Hale-1973-1798-861	Food_and_Clothing-58	knead	v	07b1.08	274	KNEAD
 Hale-1973-1798-862	Food_and_Clothing-59	flatten dough (with roll)	v	07b1.09		
 Hale-1973-1798-863	Food_and_Clothing-60	flatten dough (with hands)	v	07b1.10		
-Hale-1973-1798-864	Food_and_Clothing-61	grind (press through)	v	07b1.11	1033	GRIND
+Hale-1973-1798-864	Food_and_Clothing-61	grind (press through)	v	07b1.11		
 Hale-1973-1798-865	Food_and_Clothing-62	pound grain	v	07b1.12	354	POUND
 Hale-1973-1798-866	Food_and_Clothing-63	peel	v	07b1.13	275	PEEL
 Hale-1973-1798-867	Food_and_Clothing-64	peel (strip skin by hand)	v	07b1.14		
@@ -1118,7 +1118,7 @@ Hale-1973-1798-1116	Human_Mind_and_Conditions-4	pride	n	10a.04
 Hale-1973-1798-1117	Human_Mind_and_Conditions-5	generosity	n	10a.05		
 Hale-1973-1798-1118	Human_Mind_and_Conditions-6	selfishness	n	10a.06		
 Hale-1973-1798-1119	Human_Mind_and_Conditions-7	greed	n	10a.07		
-Hale-1973-1798-1120	Human_Mind_and_Conditions-8	kindness	n	10a.08		
+Hale-1973-1798-1120	Human_Mind_and_Conditions-8	kindness	n	10a.08	3468	KINDNESS
 Hale-1973-1798-1121	Human_Mind_and_Conditions-9	cruelty	n	10a.09		
 Hale-1973-1798-1122	Human_Mind_and_Conditions-10	happiness	n	10a.10	2941	HAPPINESS
 Hale-1973-1798-1123	Human_Mind_and_Conditions-11	sorrow	n	10a.11	1668	GRIEF
@@ -1345,7 +1345,7 @@ Hale-1973-1798-1343	Human_Mind_and_Conditions-231	predict, foretell	v	10b3.41
 Hale-1973-1798-1344	Human_Mind_and_Conditions-232	curse	v	10b3.42	8	CURSE
 Hale-1973-1798-1345	Human_Mind_and_Conditions-233	bewitch, cast spell	v	10b3.43	118	BEWITCH
 Hale-1973-1798-1346	Human_Mind_and_Conditions-234	be possessed	v	10b3.44		
-Hale-1973-1798-1347	Role_and_Social_Structure-1	dance	n	11a.01		
+Hale-1973-1798-1347	Role_and_Social_Structure-1	dance	n	11a.01	3472	DANCE (MOVEMENT)
 Hale-1973-1798-1348	Role_and_Social_Structure-2	dancer	n	11a.02		
 Hale-1973-1798-1349	Role_and_Social_Structure-3	sign	n	11a.03	1720	SIGN
 Hale-1973-1798-1350	Role_and_Social_Structure-4	song	n	11a.04	1096	SONG
@@ -1360,7 +1360,7 @@ Hale-1973-1798-1358	Role_and_Social_Structure-12	player	n	11a.12
 Hale-1973-1798-1359	Role_and_Social_Structure-13	story	n	11a.13	2060	STORY
 Hale-1973-1798-1360	Role_and_Social_Structure-14	murder	n	11a.14	845	MURDER
 Hale-1973-1798-1361	Role_and_Social_Structure-15	lie	n	11a.15	475	UNTRUTH
-Hale-1973-1798-1362	Role_and_Social_Structure-16	liar	n	11a.16		
+Hale-1973-1798-1362	Role_and_Social_Structure-16	liar	n	11a.16	3470	LIAR
 Hale-1973-1798-1363	Role_and_Social_Structure-17	theft	n	11a.17		
 Hale-1973-1798-1364	Role_and_Social_Structure-18	thief	n	11a.18	1160	THIEF
 Hale-1973-1798-1365	Role_and_Social_Structure-19	people	n	11a.19	789	PEOPLE
