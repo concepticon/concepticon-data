@@ -1,443 +1,443 @@
-"ID"	"NUMBER"	"ENGLISH"	"SUBLIST"	"CATEGORY"	"CONCEPTICON_ID"	"CONCEPTICON_GLOSS"
-"SIL-2002-436-1"	1	"sky"	"◇"	"-"	1732	"SKY"
-"SIL-2002-436-2"	2	"sun"	"•"	"-"	1343	"SUN"
-"SIL-2002-436-3"	3	"moon"	"•"	"-"	1313	"MOON"
-"SIL-2002-436-4"	4	"star"	"•"	"-"	1430	"STAR"
-"SIL-2002-436-5"	5	"cloud"	"•"	"-"	1489	"CLOUD"
-"SIL-2002-436-6"	6	"mist"	"◇"	"-"	249	"FOG"
-"SIL-2002-436-7"	7	"rain"	"•"	"-"	658	"RAIN (PRECIPITATION)"
-"SIL-2002-436-8"	8	"rainbow"	"◇"	"-"	1733	"RAINBOW"
-"SIL-2002-436-9"	9	"lightning"		"-"	1654	"LIGHTNING"
-"SIL-2002-436-10"	10	"thunder"		"-"	1150	"THUNDER"
-"SIL-2002-436-11"	11	"wind"		"-"	960	"WIND"
-"SIL-2002-436-12"	12	"night"	"•"	"-"	1233	"NIGHT"
-"SIL-2002-436-13"	13	"day"	"◇"	"-"	1225	"DAY (NOT NIGHT)"
-"SIL-2002-436-14"	14	"morning"		"-"	1339	"MORNING"
-"SIL-2002-436-15"	15	"noon"		"-"	12	"MIDDAY"
-"SIL-2002-436-16"	16	"yesterday"		"-"	1174	"YESTERDAY"
-"SIL-2002-436-17"	17	"tomorrow"		"-"	1329	"TOMORROW"
-"SIL-2002-436-18"	18	"year"	"•"	"-"	1226	"YEAR"
-"SIL-2002-436-19"	19	"east"		"-"	1877	"EAST"
-"SIL-2002-436-20"	20	"west"		"-"	1817	"WEST"
-"SIL-2002-436-21"	21	"north"		"-"	1598	"NORTH"
-"SIL-2002-436-22"	22	"south"		"-"	1595	"SOUTH"
-"SIL-2002-436-23"	23	"water"	"•"	"-"	948	"WATER"
-"SIL-2002-436-24"	24	"river"	"◇"	"-"	666	"RIVER"
-"SIL-2002-436-25"	25	"sea"	"◇"	"-"	1474	"SEA"
-"SIL-2002-436-26"	26	"earth, soil"	"•"	"-"	1228	"EARTH (SOIL)"
-"SIL-2002-436-27"	27	"mud"	"◇"	"-"	640	"MUD"
-"SIL-2002-436-28"	28	"dust"	"◇"	"-"	2	"DUST"
-"SIL-2002-436-29"	29	"stone"	"•"	"-"	857	"STONE"
-"SIL-2002-436-30"	30	"sand"	"•"	"-"	671	"SAND"
-"SIL-2002-436-31"	31	"lime (for betel chew)"		"-"		
-"SIL-2002-436-32"	32	"gold"	"◇"	"-"	1369	"GOLD"
-"SIL-2002-436-33"	33	"silver"	"◇"	"-"	759	"SILVER"
-"SIL-2002-436-34"	34	"iron"		"-"	621	"IRON"
-"SIL-2002-436-35"	35	"mountain"	"•"	"-"	639	"MOUNTAIN"
-"SIL-2002-436-36"	36	"cave"	"-"	"-"	1155	"CAVE"
-"SIL-2002-436-37"	37	"forest"	"◇"	"Plants, Food"	420	"FOREST"
-"SIL-2002-436-38"	38	"tree"	"•"	"Plants, Food"	906	"TREE"
-"SIL-2002-436-39"	39	"branch"	"◇"	"Plants, Food"	1531	"BRANCH"
-"SIL-2002-436-40"	40	"tree bark"	"◇"	"Plants, Food"	1204	"BARK"
-"SIL-2002-436-41"	41	"thorn"		"Plants, Food"	124	"THORN"
-"SIL-2002-436-42"	42	"root"	"◇"	"Plants, Food"	670	"ROOT"
-"SIL-2002-436-43"	43	"leaf"	"◇"	"Plants, Food"	628	"LEAF"
-"SIL-2002-436-44"	44	"flower"	"•"	"Plants, Food"	239	"FLOWER"
-"SIL-2002-436-45"	45	"fruit"	"◇"	"Plants, Food"	1507	"FRUIT"
-"SIL-2002-436-46"	46	"seed"	"•"	"Plants, Food"	714	"SEED"
-"SIL-2002-436-47"	47	"grass"	"◇"	"Plants, Food"	606	"GRASS"
-"SIL-2002-436-48"	48	"bamboo"		"Plants, Food"	1927	"BAMBOO"
-"SIL-2002-436-49"	49	"bamboo shoot"		"Plants, Food"	2494	"BAMBOO SHOOT"
-"SIL-2002-436-50"	50	"mushroom"		"Plants, Food"	641	"MUSHROOM"
-"SIL-2002-436-51"	51	"cane/rattan"	"-"	"Plants, Food"	2497	"RATTAN"
-"SIL-2002-436-52"	52	"kapok"		"Plants, Food"	2499	"KAPOK TREE"
-"SIL-2002-436-53"	53	"sugarcane"		"Plants, Food"	146	"SUGAR CANE"
-"SIL-2002-436-54"	54	"betelnut"	"◇"	"Plants, Food"	217	"BETELNUT"
-"SIL-2002-436-55"	55	"opium"		"Plants, Food"	2498	"OPIUM"
-"SIL-2002-436-56"	56	"liquor"		"Plants, Food"	842	"LIQUOR"
-"SIL-2002-436-57"	57	"banana (fruit)"	"◇"	"Plants, Food"	868	"BANANA"
-"SIL-2002-436-58"	58	"papaya (fruit)"	"◇"	"Plants, Food"	2445	"PAPAYA"
-"SIL-2002-436-59"	59	"mango (fruit)"		"Plants, Food"	2398	"MANGO"
-"SIL-2002-436-60"	60	"jackfruit (fruit)"		"Plants, Food"	2655	"JACKFRUIT"
-"SIL-2002-436-61"	61	"coconut (fruit)"	"◇"	"Plants, Food"	970	"COCONUT"
-"SIL-2002-436-62"	62	"eggplant (fruit)"		"Plants, Food"	1146	"AUBERGINE"
-"SIL-2002-436-63"	63	"peanut"		"Plants, Food"	2364	"PEANUT"
-"SIL-2002-436-64"	64	"ginger"		"Plants, Food"	2500	"GINGER"
-"SIL-2002-436-65"	65	"garlic"		"Plants, Food"	2368	"GARLIC"
-"SIL-2002-436-66"	66	"corn"	"◇"	"Plants, Food"	506	"MAIZE"
-"SIL-2002-436-67"	67	"red pepper, chili"	"◇"	"Plants, Food"	919	"CHILI PEPPER"
-"SIL-2002-436-68"	68	"paddy rice"	"◇"	"Plants, Food"	2026	"RICE PLANT"
-"SIL-2002-436-69"	69	"cooked rice"	"◇"	"Plants, Food"	1191	"COOKED RICE"
-"SIL-2002-436-70"	70	"*rice husk"	"◇"	"Plants, Food"	2501	"RICE HUSK"
-"SIL-2002-436-71"	71	"salt"	"◇"	"Plants, Food"	1274	"SALT"
-"SIL-2002-436-72"	72	"animal"	"◇"	"Animals"	619	"ANIMAL"
-"SIL-2002-436-73"	73	"tiger"	"◇"	"Animals"	846	"TIGER"
-"SIL-2002-436-74"	74	"bear"		"Animals"	1820	"BEAR"
-"SIL-2002-436-75"	75	"deer"	"◇"	"Animals"	1936	"DEER"
-"SIL-2002-436-76"	76	"monkey"	"◇"	"Animals"	1350	"MONKEY"
-"SIL-2002-436-77"	77	"gibbon"	"-"	"Animals"	2511	"GIBBON"
-"SIL-2002-436-78"	78	"rabbit"	"◇"	"Animals"	1136	"RABBIT"
-"SIL-2002-436-79"	79	"porcupine"		"Animals"	2510	"PORCUPINE"
-"SIL-2002-436-80"	80	"rat"	"◇"	"Animals"	1490	"RAT"
-"SIL-2002-436-81"	81	"dog"	"•"	"Animals"	2009	"DOG"
-"SIL-2002-436-82"	82	"to bark"		"Animals"	1204	"BARK"
-"SIL-2002-436-83"	83	"to bite"	"•"	"Animals"	1403	"BITE"
-"SIL-2002-436-84"	84	"cat"		"Animals"	1208	"CAT"
-"SIL-2002-436-85"	85	"pig"	"◇"	"Animals"	1337	"PIG"
-"SIL-2002-436-86"	86	"cow"	"◇"	"Animals"	1007	"COW"
-"SIL-2002-436-87"	87	"milk"		"Animals"	635	"MILK"
-"SIL-2002-436-88"	88	"buffalo"	"◇"	"Animals"	934	"BUFFALO"
-"SIL-2002-436-89"	89	"horn"	"•"	"Animals"	1393	"HORN (ANATOMY)"
-"SIL-2002-436-90"	90	"tail"	"•"	"Animals"	1220	"TAIL"
-"SIL-2002-436-91"	91	"elephant"	"◇"	"Animals"	1290	"ELEPHANT"
-"SIL-2002-436-92"	92	"elephant tusk"	"◇"	"Animals"	2495	"ELEPHANT TUSK"
-"SIL-2002-436-93"	93	"bird"	"•"	"Animals"	937	"BIRD"
-"SIL-2002-436-94"	94	"bird's nest"		"Animals"	539	"NEST"
-"SIL-2002-436-95"	95	"wing"	"◇"	"Animals"	1257	"WING"
-"SIL-2002-436-96"	96	"feather"	"•"	"Animals"	1201	"FEATHER"
-"SIL-2002-436-97"	97	"to fly"	"•"	"Animals"	1441	"FLY (MOVE THROUGH AIR)"
-"SIL-2002-436-98"	98	"egg"	"•"	"Animals"	744	"EGG"
-"SIL-2002-436-99"	99	"chicken"	"◇"	"Animals"	1318	"CHICKEN"
-"SIL-2002-436-100"	100	"duck"	"◇"	"Animals"	1360	"DUCK"
-"SIL-2002-436-101"	101	"fish"	"•"	"Animals"	227	"FISH"
-"SIL-2002-436-102"	102	"snake"	"◇"	"Animals"	730	"SNAKE"
-"SIL-2002-436-103"	103	"house lizard"		"Animals"	632	"LIZARD"
-"SIL-2002-436-104"	104	"turtle"		"Animals"	112	"TURTLE"
-"SIL-2002-436-105"	105	"crocodile"		"Animals"	1857	"CROCODILE"
-"SIL-2002-436-106"	106	"frog"		"Animals"	503	"FROG"
-"SIL-2002-436-107"	107	"insect"		"Animals"	620	"INSECT"
-"SIL-2002-436-108"	108	"spider"	"◇"	"Animals"	843	"SPIDER"
-"SIL-2002-436-109"	109	"spider web"		"Animals"	1065	"SPIDER WEB"
-"SIL-2002-436-110"	110	"louse (head)"	"•"	"Animals"	310	"HEAD LOUSE"
-"SIL-2002-436-111"	111	"termite"		"Animals"	883	"TERMITE"
-"SIL-2002-436-112"	112	"cockroach"		"Animals"	1575	"COCKROACH"
-"SIL-2002-436-113"	113	"snail"		"Animals"	1543	"SNAIL"
-"SIL-2002-436-114"	114	"mosquito"	"◇"	"Animals"	1509	"MOSQUITO"
-"SIL-2002-436-115"	115	"bee"		"Animals"	665	"BEE"
-"SIL-2002-436-116"	116	"fly"	"◇"	"Animals"	1504	"FLY (INSECT)"
-"SIL-2002-436-117"	117	"butterfly"		"Animals"	1791	"BUTTERFLY"
-"SIL-2002-436-118"	118	"scorpion"	"◇"	"Animals"	1538	"SCORPION"
-"SIL-2002-436-119"	119	"head"	"•"	"Body"	1256	"HEAD"
-"SIL-2002-436-120"	120	"face"		"Body"	1560	"FACE"
-"SIL-2002-436-121"	121	"brain"		"Body"	1583	"BRAIN"
-"SIL-2002-436-122"	122	"hair"	"•"	"Body"	1040	"HAIR"
-"SIL-2002-436-123"	123	"forehead"		"Body"	123	"FOREHEAD"
-"SIL-2002-436-124"	124	"eyebrow"		"Body"	1173	"EYEBROW"
-"SIL-2002-436-125"	125	"eye"	"•"	"Body"	1248	"EYE"
-"SIL-2002-436-126"	126	"eyelid"		"Body"	17	"EYELID"
-"SIL-2002-436-127"	127	"nose"	"•"	"Body"	1221	"NOSE"
-"SIL-2002-436-128"	128	"cheek"		"Body"	1730	"CHEEK"
-"SIL-2002-436-129"	129	"ear"	"•"	"Body"	1247	"EAR"
-"SIL-2002-436-130"	130	"mouth"	"•"	"Body"	674	"MOUTH"
-"SIL-2002-436-131"	131	"tongue"	"•"	"Body"	1205	"TONGUE"
-"SIL-2002-436-132"	132	"saliva"		"Body"	1503	"SALIVA"
-"SIL-2002-436-133"	133	"tooth"	"•"	"Body"	1380	"TOOTH"
-"SIL-2002-436-134"	134	"gums"		"Body"	139	"GUMS"
-"SIL-2002-436-135"	135	"chin"		"Body"	1510	"CHIN"
-"SIL-2002-436-136"	136	"beard"		"Body"	678	"BEARD"
-"SIL-2002-436-137"	137	"to shave (beard)"		"Body"	231	"SHAVE"
-"SIL-2002-436-138"	138	"back"	"◇"	"Body"	1291	"BACK"
-"SIL-2002-436-139"	139	"abdomen"	"•"	"Body"	1251	"BELLY"
-"SIL-2002-436-140"	140	"navel"		"Body"	1838	"NAVEL"
-"SIL-2002-436-141"	141	"heart"	"•"	"Body"	1223	"HEART"
-"SIL-2002-436-142"	142	"lungs"		"Body"	688	"LUNG"
-"SIL-2002-436-143"	143	"liver"	"•"	"Body"	1224	"LIVER"
-"SIL-2002-436-144"	144	"intestines"	"◇"	"Body"	1991	"INTESTINES"
-"SIL-2002-436-145"	145	"hand"	"•"	"Body"	1277	"HAND"
-"SIL-2002-436-146"	146	"elbow"		"Body"	981	"ELBOW"
-"SIL-2002-436-147"	147	"armpit"		"Body"	1886	"ARMPIT"
-"SIL-2002-436-148"	148	"palm"	"◇"	"Body"	1181	"PALM TREE"
-"SIL-2002-436-149"	149	"finger"		"Body"	1303	"FINGER"
-"SIL-2002-436-150"	150	"fingernail"	"•"	"Body"	1258	"FINGERNAIL"
-"SIL-2002-436-151"	151	"buttocks"		"Body"	834	"BUTTOCKS"
-"SIL-2002-436-152"	152	"leg"	"◇"	"Body"	1297	"LEG"
-"SIL-2002-436-153"	153	"thigh"	"◇"	"Body"	800	"THIGH"
-"SIL-2002-436-154"	154	"knee"	"•"	"Body"	1371	"KNEE"
-"SIL-2002-436-155"	155	"calf"	"◇"	"Body"	1989	"CALF"
-"SIL-2002-436-156"	156	"shin"		"Body"	186	"SHIN"
-"SIL-2002-436-157"	157	"foot"	"•"	"Body"	1301	"FOOT"
-"SIL-2002-436-158"	158	"heel"		"Body"	980	"HEEL"
-"SIL-2002-436-159"	159	"bone"	"•"	"Body"	1394	"BONE"
-"SIL-2002-436-160"	160	"rib"		"Body"	801	"RIB"
-"SIL-2002-436-161"	161	"flesh"	"•"	"Body"	2259	"FLESH"
-"SIL-2002-436-162"	162	"fat"	"◇"	"Body"	323	"FAT (ORGANIC SUBSTANCE)"
-"SIL-2002-436-163"	163	"skin"	"•"	"Body"	763	"SKIN"
-"SIL-2002-436-164"	164	"blood"	"◇"	"Body"	946	"BLOOD"
-"SIL-2002-436-165"	165	"sweat"		"Body"	2458	"PERSPIRE OR SWEAT"
-"SIL-2002-436-166"	166	"pus"		"Body"	1808	"PUS"
-"SIL-2002-436-167"	167	"excrement"		"Body"	675	"FAECES (EXCREMENT)"
-"SIL-2002-436-168"	168	"urine"		"Body"	1142	"URINE"
-"SIL-2002-436-169"	169	"man"	"•"	"People"	1554	"MAN"
-"SIL-2002-436-170"	170	"woman"	"•"	"People"	962	"WOMAN"
-"SIL-2002-436-171"	171	"person"	"•"	"People"	683	"PERSON"
-"SIL-2002-436-172"	172	"father"	"◇"	"People"	1217	"FATHER"
-"SIL-2002-436-173"	173	"mother"	"◇"	"People"	1216	"MOTHER"
-"SIL-2002-436-174"	174	"child"	"◇"	"People"	2099	"CHILD"
-"SIL-2002-436-175"	175	"son-in-law"		"People"	1056	"SON-IN-LAW"
-"SIL-2002-436-176"	176	"husband"	"◇"	"People"	1200	"HUSBAND"
-"SIL-2002-436-177"	177	"wife"	"◇"	"People"	1199	"WIFE"
-"SIL-2002-436-178"	178	"widow"		"People"	1756	"WIDOW"
-"SIL-2002-436-179"	"179a"	"brother (elder of f)"	"◇"	"People"	2415	"OLDER BROTHER (OF WOMAN)"
-"SIL-2002-436-180"	"179b"	"brother (elder of m)"	"◇"	"People"	2414	"OLDER BROTHER (OF MAN)"
-"SIL-2002-436-181"	"179c"	"sister (elder of f)"	"◇"	"People"	2419	"OLDER SISTER (OF WOMAN)"
-"SIL-2002-436-182"	"179d"	"sister (elder of m)"	"◇"	"People"	2418	"OLDER SISTER (OF MAN)"
-"SIL-2002-436-183"	"180a"	"brother (younger of f)"		"People"	2417	"YOUNGER BROTHER (OF WOMAN)"
-"SIL-2002-436-184"	"180b"	"brother (younger of m)"		"People"	2416	"YOUNGER BROTHER (OF MAN)"
-"SIL-2002-436-185"	"180c"	"sister (younger of f)"		"People"	2421	"YOUNGER SISTER (OF WOMAN)"
-"SIL-2002-436-186"	"180d"	"sister (younger of m)"		"People"	2420	"YOUNGER SISTER (OF MAN)"
-"SIL-2002-436-187"	181	"friend"		"People"	1325	"FRIEND"
-"SIL-2002-436-188"	182	"name"	"•"	"People"	1405	"NAME"
-"SIL-2002-436-189"	183	"village"		"Home"	930	"VILLAGE"
-"SIL-2002-436-190"	184	"road"	"•"	"Home"	667	"ROAD"
-"SIL-2002-436-191"	185	"boat"		"Home"	1844	"BOAT"
-"SIL-2002-436-192"	186	"house"	"◇"	"Home"	1252	"HOUSE"
-"SIL-2002-436-193"	187	"door"		"Home"	1567	"DOOR"
-"SIL-2002-436-194"	188	"window"		"Home"	1375	"WINDOW"
-"SIL-2002-436-195"	189	"roof"	"◇"	"Home"	769	"ROOF"
-"SIL-2002-436-196"	190	"area under house"	"-"	"Home"	2632	"AREA UNDER HOUSE"
-"SIL-2002-436-197"	191	"wall of house"		"Home"	933	"WALL (OF HOUSE)"
-"SIL-2002-436-198"	192	"mat"		"Home"	195	"MAT"
-"SIL-2002-436-199"	193	"pillow"		"Home"	1044	"PILLOW"
-"SIL-2002-436-200"	194	"blanket"		"Home"	806	"BLANKET"
-"SIL-2002-436-201"	195	"clothing"	"◇"	"Home"	1895	"CLOTHES"
-"SIL-2002-436-202"	196	"to weave (cloth)"		"Home"	133	"WEAVE"
-"SIL-2002-436-203"	197	"to dye (cloth)"		"Home"	157	"DYE"
-"SIL-2002-436-204"	198	"*loincloth"	"◇"	"Home"	1965	"LOINCLOTH"
-"SIL-2002-436-205"	199	"trousers"	"◇"	"Home"	809	"TROUSERS"
-"SIL-2002-436-206"	200	"to sew"	"◇"	"Home"	1457	"SEW"
-"SIL-2002-436-207"	201	"needle"		"Home"	1382	"NEEDLE (FOR SEWING)"
-"SIL-2002-436-208"	202	"comb"		"Home"	1475	"COMB"
-"SIL-2002-436-209"	203	"ring (finger-)"		"Home"	1374	"RING"
-"SIL-2002-436-210"	204	"paper, cord"		"Home"	648	"PAPER"
-"SIL-2002-436-211"	205	"pot (cooking-)"		"Home"	1462	"POT"
-"SIL-2002-436-212"	206	"coconutshell ladle"		"Home"	2649	"COCONUT SHELL LADLE"
-"SIL-2002-436-213"	207	"mortar"	"◇"	"Home"	224	"MORTAR CRUSHER"
-"SIL-2002-436-214"	208	"pestle"	"◇"	"Home"	225	"PESTLE"
-"SIL-2002-436-215"	209	"spoon"		"Home"	1378	"SPOON"
-"SIL-2002-436-216"	210	"plate"		"Home"	480	"PLATE"
-"SIL-2002-436-217"	211	"firewood"	"◇"	"Home"	10	"FIREWOOD"
-"SIL-2002-436-218"	212	"fire"	"•"	"Home"	221	"FIRE"
-"SIL-2002-436-219"	213	"ashes"	"•"	"Home"	646	"ASH"
-"SIL-2002-436-220"	214	"smoke"	"•"	"Home"	778	"SMOKE (EXHAUST)"
-"SIL-2002-436-221"	215	"candle"		"Home"	1273	"CANDLE"
-"SIL-2002-436-222"	216	"drum"	"◇"	"Home"	908	"DRUM"
-"SIL-2002-436-223"	217	"gong"	"◇"	"Home"	2502	"GONG"
-"SIL-2002-436-224"	218	"bow, crossbow"	"◇"	"Home"	3228	"BOW OR CROSSBOW"
-"SIL-2002-436-225"	219	"arrow"	"◇"	"Home"	977	"ARROW"
-"SIL-2002-436-226"	220	"spear"	"◇"	"Home"	945	"SPEAR"
-"SIL-2002-436-227"	221	"knife"		"Home"	1352	"KNIFE"
-"SIL-2002-436-228"	222	"to hear"	"•"	"Verbs"	1408	"HEAR"
-"SIL-2002-436-229"	223	"smell"	"◇"	"Verbs"	2124	"SMELL"
-"SIL-2002-436-230"	224	"to see"	"•"	"Verbs"	1409	"SEE"
-"SIL-2002-436-231"	225	"to wink"		"Verbs"	1655	"BLINK"
-"SIL-2002-436-232"	226	"to weep"	"◇"	"Verbs"	1839	"CRY"
-"SIL-2002-436-233"	227	"to eat"	"•"	"Verbs"	1336	"EAT"
-"SIL-2002-436-234"	228	"to swallow"		"Verbs"	897	"SWALLOW"
-"SIL-2002-436-235"	229	"to be hungry"		"Verbs"	1533	"BE HUNGRY"
-"SIL-2002-436-236"	230	"to be full"	"-"	"Verbs"	1429	"FULL"
-"SIL-2002-436-237"	231	"to be thirsty"		"Verbs"	3474	"BE THIRSTY"
-"SIL-2002-436-238"	232	"to drink"	"•"	"Verbs"	1401	"DRINK"
-"SIL-2002-436-239"	233	"to be drunk"	"◇"	"Verbs"	1463	"DRUNK"
-"SIL-2002-436-240"	234	"to vomit"	"◇"	"Verbs"	1278	"VOMIT"
-"SIL-2002-436-241"	235	"to spit"	"◇"	"Verbs"	1440	"SPIT"
-"SIL-2002-436-242"	236	"to cough"	"-"	"Verbs"	879	"COUGH"
-"SIL-2002-436-243"	237	"to sneeze"		"Verbs"	1621	"SNEEZE"
-"SIL-2002-436-244"	238	"to yawn"		"Verbs"	1028	"YAWN"
-"SIL-2002-436-245"	239	"to breathe"	"◇"	"Verbs"	1407	"BREATHE"
-"SIL-2002-436-246"	240	"blow"		"Verbs"	175	"BLOW (OF WIND)"
-"SIL-2002-436-247"	241	"to suck"		"Verbs"	1421	"SUCK"
-"SIL-2002-436-248"	242	"to lick"		"Verbs"	319	"LICK"
-"SIL-2002-436-249"	243	"to smile"		"Verbs"	1451	"SMILE"
-"SIL-2002-436-250"	244	"to laugh"	"◇"	"Verbs"	1355	"LAUGH"
-"SIL-2002-436-251"	245	"to speak"	"•"	"Verbs"	1623	"SPEAK"
-"SIL-2002-436-252"	246	"to tell"		"Verbs"	1711	"TELL"
-"SIL-2002-436-253"	247	"to shout"		"Verbs"	715	"SHOUT"
-"SIL-2002-436-254"	248	"to answer"		"Verbs"	1275	"ANSWER"
-"SIL-2002-436-255"	249	"to lie, fib"	"•"	"Verbs"	601	"LIE (MISLEAD)"
-"SIL-2002-436-256"	250	"to sing"	"◇"	"Verbs"	1261	"SING"
-"SIL-2002-436-257"	251	"to think"	"◇"	"Verbs"	2271	"THINK"
-"SIL-2002-436-258"	252	"to know"	"•"	"Verbs"	1410	"KNOW (SOMETHING)"
-"SIL-2002-436-259"	253	"to forget"		"Verbs"	1523	"FORGET"
-"SIL-2002-436-260"	254	"to choose"		"Verbs"	1750	"CHOOSE"
-"SIL-2002-436-261"	255	"to love"		"Verbs"	923	"LOVE"
-"SIL-2002-436-262"	256	"to hate"		"Verbs"	1607	"HATE"
-"SIL-2002-436-263"	257	"to wait"		"Verbs"	1590	"WAIT (FOR)"
-"SIL-2002-436-264"	258	"to count"	"◇"	"Verbs"	1420	"COUNT"
-"SIL-2002-436-265"	259	"to be afraid"	"◇"	"Verbs"	1419	"FEAR (BE AFRAID)"
-"SIL-2002-436-266"	260	"to be angry"		"Verbs"	2223	"BE ANGRY"
-"SIL-2002-436-267"	261	"to sleep"	"•"	"Verbs"	1585	"SLEEP"
-"SIL-2002-436-268"	262	"to snore"		"Verbs"	1983	"SNORE"
-"SIL-2002-436-269"	263	"to dream"		"Verbs"	1920	"DREAM (SOMETHING)"
-"SIL-2002-436-270"	264	"to hurt"		"Verbs"	2411	"HURT (SOMEBODY)"
-"SIL-2002-436-271"	265	"medicine"		"Verbs"	1372	"MEDICINE"
-"SIL-2002-436-272"	266	"to itch"		"Verbs"	148	"ITCH"
-"SIL-2002-436-273"	267	"to scratch"	"◇"	"Verbs"	1436	"SCRATCH"
-"SIL-2002-436-274"	268	"to shiver"		"Verbs"	52	"SHIVER"
-"SIL-2002-436-275"	269	"to die"	"•"	"Verbs"	1494	"DIE"
-"SIL-2002-436-276"	270	"ghost"		"Verbs"	1175	"GHOST"
-"SIL-2002-436-277"	271	"to sit"	"•"	"Verbs"	1416	"SIT"
-"SIL-2002-436-278"	272	"to stand"	"•"	"Verbs"	1442	"STAND"
-"SIL-2002-436-279"	273	"to kneel"		"Verbs"	66	"KNEEL"
-"SIL-2002-436-280"	274	"to walk"	"•"	"Verbs"	1443	"WALK"
-"SIL-2002-436-281"	275	"to crawl"		"Verbs"	96	"CRAWL"
-"SIL-2002-436-282"	276	"to come"	"•"	"Verbs"	1446	"COME"
-"SIL-2002-436-283"	277	"to enter"	"◇"	"Verbs"	749	"ENTER"
-"SIL-2002-436-284"	278	"to return"	"◇"	"Verbs"	581	"COME BACK"
-"SIL-2002-436-285"	279	"to push"	"◇"	"Verbs"	1452	"PUSH"
-"SIL-2002-436-286"	280	"to pull"	"◇"	"Verbs"	1455	"PULL"
-"SIL-2002-436-287"	281	"to kick"		"Verbs"	1135	"KICK"
-"SIL-2002-436-288"	282	"to throw"	"◇"	"Verbs"	1456	"THROW"
-"SIL-2002-436-289"	283	"to fall"	"◇"	"Verbs"	1280	"FALL"
-"SIL-2002-436-290"	284	"to swim"	"•"	"Verbs"	1439	"SWIM"
-"SIL-2002-436-291"	285	"to float"	"◇"	"Verbs"	1574	"FLOAT"
-"SIL-2002-436-292"	286	"to sink"		"Verbs"	1088	"SINK (DESCEND)"
-"SIL-2002-436-293"	287	"to flow"	"◇"	"Verbs"	2003	"FLOW"
-"SIL-2002-436-294"	288	"to give"	"•"	"Verbs"	1447	"GIVE"
-"SIL-2002-436-295"	289	"to tie"	"◇"	"Verbs"	1917	"TIE"
-"SIL-2002-436-296"	290	"to wipe"	"◇"	"Verbs"	1454	"WIPE"
-"SIL-2002-436-297"	291	"to rub, scrub"	"◇"	"Verbs"	1449	"RUB"
-"SIL-2002-436-298"	292	"to wash"	"◇"	"Verbs"	1453	"WASH"
-"SIL-2002-436-299"	293	"to launder"	"◇"	"Verbs"	2503	"LAUNDER"
-"SIL-2002-436-300"	294	"to bathe"		"Verbs"	138	"BATHE"
-"SIL-2002-436-301"	295	"to hit"	"◇"	"Verbs"	1433	"HIT"
-"SIL-2002-436-302"	296	"to split"	"◇"	"Verbs"	1437	"SPLIT"
-"SIL-2002-436-303"	297	"to cut (hair)"	"◇"	"Verbs"	2155	"CUT (WITH SCISSORS)"
-"SIL-2002-436-304"	298	"to stab"	"◇"	"Verbs"	1434	"STAB"
-"SIL-2002-436-305"	299	"to grind"		"Verbs"	1033	"GRIND"
-"SIL-2002-436-306"	300	"to plant"		"Verbs"	1486	"PLANT (SOMETHING)"
-"SIL-2002-436-307"	301	"to dig"	"◇"	"Verbs"	1418	"DIG"
-"SIL-2002-436-308"	302	"to bury (a corpse)"		"Verbs"	1719	"BURY"
-"SIL-2002-436-309"	303	"to winnow (rice)"		"Verbs"	2462	"WINNOWING"
-"SIL-2002-436-310"	304	"*to dry (sth.)"		"Verbs"	1398	"DRY"
-"SIL-2002-436-311"	305	"to pound (rice)"		"Verbs"	354	"POUND"
-"SIL-2002-436-312"	306	"to cook (rice)"	"◇"	"Verbs"	1100	"COOK (SOMETHING)"
-"SIL-2002-436-313"	307	"to boil (sth.)"		"Verbs"	2492	"BOIL (SOMETHING)"
-"SIL-2002-436-314"	308	"to burn"	"•"	"Verbs"	2102	"BURN"
-"SIL-2002-436-315"	309	"to extinguish (fire)"		"Verbs"	127	"EXTINGUISH"
-"SIL-2002-436-316"	310	"to work"	"◇"	"Verbs"	1086	"WORK (ACTIVITY)"
-"SIL-2002-436-317"	311	"to play"	"◇"	"Verbs"	1413	"PLAY"
-"SIL-2002-436-318"	312	"to dance"	"◇"	"Verbs"	1879	"DANCE"
-"SIL-2002-436-319"	313	"to shoot"	"◇"	"Verbs"	1172	"SHOOT"
-"SIL-2002-436-320"	314	"to hunt"	"◇"	"Verbs"	1435	"HUNT"
-"SIL-2002-436-321"	315	"to kill"	"•"	"Verbs"	1417	"KILL"
-"SIL-2002-436-322"	316	"to fight"	"◇"	"Verbs"	1423	"FIGHT"
-"SIL-2002-436-323"	317	"to buy"	"◇"	"Verbs"	1869	"BUY"
-"SIL-2002-436-324"	318	"to sell"		"Verbs"	1571	"SELL"
-"SIL-2002-436-325"	319	"to exchange"		"Verbs"	2509	"EXCHANGE"
-"SIL-2002-436-326"	320	"to pay"		"Verbs"	718	"PAY"
-"SIL-2002-436-327"	321	"to steal"		"Verbs"	713	"STEAL"
-"SIL-2002-436-328"	322	"one (person)"	"•"	"Numbers"	1493	"ONE"
-"SIL-2002-436-329"	323	"two (persons)"	"•"	"Numbers"	1498	"TWO"
-"SIL-2002-436-330"	324	"three (persons)"	"◇"	"Numbers"	492	"THREE"
-"SIL-2002-436-331"	325	"four (persons)"	"◇"	"Numbers"	1500	"FOUR"
-"SIL-2002-436-332"	326	"five (persons)"	"◇"	"Numbers"	493	"FIVE"
-"SIL-2002-436-333"	327	"six (persons)"	"◇"	"Numbers"	1703	"SIX"
-"SIL-2002-436-334"	328	"seven (persons)"	"◇"	"Numbers"	1704	"SEVEN"
-"SIL-2002-436-335"	329	"eight (persons)"	"◇"	"Numbers"	1705	"EIGHT"
-"SIL-2002-436-336"	330	"nine (persons)"	"◇"	"Numbers"	1483	"NINE"
-"SIL-2002-436-337"	331	"ten (persons)"	"◇"	"Numbers"	1515	"TEN"
-"SIL-2002-436-338"	332	"hundred (persons)"	"◇"	"Numbers"	1634	"HUNDRED"
-"SIL-2002-436-339"	333	"thousand"		"Numbers"	1843	"THOUSAND"
-"SIL-2002-436-340"	334	"to be many"	"•"	"Numbers"	1198	"MANY"
-"SIL-2002-436-341"	335	"all"	"•"	"Numbers"	98	"ALL"
-"SIL-2002-436-342"	336	"some"	"◇"	"Numbers"	1241	"SOME"
-"SIL-2002-436-343"	337	"to be few"	"◇"	"Numbers"	1242	"FEW"
-"SIL-2002-436-344"	338	"half a unit"		"Numbers"	816	"HALF"
-"SIL-2002-436-345"	339	"to be big"	"•"	"Dimensions"	1202	"BIG"
-"SIL-2002-436-346"	340	"to be small"	"•"	"Dimensions"	1246	"SMALL"
-"SIL-2002-436-347"	341	"to be long"	"•"	"Dimensions"	1203	"LONG"
-"SIL-2002-436-348"	342	"to be short (length)"	"◇"	"Dimensions"	1645	"SHORT"
-"SIL-2002-436-349"	343	"to be tall"	"◇"	"Dimensions"	711	"TALL"
-"SIL-2002-436-350"	344	"to be short (height)"	"◇"	"Dimensions"	2191	"LOW (HEIGHT)"
-"SIL-2002-436-351"	345	"to be thick"	"◇"	"Dimensions"	1244	"THICK"
-"SIL-2002-436-352"	346	"to be thin"	"◇"	"Dimensions"	2308	"THIN"
-"SIL-2002-436-353"	347	"to be fat"		"Dimensions"	1279	"FAT (OBESE)"
-"SIL-2002-436-354"	348	"to be skinny"	"-"	"Dimensions"	1400	"THIN (SLIM)"
-"SIL-2002-436-355"	349	"to be wide, broad"	"◇"	"Dimensions"	1243	"WIDE"
-"SIL-2002-436-356"	350	"to be narrow"	"◇"	"Dimensions"	1267	"NARROW"
-"SIL-2002-436-357"	351	"to be deep"		"Dimensions"	1593	"DEEP"
-"SIL-2002-436-358"	352	"to be shallow"		"Dimensions"	193	"SHALLOW"
-"SIL-2002-436-359"	353	"to be round"	"•"	"Dimensions"	1395	"ROUND"
-"SIL-2002-436-360"	354	"to be full"	"•"	"Dimensions"	1429	"FULL"
-"SIL-2002-436-361"	355	"right side"	"◇"	"Dimensions"	1019	"RIGHT"
-"SIL-2002-436-362"	356	"left side"	"◇"	"Dimensions"	244	"LEFT"
-"SIL-2002-436-363"	357	"to be straight"	"◇"	"Dimensions"	1404	"STRAIGHT"
-"SIL-2002-436-364"	358	"to be far"	"◇"	"Dimensions"	1406	"FAR"
-"SIL-2002-436-365"	359	"to be near"	"◇"	"Dimensions"	1942	"NEAR"
-"SIL-2002-436-366"	360	"this"	"•"	"Dimensions"	1214	"THIS"
-"SIL-2002-436-367"	361	"that"	"•"	"Dimensions"	78	"THAT"
-"SIL-2002-436-368"	362	"black"	"•"	"Appearance"	163	"BLACK"
-"SIL-2002-436-369"	363	"white"	"•"	"Appearance"	1335	"WHITE"
-"SIL-2002-436-370"	364	"red"	"•"	"Appearance"	156	"RED"
-"SIL-2002-436-371"	365	"green"	"•"	"Appearance"	1425	"GREEN"
-"SIL-2002-436-372"	366	"yellow"	"•"	"Appearance"	1424	"YELLOW"
-"SIL-2002-436-373"	367	"to be dirty"	"◇"	"Appearance"	1230	"DIRTY"
-"SIL-2002-436-374"	368	"to be new"	"•"	"Appearance"	1231	"NEW"
-"SIL-2002-436-375"	369	"to be old"	"◇"	"Appearance"	1229	"OLD"
-"SIL-2002-436-376"	370	"to be dark"		"Appearance"	706	"DARK"
-"SIL-2002-436-377"	371	"to be bright"		"Appearance"	679	"BRIGHT"
-"SIL-2002-436-378"	372	"to be the same"		"Appearance"	200	"SAME"
-"SIL-2002-436-379"	373	"to be different"	"◇"	"Appearance"	2504	"DIFFERENT"
-"SIL-2002-436-380"	374	"to be sweet"		"Taste/Feel"	717	"SWEET"
-"SIL-2002-436-381"	375	"to be sour"		"Taste/Feel"	1906	"SOUR"
-"SIL-2002-436-382"	376	"to be bitter"		"Taste/Feel"	887	"BITTER"
-"SIL-2002-436-383"	377	"to be spicy, hot"		"Taste/Feel"	544	"SPICY"
-"SIL-2002-436-384"	378	"to be rotten"	"◇"	"Taste/Feel"	1728	"ROTTEN"
-"SIL-2002-436-385"	379	"to be swell"	"◇"	"Taste/Feel"	1573	"SWELL"
-"SIL-2002-436-386"	380	"to be dry"	"◇"	"Taste/Feel"	1398	"DRY"
-"SIL-2002-436-387"	381	"to be wet"	"◇"	"Taste/Feel"	1726	"WET"
-"SIL-2002-436-388"	382	"to be hot"	"•"	"Taste/Feel"	1286	"HOT"
-"SIL-2002-436-389"	383	"to be cold"	"•"	"Taste/Feel"	1287	"COLD"
-"SIL-2002-436-390"	384	"to be sharp"	"◇"	"Taste/Feel"	1396	"SHARP"
-"SIL-2002-436-391"	385	"to be blunt"	"◇"	"Taste/Feel"	379	"BLUNT"
-"SIL-2002-436-392"	386	"to be heavy"	"◇"	"Taste/Feel"	1210	"HEAVY"
-"SIL-2002-436-393"	387	"to be hard"		"Taste/Feel"	1884	"HARD"
-"SIL-2002-436-394"	388	"to be smooth"	"◇"	"Taste/Feel"	1234	"SMOOTH"
-"SIL-2002-436-395"	389	"to be fast"		"Other Qualities"	1631	"FAST"
-"SIL-2002-436-396"	390	"to be slow"		"Other Qualities"	701	"SLOW"
-"SIL-2002-436-397"	391	"to be strong"		"Other Qualities"	785	"STRONG"
-"SIL-2002-436-398"	392	"to be weak"		"Other Qualities"	1601	"WEAK"
-"SIL-2002-436-399"	393	"to be tired"		"Other Qualities"	1757	"TIRED"
-"SIL-2002-436-400"	394	"to be blind"		"Other Qualities"	1653	"BLIND"
-"SIL-2002-436-401"	395	"to be deaf"		"Other Qualities"	996	"DEAF"
-"SIL-2002-436-402"	396	"bald"	"-"	"Other Qualities"	1125	"BALD"
-"SIL-2002-436-403"	397	"naked"	"-"	"Other Qualities"	590	"NAKED"
-"SIL-2002-436-404"	398	"to be good"		"Other Qualities"	1035	"GOOD"
-"SIL-2002-436-405"	399	"to be bad"		"Other Qualities"	1292	"BAD"
-"SIL-2002-436-406"	400	"to be correct"		"Other Qualities"	1725	"CORRECT (RIGHT)"
-"SIL-2002-436-407"	401	"to be wrong"		"Other Qualities"	1390	"WRONG"
-"SIL-2002-436-408"	402	"when"	"◇"	"Question Words"	1238	"WHEN"
-"SIL-2002-436-409"	403	"where"	"◇"	"Question Words"	1237	"WHERE"
-"SIL-2002-436-410"	404	"who"	"•"	"Question Words"	1235	"WHO"
-"SIL-2002-436-411"	405	"what"	"•"	"Question Words"	1236	"WHAT"
-"SIL-2002-436-412"	406	"how many"	"◇"	"Question Words"	822	"HOW MANY"
-"SIL-2002-436-413"	407	"stream"		"Question Words"	947	"STREAM"
-"SIL-2002-436-414"	408	"wet rice field"		"Question Words"	140	"PADDY FIELD"
-"SIL-2002-436-415"	409	"to be ripe"		"Question Words"	178	"RIPE"
-"SIL-2002-436-416"	410	"rice seedling"		"Question Words"	926	"RICE"
-"SIL-2002-436-417"	411	"pangolin"		"Question Words"	2508	"PANGOLIN"
-"SIL-2002-436-418"	412	"crested"		"Question Words"	2496	"ADORNED"
-"SIL-2002-436-419"	413	"water leech"		"Question Words"	949	"WATER LEECH"
-"SIL-2002-436-420"	414	"land leech"		"Question Words"	2273	"LEECH"
-"SIL-2002-436-421"	415	"earthworm"		"Question Words"	2350	"EARTHWORM"
-"SIL-2002-436-422"	416	"I (1s)"		"Question Words"	1209	"I"
-"SIL-2002-436-423"	417	"thou (2s)"		"Question Words"	1215	"THOU"
-"SIL-2002-436-424"	418	"he/she/it"		"Question Words"	262	"HE OR SHE OR IT"
-"SIL-2002-436-425"	419	"we (1p)"		"Question Words"	1212	"WE"
-"SIL-2002-436-426"	420	"you (2p)"		"Question Words"	1213	"YOU"
-"SIL-2002-436-427"	421	"they"		"Question Words"	817	"THEY"
-"SIL-2002-436-428"	422	"sleeping area"		"Question Words"	2505	"BEDROOM"
-"SIL-2002-436-429"	423	"to take"		"Question Words"	1749	"TAKE"
-"SIL-2002-436-430"	424	"to disappear"		"Question Words"	485	"DISAPPEAR"
-"SIL-2002-436-431"	425	"to split w/a knife"		"Question Words"	1437	"SPLIT"
-"SIL-2002-436-432"	426	"to bend"		"Question Words"	2004	"BEND"
-"SIL-2002-436-433"	427	"to lift"		"Question Words"	501	"LIFT"
-"SIL-2002-436-434"	428	"to do/make"		"Question Words"	2575	"DO OR MAKE"
-"SIL-2002-436-435"	429	"don't do it"		"Question Words"	2660	"DO NOT DO IT"
-"SIL-2002-436-436"	430	"half"		"Question Words"	816	"HALF"
-"SIL-2002-436-437"	431	"disgusting"		"Question Words"	2507	"DISGUSTING"
-"SIL-2002-436-438"	432	"warm"		"Question Words"	1232	"WARM"
-"SIL-2002-436-439"	433	"cool"		"Question Words"	2483	"COLD (OF WEATHER)"
-"SIL-2002-436-440"	434	"difficult"		"Question Words"	584	"DIFFICULT"
-"SIL-2002-436-441"	435	"easy"		"Question Words"	686	"EASY"
-"SIL-2002-436-442"	436	"loose"		"Question Words"	2506	"LOOSE"
+ID	NUMBER	ENGLISH	SUBLIST	CATEGORY	CONCEPTICON_ID	CONCEPTICON_GLOSS
+SIL-2002-436-1	1	sky	◇	-	1732	SKY
+SIL-2002-436-2	2	sun	•	-	1343	SUN
+SIL-2002-436-3	3	moon	•	-	1313	MOON
+SIL-2002-436-4	4	star	•	-	1430	STAR
+SIL-2002-436-5	5	cloud	•	-	1489	CLOUD
+SIL-2002-436-6	6	mist	◇	-	249	FOG
+SIL-2002-436-7	7	rain	•	-	658	RAIN (PRECIPITATION)
+SIL-2002-436-8	8	rainbow	◇	-	1733	RAINBOW
+SIL-2002-436-9	9	lightning		-	1654	LIGHTNING
+SIL-2002-436-10	10	thunder		-	1150	THUNDER
+SIL-2002-436-11	11	wind		-	960	WIND
+SIL-2002-436-12	12	night	•	-	1233	NIGHT
+SIL-2002-436-13	13	day	◇	-	1225	DAY (NOT NIGHT)
+SIL-2002-436-14	14	morning		-	1339	MORNING
+SIL-2002-436-15	15	noon		-	12	MIDDAY
+SIL-2002-436-16	16	yesterday		-	1174	YESTERDAY
+SIL-2002-436-17	17	tomorrow		-	1329	TOMORROW
+SIL-2002-436-18	18	year	•	-	1226	YEAR
+SIL-2002-436-19	19	east		-	1877	EAST
+SIL-2002-436-20	20	west		-	1817	WEST
+SIL-2002-436-21	21	north		-	1598	NORTH
+SIL-2002-436-22	22	south		-	1595	SOUTH
+SIL-2002-436-23	23	water	•	-	948	WATER
+SIL-2002-436-24	24	river	◇	-	666	RIVER
+SIL-2002-436-25	25	sea	◇	-	1474	SEA
+SIL-2002-436-26	26	earth, soil	•	-	1228	EARTH (SOIL)
+SIL-2002-436-27	27	mud	◇	-	640	MUD
+SIL-2002-436-28	28	dust	◇	-	2	DUST
+SIL-2002-436-29	29	stone	•	-	857	STONE
+SIL-2002-436-30	30	sand	•	-	671	SAND
+SIL-2002-436-31	31	lime (for betel chew)		-		
+SIL-2002-436-32	32	gold	◇	-	1369	GOLD
+SIL-2002-436-33	33	silver	◇	-	759	SILVER
+SIL-2002-436-34	34	iron		-	621	IRON
+SIL-2002-436-35	35	mountain	•	-	639	MOUNTAIN
+SIL-2002-436-36	36	cave	-	-	1155	CAVE
+SIL-2002-436-37	37	forest	◇	Plants, Food	420	FOREST
+SIL-2002-436-38	38	tree	•	Plants, Food	906	TREE
+SIL-2002-436-39	39	branch	◇	Plants, Food	1531	BRANCH
+SIL-2002-436-40	40	tree bark	◇	Plants, Food	1204	BARK
+SIL-2002-436-41	41	thorn		Plants, Food	124	THORN
+SIL-2002-436-42	42	root	◇	Plants, Food	670	ROOT
+SIL-2002-436-43	43	leaf	◇	Plants, Food	628	LEAF
+SIL-2002-436-44	44	flower	•	Plants, Food	239	FLOWER
+SIL-2002-436-45	45	fruit	◇	Plants, Food	1507	FRUIT
+SIL-2002-436-46	46	seed	•	Plants, Food	714	SEED
+SIL-2002-436-47	47	grass	◇	Plants, Food	606	GRASS
+SIL-2002-436-48	48	bamboo		Plants, Food	1927	BAMBOO
+SIL-2002-436-49	49	bamboo shoot		Plants, Food	2494	BAMBOO SHOOT
+SIL-2002-436-50	50	mushroom		Plants, Food	641	MUSHROOM
+SIL-2002-436-51	51	cane/rattan	-	Plants, Food	2497	RATTAN
+SIL-2002-436-52	52	kapok		Plants, Food	2499	KAPOK TREE
+SIL-2002-436-53	53	sugarcane		Plants, Food	146	SUGAR CANE
+SIL-2002-436-54	54	betelnut	◇	Plants, Food	217	BETELNUT
+SIL-2002-436-55	55	opium		Plants, Food	2498	OPIUM
+SIL-2002-436-56	56	liquor		Plants, Food	842	LIQUOR
+SIL-2002-436-57	57	banana (fruit)	◇	Plants, Food	868	BANANA
+SIL-2002-436-58	58	papaya (fruit)	◇	Plants, Food	2445	PAPAYA
+SIL-2002-436-59	59	mango (fruit)		Plants, Food	2398	MANGO
+SIL-2002-436-60	60	jackfruit (fruit)		Plants, Food	2655	JACKFRUIT
+SIL-2002-436-61	61	coconut (fruit)	◇	Plants, Food	970	COCONUT
+SIL-2002-436-62	62	eggplant (fruit)		Plants, Food	1146	AUBERGINE
+SIL-2002-436-63	63	peanut		Plants, Food	2364	PEANUT
+SIL-2002-436-64	64	ginger		Plants, Food	2500	GINGER
+SIL-2002-436-65	65	garlic		Plants, Food	2368	GARLIC
+SIL-2002-436-66	66	corn	◇	Plants, Food	506	MAIZE
+SIL-2002-436-67	67	red pepper, chili	◇	Plants, Food	919	CHILI PEPPER
+SIL-2002-436-68	68	paddy rice	◇	Plants, Food	2026	RICE PLANT
+SIL-2002-436-69	69	cooked rice	◇	Plants, Food	1191	COOKED RICE
+SIL-2002-436-70	70	*rice husk	◇	Plants, Food	2501	RICE HUSK
+SIL-2002-436-71	71	salt	◇	Plants, Food	1274	SALT
+SIL-2002-436-72	72	animal	◇	Animals	619	ANIMAL
+SIL-2002-436-73	73	tiger	◇	Animals	846	TIGER
+SIL-2002-436-74	74	bear		Animals	1820	BEAR
+SIL-2002-436-75	75	deer	◇	Animals	1936	DEER
+SIL-2002-436-76	76	monkey	◇	Animals	1350	MONKEY
+SIL-2002-436-77	77	gibbon	-	Animals	2511	GIBBON
+SIL-2002-436-78	78	rabbit	◇	Animals	1136	RABBIT
+SIL-2002-436-79	79	porcupine		Animals	2510	PORCUPINE
+SIL-2002-436-80	80	rat	◇	Animals	1490	RAT
+SIL-2002-436-81	81	dog	•	Animals	2009	DOG
+SIL-2002-436-82	82	to bark		Animals	1204	BARK
+SIL-2002-436-83	83	to bite	•	Animals	1403	BITE
+SIL-2002-436-84	84	cat		Animals	1208	CAT
+SIL-2002-436-85	85	pig	◇	Animals	1337	PIG
+SIL-2002-436-86	86	cow	◇	Animals	1007	COW
+SIL-2002-436-87	87	milk		Animals	635	MILK
+SIL-2002-436-88	88	buffalo	◇	Animals	934	BUFFALO
+SIL-2002-436-89	89	horn	•	Animals	1393	HORN (ANATOMY)
+SIL-2002-436-90	90	tail	•	Animals	1220	TAIL
+SIL-2002-436-91	91	elephant	◇	Animals	1290	ELEPHANT
+SIL-2002-436-92	92	elephant tusk	◇	Animals	2495	ELEPHANT TUSK
+SIL-2002-436-93	93	bird	•	Animals	937	BIRD
+SIL-2002-436-94	94	bird's nest		Animals	539	NEST
+SIL-2002-436-95	95	wing	◇	Animals	1257	WING
+SIL-2002-436-96	96	feather	•	Animals	1201	FEATHER
+SIL-2002-436-97	97	to fly	•	Animals	1441	FLY (MOVE THROUGH AIR)
+SIL-2002-436-98	98	egg	•	Animals	744	EGG
+SIL-2002-436-99	99	chicken	◇	Animals	1318	CHICKEN
+SIL-2002-436-100	100	duck	◇	Animals	1360	DUCK
+SIL-2002-436-101	101	fish	•	Animals	227	FISH
+SIL-2002-436-102	102	snake	◇	Animals	730	SNAKE
+SIL-2002-436-103	103	house lizard		Animals	632	LIZARD
+SIL-2002-436-104	104	turtle		Animals	112	TURTLE
+SIL-2002-436-105	105	crocodile		Animals	1857	CROCODILE
+SIL-2002-436-106	106	frog		Animals	503	FROG
+SIL-2002-436-107	107	insect		Animals	620	INSECT
+SIL-2002-436-108	108	spider	◇	Animals	843	SPIDER
+SIL-2002-436-109	109	spider web		Animals	1065	SPIDER WEB
+SIL-2002-436-110	110	louse (head)	•	Animals	310	HEAD LOUSE
+SIL-2002-436-111	111	termite		Animals	883	TERMITE
+SIL-2002-436-112	112	cockroach		Animals	1575	COCKROACH
+SIL-2002-436-113	113	snail		Animals	1543	SNAIL
+SIL-2002-436-114	114	mosquito	◇	Animals	1509	MOSQUITO
+SIL-2002-436-115	115	bee		Animals	665	BEE
+SIL-2002-436-116	116	fly	◇	Animals	1504	FLY (INSECT)
+SIL-2002-436-117	117	butterfly		Animals	1791	BUTTERFLY
+SIL-2002-436-118	118	scorpion	◇	Animals	1538	SCORPION
+SIL-2002-436-119	119	head	•	Body	1256	HEAD
+SIL-2002-436-120	120	face		Body	1560	FACE
+SIL-2002-436-121	121	brain		Body	1583	BRAIN
+SIL-2002-436-122	122	hair	•	Body	1040	HAIR
+SIL-2002-436-123	123	forehead		Body	123	FOREHEAD
+SIL-2002-436-124	124	eyebrow		Body	1173	EYEBROW
+SIL-2002-436-125	125	eye	•	Body	1248	EYE
+SIL-2002-436-126	126	eyelid		Body	17	EYELID
+SIL-2002-436-127	127	nose	•	Body	1221	NOSE
+SIL-2002-436-128	128	cheek		Body	1730	CHEEK
+SIL-2002-436-129	129	ear	•	Body	1247	EAR
+SIL-2002-436-130	130	mouth	•	Body	674	MOUTH
+SIL-2002-436-131	131	tongue	•	Body	1205	TONGUE
+SIL-2002-436-132	132	saliva		Body	1503	SALIVA
+SIL-2002-436-133	133	tooth	•	Body	1380	TOOTH
+SIL-2002-436-134	134	gums		Body	139	GUMS
+SIL-2002-436-135	135	chin		Body	1510	CHIN
+SIL-2002-436-136	136	beard		Body	678	BEARD
+SIL-2002-436-137	137	to shave (beard)		Body	231	SHAVE
+SIL-2002-436-138	138	back	◇	Body	1291	BACK
+SIL-2002-436-139	139	abdomen	•	Body	1251	BELLY
+SIL-2002-436-140	140	navel		Body	1838	NAVEL
+SIL-2002-436-141	141	heart	•	Body	1223	HEART
+SIL-2002-436-142	142	lungs		Body	688	LUNG
+SIL-2002-436-143	143	liver	•	Body	1224	LIVER
+SIL-2002-436-144	144	intestines	◇	Body	1991	INTESTINES
+SIL-2002-436-145	145	hand	•	Body	1277	HAND
+SIL-2002-436-146	146	elbow		Body	981	ELBOW
+SIL-2002-436-147	147	armpit		Body	1886	ARMPIT
+SIL-2002-436-148	148	palm	◇	Body	1181	PALM TREE
+SIL-2002-436-149	149	finger		Body	1303	FINGER
+SIL-2002-436-150	150	fingernail	•	Body	1258	FINGERNAIL
+SIL-2002-436-151	151	buttocks		Body	834	BUTTOCKS
+SIL-2002-436-152	152	leg	◇	Body	1297	LEG
+SIL-2002-436-153	153	thigh	◇	Body	800	THIGH
+SIL-2002-436-154	154	knee	•	Body	1371	KNEE
+SIL-2002-436-155	155	calf	◇	Body	1989	CALF
+SIL-2002-436-156	156	shin		Body	186	SHIN
+SIL-2002-436-157	157	foot	•	Body	1301	FOOT
+SIL-2002-436-158	158	heel		Body	980	HEEL
+SIL-2002-436-159	159	bone	•	Body	1394	BONE
+SIL-2002-436-160	160	rib		Body	801	RIB
+SIL-2002-436-161	161	flesh	•	Body	2259	FLESH
+SIL-2002-436-162	162	fat	◇	Body	323	FAT (ORGANIC SUBSTANCE)
+SIL-2002-436-163	163	skin	•	Body	763	SKIN
+SIL-2002-436-164	164	blood	◇	Body	946	BLOOD
+SIL-2002-436-165	165	sweat		Body	2458	PERSPIRE OR SWEAT
+SIL-2002-436-166	166	pus		Body	1808	PUS
+SIL-2002-436-167	167	excrement		Body	675	FAECES (EXCREMENT)
+SIL-2002-436-168	168	urine		Body	1142	URINE
+SIL-2002-436-169	169	man	•	People	1554	MAN
+SIL-2002-436-170	170	woman	•	People	962	WOMAN
+SIL-2002-436-171	171	person	•	People	683	PERSON
+SIL-2002-436-172	172	father	◇	People	1217	FATHER
+SIL-2002-436-173	173	mother	◇	People	1216	MOTHER
+SIL-2002-436-174	174	child	◇	People	2099	CHILD
+SIL-2002-436-175	175	son-in-law		People	1056	SON-IN-LAW
+SIL-2002-436-176	176	husband	◇	People	1200	HUSBAND
+SIL-2002-436-177	177	wife	◇	People	1199	WIFE
+SIL-2002-436-178	178	widow		People	1756	WIDOW
+SIL-2002-436-179	179a	brother (elder of f)	◇	People	2415	OLDER BROTHER (OF WOMAN)
+SIL-2002-436-180	179b	brother (elder of m)	◇	People	2414	OLDER BROTHER (OF MAN)
+SIL-2002-436-181	179c	sister (elder of f)	◇	People	2419	OLDER SISTER (OF WOMAN)
+SIL-2002-436-182	179d	sister (elder of m)	◇	People	2418	OLDER SISTER (OF MAN)
+SIL-2002-436-183	180a	brother (younger of f)		People	2417	YOUNGER BROTHER (OF WOMAN)
+SIL-2002-436-184	180b	brother (younger of m)		People	2416	YOUNGER BROTHER (OF MAN)
+SIL-2002-436-185	180c	sister (younger of f)		People	2421	YOUNGER SISTER (OF WOMAN)
+SIL-2002-436-186	180d	sister (younger of m)		People	2420	YOUNGER SISTER (OF MAN)
+SIL-2002-436-187	181	friend		People	1325	FRIEND
+SIL-2002-436-188	182	name	•	People	1405	NAME
+SIL-2002-436-189	183	village		Home	930	VILLAGE
+SIL-2002-436-190	184	road	•	Home	667	ROAD
+SIL-2002-436-191	185	boat		Home	1844	BOAT
+SIL-2002-436-192	186	house	◇	Home	1252	HOUSE
+SIL-2002-436-193	187	door		Home	1567	DOOR
+SIL-2002-436-194	188	window		Home	1375	WINDOW
+SIL-2002-436-195	189	roof	◇	Home	769	ROOF
+SIL-2002-436-196	190	area under house	-	Home	2632	AREA UNDER HOUSE
+SIL-2002-436-197	191	wall of house		Home	933	WALL (OF HOUSE)
+SIL-2002-436-198	192	mat		Home	195	MAT
+SIL-2002-436-199	193	pillow		Home	1044	PILLOW
+SIL-2002-436-200	194	blanket		Home	806	BLANKET
+SIL-2002-436-201	195	clothing	◇	Home	1895	CLOTHES
+SIL-2002-436-202	196	to weave (cloth)		Home	133	WEAVE
+SIL-2002-436-203	197	to dye (cloth)		Home	157	DYE
+SIL-2002-436-204	198	*loincloth	◇	Home	1965	LOINCLOTH
+SIL-2002-436-205	199	trousers	◇	Home	809	TROUSERS
+SIL-2002-436-206	200	to sew	◇	Home	1457	SEW
+SIL-2002-436-207	201	needle		Home	1382	NEEDLE (FOR SEWING)
+SIL-2002-436-208	202	comb		Home	1475	COMB
+SIL-2002-436-209	203	ring (finger-)		Home	1374	RING
+SIL-2002-436-210	204	paper, cord		Home	648	PAPER
+SIL-2002-436-211	205	pot (cooking-)		Home	1462	POT
+SIL-2002-436-212	206	coconutshell ladle		Home	2649	COCONUT SHELL LADLE
+SIL-2002-436-213	207	mortar	◇	Home	224	MORTAR CRUSHER
+SIL-2002-436-214	208	pestle	◇	Home	225	PESTLE
+SIL-2002-436-215	209	spoon		Home	1378	SPOON
+SIL-2002-436-216	210	plate		Home	480	PLATE
+SIL-2002-436-217	211	firewood	◇	Home	10	FIREWOOD
+SIL-2002-436-218	212	fire	•	Home	221	FIRE
+SIL-2002-436-219	213	ashes	•	Home	646	ASH
+SIL-2002-436-220	214	smoke	•	Home	778	SMOKE (EXHAUST)
+SIL-2002-436-221	215	candle		Home	1273	CANDLE
+SIL-2002-436-222	216	drum	◇	Home	908	DRUM
+SIL-2002-436-223	217	gong	◇	Home	2502	GONG
+SIL-2002-436-224	218	bow, crossbow	◇	Home	3228	BOW OR CROSSBOW
+SIL-2002-436-225	219	arrow	◇	Home	977	ARROW
+SIL-2002-436-226	220	spear	◇	Home	945	SPEAR
+SIL-2002-436-227	221	knife		Home	1352	KNIFE
+SIL-2002-436-228	222	to hear	•	Verbs	1408	HEAR
+SIL-2002-436-229	223	smell	◇	Verbs	2124	SMELL
+SIL-2002-436-230	224	to see	•	Verbs	1409	SEE
+SIL-2002-436-231	225	to wink		Verbs	1655	BLINK
+SIL-2002-436-232	226	to weep	◇	Verbs	1839	CRY
+SIL-2002-436-233	227	to eat	•	Verbs	1336	EAT
+SIL-2002-436-234	228	to swallow		Verbs	897	SWALLOW
+SIL-2002-436-235	229	to be hungry		Verbs	1533	BE HUNGRY
+SIL-2002-436-236	230	to be full	-	Verbs	1429	FULL
+SIL-2002-436-237	231	to be thirsty		Verbs	3474	BE THIRSTY
+SIL-2002-436-238	232	to drink	•	Verbs	1401	DRINK
+SIL-2002-436-239	233	to be drunk	◇	Verbs	1463	DRUNK
+SIL-2002-436-240	234	to vomit	◇	Verbs	1278	VOMIT
+SIL-2002-436-241	235	to spit	◇	Verbs	1440	SPIT
+SIL-2002-436-242	236	to cough	-	Verbs	879	COUGH
+SIL-2002-436-243	237	to sneeze		Verbs	1621	SNEEZE
+SIL-2002-436-244	238	to yawn		Verbs	1028	YAWN
+SIL-2002-436-245	239	to breathe	◇	Verbs	1407	BREATHE
+SIL-2002-436-246	240	blow		Verbs	175	BLOW (OF WIND)
+SIL-2002-436-247	241	to suck		Verbs	1421	SUCK
+SIL-2002-436-248	242	to lick		Verbs	319	LICK
+SIL-2002-436-249	243	to smile		Verbs	1451	SMILE
+SIL-2002-436-250	244	to laugh	◇	Verbs	1355	LAUGH
+SIL-2002-436-251	245	to speak	•	Verbs	1623	SPEAK
+SIL-2002-436-252	246	to tell		Verbs	1711	TELL
+SIL-2002-436-253	247	to shout		Verbs	715	SHOUT
+SIL-2002-436-254	248	to answer		Verbs	1275	ANSWER
+SIL-2002-436-255	249	to lie, fib	•	Verbs	601	LIE (MISLEAD)
+SIL-2002-436-256	250	to sing	◇	Verbs	1261	SING
+SIL-2002-436-257	251	to think	◇	Verbs	2271	THINK
+SIL-2002-436-258	252	to know	•	Verbs	1410	KNOW (SOMETHING)
+SIL-2002-436-259	253	to forget		Verbs	1523	FORGET
+SIL-2002-436-260	254	to choose		Verbs	1750	CHOOSE
+SIL-2002-436-261	255	to love		Verbs	923	LOVE
+SIL-2002-436-262	256	to hate		Verbs	1607	HATE
+SIL-2002-436-263	257	to wait		Verbs	1590	WAIT (FOR)
+SIL-2002-436-264	258	to count	◇	Verbs	1420	COUNT
+SIL-2002-436-265	259	to be afraid	◇	Verbs	1419	FEAR (BE AFRAID)
+SIL-2002-436-266	260	to be angry		Verbs	2223	BE ANGRY
+SIL-2002-436-267	261	to sleep	•	Verbs	1585	SLEEP
+SIL-2002-436-268	262	to snore		Verbs	1983	SNORE
+SIL-2002-436-269	263	to dream		Verbs	1920	DREAM (SOMETHING)
+SIL-2002-436-270	264	to hurt		Verbs	2411	HURT (SOMEBODY)
+SIL-2002-436-271	265	medicine		Verbs	1372	MEDICINE
+SIL-2002-436-272	266	to itch		Verbs	148	ITCH
+SIL-2002-436-273	267	to scratch	◇	Verbs	1436	SCRATCH
+SIL-2002-436-274	268	to shiver		Verbs	52	SHIVER
+SIL-2002-436-275	269	to die	•	Verbs	1494	DIE
+SIL-2002-436-276	270	ghost		Verbs	1175	GHOST
+SIL-2002-436-277	271	to sit	•	Verbs	1416	SIT
+SIL-2002-436-278	272	to stand	•	Verbs	1442	STAND
+SIL-2002-436-279	273	to kneel		Verbs	66	KNEEL
+SIL-2002-436-280	274	to walk	•	Verbs	1443	WALK
+SIL-2002-436-281	275	to crawl		Verbs	96	CRAWL
+SIL-2002-436-282	276	to come	•	Verbs	1446	COME
+SIL-2002-436-283	277	to enter	◇	Verbs	749	ENTER
+SIL-2002-436-284	278	to return	◇	Verbs	581	COME BACK
+SIL-2002-436-285	279	to push	◇	Verbs	1452	PUSH
+SIL-2002-436-286	280	to pull	◇	Verbs	1455	PULL
+SIL-2002-436-287	281	to kick		Verbs	1135	KICK
+SIL-2002-436-288	282	to throw	◇	Verbs	1456	THROW
+SIL-2002-436-289	283	to fall	◇	Verbs	1280	FALL
+SIL-2002-436-290	284	to swim	•	Verbs	1439	SWIM
+SIL-2002-436-291	285	to float	◇	Verbs	1574	FLOAT
+SIL-2002-436-292	286	to sink		Verbs	1088	SINK (DESCEND)
+SIL-2002-436-293	287	to flow	◇	Verbs	2003	FLOW
+SIL-2002-436-294	288	to give	•	Verbs	1447	GIVE
+SIL-2002-436-295	289	to tie	◇	Verbs	1917	TIE
+SIL-2002-436-296	290	to wipe	◇	Verbs	1454	WIPE
+SIL-2002-436-297	291	to rub, scrub	◇	Verbs	1449	RUB
+SIL-2002-436-298	292	to wash	◇	Verbs	1453	WASH
+SIL-2002-436-299	293	to launder	◇	Verbs	2503	LAUNDER
+SIL-2002-436-300	294	to bathe		Verbs	138	BATHE
+SIL-2002-436-301	295	to hit	◇	Verbs	1433	HIT
+SIL-2002-436-302	296	to split	◇	Verbs	1437	SPLIT
+SIL-2002-436-303	297	to cut (hair)	◇	Verbs	2155	CUT (WITH SCISSORS)
+SIL-2002-436-304	298	to stab	◇	Verbs	1434	STAB
+SIL-2002-436-305	299	to grind		Verbs	1033	GRIND
+SIL-2002-436-306	300	to plant		Verbs	1486	PLANT (SOMETHING)
+SIL-2002-436-307	301	to dig	◇	Verbs	1418	DIG
+SIL-2002-436-308	302	to bury (a corpse)		Verbs	1719	BURY
+SIL-2002-436-309	303	to winnow (rice)		Verbs	2462	WINNOWING
+SIL-2002-436-310	304	*to dry (sth.)		Verbs	1398	DRY
+SIL-2002-436-311	305	to pound (rice)		Verbs	354	POUND
+SIL-2002-436-312	306	to cook (rice)	◇	Verbs	1100	COOK (SOMETHING)
+SIL-2002-436-313	307	to boil (sth.)		Verbs	2492	BOIL (SOMETHING)
+SIL-2002-436-314	308	to burn	•	Verbs	2102	BURN
+SIL-2002-436-315	309	to extinguish (fire)		Verbs	127	EXTINGUISH
+SIL-2002-436-316	310	to work	◇	Verbs	1086	WORK (ACTIVITY)
+SIL-2002-436-317	311	to play	◇	Verbs	1413	PLAY
+SIL-2002-436-318	312	to dance	◇	Verbs	1879	DANCE
+SIL-2002-436-319	313	to shoot	◇	Verbs	1172	SHOOT
+SIL-2002-436-320	314	to hunt	◇	Verbs	1435	HUNT
+SIL-2002-436-321	315	to kill	•	Verbs	1417	KILL
+SIL-2002-436-322	316	to fight	◇	Verbs	1423	FIGHT
+SIL-2002-436-323	317	to buy	◇	Verbs	1869	BUY
+SIL-2002-436-324	318	to sell		Verbs	1571	SELL
+SIL-2002-436-325	319	to exchange		Verbs	2509	EXCHANGE
+SIL-2002-436-326	320	to pay		Verbs	718	PAY
+SIL-2002-436-327	321	to steal		Verbs	713	STEAL
+SIL-2002-436-328	322	one (person)	•	Numbers	1493	ONE
+SIL-2002-436-329	323	two (persons)	•	Numbers	1498	TWO
+SIL-2002-436-330	324	three (persons)	◇	Numbers	492	THREE
+SIL-2002-436-331	325	four (persons)	◇	Numbers	1500	FOUR
+SIL-2002-436-332	326	five (persons)	◇	Numbers	493	FIVE
+SIL-2002-436-333	327	six (persons)	◇	Numbers	1703	SIX
+SIL-2002-436-334	328	seven (persons)	◇	Numbers	1704	SEVEN
+SIL-2002-436-335	329	eight (persons)	◇	Numbers	1705	EIGHT
+SIL-2002-436-336	330	nine (persons)	◇	Numbers	1483	NINE
+SIL-2002-436-337	331	ten (persons)	◇	Numbers	1515	TEN
+SIL-2002-436-338	332	hundred (persons)	◇	Numbers	1634	HUNDRED
+SIL-2002-436-339	333	thousand		Numbers	1843	THOUSAND
+SIL-2002-436-340	334	to be many	•	Numbers	1198	MANY
+SIL-2002-436-341	335	all	•	Numbers	98	ALL
+SIL-2002-436-342	336	some	◇	Numbers	1241	SOME
+SIL-2002-436-343	337	to be few	◇	Numbers	1242	FEW
+SIL-2002-436-344	338	half a unit		Numbers	816	HALF
+SIL-2002-436-345	339	to be big	•	Dimensions	1202	BIG
+SIL-2002-436-346	340	to be small	•	Dimensions	1246	SMALL
+SIL-2002-436-347	341	to be long	•	Dimensions	1203	LONG
+SIL-2002-436-348	342	to be short (length)	◇	Dimensions	1645	SHORT
+SIL-2002-436-349	343	to be tall	◇	Dimensions	711	TALL
+SIL-2002-436-350	344	to be short (height)	◇	Dimensions	2191	LOW (HEIGHT)
+SIL-2002-436-351	345	to be thick	◇	Dimensions	1244	THICK
+SIL-2002-436-352	346	to be thin	◇	Dimensions	2308	THIN
+SIL-2002-436-353	347	to be fat		Dimensions	1279	FAT (OBESE)
+SIL-2002-436-354	348	to be skinny	-	Dimensions	1400	THIN (SLIM)
+SIL-2002-436-355	349	to be wide, broad	◇	Dimensions	1243	WIDE
+SIL-2002-436-356	350	to be narrow	◇	Dimensions	1267	NARROW
+SIL-2002-436-357	351	to be deep		Dimensions	1593	DEEP
+SIL-2002-436-358	352	to be shallow		Dimensions	193	SHALLOW
+SIL-2002-436-359	353	to be round	•	Dimensions	1395	ROUND
+SIL-2002-436-360	354	to be full	•	Dimensions	1429	FULL
+SIL-2002-436-361	355	right side	◇	Dimensions	1019	RIGHT
+SIL-2002-436-362	356	left side	◇	Dimensions	244	LEFT
+SIL-2002-436-363	357	to be straight	◇	Dimensions	1404	STRAIGHT
+SIL-2002-436-364	358	to be far	◇	Dimensions	1406	FAR
+SIL-2002-436-365	359	to be near	◇	Dimensions	1942	NEAR
+SIL-2002-436-366	360	this	•	Dimensions	1214	THIS
+SIL-2002-436-367	361	that	•	Dimensions	78	THAT
+SIL-2002-436-368	362	black	•	Appearance	163	BLACK
+SIL-2002-436-369	363	white	•	Appearance	1335	WHITE
+SIL-2002-436-370	364	red	•	Appearance	156	RED
+SIL-2002-436-371	365	green	•	Appearance	1425	GREEN
+SIL-2002-436-372	366	yellow	•	Appearance	1424	YELLOW
+SIL-2002-436-373	367	to be dirty	◇	Appearance	1230	DIRTY
+SIL-2002-436-374	368	to be new	•	Appearance	1231	NEW
+SIL-2002-436-375	369	to be old	◇	Appearance	1229	OLD
+SIL-2002-436-376	370	to be dark		Appearance	706	DARK
+SIL-2002-436-377	371	to be bright		Appearance	679	BRIGHT
+SIL-2002-436-378	372	to be the same		Appearance	200	SAME
+SIL-2002-436-379	373	to be different	◇	Appearance	2504	DIFFERENT
+SIL-2002-436-380	374	to be sweet		Taste/Feel	717	SWEET
+SIL-2002-436-381	375	to be sour		Taste/Feel	1906	SOUR
+SIL-2002-436-382	376	to be bitter		Taste/Feel	887	BITTER
+SIL-2002-436-383	377	to be spicy, hot		Taste/Feel	544	SPICY
+SIL-2002-436-384	378	to be rotten	◇	Taste/Feel	1728	ROTTEN
+SIL-2002-436-385	379	to be swell	◇	Taste/Feel	1573	SWELL
+SIL-2002-436-386	380	to be dry	◇	Taste/Feel	1398	DRY
+SIL-2002-436-387	381	to be wet	◇	Taste/Feel	1726	WET
+SIL-2002-436-388	382	to be hot	•	Taste/Feel	1286	HOT
+SIL-2002-436-389	383	to be cold	•	Taste/Feel	1287	COLD
+SIL-2002-436-390	384	to be sharp	◇	Taste/Feel	1396	SHARP
+SIL-2002-436-391	385	to be blunt	◇	Taste/Feel	379	BLUNT
+SIL-2002-436-392	386	to be heavy	◇	Taste/Feel	1210	HEAVY
+SIL-2002-436-393	387	to be hard		Taste/Feel	1884	HARD
+SIL-2002-436-394	388	to be smooth	◇	Taste/Feel	1234	SMOOTH
+SIL-2002-436-395	389	to be fast		Other Qualities	1631	FAST
+SIL-2002-436-396	390	to be slow		Other Qualities	701	SLOW
+SIL-2002-436-397	391	to be strong		Other Qualities	785	STRONG
+SIL-2002-436-398	392	to be weak		Other Qualities	1601	WEAK
+SIL-2002-436-399	393	to be tired		Other Qualities	1757	TIRED
+SIL-2002-436-400	394	to be blind		Other Qualities	1653	BLIND
+SIL-2002-436-401	395	to be deaf		Other Qualities	996	DEAF
+SIL-2002-436-402	396	bald	-	Other Qualities	1125	BALD
+SIL-2002-436-403	397	naked	-	Other Qualities	590	NAKED
+SIL-2002-436-404	398	to be good		Other Qualities	1035	GOOD
+SIL-2002-436-405	399	to be bad		Other Qualities	1292	BAD
+SIL-2002-436-406	400	to be correct		Other Qualities	1725	CORRECT (RIGHT)
+SIL-2002-436-407	401	to be wrong		Other Qualities	1390	WRONG
+SIL-2002-436-408	402	when	◇	Question Words	1238	WHEN
+SIL-2002-436-409	403	where	◇	Question Words	1237	WHERE
+SIL-2002-436-410	404	who	•	Question Words	1235	WHO
+SIL-2002-436-411	405	what	•	Question Words	1236	WHAT
+SIL-2002-436-412	406	how many	◇	Question Words	822	HOW MANY
+SIL-2002-436-413	407	stream		Question Words	947	STREAM
+SIL-2002-436-414	408	wet rice field		Question Words	140	PADDY FIELD
+SIL-2002-436-415	409	to be ripe		Question Words	178	RIPE
+SIL-2002-436-416	410	rice seedling		Question Words	926	RICE
+SIL-2002-436-417	411	pangolin		Question Words	2508	PANGOLIN
+SIL-2002-436-418	412	crested		Question Words	2496	ADORNED
+SIL-2002-436-419	413	water leech		Question Words	949	WATER LEECH
+SIL-2002-436-420	414	land leech		Question Words	2273	LEECH
+SIL-2002-436-421	415	earthworm		Question Words	2350	EARTHWORM
+SIL-2002-436-422	416	I (1s)		Question Words	1209	I
+SIL-2002-436-423	417	thou (2s)		Question Words	1215	THOU
+SIL-2002-436-424	418	he/she/it		Question Words	262	HE OR SHE OR IT
+SIL-2002-436-425	419	we (1p)		Question Words	1212	WE
+SIL-2002-436-426	420	you (2p)		Question Words	1213	YOU
+SIL-2002-436-427	421	they		Question Words	817	THEY
+SIL-2002-436-428	422	sleeping area		Question Words	2505	BEDROOM
+SIL-2002-436-429	423	to take		Question Words	1749	TAKE
+SIL-2002-436-430	424	to disappear		Question Words	485	DISAPPEAR
+SIL-2002-436-431	425	to split w/a knife		Question Words	1437	SPLIT
+SIL-2002-436-432	426	to bend		Question Words	2004	BEND
+SIL-2002-436-433	427	to lift		Question Words	501	LIFT
+SIL-2002-436-434	428	to do/make		Question Words	2575	DO OR MAKE
+SIL-2002-436-435	429	don't do it		Question Words	2660	DO NOT DO IT
+SIL-2002-436-436	430	half		Question Words	816	HALF
+SIL-2002-436-437	431	disgusting		Question Words	2507	DISGUSTING
+SIL-2002-436-438	432	warm		Question Words	1232	WARM
+SIL-2002-436-439	433	cool		Question Words	2483	COLD (OF WEATHER)
+SIL-2002-436-440	434	difficult		Question Words	584	DIFFICULT
+SIL-2002-436-441	435	easy		Question Words	686	EASY
+SIL-2002-436-442	436	loose		Question Words	2506	LOOSE
