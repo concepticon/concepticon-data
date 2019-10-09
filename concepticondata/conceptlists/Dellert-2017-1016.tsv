@@ -830,7 +830,7 @@ Dellert-2017-1016-828	828	440	-1.118026	aufhängen	aufhängen::V	hang up	пов�
 Dellert-2017-1016-829	829	512	-1.145345	anzünden	anzünden::V	light	зажечь	BSP:eine Kerze	EX:a candle	НАПР:свечу	LIGHT (IGNITE)	737	
 Dellert-2017-1016-830	830	384	-1.156896	aufheben	aufheben::V	pick up	поднять	vom Fußboden	from the floor	взять с пола	PICK UP	371	
 Dellert-2017-1016-831	831	530	-0.093607	zurücklassen	zurücklassen::V	leave	оставить	BSP:einen Mantel zu Hause	EX:a coat at home	НАПР:пальто дома			
-Dellert-2017-1016-832	832	215	-1.170692	verlieren	verlieren::V	lose	потерять	BSP:einen Schlüssel	EX:a key	НАПР:ключ	LOSE	1660	
+Dellert-2017-1016-832	832	215	-1.170692	verlieren	verlieren::V	lose	потерять	BSP:einen Schlüssel	EX:a key	НАПР:ключ	MISPLACE	3072	
 Dellert-2017-1016-833	833	759	-0.079748	fallen lassen	fallen lassen::V	drop	уронить	aus den Händen	let fall from one's hands	выпустить из рук	DROP (SOMETHING)	2866	
 Dellert-2017-1016-834	834	294	-1.168211	machen	machen::V	make	сделать	anfertigen, hervorrufen	create, bring about	совершить, изготовить	MAKE	734	
 Dellert-2017-1016-835	835	828	-0.054193	herstellen	herstellen::V	produce	изготовить	produzieren	manufacture	произвести	PRODUCE	2886	
@@ -843,7 +843,7 @@ Dellert-2017-1016-841	841	523	-1.118683	beugen	beugen::V	bow	согнуть	BSP:
 Dellert-2017-1016-842	842	286	-1.192001	biegen	biegen::V	bend	погнуть	BSP:ein Rohr	EX:a pipe	НАПР:трубу	BEND (SOMETHING)	2224	
 Dellert-2017-1016-843	843	604	-0.04799	drehen	drehen::V	spin	вертеть	BSP:einen Spieß	EX:a skewer	НАПР:вертел			
 Dellert-2017-1016-844	844	647	-0.044863	wenden	wenden::V	turn over	перевернуть	BSP:Pfannkuchen, Fleischstücke	EX:pancakes, pieces of meat	положить на другую сторону, НАПР:блины, куски мяса	TURN (SOMETHING)	1445	
-Dellert-2017-1016-845	845	967	0.02789	umdrehen	umdrehen::V	turn, turn around	повернуть, поворачивать	BSP:die Hand	EX:palm	НАПР:ладонь	TURN AROUND	1444	
+Dellert-2017-1016-845	845	967	0.02789	umdrehen	umdrehen::V	turn, turn around	повернуть, поворачивать	BSP:die Hand	EX:palm	НАПР:ладонь			
 Dellert-2017-1016-846	846	221	-1.150496	heben	heben::V	raise	поднимать	BSP:die Hand	EX:one's hand	переместить в верхнее положение, НАПР:руку, голову			
 Dellert-2017-1016-847	847	504	-1.173664	hochheben	hochheben::V	lift	поднять	BSP:eine Kiste	EX:a box	что-то тяжёлое, НАПР:ящик	LIFT	501	
 Dellert-2017-1016-848	848	860	-0.013547	ergreifen	ergreifen::V	seize	схватить	in die Hand nehmen, BSP:ein Messer	grab, EX:a knife	хватать, НАПР:нож	SEIZE	855	
@@ -973,10 +973,10 @@ Dellert-2017-1016-971	971	628	-0.093587	spülen	spülen::V	rinse	полоска�
 Dellert-2017-1016-972	972	408	-1.106639	fegen	fegen::V	sweep	подметать	BSP:Zimmer	EX:a room	НАПР:комнату	SWEEP	230	
 Dellert-2017-1016-973	973	773	-0.034864	kehren	kehren::V	sweep	мести	BSP:Laub	EX:leaves	НАПР:листья, двор			
 Dellert-2017-1016-974	974	576	-0.00615	baden	baden::V	bath	купаться	BSp:in einem Fluss	EX:in a river	НАПР:в реке	BATHE	138	
-Dellert-2017-1016-975	975	424	-1.151453	sich waschen	sich waschen::V	wash	мыться						
-Dellert-2017-1016-976	976	755	-0.08271	ausziehen	ausziehen::V	take off	снять	BSP:den Mantel	EX:one's coat	НАПР:пальто			
+Dellert-2017-1016-975	975	424	-1.151453	sich waschen	sich waschen::V	wash	мыться				WASH (ONESELF)	3371	
+Dellert-2017-1016-976	976	755	-0.08271	ausziehen	ausziehen::V	take off	снять	BSP:den Mantel	EX:one's coat	НАПР:пальто	TAKE OFF	3538	
 Dellert-2017-1016-977	977	607	-0.044519	anziehen	anziehen::V	put on	надеть	BSP:den Mantel	EX:one's coat	НАПР:пальто	PUT ON	158	
-Dellert-2017-1016-978	978	742	-0.009286	sich anziehen	sich anziehen::V	get dressed	одеться						
+Dellert-2017-1016-978	978	742	-0.009286	sich anziehen	sich anziehen::V	get dressed	одеться				DRESS UP	814	
 Dellert-2017-1016-979	979	646	-0.051208	kämmen	kämmen::V	comb	причесать			кого-то, НАПР:дочь	COMB (VERB)	2070	
 Dellert-2017-1016-980	980	809	-0.030631	schmücken	schmücken::V	decorate	украсить	BSP:ein Haus	EX:a house	НАПР:дом	DECORATE	1739	
 Dellert-2017-1016-981	981	114	-2.258457	sagen	sagen::V	say	сказать				SAY	1458	
