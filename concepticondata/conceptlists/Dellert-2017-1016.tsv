@@ -62,7 +62,7 @@ Dellert-2017-1016-60	60	234	-1.123365	Luft	Luft::N	air	воздух	wo Vögel fl
 Dellert-2017-1016-61	61	69	-2.27676	Wind	Wind::N	wind	ветер	draußen	outside	на улице	WIND	960	
 Dellert-2017-1016-62	62	213	-1.172595	Welle	Welle::N	wave	волна	auf Wasser	on water	на воде	WAVE	978	
 Dellert-2017-1016-63	63	19	-2.22383	Wasser	Wasser::N	water	вода	kaltes Wasser	cold water	холодная вода	WATER	948	
-Dellert-2017-1016-64	64	55	-2.26243	Stein	Stein::N	stone	камень	Substanz	substance	вещество	ROCK	668	
+Dellert-2017-1016-64	64	55	-2.26243	Stein	Stein::N	stone	камень	Substanz	substance	вещество	STONE	857	
 Dellert-2017-1016-65	65	470	-1.143149	Boden	Boden::N	ground	земля	Erdboden	soil, earth	земля, пол; НАПР:падать на землю	GROUND	2159	
 Dellert-2017-1016-66	66	164	-1.145461	Erde	Erde::N	earth	земля, почва	Substanz	substance	вещество; НАПР:комок земли	EARTH (SOIL)	1228	
 Dellert-2017-1016-67	67	292	-1.175208	Staub	Staub::N	dust	пыль	Ablagerung	settled	НАПР:вытереть пыль	DUST	2	
@@ -350,7 +350,7 @@ Dellert-2017-1016-348	348	564	-0.038161	Nahrung	Nahrung::N	food	пища				FOOD
 Dellert-2017-1016-349	349	890	0.048027	Speise	Speise::N	dish	блюдо						
 Dellert-2017-1016-350	350	141	-2.228815	Fleisch	Fleisch::N	meat	мясо	Nahrungsmittel			MEAT	634	
 Dellert-2017-1016-351	351	845	-0.000722	Getreide	Getreide::N	corn	злак		cereal plant grown for its grain				GRAIN (PLANT)
-Dellert-2017-1016-352	352	330	-1.176774	Brei	Brei::N	mush	каша				MUSH	400	
+Dellert-2017-1016-352	352	330	-1.176774	Brei	Brei::N	mush	каша						
 Dellert-2017-1016-353	353	128	-2.295693	Brot	Brot::N	bread	хлеб			пищевой продукт	BREAD	1368	
 Dellert-2017-1016-354	354	714	-0.083365	Scheibe	Scheibe::N	slice	ломоть	BSP:Brot	EX:of bread	кусок отрезанный ножом, ломтик НАПР:кусок хлеба	SLICE	2954	
 Dellert-2017-1016-355	355	116	-2.237866	Fett	Fett::N	fat	жир				FAT (ORGANIC SUBSTANCE)	323	
@@ -940,8 +940,8 @@ Dellert-2017-1016-938	938	228	-1.13904	stehlen	stehlen::V	steal	украсть		
 Dellert-2017-1016-939	939	901	0.03309	stören	stören::V	disturb	помешать				DISTURB	2883	
 Dellert-2017-1016-940	940	966	0.025794	belästigen	belästigen::V	bother	беспокоить, потревожить				BOTHER (HARASS)	2869	
 Dellert-2017-1016-941	941	598	-0.061851	verbergen	verbergen::V	conceal	скрыть	BSP:eine Tatsache	EX:a fact	НАПР:факт	HIDE (CONCEAL)	602	
-Dellert-2017-1016-942	942	862	-0.096565	täuschen	täuschen::V	deceive	обмануть	in die Irre führen		ввести в заблуждение			
-Dellert-2017-1016-943	943	961	0.079686	betrügen	betrügen::V	cheat	смошенничать	BSP:jemanden um Geld	EX:someone of money		DECEIVE	3230	
+Dellert-2017-1016-942	942	862	-0.096565	täuschen	täuschen::V	deceive	обмануть	in die Irre führen		ввести в заблуждение	DECEIVE	3230	
+Dellert-2017-1016-943	943	961	0.079686	betrügen	betrügen::V	cheat	смошенничать	BSP:jemanden um Geld	EX:someone of money		SWINDLE	3055	
 Dellert-2017-1016-944	944	76	-2.228426	töten	töten::V	kill	убить				KILL	1417	
 Dellert-2017-1016-945	945	324	-1.187722	wohnen	wohnen::V	dwell	проживать, жить				DWELL (LIVE, RESIDE)	363	
 Dellert-2017-1016-946	946	650	-0.037503	arbeiten	arbeiten::V	work	работать				WORK (ACTIVITY)	1086	

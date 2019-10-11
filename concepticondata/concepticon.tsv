@@ -465,7 +465,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 464	ALANG-ALANG GRASS	Agriculture and vegetation	It is a perennial high grown grass native to Asia, Australia and Africa.	Person/Thing	
 465	CARRY ON BACK	Motion	To hold or to take something from one place to another on the back.	Action/Process	
 466	CASSOWARY	Animals	A big flightless bird native to tropical forests of New Guinea, nearby islands and northeastern Australia.	Person/Thing	
-467	CRAYFISH	Animals	A freshwater crustacean resembling small lobster.	Person/Thing	
+467	CRAYFISH	Animals	A freshwater crustacean resembling a small lobster.	Person/Thing	
 468	G-STRING	Clothing and grooming	A thong underwear or swimsuit, a narrow piece of cloth, leather, or plastic, that covers or holds the genitals, passes between the buttocks, and is attached to a band around the hips.	Person/Thing	
 469	PANDANUS	Agriculture and vegetation	Palm-like, dioecious trees and shrubs native to the Old World tropics and subtropics.	Person/Thing	
 470	POSSUM	Animals	Small to medium-sized arboreal marsupial species native to Australia, New Guinea, and Sulawesi.	Person/Thing	
@@ -578,7 +578,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 577	FOREFINGER	The body	The finger between thumb and long finger.	Person/Thing	
 578	KISS	Emotions and values	To touch with the lips to express love or affection.	Action/Process	
 579	BATTLE	Warfare and hunting	An instance of combat in warfare between two or more parties wherein each group will seek to defeat the others.	Person/Thing	
-580	FUR	The body	The body-hair of an animal (excluding humans) or a piece of cothing made thereof.	Person/Thing	
+580	FUR	The body	The body-hair of an animal (excluding humans) or a piece of clothing made thereof.	Person/Thing	
 581	COME BACK	Motion	To go there where one was before.	Action/Process	
 582	LEND	Possession	To put an item or resource at the disposal of another, with the requirement to have the same or its equivalent returned eventually.	Action/Process	
 583	KIND OR POLITE	Emotions and values	Being nice and giving off the impression of benevolence or keeping to a given society's standards of social manners in order to show respect.	Property	
@@ -1011,7 +1011,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1010	BOUNDARY	Social and political relations	The dividing line or location between two areas.	Person/Thing	
 1011	BRIDGE	Motion	A structure that spans and provides a passage over a road, railway, river, or some other obstacle.	Person/Thing	
 1012	LATCH	The house	A fastening for a door that has a bar that fits into a notch or slot, and is lifted by a lever or string from either side.	Person/Thing	
-1013	FRESHWATER EEL	Animals	A snaky edible fish, which lives in freshwater and in the sea.	Person/Thing	
+1013	FRESHWATER EEL	Animals	A snake-like edible fish, which lives in freshwater.	Person/Thing	
 1014	OR	Cognition	[Conjunction that indicates an alternative.]	Other	
 1015	SOIL	The physical world	To make filthy.	Action/Process	
 1016	DRIZZLE	The physical world	Fine, light rain.	Person/Thing	
@@ -1900,7 +1900,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1899	MAD	Cognition	Mentally ill.	Property	
 1900	ASTONISHED	Emotions and values	Filled with the emotional impact of overwhelming surprise or shock.	Property	1572
 1901	SHOVEL	Agriculture and vegetation	A tool consisting of a stick (usually out of wood) and a bigger, slightly humped surface (usually out of metal), which is used to move material such as earth, snow, grain, etc. from one place to another.	Person/Thing	
-1902	BETRAY	Cognition	To cause someone to believe an untruth; to practice trickery or fraud.	Action/Process	
+1902	BETRAY	Cognition	To harm someone or hurt their feelings by violating their trust or being disloyal to them.	Action/Process	
 1903	SWELLING	The body	Abnormal protuberance or localized enlargement.	Person/Thing	
 1904	DROWN	The body	To be suffocated in water or other fluid; to perish by suffocation in water.	Action/Process	
 1905	EAGLE	Animals	Any of several large carnivorous birds in the family Accipitridae, having a powerful hooked bill and keen vision.	Person/Thing	
@@ -3214,7 +3214,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3223	BRANCH OR TWIG	Agriculture and vegetation	A woody part of a tree arising from the trunk or from another branch.	Person/Thing	
 3224	WRING	Basic actions and technology	To take a cloth and twist its ends into different directions in order to dry it.	Action/Process	
 3228	BOW OR CROSSBOW	Warfare and hunting	A weapon made of a curved piece of wood or other flexible material whose ends are connected by a string, used for shooting arrows, or a weapon based on it, consisting of a bow mounted on a stock.	Person/Thing	
-3230	DECEIVE	Cognition	To cause someone to believe an untruth; to practice trickery or fraud.	Action/Process	
+3230	DECEIVE	Cognition	To trick someone by making them believe something that is not true or by acting in a dishonest way, usually in order to take advantage of it.	Action/Process	
 3231	DEITY	Religion and belief	A supernatural, typically immortal being with superior powers.	Person/Thing	
 3232	PELT	Clothing and grooming	The hair-covered, dressed pelt of a mammal, used in the making of garments and as trimming or decoration.	Person/Thing	
 3233	SMALL KNIFE	Food and drink	A knife for cutting vegetables and other things in the kitchen.	Person/Thing	
@@ -3456,3 +3456,64 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3470	LIAR	Social and political relations	A person who tells lies.	Person/Thing	
 3471	OBLIGATION (DUTY)	Emotions and values	Either a moral or legal responsibility to accomplish a certain task.	Person/Thing	
 3472	DANCE (MOVEMENT)	Motion	A series of rhythmic movements performed to music.	Person/Thing	
+3473	LONG (FOR SOMETHING)	Emotions and values	To have a very strong desire for something.	Action/Process	
+3474	BE THIRSTY	Food and drink	To suffer from thirst; to have a craving to drink, which is often accompanied by the feeling of dryness in the mouth and throat.	Action/Process	
+3475	SUFFICE	Quantity	To be enough for a particular purpose.	Other	
+3476	TWENTY SIX	Quantity	The natural number twenty-six (26).	Number	
+3477	TWENTY SEVEN	Quantity	The natural number twenty-seven (27).	Number	
+3478	TWENTY EIGHT	Quantity	The natural number twenty-eight (28).	Number	
+3479	TWENTY NINE	Quantity	The natural number twenty-nine (29).	Number	
+3480	THIRTY ONE	Quantity	The natural number thirty-one (31).	Number	
+3481	THIRTY TWO	Quantity	The natural number thirty-two (32).	Number	
+3482	THIRTY THREE	Quantity	The natural number thirty-three (33).	Number	
+3483	THIRTY FOUR	Quantity	The natural number thirty-four (34).	Number	
+3484	THIRTY FIVE	Quantity	The natural number thirty-five (35).	Number	
+3485	THIRTY SIX	Quantity	The natural number thirty-six (36).	Number	
+3486	THIRTY SEVEN	Quantity	The natural number thirty-seven (37).	Number	
+3487	THIRTY EIGHT	Quantity	The natural number thirty-eight (38).	Number	
+3488	THIRTY NINE	Quantity	The natural number thirty-nine (39).	Number	
+3489	FORTY THREE	Quantity	The natural number forty-three (43).	Number	
+3490	FORTY FOUR	Quantity	The natural number forty-four (44).	Number	
+3491	FORTY FIVE	Quantity	The natural number forty-five (45).	Number	
+3492	FORTY EIGHT	Quantity	The natural number forty-eight (48).	Number	
+3493	FIFTY THREE	Quantity	The natural number fifty-three (53).	Number	
+3494	FIFTY FIVE	Quantity	The natural number fifty-five (55).	Number	
+3495	SIXTY THREE	Quantity	The natural number sixty-three (63).	Number	
+3496	SEVENTY TWO	Quantity	The natural number seventy-two (72).	Number	
+3497	SEVENTY THREE	Quantity	The natural number seventy-three (73).	Number	
+3498	EIGHTY THREE	Quantity	The natural number eighty-three (83).	Number	
+3499	NINETY ONE	Quantity	The natural number ninety-one (91).	Number	
+3500	NINETY SIX	Quantity	The natural number ninety-six (96).	Number	
+3501	NINETY NINE	Quantity	The natural number ninety-nine (99).	Number	
+3502	ONE HUNDRED AND ONE	Quantity	The natural number one hundred and one (101).	Number	
+3503	ONE HUNDRED AND TEN	Quantity	The natural number one hundred and ten (110).	Number	
+3504	ONE HUNDRED AND TWENTY	Quantity	The natural number one hundred and twenty (120).	Number	
+3505	ONE HUNDRED AND THIRTY THREE	Quantity	The natural number one hundred and thirty-three (133).	Number	
+3506	ONE HUNDRED AND FORTY	Quantity	The natural number one hundred and forty (140).	Number	
+3507	ONE HUNDRED AND FORTY FOUR	Quantity	The natural number one hundred and forty-four (144).	Number	
+3508	ONE HUNDRED AND FIFTY	Quantity	The natural number one hundred and fifty (150).	Number	
+3509	ONE HUNDRED AND SIXTY	Quantity	The natural number one hundred and sixty (160).	Number	
+3510	ONE HUNDRED AND EIGHTY	Quantity	The natural number one hundred and eighty (180).	Number	
+3511	TWO HUNDRED AND ONE	Quantity	The natural number two hundred and one (201).	Number	
+3512	TWO HUNDRED AND SIXTEEN	Quantity	The natural number two hundred and sixteen (216).	Number	
+3513	THREE HUNDRED	Quantity	The natural number three hundred (300).	Number	
+3514	THREE HUNDRED AND NINETY NINE	Quantity	The natural number three hundred and ninety-nine (399).	Number	
+3515	FOUR HUNDRED	Quantity	The natural number four hundred (400).	Number	
+3516	FIVE HUNDRED	Quantity	The natural number five hundred (500).	Number	
+3517	SIX HUNDRED	Quantity	The natural number six hundred (600).	Number	
+3518	SEVEN HUNDRED	Quantity	The natural number seven hundred (700).	Number	
+3519	EIGHT HUNDRED	Quantity	The natural number eight hundred (800).	Number	
+3520	NINE HUNDRED	Quantity	The natural number nine hundred (900).	Number	
+3521	NINE HUNDRED AND NINETY NINE	Quantity	The natural number nine hundred and ninety-nine (999).	Number	
+3522	ONE THOUSAND TWO HUNDRED AND TWENTY ONE	Quantity	The natural number one thousand two hundred and twenty-one (1221).	Number	
+3523	ONE THOUSAND TWO HUNDRED AND NINETY SIX	Quantity	The natural number one thousand two hundred and ninety-six (1296).	Number	
+3524	TWO THOUSAND	Quantity	The natural number two thousand (2000).	Number	
+3525	THREE THOUSAND	Quantity	The natural number three thousand (3000).	Number	
+3526	FOUR THOUSAND	Quantity	The natural number four thousand (4000).	Number	
+3527	FIVE THOUSAND	Quantity	The natural number five thousand (5000).	Number	
+3528	SEVEN THOUSAND	Quantity	The natural number seven thousand (7000).	Number	
+3529	SEVEN THOUSAND SEVEN HUNDRED AND SEVENTY SIX	Quantity	The natural number seven thousand seven hundred and seventy-six (7776).	Number	
+3530	NINE THOUSAND	Quantity	The natural number nine thousand (9000).	Number	
+3531	FORTY SIX THOUSAND SIX HUNDRED AND FIFTY SIX	Quantity	The natural number forty six thousand six hundred and fifty six (46656).	Number	
+3532	ONE HUNDRED THOUSAND	Quantity	The natural number one hundred thousand (100000).	Number	
+3533	ONE MILLION	Quantity	The natural number one million (1000000).	Number	
