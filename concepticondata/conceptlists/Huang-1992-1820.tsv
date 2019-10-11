@@ -22,7 +22,7 @@ Huang-1992-1820-20	20	air; breath	气	27	AIR	n	air; breath
 Huang-1992-1820-21	21	steam	蒸汽	1193	STEAM	n	steam
 Huang-1992-1820-22	22	earth / ground	地	2159	GROUND	n	earth / ground
 Huang-1992-1820-23	23	hill / mountain	山	639	MOUNTAIN	n	hill / mountain
-Huang-1992-1820-24	24	hillside / mountain slope	山坡	3297	PRECIPICE OR SLOPE	n	hillside / mountain slope
+Huang-1992-1820-24	24	hillside / mountain slope	山坡	3076	SLOPE	n	hillside / mountain slope
 Huang-1992-1820-25	25	valley	山谷	921	VALLEY	n	valley
 Huang-1992-1820-26	26	cliff	悬崖	992	CLIFF	n	cliff
 Huang-1992-1820-27	27	rock	岩石	668	ROCK	n	rock
@@ -270,7 +270,7 @@ Huang-1992-1820-268	268	horse	马	615	HORSE	n	horse
 Huang-1992-1820-269	269	pony	马驹	1647	FOAL	n	pony
 Huang-1992-1820-270	270	stallion	公马	936	STALLION	n	stallion
 Huang-1992-1820-271	271	mare	母马	938	MARE	n	mare
-Huang-1992-1820-272	272	mane (horse)	马鬃	1918	MANE	n	mane (horse)
+Huang-1992-1820-272	272	mane (horse)	马鬃	3546	HORSE MANE	n	mane (horse)
 Huang-1992-1820-273	273	dung (horse)	马粪	3378	HORSE DUNG	n	dung (horse)
 Huang-1992-1820-274	274	sheep (general)	羊	2684	CAPRINE (GOAT OR SHEEP)	n	sheep (general)
 Huang-1992-1820-275	275	sheep	绵羊	1331	SHEEP	n	sheep
@@ -325,7 +325,7 @@ Huang-1992-1820-323	323	jackal	豺	3313	JACKAL	n	jackal
 Huang-1992-1820-324	324	wolf	狼	522	WOLF	n	wolf
 Huang-1992-1820-325	325	fox	狐狸	1312	FOX	n	fox
 Huang-1992-1820-326	326	bird	鸟	937	BIRD	n	bird
-Huang-1992-1820-327	327	nest (bird)	鸟窝	539	NEST	n	nest (bird)
+Huang-1992-1820-327	327	nest (bird)	鸟窝	3549	BIRD NEST	n	nest (bird)
 Huang-1992-1820-328	328	kite (black-eared) / hawk	老鹰	307	HAWK	n	kite (black-eared) / hawk
 Huang-1992-1820-329	329	sparrow hawk	鹞子			n	sparrow hawk
 Huang-1992-1820-330	330	eagle / vulture	雕	1905	EAGLE	n	eagle / vulture
@@ -1029,7 +1029,7 @@ Huang-1992-1820-1027	1027	poor	瘦(地~)			adj	poor
 Huang-1992-1820-1028	1028	dry (inside of	干 ((物体内部)~)	1398	DRY	adj	dry (of damp objects: become dry)||dry||dry (inside of object)
 Huang-1992-1820-1029	1029	wet	湿	1726	WET	adj	wet
 Huang-1992-1820-1030	1030	thick	稠(粥~)	2239	DENSE	adj	thick
-Huang-1992-1820-1031	1031	watery / thin	稀(粥~)	207	SPARSE	adj	watery / thin
+Huang-1992-1820-1031	1031	watery / thin	稀(粥~)	3545	WATERY	adj	watery / thin
 Huang-1992-1820-1032	1032	woven, tightly	密(布~)			adj	woven, tightly
 Huang-1992-1820-1033	1033	thin	稀(头发~)	2305	THIN (OF HAIR AND THREAD)	adj	thin
 Huang-1992-1820-1034	1034	hard	硬	1884	HARD	adj	hard
@@ -1153,7 +1153,7 @@ Huang-1992-1820-1151	1151	carry (a child) on the	背(~孩子)	465	CARRY ON BACK	
 Huang-1992-1820-1152	1152	spout / burst	迸(~出)	680	BREAK (DESTROY OR GET DESTROYED)	v.	spout / burst
 Huang-1992-1820-1153	1153	force /	逼迫	2526	POWER	v.	force /
 Huang-1992-1820-1154	1154	compare	比 ((助词))	3429	COMPARE	v.	compare
-Huang-1992-1820-1155	1155	close (the	闭(~口)	2063	CLOSE (EYES)	v.	close (the
+Huang-1992-1820-1155	1155	close (the	闭(~口)	3547	CLOSE (MOUTH)	v.	close (the
 Huang-1992-1820-1156	1156	plait	编(~辫子)	333	PLAIT	v.	plait
 Huang-1992-1820-1157	1157	weave (a	编(~篮子)	133	WEAVE	v.	weave (a
 Huang-1992-1820-1158	1158	change	变化	2857	CHANGE (BECOME DIFFERENT)	v.	change
@@ -1375,14 +1375,14 @@ Huang-1992-1820-1373	1373	hate	恨	1607	HATE	v.	hate
 Huang-1992-1820-1374	1374	dry by fire	烘			v.	dry by fire
 Huang-1992-1820-1375	1375	coax / fool	哄			v.	coax / fool
 Huang-1992-1820-1376	1376	regret	后悔	1875	REGRET	v.	regret
-Huang-1992-1820-1377	1377	paddle / row	划(~船)	234	PADDLE	v.	paddle / row
+Huang-1992-1820-1377	1377	paddle / row	划(~船)	1849	ROW	v.	paddle / row
 Huang-1992-1820-1378	1378	draw (a picture)	画(~画儿)	2001	PAINTING	v.	draw (a picture)
 Huang-1992-1820-1379	1379	pregnant, be (person) (note:+person)	怀孕 ((指人))	1123	PREGNANT	v.	pregnant, be (person) (note:+person)
 Huang-1992-1820-1380	1380	doubt	怀疑	3536	DOUBT (SOMETHING)	v.	doubt
 Huang-1992-1820-1381	1381	repay (a debt)	还(~帐)			v.	repay (a debt)
 Huang-1992-1820-1382	1382	return (a pen)	还(~钢笔)	85	GIVE BACK	v.	return (a pen)
 Huang-1992-1820-1383	1383	change	换	1264	CHANGE	v.	change
-Huang-1992-1820-1384	1384	wave / wield	挥动			v.	wave / wield
+Huang-1992-1820-1384	1384	wave / wield	挥动	3544	WAVE (VERB)	v.	wave / wield
 Huang-1992-1820-1385	1385	return (come back) (note:+go)	回 (~去)	581	COME BACK	v.	return (come back) (note:+go)
 Huang-1992-1820-1386	1386	return, cause to	回(使~)			v.	return, cause to
 Huang-1992-1820-1387	1387	turn one's head to the back	回头(~看)			v.	turn one's head to the back
@@ -1452,7 +1452,7 @@ Huang-1992-1820-1450	1450	startled, be / shy (of animals)	受惊			v.	startled, 
 Huang-1992-1820-1451	1451	rescue / save	救	2008	RESCUE	v.	rescue / save
 Huang-1992-1820-1452	1452	live / reside (lit. 'be at')	居住 ("在")	1099	RESIDE	v.	live / reside (lit. 'be at')||live / reside (lit. 'sit')||live / reside
 Huang-1992-1820-1453	1453	raise (the hand)	举(~手)	1317	RAISE	v.	raise (the hand)
-Huang-1992-1820-1454	1454	saw	锯			v.	saw
+Huang-1992-1820-1454	1454	saw	锯	3543	SAW (SOMETHING)	v.	saw
 Huang-1992-1820-1455	1455	get together, all / assemble	聚齐			v.	get together, all / assemble
 Huang-1992-1820-1456	1456	roll up (cloth)	卷(~布)			v.	roll up (cloth)
 Huang-1992-1820-1457	1457	huddle / curl up	蜷缩			v.	huddle / curl up
