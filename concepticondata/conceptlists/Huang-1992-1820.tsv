@@ -491,7 +491,7 @@ Huang-1992-1820-489	489	cloth (Tibetan, woollen)	氆氇			n	cloth (Tibetan, wool
 Huang-1992-1820-490	490	pillow	枕头	1044	PILLOW	n	pillow
 Huang-1992-1820-491	491	mat (woven bamboo) (note:+straw)	席子 (草~)	195	MAT	n	mat (woven bamboo) (note:+straw)
 Huang-1992-1820-492	492	pad / cushion	垫子			n	pad / cushion
-Huang-1992-1820-493	493	cape (for rain, of straw or palm bark)	蓑衣	1662	CAPE	n	cape (for rain, of straw or palm bark)
+Huang-1992-1820-493	493	cape (for rain, of straw or palm bark)	蓑衣	3540	STRAW RAINCOAT	n	cape (for rain, of straw or palm bark)
 Huang-1992-1820-494	494	house	房子	1252	HOUSE	n	house
 Huang-1992-1820-495	495	roof	房顶	769	ROOF	n	roof
 Huang-1992-1820-496	496	eaves	房檐			n	eaves
@@ -1308,7 +1308,7 @@ Huang-1992-1820-1306	1306	worry / anxious, be	发愁	150	WORRY	v.	worry / anxiou
 Huang-1992-1820-1307	1307	germinate / sprout	发芽	2076	SPROUT (VERB)	v.	germinate / sprout
 Huang-1992-1820-1308	1308	punish	罚(处~)			v.	punish
 Huang-1992-1820-1309	1309	turn inside out (clothing) or the reverse	翻过来(把衣服~)			v.	turn inside out (clothing) or the reverse
-Huang-1992-1820-1310	1310	turn over (on bed)	翻身(在床上~)			v.	turn over (on bed)
+Huang-1992-1820-1310	1310	turn over (on bed)	翻身(在床上~)	3537	TURN OVER	v.	turn over (on bed)
 Huang-1992-1820-1311	1311	oppose	反对			v.	oppose
 Huang-1992-1820-1312	1312	ruminate (cow) (note:+cow)	反刍 (牛~)			v.	ruminate (cow) (note:+cow)
 Huang-1992-1820-1313	1313	spin (into yarn)	纺(~纱)	121	SPIN	v.	spin (into yarn)
@@ -1378,7 +1378,7 @@ Huang-1992-1820-1376	1376	regret	后悔	1875	REGRET	v.	regret
 Huang-1992-1820-1377	1377	paddle / row	划(~船)	234	PADDLE	v.	paddle / row
 Huang-1992-1820-1378	1378	draw (a picture)	画(~画儿)	2001	PAINTING	v.	draw (a picture)
 Huang-1992-1820-1379	1379	pregnant, be (person) (note:+person)	怀孕 ((指人))	1123	PREGNANT	v.	pregnant, be (person) (note:+person)
-Huang-1992-1820-1380	1380	doubt	怀疑	1308	DOUBT	v.	doubt
+Huang-1992-1820-1380	1380	doubt	怀疑	3536	DOUBT (SOMETHING)	v.	doubt
 Huang-1992-1820-1381	1381	repay (a debt)	还(~帐)			v.	repay (a debt)
 Huang-1992-1820-1382	1382	return (a pen)	还(~钢笔)	85	GIVE BACK	v.	return (a pen)
 Huang-1992-1820-1383	1383	change	换	1264	CHANGE	v.	change
@@ -1662,7 +1662,7 @@ Huang-1992-1820-1660	1660	shed (tears)	淌(~泪)			v.	shed (tears)
 Huang-1992-1820-1661	1661	lie down	躺	215	LIE DOWN	v.	lie down
 Huang-1992-1820-1662	1662	scald / burn (the hand)	烫(~手)	3383	SCALD (BURN ONESELF WITH LIQUID)	v.	scald / burn (the hand)
 Huang-1992-1820-1663	1663	escape / run away	逃跑	2142	RUN AWAY	v.	escape / run away
-Huang-1992-1820-1664	1664	beg (for food)	讨(~饭)	1828	ASK (REQUEST)	v.	beg (for food)
+Huang-1992-1820-1664	1664	beg (for food)	讨(~饭)	3534	BEG	v.	beg (for food)
 Huang-1992-1820-1665	1665	put on (another layer of clothing)	套（～衣服）	158	PUT ON	v.	put on (another layer of clothing)
 Huang-1992-1820-1666	1666	ache (head)	痛(头~) ((伤口)~)	1815	ACHE	v.	ache (head)
 Huang-1992-1820-1667	1667	kick	踢	1135	KICK	v.	kick
@@ -1803,9 +1803,9 @@ Huang-1992-1820-1801	1801	plant / raise (wheat) (scatter)	种(~麦子) (点~)	14
 Huang-1992-1820-1802	1802	swell (of tissue)	肿	1573	SWELL	v.	swell (of tissue)
 Huang-1992-1820-1803	1803	use or lean on ( a walking stick)	柱（～拐棍）	2072	USE (VERB)	v.	use or lean on ( a walking stick)
 Huang-1992-1820-1804	1804	cook / boil (water, meat)	煮 (~(水,肉))	2492	BOIL (SOMETHING)	v.	cook / boil (water, meat)
-Huang-1992-1820-1805	1807	turn (a corner)	转弯	1588	TURN	v.	turn (a corner)
-Huang-1992-1820-1806	1808	turn (round and round)	转动(~了)	1444	TURN AROUND	v.	turn (round and round)
-Huang-1992-1820-1807	1809	turn (cause to)	转动(使~)	1445	TURN (SOMETHING)	v.	turn (cause to)
+Huang-1992-1820-1805	1807	turn (a corner)	转弯	1444	TURN AROUND	v.	turn (a corner)
+Huang-1992-1820-1806	1808	turn (round and round)	转动(~了)	1445	TURN (SOMETHING)	v.	turn (round and round)
+Huang-1992-1820-1807	1809	turn (cause to)	转动(使~)			v.	turn (cause to)
 Huang-1992-1820-1808	1810	put into a container / pack	装(~进)			v.	put into a container / pack
 Huang-1992-1820-1809	1811	chase after	追	1047	PURSUE	v.	chase after
 Huang-1992-1820-1810	1812	prepare / get ready / intend	准备	2909	PREPARE	v.	prepare / get ready / intend

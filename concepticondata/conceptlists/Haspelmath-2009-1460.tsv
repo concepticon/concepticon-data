@@ -590,7 +590,7 @@ Haspelmath-2009-1460-588	190	MOW	588	to mow	8-32	http://wold.clld.org/meaning/8-
 Haspelmath-2009-1460-589	2132	SICKLE OR SCYTHE	589	the sickle or scythe	8-33	http://wold.clld.org/meaning/8-33	8.33	-	-	Noun	8	0.873333333333	0.522222222222	0.916666666667	45	134
 Haspelmath-2009-1460-590	285	THRESH	590	to thresh	8-34	http://wold.clld.org/meaning/8-34	8.34	-	-	Verb	8	0.840740740741	0.173611111111	0.826388888889	40	450
 Haspelmath-2009-1460-591	223	THRESHING-FLOOR	591	the threshing-floor	8-35	http://wold.clld.org/meaning/8-35	8.35	-	-	Noun	8	0.8	0.177966101695	0.754237288136	30	1054
-Haspelmath-2009-1460-592	611	HARVEST	592	the harvest	8-41	http://wold.clld.org/meaning/8-41	8.41	-	-	Noun	8	0.800605536332	0.272491349481	0.733996539792	41	1044
+Haspelmath-2009-1460-592	3541	HARVEST OR HARVEST SEASON	592	the harvest	8-41	http://wold.clld.org/meaning/8-41	8.41	-	-	Noun	8	0.800605536332	0.272491349481	0.733996539792	41	1044
 Haspelmath-2009-1460-593	605	GRAIN	593	the grain	8-42	http://wold.clld.org/meaning/8-42	8.42	(barley, oats, etc.)	-	Noun	8	0.884962406015	0.390977443609	0.906015037594	41	78
 Haspelmath-2009-1460-594	1077	WHEAT	594	the wheat	8-43	http://wold.clld.org/meaning/8-43	8.43	-	-	Noun	8	0.862068965517	0.522413793103	0.910344827586	38	224
 Haspelmath-2009-1460-595	932	BARLEY	595	the barley	8-44	http://wold.clld.org/meaning/8-44	8.44	-	-	Noun	8	0.862385321101	0.548165137615	0.95871559633	29	220
@@ -709,8 +709,8 @@ Haspelmath-2009-1460-708	1979	CHISEL	708	the chisel	9-84	http://wold.clld.org/me
 Haspelmath-2009-1460-709	647	PAINT (PIGMENTS)	709	the paint	9-88	http://wold.clld.org/meaning/9-88	9.88	'a liquid that one puts on a surface to make it a particular colour'	-	Noun	9	0.79497098646	0.518375241779	0.895551257253	50	1117
 Haspelmath-2009-1460-710	2001	PAINTING	710	to paint	9-89	http://wold.clld.org/meaning/9-89	9.89	'put paint on a surface'	We need to paint our house.	Verb	9	0.797323135755	0.334608030593	0.779158699809	53	1086
 Haspelmath-2009-1460-711	765	MOVE	711	to move	10-11	http://wold.clld.org/meaning/10-11	10.11	(transitive)	This rock is so heavy that it cannot be moved.	Verb	10	0.810638297872	0.281914893617	0.792553191489	48	898
-Haspelmath-2009-1460-712	1588	TURN	712	to turn	10-12	http://wold.clld.org/meaning/10-12	10.12	(transitive)	to turn one’s head	Verb	10	0.819011406844	0.148288973384	0.757604562738	50	763
-Haspelmath-2009-1460-713	1445	TURN (SOMETHING)	713	to turn around	10-13	http://wold.clld.org/meaning/10-13	10.13	(intransitive)	He heard someone call out his name and turned around.	Verb	10	0.761148648649	0.0962837837838	0.690878378378	54	1366
+Haspelmath-2009-1460-712			712	to turn	10-12	http://wold.clld.org/meaning/10-12	10.12	(transitive)	to turn one’s head	Verb	10	0.819011406844	0.148288973384	0.757604562738	50	763
+Haspelmath-2009-1460-713	1444	TURN AROUND	713	to turn around	10-13	http://wold.clld.org/meaning/10-13	10.13	(intransitive)	He heard someone call out his name and turned around.	Verb	10	0.761148648649	0.0962837837838	0.690878378378	54	1366
 Haspelmath-2009-1460-714	1113	WRAP	714	to wrap	10-14	http://wold.clld.org/meaning/10-14	10.14	-	He wrapped the fish in leaves and steamed it.	Verb	10	0.830208333333	0.114583333333	0.893229166667	50	613
 Haspelmath-2009-1460-715	827	ROLL	715	to roll	10-15	http://wold.clld.org/meaning/10-15	10.15	(transitive)	He rolled the log down the hill.	Verb	10	0.80995508982	0.187125748503	0.800711077844	49	912
 Haspelmath-2009-1460-716	2866	DROP (SOMETHING)	716	to drop	10-16	http://wold.clld.org/meaning/10-16	10.16	(transitive)	We dropped the stone into the water.	Verb	10	0.81679389313	0.0404131118096	0.676695105523	44	794
@@ -804,7 +804,7 @@ Haspelmath-2009-1460-804	681	DESTROY	804	to destroy	11-27	http://wold.clld.org/m
 Haspelmath-2009-1460-805	44	INJURE	805	to injure	11-28	http://wold.clld.org/meaning/11-28	11.28	'to cause bodily harm'	The falling tree injured two loggers.	Verb	11	0.799298245614	0.186842105263	0.741228070175	55	1058
 Haspelmath-2009-1460-806	1468	LOOK FOR	806	to look for	11-31	http://wold.clld.org/meaning/11-31	11.31	-	I am looking for my purse; I must have lost it on my way.	Verb	11	0.852362204724	0.0836614173228	0.883858267717	46	316
 Haspelmath-2009-1460-807	719	FIND	807	to find	11-32	http://wold.clld.org/meaning/11-32	11.32	-	I had lost my purse but I found it again.	Verb	11	0.824472960587	0.0859303391384	0.872823098075	48	688
-Haspelmath-2009-1460-808	1660	LOSE	808	to lose	11-33	http://wold.clld.org/meaning/11-33	11.33	-	I had lost my purse but I found it again.	Verb	11	0.815702479339	0.0371900826446	0.752066115702	44	810
+Haspelmath-2009-1460-808	3072	MISPLACE	808	to lose	11-33	http://wold.clld.org/meaning/11-33	11.33	-	I had lost my purse but I found it again.	Verb	11	0.815702479339	0.0371900826446	0.752066115702	44	810
 Haspelmath-2009-1460-809	1095	LET GO OR SET FREE	809	to let go	11-34	http://wold.clld.org/meaning/11-34	11.34	‘stop holding something/someone’	She let go of the rope.	Verb	11	0.788143599433	0.119272555503	0.802786962683	49	1186
 Haspelmath-2009-1460-810	1559	MONEY	810	the money	11-43	http://wold.clld.org/meaning/11-43	11.43	-	A thousand dollars is a lot of money.	Noun	11	0.865714285714	0.5375	0.970535714286	53	186
 Haspelmath-2009-1460-811	1867	COIN	811	the coin	11-44	http://wold.clld.org/meaning/11-44	11.44	-	I don't have any coins left, only paper money.	Noun	11	0.804214559387	0.533524904215	0.816091954023	48	989
