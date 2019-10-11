@@ -461,7 +461,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 460	BREAK (OF ROPE)	Basic actions and technology	The breaking of a thread or strap.	Action/Process	
 461	BOUBOU	Clothing and grooming	A flowing wide sleeved robe worn by men in much of West Africa, and to a lesser extent in North Africa.	Person/Thing	
 462	WRAPPER	Clothing and grooming	A colorful women's garment widely worn in West Africa.	Person/Thing	
-463	FELL (A TREE)	Agriculture and vegetation	To cut down a tree.	Action/Process	
+463	FELL (A TREE)	Agriculture and vegetation	To cut down a tree.	Action/Process	355
 464	ALANG-ALANG GRASS	Agriculture and vegetation	It is a perennial high grown grass native to Asia, Australia and Africa.	Person/Thing	
 465	CARRY ON BACK	Motion	To hold or to take something from one place to another on the back.	Action/Process	
 466	CASSOWARY	Animals	A big flightless bird native to tropical forests of New Guinea, nearby islands and northeastern Australia.	Person/Thing	
@@ -1753,7 +1753,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1752	LEAVE	Motion	To move away from a place, a situation or a talk.	Action/Process	
 1753	TOP	Spatial relations	Highest and most elevated point.	Person/Thing	
 1754	BRACELET	Clothing and grooming	Piece of jewellery worn around the wrist.	Person/Thing	
-1755	UNDRESS	Clothing and grooming	To take off all of one's clothes.	Action/Process	
+1755	UNDRESS	Clothing and grooming	To take off all of one's clothes, or to take off a piece of clothing or similar	Action/Process	
 1756	WIDOW	Kinship	A woman whose spouse has died.	Person/Thing	
 1757	TIRED	The body	In need of some rest or sleep, due to lack of sleep or as a result of hard work or physical activity.	Property	
 1758	OLDER SISTER	Kinship	A female with more years of age than one or more of her siblings.	Person/Thing	
@@ -2241,7 +2241,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2240	CORAL SNAKE	Animals	A large group of elapid snakes that can be subdivided into two distinct groups, Old World coral snakes and New World coral snakes.	Person/Thing	
 2241	WILD CAT	Animals	A small cat found throughout most of Africa, Europe, and southwest and central Asia into India, China, and Mongolia.	Person/Thing	
 2242	BEETLE	Animals	A group of insects which are biologically classified in the order Coleoptera /koʊliːˈɒptərə/.	Person/Thing	
-2243	REPAIR	Basic actions and technology	To patch up something which was broken before.	Action/Process	
+2243	REPAIR	Basic actions and technology	To restore something by replacing a broken part or putting together what is broken.	Action/Process	
 2244	METAL	The physical world	A material (an element, compound, or alloy) that is typically hard, opaque, shiny, and has good electrical and thermal conductivity.	Person/Thing	
 2245	BELCH	Basic actions and technology	To release gas from the digestive tract through the mouth.	Action/Process	
 2246	BELL	Basic actions and technology	A simple sound-making device.	Person/Thing	
@@ -2759,7 +2759,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2759	RECOMMEND	Basic actions and technology	To suggest something or somebody.	Person/Thing	
 2760	MAKE A JOKE	Basic actions and technology	To say something which is not meant seriously.	Person/Thing	
 2761	BEND (ONESELF)	Basic actions and technology	To turn oneself over.	Person/Thing	
-2762	BLOCK (THE WAY)	Basic actions and technology	To prevent somebody to pass.	Person/Thing	
+2762	BLOCK (THE WAY)	Basic actions and technology	To prevent somebody or something from passing.	Person/Thing	
 2763	CARRY HORIZONTALLY	Basic actions and technology	To carry some object horizontally.	Person/Thing	
 2764	CHICKEN NEST	Animals	The nest of a chicken.	Person/Thing	
 2765	CHERRY	Food and drink	Fruit of the Cherry tree.	Person/Thing	
@@ -3067,7 +3067,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3071	INSERT	Motion	To cause something to go into; to infix; to introduce.	Action/Process	
 3072	MISPLACE	Basic actions and technology	To place something in a place where one cannot find it again or in a wrong place; to lose something.	Action/Process	
 3073	MANAGE	Basic actions and technology	To watch and direct someone and/or some activity; to be in charge.	Action/Process	
-3074	FIX	Basic actions and technology	To restore something by replacing a broken part or putting together what is broken; to patch; to restore; to mend.	Action/Process	
+3074	FIX	Basic actions and technology	To restore something by replacing a broken part or putting together what is broken, or to repair a hole in a cloth or wheel.	Action/Process	
 3075	SLANTED	Spatial relations	Being positioned not straight vertically or horizontally.	Property	
 3076	SLOPE	The physical world	A stretch of ground forming a geological incline, e.g. a hillside.	Person/Thing	
 3077	SWALLOW (BIRD)	Animals	Any of the various passerine birds of the family Hirundinidae; martin.	Person/Thing	
@@ -3525,3 +3525,12 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3539	BURN LAND	Agriculture and vegetation	Clear an area with fire.	Action/Process	
 3540	STRAW RAINCOAT	Clothing and grooming	A traditional East Asian garment made out of straw, worn against the rain. In Japanese it's called mino.	Person/Thing	
 3541	HARVEST OR HARVEST SEASON	Agriculture and vegetation	The crop gathered in a season and the time during which crops are typically harvested.	Person/Thing	
+3542	PREPARED FOOD	Food and drink	Food prepared to be eaten during a meal or as a snack.	Person/Thing	
+3543	SAW (SOMETHING)	Basic actions and technology	To cut something with a saw.	Action/Process	
+3544	WAVE (VERB)	Basic actions and technology	To move one's hand or arm in a waving motion, with or without holding something like a flag.	Action/Process	
+3545	WATERY	Fodd and drink	(Of a liquid or meal) to be thin and watery.	Property	
+3546	HORSE MANE	Animals	The long hair on a horse's head and neck.	Person/Thing	
+3547	CLOSE (MOUTH)	The body	To close one's mouth.	Action/Process	
+3548	PULL UP WEEDS	Agriculture and vegetation	To remove weeds from e.g. a field.	Action/Process	
+3549	BIRD NEST	Animals	A nest in which birds lay and hatch their eggs.	Person/Thing	
+3550	PATCH	Basic actions and technology	To repair a hole in a cloth or wheel.	Action/Process	
