@@ -45,6 +45,7 @@
 - [Gudschinsky1956 [PDF 3.5MB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-DCEC-5E9C-503D-0/Gudschinsky1956.pdf)
 - [Hattori1961 [PDF 43.0KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-28B2-C812-C8D6-0/Hattori1961.pdf)
 - [Hattori1973 [PDF 1.5MB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-D793-BF6A-3B28-0/Hattori1973.pdf)
+- [Hays1972 [PDF 195.6KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-0A2D-2324-DF7D-0/Hays1972.pdf)
 - [He2010 [PDF 118.0KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-36FC-4B7B-E95D-0/He2010.pdf)
 - [Heeschen1978 [PDF 532.0KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-C0FD-01FA-AD93-0/Heeschen1978.pdf)
 - [Holman2008 [PDF 41.1KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-2ADD-93A3-8905-0/Holman2008.pdf)
