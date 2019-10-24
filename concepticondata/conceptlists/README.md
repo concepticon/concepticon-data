@@ -168,11 +168,12 @@
 | [Mitterhofer-2013-300](Mitterhofer-2013-300.tsv) | 298 | 99 | 3 |
 | [Mitterhofer-2013-355](Mitterhofer-2013-355.tsv) | 342 | 96 | 7 |
 | [Mitterhofer-2013-95](Mitterhofer-2013-95.tsv) | 88 | 92 | 4 |
-| [Nagano-2013-1256](Nagano-2013-1256.tsv) | 965 | 76 | 83 |
+| [Nagano-2013-1256](Nagano-2013-1256.tsv) | 969 | 77 | 84 |
 | [Nagaraja-2013-200](Nagaraja-2013-200.tsv) | 200 | 100 | 0 |
 | [Nahhas-2006-100](Nahhas-2006-100.tsv) | 100 | 100 | 0 |
 | [Nelson-2001-89](Nelson-2001-89.tsv) | 89 | 100 | 0 |
 | [Nicholas-1989-60](Nicholas-1989-60.tsv) | 59 | 98 | 0 |
+| [Nordlinger-2019-57](Nordlinger-2019-57.tsv) | 47 | 82 | 0 |
 | [Norman-2003-40](Norman-2003-40.tsv) | 40 | 100 | 0 |
 | [OGrady-1969-100](OGrady-1969-100.tsv) | 100 | 100 | 0 |
 | [Ogden-1930-100](Ogden-1930-100.tsv) | 77 | 77 | 1 |
@@ -196,6 +197,7 @@
 | [Reinhard-1970-337](Reinhard-1970-337.tsv) | 296 | 88 | 26 |
 | [Ringe-1992-100](Ringe-1992-100.tsv) | 100 | 100 | 0 |
 | [Ringe-2002-333](Ringe-2002-333.tsv) | 333 | 100 | 0 |
+| [Ritchie-2019-110](Ritchie-2019-110.tsv) | 110 | 100 | 0 |
 | [Robinson-2012-398](Robinson-2012-398.tsv) | 391 | 98 | 0 |
 | [SIL-1980-281](SIL-1980-281.tsv) | 281 | 99 | 1 |
 | [SIL-2002-436](SIL-2002-436.tsv) | 441 | 99 | 5 |
@@ -272,5 +274,5 @@
 | [Zorc-1974-100](Zorc-1974-100.tsv) | 100 | 100 | 0 |
 | [vanderWouw-1974-28](vanderWouw-1974-28.tsv) | 28 | 100 | 0 |
 
-(269 rows)
+(271 rows)
 
