@@ -1,12 +1,12 @@
 
 # Concepticon Statistics
-* concept sets (used): 3440
-* concept lists: 269
-* concept labels: 54509
-* concept labels (unique): 13289
-* Ø concepts per list: 202.64
-* Ø concepts per concept set: 15.85
-* Ø unique concept labels per concept set: 4.01
+* concept sets (used): 3489
+* concept lists: 271
+* concept labels: 54670
+* concept labels (unique): 13342
+* Ø concepts per list: 201.73
+* Ø concepts per concept set: 15.67
+* Ø unique concept labels per concept set: 3.97
 
 
 ## Twenty Most Diverse Concept Sets
@@ -38,23 +38,23 @@
 
 | No. | concept set | distinct labels | concept lists | examples |
 |------:|:--------------|------------------:|----------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1 | EYE | 17 | 214 | «(his) eye», «(its) eye», «EYE», «Eyes», «Eye», «`*`eye», «eye (1)», «eye (2)», «eye (my)», «eye (noun)», «eye`*`», «eyeball», «eyes», «eye», «ojo», «one eye», «the eye» |
-| 2 | TOOTH | 23 | 210 | «(his) tooth», «(its) tooth», «TOOTH (FRONT)», «TOOTH», «Teeth», «Tooth», «`*`tooth», «diente», «one tooth», «teeth, tooth (noun)», «teeth», «the tooth (front)», «the tooth», «tooth (front rather than molar)», «tooth (general)», «tooth (incisor)», «tooth (molar)», «tooth (my)», «tooth (noun)», «tooth (rather not molar)», «tooth+», «tooth`*`», «tooth» |
-| 3 | WATER | 15 | 209 | «WATER», «Water», «`*`water», «agua», «the water (one mouth of water)», «the water», «water (1)», «water (2)», «water (fresh water)», «water (fresh)», «water (n)», «water (noun)», «water+», «water`*`», «water» |
-| 4 | BLOOD | 13 | 207 | «(its) blood», «BLOOD», «Blood», «`*`blood», «blood (1)», «blood (2)», «blood (n)», «blood (noun)», «blood`*`», «blood», «his blood», «sangre», «the blood» |
-| 5 | TONGUE | 17 | 206 | «(his) tongue», «(its) tongue», «TONGUE», «Tongue», «`*`Tongue», «`*`tongue», «lengua», «the tongue», «tongue (1)», «tongue (2)», «tongue (anatomical)», «tongue (body part)», «tongue (my)», «tongue (noun)», «tongue (of a human being)», «tongue`*`», «tongue» |
-| 6 | NOSE | 15 | 206 | «(his) nose», «(its) nose», «NOSE», «Nose», «`*`nose», «nariz», «nose (1)», «nose (2)», «nose (my)», «nose (noun)», «nose++», «nose; to smell», «nose`*`», «nose», «the nose» |
-| 7 | TWO | 16 | 205 | «2», «TWO2», «TWO», «Two», «[CL] `*`two», «`*`two», «dos», «two (1)», «two (2)», «two (numeral)», «two (people)», «two (persons)», «two (things)», «two/pair», «two`*`», «two» |
-| 8 | FIRE | 12 | 205 | «FIRE, (FIREWOOD)», «FIRE», «Fire», «`*`fire», «candela, fuego», «fire (for cooking)/heat», «fire (n.)», «fire (noun)», «fire-», «fire`*`», «fire», «the fire» |
-| 9 | EAR | 19 | 205 | «(his) ear», «(its) ear», «EAR2», «EAR», «Ear», «`*`ear», «ear (1)», «ear (2)», «ear (my)», «ear (noun)», «ear(s)», «ear-», «ear`*`», «ears», «ear», «noise, ear», «one ear», «oreja», «the ear» |
-| 10 | STAR | 11 | 204 | «STAR», «Stars», «Star», «`*`star», «estrella», «one star», «star (noun)», «star++», «star`*`», «star», «the star» |
-| 11 | DOG | 10 | 203 | «DOG», «Dog», «`*`dog», «dog (noun)», «dog+», «dog`*`», «dog», «hound», «perro», «the dog» |
-| 12 | BONE | 12 | 203 | «(its) bone», «BONE», «Bone», «`*`bone», «bone (my)», «bone (noun)», «bone`*`», «bones», «bone», «his bone», «hueso», «the bone» |
-| 13 | ONE | 12 | 202 | «1», «ONE», «One», «[CL] `*`one», «`*`one», «one (numeral)», «one (person)», «one (thing)», «one++», «one`*`», «one», «uno» |
-| 14 | SUN | 13 | 200 | «SUN, (SUMMER)», «SUN2, (DAY)», «SUN», «Sun», «`*`sun», «sol», «sun (1)», «sun (2)», «sun (noun)», «sun+», «sun`*`», «sun», «the sun» |
-| 15 | HEAD | 15 | 197 | «(his) head», «(its) head», «11a. head (2)», «HEAD», «Head», «`*`head», «head (1)», «head (3)», «head (anatomic)», «head (my)», «head (noun)», «head++», «head`*`», «head», «the head» |
+| 1 | EYE | 17 | 215 | «(his) eye», «(its) eye», «EYE», «Eyes», «Eye», «`*`eye», «eye (1)», «eye (2)», «eye (my)», «eye (noun)», «eye`*`», «eyeball», «eyes», «eye», «ojo», «one eye», «the eye» |
+| 2 | WATER | 15 | 210 | «WATER», «Water», «`*`water», «agua», «the water (one mouth of water)», «the water», «water (1)», «water (2)», «water (fresh water)», «water (fresh)», «water (n)», «water (noun)», «water+», «water`*`», «water» |
+| 3 | TOOTH | 23 | 210 | «(his) tooth», «(its) tooth», «TOOTH (FRONT)», «TOOTH», «Teeth», «Tooth», «`*`tooth», «diente», «one tooth», «teeth, tooth (noun)», «teeth», «the tooth (front)», «the tooth», «tooth (front rather than molar)», «tooth (general)», «tooth (incisor)», «tooth (molar)», «tooth (my)», «tooth (noun)», «tooth (rather not molar)», «tooth+», «tooth`*`», «tooth» |
+| 4 | NOSE | 15 | 207 | «(his) nose», «(its) nose», «NOSE», «Nose», «`*`nose», «nariz», «nose (1)», «nose (2)», «nose (my)», «nose (noun)», «nose++», «nose; to smell», «nose`*`», «nose», «the nose» |
+| 5 | BLOOD | 13 | 207 | «(its) blood», «BLOOD», «Blood», «`*`blood», «blood (1)», «blood (2)», «blood (n)», «blood (noun)», «blood`*`», «blood», «his blood», «sangre», «the blood» |
+| 6 | TWO | 16 | 206 | «2», «TWO2», «TWO», «Two», «[CL] `*`two», «`*`two», «dos», «two (1)», «two (2)», «two (numeral)», «two (people)», «two (persons)», «two (things)», «two/pair», «two`*`», «two» |
+| 7 | TONGUE | 17 | 206 | «(his) tongue», «(its) tongue», «TONGUE», «Tongue», «`*`Tongue», «`*`tongue», «lengua», «the tongue», «tongue (1)», «tongue (2)», «tongue (anatomical)», «tongue (body part)», «tongue (my)», «tongue (noun)», «tongue (of a human being)», «tongue`*`», «tongue» |
+| 8 | FIRE | 12 | 206 | «FIRE, (FIREWOOD)», «FIRE», «Fire», «`*`fire», «candela, fuego», «fire (for cooking)/heat», «fire (n.)», «fire (noun)», «fire-», «fire`*`», «fire», «the fire» |
+| 9 | EAR | 19 | 206 | «(his) ear», «(its) ear», «EAR2», «EAR», «Ear», «`*`ear», «ear (1)», «ear (2)», «ear (my)», «ear (noun)», «ear(s)», «ear-», «ear`*`», «ears», «ear», «noise, ear», «one ear», «oreja», «the ear» |
+| 10 | STAR | 11 | 205 | «STAR», «Stars», «Star», «`*`star», «estrella», «one star», «star (noun)», «star++», «star`*`», «star», «the star» |
+| 11 | DOG | 10 | 204 | «DOG», «Dog», «`*`dog», «dog (noun)», «dog+», «dog`*`», «dog», «hound», «perro», «the dog» |
+| 12 | BONE | 12 | 204 | «(its) bone», «BONE», «Bone», «`*`bone», «bone (my)», «bone (noun)», «bone`*`», «bones», «bone», «his bone», «hueso», «the bone» |
+| 13 | ONE | 12 | 203 | «1», «ONE», «One», «[CL] `*`one», «`*`one», «one (numeral)», «one (person)», «one (thing)», «one++», «one`*`», «one», «uno» |
+| 14 | SUN | 13 | 201 | «SUN, (SUMMER)», «SUN2, (DAY)», «SUN», «Sun», «`*`sun», «sol», «sun (1)», «sun (2)», «sun (noun)», «sun+», «sun`*`», «sun», «the sun» |
+| 15 | HEAD | 15 | 198 | «(his) head», «(its) head», «11a. head (2)», «HEAD», «Head», «`*`head», «head (1)», «head (3)», «head (anatomic)», «head (my)», «head (noun)», «head++», «head`*`», «head», «the head» |
 | 16 | STONE | 13 | 196 | «STONE2», «STONE», «Stone», «`*`stone», «piedra», «rock», «stone (noun)», «stone / rock», «stone--», «stone_rock», «stone`*`», «stone», «the stone (a piece of)» |
-| 17 | EAT | 31 | 196 | «(he) ate», «(he) eats», «(you) eat!», «EAT (VERB)», «EAT», «Eat», «I eat (verb)», «TO EAT», «To eat», «`*`eat», «ate», «eat (1)», «eat (1st)», «eat (2)», «eat (to)», «eat (vt)», «eat! (2s)», «eat!», «eat, to», «eats», «eat», «he eats (verb)», «he eats», «he is eating», «to eat (verb)», «to eat / eat!», «to eat`*`», «to eat», «to_eat», «you eat (verb)», «you eat!» |
-| 18 | MOUTH | 16 | 195 | «(his) mouth», «MOUTH2», «MOUTH3», «MOUTH», «Mouth», «`*`mouth», «mouth (my)», «mouth (noun)», «mouth (of a person)», «mouth (opening) (note:mouth | opening)», «mouth---», «mouth1», «mouth2», «mouth`*`», «mouth», «the mouth» |
-| 19 | NAME | 12 | 193 | «(its) name», «NAME», «Name», «`*`name», «name (noun)», «name (noun,though some overlap with verb)», «name (of a person)», «name`*`», «name», «nombre», «the name», «to name» |
-| 20 | FISH | 19 | 193 | «FISH2», «FISH», «Fish (n.)», «Fish», «PACU FISH», «`*`fish», «fish (1)», «fish (2)», «fish (N)», «fish (n)», «fish (n.)», «fish (noun)», «fish+», «fish`*`», «fish», «pacu fish», «pescado», «the fish (one piece of fish)», «the fish» |
+| 17 | MOUTH | 16 | 196 | «(his) mouth», «MOUTH2», «MOUTH3», «MOUTH», «Mouth», «`*`mouth», «mouth (my)», «mouth (noun)», «mouth (of a person)», «mouth (opening) (note:mouth | opening)», «mouth---», «mouth1», «mouth2», «mouth`*`», «mouth», «the mouth» |
+| 18 | EAT | 31 | 196 | «(he) ate», «(he) eats», «(you) eat!», «EAT (VERB)», «EAT», «Eat», «I eat (verb)», «TO EAT», «To eat», «`*`eat», «ate», «eat (1)», «eat (1st)», «eat (2)», «eat (to)», «eat (vt)», «eat! (2s)», «eat!», «eat, to», «eats», «eat», «he eats (verb)», «he eats», «he is eating», «to eat (verb)», «to eat / eat!», «to eat`*`», «to eat», «to_eat», «you eat (verb)», «you eat!» |
+| 19 | FISH | 19 | 194 | «FISH2», «FISH», «Fish (n.)», «Fish», «PACU FISH», «`*`fish», «fish (1)», «fish (2)», «fish (N)», «fish (n)», «fish (n.)», «fish (noun)», «fish+», «fish`*`», «fish», «pacu fish», «pescado», «the fish (one piece of fish)», «the fish» |
+| 20 | NAME | 12 | 193 | «(its) name», «NAME», «Name», «`*`name», «name (noun)», «name (noun,though some overlap with verb)», «name (of a person)», «name`*`», «name», «nombre», «the name», «to name» |
