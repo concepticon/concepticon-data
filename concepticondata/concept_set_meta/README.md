@@ -13,4 +13,3 @@
 | Edinburgh Associative Thesaurus                                        | eat          |             2061 |        57.46 |
 | Mapping to BabelNet                                                    | babelnet     |              769 |        21.44 |
 | Automatic mapping to Age of Acquisition Data by Kuperman et al. (2012) | aoa_kuperman |             1853 |        51.66 |
-| Mapping to SimLex999                                                   | SimLex999    |              472 |        13.16 |
