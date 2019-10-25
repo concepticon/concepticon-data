@@ -523,7 +523,7 @@ Hale-1973-1798-521	Plants-74	prick (thorn)	v	04b.10
 Hale-1973-1798-522	Plants-75	scratch (thorn)	v	04b.11		
 Hale-1973-1798-523	Plants-76	wither	v	04b.12	2907	ROT
 Hale-1973-1798-524	Plants-77	fall	v	04b.13	1280	FALL
-Hale-1973-1798-525	Plants-78	fell	v	04b.13a	463	FELL (A TREE)
+Hale-1973-1798-525	Plants-78	fell	v	04b.13a	355	CUT DOWN
 Hale-1973-1798-526	Plants-79	prune	v	04b.14		
 Hale-1973-1798-527	Plants-80	plant	v	04b.15	1486	PLANT (SOMETHING)
 Hale-1973-1798-528	Plants-81	uproot	v	04b.16		
@@ -907,7 +907,7 @@ Hale-1973-1798-905	Food_and_Clothing-102	heat	v	07b2.11	1341	HEAT UP
 Hale-1973-1798-906	Food_and_Clothing-103	cool	v	07b2.12	3068	COOL DOWN
 Hale-1973-1798-907	Food_and_Clothing-104	become soft (ripe)	v	07b2.13	178	RIPE
 Hale-1973-1798-908	Food_and_Clothing-105	season	v	07b2.14		
-Hale-1973-1798-909	Food_and_Clothing-106	put on (the stove)	v	07b2.15	158	PUT ON
+Hale-1973-1798-909	Food_and_Clothing-106	put on (the stove)	v	07b2.15	737	LIGHT (IGNITE)
 Hale-1973-1798-910	Food_and_Clothing-107	take off (the stove)	v	07b2.16		
 Hale-1973-1798-911	Food_and_Clothing-108	become sour	v	07b2.17	2229	BECOME SOUR
 Hale-1973-1798-912	Food_and_Clothing-109	season (with spices fried in butter)	v	07b2.18		
@@ -965,7 +965,7 @@ Hale-1973-1798-963	Food_and_Clothing-160	put away	v	07b3.26
 Hale-1973-1798-964	Food_and_Clothing-161	take out	v	07b3.27		
 Hale-1973-1798-965	Food_and_Clothing-162	become torn	v	07b3.28		
 Hale-1973-1798-966	Food_and_Clothing-163	mend	v	07b3.29	2243	REPAIR
-Hale-1973-1798-967	Food_and_Clothing-164	patch	v	07b3.30	3074	FIX
+Hale-1973-1798-967	Food_and_Clothing-164	patch	v	07b3.30	3550	PATCH
 Hale-1973-1798-968	Food_and_Clothing-165	become worn out	v	07b3.31		
 Hale-1973-1798-969	Food_and_Clothing-166	last (stay in good condition)	v	07b3.32		
 Hale-1973-1798-970	Food_and_Clothing-167	dress	v	07b3.33	814	DRESS UP
@@ -1204,7 +1204,7 @@ Hale-1973-1798-1202	Human_Mind_and_Conditions-90	listen	v	10b1.17	1608	LISTEN
 Hale-1973-1798-1203	Human_Mind_and_Conditions-91	approve, confirm	v	10b1.18		
 Hale-1973-1798-1204	Human_Mind_and_Conditions-92	obey	v	10b1.19	1635	OBEY
 Hale-1973-1798-1205	Human_Mind_and_Conditions-93	request	v	10b1.20	1828	ASK (REQUEST)
-Hale-1973-1798-1206	Human_Mind_and_Conditions-94	beg	v	10b1.21	1828	ASK (REQUEST)
+Hale-1973-1798-1206	Human_Mind_and_Conditions-94	beg	v	10b1.21	3534	BEG
 Hale-1973-1798-1207	Human_Mind_and_Conditions-95	persist	v	10b1.22		
 Hale-1973-1798-1208	Human_Mind_and_Conditions-96	persuade	v	10b1.23		
 Hale-1973-1798-1209	Human_Mind_and_Conditions-97	force	v	10b1.24		
@@ -1228,7 +1228,7 @@ Hale-1973-1798-1226	Human_Mind_and_Conditions-114	give	v	10b1.41	1447	GIVE
 Hale-1973-1798-1227	Human_Mind_and_Conditions-115	give back	v	10b1.42	85	GIVE BACK
 Hale-1973-1798-1228	Human_Mind_and_Conditions-116	give in	v	10b1.43		
 Hale-1973-1798-1229	Human_Mind_and_Conditions-117	give up	v	10b1.44	1696	SURRENDER
-Hale-1973-1798-1230	Human_Mind_and_Conditions-118	greet	v	10b1.45		
+Hale-1973-1798-1230	Human_Mind_and_Conditions-118	greet	v	10b1.45	3552	GREET
 Hale-1973-1798-1231	Human_Mind_and_Conditions-119	guard	v	10b1.46		
 Hale-1973-1798-1232	Human_Mind_and_Conditions-120	help	v	10b1.47	1897	HELP
 Hale-1973-1798-1233	Human_Mind_and_Conditions-121	meet	v	10b1.48	1831	MEET
@@ -1240,7 +1240,7 @@ Hale-1973-1798-1238	Human_Mind_and_Conditions-126	mourn	v	10b1.53	1839	CRY
 Hale-1973-1798-1239	Human_Mind_and_Conditions-127	pity (s.o.)	v	10b1.54		
 Hale-1973-1798-1240	Human_Mind_and_Conditions-128	know (s.o.)	v	10b1.55	2248	KNOW (SOMEBODY)
 Hale-1973-1798-1241	Human_Mind_and_Conditions-129	order to come	v	10b1.56		
-Hale-1973-1798-1242	Human_Mind_and_Conditions-130	beg	v	10b1.57	1828	ASK (REQUEST)
+Hale-1973-1798-1242	Human_Mind_and_Conditions-130	beg	v	10b1.57	3534	BEG
 Hale-1973-1798-1243	Human_Mind_and_Conditions-131	betray	v	10b1.58	1902	BETRAY
 Hale-1973-1798-1244	Human_Mind_and_Conditions-132	cheat	v	10b1.59	3230	DECEIVE
 Hale-1973-1798-1245	Human_Mind_and_Conditions-133	command	v	10b1.60	1998	COMMAND
@@ -1268,7 +1268,7 @@ Hale-1973-1798-1266	Human_Mind_and_Conditions-154	quarrel	v	10b1.81	1848	QUARREL
 Hale-1973-1798-1267	Human_Mind_and_Conditions-155	separate	v	10b1.82	1359	SEPARATE
 Hale-1973-1798-1268	Human_Mind_and_Conditions-156	fail (in an attempt)	v	10b1.83		
 Hale-1973-1798-1269	Human_Mind_and_Conditions-157	succeed	v	10b1.84	1112	SUCCEED
-Hale-1973-1798-1270	Human_Mind_and_Conditions-158	lose (be defeated)	v	10b1.85	1660	LOSE
+Hale-1973-1798-1270	Human_Mind_and_Conditions-158	lose (be defeated)	v	10b1.85	3535	BE DEFEATED
 Hale-1973-1798-1271	Human_Mind_and_Conditions-159	win	v	10b1.86	866	WIN
 Hale-1973-1798-1272	Human_Mind_and_Conditions-160	stop, hold up	v	10b1.87	2880	HALT (STOP)
 Hale-1973-1798-1273	Human_Mind_and_Conditions-161	read	v	10b2.01	724	READ
@@ -1283,7 +1283,7 @@ Hale-1973-1798-1281	Human_Mind_and_Conditions-169	learn by heart	v	10b2.09	71	BY
 Hale-1973-1798-1282	Human_Mind_and_Conditions-170	remember	v	10b2.10	707	REMEMBER
 Hale-1973-1798-1283	Human_Mind_and_Conditions-171	forget	v	10b2.11	1523	FORGET
 Hale-1973-1798-1284	Human_Mind_and_Conditions-172	think	v	10b2.12	2271	THINK
-Hale-1973-1798-1285	Human_Mind_and_Conditions-173	doubt	v	10b2.13	1308	DOUBT
+Hale-1973-1798-1285	Human_Mind_and_Conditions-173	doubt	v	10b2.13	3536	DOUBT (SOMETHING)
 Hale-1973-1798-1286	Human_Mind_and_Conditions-174	see	v	10b2.14	1409	SEE
 Hale-1973-1798-1287	Human_Mind_and_Conditions-175	look at	v	10b2.15	1819	LOOK
 Hale-1973-1798-1288	Human_Mind_and_Conditions-176	compare	v	10b2.16		
@@ -1706,7 +1706,7 @@ Hale-1973-1798-1704	Attributes-179	in front of		12c.56	1883	IN FRONT OF
 Hale-1973-1798-1705	Attributes-180	beside		12c.57	1816	BESIDE
 Hale-1973-1798-1706	Attributes-181	between		12c.58	689	BETWEEN
 Hale-1973-1798-1707	Attributes-182	above		12c.59	1741	ABOVE
-Hale-1973-1798-1708	Attributes-183	beneath		12c.60		
+Hale-1973-1798-1708	Attributes-183	beneath		12c.60	1485	BELOW OR UNDER
 Hale-1973-1798-1709	Attributes-184	around		12c.61		
 Hale-1973-1798-1710	Attributes-185	beyond		12c.62		
 Hale-1973-1798-1711	Attributes-186	across		12c.63	2670	ACROSS

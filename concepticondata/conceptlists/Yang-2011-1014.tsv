@@ -145,7 +145,7 @@ Yang-2011-1014-143	143	142	earthworm	蚯蚓	142	earthworm	2350	EARTHWORM
 Yang-2011-1014-144	144	143	worm	虫	143	worm	1219	WORM
 Yang-2011-1014-145	145	144	caterpillar	毛虫	144,0 / 144,1	caterpillar / caterpillar	2247	CATERPILLAR
 Yang-2011-1014-146	146	145	maggot	蛆/蛆虫	145	maggot	2640	LARVA
-Yang-2011-1014-147	147	146	nest	窝 (鸟窝)	146,0 / 146,1	nest / nest	539	NEST
+Yang-2011-1014-147	147	146	nest	窝 (鸟窝)	146,0 / 146,1	nest / nest	3549	BIRD NEST
 Yang-2011-1014-148	148	147	egg	蛋	147	egg	744	EGG
 Yang-2011-1014-149	149	148	wing	翅膀	148,1 / 148,0	wing / wing	1257	WING
 Yang-2011-1014-150	150	149	claw; talon	爪	149,0 / 149,1	claw; talon / claw; talon	72	CLAW
@@ -595,7 +595,7 @@ Yang-2011-1014-594	594	587	water	浇 (浇菜)	587	water	3078	IRRIGATE
 Yang-2011-1014-595	595	588	slice; cut	切 (切菜)	588	slice; cut		
 Yang-2011-1014-596	596	589	slice; cut	切 (切苹果、西瓜)	589	slice; cut		
 Yang-2011-1014-597	597	590	split; chop; cleave	劈 (劈木柴)	590	split; chop; cleave	1437	SPLIT
-Yang-2011-1014-598	598	591	chop (down)	砍 (砍树)	591	chop (down)	463	FELL (A TREE)
+Yang-2011-1014-598	598	591	chop (down)	砍 (砍树)	591	chop (down)	355	CUT DOWN
 Yang-2011-1014-599	599	592	cut (reap)	割 (割稻)	592	cut (reap)		
 Yang-2011-1014-600	600	593	whittle	削	593	whittle		
 Yang-2011-1014-601	601	594	stab	刺	594,1 / 594,0 / 594,1	stab / stab / stab	1434	STAB
@@ -622,10 +622,10 @@ Yang-2011-1014-621	621	613	mill (grinding)	磨 (磨米)	613	mill (grinding)	636	
 Yang-2011-1014-622	622	614	winnow with a fan	簸 (簸米)	614	winnow with a fan	2462	WINNOWING
 Yang-2011-1014-623	623	615	ladle out; spoon up	舀 (舀水)	615	ladle out; spoon up	2788	LADLE (WATER)
 Yang-2011-1014-624	624	616	wear; put on	穿 (衣服)	616	wear; put on	976	WEAR
-Yang-2011-1014-625	625	617	wear (hat); put on (hat)	戴 (帽子)	617	wear (hat); put on (hat)		
+Yang-2011-1014-625	625	617	wear (hat); put on (hat)	戴 (帽子)	617	wear (hat); put on (hat)	3428	WEAR (ON HEAD)
 Yang-2011-1014-626	626	618	wear (turban)	戴(头巾)	618	wear (turban)		
 Yang-2011-1014-627	627	619	wear (upper clothes)	穿(上衣)	619	wear (upper clothes)		
-Yang-2011-1014-628	628	620	clothe	给穿	620	clothe	158	PUT ON
+Yang-2011-1014-628	628	620	clothe	给穿	620	clothe		
 Yang-2011-1014-629	629	621	take off	脱 (脱衣服)	621	take off	1755	UNDRESS
 Yang-2011-1014-630	630	622	roll up	卷 (卷烟)	622	roll up		
 Yang-2011-1014-631	631	623	shave	剃 (头)	623	shave	231	SHAVE
@@ -659,7 +659,7 @@ Yang-2011-1014-658	658	649	nail	钉(钉钉子)	649	nail
 Yang-2011-1014-659	659	650	want	要 (我要这个)	650	want	1784	WANT
 Yang-2011-1014-660	660	651	get; obtain;	得 (得到)	651,0 / 651,1	get; obtain; / get; obtain;	694	GET
 Yang-2011-1014-661	661	652	receive	收 (收起来)	652	receive	7	GATHER
-Yang-2011-1014-662	662	653	lose	遗失	653	lose	1660	LOSE
+Yang-2011-1014-662	662	653	lose	遗失	653	lose	3072	MISPLACE
 Yang-2011-1014-663	663	654	seek (look for)	找/寻找	654	seek (look for)	1468	LOOK FOR
 Yang-2011-1014-664	664	655	use	用 (使用)	655	use	2072	USE (VERB)
 Yang-2011-1014-665	665	656	play	玩	656	play	1413	PLAY
@@ -749,7 +749,7 @@ Yang-2011-1014-748	748	739	fall; drop	掉 (掉在地下)	739	fall; drop	1280	FAL
 Yang-2011-1014-749	749	740	snap in two (rope, string)	断 (绳子断了)	740	snap in two (rope, string)		
 Yang-2011-1014-750	750	741	break	破 (罐子破了)	741	break	680	BREAK (DESTROY OR GET DESTROYED)
 Yang-2011-1014-751	751	742	leak	漏 (水桶漏水)	742	leak	2253	DRIP (EMIT LIQUID)
-Yang-2011-1014-752	752	743	boil	沸	743	boil	2493	BOIL
+Yang-2011-1014-752	752	743	boil	沸	743	boil	792	BOIL (OF LIQUID)
 Yang-2011-1014-753	753	744	change	变 (蛹变蛾)	744	change	1264	CHANGE
 Yang-2011-1014-754	754	745	birth	生 (生孩子)	745,2 / 745,0 / 745,1 / 745,3 / 745,4	birth / birth / birth / birth / birth	1195	GIVE BIRTH
 Yang-2011-1014-755	755	746	grow	长 (长大)	746	grow	479	GROW
@@ -824,7 +824,7 @@ Yang-2011-1014-823	823	812	situated crooked	歪 (帽子戴歪了)	812	situated c
 Yang-2011-1014-824	824	813	straight	直 (棍子很直)	813	straight	1404	STRAIGHT
 Yang-2011-1014-825	825	814	crooked; bent	弯 (棍子弯)	814	crooked; bent	297	CROOKED
 Yang-2011-1014-826	826	815	thick; dense	稠 (粥很稠)	815	thick; dense	2239	DENSE
-Yang-2011-1014-827	827	816	thin; watery; sparse	稀 (粥很稀)	816	thin; watery; sparse	207	SPARSE
+Yang-2011-1014-827	827	816	thin; watery; sparse	稀 (粥很稀)	816	thin; watery; sparse	3545	WATERY
 Yang-2011-1014-828	828	817	hard	硬	817,0 / 817,1	hard / hard	1884	HARD
 Yang-2011-1014-829	829	818	soft	软	818	soft	1856	SOFT
 Yang-2011-1014-830	830	819	bright; light	亮 (房子很亮)	819	bright; light	679	BRIGHT

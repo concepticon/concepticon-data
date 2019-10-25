@@ -14,7 +14,7 @@ Wang-2004-471-12	19	242	smoke	烟	778	SMOKE (EXHAUST)
 Wang-2004-471-13	20	242	air; breath	气	27	AIR
 Wang-2004-471-14	22	242	earth	土地	1228	EARTH (SOIL)
 Wang-2004-471-15	23	242	mountain	山	639	MOUNTAIN
-Wang-2004-471-16	24	242	hillside; mountain slope	山坡	3297	PRECIPICE OR SLOPE
+Wang-2004-471-16	24	242	hillside; mountain slope	山坡	3076	SLOPE
 Wang-2004-471-17	30	242	river	河	666	RIVER
 Wang-2004-471-18	31	242	lake	湖	624	LAKE
 Wang-2004-471-19	32	242	sea	海	1474	SEA
@@ -87,7 +87,7 @@ Wang-2004-471-85	259	245	maggot	蛆	2640	LARVA
 Wang-2004-471-86	263	244	horn	角	1393	HORN (ANATOMY)
 Wang-2004-471-87	264	244	hoof	蹄	152	HOOF
 Wang-2004-471-88	268	244	horse	马	615	HORSE
-Wang-2004-471-89	271	244	horse mane	马鬃		MANE
+Wang-2004-471-89	271	244	horse mane	马鬃	3546	HORSE MANE
 Wang-2004-471-90	271	244	mare	母马	938	MARE
 Wang-2004-471-91	274	244	sheep (general)	羊	2684	CAPRINE (GOAT OR SHEEP)
 Wang-2004-471-92	284	244	pig	猪	1337	PIG
@@ -191,7 +191,7 @@ Wang-2004-471-189	597	246	whip	鞭子	2630	WHIP
 Wang-2004-471-190	602	246	boat; ship	船	1844	BOAT
 Wang-2004-471-191	605	246	axe	斧头	677	AXE
 Wang-2004-471-192	607	247	chisel	凿子	1979	CHISEL
-Wang-2004-471-193	608	247	saw	锯子	1948	SAW
+Wang-2004-471-193	608	247	saw	锯子	3543	SAW (SOMETHING)
 Wang-2004-471-194	615	247	plougshare	铧		
 Wang-2004-471-195	617	247	hoe (large)	锄头	284	HOE
 Wang-2004-471-196	619	247	rope	绳子	1218	ROPE
@@ -214,7 +214,7 @@ Wang-2004-471-212	703	247	direction; orientation	方向	3427	DIRECTION
 Wang-2004-471-213	710	247	left	左边	244	LEFT
 Wang-2004-471-214	713	247	back, behind	后边	1686	BEHIND
 Wang-2004-471-215	714	247	outside	外边	762	OUTSIDE
-Wang-2004-471-216	722	247	the upper part; up reaches; above	上方（地势，河流）	2379	UP OR ABOVE
+Wang-2004-471-216	722	247	the upper part; up reaches; above	上方（地势，河流）	1753	TOP
 Wang-2004-471-217	738	247	today	今天	1283	TODAY
 Wang-2004-471-218	739	247	yesterday	昨天	1174	YESTERDAY
 Wang-2004-471-219	752	247	at night; in the evening	晚上		EVENING
@@ -239,15 +239,15 @@ Wang-2004-471-237	839	248	classifier [sheet of paper]	张（纸）		SHEET (CLASS
 Wang-2004-471-238	842	248	classifier [birds]	只（鸟）	2081	CHICKEN (CLASSIFIER)
 Wang-2004-471-239	845	248	classifier [grain]	粒（米）	2086	GRAIN (CLASSIFIER)
 Wang-2004-471-240	848	248	classifier [tree]	棵（树）	2721	TREE (CLASSIFIER)
-Wang-2004-471-241	852	248	classifier [handfull]	把（菜）	1966	BUNCH
+Wang-2004-471-241	852	248	classifier [handfull]	把（菜）		
 Wang-2004-471-242	864	248	classifier [clothes]	件（衣服）	2088	CLOTHING (CLASSIFIER)
 Wang-2004-471-243	876	248	classifier [back of firewood]	背（柴）		
 Wang-2004-471-244	881	248	classifier [sack of rice]	袋（米）		
 Wang-2004-471-245	889	248	classifier [room]	间（房）		
 Wang-2004-471-246	894	248	classifier [weight unit]	两		
-Wang-2004-471-247	899	248	classifier [length unit]	庹	81	FATHOM
+Wang-2004-471-247	899	248	classifier [length unit]	庹		
 Wang-2004-471-248	910	248	day	天	1260	DAY (24 HOURS)
-Wang-2004-471-249	914	248	a year old	岁	1789	AGE
+Wang-2004-471-249	914	248	a year old	岁		
 Wang-2004-471-250	916	248	step	步	1158	STEP
 Wang-2004-471-251	928	248	I	我	1209	I
 Wang-2004-471-252	931	248	you	你	1215	THOU
@@ -309,14 +309,14 @@ Wang-2004-471-307	1094	249	loud	响	377	LOUD
 Wang-2004-471-308	1124	249	cliffy; precipitous	陡峭	2717	STEEP
 Wang-2004-471-309	1126	249	love; like	爱	1117	LIKE
 Wang-2004-471-310	1129	249	press (with palm of finger)	按	1913	PRESS
-Wang-2004-471-311	1131	249	pull up (weeds)	拔（草）	2066	PULL UP (RICE SEEDLINGS)
+Wang-2004-471-311	1131	249	pull up (weeds)	拔（草）	3548	PULL UP WEEDS
 Wang-2004-471-312	1132	249	to rake (the fields)	耙（田）	3127	RAKE (SOMETHING)
-Wang-2004-471-313	1141	249	bind; tie up	绑	2891	TIE UP (TETHER)
+Wang-2004-471-313	1141	249	bind; tie up	绑	1917	TIE
 Wang-2004-471-314	1148	249	have eaten one's fill	饱	106	SATIATED
 Wang-2004-471-315	1149	249	hug	抱	928	EMBRACE
 Wang-2004-471-316	1151	249	carry (a child on the back)	背	465	CARRY ON BACK
 Wang-2004-471-317	1151	249	carry (shoulder)	背	413	CARRY ON SHOULDER
-Wang-2004-471-318	1155	250	close (the mouth)	闭（口）	2063	CLOSE (EYES)
+Wang-2004-471-318	1155	250	close (the mouth)	闭（口）	3547	CLOSE (MOUTH)
 Wang-2004-471-319	1156	250	to plait	编（辫子）	3295	BRAID (VERB)
 Wang-2004-471-320	1158	250	change	变化	2857	CHANGE (BECOME DIFFERENT)
 Wang-2004-471-321	1160	250	to be ill	病	1847	SICK
@@ -341,7 +341,7 @@ Wang-2004-471-339	1254	250	wear (a bracelet)	戴（手镯 ）
 Wang-2004-471-340	1256	250	to block (the wind)	挡（风）	2762	BLOCK (THE WAY)
 Wang-2004-471-341	1263	250	get; acquire	得到	694	GET
 Wang-2004-471-342	1264	250	wait	等待	1590	WAIT (FOR)
-Wang-2004-471-343	1265	250	earth quake	地震		
+Wang-2004-471-343	1265	250	earth quake	地震	6	EARTHQUAKE
 Wang-2004-471-344	1269	250	to burn	燃烧	2102	BURN
 Wang-2004-471-345	1274	250	to drop	掉（下)	750	DROP
 Wang-2004-471-346	1287	250	read	读	724	READ
@@ -353,15 +353,15 @@ Wang-2004-471-351	1339	250	cut (meat)	割（肉）	2156	CUT (WITH KNIFE)
 Wang-2004-471-352	1343	250	be on the other side of (a river)	隔（河）		
 Wang-2004-471-353	1345	250	give	给	1447	GIVE
 Wang-2004-471-354	1347	250	plough; till	耕	1921	PLOUGH
-Wang-2004-471-355	1348	251	to hook	钩	1071	HOOK
+Wang-2004-471-355	1348	251	to hook	钩		
 Wang-2004-471-356	1357	251	to pen in (sheep)	关（羊）		
 Wang-2004-471-357	1360	251	kneel	跪	66	KNEEL
 Wang-2004-471-358	1370	251	drink	喝	1401	DRINK
-Wang-2004-471-359	1383	251	to change	换	1264	CHANGE
-Wang-2004-471-360	1384	251	wave; wield	挥动	978	WAVE
+Wang-2004-471-359	1383	251	to change	换		
+Wang-2004-471-360	1384	251	wave; wield	挥动	3544	WAVE (VERB)
 Wang-2004-471-361	1385	251	return	回	581	COME BACK
 Wang-2004-471-362	1405	251	squeeze (for milk)	挤（奶）	93	DRAW MILK
-Wang-2004-471-363	1412	251	pick up (food with chopstick) [fasten the belt]	系（腰带）		
+Wang-2004-471-363	1412	251	pick up (food with chopstick) [fasten the belt]	系（腰带）	1094	FASTEN
 Wang-2004-471-364	1413	251	pick up (food with chopstick)	夹（菜）	371	PICK UP
 Wang-2004-471-365	1414	251	pick up	捡		GATHER
 Wang-2004-471-366	1416	251	scissor	剪	2155	CUT (WITH SCISSORS)
@@ -370,8 +370,8 @@ Wang-2004-471-368	1422	251	to water/sprinkle/irrigate	浇（水）	3078	IRRIGATE
 Wang-2004-471-369	1425	251	teach	教	709	TEACH
 Wang-2004-471-370	1438	251	lift (the lid)	揭（盖子）	501	LIFT
 Wang-2004-471-371	1432	251	to bark	叫（狗）	1206	BARKING
-Wang-2004-471-372	1442	251	to borrow (money)	借（钱）	1823	BORROW
-Wang-2004-471-373	1443	251	to borrow (tools)	借（工具）		
+Wang-2004-471-372	1442	251	to borrow (money)	借（钱）		
+Wang-2004-471-373	1443	251	to borrow (tools)	借（工具）	1823	BORROW
 Wang-2004-471-374	1444	251	soak; steep	浸泡	2069	SOAK (VERB)
 Wang-2004-471-375	1452	251	live; reside	居住	363	DWELL (LIVE, RESIDE)
 Wang-2004-471-376	1454	251	to saw	锯	1948	SAW
@@ -398,9 +398,9 @@ Wang-2004-471-396	1533	252	twist (a tower)	拧（毛巾）	3199	TWIST (AROUND)
 Wang-2004-471-397	1535	252	vomit/throw up	呕吐	1278	VOMIT
 Wang-2004-471-398	1536	252	(people) crawl	爬（人）	96	CRAWL
 Wang-2004-471-399	1546	252	compensate	赔偿		
-Wang-2004-471-400	1552	252	chop (firewood)	劈（柴）	155	CHOP
+Wang-2004-471-400	1552	252	chop (firewood)	劈（柴）	3151	CUT (WITH AXE)
 Wang-2004-471-401	1553	252	float	漂浮	1574	FLOAT
-Wang-2004-471-402	1561	252	cut/rip open	剖	1432	CUT
+Wang-2004-471-402	1561	252	cut/rip open	剖		
 Wang-2004-471-403	1562	252	pave; lay	铺	2071	LAY (VERB)
 Wang-2004-471-404	1566	252	ride	骑	367	RIDE
 Wang-2004-471-405	1568	252	pull/lead (a cow) along	牵（牛）	43	LEAD (GUIDE)
@@ -419,7 +419,7 @@ Wang-2004-471-417	1634	252	to comb	梳	2070	COMB (VERB)
 Wang-2004-471-418	1635	252	lose (a game)	输	1660	LOSE
 Wang-2004-471-419	1638	252	(fruit) be ripe	熟（果子）	178	RIPE
 Wang-2004-471-420	1643	252	fling; toss	甩	1456	THROW
-Wang-2004-471-421	1645	252	tie (a cow) to	栓（牛）		
+Wang-2004-471-421	1645	252	tie (a cow) to	栓（牛）	2891	TIE UP (TETHER)
 Wang-2004-471-422	1648	252	suck	吮	1421	SUCK
 Wang-2004-471-423	1649	252	say	说	1458	SAY
 Wang-2004-471-424	1650	252	tear up, rip	撕	1735	TEAR (SHRED)
@@ -430,8 +430,8 @@ Wang-2004-471-428	1666	252	(head) ache	痛（头痛）	1815	ACHE
 Wang-2004-471-429	1668	252	shave (the head)	剃（头）	231	SHAVE
 Wang-2004-471-430	1674	252	lick, lap	舔	319	LICK
 Wang-2004-471-431	1681	252	listen	听	1608	LISTEN
-Wang-2004-471-432	1688	252	spit (noun or verb?)	吐（痰）		
-Wang-2004-471-433	1707	252	to smell	闻（嗅）	2124	SMELL
+Wang-2004-471-432	1688	252	spit (noun or verb?)	吐（痰）	1440	SPIT
+Wang-2004-471-433	1707	252	to smell	闻（嗅）	1586	SMELL (PERCEIVE)
 Wang-2004-471-434	1708	252	ask; question	问	1309	ASK (INQUIRE)
 Wang-2004-471-435	1715	252	be blind	瞎	1653	BLIND
 Wang-2004-471-436	1718	252	lay (eggs)	下（蛋）	2464	LAY EGGS
@@ -439,12 +439,12 @@ Wang-2004-471-437	1719	253	(rain) fall	下（雨）	2234	FALL (OF SNOW AND RAIN)
 Wang-2004-471-438	1726	253	think	想	2271	THINK
 Wang-2004-471-439	1733	253	pare/peel with a knife	削		PEEL
 Wang-2004-471-440	1735	253	laugh	笑	1355	LAUGH
-Wang-2004-471-441	1740	253	to rest	休息		
+Wang-2004-471-441	1740	253	to rest	休息	168	REST
 Wang-2004-471-442	1741	253	embroider	绣		
-Wang-2004-471-443	1742	253	study, learn	学	1929	STUDY
+Wang-2004-471-443	1742	253	study, learn	学	504	LEARN
 Wang-2004-471-444	1745	253	press, push down	压	1913	PRESS
 Wang-2004-471-445	1746	253	[castrate (chicken)]	阉（鸡）		
-Wang-2004-471-446	1749	253	to itch/tickle	痒	148	ITCH
+Wang-2004-471-446	1749	253	to itch/tickle	痒	149	ITCHY
 Wang-2004-471-447	1754	253	scoop up (water); ladle out	舀（水）	2788	LADLE (WATER)
 Wang-2004-471-448	1755	253	want; need	要	1784	WANT
 Wang-2004-471-449	1764	253	have (you)	有（钱）	773	HAVE
@@ -452,7 +452,7 @@ Wang-2004-471-450	1793	253	(wasps) sting	蜇（马蜂）	571	STING
 Wang-2004-471-451	1797	253	steam	蒸	1193	STEAM
 Wang-2004-471-452	1799	253	weave; knit	织	2905	KNIT
 Wang-2004-471-453	1802	253	swell	肿	1573	SWELL
-Wang-2004-471-454	1803	253	use or lean on (a walking stick)	拄	2072	USE (VERB)
+Wang-2004-471-454	1803	253	use or lean on (a walking stick)	拄		
 Wang-2004-471-455	1804	253	cook; boil	煮	1100	COOK (SOMETHING)
 Wang-2004-471-456	1806	253	turn around	转（身）	1444	TURN AROUND
 Wang-2004-471-457	1813	253	catch; capture	捉	702	CATCH
