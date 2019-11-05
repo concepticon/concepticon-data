@@ -6,6 +6,7 @@
         }
     ],
     "dialect": {
+        "encoding": "utf-8-sig",
         "delimiter": "\t",
         "skipBlankRows": true
     },
@@ -28,10 +29,6 @@
                         "name": "NUMBER"
                     },
                     {
-                        "datatype": "integer",
-                        "name": "NUMBER_SOURCE"
-                    },
-                    {
                         "datatype": {
                             "base": "integer",
                             "minimum": 1
@@ -45,19 +42,13 @@
                     {
                         "datatype": "string",
                         "name": "ENGLISH"
-                    },
-                    {
-                        "dc:description": "gloss in SPANISH",
-                        "datatype": "string",
-                        "propertyUrl": "http://glottolog.org/resource/languoid/id/stan1288",
-                        "name": "SPANISH"
                     }
                 ],
                 "primaryKey": [
                     "ID"
                 ]
             },
-            "url": "Huber-1992-373.tsv"
+            "url": "Joo-2019-100.tsv"
         }
     ]
 }
