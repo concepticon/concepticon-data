@@ -43,6 +43,10 @@
                         "name": "ENGLISH"
                     },
                     {
+                        "datatype": "string",
+                        "name": "GLOSS_IN_DIGITAL_SOURCE"
+                    },
+                    {
                         "dc:description": "gloss in SPANISH",
                         "datatype": "string",
                         "propertyUrl": "http://glottolog.org/resource/languoid/id/stan1288",
