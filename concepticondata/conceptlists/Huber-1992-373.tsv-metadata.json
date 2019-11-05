@@ -46,6 +46,10 @@
                         "datatype": "string",
                         "name": "ENGLISH"
                     },
+					{
+                        "datatype": "string",
+                        "name": "DIGITAL_LABEL"
+                    },
                     {
                         "dc:description": "gloss in SPANISH",
                         "datatype": "string",
