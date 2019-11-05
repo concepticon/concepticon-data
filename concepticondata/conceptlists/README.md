@@ -52,9 +52,11 @@
 | [Carling-2017-97d](Carling-2017-97d.tsv) | 96 | 98 | 0 |
 | [Carling-2017-97i](Carling-2017-97i.tsv) | 96 | 98 | 0 |
 | [Carling-2017-97j](Carling-2017-97j.tsv) | 96 | 98 | 0 |
+| [Carling-2019-100](Carling-2019-100.tsv) | 99 | 99 | 0 |
 | [Castro-2010-511](Castro-2010-511.tsv) | 488 | 95 | 0 |
 | [Castro-2010-540](Castro-2010-540.tsv) | 531 | 98 | 3 |
 | [Castro-2015-608](Castro-2015-608.tsv) | 523 | 86 | 2 |
+| [Ceolin-2019-168](Ceolin-2019-168.tsv) | 168 | 100 | 0 |
 | [Chacon-2014-142](Chacon-2014-142.tsv) | 128 | 90 | 3 |
 | [Chacon-2017-102](Chacon-2017-102.tsv) | 102 | 100 | 2 |
 | [Chacon-2017-129](Chacon-2017-129.tsv) | 126 | 97 | 0 |
@@ -130,7 +132,7 @@
 | [Kleinewillinghoefer-2014-16](Kleinewillinghoefer-2014-16.tsv) | 16 | 100 | 0 |
 | [Kleinewillinghoefer-2015-119](Kleinewillinghoefer-2015-119.tsv) | 118 | 99 | 0 |
 | [Kolipakam-2018-100](Kolipakam-2018-100.tsv) | 100 | 100 | 0 |
-| [Kraft-1981-434](Kraft-1981-434.tsv) | 434 | 100 | 6 |
+| [Kraft-1981-434](Kraft-1981-434.tsv) | 433 | 99 | 5 |
 | [Krisadawan-2000-210](Krisadawan-2000-210.tsv) | 211 | 100 | 1 |
 | [Lama-2012-301](Lama-2012-301.tsv) | 280 | 93 | 0 |
 | [Larson-1972-68](Larson-1972-68.tsv) | 66 | 100 | 0 |
@@ -200,6 +202,7 @@
 | [Ringe-2002-333](Ringe-2002-333.tsv) | 333 | 100 | 0 |
 | [Ritchie-2019-111](Ritchie-2019-111.tsv) | 111 | 100 | 0 |
 | [Robinson-2012-398](Robinson-2012-398.tsv) | 391 | 98 | 0 |
+| [Rojas-2019-5](Rojas-2019-5.tsv) | 5 | 100 | 0 |
 | [SIL-1980-281](SIL-1980-281.tsv) | 281 | 99 | 1 |
 | [SIL-2002-436](SIL-2002-436.tsv) | 441 | 99 | 5 |
 | [Sagart-2019-250](Sagart-2019-250.tsv) | 250 | 100 | 0 |
@@ -275,5 +278,5 @@
 | [Zorc-1974-100](Zorc-1974-100.tsv) | 100 | 100 | 0 |
 | [vanderWouw-1974-28](vanderWouw-1974-28.tsv) | 28 | 100 | 0 |
 
-(272 rows)
+(275 rows)
 
