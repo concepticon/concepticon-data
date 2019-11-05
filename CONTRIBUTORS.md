@@ -10,6 +10,7 @@ Period | Name
 2019- | Christoph Rzymski
 2019- | Nathanael Schweikhard
 2015- | Robert Forkel
+2019- | Kristina Pianykh
 
 
 ## Grant information
@@ -46,7 +47,7 @@ For all this help, we are very grateful and express our gratitude.
 
 Name | Contribution | Version |
 --- | --- | --- |
-Alexei Kassian | D | 1.0  
+Alexei Kassian | D | 1.0
 Andreea Calude | D | 1.1
 Andrew Kitchen | D | 1.0 
 Anja Gampe | D | 1.1
@@ -78,11 +79,10 @@ Robert Blust | D | 1.0
 Sean Lee | D | 1.0
 Sebastian Nicolai | CMS | 1.0  
 Thiago Chacon | MSD | 1.0, 1.1 
-Tiago Tresoldi | CTLG | 1.1, 1.2, 2.0, 2.1
+Tiago Tresoldi | CTLG | 1.1, 1.2, 2.0, 2.1, 2.2
 Viola Kirchhoff da Cruz | CLS | 1.0 
 Wang Feng | D | 1.0
 Yunfan Lai | CTLG | 1.1
 Andy Castro | T | 2.0
 Natalia Morozowa | DCPTL | 2.0, 2.1 
 Kristina Pianykh | LP | 2.1
-
