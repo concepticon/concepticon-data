@@ -6,11 +6,11 @@ Period | Name
 --- | ---
 2013- | Johann Mattis List
 2013-2018 | Michael Cysouw
-2017- | Simon Greenhill
 2019- | Christoph Rzymski
+2017- | Simon Greenhill
 2019- | Nathanael Schweikhard
-2015- | Robert Forkel
 2019- | Kristina Pianykh
+2015- | Robert Forkel
 
 
 ## Grant information
