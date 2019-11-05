@@ -28,10 +28,6 @@
                         "name": "NUMBER"
                     },
                     {
-                        "datatype": "integer",
-                        "name": "NUMBER_SOURCE"
-                    },
-                    {
                         "datatype": {
                             "base": "integer",
                             "minimum": 1
@@ -46,10 +42,6 @@
                         "datatype": "string",
                         "name": "ENGLISH"
                     },
-					{
-                        "datatype": "string",
-                        "name": "DIGITAL_LABEL"
-                    },
                     {
                         "dc:description": "gloss in SPANISH",
                         "datatype": "string",
@@ -61,7 +53,7 @@
                     "ID"
                 ]
             },
-            "url": "Huber-1992-373.tsv"
+            "url": "Huber-1992-375.tsv"
         }
     ]
 }
