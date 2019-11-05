@@ -6,11 +6,11 @@ Period | Name
 --- | ---
 2013- | Johann Mattis List
 2013-2018 | Michael Cysouw
-2017- | Simon Greenhill
 2019- | Christoph Rzymski
+2017- | Simon Greenhill
 2019- | Nathanael Schweikhard
-2015- | Robert Forkel
 2019- | Kristina Pianykh
+2015- | Robert Forkel
 
 
 ## Grant information
@@ -58,7 +58,7 @@ Claire Bowern | D | 1.1, 2.2
 Cormac Anderson | CP | 1.1, 1.2
 Damian Satterthwaite-Phillips | D | 1.0 
 Doug Cooper | DCSM | 1.1, 2.1
-Evgeniya Korovina | MSCLPA | 1.1
+Evgeniya Korovina | MSCLPA | 1.1, 2.2
 Frederike Urke | CLS | 1.0  
 Harald Hammarström | DMS | 1.0 
 Isabella Boga | LP | 1.1
@@ -69,7 +69,7 @@ Lars Borin | DL | 1.0
 Magdalena Łuniewska | D | 1.1
 Martin Haspelmath | AD | 1.0  
 Maurizio Serva | MD | 1.1
-Mei-Shin Wu | CTLG | 1.2, 2.0, 2.1
+Mei-Shin Wu | CTLG | 1.2, 2.0, 2.1, 2.2
 Michael Dunn | G | 1.1
 Nathan Hill | MSDP | 1.1
 Nicholas Evans | A | 1.0
@@ -84,5 +84,6 @@ Viola Kirchhoff da Cruz | CLS | 1.0
 Wang Feng | D | 1.0
 Yunfan Lai | CTLG | 1.1
 Andy Castro | T | 2.0
-Natalia Morozowa | DCPTL | 2.0, 2.1 
+Natalia Morozowa | DCPTL | 2.0, 2.1, 2.2
 Kristina Pianykh | LP | 2.1
+David Nash | MP | 2.2
