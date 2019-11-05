@@ -61,8 +61,7 @@ ID	GLOSS	PRIORITY
 2670	ACROSS///across (stream)	1
 1861	ACTIVE///active	1
 1861	ACTIVE///active (adjective)	1
-802	ADAM'S APPLE///Adam's apple	2
-802	ADAM'S APPLE///adam’s apple	1
+802	ADAM'S APPLE///Adam's apple	3
 802	ADAM'S APPLE///the adam's apple	3
 802	ADAM'S APPLE///the adam's apples	3
 2882	ADD///add	1
@@ -637,8 +636,8 @@ ID	GLOSS	PRIORITY
 3012	BANDICOOT///bandicoot	2
 3012	BANDICOOT///the bandicoot	2
 3012	BANDICOOT///the bandicoots	2
+276	BANISTERIUM///Banisterium, hallucinogenic vine	1
 276	BANISTERIUM///ajahuasca, jajé	1
-276	BANISTERIUM///banisterium	1
 276	BANISTERIUM///the banisterium	2
 276	BANISTERIUM///the banisteriums	2
 1284	BANK///bank	1
@@ -1083,15 +1082,15 @@ ID	GLOSS	PRIORITY
 1251	BELLY///(its) belly	1
 1251	BELLY///BELLY	6
 1251	BELLY///Belly	6
-1251	BELLY///abdomen	6
+1251	BELLY///abdomen	7
 1251	BELLY///belly	127
 1251	BELLY///belly (exterior)	2
 1251	BELLY///belly (stomach)	1
 1251	BELLY///belly (the outside part of human belly)	1
 1251	BELLY///belly,stomach	1
 1251	BELLY///stomach	1
-1251	BELLY///the belly	157
-1251	BELLY///the bellys	157
+1251	BELLY///the belly	158
+1251	BELLY///the bellys	158
 1485	BELOW OR UNDER///below	20
 1485	BELOW OR UNDER///below or under	40
 1485	BELOW OR UNDER///below — under	1
@@ -1355,14 +1354,14 @@ ID	GLOSS	PRIORITY
 946	BLOOD///(its) blood	1
 946	BLOOD///BLOOD	8
 946	BLOOD///Blood	6
-946	BLOOD///blood	171
+946	BLOOD///blood	172
 946	BLOOD///blood (1)	1
 946	BLOOD///blood (2)	1
 946	BLOOD///blood (n)	3
 946	BLOOD///his blood	1
 946	BLOOD///sangre	1
-946	BLOOD///the blood	197
-946	BLOOD///the bloods	197
+946	BLOOD///the blood	198
+946	BLOOD///the bloods	198
 3287	BLOOM///Blossom (flowers)	1
 3287	BLOOM///bloom	1
 3287	BLOOM///bloom; blossom	1
@@ -1783,11 +1782,10 @@ ID	GLOSS	PRIORITY
 1402	BREAST///breasts	19
 1402	BREAST///female breast	2
 1402	BREAST///teta, seno, pecho	1
-1402	BREAST///the breast	143
+1402	BREAST///the breast	144
 1402	BREAST///the breast (female)	2
-1402	BREAST///the breasts	143
-1402	BREAST///woman's breast	1
-1402	BREAST///woman’s breasts	1
+1402	BREAST///the breasts	144
+1402	BREAST///woman's breast	3
 2810	BREASTBONE///sternum	1
 2810	BREASTBONE///the breastbone	1
 2810	BREASTBONE///the breastbones	1
@@ -2006,7 +2004,7 @@ ID	GLOSS	PRIORITY
 3539	BURN LAND///to burn land	2
 2102	BURN///BURN (VERB)	1
 2102	BURN///Burn	1
-2102	BURN///burn	62
+2102	BURN///burn	63
 2102	BURN///burn (1st)	1
 2102	BURN///burn (me)	1
 2102	BURN///burn (to)	1
@@ -2016,14 +2014,14 @@ ID	GLOSS	PRIORITY
 2102	BURN///burn_1	1
 2102	BURN///burn_2	1
 2102	BURN///catch (fire) / be (on fire) (a house)	1
-2102	BURN///to burn	88
+2102	BURN///to burn	89
 1428	BURNING///(it) burns	1
 1428	BURNING///BURN (INTR)	1
 1428	BURNING///BURN (INTR.)	1
 1428	BURNING///Burn	1
 1428	BURNING///TO BURN (INTRANSITIVE)	3
 1428	BURNING///become burnt	1
-1428	BURNING///burn	7
+1428	BURNING///burn	6
 1428	BURNING///burn (intr.)	2
 1428	BURNING///burn (intrans.)	1
 1428	BURNING///burn (itr)	1
@@ -2039,7 +2037,7 @@ ID	GLOSS	PRIORITY
 1428	BURNING///to burn (it.)	1
 1428	BURNING///to burn [intransitive]	2
 1428	BURNING///to burn(2)	2
-1428	BURNING///to burning	41
+1428	BURNING///to burning	40
 1428	BURNING///to_burn	1
 2789	BURP///to burp	1
 1719	BURY///burned (a corpse)	1
@@ -2055,10 +2053,10 @@ ID	GLOSS	PRIORITY
 1070	BUS///bus	3
 1070	BUS///the bus	5
 1070	BUS///the buss	5
-1683	BUSH///bush	9
+1683	BUSH///bush	8
 1683	BUSH///monte	1
-1683	BUSH///the bush	11
-1683	BUSH///the bushs	11
+1683	BUSH///the bush	10
+1683	BUSH///the bushs	10
 2811	BUSHFIRE///bushfire	1
 2811	BUSHFIRE///the bushfire	1
 2811	BUSHFIRE///the bushfires	1
@@ -2402,7 +2400,7 @@ ID	GLOSS	PRIORITY
 1928	CEASE///to come to end, to ceise	1
 1928	CEASE///to stop, to cease	1
 439	CEBUS MONKEY///CAPUCHIN MONKEY (MACACO PREGO)	1
-439	CEBUS MONKEY///cebus monkey	1
+439	CEBUS MONKEY///cebus monkey (cebus capucinus)	1
 439	CEBUS MONKEY///the cebus monkey	2
 439	CEBUS MONKEY///the cebus monkeys	2
 3430	CELEBRATE NEW YEAR///celebrate (the New Year)	1
@@ -2563,7 +2561,7 @@ ID	GLOSS	PRIORITY
 301	CHIEFTAIN///the chieftain	15
 301	CHIEFTAIN///the chieftains	15
 301	CHIEFTAIN///tribal chief	1
-438	CHIGGOE (JIGGER FLEA)///chiggoe, jigger flea	1
+438	CHIGGOE (JIGGER FLEA)///jigger flea	1
 438	CHIGGOE (JIGGER FLEA)///nigua, pigue	1
 438	CHIGGOE (JIGGER FLEA)///the chiggoe (jigger flea)	2
 438	CHIGGOE (JIGGER FLEA)///the chiggoe (jigger flea)s	2
@@ -2699,8 +2697,8 @@ ID	GLOSS	PRIORITY
 3110	CLAP///to clap	5
 2128	CLAW OR NAIL///claw (nail)	1
 2128	CLAW OR NAIL///claw or fingernail	1
+2128	CLAW OR NAIL///claw, nail	1
 2128	CLAW OR NAIL///fingernail (claw)	1
-2128	CLAW OR NAIL///fingernail, claw	1
 2128	CLAW OR NAIL///fingernail/claw	1
 2128	CLAW OR NAIL///nail/claw	3
 2128	CLAW OR NAIL///the claw or nail	11
@@ -3008,12 +3006,12 @@ ID	GLOSS	PRIORITY
 1446	COME///Come hither	1
 1446	COME///TO COME	3
 1446	COME///came	1
-1446	COME///come	104
+1446	COME///come	103
 1446	COME///come (1st)	1
 1446	COME///come (imperative)	1
 1446	COME///come (to)	1
 1446	COME///come (vi)	1
-1446	COME///come!	3
+1446	COME///come!	4
 1446	COME///come! (2s)	1
 1446	COME///come, to	1
 1446	COME///come/arrive	1
@@ -3158,10 +3156,9 @@ ID	GLOSS	PRIORITY
 840	CORMORANT///cormorant	1
 840	CORMORANT///the cormorant	3
 840	CORMORANT///the cormorants	3
-449	CORN FIELD///corn field	1
 449	CORN FIELD///sementera de maíz	1
-449	CORN FIELD///the corn field	2
-449	CORN FIELD///the corn fields	2
+449	CORN FIELD///the corn field	1
+449	CORN FIELD///the corn fields	1
 192	CORNER///corner	7
 192	CORNER///corner / angle	1
 192	CORNER///the corner	10
@@ -4000,11 +3997,11 @@ ID	GLOSS	PRIORITY
 2598	DOOR KNOCKER///the door knocker	1
 2598	DOOR KNOCKER///the door knockers	1
 1567	DOOR///Door	1
-1567	DOOR///door	33
+1567	DOOR///door	34
 1567	DOOR///door (cattle)	1
 1567	DOOR///door, gate	3
 1567	DOOR///door; gate	1
-1567	DOOR///doorway	2
+1567	DOOR///doorway	1
 1567	DOOR///the door	43
 1567	DOOR///the door or gate	2
 1567	DOOR///the doors	43
@@ -4112,7 +4109,7 @@ ID	GLOSS	PRIORITY
 1401	DRINK///TO DRINK	3
 1401	DRINK///To drink	1
 1401	DRINK///beber	1
-1401	DRINK///drink	102
+1401	DRINK///drink	101
 1401	DRINK///drink (1st)	1
 1401	DRINK///drink (V)	2
 1401	DRINK///drink (as water)	1
@@ -4122,7 +4119,7 @@ ID	GLOSS	PRIORITY
 1401	DRINK///drink (vb.)	1
 1401	DRINK///drink (verb)	1
 1401	DRINK///drink (vt)	1
-1401	DRINK///drink!	2
+1401	DRINK///drink!	3
 1401	DRINK///drink! (2s)	1
 1401	DRINK///drink, to	1
 1401	DRINK///drink, water	1
@@ -4348,7 +4345,7 @@ ID	GLOSS	PRIORITY
 1228	EARTH (SOIL)///EARTH (SOIL)	3
 1228	EARTH (SOIL)///EARTH/SOIL	1
 1228	EARTH (SOIL)///Earth	4
-1228	EARTH (SOIL)///earth	86
+1228	EARTH (SOIL)///earth	85
 1228	EARTH (SOIL)///earth (as in soil)	1
 1228	EARTH (SOIL)///earth (as in ‘a shovel of earth‘)	1
 1228	EARTH (SOIL)///earth (soil as in flower pot)	1
@@ -4358,7 +4355,7 @@ ID	GLOSS	PRIORITY
 1228	EARTH (SOIL)///earth or soil	1
 1228	EARTH (SOIL)///earth, ground	1
 1228	EARTH (SOIL)///earth, land, soil, dirt	1
-1228	EARTH (SOIL)///earth, soil	3
+1228	EARTH (SOIL)///earth, soil	4
 1228	EARTH (SOIL)///earth/soil	11
 1228	EARTH (SOIL)///earth2	1
 1228	EARTH (SOIL)///earth=ground, soil	2
@@ -4412,13 +4409,13 @@ ID	GLOSS	PRIORITY
 1336	EAT///TO EAT	3
 1336	EAT///To eat	1
 1336	EAT///ate	1
-1336	EAT///eat	116
+1336	EAT///eat	115
 1336	EAT///eat (1)	1
 1336	EAT///eat (1st)	2
 1336	EAT///eat (2)	1
 1336	EAT///eat (to)	1
 1336	EAT///eat (vt)	1
-1336	EAT///eat!	1
+1336	EAT///eat!	2
 1336	EAT///eat! (2s)	1
 1336	EAT///eat, to	1
 1336	EAT///eats	1
@@ -4458,7 +4455,7 @@ ID	GLOSS	PRIORITY
 1705	EIGHT///EIGHT	1
 1705	EIGHT///Eight	4
 1705	EIGHT///[CL] *eight	1
-1705	EIGHT///eight	74
+1705	EIGHT///eight	75
 1705	EIGHT///eight (people)	1
 1705	EIGHT///eight (persons)	1
 1713	EIGHTEEN///18	2
@@ -5240,9 +5237,10 @@ ID	GLOSS	PRIORITY
 221	FIRE///FIRE, (FIREWOOD)	1
 221	FIRE///Fire	8
 221	FIRE///candela, fuego	1
-221	FIRE///fire	170
+221	FIRE///fire	169
 221	FIRE///fire (for cooking)/heat	2
 221	FIRE///fire (n.)	1
+221	FIRE///flame, fire	1
 221	FIRE///the fire	195
 221	FIRE///the fires	195
 517	FIREDRILL///firedrill	1
@@ -5401,7 +5399,7 @@ ID	GLOSS	PRIORITY
 2615	FLESH OR MEAT///FLESH/MEAT	1
 2615	FLESH OR MEAT///MEAT	1
 2615	FLESH OR MEAT///MEAT2	1
-2615	FLESH OR MEAT///flesh	9
+2615	FLESH OR MEAT///flesh	8
 2615	FLESH OR MEAT///flesh (meat)	1
 2615	FLESH OR MEAT///flesh/meat	6
 2615	FLESH OR MEAT///meat	2
@@ -5411,14 +5409,14 @@ ID	GLOSS	PRIORITY
 2615	FLESH OR MEAT///meat, flesh	1
 2615	FLESH OR MEAT///meat-flesh	4
 2615	FLESH OR MEAT///meat/flesh	13
-2615	FLESH OR MEAT///the flesh or meat	45
-2615	FLESH OR MEAT///the flesh or meats	45
+2615	FLESH OR MEAT///the flesh or meat	44
+2615	FLESH OR MEAT///the flesh or meats	44
 2259	FLESH///FLESH, (MEAT)	1
 2259	FLESH///Flesh	1
-2259	FLESH///flesh	26
+2259	FLESH///flesh	27
 2259	FLESH///flesh (e.g. flesh wound, not meat)	1
-2259	FLESH///the flesh	31
-2259	FLESH///the fleshs	31
+2259	FLESH///the flesh	32
+2259	FLESH///the fleshs	32
 1691	FLEXIBLE///flexible	2
 1691	FLEXIBLE///flexible (adjective)	2
 494	FLIRT///flirt	1
@@ -5633,14 +5631,15 @@ ID	GLOSS	PRIORITY
 420	FOREST///(n) forest	2
 420	FOREST///Forest	1
 420	FOREST///WOODS	4
+420	FOREST///bush, jungle	1
 420	FOREST///bush/forest	1
 420	FOREST///forest	26
 420	FOREST///forest,woods	1
 420	FOREST///forest; woods	1
 420	FOREST///jungle	2
 420	FOREST///primary forest	1
-420	FOREST///the forest	81
-420	FOREST///the forests	81
+420	FOREST///the forest	82
+420	FOREST///the forests	82
 420	FOREST///the woods or forest	2
 420	FOREST///woods	29
 420	FOREST///woods, forest	4
@@ -5800,7 +5799,7 @@ ID	GLOSS	PRIORITY
 2194	FRONT (PART)///the front (part)	8
 2194	FRONT (PART)///the front (part)s	8
 442	FRONT TOOTH (INCISOR)///front teeth	1
-442	FRONT TOOTH (INCISOR)///front teeth, ineisors	1
+442	FRONT TOOTH (INCISOR)///front teeth, incisors	1
 442	FRONT TOOTH (INCISOR)///the front tooth (incisor)	2
 442	FRONT TOOTH (INCISOR)///the front tooth (incisor)s	2
 2034	FROST///frost	9
@@ -6114,12 +6113,12 @@ ID	GLOSS	PRIORITY
 695	GO///(you) go!	1
 695	GO///Go	1
 695	GO///I am going	1
-695	GO///go	35
+695	GO///go	34
 695	GO///go (1st)	1
 695	GO///go (afoot)	1
 695	GO///go (to)	1
 695	GO///go (vi)	1
-695	GO///go!	2
+695	GO///go!	3
 695	GO///go, to	1
 695	GO///goes	1
 695	GO///going	1
@@ -7223,7 +7222,7 @@ ID	GLOSS	PRIORITY
 526	HOWL///howl (of wolves) (lit. 'cry')	1
 526	HOWL///to howl	7
 433	HOWLER MONKEY///HOWLER MONKEY (GUARIBA)	1
-433	HOWLER MONKEY///howler monkey	1
+433	HOWLER MONKEY///howler monkey (alouatta villosa)	1
 433	HOWLER MONKEY///mono aullador	1
 433	HOWLER MONKEY///the howler monkey	3
 433	HOWLER MONKEY///the howler monkeys	3
@@ -7334,6 +7333,7 @@ ID	GLOSS	PRIORITY
 1209	I///I [first person singular]	3
 1209	I///I(1 p.s.)	1
 1209	I///I, me	3
+1209	I///I, me, my	1
 1209	I///I,me	1
 1209	I///I/me	1
 1209	I///I/me [first person sg. pronoun]	1
@@ -7515,7 +7515,7 @@ ID	GLOSS	PRIORITY
 622	ISLAND///island	11
 622	ISLAND///the island	14
 622	ISLAND///the islands	14
-169	IT///it	4
+169	IT///it	3
 148	ITCH///itch	10
 148	ITCH///itch (to)	1
 148	ITCH///the itch	14
@@ -8587,8 +8587,7 @@ ID	GLOSS	PRIORITY
 721	LOW///low	10
 721	LOW///low (adjective)	13
 721	LOW///low (location)	1
-446	LOWER ARM///forearm	2
-446	LOWER ARM///lower arm	1
+446	LOWER ARM///forearm	3
 446	LOWER ARM///the lower arm	3
 446	LOWER ARM///the lower arms	3
 447	LOWER LEG///lower leg	1
@@ -9641,7 +9640,7 @@ ID	GLOSS	PRIORITY
 1483	NINE///9	5
 1483	NINE///Nine	4
 1483	NINE///[CL] *nine	1
-1483	NINE///nine	72
+1483	NINE///nine	73
 1483	NINE///nine (people)	1
 1483	NINE///nine (persons)	1
 1714	NINETEEN///19	2
@@ -10131,8 +10130,9 @@ ID	GLOSS	PRIORITY
 2830	OYSTERS///the oysters	1
 2830	OYSTERS///the oysterss	1
 316	PACA///PACA	2
-316	PACA///paca	3
+316	PACA///paca	2
 316	PACA///paca, guagua, majas	1
+316	PACA///spotted cavy	1
 316	PACA///the paca	6
 316	PACA///the pacas	6
 3087	PACIFIER///dummy	2
@@ -10340,10 +10340,11 @@ ID	GLOSS	PRIORITY
 2252	PATH///PATH, ROAD, TRAIL	1
 2252	PATH///PATH2, ROAD, TRAIL	1
 2252	PATH///Path	1
-2252	PATH///path	47
+2252	PATH///path	46
+2252	PATH///path, trail	2
 2252	PATH///road/trail	1
-2252	PATH///the path	57
-2252	PATH///the paths	57
+2252	PATH///the path	58
+2252	PATH///the paths	58
 2252	PATH///trocha	1
 3375	PATIENT (SICK PERSON)///patient	1
 3375	PATIENT (SICK PERSON)///the patient (sick person)	1
@@ -11375,7 +11376,7 @@ ID	GLOSS	PRIORITY
 300	RATTLE///sonajero, maraca	1
 300	RATTLE///the rattle	6
 300	RATTLE///the rattles	6
-871	RATTLESNAKE///rattlesnake	1
+871	RATTLESNAKE///rattle snake	1
 871	RATTLESNAKE///rattlesnake (1)	1
 871	RATTLESNAKE///rattlesnake (2)	1
 871	RATTLESNAKE///the rattlesnake	3
@@ -11427,9 +11428,10 @@ ID	GLOSS	PRIORITY
 156	RED///red (thing)	2
 3051	REED PIPE///the reed pipe	0
 3051	REED PIPE///the reed pipes	0
+659	REED///cane	1
 659	REED///reed	4
-659	REED///the reed	4
-659	REED///the reeds	4
+659	REED///the reed	5
+659	REED///the reeds	5
 660	REEF///(coral) reef	1
 660	REEF///reef	3
 660	REEF///the reef	6
@@ -12342,7 +12344,7 @@ ID	GLOSS	PRIORITY
 1704	SEVEN///7	5
 1704	SEVEN///Seven	4
 1704	SEVEN///[CL] *seven	1
-1704	SEVEN///seven	75
+1704	SEVEN///seven	76
 1704	SEVEN///seven (people)	1
 1704	SEVEN///seven (persons)	1
 2453	SEVENTEEN///17	2
@@ -12418,12 +12420,12 @@ ID	GLOSS	PRIORITY
 193	SHALLOW///shallow (water)	1
 193	SHALLOW///to be shallow	1
 394	SHAMAN (FOLK HEALER)///curandero	1
+394	SHAMAN (FOLK HEALER)///healer, shaman	1
 394	SHAMAN (FOLK HEALER)///medicine man, doctor	1
 394	SHAMAN (FOLK HEALER)///native doctor	1
 394	SHAMAN (FOLK HEALER)///shaman	1
 394	SHAMAN (FOLK HEALER)///shaman / medicine-man	1
 394	SHAMAN (FOLK HEALER)///shaman, ceremonial initiate	1
-394	SHAMAN (FOLK HEALER)///shaman, folk healer	1
 394	SHAMAN (FOLK HEALER)///the shaman (folk healer)	7
 394	SHAMAN (FOLK HEALER)///the shaman (folk healer)s	7
 1776	SHAME///shame	5
@@ -12826,9 +12828,9 @@ ID	GLOSS	PRIORITY
 1263	SISTER///the sister	26
 1263	SISTER///the sisters	26
 1649	SIT DOWN///Sit	1
-1649	SIT DOWN///sit down	5
+1649	SIT DOWN///sit down	6
 1649	SIT DOWN///to sit	1
-1649	SIT DOWN///to sit down	8
+1649	SIT DOWN///to sit down	9
 1416	SIT///(he) sat down	1
 1416	SIT///(he) sits	1
 1416	SIT///(you) sit down!	1
@@ -12840,7 +12842,7 @@ ID	GLOSS	PRIORITY
 1416	SIT///To sit	1
 1416	SIT///he sits	2
 1416	SIT///lie (vb.); sit	1
-1416	SIT///sit	105
+1416	SIT///sit	104
 1416	SIT///sit (1st)	1
 1416	SIT///sit (as in ‘he is sitting here’)	1
 1416	SIT///sit (imperative)	1
@@ -12854,7 +12856,7 @@ ID	GLOSS	PRIORITY
 1416	SIT///sit, stay (v)	1
 1416	SIT///sit, to	1
 1416	SIT///sits	1
-1416	SIT///to sit	169
+1416	SIT///to sit	168
 1416	SIT///to sit / sit!	1
 1416	SIT///to_sit	1
 1416	SIT///you sit down!	1
@@ -12864,7 +12866,7 @@ ID	GLOSS	PRIORITY
 1703	SIX///SIX	1
 1703	SIX///Six	5
 1703	SIX///[CL] *six	1
-1703	SIX///six	76
+1703	SIX///six	77
 1703	SIX///six (people)	1
 1703	SIX///six (persons)	1
 2454	SIXTEEN///16	2
@@ -12983,7 +12985,7 @@ ID	GLOSS	PRIORITY
 1585	SLEEP///Sleep (v.)	1
 1585	SLEEP///TO SLEEP	3
 1585	SLEEP///To sleep	1
-1585	SLEEP///sleep	102
+1585	SLEEP///sleep	101
 1585	SLEEP///sleep (1)	1
 1585	SLEEP///sleep (1st)	1
 1585	SLEEP///sleep (2)	1
@@ -12994,7 +12996,7 @@ ID	GLOSS	PRIORITY
 1585	SLEEP///sleep (vi)	1
 1585	SLEEP///sleep [vb]	1
 1585	SLEEP///sleep vb	1
-1585	SLEEP///sleep!	2
+1585	SLEEP///sleep!	3
 1585	SLEEP///sleep! (2s)	1
 1585	SLEEP///sleep, to	1
 1585	SLEEP///sleep/lie down	2
@@ -13056,11 +13058,11 @@ ID	GLOSS	PRIORITY
 1246	SMALL///little, few	1
 1246	SMALL///little, small	1
 1246	SMALL///little; small	1
-1246	SMALL///small	132
+1246	SMALL///small	131
 1246	SMALL///small (adjective)	166
 1246	SMALL///small (in size, opposite to big)	1
 1246	SMALL///small (thing)	2
-1246	SMALL///small, little	4
+1246	SMALL///small, little	5
 1246	SMALL///small, tiny	1
 1246	SMALL///to be small	1
 1054	SMALLPOX///smallpox	3
@@ -13073,7 +13075,7 @@ ID	GLOSS	PRIORITY
 364	SMEAR///to smear	1
 364	SMEAR///to smear, anoint	1
 1586	SMELL (PERCEIVE)///TO SMELL (PERCEIVE ODOR)	2
-1586	SMELL (PERCEIVE)///smell	17
+1586	SMELL (PERCEIVE)///smell	18
 1586	SMELL (PERCEIVE)///smell (sense odor)	1
 1586	SMELL (PERCEIVE)///smell (v. trans)	1
 1586	SMELL (PERCEIVE)///smell (vb trans)	2
@@ -13084,7 +13086,7 @@ ID	GLOSS	PRIORITY
 1586	SMELL (PERCEIVE)///to smell	4
 1586	SMELL (PERCEIVE)///to smell (perceive odor)	2
 1586	SMELL (PERCEIVE)///to smell (perceive odor) [transitive]	3
-1586	SMELL (PERCEIVE)///to smell (perceive)	49
+1586	SMELL (PERCEIVE)///to smell (perceive)	50
 1586	SMELL (PERCEIVE)///to smell (receive odor)	1
 1586	SMELL (PERCEIVE)///to smell (sense odor)	1
 1586	SMELL (PERCEIVE)///to smell it	1
@@ -13102,9 +13104,9 @@ ID	GLOSS	PRIORITY
 2124	SMELL///SMELL	1
 2124	SMELL///SMELL (VERB)	1
 2124	SMELL///TO SMELL (PERCEIVE ODOR)	1
-2124	SMELL///smell	35
+2124	SMELL///smell	34
 2124	SMELL///smell (v.)	1
-2124	SMELL///to smell	49
+2124	SMELL///to smell	48
 2520	SMELLING (OLFACTORY SENSE)///the smelling (olfactory sense)	0
 2520	SMELLING (OLFACTORY SENSE)///the smelling (olfactory sense)s	0
 1451	SMILE///smile	6
@@ -13454,9 +13456,9 @@ ID	GLOSS	PRIORITY
 544	SPICY///spicy, pungent	1
 544	SPICY///to be spicy, hot	1
 434	SPIDER MONKEY///SPIDER MONKEY (MACACO PRETO)	1
+434	SPIDER MONKEY///black monkey (ateles fusciceps)	1
 434	SPIDER MONKEY///marimonda, maquisapa	1
 434	SPIDER MONKEY///monkey sp.	1
-434	SPIDER MONKEY///spider monkey	1
 434	SPIDER MONKEY///the spider monkey	4
 434	SPIDER MONKEY///the spider monkeys	4
 1065	SPIDER WEB///spider web	5
@@ -13963,9 +13965,9 @@ ID	GLOSS	PRIORITY
 3138	STRAWBERRY///the strawberrys	3
 2858	STREAM (FLOW CONTINUOUSLY)///stream	1
 2858	STREAM (FLOW CONTINUOUSLY)///to stream (flow continuously)	1
-947	STREAM///stream	5
-947	STREAM///the stream	5
-947	STREAM///the streams	5
+947	STREAM///stream	6
+947	STREAM///the stream	6
+947	STREAM///the streams	6
 1362	STREET///street	4
 1362	STREET///the street	6
 1362	STREET///the streets	6
@@ -14077,13 +14079,13 @@ ID	GLOSS	PRIORITY
 3475	SUFFICE///SUFFICE	1
 3475	SUFFICE///suffice	2
 3475	SUFFICE///suffice (e.g. salt)	1
-146	SUGAR CANE///cane	3
+146	SUGAR CANE///cane	2
 146	SUGAR CANE///caña brava	1
 146	SUGAR CANE///sugar cane	8
 146	SUGAR CANE///sugar-cane	2
 146	SUGAR CANE///sugarcane	13
-146	SUGAR CANE///the sugar cane	29
-146	SUGAR CANE///the sugar canes	29
+146	SUGAR CANE///the sugar cane	28
+146	SUGAR CANE///the sugar canes	28
 3029	SUGAR PALM///sugar palm	1
 3029	SUGAR PALM///the sugar palm	1
 3029	SUGAR PALM///the sugar palms	1
@@ -14266,9 +14268,10 @@ ID	GLOSS	PRIORITY
 1439	SWIM///Swim	3
 1439	SWIM///TO SWIM	3
 1439	SWIM///To swim	1
-1439	SWIM///swim	84
+1439	SWIM///swim	83
 1439	SWIM///swim (1st)	1
 1439	SWIM///swim (as in ‘he is swimming there’)	1
+1439	SWIM///swim (not bathe)	1
 1439	SWIM///swim (to)	1
 1439	SWIM///swim (v)	1
 1439	SWIM///swim!	1
@@ -14751,9 +14754,10 @@ ID	GLOSS	PRIORITY
 1215	THOU///you (sig.)	1
 1215	THOU///you (sing.)	1
 1215	THOU///you (sing.) (thou)	1
-1215	THOU///you (singular)	5
+1215	THOU///you (singular)	4
 1215	THOU///you (thou)	2
 1215	THOU///you sg.	4
+1215	THOU///you singular	1
 1215	THOU///you, sg	1
 1215	THOU///you, thou	1
 1215	THOU///you.SG	2
@@ -14927,7 +14931,7 @@ ID	GLOSS	PRIORITY
 2992	TIP (OF OBJECT)///tip	2
 443	TIP (OF TONGUE)///the tip (of tongue)	1
 443	TIP (OF TONGUE)///the tip (of tongue)s	1
-443	TIP (OF TONGUE)///tip of tongue	1
+443	TIP (OF TONGUE)///tongue tip	1
 1757	TIRED///be tired	1
 1757	TIRED///tired	15
 1757	TIRED///tired (adjective)	22
@@ -14944,11 +14948,11 @@ ID	GLOSS	PRIORITY
 974	TOBACCO///TOBACCO	1
 974	TOBACCO///TOBACCO, (SMOKE)	1
 974	TOBACCO///TOBACCO2	1
-974	TOBACCO///tabacco	1
+974	TOBACCO///tabacco	2
 974	TOBACCO///tabaco	1
 974	TOBACCO///the tobacco	24
 974	TOBACCO///the tobaccos	24
-974	TOBACCO///tobacco	17
+974	TOBACCO///tobacco	16
 1283	TODAY///day, today	1
 1283	TODAY///to-day	1
 1283	TODAY///today	39
@@ -15855,9 +15859,10 @@ ID	GLOSS	PRIORITY
 1130	WE (EXCLUSIVE)///we (Pl. excl.)	1
 1130	WE (EXCLUSIVE)///we (excl)	1
 1130	WE (EXCLUSIVE)///we (excl.)	3
-1130	WE (EXCLUSIVE)///we (exclusive)	27
+1130	WE (EXCLUSIVE)///we (exclusive)	28
 1130	WE (EXCLUSIVE)///we (pl. excl.)	1
 1130	WE (EXCLUSIVE)///we excl.	1
+1130	WE (EXCLUSIVE)///we exclusive	1
 1130	WE (EXCLUSIVE)///we pl. excl.	1
 1130	WE (EXCLUSIVE)///we pl.excl.	1
 1130	WE (EXCLUSIVE)///we-excl [pl]	1
@@ -15874,9 +15879,10 @@ ID	GLOSS	PRIORITY
 1131	WE (INCLUSIVE)///we (1pl incl.)	2
 1131	WE (INCLUSIVE)///we (incl)	2
 1131	WE (INCLUSIVE)///we (incl.)	8
-1131	WE (INCLUSIVE)///we (inclusive)	43
+1131	WE (INCLUSIVE)///we (inclusive)	44
 1131	WE (INCLUSIVE)///we [first person plural inclusive]	3
 1131	WE (INCLUSIVE)///we incl.	1
+1131	WE (INCLUSIVE)///we inclusive	1
 1131	WE (INCLUSIVE)///we pl. incl.	1
 1131	WE (INCLUSIVE)///we pl.incl.	1
 1131	WE (INCLUSIVE)///we-incl [pl]	1
@@ -15902,7 +15908,7 @@ ID	GLOSS	PRIORITY
 1212	WE///WE	5
 1212	WE///We	6
 1212	WE///[1P-PAUC] we	1
-1212	WE///we	111
+1212	WE///we	110
 1212	WE///we (1 p.p.)	1
 1212	WE///we (1p)	1
 1212	WE///we (1pl)	2
@@ -16277,9 +16283,9 @@ ID	GLOSS	PRIORITY
 962	WOMAN///WOMAN	7
 962	WOMAN///Woman	5
 962	WOMAN///lady, woman	1
-962	WOMAN///the woman	158
-962	WOMAN///the womans	158
-962	WOMAN///woman	137
+962	WOMAN///the woman	157
+962	WOMAN///the womans	157
+962	WOMAN///woman	136
 962	WOMAN///woman (as opposite to man)	1
 962	WOMAN///woman, †girl (1)	1
 962	WOMAN///women	1
@@ -16440,9 +16446,9 @@ ID	GLOSS	PRIORITY
 2331	YEAR BEFORE LAST YEAR///year before last year	4
 1226	YEAR///YEAR	5
 1226	YEAR///Year	2
-1226	YEAR///the year	112
-1226	YEAR///the years	112
-1226	YEAR///year	100
+1226	YEAR///the year	113
+1226	YEAR///the years	113
+1226	YEAR///year	101
 1226	YEAR///year 	1
 3329	YEARLING (HORSE)///the yearling (horse)	1
 3329	YEARLING (HORSE)///the yearling (horse)s	1
@@ -16512,7 +16518,7 @@ ID	GLOSS	PRIORITY
 1213	YOU///you (pl)	3
 1213	YOU///you (pl.)	7
 1213	YOU///you (pl.) (ye)	1
-1213	YOU///you (plural)	12
+1213	YOU///you (plural)	11
 1213	YOU///you (sg.)	1
 1213	YOU///you [plural]	1
 1213	YOU///you [second person plural]	3
@@ -16520,7 +16526,7 @@ ID	GLOSS	PRIORITY
 1213	YOU///you dl.	1
 1213	YOU///you pl	1
 1213	YOU///you pl.	3
-1213	YOU///you plural	1
+1213	YOU///you plural	2
 1213	YOU///you(pl.)	1
 1213	YOU///you, ye	1
 1213	YOU///you-pl-o2p	1
