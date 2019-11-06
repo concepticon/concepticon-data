@@ -41,11 +41,12 @@ to normalize them for import:
   and observing that all tests pass for the web app.
 
 - Commit the updates for this version and push updated data:
-```
-git commit -a -m"<version> release"
-git tag -a v<version> -m"release <version>"
-git push origin --tags
-```
+  ```shell script
+  git commit -a -m"<version> release"
+  git tag -a v<version> -m"release <version>"
+  git push origin
+  git push origin --tags
+  ```
 
 - Draft a release via GitHub UI 
   - picking the correct tag, e.g. `v1.1.0`
@@ -57,6 +58,9 @@ git push origin --tags
   - add the DOI badge to the release description on GitHub.
 - Create a [new milestone](https://github.com/concepticon/concepticon-data/milestones) to
   link to issues for the next version.
+
+- Publish the release at https://concepticon.clld.org following the instructions
+  at https://github.com/clld/concepticon/blob/master/RELEASING.md
 
 
 <a name="upload_sources"> </a>
