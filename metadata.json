@@ -1,0 +1,20 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "en"
+    }
+  ],
+  "dc:publisher": {
+    "http://xmlns.com/foaf/0.1/name": "Max Planck Institute for the Science of Human History",
+    "dc:Location": "Jena",
+    "http://xmlns.com/foaf/0.1/homepage": "https://www.shh.mpg.de",
+    "http://xmlns.com/foaf/0.1/mbox": "concepticon@shh.mpg.de"
+  },
+  "dc:license": {
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "icon": "cc-by.png",
+    "name": "Creative Commons Attribution 4.0 International License"
+  },
+  "dcat:accessURL": "https://concepticon.clld.org"
+}
