@@ -41,23 +41,14 @@
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://glottolog.org/resource/languoid/id/stan1293",
                         "name": "ENGLISH"
-                    },
-                    {
-                        "name": "GERMAN",
-                        "propertyUrl": "http://glottolog.org/resource/languoid/id/stan1295",
-                        "datatype": "string"
-                    },
-                    {
-                        "name": "FRENCH"
                     }
                 ],
                 "primaryKey": [
                     "ID"
                 ]
             },
-            "url": "Perrin-2010-110.tsv"
+            "url": "Savelyev-2019-254.tsv"
         }
     ]
 }
