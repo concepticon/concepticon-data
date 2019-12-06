@@ -8,17 +8,17 @@ Tolmie-1884-211-6	6	My father (said by son)
 Tolmie-1884-211-7	7	My father (said by daughter)		
 Tolmie-1884-211-8	8	My mother (said by son)		
 Tolmie-1884-211-9	9	My mother (said by daughter)		
-Tolmie-1884-211-10	10	My husband		
-Tolmie-1884-211-11	11	My wife		
+Tolmie-1884-211-10	10	My husband	1200	HUSBAND
+Tolmie-1884-211-11	11	My wife	1199	WIFE
 Tolmie-1884-211-12	12	My son (said by father)		
 Tolmie-1884-211-13	13	My son (said by mother)		
 Tolmie-1884-211-14	14	My daughter (said by father)		
 Tolmie-1884-211-15	15	My daughter (said by mother)		
-Tolmie-1884-211-16	16	My elder brother		
-Tolmie-1884-211-17	17	My younger brother		
-Tolmie-1884-211-18	18	My elder sister		
-Tolmie-1884-211-19	19	My younger sister		
-Tolmie-1884-211-20	20	An Indian		
+Tolmie-1884-211-16	16	My elder brother	1759	OLDER BROTHER
+Tolmie-1884-211-17	17	My younger brother	1760	YOUNGER BROTHER
+Tolmie-1884-211-18	18	My elder sister	1758	OLDER SISTER
+Tolmie-1884-211-19	19	My younger sister	1761	YOUNGER SISTER
+Tolmie-1884-211-20	20	An Indian	3612	INDIGENOUS PEOPLES OF THE AMERICAS
 Tolmie-1884-211-21	21	People	789	PEOPLE
 Tolmie-1884-211-22	22	Head	1256	HEAD
 Tolmie-1884-211-23	23	Hair	1040	HAIR
@@ -47,19 +47,19 @@ Tolmie-1884-211-45	45	Toes	1389	TOE
 Tolmie-1884-211-46	46	Bone	1394	BONE
 Tolmie-1884-211-47	47	Heart	1223	HEART
 Tolmie-1884-211-48	48	Blood	946	BLOOD
-Tolmie-1884-211-49	49	Town, village		
+Tolmie-1884-211-49	49	Town, village	3609	TOWN OR VILLAGE
 Tolmie-1884-211-50	50	Chief	2394	CHIEF
-Tolmie-1884-211-51	51	Warrior		
+Tolmie-1884-211-51	51	Warrior	3608	WARRIOR
 Tolmie-1884-211-52	52	Friend	1325	FRIEND
 Tolmie-1884-211-53	53	House	1252	HOUSE
 Tolmie-1884-211-54	54	Skin lodge		
 Tolmie-1884-211-55	55	Kettle	854	KETTLE
 Tolmie-1884-211-56	56	Bow	994	BOW
 Tolmie-1884-211-57	57	Arrow	977	ARROW
-Tolmie-1884-211-58	58	Axe, hatchet	2083	AXE (CLASSIFIER)
+Tolmie-1884-211-58	58	Axe, hatchet		
 Tolmie-1884-211-59	59	Knife	1352	KNIFE
 Tolmie-1884-211-60	60	Canoe	1970	CANOE
-Tolmie-1884-211-61	61	Moccasins		
+Tolmie-1884-211-61	61	Moccasins	3607	MOCCASIN
 Tolmie-1884-211-62	62	Pipe	1124	PIPE
 Tolmie-1884-211-63	63	Tobacco	974	TOBACCO
 Tolmie-1884-211-64	64	Sky	1732	SKY
@@ -82,12 +82,12 @@ Tolmie-1884-211-80	80	Snow	784	SNOW
 Tolmie-1884-211-81	81	Fire	221	FIRE
 Tolmie-1884-211-82	82	Water	948	WATER
 Tolmie-1884-211-83	83	Ice	617	ICE
-Tolmie-1884-211-84	84	Earth, land		
+Tolmie-1884-211-84	84	Earth, land	3603	EARTH OR LAND
 Tolmie-1884-211-85	85	Sea	1474	SEA
 Tolmie-1884-211-86	86	River	666	RIVER
 Tolmie-1884-211-87	87	Lake	624	LAKE
 Tolmie-1884-211-88	88	Valley	921	VALLEY
-Tolmie-1884-211-89	89	Prairie		
+Tolmie-1884-211-89	89	Prairie	2819	GRASSLAND
 Tolmie-1884-211-90	90	Hill, mountain	2118	MOUNTAIN OR HILL
 Tolmie-1884-211-91	91	Island	622	ISLAND
 Tolmie-1884-211-92	92	Stone, rock	2125	STONE OR ROCK
@@ -105,7 +105,7 @@ Tolmie-1884-211-103	103	Squash	864	PUMPKIN
 Tolmie-1884-211-104	104	Flesh, meat	2615	FLESH OR MEAT
 Tolmie-1884-211-105	105	Dog	2009	DOG
 Tolmie-1884-211-106	106	Buffalo	934	BUFFALO
-Tolmie-1884-211-107	107	Bear (black)		
+Tolmie-1884-211-107	107	Bear (black)	3611	AMERICAN BLACK BEAR
 Tolmie-1884-211-108	108	Wolf	522	WOLF
 Tolmie-1884-211-109	109	Fox	1312	FOX
 Tolmie-1884-211-110	110	Deer	1936	DEER
@@ -123,19 +123,19 @@ Tolmie-1884-211-121	121	Egg	744	EGG
 Tolmie-1884-211-122	122	Feathers	1201	FEATHER
 Tolmie-1884-211-123	123	Wings	1257	WING
 Tolmie-1884-211-124	124	Goose	1187	GOOSE
-Tolmie-1884-211-125	125	Duck (mallard)	1360	DUCK
+Tolmie-1884-211-125	125	Duck (mallard)	3610	MALLARD
 Tolmie-1884-211-126	126	Turkey	2386	TURKEY
 Tolmie-1884-211-127	127	Pigeon	1853	DOVE
 Tolmie-1884-211-128	128	Fish	227	FISH
 Tolmie-1884-211-129	129	Salmon	944	SALMON
-Tolmie-1884-211-130	130	Sturgeon		
+Tolmie-1884-211-130	130	Sturgeon	3606	STURGEON
 Tolmie-1884-211-131	131	Name	1405	NAME
 Tolmie-1884-211-132	132	White	1335	WHITE
 Tolmie-1884-211-133	133	Black	163	BLACK
 Tolmie-1884-211-134	134	Red	156	RED
-Tolmie-1884-211-135	135	Light blue		
+Tolmie-1884-211-135	135	Light blue	3604	LIGHT BLUE
 Tolmie-1884-211-136	136	Yellow	1424	YELLOW
-Tolmie-1884-211-137	137	Light green		
+Tolmie-1884-211-137	137	Light green	3605	LIGHT GREEN
 Tolmie-1884-211-138	138	Great, large	1202	BIG
 Tolmie-1884-211-139	139	Small, little	1246	SMALL
 Tolmie-1884-211-140	140	Strong	785	STRONG

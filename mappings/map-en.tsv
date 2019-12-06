@@ -188,6 +188,9 @@ ID	GLOSS	PRIORITY
 65	AMBUSH///ambush, embuscade	1
 65	AMBUSH///the ambush	7
 65	AMBUSH///the ambushs	7
+3611	AMERICAN BLACK BEAR///Bear (black)	1
+3611	AMERICAN BLACK BEAR///the american black bear	1
+3611	AMERICAN BLACK BEAR///the american black bears	1
 2987	AMOUNT///amount	1
 2987	AMOUNT///the amount	1
 2987	AMOUNT///the amounts	1
@@ -508,9 +511,8 @@ ID	GLOSS	PRIORITY
 278	AWL///awl; needle	1
 278	AWL///the awl	8
 278	AWL///the awls	8
-2083	AXE (CLASSIFIER)///Axe, hatchet	1
 2083	AXE (CLASSIFIER)///CLS for axe	1
-2083	AXE (CLASSIFIER)///axe (classifier) (classifier)	2
+2083	AXE (CLASSIFIER)///axe (classifier) (classifier)	1
 677	AXE///AXE	1
 677	AXE///ax	7
 677	AXE///axe	35
@@ -4317,11 +4319,10 @@ ID	GLOSS	PRIORITY
 1398	DRY///to dry (sth.)	1
 1360	DUCK///DUCK	1
 1360	DUCK///Duck	1
-1360	DUCK///Duck (mallard)	1
 1360	DUCK///duck	33
 1360	DUCK///duck (domestic) (note:+domestic)	1
-1360	DUCK///the duck	39
-1360	DUCK///the ducks	39
+1360	DUCK///the duck	38
+1360	DUCK///the ducks	38
 2189	DUGOUT///canoe (dugout)	1
 2189	DUGOUT///the dugout	1
 2189	DUGOUT///the dugouts	1
@@ -4460,6 +4461,9 @@ ID	GLOSS	PRIORITY
 2158	EARTH (WET SUBSTANCE)///soil; earth	1
 2158	EARTH (WET SUBSTANCE)///the earth (wet substance)	1
 2158	EARTH (WET SUBSTANCE)///the earth (wet substance)s	1
+3603	EARTH OR LAND///Earth, land	1
+3603	EARTH OR LAND///the earth or land	1
+3603	EARTH OR LAND///the earth or lands	1
 3409	EARTHEN JUG///jar (earthen)	1
 3409	EARTHEN JUG///the earthen jug	1
 3409	EARTHEN JUG///the earthen jugs	1
@@ -6413,11 +6417,12 @@ ID	GLOSS	PRIORITY
 607	GRASSHOPPER///grasshopper	11
 607	GRASSHOPPER///the grasshopper	13
 607	GRASSHOPPER///the grasshoppers	13
+2819	GRASSLAND///Prairie	1
 2819	GRASSLAND///flatland (grassland) (note:field | meadow {lit. +grass})	1
 2819	GRASSLAND///grassland	1
 2819	GRASSLAND///meadow	1
-2819	GRASSLAND///the grassland	3
-2819	GRASSLAND///the grasslands	3
+2819	GRASSLAND///the grassland	4
+2819	GRASSLAND///the grasslands	4
 3114	GRATE (SOMETHING)///grate	3
 3114	GRATE (SOMETHING)///to grate (something)	3
 130	GRATIS (OF CHARGE)///free of charge	1
@@ -7456,11 +7461,12 @@ ID	GLOSS	PRIORITY
 1200	HUSBAND///HUSBAND	4
 1200	HUSBAND///HUSBAND, (SPOUSE, WITH)	1
 1200	HUSBAND///Husband	2
+1200	HUSBAND///My husband	1
 1200	HUSBAND///husband	84
 1200	HUSBAND///husband (address) (note:+citation)	1
 1200	HUSBAND///marido, esposo	1
-1200	HUSBAND///the husband	98
-1200	HUSBAND///the husbands	98
+1200	HUSBAND///the husband	99
+1200	HUSBAND///the husbands	99
 1678	HUT///hut	5
 1678	HUT///shelter	1
 1678	HUT///the hut	8
@@ -7570,6 +7576,8 @@ ID	GLOSS	PRIORITY
 1041	INCREASE///increase (v)	1
 1041	INCREASE///increase / gain	1
 1041	INCREASE///to increase	6
+3612	INDIGENOUS PEOPLES OF THE AMERICAS///An Indian	1
+3612	INDIGENOUS PEOPLES OF THE AMERICAS///indigenous peoples of the americas	1
 61	INDUCE///to induce	1
 548	INFECTED///infected (adjective)	1
 548	INFECTED///to become infected	1
@@ -8507,6 +8515,10 @@ ID	GLOSS	PRIORITY
 1052	LIGHT (WEIGHT)///light (weight) (adjective)	43
 1052	LIGHT (WEIGHT)///light(1)	2
 1052	LIGHT (WEIGHT)///lightweight	4
+3604	LIGHT BLUE///Light blue	1
+3604	LIGHT BLUE///light blue (adjective)	1
+3605	LIGHT GREEN///Light green	1
+3605	LIGHT GREEN///light green (adjective)	1
 3092	LIGHTER///lighter	2
 3092	LIGHTER///the lighter	2
 3092	LIGHTER///the lighters	2
@@ -8913,6 +8925,9 @@ ID	GLOSS	PRIORITY
 2478	MALE YAK///the male yaks	1
 1553	MALE///male	9
 1553	MALE///male (adjective)	9
+3610	MALLARD///Duck (mallard)	1
+3610	MALLARD///the mallard	1
+3610	MALLARD///the mallards	1
 2645	MAN OR PERSON///MAN/PERSON	1
 2645	MAN OR PERSON///the man or person	1
 2645	MAN OR PERSON///the man or persons	1
@@ -9334,6 +9349,9 @@ ID	GLOSS	PRIORITY
 2017	MIX///to mix	13
 2017	MIX///to mix, stir	1
 2017	MIX///to stir or to mix	2
+3607	MOCCASIN///Moccasins	1
+3607	MOCCASIN///the moccasin	1
+3607	MOCCASIN///the moccasins	1
 28	MOISTEN///moisten	1
 28	MOISTEN///to moisten	2
 28	MOISTEN///to wet, moisten	1
@@ -10118,14 +10136,15 @@ ID	GLOSS	PRIORITY
 2415	OLDER BROTHER (OF WOMAN)///the older brother (of woman)	2
 2415	OLDER BROTHER (OF WOMAN)///the older brother (of woman)s	2
 1759	OLDER BROTHER///(el.) bro.	1
+1759	OLDER BROTHER///My elder brother	1
 1759	OLDER BROTHER///big brother	1
 1759	OLDER BROTHER///brother (elder)	5
 1759	OLDER BROTHER///brother (older, same sex)	3
 1759	OLDER BROTHER///elder brother	6
 1759	OLDER BROTHER///elder brother (gen)	1
 1759	OLDER BROTHER///older brother	12
-1759	OLDER BROTHER///the older brother	31
-1759	OLDER BROTHER///the older brothers	31
+1759	OLDER BROTHER///the older brother	32
+1759	OLDER BROTHER///the older brothers	32
 405	OLDER SIBLING///elder sibling	1
 405	OLDER SIBLING///older sibling	1
 405	OLDER SIBLING///sibling_elder	1
@@ -10141,14 +10160,15 @@ ID	GLOSS	PRIORITY
 2419	OLDER SISTER (OF WOMAN)///the older sister (of woman)	2
 2419	OLDER SISTER (OF WOMAN)///the older sister (of woman)s	2
 1758	OLDER SISTER///(el.) sist.	1
+1758	OLDER SISTER///My elder sister	1
 1758	OLDER SISTER///big sister	1
 1758	OLDER SISTER///elder sister	4
 1758	OLDER SISTER///elder sister (gen)	1
 1758	OLDER SISTER///older sister	11
 1758	OLDER SISTER///sister (elder)	5
 1758	OLDER SISTER///sister, elder	1
-1758	OLDER SISTER///the older sister	26
-1758	OLDER SISTER///the older sisters	26
+1758	OLDER SISTER///the older sister	27
+1758	OLDER SISTER///the older sisters	27
 1154	OLIVE///olive	3
 1154	OLIVE///the olive	5
 1154	OLIVE///the olives	5
@@ -14323,6 +14343,9 @@ ID	GLOSS	PRIORITY
 1518	STUPID///foolish; stupid	1
 1518	STUPID///stupid	9
 1518	STUPID///stupid (adjective)	19
+3606	STURGEON///Sturgeon	1
+3606	STURGEON///the sturgeon	1
+3606	STURGEON///the sturgeons	1
 1866	STUTTER///stutter	2
 1866	STUTTER///stutter, stammer	2
 1866	STUTTER///to stutter	6
@@ -15386,6 +15409,9 @@ ID	GLOSS	PRIORITY
 1671	TOWER///the towers	7
 1671	TOWER///tower	4
 1671	TOWER///tower / pagoda	1
+3609	TOWN OR VILLAGE///Town, village	1
+3609	TOWN OR VILLAGE///the town or village	1
+3609	TOWN OR VILLAGE///the town or villages	1
 1391	TOWN///city, town	2
 1391	TOWN///city; town	1
 1391	TOWN///the town	16
@@ -16066,6 +16092,9 @@ ID	GLOSS	PRIORITY
 1232	WARM///warm (adjective)	71
 1232	WARM///warm (as in weather)	1
 1232	WARM///warm (as water)	1
+3608	WARRIOR///Warrior	1
+3608	WARRIOR///the warrior	1
+3608	WARRIOR///the warriors	1
 2665	WART///the wart	1
 2665	WART///the warts	1
 2665	WART///wart	1
@@ -16467,10 +16496,11 @@ ID	GLOSS	PRIORITY
 1981	WIDOWER///the widower	8
 1981	WIDOWER///the widowers	8
 1981	WIDOWER///widower	6
+1199	WIFE///My wife	1
 1199	WIFE///WIFE	5
 1199	WIFE///Wife	1
-1199	WIFE///the wife	98
-1199	WIFE///the wifes	98
+1199	WIFE///the wife	99
+1199	WIFE///the wifes	99
 1199	WIFE///wife	86
 1199	WIFE///wife (address) (note:+citation)	1
 958	WILD ANIMAL///animal / beast (carnivore)	1
@@ -16910,11 +16940,12 @@ ID	GLOSS	PRIORITY
 2417	YOUNGER BROTHER (OF WOMAN)///the younger brother (of woman)	3
 2417	YOUNGER BROTHER (OF WOMAN)///the younger brother (of woman)s	3
 2417	YOUNGER BROTHER (OF WOMAN)///younger brother of a female	1
+1760	YOUNGER BROTHER///My younger brother	1
 1760	YOUNGER BROTHER///brother (younger)	2
 1760	YOUNGER BROTHER///brother, younger	1
 1760	YOUNGER BROTHER///little brother	1
-1760	YOUNGER BROTHER///the younger brother	20
-1760	YOUNGER BROTHER///the younger brothers	20
+1760	YOUNGER BROTHER///the younger brother	21
+1760	YOUNGER BROTHER///the younger brothers	21
 1760	YOUNGER BROTHER///younger brother	12
 1760	YOUNGER BROTHER///younger brother (address)	1
 1760	YOUNGER BROTHER///younger brother (gen)	1
@@ -16935,11 +16966,12 @@ ID	GLOSS	PRIORITY
 2421	YOUNGER SISTER (OF WOMAN)///the younger sister (of woman)	3
 2421	YOUNGER SISTER (OF WOMAN)///the younger sister (of woman)s	3
 2421	YOUNGER SISTER (OF WOMAN)///younger sister of a female	1
+1761	YOUNGER SISTER///My younger sister	1
 1761	YOUNGER SISTER///little sister	1
 1761	YOUNGER SISTER///sister (younger)	2
 1761	YOUNGER SISTER///sister, younger	1
-1761	YOUNGER SISTER///the younger sister	18
-1761	YOUNGER SISTER///the younger sisters	18
+1761	YOUNGER SISTER///the younger sister	19
+1761	YOUNGER SISTER///the younger sisters	19
 1761	YOUNGER SISTER///younger sister	11
 1761	YOUNGER SISTER///younger sister (gen)	1
 2274	YOUR (PLURAL)///your (plural)	2
