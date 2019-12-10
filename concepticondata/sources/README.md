@@ -123,6 +123,7 @@
 - [Tadmor2009 [PDF 102.3KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-8123-2F91-AFE5-0/Tadmor2009.pdf)
 - [Thomas1960 [PDF 155.7KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-CF51-4CB3-0270-0/Thomas1960.pdf)
 - [Thomas1979 [PDF 1.0MB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-1283-3702-5D99-0/Thomas1979.pdf)
+- [Tolmie1884 [PDF 81.5MB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-CC88-DD14-3D38-0/Tolmie1884.pdf)
 - [Trask1996 [PDF 101.4KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-869C-6260-A20A-0/Trask1996.pdf)
 - [Trask2000 [PDF 32.6KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-BC95-8027-72EB-0/Trask2000.pdf)
 - [Trick1983 [PDF 136.0KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-254E-8352-CC6C-0/Trick1983.pdf)
