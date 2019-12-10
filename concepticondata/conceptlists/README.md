@@ -268,6 +268,7 @@
 | [Wilkins-1996-41](Wilkins-1996-41.tsv) | 41 | 100 | 0 |
 | [Wilkins-1996-75](Wilkins-1996-75.tsv) | 74 | 98 | 1 |
 | [Wilson-1969-35](Wilson-1969-35.tsv) | 35 | 100 | 0 |
+| [Winter-2016-300](Winter-2016-300.tsv) | 300 | 100 | 0 |
 | [Woll-2010-301](Woll-2010-301.tsv) | 257 | 85 | 2 |
 | [Woodward-1991-100](Woodward-1991-100.tsv) | 100 | 100 | 0 |
 | [Yakhontov-1991-100](Yakhontov-1991-100.tsv) | 100 | 100 | 0 |
