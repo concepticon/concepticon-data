@@ -27,7 +27,7 @@
                     {
                         "datatype": "string",
                         "name": "ENGLISH"
-                    }
+                    },
                     {
                         "datatype": "string",
                         "name": "CONCEPTICON_GLOSS"
@@ -74,7 +74,7 @@
                     {
                         "datatype": "integer",
                         "name": "PARTICIPANTS"
-                    },
+                    }
                 ],
                 "primaryKey": [
                     "ID"
