@@ -242,7 +242,7 @@
 | [TeilDautrey-2008-430](TeilDautrey-2008-430.tsv) | 420 | 97 | 5 |
 | [Thomas-1960-168](Thomas-1960-168.tsv) | 168 | 100 | 1 |
 | [Thomas-1979-34](Thomas-1979-34.tsv) | 34 | 100 | 0 |
-| [Tolmie-1884-211](Tolmie-1884-211.tsv) | 186 | 88 | 0 |
+| [Tolmie-1884-211](Tolmie-1884-211.tsv) | 201 | 95 | 0 |
 | [Trask-1996-100](Trask-1996-100.tsv) | 100 | 100 | 0 |
 | [Trask-1996-207](Trask-1996-207.tsv) | 207 | 100 | 0 |
 | [Trask-1996-45](Trask-1996-45.tsv) | 44 | 97 | 0 |
@@ -268,6 +268,7 @@
 | [Wilkins-1996-41](Wilkins-1996-41.tsv) | 41 | 100 | 0 |
 | [Wilkins-1996-75](Wilkins-1996-75.tsv) | 74 | 98 | 1 |
 | [Wilson-1969-35](Wilson-1969-35.tsv) | 35 | 100 | 0 |
+| [Winter-2016-300](Winter-2016-300.tsv) | 87 | 28 | 0 |
 | [Woll-2010-301](Woll-2010-301.tsv) | 257 | 85 | 2 |
 | [Woodward-1991-100](Woodward-1991-100.tsv) | 100 | 100 | 0 |
 | [Yakhontov-1991-100](Yakhontov-1991-100.tsv) | 100 | 100 | 0 |
@@ -280,5 +281,5 @@
 | [Zorc-1974-100](Zorc-1974-100.tsv) | 100 | 100 | 0 |
 | [vanderWouw-1974-28](vanderWouw-1974-28.tsv) | 28 | 100 | 0 |
 
-(277 rows)
+(278 rows)
 

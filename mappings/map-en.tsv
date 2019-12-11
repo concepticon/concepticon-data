@@ -73,10 +73,10 @@ ID	GLOSS	PRIORITY
 1818	ADJUDICATE///judge (vb)	2
 1818	ADJUDICATE///judge (vb.)	1
 1818	ADJUDICATE///to adjudicate	6
-2022	ADMIT///admit	2
+2022	ADMIT///admit	3
 2022	ADMIT///admit, confess	2
 2022	ADMIT///admit; confess	1
-2022	ADMIT///to admit	7
+2022	ADMIT///to admit	8
 901	ADOBE///adobe	2
 901	ADOBE///the adobe	4
 901	ADOBE///the adobes	4
@@ -295,8 +295,8 @@ ID	GLOSS	PRIORITY
 1320	APPLE///apple	14
 1320	APPLE///the apple	15
 1320	APPLE///the apples	15
-1778	APPROACH///approach	4
-1778	APPROACH///to approach	6
+1778	APPROACH///approach	5
+1778	APPROACH///to approach	7
 2745	APRICOT BLOSSOM///the apricot blossom	0
 2745	APRICOT BLOSSOM///the apricot blossoms	0
 2357	APRICOT TREE///the apricot tree	0
@@ -356,21 +356,21 @@ ID	GLOSS	PRIORITY
 1561	ARMY///the army	13
 1561	ARMY///the armys	13
 1568	ARRANGE///agree on / arrange	1
-1568	ARRANGE///arrange	2
+1568	ARRANGE///arrange	3
 1568	ARRANGE///make bed	1
-1568	ARRANGE///to arrange	4
+1568	ARRANGE///to arrange	5
 2212	ARRIVE (OF AN EVENT)///to arrive (of an event)	1
 2212	ARRIVE (OF AN EVENT)///to come (of an event)	1
 1387	ARRIVE///ARRIVE	1
 1387	ARRIVE///Arrive	1
-1387	ARRIVE///arrive	8
+1387	ARRIVE///arrive	9
 1387	ARRIVE///arrive (vi)	1
 1387	ARRIVE///arrive here	1
 1387	ARRIVE///arrive; reach	1
 1387	ARRIVE///reach there	1
 1387	ARRIVE///reach, arrive	2
 1387	ARRIVE///to (reach)	1
-1387	ARRIVE///to arrive	24
+1387	ARRIVE///to arrive	25
 1387	ARRIVE///to reach	1
 977	ARROW///ARROW	1
 977	ARROW///ARROW, (BOW)	1
@@ -416,9 +416,10 @@ ID	GLOSS	PRIORITY
 1309	ASK (INQUIRE)///ask / question	1
 1309	ASK (INQUIRE)///ask1 (inquire); question	1
 1309	ASK (INQUIRE)///ask; question	1
+1309	ASK (INQUIRE)///question	1
 1309	ASK (INQUIRE)///to ask	3
 1309	ASK (INQUIRE)///to ask (a question)	1
-1309	ASK (INQUIRE)///to ask (inquire)	30
+1309	ASK (INQUIRE)///to ask (inquire)	31
 1309	ASK (INQUIRE)///to ask(1)	2
 1309	ASK (INQUIRE)///to ask, inquire	1
 1828	ASK (REQUEST)///ask (v)	1
@@ -702,12 +703,12 @@ ID	GLOSS	PRIORITY
 1204	BARK///the barks	118
 1204	BARK///to bark	1
 1204	BARK///tree bark	2
-1206	BARKING///bark	6
+1206	BARKING///bark	7
 1206	BARKING///bark (dog)	2
 1206	BARKING///bark (of dog)	1
 1206	BARKING///to bark	4
 1206	BARKING///to bark (of a dog)	1
-1206	BARKING///to barking	14
+1206	BARKING///to barking	15
 932	BARLEY///BARLEY	1
 932	BARLEY///Barley	1
 932	BARLEY///barley	22
@@ -1274,7 +1275,7 @@ ID	GLOSS	PRIORITY
 1403	BITE///Bite (v.)	1
 1403	BITE///Chew, bite 嚼,	1
 1403	BITE///TO BITE	3
-1403	BITE///bite	96
+1403	BITE///bite	97
 1403	BITE///bite (V)	2
 1403	BITE///bite (bie as in eating)	1
 1403	BITE///bite (bit me)	1
@@ -1287,7 +1288,7 @@ ID	GLOSS	PRIORITY
 1403	BITE///he bites	2
 1403	BITE///let us bite	1
 1403	BITE///the dog bites	2
-1403	BITE///to bite	163
+1403	BITE///to bite	164
 1403	BITE///to bite / the dog bites / bit	1
 1403	BITE///to_bite	1
 3256	BITTER BUCKWHEAT///buckwheat, bitter	1
@@ -1329,8 +1330,9 @@ ID	GLOSS	PRIORITY
 3084	BLACKBOARD///blackboard	2
 3084	BLACKBOARD///the blackboard	2
 3084	BLACKBOARD///the blackboards	2
+2808	BLACKEN///blacken	1
 2808	BLACKEN///blacken (to)	1
-2808	BLACKEN///to blacken	1
+2808	BLACKEN///to blacken	2
 1001	BLACKSMITH///blacksmith	4
 1001	BLACKSMITH///smith	1
 1001	BLACKSMITH///smith, blacksmith	2
@@ -1545,8 +1547,9 @@ ID	GLOSS	PRIORITY
 3362	BOILED WATER///the boiled water	1
 3362	BOILED WATER///the boiled waters	1
 3362	BOILED WATER///water (boiled)	1
+2860	BOLT (MOVE IN HASTE)///bolt	1
 2860	BOLT (MOVE IN HASTE)///rush	1
-2860	BOLT (MOVE IN HASTE)///to bolt (move in haste)	1
+2860	BOLT (MOVE IN HASTE)///to bolt (move in haste)	2
 2007	BOLT (OF LIGHTNING)///lightning (as striking)	2
 2007	BOLT (OF LIGHTNING)///lightning; thunderbolt	1
 2007	BOLT (OF LIGHTNING)///the bolt (of lightning)	5
@@ -1594,7 +1597,7 @@ ID	GLOSS	PRIORITY
 905	BORING///boring	2
 905	BORING///boring (adjective)	4
 1823	BORROW///Borrow (tool/money) 借	1
-1823	BORROW///borrow	4
+1823	BORROW///borrow	5
 1823	BORROW///borrow (money)	1
 1823	BORROW///borrow (thing)	1
 1823	BORROW///borrow (tools)	1
@@ -1603,7 +1606,7 @@ ID	GLOSS	PRIORITY
 1823	BORROW///borrow money	1
 1823	BORROW///borrow things	1
 1823	BORROW///lease; rent	1
-1823	BORROW///to borrow	18
+1823	BORROW///to borrow	19
 1823	BORROW///to borrow (tools)	1
 2930	BOSS///boss	1
 2930	BOSS///the boss	1
@@ -1663,8 +1666,8 @@ ID	GLOSS	PRIORITY
 1530	BOWL///bowl (of cooked rice)	1
 1530	BOWL///the bowl	13
 1530	BOWL///the bowls	13
-3108	BOX (SOMEBODY OR SOMETHING)///box	2
-3108	BOX (SOMEBODY OR SOMETHING)///to box (somebody or something)	2
+3108	BOX (SOMEBODY OR SOMETHING)///box	3
+3108	BOX (SOMEBODY OR SOMETHING)///to box (somebody or something)	3
 3150	BOX OR CHEST///box or chest (adjective)	1
 3150	BOX OR CHEST///chest / box / trunk	1
 1465	BOX///box	6
@@ -1848,13 +1851,13 @@ ID	GLOSS	PRIORITY
 1407	BREATHE///BREATHE (VERB)	1
 1407	BREATHE///Breathe	2
 1407	BREATHE///TO BREATHE	3
-1407	BREATHE///breathe	41
+1407	BREATHE///breathe	42
 1407	BREATHE///breathe (1st)	1
 1407	BREATHE///breathe (to)	1
 1407	BREATHE///breathe (v)	1
 1407	BREATHE///breathe (v.)	1
 1407	BREATHE///breathing	1
-1407	BREATHE///to breathe	71
+1407	BREATHE///to breathe	72
 1407	BREATHE///to_breathe	1
 1163	BRIBE (AMOUNT)///bribe	1
 1163	BRIBE (AMOUNT)///the bribe (amount)	1
@@ -1961,8 +1964,9 @@ ID	GLOSS	PRIORITY
 1148	BRUISE///bruise	3
 1148	BRUISE///the bruise	5
 1148	BRUISE///the bruises	5
+3109	BRUSH (TEETH)///brush	1
 3109	BRUSH (TEETH)///brush [teeth]	2
-3109	BRUSH (TEETH)///to brush (teeth)	2
+3109	BRUSH (TEETH)///to brush (teeth)	3
 1821	BRUSH///brush	7
 1821	BRUSH///the brush	9
 1821	BRUSH///the brushs	9
@@ -2400,12 +2404,12 @@ ID	GLOSS	PRIORITY
 2184	CATCH A COLD///catch a cold (v)	1
 2184	CATCH A COLD///to catch a cold	1
 702	CATCH///I catch	1
-702	CATCH///catch	5
+702	CATCH///catch	6
 702	CATCH///catch (ball)	2
 702	CATCH///catch / capture	1
 702	CATCH///catch; capture	1
 702	CATCH///catch; seize	1
-702	CATCH///to catch	15
+702	CATCH///to catch	16
 2247	CATERPILLAR///caterpillar	5
 2247	CATERPILLAR///the caterpillar	5
 2247	CATERPILLAR///the caterpillars	5
@@ -2502,12 +2506,12 @@ ID	GLOSS	PRIORITY
 2856	CHANGE (SOMETHING)///correct / change	1
 2856	CHANGE (SOMETHING)///to change (something)	2
 1264	CHANGE///alter	1
-1264	CHANGE///change	4
+1264	CHANGE///change	5
 1264	CHANGE///change (vb.)	1
 1264	CHANGE///change (vi)	1
 1264	CHANGE///change (vt)	1
 1264	CHANGE///change / transform	1
-1264	CHANGE///to change	12
+1264	CHANGE///to change	13
 1264	CHANGE///to change (tr.)	1
 2423	CHANNEL///channel	1
 2423	CHANNEL///the channel	1
@@ -2538,7 +2542,8 @@ ID	GLOSS	PRIORITY
 1887	CHEAP///cheap	16
 1887	CHEAP///cheap (adjective)	18
 1887	CHEAP///inexpensiveness	1
-1975	CHECK///to check	1
+1975	CHECK///check	1
+1975	CHECK///to check	2
 1975	CHECK///to check, test	1
 1730	CHEEK///Cheeks	1
 1730	CHEEK///cheek	22
@@ -2571,10 +2576,10 @@ ID	GLOSS	PRIORITY
 2318	CHESTNUT///the chestnuts	1
 3161	CHEW BETEL///chew betel	1
 3161	CHEW BETEL///to chew betel	1
-321	CHEW///chew	15
+321	CHEW///chew	16
 321	CHEW///chew (v.)	1
 321	CHEW///chew (vt)	1
-321	CHEW///to chew	28
+321	CHEW///to chew	29
 321	CHEW///to chew (a. general term; if no general term then b. chew betel)	1
 321	CHEW///to chew (back teeth)	1
 441	CHICHA///chicha	1
@@ -2666,8 +2671,8 @@ ID	GLOSS	PRIORITY
 919	CHILI PEPPER///red pepper, chili	1
 919	CHILI PEPPER///the chili pepper	30
 919	CHILI PEPPER///the chili peppers	30
-2897	CHIME (ACTION)///chime	1
-2897	CHIME (ACTION)///to chime (action)	1
+2897	CHIME (ACTION)///chime	2
+2897	CHIME (ACTION)///to chime (action)	2
 1305	CHIMNEY///chimney	3
 1305	CHIMNEY///the chimney	5
 1305	CHIMNEY///the chimneys	5
@@ -2752,10 +2757,10 @@ ID	GLOSS	PRIORITY
 302	CLAN///the clan	7
 302	CLAN///the clans	7
 302	CLAN///tribe, clan	3
-3110	CLAP///clap	3
+3110	CLAP///clap	4
 3110	CLAP///clap (v)	1
 3110	CLAP///clap hands	1
-3110	CLAP///to clap	5
+3110	CLAP///to clap	6
 2128	CLAW OR NAIL///claw (nail)	1
 2128	CLAW OR NAIL///claw or fingernail	1
 2128	CLAW OR NAIL///fingernail (claw)	1
@@ -3273,12 +3278,12 @@ ID	GLOSS	PRIORITY
 1850	COTTON///cotton	14
 1850	COTTON///the cotton	18
 1850	COTTON///the cottons	18
-879	COUGH///cough	21
+879	COUGH///cough	22
 879	COUGH///cough (v)	1
 879	COUGH///cough (v.)	1
 879	COUGH///cough (vb.)	1
 879	COUGH///cough (vi)	1
-879	COUGH///to cough	34
+879	COUGH///to cough	35
 2945	COUNT (QUANTITY)///count	1
 2945	COUNT (QUANTITY)///the count (quantity)	1
 2945	COUNT (QUANTITY)///the count (quantity)s	1
@@ -3999,9 +4004,9 @@ ID	GLOSS	PRIORITY
 2978	DISTANCE///distance	1
 2978	DISTANCE///the distance	1
 2978	DISTANCE///the distances	1
-2883	DISTURB///disturb	2
+2883	DISTURB///disturb	3
 2883	DISTURB///startle / disturb	1
-2883	DISTURB///to disturb	3
+2883	DISTURB///to disturb	4
 2002	DITCH///ditch	4
 2002	DITCH///ditch 	1
 2002	DITCH///ditch / gully	1
@@ -4031,14 +4036,14 @@ ID	GLOSS	PRIORITY
 2575	DO OR MAKE///to do, make	1
 2575	DO OR MAKE///to do/make	4
 813	DO///did	1
-813	DO///do	14
+813	DO///do	15
 813	DO///do (1st)	1
 813	DO///do (work)	2
 813	DO///do it (v)	3
 813	DO///does	1
 813	DO///don't	1
 813	DO///done	1
-813	DO///to do	32
+813	DO///to do	33
 527	DOG-ROSE///dog-rose	1
 527	DOG-ROSE///the dog-rose	1
 527	DOG-ROSE///the dog-roses	1
@@ -4116,9 +4121,9 @@ ID	GLOSS	PRIORITY
 1326	DOWN///downwards	1
 3168	DOWRY///the dowry	0
 3168	DOWRY///the dowrys	0
-2030	DRAG///drag	3
+2030	DRAG///drag	4
 2030	DRAG///pull / drag (a log)	1
-2030	DRAG///to drag	4
+2030	DRAG///to drag	5
 2186	DRAGON BOAT FESTIVAL///the dragon boat festival	0
 2186	DRAGON BOAT FESTIVAL///the dragon boat festivals	0
 2038	DRAGON///dragon	7
@@ -4283,7 +4288,7 @@ ID	GLOSS	PRIORITY
 452	DRY SEASON///the dry season	3
 452	DRY SEASON///the dry seasons	3
 1786	DRY UP///become dry	1
-1786	DRY UP///dry	3
+1786	DRY UP///dry	4
 1786	DRY UP///dry (N)	1
 1786	DRY UP///dry (a. general term, b. to dry up)	1
 1786	DRY UP///dry (clothes) in the air	1
@@ -4293,7 +4298,7 @@ ID	GLOSS	PRIORITY
 1786	DRY UP///dry up	1
 1786	DRY UP///dry, dry up (v.i.)	1
 1786	DRY UP///to dry (clothes)	1
-1786	DRY UP///to dry up	13
+1786	DRY UP///to dry up	14
 1398	DRY///(it is) dry	1
 1398	DRY///DRY	5
 1398	DRY///DRY (SUBSTANCE)	3
@@ -4498,7 +4503,7 @@ ID	GLOSS	PRIORITY
 1336	EAT///TO EAT	3
 1336	EAT///To eat	2
 1336	EAT///ate	1
-1336	EAT///eat	115
+1336	EAT///eat	116
 1336	EAT///eat (1)	1
 1336	EAT///eat (1st)	2
 1336	EAT///eat (2)	1
@@ -4511,7 +4516,7 @@ ID	GLOSS	PRIORITY
 1336	EAT///eats	1
 1336	EAT///he eats	2
 1336	EAT///he is eating	1
-1336	EAT///to eat	194
+1336	EAT///to eat	195
 1336	EAT///to eat / eat!	1
 1336	EAT///to_eat	1
 1336	EAT///you eat!	2
@@ -4625,9 +4630,9 @@ ID	GLOSS	PRIORITY
 928	EMBRACE///hold (baby) in arms	1
 928	EMBRACE///hug	4
 928	EMBRACE///to embrace	13
-1076	EMERGE (APPEAR)///appear	3
+1076	EMERGE (APPEAR)///appear	4
 1076	EMERGE (APPEAR)///emerge	5
-1076	EMERGE (APPEAR)///to emerge (appear)	8
+1076	EMERGE (APPEAR)///to emerge (appear)	9
 3377	EMPEROR///emperor	1
 3377	EMPEROR///the emperor	1
 3377	EMPEROR///the emperors	1
@@ -4653,10 +4658,10 @@ ID	GLOSS	PRIORITY
 743	END (OF TIME)///the end (of time)	7
 743	END (OF TIME)///the end (of time)s	7
 743	END (OF TIME)///the end(2)	2
-833	ENDURE///endure	2
+833	ENDURE///endure	3
 833	ENDURE///endure / be patient	1
 833	ENDURE///suffer, bear patiently	1
-833	ENDURE///to endure	5
+833	ENDURE///to endure	6
 1358	ENEMY///enemy	13
 1358	ENEMY///enemy (personal) / antagonizer	1
 1358	ENEMY///enemy; foe	1
@@ -4726,10 +4731,10 @@ ID	GLOSS	PRIORITY
 1345	EWE///the ewe	5
 1345	EWE///the ewes	5
 1466	EXACT///exact (adjective)	0
-2509	EXCHANGE///exchange	6
+2509	EXCHANGE///exchange	7
 2509	EXCHANGE///exchange money	1
 2509	EXCHANGE///swap	1
-2509	EXCHANGE///to exchange	11
+2509	EXCHANGE///to exchange	12
 47	EXCRETA///excrement	1
 47	EXCRETA///excreta	1
 47	EXCRETA///the excreta	2
@@ -5118,9 +5123,9 @@ ID	GLOSS	PRIORITY
 2559	FEEL (TACTUALLY)///feel (with hands)	1
 2559	FEEL (TACTUALLY)///to feel (tactually)	6
 2559	FEEL (TACTUALLY)///to feel (with hands)	1
-1079	FEEL///feel	3
+1079	FEEL///feel	4
 1079	FEEL///feel (vb.)	1
-1079	FEEL///to feel	7
+1079	FEEL///to feel	8
 2573	FEELING (EMOTION)///emotion	1
 2573	FEELING (EMOTION)///emotion; feeling (emotion)	1
 2573	FEELING (EMOTION)///feelings	1
@@ -6071,7 +6076,7 @@ ID	GLOSS	PRIORITY
 2324	GET WET///get wet (v)	1
 2324	GET WET///to get wet	2
 694	GET///achieve, obtain	1
-694	GET///get	4
+694	GET///get	5
 694	GET///get (1st)	1
 694	GET///get / acquire	1
 694	GET///get, obtain	3
@@ -6083,7 +6088,7 @@ ID	GLOSS	PRIORITY
 694	GET///obtain (to)	1
 694	GET///obtain (v)	1
 694	GET///receive	2
-694	GET///to get	27
+694	GET///to get	28
 694	GET///to get, obtain	1
 694	GET///to receive	1
 1175	GHOST///Ghost	1
@@ -6149,7 +6154,7 @@ ID	GLOSS	PRIORITY
 1447	GIVE///TO GIVE	3
 1447	GIVE///To give	2
 1447	GIVE///gave	1
-1447	GIVE///give	98
+1447	GIVE///give	99
 1447	GIVE///give (him)	2
 1447	GIVE///give (imperative)	1
 1447	GIVE///give (me)!	1
@@ -6164,7 +6169,7 @@ ID	GLOSS	PRIORITY
 1447	GIVE///gives (to me)	1
 1447	GIVE///he gives it to me	1
 1447	GIVE///he gives to me	1
-1447	GIVE///to give	173
+1447	GIVE///to give	174
 1447	GIVE///to give / give!	1
 1447	GIVE///to give to	1
 1447	GIVE///to_give	1
@@ -6217,7 +6222,7 @@ ID	GLOSS	PRIORITY
 1107	GO OUT///to come out	1
 1107	GO OUT///to exit	2
 1107	GO OUT///to go out	21
-705	GO UP (ASCEND)///ascend	5
+705	GO UP (ASCEND)///ascend	6
 705	GO UP (ASCEND)///climb, ascend	2
 705	GO UP (ASCEND)///climb/ascend	2
 705	GO UP (ASCEND)///go up	5
@@ -6228,7 +6233,7 @@ ID	GLOSS	PRIORITY
 705	GO UP (ASCEND)///to climb (a. ladder, b. mountain)	1
 705	GO UP (ASCEND)///to climb/ascend	1
 705	GO UP (ASCEND)///to go up	4
-705	GO UP (ASCEND)///to go up (ascend)	30
+705	GO UP (ASCEND)///to go up (ascend)	31
 705	GO UP (ASCEND)///to rise	1
 705	GO UP (ASCEND)///up (mountain)	1
 705	GO UP (ASCEND)///up; ascend	1
@@ -6329,7 +6334,8 @@ ID	GLOSS	PRIORITY
 411	GOURD///melon / gourd	1
 411	GOURD///the gourd	17
 411	GOURD///the gourds	17
-382	GOVERN///to govern	1
+382	GOVERN///govern	1
+382	GOVERN///to govern	2
 815	GOVERNMENT///government	1
 815	GOVERNMENT///the government	3
 815	GOVERNMENT///the governments	3
@@ -6444,9 +6450,9 @@ ID	GLOSS	PRIORITY
 3284	GRAVEYARD///graveyard	1
 3284	GRAVEYARD///the graveyard	1
 3284	GRAVEYARD///the graveyards	1
-3058	GRAZE///graze	2
+3058	GRAZE///graze	3
 3058	GRAZE///graze; herd (a flock)	1
-3058	GRAZE///to graze	4
+3058	GRAZE///to graze	5
 955	GREASY///greasy	2
 955	GREASY///greasy (adjective)	2
 2018	GREEDY///greedy	6
@@ -6669,9 +6675,9 @@ ID	GLOSS	PRIORITY
 2880	HALT (STOP)///stop, hold up	1
 2880	HALT (STOP)///to halt (stop)	9
 2880	HALT (STOP)///to stop	1
-3115	HAMMER (SOMETHING)///hammer	2
+3115	HAMMER (SOMETHING)///hammer	3
 3115	HAMMER (SOMETHING)///hammer in (a nail)	1
-3115	HAMMER (SOMETHING)///to hammer (something)	3
+3115	HAMMER (SOMETHING)///to hammer (something)	4
 1481	HAMMER///hammer	16
 1481	HAMMER///hammer (sb.)	1
 1481	HAMMER///the hammer	19
@@ -6922,7 +6928,7 @@ ID	GLOSS	PRIORITY
 1408	HEAR///TO HEAR	3
 1408	HEAR///To hear	2
 1408	HEAR///he hears	1
-1408	HEAR///hear	99
+1408	HEAR///hear	100
 1408	HEAR///hear (1st)	1
 1408	HEAR///hear (as sounds)	1
 1408	HEAR///hear (to)	1
@@ -6933,7 +6939,7 @@ ID	GLOSS	PRIORITY
 1408	HEAR///listen! / hear!	1
 1408	HEAR///listen!/hear!	1
 1408	HEAR///oír	1
-1408	HEAR///to hear	168
+1408	HEAR///to hear	169
 1408	HEAR///to hear / hear! / listen!	1
 1408	HEAR///to hear, to listen	1
 1408	HEAR///to_hear	1
@@ -7151,12 +7157,12 @@ ID	GLOSS	PRIORITY
 1433	HIT///Hit (someone)	1
 1433	HIT///TO HIT	3
 1433	HIT///beat, hit	1
-1433	HIT///hit	27
+1433	HIT///hit	28
 1433	HIT///hit (V)	2
 1433	HIT///hit (a	1
 1433	HIT///hit (a target)	1
 1433	HIT///hit (vt)	1
-1433	HIT///to hit	52
+1433	HIT///to hit	53
 1433	HIT///to_hit	1
 3117	HITCHHIKE///hitchhike	2
 3117	HITCHHIKE///to hitchhike	2
@@ -7181,14 +7187,14 @@ ID	GLOSS	PRIORITY
 1448	HOLD///HOLD (IN HAND)	3
 1448	HOLD///HOLD (VERB)	1
 1448	HOLD///grip / hold	1
-1448	HOLD///hold	39
+1448	HOLD///hold	40
 1448	HOLD///hold (1st)	1
 1448	HOLD///hold (a pen)	1
 1448	HOLD///hold (in hand)	1
 1448	HOLD///hold (in the hand)	1
 1448	HOLD///hold (to)	1
 1448	HOLD///hold (v)	1
-1448	HOLD///to hold	72
+1448	HOLD///to hold	73
 1448	HOLD///to hold (in hand)	2
 1448	HOLD///to hold (in hands)	1
 1448	HOLD///to hold (in one's hand)	1
@@ -7585,9 +7591,9 @@ ID	GLOSS	PRIORITY
 535	INFLATED///inflated	1
 535	INFLATED///inflated (adjective)	1
 555	INFRINGE///to infringe	1
-2705	INHALE///inhale	1
+2705	INHALE///inhale	2
 2705	INHALE///to breath in	1
-2705	INHALE///to inhale	2
+2705	INHALE///to inhale	3
 1946	INITIATION CEREMONY///the initiation ceremony	1
 1946	INITIATION CEREMONY///the initiation ceremonys	1
 1805	INJECTION///the injection	2
@@ -7788,7 +7794,7 @@ ID	GLOSS	PRIORITY
 2850	JULY///the july	2
 2850	JULY///the julys	2
 1829	JUMP///Jump, pulse 跳 (高),	1
-1829	JUMP///jump	10
+1829	JUMP///jump	11
 1829	JUMP///jump (1st)	1
 1829	JUMP///jump (to)	1
 1829	JUMP///jump (v)	1
@@ -7798,7 +7804,7 @@ ID	GLOSS	PRIORITY
 1829	JUMP///jump up (to)	1
 1829	JUMP///jump, leap	2
 1829	JUMP///jump; leap	1
-1829	JUMP///to jump	27
+1829	JUMP///to jump	28
 1829	JUMP///to spring, jump	1
 2849	JUNE///June	2
 2849	JUNE///the june	2
@@ -7823,11 +7829,11 @@ ID	GLOSS	PRIORITY
 39	KEEN///keen	1
 39	KEEN///keen (adjective)	2
 39	KEEN///to be keen of	1
-1477	KEEP///keep	5
+1477	KEEP///keep	6
 1477	KEEP///keep (1st)	1
 1477	KEEP///keep (= retain); retain	1
 1477	KEEP///keep, retain	2
-1477	KEEP///to keep	12
+1477	KEEP///to keep	13
 854	KETTLE///Kettle	1
 854	KETTLE///kettle	5
 854	KETTLE///kettle / pot (glossy porcelain)	1
@@ -7907,9 +7913,9 @@ ID	GLOSS	PRIORITY
 3454	KISS (NOUN)///kiss (n)	1
 3454	KISS (NOUN)///the kiss (noun)	1
 3454	KISS (NOUN)///the kiss (noun)s	1
-578	KISS///kiss	8
+578	KISS///kiss	9
 578	KISS///kiss (vb.)	1
-578	KISS///to kiss	14
+578	KISS///to kiss	15
 2772	KITCHEN KNIFE///kitchen knife	1
 2772	KITCHEN KNIFE///the kitchen knife	1
 2772	KITCHEN KNIFE///the kitchen knifes	1
@@ -8257,14 +8263,14 @@ ID	GLOSS	PRIORITY
 1752	LEAVE///go away	2
 1752	LEAVE///go away, depart	2
 1752	LEAVE///go out, go away	1
-1752	LEAVE///leave	3
+1752	LEAVE///leave	4
 1752	LEAVE///leave (V)	2
 1752	LEAVE///leave (tr.)	1
 1752	LEAVE///leave, go away	1
 1752	LEAVE///leave, start out	1
 1752	LEAVE///left	1
 1752	LEAVE///to go away	1
-1752	LEAVE///to leave	20
+1752	LEAVE///to leave	21
 2204	LEDGE///salient part, ledge	1
 2204	LEDGE///the ledge	1
 2204	LEDGE///the ledges	1
@@ -8342,13 +8348,13 @@ ID	GLOSS	PRIORITY
 2345	LEPORID (RABBIT OR HARE)///the leporid (rabbit or hare)s	4
 1095	LET GO OR SET FREE///let go; release	1
 1095	LET GO OR SET FREE///let go; set free; loosen	2
-1095	LET GO OR SET FREE///release	2
+1095	LET GO OR SET FREE///release	3
 1095	LET GO OR SET FREE///release (v)	1
 1095	LET GO OR SET FREE///release / set free	1
 1095	LET GO OR SET FREE///release, let go	2
 1095	LET GO OR SET FREE///release; let go; set free	1
 1095	LET GO OR SET FREE///to let go	2
-1095	LET GO OR SET FREE///to let go or set free	13
+1095	LET GO OR SET FREE///to let go or set free	14
 1095	LET GO OR SET FREE///to release	1
 1612	LETTER///letter	6
 1612	LETTER///letter (= epistle)	1
@@ -8375,7 +8381,7 @@ ID	GLOSS	PRIORITY
 1790	LICENSE PLATE///the license plates	2
 319	LICK///LICK	1
 319	LICK///Lick, lap	1
-319	LICK///lick	21
+319	LICK///lick	22
 319	LICK///lick (to)	1
 319	LICK///lick (v.)	1
 319	LICK///lick (vb.)	1
@@ -8383,7 +8389,7 @@ ID	GLOSS	PRIORITY
 319	LICK///lick / lap	1
 319	LICK///lick, lap	1
 319	LICK///lick, to	1
-319	LICK///to lick	41
+319	LICK///to lick	42
 2319	LID (COVER, CAP)///cover (n)	1
 2319	LID (COVER, CAP)///cover, lid	2
 2319	LID (COVER, CAP)///lid	1
@@ -8578,10 +8584,10 @@ ID	GLOSS	PRIORITY
 842	LIQUOR///the liquor	15
 842	LIQUOR///the liquors	15
 1608	LISTEN///Listen	1
-1608	LISTEN///listen	15
+1608	LISTEN///listen	16
 1608	LISTEN///listen to (vt)	1
 1608	LISTEN///to hear	1
-1608	LISTEN///to listen	24
+1608	LISTEN///to listen	25
 2768	LITCHI///the litchi	0
 2768	LITCHI///the litchis	0
 2774	LITTLE FINGER///finger (little)	1
@@ -8681,7 +8687,7 @@ ID	GLOSS	PRIORITY
 1468	LOOK FOR///Look for (sth.)	1
 1468	LOOK FOR///look for	4
 1468	LOOK FOR///look for (v.)	1
-1468	LOOK FOR///search	5
+1468	LOOK FOR///search	6
 1468	LOOK FOR///search for	1
 1468	LOOK FOR///search for; seek	1
 1468	LOOK FOR///search/hunt for	1
@@ -8689,13 +8695,13 @@ ID	GLOSS	PRIORITY
 1468	LOOK FOR///seek (look for)	1
 1468	LOOK FOR///seek it (v)	1
 1468	LOOK FOR///seek, look for	2
-1468	LOOK FOR///to look for	28
+1468	LOOK FOR///to look for	29
 1468	LOOK FOR///to search, to look for	1
 1468	LOOK FOR///to seek	3
 1819	LOOK///(he) saw	1
 1819	LOOK///(you) look!/see!	1
 1819	LOOK///Watch	1
-1819	LOOK///look	9
+1819	LOOK///look	10
 1819	LOOK///look (1st)	1
 1819	LOOK///look (to)	1
 1819	LOOK///look (v.)	1
@@ -8706,7 +8712,7 @@ ID	GLOSS	PRIORITY
 1819	LOOK///look! (2s)	1
 1819	LOOK///look!/see!	1
 1819	LOOK///look, look at	2
-1819	LOOK///to look	36
+1819	LOOK///to look	37
 1819	LOOK///to look / look!	1
 1819	LOOK///to look at	1
 1819	LOOK///to look, see	1
@@ -8723,7 +8729,8 @@ ID	GLOSS	PRIORITY
 2506	LOOSE///slack	1
 2506	LOOSE///untied	1
 1933	LOOSEN///loose	1
-1933	LOOSEN///to loosen	2
+1933	LOOSEN///loosen	1
+1933	LOOSEN///to loosen	3
 1933	LOOSEN///to weaken, loosen	1
 3153	LORD///lord	1
 3153	LORD///the lord	1
@@ -8879,8 +8886,8 @@ ID	GLOSS	PRIORITY
 2760	MAKE A JOKE///the make a joke	1
 2760	MAKE A JOKE///the make a jokes	1
 3209	MAKE A SPEECH///to make a speech	0
-2892	MAKE ANGRY (ANNOY)///annoy	2
-2892	MAKE ANGRY (ANNOY)///to make angry (annoy)	2
+2892	MAKE ANGRY (ANNOY)///annoy	3
+2892	MAKE ANGRY (ANNOY)///to make angry (annoy)	3
 2015	MAKE DRY///dry (clothes) near fire	1
 2015	MAKE DRY///dry in sun	1
 2015	MAKE DRY///set out to dry	1
@@ -9073,8 +9080,8 @@ ID	GLOSS	PRIORITY
 877	MASON///mason	3
 877	MASON///the mason	5
 877	MASON///the masons	5
-3119	MASSAGE (SOMEBODY)///massage	4
-3119	MASSAGE (SOMEBODY)///to massage (somebody)	4
+3119	MASSAGE (SOMEBODY)///massage	5
+3119	MASSAGE (SOMEBODY)///to massage (somebody)	5
 184	MAST///mast	3
 184	MAST///the mast	5
 184	MAST///the masts	5
@@ -9200,11 +9207,11 @@ ID	GLOSS	PRIORITY
 3148	MEERKAT///the meerkat	1
 3148	MEERKAT///the meerkats	1
 1831	MEET///encounter / meet	1
-1831	MEET///meet	12
+1831	MEET///meet	13
 1831	MEET///meet (persons)	1
 1831	MEET///meet / come across	1
 1831	MEET///meet; come across	1
-1831	MEET///to meet	21
+1831	MEET///to meet	22
 1831	MEET///to meet with	1
 1831	MEET///to meet, come across	1
 335	MEETING HOUSE///meeting house	2
@@ -9969,8 +9976,8 @@ ID	GLOSS	PRIORITY
 3198	NOTHING OR ZERO///zero, nothing	2
 687	NOTHING///nothing	6
 687	NOTHING///nothing left	1
-2893	NOTICE (SOMETHING)///notice	1
-2893	NOTICE (SOMETHING)///to notice (something)	1
+2893	NOTICE (SOMETHING)///notice	2
+2893	NOTICE (SOMETHING)///to notice (something)	2
 2854	NOVEMBER///November	2
 2854	NOVEMBER///the november	2
 2854	NOVEMBER///the novembers	2
@@ -11655,8 +11662,8 @@ ID	GLOSS	PRIORITY
 567	REBEL///to rebel	1
 567	REBEL///to revolt, rebel	1
 2225	RECEIVE VISITORS///to receive visitors	1
-2870	RECOGNIZE (SOMEBODY)///recognize	2
-2870	RECOGNIZE (SOMEBODY)///to recognize (somebody)	2
+2870	RECOGNIZE (SOMEBODY)///recognize	3
+2870	RECOGNIZE (SOMEBODY)///to recognize (somebody)	3
 2759	RECOMMEND///the recommend	0
 2759	RECOMMEND///the recommends	0
 1978	RECOVER///fully recover (from an illness)	1
@@ -11754,8 +11761,8 @@ ID	GLOSS	PRIORITY
 1777	RESEMBLE///Resemble	1
 1777	RESEMBLE///look alike	1
 1777	RESEMBLE///look like / resemble	1
-1777	RESEMBLE///resemble	4
-1777	RESEMBLE///to resemble	7
+1777	RESEMBLE///resemble	5
+1777	RESEMBLE///to resemble	8
 1099	RESIDE///live (at)	1
 1099	RESIDE///live / reside (lit. 'be at')	1
 1099	RESIDE///to reside	3
@@ -12136,7 +12143,7 @@ ID	GLOSS	PRIORITY
 1849	ROW///to row (with oars)	1
 1449	RUB///RUB	3
 1449	RUB///RUB (VERB)	1
-1449	RUB///rub	46
+1449	RUB///rub	47
 1449	RUB///rub (1st)	1
 1449	RUB///rub (to soften animal skin)	1
 1449	RUB///rub (v)	1
@@ -12145,7 +12152,7 @@ ID	GLOSS	PRIORITY
 1449	RUB///rub in (oil)	1
 1449	RUB///rub or scrub	1
 1449	RUB///rub, wipe	2
-1449	RUB///to rub	74
+1449	RUB///to rub	75
 1449	RUB///to rub, scrub	1
 1449	RUB///to rub/wipe	1
 1449	RUB///to_rub	1
@@ -12354,7 +12361,7 @@ ID	GLOSS	PRIORITY
 1458	SAY///To say (talk)	1
 1458	SAY///he says	1
 1458	SAY///said	1
-1458	SAY///say	76
+1458	SAY///say	77
 1458	SAY///say (1st)	1
 1458	SAY///say (v)/say (v.)	1
 1458	SAY///say (v.)	1
@@ -12364,7 +12371,7 @@ ID	GLOSS	PRIORITY
 1458	SAY///say/said	1
 1458	SAY///says	1
 1458	SAY///tell	1
-1458	SAY///to say	126
+1458	SAY///to say	127
 1458	SAY///to say/speak	1
 1458	SAY///to_say	1
 2664	SCAB///scab	1
@@ -12512,7 +12519,7 @@ ID	GLOSS	PRIORITY
 1409	SEE///TO SEE	3
 1409	SEE///To see	1
 1409	SEE///he sees	2
-1409	SEE///see	107
+1409	SEE///see	108
 1409	SEE///see (1st)	1
 1409	SEE///see (as in ‘I can see him’)	1
 1409	SEE///see (to)	1
@@ -12521,7 +12528,7 @@ ID	GLOSS	PRIORITY
 1409	SEE///see (vi)	1
 1409	SEE///see, to	1
 1409	SEE///sees	1
-1409	SEE///to see	172
+1409	SEE///to see	173
 1409	SEE///to see, to look	1
 1409	SEE///to see/to look at	1
 1409	SEE///to_see	1
@@ -12549,8 +12556,8 @@ ID	GLOSS	PRIORITY
 2519	SEEING (VISUAL SENSE)///sight	1
 2519	SEEING (VISUAL SENSE)///the seeing (visual sense)	1
 2519	SEEING (VISUAL SENSE)///the seeing (visual sense)s	1
-1521	SEEM///seem	5
-1521	SEEM///to seem	8
+1521	SEEM///seem	6
+1521	SEEM///to seem	9
 855	SEIZE///grab	2
 855	SEIZE///grasp; seize; take hold of	1
 855	SEIZE///seize	3
@@ -12574,7 +12581,8 @@ ID	GLOSS	PRIORITY
 1127	SEND///send (v)	1
 1127	SEND///to send	16
 2572	SENSE (PERCEIVE BY SENSES)///perceive (by senses); sense (perception)	1
-2572	SENSE (PERCEIVE BY SENSES)///to sense (perceive by senses)	1
+2572	SENSE (PERCEIVE BY SENSES)///sense	1
+2572	SENSE (PERCEIVE BY SENSES)///to sense (perceive by senses)	2
 3421	SENTENCE (CLASSIFIER)///sentence (classifier) (classifier)	1
 3421	SENTENCE (CLASSIFIER)///sentence (of speech)	1
 1359	SEPARATE///divide	1
@@ -12911,10 +12919,10 @@ ID	GLOSS	PRIORITY
 715	SHOUT///call out — shout	1
 715	SHOUT///cry (vb. = cry out); shout (vb.)	1
 715	SHOUT///cry out / yell	1
-715	SHOUT///shout	6
+715	SHOUT///shout	7
 715	SHOUT///shout (v)	1
 715	SHOUT///shout, cry out	2
-715	SHOUT///to shout	20
+715	SHOUT///to shout	21
 715	SHOUT///to shout (not at others)	1
 715	SHOUT///yell	1
 715	SHOUT///yell / shout	1
@@ -12930,8 +12938,9 @@ ID	GLOSS	PRIORITY
 1039	SHOW///to show	15
 3128	SHOWER (ACTION)///shower	2
 3128	SHOWER (ACTION)///to shower (action)	2
+298	SHRIEK///shriek	1
 298	SHRIEK///shriek, screech	2
-298	SHRIEK///to shriek	4
+298	SHRIEK///to shriek	5
 2349	SHRIMP///shrimp	2
 2349	SHRIMP///the shrimp	2
 2349	SHRIMP///the shrimps	2
@@ -13063,13 +13072,13 @@ ID	GLOSS	PRIORITY
 1261	SING///Sing	2
 1261	SING///TO SING	3
 1261	SING///To sing	1
-1261	SING///sing	58
+1261	SING///sing	59
 1261	SING///sing (1st)	1
 1261	SING///sing (own songs)	1
 1261	SING///sing (to)	1
 1261	SING///sing (v)	1
 1261	SING///sing (v.)	1
-1261	SING///to sing	94
+1261	SING///to sing	95
 1261	SING///to_sing	1
 915	SINK (BASIN)///basin	1
 915	SINK (BASIN)///the sink	2
@@ -13120,7 +13129,7 @@ ID	GLOSS	PRIORITY
 1416	SIT///To sit	2
 1416	SIT///he sits	2
 1416	SIT///lie (vb.); sit	1
-1416	SIT///sit	104
+1416	SIT///sit	105
 1416	SIT///sit (1st)	1
 1416	SIT///sit (as in ‘he is sitting here’)	1
 1416	SIT///sit (imperative)	1
@@ -13134,7 +13143,7 @@ ID	GLOSS	PRIORITY
 1416	SIT///sit, stay (v)	1
 1416	SIT///sit, to	1
 1416	SIT///sits	1
-1416	SIT///to sit	171
+1416	SIT///to sit	172
 1416	SIT///to sit / sit!	1
 1416	SIT///to_sit	1
 1416	SIT///you sit down!	1
@@ -13298,9 +13307,9 @@ ID	GLOSS	PRIORITY
 1324	SLIP///slide	4
 1324	SLIP///slide, slip	2
 1324	SLIP///slide; slip (vb.)	1
-1324	SLIP///slip	4
+1324	SLIP///slip	5
 1324	SLIP///to slide or slip	2
-1324	SLIP///to slip	14
+1324	SLIP///to slip	15
 3076	SLOPE///hillside / mountain slope	1
 3076	SLOPE///hillside; mountain slope	1
 3076	SLOPE///mountain slope	1
@@ -13380,15 +13389,15 @@ ID	GLOSS	PRIORITY
 1587	SMELL (STINK)///smell (vb intrans)	2
 1587	SMELL (STINK)///smell (vb)	1
 1587	SMELL (STINK)///smell (vi)	1
-1587	SMELL (STINK)///stink	1
-1587	SMELL (STINK)///to smell (stink)	8
+1587	SMELL (STINK)///stink	2
+1587	SMELL (STINK)///to smell (stink)	9
 1587	SMELL (STINK)///to smell(1)	2
 2124	SMELL///SMELL	1
 2124	SMELL///SMELL (VERB)	1
 2124	SMELL///TO SMELL (PERCEIVE ODOR)	1
-2124	SMELL///smell	34
+2124	SMELL///smell	35
 2124	SMELL///smell (v.)	2
-2124	SMELL///to smell	50
+2124	SMELL///to smell	51
 2520	SMELLING (OLFACTORY SENSE)///the smelling (olfactory sense)	0
 2520	SMELLING (OLFACTORY SENSE)///the smelling (olfactory sense)s	0
 1451	SMILE///smile	6
@@ -13451,8 +13460,9 @@ ID	GLOSS	PRIORITY
 730	SNAKE///the snake	159
 730	SNAKE///the snakes	159
 459	SNAPP (OF STICK)///(stick) snapped	1
+459	SNAPP (OF STICK)///snap	1
 459	SNAPP (OF STICK)///snap (vi)	1
-459	SNAPP (OF STICK)///to snapp (of stick)	2
+459	SNAPP (OF STICK)///to snapp (of stick)	3
 3320	SNARE (TRAP)///snare	1
 3320	SNARE (TRAP)///snare / trap (for catching birds) (note:+bird)	1
 3320	SNARE (TRAP)///the snare (trap)	2
@@ -13461,12 +13471,13 @@ ID	GLOSS	PRIORITY
 1621	SNEEZE///sneeze (to)	1
 1621	SNEEZE///sneeze (v)	1
 1621	SNEEZE///to sneeze	20
-375	SNIFF///sniff	6
-375	SNIFF///to sniff	8
+375	SNIFF///sniff	7
+375	SNIFF///to sniff	9
 1983	SNORE///snore	5
 1983	SNORE///snore (vi)	1
 1983	SNORE///snore, snort	1
-1983	SNORE///to snore	12
+1983	SNORE///snort	1
+1983	SNORE///to snore	13
 2200	SNOUT///Muzzle	2
 2200	SNOUT///muzzle	1
 2200	SNOUT///snout	1
@@ -14311,12 +14322,12 @@ ID	GLOSS	PRIORITY
 353	STRIKE///hit — strike (with hand)	1
 353	STRIKE///hit, to	1
 353	STRIKE///hit; beat	1
-353	STRIKE///strike	2
+353	STRIKE///strike	3
 353	STRIKE///to hit	4
 353	STRIKE///to hit (with fist)	1
 353	STRIKE///to hit (with hand)	2
 353	STRIKE///to hit (with stick, club)	1
-353	STRIKE///to strike	36
+353	STRIKE///to strike	37
 362	STRING///rope; string	1
 362	STRING///string	6
 362	STRING///string, cord	1
@@ -14333,8 +14344,8 @@ ID	GLOSS	PRIORITY
 785	STRONG///strong	14
 785	STRONG///strong (adjective)	17
 785	STRONG///to be strong	1
-1929	STUDY///study	4
-1929	STUDY///to study	6
+1929	STUDY///study	5
+1929	STUDY///to study	7
 1023	STUMP OF TREE///the stump of tree	0
 1023	STUMP OF TREE///the stump of trees	0
 1518	STUPID///FOOLISH	1
@@ -14362,7 +14373,7 @@ ID	GLOSS	PRIORITY
 1421	SUCK///SUCK (VERB)	1
 1421	SUCK///Suck	2
 1421	SUCK///TO SUCK	3
-1421	SUCK///suck	50
+1421	SUCK///suck	51
 1421	SUCK///suck (1st)	1
 1421	SUCK///suck (baby)	2
 1421	SUCK///suck (to)	1
@@ -14370,7 +14381,7 @@ ID	GLOSS	PRIORITY
 1421	SUCK///suck (vb.)	1
 1421	SUCK///suck (vt)	1
 1421	SUCK///suck, to	1
-1421	SUCK///to suck	88
+1421	SUCK///to suck	89
 1421	SUCK///to_suck	1
 546	SUCKER///sucker (botany)	1
 546	SUCKER///the sucker	1
@@ -14380,9 +14391,10 @@ ID	GLOSS	PRIORITY
 2472	SUCKLE (BREASTFEED, NURSE)///to suck(le), nurse; breast	1
 2472	SUCKLE (BREASTFEED, NURSE)///to suckle (breastfeed, nurse)	3
 2920	SUDDENLY///suddenly	4
-1101	SUFFER///to suffer	2
+1101	SUFFER///suffer	1
+1101	SUFFER///to suffer	3
 3475	SUFFICE///SUFFICE	1
-3475	SUFFICE///suffice	2
+3475	SUFFICE///suffice	3
 3475	SUFFICE///suffice (e.g. salt)	1
 146	SUGAR CANE///cane	2
 146	SUGAR CANE///caña brava	1
@@ -14528,8 +14540,8 @@ ID	GLOSS	PRIORITY
 230	SWEEP///SWEEP	1
 230	SWEEP///Sweep (floor)	1
 230	SWEEP///seep [sweep]	1
-230	SWEEP///sweep	14
-230	SWEEP///to sweep	23
+230	SWEEP///sweep	15
+230	SWEEP///to sweep	24
 2748	SWEET OLIVE FLOWER///the sweet olive flower	0
 2748	SWEET OLIVE FLOWER///the sweet olive flowers	0
 2360	SWEET OLIVE///the sweet olive	0
@@ -15094,8 +15106,8 @@ ID	GLOSS	PRIORITY
 1161	THREAD///the thread	28
 1161	THREAD///the threads	28
 1161	THREAD///thread	25
-1192	THREATEN///threaten	4
-1192	THREATEN///to threaten	6
+1192	THREATEN///threaten	5
+1192	THREATEN///to threaten	7
 2333	THREE DAYS BEFORE NOW///day before two days	1
 2333	THREE DAYS BEFORE NOW///three days ago	2
 2333	THREE DAYS BEFORE NOW///three days before now	3
@@ -15394,8 +15406,8 @@ ID	GLOSS	PRIORITY
 308	TOUCAN///tucán, pinsha	1
 1892	TOUCH///stroke / touch	1
 1892	TOUCH///stroke; touch	1
-1892	TOUCH///to touch	16
-1892	TOUCH///touch	6
+1892	TOUCH///to touch	17
+1892	TOUCH///touch	7
 1892	TOUCH///touch (sb.)	1
 1892	TOUCH///touch (v)	1
 1892	TOUCH///touch (vb.)	1
@@ -15549,12 +15561,13 @@ ID	GLOSS	PRIORITY
 1638	TRUTH///the truths	7
 1638	TRUTH///truth	7
 2571	TRY (TEST)///tempt; test; try¹ (= make trial of, test)	1
-2571	TRY (TEST)///to try (test)	1
+2571	TRY (TEST)///test	1
+2571	TRY (TEST)///to try (test)	2
 1812	TRY///attempt (vb.); try² (= attempt, endeavor)	1
-1812	TRY///to try	11
+1812	TRY///to try	12
 1812	TRY///to try, to attempt	1
 1812	TRY///tried	1
-1812	TRY///try	3
+1812	TRY///try	4
 1812	TRY///try / attempt	1
 1812	TRY///try, attempt	2
 2956	TUBE///pipe	1
@@ -15697,8 +15710,8 @@ ID	GLOSS	PRIORITY
 3236	TWIST (TOGETHER)///twist together	1
 430	TWIST///Twist (hemp fibers)	1
 430	TWIST///to rub, twist	1
-430	TWIST///to twist	10
-430	TWIST///twist	4
+430	TWIST///to twist	11
+430	TWIST///twist	5
 430	TWIST///twist (a towel)	1
 430	TWIST///twist (v)	1
 430	TWIST///twist, braid	1
@@ -15848,8 +15861,8 @@ ID	GLOSS	PRIORITY
 2310	US (OBLIQUE CASE OF WE)///us (acc.)	1
 2310	US (OBLIQUE CASE OF WE)///us (oblique case of we)	5
 2072	USE (VERB)///to use	3
-2072	USE (VERB)///to use (verb)	12
-2072	USE (VERB)///use	6
+2072	USE (VERB)///to use (verb)	13
+2072	USE (VERB)///use	7
 2072	USE (VERB)///use (v)	1
 2072	USE (VERB)///use (vb.)	1
 2072	USE (VERB)///use or lean on ( a walking stick)	1
@@ -15941,10 +15954,10 @@ ID	GLOSS	PRIORITY
 1278	VOMIT///puke	3
 1278	VOMIT///puke (vomit)	1
 1278	VOMIT///throw up / vomit	1
-1278	VOMIT///to vomit	103
+1278	VOMIT///to vomit	104
 1278	VOMIT///to vomit (puke)	1
 1278	VOMIT///to_vomit	1
-1278	VOMIT///vomit	59
+1278	VOMIT///vomit	60
 1278	VOMIT///vomit (1st)	1
 1278	VOMIT///vomit (n)	1
 1278	VOMIT///vomit (v.)	1
@@ -15976,8 +15989,9 @@ ID	GLOSS	PRIORITY
 1681	WAIST///the waist	15
 1681	WAIST///the waists	15
 1681	WAIST///waist	12
+1590	WAIT (FOR)///await	1
 1590	WAIT (FOR)///to wait	7
-1590	WAIT (FOR)///to wait (for)	26
+1590	WAIT (FOR)///to wait (for)	27
 1590	WAIT (FOR)///to wait for	1
 1590	WAIT (FOR)///wait	15
 1590	WAIT (FOR)///wait (v)	1
@@ -16146,8 +16160,8 @@ ID	GLOSS	PRIORITY
 3136	WATCH (TV)///to watch (tv)	2
 3136	WATCH (TV)///watch [TV]	2
 1650	WATCH///Watch	1
-1650	WATCH///to watch	8
-1650	WATCH///watch	7
+1650	WATCH///to watch	9
+1650	WATCH///watch	8
 2516	WATER BUFFALO///the water buffalo	5
 2516	WATER BUFFALO///the water buffalos	5
 2516	WATER BUFFALO///water	1
@@ -16418,8 +16432,8 @@ ID	GLOSS	PRIORITY
 1982	WHIRLPOOL///the whirlpool	6
 1982	WHIRLPOOL///the whirlpools	6
 1982	WHIRLPOOL///whirlpool	4
-55	WHISPER///to whisper	8
-55	WHISPER///whisper	5
+55	WHISPER///to whisper	9
+55	WHISPER///whisper	6
 3107	WHISTLE (INSTRUMENT)///the whistle (instrument)	2
 3107	WHISTLE (INSTRUMENT)///the whistle (instrument)s	2
 3107	WHISTLE (INSTRUMENT)///whistle	2
@@ -16689,9 +16703,9 @@ ID	GLOSS	PRIORITY
 1086	WORK (ACTIVITY)///labor (vb.); toil (vb.); work (vb.)	1
 1086	WORK (ACTIVITY)///to do work	1
 1086	WORK (ACTIVITY)///to work	6
-1086	WORK (ACTIVITY)///to work (activity)	28
+1086	WORK (ACTIVITY)///to work (activity)	29
 1086	WORK (ACTIVITY)///to work (in garden, field)	1
-1086	WORK (ACTIVITY)///work	16
+1086	WORK (ACTIVITY)///work	17
 1086	WORK (ACTIVITY)///work (v)	1
 1086	WORK (ACTIVITY)///work / labor	1
 984	WORK (LABOUR)///labor (sb.); toil (sb.); work (sb.	1
