@@ -151,6 +151,7 @@
 | [Luniewska-2016-299](Luniewska-2016-299.tsv) | 297 | 99 | 7 |
 | [Luniewska-2019-299](Luniewska-2019-299.tsv) | 299 | 100 | 9 |
 | [Luqman-2010-65](Luqman-2010-65.tsv) | 65 | 100 | 0 |
+| [Lynott-2013-400](Lynott-2013-400.tsv) | 147 | 36 | 0 |
 | [Mallory-2006-100](Mallory-2006-100.tsv) | 100 | 100 | 0 |
 | [Mann-1998-406](Mann-1998-406.tsv) | 404 | 99 | 2 |
 | [Mann-2004-118](Mann-2004-118.tsv) | 118 | 100 | 0 |
@@ -216,6 +217,7 @@
 | [Shevoroshkin-1991-23](Shevoroshkin-1991-23.tsv) | 23 | 100 | 0 |
 | [Sidwell-2015-200](Sidwell-2015-200.tsv) | 200 | 100 | 0 |
 | [Smith-2015-97](Smith-2015-97.tsv) | 94 | 96 | 0 |
+| [Snider-2004-1700](Snider-2004-1700.tsv) | 1380 | 81 | 19 |
 | [Snoek-2013-61](Snoek-2013-61.tsv) | 61 | 100 | 1 |
 | [SoHartmann-1988-280](SoHartmann-1988-280.tsv) | 279 | 99 | 0 |
 | [Starostin-1991-110](Starostin-1991-110.tsv) | 110 | 100 | 0 |
@@ -281,5 +283,5 @@
 | [Zorc-1974-100](Zorc-1974-100.tsv) | 100 | 100 | 0 |
 | [vanderWouw-1974-28](vanderWouw-1974-28.tsv) | 28 | 100 | 0 |
 
-(278 rows)
+(280 rows)
 
