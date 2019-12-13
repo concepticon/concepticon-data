@@ -1,0 +1,189 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw", 
+        {
+            "@language": "en"
+        }
+    ], 
+    "dialect": {
+        "delimiter": "\t", 
+        "skipBlankRows": true
+    }, 
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string", 
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        }, 
+                        "name": "ID"
+                    }, 
+                    {
+                        "datatype": {
+                            "base": "string", 
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        }, 
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": "string", 
+                        "name": "ENGLISH"
+                    }, 
+                    {
+                        "datatype": {
+                            "base": "integer", 
+                            "minimum": 1
+                        }, 
+                        "name": "CONCEPTICON_ID"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": "string", 
+                        "name": "GOTHIC"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CASES_GOTHIC"
+                    },
+                    {
+                        "datatype": "string", 
+                        "name": "OLD_NORSE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CASES_OLD_NORSE"
+                    },
+                    {
+                        "datatype": "string", 
+                        "name": "FAROESE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CASES_FAROESE"
+                    },
+                    {
+                        "datatype": "string", 
+                        "name": "ICELANDIC"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CASES_ICELANDIC"
+                    },
+                    {
+                        "datatype": "string", 
+                        "name": "OLD_SWEDISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CASES_OLD_SWEDISH"
+                    },
+					{
+                        "datatype": "string", 
+                        "name": "SWEDISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CASES_SWEDISH"
+                    },
+                    {
+                        "datatype": "string", 
+                        "name": "NORWEGIAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CASES_NORWEGIAN"
+                    },
+                    {
+                        "datatype": "string", 
+                        "name": "OLD_HIGH_GERMAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CASES_OLD_HIGH_GERMAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MIDDLE_HIGH_GERMAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CASES_MIDDLE_HIGH_GERMAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "GERMAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CASES_GERMAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "OLD_SAXON"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CASES_OLD_SAXON"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MIDDLE_DUTCH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CASES_MIDDLE_DUTCH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "DUTCH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CASES_DUTCH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "OLD_ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CASES_OLD_ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MIDDLE_ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CASES_MIDDLE_ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODERN_ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CASES_MODERN_ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ANCESTRAL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CASES_ANCESTRAL"
+                    }
+                ], 
+                "primaryKey": [
+                    "ID"
+                ]
+            }, 
+            "url": "Dunn-2017-12.tsv"
+        }
+    ]
+}

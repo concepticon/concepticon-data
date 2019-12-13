@@ -6,9 +6,10 @@ Period | Name
 --- | ---
 2013- | Johann Mattis List
 2013-2018 | Michael Cysouw
-2017- | Simon Greenhill
 2019- | Christoph Rzymski
+2017- | Simon Greenhill
 2019- | Nathanael Schweikhard
+2019- | Kristina Pianykh
 2015- | Robert Forkel
 
 
@@ -46,18 +47,18 @@ For all this help, we are very grateful and express our gratitude.
 
 Name | Contribution | Version |
 --- | --- | --- |
-Alexei Kassian | D | 1.0  
+Alexei Kassian | D | 1.0
 Andreea Calude | D | 1.1
 Andrew Kitchen | D | 1.0 
 Anja Gampe | D | 1.1
 Anthony Grant | MS | 1.1
 Ben Yackley | P | 1.1
 Christoph Rzymski | CLPG | 1.1
-Claire Bowern | D | 1.1
+Claire Bowern | D | 1.1, 2.2
 Cormac Anderson | CP | 1.1, 1.2
 Damian Satterthwaite-Phillips | D | 1.0 
 Doug Cooper | DCSM | 1.1, 2.1
-Evgeniya Korovina | MSCLPA | 1.1
+Evgeniya Korovina | MSCLPA | 1.1, 2.2
 Frederike Urke | CLS | 1.0  
 Harald Hammarström | DMS | 1.0 
 Isabella Boga | LP | 1.1
@@ -68,7 +69,7 @@ Lars Borin | DL | 1.0
 Magdalena Łuniewska | D | 1.1
 Martin Haspelmath | AD | 1.0  
 Maurizio Serva | MD | 1.1
-Mei-Shin Wu | CTLG | 1.2, 2.0, 2.1
+Mei-Shin Wu | CTLG | 1.2, 2.0, 2.1, 2.2
 Michael Dunn | G | 1.1
 Nathan Hill | MSDP | 1.1
 Nicholas Evans | A | 1.0
@@ -78,11 +79,11 @@ Robert Blust | D | 1.0
 Sean Lee | D | 1.0
 Sebastian Nicolai | CMS | 1.0  
 Thiago Chacon | MSD | 1.0, 1.1 
-Tiago Tresoldi | CTLG | 1.1, 1.2, 2.0, 2.1
+Tiago Tresoldi | CTLG | 1.1, 1.2, 2.0, 2.1, 2.2
 Viola Kirchhoff da Cruz | CLS | 1.0 
 Wang Feng | D | 1.0
 Yunfan Lai | CTLG | 1.1
 Andy Castro | T | 2.0
-Natalia Morozowa | DCPTL | 2.0, 2.1 
+Natalia Morozowa | DCPTL | 2.0, 2.1, 2.2
 Kristina Pianykh | LP | 2.1
-
+David Nash | MP | 2.2

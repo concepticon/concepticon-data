@@ -163,7 +163,7 @@ Chen-2012-888-161	161	老鼠	mouse	620	2139	MUROID (MOUSE OR RAT)		320	动物
 Chen-2012-888-162	162	黄鼠狼	yellow weasel	620				322	动物
 Chen-2012-888-163	163	狐狸	fox	621	1312	FOX		325	动物
 Chen-2012-888-164	164	鸟	bird	621	937	BIRD		326	动物
-Chen-2012-888-165	165	鸟窝	bird‘s nest	621	539	NEST		327	动物
+Chen-2012-888-165	165	鸟窝	bird‘s nest	621	3549	BIRD NEST		327	动物
 Chen-2012-888-166	166	老鹰	black-eared kite/ hawk	622	1905	EAGLE		328	动物
 Chen-2012-888-167	167	猫头鹰	owl	622	735	OWL		332	动物
 Chen-2012-888-168	168	燕子	swallow	622	3077	SWALLOW (BIRD)		333	动物
@@ -305,7 +305,7 @@ Chen-2012-888-303	303	裹腿布	legging	667				0	衣着
 Chen-2012-888-304	304	鞋	shoe	668	1381	SHOE		479	衣着
 Chen-2012-888-305	305	草鞋	straw sandal	668	2047	STRAW SANDAL		0	衣着
 Chen-2012-888-306	306	袜子	sock (stocking)	668	1522	SOCK		478	衣着
-Chen-2012-888-307	307	蓑衣	straw or palm-bark rain cape	669	1662	CAPE		493	衣着
+Chen-2012-888-307	307	蓑衣	straw or palm-bark rain cape	669	3540	STRAW RAINCOAT		493	衣着
 Chen-2012-888-308	308	斗笠	bamboo hat	669	2160	BAMBOO HAT		0	衣着
 Chen-2012-888-309	309	被子	quilt	669	2048	QUILT		0	衣着
 Chen-2012-888-310	310	枕头	pillow	670	1044	PILLOW		490	衣着
@@ -550,7 +550,7 @@ Chen-2012-888-548	548	尖	pointed	749	372	POINTED		992	形容词
 Chen-2012-888-549	549	平	flat (level)	749	1633	FLAT		994	形容词
 Chen-2012-888-550	550	直	straight	750	1404	STRAIGHT		1003	形容词
 Chen-2012-888-551	551	横	horizontal	750	2376	HORIZONTAL		1003	形容词
-Chen-2012-888-552	552	弯	bend (curved)	750	2004	BEND		1004	形容词
+Chen-2012-888-552	552	弯	bend (curved)	750	297	CROOKED		1004	形容词
 Chen-2012-888-553	553	黑	black	751	163	BLACK		1005	形容词
 Chen-2012-888-554	554	白	white	751	1335	WHITE		1006	形容词
 Chen-2012-888-555	555	红	red	751	156	RED		1007	形容词
@@ -645,7 +645,7 @@ Chen-2012-888-643	643	变	change	781	1264	CHANGE		1159	动词
 Chen-2012-888-644	644	病	sick	781	1847	SICK		1160	动词
 Chen-2012-888-645	645	补	patch (repair)	781	2243	REPAIR		1161	动词
 Chen-2012-888-646	646	猜	guess (a riddle)	782	1932	GUESS		1165	动词
-Chen-2012-888-647	647	踩	step (verb)	782	2065	STEP (VERB)		1168	动词
+Chen-2012-888-647	647	踩	step (verb)	782	575	TREAD		1168	动词
 Chen-2012-888-648	648	藏	hide (something)	782	2486	HIDE		1169	动词
 Chen-2012-888-649	649	插	poke (something)	783				1171	动词
 Chen-2012-888-650	650	折	fold	783	1470	FOLD		0	动词
@@ -683,7 +683,7 @@ Chen-2012-888-681	681	（线）断	break (rope)	793	460	BREAK (OF ROPE)		1290	�
 Chen-2012-888-682	682	（扁担）断	break (stick)	794	459	SNAPP (OF STICK)		1292	动词
 Chen-2012-888-683	683	躲避	dodge	794				0	动词
 Chen-2012-888-684	684	剁	chop into pieces	794	2149	CHOP (INTO PIECES)		1296	动词
-Chen-2012-888-685	685	翻	turn over (on bed)	795	1445	TURN (SOMETHING)		1310	动词
+Chen-2012-888-685	685	翻	turn over (on bed)	795	3537	TURN OVER		1310	动词
 Chen-2012-888-686	686	发烧	have a fever	795	2713	HAVE A FEVER		1305	动词
 Chen-2012-888-687	687	纺	spin (into yarn)	795	121	SPIN		1313	动词
 Chen-2012-888-688	688	放（牛）	put out to pasture	796				1316	动词
@@ -712,7 +712,7 @@ Chen-2012-888-710	710	过（桥）	cross (a bridge)	803	1367	CROSS		1363	动词
 Chen-2012-888-711	711	害羞	be shy/bashful	803	487	SHY		1365	动词
 Chen-2012-888-712	712	喝	drink	804	1401	DRINK		1370	动词
 Chen-2012-888-713	713	哼	hum	804				0	动词
-Chen-2012-888-714	714	划	paddle	804	234	PADDLE		1377	动词
+Chen-2012-888-714	714	划	paddle	804	1849	ROW		1377	动词
 Chen-2012-888-715	715	化	change (become different)	805	2857	CHANGE (BECOME DIFFERENT)		1158	动词
 Chen-2012-888-716	716	怀孕	be pregnant	805	1123	PREGNANT		1379	动词
 Chen-2012-888-717	717	还帐	repay (a dept)	805				1381	动词
@@ -736,7 +736,7 @@ Chen-2012-888-734	734	锯	saw (something)	811				1454	动词
 Chen-2012-888-735	735	开（门）	open (a door)	811	1156	OPEN		1461	动词
 Chen-2012-888-736	736	（水）开	boil (water)	812	792	BOIL (OF LIQUID)		453	动词
 Chen-2012-888-737	737	（花）开	(flowers) blossom	812	3287	BLOOM		1463	动词
-Chen-2012-888-738	738	砍（树）	chop down (trees)	812	463	FELL (A TREE)		1467	动词
+Chen-2012-888-738	738	砍（树）	chop down (trees)	812	355	CUT DOWN		1467	动词
 Chen-2012-888-739	739	砍（骨头）	chop (bones)	813	155	CHOP		1468	动词
 Chen-2012-888-740	740	看	look	813	1819	LOOK		1469	动词
 Chen-2012-888-741	741	看见	see	813	1409	SEE		1471	动词
@@ -801,7 +801,7 @@ Chen-2012-888-799	799	不是	be not (negated copula)	833	1269	NO		0	动词
 Chen-2012-888-800	800	收（玉米）	gather (harvest)	833	7	GATHER		1629	动词
 Chen-2012-888-801	801	守（庄稼）	preserve harvest	833	1827	HARVEST CROPS		0	动词
 Chen-2012-888-802	802	梳	comb (something)	834	2070	COMB (VERB)		1634	动词
-Chen-2012-888-803	803	输	lose (a game)	834	1660	LOSE		1635	动词
+Chen-2012-888-803	803	输	lose (a game)	834	3535	BE DEFEATED		1635	动词
 Chen-2012-888-804	804	数（钱）	count	834	1420	COUNT		1640	动词
 Chen-2012-888-805	805	拴（牛）	tie (a cow)	835	2891	TIE UP (TETHER)		1645	动词
 Chen-2012-888-806	806	睡觉	sleep	835	1585	SLEEP		1646	动词
@@ -811,7 +811,7 @@ Chen-2012-888-809	809	赠送	present (as gift)	836				0	动词
 Chen-2012-888-810	810	缩	shrink	836	54	SHRINK		1457	动词
 Chen-2012-888-811	811	抬	carry	837	700	CARRY		1659	动词
 Chen-2012-888-812	812	逃跑	run away	837	2142	RUN AWAY		1663	动词
-Chen-2012-888-813	813	乞讨	beg	837	1828	ASK (REQUEST)		1664	动词
+Chen-2012-888-813	813	乞讨	beg	837	3534	BEG		1664	动词
 Chen-2012-888-814	814	疼	painful	838	1129	PAINFUL		0	动词
 Chen-2012-888-815	815	提	lift (with hand)	838	501	LIFT		0	动词
 Chen-2012-888-816	816	填	fill up (a hollow)	838	2006	FILL		1673	动词
@@ -861,7 +861,7 @@ Chen-2012-888-859	859	找	look for	853	1468	LOOK FOR		1744	动词
 Chen-2012-888-860	860	照	illuminate	853				0	动词
 Chen-2012-888-861	861	折断	break (cleave)	853	2558	BREAK (CLEAVE)		1293	动词
 Chen-2012-888-862	862	争	fight	854	1423	FIGHT		1796	动词
-Chen-2012-888-863	863	蒸	steam	854	2068	BRAISE (VERB)		1797	动词
+Chen-2012-888-863	863	蒸	steam	854	2067	STEAM (VERB)		1797	动词
 Chen-2012-888-864	864	知道	know	854	1410	KNOW (SOMETHING)		1798	动词
 Chen-2012-888-865	865	织（布）	weave	855	133	WEAVE		1799	动词
 Chen-2012-888-866	866	指	point at	855	2669	POINT (WITH FINGER)		1800	动词
@@ -871,7 +871,7 @@ Chen-2012-888-869	869	煮	cook (boil)	856	1100	COOK (SOMETHING)		1804	动词
 Chen-2012-888-870	870	住	live (reside)	856	363	DWELL (LIVE, RESIDE)		1452	动词
 Chen-2012-888-871	871	抓	scratch	857	1436	SCRATCH		1805	动词
 Chen-2012-888-872	872	转（身）	turn around	857	1444	TURN AROUND		1806	动词
-Chen-2012-888-873	873	转动	turn	857	1588	TURN		1808	动词
+Chen-2012-888-873	873	转动	turn	857	1445	TURN (SOMETHING)		1808	动词
 Chen-2012-888-874	874	装	load (put into container)	858	1679	LOAD		1810	动词
 Chen-2012-888-875	875	追	pursue	858	1047	PURSUE		1811	动词
 Chen-2012-888-876	876	捉	catch	858	702	CATCH		1813	动词

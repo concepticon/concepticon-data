@@ -45,6 +45,34 @@
                     {
                         "datatype": "string", 
                         "name": "CATEGORY"
+                    },
+                    {
+                        "datatype": "string", 
+                        "name": "GLOSS"
+                    },
+                    {
+                        "datatype": "string", 
+                        "name": "SEMANTICFIELD"
+                    },
+                    {
+                        "datatype": "integer", 
+                        "name": "LOANS"
+                    },
+                    {
+                        "datatype": "integer", 
+                        "name": "HAPAXES"
+                    },
+                    {
+                        "datatype": "integer", 
+                        "name": "MISSING"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "LOANPC"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "HAPPC"
                     }
                 ], 
                 "primaryKey": [

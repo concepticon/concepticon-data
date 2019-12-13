@@ -62,7 +62,7 @@ Dellert-2017-1016-60	60	234	-1.123365	Luft	Luft::N	air	воздух	wo Vögel fl
 Dellert-2017-1016-61	61	69	-2.27676	Wind	Wind::N	wind	ветер	draußen	outside	на улице	WIND	960	
 Dellert-2017-1016-62	62	213	-1.172595	Welle	Welle::N	wave	волна	auf Wasser	on water	на воде	WAVE	978	
 Dellert-2017-1016-63	63	19	-2.22383	Wasser	Wasser::N	water	вода	kaltes Wasser	cold water	холодная вода	WATER	948	
-Dellert-2017-1016-64	64	55	-2.26243	Stein	Stein::N	stone	камень	Substanz	substance	вещество	ROCK	668	
+Dellert-2017-1016-64	64	55	-2.26243	Stein	Stein::N	stone	камень	Substanz	substance	вещество	STONE	857	
 Dellert-2017-1016-65	65	470	-1.143149	Boden	Boden::N	ground	земля	Erdboden	soil, earth	земля, пол; НАПР:падать на землю	GROUND	2159	
 Dellert-2017-1016-66	66	164	-1.145461	Erde	Erde::N	earth	земля, почва	Substanz	substance	вещество; НАПР:комок земли	EARTH (SOIL)	1228	
 Dellert-2017-1016-67	67	292	-1.175208	Staub	Staub::N	dust	пыль	Ablagerung	settled	НАПР:вытереть пыль	DUST	2	
@@ -97,11 +97,11 @@ Dellert-2017-1016-95	95	763	-0.066956	Anhöhe	Anhöhe::N	elevation	возвыш�
 Dellert-2017-1016-96	96	81	-2.209868	Berg	Berg::N	mountain	гора	unbewaldet	woodless	не поросшая лесом	MOUNTAIN	639	
 Dellert-2017-1016-97	97	822	-0.070502	Gipfel	Gipfel::N	summit	вершина	eines Berges	of a mountain	горы	SUMMIT	1614	
 Dellert-2017-1016-98	98	798	-0.059802	Höhle	Höhle::N	cave	пещера	in einem Berg	in a mountain	в горе	CAVE	1155	
-Dellert-2017-1016-99	99	960	0.073616	Abhang	Abhang::N	slope	склон	eines Berges	of a mountain	горы	PRECIPICE	618	
+Dellert-2017-1016-99	99	960	0.073616	Abhang	Abhang::N	slope	склон	eines Berges	of a mountain	горы	SLOPE	3076	
 Dellert-2017-1016-100	100	867	-0.088111	Quelle	Quelle::N	source	источник	eines Flusses	of a river	реки	SPRING (OF WATER)	849	
 Dellert-2017-1016-101	101	754	-0.084698	Bach	Bach::N	brook	ручей	kleiner Fluss	small river	маленькая река			!BROOK
 Dellert-2017-1016-102	102	227	-1.139801	Fluss	Fluss::N	river	река	größerer Fluss	larger river	большая река	RIVER	666	
-Dellert-2017-1016-103	103	372	-1.18519	Ufer	Ufer::N	shore	берег	eines Sees	of a lake	НАПР:озeра	SHORE	113	
+Dellert-2017-1016-103	103	372	-1.18519	Ufer	Ufer::N	shore	берег	eines Sees	of a lake	НАПР:озeра	SHORE OF LAKE	3464	
 Dellert-2017-1016-104	104	591	-0.070349	Küste	Küste::N	coast	побережье	Meeresküste	seashore	берег моря	COAST	1525	
 Dellert-2017-1016-105	105	788	-0.093131	Festland	Festland::N	land	суша		as opposed to sea	как противоположность морю	MAINLAND	166	
 Dellert-2017-1016-106	106	106	-2.29988	Meer	Meer::N	sea	море				SEA	1474	
@@ -240,7 +240,7 @@ Dellert-2017-1016-238	238	877	-0.019077	Lärm	Lärm::N	noise	шум	unangenehm l
 Dellert-2017-1016-239	239	230	-1.13465	Laut	Laut::N	sound	звук	Geräusch	sensation perceived by the ear	то, что воспринимается слухом	SOUND OR NOISE	1811	
 Dellert-2017-1016-240	240	925	0.0209	Ton	Ton::N	tone	тон	Klang einer bestimmten Tonhöhe	sound of a specific pitch	музыкальный звук, звук определённой высоты	TONE (MUSIC)	2995	
 Dellert-2017-1016-241	241	360	-1.115189	Lied	Lied::N	song	песня				SONG	1096	
-Dellert-2017-1016-242	242	631	-0.089142	Ruhe	Ruhe::N	calm	покой	Abwesenheit von Lärm und Störungen	absence of noise and disturbances	отсутствие шума и помех	QUIET	1314	
+Dellert-2017-1016-242	242	631	-0.089142	Ruhe	Ruhe::N	calm	покой	Abwesenheit von Lärm und Störungen	absence of noise and disturbances	отсутствие шума и помех	SILENCE	3458	
 Dellert-2017-1016-243	243	611	-0.040498	Leute	Leute::N	people	люди		many persons				distinct from PERSON
 Dellert-2017-1016-244	244	401	-1.118646	Volk	Volk::N	nation	народ	Menschen einer Ethnie	community of people with a common culture	совокупность людей общей культуры	PEOPLE	789	
 Dellert-2017-1016-245	245	193	-1.138146	Arbeit	Arbeit::N	work	работа	Tätigkeit	employment	занятие, труд	WORK (LABOUR)	984	
@@ -248,7 +248,7 @@ Dellert-2017-1016-246	246	426	-1.149378	Gast	Gast::N	guest	гость				GUEST	1
 Dellert-2017-1016-247	247	780	-0.01435	Geschenk	Geschenk::N	gift	подарок				GIFT	2982	POS (DONATE)
 Dellert-2017-1016-248	248	339	-1.157994	Spiel	Spiel::N	game	игра	spielerische Betätigung	playful activity	занятие для развлечения, отдыха	GAME	2467	
 Dellert-2017-1016-249	249	979	0.040639	Gesellschaft	Gesellschaft::N	company	общество	Begleitung	companionship	компания	COMPANIONSHIP	2983	
-Dellert-2017-1016-250	250	482	-1.120418	Hilfe	Hilfe::N	help	помощь						!HELP (NOUN)
+Dellert-2017-1016-250	250	482	-1.120418	Hilfe	Hilfe::N	help	помощь				HELP (ASSISTANCE)	3467	!HELP (NOUN)
 Dellert-2017-1016-251	251	254	-1.173862	Freund	Freund::N	friend	друг	sehr nahestehender Mensch	person whose company one enjoys	связанный хорошими отношениями НАПР:друг детства	FRIEND	1325	
 Dellert-2017-1016-252	252	908	0.056385	Kamerad	Kamerad::N	companion	приятель	mit dem man Zeit verbringt	with whom one spends time	близкий знакомый			not distinct from FRIEND
 Dellert-2017-1016-253	253	295	-1.16408	Angelegenheit	Angelegenheit::N	matter	дело	Sache, Fall	affair	НАПР:важное дело	AFFAIR	2214	
@@ -292,7 +292,7 @@ Dellert-2017-1016-290	290	779	-0.014428	Ski	Ski::N	ski	лыжа				SKI	2991
 Dellert-2017-1016-291	291	974	0.020956	Lagerfeuer	Lagerfeuer::N	campfire	костёр				CAMPFIRE	2986	
 Dellert-2017-1016-292	292	765	-0.061976	Last	Last::N	load	тяжесть	auf Fahrzeug	on a vehicle	груз на повозке	LOAD	1679	
 Dellert-2017-1016-293	293	509	-1.153809	Gang	Gang::N	walk	ходьба	Zurücklegen eines Weges	trip made by walking	процесс ходьбы	WALK (MANNER)	2979	
-Dellert-2017-1016-294	294	172	-1.1143	Schritt	Schritt::N	step	шаг	Einzelschritt	single pace	одно движение ногой при ходьбе	STEP	1158	
+Dellert-2017-1016-294	294	172	-1.1143	Schritt	Schritt::N	step	шаг	Einzelschritt	single pace	одно движение ногой при ходьбе			
 Dellert-2017-1016-295	295	661	-0.0156	Norden	Norden::N	north	север				NORTH	1598	
 Dellert-2017-1016-296	296	719	-0.070792	Süden	Süden::N	south	юг				SOUTH	1595	
 Dellert-2017-1016-297	297	819	-0.073499	Westen	Westen::N	west	запад				WEST	1817	
@@ -350,7 +350,7 @@ Dellert-2017-1016-348	348	564	-0.038161	Nahrung	Nahrung::N	food	пища				FOOD
 Dellert-2017-1016-349	349	890	0.048027	Speise	Speise::N	dish	блюдо						
 Dellert-2017-1016-350	350	141	-2.228815	Fleisch	Fleisch::N	meat	мясо	Nahrungsmittel			MEAT	634	
 Dellert-2017-1016-351	351	845	-0.000722	Getreide	Getreide::N	corn	злак		cereal plant grown for its grain				GRAIN (PLANT)
-Dellert-2017-1016-352	352	330	-1.176774	Brei	Brei::N	mush	каша				MUSH	400	
+Dellert-2017-1016-352	352	330	-1.176774	Brei	Brei::N	mush	каша						
 Dellert-2017-1016-353	353	128	-2.295693	Brot	Brot::N	bread	хлеб			пищевой продукт	BREAD	1368	
 Dellert-2017-1016-354	354	714	-0.083365	Scheibe	Scheibe::N	slice	ломоть	BSP:Brot	EX:of bread	кусок отрезанный ножом, ломтик НАПР:кусок хлеба	SLICE	2954	
 Dellert-2017-1016-355	355	116	-2.237866	Fett	Fett::N	fat	жир				FAT (ORGANIC SUBSTANCE)	323	
@@ -609,7 +609,7 @@ Dellert-2017-1016-607	607	195	-1.125499	hierhin	hierhin::ADV	hither	сюда				
 Dellert-2017-1016-608	608	619	-0.012382	von hier	von hier::ADV	hence	отсюда				FROM HERE	2927	
 Dellert-2017-1016-609	609	15	-2.264168	dort	dort::ADV	there	там				THERE	1937	
 Dellert-2017-1016-610	610	320	-1.193899	dorthin	dorthin::ADV	thither	туда				THITHER (THERE TO)	2923	
-Dellert-2017-1016-611	611	941	0.037048	geradeaus	geradeaus::ADV	ahead	прямо				STRAIGHT	1404	
+Dellert-2017-1016-611	611	941	0.037048	geradeaus	geradeaus::ADV	ahead	прямо						
 Dellert-2017-1016-612	612	487	-1.113207	vorwärts	vorwärts::ADV	forward	вперёд				FORWARD	2912	
 Dellert-2017-1016-613	613	806	-0.041419	rückwärts	rückwärts::ADV	backward	назад				BACKWARD	2911	
 Dellert-2017-1016-614	614	503	-1.174261	zurück	zurück::ADV	back	обратно				BACK (DIRECTION)	2910	
@@ -650,7 +650,7 @@ Dellert-2017-1016-648	648	14	-2.286457	wo	wo::FADV	where	где				WHERE	1237
 Dellert-2017-1016-649	649	248	-1.188391	wohin	wohin::FADV	where to	куда				WHITHER (WHERE TO)	2928	
 Dellert-2017-1016-650	650	189	-1.151297	wie	wie::FADV	how	как				HOW	1239	
 Dellert-2017-1016-651	651	392	-1.134378	warum	warum::FADV	why	почему				WHY	1270	
-Dellert-2017-1016-652	652	663	-0.004942	wieviel	wieviel::FNUM	how much	сколько				HOW MUCH	531	
+Dellert-2017-1016-652	652	663	-0.004942	wieviel	wieviel::FNUM	how much	сколько				HOW MANY	822	
 Dellert-2017-1016-653	653	1	-3.305677	eins	eins::NUM	one	один				ONE	1493	
 Dellert-2017-1016-654	654	7	-3.352278	zwei	zwei::NUM	two	два				TWO	1498	
 Dellert-2017-1016-655	655	30	-2.283703	drei	drei::NUM	three	три				THREE	492	
@@ -765,7 +765,7 @@ Dellert-2017-1016-763	763	373	-1.182523	rennen	rennen::V	run	бегать	Mensch
 Dellert-2017-1016-764	764	517	-1.129859	springen	springen::V	jump	прыгать	Mensch	of human	о человеке	JUMP	1829	
 Dellert-2017-1016-765	765	694	-0.04111	klettern	klettern::V	climb	лазать	Mensch	of human	карабкаться, о человеке	CLIMB	1102	
 Dellert-2017-1016-766	766	977	0.086987	schaukeln	schaukeln::V	seesaw	качаться, раскачиваться	wippen, auf Schaukel	use a seesaw	НАПР:на качелях			
-Dellert-2017-1016-767	767	441	-1.115912	kriechen	kriechen::V	creep	ползать	Mensch	of human	о человеке	CRAWL	96	
+Dellert-2017-1016-767	767	441	-1.115912	kriechen	kriechen::V	creep	ползать	Mensch	of human	о человеке	CREEP	3215	
 Dellert-2017-1016-768	768	108	-2.289305	schwimmen	schwimmen::V	swim	плавать	Mensch	of human	о человеке	SWIM	1439	
 Dellert-2017-1016-769	769	952	0.09785	tauchen	tauchen::V	dive	нырять	Mensch	of human	о человеке	DIVE	119	
 Dellert-2017-1016-770	770	494	-1.196761	rudern	rudern::V	row	грести	ein Boot mittels Riemen bewegen	propel a boat using oars	передвигать лодку вёслами	ROW	1849	
@@ -830,7 +830,7 @@ Dellert-2017-1016-828	828	440	-1.118026	aufhängen	aufhängen::V	hang up	пов�
 Dellert-2017-1016-829	829	512	-1.145345	anzünden	anzünden::V	light	зажечь	BSP:eine Kerze	EX:a candle	НАПР:свечу	LIGHT (IGNITE)	737	
 Dellert-2017-1016-830	830	384	-1.156896	aufheben	aufheben::V	pick up	поднять	vom Fußboden	from the floor	взять с пола	PICK UP	371	
 Dellert-2017-1016-831	831	530	-0.093607	zurücklassen	zurücklassen::V	leave	оставить	BSP:einen Mantel zu Hause	EX:a coat at home	НАПР:пальто дома			
-Dellert-2017-1016-832	832	215	-1.170692	verlieren	verlieren::V	lose	потерять	BSP:einen Schlüssel	EX:a key	НАПР:ключ	LOSE	1660	
+Dellert-2017-1016-832	832	215	-1.170692	verlieren	verlieren::V	lose	потерять	BSP:einen Schlüssel	EX:a key	НАПР:ключ	MISPLACE	3072	
 Dellert-2017-1016-833	833	759	-0.079748	fallen lassen	fallen lassen::V	drop	уронить	aus den Händen	let fall from one's hands	выпустить из рук	DROP (SOMETHING)	2866	
 Dellert-2017-1016-834	834	294	-1.168211	machen	machen::V	make	сделать	anfertigen, hervorrufen	create, bring about	совершить, изготовить	MAKE	734	
 Dellert-2017-1016-835	835	828	-0.054193	herstellen	herstellen::V	produce	изготовить	produzieren	manufacture	произвести	PRODUCE	2886	
@@ -843,7 +843,7 @@ Dellert-2017-1016-841	841	523	-1.118683	beugen	beugen::V	bow	согнуть	BSP:
 Dellert-2017-1016-842	842	286	-1.192001	biegen	biegen::V	bend	погнуть	BSP:ein Rohr	EX:a pipe	НАПР:трубу	BEND (SOMETHING)	2224	
 Dellert-2017-1016-843	843	604	-0.04799	drehen	drehen::V	spin	вертеть	BSP:einen Spieß	EX:a skewer	НАПР:вертел			
 Dellert-2017-1016-844	844	647	-0.044863	wenden	wenden::V	turn over	перевернуть	BSP:Pfannkuchen, Fleischstücke	EX:pancakes, pieces of meat	положить на другую сторону, НАПР:блины, куски мяса	TURN (SOMETHING)	1445	
-Dellert-2017-1016-845	845	967	0.02789	umdrehen	umdrehen::V	turn, turn around	повернуть, поворачивать	BSP:die Hand	EX:palm	НАПР:ладонь	TURN AROUND	1444	
+Dellert-2017-1016-845	845	967	0.02789	umdrehen	umdrehen::V	turn, turn around	повернуть, поворачивать	BSP:die Hand	EX:palm	НАПР:ладонь			
 Dellert-2017-1016-846	846	221	-1.150496	heben	heben::V	raise	поднимать	BSP:die Hand	EX:one's hand	переместить в верхнее положение, НАПР:руку, голову			
 Dellert-2017-1016-847	847	504	-1.173664	hochheben	hochheben::V	lift	поднять	BSP:eine Kiste	EX:a box	что-то тяжёлое, НАПР:ящик	LIFT	501	
 Dellert-2017-1016-848	848	860	-0.013547	ergreifen	ergreifen::V	seize	схватить	in die Hand nehmen, BSP:ein Messer	grab, EX:a knife	хватать, НАПР:нож	SEIZE	855	
@@ -901,7 +901,7 @@ Dellert-2017-1016-899	899	309	-1.139581	reichen	reichen::V	hand	передать
 Dellert-2017-1016-900	900	745	-0.004299	schenken	schenken::V	give	дарить	BSP:ein Buch	as a present, EX:a book	НАПР:книгу	DONATE	196	
 Dellert-2017-1016-901	901	811	-0.021625	versprechen	versprechen::V	promise	обещать				PROMISE	1675	
 Dellert-2017-1016-902	902	588	-0.075626	wünschen	wünschen::V	wish	желaть	jm etwas, BSP:Glück	ЕX:luck	НАПР:счастья			
-Dellert-2017-1016-903	903	261	-1.142721	loben	loben::V	praise	хвалить				PRAISE	1687	
+Dellert-2017-1016-903	903	261	-1.142721	loben	loben::V	praise	хвалить				COMMEND	3455	
 Dellert-2017-1016-904	904	724	-0.051244	küssen	küssen::V	kiss	целовать				KISS	578	
 Dellert-2017-1016-905	905	615	-0.033801	wiegen	wiegen::V	rock	качать	ein Kind in den Schlaf	a child	ребёнка			
 Dellert-2017-1016-906	906	308	-1.141124	zudecken	zudecken::V	cover	накрыть	BSP:ein Kind mit einer Decke	EX:a child with a blanket	НАПР:ребёнка одеялом			
@@ -940,8 +940,8 @@ Dellert-2017-1016-938	938	228	-1.13904	stehlen	stehlen::V	steal	украсть		
 Dellert-2017-1016-939	939	901	0.03309	stören	stören::V	disturb	помешать				DISTURB	2883	
 Dellert-2017-1016-940	940	966	0.025794	belästigen	belästigen::V	bother	беспокоить, потревожить				BOTHER (HARASS)	2869	
 Dellert-2017-1016-941	941	598	-0.061851	verbergen	verbergen::V	conceal	скрыть	BSP:eine Tatsache	EX:a fact	НАПР:факт	HIDE (CONCEAL)	602	
-Dellert-2017-1016-942	942	862	-0.096565	täuschen	täuschen::V	deceive	обмануть	in die Irre führen		ввести в заблуждение			
-Dellert-2017-1016-943	943	961	0.079686	betrügen	betrügen::V	cheat	смошенничать	BSP:jemanden um Geld	EX:someone of money		DECEIVE	3230	
+Dellert-2017-1016-942	942	862	-0.096565	täuschen	täuschen::V	deceive	обмануть	in die Irre führen		ввести в заблуждение	DECEIVE	3230	
+Dellert-2017-1016-943	943	961	0.079686	betrügen	betrügen::V	cheat	смошенничать	BSP:jemanden um Geld	EX:someone of money		SWINDLE	3055	
 Dellert-2017-1016-944	944	76	-2.228426	töten	töten::V	kill	убить				KILL	1417	
 Dellert-2017-1016-945	945	324	-1.187722	wohnen	wohnen::V	dwell	проживать, жить				DWELL (LIVE, RESIDE)	363	
 Dellert-2017-1016-946	946	650	-0.037503	arbeiten	arbeiten::V	work	работать				WORK (ACTIVITY)	1086	
@@ -973,10 +973,10 @@ Dellert-2017-1016-971	971	628	-0.093587	spülen	spülen::V	rinse	полоска�
 Dellert-2017-1016-972	972	408	-1.106639	fegen	fegen::V	sweep	подметать	BSP:Zimmer	EX:a room	НАПР:комнату	SWEEP	230	
 Dellert-2017-1016-973	973	773	-0.034864	kehren	kehren::V	sweep	мести	BSP:Laub	EX:leaves	НАПР:листья, двор			
 Dellert-2017-1016-974	974	576	-0.00615	baden	baden::V	bath	купаться	BSp:in einem Fluss	EX:in a river	НАПР:в реке	BATHE	138	
-Dellert-2017-1016-975	975	424	-1.151453	sich waschen	sich waschen::V	wash	мыться						
-Dellert-2017-1016-976	976	755	-0.08271	ausziehen	ausziehen::V	take off	снять	BSP:den Mantel	EX:one's coat	НАПР:пальто			
+Dellert-2017-1016-975	975	424	-1.151453	sich waschen	sich waschen::V	wash	мыться				WASH (ONESELF)	3371	
+Dellert-2017-1016-976	976	755	-0.08271	ausziehen	ausziehen::V	take off	снять	BSP:den Mantel	EX:one's coat	НАПР:пальто	UNDRESS	1755	
 Dellert-2017-1016-977	977	607	-0.044519	anziehen	anziehen::V	put on	надеть	BSP:den Mantel	EX:one's coat	НАПР:пальто	PUT ON	158	
-Dellert-2017-1016-978	978	742	-0.009286	sich anziehen	sich anziehen::V	get dressed	одеться						
+Dellert-2017-1016-978	978	742	-0.009286	sich anziehen	sich anziehen::V	get dressed	одеться				DRESS UP	814	
 Dellert-2017-1016-979	979	646	-0.051208	kämmen	kämmen::V	comb	причесать			кого-то, НАПР:дочь	COMB (VERB)	2070	
 Dellert-2017-1016-980	980	809	-0.030631	schmücken	schmücken::V	decorate	украсить	BSP:ein Haus	EX:a house	НАПР:дом	DECORATE	1739	
 Dellert-2017-1016-981	981	114	-2.258457	sagen	sagen::V	say	сказать				SAY	1458	

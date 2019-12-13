@@ -145,7 +145,7 @@ Yang-2011-1014-143	143	142	earthworm	蚯蚓	142	earthworm	2350	EARTHWORM
 Yang-2011-1014-144	144	143	worm	虫	143	worm	1219	WORM
 Yang-2011-1014-145	145	144	caterpillar	毛虫	144,0 / 144,1	caterpillar / caterpillar	2247	CATERPILLAR
 Yang-2011-1014-146	146	145	maggot	蛆/蛆虫	145	maggot	2640	LARVA
-Yang-2011-1014-147	147	146	nest	窝 (鸟窝)	146,0 / 146,1	nest / nest	539	NEST
+Yang-2011-1014-147	147	146	nest	窝 (鸟窝)	146,0 / 146,1	nest / nest	3549	BIRD NEST
 Yang-2011-1014-148	148	147	egg	蛋	147	egg	744	EGG
 Yang-2011-1014-149	149	148	wing	翅膀	148,1 / 148,0	wing / wing	1257	WING
 Yang-2011-1014-150	150	149	claw; talon	爪	149,0 / 149,1	claw; talon / claw; talon	72	CLAW
@@ -307,8 +307,8 @@ Yang-2011-1014-305	305	304	tendon	筋/腱	304	tendon	1137	TENDON
 Yang-2011-1014-306	306	305	breath	呼吸	305,0 / 305,1	breath / breath	870	BREATH
 Yang-2011-1014-307	307	306	strength	力气	306	strength	202	STRENGTH
 Yang-2011-1014-308	308	307	person	人	307	person	683	PERSON
-Yang-2011-1014-309	309	308	male	男人	308	male	1553	MALE
-Yang-2011-1014-310	310	309	female	女人	309,0 / 309,1	female / female	1551	FEMALE
+Yang-2011-1014-309	309	308	male	男人	308	male	2106	MALE PERSON
+Yang-2011-1014-310	310	309	female	女人	309,0 / 309,1	female / female	2105	FEMALE PERSON
 Yang-2011-1014-311	311	310	Autonym	(自称)	310,1 / 310,0	Autonym / Autonym		
 Yang-2011-1014-312	312	311	Han Chinese	汉族	311,0 / 311,1	Han Chinese / Han Chinese		
 Yang-2011-1014-313	313	312	Yi/Lo	彝族	312	Yi/Lo		
@@ -595,7 +595,7 @@ Yang-2011-1014-594	594	587	water	浇 (浇菜)	587	water	3078	IRRIGATE
 Yang-2011-1014-595	595	588	slice; cut	切 (切菜)	588	slice; cut		
 Yang-2011-1014-596	596	589	slice; cut	切 (切苹果、西瓜)	589	slice; cut		
 Yang-2011-1014-597	597	590	split; chop; cleave	劈 (劈木柴)	590	split; chop; cleave	1437	SPLIT
-Yang-2011-1014-598	598	591	chop (down)	砍 (砍树)	591	chop (down)	463	FELL (A TREE)
+Yang-2011-1014-598	598	591	chop (down)	砍 (砍树)	591	chop (down)	355	CUT DOWN
 Yang-2011-1014-599	599	592	cut (reap)	割 (割稻)	592	cut (reap)		
 Yang-2011-1014-600	600	593	whittle	削	593	whittle		
 Yang-2011-1014-601	601	594	stab	刺	594,1 / 594,0 / 594,1	stab / stab / stab	1434	STAB
@@ -608,7 +608,7 @@ Yang-2011-1014-607	607	600	sell	卖	600	sell	1571	SELL
 Yang-2011-1014-608	608	601	count (number)	数 (数东西)	601,0 / 601,1 / 601,2	count (number) / count (number) / count (number)	1420	COUNT
 Yang-2011-1014-609	609	602	teach	教	602	teach	709	TEACH
 Yang-2011-1014-610	610	602	teach/train	教	602.1	teach/train	709	TEACH
-Yang-2011-1014-611	611	603	study	学	603	study	1929	STUDY
+Yang-2011-1014-611	611	603	study	学	603	study	504	LEARN
 Yang-2011-1014-612	612	604	cook; boil	煮	604	cook; boil	1100	COOK (SOMETHING)
 Yang-2011-1014-613	613	605	fry (stirfry)	炒	605	fry (stirfry)	991	FRY
 Yang-2011-1014-614	614	606	steam	蒸	606,1 / 606,0	steam / steam	1193	STEAM
@@ -622,10 +622,10 @@ Yang-2011-1014-621	621	613	mill (grinding)	磨 (磨米)	613	mill (grinding)	636	
 Yang-2011-1014-622	622	614	winnow with a fan	簸 (簸米)	614	winnow with a fan	2462	WINNOWING
 Yang-2011-1014-623	623	615	ladle out; spoon up	舀 (舀水)	615	ladle out; spoon up	2788	LADLE (WATER)
 Yang-2011-1014-624	624	616	wear; put on	穿 (衣服)	616	wear; put on	976	WEAR
-Yang-2011-1014-625	625	617	wear (hat); put on (hat)	戴 (帽子)	617	wear (hat); put on (hat)		
+Yang-2011-1014-625	625	617	wear (hat); put on (hat)	戴 (帽子)	617	wear (hat); put on (hat)	3428	WEAR (ON HEAD)
 Yang-2011-1014-626	626	618	wear (turban)	戴(头巾)	618	wear (turban)		
 Yang-2011-1014-627	627	619	wear (upper clothes)	穿(上衣)	619	wear (upper clothes)		
-Yang-2011-1014-628	628	620	clothe	给穿	620	clothe	158	PUT ON
+Yang-2011-1014-628	628	620	clothe	给穿	620	clothe		
 Yang-2011-1014-629	629	621	take off	脱 (脱衣服)	621	take off	1755	UNDRESS
 Yang-2011-1014-630	630	622	roll up	卷 (卷烟)	622	roll up		
 Yang-2011-1014-631	631	623	shave	剃 (头)	623	shave	231	SHAVE
@@ -644,7 +644,7 @@ Yang-2011-1014-643	643	635	put down; put/place	放 (下) [放置]	635	put down; 
 Yang-2011-1014-644	644	636	release; let go; set free	放 (把鸟放走)	636	release; let go; set free	1095	LET GO OR SET FREE
 Yang-2011-1014-645	645	637	hang	挂 (挂在墙上)	637	hang	2884	HANG
 Yang-2011-1014-646	646	638	tie into a bundle	捆(绑)	638	tie into a bundle		
-Yang-2011-1014-647	647	639	tie; bind	系	639	tie; bind	1917	TIE
+Yang-2011-1014-647	647	639	tie; bind	系	639	tie; bind	1094	FASTEN
 Yang-2011-1014-648	648	639	tie a belt	系	639.1	tie a belt		
 Yang-2011-1014-649	649	640	untie	解 (解绳结)	640	untie	352	UNTIE
 Yang-2011-1014-650	650	641	load; pack (put in)	装 (装进袋里)	641	load; pack (put in)	1679	LOAD
@@ -659,7 +659,7 @@ Yang-2011-1014-658	658	649	nail	钉(钉钉子)	649	nail
 Yang-2011-1014-659	659	650	want	要 (我要这个)	650	want	1784	WANT
 Yang-2011-1014-660	660	651	get; obtain;	得 (得到)	651,0 / 651,1	get; obtain; / get; obtain;	694	GET
 Yang-2011-1014-661	661	652	receive	收 (收起来)	652	receive	7	GATHER
-Yang-2011-1014-662	662	653	lose	遗失	653	lose	1660	LOSE
+Yang-2011-1014-662	662	653	lose	遗失	653	lose	3072	MISPLACE
 Yang-2011-1014-663	663	654	seek (look for)	找/寻找	654	seek (look for)	1468	LOOK FOR
 Yang-2011-1014-664	664	655	use	用 (使用)	655	use	2072	USE (VERB)
 Yang-2011-1014-665	665	656	play	玩	656	play	1413	PLAY
@@ -722,7 +722,7 @@ Yang-2011-1014-721	721	712	enter	进 (进来)	712	enter	749	ENTER
 Yang-2011-1014-722	722	713	move back	退	713	move back		
 Yang-2011-1014-723	723	714	flee; escape	逃	714	flee; escape	956	FLEE
 Yang-2011-1014-724	724	715	chase	追 (追上)	715	chase	1047	PURSUE
-Yang-2011-1014-725	725	716	step on	踩	716	step on	2065	STEP (VERB)
+Yang-2011-1014-725	725	716	step on	踩	716	step on	575	TREAD
 Yang-2011-1014-726	726	717	jump; leap	跳	717	jump; leap	1829	JUMP
 Yang-2011-1014-727	727	718	stride	跨 (跨小沟)	718	stride		
 Yang-2011-1014-728	728	719	ride; ride on	骑 (骑马)	719	ride; ride on	367	RIDE
@@ -749,7 +749,7 @@ Yang-2011-1014-748	748	739	fall; drop	掉 (掉在地下)	739	fall; drop	1280	FAL
 Yang-2011-1014-749	749	740	snap in two (rope, string)	断 (绳子断了)	740	snap in two (rope, string)		
 Yang-2011-1014-750	750	741	break	破 (罐子破了)	741	break	680	BREAK (DESTROY OR GET DESTROYED)
 Yang-2011-1014-751	751	742	leak	漏 (水桶漏水)	742	leak	2253	DRIP (EMIT LIQUID)
-Yang-2011-1014-752	752	743	boil	沸	743	boil	2493	BOIL
+Yang-2011-1014-752	752	743	boil	沸	743	boil	792	BOIL (OF LIQUID)
 Yang-2011-1014-753	753	744	change	变 (蛹变蛾)	744	change	1264	CHANGE
 Yang-2011-1014-754	754	745	birth	生 (生孩子)	745,2 / 745,0 / 745,1 / 745,3 / 745,4	birth / birth / birth / birth / birth	1195	GIVE BIRTH
 Yang-2011-1014-755	755	746	grow	长 (长大)	746	grow	479	GROW
@@ -766,8 +766,8 @@ Yang-2011-1014-765	765	755	bloom; blossom	开(花)	755	bloom; blossom	3287	BLOOM
 Yang-2011-1014-766	766	756	bear fruit	结(果)	756	bear fruit	3054	BEAR FRUIT
 Yang-2011-1014-767	767	757	rot (fruit)	腐烂	757	rot (fruit)		
 Yang-2011-1014-768	768	757	rot (meat)	腐烂	757.1	rot (meat)		
-Yang-2011-1014-769	769	758	begin; start	开始	758	begin; start	1806	BEGIN
-Yang-2011-1014-770	770	759	stop	停	759	stop	1928	CEASE
+Yang-2011-1014-769	769	758	begin; start	开始	758	begin; start	3447	BEGIN OR START
+Yang-2011-1014-770	770	759	stop	停	759	stop	2880	HALT (STOP)
 Yang-2011-1014-771	771	760	remain	留下	760	remain	987	REMAIN
 Yang-2011-1014-772	772	761	write	写	761	write	1672	WRITE
 Yang-2011-1014-773	773	762	wash (self)	洗(手)	762	wash (self)	3371	WASH (ONESELF)
@@ -824,7 +824,7 @@ Yang-2011-1014-823	823	812	situated crooked	歪 (帽子戴歪了)	812	situated c
 Yang-2011-1014-824	824	813	straight	直 (棍子很直)	813	straight	1404	STRAIGHT
 Yang-2011-1014-825	825	814	crooked; bent	弯 (棍子弯)	814	crooked; bent	297	CROOKED
 Yang-2011-1014-826	826	815	thick; dense	稠 (粥很稠)	815	thick; dense	2239	DENSE
-Yang-2011-1014-827	827	816	thin; watery; sparse	稀 (粥很稀)	816	thin; watery; sparse	207	SPARSE
+Yang-2011-1014-827	827	816	thin; watery; sparse	稀 (粥很稀)	816	thin; watery; sparse	3545	WATERY
 Yang-2011-1014-828	828	817	hard	硬	817,0 / 817,1	hard / hard	1884	HARD
 Yang-2011-1014-829	829	818	soft	软	818	soft	1856	SOFT
 Yang-2011-1014-830	830	819	bright; light	亮 (房子很亮)	819	bright; light	679	BRIGHT
@@ -992,7 +992,7 @@ Yang-2011-1014-991	991	978	where?	哪里?	978	where?	1237	WHERE
 Yang-2011-1014-992	992	979	why?	为什么?	979	why?	1270	WHY
 Yang-2011-1014-993	993	980	which (one)?	哪 (一个)?	980	which (one)?	727	WHICH
 Yang-2011-1014-994	994	981	how?	怎么?	981	how?	1239	HOW
-Yang-2011-1014-995	995	982	how much?	多少?	982	how much?	531	HOW MUCH
+Yang-2011-1014-995	995	982	how much?	多少?	982	how much?	822	HOW MANY
 Yang-2011-1014-996	996	983	now	现在	983	now	1376	NOW
 Yang-2011-1014-997	997	984	just now	刚才	984	just now	84	JUST
 Yang-2011-1014-998	998	985	before (sequential)	先 (先去)	985	before (sequential)	1882	BEFORE

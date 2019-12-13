@@ -50,13 +50,13 @@ Allen-2007-500-48	1337	PIG	48	pig	猪
 Allen-2007-500-49	1331	SHEEP	49	sheep	绵羊
 Allen-2007-500-50	2009	DOG	50	dog	狗
 Allen-2007-500-51	1208	CAT	51	cat	猫
-Allen-2007-500-52	1136	RABBIT	52	hare,rabbit	兔
+Allen-2007-500-52	2345	LEPORID (RABBIT OR HARE)	52	hare,rabbit	兔
 Allen-2007-500-53	2038	DRAGON	53	dragon	龙
 Allen-2007-500-54	846	TIGER	54	tiger	虎
 Allen-2007-500-55	1820	BEAR	55	bear	熊
 Allen-2007-500-56	1350	MONKEY	56	monkey	猴子
 Allen-2007-500-57	522	WOLF	57	wolf	狼
-Allen-2007-500-58	1491	MOUSE	58	mouse	老鼠
+Allen-2007-500-58	2139	MUROID (MOUSE OR RAT)	58	mouse	老鼠
 Allen-2007-500-59	1318	CHICKEN	59	chicken	鸡
 Allen-2007-500-60	1853	DOVE	60	turtledove	斑鸠
 Allen-2007-500-61	937	BIRD	61	bird	鸟
@@ -183,7 +183,7 @@ Allen-2007-500-181	771	HAT	181	cap,hat	帽子
 Allen-2007-500-182	770	EARRING	182	earring	耳环
 Allen-2007-500-183	1754	BRACELET	183	bracelet	手镯
 Allen-2007-500-184	2160	BAMBOO HAT	184	bamboo hat	斗笠
-Allen-2007-500-185	1662	CAPE	185	palm bark rain cape	蓑衣
+Allen-2007-500-185	3540	STRAW RAINCOAT	185	palm bark rain cape	蓑衣
 Allen-2007-500-186	1381	SHOE	186	shoe	鞋
 Allen-2007-500-187	2047	STRAW SANDAL	187	straw sandal	草鞋
 Allen-2007-500-188	195	MAT	188	straw mat	草席
@@ -200,7 +200,7 @@ Allen-2007-500-198	1282	FAT (FROM ANIMALS)	198	animal oil	动物油(脂肪)
 Allen-2007-500-199	2555	OIL (FROM PLANTS)	199	vegetable oil	植物油
 Allen-2007-500-200	1274	SALT	200	salt	盐
 Allen-2007-500-201	634	MEAT	201	meat	肉
-Allen-2007-500-202	256	FOOD	202	cooked food	菜（熟菜）
+Allen-2007-500-202	3542	PREPARED FOOD	202	cooked food	菜（熟菜）
 Allen-2007-500-203	1547	SOUP	203	soup	汤
 Allen-2007-500-204	404	ALCOHOL (FERMENTED DRINK)	204	alcohol (drink)	酒
 Allen-2007-500-205	1373	TEA	205	tea (drink)	茶
@@ -277,7 +277,7 @@ Allen-2007-500-275	1455	PULL	275	pull	拉
 Allen-2007-500-276	1452	PUSH	276	push	推
 Allen-2007-500-277	1135	KICK	277	kick	踢
 Allen-2007-500-278	66	KNEEL	278	kneel	跪
-Allen-2007-500-279	2065	STEP (VERB)	279	step on	踩
+Allen-2007-500-279	575	TREAD	279	step on	踩
 Allen-2007-500-280	367	RIDE	280	ride	骑
 Allen-2007-500-281	1443	WALK	281	walk	走
 Allen-2007-500-282	1416	SIT	282	sit	坐
@@ -305,12 +305,12 @@ Allen-2007-500-303	180	CALL BY NAME	303	call (name)	称
 Allen-2007-500-304	709	TEACH	304	teach	教
 Allen-2007-500-305	1672	WRITE	305	write	写
 Allen-2007-500-306	254	STICKING	306	stick,glue	贴
-Allen-2007-500-307	2067	STEAM (VERB)	307	steam (yams)	煮（洋芋）
-Allen-2007-500-308	991	FRY	308	stir-fry	炒
-Allen-2007-500-309	2162	STIR FRY	309	shallow fry	煎
-Allen-2007-500-310	2068	BRAISE (VERB)	310	braise	蒸
+Allen-2007-500-307	1100	COOK (SOMETHING)	307	steam (yams)	煮（洋芋）
+Allen-2007-500-308	2162	STIR FRY	308	stir-fry	炒
+Allen-2007-500-309	991	FRY	309	shallow fry	煎
+Allen-2007-500-310	2067	STEAM (VERB)	310	braise	蒸
 Allen-2007-500-311	2069	SOAK (VERB)	311	soak (seeds)	浸（种）
-Allen-2007-500-312	792	BOIL (OF LIQUID)	312	boil (water)	沸（水开）
+Allen-2007-500-312	2492	BOIL (SOMETHING)	312	boil (water)	沸（水开）
 Allen-2007-500-313	2156	CUT (WITH KNIFE)	313	cut (with knife)	切
 Allen-2007-500-314	2149	CHOP (INTO PIECES)	314	chop	剁
 Allen-2007-500-315	2155	CUT (WITH SCISSORS)	315	cut (with scissors)	剪
@@ -328,7 +328,7 @@ Allen-2007-500-326	2486	HIDE	326	hide	藏
 Allen-2007-500-327	1576	PILE UP	327	pile up	堆（放）
 Allen-2007-500-328	737	LIGHT (IGNITE)	328	light (lamp)	点（灯）
 Allen-2007-500-329	694	GET	329	receive	收
-Allen-2007-500-330	1660	LOSE	330	lose (can't find)	遗失
+Allen-2007-500-330	3072	MISPLACE	330	lose (can't find)	遗失
 Allen-2007-500-331	1468	LOOK FOR	331	look for	寻找
 Allen-2007-500-332	2072	USE (VERB)	332	use	用（使用）
 Allen-2007-500-333	1413	PLAY	333	play	玩耍
@@ -342,7 +342,7 @@ Allen-2007-500-340	956	FLEE	340	flee	逃
 Allen-2007-500-341	1047	PURSUE	341	chase	追
 Allen-2007-500-342	2073	ROB (VERB)	342	rob	抢
 Allen-2007-500-343	713	STEAL	343	steal	偷
-Allen-2007-500-344	1902	BETRAY	344	deceive,cheat	骗
+Allen-2007-500-344	3230	DECEIVE	344	deceive,cheat	骗
 Allen-2007-500-345	1826	ANGRY	345	angry	生气
 Allen-2007-500-346	1607	HATE	346	hate	恨
 Allen-2007-500-347	1419	FEAR (BE AFRAID)	347	fear	怕

@@ -41,16 +41,16 @@
                     },
                     {
                         "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/stan1293",
                         "name": "ENGLISH"
                     },
                     {
-                        "name": "GERMAN"
+                        "name": "GERMAN",
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/stan1295",
+                        "datatype": "string"
                     },
                     {
                         "name": "FRENCH"
-                    },
-                    {
-                        "name": "SIMILARITY"
                     }
                 ],
                 "primaryKey": [

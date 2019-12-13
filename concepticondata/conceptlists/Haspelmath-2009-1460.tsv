@@ -73,7 +73,7 @@ Haspelmath-2009-1460-71	1188	CHARCOAL	71	the charcoal	1-89	http://wold.clld.org/
 Haspelmath-2009-1460-72	683	PERSON	72	the person	2-1	http://wold.clld.org/meaning/2-1	2.1	‘human being’	This table can be lifted by one person.	Noun	2	0.929927007299	0.32299270073	0.934306569343	51	6
 Haspelmath-2009-1460-73	1554	MAN	73	the man	2-21	http://wold.clld.org/meaning/2-21	2.21	(vs. woman)	The man had a long beard.	Noun	2	0.886310904872	0.0962877030162	0.880510440835	52	72
 Haspelmath-2009-1460-74	962	WOMAN	74	the woman	2-22	http://wold.clld.org/meaning/2-22	2.22	-	The woman wore a pretty dress.	Noun	2	0.823695345557	0.157498824636	0.890691114245	53	697
-Haspelmath-2009-1460-75	2263	MALE (OF ANIMAL)	75	male(1)	2-23	http://wold.clld.org/meaning/2-23	2.23	(of humans, cf. 3.12)	I have ten male and twelve female students.	Adjective	2	0.867862199151	0.189476168004	0.829872581406	44	166
+Haspelmath-2009-1460-75	2261	MALE (OF PERSON)	75	male(1)	2-23	http://wold.clld.org/meaning/2-23	2.23	(of humans, cf. 3.12)	I have ten male and twelve female students.	Adjective	2	0.867862199151	0.189476168004	0.829872581406	44	166
 Haspelmath-2009-1460-76	2260	FEMALE (OF PERSON)	76	female(1)	2-24	http://wold.clld.org/meaning/2-24	2.24	(of humans, cf. 3.13)	I have ten male and twelve female students.	Adjective	2	0.855341738553	0.157597876576	0.847378898474	44	275
 Haspelmath-2009-1460-77	1366	BOY	77	the boy	2-25	http://wold.clld.org/meaning/2-25	2.25	-	One day this boy will grow to be a man.	Noun	2	0.864285714286	0.169642857143	0.738095238095	49	201
 Haspelmath-2009-1460-78	76	YOUNG MAN	78	the young man	2-251	http://wold.clld.org/meaning/2-251	2.251	-	The young man was not married.	Noun	2	0.865631067961	0.243203883495	0.739805825243	51	189
@@ -122,8 +122,8 @@ Haspelmath-2009-1460-120	1669	ANCESTORS	120	the ancestors	2-56	http://wold.clld.
 Haspelmath-2009-1460-121	490	DESCENDANTS	121	the descendants	2-57	http://wold.clld.org/meaning/2-57	2.57	-	-	Noun	2	0.824242424242	0.345454545455	0.70303030303	45	691
 Haspelmath-2009-1460-122	2255	FATHER-IN-LAW (OF MAN)	122	the father-in-law (of a man)	2-61	http://wold.clld.org/meaning/2-61	2.61	-	-	Noun	2	0.831332684825	0.125486381323	0.734435797665	43	596
 Haspelmath-2009-1460-123	2254	FATHER-IN-LAW (OF WOMAN)	123	the father-in-law (of a woman)	2-611	http://wold.clld.org/meaning/2-611	2.611	-	-	Noun	2	0.79216204781	0.169769409774	0.755658980326	42	1146
-Haspelmath-2009-1460-124	2256	MOTHER-IN-LAW (OF WOMAN)	124	the mother-in-law (of a man)	2-62	http://wold.clld.org/meaning/2-62	2.62	-	-	Noun	2	0.802355187778	0.121737746658	0.718332272438	44	1023
-Haspelmath-2009-1460-125	2257	MOTHER-IN-LAW (OF MAN)	125	the mother-in-law (of a woman)	2-621	http://wold.clld.org/meaning/2-621	2.621	-	-	Noun	2	0.829515706806	0.188972513089	0.752945026178	43	622
+Haspelmath-2009-1460-124	2257	MOTHER-IN-LAW (OF MAN)	124	the mother-in-law (of a man)	2-62	http://wold.clld.org/meaning/2-62	2.62	-	-	Noun	2	0.802355187778	0.121737746658	0.718332272438	44	1023
+Haspelmath-2009-1460-125	2256	MOTHER-IN-LAW (OF WOMAN)	125	the mother-in-law (of a woman)	2-621	http://wold.clld.org/meaning/2-621	2.621	-	-	Noun	2	0.829515706806	0.188972513089	0.752945026178	43	622
 Haspelmath-2009-1460-126	2267	SON-IN-LAW (OF MAN)	126	the son-in-law (of a man)	2-63	http://wold.clld.org/meaning/2-63	2.63	-	-	Noun	2	0.84545228009	0.204086718166	0.847371044107	43	389
 Haspelmath-2009-1460-127	2266	SON-IN-LAW (OF WOMAN)	127	the son-in-law (of a woman)	2-631	http://wold.clld.org/meaning/2-631	2.631	-	-	Noun	2	0.834233485667	0.218113834649	0.859437751004	41	551
 Haspelmath-2009-1460-128	2265	DAUGHTER-IN-LAW (OF MAN)	128	the daughter-in-law (of a man)	2-64	http://wold.clld.org/meaning/2-64	2.64	-	-	Noun	2	0.854328112119	0.0939818631492	0.804204451772	42	286
@@ -146,7 +146,7 @@ Haspelmath-2009-1460-144	1130	WE (EXCLUSIVE)	144	we (exclusive)	2-942	http://wol
 Haspelmath-2009-1460-145	1213	YOU	145	you (plural)	2-95	http://wold.clld.org/meaning/2-95	2.95	-	-	Function word	2	0.789523809524	0.0380952380952	0.809523809524	53	1171
 Haspelmath-2009-1460-146	817	THEY	146	they	2-96	http://wold.clld.org/meaning/2-96	2.96	-	-	Function word	2	0.801906779661	0.0741525423729	0.798728813559	49	1028
 Haspelmath-2009-1460-147	619	ANIMAL	147	the animal	3-11	http://wold.clld.org/meaning/3-11	3.11	'living creature that can move (including or excluding humans)'	On the small island they found rabbits, foxes, snakes, mice and many other animals.	Noun	3	0.82962962963	0.456140350877	0.897660818713	50	620
-Haspelmath-2009-1460-148	2261	MALE (OF PERSON)	148	male(2)	3-12	http://wold.clld.org/meaning/3-12	3.12	(of animals) cf. 2.23	Only male lions have manes.	Adjective	3	0.934779516358	0.168918918919	0.883001422475	48	3
+Haspelmath-2009-1460-148	2263	MALE (OF ANIMAL)	148	male(2)	3-12	http://wold.clld.org/meaning/3-12	3.12	(of animals) cf. 2.23	Only male lions have manes.	Adjective	3	0.934779516358	0.168918918919	0.883001422475	48	3
 Haspelmath-2009-1460-149	2262	FEMALE (OF ANIMAL)	149	female(2)	3-13	http://wold.clld.org/meaning/3-13	3.13	(of animals) cf. 2.24	Only female monkeys look after their offspring.	Adjective	3	0.903430079156	0.117414248021	0.890501319261	44	18
 Haspelmath-2009-1460-150	631	LIVESTOCK	150	the livestock	3-15	http://wold.clld.org/meaning/3-15	3.15	'domestic mammals kept for service or for useful products (cows, horses, donkeys, sheep, goats, pigs, reindeer, camels, etc.)'	-	Noun	3	0.815677966102	0.276483050847	0.780720338983	45	811
 Haspelmath-2009-1460-151	649	PASTURE	151	the pasture	3-16	http://wold.clld.org/meaning/3-16	3.16	'land or field that is covered with grass and is used for livestock to feed on'	-	Noun	3	0.815416666667	0.358333333333	0.8375	43	818
@@ -399,7 +399,7 @@ Haspelmath-2009-1460-397	1728	ROTTEN	397	rotten	5-125	http://wold.clld.org/meani
 Haspelmath-2009-1460-398	1401	DRINK	398	to drink	5-13	http://wold.clld.org/meaning/5-13	5.13	-	drink water	Verb	5	0.864940239044	0.0956175298805	0.934262948207	47	191
 Haspelmath-2009-1460-399	1533	BE HUNGRY	399	to be hungry	5-14	http://wold.clld.org/meaning/5-14	5.14	-	-	Verb	5	0.804395604396	0.0302197802198	0.758241758242	47	986
 Haspelmath-2009-1460-400	199	FAMINE	400	the famine	5-141	http://wold.clld.org/meaning/5-141	5.141	-	-	Noun	5	0.847297297297	0.172297297297	0.783783783784	39	368
-Haspelmath-2009-1460-401	847	THIRSTY	401	to be thirsty	5-15	http://wold.clld.org/meaning/5-15	5.15	-	-	Verb	5	0.832558139535	0.0697674418605	0.686046511628	43	574
+Haspelmath-2009-1460-401	3474	BE THIRSTY	401	to be thirsty	5-15	http://wold.clld.org/meaning/5-15	5.15	-	-	Verb	5	0.832558139535	0.0697674418605	0.686046511628	43	574
 Haspelmath-2009-1460-402	1421	SUCK	402	to suck	5-16	http://wold.clld.org/meaning/5-16	5.16	(transitive)	The baby is sucking milk.	Verb	5	0.840545144804	0.0596252129472	0.887563884157	53	452
 Haspelmath-2009-1460-403	321	CHEW	403	to chew	5-18	http://wold.clld.org/meaning/5-18	5.18	-	This meat is so tough I can hardly chew it!	Verb	5	0.851136363636	0.0738636363636	0.875	47	324
 Haspelmath-2009-1460-404	897	SWALLOW	404	to swallow	5-181	http://wold.clld.org/meaning/5-181	5.181	-	You need to chew this meat well before you can swallow it.	Verb	5	0.827380952381	0.077380952381	0.869047619048	43	647
@@ -428,7 +428,7 @@ Haspelmath-2009-1460-426	768	LUNCH	426	the lunch	5-43	http://wold.clld.org/meani
 Haspelmath-2009-1460-427	1833	DINNER (SUPPER)	427	the dinner	5-44	http://wold.clld.org/meaning/5-44	5.44	'the main meal of the day, eaten in the middle of the day or in the evening'	-	Noun	5	0.755834053587	0.181503889369	0.589455488332	27	1391
 Haspelmath-2009-1460-428	1833	DINNER (SUPPER)	428	the supper	5-45	http://wold.clld.org/meaning/5-45	5.45	'the last meal of the evening'	-	Noun	5	0.811643835616	0.188356164384	0.657534246575	35	1391
 Haspelmath-2009-1460-429	275	PEEL	429	to peel	5-46	http://wold.clld.org/meaning/5-46	5.46	'remove the skin from food or vegetables'	This knife is good for peeling potatoes.	Verb	5	0.787640449438	0.14606741573	0.828651685393	49	1193
-Haspelmath-2009-1460-430	86	SIEVE	430	to sieve or to strain	5-47	http://wold.clld.org/meaning/5-47	5.47	'separate solid things from a liquid by pouring the mixture through a sieve (= a container with very small holes in it)'	She strained the coffee before serving it.	Verb	5	0.850370848114	0.169300225734	0.86939696872	55	334
+Haspelmath-2009-1460-430	3448	SIEVE OR STRAIN	430	to sieve or to strain	5-47	http://wold.clld.org/meaning/5-47	5.47	'separate solid things from a liquid by pouring the mixture through a sieve (= a container with very small holes in it)'	She strained the coffee before serving it.	Verb	5	0.850370848114	0.169300225734	0.86939696872	55	334
 Haspelmath-2009-1460-431	1767	SCRAPE	431	to scrape	5-48	http://wold.clld.org/meaning/5-48	5.48	'remove something from a surface, using the edge of a knife, stick, etc.'	Scrape the carrots and slice them thinly.	Verb	5	0.858181818182	0.0927272727273	0.885454545455	53	254
 Haspelmath-2009-1460-432	2017	MIX	432	to stir or to mix	5-49	http://wold.clld.org/meaning/5-49	5.49	-	-	Verb	5	0.826420454545	0.126420454545	0.860795454545	61	659
 Haspelmath-2009-1460-433	1368	BREAD	433	the bread	5-51	http://wold.clld.org/meaning/5-51	5.51	'a common important food made from flour, water, and yeast'	-	Noun	5	0.870917225951	0.478747203579	0.888143176734	46	146
@@ -517,7 +517,7 @@ Haspelmath-2009-1460-515	1754	BRACELET	515	the bracelet	6-74	http://wold.clld.or
 Haspelmath-2009-1460-516	1961	NECKLACE	516	the necklace	6-75	http://wold.clld.org/meaning/6-75	6.75	-	Her necklace was made of pearls and coral.	Noun	6	0.7904	0.239	0.88	48	1161
 Haspelmath-2009-1460-517	1860	BEAD	517	the bead	6-76	http://wold.clld.org/meaning/6-76	6.76	-	-	Noun	6	0.815268614515	0.249057492931	0.915174363808	41	819
 Haspelmath-2009-1460-518	770	EARRING	518	the earring	6-77	http://wold.clld.org/meaning/6-77	6.77	-	The pirate wore one earring.	Noun	6	0.744086021505	0.209677419355	0.763440860215	47	1422
-Haspelmath-2009-1460-519	330	HEADBAND	519	the headband or headdress	6-78	http://wold.clld.org/meaning/6-78	6.78	-	-	Noun	6	0.783516483516	0.368131868132	0.824175824176	46	1234
+Haspelmath-2009-1460-519	3457	HEADBAND OR HEADDRESS	519	the headband or headdress	6-78	http://wold.clld.org/meaning/6-78	6.78	-	-	Noun	6	0.783516483516	0.368131868132	0.824175824176	46	1234
 Haspelmath-2009-1460-520	68	TATTOO	520	the tattoo	6-79	http://wold.clld.org/meaning/6-79	6.79	-	-	Noun	6	0.788439306358	0.234104046243	0.817919075145	30	1182
 Haspelmath-2009-1460-521	332	RAG	521	the handkerchief or rag	6-81	http://wold.clld.org/meaning/6-81	6.81	-	-	Noun	6	0.795426829268	0.480182926829	0.841463414634	58	1110
 Haspelmath-2009-1460-522	1021	TOWEL	522	the towel	6-82	http://wold.clld.org/meaning/6-82	6.82	-	-	Noun	6	0.76968503937	0.661417322835	0.877952755906	45	1322
@@ -590,7 +590,7 @@ Haspelmath-2009-1460-588	190	MOW	588	to mow	8-32	http://wold.clld.org/meaning/8-
 Haspelmath-2009-1460-589	2132	SICKLE OR SCYTHE	589	the sickle or scythe	8-33	http://wold.clld.org/meaning/8-33	8.33	-	-	Noun	8	0.873333333333	0.522222222222	0.916666666667	45	134
 Haspelmath-2009-1460-590	285	THRESH	590	to thresh	8-34	http://wold.clld.org/meaning/8-34	8.34	-	-	Verb	8	0.840740740741	0.173611111111	0.826388888889	40	450
 Haspelmath-2009-1460-591	223	THRESHING-FLOOR	591	the threshing-floor	8-35	http://wold.clld.org/meaning/8-35	8.35	-	-	Noun	8	0.8	0.177966101695	0.754237288136	30	1054
-Haspelmath-2009-1460-592	611	HARVEST	592	the harvest	8-41	http://wold.clld.org/meaning/8-41	8.41	-	-	Noun	8	0.800605536332	0.272491349481	0.733996539792	41	1044
+Haspelmath-2009-1460-592	3541	HARVEST OR HARVEST SEASON	592	the harvest	8-41	http://wold.clld.org/meaning/8-41	8.41	-	-	Noun	8	0.800605536332	0.272491349481	0.733996539792	41	1044
 Haspelmath-2009-1460-593	605	GRAIN	593	the grain	8-42	http://wold.clld.org/meaning/8-42	8.42	(barley, oats, etc.)	-	Noun	8	0.884962406015	0.390977443609	0.906015037594	41	78
 Haspelmath-2009-1460-594	1077	WHEAT	594	the wheat	8-43	http://wold.clld.org/meaning/8-43	8.43	-	-	Noun	8	0.862068965517	0.522413793103	0.910344827586	38	224
 Haspelmath-2009-1460-595	932	BARLEY	595	the barley	8-44	http://wold.clld.org/meaning/8-44	8.44	-	-	Noun	8	0.862385321101	0.548165137615	0.95871559633	29	220
@@ -709,8 +709,8 @@ Haspelmath-2009-1460-708	1979	CHISEL	708	the chisel	9-84	http://wold.clld.org/me
 Haspelmath-2009-1460-709	647	PAINT (PIGMENTS)	709	the paint	9-88	http://wold.clld.org/meaning/9-88	9.88	'a liquid that one puts on a surface to make it a particular colour'	-	Noun	9	0.79497098646	0.518375241779	0.895551257253	50	1117
 Haspelmath-2009-1460-710	2001	PAINTING	710	to paint	9-89	http://wold.clld.org/meaning/9-89	9.89	'put paint on a surface'	We need to paint our house.	Verb	9	0.797323135755	0.334608030593	0.779158699809	53	1086
 Haspelmath-2009-1460-711	765	MOVE	711	to move	10-11	http://wold.clld.org/meaning/10-11	10.11	(transitive)	This rock is so heavy that it cannot be moved.	Verb	10	0.810638297872	0.281914893617	0.792553191489	48	898
-Haspelmath-2009-1460-712	1588	TURN	712	to turn	10-12	http://wold.clld.org/meaning/10-12	10.12	(transitive)	to turn one’s head	Verb	10	0.819011406844	0.148288973384	0.757604562738	50	763
-Haspelmath-2009-1460-713	1445	TURN (SOMETHING)	713	to turn around	10-13	http://wold.clld.org/meaning/10-13	10.13	(intransitive)	He heard someone call out his name and turned around.	Verb	10	0.761148648649	0.0962837837838	0.690878378378	54	1366
+Haspelmath-2009-1460-712			712	to turn	10-12	http://wold.clld.org/meaning/10-12	10.12	(transitive)	to turn one’s head	Verb	10	0.819011406844	0.148288973384	0.757604562738	50	763
+Haspelmath-2009-1460-713	1444	TURN AROUND	713	to turn around	10-13	http://wold.clld.org/meaning/10-13	10.13	(intransitive)	He heard someone call out his name and turned around.	Verb	10	0.761148648649	0.0962837837838	0.690878378378	54	1366
 Haspelmath-2009-1460-714	1113	WRAP	714	to wrap	10-14	http://wold.clld.org/meaning/10-14	10.14	-	He wrapped the fish in leaves and steamed it.	Verb	10	0.830208333333	0.114583333333	0.893229166667	50	613
 Haspelmath-2009-1460-715	827	ROLL	715	to roll	10-15	http://wold.clld.org/meaning/10-15	10.15	(transitive)	He rolled the log down the hill.	Verb	10	0.80995508982	0.187125748503	0.800711077844	49	912
 Haspelmath-2009-1460-716	2866	DROP (SOMETHING)	716	to drop	10-16	http://wold.clld.org/meaning/10-16	10.16	(transitive)	We dropped the stone into the water.	Verb	10	0.81679389313	0.0404131118096	0.676695105523	44	794
@@ -731,7 +731,7 @@ Haspelmath-2009-1460-730	365	SPLASH	730	to splash	10-352	http://wold.clld.org/me
 Haspelmath-2009-1460-731	787	SAIL	731	to sail	10-36	http://wold.clld.org/meaning/10-36	10.36	-	The ship sailed from America to Australia.	Verb	10	0.823529411765	0.147058823529	0.612299465241	21	699
 Haspelmath-2009-1460-732	1441	FLY (MOVE THROUGH AIR)	732	to fly	10-37	http://wold.clld.org/meaning/10-37	10.37	(intransitive)	Look at that bird flying up in the sky!	Verb	10	0.847626977519	0.13114071607	0.912572855953	44	361
 Haspelmath-2009-1460-733	175	BLOW (OF WIND)	733	to blow	10-38	http://wold.clld.org/meaning/10-38	10.38	(intransitive)	The wind is blowing hard.	Verb	10	0.813953488372	0.0377906976744	0.877906976744	46	843
-Haspelmath-2009-1460-734	96	CRAWL	734	to crawl	10-41	http://wold.clld.org/meaning/10-41	10.41	-	The baby is still crawling, it can't walk yet.	Verb	10	0.8175	0.1125	0.8375	43	785
+Haspelmath-2009-1460-734	3456	CRAWL OR CREEP	734	to crawl	10-41	http://wold.clld.org/meaning/10-41	10.41	-	The baby is still crawling, it can't walk yet.	Verb	10	0.8175	0.1125	0.8375	43	785
 Haspelmath-2009-1460-735	66	KNEEL	735	to kneel	10-412	http://wold.clld.org/meaning/10-412	10.412	'to get down on one's knees'	The messenger kneeled before the king.	Verb	10	0.831707317073	0.0670731707317	0.658536585366	41	585
 Haspelmath-2009-1460-736	296	CROUCH	736	to crouch	10-413	http://wold.clld.org/meaning/10-413	10.413	‘lower one’s body close to the ground by bending one’s knees completely’	She crouched under the sink to fix the pipes.	Verb	10	0.768181818182	0.215909090909	0.806818181818	45	1330
 Haspelmath-2009-1460-737	1324	SLIP	737	to slide or slip	10-42	http://wold.clld.org/meaning/10-42	10.42	(intransitive)	-	Verb	10	0.828971962617	0.11214953271	0.883177570093	54	628
@@ -779,7 +779,7 @@ Haspelmath-2009-1460-778	1844	BOAT	778	the boat	10-83	http://wold.clld.org/meani
 Haspelmath-2009-1460-779	1970	CANOE	779	the canoe	10-831	http://wold.clld.org/meaning/10-831	10.831	-	-	Noun	10	0.837857142857	0.435714285714	0.942857142857	38	481
 Haspelmath-2009-1460-780	416	OUTRIGGER	780	the outrigger	10-832	http://wold.clld.org/meaning/10-832	10.832	-	-	Noun	10	0.767567567568	0.25	0.824324324324	19	1336
 Haspelmath-2009-1460-781	1664	RAFT	781	the raft	10-84	http://wold.clld.org/meaning/10-84	10.84	-	-	Noun	10	0.84358974359	0.34188034188	0.880341880342	30	416
-Haspelmath-2009-1460-782	108	RUDDER	782	the oar	10-85	http://wold.clld.org/meaning/10-85	10.85	-	-	Noun	10	0.868823529412	0.455882352941	0.866176470588	36	784
+Haspelmath-2009-1460-782	3137	OAR	782	the oar	10-85	http://wold.clld.org/meaning/10-85	10.85	-	-	Noun	10	0.868823529412	0.455882352941	0.866176470588	36	784
 Haspelmath-2009-1460-783	234	PADDLE	783	the paddle	10-851	http://wold.clld.org/meaning/10-851	10.851	-	-	Noun	10	0.815189873418	0.28164556962	0.884493670886	34	822
 Haspelmath-2009-1460-784	1849	ROW	784	to row	10-852	http://wold.clld.org/meaning/10-852	10.852	-	-	Verb	10	0.827962085308	0.210900473934	0.78672985782	37	639
 Haspelmath-2009-1460-785	108	RUDDER	785	the rudder	10-86	http://wold.clld.org/meaning/10-86	10.86	-	-	Noun	10	0.817613636364	0.460227272727	0.849431818182	31	784
@@ -804,7 +804,7 @@ Haspelmath-2009-1460-804	681	DESTROY	804	to destroy	11-27	http://wold.clld.org/m
 Haspelmath-2009-1460-805	44	INJURE	805	to injure	11-28	http://wold.clld.org/meaning/11-28	11.28	'to cause bodily harm'	The falling tree injured two loggers.	Verb	11	0.799298245614	0.186842105263	0.741228070175	55	1058
 Haspelmath-2009-1460-806	1468	LOOK FOR	806	to look for	11-31	http://wold.clld.org/meaning/11-31	11.31	-	I am looking for my purse; I must have lost it on my way.	Verb	11	0.852362204724	0.0836614173228	0.883858267717	46	316
 Haspelmath-2009-1460-807	719	FIND	807	to find	11-32	http://wold.clld.org/meaning/11-32	11.32	-	I had lost my purse but I found it again.	Verb	11	0.824472960587	0.0859303391384	0.872823098075	48	688
-Haspelmath-2009-1460-808	1660	LOSE	808	to lose	11-33	http://wold.clld.org/meaning/11-33	11.33	-	I had lost my purse but I found it again.	Verb	11	0.815702479339	0.0371900826446	0.752066115702	44	810
+Haspelmath-2009-1460-808	3072	MISPLACE	808	to lose	11-33	http://wold.clld.org/meaning/11-33	11.33	-	I had lost my purse but I found it again.	Verb	11	0.815702479339	0.0371900826446	0.752066115702	44	810
 Haspelmath-2009-1460-809	1095	LET GO OR SET FREE	809	to let go	11-34	http://wold.clld.org/meaning/11-34	11.34	‘stop holding something/someone’	She let go of the rope.	Verb	11	0.788143599433	0.119272555503	0.802786962683	49	1186
 Haspelmath-2009-1460-810	1559	MONEY	810	the money	11-43	http://wold.clld.org/meaning/11-43	11.43	-	A thousand dollars is a lot of money.	Noun	11	0.865714285714	0.5375	0.970535714286	53	186
 Haspelmath-2009-1460-811	1867	COIN	811	the coin	11-44	http://wold.clld.org/meaning/11-44	11.44	-	I don't have any coins left, only paper money.	Noun	11	0.804214559387	0.533524904215	0.816091954023	48	989
@@ -1137,7 +1137,7 @@ Haspelmath-2009-1460-1138	1014	OR	1138	or	17-54	http://wold.clld.org/meaning/17-
 Haspelmath-2009-1460-1139	1268	YES	1139	yes	17-55	http://wold.clld.org/meaning/17-55	17.55	-	-	Function word	17	0.829166666667	0.136363636364	0.982954545455	47	627
 Haspelmath-2009-1460-1140	1269	NO	1140	no	17-56	http://wold.clld.org/meaning/17-56	17.56	-	-	Function word	17	0.840909090909	0.159090909091	0.960227272727	51	447
 Haspelmath-2009-1460-1141	1239	HOW	1141	how?	17-61	http://wold.clld.org/meaning/17-61	17.61	-	-	Function word	17	0.803891050584	0.0204280155642	0.812256809339	47	994
-Haspelmath-2009-1460-1142	822	HOW MANY	1142	how many?	17-62	http://wold.clld.org/meaning/17-62	17.62	-	-	Function word	17	0.867027027027	0.0608108108108	0.805405405405	46	173
+Haspelmath-2009-1460-1142	3450	HOW MANY PIECES	1142	how many?	17-62	http://wold.clld.org/meaning/17-62	17.62	-	-	Function word	17	0.867027027027	0.0608108108108	0.805405405405	46	173
 Haspelmath-2009-1460-1143	531	HOW MUCH	1143	how much?	17-63	http://wold.clld.org/meaning/17-63	17.63	-	-	Function word	17	0.833333333333	0.0541666666667	0.8	46	565
 Haspelmath-2009-1460-1144	1236	WHAT	1144	what?	17-64	http://wold.clld.org/meaning/17-64	17.64	-	What is that thing on the table?	Function word	17	0.823391812865	0.0292397660819	0.938596491228	45	700
 Haspelmath-2009-1460-1145	1238	WHEN	1145	when?	17-65	http://wold.clld.org/meaning/17-65	17.65	-	-	Function word	17	0.815789473684	0.0473684210526	0.821052631579	48	808
@@ -1204,7 +1204,7 @@ Haspelmath-2009-1460-1205	383	MASTER	1205	the master	19-41	http://wold.clld.org/
 Haspelmath-2009-1460-1206	812	SLAVE	1206	the slave	19-42	http://wold.clld.org/meaning/19-42	19.42	-	-	Noun	19	0.822857142857	0.378571428571	0.857142857143	37	711
 Haspelmath-2009-1460-1207	255	SERVANT	1207	the servant	19-43	http://wold.clld.org/meaning/19-43	19.43	-	-	Noun	19	0.7875	0.355769230769	0.788461538462	54	1196
 Haspelmath-2009-1460-1208	384	FREEMAN	1208	the freeman	19-44	http://wold.clld.org/meaning/19-44	19.44	-	His mother was a slave, but his father was a freeman.	Noun	19	0.752747252747	0.25	0.620879120879	31	1398
-Haspelmath-2009-1460-1209	1128	ORDER	1209	to command or order	19-45	http://wold.clld.org/meaning/19-45	19.45	'tell someone to do something, using one's authority or power'	The officer commanded them to line up against the wall.	Verb	19	0.811313868613	0.421532846715	0.764598540146	49	888
+Haspelmath-2009-1460-1209	1998	COMMAND	1209	to command or order	19-45	http://wold.clld.org/meaning/19-45	19.45	'tell someone to do something, using one's authority or power'	The officer commanded them to line up against the wall.	Verb	19	0.811313868613	0.421532846715	0.764598540146	49	888
 Haspelmath-2009-1460-1210	1635	OBEY	1210	to obey	19-46	http://wold.clld.org/meaning/19-46	19.46	-	Soldiers are expected to obey their superiors.	Verb	19	0.799717247879	0.113100848256	0.63548539114	43	1056
 Haspelmath-2009-1460-1211	1003	PERMIT	1211	to permit	19-47	http://wold.clld.org/meaning/19-47	19.47	-	I am afraid I cannot permit my daughter to marry you.	Verb	19	0.807738095238	0.258928571429	0.731150793651	49	939
 Haspelmath-2009-1460-1212	1325	FRIEND	1212	the friend	19-51	http://wold.clld.org/meaning/19-51	19.51	-	-	Noun	19	0.813385826772	0.413385826772	0.929133858268	64	851
@@ -1408,7 +1408,7 @@ Haspelmath-2009-1460-1409	294	TUMPLINE	1409	the tumpline	9-92	http://wold.clld.o
 Haspelmath-2009-1460-1410	1105	CAMP	1410	the camp	7-65	http://wold.clld.org/meaning/7-65	0	-	The nomads built a camp in which they would stay for a week.	Noun	7	0.783333333333	0.366666666667	0.821428571429	38	1236
 Haspelmath-2009-1460-1411	339	DIGGING STICK	1411	the digging stick (=yamstick)	8-28	http://wold.clld.org/meaning/8-28	0	-	-	Noun	8	0.766976744186	0.0558139534884	0.762790697674	20	1338
 Haspelmath-2009-1460-1412	840	CORMORANT	1412	the cormorant	3-597	http://wold.clld.org/meaning/3-597	0	(Phalacrocorax etc)	-	Noun	3	0.805263157895	0.355263157895	0.921052631579	19	975
-Haspelmath-2009-1460-1413	238	PRAWNS	1413	the prawns or shrimp	3-833	http://wold.clld.org/meaning/3-833	0	-	-	Noun	3	0.830303030303	0.371212121212	0.969696969697	33	610
+Haspelmath-2009-1460-1413	2686	CRUSTACEANS (PRAWNS OR SHRIMP)	1413	the prawns or shrimp	3-833	http://wold.clld.org/meaning/3-833	0	-	-	Noun	3	0.830303030303	0.371212121212	0.969696969697	33	610
 Haspelmath-2009-1460-1414	883	TERMITE	1414	the termites	3-834	http://wold.clld.org/meaning/3-834	0	(Isoptera)	-	Noun	3	0.83275862069	0.26724137931	0.913793103448	30	571
 Haspelmath-2009-1460-1415	1527	TICK	1415	the tick	3-835	http://wold.clld.org/meaning/3-835	0	(Phthiraptera)	-	Noun	3	0.831818181818	0.151515151515	0.931818181818	34	583
 Haspelmath-2009-1460-1416	135	BOOMERANG	1416	the boomerang	9-87	http://wold.clld.org/meaning/9-87	0	-	The boomerang hit the wallaby and then came back to the hunter.	Noun	9	0.773333333333	0.783333333333	0.95	15	1301

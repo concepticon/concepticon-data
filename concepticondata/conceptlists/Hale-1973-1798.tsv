@@ -146,8 +146,8 @@ Hale-1973-1798-144	Human_Body-45	buttock	n	02a.45	834	BUTTOCKS
 Hale-1973-1798-145	Human_Body-46	rectum	n	02a.46	1935	ANUS
 Hale-1973-1798-146	Human_Body-47	arm	n	02a.47	1673	ARM
 Hale-1973-1798-147	Human_Body-48	shoulder blade	n	02a.48	172	SHOULDERBLADE
-Hale-1973-1798-148	Human_Body-49	right arm	n	02a.49	2183	RIGHT HAND
-Hale-1973-1798-149	Human_Body-50	left arm	n	02a.50	2182	LEFT HAND
+Hale-1973-1798-148	Human_Body-49	right arm	n	02a.49		
+Hale-1973-1798-149	Human_Body-50	left arm	n	02a.50		
 Hale-1973-1798-150	Human_Body-51	armpit	n	02a.51	1886	ARMPIT
 Hale-1973-1798-151	Human_Body-52	elbow	n	02a.52	981	ELBOW
 Hale-1973-1798-152	Human_Body-53	palm of hand	n	02a.53	1183	PALM OF HAND
@@ -209,7 +209,7 @@ Hale-1973-1798-207	Human_Body-108	roll over	v	02b1.31
 Hale-1973-1798-208	Human_Body-109	run	v	02b1.32	1519	RUN
 Hale-1973-1798-209	Human_Body-110	stoop (bend down)	v	02b1.33	2761	BEND (ONESELF)
 Hale-1973-1798-210	Human_Body-111	stamp	v	02b1.34		
-Hale-1973-1798-211	Human_Body-112	step on	v	02b1.35	2065	STEP (VERB)
+Hale-1973-1798-211	Human_Body-112	step on	v	02b1.35	575	TREAD
 Hale-1973-1798-212	Human_Body-113	press down	v	02b1.36	1913	PRESS
 Hale-1973-1798-213	Human_Body-114	strike	v	02b1.37	353	STRIKE
 Hale-1973-1798-214	Human_Body-115	throw away	v	02b1.38		
@@ -523,7 +523,7 @@ Hale-1973-1798-521	Plants-74	prick (thorn)	v	04b.10
 Hale-1973-1798-522	Plants-75	scratch (thorn)	v	04b.11		
 Hale-1973-1798-523	Plants-76	wither	v	04b.12	2907	ROT
 Hale-1973-1798-524	Plants-77	fall	v	04b.13	1280	FALL
-Hale-1973-1798-525	Plants-78	fell	v	04b.13a	463	FELL (A TREE)
+Hale-1973-1798-525	Plants-78	fell	v	04b.13a	355	CUT DOWN
 Hale-1973-1798-526	Plants-79	prune	v	04b.14		
 Hale-1973-1798-527	Plants-80	plant	v	04b.15	1486	PLANT (SOMETHING)
 Hale-1973-1798-528	Plants-81	uproot	v	04b.16		
@@ -623,7 +623,7 @@ Hale-1973-1798-621	Time_Weather_Geography-67	lake	n	05a.67	624	LAKE
 Hale-1973-1798-622	Time_Weather_Geography-68	pond	n	05a.68	2035	POND
 Hale-1973-1798-623	Time_Weather_Geography-69	stream	n	05a.69	947	STREAM
 Hale-1973-1798-624	Time_Weather_Geography-70	river	n	05a.70	666	RIVER
-Hale-1973-1798-625	Time_Weather_Geography-71	bank	n	05a.71		
+Hale-1973-1798-625	Time_Weather_Geography-71	bank	n	05a.71	3463	RIVERBANK
 Hale-1973-1798-626	Time_Weather_Geography-72	ford	n	05a.72	2818	FORD (CROSSING)
 Hale-1973-1798-627	Time_Weather_Geography-73	bridge	n	05a.73	1011	BRIDGE
 Hale-1973-1798-628	Time_Weather_Geography-74	whirlpool	n	05a.74	1982	WHIRLPOOL
@@ -725,7 +725,7 @@ Hale-1973-1798-723	House_and_Home-65	small water jar	n	06a.65
 Hale-1973-1798-724	House_and_Home-66	bottle	n	06a.66	1321	BOTTLE
 Hale-1973-1798-725	House_and_Home-67	soap	n	06a.67	788	SOAP
 Hale-1973-1798-726	House_and_Home-68	plan	v	06b1.01		
-Hale-1973-1798-727	House_and_Home-69	begin	v	06b1.02	1806	BEGIN
+Hale-1973-1798-727	House_and_Home-69	begin	v	06b1.02	3447	BEGIN OR START
 Hale-1973-1798-728	House_and_Home-70	be finished	v	06b1.03		
 Hale-1973-1798-729	House_and_Home-71	be made	v	06b1.04		
 Hale-1973-1798-730	House_and_Home-72	erect	v	06b1.05		
@@ -767,7 +767,7 @@ Hale-1973-1798-765	House_and_Home-107	wrap	v	06b2.12	1113	WRAP
 Hale-1973-1798-766	House_and_Home-108	wrap things	v	06b2.13	1113	WRAP
 Hale-1973-1798-767	House_and_Home-109	cling to	v	06b2.14		
 Hale-1973-1798-768	House_and_Home-110	scold	v	06b2.15	299	SCOLD
-Hale-1973-1798-769	House_and_Home-111	praise	v	06b2.16	1687	PRAISE
+Hale-1973-1798-769	House_and_Home-111	praise	v	06b2.16	3455	COMMEND
 Hale-1973-1798-770	House_and_Home-112	discipline	v	06b2.17		
 Hale-1973-1798-771	House_and_Home-113	punish	v	06b2.18		
 Hale-1973-1798-772	House_and_Home-114	respect	v	06b2.19	385	RESPECT (SOMEBODY)
@@ -862,7 +862,7 @@ Hale-1973-1798-860	Food_and_Clothing-57	be mixed	v	07b1.07
 Hale-1973-1798-861	Food_and_Clothing-58	knead	v	07b1.08	274	KNEAD
 Hale-1973-1798-862	Food_and_Clothing-59	flatten dough (with roll)	v	07b1.09		
 Hale-1973-1798-863	Food_and_Clothing-60	flatten dough (with hands)	v	07b1.10		
-Hale-1973-1798-864	Food_and_Clothing-61	grind (press through)	v	07b1.11	1033	GRIND
+Hale-1973-1798-864	Food_and_Clothing-61	grind (press through)	v	07b1.11		
 Hale-1973-1798-865	Food_and_Clothing-62	pound grain	v	07b1.12	354	POUND
 Hale-1973-1798-866	Food_and_Clothing-63	peel	v	07b1.13	275	PEEL
 Hale-1973-1798-867	Food_and_Clothing-64	peel (strip skin by hand)	v	07b1.14		
@@ -907,7 +907,7 @@ Hale-1973-1798-905	Food_and_Clothing-102	heat	v	07b2.11	1341	HEAT UP
 Hale-1973-1798-906	Food_and_Clothing-103	cool	v	07b2.12	3068	COOL DOWN
 Hale-1973-1798-907	Food_and_Clothing-104	become soft (ripe)	v	07b2.13	178	RIPE
 Hale-1973-1798-908	Food_and_Clothing-105	season	v	07b2.14		
-Hale-1973-1798-909	Food_and_Clothing-106	put on (the stove)	v	07b2.15	158	PUT ON
+Hale-1973-1798-909	Food_and_Clothing-106	put on (the stove)	v	07b2.15	737	LIGHT (IGNITE)
 Hale-1973-1798-910	Food_and_Clothing-107	take off (the stove)	v	07b2.16		
 Hale-1973-1798-911	Food_and_Clothing-108	become sour	v	07b2.17	2229	BECOME SOUR
 Hale-1973-1798-912	Food_and_Clothing-109	season (with spices fried in butter)	v	07b2.18		
@@ -965,7 +965,7 @@ Hale-1973-1798-963	Food_and_Clothing-160	put away	v	07b3.26
 Hale-1973-1798-964	Food_and_Clothing-161	take out	v	07b3.27		
 Hale-1973-1798-965	Food_and_Clothing-162	become torn	v	07b3.28		
 Hale-1973-1798-966	Food_and_Clothing-163	mend	v	07b3.29	2243	REPAIR
-Hale-1973-1798-967	Food_and_Clothing-164	patch	v	07b3.30	3074	FIX
+Hale-1973-1798-967	Food_and_Clothing-164	patch	v	07b3.30	3550	PATCH
 Hale-1973-1798-968	Food_and_Clothing-165	become worn out	v	07b3.31		
 Hale-1973-1798-969	Food_and_Clothing-166	last (stay in good condition)	v	07b3.32		
 Hale-1973-1798-970	Food_and_Clothing-167	dress	v	07b3.33	814	DRESS UP
@@ -1118,7 +1118,7 @@ Hale-1973-1798-1116	Human_Mind_and_Conditions-4	pride	n	10a.04
 Hale-1973-1798-1117	Human_Mind_and_Conditions-5	generosity	n	10a.05		
 Hale-1973-1798-1118	Human_Mind_and_Conditions-6	selfishness	n	10a.06		
 Hale-1973-1798-1119	Human_Mind_and_Conditions-7	greed	n	10a.07		
-Hale-1973-1798-1120	Human_Mind_and_Conditions-8	kindness	n	10a.08		
+Hale-1973-1798-1120	Human_Mind_and_Conditions-8	kindness	n	10a.08	3468	KINDNESS
 Hale-1973-1798-1121	Human_Mind_and_Conditions-9	cruelty	n	10a.09		
 Hale-1973-1798-1122	Human_Mind_and_Conditions-10	happiness	n	10a.10	2941	HAPPINESS
 Hale-1973-1798-1123	Human_Mind_and_Conditions-11	sorrow	n	10a.11	1668	GRIEF
@@ -1204,7 +1204,7 @@ Hale-1973-1798-1202	Human_Mind_and_Conditions-90	listen	v	10b1.17	1608	LISTEN
 Hale-1973-1798-1203	Human_Mind_and_Conditions-91	approve, confirm	v	10b1.18		
 Hale-1973-1798-1204	Human_Mind_and_Conditions-92	obey	v	10b1.19	1635	OBEY
 Hale-1973-1798-1205	Human_Mind_and_Conditions-93	request	v	10b1.20	1828	ASK (REQUEST)
-Hale-1973-1798-1206	Human_Mind_and_Conditions-94	beg	v	10b1.21	1828	ASK (REQUEST)
+Hale-1973-1798-1206	Human_Mind_and_Conditions-94	beg	v	10b1.21	3534	BEG
 Hale-1973-1798-1207	Human_Mind_and_Conditions-95	persist	v	10b1.22		
 Hale-1973-1798-1208	Human_Mind_and_Conditions-96	persuade	v	10b1.23		
 Hale-1973-1798-1209	Human_Mind_and_Conditions-97	force	v	10b1.24		
@@ -1227,8 +1227,8 @@ Hale-1973-1798-1225	Human_Mind_and_Conditions-113	forgive	v	10b1.40	1528	FORGIVE
 Hale-1973-1798-1226	Human_Mind_and_Conditions-114	give	v	10b1.41	1447	GIVE
 Hale-1973-1798-1227	Human_Mind_and_Conditions-115	give back	v	10b1.42	85	GIVE BACK
 Hale-1973-1798-1228	Human_Mind_and_Conditions-116	give in	v	10b1.43		
-Hale-1973-1798-1229	Human_Mind_and_Conditions-117	give up	v	10b1.44	1928	CEASE
-Hale-1973-1798-1230	Human_Mind_and_Conditions-118	greet	v	10b1.45		
+Hale-1973-1798-1229	Human_Mind_and_Conditions-117	give up	v	10b1.44	1696	SURRENDER
+Hale-1973-1798-1230	Human_Mind_and_Conditions-118	greet	v	10b1.45	3552	GREET
 Hale-1973-1798-1231	Human_Mind_and_Conditions-119	guard	v	10b1.46		
 Hale-1973-1798-1232	Human_Mind_and_Conditions-120	help	v	10b1.47	1897	HELP
 Hale-1973-1798-1233	Human_Mind_and_Conditions-121	meet	v	10b1.48	1831	MEET
@@ -1240,9 +1240,9 @@ Hale-1973-1798-1238	Human_Mind_and_Conditions-126	mourn	v	10b1.53	1839	CRY
 Hale-1973-1798-1239	Human_Mind_and_Conditions-127	pity (s.o.)	v	10b1.54		
 Hale-1973-1798-1240	Human_Mind_and_Conditions-128	know (s.o.)	v	10b1.55	2248	KNOW (SOMEBODY)
 Hale-1973-1798-1241	Human_Mind_and_Conditions-129	order to come	v	10b1.56		
-Hale-1973-1798-1242	Human_Mind_and_Conditions-130	beg	v	10b1.57	1828	ASK (REQUEST)
+Hale-1973-1798-1242	Human_Mind_and_Conditions-130	beg	v	10b1.57	3534	BEG
 Hale-1973-1798-1243	Human_Mind_and_Conditions-131	betray	v	10b1.58	1902	BETRAY
-Hale-1973-1798-1244	Human_Mind_and_Conditions-132	cheat	v	10b1.59	1902	BETRAY
+Hale-1973-1798-1244	Human_Mind_and_Conditions-132	cheat	v	10b1.59	3230	DECEIVE
 Hale-1973-1798-1245	Human_Mind_and_Conditions-133	command	v	10b1.60	1998	COMMAND
 Hale-1973-1798-1246	Human_Mind_and_Conditions-134	spread news (itr)	vi	10b1.61		
 Hale-1973-1798-1247	Human_Mind_and_Conditions-135	complain	v	10b1.62		
@@ -1268,7 +1268,7 @@ Hale-1973-1798-1266	Human_Mind_and_Conditions-154	quarrel	v	10b1.81	1848	QUARREL
 Hale-1973-1798-1267	Human_Mind_and_Conditions-155	separate	v	10b1.82	1359	SEPARATE
 Hale-1973-1798-1268	Human_Mind_and_Conditions-156	fail (in an attempt)	v	10b1.83		
 Hale-1973-1798-1269	Human_Mind_and_Conditions-157	succeed	v	10b1.84	1112	SUCCEED
-Hale-1973-1798-1270	Human_Mind_and_Conditions-158	lose (be defeated)	v	10b1.85	1660	LOSE
+Hale-1973-1798-1270	Human_Mind_and_Conditions-158	lose (be defeated)	v	10b1.85	3535	BE DEFEATED
 Hale-1973-1798-1271	Human_Mind_and_Conditions-159	win	v	10b1.86	866	WIN
 Hale-1973-1798-1272	Human_Mind_and_Conditions-160	stop, hold up	v	10b1.87	2880	HALT (STOP)
 Hale-1973-1798-1273	Human_Mind_and_Conditions-161	read	v	10b2.01	724	READ
@@ -1283,7 +1283,7 @@ Hale-1973-1798-1281	Human_Mind_and_Conditions-169	learn by heart	v	10b2.09	71	BY
 Hale-1973-1798-1282	Human_Mind_and_Conditions-170	remember	v	10b2.10	707	REMEMBER
 Hale-1973-1798-1283	Human_Mind_and_Conditions-171	forget	v	10b2.11	1523	FORGET
 Hale-1973-1798-1284	Human_Mind_and_Conditions-172	think	v	10b2.12	2271	THINK
-Hale-1973-1798-1285	Human_Mind_and_Conditions-173	doubt	v	10b2.13	1308	DOUBT
+Hale-1973-1798-1285	Human_Mind_and_Conditions-173	doubt	v	10b2.13	3536	DOUBT (SOMETHING)
 Hale-1973-1798-1286	Human_Mind_and_Conditions-174	see	v	10b2.14	1409	SEE
 Hale-1973-1798-1287	Human_Mind_and_Conditions-175	look at	v	10b2.15	1819	LOOK
 Hale-1973-1798-1288	Human_Mind_and_Conditions-176	compare	v	10b2.16		
@@ -1309,7 +1309,7 @@ Hale-1973-1798-1307	Human_Mind_and_Conditions-195	despair	v	10b3.05
 Hale-1973-1798-1308	Human_Mind_and_Conditions-196	sigh	v	10b3.06		
 Hale-1973-1798-1309	Human_Mind_and_Conditions-197	be silent	v	10b3.07	48	BE SILENT
 Hale-1973-1798-1310	Human_Mind_and_Conditions-198	want	v	10b3.08	1784	WANT
-Hale-1973-1798-1311	Human_Mind_and_Conditions-199	long for	v	10b3.09		
+Hale-1973-1798-1311	Human_Mind_and_Conditions-199	long for	v	10b3.09	3473	LONG (FOR SOMETHING)
 Hale-1973-1798-1312	Human_Mind_and_Conditions-200	like	v	10b3.10	1117	LIKE
 Hale-1973-1798-1313	Human_Mind_and_Conditions-201	hope	v	10b3.11	1092	HOPE
 Hale-1973-1798-1314	Human_Mind_and_Conditions-202	laugh	v	10b3.12	1355	LAUGH
@@ -1345,7 +1345,7 @@ Hale-1973-1798-1343	Human_Mind_and_Conditions-231	predict, foretell	v	10b3.41
 Hale-1973-1798-1344	Human_Mind_and_Conditions-232	curse	v	10b3.42	8	CURSE
 Hale-1973-1798-1345	Human_Mind_and_Conditions-233	bewitch, cast spell	v	10b3.43	118	BEWITCH
 Hale-1973-1798-1346	Human_Mind_and_Conditions-234	be possessed	v	10b3.44		
-Hale-1973-1798-1347	Role_and_Social_Structure-1	dance	n	11a.01		
+Hale-1973-1798-1347	Role_and_Social_Structure-1	dance	n	11a.01	3472	DANCE (MOVEMENT)
 Hale-1973-1798-1348	Role_and_Social_Structure-2	dancer	n	11a.02		
 Hale-1973-1798-1349	Role_and_Social_Structure-3	sign	n	11a.03	1720	SIGN
 Hale-1973-1798-1350	Role_and_Social_Structure-4	song	n	11a.04	1096	SONG
@@ -1360,7 +1360,7 @@ Hale-1973-1798-1358	Role_and_Social_Structure-12	player	n	11a.12
 Hale-1973-1798-1359	Role_and_Social_Structure-13	story	n	11a.13	2060	STORY
 Hale-1973-1798-1360	Role_and_Social_Structure-14	murder	n	11a.14	845	MURDER
 Hale-1973-1798-1361	Role_and_Social_Structure-15	lie	n	11a.15	475	UNTRUTH
-Hale-1973-1798-1362	Role_and_Social_Structure-16	liar	n	11a.16		
+Hale-1973-1798-1362	Role_and_Social_Structure-16	liar	n	11a.16	3470	LIAR
 Hale-1973-1798-1363	Role_and_Social_Structure-17	theft	n	11a.17		
 Hale-1973-1798-1364	Role_and_Social_Structure-18	thief	n	11a.18	1160	THIEF
 Hale-1973-1798-1365	Role_and_Social_Structure-19	people	n	11a.19	789	PEOPLE
@@ -1706,7 +1706,7 @@ Hale-1973-1798-1704	Attributes-179	in front of		12c.56	1883	IN FRONT OF
 Hale-1973-1798-1705	Attributes-180	beside		12c.57	1816	BESIDE
 Hale-1973-1798-1706	Attributes-181	between		12c.58	689	BETWEEN
 Hale-1973-1798-1707	Attributes-182	above		12c.59	1741	ABOVE
-Hale-1973-1798-1708	Attributes-183	beneath		12c.60		
+Hale-1973-1798-1708	Attributes-183	beneath		12c.60	1485	BELOW OR UNDER
 Hale-1973-1798-1709	Attributes-184	around		12c.61		
 Hale-1973-1798-1710	Attributes-185	beyond		12c.62		
 Hale-1973-1798-1711	Attributes-186	across		12c.63	2670	ACROSS
@@ -1769,7 +1769,7 @@ Hale-1973-1798-1767	Miscellaneous-24	perhaps		13b.04	2278	PERHAPS
 Hale-1973-1798-1768	Miscellaneous-25	what		13b.05	1236	WHAT
 Hale-1973-1798-1769	Miscellaneous-26	who		13b.06	1235	WHO
 Hale-1973-1798-1770	Miscellaneous-27	how, in what way		13b.07	1239	HOW
-Hale-1973-1798-1771	Miscellaneous-28	how much		13b.08	531	HOW MUCH
+Hale-1973-1798-1771	Miscellaneous-28	how much		13b.08	822	HOW MANY
 Hale-1973-1798-1772	Miscellaneous-29	why, for what reason		13b.09	1270	WHY
 Hale-1973-1798-1773	Miscellaneous-30	I		13b.10	1209	I
 Hale-1973-1798-1774	Miscellaneous-31	you		13b.11	1215	THOU
