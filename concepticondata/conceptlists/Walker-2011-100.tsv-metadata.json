@@ -31,7 +31,7 @@
                     {
                         "datatype": "string",
                         "name": "ENGLISH"
-                    }
+                    },
                     {
                         "datatype": {
                             "base": "integer",
@@ -42,7 +42,7 @@
                     {
                         "datatype": "string",
                         "name": "CONCEPTICON_GLOSS"
-                    },
+                    }
                 ],
                 "primaryKey": [
                     "ID"
