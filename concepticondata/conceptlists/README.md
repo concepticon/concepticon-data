@@ -34,7 +34,7 @@
 | [Bowern-2012-205](Bowern-2012-205.tsv) | 205 | 100 | 2 |
 | [Bowern-2012-644](Bowern-2012-644.tsv) | 486 | 75 | 13 |
 | [Bowern-2017-348](Bowern-2017-348.tsv) | 342 | 98 | 0 |
-| [Bremer-2016-200](Bremer-2016-200.tsv) | 183 | 91 | 1 |
+| [Bremer-2016-200](Bremer-2016-200.tsv) | 182 | 91 | 1 |
 | [Brinton-1891-21](Brinton-1891-21.tsv) | 21 | 100 | 0 |
 | [Bromley-1967-111](Bromley-1967-111.tsv) | 108 | 97 | 0 |
 | [Buck-1949-1108](Buck-1949-1108.tsv) | 1036 | 93 | 25 |
@@ -219,7 +219,6 @@
 | [Shevoroshkin-1991-23](Shevoroshkin-1991-23.tsv) | 23 | 100 | 0 |
 | [Sidwell-2015-200](Sidwell-2015-200.tsv) | 200 | 100 | 0 |
 | [Smith-2015-97](Smith-2015-97.tsv) | 94 | 96 | 0 |
-| [Snider-2004-1700](Snider-2004-1700.tsv) | 1380 | 81 | 19 |
 | [Snoek-2013-61](Snoek-2013-61.tsv) | 61 | 100 | 1 |
 | [SoHartmann-1988-280](SoHartmann-1988-280.tsv) | 279 | 99 | 0 |
 | [Starostin-1991-110](Starostin-1991-110.tsv) | 110 | 100 | 0 |
@@ -286,5 +285,5 @@
 | [Zorc-1974-100](Zorc-1974-100.tsv) | 100 | 100 | 0 |
 | [vanderWouw-1974-28](vanderWouw-1974-28.tsv) | 28 | 100 | 0 |
 
-(283 rows)
+(282 rows)
 
