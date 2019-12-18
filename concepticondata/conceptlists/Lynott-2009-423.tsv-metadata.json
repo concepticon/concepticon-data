@@ -1,0 +1,114 @@
+{
+    "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+    "dialect": {
+        "header": true,
+        "skipBlankRows": true,
+        "delimiter": "\t",
+	"encoding": "utf-8-sig"
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        },
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        },
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": 1
+                        },
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "FAMILIARITY"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "VISUAL_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "HAPTIC_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "AUDITORY_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "OLFACTORY_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GUSTATORY_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "VISUAL_SD"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "HAPTIC_SD"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "AUDITORY_SD"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "OLFACTORY_SD"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GUSTATORY_SD"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "DOMINANT_MODALITY"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "EXCLUSIVITY"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "BNC_FREQ"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "BNC_LOG_FREQ"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "WORD_LENGTH"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "Lynott-2009-423.tsv"
+        }
+    ]
+}
