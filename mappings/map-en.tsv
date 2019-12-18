@@ -74,6 +74,10 @@ ID	GLOSS	PRIORITY
 1818	ADJUDICATE///judge (v)	1
 1818	ADJUDICATE///judge (vb)	2
 1818	ADJUDICATE///judge (vb.)	1
+<<<<<<< HEAD		
+1818	ADJUDICATE///judge (v.)	1
+Err:510		
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1818	ADJUDICATE///to adjudicate	7
 2022	ADMIT///admit	3
 2022	ADMIT///admit (to a wrong)	1
@@ -307,12 +311,13 @@ ID	GLOSS	PRIORITY
 3298	APE OR MONKEY///monkey/ape	1
 3298	APE OR MONKEY///the ape or monkey	2
 3298	APE OR MONKEY///the ape or monkeys	2
+1017	APPEARANCE///appearance	1
 1017	APPEARANCE///appearance; look (sb.); sight	1
 1017	APPEARANCE///look	1
 1017	APPEARANCE///look (n.)	1
 1017	APPEARANCE///shape / appearance	1
-1017	APPEARANCE///the appearance	4
-1017	APPEARANCE///the appearances	4
+1017	APPEARANCE///the appearance	5
+1017	APPEARANCE///the appearances	5
 1320	APPLE///APPLE	1
 1320	APPLE///apple	14
 1320	APPLE///the apple	15
@@ -418,7 +423,7 @@ ID	GLOSS	PRIORITY
 646	ASH///ASHES	4
 646	ASH///Ash	1
 646	ASH///Ashes	3
-646	ASH///ash	50
+646	ASH///ash	51
 646	ASH///ash (n.)	1
 646	ASH///ash(es)	4
 646	ASH///ash(es) (ma)	3
@@ -434,7 +439,7 @@ ID	GLOSS	PRIORITY
 1894	ASHAMED///feel shamed (v)	1
 1894	ASHAMED///shame/ashamed	1
 1894	ASHAMED///shy, ashamed (vi)	1
-1309	ASK (INQUIRE)///ask	14
+1309	ASK (INQUIRE)///ask	15
 1309	ASK (INQUIRE)///ask (question)	3
 1309	ASK (INQUIRE)///ask (question, inquire)	2
 1309	ASK (INQUIRE)///ask / inquire	1
@@ -444,7 +449,7 @@ ID	GLOSS	PRIORITY
 1309	ASK (INQUIRE)///question	1
 1309	ASK (INQUIRE)///to ask	3
 1309	ASK (INQUIRE)///to ask (a question)	1
-1309	ASK (INQUIRE)///to ask (inquire)	31
+1309	ASK (INQUIRE)///to ask (inquire)	32
 1309	ASK (INQUIRE)///to ask(1)	2
 1309	ASK (INQUIRE)///to ask, inquire	1
 1828	ASK (REQUEST)///ask (v)	1
@@ -733,7 +738,7 @@ ID	GLOSS	PRIORITY
 1204	BARK///bark (to)	1
 1204	BARK///bark (tree)	2
 1204	BARK///bark [of tree]	1
-1204	BARK///bark of tree	1
+1204	BARK///bark of tree	2
 1204	BARK///bark(tree)	1
 1204	BARK///bark_of_a_tree	1
 1204	BARK///the bark	119
@@ -841,13 +846,13 @@ ID	GLOSS	PRIORITY
 1422	BE ALIVE///LIVE (VERB)	1
 1422	BE ALIVE///Live	1
 1422	BE ALIVE///TO LIVE	3
-1422	BE ALIVE///alive	15
+1422	BE ALIVE///alive	16
 1422	BE ALIVE///alive (be v)	1
 1422	BE ALIVE///alive (live)	1
 1422	BE ALIVE///alive, healthy	1
 1422	BE ALIVE///alive, life	1
 1422	BE ALIVE///alive/live	1
-1422	BE ALIVE///live	30
+1422	BE ALIVE///live	31
 1422	BE ALIVE///live (be alive)	2
 1422	BE ALIVE///live (v)	1
 1422	BE ALIVE///live (v., not be dead)	1
@@ -858,7 +863,11 @@ ID	GLOSS	PRIORITY
 1422	BE ALIVE///live/be alive	4
 1422	BE ALIVE///living	1
 1422	BE ALIVE///living (adj.) (animals)	1
+<<<<<<< HEAD		
+1422	BE ALIVE///to be alive	98
+Err:510		
 1422	BE ALIVE///to be alive	97
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1422	BE ALIVE///to live	13
 1422	BE ALIVE///to live (alive)	1
 1422	BE ALIVE///to live (to be alive)	1
@@ -941,7 +950,7 @@ ID	GLOSS	PRIORITY
 1579	BE///EXIST; to be	1
 1579	BE///am	1
 1579	BE///are	1
-1579	BE///be	6
+1579	BE///be	7
 1579	BE///be (3rd person)	1
 1579	BE///be (to)	1
 1579	BE///be / copula	1
@@ -949,14 +958,19 @@ ID	GLOSS	PRIORITY
 1579	BE///been	1
 1579	BE///copula, existential	1
 1579	BE///is	3
-1579	BE///to be	31
+1579	BE///to be	32
 1579	BE///was	1
 1579	BE///were	1
 1579	BE///will	1
 3460	BEACH///beach	1
 3460	BEACH///the beach	1
 3460	BEACH///the beachs	1
+<<<<<<< HEAD		
+1860	BEAD///bead	4
+1860	BEAD///beads	1
+Err:510		
 1860	BEAD///bead	5
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1860	BEAD///the bead	7
 1860	BEAD///the beads	7
 73	BEAK///beak	5
@@ -1078,9 +1092,15 @@ ID	GLOSS	PRIORITY
 1950	BEECH///beech	7
 1950	BEECH///the beech	10
 1950	BEECH///the beechs	10
+<<<<<<< HEAD		
+2570	BEEF///beef	2
+2570	BEEF///the beef	2
+2570	BEEF///the beefs	2
+Err:510		
 2570	BEEF///beef	1
 2570	BEEF///the beef	1
 2570	BEEF///the beefs	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 88	BEEHIVE///beehive	3
 88	BEEHIVE///hive	1
 88	BEEHIVE///the beehive	6
@@ -1088,8 +1108,12 @@ ID	GLOSS	PRIORITY
 2251	BEER BANANA///beer bananas	1
 2251	BEER BANANA///the beer banana	1
 2251	BEER BANANA///the beer bananas	1
+<<<<<<< HEAD		
+1639	BEER///beer	8
+Err:510		
 1639	BEER///beer	7
 1639	BEER///beer (traditional)	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1639	BEER///the beer	10
 1639	BEER///the beers	10
 1931	BEESWAX///WAX (BEES)	1
@@ -1107,6 +1131,7 @@ ID	GLOSS	PRIORITY
 1882	BEFORE///before (temporal)	1
 1882	BEFORE///before — in front (adv.)	1
 1882	BEFORE///before, in front of	1
+1882	BEFORE///before (time)	1
 1882	BEFORE///first	1
 1882	BEFORE///till	1
 3534	BEG///beg	3
@@ -1139,7 +1164,12 @@ ID	GLOSS	PRIORITY
 1686	BEHIND///back (direction)	1
 1686	BEHIND///back, behind	1
 1686	BEHIND///behind	14
+<<<<<<< HEAD		
+1686	BEHIND///behind, (in the) back of	1
+2245	BELCH///belch	4
+Err:510		
 2245	BELCH///belch	5
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 2245	BELCH///belch (v)	1
 2245	BELCH///to belch	6
 3333	BELIEF (RELIGIOUS)///belief	1
@@ -1150,14 +1180,21 @@ ID	GLOSS	PRIORITY
 1890	BELIEVE///believe; think2 (= be of the opin­ion)	1
 1890	BELIEVE///believes	1
 1890	BELIEVE///faith	1
+<<<<<<< HEAD		
+1890	BELIEVE///to believe	15
+Err:510		
 1890	BELIEVE///to believe	16
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 2246	BELL///bell	9
 2246	BELL///chime	1
 2246	BELL///the bell	10
 2246	BELL///the bells	10
+<<<<<<< HEAD		
+Err:510		
 3659	BELLOWS///bellows	1
 3659	BELLOWS///the bellows	1
 3659	BELLOWS///the bellowss	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 2114	BELLY OR STOMACH///belly (abdomen, stomach)	2
 2114	BELLY OR STOMACH///belly, abdomen	1
 2114	BELLY OR STOMACH///belly, stomach	1
@@ -1172,15 +1209,20 @@ ID	GLOSS	PRIORITY
 1251	BELLY///abdomen	6
 1251	BELLY///abdomen (external)	1
 1251	BELLY///abdomen, belly	1
-1251	BELLY///belly	128
+1251	BELLY///belly	130
 1251	BELLY///belly (exterior)	2
 1251	BELLY///belly (n.)	1
 1251	BELLY///belly (stomach)	1
 1251	BELLY///belly (the outside part of human belly)	1
 1251	BELLY///belly,stomach	1
 1251	BELLY///stomach	1
+<<<<<<< HEAD		
+1251	BELLY///the belly	163
+1251	BELLY///the bellys	163
+Err:510		
 1251	BELLY///the belly	162
 1251	BELLY///the bellys	162
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1485	BELOW OR UNDER///below	20
 1485	BELOW OR UNDER///below or under	41
 1485	BELOW OR UNDER///below — under	1
@@ -1191,13 +1233,13 @@ ID	GLOSS	PRIORITY
 1485	BELOW OR UNDER///under (the table)	1
 1485	BELOW OR UNDER///under, below	2
 1485	BELOW OR UNDER///underneath	1
-772	BELT///belt	9
+772	BELT///belt	10
 772	BELT///belt (girdle)	1
 772	BELT///belt / girdle (soft) (note:+hard)	1
 772	BELT///belt, girdle	2
 772	BELT///belt; girdle	1
-772	BELT///the belt	16
-772	BELT///the belts	16
+772	BELT///the belt	17
+772	BELT///the belts	17
 2584	BENCH///Bench	1
 2584	BENCH///bench	1
 2584	BENCH///stool / bench	1
@@ -1263,7 +1305,11 @@ ID	GLOSS	PRIORITY
 1202	BIG///Big	4
 1202	BIG///Great, large	1
 1202	BIG///LARGE	1
+<<<<<<< HEAD		
+1202	BIG///big	150
+Err:510		
 1202	BIG///big	149
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1202	BIG///big (adjective)	180
 1202	BIG///big (big in size, as opposed to small)	1
 1202	BIG///big (thing)	2
@@ -1289,9 +1335,9 @@ ID	GLOSS	PRIORITY
 3599	BILLION///1000000000	1
 3599	BILLION///billion	1
 1855	BIRCH///BIRCH	1
-1855	BIRCH///birch	8
-1855	BIRCH///the birch	11
-1855	BIRCH///the birchs	11
+1855	BIRCH///birch	9
+1855	BIRCH///the birch	12
+1855	BIRCH///the birchs	12
 3549	BIRD NEST///bird nest	2
 3549	BIRD NEST///bird's nest	1
 3549	BIRD NEST///bird‘s nest	1
@@ -1349,7 +1395,11 @@ ID	GLOSS	PRIORITY
 1403	BITE///he bites	2
 1403	BITE///let us bite	1
 1403	BITE///the dog bites	2
+<<<<<<< HEAD		
+1403	BITE///to bite	165
+Err:510		
 1403	BITE///to bite	166
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1403	BITE///to bite / the dog bites / bit	1
 1403	BITE///to_bite	1
 3256	BITTER BUCKWHEAT///buckwheat, bitter	1
@@ -1357,6 +1407,7 @@ ID	GLOSS	PRIORITY
 3256	BITTER BUCKWHEAT///the bitter buckwheats	1
 887	BITTER///(be) bitter	1
 887	BITTER///BITTER	3
+887	BITTER///be bitter	1
 887	BITTER///bitter	38
 887	BITTER///bitter (adjective)	45
 887	BITTER///bitter (vi)	1
@@ -1381,7 +1432,7 @@ ID	GLOSS	PRIORITY
 163	BLACK///(be) black	1
 163	BLACK///BLACK	7
 163	BLACK///Black	9
-163	BLACK///black	162
+163	BLACK///black	163
 163	BLACK///black (1)	1
 163	BLACK///black (2)	1
 163	BLACK///black (adjective)	188
@@ -1445,8 +1496,9 @@ ID	GLOSS	PRIORITY
 1584	BLISTER///the blister	4
 1584	BLISTER///the blisters	4
 2762	BLOCK (THE WAY)///block (the wind)	1
-2762	BLOCK (THE WAY)///the block (the way)	2
-2762	BLOCK (THE WAY)///the block (the way)s	2
+2762	BLOCK (THE WAY)///keep away, block	1
+2762	BLOCK (THE WAY)///the block (the way)	3
+2762	BLOCK (THE WAY)///the block (the way)s	3
 2762	BLOCK (THE WAY)///to block (the wind)	1
 525	BLOOD VESSEL///blood vessel	2
 525	BLOOD VESSEL///the blood vessel	6
@@ -1456,15 +1508,24 @@ ID	GLOSS	PRIORITY
 946	BLOOD///(its) blood	1
 946	BLOOD///BLOOD	8
 946	BLOOD///Blood	7
+<<<<<<< HEAD		
+946	BLOOD///blood	175
+Err:510		
 946	BLOOD///blood	174
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 946	BLOOD///blood (1)	1
 946	BLOOD///blood (2)	1
 946	BLOOD///blood (n)	3
 946	BLOOD///blood (n.)	1
 946	BLOOD///his blood	1
 946	BLOOD///sangre	1
+<<<<<<< HEAD		
+946	BLOOD///the blood	203
+946	BLOOD///the bloods	203
+Err:510		
 946	BLOOD///the blood	202
 946	BLOOD///the bloods	202
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 3287	BLOOM///Blossom (flowers)	1
 3287	BLOOM///bloom	1
 3287	BLOOM///bloom; blossom	1
@@ -1548,8 +1609,12 @@ ID	GLOSS	PRIORITY
 379	BLUNT///dull/blunt	4
 379	BLUNT///dull_knife	1
 379	BLUNT///to be blunt	1
+<<<<<<< HEAD		
+1348	BOAR///boar	8
+Err:510		
 1348	BOAR///boar	7
 1348	BOAR///boar (male pig)	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1348	BOAR///the boar	10
 1348	BOAR///the boars	10
 1227	BOARD///board	10
@@ -1565,13 +1630,13 @@ ID	GLOSS	PRIORITY
 101	BOAST///brag	1
 101	BOAST///to boast	9
 1844	BOAT///63a. boat (2)	1
-1844	BOAT///boat	28
+1844	BOAT///boat	30
 1844	BOAT///boat (1)	1
 1844	BOAT///boat (3)	1
 1844	BOAT///boat / ship (wooden) (note:+wooden)	1
 1844	BOAT///boat; ship	1
-1844	BOAT///the boat	35
-1844	BOAT///the boats	35
+1844	BOAT///the boat	37
+1844	BOAT///the boats	37
 311	BODY LOUSE///body louse	1
 311	BODY LOUSE///the body louse	3
 311	BODY LOUSE///the body louses	3
@@ -1624,10 +1689,11 @@ ID	GLOSS	PRIORITY
 2860	BOLT (MOVE IN HASTE)///bolt	1
 2860	BOLT (MOVE IN HASTE)///rush	1
 2860	BOLT (MOVE IN HASTE)///to bolt (move in haste)	2
+2007	BOLT (OF LIGHTNING)///bolt	1
 2007	BOLT (OF LIGHTNING)///lightning (as striking)	2
 2007	BOLT (OF LIGHTNING)///lightning; thunderbolt	1
-2007	BOLT (OF LIGHTNING)///the bolt (of lightning)	5
-2007	BOLT (OF LIGHTNING)///the bolt (of lightning)s	5
+2007	BOLT (OF LIGHTNING)///the bolt (of lightning)	6
+2007	BOLT (OF LIGHTNING)///the bolt (of lightning)s	6
 2007	BOLT (OF LIGHTNING)///the bolt of lightning	2
 1804	BOMB///bomb	1
 1804	BOMB///the bomb	3
@@ -1689,8 +1755,12 @@ ID	GLOSS	PRIORITY
 2930	BOSS///boss	2
 2930	BOSS///the boss	2
 2930	BOSS///the bosss	2
+<<<<<<< HEAD		
+2869	BOTHER (HARASS)///bother	2
+Err:510		
 2869	BOTHER (HARASS)///annoy, disturb	1
 2869	BOTHER (HARASS)///bother	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 2869	BOTHER (HARASS)///to bother (harass)	2
 2727	BOTTLE (CLASSIFIER)///bottle (classifier) (classifier)	1
 2727	BOTTLE (CLASSIFIER)///bottle (of wine)	1
@@ -2040,8 +2110,12 @@ ID	GLOSS	PRIORITY
 1262	BROTHER///(his) brother	1
 1262	BROTHER///(older) brother	1
 1262	BROTHER///BROTHER	1
+<<<<<<< HEAD		
+1262	BROTHER///brother	22
+Err:510		
 1262	BROTHER///brother	21
 1262	BROTHER///brother (elder/younger)	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1262	BROTHER///brother, siblings	1
 1262	BROTHER///brothers	2
 1262	BROTHER///the brother	30
@@ -2066,9 +2140,12 @@ ID	GLOSS	PRIORITY
 3690	BUBBLE///the bubble	1
 3690	BUBBLE///the bubbles	1
 2052	BUCKET///barrel / pail / bucket	1
-2052	BUCKET///bucket	4
+2052	BUCKET///bucket	5
 2052	BUCKET///bucket, barrel	1
+<<<<<<< HEAD		
+Err:510		
 2052	BUCKET///bucket, pail	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 2052	BUCKET///the bucket	8
 2052	BUCKET///the buckets	8
 2052	BUCKET///tub; bucket	1
@@ -2168,7 +2245,7 @@ ID	GLOSS	PRIORITY
 2102	BURN///burn_1	1
 2102	BURN///burn_2	1
 2102	BURN///catch (fire) / be (on fire) (a house)	1
-2102	BURN///to burn	91
+2102	BURN///to burn	92
 1428	BURNING///(it) burns	1
 1428	BURNING///BURN (INTR)	1
 1428	BURNING///BURN (INTR.)	1
@@ -2416,9 +2493,9 @@ ID	GLOSS	PRIORITY
 2620	CARRIAGE///carriage	1
 2620	CARRIAGE///the carriage	1
 2620	CARRIAGE///the carriages	1
-3085	CARROT///carrot	2
-3085	CARROT///the carrot	2
-3085	CARROT///the carrots	2
+3085	CARROT///carrot	3
+3085	CARROT///the carrot	3
+3085	CARROT///the carrots	3
 3438	CARRY (WITH POLE ON SHOULDER)///to carry (on a pole)	1
 3438	CARRY (WITH POLE ON SHOULDER)///to carry (with pole on shoulder)	1
 2763	CARRY HORIZONTALLY///the carry horizontally	0
@@ -2515,7 +2592,7 @@ ID	GLOSS	PRIORITY
 2184	CATCH A COLD///catch a cold (v)	1
 2184	CATCH A COLD///to catch a cold	1
 702	CATCH///I catch	1
-702	CATCH///catch	6
+702	CATCH///catch	7
 702	CATCH///catch (ball)	2
 702	CATCH///catch (object in air)	1
 702	CATCH///catch / capture	1
@@ -2527,7 +2604,7 @@ ID	GLOSS	PRIORITY
 2247	CATERPILLAR///the caterpillars	6
 1153	CATTLE///CATTLE	1
 1153	CATTLE///Cattle	1
-1153	CATTLE///cattle	15
+1153	CATTLE///cattle	16
 1153	CATTLE///cattle (bovine species)	1
 1153	CATTLE///cattle (bovine)	2
 1153	CATTLE///cattle (collective term)	1
@@ -2543,9 +2620,9 @@ ID	GLOSS	PRIORITY
 2647	CATTY (MASS UNIT)///a unit of weight	1
 2647	CATTY (MASS UNIT)///catty (mass unit) (classifier)	2
 2647	CATTY (MASS UNIT)///catty=500 grams	1
-2843	CAULIFLOWER///cauliflower	7
-2843	CAULIFLOWER///the cauliflower	7
-2843	CAULIFLOWER///the cauliflowers	7
+2843	CAULIFLOWER///cauliflower	8
+2843	CAULIFLOWER///the cauliflower	8
+2843	CAULIFLOWER///the cauliflowers	8
 2896	CAUSE TO (LET)///cause (s.o. to do s.th.)	1
 2896	CAUSE TO (LET)///let	2
 2896	CAUSE TO (LET)///to cause to (let)	3
@@ -2665,11 +2742,19 @@ ID	GLOSS	PRIORITY
 1730	CHEEK///cheek	23
 1730	CHEEK///cheek (n.)	1
 1730	CHEEK///cheeks	3
+<<<<<<< HEAD		
+1730	CHEEK///the cheek	29
+1730	CHEEK///the cheeks	29
+1569	CHEESE///cheese	8
+1569	CHEESE///the cheese	10
+1569	CHEESE///the cheeses	10
+Err:510		
 1730	CHEEK///the cheek	30
 1730	CHEEK///the cheeks	30
 1569	CHEESE///cheese	7
 1569	CHEESE///the cheese	9
 1569	CHEESE///the cheeses	9
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 3146	CHEETAH///cheetah	1
 3146	CHEETAH///the cheetah	1
 3146	CHEETAH///the cheetahs	1
@@ -2705,6 +2790,10 @@ ID	GLOSS	PRIORITY
 2512	CHICK///chick	2
 2512	"CHICK///chick (newly hatched) (note:""newly hatched chicken"")"	1
 2512	CHICK///chicken	1
+<<<<<<< HEAD		
+2512	CHICK///chicks	1
+Err:510		
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 2512	CHICK///the chick	4
 2512	CHICK///the chicks	4
 2081	CHICKEN (CLASSIFIER)///CLS for chicken	1
@@ -2733,7 +2822,7 @@ ID	GLOSS	PRIORITY
 2394	CHIEF///the chief	1
 2394	CHIEF///the chiefs	1
 301	CHIEFTAIN///a chief	1
-301	CHIEFTAIN///chief	6
+301	CHIEFTAIN///chief	7
 301	CHIEFTAIN///chief (n.)	1
 301	CHIEFTAIN///chief, chieftain	2
 301	CHIEFTAIN///chief, headman	1
@@ -2773,11 +2862,19 @@ ID	GLOSS	PRIORITY
 2099	CHILD///CHILD	1
 2099	CHILD///CHILD (YOUNG)	1
 2099	CHILD///Child	2
+<<<<<<< HEAD		
+2099	CHILD///child	76
+2099	CHILD///children	3
+2099	CHILD///children (general term)	1
+2099	CHILD///the child	84
+2099	CHILD///the childs	84
+Err:510		
 2099	CHILD///child	75
 2099	CHILD///children	3
 2099	CHILD///children (general term)	1
 2099	CHILD///the child	83
 2099	CHILD///the childs	83
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 919	CHILI PEPPER///ají	1
 919	CHILI PEPPER///chili	9
 919	CHILI PEPPER///chili pepper	4
@@ -2858,14 +2955,20 @@ ID	GLOSS	PRIORITY
 1467	CIRCLE///the circles	9
 2302	CIRCULAR (ROUND IN TWO DIMENSIONS)///circular (round in two dimensions) (adjective)	1
 2302	CIRCULAR (ROUND IN TWO DIMENSIONS)///round (2D)	1
+<<<<<<< HEAD		
+393	CIRCUMCISION///the circumcision	2
+393	CIRCUMCISION///the circumcisions	2
+1032	CITIZEN///citizen	2
+Err:510		
 393	CIRCUMCISION///circumcision (male)	1
 393	CIRCUMCISION///excision (female)	1
 393	CIRCUMCISION///the circumcision	4
 393	CIRCUMCISION///the circumcisions	4
 1032	CITIZEN///citizen	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1032	CITIZEN///citizen, subject	2
-1032	CITIZEN///the citizen	5
-1032	CITIZEN///the citizens	5
+1032	CITIZEN///the citizen	6
+1032	CITIZEN///the citizens	6
 1126	CITRUS FRUIT///citrus fruit	2
 1126	CITRUS FRUIT///the citrus fruit	4
 1126	CITRUS FRUIT///the citrus fruits	4
@@ -2888,12 +2991,13 @@ ID	GLOSS	PRIORITY
 3110	CLAP///to clap	7
 2128	CLAW OR NAIL///claw (nail)	1
 2128	CLAW OR NAIL///claw or fingernail	1
+2128	CLAW OR NAIL///claw, fingernail	1
 2128	CLAW OR NAIL///fingernail (claw)	1
 2128	CLAW OR NAIL///fingernail, claw	1
 2128	CLAW OR NAIL///fingernail/claw	1
 2128	CLAW OR NAIL///nail/claw	3
-2128	CLAW OR NAIL///the claw or nail	11
-2128	CLAW OR NAIL///the claw or nails	11
+2128	CLAW OR NAIL///the claw or nail	12
+2128	CLAW OR NAIL///the claw or nails	12
 2128	CLAW OR NAIL///the nail (fingernail or claw)	2
 2128	CLAW OR NAIL///uña, garra	1
 72	CLAW///(its) claw	1
@@ -2995,7 +3099,11 @@ ID	GLOSS	PRIORITY
 1616	CLOTH///the cloth	29
 1616	CLOTH///the cloths	29
 1895	CLOTHES///Garment	1
+<<<<<<< HEAD		
+1895	CLOTHES///cloth, clothes	1
+Err:510		
 1895	CLOTHES///article of clothing, clothes	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1895	CLOTHES///clothes	11
 1895	CLOTHES///clothes (upper)	1
 1895	CLOTHES///clothes, clothing	1
@@ -3019,7 +3127,11 @@ ID	GLOSS	PRIORITY
 1489	CLOUD///CLOUD	6
 1489	CLOUD///CLOUD(S)	1
 1489	CLOUD///Cloud	5
+<<<<<<< HEAD		
+1489	CLOUD///cloud	149
+Err:510		
 1489	CLOUD///cloud	148
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1489	CLOUD///cloud (n.)	1
 1489	CLOUD///cloud (not fog)	2
 1489	CLOUD///cloud (white cloud; not a raincloud)	1
@@ -3028,8 +3140,13 @@ ID	GLOSS	PRIORITY
 1489	CLOUD///cloud(rain)	1
 1489	CLOUD///clouds	2
 1489	CLOUD///clouds at rest	1
+<<<<<<< HEAD		
+1489	CLOUD///the cloud	175
+1489	CLOUD///the clouds	175
+Err:510		
 1489	CLOUD///the cloud	174
 1489	CLOUD///the clouds	174
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 2743	CLOUDY DAY///the cloudy day	0
 2743	CLOUDY DAY///the cloudy days	0
 2341	CLOUDY///cloudy	1
@@ -3132,10 +3249,15 @@ ID	GLOSS	PRIORITY
 1287	COLD///Cold	3
 1287	COLD///Cold (air)	1
 1287	COLD///Cold (weather, water)	1
-1287	COLD///cold	128
+1287	COLD///be cold	1
+1287	COLD///cold	129
 1287	COLD///cold (a.)	1
 1287	COLD///cold (adj.)	1
+<<<<<<< HEAD		
+1287	COLD///cold (adjective)	151
+Err:510		
 1287	COLD///cold (adjective)	150
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1287	COLD///cold (as in weather)	1
 1287	COLD///cold (as water)	1
 1287	COLD///cold (of temperature)	2
@@ -3168,8 +3290,9 @@ ID	GLOSS	PRIORITY
 2045	COLUMN///pillar	2
 2045	COLUMN///pillar / column	1
 2045	COLUMN///pillar,column	1
-2045	COLUMN///the column	4
-2045	COLUMN///the columns	4
+2045	COLUMN///post, pillar	1
+2045	COLUMN///the column	5
+2045	COLUMN///the columns	5
 2070	COMB (VERB)///comb	6
 2070	COMB (VERB)///comb (hair)	1
 2070	COMB (VERB)///comb hair	1
@@ -3191,12 +3314,15 @@ ID	GLOSS	PRIORITY
 1475	COMB///the comb	30
 1475	COMB///the combs	30
 581	COME BACK///come back	3
-581	COME BACK///return	14
+581	COME BACK///return	15
 581	COME BACK///return (1st)	1
 581	COME BACK///return (V)	2
 581	COME BACK///return (come back) (note:+go)	1
 581	COME BACK///return / go back	1
+<<<<<<< HEAD		
+Err:510		
 581	COME BACK///return, go back	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 581	COME BACK///to come back	30
 581	COME BACK///to return	3
 581	COME BACK///to return (come back)	1
@@ -3227,7 +3353,11 @@ ID	GLOSS	PRIORITY
 1446	COME///come/arrive	1
 1446	COME///comes	1
 1446	COME///he comes	2
+<<<<<<< HEAD		
+1446	COME///to come	175
+Err:510		
 1446	COME///to come	174
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1446	COME///to come / come!	1
 1446	COME///to_come	1
 1446	COME///venir	1
@@ -3470,13 +3600,21 @@ ID	GLOSS	PRIORITY
 3200	COUNTRYSIDE///the countrysides	1
 3049	COURAGE///courage	1
 3049	COURAGE///courage (adjective)	1
-1068	COURT///court	3
+1068	COURT///court	4
 1068	COURT///court (of law)	1
+<<<<<<< HEAD		
+1068	COURT///the court	7
+1068	COURT///the courts	7
+4	COURTYARD///courtyard	1
+4	COURTYARD///the courtyard	1
+4	COURTYARD///the courtyards	1
+Err:510		
 1068	COURT///the court	6
 1068	COURT///the courts	6
 4	COURTYARD///courtyard	2
 4	COURTYARD///the courtyard	2
 4	COURTYARD///the courtyards	2
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 2384	COUSIN OR SISTER-IN-LAW///SISTER-IN-LAW, COUSIN	1
 2384	COUSIN OR SISTER-IN-LAW///the cousin or sister-in-law	1
 2384	COUSIN OR SISTER-IN-LAW///the cousin or sister-in-laws	1
@@ -3646,7 +3784,12 @@ ID	GLOSS	PRIORITY
 1839	CRY///cry, weep	4
 1839	CRY///cry, weep (v)	1
 1839	CRY///mourn	1
+<<<<<<< HEAD		
+1839	CRY///mourn, cry	1
+1839	CRY///to cry	78
+Err:510		
 1839	CRY///to cry	79
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1839	CRY///to cry (to weep)	1
 1839	CRY///to cry (weep)	3
 1839	CRY///to cry, weep	1
@@ -3659,9 +3802,9 @@ ID	GLOSS	PRIORITY
 2934	CUCKOO///little cuckoo	1
 2934	CUCKOO///the cuckoo	4
 2934	CUCKOO///the cuckoos	4
-496	CUCUMBER///cucumber	12
-496	CUCUMBER///the cucumber	12
-496	CUCUMBER///the cucumbers	12
+496	CUCUMBER///cucumber	13
+496	CUCUMBER///the cucumber	13
+496	CUCUMBER///the cucumbers	13
 1541	CULTIVATE///cultivate	4
 1541	CULTIVATE///cultivate (land); till (vb.)	1
 1541	CULTIVATE///cultivate (vt)	1
@@ -3863,11 +4006,18 @@ ID	GLOSS	PRIORITY
 1057	DAUGHTER-IN-LAW///the daughter-in-law	9
 1057	DAUGHTER-IN-LAW///the daughter-in-laws	9
 1357	DAUGHTER///Daughter	1
+<<<<<<< HEAD		
+1357	DAUGHTER///daughter	30
+1357	DAUGHTER///the daughter	36
+1357	DAUGHTER///the daughters	36
+729	DAWN///dawn	11
+Err:510		
 1357	DAUGHTER///daughter	31
 1357	DAUGHTER///the daughter	37
 1357	DAUGHTER///the daughters	37
 729	DAWN///dawn	10
 729	DAWN///dawn (before sunrise)	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 729	DAWN///dawn (the day)	1
 729	DAWN///day break	1
 729	DAWN///the dawn	16
@@ -3880,6 +4030,10 @@ ID	GLOSS	PRIORITY
 1260	DAY (24 HOURS)///day (counting unit)	1
 1260	DAY (24 HOURS)///day [24 hrs]	1
 1260	DAY (24 HOURS)///day's (work)	1
+<<<<<<< HEAD		
+1260	DAY (24 HOURS)///one day	1
+Err:510		
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1260	DAY (24 HOURS)///the day (24 hours)	16
 1260	DAY (24 HOURS)///the day (24 hours)s	16
 1260	DAY (24 HOURS)///the day(1)	2
@@ -3907,6 +4061,7 @@ ID	GLOSS	PRIORITY
 1180	DAY BEFORE YESTERDAY///day before (yesterday)	1
 1180	DAY BEFORE YESTERDAY///day before yesterday	14
 1180	DAY BEFORE YESTERDAY///day-before-yesterday	2
+1180	DAY BEFORE YESTERDAY///day before yesterday	1
 1180	DAY BEFORE YESTERDAY///the day before yesterday	1
 2140	DAY OR SUN///SUN/DAYTIME	1
 2140	DAY OR SUN///sun, day	1
@@ -3921,16 +4076,23 @@ ID	GLOSS	PRIORITY
 458	DEAF PERSON///deaf (mute) person	1
 458	DEAF PERSON///deaf man	1
 458	DEAF PERSON///deaf person	3
+<<<<<<< HEAD		
+458	DEAF PERSON///the deaf person	5
+458	DEAF PERSON///the deaf persons	5
+996	DEAF///deaf	20
+996	DEAF///deaf (adjective)	22
+Err:510		
 458	DEAF PERSON///the deaf person	6
 458	DEAF PERSON///the deaf persons	6
 996	DEAF///deaf	19
 996	DEAF///deaf (adjective)	21
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 996	DEAF///deaf, be	1
 996	DEAF///to be deaf	1
 2738	DEAL (CLASSIFIER)///deal (classifier) (classifier)	0
-2470	DEAR///dear	2
+2470	DEAR///dear	3
 2470	DEAR///dear (= beloved)	1
-2470	DEAR///dear (adjective)	3
+2470	DEAR///dear (adjective)	4
 910	DEATH///Death	1
 910	DEATH///death	6
 910	DEATH///the death	7
@@ -4090,10 +4252,15 @@ ID	GLOSS	PRIORITY
 1494	DIE///die (vi)	1
 1494	DIE///die v.	1
 1494	DIE///die, to	1
+1494	DIE///die (v.)	1
 1494	DIE///he died	1
 1494	DIE///he dies	1
 1494	DIE///morir	1
+<<<<<<< HEAD		
+1494	DIE///to die	163
+Err:510		
 1494	DIE///to die	162
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1494	DIE///to die / he died	1
 1494	DIE///to die, pass away	1
 1494	DIE///to_die	1
@@ -4144,7 +4311,7 @@ ID	GLOSS	PRIORITY
 1184	DIMINISH///to diminish	2
 2460	DINGO///the dingo	0
 2460	DINGO///the dingos	0
-1833	DINNER (SUPPER)///dinner	6
+1833	DINNER (SUPPER)///dinner	7
 1833	DINNER (SUPPER)///dinner (evening meal)	1
 1833	DINNER (SUPPER)///evening meal	1
 1833	DINNER (SUPPER)///supper	4
@@ -4165,6 +4332,7 @@ ID	GLOSS	PRIORITY
 25	DIRT///the dirts	5
 1230	DIRTY///(be) dirty	1
 1230	DIRTY///DIRTY	5
+1230	DIRTY///be dirty	1
 1230	DIRTY///dirty	79
 1230	DIRTY///dirty (adjective)	92
 1230	DIRTY///dirty (clothes)	2
@@ -4317,7 +4485,7 @@ ID	GLOSS	PRIORITY
 1853	DOVE///Pigeon	1
 1853	DOVE///dove	12
 1853	DOVE///dove; pigeon	1
-1853	DOVE///pigeon	8
+1853	DOVE///pigeon	9
 1853	DOVE///pigeon/dove	1
 1853	DOVE///the dove	27
 1853	DOVE///the doves	27
@@ -4375,11 +4543,19 @@ ID	GLOSS	PRIORITY
 2374	DREAM///Dream	1
 2374	DREAM///a dream	1
 2374	DREAM///dream	10
+<<<<<<< HEAD		
+2374	DREAM///dream (n)	3
+2374	DREAM///the dream	18
+2374	DREAM///the dreams	18
+2455	DREAMING OR DREAM///dream	6
+2455	DREAMING OR DREAM///dreaming or dream	6
+Err:510		
 2374	DREAM///dream (n)	4
 2374	DREAM///the dream	19
 2374	DREAM///the dreams	19
 2455	DREAMING OR DREAM///dream	5
 2455	DREAMING OR DREAM///dreaming or dream	5
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 814	DRESS UP///dress	2
 814	DRESS UP///dress (v)	1
 814	DRESS UP///dress sm stg (vt)	1
@@ -4498,7 +4674,12 @@ ID	GLOSS	PRIORITY
 3364	DRY IN SUN///dry in the sun	1
 3364	DRY IN SUN///to dry (in the sun)	1
 3364	DRY IN SUN///to dry in sun	6
+<<<<<<< HEAD		
+452	DRY SEASON///dry season	3
+452	DRY SEASON///dry season	1
+Err:510		
 452	DRY SEASON///dry season	4
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 452	DRY SEASON///the dry season	4
 452	DRY SEASON///the dry seasons	4
 1786	DRY UP///become dry	1
@@ -4520,13 +4701,18 @@ ID	GLOSS	PRIORITY
 1398	DRY///DRY (SUBSTANCE)	3
 1398	DRY///Dry	2
 1398	DRY///Dry (adj.)	2
-1398	DRY///dry	122
+1398	DRY///be dry	1
+1398	DRY///dry	123
 1398	DRY///dry (N, Adj)	1
 1398	DRY///dry (a. general term, b. to dry up)	1
 1398	DRY///dry (a.)	1
 1398	DRY///dry (adj)	2
 1398	DRY///dry (adj.)	2
+<<<<<<< HEAD		
+1398	DRY///dry (adjective)	158
+Err:510		
 1398	DRY///dry (adjective)	157
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1398	DRY///dry (as clothes)	1
 1398	DRY///dry (cloth)	2
 1398	DRY///dry (clothes)	1
@@ -4551,17 +4737,17 @@ ID	GLOSS	PRIORITY
 1872	DUIKER///the duiker	1
 1872	DUIKER///the duikers	1
 1397	DULL///dull (adjective)	0
-1492	DUMB///dumb	3
-1492	DUMB///dumb (adjective)	3
+1492	DUMB///dumb	4
+1492	DUMB///dumb (adjective)	4
 2057	DUNG (ANIMAL FAECES)///DUNG, (EXCREMENT)	1
 2057	DUNG (ANIMAL FAECES)///animal faeces,dung	1
 2057	DUNG (ANIMAL FAECES)///dung	2
 2057	DUNG (ANIMAL FAECES)///dung / manure	1
 2057	DUNG (ANIMAL FAECES)///fertilizer; manure	1
-2057	DUNG (ANIMAL FAECES)///manure	1
+2057	DUNG (ANIMAL FAECES)///manure	2
 2057	DUNG (ANIMAL FAECES)///manure; fertilizer	1
-2057	DUNG (ANIMAL FAECES)///the dung (animal faeces)	8
-2057	DUNG (ANIMAL FAECES)///the dung (animal faeces)s	8
+2057	DUNG (ANIMAL FAECES)///the dung (animal faeces)	9
+2057	DUNG (ANIMAL FAECES)///the dung (animal faeces)s	9
 2297	DUSK///dusk	1
 2297	DUSK///dusk / twilight	1
 2297	DUSK///dusk, twilight (after sunset)	1
@@ -4637,12 +4823,17 @@ ID	GLOSS	PRIORITY
 18	EARLOBE///the earlobe	4
 18	EARLOBE///the earlobes	4
 672	EARLY///be early	1
+<<<<<<< HEAD		
+672	EARLY///early	22
+Err:510		
 672	EARLY///early	23
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 672	EARLY///early (adjective)	25
 672	EARLY///early (morning)	1
-733	EARN///earn	3
+672	EARLY///early, in the morning	1
+733	EARN///earn	4
 733	EARN///gain (sb.); profit (sb.)	1
-733	EARN///to earn	6
+733	EARN///to earn	7
 770	EARRING///ear piercing	1
 770	EARRING///earring	8
 770	EARRING///earrings	1
@@ -4671,6 +4862,7 @@ ID	GLOSS	PRIORITY
 1228	EARTH (SOIL)///earth_soil	1
 1228	EARTH (SOIL)///ground	4
 1228	EARTH (SOIL)///ground, soil	1
+1228	EARTH (SOIL)///ground, soil, earth	1
 1228	EARTH (SOIL)///ground; soil (sb.)	1
 1228	EARTH (SOIL)///land/soil	1
 1228	EARTH (SOIL)///soil	5
@@ -4735,7 +4927,11 @@ ID	GLOSS	PRIORITY
 1336	EAT///eats	1
 1336	EAT///he eats	2
 1336	EAT///he is eating	1
+<<<<<<< HEAD		
+1336	EAT///to eat	197
+Err:510		
 1336	EAT///to eat	196
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1336	EAT///to eat / eat!	1
 1336	EAT///to_eat	1
 1336	EAT///you eat!	2
@@ -4762,11 +4958,19 @@ ID	GLOSS	PRIORITY
 3417	EGG (CLASSIFIER)///egg (classifier) (classifier)	1
 744	EGG///EGG	6
 744	EGG///Egg	8
+<<<<<<< HEAD		
+744	EGG///egg	169
+744	EGG///egg (n.)	1
+744	EGG///one egg	2
+744	EGG///the egg	191
+744	EGG///the eggs	191
+Err:510		
 744	EGG///egg	168
 744	EGG///egg (n.)	1
 744	EGG///one egg	2
 744	EGG///the egg	190
 744	EGG///the eggs	190
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 3519	EIGHT HUNDRED///800	1
 3519	EIGHT HUNDRED///eight hundred	1
 1705	EIGHT///8	5
@@ -4854,7 +5058,7 @@ ID	GLOSS	PRIORITY
 67	EMBERS///the embers	5
 67	EMBERS///the emberss	5
 928	EMBRACE///Hold in the arms	1
-928	EMBRACE///embrace	3
+928	EMBRACE///embrace	4
 928	EMBRACE///embrace / hug	1
 928	EMBRACE///embrace, hug (v)	1
 928	EMBRACE///hold (baby) in arms	1
@@ -4950,10 +5154,10 @@ ID	GLOSS	PRIORITY
 1629	EVENING///Evening	1
 1629	EVENING///dusk/evening	1
 1629	EVENING///early evening, late afternoon	1
-1629	EVENING///evening	18
+1629	EVENING///evening	20
 1629	EVENING///night, at / evening, in the	1
-1629	EVENING///the evening	24
-1629	EVENING///the evenings	24
+1629	EVENING///the evening	26
+1629	EVENING///the evenings	26
 3416	EVERY (EACH)///each / every (thing) (note:+human)	1
 3416	EVERY (EACH)///every (each)	1
 2999	EVERYWHERE///everywhere	3
@@ -5003,7 +5207,11 @@ ID	GLOSS	PRIORITY
 1248	EYE///EYE	8
 1248	EYE///Eye	8
 1248	EYE///Eyes	1
+<<<<<<< HEAD		
+1248	EYE///eye	179
+Err:510		
 1248	EYE///eye	177
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1248	EYE///eye (1)	1
 1248	EYE///eye (2)	1
 1248	EYE///eye (my)	1
@@ -5012,6 +5220,19 @@ ID	GLOSS	PRIORITY
 1248	EYE///eyes	1
 1248	EYE///ojo	1
 1248	EYE///one eye	1
+<<<<<<< HEAD		
+1248	EYE///the eye	212
+1248	EYE///the eyes	212
+1173	EYEBROW///eyebrow	21
+1173	EYEBROW///the eyebrow	23
+1173	EYEBROW///the eyebrows	23
+1540	EYELASH///eyelash	8
+1540	EYELASH///the eyelash	10
+1540	EYELASH///the eyelashs	10
+17	EYELID///eyelid	10
+17	EYELID///the eyelid	12
+17	EYELID///the eyelids	12
+Err:510		
 1248	EYE///the eye	210
 1248	EYE///the eyes	210
 1173	EYEBROW///eyebrow	22
@@ -5023,6 +5244,7 @@ ID	GLOSS	PRIORITY
 17	EYELID///eyelid	11
 17	EYELID///the eyelid	13
 17	EYELID///the eyelids	13
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1560	FACE///Face	1
 1560	FACE///face	38
 1560	FACE///face (self-respect)	1
@@ -5150,14 +5372,18 @@ ID	GLOSS	PRIORITY
 1159	FART///to fart	17
 1631	FAST///(be) fast	1
 1631	FAST///FAST	1
-1631	FAST///fast	17
+1631	FAST///fast	18
 1631	FAST///fast ( = swift); quick; swift	1
+<<<<<<< HEAD		
+1631	FAST///fast (adjective)	35
+Err:510		
 1631	FAST///fast (adjective)	34
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1631	FAST///fast (quick)	1
 1631	FAST///quick	5
 1631	FAST///quick /	1
 1631	FAST///quick, fast	1
-1631	FAST///quickly	2
+1631	FAST///quickly	3
 1631	FAST///swift	1
 1631	FAST///swift, fast, quick	2
 1631	FAST///to be fast	1
@@ -5187,10 +5413,11 @@ ID	GLOSS	PRIORITY
 1282	FAT (FROM ANIMALS)///fat (part of meat)	2
 1282	FAT (FROM ANIMALS)///fat n.	4
 1282	FAT (FROM ANIMALS)///fat/grease	1
+1282	FAT (FROM ANIMALS)///fat (n.)	1
 1282	FAT (FROM ANIMALS)///grease, animal fat	1
 1282	FAT (FROM ANIMALS)///lard	1
-1282	FAT (FROM ANIMALS)///the fat (from animals)	20
-1282	FAT (FROM ANIMALS)///the fat (from animals)s	20
+1282	FAT (FROM ANIMALS)///the fat (from animals)	21
+1282	FAT (FROM ANIMALS)///the fat (from animals)s	21
 1279	FAT (OBESE)///FAT	1
 1279	FAT (OBESE)///fat	15
 1279	FAT (OBESE)///fat (adj.)	3
@@ -5236,7 +5463,7 @@ ID	GLOSS	PRIORITY
 323	FAT (ORGANIC SUBSTANCE)///fat, grease	4
 323	FAT (ORGANIC SUBSTANCE)///fat, grease (substance)	1
 323	FAT (ORGANIC SUBSTANCE)///fat-grease	4
-323	FAT (ORGANIC SUBSTANCE)///fat/grease	14
+323	FAT (ORGANIC SUBSTANCE)///fat/grease	15
 323	FAT (ORGANIC SUBSTANCE)///fat_substance	1
 323	FAT (ORGANIC SUBSTANCE)///grease	27
 323	FAT (ORGANIC SUBSTANCE)///grease (fat)	2
@@ -5426,13 +5653,18 @@ ID	GLOSS	PRIORITY
 2479	FEMALE YAK///the female yaks	2
 1551	FEMALE///female	4
 1551	FEMALE///female (adjective)	4
-1690	FENCE///fence	12
+1690	FENCE///fence	13
 1690	FENCE///fence (bamboo / twig)	1
+<<<<<<< HEAD		
+1690	FENCE///the fence	16
+1690	FENCE///the fences	16
+Err:510		
 1690	FENCE///fence (n)	1
 1690	FENCE///the fence	16
 1690	FENCE///the fences	16
 3653	FERMENT///ferment (alcohol) (v)	1
 3653	FERMENT///to ferment	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 131	FESTIVAL///festival	2
 131	FESTIVAL///party	1
 131	FESTIVAL///singsing	1
@@ -5440,8 +5672,12 @@ ID	GLOSS	PRIORITY
 131	FESTIVAL///the festivals	4
 3551	FETCH///fetch	2
 3551	FETCH///to fetch	2
+<<<<<<< HEAD		
+1534	FEVER///fever	9
+Err:510		
 1534	FEVER///fever	8
 1534	FEVER///fever (not malaria)	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1534	FEVER///fever, have	1
 1534	FEVER///the fever	12
 1534	FEVER///the fevers	12
@@ -5573,12 +5809,12 @@ ID	GLOSS	PRIORITY
 1896	FINGERNAIL OR TOENAIL///Nails	1
 1896	FINGERNAIL OR TOENAIL///finger-nail/toe-nail	1
 1896	FINGERNAIL OR TOENAIL///fingernail/toenail	2
-1896	FINGERNAIL OR TOENAIL///nail	15
+1896	FINGERNAIL OR TOENAIL///nail	16
 1896	FINGERNAIL OR TOENAIL///nail (body part)	1
 1896	FINGERNAIL OR TOENAIL///nail (on finger or toe)	1
 1896	FINGERNAIL OR TOENAIL///nails	2
-1896	FINGERNAIL OR TOENAIL///the fingernail or toenail	24
-1896	FINGERNAIL OR TOENAIL///the fingernail or toenails	24
+1896	FINGERNAIL OR TOENAIL///the fingernail or toenail	25
+1896	FINGERNAIL OR TOENAIL///the fingernail or toenails	25
 1896	FINGERNAIL OR TOENAIL///toenail	1
 1258	FINGERNAIL///(finger) nail	1
 1258	FINGERNAIL///(finger)nail (n.)	1
@@ -5592,7 +5828,7 @@ ID	GLOSS	PRIORITY
 2773	FINGERTIP///the fingertip	0
 2773	FINGERTIP///the fingertips	0
 1766	FINISH///complete, finish	1
-1766	FINISH///finish	7
+1766	FINISH///finish	8
 1766	FINISH///finish (to)	1
 1766	FINISH///finish (v)	1
 1766	FINISH///finish (work)	1
@@ -5663,7 +5899,11 @@ ID	GLOSS	PRIORITY
 227	FISH///Fish	8
 227	FISH///Fish (n.)	1
 227	FISH///PACU FISH	1
+<<<<<<< HEAD		
+227	FISH///fish	155
+Err:510		
 227	FISH///fish	154
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 227	FISH///fish (1)	1
 227	FISH///fish (2)	1
 227	FISH///fish (N)	1
@@ -5672,12 +5912,21 @@ ID	GLOSS	PRIORITY
 227	FISH///fish (noun)	1
 227	FISH///pacu fish	1
 227	FISH///pescado	1
+<<<<<<< HEAD		
+227	FISH///the fish	194
+227	FISH///the fish (one piece of fish)	1
+227	FISH///the fishs	194
+1858	FISHERMAN///fisherman	3
+1858	FISHERMAN///the fisherman	5
+1858	FISHERMAN///the fishermans	5
+Err:510		
 227	FISH///the fish	193
 227	FISH///the fish (one piece of fish)	1
 227	FISH///the fishs	193
 1858	FISHERMAN///fisherman	4
 1858	FISHERMAN///the fisherman	6
 1858	FISHERMAN///the fishermans	6
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1074	FISHHOOK///fish hook	2
 1074	FISHHOOK///fish-hook	1
 1074	FISHHOOK///fishhook	6
@@ -5778,9 +6027,9 @@ ID	GLOSS	PRIORITY
 232	FLEA///the flea	23
 232	FLEA///the fleas	23
 956	FLEE///escape; run away	1
-956	FLEE///flee	8
+956	FLEE///flee	9
 956	FLEE///flee; escape	1
-956	FLEE///to flee	14
+956	FLEE///to flee	15
 956	FLEE///to flee/run (away)	1
 2615	FLESH OR MEAT///FLESH/MEAT	1
 2615	FLESH OR MEAT///Flesh, meat	1
@@ -5788,7 +6037,7 @@ ID	GLOSS	PRIORITY
 2615	FLESH OR MEAT///MEAT2	1
 2615	FLESH OR MEAT///flesh	9
 2615	FLESH OR MEAT///flesh (meat)	1
-2615	FLESH OR MEAT///flesh/meat	7
+2615	FLESH OR MEAT///flesh/meat	8
 2615	FLESH OR MEAT///meat	2
 2615	FLESH OR MEAT///meat (flesh)	4
 2615	FLESH OR MEAT///meat / flesh	1
@@ -5796,8 +6045,8 @@ ID	GLOSS	PRIORITY
 2615	FLESH OR MEAT///meat, flesh	1
 2615	FLESH OR MEAT///meat-flesh	4
 2615	FLESH OR MEAT///meat/flesh	13
-2615	FLESH OR MEAT///the flesh or meat	47
-2615	FLESH OR MEAT///the flesh or meats	47
+2615	FLESH OR MEAT///the flesh or meat	48
+2615	FLESH OR MEAT///the flesh or meats	48
 2259	FLESH///FLESH, (MEAT)	1
 2259	FLESH///Flesh	1
 2259	FLESH///flesh	26
@@ -5900,9 +6149,15 @@ ID	GLOSS	PRIORITY
 1441	FLY (MOVE THROUGH AIR)///fly, to	2
 1441	FLY (MOVE THROUGH AIR)///fly_V	1
 1441	FLY (MOVE THROUGH AIR)///flying	2
+1441	FLY (MOVE THROUGH AIR)///fly (v)	1
 1441	FLY (MOVE THROUGH AIR)///the bird flies	1
+<<<<<<< HEAD		
+1441	FLY (MOVE THROUGH AIR)///to fly	35
+1441	FLY (MOVE THROUGH AIR)///to fly (move through air)	157
+Err:510		
 1441	FLY (MOVE THROUGH AIR)///to fly	34
 1441	FLY (MOVE THROUGH AIR)///to fly (move through air)	156
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1441	FLY (MOVE THROUGH AIR)///to fly / the bird flies / flew	1
 1441	FLY (MOVE THROUGH AIR)///to fly away	1
 1441	FLY (MOVE THROUGH AIR)///to_fly	1
@@ -6003,7 +6258,12 @@ ID	GLOSS	PRIORITY
 418	FOR A LONG TIME///long (period of time)	1
 418	FOR A LONG TIME///long-time (for a)	2
 83	FORBID///ban / forbid / prohibit	1
+<<<<<<< HEAD		
+83	FORBID///forbid	4
+83	FORBID///stop, prohibit	1
+Err:510		
 83	FORBID///forbid	5
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 83	FORBID///to forbid	8
 2818	FORD (CROSSING)///ford	4
 2818	FORD (CROSSING)///ford (n)	1
@@ -6054,7 +6314,8 @@ ID	GLOSS	PRIORITY
 1523	FORGET///to forget	38
 1528	FORGIVE///forgive	4
 1528	FORGIVE///forgive (v)	1
-1528	FORGIVE///to forgive	9
+1528	FORGIVE///forgive, have mercy	1
+1528	FORGIVE///to forgive	10
 1302	FORK///fork	5
 1302	FORK///fork (2)	1
 1302	FORK///fork (= table-fork); spoon	1
@@ -6182,7 +6443,10 @@ ID	GLOSS	PRIORITY
 1325	FRIEND///friend, companion	2
 1325	FRIEND///the friend	30
 1325	FRIEND///the friends	30
+<<<<<<< HEAD		
+Err:510		
 252	FRIGHTEN///frighten	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 252	FRIGHTEN///frighten (to)	1
 252	FRIGHTEN///frighten / scare	1
 252	FRIGHTEN///to frighten	3
@@ -6199,7 +6463,7 @@ ID	GLOSS	PRIORITY
 503	FROG///the frogs	48
 2927	FROM HERE///from here	1
 2927	FROM HERE///hence	1
-693	FROM///from	7
+693	FROM///from	8
 2194	FRONT (PART)///front	4
 2194	FRONT (PART)///front (of something)	1
 2194	FRONT (PART)///front part	1
@@ -6244,9 +6508,13 @@ ID	GLOSS	PRIORITY
 1429	FULL///FULL	4
 1429	FULL///Full	1
 1429	FULL///become full	1
-1429	FULL///full	109
+1429	FULL///full	111
 1429	FULL///full (adj.)	1
+<<<<<<< HEAD		
+1429	FULL///full (adjective)	129
+Err:510		
 1429	FULL///full (adjective)	128
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1429	FULL///full (as a basket)	1
 1429	FULL///full (bottle)	2
 1429	FULL///full (container)	2
@@ -6362,10 +6630,15 @@ ID	GLOSS	PRIORITY
 3350	GET UP FROM BED///get up	1
 3350	GET UP FROM BED///get up (get out of bed)	1
 3350	GET UP FROM BED///to get up from bed	2
+2324	GET WET///be/become wet	1
 2324	GET WET///become wet	1
 2324	GET WET///get wet (v)	1
+<<<<<<< HEAD		
+2324	GET WET///to get wet	3
+Err:510		
 2324	GET WET///to get wet	2
 694	GET///accept, receive	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 694	GET///achieve, obtain	1
 694	GET///get	5
 694	GET///get (1st)	1
@@ -6401,6 +6674,15 @@ ID	GLOSS	PRIORITY
 2982	GIFT///present	1
 2982	GIFT///the gift	5
 2982	GIFT///the gifts	5
+<<<<<<< HEAD		
+1916	GILL///gill	2
+1916	GILL///gills	1
+1916	GILL///the gill	5
+1916	GILL///the gills	5
+2500	GINGER///ginger	14
+2500	GINGER///the ginger	14
+2500	GINGER///the gingers	14
+Err:510		
 1916	GILL///gill	3
 1916	GILL///gills	1
 1916	GILL///the gill	6
@@ -6408,6 +6690,7 @@ ID	GLOSS	PRIORITY
 2500	GINGER///ginger	13
 2500	GINGER///the ginger	13
 2500	GINGER///the gingers	13
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 532	GIPSY///Gipsy, Gypsy	1
 532	GIPSY///the gipsy	1
 532	GIPSY///the gipsys	1
@@ -6461,9 +6744,14 @@ ID	GLOSS	PRIORITY
 1447	GIVE///give, to	1
 1447	GIVE///give; BEN	1
 1447	GIVE///gives (to me)	1
+1447	GIVE///give (it)	1
 1447	GIVE///he gives it to me	1
 1447	GIVE///he gives to me	1
+<<<<<<< HEAD		
+1447	GIVE///to give	176
+Err:510		
 1447	GIVE///to give	175
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1447	GIVE///to give / give!	1
 1447	GIVE///to give to	1
 1447	GIVE///to_give	1
@@ -6589,8 +6877,9 @@ ID	GLOSS	PRIORITY
 720	GOOD LUCK///fortune / luck	1
 720	GOOD LUCK///good fortune, luck	2
 720	GOOD LUCK///happiness, luck	1
-720	GOOD LUCK///the good luck	7
-720	GOOD LUCK///the good lucks	7
+720	GOOD LUCK///luck	1
+720	GOOD LUCK///the good luck	8
+720	GOOD LUCK///the good lucks	8
 2410	GOOD-LOOKING///attractive	1
 2410	GOOD-LOOKING///beautiful / pleasant to the	1
 2410	GOOD-LOOKING///good-looking (adjective)	6
@@ -6599,8 +6888,13 @@ ID	GLOSS	PRIORITY
 1035	GOOD///(be) good	1
 1035	GOOD///GOOD	8
 1035	GOOD///Good	5
+<<<<<<< HEAD		
+1035	GOOD///good	150
+1035	GOOD///good (adjective)	175
+Err:510		
 1035	GOOD///good	149
 1035	GOOD///good (adjective)	176
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1035	GOOD///good (thing)	2
 1035	GOOD///good [in general sense]	1
 1035	GOOD///good at	1
@@ -6770,18 +7064,24 @@ ID	GLOSS	PRIORITY
 1425	GREEN///(be) green	1
 1425	GREEN///GREEN	6
 1425	GREEN///Green	3
+1425	GREEN///be green	1
 1425	GREEN///colour term green	1
+<<<<<<< HEAD		
+1425	GREEN///green	122
+1425	GREEN///green (adjective)	138
+Err:510		
 1425	GREEN///green	121
 1425	GREEN///green (adjective)	137
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1425	GREEN///green (colour)	4
 1425	GREEN///green blue	1
 3552	GREET///greet	2
 3552	GREET///greet (v)	1
 3552	GREET///to greet	3
 153	GREY///colour term grey	1
-153	GREY///gray	1
+153	GREY///gray	2
 153	GREY///grey	6
-153	GREY///grey (adjective)	9
+153	GREY///grey (adjective)	10
 153	GREY///grey (deep)	1
 1668	GRIEF///grief	1
 1668	GRIEF///grief, sorrow, sadness	2
@@ -6800,6 +7100,7 @@ ID	GLOSS	PRIORITY
 1033	GRIND///grind (wheat)	1
 1033	GRIND///grind, crush	1
 1033	GRIND///grind, pound	1
+1033	GRIND///pound smooth, grind fine	1
 1033	GRIND///to crush or to grind	2
 1033	GRIND///to crush/grind	2
 1033	GRIND///to grind	32
@@ -6822,7 +7123,11 @@ ID	GLOSS	PRIORITY
 2159	GROUND///earth / ground	1
 2159	GROUND///earth1	1
 2159	GROUND///ground	13
+<<<<<<< HEAD		
+2159	GROUND///ground/earth	1
+Err:510		
 2159	GROUND///ground, land	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 2159	GROUND///the ground	20
 2159	GROUND///the grounds	20
 595	GROUNDNUTS///groundnuts	2
@@ -6841,8 +7146,12 @@ ID	GLOSS	PRIORITY
 479	GROW///become large	1
 479	GROW///become large, grow up	1
 479	GROW///group (13.192) grow	1
+<<<<<<< HEAD		
+479	GROW///grow	14
+Err:510		
 479	GROW///grow	13
 479	GROW///grow (of plants)	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 479	GROW///grow (to)	1
 479	GROW///grow (v.)	1
 479	GROW///to grow	26
@@ -6877,11 +7186,17 @@ ID	GLOSS	PRIORITY
 1932	GUESS///to guess	8
 2908	GUEST OR STRANGER///the guest or stranger	0
 2908	GUEST OR STRANGER///the guest or strangers	0
+<<<<<<< HEAD		
+1782	GUEST///guest	13
+1782	GUEST///the guest	15
+1782	GUEST///the guests	15
+Err:510		
 1782	GUEST///guest	12
 1782	GUEST///guest, visitor	1
 1782	GUEST///the guest	15
 1782	GUEST///the guests	15
 1682	GUILTY///(be) guilty	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1682	GUILTY///guilty	6
 1682	GUILTY///guilty (adjective)	8
 1682	GUILTY///to be guilty	1
@@ -6970,20 +7285,29 @@ ID	GLOSS	PRIORITY
 1040	HAIR///HAIR, (FUR)	1
 1040	HAIR///HAIR2, (FUR)	1
 1040	HAIR///Hair	6
-1040	HAIR///hair	109
+1040	HAIR///hair	110
 1040	HAIR///hair (body)	1
 1040	HAIR///hair (human)	2
 1040	HAIR///hair (my)	1
-1040	HAIR///the hair	133
+1040	HAIR///the hair	134
 1040	HAIR///the hair (of the head)	2
-1040	HAIR///the hairs	133
+1040	HAIR///the hairs	134
 816	HALF///a half	1
+<<<<<<< HEAD		
+816	HALF///half	19
+816	HALF///half (adj.)	1
+816	HALF///half a quantity	1
+816	HALF///half a unit	1
+816	HALF///the half	25
+816	HALF///the halfs	25
+Err:510		
 816	HALF///half	18
 816	HALF///half (adj.)	1
 816	HALF///half a quantity	1
 816	HALF///half a unit	1
 816	HALF///the half	24
 816	HALF///the halfs	24
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 2880	HALT (STOP)///halt, stop	1
 2880	HALT (STOP)///stop	4
 2880	HALT (STOP)///stop (v)	1
@@ -7015,13 +7339,22 @@ ID	GLOSS	PRIORITY
 1277	HAND///(his) hand	2
 1277	HAND///HAND	9
 1277	HAND///Hand	10
+<<<<<<< HEAD		
+1277	HAND///hand	147
+Err:510		
 1277	HAND///hand	146
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1277	HAND///hand (1)	1
 1277	HAND///hand (2)	1
 1277	HAND///hand (not arm)	2
 1277	HAND///mano	1
+<<<<<<< HEAD		
+1277	HAND///the hand	177
+1277	HAND///the hands	177
+Err:510		
 1277	HAND///the hand	176
 1277	HAND///the hands	176
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1020	HANDKERCHIEF///handkerchief	1
 1020	HANDKERCHIEF///kerchief	1
 1020	HANDKERCHIEF///the handkerchief	2
@@ -7064,7 +7397,11 @@ ID	GLOSS	PRIORITY
 1884	HARD///(be) hard	1
 1884	HARD///HARD	1
 1884	HARD///Hard	1
+<<<<<<< HEAD		
+1884	HARD///hard	35
+Err:510		
 1884	HARD///hard	34
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1884	HARD///hard (adjective)	42
 1884	HARD///hard (not soft)	1
 1884	HARD///hard (vs. soft)	1
@@ -7152,9 +7489,9 @@ ID	GLOSS	PRIORITY
 1168	HAWTHORN///hawthorn	1
 1168	HAWTHORN///the hawthorn	1
 1168	HAWTHORN///the hawthorns	1
-342	HAY///hay	5
-342	HAY///the hay	7
-342	HAY///the hays	7
+342	HAY///hay	6
+342	HAY///the hay	8
+342	HAY///the hays	8
 262	HE OR SHE OR IT///3 sg	1
 262	HE OR SHE OR IT///3S	1
 262	HE OR SHE OR IT///3SG	1
@@ -7163,8 +7500,9 @@ ID	GLOSS	PRIORITY
 262	HE OR SHE OR IT///3sg pronoun	2
 262	HE OR SHE OR IT///3sg.	1
 262	HE OR SHE OR IT///he or she [third person singular]	2
-262	HE OR SHE OR IT///he or she or it	16
+262	HE OR SHE OR IT///he or she or it	17
 262	HE OR SHE OR IT///he,she,it (3 p.s.)	1
+262	HE OR SHE OR IT///he, she, it (3sg)	1
 262	HE OR SHE OR IT///he/she/it	5
 2642	HE OR SHE///3S	1
 2642	HE OR SHE///3SG	1
@@ -7207,17 +7545,26 @@ ID	GLOSS	PRIORITY
 1256	HEAD///11a. head (2)	1
 1256	HEAD///HEAD	7
 1256	HEAD///Head	6
+<<<<<<< HEAD		
+1256	HEAD///head	164
+Err:510		
 1256	HEAD///head	163
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1256	HEAD///head (1)	1
 1256	HEAD///head (3)	1
 1256	HEAD///head (anatomic)	2
 1256	HEAD///head (my)	1
 1256	HEAD///head (n.)	1
+<<<<<<< HEAD		
+1256	HEAD///the head	191
+1256	HEAD///the heads	191
+Err:510		
 1256	HEAD///the head	190
 1256	HEAD///the heads	190
 3626	HEADACHE///headache	1
 3626	HEADACHE///the headache	1
 3626	HEADACHE///the headaches	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 3457	HEADBAND OR HEADDRESS///headband, headdress	2
 3457	HEADBAND OR HEADDRESS///the headband or headdress	4
 3457	HEADBAND OR HEADDRESS///the headband or headdresss	4
@@ -7369,16 +7716,24 @@ ID	GLOSS	PRIORITY
 3401	HENHOUSE///the henhouse	1
 3401	HENHOUSE///the henhouses	1
 2474	HER (GENITIVE OF SHE)///[GEN] her	1
-2474	HER (GENITIVE OF SHE)///the her (genitive of she)	1
-2474	HER (GENITIVE OF SHE)///the her (genitive of she)s	1
+2474	HER (GENITIVE OF SHE)///her	1
+2474	HER (GENITIVE OF SHE)///the her (genitive of she)	2
+2474	HER (GENITIVE OF SHE)///the her (genitive of she)s	2
 2542	HERB///the herb	0
 2542	HERB///the herbs	0
 2885	HERD (SOMETHING)///herd	3
+<<<<<<< HEAD		
+2885	HERD (SOMETHING)///to herd (something)	3
+263	HERDSMAN///herdsman	7
+263	HERDSMAN///the herdsman	9
+263	HERDSMAN///the herdsmans	9
+Err:510		
 2885	HERD (SOMETHING)///herd, tend (cattle, sheep) (v)	1
 2885	HERD (SOMETHING)///to herd (something)	4
 263	HERDSMAN///herdsman	6
 263	HERDSMAN///the herdsman	8
 263	HERDSMAN///the herdsmans	8
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 136	HERE///HERE	4
 136	HERE///Here	1
 136	HERE///here	76
@@ -7408,6 +7763,7 @@ ID	GLOSS	PRIORITY
 602	HIDE (CONCEAL)///hide — conceal	1
 602	HIDE (CONCEAL)///hide, conceal	2
 602	HIDE (CONCEAL)///hide, to	1
+602	HIDE (CONCEAL)///hide, conceal	1
 602	HIDE (CONCEAL)///to hide	2
 602	HIDE (CONCEAL)///to hide (conceal)	23
 602	HIDE (CONCEAL)///to hide (thing)	1
@@ -7662,7 +8018,7 @@ ID	GLOSS	PRIORITY
 1545	HOST///the hosts	10
 2272	HOT OR WARM///hot	2
 2272	HOT OR WARM///hot (warm)	1
-2272	HOT OR WARM///hot or warm (adjective)	15
+2272	HOT OR WARM///hot or warm (adjective)	16
 2272	HOT OR WARM///hot/warm	1
 2272	HOT OR WARM///war, hot (adj)	1
 2272	HOT OR WARM///warm	1
@@ -7673,7 +8029,7 @@ ID	GLOSS	PRIORITY
 2272	HOT OR WARM///warm, hot	1
 2272	HOT OR WARM///warm, hot (adj.)	1
 2272	HOT OR WARM///warm-hot	1
-2272	HOT OR WARM///warm/hot	1
+2272	HOT OR WARM///warm/hot	2
 2272	HOT OR WARM///warm_hot	1
 3047	HOT SEASON///the hot season	0
 3047	HOT SEASON///the hot seasons	0
@@ -7683,8 +8039,9 @@ ID	GLOSS	PRIORITY
 1286	HOT///HOT	3
 1286	HOT///Hot	1
 1286	HOT///Hot (weather)	1
-1286	HOT///hot	72
-1286	HOT///hot (adjective)	88
+1286	HOT///be hot	1
+1286	HOT///hot	73
+1286	HOT///hot (adjective)	90
 1286	HOT///hot (heat — weather)	1
 1286	HOT///hot (not cold)	1
 1286	HOT///hot (temp.)	1
@@ -7702,13 +8059,13 @@ ID	GLOSS	PRIORITY
 1252	HOUSE///HOUSE3, (DWELL)	1
 1252	HOUSE///House	5
 1252	HOUSE///casa	1
-1252	HOUSE///house	78
+1252	HOUSE///house	79
 1252	HOUSE///house (1)	1
 1252	HOUSE///house (2)	1
 1252	HOUSE///house (n.)	1
 1252	HOUSE///house : hut	1
-1252	HOUSE///the house	97
-1252	HOUSE///the houses	97
+1252	HOUSE///the house	98
+1252	HOUSE///the houses	98
 2338	HOW LONG///HOW LONG?	1
 2338	HOW LONG///how long	2
 2338	HOW LONG///how long?	1
@@ -7829,15 +8186,26 @@ ID	GLOSS	PRIORITY
 1200	HUSBAND///husband	85
 1200	HUSBAND///husband (address) (note:+citation)	1
 1200	HUSBAND///marido, esposo	1
+<<<<<<< HEAD		
+1200	HUSBAND///the husband	99
+1200	HUSBAND///the husbands	99
+Err:510		
 1200	HUSBAND///the husband	100
 1200	HUSBAND///the husbands	100
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1678	HUT///hut	6
 1678	HUT///shelter	1
 1678	HUT///the hut	9
 1678	HUT///the huts	9
+<<<<<<< HEAD		
+1799	HYENA///hyena	4
+1799	HYENA///the hyena	4
+1799	HYENA///the hyenas	4
+Err:510		
 1799	HYENA///hyena	5
 1799	HYENA///the hyena	5
 1799	HYENA///the hyenas	5
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1209	I///1S	2
 1209	I///1SG	3
 1209	I///1sg	1
@@ -7858,9 +8226,14 @@ ID	GLOSS	PRIORITY
 1209	I///I,me	1
 1209	I///I/me	1
 1209	I///I/me [first person sg. pronoun]	1
+1209	I///I (1sg)	1
 1209	I///[1P:SG] I	1
 1209	I///first person marker	1
+<<<<<<< HEAD		
+1209	I///i	184
+Err:510		
 1209	I///i	183
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1209	I///yo	1
 1209	I///¹ sG; I, me	1
 617	ICE///ICE	4
@@ -7878,10 +8251,11 @@ ID	GLOSS	PRIORITY
 1609	IDEA///the ideas	7
 2276	IDENTICAL///identical	2
 2276	IDENTICAL///identical (adjective)	2
+2756	IDLE///idle	1
 2756	IDLE///idle / not	1
 2756	IDLE///idle about (be v)	1
-2756	IDLE///the idle	2
-2756	IDLE///the idles	2
+2756	IDLE///the idle	3
+2756	IDLE///the idles	3
 1945	IDOL///figure	1
 1945	IDOL///idol	2
 1945	IDOL///the idol	5
@@ -8000,7 +8374,11 @@ ID	GLOSS	PRIORITY
 2916	INSTANTLY (IMMEDIATELY)///instantly	1
 2916	INSTANTLY (IMMEDIATELY)///instantly (immediately)	1
 1652	INSTEAD///instead	0
+<<<<<<< HEAD		
+3204	INSULT///insult, offend	1
+Err:510		
 3204	INSULT///insult (v)	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 3204	INSULT///to insult	2
 3204	INSULT///to swear, curse, abuse one another	1
 220	INTACT///intact	1
@@ -8079,11 +8457,20 @@ ID	GLOSS	PRIORITY
 50	JACK///the jack	1
 50	JACK///the jacks	1
 3313	JACKAL///JACKAL	1
+<<<<<<< HEAD		
+3313	JACKAL///jackal	7
+3313	JACKAL///the jackal	8
+3313	JACKAL///the jackals	8
+2770	JACKET///jacket	1
+2770	JACKET///the jacket	1
+2770	JACKET///the jackets	1
+Err:510		
 3313	JACKAL///jackal	8
 3313	JACKAL///the jackal	9
 3313	JACKAL///the jackals	9
 2770	JACKET///the jacket	0
 2770	JACKET///the jackets	0
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 2655	JACKFRUIT///jack fruit	1
 2655	JACKFRUIT///jackfruit	2
 2655	JACKFRUIT///jackfruit (fruit)	2
@@ -8169,7 +8556,7 @@ ID	GLOSS	PRIORITY
 2850	JULY///the july	2
 2850	JULY///the julys	2
 1829	JUMP///Jump, pulse 跳 (高),	1
-1829	JUMP///jump	11
+1829	JUMP///jump	12
 1829	JUMP///jump (1st)	1
 1829	JUMP///jump (to)	1
 1829	JUMP///jump (v)	2
@@ -8202,8 +8589,8 @@ ID	GLOSS	PRIORITY
 2499	KAPOK TREE///the kapok trees	5
 2232	KEEN OR SUBTLE///keen (of senses)	1
 2232	KEEN OR SUBTLE///keen or subtle (adjective)	1
-39	KEEN///keen	1
-39	KEEN///keen (adjective)	2
+39	KEEN///keen	2
+39	KEEN///keen (adjective)	3
 39	KEEN///to be keen of	1
 1477	KEEP///keep	6
 1477	KEEP///keep (1st)	1
@@ -8240,7 +8627,7 @@ ID	GLOSS	PRIORITY
 1417	KILL///Kill	6
 1417	KILL///TO KILL	3
 1417	KILL///To kill	1
-1417	KILL///kill	98
+1417	KILL///kill	99
 1417	KILL///kill (V)	2
 1417	KILL///kill (a person)	1
 1417	KILL///kill (as a person)	1
@@ -8253,8 +8640,12 @@ ID	GLOSS	PRIORITY
 1417	KILL///kill me	1
 1417	KILL///kill!	2
 1417	KILL///kill! (2s)	1
+<<<<<<< HEAD		
+1417	KILL///to kill	163
+Err:510		
 1417	KILL///kill, murder	1
 1417	KILL///to kill	162
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1417	KILL///to kill / kill the bird	1
 1417	KILL///to_kill	1
 1417	KILL///you kill the bird!	1
@@ -8311,7 +8702,11 @@ ID	GLOSS	PRIORITY
 1371	KNEE///(his) knee	2
 1371	KNEE///KNEE	3
 1371	KNEE///Knee	4
+<<<<<<< HEAD		
+1371	KNEE///knee	122
+Err:510		
 1371	KNEE///knee	121
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1371	KNEE///knee (1)	1
 1371	KNEE///knee (2)	1
 1371	KNEE///knee (3)	1
@@ -8319,9 +8714,15 @@ ID	GLOSS	PRIORITY
 1371	KNEE///knee (n.)	1
 1371	KNEE///knee, to bend	1
 1371	KNEE///rodilla	1
+<<<<<<< HEAD		
+1371	KNEE///the knee	143
+1371	KNEE///the knees	143
+66	KNEEL///kneel	14
+Err:510		
 1371	KNEE///the knee	142
 1371	KNEE///the knees	142
 66	KNEEL///kneel	15
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 66	KNEEL///kneel (to)	1
 66	KNEEL///to kneel	22
 2082	KNIFE (CLASSIFIER)///CLS for knife	1
@@ -8333,6 +8734,7 @@ ID	GLOSS	PRIORITY
 3210	KNIFE (FOR EATING)///the knife (for eating)	3
 3210	KNIFE (FOR EATING)///the knife (for eating)s	3
 3210	KNIFE (FOR EATING)///the knife(1)	2
+1352	KNIFE///Berta knife	1
 1352	KNIFE///KNIFE	1
 1352	KNIFE///Knife	1
 1352	KNIFE///cuchillo	1
@@ -8373,7 +8775,7 @@ ID	GLOSS	PRIORITY
 1410	KNOW (SOMETHING)///KNOW (FACTS)	3
 1410	KNOW (SOMETHING)///KNOW (VERB)	1
 1410	KNOW (SOMETHING)///Know	3
-1410	KNOW (SOMETHING)///know	90
+1410	KNOW (SOMETHING)///know	91
 1410	KNOW (SOMETHING)///know (1st)	1
 1410	KNOW (SOMETHING)///know (as in ‘I know this’)	1
 1410	KNOW (SOMETHING)///know (facts)	1
@@ -8387,10 +8789,10 @@ ID	GLOSS	PRIORITY
 1410	KNOW (SOMETHING)///know-fact	1
 1410	KNOW (SOMETHING)///know/be knowledgeable	4
 1410	KNOW (SOMETHING)///know; understand	1
-1410	KNOW (SOMETHING)///to know	24
+1410	KNOW (SOMETHING)///to know	25
 1410	KNOW (SOMETHING)///to know (a fact)	2
 1410	KNOW (SOMETHING)///to know (facts)	2
-1410	KNOW (SOMETHING)///to know (something)	151
+1410	KNOW (SOMETHING)///to know (something)	153
 1410	KNOW (SOMETHING)///to know (things, be knowledgeable)	1
 1410	KNOW (SOMETHING)///to know, be knowledgeable	2
 1410	KNOW (SOMETHING)///to_know_(facts)	1
@@ -8425,11 +8827,19 @@ ID	GLOSS	PRIORITY
 2788	LADLE (WATER)///to ladle (water)	4
 2657	LADLE///ladle	7
 2657	LADLE///ladle (bamboo) (note:+iron)	1
+<<<<<<< HEAD		
+2657	LADLE///the ladle	7
+2657	LADLE///the ladles	7
+2471	LADY///lady	4
+2471	LADY///the lady	4
+2471	LADY///the ladys	4
+Err:510		
 2657	LADLE///the ladle	8
 2657	LADLE///the ladles	8
 2471	LADY///lady	3
 2471	LADY///the lady	3
 2471	LADY///the ladys	3
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 3139	LADYBUG///ladybird	1
 3139	LADYBUG///the ladybug	1
 3139	LADYBUG///the ladybugs	1
@@ -8462,11 +8872,16 @@ ID	GLOSS	PRIORITY
 320	LAME///be lame	1
 320	LAME///lame	7
 320	LAME///lame (adjective)	8
-625	LAMP///lamp	5
+625	LAMP///lamp	6
 625	LAMP///light / lamp	1
+<<<<<<< HEAD		
+625	LAMP///the lamp	7
+625	LAMP///the lamps	7
+Err:510		
 625	LAMP///the lamp	6
 625	LAMP///the lamps	6
 1922	LAND (DESCEND)///land (v), alight	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1922	LAND (DESCEND)///land (vb)	2
 1922	LAND (DESCEND)///land / descend (simplex)	1
 1922	LAND (DESCEND)///to land	2
@@ -8578,7 +8993,11 @@ ID	GLOSS	PRIORITY
 2464	LAY EGGS///to lay eggs	7
 1564	LAZY///(be) lazy	1
 1564	LAZY///LAZY	1
+<<<<<<< HEAD		
+1564	LAZY///lazy	21
+Err:510		
 1564	LAZY///lazy	20
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1564	LAZY///lazy (adjective)	22
 627	LEAD (CHEMICAL ELEMENT)///lead	1
 627	LEAD (CHEMICAL ELEMENT)///lead (metal)	1
@@ -8755,11 +9174,11 @@ ID	GLOSS	PRIORITY
 1095	LET GO OR SET FREE///to let go	2
 1095	LET GO OR SET FREE///to let go or set free	14
 1095	LET GO OR SET FREE///to release	1
-1612	LETTER///letter	6
+1612	LETTER///letter	7
 1612	LETTER///letter (= epistle)	1
 1612	LETTER///letter (of the alphabet)	1
-1612	LETTER///the letter	10
-1612	LETTER///the letters	10
+1612	LETTER///the letter	11
+1612	LETTER///the letters	11
 3469	LEVEL///level	3
 3469	LEVEL///the level	3
 3469	LEVEL///the levels	3
@@ -8976,10 +9395,17 @@ ID	GLOSS	PRIORITY
 1386	LION///the lions	27
 478	LIP///LIP	1
 478	LIP///lip	29
+<<<<<<< HEAD		
+478	LIP///lips	6
+478	LIP///the lip	40
+478	LIP///the lip (the lips)	2
+478	LIP///the lips	40
+Err:510		
 478	LIP///lips	5
 478	LIP///the lip	39
 478	LIP///the lip (the lips)	2
 478	LIP///the lips	39
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 3093	LIPSTICK///lipstick	2
 3093	LIPSTICK///the lipstick	2
 3093	LIPSTICK///the lipsticks	2
@@ -9044,11 +9470,20 @@ ID	GLOSS	PRIORITY
 1596	LOCK///lock	6
 1596	LOCK///lock (noun)	2
 1596	LOCK///lock (sb.)	1
+<<<<<<< HEAD		
+1596	LOCK///lock (n.)	1
+1596	LOCK///the lock	12
+1596	LOCK///the locks	12
+810	LOCUST///locust	8
+810	LOCUST///the locust	8
+810	LOCUST///the locusts	8
+Err:510		
 1596	LOCK///the lock	11
 1596	LOCK///the locks	11
 810	LOCUST///locust	9
 810	LOCUST///the locust	9
 810	LOCUST///the locusts	9
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 2429	LOGIC///logic	1
 2429	LOGIC///the logic	1
 2429	LOGIC///the logics	1
@@ -9076,7 +9511,7 @@ ID	GLOSS	PRIORITY
 1203	LONG///LONG (distance)	1
 1203	LONG///LONG2	1
 1203	LONG///Long	3
-1203	LONG///long	147
+1203	LONG///long	148
 1203	LONG///long (adj)	2
 1203	LONG///long (adjective)	173
 1203	LONG///long (horizontal)	1
@@ -9296,7 +9731,7 @@ ID	GLOSS	PRIORITY
 506	MAIZE///corn, maize	1
 506	MAIZE///corn,maize	1
 506	MAIZE///corn/maize	1
-506	MAIZE///maize	7
+506	MAIZE///maize	8
 506	MAIZE///maize / corn	1
 506	MAIZE///maize, corn	4
 506	MAIZE///maíz	1
@@ -9318,7 +9753,7 @@ ID	GLOSS	PRIORITY
 2895	MAKE NOISE///to make noise	0
 734	MAKE///create, make	1
 734	MAKE///made	1
-734	MAKE///make	11
+734	MAKE///make	12
 734	MAKE///make (to)	1
 734	MAKE///make (v)	1
 734	MAKE///make / cause	1
@@ -9367,7 +9802,7 @@ ID	GLOSS	PRIORITY
 1554	MAN///MAN (MALE)	3
 1554	MAN///Man	6
 1554	MAN///adult (male) (note:+male)	1
-1554	MAN///man	107
+1554	MAN///man	108
 1554	MAN///man (1)	1
 1554	MAN///man (2)	1
 1554	MAN///man (adult male human)	2
@@ -9428,7 +9863,11 @@ ID	GLOSS	PRIORITY
 1198	MANY///Many	3
 1198	MANY///Many, much	2
 1198	MANY///NUMEROUS	1
+<<<<<<< HEAD		
+1198	MANY///many	146
+Err:510		
 1198	MANY///many	145
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1198	MANY///many (as in ‘many stones’)	1
 1198	MANY///many (people)	1
 1198	MANY///many (things)	2
@@ -9829,9 +10268,12 @@ ID	GLOSS	PRIORITY
 1559	"MONEY///money (lit. 'conch shell') (note:""shells"")"	1
 1559	MONEY///the money	24
 1559	MONEY///the moneys	24
+<<<<<<< HEAD		
+Err:510		
 3678	MONGOOSE///mongoose	1
 3678	MONGOOSE///the mongoose	1
 3678	MONGOOSE///the mongooses	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 3017	MONITOR LIZARD///goanna	3
 3017	MONITOR LIZARD///monitor lizard	2
 3017	MONITOR LIZARD///the monitor lizard	5
@@ -9859,10 +10301,17 @@ ID	GLOSS	PRIORITY
 1313	MOON///MOON	4
 1313	MOON///Moon	9
 1313	MOON///luna	1
+<<<<<<< HEAD		
+1313	MOON///moon	159
+1313	MOON///moon (n.)	1
+1313	MOON///the moon	179
+1313	MOON///the moons	179
+Err:510		
 1313	MOON///moon	158
 1313	MOON///moon (n.)	1
 1313	MOON///the moon	178
 1313	MOON///the moons	178
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 2962	MOORLAND///moor	1
 2962	MOORLAND///the moorland	1
 2962	MOORLAND///the moorlands	1
@@ -9983,9 +10432,12 @@ ID	GLOSS	PRIORITY
 639	MOUNTAIN///mountain(stone)	1
 639	MOUNTAIN///the mountain	146
 639	MOUNTAIN///the mountains	146
+<<<<<<< HEAD		
+Err:510		
 3674	MOURNING///mourning	1
 3674	MOURNING///the mourning	1
 3674	MOURNING///the mournings	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1491	MOUSE///Mouse	1
 1491	MOUSE///mouse	19
 1491	MOUSE///rat	1
@@ -10002,15 +10454,24 @@ ID	GLOSS	PRIORITY
 674	MOUTH///MOUTH2	1
 674	MOUTH///MOUTH3	1
 674	MOUTH///Mouth	8
+<<<<<<< HEAD		
+674	MOUTH///mouth	167
+Err:510		
 674	MOUTH///mouth	166
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 674	MOUTH///mouth (my)	1
 674	MOUTH///mouth (n.)	1
 674	MOUTH///mouth (of a person)	1
 674	MOUTH///mouth (opening) (note:mouth  |  opening)	1
 674	MOUTH///mouth1	1
 674	MOUTH///mouth2	1
+<<<<<<< HEAD		
+674	MOUTH///the mouth	194
+674	MOUTH///the mouths	194
+Err:510		
 674	MOUTH///the mouth	193
 674	MOUTH///the mouths	193
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 2728	MOUTHFUL (CLASSIFIER)///mouthful (classifier) (classifier)	1
 2728	MOUTHFUL (CLASSIFIER)///time / instance (of biting)	1
 2873	MOVE (AFFECT EMOTIONALLY)///move	1
@@ -10046,7 +10507,7 @@ ID	GLOSS	PRIORITY
 190	MOW///to cut (grass)	1
 190	MOW///to mow	10
 190	MOW///to reap	1
-3452	MUCH///much	3
+3452	MUCH///much	4
 640	MUD///earth 1 (primarily mud clay)	1
 640	MUD///mud	35
 640	MUD///the mud	41
@@ -10073,9 +10534,9 @@ ID	GLOSS	PRIORITY
 3152	MUNTJACS///muntjak deer	1
 3152	MUNTJACS///the muntjacs	6
 3152	MUNTJACS///the muntjacss	6
-845	MURDER///murder	4
-845	MURDER///the murder	6
-845	MURDER///the murders	6
+845	MURDER///murder	5
+845	MURDER///the murder	7
+845	MURDER///the murders	7
 2139	MUROID (MOUSE OR RAT)///RAT, MOUSE	1
 2139	MUROID (MOUSE OR RAT)///mouse	3
 2139	MUROID (MOUSE OR RAT)///mouse, rat	3
@@ -10123,7 +10584,8 @@ ID	GLOSS	PRIORITY
 1666	MUTE///mute	5
 1666	MUTE///mute (adjective)	6
 2090	MY///[GEN] my	1
-2090	MY///my	6
+2090	MY///mine	1
+2090	MY///my	7
 2641	MYTHICAL BEING///the mythical being	0
 2641	MYTHICAL BEING///the mythical beings	0
 502	NAIL (TOOL)///nail	7
@@ -10222,7 +10684,11 @@ ID	GLOSS	PRIORITY
 1333	NECK///neck (n.)	1
 1333	NECK///the neck	169
 1333	NECK///the necks	169
+<<<<<<< HEAD		
+1961	NECKLACE///necklace	8
+Err:510		
 1961	NECKLACE///necklace	9
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1961	NECKLACE///necklace / necklet (male's) (note:+male)	1
 1961	NECKLACE///the necklace	12
 1961	NECKLACE///the necklaces	12
@@ -10251,11 +10717,19 @@ ID	GLOSS	PRIORITY
 1332	NEIGHBOUR///the neighbours	8
 1063	NEPHEW///nephew	7
 1063	NEPHEW///nephew/nephew (brother's son / sister's son)	1
+<<<<<<< HEAD		
+1063	NEPHEW///the nephew	9
+1063	NEPHEW///the nephews	9
+2626	NERVE///nerve	3
+2626	NERVE///the nerve	3
+2626	NERVE///the nerves	3
+Err:510		
 1063	NEPHEW///the nephew	10
 1063	NEPHEW///the nephews	10
 2626	NERVE///nerve	2
 2626	NERVE///the nerve	2
 2626	NERVE///the nerves	2
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 539	NEST///Nest	1
 539	NEST///bird's nest	1
 539	NEST///nest	14
@@ -10267,9 +10741,9 @@ ID	GLOSS	PRIORITY
 2653	NET (FOR CATCHING)///net	3
 2653	NET (FOR CATCHING)///the net (for catching)	4
 2653	NET (FOR CATCHING)///the net (for catching)s	4
-2963	NET///net	5
-2963	NET///the net	5
-2963	NET///the nets	5
+2963	NET///net	6
+2963	NET///the net	6
+2963	NET///the nets	6
 293	NETBAG///net (bag)	1
 293	NETBAG///net bag	4
 293	NETBAG///net bag (see also amji)	1
@@ -10290,8 +10764,13 @@ ID	GLOSS	PRIORITY
 1231	NEW///(be) new	1
 1231	NEW///NEW	8
 1231	NEW///New	5
+<<<<<<< HEAD		
+1231	NEW///new	160
+1231	NEW///new (adjective)	180
+Err:510		
 1231	NEW///new	158
 1231	NEW///new (adjective)	179
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1231	NEW///new (as in ‘new clothes‘)	1
 1231	NEW///new (house)	1
 1231	NEW///new (thing)	2
@@ -10338,7 +10817,10 @@ ID	GLOSS	PRIORITY
 1483	NINE///Nine	5
 1483	NINE///[CL] *nine	1
 1483	NINE///nine	74
+<<<<<<< HEAD		
+Err:510		
 1483	NINE///nine (9)	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1483	NINE///nine (people)	1
 1483	NINE///nine (persons)	1
 1714	NINETEEN///19	2
@@ -10439,7 +10921,7 @@ ID	GLOSS	PRIORITY
 1240	NOT///NOT	5
 1240	NOT///Not	3
 1240	NOT///no, not	1
-1240	NOT///not	109
+1240	NOT///not	111
 1240	NOT///not (NEG)	1
 1240	NOT///not (as in ‘not new’)	1
 1240	NOT///not [basic negation, particle or negative verbal stem/suffix]	1
@@ -10704,8 +11186,12 @@ ID	GLOSS	PRIORITY
 1493	ONE///ONE	8
 1493	ONE///One	11
 1493	ONE///[CL] *one	1
+<<<<<<< HEAD		
+1493	ONE///one	197
+Err:510		
 1493	ONE///one	196
 1493	ONE///one (1)	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1493	ONE///one (numeral)	1
 1493	ONE///one (person)	2
 1493	ONE///one (thing)	2
@@ -10729,7 +11215,7 @@ ID	GLOSS	PRIORITY
 3235	OPEN (STATE)///open	1
 3235	OPEN (STATE)///open (state) (adjective)	3
 1156	OPEN///Open (the door)	1
-1156	OPEN///open	17
+1156	OPEN///open	18
 1156	OPEN///open (V)	2
 1156	OPEN///open (door)	1
 1156	OPEN///open (door, lock) (note:unlock)	1
@@ -10757,7 +11243,7 @@ ID	GLOSS	PRIORITY
 885	OPPOSITE///opposite (adjective)	3
 401	OPPRESS///oppress (vt)	1
 401	OPPRESS///to oppress	2
-1014	OR///or	6
+1014	OR///or	7
 2674	ORAL CAVITY///oral cavity	1
 2674	ORAL CAVITY///the oral cavity	1
 2674	ORAL CAVITY///the oral cavitys	1
@@ -10797,18 +11283,22 @@ ID	GLOSS	PRIORITY
 197	OTHER///another	2
 197	OTHER///another (thing)	1
 197	OTHER///other	63
+<<<<<<< HEAD		
+Err:510		
 197	OTHER///other (men)	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 197	OTHER///other adj.	1
 197	OTHER///other person(s)	1
+197	OTHER///other, another	1
 15	OTTER///otter	13
 15	OTTER///otter (Lutra lutra)	1
 15	OTTER///the otter	16
 15	OTTER///the otters	16
 780	OUR///[GEN] our	2
-780	OUR///our	7
+780	OUR///our	8
 780	OUR///our pl. excl.	1
 780	OUR///our pl. incl.	1
-780	OUR///ours	1
+780	OUR///ours	2
 416	OUTRIGGER///outrigger	2
 416	OUTRIGGER///the outrigger	4
 416	OUTRIGGER///the outriggers	4
@@ -10979,14 +11469,20 @@ ID	GLOSS	PRIORITY
 2445	PAPAYA///PAPAYA	1
 2445	PAPAYA///papaya	9
 2445	PAPAYA///papaya (fruit)	1
+<<<<<<< HEAD		
+2445	PAPAYA///the papaya	11
+2445	PAPAYA///the papayas	11
+648	PAPER///paper	17
+Err:510		
 2445	PAPAYA///pawpaw, papaya	1
 2445	PAPAYA///the papaya	12
 2445	PAPAYA///the papayas	12
 648	PAPER///paper	16
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 648	PAPER///paper (for writing)	1
 648	PAPER///paper, cord	2
-648	PAPER///the paper	21
-648	PAPER///the papers	21
+648	PAPER///the paper	22
+648	PAPER///the papers	22
 886	PARAKEET///parakeet	1
 886	PARAKEET///perico, pihuicho	1
 886	PARAKEET///the parakeet	2
@@ -10998,6 +11494,17 @@ ID	GLOSS	PRIORITY
 505	PARENTS///the parentss	9
 882	PARROT///PARROT	1
 882	PARROT///loro	1
+<<<<<<< HEAD		
+882	PARROT///parrot	8
+882	PARROT///the parrot	12
+882	PARROT///the parrots	12
+779	PART///part	4
+779	PART///part (n.)	1
+779	PART///part / portion / share	1
+779	PART///part, piece	2
+779	PART///the part	10
+779	PART///the parts	10
+Err:510		
 882	PARROT///parrot	9
 882	PARROT///the parrot	13
 882	PARROT///the parrots	13
@@ -11009,6 +11516,7 @@ ID	GLOSS	PRIORITY
 779	PART///the parts	9
 3682	PARTRIDGE///partridge	1
 3682	PARTRIDGE///to partridge	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 558	PASS BY///pass by	2
 558	PASS BY///to pass by	4
 1951	PASS///go by (two years) / pass	1
@@ -11063,6 +11571,7 @@ ID	GLOSS	PRIORITY
 2174	PATERNAL UNCLE (FATHER'S YOUNGER BROTHER)///uncle (paternal, younger)	1
 2457	PATH OR ROAD///path, road	2
 2457	PATH OR ROAD///path, trail	1
+2457	PATH OR ROAD///path/road	1
 2457	PATH OR ROAD///path; road	1
 2457	PATH OR ROAD///road	5
 2457	PATH OR ROAD///road — path	1
@@ -11076,10 +11585,10 @@ ID	GLOSS	PRIORITY
 2252	PATH///PATH, ROAD, TRAIL	1
 2252	PATH///PATH2, ROAD, TRAIL	1
 2252	PATH///Path	1
-2252	PATH///path	47
+2252	PATH///path	48
 2252	PATH///road/trail	1
-2252	PATH///the path	57
-2252	PATH///the paths	57
+2252	PATH///the path	58
+2252	PATH///the paths	58
 2252	PATH///trocha	1
 3375	PATIENT (SICK PERSON)///patient	1
 3375	PATIENT (SICK PERSON)///the patient (sick person)	1
@@ -11123,12 +11632,18 @@ ID	GLOSS	PRIORITY
 2364	PEANUT///groundnut	4
 2364	PEANUT///groundnut, peanut	1
 2364	PEANUT///peanut	9
+<<<<<<< HEAD		
+2364	PEANUT///the peanut	14
+2364	PEANUT///the peanuts	14
+922	PEAR///pear	8
+Err:510		
 2364	PEANUT///the peanut	15
 2364	PEANUT///the peanuts	15
 922	PEAR///pear	7
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 922	PEAR///pear (flat: Ch. 'bian3 li2') (note:+small +yellow)	1
-922	PEAR///the pear	8
-922	PEAR///the pears	8
+922	PEAR///the pear	9
+922	PEAR///the pears	9
 3325	PEARL///pearl	1
 3325	PEARL///the pearl	1
 3325	PEARL///the pearls	1
@@ -11149,9 +11664,16 @@ ID	GLOSS	PRIORITY
 275	PEEL///peel off (paint)	1
 275	PEEL///peel,husk	1
 275	PEEL///skin / flay	1
+<<<<<<< HEAD		
+275	PEEL///to peel	15
+361	PEG///peg	1
+361	PEG///the peg	3
+361	PEG///the pegs	3
+Err:510		
 275	PEEL///to peel	16
 361	PEG///the peg	2
 361	PEG///the pegs	2
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 472	PELICAN///Pelican	1
 472	PELICAN///pelican	4
 472	PELICAN///the pelican	5
@@ -11238,7 +11760,7 @@ ID	GLOSS	PRIORITY
 683	PERSON///man (person)	1
 683	PERSON///man / human being	1
 683	PERSON///man SW person	1
-683	PERSON///person	98
+683	PERSON///person	99
 683	PERSON///person (=human being)	1
 683	PERSON///person (e.g. room for one person only)	1
 683	PERSON///person (human being)	2
@@ -11328,7 +11850,7 @@ ID	GLOSS	PRIORITY
 1337	PIG///Hog	1
 1337	PIG///PIG	2
 1337	PIG///Pig	1
-1337	PIG///hog	1
+1337	PIG///hog	2
 1337	PIG///hog; swine	1
 1337	PIG///pig	57
 1337	PIG///pig (Sus scrofa)	1
@@ -11515,14 +12037,18 @@ ID	GLOSS	PRIORITY
 3125	PLAY (GAME)///to play (game)	3
 3124	PLAY (INSTRUMENT)///play [the piano]	2
 3124	PLAY (INSTRUMENT)///play instr.	1
+<<<<<<< HEAD		
+Err:510		
 3124	PLAY (INSTRUMENT)///play instrument	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 3124	PLAY (INSTRUMENT)///to play (instrument)	5
 3124	PLAY (INSTRUMENT)///to play (music)	1
+3124	PLAY (INSTRUMENT)///to play (an instrument)	1
 1413	PLAY///(they) play	1
 1413	PLAY///PLAY (VERB)	1
 1413	PLAY///Play	1
 1413	PLAY///TO PLAY	3
-1413	PLAY///play	45
+1413	PLAY///play	46
 1413	PLAY///play (1st)	1
 1413	PLAY///play (child)	2
 1413	PLAY///play (child) (intr)	1
@@ -11546,6 +12072,7 @@ ID	GLOSS	PRIORITY
 2154	PLOUGH (INSTRUMENT)///the plough (instrument)	17
 2154	PLOUGH (INSTRUMENT)///the plough (instrument)s	17
 1921	PLOUGH///TO PLOW	1
+1921	PLOUGH///cultivate, plough	1
 1921	PLOUGH///plough	1
 1921	PLOUGH///plough (field)	1
 1921	PLOUGH///plough (v)	1
@@ -11553,11 +12080,19 @@ ID	GLOSS	PRIORITY
 1921	PLOUGH///plough; till	1
 1921	PLOUGH///plow	6
 1921	PLOUGH///plow (vb.)	1
-1921	PLOUGH///to plough	24
+1921	PLOUGH///to plough	25
 1921	PLOUGH///to plough/plow	2
 1921	PLOUGH///to plow	1
 2744	PLUM BLOSSOM///the plum blossom	0
 2744	PLUM BLOSSOM///the plum blossoms	0
+<<<<<<< HEAD		
+1851	POCKET///pocket	5
+1851	POCKET///the pocket	7
+1851	POCKET///the pockets	7
+1045	POET///poet	5
+1045	POET///the poet	7
+1045	POET///the poets	7
+Err:510		
 3671	PLUNDER///plunder (a town)	1
 3671	PLUNDER///to plunder	1
 1851	POCKET///pocket	6
@@ -11566,6 +12101,7 @@ ID	GLOSS	PRIORITY
 1045	POET///poet	4
 1045	POET///the poet	6
 1045	POET///the poets	6
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 541	POETRY///poetry	2
 541	POETRY///the poetry	2
 541	POETRY///the poetrys	2
@@ -11590,14 +12126,19 @@ ID	GLOSS	PRIORITY
 372	POINTED///sharp (point)	1
 372	POINTED///sharp, pointed	1
 655	POISON///POISON	1
-655	POISON///poison	16
+655	POISON///poison	17
 655	POISON///poison (antifood)	1
 655	POISON///poison (n)	1
 655	POISON///poison (on arrow)	1
 655	POISON///poison / toxin	1
 655	POISON///poison [antifood]	1
+<<<<<<< HEAD		
+655	POISON///the poison	23
+655	POISON///the poisons	23
+Err:510		
 655	POISON///the poison	24
 655	POISON///the poisons	24
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 888	POISONOUS///poisonous	1
 888	POISONOUS///poisonous (adjective)	1
 3143	POLAR BEAR///polar bear	1
@@ -11765,7 +12306,11 @@ ID	GLOSS	PRIORITY
 618	PRECIPICE///the cliff or precipice	2
 618	PRECIPICE///the precipice	4
 618	PRECIPICE///the precipices	4
+<<<<<<< HEAD		
+1123	PREGNANT///be pregnant	1
+Err:510		
 1123	PREGNANT///(be) pregnant	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1123	PREGNANT///carry (child)	1
 1123	PREGNANT///pregnant	9
 1123	PREGNANT///pregnant (adjective)	12
@@ -11832,12 +12377,20 @@ ID	GLOSS	PRIORITY
 1281	PRISON///the prisons	12
 1072	PRISONER///captive, prisoner	4
 1072	PRISONER///captive; prisoner (of war)	1
+<<<<<<< HEAD		
+1072	PRISONER///prisoner	1
+Err:510		
 1072	PRISONER///prisoner, captive	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1072	PRISONER///the captive or prisoner	2
 1072	PRISONER///the prisoner	8
 1072	PRISONER///the prisoners	8
 2425	PROBLEM///problem	2
+<<<<<<< HEAD		
+2425	PROBLEM///problem, disturbance	1
+Err:510		
 2425	PROBLEM///problem, trouble	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 2425	PROBLEM///the problem	3
 2425	PROBLEM///the problems	3
 2886	PRODUCE///produce	2
@@ -11866,9 +12419,13 @@ ID	GLOSS	PRIORITY
 174	PROUD///jealousy; proud	1
 174	PROUD///proud	8
 174	PROUD///proud (adjective)	11
+<<<<<<< HEAD		
+174	PROUD///proud, conceited	1
+Err:510		
 3647	PROVERB///proverb	1
 3647	PROVERB///the proverb	1
 3647	PROVERB///the proverbs	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 36	PUBIC HAIR///pubic hair	5
 36	PUBIC HAIR///the pubic hair	7
 36	PUBIC HAIR///the pubic hairs	7
@@ -11928,14 +12485,19 @@ ID	GLOSS	PRIORITY
 1891	PUMA///the pumas	3
 864	PUMPKIN///SQUASH/PUMPKIN	1
 864	PUMPKIN///Squash	1
-864	PUMPKIN///pumpkin	9
+864	PUMPKIN///pumpkin	10
 864	PUMPKIN///pumpkin, squash	2
-864	PUMPKIN///the pumpkin	15
+864	PUMPKIN///the pumpkin	16
 864	PUMPKIN///the pumpkin or squash	2
+<<<<<<< HEAD		
+864	PUMPKIN///the pumpkins	16
+390	PUNISHMENT///penalty, punishment	2
+Err:510		
 864	PUMPKIN///the pumpkins	15
 3650	PUNISH///punish	1
 3650	PUNISH///to punish	1
 390	PUNISHMENT///penalty, punishment	3
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 390	PUNISHMENT///penalty; punish; punishment	1
 390	PUNISHMENT///the penalty or punishment	2
 390	PUNISHMENT///the punishment	6
@@ -12063,9 +12625,9 @@ ID	GLOSS	PRIORITY
 995	QUIVER///the quivers	0
 1136	RABBIT///RABBIT	1
 1136	RABBIT///Rabbit	1
-1136	RABBIT///rabbit	27
-1136	RABBIT///the rabbit	31
-1136	RABBIT///the rabbits	31
+1136	RABBIT///rabbit	28
+1136	RABBIT///the rabbit	32
+1136	RABBIT///the rabbits	32
 2203	RABID///rabid	1
 2203	RABID///rabid (adjective)	1
 2206	RABIES///the rabies	0
@@ -12078,8 +12640,9 @@ ID	GLOSS	PRIORITY
 3096	RACKET///the racket	2
 3096	RACKET///the rackets	2
 2585	RACQUET///Racquet	2
-2585	RACQUET///the racquet	2
-2585	RACQUET///the racquets	2
+2585	RACQUET///racquet	1
+2585	RACQUET///the racquet	3
+2585	RACQUET///the racquets	3
 1315	RADIO///the radio	2
 1315	RADIO///the radios	2
 2365	RADISH///raddish	1
@@ -12101,7 +12664,11 @@ ID	GLOSS	PRIORITY
 332	RAG///the rags	5
 658	RAIN (PRECIPITATION)///Rain	2
 658	RAIN (PRECIPITATION)///Rain (n.)	1
+<<<<<<< HEAD		
+658	RAIN (PRECIPITATION)///rain	85
+Err:510		
 658	RAIN (PRECIPITATION)///rain	84
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 658	RAIN (PRECIPITATION)///rain (N)	2
 658	RAIN (PRECIPITATION)///rain (n)	4
 658	RAIN (PRECIPITATION)///rain (n.)	2
@@ -12109,8 +12676,13 @@ ID	GLOSS	PRIORITY
 658	RAIN (PRECIPITATION)///rain (noun)	2
 658	RAIN (PRECIPITATION)///rain [nn]	1
 658	RAIN (PRECIPITATION)///the rain	5
+<<<<<<< HEAD		
+658	RAIN (PRECIPITATION)///the rain (precipitation)	105
+658	RAIN (PRECIPITATION)///the rain (precipitation)s	105
+Err:510		
 658	RAIN (PRECIPITATION)///the rain (precipitation)	104
 658	RAIN (PRECIPITATION)///the rain (precipitation)s	104
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1253	RAIN (RAINING)///RAIN (VERB)	1
 1253	RAIN (RAINING)///Rain	1
 1253	RAIN (RAINING)///TO RAIN	3
@@ -12183,8 +12755,12 @@ ID	GLOSS	PRIORITY
 2497	RATTAN///rattan	6
 2497	RATTAN///the rattan	10
 2497	RATTAN///the rattans	10
+<<<<<<< HEAD		
+300	RATTLE///rattle	4
+Err:510		
 300	RATTLE///rattle	3
 300	RATTLE///rattle (musical instrument)	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 300	RATTLE///sonajero, maraca	1
 300	RATTLE///the rattle	7
 300	RATTLE///the rattles	7
@@ -12237,9 +12813,15 @@ ID	GLOSS	PRIORITY
 156	RED///(be) red	1
 156	RED///RED	6
 156	RED///Red	7
+156	RED///be red	1
 156	RED///colour term red	1
+<<<<<<< HEAD		
+156	RED///red	150
+156	RED///red (adjective)	170
+Err:510		
 156	RED///red	149
 156	RED///red (adjective)	169
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 156	RED///red (colour)	3
 156	RED///red (thing)	2
 3051	REED PIPE///the reed pipe	0
@@ -12255,13 +12837,18 @@ ID	GLOSS	PRIORITY
 49	REFUSE///refuse	8
 49	REFUSE///refuse (vb.)	1
 49	REFUSE///refuse, say no	1
+<<<<<<< HEAD		
+49	REFUSE///to refuse	11
+1875	REGRET///be sorry	1
+Err:510		
 49	REFUSE///to refuse	12
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1875	REGRET///regret	2
 1875	REGRET///regret (vb.); repent	1
 1875	REGRET///regret, be sorry	2
 1875	REGRET///repent	1
 1875	REGRET///sorry	2
-1875	REGRET///to regret	11
+1875	REGRET///to regret	12
 1875	REGRET///to regret or be sorry	2
 1876	REINDEER///the reindeer	2
 1876	REINDEER///the reindeer/caribou	2
@@ -12354,6 +12941,10 @@ ID	GLOSS	PRIORITY
 168	REST///rest	9
 168	REST///rest (v)	1
 168	REST///rest (while on the road)	1
+<<<<<<< HEAD		
+168	REST///rest (v.)	1
+Err:510		
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 168	REST///to rest	20
 1723	RESULT IN///to result in	2
 1723	RESULT IN///turn out	1
@@ -12437,9 +13028,9 @@ ID	GLOSS	PRIORITY
 712	RICH///rich (adjective)	20
 712	RICH///rich/rich (富裕)	1
 712	RICH///wealthy	1
-2970	RIDDLE///riddle	1
-2970	RIDDLE///the riddle	1
-2970	RIDDLE///the riddles	1
+2970	RIDDLE///riddle	2
+2970	RIDDLE///the riddle	2
+2970	RIDDLE///the riddles	2
 367	RIDE///Ride	1
 367	RIDE///ride	11
 367	RIDE///ride (a horse)	1
@@ -12506,7 +13097,11 @@ ID	GLOSS	PRIORITY
 178	RIPE///RIPE	1
 178	RIPE///become soft (ripe)	1
 178	RIPE///done, ripe	1
+<<<<<<< HEAD		
+178	RIPE///ripe	26
+Err:510		
 178	RIPE///ripe	25
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 178	RIPE///ripe (adjective)	36
 178	RIPE///ripe (v.)	1
 178	RIPE///ripe, be (melons, nuts, etc.)	1
@@ -12616,9 +13211,9 @@ ID	GLOSS	PRIORITY
 3376	ROBBER///robber	1
 3376	ROBBER///the robber	1
 3376	ROBBER///the robbers	1
-2402	ROBIN///robin	1
-2402	ROBIN///the robin	1
-2402	ROBIN///the robins	1
+2402	ROBIN///robin	2
+2402	ROBIN///the robin	2
+2402	ROBIN///the robins	2
 668	ROCK///rock	4
 668	ROCK///rock (large)	1
 668	ROCK///the rock	5
@@ -12686,6 +13281,7 @@ ID	GLOSS	PRIORITY
 1728	ROTTEN///(be) rotten	1
 1728	ROTTEN///ROTTEN	2
 1728	ROTTEN///ROTTEN (LOG)	3
+1728	ROTTEN///be spoiled, rotten	1
 1728	ROTTEN///rotten	61
 1728	ROTTEN///rotten (adj)	1
 1728	ROTTEN///rotten (adjective)	78
@@ -12701,7 +13297,11 @@ ID	GLOSS	PRIORITY
 259	ROUGH (OF SEA)///rough(2)	2
 1923	ROUGH///(be) rough	1
 1923	ROUGH///ROUGH	1
+<<<<<<< HEAD		
+1923	ROUGH///rough	7
+Err:510		
 1923	ROUGH///rough	6
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1923	ROUGH///rough (adjective)	12
 1923	ROUGH///rough /	1
 1923	ROUGH///rough(1)	2
@@ -12710,7 +13310,7 @@ ID	GLOSS	PRIORITY
 1395	ROUND///ROUND	2
 1395	ROUND///Round	1
 1395	ROUND///circle / circular (planar)	1
-1395	ROUND///round	95
+1395	ROUND///round	96
 1395	ROUND///round (adj)	1
 1395	ROUND///round (adj.)	1
 1395	ROUND///round (adjective)	104
@@ -12753,8 +13353,12 @@ ID	GLOSS	PRIORITY
 292	RUG///the rug	4
 292	RUG///the rugs	4
 1846	RULE///govern; rule	1
+<<<<<<< HEAD		
+1846	RULE///rule	2
+Err:510		
 1846	RULE///rule	1
 1846	RULE///rule over, dominate	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1846	RULE///rule, govern	2
 1846	RULE///to govern, control, rule	1
 1846	RULE///to rule	8
@@ -12762,11 +13366,17 @@ ID	GLOSS	PRIORITY
 3405	RULER///ruler (measure)	1
 3405	RULER///the ruler	1
 3405	RULER///the rulers	1
+<<<<<<< HEAD		
+2833	RUM///rum	2
+2833	RUM///the rum	2
+2833	RUM///the rums	2
+Err:510		
 2833	RUM///rum	1
 2833	RUM///the rum	1
 2833	RUM///the rums	1
 3681	RUMINATE///ruminate, chew cud	1
 3681	RUMINATE///to ruminate	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 63	RUMOUR///rumour	1
 63	RUMOUR///the rumour	1
 63	RUMOUR///the rumours	1
@@ -12820,9 +13430,9 @@ ID	GLOSS	PRIORITY
 699	SAD///sad	11
 699	SAD///sad (adjective)	14
 699	SAD///unhappy	1
-3065	SADDLE///saddle	3
-3065	SADDLE///the saddle	3
-3065	SADDLE///the saddles	3
+3065	SADDLE///saddle	4
+3065	SADDLE///the saddle	4
+3065	SADDLE///the saddles	4
 2802	SAGO GRUB///sago grub	1
 2802	SAGO GRUB///the sago grub	1
 2802	SAGO GRUB///the sago grubs	1
@@ -12891,11 +13501,19 @@ ID	GLOSS	PRIORITY
 3019	SAND HILL///the sand hills	1
 671	SAND///SAND	7
 671	SAND///Sand	5
+<<<<<<< HEAD		
+671	SAND///sand	142
+671	SAND///sand (n.)	1
+671	SAND///sand(fine)	1
+671	SAND///the sand	160
+671	SAND///the sands	160
+Err:510		
 671	SAND///sand	141
 671	SAND///sand (n.)	1
 671	SAND///sand(fine)	1
 671	SAND///the sand	159
 671	SAND///the sands	159
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 95	SANDFLY///sandfly (midge), gnat	2
 95	SANDFLY///the sandfly	4
 95	SANDFLY///the sandfly or midge or gnat	2
@@ -13041,6 +13659,7 @@ ID	GLOSS	PRIORITY
 1436	SCRATCH///scratch (v, fingernail)	1
 1436	SCRATCH///scratch (v.)	1
 1436	SCRATCH///scratch oneself	2
+1436	SCRATCH///scratch, scrape off	1
 1436	SCRATCH///scratch/scrape	1
 1436	SCRATCH///to scratch	85
 1436	SCRATCH///to scratch (an itch)	2
@@ -13176,16 +13795,27 @@ ID	GLOSS	PRIORITY
 1571	SELL///sell	25
 1571	SELL///sell (vt)	1
 1571	SELL///to sell	37
+<<<<<<< HEAD		
+2283	SEMEN///semen	1
+2283	SEMEN///the semen	1
+2283	SEMEN///the semens	1
+1127	SEND///send	10
+Err:510		
 2283	SEMEN///semen	2
 2283	SEMEN///the semen	2
 2283	SEMEN///the semens	2
 1127	SEND///send	9
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1127	SEND///send (a letter)	1
 1127	SEND///send (him)	2
 1127	SEND///send (someone to do something)	1
 1127	SEND///send (something to someone)	1
 1127	SEND///send (v)	1
+<<<<<<< HEAD		
+1127	SEND///to send	17
+Err:510		
 1127	SEND///to send	18
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 2572	SENSE (PERCEIVE BY SENSES)///perceive (by senses); sense (perception)	1
 2572	SENSE (PERCEIVE BY SENSES)///sense	1
 2572	SENSE (PERCEIVE BY SENSES)///to sense (perceive by senses)	2
@@ -13273,6 +13903,10 @@ ID	GLOSS	PRIORITY
 1457	SEW///sew (v)	1
 1457	SEW///sew (v.)	1
 1457	SEW///sew, to	1
+<<<<<<< HEAD		
+1457	SEW///sew, mend	1
+Err:510		
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1457	SEW///to sew	101
 1457	SEW///to sew (clothing)	1
 1457	SEW///to_sew	1
@@ -13355,14 +13989,18 @@ ID	GLOSS	PRIORITY
 1396	SHARP///to be sharp	1
 251	SHARPEN (SOMETHING)///Whet (a knife)	1
 251	SHARPEN (SOMETHING)///rub; sharpen	1
-251	SHARPEN (SOMETHING)///sharpen	5
+251	SHARPEN (SOMETHING)///sharpen	6
 251	SHARPEN (SOMETHING)///sharpen (grinding)	1
 251	SHARPEN (SOMETHING)///sharpen (knife)	1
 251	SHARPEN (SOMETHING)///sharpen a bow	1
 251	SHARPEN (SOMETHING)///sharpen a point	1
 251	SHARPEN (SOMETHING)///sharpen, bring to point (arrow)	1
 251	SHARPEN (SOMETHING)///to sharpen	1
+<<<<<<< HEAD		
+251	SHARPEN (SOMETHING)///to sharpen (something)	14
+Err:510		
 251	SHARPEN (SOMETHING)///to sharpen (something)	15
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 251	SHARPEN (SOMETHING)///whet (a knife)	1
 251	SHARPEN (SOMETHING)///whet (vt)	1
 231	SHAVE///Shave (the head)	1
@@ -13374,8 +14012,9 @@ ID	GLOSS	PRIORITY
 231	SHAVE///shave (v)	1
 231	SHAVE///to shave	16
 231	SHAVE///to shave (beard)	1
-2771	SHAWL///the shawl	0
-2771	SHAWL///the shawls	0
+2771	SHAWL///shawl	1
+2771	SHAWL///the shawl	1
+2771	SHAWL///the shawls	1
 1834	SHE///3rd sg. (female)	1
 1834	SHE///[3P:SG] she	1
 1834	SHE///she	13
@@ -13423,12 +14062,18 @@ ID	GLOSS	PRIORITY
 598	SHELL///shell	7
 598	SHELL///shell (egg, etc)	1
 598	SHELL///shell (maize)	1
+<<<<<<< HEAD		
+598	SHELL///the shell	12
+598	SHELL///the shells	12
+2544	SHEPHERD///shepherd	1
+Err:510		
 598	SHELL///shell (of turtle)	1
 598	SHELL///the shell	13
 598	SHELL///the shells	13
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 2544	SHEPHERD///shepherd boy	1
-2544	SHEPHERD///the shepherd	1
-2544	SHEPHERD///the shepherds	1
+2544	SHEPHERD///the shepherd	2
+2544	SHEPHERD///the shepherds	2
 1064	SHIELD///SHIELD	1
 1064	SHIELD///Shield	1
 1064	SHIELD///shield	14
@@ -13523,6 +14168,7 @@ ID	GLOSS	PRIORITY
 1645	SHORT///(be) short	1
 1645	SHORT///SHORT	6
 1645	SHORT///Short	2
+1645	SHORT///be short	1
 1645	SHORT///short	99
 1645	SHORT///short 	1
 1645	SHORT///short (a. in height, b. in length)	1
@@ -13551,7 +14197,7 @@ ID	GLOSS	PRIORITY
 715	SHOUT///call out — shout	1
 715	SHOUT///cry (vb. = cry out); shout (vb.)	1
 715	SHOUT///cry out / yell	1
-715	SHOUT///shout	7
+715	SHOUT///shout	8
 715	SHOUT///shout (v)	1
 715	SHOUT///shout (v), cry out	1
 715	SHOUT///shout, cry out	2
@@ -13632,12 +14278,18 @@ ID	GLOSS	PRIORITY
 1847	SICK///ILL	2
 1847	SICK///be sick	2
 1847	SICK///be sick,ill	1
+1847	SICK///be sick	1
 1847	SICK///feverish	1
 1847	SICK///ill	6
 1847	SICK///ill (in health); sick; sickness	1
 1847	SICK///ill / sick	1
+<<<<<<< HEAD		
+1847	SICK///sick	14
+1847	SICK///sick (adjective)	42
+Err:510		
 1847	SICK///sick	13
 1847	SICK///sick (adjective)	41
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1847	SICK///sick (be ill)	1
 1847	SICK///sick (man)	1
 1847	SICK///sick (vi)	1
@@ -13760,8 +14412,12 @@ ID	GLOSS	PRIORITY
 1649	SIT DOWN///sit	1
 1649	SIT DOWN///sit down	5
 1649	SIT DOWN///to sit	1
+<<<<<<< HEAD		
+1649	SIT DOWN///to sit down	10
+Err:510		
 1649	SIT DOWN///to sit down	9
 1416	SIT///(be) seated	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1416	SIT///(he) sat down	1
 1416	SIT///(he) sits	1
 1416	SIT///(you) sit down!	1
@@ -13869,14 +14525,14 @@ ID	GLOSS	PRIORITY
 763	SKIN///Skin	4
 763	SKIN///hide (sb.); skin (sb.)	1
 763	SKIN///piel	1
-763	SKIN///skin	140
+763	SKIN///skin	141
 763	SKIN///skin (hide) (n.)	1
 763	SKIN///skin (my)	1
 763	SKIN///skin, hide	2
 763	SKIN///skin/hide	3
-763	SKIN///the skin	166
+763	SKIN///the skin	167
 763	SKIN///the skin or hide	2
-763	SKIN///the skins	166
+763	SKIN///the skins	167
 1600	SKIRT///skirt	7
 1600	SKIRT///the skirt	9
 1600	SKIRT///the skirts	9
@@ -13929,7 +14585,7 @@ ID	GLOSS	PRIORITY
 1585	SLEEP///Sleep (v.)	1
 1585	SLEEP///TO SLEEP	3
 1585	SLEEP///To sleep	2
-1585	SLEEP///sleep	101
+1585	SLEEP///sleep	102
 1585	SLEEP///sleep (1)	1
 1585	SLEEP///sleep (1st)	1
 1585	SLEEP///sleep (2)	1
@@ -13945,7 +14601,12 @@ ID	GLOSS	PRIORITY
 1585	SLEEP///sleep! (2s)	1
 1585	SLEEP///sleep, to	1
 1585	SLEEP///sleep/lie down	2
+<<<<<<< HEAD		
+1585	SLEEP///sleep (v.)	1
+1585	SLEEP///to sleep	177
+Err:510		
 1585	SLEEP///to sleep	175
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1585	SLEEP///to sleep / sleep!	1
 1585	SLEEP///to_sleep	1
 1585	SLEEP///you sleep!	1
@@ -14010,23 +14671,36 @@ ID	GLOSS	PRIORITY
 1246	SMALL///little, few	1
 1246	SMALL///little, small	1
 1246	SMALL///little; small	1
+<<<<<<< HEAD		
+1246	SMALL///small	136
+1246	SMALL///small (adjective)	172
+Err:510		
 1246	SMALL///small	135
 1246	SMALL///small (adjective)	171
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1246	SMALL///small (in size, opposite to big)	1
 1246	SMALL///small (thing)	2
 1246	SMALL///small, little	4
 1246	SMALL///small, tiny	1
+1246	SMALL///small, little	1
 1246	SMALL///to be small	1
 1054	SMALLPOX///smallpox	3
 1054	SMALLPOX///the smallpox	3
 1054	SMALLPOX///the smallpoxs	3
 2530	SMART///(be) intelligent	1
 2530	SMART///intelligent	3
+<<<<<<< HEAD		
+2530	SMART///smart	2
+2530	SMART///the smart	5
+2530	SMART///the smarts	5
+364	SMEAR///to smear	1
+Err:510		
 2530	SMART///smart	1
 2530	SMART///the smart	5
 2530	SMART///the smarts	5
 364	SMEAR///smear (tr)	1
 364	SMEAR///to smear	2
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 364	SMEAR///to smear, anoint	1
 3705	SMELL (ODOR)///odour, smell (n)	1
 3705	SMELL (ODOR)///the smell (odor)	1
@@ -14039,11 +14713,12 @@ ID	GLOSS	PRIORITY
 1586	SMELL (PERCEIVE)///smell it	1
 1586	SMELL (PERCEIVE)///smell it (v)	1
 1586	SMELL (PERCEIVE)///smell, to (vt.)	1
+1586	SMELL (PERCEIVE)///smell (trans v.)	1
 1586	SMELL (PERCEIVE)///sniff/smell	4
 1586	SMELL (PERCEIVE)///to smell	4
 1586	SMELL (PERCEIVE)///to smell (perceive odor)	2
 1586	SMELL (PERCEIVE)///to smell (perceive odor) [transitive]	3
-1586	SMELL (PERCEIVE)///to smell (perceive)	50
+1586	SMELL (PERCEIVE)///to smell (perceive)	51
 1586	SMELL (PERCEIVE)///to smell (receive odor)	1
 1586	SMELL (PERCEIVE)///to smell (sense odor)	1
 1586	SMELL (PERCEIVE)///to smell it	1
@@ -14086,9 +14761,15 @@ ID	GLOSS	PRIORITY
 778	SMOKE (EXHAUST)///smoke (of fire)	2
 778	SMOKE (EXHAUST)///smoke (primarily noun)	1
 778	SMOKE (EXHAUST)///smoke (sb.)	1
+778	SMOKE (EXHAUST)///smoke (n.)	1
 778	SMOKE (EXHAUST)///the smoke	4
+<<<<<<< HEAD		
+778	SMOKE (EXHAUST)///the smoke (exhaust)	180
+778	SMOKE (EXHAUST)///the smoke (exhaust)s	180
+Err:510		
 778	SMOKE (EXHAUST)///the smoke (exhaust)	179
 778	SMOKE (EXHAUST)///the smoke (exhaust)s	179
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1689	SMOKE (INHALE)///smoke	7
 1689	SMOKE (INHALE)///smoke (a cigarette)	1
 1689	SMOKE (INHALE)///smoke (tobacco)	2
@@ -14125,12 +14806,22 @@ ID	GLOSS	PRIORITY
 730	SNAKE///snake [cast skin (exuvia)]	1
 730	SNAKE///snake [venom]	1
 730	SNAKE///snake [venomous]	1
+<<<<<<< HEAD		
+730	SNAKE///the snake	159
+730	SNAKE///the snakes	159
+459	SNAP (OF STICK)///(stick) snapped	1
+459	SNAP (OF STICK)///break / snap (stick)	1
+459	SNAP (OF STICK)///snap	1
+459	SNAP (OF STICK)///snap (vi)	1
+459	SNAP (OF STICK)///to snap (of stick)	4
+Err:510		
 730	SNAKE///the snake	160
 730	SNAKE///the snakes	160
 459	SNAPP (OF STICK)///(stick) snapped	1
 459	SNAPP (OF STICK)///snap	1
 459	SNAPP (OF STICK)///snap (vi)	1
 459	SNAPP (OF STICK)///to snapp (of stick)	3
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 3320	SNARE (TRAP)///snare	1
 3320	SNARE (TRAP)///snare / trap (for catching birds) (note:+bird)	1
 3320	SNARE (TRAP)///the snare (trap)	2
@@ -14249,9 +14940,15 @@ ID	GLOSS	PRIORITY
 3422	SONG (CLASSIFIER)///song (classifier) (classifier)	1
 1096	SONG///song	12
 1096	SONG///song (folk, sung in fields during or after work)	1
+<<<<<<< HEAD		
+1096	SONG///the song	14
+1096	SONG///the songs	14
+703	SOON///soon	9
+Err:510		
 1096	SONG///the song	15
 1096	SONG///the songs	15
 703	SOON///soon	8
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 830	SOOT///soot	3
 830	SOOT///the soot	3
 830	SOOT///the soots	3
@@ -14489,8 +15186,12 @@ ID	GLOSS	PRIORITY
 53	SPIRIT///(soul); spirit	1
 53	SPIRIT///ancestor's spirit	1
 53	SPIRIT///ghost	1
+<<<<<<< HEAD		
+53	SPIRIT///spirit	4
+Err:510		
 53	SPIRIT///god (lesser), fetish (spirit)	1
 53	SPIRIT///spirit	3
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 53	SPIRIT///spirit, soul, shadow	1
 53	SPIRIT///the spirit	8
 53	SPIRIT///the spirits	8
@@ -14677,7 +15378,7 @@ ID	GLOSS	PRIORITY
 570	STAND UP///stand up (3rd Sg)	3
 570	STAND UP///stand up (Imp)	3
 570	STAND UP///stand up, rise (v)	1
-570	STAND UP///to stand up	17
+570	STAND UP///to stand up	18
 1442	STAND///(he) stands	1
 1442	STAND///I stand	1
 1442	STAND///STAND	3
@@ -14709,10 +15410,17 @@ ID	GLOSS	PRIORITY
 1430	STAR///Stars	1
 1430	STAR///estrella	1
 1430	STAR///one star	1
+<<<<<<< HEAD		
+1430	STAR///star	173
+1430	STAR///star (n.)	1
+1430	STAR///the star	198
+1430	STAR///the stars	198
+Err:510		
 1430	STAR///star	172
 1430	STAR///star (n.)	1
 1430	STAR///the star	197
 1430	STAR///the stars	197
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 3032	STARFISH///starfish	2
 3032	STARFISH///the starfish	2
 3032	STARFISH///the starfishs	2
@@ -14895,7 +15603,7 @@ ID	GLOSS	PRIORITY
 857	STONE///Stone	6
 857	STONE///piedra	1
 857	STONE///rock	1
-857	STONE///stone	166
+857	STONE///stone	167
 857	STONE///stone (rock) (n.)	1
 857	STONE///stone (small)	1
 857	STONE///stone / rock	1
@@ -14961,8 +15669,12 @@ ID	GLOSS	PRIORITY
 600	STRANGE///strange	2
 600	STRANGE///strange (adjective)	3
 600	STRANGE///strange, rare, odd	1
+<<<<<<< HEAD		
+791	STRANGER///stranger	5
+Err:510		
 791	STRANGER///stranger	4
 791	STRANGER///stranger (unknown person)	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 791	STRANGER///stranger, guest	1
 791	STRANGER///the stranger	8
 791	STRANGER///the strangers	8
@@ -15055,6 +15767,7 @@ ID	GLOSS	PRIORITY
 785	STRONG///(be) strong (physically)	1
 785	STRONG///STRONG	1
 785	STRONG///Strong	1
+785	STRONG///be strong	1
 785	STRONG///strong	14
 785	STRONG///strong (adjective)	18
 785	STRONG///to be strong	1
@@ -15072,7 +15785,11 @@ ID	GLOSS	PRIORITY
 1518	STUPID///foolish	2
 1518	STUPID///foolish, stupid	2
 1518	STUPID///foolish; stupid	1
+<<<<<<< HEAD		
+1518	STUPID///stupid	10
+Err:510		
 1518	STUPID///stupid	9
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1518	STUPID///stupid (adjective)	20
 3606	STURGEON///Sturgeon	1
 3606	STURGEON///the sturgeon	1
@@ -15138,11 +15855,11 @@ ID	GLOSS	PRIORITY
 3386	SULPHUR///the sulphurs	1
 1342	SUMMER///SUMMER	1
 1342	SUMMER///Summer	2
-1342	SUMMER///summer	18
+1342	SUMMER///summer	19
 1342	"SUMMER///summer (lit. 'rainy season') (note:""rainy season"")"	1
 1342	SUMMER///summer / warm season	1
-1342	SUMMER///the summer	25
-1342	SUMMER///the summers	25
+1342	SUMMER///the summer	26
+1342	SUMMER///the summers	26
 1614	SUMMIT///mountain peak	1
 1614	SUMMIT///peak of mountain	1
 1614	SUMMIT///summit	1
@@ -15154,12 +15871,21 @@ ID	GLOSS	PRIORITY
 1343	SUN///SUN2, (DAY)	1
 1343	SUN///Sun	10
 1343	SUN///sol	1
+<<<<<<< HEAD		
+1343	SUN///sun	167
+1343	SUN///sun (1)	1
+1343	SUN///sun (2)	1
+1343	SUN///sun (n.)	1
+1343	SUN///the sun	196
+1343	SUN///the suns	196
+Err:510		
 1343	SUN///sun	166
 1343	SUN///sun (1)	1
 1343	SUN///sun (2)	1
 1343	SUN///sun (n.)	1
 1343	SUN///the sun	195
 1343	SUN///the suns	195
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 3131	SUNBATHE///sunbath	2
 3131	SUNBATHE///sunbathe	1
 3131	SUNBATHE///to sunbathe	3
@@ -15179,9 +15905,15 @@ ID	GLOSS	PRIORITY
 2340	SUNNY///sunny	1
 2340	SUNNY///sunny (adjective)	3
 2296	SUNRISE///Sunrise	1
+<<<<<<< HEAD		
+2296	SUNRISE///sunrise	2
+2296	SUNRISE///the sunrise	3
+2296	SUNRISE///the sunrises	3
+Err:510		
 2296	SUNRISE///sunrise	3
 2296	SUNRISE///the sunrise	4
 2296	SUNRISE///the sunrises	4
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 2295	SUNSET///sunset	4
 2295	SUNSET///the sunset	4
 2295	SUNSET///the sunsets	4
@@ -15212,9 +15944,9 @@ ID	GLOSS	PRIORITY
 1572	SURPRISED///surprised, astonished	2
 1572	SURPRISED///to be surprised	1
 1696	SURRENDER///give up	1
-1696	SURRENDER///surrender	2
+1696	SURRENDER///surrender	3
 1696	SURRENDER///surrender (vb.)	1
-1696	SURRENDER///to surrender	6
+1696	SURRENDER///to surrender	7
 1841	SUSPECT///suspect	2
 1841	SUSPECT///suspect s.o.	1
 1841	SUSPECT///to suspect	5
@@ -15281,7 +16013,7 @@ ID	GLOSS	PRIORITY
 717	SWEET///(be) sweet	1
 717	SWEET///SWEET	2
 717	SWEET///Sweet	1
-717	SWEET///sweet	39
+717	SWEET///sweet	40
 717	SWEET///sweet (a., taste)	1
 717	SWEET///sweet (adjective)	48
 717	SWEET///sweet (taste)	1
@@ -15292,8 +16024,12 @@ ID	GLOSS	PRIORITY
 1573	SWELL///(tissue) Swell	1
 1573	SWELL///SWELL (VERB)	1
 1573	SWELL///TO SWELL	3
+<<<<<<< HEAD		
+1573	SWELL///swell	49
+Err:510		
 1573	SWELL///swell	48
 1573	SWELL///swell (intr)	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1573	SWELL///swell (of tissue)	1
 1573	SWELL///swell (v)	2
 1573	SWELL///swell (v.)	1
@@ -15345,25 +16081,34 @@ ID	GLOSS	PRIORITY
 1535	SWORD///the sword	20
 1535	SWORD///the swords	20
 1775	TABLE///desk	3
-1775	TABLE///table	14
+1775	TABLE///table	15
 1775	TABLE///table (word used by elderly) (note:younger{language})	1
 1775	TABLE///table; desk	1
-1775	TABLE///the table	21
-1775	TABLE///the tables	21
+1775	TABLE///the table	22
+1775	TABLE///the tables	22
 396	TABLET///the tablet	0
 396	TABLET///the tablets	0
 1220	TAIL///(its) tail	1
 1220	TAIL///TAIL	8
 1220	TAIL///Tail	5
+<<<<<<< HEAD		
+1220	TAIL///tail	160
+Err:510		
 1220	TAIL///tail	159
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1220	TAIL///tail (1)	1
 1220	TAIL///tail (2)	1
 1220	TAIL///tail (n.)	1
 1220	TAIL///tail (of a dog)	1
 1220	TAIL///tail (of dog)	1
 1220	TAIL///tail (of mammal)	2
+<<<<<<< HEAD		
+1220	TAIL///the tail	186
+1220	TAIL///the tails	186
+Err:510		
 1220	TAIL///the tail	185
 1220	TAIL///the tails	185
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 881	TAILOR///tailor	3
 881	TAILOR///the tailor	5
 881	TAILOR///the tailors	5
@@ -15439,8 +16184,8 @@ ID	GLOSS	PRIORITY
 1771	TASTELESS///tasteless /	1
 1813	TASTY///DELICIOUS	1
 1813	TASTY///delicious	5
-1813	TASTY///tasty	4
-1813	TASTY///tasty (adjective)	11
+1813	TASTY///tasty	5
+1813	TASTY///tasty (adjective)	12
 1813	TASTY///tasty /	1
 68	TATTOO///tattoo	2
 68	TATTOO///tattoo (to)	1
@@ -15461,10 +16206,17 @@ ID	GLOSS	PRIORITY
 709	TEACH///teach (educate)	1
 709	TEACH///teach (v)	1
 709	TEACH///teach/train	1
+<<<<<<< HEAD		
+709	TEACH///to teach	18
+1038	TEACHER///teacher	11
+1038	TEACHER///the teacher	13
+1038	TEACHER///the teachers	13
+Err:510		
 709	TEACH///to teach	19
 1038	TEACHER///teacher	10
 1038	TEACHER///the teacher	12
 1038	TEACHER///the teachers	12
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1651	TEAR (OF EYE)///tear	5
 1651	TEAR (OF EYE)///tear (from weeping)	1
 1651	TEAR (OF EYE)///tear (noun)	3
@@ -15501,7 +16253,11 @@ ID	GLOSS	PRIORITY
 1711	TELL///tell	12
 1711	TELL///tell (a story)	1
 1711	TELL///tell story	2
+<<<<<<< HEAD		
+1711	TELL///tell, make known	1
+Err:510		
 1711	TELL///tell, recount (story)	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1711	TELL///to tell	23
 911	TEMPLE///shrine; temple	1
 911	TEMPLE///temple	5
@@ -15582,18 +16338,25 @@ ID	GLOSS	PRIORITY
 2100	THATCH OR ROOF///the thatch or roofs	8
 279	THATCH///thatch	6
 279	THATCH///thatch (cogon grass)	1
+<<<<<<< HEAD		
+279	THATCH///the thatch	9
+279	THATCH///the thatchs	9
+2887	THAW (DEW)///thaw	2
+2887	THAW (DEW)///to thaw (dew)	2
+Err:510		
 279	THATCH///thatch (n)	1
 279	THATCH///the thatch	10
 279	THATCH///the thatchs	10
 2887	THAW (DEW)///thaw	1
 2887	THAW (DEW)///to thaw (dew)	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 2304	THEE (OBLIQUE CASE OF YOU)///thee (acc.)	1
 2304	THEE (OBLIQUE CASE OF YOU)///thee (oblique case of you)	2
 2304	THEE (OBLIQUE CASE OF YOU)///you (thou)	1
 2400	THEIR///[GEN] their	1
-2400	THEIR///their	5
-2400	THEIR///theirs	1
-2921	THEN///then	4
+2400	THEIR///their	7
+2400	THEIR///theirs	2
+2921	THEN///then	5
 2433	THEORY///the theory	2
 2433	THEORY///the theorys	2
 2433	THEORY///theory	2
@@ -15620,12 +16383,13 @@ ID	GLOSS	PRIORITY
 817	THEY///THEY	4
 817	THEY///They	2
 817	THEY///[3P-PAUC] they	1
-817	THEY///they	91
+817	THEY///they	92
 817	THEY///they (3 p.p.)	1
 817	THEY///they (3pl)	1
 817	THEY///they (plural)	1
 817	THEY///they dl.	1
 817	THEY///they, them [plural]	1
+817	THEY///they (3pl)	1
 817	THEY///³ pL; they	1
 1244	THICK///(be) fat, (be) thick	1
 1244	THICK///THICK	4
@@ -15709,9 +16473,10 @@ ID	GLOSS	PRIORITY
 1415	THINK (REFLECT)///think (contemplate)	1
 1415	THINK (REFLECT)///think (over, about), to	1
 1415	THINK (REFLECT)///think v.	1
+1415	THINK (REFLECT)///think, reflect	1
 1415	THINK (REFLECT)///to consider	1
 1415	THINK (REFLECT)///to think (about)	1
-1415	THINK (REFLECT)///to think (reflect)	23
+1415	THINK (REFLECT)///to think (reflect)	24
 1415	THINK (REFLECT)///to think(1)	2
 2271	THINK///THINK (VERB)	1
 2271	THINK///TO THINK	3
@@ -15809,7 +16574,7 @@ ID	GLOSS	PRIORITY
 1215	THOU///You sg.	1
 1215	THOU///[2P:SG] thou	1
 1215	THOU///second person marker	1
-1215	THOU///thou	184
+1215	THOU///thou	185
 1215	THOU///thou (2nd Sg.)	1
 1215	THOU///thou (2s)	1
 1215	THOU///thou (2sg)	2
@@ -15838,6 +16603,7 @@ ID	GLOSS	PRIORITY
 1215	THOU///you, thou	1
 1215	THOU///you.SG	2
 1215	THOU///you_sg.	1
+1215	THOU///you (2sg)	1
 1215	THOU///² sG; you	1
 2975	THOUGHT///the thought	1
 2975	THOUGHT///the thoughts	1
@@ -15935,9 +16701,9 @@ ID	GLOSS	PRIORITY
 1150	THUNDER///the thunders	50
 1150	THUNDER///thunder	44
 1150	THUNDER///thundering	1
-1693	THURSDAY///Thursday	7
-1693	THURSDAY///the thursday	7
-1693	THURSDAY///the thursdays	7
+1693	THURSDAY///Thursday	8
+1693	THURSDAY///the thursday	8
+1693	THURSDAY///the thursdays	8
 3374	TIBETAN///Tibetan	1
 3374	TIBETAN///the tibetan	1
 3374	TIBETAN///the tibetans	1
@@ -15952,6 +16718,7 @@ ID	GLOSS	PRIORITY
 891	TIDE///tide	2
 891	TIDE///tide (high water)	1
 891	TIDE///tide (low water)	1
+2891	TIE UP (TETHER)///imprison, tie up	1
 2891	TIE UP (TETHER)///tether	1
 2891	TIE UP (TETHER)///tether (sheep, goats) (v)	1
 2891	TIE UP (TETHER)///tie (a cow) to	1
@@ -16026,6 +16793,7 @@ ID	GLOSS	PRIORITY
 443	TIP (OF TONGUE)///tip of tongue	1
 1757	TIRED///(be) tired	1
 1757	TIRED///be tired	1
+1757	TIRED///be tired	1
 1757	TIRED///tired	15
 1757	TIRED///tired (adjective)	23
 1757	TIRED///tired (vi)	1
@@ -16178,6 +16946,7 @@ ID	GLOSS	PRIORITY
 1892	TOUCH///touch (vb.)	1
 1892	TOUCH///touch; feel; stroke	1
 2754	TOWARDS///to	2
+2754	TOWARDS///to, towards	1
 2754	TOWARDS///toward	2
 2754	TOWARDS///towards	6
 1021	TOWEL///the towel	6
@@ -16274,10 +17043,17 @@ ID	GLOSS	PRIORITY
 906	TREE///TREE	8
 906	TREE///Tree	8
 906	TREE///our trees	2
+<<<<<<< HEAD		
+906	TREE///the tree	188
+906	TREE///the tree (one exemplar of a tree)	1
+906	TREE///the trees	188
+906	TREE///tree	160
+Err:510		
 906	TREE///the tree	187
 906	TREE///the tree (one exemplar of a tree)	1
 906	TREE///the trees	187
 906	TREE///tree	159
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 906	TREE///tree (cf 08.600)	1
 906	TREE///tree (n.)	1
 906	TREE///tree (wood)	1
@@ -16319,13 +17095,14 @@ ID	GLOSS	PRIORITY
 795	TROUT///the trouts	1
 795	TROUT///trout	1
 1657	TRUE///TRUE	3
+1657	TRUE///be true	1
 1657	TRUE///genuine, true	1
 1657	TRUE///real	1
 1657	TRUE///true	11
-1657	TRUE///true (adjective)	16
-775	TRUMPET///the trumpet	1
-775	TRUMPET///the trumpets	1
-775	TRUMPET///trumpet	1
+1657	TRUE///true (adjective)	17
+775	TRUMPET///the trumpet	2
+775	TRUMPET///the trumpets	2
+775	TRUMPET///trumpet	2
 776	TRUNK OF TREE///the trunk of tree	0
 776	TRUNK OF TREE///the trunk of trees	0
 1638	TRUTH///the truth	8
@@ -16409,7 +17186,11 @@ ID	GLOSS	PRIORITY
 1444	TURN AROUND///turn (vi)	1
 1444	TURN AROUND///turn around	4
 1444	TURN AROUND///turn around (vi)	1
+<<<<<<< HEAD		
+1444	TURN AROUND///turn around	1
+Err:510		
 1444	TURN AROUND///turn round (intr)	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 3537	TURN OVER///Turn over (on bed)	1
 3537	TURN OVER///to turn over	2
 3537	TURN OVER///turn over (on bed)	1
@@ -16513,7 +17294,11 @@ ID	GLOSS	PRIORITY
 1498	TWO///Two	12
 1498	TWO///[CL] *two	1
 1498	TWO///dos	1
+<<<<<<< HEAD		
+1498	TWO///two	201
+Err:510		
 1498	TWO///two	200
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1498	TWO///two (1)	1
 1498	TWO///two (2)	2
 1498	TWO///two (numeral)	1
@@ -16528,7 +17313,11 @@ ID	GLOSS	PRIORITY
 154	UDDER///udder	5
 1548	UGLY///(be) ugly	1
 1548	UGLY///homely (in appearance); plain (adj., in appearance); ugly (in appearance)	1
+<<<<<<< HEAD		
+1548	UGLY///ugly	10
+Err:510		
 1548	UGLY///ugly	9
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1548	UGLY///ugly (adjective)	13
 1548	UGLY///ugly (looking)	1
 1548	UGLY///ugly, unpleasant	1
@@ -16552,9 +17341,9 @@ ID	GLOSS	PRIORITY
 2387	UNCLE OR FATHER-IN-LAW///the uncle or father-in-law	1
 2387	UNCLE OR FATHER-IN-LAW///the uncle or father-in-laws	1
 1327	UNCLE///mother's older brother	1
-1327	UNCLE///the uncle	15
-1327	UNCLE///the uncles	15
-1327	UNCLE///uncle	9
+1327	UNCLE///the uncle	16
+1327	UNCLE///the uncles	16
+1327	UNCLE///uncle	10
 1327	UNCLE///uncle (maternal)	1
 1327	UNCLE///uncle (paternal)	2
 3289	UNCOOKED RICE///rice (uncooked)	2
@@ -16692,7 +17481,7 @@ ID	GLOSS	PRIORITY
 2375	VERTICAL///vertical	2
 2375	VERTICAL///vertical (adjective)	3
 2375	VERTICAL///vertical, be standing	1
-1311	VERY///very	12
+1311	VERY///very	13
 1311	VERY///very much, very	1
 3140	VEST///the vest	1
 3140	VEST///the vests	1
@@ -16706,12 +17495,21 @@ ID	GLOSS	PRIORITY
 930	VILLAGE///the villages	49
 930	VILLAGE///village	47
 343	VINE///cane, vine	1
+<<<<<<< HEAD		
+343	VINE///the vine	13
+343	VINE///the vines	13
+343	VINE///vine	10
+985	VINEGAR///the vinegar	2
+985	VINEGAR///the vinegars	2
+985	VINEGAR///vinegar	2
+Err:510		
 343	VINE///the vine	14
 343	VINE///the vines	14
 343	VINE///vine	11
 985	VINEGAR///the vinegar	1
 985	VINEGAR///the vinegars	1
 985	VINEGAR///vinegar	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 2976	VIOLENCE///the violence	1
 2976	VIOLENCE///the violences	1
 2976	VIOLENCE///violence	1
@@ -16927,7 +17725,7 @@ ID	GLOSS	PRIORITY
 1453	WASH///to wash(hands)	1
 1453	WASH///to wash/to bathe	1
 1453	WASH///to_wash	1
-1453	WASH///wash	51
+1453	WASH///wash	52
 1453	WASH///wash (V)	2
 1453	WASH///wash (clothes)	2
 1453	WASH///wash (clothes, utensils)	1
@@ -17058,7 +17856,7 @@ ID	GLOSS	PRIORITY
 1212	WE///WE	5
 1212	WE///We	7
 1212	WE///[1P-PAUC] we	1
-1212	WE///we	113
+1212	WE///we	115
 1212	WE///we (1 p.p.)	1
 1212	WE///we (1p)	1
 1212	WE///we (1pl)	2
@@ -17067,15 +17865,19 @@ ID	GLOSS	PRIORITY
 1212	WE///we [we and us, if stems are suppletive]	1
 1212	WE///we(excl.)	1
 1212	WE///we, us [plural]	1
+<<<<<<< HEAD		
+1212	WE///we (1pl)	1
+Err:510		
 1601	WEAK///(be) weak	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1601	WEAK///WEAK	1
 1601	WEAK///to be weak	1
 1601	WEAK///weak	17
 1601	WEAK///weak (adjective)	21
 1601	WEAK///weak (not strong)	1
-2996	WEALTH///the wealth	1
-2996	WEALTH///the wealths	1
-2996	WEALTH///wealth	1
+2996	WEALTH///the wealth	2
+2996	WEALTH///the wealths	2
+2996	WEALTH///wealth	2
 951	WEAPONS///arms; weapons	1
 951	WEAPONS///the weapons	7
 951	WEAPONS///the weaponss	7
@@ -17120,6 +17922,11 @@ ID	GLOSS	PRIORITY
 133	WEAVE///weave (vt)	1
 133	WEAVE///weave, knit	1
 133	WEAVE///weaving	1
+<<<<<<< HEAD		
+1259	WEDDING///the wedding	5
+1259	WEDDING///the weddings	5
+1259	WEDDING///wedding	3
+Err:510		
 3638	WEAVER///the weaver	1
 3638	WEAVER///the weavers	1
 3638	WEAVER///weaver	1
@@ -17127,6 +17934,7 @@ ID	GLOSS	PRIORITY
 1259	WEDDING///the weddings	5
 1259	WEDDING///wedding	2
 1259	WEDDING///wedding (ceremony)	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1694	WEDNESDAY///Wednesday	7
 1694	WEDNESDAY///the wednesday	7
 1694	WEDNESDAY///the wednesdays	7
@@ -17135,9 +17943,9 @@ ID	GLOSS	PRIORITY
 3288	WEED///weed	1
 3288	WEED///weeds	1
 1469	WEEK///one week	1
-1469	WEEK///the week	20
-1469	WEEK///the weeks	20
-1469	WEEK///week	17
+1469	WEEK///the week	21
+1469	WEEK///the weeks	21
+1469	WEEK///week	18
 1098	WEIGH///to weigh	13
 1098	WEIGH///to weigh (intr.)	1
 1098	WEIGH///weigh	8
@@ -17176,7 +17984,11 @@ ID	GLOSS	PRIORITY
 1236	WHAT///WHAT	5
 1236	WHAT///What	3
 1236	WHAT///What?	1
+<<<<<<< HEAD		
+1236	WHAT///what	156
+Err:510		
 1236	WHAT///what	155
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1236	WHAT///what (interrogative)	1
 1236	WHAT///what (question)	1
 1236	WHAT///what [CL]	1
@@ -17218,12 +18030,16 @@ ID	GLOSS	PRIORITY
 295	WHETSTONE///the whetstones	4
 295	WHETSTONE///whetstone	1
 727	WHICH///which	18
+<<<<<<< HEAD		
+727	WHICH///which (one)?	1
+Err:510		
 727	WHICH///which (one)?	2
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 727	WHICH///which?	4
 726	WHILE///a while	1
-726	WHILE///the while	3
-726	WHILE///the whiles	3
-726	WHILE///while	1
+726	WHILE///the while	4
+726	WHILE///the whiles	4
+726	WHILE///while	2
 726	WHILE///while, a	1
 2630	WHIP///the whip	7
 2630	WHIP///the whips	7
@@ -17235,14 +18051,22 @@ ID	GLOSS	PRIORITY
 1982	WHIRLPOOL///the whirlpools	6
 1982	WHIRLPOOL///whirlpool	4
 55	WHISPER///to whisper	10
+<<<<<<< HEAD		
+55	WHISPER///whisper	7
+Err:510		
 55	WHISPER///whisper	6
 55	WHISPER///whisper (v)	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 3107	WHISTLE (INSTRUMENT)///the whistle (instrument)	2
 3107	WHISTLE (INSTRUMENT)///the whistle (instrument)s	2
 3107	WHISTLE (INSTRUMENT)///whistle	2
 1025	WHISTLE///Whistle	1
 1025	WHISTLE///to whistle	16
+<<<<<<< HEAD		
+1025	WHISTLE///whistle	10
+Err:510		
 1025	WHISTLE///whistle	9
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1025	WHISTLE///whistle (V)	2
 1025	WHISTLE///whistle (to)	1
 1025	WHISTLE///whistle (v)	1
@@ -17269,7 +18093,11 @@ ID	GLOSS	PRIORITY
 1335	WHITE///WHITE2	1
 1335	WHITE///White	7
 1335	WHITE///colour term white	1
+<<<<<<< HEAD		
+1335	WHITE///white	154
+Err:510		
 1335	WHITE///white	153
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1335	WHITE///white (adjective)	176
 1335	WHITE///white (colour)	2
 1335	WHITE///white (like milk)	1
@@ -17283,7 +18111,11 @@ ID	GLOSS	PRIORITY
 1235	WHO///WHO	5
 1235	WHO///Who	6
 1235	WHO///Who?	1
+<<<<<<< HEAD		
+1235	WHO///who	158
+Err:510		
 1235	WHO///who	157
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1235	WHO///who (interrogative)	1
 1235	WHO///who (question)	1
 1235	WHO///who [CL]	1
@@ -17301,7 +18133,10 @@ ID	GLOSS	PRIORITY
 1270	WHY///why	16
 1270	WHY///why, for what reason	1
 1270	WHY///why?	9
+<<<<<<< HEAD		
+Err:510		
 1243	WIDE///(be) wide	1
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1243	WIDE///WIDE	6
 1243	WIDE///broad; wide	1
 1243	WIDE///to be wide, broad	1
@@ -17322,8 +18157,13 @@ ID	GLOSS	PRIORITY
 1199	WIFE///Wife	1
 1199	WIFE///the wife	100
 1199	WIFE///the wifes	100
+<<<<<<< HEAD		
+1199	WIFE///wife	86
+Err:510		
 1199	WIFE///wife	87
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1199	WIFE///wife (address) (note:+citation)	1
+1199	WIFE///wives	1
 958	WILD ANIMAL///animal / beast (carnivore)	1
 958	WILD ANIMAL///beast	1
 958	WILD ANIMAL///the wild animal	11
@@ -17428,10 +18268,17 @@ ID	GLOSS	PRIORITY
 2631	WIRE///wire	1
 698	WISE///(be) wise	1
 698	WISE///WISE	1
+<<<<<<< HEAD		
+698	WISE///wise	7
+698	WISE///wise (adjective)	8
+824	WITCH///the witch	2
+824	WITCH///the witchs	2
+Err:510		
 698	WISE///wise	6
 698	WISE///wise (adjective)	8
 824	WITCH///the witch	3
 824	WITCH///the witchs	3
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 824	WITCH///witch	1
 824	WITCH///witch (female)	1
 824	WITCH///witch / sorceress	1
@@ -17465,16 +18312,28 @@ ID	GLOSS	PRIORITY
 962	WOMAN///WOMAN	7
 962	WOMAN///Woman	6
 962	WOMAN///lady, woman	1
+<<<<<<< HEAD		
+962	WOMAN///the woman	162
+962	WOMAN///the womans	162
+Err:510		
 962	WOMAN///the woman	161
 962	WOMAN///the womans	161
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 962	WOMAN///woman	138
 962	WOMAN///woman (as opposite to man)	1
 962	WOMAN///woman (n.)	1
 962	WOMAN///woman, †girl (1)	1
+<<<<<<< HEAD		
+962	WOMAN///women	2
+804	WOMB///the womb	7
+804	WOMB///the wombs	7
+804	WOMB///womb	5
+Err:510		
 962	WOMAN///women	1
 804	WOMB///the womb	8
 804	WOMB///the wombs	8
 804	WOMB///womb	6
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 2841	WOMBAT///the wombat	1
 2841	WOMBAT///the wombats	1
 2841	WOMBAT///wombat	1
@@ -17659,7 +18518,11 @@ ID	GLOSS	PRIORITY
 1424	YELLOW///YELLOW	6
 1424	YELLOW///Yellow	6
 1424	YELLOW///colour term yellow	1
+<<<<<<< HEAD		
+1424	YELLOW///yellow	123
+Err:510		
 1424	YELLOW///yellow	122
+>>>>>>> 64047ab47cabed3a41ab5a77e430fd802cc2e4e8		
 1424	YELLOW///yellow (adjective)	139
 1424	YELLOW///yellow (colour)	2
 1424	YELLOW///yellow (yellow colour)	1
@@ -17733,6 +18596,7 @@ ID	GLOSS	PRIORITY
 1213	YOU///you.SG	1
 1213	YOU///you_PL	1
 1213	YOU///you_pl.	1
+1213	YOU///you (pl) (2pl)	1
 1213	YOU///² pL; you	1
 564	YOUNG (OF MAN)///young	1
 564	YOUNG (OF MAN)///young (male)	1
@@ -17807,17 +18671,19 @@ ID	GLOSS	PRIORITY
 1761	YOUNGER SISTER///the younger sisters	19
 1761	YOUNGER SISTER///younger sister	11
 1761	YOUNGER SISTER///younger sister (gen)	1
-2274	YOUR (PLURAL)///your (plural)	2
+2274	YOUR (PLURAL)///your (plural)	3
 2274	YOUR (PLURAL)///your pl.	1
 2274	YOUR (PLURAL)///your-pl	1
+2274	YOUR (PLURAL)///yours (pl)	1
 732	YOUR (SINGULAR)///[GEN] thy	1
 732	YOUR (SINGULAR)///[GEN] your	1
 732	YOUR (SINGULAR)///your	3
 732	YOUR (SINGULAR)///your (sg)	1
-732	YOUR (SINGULAR)///your (singular)	9
+732	YOUR (SINGULAR)///your (singular)	10
 732	YOUR (SINGULAR)///your sg.	1
 732	YOUR (SINGULAR)///your-sg	1
 732	YOUR (SINGULAR)///yours	1
+732	YOUR (SINGULAR)///yours (sg)	1
 2091	YOUR///your	0
 3676	ZEBRA///the zebra	1
 3676	ZEBRA///the zebras	1
