@@ -703,7 +703,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 702	CATCH	Motion	To take hold of, especially in the hands, so as to seize or restrain or stop the motion of.	Action/Process	
 703	SOON	Time	In a near future.	Other	
 704	CLEAN	Sense perception	Not dirty.	Property	
-705	GO UP (ASCEND)	Motion	To move from a lower to a higher position	Action/Process	
+705	GO UP (ASCEND)	Motion	To move from a lower to a higher position.	Action/Process	
 706	DARK	Sense perception	Having an absolute or (more often) relative lack of light.	Property	
 707	REMEMBER	Cognition	To recall from memory.	Action/Process	
 708	SHINE	Sense perception	To emit light.	Action/Process	
@@ -821,8 +821,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 820	LAMB	Animals	Young sheep.	Person/Thing	
 821	POPLAR	Agriculture and vegetation	Any of various deciduous trees of the genus Populus.	Person/Thing	
 822	HOW MANY	Cognition	Which quantity?	Other	
-823	SORCERER	Religion and belief	A male person who practices magic or sorcery.	Person/Thing	
-824	WITCH	Religion and belief	A female person who uses magic.	Person/Thing	
+823	SORCERER	Religion and belief	A male person who practices magic.	Person/Thing	
+824	WITCH	Religion and belief	A female person who practices magic.	Person/Thing	
 825	AWAKE	The body	Not sleeping.	Property	
 826	BRANCH (BIFURCATION)	The physical world	A separation of a river, a road, etcetera.	Person/Thing	
 827	ROLL	Motion	To tip laterally.	Action/Process	
@@ -2135,7 +2135,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2134	RAISE (A CHILD)	Basic actions and technology	To take care of an infant or some other living creature, usually until it can live indepentendly.	Action/Process	
 2135	TRADE OR BARTER	Possession	To exchange goods with or without exchanging money.	Action/Process	
 2136	BRASS INSTRUMENT (HORN OR TRUMPET)	Speech and language	Any musical instrument that is a member of the brass family of musical instruments, usually a horn or a trumpet.	Person/Thing	
-2137	MAGICIAN	Religion and belief	A perspon who practices magic.	Person/Thing	
+2137	MAGICIAN	Religion and belief	A person who practices magic.	Person/Thing	
 2138	LEGENDARY CREATURE	Religion and belief	A human or an animal described in non-historical or yet to be verified stories that sometimes involve the supernatural.	Person/Thing	2641
 2139	MUROID (MOUSE OR RAT)	Animals	A large superfamily of rodents, including hamsters, gerbils, true mice and rats, and many other relatives.	Person/Thing	
 2140	DAY OR SUN	The physical world	Either the bright object at the sky that illuminates the earth completely, or the time when the object illuminates the earth.	Person/Thing	
@@ -2552,7 +2552,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2551	ORGANIC FAT OR OIL	Food and drink	Animal or plant fat in a soft or liquid state.	Person/Thing	
 2552	HARNESS (ARMOUR)	Warfare and hunting	A specific suit that protects people who fight.	Person/Thing	
 2553	MISERY	Emotions and values	The state of being poor or emotionally suffering.	Person/Thing	
-2554	PRINCE (RULER)	Social and political relations	A ruler whose status is beyond that of a king.	Person/Thing	
+2554	PRINCE (RULER)	Social and political relations	A ruler whose status is below that of a king.	Person/Thing	
 2555	OIL (FROM PLANTS)	Food and drink	Liquid hydrophobic substance from plants which is used for cooking.	Person/Thing	
 2556	OIL (HYDROPHOBIC LIQUID)	The physical world	Any viscous liquid substance which is hydrophobic and lipophilic.	Person/Thing	
 2557	PIG FAT	Food and drink	The fat from a pig, used for cooking.	Person/Thing	
