@@ -20,7 +20,7 @@ Izura-2005-499-18	18	Ciencia	science			intelligence	5.16	5.32	8.36	3.52	3.037	20
 Izura-2005-499-19	19	Científico	scientist			intelligence	5.12	4.64	8.52	6.24	2.268	85	4
 Izura-2005-499-20	20	Comprender	to understand	UNDERSTAND	1536	intelligence	6	6	6.52	3.6	2.972	67	3
 Izura-2005-499-21	21	Concentración	concentration			intelligence	5.2	6	8	3.64	1.635	40	4
-Izura-2005-499-22	22	Conocer	to know	KNOW (SOMEBODY)	2248	intelligence	5.56	5.88	5.92	3.36	3.845	104	3
+Izura-2005-499-22	22	Conocer	to know	KNOW	3626	intelligence	5.56	5.88	5.92	3.36	3.845	104	3
 Izura-2005-499-23	23	Conocimiento	consciousness			intelligence	6.08	5.52	6.84	3.24	2.265	203	5
 Izura-2005-499-24	24	Conocimientos	knowledge			intelligence	5.2	5.12	9.52	3.36	3.535	36	5
 Izura-2005-499-25	25	Copier	to cheat			intelligence	2.6	5.36	5.8	4.8	1.692	5	2
@@ -46,7 +46,7 @@ Izura-2005-499-44	44	Filosofía	Philosophy			intelligence	4.68	3.64	10	3.32	1.34
 Izura-2005-499-45	45	Futuro	future	FUTURE	2427	intelligence	3.44	5.6	7.04	3.24	2.169	131	3
 Izura-2005-499-46	46	Genio	genius			intelligence	6.24	3.72	7.8	4.64	1.62	28	2
 Izura-2005-499-47	47	Historia	History			intelligence	3	4.8	6.52	3.68	1.695	406	3
-Izura-2005-499-48	48	Hombre	man	MALE PERSON	2106	intelligence	4.08	6.24	4.24	6.68	2.652	869	2
+Izura-2005-499-48	48	Hombre	man	MAN	1554	intelligence	4.08	6.24	4.24	6.68	2.652	869	2
 Izura-2005-499-49	49	Idea	idea	IDEA	1609	intelligence	5.76	5.36	6	3.4	3.505	128	3
 Izura-2005-499-50	50	Imaginación	imagination			intelligence	5.28	5.2	5.68	3.56	4.886	83	5
 Izura-2005-499-51	51	Inteligencia	intelligence			intelligence	7	6	8.04	3.24	2.586	3	5
@@ -237,7 +237,7 @@ Izura-2005-499-235	235	Espejo	mirror	MIRROR	1171	furniture	4.56	6.32	3.76	6.92	1
 Izura-2005-499-236	236	Estante	shelf	SHELF	745	furniture	5.52	5.04	5.46	6.8	0.699	4	3
 Izura-2005-499-237	237	Estantería	shelves			furniture	6.28	6.24	5.28	6.88	44.794	5	5
 Izura-2005-499-238	238	Flexo	reading lamp			furniture	3.52	6.12	8.2	6.32	1.925	2	2
-Izura-2005-499-239	239	Fogón	ring	RING	1374	furniture	2.64	3.16	7.71	6.08	0.679	4	2
+Izura-2005-499-239	239	Fogón	ring			furniture	2.64	3.16	7.71	6.08	0.679	4	2
 Izura-2005-499-240	240	Fregadero	sink			furniture	4.08	4.76	5.52	6.8	1.464	6	4
 Izura-2005-499-241	241	Fregador	sink			furniture	2.08	3	7.08	4.96	1.343	0	3
 Izura-2005-499-242	242	Frigorífico	fridge			furniture	4.52	5.68	5.08	6.84	6.182	3	5
@@ -275,7 +275,7 @@ Izura-2005-499-273	273	Radio	radio	RADIO	1315	furniture	2.24	5.76	5.68	6.96	1.78
 Izura-2005-499-274	274	Recibidor	hall     			furniture	3.88	3.16	8.72	5.96	2.872	7	4
 Izura-2005-499-275	275	Reloj	clock	CLOCK	1323	furniture	2.52	6.24	4.92	7	2.519	43	2
 Izura-2005-499-276	276	Repisa	shelf	SHELF	745	furniture	3.6	4.04	7.84	6.64	1	3	3
-Izura-2005-499-277	277	Retrete	loo			furniture	1.8	3.36	8.64	7	1.261	14	3
+Izura-2005-499-277	277	Retrete	loo	TOILET	219	furniture	1.8	3.36	8.64	7	1.261	14	3
 Izura-2005-499-278	278	Revistero	magazine rack			furniture	3.44	2.8	10.25	6.2	0.914	0	4
 Izura-2005-499-279	279	Rinconera	cornerboard			furniture	4.84	2.44	11.58	5.76	1.99	0	4
 Izura-2005-499-280	280	Ropero	wardrobe	WARDROBE	3106	furniture	6.08	3.32	9.84	6.48	2.893	6	3
@@ -287,7 +287,7 @@ Izura-2005-499-285	285	Sofá	sofa	SOFA	3099	furniture	6.8	6.36	6.24	7	56.795	4	2
 Izura-2005-499-286	286	Taburete	stool	STOOL	2058	furniture	5.72	4.48	6.08	6.96	18.16	2	4
 Izura-2005-499-287	287	Taquillón	traditional Spanish table			furniture	4.84	2.32	9.95	5.52	2.278	0	3
 Izura-2005-499-288	288	Televisión	television	TELEVISION	1788	furniture	4	6.24	4.35	6.8	14.852	85	4
-Izura-2005-499-289	289	Televisor	television			furniture	2.88	5.76	6.52	6.96	2.819	25	4
+Izura-2005-499-289	289	Televisor	television	TELEVISION	1788	furniture	2.88	5.76	6.52	6.96	2.819	25	4
 Izura-2005-499-290	290	Tiestos	flowerpot			furniture	1.56	3.48	5.8	6.92	0.641	3	2
 Izura-2005-499-291	291	Tocador	dressing table			furniture	5.24	1.8	9.16	6.32	5.394	5	3
 Izura-2005-499-292	292	Tresillo	sofa	SOFA	3099	furniture	6.04	2.88	9.96	5.96	8.622	4	3
@@ -299,7 +299,7 @@ Izura-2005-499-297	297	Vidriera	stained-glass window			furniture	1.72	2.36	10.36
 Izura-2005-499-298	298	Vitrina	glass cabinet			furniture	4.12	2.64	10.6	6.44	2.906	6	3
 Izura-2005-499-299	299	WC	toilet 			furniture	1.88	3.64	9.69	6.68	2.658	0	2
 Izura-2005-499-300	300	Zapatero	shoe rack   			furniture	4.56	2.6	7.24	6.2	8.043	0	4
-Izura-2005-499-301	301	Abdomen	abdomen			body part	4.92	3.32	8.68	5.08	4.195	5	3
+Izura-2005-499-301	301	Abdomen	abdomen	BELLY	1251	body part	4.92	3.32	8.68	5.08	4.195	5	3
 Izura-2005-499-302	302	Ano	anus	ANUS	1935	body part	3.36	3	8.36	5.08	2.672	2	2
 Izura-2005-499-303	303	Antebrazo	forearm			body part	4.12	2.92	8.2	6.08	11.107	6	4
 Izura-2005-499-304	304	arteria	artery	ARTERY	1925	body part	2.88	2.52	8.88	4.68	1.423	1	3
@@ -345,7 +345,7 @@ Izura-2005-499-343	343	Hígado	liver	LIVER	1224	body part	4.16	4	7.92	5.56	7.299
 Izura-2005-499-344	344	Hombro	shoulder	SHOULDER	1482	body part	5.72	5.32	4.68	6.8	29.002	45	2
 Izura-2005-499-345	345	Hueso	bone	BONE	1394	body part	4.96	5.08	4.4	6.68	5.329	22	2
 Izura-2005-499-346	346	Húmero	humerus			body part	2.96	2.4	8.6	4.6	1.576	0	3
-Izura-2005-499-347	347	Incisivo	incisor			body part	2.8	2.44	8.6	5	93.5	2	4
+Izura-2005-499-347	347	Incisivo	incisor	FRONT TOOTH (INCISOR)	442	body part	2.8	2.44	8.6	5	93.5	2	4
 Izura-2005-499-348	348	Ingle	groin			body part	4	3.48	8.6	5.56	110	3	2
 Izura-2005-499-349	349	Intestino	intestine	INTESTINES	1991	body part	3.64	3.04	8.08	4.92	6.1	3	3
 Izura-2005-499-350	350	Labio	lip	LIP	478	body part	6.08	6.04	4.3	6.92	8.3	12	2
@@ -370,7 +370,7 @@ Izura-2005-499-368	368	Pancreas	pancreas	PANCREAS	3252	body part	3.12	1.72	10.8	
 Izura-2005-499-369	369	Pantorrilla	calf	CALF OF LEG	498	body part	4.68	2.4	8.92	5.92	1.4	2	4
 Izura-2005-499-370	370	Párpado	eyelid	EYELID	17	body part	4.16	3.36	7.92	6.68	2.4	3	3
 Izura-2005-499-371	371	Pecho	breast	BREAST	1402	body part	6.12	4.08	6.76	6.56	21.7	94	2
-Izura-2005-499-372	372	Pechos	breasts			body part	5.96	4.96	7.52	6.72	2.2	34	2
+Izura-2005-499-372	372	Pechos	breasts	BREAST	1402	body part	5.96	4.96	7.52	6.72	2.2	34	2
 Izura-2005-499-373	373	Pelo	hair	HAIR	1040	body part	5.36	6.24	4.4	6.92	27.9	153	2
 Izura-2005-499-374	374	Pelvis	pelvis			body part	4	2.32	10.48	5.64	1.1	1	2
 Izura-2005-499-375	375	Pene	penis	PENIS	1222	body part	5.36	3.52	9.68	6.72	16.1	7	2
@@ -416,7 +416,7 @@ Izura-2005-499-414	414	Camello	camel	CAMEL	1871	animal	4.2	2.84	5.68	6.8	2.916	4
 Izura-2005-499-415	415	Canario	canary			animal	4.24	3.4	4.96	6.68	15.616	7	3
 Izura-2005-499-416	416	Cangrejo	crab	CRAB	2348	animal	3.28	2.88	4.96	6.56	2.777	2	3
 Izura-2005-499-417	417	Canguro	kangaroo	KANGAROO	164	animal	3.92	2.48	5.96	6.84	3.801	1	3
-Izura-2005-499-418	418	Cebra	zebra			animal	4.32	2.84	6.04	6.84	6.838	3	2
+Izura-2005-499-418	418	Cebra	zebra	ZEBRA	3675	animal	4.32	2.84	6.04	6.84	6.838	3	2
 Izura-2005-499-419	419	Cerdo	pig	PIG	1337	animal	6.48	5.28	3.76	6.88	17.991	17	2
 Izura-2005-499-420	420	Ciervo	deer	DEER	1936	animal	4.92	3.08	4.98	6.84	11.601	4	2
 Izura-2005-499-421	421	Cigüeña	stork			animal	4.6	3.84	4.82	6.64	2.644	5	3
@@ -434,7 +434,7 @@ Izura-2005-499-432	432	Elefante	elephant	ELEPHANT	1290	animal	6.32	3.36	4.36	6.9
 Izura-2005-499-433	433	Foca	seal	SEAL	651	animal	4.84	3.52	5	6.88	3.533	1	2
 Izura-2005-499-434	434	Gallina	hen	HEN	1514	animal	5.88	4.88	3.36	6.88	25.464	19	3
 Izura-2005-499-435	435	Gallo	rooster	ROOSTER	1511	animal	5.56	4.48	3.52	6.92	11.802	16	2
-Izura-2005-499-436	436	Gamba	prawn			animal	2.56	4.52	5.72	6.76	3.811	1	2
+Izura-2005-499-436	436	Gamba	prawn	PRAWNS	238	animal	2.56	4.52	5.72	6.76	3.811	1	2
 Izura-2005-499-437	437	Gamo	fallow deer			animal	3.08	1.64	8.04	5.36	2.892	1	2
 Izura-2005-499-438	438	Gato	cat	CAT	1208	animal	6.72	5.48	3	6.84	76.056	70	2
 Izura-2005-499-439	439	Gaviota	seagull	SEAGULL	950	animal	4.32	2.76	5.08	6.72	5.783	6	3
@@ -448,13 +448,13 @@ Izura-2005-499-446	446	Halcón	falcon	FALCON	3258	animal	3.76	2.64	6.68	6.4	3.02
 Izura-2005-499-447	447	Hamster	hamster	HAMSTER	3147	animal	3.92	3.6	7.56	6.68	8.385	1	2
 Izura-2005-499-448	448	Hiena	hyena	HYENA	1799	animal	3.08	2.28	7.16	6.24	7.051	1	2
 Izura-2005-499-449	449	Hipopótamo	hippopotamus	HIPPOPOTAMUS	3145	animal	4.44	2.28	6.16	6.84	10.631	2	5
-Izura-2005-499-450	450	Hormiga	aunt			animal	4.28	3.68	4.64	6.96	9.531	5	3
+Izura-2005-499-450	450	Hormiga	ant	ANT	587	animal	4.28	3.68	4.64	6.96	9.531	5	3
 Izura-2005-499-451	451	Iguana	iguana	IGUANA	1578	animal	3.72	1.88	9.16	5.72	3.109	7	3
 Izura-2005-499-452	452	Jabalí	wild boar	WILD BOAR	3154	animal	5.28	2.32	8.32	6.68	12.549	5	3
 Izura-2005-499-453	453	Jirafa	giraffe	GIRAFFE	3089	animal	5.4	2.16	6.48	7	18.874	1	3
 Izura-2005-499-454	454	Koala	koala			animal	4.52	1.68	9	6.67	4.209	0	3
 Izura-2005-499-455	455	Lagartija	lizard	LIZARD	632	animal	4.04	2.64	5.64	6.68	6.384	4	4
-Izura-2005-499-456	456	Lagarto	lizard			animal	3.8	2.04	6.76	6.32	4.21	4	3
+Izura-2005-499-456	456	Lagarto	lizard	LIZARD	632	animal	3.8	2.04	6.76	6.32	4.21	4	3
 Izura-2005-499-457	457	Langostino	prawn			animal	3.16	3.56	8.36	6.72	4.634	0	4
 Izura-2005-499-458	458	Lechuza	owl	OWL	735	animal	4.68	2.24	7.96	6.4	3.313	1	3
 Izura-2005-499-459	459	León	lion	LION	1386	animal	6.8	3.12	5.28	6.92	37.723	27	2
