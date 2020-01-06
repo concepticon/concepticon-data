@@ -1,7 +1,6 @@
 ID	GLOSS	PRIORITY
 587	ANT///μυρμήγκι	2
 1320	APPLE///μήλο	2
-1828	ASK (REQUEST)///ζητιανεύει	1
 677	AXE///τσεκούρι	2
 1845	BALL///μπάλα	2
 868	BANANA///μπανάνα	2
@@ -12,13 +11,12 @@ ID	GLOSS	PRIORITY
 662	BATTERY///μπαταρία	2
 1820	BEAR///αρκούδα	2
 1663	BED///κρεβάτι	2
-3534	BEG///ζητιανεύει	1
+3534	BEG///ζητιανεύει	2
 2246	BELL///κουδούνι	2
 772	BELT///ζώνη	2
 937	BIRD///πουλί	2
 1403	BITE///δαγκώνει	2
 3084	BLACKBOARD///πίνακας	2
-1655	BLINK///κλείνει το μάτι	2
 176	BLOW (WITH MOUTH)///φυσάει	2
 2493	BOIL///βράζει	2
 1394	BONE///κόκαλο	2
@@ -27,7 +25,6 @@ ID	GLOSS	PRIORITY
 1321	BOTTLE///μπουκάλι	2
 3108	BOX (SOMEBODY OR SOMETHING)///πυγμαχεί	2
 2902	BRAWL (FIGHT)///τσακώνεται	2
-680	BREAK (DESTROY OR GET DESTROYED)///σκάει	2
 245	BROOM///σκούπα	2
 3109	BRUSH (TEETH)///βουρτσίζει	2
 141	BURN (SOMETHING)///καίγεται	2
@@ -86,7 +83,6 @@ ID	GLOSS	PRIORITY
 239	FLOWER///λουλούδι	2
 1441	FLY (MOVE THROUGH AIR)///πετάει	2
 256	FOOD///πίτσα	1
-256	FOOD///σάντουιτς	1
 1302	FORK///πιρούνι	2
 503	FROG///βάτραχος	2
 991	FRY///τηγανίζει	2
@@ -107,13 +103,11 @@ ID	GLOSS	PRIORITY
 1252	HOUSE///σπίτι	2
 1435	HUNT///κυνηγάει	2
 3118	IRON (CLOTHES)///σιδερώνει	2
-621	IRON///σίδερο	2
-3078	IRRIGATE///ποτίζει	1
+3078	IRRIGATE///ποτίζει	2
 1829	JUMP///πηδάει	2
 164	KANGAROO///καγκουρό	2
 1472	KEY///κλειδί	2
 1135	KICK///κλωτσάει	2
-1508	KING///χάρακας	2
 578	KISS///φιλάει	2
 1352	KNIFE///μαχαίρι	2
 2905	KNIT///κεντάει	2
@@ -168,7 +162,6 @@ ID	GLOSS	PRIORITY
 1921	PLOUGH///οργώνει	2
 3126	POST (SOMETHING)///ταχυδρομεί	2
 3095	POSTMAN///ταχυδρόμος	2
-1487	POUR///ποτίζει	1
 1487	POUR///χύνει	2
 1455	PULL///τραβάει	2
 1452	PUSH///σπρώχνει	2
@@ -179,20 +172,21 @@ ID	GLOSS	PRIORITY
 724	READ///διαβάζει	2
 367	RIDE///ιππεύει	2
 2875	RING (MAKE SOUND)///κρούει	2
-1962	ROAST (SOMETHING)///ψήνει	4
+1962	ROAST (SOMETHING)///ψήνει	2
 769	ROOF///στέγη	2
 1849	ROW///κωπηλατεί	2
+3405	RULER///χάρακας	2
 1519	RUN///τρέχει	2
 787	SAIL///πλέει	2
 1948	SAW///κόβει	2
 1948	SAW///πριόνι	2
 2783	SCALES (MEASURE INSTRUMENT)///ζυγαριά	2
+1328	SCISSORS///ψαλίδι	2
 1457	SEW///ράβει	2
 3097	SEWING MACHINE///ραπτομηχανή	2
 251	SHARPEN (SOMETHING)///ακονίζει	2
 231	SHAVE///ξυρίζεται	2
 1532	SHEAR///κουρεύει	2
-356	SHEARS///ψαλίδι	2
 1622	SHIRT///πουκάμισο	2
 1381	SHOE///παπούτσι	2
 3128	SHOWER (ACTION)///λούζει	2
@@ -203,7 +197,6 @@ ID	GLOSS	PRIORITY
 2991	SKI///κάνει σκι	2
 1585	SLEEP///κοιμάται	2
 1324	SLIP///γλιστράει	2
-1324	SLIP///κάνει τσουλήθρα 	2
 1324	SLIP///τσουλήθρα	2
 1586	SMELL (PERCEIVE)///μυρίζει	2
 1689	SMOKE (INHALE)///καπνίζει	2
@@ -223,7 +216,6 @@ ID	GLOSS	PRIORITY
 696	STIR///ανακατεύει	2
 2058	STOOL///σκαμπό	2
 3138	STRAWBERRY///φράουλα	2
-2993	STROKE (OF PEN)///χαϊδεύει	2
 1343	SUN///ήλιος	2
 3131	SUNBATHE///λιάζεται	2
 3100	SUNGLASSES///γυαλιά ηλίου	2
@@ -239,7 +231,6 @@ ID	GLOSS	PRIORITY
 3103	TENNIS BALL///μπαλάκι του τένις	2
 3104	THERMOMETER///θερμόμετρο	2
 1456	THROW///πετάει	2
-1917	TIE///γραβάτα	2
 1917	TIE///δένει	2
 846	TIGER///τίγρης	2
 986	TOMATO///ντομάτα	2
@@ -249,8 +240,6 @@ ID	GLOSS	PRIORITY
 3134	TYPE (ON SOMETHING)///δακτυλογραφεί	2
 3105	UMBRELLA///ομπρέλα	2
 3135	VACUUM (SOMETHING)///καθαρίζει	2
-2549	VEHICLE///τρακτέρ	2
-2549	VEHICLE///φορτηγό	2
 1602	WAKE UP///ξυπνάει	2
 1443	WALK///περπατάει	2
 1453	WASH///πλένει	2
@@ -262,5 +251,5 @@ ID	GLOSS	PRIORITY
 55	WHISPER///ψιθυρίζει	2
 3107	WHISTLE (INSTRUMENT)///σφυρίκτρα	2
 1025	WHISTLE///σφυρίζει	2
-958	WILD ANIMAL///ζέπρα	2
 1672	WRITE///γράφει	2
+3675	ZEBRA///ζέπρα	2

@@ -2,7 +2,6 @@ ID	GLOSS	PRIORITY
 1597	AIRPLANE///avió	2
 587	ANT///formiga	2
 1320	APPLE///poma	2
-1828	ASK (REQUEST)///demanar caritat	1
 677	AXE///destral	2
 1845	BALL///pilota	2
 3083	BALLOON///globus	2
@@ -14,14 +13,13 @@ ID	GLOSS	PRIORITY
 662	BATTERY///pila	2
 1820	BEAR///ós	2
 1663	BED///llit	2
-3534	BEG///demanar caritat	1
+3534	BEG///demanar caritat	2
 2246	BELL///campana	2
 772	BELT///cinturó	2
 747	BICYCLE///bicicleta	2
 937	BIRD///ocell	2
 1403	BITE///mossegar	2
 3084	BLACKBOARD///pissarra	2
-1655	BLINK///fer l’ullet	2
 176	BLOW (WITH MOUTH)///bufar	2
 2493	BOIL///bullir	2
 1394	BONE///os	2
@@ -30,7 +28,6 @@ ID	GLOSS	PRIORITY
 1321	BOTTLE///ampolla	2
 3108	BOX (SOMEBODY OR SOMETHING)///boxejar	2
 2902	BRAWL (FIGHT)///barallar-se	2
-680	BREAK (DESTROY OR GET DESTROYED)///explotar	2
 245	BROOM///escombra	2
 3109	BRUSH (TEETH)///respallar-se les dents	2
 1821	BRUSH///raspall	2
@@ -53,9 +50,6 @@ ID	GLOSS	PRIORITY
 2235	CLEAN (SOMETHING)///netejar	2
 1102	CLIMB///pujar	2
 1323	CLOCK///despertador	2
-1616	CLOTH///bufanda	2
-1895	CLOTHES///armilla	2
-1895	CLOTHES///jersei	2
 1489	CLOUD///núvol	2
 2070	COMB (VERB)///pentinar-se	2
 1475	COMB///pinta	2
@@ -102,7 +96,6 @@ ID	GLOSS	PRIORITY
 239	FLOWER///flor	2
 1504	FLY (INSECT)///mosca	2
 1441	FLY (MOVE THROUGH AIR)///volar	2
-256	FOOD///entrepà	1
 256	FOOD///pizza	1
 1302	FORK///forquilla	2
 503	FROG///granota	2
@@ -126,12 +119,10 @@ ID	GLOSS	PRIORITY
 1252	HOUSE///casa	2
 1435	HUNT///caçar	2
 3118	IRON (CLOTHES)///planxar	2
-621	IRON///planxa	2
-3078	IRRIGATE///regar	1
+3078	IRRIGATE///regar	2
 1829	JUMP///saltar	2
 1472	KEY///clau	2
 1135	KICK///xutar	2
-1508	KING///regle	2
 578	KISS///fer un petó	2
 1352	KNIFE///ganivet	2
 2905	KNIT///fer mitja	2
@@ -194,7 +185,6 @@ ID	GLOSS	PRIORITY
 3126	POST (SOMETHING)///tirar una carta	2
 3095	POSTMAN///carter	2
 1487	POUR///abocar	2
-1487	POUR///regar	1
 1455	PULL///tibar	2
 1452	PUSH///empènyer	2
 1136	RABBIT///conill	2
@@ -205,20 +195,21 @@ ID	GLOSS	PRIORITY
 724	READ///llegir	2
 367	RIDE///muntar	2
 2875	RING (MAKE SOUND)///trucar	2
-1962	ROAST (SOMETHING)///rostir	4
+1962	ROAST (SOMETHING)///rostir	2
 769	ROOF///teulada	2
 1849	ROW///remar	2
+3405	RULER///regle	2
 1519	RUN///córrer	2
 787	SAIL///navegar	2
 1948	SAW///serra	2
 1948	SAW///serrar	2
 2783	SCALES (MEASURE INSTRUMENT)///balança	2
+1328	SCISSORS///tisores	2
 1457	SEW///cosir	2
 3097	SEWING MACHINE///màquina de cosir	2
 251	SHARPEN (SOMETHING)///afilar	2
 231	SHAVE///afaitar-se	2
 1532	SHEAR///esquilar	2
-356	SHEARS///tisores	2
 1622	SHIRT///camisa	2
 1381	SHOE///sabata	2
 3128	SHOWER (ACTION)///dutxar-se	2
@@ -228,7 +219,6 @@ ID	GLOSS	PRIORITY
 3129	SKATE///patinar	2
 2991	SKI///esquiar	2
 1585	SLEEP///dormir	2
-1324	SLIP///baixar pel tobogan	2
 1324	SLIP///relliscar	2
 1324	SLIP///tobogan	2
 1586	SMELL (PERCEIVE)///olorar	2
@@ -251,7 +241,6 @@ ID	GLOSS	PRIORITY
 696	STIR///remenar	2
 2058	STOOL///tamboret	2
 3138	STRAWBERRY///maduixa	2
-2993	STROKE (OF PEN)///acariciar	2
 1343	SUN///sol	2
 3131	SUNBATHE///prendre el sol	2
 3100	SUNGLASSES///ulleres de sol	2
@@ -270,7 +259,6 @@ ID	GLOSS	PRIORITY
 3103	TENNIS BALL///pilota de tennis	2
 3104	THERMOMETER///termòmetre	2
 1456	THROW///llançar	2
-1917	TIE///corbata	2
 1917	TIE///cordar	2
 846	TIGER///tigre	2
 986	TOMATO///tomàquet	2
@@ -281,8 +269,6 @@ ID	GLOSS	PRIORITY
 3134	TYPE (ON SOMETHING)///escriure a màquina	2
 3105	UMBRELLA///paraigües	2
 3135	VACUUM (SOMETHING)///aspirar	2
-2549	VEHICLE///camió	2
-2549	VEHICLE///tractor	2
 1602	WAKE UP///despertar-se	2
 1443	WALK///caminar	2
 3106	WARDROBE///armari	2
@@ -296,5 +282,5 @@ ID	GLOSS	PRIORITY
 55	WHISPER///xiuxiuejar	2
 3107	WHISTLE (INSTRUMENT)///xiulet	2
 1025	WHISTLE///xiular	2
-958	WILD ANIMAL///zebra	2
 1672	WRITE///escriure	2
+3675	ZEBRA///zebra	2

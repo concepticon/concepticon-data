@@ -1,7 +1,6 @@
 ID	GLOSS	PRIORITY
 587	ANT///mier	2
 1320	APPLE///appel	2
-1828	ASK (REQUEST)///bedel	1
 677	AXE///byl	2
 1845	BALL///bal	2
 868	BANANA///piesang	2
@@ -12,13 +11,12 @@ ID	GLOSS	PRIORITY
 662	BATTERY///battery	2
 1820	BEAR///beer	2
 1663	BED///bed	2
-3534	BEG///bedel	1
+3534	BEG///bedel	2
 2246	BELL///klok	2
 772	BELT///gordel	2
 937	BIRD///voël	2
 1403	BITE///byt	2
 3084	BLACKBOARD///bord	2
-1655	BLINK///oogknip	2
 176	BLOW (WITH MOUTH)///blaas	2
 2493	BOIL///kook [English: boil]	2
 1394	BONE///been [English: bone]	2
@@ -27,7 +25,6 @@ ID	GLOSS	PRIORITY
 1321	BOTTLE///bottel	2
 3108	BOX (SOMEBODY OR SOMETHING)///boks	2
 2902	BRAWL (FIGHT)///baklei	2
-680	BREAK (DESTROY OR GET DESTROYED)///bars	2
 245	BROOM///besem	2
 3109	BRUSH (TEETH)///borsel [tande]	2
 141	BURN (SOMETHING)///brand	2
@@ -86,7 +83,6 @@ ID	GLOSS	PRIORITY
 239	FLOWER///blom	2
 1441	FLY (MOVE THROUGH AIR)///vlieg	2
 256	FOOD///pizza	1
-256	FOOD///toebroodjie	1
 1302	FORK///vurk	2
 503	FROG///padda	2
 991	FRY///bak	2
@@ -107,13 +103,11 @@ ID	GLOSS	PRIORITY
 1252	HOUSE///huis	2
 1435	HUNT///jag	2
 3118	IRON (CLOTHES)///stryk	2
-621	IRON///strykyster	2
-3078	IRRIGATE///natgooi	1
+3078	IRRIGATE///natgooi	2
 1829	JUMP///spring	2
 164	KANGAROO///kangaroe	2
 1472	KEY///sleutel	2
 1135	KICK///skop	2
-1508	KING///liniaal	2
 578	KISS///soen	2
 1352	KNIFE///mes	2
 2905	KNIT///brei	2
@@ -169,7 +163,6 @@ ID	GLOSS	PRIORITY
 3126	POST (SOMETHING)///pos	2
 3095	POSTMAN///posman	2
 1487	POUR///ingooi	2
-1487	POUR///natgooi	1
 1455	PULL///trek	2
 1452	PUSH///stoot	2
 1136	RABBIT///haas	2
@@ -179,20 +172,20 @@ ID	GLOSS	PRIORITY
 724	READ///lees	2
 367	RIDE///ry [perd]	2
 2875	RING (MAKE SOUND)///lui [klokkie]	2
-1962	ROAST (SOMETHING)///braai [English: grill]	2
 1962	ROAST (SOMETHING)///braai [English: roast]	2
 769	ROOF///dak	2
 1849	ROW///roei	2
+3405	RULER///liniaal	2
 1519	RUN///hardloop	2
 787	SAIL///seil	2
 1948	SAW///saag	4
 2783	SCALES (MEASURE INSTRUMENT)///skaal	2
+1328	SCISSORS///skêr	2
 1457	SEW///vaswerk	2
 3097	SEWING MACHINE///naaimasjien	2
 251	SHARPEN (SOMETHING)///slyp	2
 231	SHAVE///skeer [English: shave]	2
 1532	SHEAR///skeer  [English: shear]	2
-356	SHEARS///skêr	2
 1622	SHIRT///hemp	2
 1381	SHOE///skoen	2
 3128	SHOWER (ACTION)///stort	2
@@ -202,7 +195,6 @@ ID	GLOSS	PRIORITY
 3129	SKATE///rolskaats	2
 2991	SKI///ski	2
 1585	SLEEP///slaap	2
-1324	SLIP///gly [English: slide]	2
 1324	SLIP///gly [English: slip]	2
 1324	SLIP///glyplank	2
 1586	SMELL (PERCEIVE)///ruik	2
@@ -223,7 +215,6 @@ ID	GLOSS	PRIORITY
 696	STIR///roer	2
 2058	STOOL///stoel	2
 3138	STRAWBERRY///aarbei	2
-2993	STROKE (OF PEN)///vryf	2
 1343	SUN///son	2
 3131	SUNBATHE///tan	2
 3100	SUNGLASSES///sonbril	2
@@ -239,7 +230,6 @@ ID	GLOSS	PRIORITY
 3103	TENNIS BALL///tennisbal	2
 3104	THERMOMETER///termometer	2
 1456	THROW///weggooi	2
-1917	TIE///das	2
 1917	TIE///vasmaak	2
 846	TIGER///tier	2
 986	TOMATO///tamatie	2
@@ -249,8 +239,6 @@ ID	GLOSS	PRIORITY
 3134	TYPE (ON SOMETHING)///tik	2
 3105	UMBRELLA///sambreel	2
 3135	VACUUM (SOMETHING)///stofsuig	2
-2549	VEHICLE///trekker	2
-2549	VEHICLE///vragmotor	2
 1602	WAKE UP///wakker word	2
 1443	WALK///stap	2
 1453	WASH///was	2
@@ -262,5 +250,5 @@ ID	GLOSS	PRIORITY
 55	WHISPER///fluister	2
 3107	WHISTLE (INSTRUMENT)///fluitjie	2
 1025	WHISTLE///blaas	2
-958	WILD ANIMAL////\A\z/	2
 1672	WRITE///skryf	2
+3675	ZEBRA////\A\z/	2
