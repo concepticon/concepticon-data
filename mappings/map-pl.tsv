@@ -1,7 +1,6 @@
 ID	GLOSS	PRIORITY
 587	ANT///mrówka	2
 1320	APPLE///jabłko	2
-1828	ASK (REQUEST)///żebrać	1
 677	AXE///siekiera	2
 1845	BALL///piłka	2
 868	BANANA///banan	2
@@ -12,13 +11,12 @@ ID	GLOSS	PRIORITY
 662	BATTERY///bateria	2
 1820	BEAR///niedźwiedź	2
 1663	BED///łóżko	2
-3534	BEG///żebrać	1
+3534	BEG///żebrać	2
 2246	BELL///dzwonek	2
 772	BELT///pasek	2
 937	BIRD///ptak	2
 1403	BITE///gryźć	2
 3084	BLACKBOARD///tablica	2
-1655	BLINK///mrugać	2
 176	BLOW (WITH MOUTH)///dmuchać	2
 2493	BOIL///gotować się	2
 1394	BONE///kość	2
@@ -27,7 +25,6 @@ ID	GLOSS	PRIORITY
 1321	BOTTLE///butelka	2
 3108	BOX (SOMEBODY OR SOMETHING)///bić się (uderzać)	2
 2902	BRAWL (FIGHT)///bić się (walczyć)	2
-680	BREAK (DESTROY OR GET DESTROYED)///pękać	2
 245	BROOM///miotła	2
 3109	BRUSH (TEETH)///szczotkować [zęby]	2
 141	BURN (SOMETHING)///palić się	2
@@ -85,7 +82,6 @@ ID	GLOSS	PRIORITY
 2623	FLAG///flaga	2
 239	FLOWER///kwiatek	2
 1441	FLY (MOVE THROUGH AIR)///latać	2
-256	FOOD///kanapka	1
 256	FOOD///pizza	1
 1302	FORK///widelec	2
 503	FROG///żaba	2
@@ -107,13 +103,11 @@ ID	GLOSS	PRIORITY
 1252	HOUSE///dom	2
 1435	HUNT///polować	2
 3118	IRON (CLOTHES)///prasować	2
-621	IRON///żelazko	2
-3078	IRRIGATE///podlewać	1
+3078	IRRIGATE///podlewać	2
 1829	JUMP///skakać	2
 164	KANGAROO///kangur	2
 1472	KEY///klucz	2
 1135	KICK///kopać	2
-1508	KING///linijka	2
 578	KISS///całować	2
 1352	KNIFE///nóż	2
 2905	KNIT///robić na drutach	2
@@ -169,7 +163,6 @@ ID	GLOSS	PRIORITY
 3126	POST (SOMETHING)///wysyłać	2
 3095	POSTMAN///listonosz	2
 1487	POUR///nalewać	2
-1487	POUR///podlewać	1
 1455	PULL///ciągnąć	2
 1452	PUSH///pchać	2
 1136	RABBIT///królik	2
@@ -179,21 +172,21 @@ ID	GLOSS	PRIORITY
 724	READ///czytać	2
 367	RIDE///jeździć konno	2
 2875	RING (MAKE SOUND)///dzwonić	2
-1962	ROAST (SOMETHING)///grillować	2
 1962	ROAST (SOMETHING)///piec	2
 769	ROOF///dach	2
 1849	ROW///wiosłować	2
+3405	RULER///linijka	2
 1519	RUN///biegać	2
 787	SAIL///żeglować	2
 1948	SAW///piła	2
 1948	SAW///piłować	2
 2783	SCALES (MEASURE INSTRUMENT)///waga	2
+1328	SCISSORS///nożyczki	2
 1457	SEW///szyć	2
 3097	SEWING MACHINE///maszyna do szycia	2
 251	SHARPEN (SOMETHING)///ostrzyć	2
 231	SHAVE///golić się	2
 1532	SHEAR///golić	2
-356	SHEARS///nożyczki	2
 1622	SHIRT///koszula	2
 1381	SHOE///but	2
 3128	SHOWER (ACTION)///brać prysznic	2
@@ -205,7 +198,6 @@ ID	GLOSS	PRIORITY
 1585	SLEEP///spać	2
 1324	SLIP///poślizgnąć się	2
 1324	SLIP///zjeżdżalnia	2
-1324	SLIP///zjeżdżać	2
 1586	SMELL (PERCEIVE)///wąchać	2
 1689	SMOKE (INHALE)///palić	2
 1543	SNAIL///ślimak	2
@@ -224,7 +216,6 @@ ID	GLOSS	PRIORITY
 696	STIR///mieszać	2
 2058	STOOL///stołek	2
 3138	STRAWBERRY///truskawka	2
-2993	STROKE (OF PEN)///głaskać	2
 1343	SUN///słońce	2
 3131	SUNBATHE///opalać się	2
 3100	SUNGLASSES///okulary przeciwsłoneczne	2
@@ -240,7 +231,6 @@ ID	GLOSS	PRIORITY
 3103	TENNIS BALL///piłka tenisowa	2
 3104	THERMOMETER///termometr	2
 1456	THROW///wyrzucać	2
-1917	TIE///krawat	2
 1917	TIE///wiązać	2
 846	TIGER///tygrys	2
 986	TOMATO///pomidor	2
@@ -250,8 +240,6 @@ ID	GLOSS	PRIORITY
 3134	TYPE (ON SOMETHING)///pisać na maszynie	2
 3105	UMBRELLA///parasolka	2
 3135	VACUUM (SOMETHING)///odkurzać	2
-2549	VEHICLE///ciężarówka	2
-2549	VEHICLE///traktor	2
 1602	WAKE UP///budzić się	2
 1443	WALK///iść	2
 1453	WASH///prać	2
@@ -263,5 +251,5 @@ ID	GLOSS	PRIORITY
 55	WHISPER///szeptać	2
 3107	WHISTLE (INSTRUMENT)///gwizdek	2
 1025	WHISTLE///gwizdać	2
-958	WILD ANIMAL///zebra	2
 1672	WRITE///pisać	2
+3675	ZEBRA///zebra	2

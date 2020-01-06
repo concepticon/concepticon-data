@@ -2,7 +2,6 @@ ID	GLOSS	PRIORITY
 1597	AIRPLANE///flugvél	2
 587	ANT///maur	2
 1320	APPLE///epli	2
-1828	ASK (REQUEST)///betla	1
 677	AXE///öxi	2
 1845	BALL///bolti	2
 3083	BALLOON///blaðra	2
@@ -16,14 +15,13 @@ ID	GLOSS	PRIORITY
 3474	BE THIRSTY///þyrsta	1
 1820	BEAR///björn	2
 1663	BED///rúm	2
-3534	BEG///betla	1
+3534	BEG///betla	2
 2246	BELL///bjalla	2
 772	BELT///belti	2
 747	BICYCLE///hjól	2
 937	BIRD///fugl	2
 1403	BITE///bíta	2
 3084	BLACKBOARD///tafla	2
-1655	BLINK///blikka	2
 176	BLOW (WITH MOUTH)///blása	2
 2493	BOIL///sjóða	2
 1394	BONE///bein	2
@@ -32,7 +30,6 @@ ID	GLOSS	PRIORITY
 1321	BOTTLE///flaska	2
 3108	BOX (SOMEBODY OR SOMETHING)///kýla	2
 2902	BRAWL (FIGHT)///slást	2
-680	BREAK (DESTROY OR GET DESTROYED)///springa	2
 245	BROOM///kústur	2
 3109	BRUSH (TEETH)///bursta tennur	2
 1821	BRUSH///bursti	2
@@ -55,9 +52,6 @@ ID	GLOSS	PRIORITY
 2235	CLEAN (SOMETHING)///hreinsa	2
 1102	CLIMB///klifra	2
 1323	CLOCK///klukka	2
-1616	CLOTH///trefill	2
-1895	CLOTHES///peysa	2
-1895	CLOTHES///vesti	2
 1489	CLOUD///ský	2
 2070	COMB (VERB)///greiða	2
 1475	COMB///greiða	2
@@ -106,7 +100,6 @@ ID	GLOSS	PRIORITY
 1504	FLY (INSECT)///fluga	2
 1441	FLY (MOVE THROUGH AIR)///fljúga	2
 256	FOOD///pizza	1
-256	FOOD///samloka	1
 1302	FORK///gaffall	2
 503	FROG///froskur	2
 991	FRY///steikja	2
@@ -129,13 +122,11 @@ ID	GLOSS	PRIORITY
 1252	HOUSE///hús	2
 1435	HUNT///veiða	2
 3118	IRON (CLOTHES)///strauja	2
-621	IRON///straujárn	2
-3078	IRRIGATE///vökva	1
+3078	IRRIGATE///vökva	2
 1829	JUMP///hoppa	2
 164	KANGAROO///kengúra	2
 1472	KEY///lykill	2
 1135	KICK///sparka	2
-1508	KING///reglustika	2
 578	KISS///kyssa	2
 1352	KNIFE///hnífur	2
 2905	KNIT///prjóna	2
@@ -201,7 +192,6 @@ ID	GLOSS	PRIORITY
 3126	POST (SOMETHING)///póstleggja	2
 3095	POSTMAN///póstur	2
 1487	POUR///hella	2
-1487	POUR///vökva	1
 1455	PULL///toga	2
 1452	PUSH///ýta	2
 1136	RABBIT///kanína	2
@@ -212,20 +202,21 @@ ID	GLOSS	PRIORITY
 724	READ///lesa	2
 367	RIDE///ríða	2
 2875	RING (MAKE SOUND)///hringja	2
-1962	ROAST (SOMETHING)///grilla	4
+1962	ROAST (SOMETHING)///grilla	2
 769	ROOF///þak	2
 1849	ROW///róa	2
+3405	RULER///reglustika	2
 1519	RUN///hlaupa	2
 787	SAIL///sigla	2
 1948	SAW///saga	2
 1948	SAW///sög	2
 2783	SCALES (MEASURE INSTRUMENT)///vigt	2
+1328	SCISSORS///skæri	2
 1457	SEW///sauma	2
 3097	SEWING MACHINE///saumavél	2
 251	SHARPEN (SOMETHING)///brýna	2
 231	SHAVE///raka sig	2
 1532	SHEAR///rýja	2
-356	SHEARS///skæri	2
 1622	SHIRT///skyrta	2
 1381	SHOE///skór	2
 3128	SHOWER (ACTION)///fara í sturtu	2
@@ -236,7 +227,6 @@ ID	GLOSS	PRIORITY
 2991	SKI///renna sér á skíðum	2
 1585	SLEEP///sofa	2
 1324	SLIP///renna 	2
-1324	SLIP///renna sér	2
 1324	SLIP///rennibraut	2
 1586	SMELL (PERCEIVE)///þefa af	2
 1689	SMOKE (INHALE)///reykja	2
@@ -258,7 +248,6 @@ ID	GLOSS	PRIORITY
 696	STIR///hræra	2
 2058	STOOL///kollur	2
 3138	STRAWBERRY///jarðarber	2
-2993	STROKE (OF PEN)///klappa	2
 3475	SUFFICE///nægja	1
 1343	SUN///sól	2
 3131	SUNBATHE///vera í sólbaði	2
@@ -278,7 +267,6 @@ ID	GLOSS	PRIORITY
 3103	TENNIS BALL///tennisbolti	2
 3104	THERMOMETER///hitamælir	2
 1456	THROW///henda	2
-1917	TIE///bindi	2
 1917	TIE///reima	2
 846	TIGER///tígrisdýr	2
 986	TOMATO///tómatur	2
@@ -289,8 +277,6 @@ ID	GLOSS	PRIORITY
 3134	TYPE (ON SOMETHING)///vélrita	2
 3105	UMBRELLA///regnhlíf	2
 3135	VACUUM (SOMETHING)///ryksuga	2
-2549	VEHICLE///flutningabíll	2
-2549	VEHICLE///traktor	2
 1602	WAKE UP///vakna	2
 1443	WALK///ganga	2
 3106	WARDROBE///skápur	2
@@ -304,5 +290,5 @@ ID	GLOSS	PRIORITY
 55	WHISPER///hvísla	2
 3107	WHISTLE (INSTRUMENT)///flauta	2
 1025	WHISTLE///flauta	2
-958	WILD ANIMAL///sebrahestur	2
 1672	WRITE///skrifa	2
+3675	ZEBRA///sebrahestur	2
