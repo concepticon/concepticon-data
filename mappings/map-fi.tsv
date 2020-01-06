@@ -2,7 +2,6 @@ ID	GLOSS	PRIORITY
 1597	AIRPLANE///lentokone	2
 587	ANT///muurahainen	2
 1320	APPLE///omena	2
-1828	ASK (REQUEST)///kerjätä	1
 677	AXE///kirves	2
 1845	BALL///pallo	2
 3083	BALLOON///ilmapallo	2
@@ -14,14 +13,13 @@ ID	GLOSS	PRIORITY
 662	BATTERY///patteri	2
 1820	BEAR///karhu	2
 1663	BED///sänky	2
-3534	BEG///kerjätä	1
+3534	BEG///kerjätä	2
 2246	BELL///kello	2
 772	BELT///vyö	2
 747	BICYCLE///polkupyörä	2
 937	BIRD///lintu	2
 1403	BITE///3.01	2
 3084	BLACKBOARD///liitutaulu	2
-1655	BLINK///iskeä silmää	2
 176	BLOW (WITH MOUTH)///puhaltaa	2
 2493	BOIL///kiehua	2
 1394	BONE///luu	2
@@ -30,7 +28,6 @@ ID	GLOSS	PRIORITY
 1321	BOTTLE///pullo	2
 3108	BOX (SOMEBODY OR SOMETHING)///nyrkkeillä	2
 2902	BRAWL (FIGHT)///tapella	2
-680	BREAK (DESTROY OR GET DESTROYED)///poksahtaa	2
 245	BROOM///luuta	2
 3109	BRUSH (TEETH)///harjata (hampaat)	2
 1821	BRUSH///harja	2
@@ -53,9 +50,6 @@ ID	GLOSS	PRIORITY
 2235	CLEAN (SOMETHING)///pestä	2
 1102	CLIMB///kiivetä	2
 1323	CLOCK///kello	2
-1616	CLOTH///kaulaliina	2
-1895	CLOTHES///(villa)pusero	2
-1895	CLOTHES///liivi	2
 1489	CLOUD///pilvi	2
 2070	COMB (VERB)///kammata	2
 1475	COMB///kampa	2
@@ -103,7 +97,6 @@ ID	GLOSS	PRIORITY
 1504	FLY (INSECT)///kärpänen	2
 1441	FLY (MOVE THROUGH AIR)///lentää	2
 256	FOOD///pitsa	1
-256	FOOD///voileipä	1
 1302	FORK///haarukka	2
 503	FROG///sammakko	2
 991	FRY///paistaa	2
@@ -126,13 +119,11 @@ ID	GLOSS	PRIORITY
 1252	HOUSE///talo	2
 1435	HUNT///metsästää	2
 3118	IRON (CLOTHES)///silittää	2
-621	IRON///silitysrauta	2
-3078	IRRIGATE///kastella	1
+3078	IRRIGATE///kastella	2
 1829	JUMP///hypätä	2
 164	KANGAROO///kenguru	2
 1472	KEY///avain	2
 1135	KICK///potkaista	2
-1508	KING///viivotin	2
 578	KISS///suukottaa	2
 1352	KNIFE///veitsi	2
 2905	KNIT///kutoa	2
@@ -195,7 +186,6 @@ ID	GLOSS	PRIORITY
 3126	POST (SOMETHING)///postittaa	2
 3095	POSTMAN///postinkantaja	2
 1487	POUR///kaataa	2
-1487	POUR///kastella	1
 1455	PULL///vetää	2
 1452	PUSH///työntää	2
 1136	RABBIT///kani	2
@@ -206,21 +196,21 @@ ID	GLOSS	PRIORITY
 724	READ///lukea	2
 367	RIDE///ratsastaa	2
 2875	RING (MAKE SOUND)///soittaa (ovikelloa)	2
-1962	ROAST (SOMETHING)///grillata	2
 1962	ROAST (SOMETHING)///paistaa	2
 769	ROOF///katto	2
 1849	ROW///soutaa	2
+3405	RULER///viivotin	2
 1519	RUN///juosta	2
 787	SAIL///purjehtia	2
 1948	SAW///saha	2
 1948	SAW///sahata	2
 2783	SCALES (MEASURE INSTRUMENT)///vaaka	2
+1328	SCISSORS///sakset	2
 1457	SEW///ommella	2
 3097	SEWING MACHINE///ompelukone	2
 251	SHARPEN (SOMETHING)///teroittaa	2
 231	SHAVE///ajaa partaa	2
 1532	SHEAR///keritä	2
-356	SHEARS///sakset	2
 1622	SHIRT///paita	2
 1381	SHOE///kenkä	2
 3128	SHOWER (ACTION)///peseytyä	2
@@ -230,7 +220,6 @@ ID	GLOSS	PRIORITY
 3129	SKATE///rullaluistella	2
 2991	SKI///hiihtää	2
 1585	SLEEP///nukkua	2
-1324	SLIP///laskea (liukumäkeä)	2
 1324	SLIP///liukastua	2
 1324	SLIP///liukumäki	2
 1586	SMELL (PERCEIVE)///haistaa	2
@@ -253,7 +242,6 @@ ID	GLOSS	PRIORITY
 696	STIR///sekoittaa	2
 2058	STOOL///jakkara	2
 3138	STRAWBERRY///mansikka	2
-2993	STROKE (OF PEN)///silittää	2
 1343	SUN///aurinko	2
 3131	SUNBATHE///ottaa aurinkoa	2
 3100	SUNGLASSES///aurinkolasit	2
@@ -273,7 +261,6 @@ ID	GLOSS	PRIORITY
 3104	THERMOMETER///lämpömittari	2
 1456	THROW///heittää	2
 1917	TIE///sitoa	2
-1917	TIE///solmio	2
 846	TIGER///tiikeri	2
 986	TOMATO///tomaatti	2
 2579	TOOTHBRUSH///hammasharja	2
@@ -283,8 +270,6 @@ ID	GLOSS	PRIORITY
 3134	TYPE (ON SOMETHING)///kirjoittaa (koneella)	2
 3105	UMBRELLA///sateenvarjo	2
 3135	VACUUM (SOMETHING)///imuroida	2
-2549	VEHICLE///rekka	2
-2549	VEHICLE///traktori	2
 1602	WAKE UP///herätä	2
 1443	WALK///kävellä	2
 3106	WARDROBE///vaatekaappi	2
@@ -298,5 +283,5 @@ ID	GLOSS	PRIORITY
 55	WHISPER///kuiskata	2
 3107	WHISTLE (INSTRUMENT)///pilli	2
 1025	WHISTLE///viheltää	2
-958	WILD ANIMAL///seepra	2
 1672	WRITE///kirjoittaa	2
+3675	ZEBRA///seepra	2

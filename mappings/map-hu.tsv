@@ -2,7 +2,6 @@ ID	GLOSS	PRIORITY
 1597	AIRPLANE///repülő	2
 587	ANT///hangya	2
 1320	APPLE///alma	2
-1828	ASK (REQUEST)///kéreget	1
 677	AXE///balta	2
 1845	BALL///labda	2
 3083	BALLOON///lufi	2
@@ -14,14 +13,13 @@ ID	GLOSS	PRIORITY
 662	BATTERY///elem	2
 1820	BEAR///medve	2
 1663	BED///ágy	2
-3534	BEG///kéreget	1
+3534	BEG///kéreget	2
 2246	BELL///csengő	2
 772	BELT///öv	2
 747	BICYCLE///bicikli	2
 937	BIRD///madár	2
 1403	BITE///harap	2
 3084	BLACKBOARD///tábla	2
-1655	BLINK///kacsint	2
 176	BLOW (WITH MOUTH)///fúj	2
 2493	BOIL///forral	2
 1394	BONE///csont	2
@@ -30,7 +28,6 @@ ID	GLOSS	PRIORITY
 1321	BOTTLE///üveg	2
 3108	BOX (SOMEBODY OR SOMETHING)///üt	2
 2902	BRAWL (FIGHT)///verekszik	2
-680	BREAK (DESTROY OR GET DESTROYED)///kipukkan	2
 245	BROOM///seprű	2
 3109	BRUSH (TEETH)///fogat mos	2
 1821	BRUSH///hajkefe	2
@@ -53,9 +50,6 @@ ID	GLOSS	PRIORITY
 2235	CLEAN (SOMETHING)///tisztít	2
 1102	CLIMB///mászik	2
 1323	CLOCK///óra	2
-1616	CLOTH///sál	2
-1895	CLOTHES///mellény	2
-1895	CLOTHES///pulóver	2
 1489	CLOUD///felhő	2
 2070	COMB (VERB)///fésülködik	2
 1475	COMB///fésű	2
@@ -103,7 +97,6 @@ ID	GLOSS	PRIORITY
 1504	FLY (INSECT)///légy	2
 1441	FLY (MOVE THROUGH AIR)///repül	2
 256	FOOD///pizza	1
-256	FOOD///szendvics	1
 1302	FORK///villa	2
 503	FROG///béka	2
 991	FRY///süt	2
@@ -126,13 +119,11 @@ ID	GLOSS	PRIORITY
 1252	HOUSE///ház	2
 1435	HUNT///vadászik	2
 3118	IRON (CLOTHES)///vasal	2
-621	IRON///vasaló	2
-3078	IRRIGATE///öntöz	1
+3078	IRRIGATE///öntöz	2
 1829	JUMP///ugrál	2
 164	KANGAROO///kenguru	2
 1472	KEY///kulcs	2
 1135	KICK///rúg	2
-1508	KING///vonalzó	2
 578	KISS///puszil	2
 1352	KNIFE///kés	2
 2905	KNIT///köt	2
@@ -195,7 +186,6 @@ ID	GLOSS	PRIORITY
 3126	POST (SOMETHING)///felad levelet	2
 3095	POSTMAN///postás	2
 1487	POUR///önt	2
-1487	POUR///öntöz	1
 1455	PULL///húz	2
 1452	PUSH///tol	2
 1136	RABBIT///nyúl	2
@@ -207,20 +197,20 @@ ID	GLOSS	PRIORITY
 367	RIDE///lovagol	2
 2875	RING (MAKE SOUND)///csönget	2
 1962	ROAST (SOMETHING)///sül	2
-1962	ROAST (SOMETHING)///süt	2
 769	ROOF///tető	2
 1849	ROW///evez	2
+3405	RULER///vonalzó	2
 1519	RUN///fut	2
 787	SAIL///vitorlázik	2
 1948	SAW///fűrész	2
 1948	SAW///fűrészel	2
 2783	SCALES (MEASURE INSTRUMENT)///mérleg	2
+1328	SCISSORS///olló	2
 1457	SEW///varr	2
 3097	SEWING MACHINE///varrógép	2
 251	SHARPEN (SOMETHING)///élez	2
 231	SHAVE///borotválkozik	2
 1532	SHEAR///nyír	2
-356	SHEARS///olló	2
 1622	SHIRT///ing	2
 1381	SHOE///cipő	2
 3128	SHOWER (ACTION)///zuhanyzik	2
@@ -231,7 +221,6 @@ ID	GLOSS	PRIORITY
 2991	SKI///síel	2
 1585	SLEEP///alszik	2
 1324	SLIP///csúszda	2
-1324	SLIP///csúszik	2
 1324	SLIP///elcsúszik	2
 1586	SMELL (PERCEIVE)///szagol	2
 1689	SMOKE (INHALE)///dohányzik	2
@@ -253,7 +242,6 @@ ID	GLOSS	PRIORITY
 696	STIR///kever	2
 2058	STOOL///szék	2
 3138	STRAWBERRY///eper	2
-2993	STROKE (OF PEN)///simogat	2
 1343	SUN///nap	2
 3131	SUNBATHE///napozik	2
 3100	SUNGLASSES///napszemüveg	2
@@ -273,7 +261,6 @@ ID	GLOSS	PRIORITY
 3104	THERMOMETER///hőmérő	2
 1456	THROW///kidob	2
 1917	TIE///cipőfűzőt köt	2
-1917	TIE///nyakkendő	2
 846	TIGER///tigris	2
 986	TOMATO///paradicsom	2
 2579	TOOTHBRUSH///fogkefe	2
@@ -283,8 +270,6 @@ ID	GLOSS	PRIORITY
 3134	TYPE (ON SOMETHING)///gépel	2
 3105	UMBRELLA///esernyő	2
 3135	VACUUM (SOMETHING)///porszívóz	2
-2549	VEHICLE///kamión	2
-2549	VEHICLE///traktor	2
 1602	WAKE UP///felébred	2
 1443	WALK///jár	2
 3106	WARDROBE///szekrény	2
@@ -298,5 +283,5 @@ ID	GLOSS	PRIORITY
 55	WHISPER///súg	2
 3107	WHISTLE (INSTRUMENT)///síp	2
 1025	WHISTLE///sípol	2
-958	WILD ANIMAL///zebra	2
 1672	WRITE///ír	2
+3675	ZEBRA///zebra	2
