@@ -2,7 +2,6 @@ ID	GLOSS	PRIORITY
 1597	AIRPLANE///inqwelo-moya	2
 587	ANT///imbovane	2
 1320	APPLE///iapile	2
-1828	ASK (REQUEST)///cela	1
 677	AXE///izembe	2
 1845	BALL///ibhola	2
 3083	BALLOON///ibhaloni	2
@@ -14,14 +13,13 @@ ID	GLOSS	PRIORITY
 662	BATTERY///ibhetri	2
 1820	BEAR///ibhere	2
 1663	BED///ibhedi	2
-3534	BEG///cela	1
+3534	BEG///cela	2
 2246	BELL///intsimbi	2
 772	BELT///ibhanti	2
 747	BICYCLE///ibhayisekile	2
 937	BIRD///intaka	2
 1403	BITE///luma	2
 3084	BLACKBOARD///ibhodi	2
-1655	BLINK///winka	2
 176	BLOW (WITH MOUTH)///vuthela	2
 2493	BOIL///bilisa	2
 1394	BONE///ithambo	2
@@ -30,7 +28,6 @@ ID	GLOSS	PRIORITY
 1321	BOTTLE///ibhotile	2
 3108	BOX (SOMEBODY OR SOMETHING)///ukulwa ngamanqindi	2
 2902	BRAWL (FIGHT)///ukulwa	2
-680	BREAK (DESTROY OR GET DESTROYED)///gqabhuka	2
 245	BROOM///umtshayelo	2
 3109	BRUSH (TEETH)///xukuxa	2
 1821	BRUSH///ibhrashi	2
@@ -53,9 +50,6 @@ ID	GLOSS	PRIORITY
 2235	CLEAN (SOMETHING)///cocisa	2
 1102	CLIMB///khwela	2
 1323	CLOCK///iwotshi	2
-1616	CLOTH///isikhafu	2
-1895	CLOTHES///ijezi	2
-1895	CLOTHES///ivesti	2
 1489	CLOUD///ilifu	2
 2070	COMB (VERB)///kama	2
 1475	COMB///ikama	2
@@ -103,7 +97,6 @@ ID	GLOSS	PRIORITY
 1504	FLY (INSECT)///impukane	2
 1441	FLY (MOVE THROUGH AIR)///ukubhabha	2
 256	FOOD///i-pizza	1
-256	FOOD///isandwishi	1
 1302	FORK///ifolokhwe	2
 503	FROG///isele	2
 991	FRY///gcada	2
@@ -126,13 +119,11 @@ ID	GLOSS	PRIORITY
 1252	HOUSE///indlu	2
 1435	HUNT///zingela	2
 3118	IRON (CLOTHES)///ayina	2
-621	IRON///iayini	2
-3078	IRRIGATE///nkcenkcesha	1
+3078	IRRIGATE///nkcenkcesha	2
 1829	JUMP///xhuma	2
 164	KANGAROO///ikhangaru	2
 1472	KEY///isitshixo	2
 1135	KICK///khaba	2
-1508	KING///irula	2
 578	KISS///nqabuza	2
 1352	KNIFE///imela	2
 2905	KNIT///ukunitha	2
@@ -195,7 +186,6 @@ ID	GLOSS	PRIORITY
 3126	POST (SOMETHING)///posa	2
 3095	POSTMAN///unoposi	2
 1487	POUR///galela	2
-1487	POUR///nkcenkcesha	1
 1455	PULL///tsala	2
 1452	PUSH///tyhiliza	2
 1136	RABBIT///umvundla	2
@@ -207,20 +197,20 @@ ID	GLOSS	PRIORITY
 367	RIDE///qabel'ihashe	2
 2875	RING (MAKE SOUND)///khalisa	2
 1962	ROAST (SOMETHING)///gcada	2
-1962	ROAST (SOMETHING)///ukoja	2
 769	ROOF///uphahla	2
 1849	ROW///nxola	2
+3405	RULER///irula	2
 1519	RUN///baleka	2
 787	SAIL///hamba ngesikhephe	2
 1948	SAW///isarha	2
 1948	SAW///sarha	2
 2783	SCALES (MEASURE INSTRUMENT)///isikali	2
+1328	SCISSORS///isikere	2
 1457	SEW///thunga	2
 3097	SEWING MACHINE///umashini wokuthunga	2
 251	SHARPEN (SOMETHING)///lola	2
 231	SHAVE///cheb'iinwele	2
 1532	SHEAR///cheb'igusha	2
-356	SHEARS///isikere	2
 1622	SHIRT///ishethi	2
 1381	SHOE///isihlangu	2
 3128	SHOWER (ACTION)///shawarisha	2
@@ -232,7 +222,6 @@ ID	GLOSS	PRIORITY
 1585	SLEEP///lala	2
 1324	SLIP///isilayidi	2
 1324	SLIP///phuncuka	2
-1324	SLIP///tyibilika	2
 1586	SMELL (PERCEIVE)///nukisa	2
 1689	SMOKE (INHALE)///tshaya	2
 1543	SNAIL///inkumba	2
@@ -253,7 +242,6 @@ ID	GLOSS	PRIORITY
 696	STIR///zamisa	2
 2058	STOOL///isitulo	2
 3138	STRAWBERRY///iqunube	2
-2993	STROKE (OF PEN)///bhrasha	2
 1343	SUN///ilanga	2
 3131	SUNBATHE///gcakamel'ilanga	2
 3100	SUNGLASSES///amazaza	2
@@ -273,7 +261,6 @@ ID	GLOSS	PRIORITY
 3104	THERMOMETER///ithemomitha	2
 1456	THROW///lahla	2
 1917	TIE///boph'imitya	2
-1917	TIE///iqhina	2
 846	TIGER///ingwe	2
 986	TOMATO///itumato	2
 2579	TOOTHBRUSH///ibhrashi yokuhlamba amazinyo	2
@@ -283,8 +270,6 @@ ID	GLOSS	PRIORITY
 3134	TYPE (ON SOMETHING)///tayipha	2
 3105	UMBRELLA///iambrela	2
 3135	VACUUM (SOMETHING)///huva	2
-2549	VEHICLE///itrakhi	2
-2549	VEHICLE///itrektara	2
 1602	WAKE UP///vuka	2
 1443	WALK///hamba	2
 3106	WARDROBE///iwodrophu	2
@@ -298,5 +283,5 @@ ID	GLOSS	PRIORITY
 55	WHISPER///sebezela	2
 3107	WHISTLE (INSTRUMENT)///impempe	2
 1025	WHISTLE///vuthel'impempe	2
-958	WILD ANIMAL///izebra	2
 1672	WRITE///bhala	2
+3675	ZEBRA///izebra	2

@@ -70,7 +70,7 @@ ID	GLOSS	PRIORITY
 646	ASH///пепел	6
 1309	ASK (INQUIRE)///спрашивать	1
 1309	ASK (INQUIRE)///спросить	1
-1828	ASK (REQUEST)///просить	3
+1828	ASK (REQUEST)///просить	2
 2915	AT FIRST///сперва	1
 2922	AT THAT TIME///тогда	1
 1461	AT///возле	1
@@ -171,7 +171,7 @@ ID	GLOSS	PRIORITY
 1882	BEFORE///Прежде	2
 1882	BEFORE///перед, до	1
 1882	BEFORE///раньше	1
-3534	BEG///просить	1
+3534	BEG///просить	2
 1152	BEGET///порождать, рождать (об отце)	1
 1934	BEGGAR///попрошайка, нищий	1
 3447	BEGIN OR START///начинать, начало	1
@@ -223,7 +223,6 @@ ID	GLOSS	PRIORITY
 391	BLESS///благословлять	1
 2529	BLESSED///Благъ	2
 1653	BLIND///слепой	2
-1655	BLINK///подмигивать	2
 1655	BLINK///щуриться	1
 1584	BLISTER///волдырь, водяной пузырь	1
 525	BLOOD VESSEL///вена, артерия	1
@@ -292,7 +291,6 @@ ID	GLOSS	PRIORITY
 2536	BREADTH///Ширина	2
 2558	BREAK (CLEAVE)///разбить	1
 680	BREAK (DESTROY OR GET DESTROYED)///ломать/разбить	1
-680	BREAK (DESTROY OR GET DESTROYED)///лопнуть	2
 680	BREAK (DESTROY OR GET DESTROYED)///разбивать	1
 680	BREAK (DESTROY OR GET DESTROYED)///сломать	1
 460	BREAK (OF ROPE)///рваться	1
@@ -460,12 +458,9 @@ ID	GLOSS	PRIORITY
 589	CLOSED///закрытый	1
 1616	CLOTH///ткань	1
 1616	CLOTH///ткань, сукно	1
-1616	CLOTH///шарф	2
 1895	CLOTHES///Платье	1
-1895	CLOTHES///жилет	2
 1895	CLOTHES///одевание	1
 1895	CLOTHES///одежда	2
-1895	CLOTHES///свитер	2
 1489	CLOUD///Oblako	1
 1489	CLOUD///Облако	1
 1489	CLOUD///облака	2
@@ -917,7 +912,6 @@ ID	GLOSS	PRIORITY
 249	FOG///туман	4
 1470	FOLD///сворачивать, складывать	1
 1085	FOLLOW///следовать	1
-256	FOOD///бутерброд	1
 256	FOOD///пицца	1
 256	FOOD///пища	2
 1301	FOOT///Noga	1
@@ -1254,8 +1248,7 @@ ID	GLOSS	PRIORITY
 3118	IRON (CLOTHES)///гладить	2
 621	IRON///Железо	1
 621	IRON///железо	2
-621	IRON///утюг	2
-3078	IRRIGATE///поливать	1
+3078	IRRIGATE///поливать	2
 3078	IRRIGATE///полить	1
 622	ISLAND///Островъ	1
 622	ISLAND///остров	2
@@ -1294,7 +1287,6 @@ ID	GLOSS	PRIORITY
 1508	KING///Король	1
 1508	KING///король	1
 1508	KING///король, правитель	1
-1508	KING///линейка	2
 578	KISS///целовать	5
 274	KNEAD///месить (тесто)	1
 1371	KNEE///Koliena	1
@@ -1786,7 +1778,6 @@ ID	GLOSS	PRIORITY
 1487	POUR///лить, наливать	1
 1487	POUR///наливать	2
 1487	POUR///налить	1
-1487	POUR///поливать	1
 2526	POWER///Власть	2
 2526	POWER///власть	1
 3001	POWERFUL///могучий	1
@@ -1901,7 +1892,7 @@ ID	GLOSS	PRIORITY
 3463	RIVERBANK///Берегъ	1
 667	ROAD///дорога	10
 2876	ROAR (OF SEA)///бушевать	1
-1962	ROAST (SOMETHING)///жарить	4
+1962	ROAST (SOMETHING)///жарить	2
 2146	ROAST OR FRY///жарить	1
 827	ROLL///вращать	1
 769	ROOF///крыша	4
@@ -1925,6 +1916,7 @@ ID	GLOSS	PRIORITY
 292	RUG///ковёр	1
 1846	RULE///владеть	1
 1846	RULE///править	1
+3405	RULER///линейка	2
 1519	RUN///Бѣжать	1
 1519	RUN///бегать	1
 1519	RUN///бежать	4
@@ -1957,6 +1949,7 @@ ID	GLOSS	PRIORITY
 2783	SCALES (MEASURE INSTRUMENT)///весы	2
 497	SCAR///шрам, рубец	1
 673	SCHOOL///школа	1
+1328	SCISSORS///ножницы	2
 299	SCOLD///ругать	1
 1538	SCORPION///скорпион	1
 1767	SCRAPE///скрести	1
@@ -2010,7 +2003,7 @@ ID	GLOSS	PRIORITY
 231	SHAVE///брить	2
 1834	SHE///Она	1
 1532	SHEAR///подстригать	2
-356	SHEARS///ножницы	3
+356	SHEARS///ножницы	1
 1331	SHEEP///Овца	1
 1331	SHEEP///овца	1
 1331	SHEEP///овца, баран	1
@@ -2107,7 +2100,6 @@ ID	GLOSS	PRIORITY
 2954	SLICE///ломоть	1
 387	SLING///праща	1
 1324	SLIP///горка	2
-1324	SLIP///катиться	2
 1324	SLIP///подскользнуться	2
 1324	SLIP///скользить	1
 3076	SLOPE///склон	1
@@ -2272,7 +2264,6 @@ ID	GLOSS	PRIORITY
 2133	STRIKE OR BEAT///бить	1
 353	STRIKE///ударять	1
 362	STRING///верёвка	1
-2993	STROKE (OF PEN)///гладить	2
 2993	STROKE (OF PEN)///черта	1
 785	STRONG///Крѣпокъ	1
 785	STRONG///сильный	1
@@ -2429,7 +2420,6 @@ ID	GLOSS	PRIORITY
 1693	THURSDAY///четверг	2
 891	TIDE///морской прилив и отлив	1
 2891	TIE UP (TETHER)///привязать	1
-1917	TIE///галстук	2
 1917	TIE///завязывать	2
 1917	TIE///связать	1
 1917	TIE///связывать	3
@@ -2528,8 +2518,6 @@ ID	GLOSS	PRIORITY
 921	VALLEY///долина	1
 924	VEGETABLES///овощи	1
 2549	VEHICLE///Возъ	2
-2549	VEHICLE///грузовик	2
-2549	VEHICLE///трактор	2
 1151	VEIL///вуаль	1
 1924	VEIN///вена	1
 1311	VERY///очень	1
@@ -2654,7 +2642,6 @@ ID	GLOSS	PRIORITY
 1199	WIFE///Жена	2
 1199	WIFE///жена	4
 958	WILD ANIMAL///Звѣрь	2
-958	WILD ANIMAL///зебра	2
 818	WILLOW///ива	1
 866	WIN///победить	1
 960	WIND///Вѣтръ	1
@@ -2735,3 +2722,4 @@ ID	GLOSS	PRIORITY
 1207	YOUNG///молодой	2
 1760	YOUNGER BROTHER///младший брат	1
 1761	YOUNGER SISTER///младшая сестра	1
+3675	ZEBRA///зебра	2

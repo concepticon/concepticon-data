@@ -2,7 +2,6 @@ ID	GLOSS	PRIORITY
 1597	AIRPLANE///eitleán	2
 587	ANT///seangán	2
 1320	APPLE///úll	2
-1828	ASK (REQUEST)///(ag) lorg déirce	1
 677	AXE///tua	2
 1845	BALL///liathróid	2
 3083	BALLOON///balún	2
@@ -14,14 +13,13 @@ ID	GLOSS	PRIORITY
 662	BATTERY///cadhnra	2
 1820	BEAR///béar	2
 1663	BED///leaba	2
-3534	BEG///(ag) lorg déirce	1
+3534	BEG///(ag) lorg déirce	2
 2246	BELL///cloigín	2
 772	BELT///crois	2
 747	BICYCLE///rothar	2
 937	BIRD///éan	2
 1403	BITE///(ag) tabhairt greim	2
 3084	BLACKBOARD///clár dubh	2
-1655	BLINK///(ag) caochadh 	2
 176	BLOW (WITH MOUTH)///(ag) séideadh	2
 2493	BOIL///(ag) beiriú	2
 1394	BONE///cnámh	2
@@ -30,7 +28,6 @@ ID	GLOSS	PRIORITY
 1321	BOTTLE///buidéal	2
 3108	BOX (SOMEBODY OR SOMETHING)///(ag) púinseáil	2
 2902	BRAWL (FIGHT)///(ag) troid	2
-680	BREAK (DESTROY OR GET DESTROYED)///(ag) pléascadh	2
 245	BROOM///scuab	2
 3109	BRUSH (TEETH)///(ag) scuabadh [fiacla]	2
 1821	BRUSH///scuab gruaige	2
@@ -53,9 +50,6 @@ ID	GLOSS	PRIORITY
 2235	CLEAN (SOMETHING)///(ag) glanadh	2
 1102	CLIMB///(ag) dreapadh	2
 1323	CLOCK///clog	2
-1616	CLOTH///scairf	2
-1895	CLOTHES///geansaí	2
-1895	CLOTHES///veist	2
 1489	CLOUD///scamall	2
 2070	COMB (VERB)///(ag) cíoradh	2
 1475	COMB///cíor	2
@@ -102,7 +96,6 @@ ID	GLOSS	PRIORITY
 239	FLOWER///bláth	2
 1504	FLY (INSECT)///cuileóg	2
 1441	FLY (MOVE THROUGH AIR)///(ag) eitilt	2
-256	FOOD///ceapaire	1
 256	FOOD///pizza	1
 1302	FORK///forc	2
 503	FROG///frog	2
@@ -126,13 +119,11 @@ ID	GLOSS	PRIORITY
 1252	HOUSE///teach	2
 1435	HUNT///(ag) fiach	2
 3118	IRON (CLOTHES)///(ag) iarnáil	2
-621	IRON///iarann	2
-3078	IRRIGATE///(ag) cur uisce ar	1
+3078	IRRIGATE///(ag) cur uisce ar	2
 1829	JUMP///(ag) léim	2
 164	KANGAROO///cangarú	2
 1472	KEY///eochair	2
 1135	KICK///(ag) ciceál	2
-1508	KING///rialóir	2
 578	KISS///(ag) pógadh	2
 1352	KNIFE///scian	2
 2905	KNIT///(ag) cniotáil	2
@@ -194,7 +185,6 @@ ID	GLOSS	PRIORITY
 1921	PLOUGH///(ag) treabhadh 	2
 3126	POST (SOMETHING)///(ag) postáil	2
 3095	POSTMAN///fear an phoist	2
-1487	POUR///(ag) cur uisce ar	1
 1487	POUR///(ag) doirteadh	2
 1455	PULL///(ag) tarraingt	2
 1452	PUSH///(ag) brú	2
@@ -206,21 +196,21 @@ ID	GLOSS	PRIORITY
 724	READ///(ag) léamh	2
 367	RIDE///(ag) marcaíocht	2
 2875	RING (MAKE SOUND)///ag bualadh cloig	2
-1962	ROAST (SOMETHING)///(ag) gríoscadh	2
 1962	ROAST (SOMETHING)///(ag) róstadh	2
 769	ROOF///díon	2
 1849	ROW///(ag) rámhaíocht	2
+3405	RULER///rialóir	2
 1519	RUN///(ag) rith	2
 787	SAIL///(ag) seoladh	2
 1948	SAW///(ag) sábhadh	2
 1948	SAW///sábh	2
 2783	SCALES (MEASURE INSTRUMENT)///scála	2
+1328	SCISSORS///siosúr	2
 1457	SEW///(ag) fuáil	2
 3097	SEWING MACHINE///inneall fuála	2
 251	SHARPEN (SOMETHING)///(ag) géarú	2
 231	SHAVE///(ag) bearradh féasóige	2
 1532	SHEAR///(ag) lomadh	2
-356	SHEARS///siosúr	2
 1622	SHIRT///léine	2
 1381	SHOE///bróg	2
 3128	SHOWER (ACTION)///(ag) tógaint cith	2
@@ -230,7 +220,6 @@ ID	GLOSS	PRIORITY
 2991	SKI///(ag) sciáil	2
 1585	SLEEP///(ag) codladh 	2
 1324	SLIP///(ag) sciorradh	2
-1324	SLIP///(ag) sleamhnú	2
 1324	SLIP///sleamhnán	2
 1586	SMELL (PERCEIVE)///(ag) bolú	2
 1689	SMOKE (INHALE)///(ag) caitheamh tabac	2
@@ -252,7 +241,6 @@ ID	GLOSS	PRIORITY
 696	STIR///(ag) corraí	2
 2058	STOOL///stól	2
 3138	STRAWBERRY///sú talún	2
-2993	STROKE (OF PEN)///(ag) cuimilt	2
 1343	SUN///grian	2
 3131	SUNBATHE///(ag) luí faoin ngrian	2
 3100	SUNGLASSES///spéaclaí gréine	2
@@ -272,7 +260,6 @@ ID	GLOSS	PRIORITY
 3104	THERMOMETER///teirmiméadar	2
 1456	THROW///(ag) caitheamh	2
 1917	TIE///(ag) ceangailt	2
-1917	TIE///carbhat	2
 846	TIGER///tíogar	2
 986	TOMATO///tráta	2
 2579	TOOTHBRUSH///scuab fiacla	2
@@ -282,8 +269,6 @@ ID	GLOSS	PRIORITY
 3134	TYPE (ON SOMETHING)///(ag) clóscríobh	2
 3105	UMBRELLA///scáth fearthainne	2
 3135	VACUUM (SOMETHING)///(ag) folúsghlanadh	2
-2549	VEHICLE///leoraí	2
-2549	VEHICLE///tarracóir	2
 1602	WAKE UP///(ag) eirí 	2
 1443	WALK///(ag) siúl	2
 3106	WARDROBE///vardrús	2
@@ -297,5 +282,5 @@ ID	GLOSS	PRIORITY
 55	WHISPER///(ag) cogarnaíl	2
 3107	WHISTLE (INSTRUMENT)///feadóg	2
 1025	WHISTLE///(ag) feadaíl	2
-958	WILD ANIMAL///séabra	2
 1672	WRITE///(ag) scríobh	2
+3675	ZEBRA///séabra	2

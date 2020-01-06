@@ -2,7 +2,6 @@ ID	GLOSS	PRIORITY
 1597	AIRPLANE///lėktuvas	2
 587	ANT///skruzdėlė	2
 1320	APPLE///obuolys	2
-1828	ASK (REQUEST)///maldauti	1
 677	AXE///kirvis	2
 1845	BALL///kamuolys	2
 3083	BALLOON///balionas	2
@@ -14,14 +13,13 @@ ID	GLOSS	PRIORITY
 662	BATTERY///elementas	2
 1820	BEAR///meška	2
 1663	BED///lova	2
-3534	BEG///maldauti	1
+3534	BEG///maldauti	2
 2246	BELL///varpelis	2
 772	BELT///diržas	2
 747	BICYCLE///dviratis	2
 937	BIRD///paukštis	2
 1403	BITE///kąsti	2
 3084	BLACKBOARD///lenta	2
-1655	BLINK///mirktelėti	2
 176	BLOW (WITH MOUTH)///pūsti	2
 2493	BOIL///virti	2
 1394	BONE///kaulas	2
@@ -30,7 +28,6 @@ ID	GLOSS	PRIORITY
 1321	BOTTLE///butelis	2
 3108	BOX (SOMEBODY OR SOMETHING)///mušti	2
 2902	BRAWL (FIGHT)///muštis	2
-680	BREAK (DESTROY OR GET DESTROYED)///sprogti	2
 245	BROOM///šluota	2
 3109	BRUSH (TEETH)///valytis	2
 1821	BRUSH///šepetys	2
@@ -53,9 +50,6 @@ ID	GLOSS	PRIORITY
 2235	CLEAN (SOMETHING)///valyti	2
 1102	CLIMB///lipti	2
 1323	CLOCK///laikrodis	2
-1616	CLOTH///šalikas	2
-1895	CLOTHES///liemenė	2
-1895	CLOTHES///megztinis	2
 1489	CLOUD///debesis	2
 2070	COMB (VERB)///šukuotis	2
 1475	COMB///šukos	2
@@ -103,7 +97,6 @@ ID	GLOSS	PRIORITY
 1504	FLY (INSECT)///musė	2
 1441	FLY (MOVE THROUGH AIR)///skristi	2
 256	FOOD///pica	1
-256	FOOD///sumuštinis	1
 1302	FORK///šakutė	2
 503	FROG///varlė	2
 991	FRY///kepti	2
@@ -126,13 +119,11 @@ ID	GLOSS	PRIORITY
 1252	HOUSE///namas	2
 1435	HUNT///medžioti	2
 3118	IRON (CLOTHES)///lyginti	2
-621	IRON///lygintuvas	2
-3078	IRRIGATE///laistyti	1
+3078	IRRIGATE///laistyti	2
 1829	JUMP///šokti	2
 164	KANGAROO///kengūra	2
 1472	KEY///raktas	2
 1135	KICK///spirti	2
-1508	KING///liniuotė	2
 578	KISS///bučiuoti	2
 1352	KNIFE///peilis	2
 2905	KNIT///megzti	2
@@ -194,7 +185,6 @@ ID	GLOSS	PRIORITY
 1921	PLOUGH///arti	2
 3126	POST (SOMETHING)///siųsti [paštu]	2
 3095	POSTMAN///paštininkas	2
-1487	POUR///laistyti	1
 1487	POUR///pilti	2
 1455	PULL///traukti	2
 1452	PUSH///stumti	2
@@ -206,20 +196,21 @@ ID	GLOSS	PRIORITY
 724	READ///skaityti	2
 367	RIDE///joti	2
 2875	RING (MAKE SOUND)///skambinti	2
-1962	ROAST (SOMETHING)///kepti	4
+1962	ROAST (SOMETHING)///kepti	2
 769	ROOF///stogas	2
 1849	ROW///irkluoti	2
+3405	RULER///liniuotė	2
 1519	RUN///bėgti	2
 787	SAIL///buriuoti	2
 1948	SAW///pjauti	2
 1948	SAW///pjūklas	2
 2783	SCALES (MEASURE INSTRUMENT)///svarstyklės	2
+1328	SCISSORS///žirklės	2
 1457	SEW///siūti	2
 3097	SEWING MACHINE///siuvimo mašina	2
 251	SHARPEN (SOMETHING)///galąsti	2
 231	SHAVE///skustis	2
 1532	SHEAR///kirpti	2
-356	SHEARS///žirklės	2
 1622	SHIRT///marškiniai	2
 1381	SHOE///batas	2
 3128	SHOWER (ACTION)///maudytis	2
@@ -230,7 +221,6 @@ ID	GLOSS	PRIORITY
 2991	SKI///slidinėti	2
 1585	SLEEP///miegoti	2
 1324	SLIP///paslysti	2
-1324	SLIP///čiuožti	2
 1324	SLIP///čiuožykla	2
 1586	SMELL (PERCEIVE)///uostyti	2
 1689	SMOKE (INHALE)///rūkyti	2
@@ -252,7 +242,6 @@ ID	GLOSS	PRIORITY
 696	STIR///maišyti	2
 2058	STOOL///kėdė	2
 3138	STRAWBERRY///braškė	2
-2993	STROKE (OF PEN)///glostyti	2
 1343	SUN///saulė	2
 3131	SUNBATHE///degintis	2
 3100	SUNGLASSES///akiniai	2
@@ -271,7 +260,6 @@ ID	GLOSS	PRIORITY
 3103	TENNIS BALL///teniso kamuoliukas	2
 3104	THERMOMETER///termometras	2
 1456	THROW///mesti	2
-1917	TIE///kaklaraištis	2
 1917	TIE///užrišti	2
 846	TIGER///tigras	2
 986	TOMATO///pomidoras	2
@@ -282,8 +270,6 @@ ID	GLOSS	PRIORITY
 3134	TYPE (ON SOMETHING)///spausdinti	2
 3105	UMBRELLA///skėtis	2
 3135	VACUUM (SOMETHING)///valyti	2
-2549	VEHICLE///sunkvežimis	2
-2549	VEHICLE///traktorius	2
 1602	WAKE UP///atsibusti	2
 1443	WALK///eiti	2
 3106	WARDROBE///spinta	2
@@ -297,5 +283,5 @@ ID	GLOSS	PRIORITY
 55	WHISPER///apkalbėti	2
 3107	WHISTLE (INSTRUMENT)///švilpukas	2
 1025	WHISTLE///švilpti	2
-958	WILD ANIMAL///zebras	2
 1672	WRITE///rašyti	2
+3675	ZEBRA///zebras	2
