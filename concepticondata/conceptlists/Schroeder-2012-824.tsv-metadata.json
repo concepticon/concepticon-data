@@ -76,12 +76,18 @@
                         "name": "FAMILIARITY_SD"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FREQ_DLEX"
+                        "datatype": {
+                        	"base": "float"
+                        },
+                        "name": "FREQ_DLEX",
+                        "null": "None"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FREQ_LOG10_DLEX"
+                        "datatype": {
+                        	"base": "float"
+                        },
+                        "name": "FREQ_LOG10_DLEX",
+                        "null": "None"
                     },
                     {
                         "datatype": "integer",
