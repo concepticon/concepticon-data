@@ -1,0 +1,82 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dialect": {
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        },
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        },
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CHINESE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "PINYIN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": 1
+                        },
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "PEN_STROKES"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "ICONICITY"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "PICTURABILITY"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "CURRICULUM_ORDER"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "FREQ_PER_MILLION"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "Xiao-2012-213.tsv"
+        }
+    ]
+}
