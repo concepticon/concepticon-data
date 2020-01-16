@@ -1,0 +1,124 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dialect": {
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        },
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        },
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "DUTCH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": 1
+                        },
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "AOA_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "AROUSAL_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "CONCRETENESS_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "DOMINANCE_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "FAMILIARITY_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "IMAGEABILITY_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "VALENCE_MEAN"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "NCHAR"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "SYLLABLE_LENGTH"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "BIGRAM"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "NEIGHBOR"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "FREQ_CELEX"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "FREQ_SUBTLEX"
+                    },
+                    {
+                        "name": "INSTRENGTH",
+                        "null": "NaN",
+                        "datatype": {
+                        "base": "float"
+                        }
+                    },
+                    {
+                        "name": "BETWEENNESS",
+                        "null": "NaN",
+                        "datatype": {
+                        "base": "float"
+                        }
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "Verheyen-2019-1000.tsv"
+        }
+    ]
+}
