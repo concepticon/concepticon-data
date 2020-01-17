@@ -126,7 +126,7 @@ Desrochers-2010-330-124	124	trotamundos	globetrotter			Compound	5.1296511783235	
 Desrochers-2010-330-125	125	agua	water	WATER	948	Noun	6.86274509803922	4	1654	6.8
 Desrochers-2010-330-126	126	año	year	YEAR	1226	Noun	6.56862745098039	3	1926	6.68
 Desrochers-2010-330-127	127	barro	mud	MUD	640	Noun	5.70588235294118	5	132	6.07
-Desrochers-2010-330-128	128	bebida	drink	ALCOHOL (DRINK)	2050	Noun	6.59803921568627	6	68	6.5
+Desrochers-2010-330-128	128	bebida	drink	BEVERAGE	731	Noun	6.59803921568627	6	68	6.5
 Desrochers-2010-330-129	129	bosque	forest	FOREST	420	Noun	5.76470588235294	6	273	5.04
 Desrochers-2010-330-130	130	bota	boot	BOOT	585	Noun	6.08823529411765	4	29	6.35
 Desrochers-2010-330-131	131	botella	bottle	BOTTLE	1321	Noun	6.55882352941176	7	177	6.34
@@ -153,7 +153,7 @@ Desrochers-2010-330-151	151	costa	coast	COAST	1525	Noun	5.6078431372549	5	276	5.
 Desrochers-2010-330-152	152	cristal	glass	GLASS	604	Noun	6.31372549019608	7	264	6.61
 Desrochers-2010-330-153	153	cuchillo	knife	KNIFE	1352	Noun	6.51960784313726	8	86	6.31
 Desrochers-2010-330-154	154	cuento	story	STORY	2060	Noun	5.98039215686275	6	275	6.46
-Desrochers-2010-330-155	155	culo	article			Noun	6.35294117647059	4	140	6.05
+Desrochers-2010-330-155	155	culo	ass	BUTTOCKS	834	Noun	6.35294117647059	4	140	6.05
 Desrochers-2010-330-156	156	diente	tooth	TOOTH	1380	Noun	6.1078431372549	6	39	6.31
 Desrochers-2010-330-157	157	disco	album			Noun	6.34313725490196	5	126	6.09
 Desrochers-2010-330-158	158	documento	document			Noun	5.93137254901961	9	170	5.38
@@ -161,15 +161,15 @@ Desrochers-2010-330-159	159	equipaje	luggage			Noun	5.69607843137255	8	64	5.69
 Desrochers-2010-330-160	160	espalda	back	BACK	1291	Noun	6.35294117647059	7	368	6.21
 Desrochers-2010-330-161	161	fantasma	ghost	GHOST	1175	Noun	5.06862745098039	8	101	4.86
 Desrochers-2010-330-162	162	fiesta	party			Noun	6.6078431372549	6	356	6.7
-Desrochers-2010-330-163	163	folio	page			Noun	6.38235294117647	5	18	6.5
+Desrochers-2010-330-163	163	folio	sheet (of paper)			Noun	6.38235294117647	5	18	6.5
 Desrochers-2010-330-164	164	foto	photo			Noun	6.48039215686275	4	203	6.7
 Desrochers-2010-330-165	165	fruta	fruit	FRUIT	1507	Noun	6.56862745098039	5	71	6.35
 Desrochers-2010-330-166	166	gafas	glasses	GLASSES	2292	Noun	6.49019607843137	5	185	6.66
-Desrochers-2010-330-167	167	gota	gout			Noun	6.01	4	107	6.16
+Desrochers-2010-330-167	167	gota	drop			Noun	6.01	4	107	6.16
 Desrochers-2010-330-168	168	granada	pomegranate			Noun	5.98	7	101	
 Desrochers-2010-330-169	169	hielo	ice	ICE	617	Noun	6.17647058823529	5	173	6.76
 Desrochers-2010-330-170	170	hierba	grass	GRASS	606	Noun	5.99019607843137	6	132	6.31
-Desrochers-2010-330-171	171	incendio	fire	FIRE	221	Noun	5.64705882352941	8	83	4.93
+Desrochers-2010-330-171	171	incendio	conflagration			Noun	5.64705882352941	8	83	4.93
 Desrochers-2010-330-172	172	joya	jewel	JEWEL	1029	Noun	5.56862745098039	4	26	6.05
 Desrochers-2010-330-173	173	kilómetro	kilometer			Noun	6.38235294117647	9	45	6.36
 Desrochers-2010-330-174	174	labio	lip	LIP	478	Noun	6.46078431372549	5	45	6.24
@@ -202,7 +202,7 @@ Desrochers-2010-330-200	200	paso	step	STEP	1158	Noun	5.88235294117647	4	1331	6.2
 Desrochers-2010-330-201	201	pata	paw	PAW	2965	Noun	5.92156862745098	4	78	6.45
 Desrochers-2010-330-202	202	patata	potato	POTATO	593	Noun	6.51960784313726	6	33	6.75
 Desrochers-2010-330-203	203	pelota	ball	BALL	1845	Noun	6.40196078431373	6	103	6.49
-Desrochers-2010-330-204	204	perra	bitch			Noun	6.22	5	60	6.47
+Desrochers-2010-330-204	204	perra	female dog	FEMALE DOG	2481	Noun	6.22	5	60	6.47
 Desrochers-2010-330-205	205	persona	person	PERSON	683	Noun	6.50980392156863	7	962	7
 Desrochers-2010-330-206	206	pizza	pizza			Noun	6.24509803921569	5	5	
 Desrochers-2010-330-207	207	plato	plate	PLATE	480	Noun	6.6078431372549	5	173	
@@ -212,7 +212,7 @@ Desrochers-2010-330-210	210	punta	tip	TIP (OF OBJECT)	2992	Noun	5.89114925588637
 Desrochers-2010-330-211	211	puro	pure			Noun	5.42156862745098	4	236	5.33
 Desrochers-2010-330-212	212	rabia	rabies	RABIES	2206	Noun	5.51960784313726	5	128	6.18
 Desrochers-2010-330-213	213	rata	rat	RAT	1490	Noun	5.79411764705882	4	70	6.3
-Desrochers-2010-330-214	214	rayo	ray			Noun	5.15686274509804	4	111	5.86
+Desrochers-2010-330-214	214	rayo	lightning	LIGHTNING	1654	Noun	5.15686274509804	4	111	5.86
 Desrochers-2010-330-215	215	sello	stamp	POSTAGE STAMP	596	Noun	6.09915634874148	5	35	6.61
 Desrochers-2010-330-216	216	submarino	submarine			Noun	4.57843137254902	9	12	
 Desrochers-2010-330-217	217	techo	roof	ROOF	769	Noun	5.99019607843137	5	225	6.54
@@ -221,31 +221,31 @@ Desrochers-2010-330-219	219	uña	nail	FINGERNAIL	1258	Noun	6.23529411764706	3	24
 Desrochers-2010-330-220	220	uva	grape	GRAPE	920	Noun	5.80392156862745	3	25	
 Desrochers-2010-330-221	221	vajilla	tableware			Noun	5.63725490196079	7	17	
 Desrochers-2010-330-222	222	vampiro	vampire			Noun	4.17647058823529	7	22	4.25
-Desrochers-2010-330-223	223	vaso	glass	GLASS	604	Noun	6.58823529411765	4	209	6.3
+Desrochers-2010-330-223	223	vaso	glass			Noun	6.58823529411765	4	209	6.3
 Desrochers-2010-330-224	224	vela	sail			Noun	5.67647058823529	4	83	5.78
 Desrochers-2010-330-225	225	vida	life	LIFE	210	Noun	6.59803921568627	4	4765	6.44
 Desrochers-2010-330-226	226	vino	wine	WINE	1524	Noun	6.35294117647059	4	716	6.39
-Desrochers-2010-330-227	227	abatir	download			Verb	3.77450980392157	6	5	
-Desrochers-2010-330-228	228	abrir	open			Verb	6.55882352941176	5	275	6.45
-Desrochers-2010-330-229	229	acudir	go to			Verb	4.82352941176471	6	141	4.91
+Desrochers-2010-330-227	227	abatir	tear down			Verb	3.77450980392157	6	5	
+Desrochers-2010-330-228	228	abrir	open	OPEN	1156	Verb	6.55882352941176	5	275	6.45
+Desrochers-2010-330-229	229	acudir	to attend to somebody			Verb	4.82352941176471	6	141	4.91
 Desrochers-2010-330-230	230	afilar	sharpen	SHARPEN (SOMETHING)	251	Verb	4.63725490196079	6	6	
 Desrochers-2010-330-231	231	aguar	water down			Verb	3.73529411764706	5		
 Desrochers-2010-330-232	232	alumbrar	to illuminate			Verb	4.56862745098039	8	16	4.77
 Desrochers-2010-330-233	233	apaciguar	appease			Verb	3.5	9	6	
 Desrochers-2010-330-234	234	apagar	turn off			Verb	6.5	6	39	5.97
 Desrochers-2010-330-235	235	asir	summarize			Verb	2.43572184416938	4	6	
-Desrochers-2010-330-236	236	atrapar	trap			Verb	4.95098039215686	7	55	5.29
+Desrochers-2010-330-236	236	atrapar	to catch	CATCH	702	Verb	4.95098039215686	7	55	5.29
 Desrochers-2010-330-237	237	avisar	notify			Verb	6.02941176470588	6	45	5.81
 Desrochers-2010-330-238	238	balbucear	babble			Verb	3.46078431372549	9	5	
 Desrochers-2010-330-239	239	besar	kiss	KISS	578	Verb	6.52941176470588	5	34	6.85
 Desrochers-2010-330-240	240	brotar	sprout	SPROUT (VERB)	2076	Verb	4.89	6	26	4.13
 Desrochers-2010-330-241	241	bullir	boil	BOIL	2493	Verb	2.41176470588235	6	1	
 Desrochers-2010-330-242	242	buscar	search	LOOK FOR	1468	Verb	6.29411764705882	6	457	6.39
-Desrochers-2010-330-243	243	calar	stall			Verb	4.2843137254902	5	3	
+Desrochers-2010-330-243	243	calar	put on	PUT ON	158	Verb	4.2843137254902	5	3	
 Desrochers-2010-330-244	244	calcificar	calcify			Verb	3.08823529411765	10		
 Desrochers-2010-330-245	245	calentar	heat	HEAT UP	1341	Verb	6.41176470588235	8	31	6.74
 Desrochers-2010-330-246	246	cantar	sing	SING	1261	Verb	6.34313725490196	6	137	6.21
-Desrochers-2010-330-247	247	cascar	click			Verb	4.65686274509804	6	2	
+Desrochers-2010-330-247	247	cascar	to crack			Verb	4.65686274509804	6	2	
 Desrochers-2010-330-248	248	catar	taste	TASTE (SOMETHING)	21	Verb	4.34313725490196	5	3	
 Desrochers-2010-330-249	249	cazar	hunting	HUNT	1435	Verb	5.30392156862745	5	43	5.2
 Desrochers-2010-330-250	250	cerrar	close	SHUT	1046	Verb	6.64705882352941	6	197	6.46
@@ -254,15 +254,15 @@ Desrochers-2010-330-252	252	colegir	to deduce			Verb	1.36274509803922	7
 Desrochers-2010-330-253	253	contar	count	COUNT	1420	Verb	6.31372549019608	6	364	6.52
 Desrochers-2010-330-254	254	cortar	cut	CUT	1432	Verb	6.29411764705882	6	101	5.73
 Desrochers-2010-330-255	255	cubrir	cover	COVER	761	Verb	5.5	6	103	6.11
-Desrochers-2010-330-256	256	cumplir	meet	MEET	1831	Verb	5.86274509803922	7	285	6.04
+Desrochers-2010-330-256	256	cumplir	to fulfill			Verb	5.86274509803922	7	285	6.04
 Desrochers-2010-330-257	257	declamar	declaim			Verb	2.2156862745098	8	3	
 Desrochers-2010-330-258	258	delinquir	offending			Verb	3.06862745098039	9	2	
 Desrochers-2010-330-259	259	embargar	seize	SEIZE	855	Verb	4.04901960784314	8	5	
-Desrochers-2010-330-260	260	embeber	embed			Verb	2.17647058823529	7	1	
+Desrochers-2010-330-260	260	embeber	to damp			Verb	2.17647058823529	7	1	
 Desrochers-2010-330-261	261	embolar	embolish			Verb	1.98039215686275	7		
 Desrochers-2010-330-262	262	entablar	to set up			Verb	3.94117647058824	8	15	
 Desrochers-2010-330-263	263	erguir	erect			Verb	2.93137254901961	6	8	
-Desrochers-2010-330-264	264	escurrir	draining			Verb	5.26470588235294	8	2	
+Desrochers-2010-330-264	264	escurrir	to drain			Verb	5.26470588235294	8	2	
 Desrochers-2010-330-265	265	espantar	scare off			Verb	4.91176470588235	8	13	
 Desrochers-2010-330-266	266	esparcir	spread	SPREAD OUT	38	Verb	3.7843137254902	8	5	
 Desrochers-2010-330-267	267	fustigar	whip			Verb	2.77450980392157	8	5	
@@ -302,7 +302,7 @@ Desrochers-2010-330-300	300	parar	stop	STOP DOING	3351	Verb	6.47058823529412	5	2
 Desrochers-2010-330-301	301	partir	share			Verb	5.88235294117647	6	79	5.78
 Desrochers-2010-330-302	302	pasar	go to			Verb	6.37254901960784	5	1040	6.33
 Desrochers-2010-330-303	303	pelar	peel	PEEL	275	Verb	6.04901960784314	5	12	
-Desrochers-2010-330-304	304	picar	click			Verb	5.92156862745098	5	14	
+Desrochers-2010-330-304	304	picar	to sting	STING	571	Verb	5.92156862745098	5	14	
 Desrochers-2010-330-305	305	pintar	paint	PAINT (SOMETHING)	3122	Verb	6.23529411764706	6	47	6.4
 Desrochers-2010-330-306	306	pisar	step on	TREAD	575	Verb	6.17647058823529	5	41	6.63
 Desrochers-2010-330-307	307	portar	retrieve			Verb	3.30392156862745	6	7	
