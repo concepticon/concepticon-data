@@ -286,13 +286,13 @@
             "definition": "Narrower than x.",
             "inverseof": "broader"
         },
-        "hyperonymof": {
+        "isa": {
             "definition": "Category superordinate to x.",
             "inverseof": "instanceof"
         },
         "instanceof": {
             "definition": "Subcategory of x.",
-            "inverseof": "hyperonymof"
+            "inverseof": "isa"
         },
         "haspart": {
             "definition": "A whole that x is a part of.",
