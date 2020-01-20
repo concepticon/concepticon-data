@@ -2,7 +2,6 @@ ID	GLOSS	PRIORITY
 1597	AIRPLANE///flyvemaskine	2
 587	ANT///myre	2
 1320	APPLE///æble	2
-1828	ASK (REQUEST)///tigger	1
 677	AXE///økse	2
 1845	BALL///bold	2
 3083	BALLOON///ballon	2
@@ -14,14 +13,13 @@ ID	GLOSS	PRIORITY
 662	BATTERY///batteri	2
 1820	BEAR///bjørn	2
 1663	BED///seng	2
-3534	BEG///tigger	1
+3534	BEG///tigger	2
 2246	BELL///klokke	2
 772	BELT///bælte	2
 747	BICYCLE///cykel	2
 937	BIRD///fugl	2
 1403	BITE///bider	2
 3084	BLACKBOARD///tavle	2
-1655	BLINK///blinker	2
 176	BLOW (WITH MOUTH)///puster	2
 2493	BOIL///koger	2
 1394	BONE///ben	2
@@ -30,7 +28,6 @@ ID	GLOSS	PRIORITY
 1321	BOTTLE///flaske	2
 3108	BOX (SOMEBODY OR SOMETHING)///bokser	2
 2902	BRAWL (FIGHT)///slås	2
-680	BREAK (DESTROY OR GET DESTROYED)///sprænger	2
 245	BROOM///kost	2
 3109	BRUSH (TEETH)///børster	2
 1821	BRUSH///hårbørste	2
@@ -53,9 +50,6 @@ ID	GLOSS	PRIORITY
 2235	CLEAN (SOMETHING)///gør rent	2
 1102	CLIMB///klatrer	2
 1323	CLOCK///ur	2
-1616	CLOTH///halstørklæde	2
-1895	CLOTHES///trøje	2
-1895	CLOTHES///vest	2
 1489	CLOUD///sky	2
 2070	COMB (VERB)///friserer	2
 1475	COMB///kam	2
@@ -103,7 +97,6 @@ ID	GLOSS	PRIORITY
 1504	FLY (INSECT)///flue	2
 1441	FLY (MOVE THROUGH AIR)///flyver	2
 256	FOOD///pizza	1
-256	FOOD///sandwich	1
 1302	FORK///gaffel	2
 503	FROG///frø	2
 991	FRY///steger	2
@@ -126,13 +119,11 @@ ID	GLOSS	PRIORITY
 1252	HOUSE///hus	2
 1435	HUNT///jager	2
 3118	IRON (CLOTHES)///stryger	2
-621	IRON///strygejern	2
-3078	IRRIGATE///vander	1
+3078	IRRIGATE///vander	2
 1829	JUMP///hopper	2
 164	KANGAROO///kænguru	2
 1472	KEY///nøgle	2
 1135	KICK///sparker	2
-1508	KING///lineal	2
 578	KISS///kysser	2
 1352	KNIFE///kniv	2
 2905	KNIT///strikker	2
@@ -195,7 +186,6 @@ ID	GLOSS	PRIORITY
 3126	POST (SOMETHING)///poster	2
 3095	POSTMAN///postbud	2
 1487	POUR///hælder op	2
-1487	POUR///vander	1
 1455	PULL///trækker	2
 1452	PUSH///skubber	2
 1136	RABBIT///kanin	2
@@ -206,20 +196,21 @@ ID	GLOSS	PRIORITY
 724	READ///læser	2
 367	RIDE///rider	2
 2875	RING (MAKE SOUND)///ringer på	2
-1962	ROAST (SOMETHING)///griller	4
+1962	ROAST (SOMETHING)///griller	2
 769	ROOF///tag	2
 1849	ROW///ror	2
+3405	RULER///lineal	2
 1519	RUN///løber	2
 787	SAIL///sejler	2
 1948	SAW///sav	2
 1948	SAW///saver	2
 2783	SCALES (MEASURE INSTRUMENT)///vægt	2
+1328	SCISSORS///saks	2
 1457	SEW///syr	2
 3097	SEWING MACHINE///symaskine	2
 251	SHARPEN (SOMETHING)///sliber	2
 231	SHAVE///barberer	2
 1532	SHEAR///klipper	2
-356	SHEARS///saks	2
 1622	SHIRT///skjorte	2
 1381	SHOE///sko	2
 3128	SHOWER (ACTION)///tager et brusebad	2
@@ -231,7 +222,6 @@ ID	GLOSS	PRIORITY
 1585	SLEEP///sover	2
 1324	SLIP///glide	2
 1324	SLIP///rutchebane	2
-1324	SLIP///rutsjer	2
 1586	SMELL (PERCEIVE)///dufter	2
 1689	SMOKE (INHALE)///ryger	2
 1543	SNAIL///snegl	2
@@ -252,7 +242,6 @@ ID	GLOSS	PRIORITY
 696	STIR///rører	2
 2058	STOOL///taburet	2
 3138	STRAWBERRY///jordbær	2
-2993	STROKE (OF PEN)///aer	2
 1343	SUN///sol	2
 3131	SUNBATHE///solbader	2
 3100	SUNGLASSES///solbriller	2
@@ -272,7 +261,6 @@ ID	GLOSS	PRIORITY
 3104	THERMOMETER///termometer	2
 1456	THROW///smider	2
 1917	TIE///binder	2
-1917	TIE///slips	2
 846	TIGER///tiger	2
 986	TOMATO///tomat	2
 2579	TOOTHBRUSH///tandbørste	2
@@ -282,8 +270,6 @@ ID	GLOSS	PRIORITY
 3134	TYPE (ON SOMETHING)///skriver på computer	2
 3105	UMBRELLA///paraply	2
 3135	VACUUM (SOMETHING)///støvsuger	2
-2549	VEHICLE///lastbil	2
-2549	VEHICLE///traktor	2
 1602	WAKE UP///vågner	2
 1443	WALK///går	2
 3106	WARDROBE///klædeskab	2
@@ -297,5 +283,5 @@ ID	GLOSS	PRIORITY
 55	WHISPER///hvisker	2
 3107	WHISTLE (INSTRUMENT)///fløjte	2
 1025	WHISTLE///fløjter	2
-958	WILD ANIMAL///zebra	2
 1672	WRITE///skriver i hånden	2
+3675	ZEBRA///zebra	2

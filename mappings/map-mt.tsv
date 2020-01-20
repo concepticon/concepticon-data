@@ -2,7 +2,6 @@ ID	GLOSS	PRIORITY
 1597	AIRPLANE///ajruplan	2
 587	ANT///nemla	2
 1320	APPLE///tuffieħa	2
-1828	ASK (REQUEST)///tittallab	1
 677	AXE///mannara	2
 1845	BALL///ballun	2
 3083	BALLOON///bużżieqa	2
@@ -14,14 +13,13 @@ ID	GLOSS	PRIORITY
 662	BATTERY///batterija	2
 1820	BEAR///ors	2
 1663	BED///sodda	2
-3534	BEG///tittallab	1
+3534	BEG///tittallab	2
 2246	BELL///qanpiena	2
 772	BELT///ċintorin	2
 747	BICYCLE///rota	2
 937	BIRD///għasfur	2
 1403	BITE///tigdem	2
 3084	BLACKBOARD///blackboard	2
-1655	BLINK///tegħmeż	2
 176	BLOW (WITH MOUTH)///tonfoħ	2
 2493	BOIL///tagħli	2
 1394	BONE///għadma	2
@@ -30,7 +28,6 @@ ID	GLOSS	PRIORITY
 1321	BOTTLE///flixkun	2
 3108	BOX (SOMEBODY OR SOMETHING)///tagħti bil-ponn	2
 2902	BRAWL (FIGHT)///tiġġieled	2
-680	BREAK (DESTROY OR GET DESTROYED)///tinfaqa'	2
 245	BROOM///xkupa	2
 3109	BRUSH (TEETH)///taħsel (snienek)	2
 1821	BRUSH///brush	2
@@ -53,9 +50,6 @@ ID	GLOSS	PRIORITY
 2235	CLEAN (SOMETHING)///tnaddaf	2
 1102	CLIMB///titla'	2
 1323	CLOCK///arloġġ	2
-1616	CLOTH///xalla	2
-1895	CLOTHES///flokk	2
-1895	CLOTHES///sidrija	2
 1489	CLOUD///sħaba	2
 2070	COMB (VERB)///tippettna	2
 1475	COMB///pettne	2
@@ -103,7 +97,6 @@ ID	GLOSS	PRIORITY
 1504	FLY (INSECT)///dubbiena	2
 1441	FLY (MOVE THROUGH AIR)///ittir	2
 256	FOOD///pizza	1
-256	FOOD///sandwich	1
 1302	FORK///furketta	2
 503	FROG///żrinġ	2
 991	FRY///taqli	2
@@ -125,13 +118,11 @@ ID	GLOSS	PRIORITY
 1252	HOUSE///dar	2
 1435	HUNT///tmur għall-kaċċa	2
 3118	IRON (CLOTHES)///tgħaddi	2
-621	IRON///ħadida tal-mogħdija	2
-3078	IRRIGATE///issaqqi	1
+3078	IRRIGATE///issaqqi	2
 1829	JUMP///taqbeż 	2
 164	KANGAROO///kangarů	2
 1472	KEY///ċavetta	2
 1135	KICK///tixxuttja	2
-1508	KING///riga	2
 578	KISS///tbus	2
 1352	KNIFE///sikkina	2
 2905	KNIT///tinnittja	2
@@ -193,7 +184,6 @@ ID	GLOSS	PRIORITY
 1921	PLOUGH///taħrat	2
 3126	POST (SOMETHING)///timposta	2
 3095	POSTMAN///pustier	2
-1487	POUR///issaqqi	1
 1487	POUR///tferra'	2
 1455	PULL///tiġbed	2
 1452	PUSH///timbotta	2
@@ -205,20 +195,21 @@ ID	GLOSS	PRIORITY
 724	READ///taqra	2
 367	RIDE///tirkeb	2
 2875	RING (MAKE SOUND)///iċċempel	2
-1962	ROAST (SOMETHING)///tixwi	4
+1962	ROAST (SOMETHING)///tixwi	2
 769	ROOF///bejt	2
 1849	ROW///taqdef	2
+3405	RULER///riga	2
 1519	RUN///tiġri	2
 787	SAIL///tbaħħar	2
 1948	SAW///serrieq	2
 1948	SAW///tisserra	2
 2783	SCALES (MEASURE INSTRUMENT)///miżien	2
+1328	SCISSORS///mqass	2
 1457	SEW///tħit	2
 3097	SEWING MACHINE///magna tal-ħjata	2
 251	SHARPEN (SOMETHING)///ssinn	2
 231	SHAVE///tqaxxar	2
 1532	SHEAR///tqaxxar	2
-356	SHEARS///mqass	2
 1622	SHIRT///qmis	2
 1381	SHOE///żarbuna	2
 3128	SHOWER (ACTION)///tieħu shower	2
@@ -229,7 +220,6 @@ ID	GLOSS	PRIORITY
 2991	SKI///tiskijja	2
 1585	SLEEP///torqod	2
 1324	SLIP///tiżloq	2
-1324	SLIP///tiżżerżaq	2
 1324	SLIP///żurżieqa	2
 1586	SMELL (PERCEIVE)///ixxomm	2
 1689	SMOKE (INHALE)///tpejjep	2
@@ -251,7 +241,6 @@ ID	GLOSS	PRIORITY
 696	STIR///tħawwad	2
 2058	STOOL///banketta	2
 3138	STRAWBERRY///frawla	2
-2993	STROKE (OF PEN)///tmelles	2
 1343	SUN///xemx	2
 3131	SUNBATHE///tixxemmex	2
 3100	SUNGLASSES///nuċċali tax-xemx	2
@@ -270,7 +259,6 @@ ID	GLOSS	PRIORITY
 3103	TENNIS BALL///ballun tat-tenis	2
 3104	THERMOMETER///termometru	2
 1456	THROW///tarmi	2
-1917	TIE///ingravata	2
 1917	TIE///taqfel	2
 846	TIGER///tigra	2
 986	TOMATO///tadama	2
@@ -281,8 +269,6 @@ ID	GLOSS	PRIORITY
 3134	TYPE (ON SOMETHING)///tittajpja	2
 3105	UMBRELLA///umbrella	2
 3135	VACUUM (SOMETHING)///tnaddaf	2
-2549	VEHICLE///tractor	2
-2549	VEHICLE///trakk	2
 1602	WAKE UP///tqum	2
 1443	WALK///timxi	2
 3106	WARDROBE///gwardarobba	2
@@ -296,5 +282,5 @@ ID	GLOSS	PRIORITY
 55	WHISPER///tfesfes	2
 3107	WHISTLE (INSTRUMENT)///suffara	2
 1025	WHISTLE///issaffar	2
-958	WILD ANIMAL///żebra	2
 1672	WRITE///tikteb	2
+3675	ZEBRA///żebra	2

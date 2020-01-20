@@ -2,7 +2,6 @@ ID	GLOSS	PRIORITY
 1597	AIRPLANE///lietadlo	2
 587	ANT///mravec	2
 1320	APPLE///jablko	2
-1828	ASK (REQUEST)///žobrať	1
 677	AXE///sekera	2
 1845	BALL///lopta	2
 3083	BALLOON///balón	2
@@ -14,14 +13,13 @@ ID	GLOSS	PRIORITY
 662	BATTERY///baterka	2
 1820	BEAR///medveď	2
 1663	BED///posteľ	2
-3534	BEG///žobrať	1
+3534	BEG///žobrať	2
 2246	BELL///zvonček	2
 772	BELT///opasok	2
 747	BICYCLE///bicykel	2
 937	BIRD///vták	2
 1403	BITE///hrýzť	2
 3084	BLACKBOARD///tabuľa	2
-1655	BLINK///žmurkať	2
 176	BLOW (WITH MOUTH)///fúkať	2
 2493	BOIL///vrieť	2
 1394	BONE///kosť	2
@@ -30,7 +28,6 @@ ID	GLOSS	PRIORITY
 1321	BOTTLE///fľaša	2
 3108	BOX (SOMEBODY OR SOMETHING)///boxovať	2
 2902	BRAWL (FIGHT)///biť sa	2
-680	BREAK (DESTROY OR GET DESTROYED)///prasknúť	2
 245	BROOM///metla	2
 3109	BRUSH (TEETH)///čistiť si zuby	2
 1821	BRUSH///kefa	2
@@ -53,9 +50,6 @@ ID	GLOSS	PRIORITY
 2235	CLEAN (SOMETHING)///utierať	2
 1102	CLIMB///liezť	2
 1323	CLOCK///hodiny	2
-1616	CLOTH///šál	2
-1895	CLOTHES///pulóver	2
-1895	CLOTHES///vesta	2
 1489	CLOUD///oblak	2
 2070	COMB (VERB)///česať (sa)	2
 1475	COMB///hrebeň	2
@@ -102,7 +96,6 @@ ID	GLOSS	PRIORITY
 239	FLOWER///kvet	2
 1504	FLY (INSECT)///mucha	2
 1441	FLY (MOVE THROUGH AIR)///letieť	2
-256	FOOD///obložený chlieb	1
 256	FOOD///pizza	1
 1302	FORK///vidlička	2
 503	FROG///žaba	2
@@ -126,13 +119,11 @@ ID	GLOSS	PRIORITY
 1252	HOUSE///dom	2
 1435	HUNT///loviť	2
 3118	IRON (CLOTHES)///žehliť	2
-621	IRON///žehlička	2
-3078	IRRIGATE///polievať	1
+3078	IRRIGATE///polievať	2
 1829	JUMP///skákať	2
 164	KANGAROO///klokan	2
 1472	KEY///kľúč	2
 1135	KICK///kopať	2
-1508	KING///pravítko	2
 578	KISS///pobozkať	2
 1352	KNIFE///nôž	2
 2905	KNIT///štrikovať	2
@@ -195,7 +186,6 @@ ID	GLOSS	PRIORITY
 3126	POST (SOMETHING)///posielať	2
 3095	POSTMAN///poštár	2
 1487	POUR///liať	2
-1487	POUR///polievať	1
 1455	PULL///ťahať	2
 1452	PUSH///tlačiť	2
 1136	RABBIT///zajac	2
@@ -206,21 +196,21 @@ ID	GLOSS	PRIORITY
 724	READ///čítať	2
 367	RIDE///jazdiť	2
 2875	RING (MAKE SOUND)///zvoniť	2
-1962	ROAST (SOMETHING)///grilovať	2
 1962	ROAST (SOMETHING)///opekať	2
 769	ROOF///strecha	2
 1849	ROW///veslovať	2
+3405	RULER///pravítko	2
 1519	RUN///bežať	2
 787	SAIL///plaviť sa	2
 1948	SAW///píla	2
 1948	SAW///píliť	2
 2783	SCALES (MEASURE INSTRUMENT)///váha	2
+1328	SCISSORS///nožnice	2
 1457	SEW///šiť	2
 3097	SEWING MACHINE///šijací stroj	2
 251	SHARPEN (SOMETHING)///brúsiť	2
 231	SHAVE///holiť sa	2
 1532	SHEAR///strihať	2
-356	SHEARS///nožnice	2
 1622	SHIRT///košeľa	2
 1381	SHOE///topánka	2
 3128	SHOWER (ACTION)///sprchovať sa	2
@@ -232,7 +222,6 @@ ID	GLOSS	PRIORITY
 1585	SLEEP///spať	2
 1324	SLIP///pošmyknúť sa	2
 1324	SLIP///šmýkačka	2
-1324	SLIP///šmýkať sa	2
 1586	SMELL (PERCEIVE)///voňať	2
 1689	SMOKE (INHALE)///fajčiť	2
 1543	SNAIL///slimák	2
@@ -253,7 +242,6 @@ ID	GLOSS	PRIORITY
 696	STIR///miešať	2
 2058	STOOL///stolička	2
 3138	STRAWBERRY///jahoda	2
-2993	STROKE (OF PEN)///hladkať	2
 1343	SUN///slnko	2
 3131	SUNBATHE///opaľovať sa	2
 3100	SUNGLASSES///slnečné okuliare	2
@@ -272,7 +260,6 @@ ID	GLOSS	PRIORITY
 3103	TENNIS BALL///tenisová loptička	2
 3104	THERMOMETER///teplomer	2
 1456	THROW///hádzať	2
-1917	TIE///kravata	2
 1917	TIE///zaväzovať	2
 846	TIGER///tiger	2
 986	TOMATO///paradajka	2
@@ -283,8 +270,6 @@ ID	GLOSS	PRIORITY
 3134	TYPE (ON SOMETHING)///písať na stroji	2
 3105	UMBRELLA///dáždnik	2
 3135	VACUUM (SOMETHING)///vysávať	2
-2549	VEHICLE///kamión	2
-2549	VEHICLE///traktor	2
 1602	WAKE UP///zobudiť sa	2
 1443	WALK///kráčať	2
 3106	WARDROBE///skriňa	2
@@ -298,5 +283,5 @@ ID	GLOSS	PRIORITY
 55	WHISPER///šepkať	2
 3107	WHISTLE (INSTRUMENT)///píšťalka	2
 1025	WHISTLE///pískať	2
-958	WILD ANIMAL///zebra	2
 1672	WRITE///písať	2
+3675	ZEBRA///zebra	2

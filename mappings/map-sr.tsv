@@ -2,7 +2,6 @@ ID	GLOSS	PRIORITY
 1597	AIRPLANE///avion	2
 587	ANT///mrav	2
 1320	APPLE///jabuka	2
-1828	ASK (REQUEST)///prositi	1
 677	AXE///sekira	2
 1845	BALL///lopta	2
 3083	BALLOON///balon	2
@@ -14,14 +13,13 @@ ID	GLOSS	PRIORITY
 662	BATTERY///baterija	2
 1820	BEAR///medved	2
 1663	BED///krevet	2
-3534	BEG///prositi	1
+3534	BEG///prositi	2
 2246	BELL///zvono	2
 772	BELT///kaiš	2
 747	BICYCLE///bicikl	2
 937	BIRD///ptica	2
 1403	BITE///ujesti	2
 3084	BLACKBOARD///tabla	2
-1655	BLINK///namignuti	2
 176	BLOW (WITH MOUTH)///duvati	2
 2493	BOIL///kuvati se	2
 1394	BONE///kost	2
@@ -30,7 +28,6 @@ ID	GLOSS	PRIORITY
 1321	BOTTLE///flaša	2
 3108	BOX (SOMEBODY OR SOMETHING)///boksovati se	2
 2902	BRAWL (FIGHT)///tući se	2
-680	BREAK (DESTROY OR GET DESTROYED)///pući	2
 245	BROOM///metla	2
 3109	BRUSH (TEETH)///prati zube	2
 1821	BRUSH///četka	2
@@ -53,9 +50,6 @@ ID	GLOSS	PRIORITY
 2235	CLEAN (SOMETHING)///čistiti	2
 1102	CLIMB///penjati se	2
 1323	CLOCK///sat	2
-1616	CLOTH///šal	2
-1895	CLOTHES///džemper	2
-1895	CLOTHES///prsluk	2
 1489	CLOUD///oblak	2
 2070	COMB (VERB)///češljati se	2
 1475	COMB///češalj	2
@@ -103,7 +97,6 @@ ID	GLOSS	PRIORITY
 1504	FLY (INSECT)///muva	2
 1441	FLY (MOVE THROUGH AIR)///leteti	2
 256	FOOD///pica	1
-256	FOOD///sendvič	1
 1302	FORK///viljuška	2
 503	FROG///žaba	2
 991	FRY///pržiti	2
@@ -126,13 +119,11 @@ ID	GLOSS	PRIORITY
 1252	HOUSE///kuća	2
 1435	HUNT///loviti	2
 3118	IRON (CLOTHES)///peglati	2
-621	IRON///pegla	2
-3078	IRRIGATE///zalivati	1
+3078	IRRIGATE///zalivati	2
 1829	JUMP///skakati	2
 164	KANGAROO///kengur	2
 1472	KEY///ključ	2
 1135	KICK///šutnuti	2
-1508	KING///lenjir	2
 578	KISS///ljubiti	2
 1352	KNIFE///nož	2
 2905	KNIT///plesti	2
@@ -195,7 +186,6 @@ ID	GLOSS	PRIORITY
 3126	POST (SOMETHING)///poslati	2
 3095	POSTMAN///poštar	2
 1487	POUR///sipati	2
-1487	POUR///zalivati	1
 1455	PULL///vući	2
 1452	PUSH///gurati	2
 1136	RABBIT///zec	2
@@ -206,21 +196,21 @@ ID	GLOSS	PRIORITY
 724	READ///čitati	2
 367	RIDE///jahati	2
 2875	RING (MAKE SOUND)///zvoniti	2
-1962	ROAST (SOMETHING)///peći	2
 1962	ROAST (SOMETHING)///peći se	2
 769	ROOF///krov	2
 1849	ROW///veslati	2
+3405	RULER///lenjir	2
 1519	RUN///trčati	2
 787	SAIL///ploviti	2
 1948	SAW///seći	2
 1948	SAW///testera	2
 2783	SCALES (MEASURE INSTRUMENT)///vaga	2
+1328	SCISSORS///makaze	2
 1457	SEW///šiti	2
 3097	SEWING MACHINE///šivaća mašina	2
 251	SHARPEN (SOMETHING)///oštriti	2
 231	SHAVE///brijati se	2
 1532	SHEAR///šišati	2
-356	SHEARS///makaze	2
 1622	SHIRT///košulja	2
 1381	SHOE///cipela	2
 3128	SHOWER (ACTION)///tuširati se	2
@@ -231,7 +221,6 @@ ID	GLOSS	PRIORITY
 2991	SKI///skijati	2
 1585	SLEEP///spavati	2
 1324	SLIP///okliznuti se	2
-1324	SLIP///spuštati se	2
 1324	SLIP///tobogan	2
 1586	SMELL (PERCEIVE)///mirisati	2
 1689	SMOKE (INHALE)///pušiti	2
@@ -253,7 +242,6 @@ ID	GLOSS	PRIORITY
 696	STIR///mešati	2
 2058	STOOL///stolica	2
 3138	STRAWBERRY///jagoda	2
-2993	STROKE (OF PEN)///maziti	2
 1343	SUN///sunce	2
 3131	SUNBATHE///sunčati se	2
 3100	SUNGLASSES///naočare za sunce	2
@@ -272,7 +260,6 @@ ID	GLOSS	PRIORITY
 3103	TENNIS BALL///lopta	2
 3104	THERMOMETER///termometar	2
 1456	THROW///baciti	2
-1917	TIE///kravata	2
 1917	TIE///vezivati	2
 846	TIGER///tigar	2
 986	TOMATO///paradajz	2
@@ -283,8 +270,6 @@ ID	GLOSS	PRIORITY
 3134	TYPE (ON SOMETHING)///kucati	2
 3105	UMBRELLA///kišobran	2
 3135	VACUUM (SOMETHING)///usisavati	2
-2549	VEHICLE///kamion	2
-2549	VEHICLE///traktor	2
 1602	WAKE UP///buditi se	2
 1443	WALK///hodati	2
 3106	WARDROBE///orman	2
@@ -298,5 +283,5 @@ ID	GLOSS	PRIORITY
 55	WHISPER///šaputati	2
 3107	WHISTLE (INSTRUMENT)///pištaljka	2
 1025	WHISTLE///zviždati	2
-958	WILD ANIMAL///zebra	2
 1672	WRITE///pisati	2
+3675	ZEBRA///zebra	2

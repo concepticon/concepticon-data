@@ -9,7 +9,6 @@ ID	GLOSS	PRIORITY
 1320	APPLE///äpple	3
 1894	ASHAMED///skämmas	1
 1309	ASK (INQUIRE)///fråga	1
-1828	ASK (REQUEST)///tigga	1
 1272	AUNT///moster/faster	1
 1276	AUTUMN///höst	1
 825	AWAKE///vaken	1
@@ -33,7 +32,7 @@ ID	GLOSS	PRIORITY
 1820	BEAR///björn	3
 1157	BECAUSE///därför	1
 1663	BED///säng	2
-3534	BEG///tigga	1
+3534	BEG///tigga	2
 2246	BELL///ringklocka	2
 772	BELT///skärp	2
 747	BICYCLE///cykel	2
@@ -43,7 +42,6 @@ ID	GLOSS	PRIORITY
 1403	BITE///bita	2
 163	BLACK///svart	1
 3084	BLACKBOARD///tavla 	2
-1655	BLINK///blinka 	2
 946	BLOOD///blod	1
 176	BLOW (WITH MOUTH)///blåsa	2
 837	BLUE///blå	1
@@ -55,7 +53,6 @@ ID	GLOSS	PRIORITY
 1321	BOTTLE///flaska 	2
 3108	BOX (SOMEBODY OR SOMETHING)///boxas 	2
 2902	BRAWL (FIGHT)///slåss 	2
-680	BREAK (DESTROY OR GET DESTROYED)///brista	2
 1407	BREATHE///andas	1
 245	BROOM///kvast 	2
 1262	BROTHER///bror	1
@@ -84,10 +81,7 @@ ID	GLOSS	PRIORITY
 2235	CLEAN (SOMETHING)///tvätta   	2
 1102	CLIMB///klättra 	2
 1323	CLOCK///klocka	2
-1616	CLOTH///halsduk	2
 1895	CLOTHES///kläder	1
-1895	CLOTHES///tröja 	2
-1895	CLOTHES///väst 	2
 1489	CLOUD///moln	3
 1287	COLD///kall	1
 1613	COLOR///färg	1
@@ -173,7 +167,6 @@ ID	GLOSS	PRIORITY
 1441	FLY (MOVE THROUGH AIR)///flyga	2
 249	FOG///dimma	1
 256	FOOD///pizza	1
-256	FOOD///smörgås 	1
 418	FOR A LONG TIME///länge	1
 1302	FORK///gaffel	2
 1716	FORTY///fyrtio	1
@@ -227,14 +220,12 @@ ID	GLOSS	PRIORITY
 1609	IDEA///idé	1
 1459	IF///om	1
 3118	IRON (CLOTHES)///stryka	2
-621	IRON///strykjärn	2
-3078	IRRIGATE///vattna	1
+3078	IRRIGATE///vattna	2
 1829	JUMP///hoppa 	2
 164	KANGAROO///känguru 	2
 1472	KEY///nyckel	2
 1135	KICK///sparka	2
 1417	KILL///döda	1
-1508	KING///linjal	2
 578	KISS///pussa	2
 1352	KNIFE///kniv	2
 2905	KNIT///sticka	2
@@ -341,7 +332,6 @@ ID	GLOSS	PRIORITY
 3126	POST (SOMETHING)///posta	2
 3095	POSTMAN///brevbärare	2
 1487	POUR///hälla	2
-1487	POUR///vattna	1
 1455	PULL///dra	2
 2452	PURPLE///lila	1
 1452	PUSH///putta	2
@@ -359,10 +349,10 @@ ID	GLOSS	PRIORITY
 2875	RING (MAKE SOUND)///ringa 	2
 666	RIVER///flod	1
 667	ROAD///väg	1
-1962	ROAST (SOMETHING)///grilla	2
 1962	ROAST (SOMETHING)///grilla 	2
 769	ROOF///tak	2
 1849	ROW///ro	2
+3405	RULER///linjal	2
 1519	RUN///springa	2
 699	SAD///ledsen	1
 787	SAIL///segla	2
@@ -373,6 +363,7 @@ ID	GLOSS	PRIORITY
 1458	SAY///säga	1
 2783	SCALES (MEASURE INSTRUMENT)///våg	2
 673	SCHOOL///skola	1
+1328	SCISSORS///sax	2
 1474	SEA///hav	1
 1409	SEE///se	1
 1993	SELF///själv	1
@@ -386,7 +377,6 @@ ID	GLOSS	PRIORITY
 251	SHARPEN (SOMETHING)///slipa 	2
 231	SHAVE///raka sig 	2
 1532	SHEAR///klippa	2
-356	SHEARS///sax	2
 1622	SHIRT///skjorta	2
 1381	SHOE///sko	2
 715	SHOUT///ropa	1
@@ -406,7 +396,6 @@ ID	GLOSS	PRIORITY
 1585	SLEEP///sova	3
 1324	SLIP///halka 	2
 1324	SLIP///rutschkana	2
-1324	SLIP///åka rutschkana	2
 2530	SMART///intelligent	1
 1586	SMELL (PERCEIVE)///lukta	2
 1451	SMILE///le	1
@@ -437,7 +426,6 @@ ID	GLOSS	PRIORITY
 857	STONE///sten	1
 2058	STOOL///pall	2
 3138	STRAWBERRY///jordgubbe	2
-2993	STROKE (OF PEN)///klappa	2
 3475	SUFFICE///nöja	1
 1342	SUMMER///sommar	1
 1343	SUN///sol	3
@@ -475,7 +463,6 @@ ID	GLOSS	PRIORITY
 1456	THROW///kasta	2
 1150	THUNDER///åska	1
 1917	TIE///knyta	2
-1917	TIE///slips	2
 846	TIGER///tiger	2
 1757	TIRED///trött	1
 986	TOMATO///tomat	2
@@ -493,8 +480,6 @@ ID	GLOSS	PRIORITY
 1327	UNCLE///morbror	1
 1536	UNDERSTAND///förstå	1
 3135	VACUUM (SOMETHING)///dammsuga 	2
-2549	VEHICLE///lastbil	2
-2549	VEHICLE///traktor	2
 1377	VISIT///besöka	1
 1602	WAKE UP///vakna 	2
 1443	WALK///gå	2
@@ -520,7 +505,6 @@ ID	GLOSS	PRIORITY
 1335	WHITE///vit	1
 1235	WHO///vem	1
 1270	WHY///varför	1
-958	WILD ANIMAL///zebra	2
 1471	WINTER///vinter	1
 522	WOLF///varg	1
 962	WOMAN///kvinna	1
@@ -530,4 +514,5 @@ ID	GLOSS	PRIORITY
 1424	YELLOW///gul	1
 1268	YES///ja	1
 732	YOUR (SINGULAR)///din	1
+3675	ZEBRA///zebra	2
 1294	ZERO///noll	1

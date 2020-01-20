@@ -2,7 +2,6 @@ ID	GLOSS	PRIORITY
 1597	AIRPLANE///matos	2
 587	ANT///nemala	2
 1320	APPLE///tapu'ax	2
-1828	ASK (REQUEST)///lekabec nedavot	1
 677	AXE///garzen	2
 1845	BALL///kadur	2
 3083	BALLOON///balon	2
@@ -14,14 +13,13 @@ ID	GLOSS	PRIORITY
 662	BATTERY///batariya	2
 1820	BEAR///dov	2
 1663	BED///mita	2
-3534	BEG///lekabec nedavot	1
+3534	BEG///lekabec nedavot	2
 2246	BELL///pa'amon	2
 772	BELT///xagora	2
 747	BICYCLE///ofanayim	2
 937	BIRD///cipor	2
 1403	BITE///linshox	2
 3084	BLACKBOARD///lu'ax	2
-1655	BLINK///likroc	2
 176	BLOW (WITH MOUTH)///linshof	2
 2493	BOIL///lirtoax	2
 1394	BONE///ecem	2
@@ -30,7 +28,6 @@ ID	GLOSS	PRIORITY
 1321	BOTTLE///bakbuk	2
 3108	BOX (SOMEBODY OR SOMETHING)///lehit'agref	2
 2902	BRAWL (FIGHT)///lariv	2
-680	BREAK (DESTROY OR GET DESTROYED)///lehitpocec	2
 245	BROOM///matate	2
 3109	BRUSH (TEETH)///lecaxceax shinaim	2
 1821	BRUSH///mivreshet   	2
@@ -53,9 +50,6 @@ ID	GLOSS	PRIORITY
 2235	CLEAN (SOMETHING)///lenakot	2
 1102	CLIMB///letapes	2
 1323	CLOCK///sha'on	2
-1616	CLOTH///ca'if	2
-1895	CLOTHES///afuda	2
-1895	CLOTHES///sveder	2
 1489	CLOUD///anan	2
 2070	COMB (VERB)///lehistarek	2
 1475	COMB///masrek	2
@@ -103,7 +97,6 @@ ID	GLOSS	PRIORITY
 1504	FLY (INSECT)///zvuv	2
 1441	FLY (MOVE THROUGH AIR)///latus	2
 256	FOOD///pica	1
-256	FOOD///sendvich	1
 1302	FORK///mazleg	2
 503	FROG///cfarde'a	2
 991	FRY///letagen	2
@@ -126,13 +119,11 @@ ID	GLOSS	PRIORITY
 1252	HOUSE///bayit	2
 1435	HUNT///lacud	2
 3118	IRON (CLOTHES)///legahec	2
-621	IRON///maghec	2
-3078	IRRIGATE///lehashkot	1
+3078	IRRIGATE///lehashkot	2
 1829	JUMP///likpoc	2
 164	KANGAROO///kengeru	2
 1472	KEY///mafte'ax	2
 1135	KICK///liv'ot	2
-1508	KING///sargel	2
 578	KISS///lenashek	2
 1352	KNIFE///sakin	2
 2905	KNIT///lisrog	2
@@ -194,7 +185,6 @@ ID	GLOSS	PRIORITY
 1921	PLOUGH///laxarosh	2
 3126	POST (SOMETHING)///lishlo'ax mixtav	2
 3095	POSTMAN///davar	2
-1487	POUR///lehashkot	1
 1487	POUR///limzog	2
 1455	PULL///limshox	2
 1452	PUSH///lidxof	2
@@ -206,21 +196,21 @@ ID	GLOSS	PRIORITY
 724	READ///likro	2
 367	RIDE///lirkov	2
 2875	RING (MAKE SOUND)///lecalcel	2
-1962	ROAST (SOMETHING)///la'asot al ha-esh	2
 1962	ROAST (SOMETHING)///liclot	2
 769	ROOF///gag	2
 1849	ROW///laxtor	2
+3405	RULER///sargel	2
 1519	RUN///laruc	2
 787	SAIL///lashut	2
 1948	SAW///lenaser	2
 1948	SAW///masor	2
 2783	SCALES (MEASURE INSTRUMENT)///mishkal	2
+1328	SCISSORS///misparayim	2
 1457	SEW///litpor	2
 3097	SEWING MACHINE///mexonat tfira	2
 251	SHARPEN (SOMETHING)///lehashxiz	2
 231	SHAVE///lehitgale'ax	2
 1532	SHEAR///ligzoz	2
-356	SHEARS///misparayim	2
 1622	SHIRT///xulca	2
 1381	SHOE///na'al 	2
 3128	SHOWER (ACTION)///lehitkale'ax	2
@@ -231,7 +221,6 @@ ID	GLOSS	PRIORITY
 2991	SKI///liglosh	2
 1585	SLEEP///lishon	2
 1324	SLIP///lehaxalik	2
-1324	SLIP///lehitgalesh	2
 1324	SLIP///maglesha	2
 1586	SMELL (PERCEIVE)///lehari'ax	2
 1689	SMOKE (INHALE)///le'ashen	2
@@ -253,7 +242,6 @@ ID	GLOSS	PRIORITY
 696	STIR///livxosh	2
 2058	STOOL///shrafraf	2
 3138	STRAWBERRY///tut	2
-2993	STROKE (OF PEN)///lelatef	2
 1343	SUN///shemesh	2
 3131	SUNBATHE///lehishtazef	2
 3100	SUNGLASSES///mishkafey shemesh	2
@@ -272,7 +260,6 @@ ID	GLOSS	PRIORITY
 3103	TENNIS BALL///kadur tenis	2
 3104	THERMOMETER///madxom	2
 1456	THROW///lizrok	2
-1917	TIE///aniva	2
 1917	TIE///likshor (srox)	2
 846	TIGER///namer	2
 986	TOMATO///agvaniya	2
@@ -283,8 +270,6 @@ ID	GLOSS	PRIORITY
 3134	TYPE (ON SOMETHING)///lehaklid	2
 3105	UMBRELLA///mitriya	2
 3135	VACUUM (SOMETHING)///lish'ov	2
-2549	VEHICLE///masa'it	2
-2549	VEHICLE///traktor	2
 1602	WAKE UP///lehit'orer	2
 1443	WALK///lalexet	2
 3106	WARDROBE///aron	2
@@ -298,5 +283,5 @@ ID	GLOSS	PRIORITY
 55	WHISPER///lilxosh 	2
 3107	WHISTLE (INSTRUMENT)///mashrokit	2
 1025	WHISTLE///lishrok	2
-958	WILD ANIMAL///zebra	2
 1672	WRITE///lixtov	2
+3675	ZEBRA///zebra	2

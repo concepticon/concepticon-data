@@ -61,7 +61,6 @@ ID	GLOSS	PRIORITY
 646	ASH///cenizas	1
 1309	ASK (INQUIRE)///preguntar	1
 1828	ASK (REQUEST)///pedir	1
-1828	ASK (REQUEST)///suplicar	1
 1461	AT///en, lugar definido	1
 722	ATTACK///atacar	1
 1272	AUNT///tía	1
@@ -124,7 +123,7 @@ ID	GLOSS	PRIORITY
 1639	BEER///cerveza	1
 1931	BEESWAX///cera de abeja	1
 1882	BEFORE///delante, antes de	1
-3534	BEG///suplicar	1
+3534	BEG///suplicar	2
 1152	BEGET///engendrar	1
 1934	BEGGAR///mendigo	1
 3447	BEGIN OR START///empezar, comienzo, inicio	1
@@ -158,7 +157,6 @@ ID	GLOSS	PRIORITY
 806	BLANKET///frazada, cobija	1
 391	BLESS///bendecir	1
 1653	BLIND///ciego	1
-1655	BLINK///guiñar un ojo	2
 1655	BLINK///parpadear	1
 1584	BLISTER///ampolla	1
 525	BLOOD VESSEL///vena, arteria	1
@@ -209,7 +207,6 @@ ID	GLOSS	PRIORITY
 3	BRAVE///valiente	1
 2902	BRAWL (FIGHT)///pelear	2
 1368	BREAD///pan	2
-680	BREAK (DESTROY OR GET DESTROYED)///explotar	2
 680	BREAK (DESTROY OR GET DESTROYED)///quebrar	1
 1322	BREAKFAST///desayuno	1
 1402	BREAST///seno	2
@@ -339,10 +336,7 @@ ID	GLOSS	PRIORITY
 1102	CLIMB///trepar	1
 326	CLOAK///capa	1
 1323	CLOCK///reloj	3
-1616	CLOTH///bufanda	2
 1616	CLOTH///tela	1
-1895	CLOTHES///chaleco	2
-1895	CLOTHES///jersey	2
 1895	CLOTHES///ropa	1
 1489	CLOUD///Nube	1
 1489	CLOUD///nube	5
@@ -649,7 +643,6 @@ ID	GLOSS	PRIORITY
 1085	FOLLOW///seguir	1
 256	FOOD///comida	1
 256	FOOD///pizza	1
-256	FOOD///sandwich	1
 1301	FOOT///Pie	1
 1301	FOOT///pie	4
 318	FOOTPRINT///huella	1
@@ -854,8 +847,7 @@ ID	GLOSS	PRIORITY
 1991	INTESTINES///intestinos	2
 3118	IRON (CLOTHES)///planchar	2
 621	IRON///hierro	1
-621	IRON///plancha	2
-3078	IRRIGATE///regar	1
+3078	IRRIGATE///regar	2
 622	ISLAND///isla	2
 622	ISLAND///island	1
 169	IT///ello	1
@@ -879,7 +871,6 @@ ID	GLOSS	PRIORITY
 1972	KID///cabrito	1
 489	KIDNEY///riñón	1
 1417	KILL///matar	3
-1508	KING///regla	2
 1508	KING///rey, gobernante	1
 578	KISS///besar	3
 274	KNEAD///amasar	1
@@ -1254,7 +1245,6 @@ ID	GLOSS	PRIORITY
 593	POTATO///papa	1
 359	POTTER///alfarero	1
 354	POUND///machacar con el puño	1
-1487	POUR///regar	1
 1487	POUR///servir	2
 1487	POUR///vaciar, verter, derramar	1
 1687	PRAISE///exaltar, alabar	1
@@ -1346,7 +1336,7 @@ ID	GLOSS	PRIORITY
 666	RIVER///río, corriente, arroyo	1
 667	ROAD///camino, carretera	1
 667	ROAD///carretera	1
-1962	ROAST (SOMETHING)///asar	4
+1962	ROAST (SOMETHING)///asar	2
 2146	ROAST OR FRY///asar, freír	1
 827	ROLL///rodar, arrollar, enrollar	1
 769	ROOF///roof	1
@@ -1368,6 +1358,7 @@ ID	GLOSS	PRIORITY
 108	RUDDER///timón	1
 292	RUG///tapete, alfombra	1
 1846	RULE///gobernar	1
+3405	RULER///regla	2
 1519	RUN///correr	3
 23	RYE///centeno	1
 1103	SACRIFICE///ofrenda	1
@@ -1393,6 +1384,7 @@ ID	GLOSS	PRIORITY
 2783	SCALES (MEASURE INSTRUMENT)///báscula	2
 497	SCAR///cicatriz	1
 673	SCHOOL///escuela, colegio	1
+1328	SCISSORS///tijeras	2
 299	SCOLD///reprender	1
 1538	SCORPION///alacrán	1
 1767	SCRAPE///raspar, rallar	1
@@ -1430,7 +1422,7 @@ ID	GLOSS	PRIORITY
 231	SHAVE///afeitar	2
 1834	SHE///ella	1
 1532	SHEAR///trasquilar	2
-356	SHEARS///tijeras	3
+356	SHEARS///tijeras	1
 1331	SHEEP///oveja	1
 745	SHELF///repisa	1
 598	SHELL///valva	1
@@ -1489,7 +1481,7 @@ ID	GLOSS	PRIORITY
 1585	SLEEP///dormir	6
 387	SLING///honda	1
 1324	SLIP///deslizar	2
-1324	SLIP///resbalar	3
+1324	SLIP///resbalar	1
 1324	SLIP///tobogán	2
 701	SLOW///despacio, lentamente	1
 1246	SMALL///chico	1
@@ -1605,7 +1597,6 @@ ID	GLOSS	PRIORITY
 214	STRETCH///alargar, estirar, tender	1
 2133	STRIKE OR BEAT///golpear	1
 353	STRIKE///golpear	1
-2993	STROKE (OF PEN)///acariciar	2
 1929	STUDY///estudiar	1
 1518	STUPID///necio, estúpido	1
 1866	STUTTER///tartamudear, balbucear	1
@@ -1712,7 +1703,6 @@ ID	GLOSS	PRIORITY
 891	TIDE///marea	1
 1917	TIE///amarrar, atar	1
 1917	TIE///atar	3
-1917	TIE///corbata	2
 846	TIGER///tigre	2
 892	TIME///tiempo	1
 3217	TIN OR TINPLATE///estaño	1
@@ -1787,8 +1777,6 @@ ID	GLOSS	PRIORITY
 3135	VACUUM (SOMETHING)///aspirar	2
 921	VALLEY///valle	1
 924	VEGETABLES///legumbres	1
-2549	VEHICLE///camión	2
-2549	VEHICLE///tractor	2
 1151	VEIL///velo	1
 783	VICTORY///victoria	1
 930	VILLAGE///caserío	1
@@ -1868,7 +1856,6 @@ ID	GLOSS	PRIORITY
 1981	WIDOWER///viudo	1
 1199	WIFE///esposa	1
 1199	WIFE///marida, esposa	1
-958	WILD ANIMAL///cebra	2
 960	WIND///viento	3
 1375	WINDOW///ventana	1
 1524	WINE///vino	1
@@ -1916,3 +1903,4 @@ ID	GLOSS	PRIORITY
 1207	YOUNG///tierno, joven	1
 1760	YOUNGER BROTHER///hermano menor	1
 1761	YOUNGER SISTER///hermana menor	1
+3675	ZEBRA///cebra	2
