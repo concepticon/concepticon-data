@@ -600,7 +600,7 @@ Hale-1973-1798-598	Time_Weather_Geography-44	thunder	n	05a.44	1150	THUNDER
 Hale-1973-1798-599	Time_Weather_Geography-45	lightning	n	05a.45	1654	LIGHTNING
 Hale-1973-1798-600	Time_Weather_Geography-46	breeze	n	05a.46		
 Hale-1973-1798-601	Time_Weather_Geography-47	wind	n	05a.47	960	WIND
-Hale-1973-1798-602	Time_Weather_Geography-48	whirlwind	n	05a.48		
+Hale-1973-1798-602	Time_Weather_Geography-48	whirlwind	n	05a.48	3740	WHIRLWIND
 Hale-1973-1798-603	Time_Weather_Geography-49	earthquake	n	05a.49	6	EARTHQUAKE
 Hale-1973-1798-604	Time_Weather_Geography-50	peak	n	05a.50	2205	PEAK
 Hale-1973-1798-605	Time_Weather_Geography-51	range	n	05a.51		
@@ -665,7 +665,7 @@ Hale-1973-1798-663	House_and_Home-5	corner	n	06a.05	192	CORNER
 Hale-1973-1798-664	House_and_Home-6	house	n	06a.06	1252	HOUSE
 Hale-1973-1798-665	House_and_Home-7	granary	n	06a.07		
 Hale-1973-1798-666	House_and_Home-8	vegetable patch	n	06a.08		
-Hale-1973-1798-667	House_and_Home-9	cow shed	n	06a.09	3025	BARN OR SHED
+Hale-1973-1798-667	House_and_Home-9	cow shed	n	06a.09	851	STABLE
 Hale-1973-1798-668	House_and_Home-10	hog house	n	06a.10		
 Hale-1973-1798-669	House_and_Home-11	chicken house	n	06a.11		
 Hale-1973-1798-670	House_and_Home-12	cage	n	06a.12		
@@ -993,10 +993,10 @@ Hale-1973-1798-991	Tools_Instruments_Metals-13	bag	n	08a.13	2468	BAG
 Hale-1973-1798-992	Tools_Instruments_Metals-14	whip	n	08a.14	2630	WHIP
 Hale-1973-1798-993	Tools_Instruments_Metals-15	bow	n	08a.15	994	BOW
 Hale-1973-1798-994	Tools_Instruments_Metals-16	arrow	n	08a.16	977	ARROW
-Hale-1973-1798-995	Tools_Instruments_Metals-17	arrow point	n	08a.17		
+Hale-1973-1798-995	Tools_Instruments_Metals-17	arrow point	n	08a.17	3255	POINT (POINTED END)
 Hale-1973-1798-996	Tools_Instruments_Metals-18	spear	n	08a.18	945	SPEAR
 Hale-1973-1798-997	Tools_Instruments_Metals-19	axe	n	08a.19	677	AXE
-Hale-1973-1798-998	Tools_Instruments_Metals-20	knife (pocket)	n	08a.20		
+Hale-1973-1798-998	Tools_Instruments_Metals-20	knife (pocket)	n	08a.20	3742	POCKETKNIFE
 Hale-1973-1798-999	Tools_Instruments_Metals-21	knife	n	08a.21	1352	KNIFE
 Hale-1973-1798-1000	Tools_Instruments_Metals-22	kodali (common digging tool in Nepal, hand-plough)	n	08a.22		
 Hale-1973-1798-1001	Tools_Instruments_Metals-23	sheath	n	08a.23		
@@ -1031,7 +1031,7 @@ Hale-1973-1798-1029	Tools_Instruments_Metals-51	gold	n	08a.51	1369	GOLD
 Hale-1973-1798-1030	Tools_Instruments_Metals-52	silver	n	08a.52	759	SILVER
 Hale-1973-1798-1031	Tools_Instruments_Metals-53	copper	n	08a.53	1825	COPPER
 Hale-1973-1798-1032	Tools_Instruments_Metals-54	iron	n	08a.54	621	IRON
-Hale-1973-1798-1033	Tools_Instruments_Metals-55	brass	n	08a.55		
+Hale-1973-1798-1033	Tools_Instruments_Metals-55	brass	n	08a.55	3743	BRASS
 Hale-1973-1798-1034	Tools_Instruments_Metals-56	use	v	08b.01	2072	USE (VERB)
 Hale-1973-1798-1035	Tools_Instruments_Metals-57	pull out (a knife from its sheath)	v	08b.02	2325	PULL OUT
 Hale-1973-1798-1036	Tools_Instruments_Metals-58	thrust	v	08b.03	246	THRUST
@@ -1353,7 +1353,7 @@ Hale-1973-1798-1351	Role_and_Social_Structure-5	singer	n	11a.05
 Hale-1973-1798-1352	Role_and_Social_Structure-6	music	n	11a.06	642	MUSIC
 Hale-1973-1798-1353	Role_and_Social_Structure-7	musician	n	11a.07		
 Hale-1973-1798-1354	Role_and_Social_Structure-8	paint	n	11a.08	647	PAINT (PIGMENTS)
-Hale-1973-1798-1355	Role_and_Social_Structure-9	painting	n	11a.09	2401	PICTURE
+Hale-1973-1798-1355	Role_and_Social_Structure-9	painting	n	11a.09	3303	PICTURE (PAINTING)
 Hale-1973-1798-1356	Role_and_Social_Structure-10	painter	n	11a.10		
 Hale-1973-1798-1357	Role_and_Social_Structure-11	game	n	11a.11	2467	GAME
 Hale-1973-1798-1358	Role_and_Social_Structure-12	player	n	11a.12		
