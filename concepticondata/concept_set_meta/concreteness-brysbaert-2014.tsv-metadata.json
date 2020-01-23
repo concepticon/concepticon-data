@@ -1,0 +1,51 @@
+{
+  "url": "",
+  "@context": ["http://crr.ugent.be/archives/1330", {"@language": "en"}],
+  "dc:title": "Automatic mapping to Concreteness and Frequency Data by Brysbaert et al. (2014)",
+  "dc:source": "http://link.springer.com/article/10.3758%2Fs13428-012-0210-4",
+  "dc:references" : "Brysbaert2014",
+  "dcat:keyword": ["concreteness", "monolingual", "english"],
+  "dc:description": "Automatic mapping from Concepticon Concept Sets to Concreteness and Frequency Data by Brysbaert et al. (2014) for the English language.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tableSchema": {
+    "columns": [
+      {
+        "name": "ID",
+        "datatype": "integer"
+        }, 
+      {
+        "name": "CONCRETENESS_MEAN",
+        "datatype": "float"
+        }, 
+      {
+	"name": "SUBTLEX_FREQ",
+	"datatype": "integer"
+	},
+    {
+        "datatype": {
+            "base": "integer",
+            "minimum": 1
+        },
+        "name": "CONCEPTICON_ID"
+    },
+      {
+	"name": "MATCH",
+	"datatype": "integer"
+	}
+    ],
+    "foreignKeys": [
+      {
+        "columnReference": "CONCEPTICON_ID",
+        "reference": {
+          "resource": "../concepticon.tsv",
+          "columnReference": "ID"
+        }
+      }
+    ],
+    "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+  }
+}
