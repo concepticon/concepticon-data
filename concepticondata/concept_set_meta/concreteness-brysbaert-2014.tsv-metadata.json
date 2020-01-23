@@ -1,52 +1,54 @@
 {
-  "url": "",
-  "@context": ["http://crr.ugent.be/archives/1330", {"@language": "en"}],
-  "dc:title": "Automatic mapping to Concreteness and Frequency Data by Brysbaert et al. (2014)",
-  "dc:source": "http://link.springer.com/article/10.3758%2Fs13428-012-0210-4",
-  "dc:references" : "Brysbaert2014",
-  "dcat:keyword": ["concreteness", "monolingual", "english"],
-  "dc:description": "Automatic mapping from Concepticon Concept Sets to Concreteness and Frequency Data by Brysbaert et al. (2014) for the English language.",
-  "dialect": {
-    "delimiter": "\t",
-    "encoding": "utf-8",
-    "header": true
-  },
-  "tableSchema": {
-    "columns": [
-      {
-        "name": "ID",
-        "datatype": "integer"
-        }, 
-      {
-        "name": "ENGLISH",
-        "datatype": "string"
-      }, 
-      {
-        "name": "CONCRETENESS_MEAN",
-        "datatype": "float"
-      }, 
-      {
-	       "name": "SUBTLEX_FREQ",
-	       "datatype": "integer"
-	    },
-      {
-         "name": "CONCEPTICON_ID",
-         "datatype": "integer"
-      }, 
-      {
-	     "name": "MATCH",
-	     "datatype": "integer"
-	    }
-    ],
-    "foreignKeys": [
-      {
-        "columnReference": "CONCEPTICON_ID",
-        "reference": {
-          "resource": "../concepticon.tsv",
-          "columnReference": "ID"
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
         }
-      }
-    ],
-    "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
-  }
+        ],
+    "dc:title": "Automatic mapping to Concreteness and Frequency Data by Brysbaert et al. (2014)",
+    "dc:source": "http://link.springer.com/article/10.3758%2Fs13428-012-0210-4",
+    "dc:references" : "Brysbaert2014",
+    "dcat:keyword": ["concreteness", "monolingual", "english"],
+    "dc:description": "Automatic mapping from Concepticon Concept Sets to Concreteness and Frequency Data by Brysbaert et al. (2014) for the English language.",
+    "dialect": {
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": "integer",
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "CONCRETENESS_MEAN"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "SUBTLEX_FREQ"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "MATCH"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "concreteness-brysbaert-2014.tsv"
+        }
+    ]
 }
