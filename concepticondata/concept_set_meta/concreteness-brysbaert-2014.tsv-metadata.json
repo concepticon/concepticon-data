@@ -24,22 +24,19 @@
       {
         "name": "CONCRETENESS_MEAN",
         "datatype": "float"
-        }, 
+      }, 
       {
-	"name": "SUBTLEX_FREQ",
-	"datatype": "integer"
-	},
-    {
-        "datatype": {
-            "base": "integer",
-            "minimum": 1
-        },
-        "name": "CONCEPTICON_ID"
-    },
+	       "name": "SUBTLEX_FREQ",
+	       "datatype": "integer"
+	    },
       {
-	"name": "MATCH",
-	"datatype": "integer"
-	}
+         "name": "CONCEPTICON_ID",
+         "datatype": "integer"
+      }, 
+      {
+	     "name": "MATCH",
+	     "datatype": "integer"
+	    }
     ],
     "foreignKeys": [
       {
