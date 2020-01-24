@@ -1,0 +1,118 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dialect": {
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        },
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        },
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FRENCH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": 1
+                        },
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "POS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "PICTURE_SOURCE"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "PICTURE_NUMBER"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "VALENCE_ALL_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "AROUSAL_ALL_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "VALENCE_MALE_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "AROUSAL_MALE_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "VALENCE_FEMALE_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "AROUSAL_FEMALE_MEAN"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "NUMBER_LETTERS"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "NUMBER_PHONEMES"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "NUMBER_SYLLABLES"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "SUBTLEX_FREQ"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "BOKS_FREQ"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "IMAGEABILITY_MEAN"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "Desrochers-2010-330.tsv"
+        }
+    ]
+}
