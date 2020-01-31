@@ -51,7 +51,7 @@ Dellert-2017-1016-49	49	744	-0.006891	Atem	Atem::N	breath	дыхание	Atmung	
 Dellert-2017-1016-50	50	327	-1.186053	Hunger	Hunger::N	hunger	голод	Zustand	condition	состояние	HUNGER	1864	
 Dellert-2017-1016-51	51	409	-1.191737	Träne	Träne::N	tear	слеза	Tropfen der Flüssigkeit	drop of fluid	капля	TEAR (OF EYE)	1651	
 Dellert-2017-1016-52	52	197	-1.122334	Geschmack	Geschmack::N	flavour	вкус	von etwas	of something	чего-либо	TASTE	2190	
-Dellert-2017-1016-53	53	239	-1.102637	Geruch	Geruch::N	odour	запах	von etwas	of something	чего-либо			
+Dellert-2017-1016-53	53	239	-1.102637	Geruch	Geruch::N	odour	запах	von etwas	of something	чего-либо	ODOR (SMELL)	3704	
 Dellert-2017-1016-54	54	78	-2.22481	Schlaf	Schlaf::N	sleep	сон	Zustand	condition	состояние	SLEEP (STATE)	2972	POS
 Dellert-2017-1016-55	55	123	-2.216322	Traum	Traum::N	dream	сновидение	im Schlaf	while sleeping	то, что снится	DREAM	2374	
 Dellert-2017-1016-56	56	92	-2.260565	Himmel	Himmel::N	sky	небо	sichtbar	visible	НАПР:звёзды на небе/солнце на небе	SKY	1732	
@@ -84,7 +84,7 @@ Dellert-2017-1016-82	82	656	-0.024082	Raureif	Raureif::N	hoarfrost	иней				H
 Dellert-2017-1016-83	83	1007	1.197472	Regenbogen	Regenbogen::N	rainbow	радуга				RAINBOW	1733	
 Dellert-2017-1016-84	84	625	-0.001241	Donner	Donner::N	thunder	гром	bei Gewitter	during a thunderstorm	во время грозы	THUNDER	1150	
 Dellert-2017-1016-85	85	753	-0.089439	Strömung	Strömung::N	current	течение	eines Flusses	of a river	реки	CURRENT (STREAM)	2935	
-Dellert-2017-1016-86	86	458	-1.170306	Tropfen	Tropfen::N	drop	капля	BSP:Wasser	EX:water	НАПР:воды			!DROP (OF WATER)
+Dellert-2017-1016-86	86	458	-1.170306	Tropfen	Tropfen::N	drop	капля	BSP:Wasser	EX:water	НАПР:воды	DROP (OF A LIQUID)	3748	!DROP (OF WATER)
 Dellert-2017-1016-87	87	109	-2.288698	Schaum	Schaum::N	foam	пена	auf Flüssigkeit	on liquid	на поверхности жидкости	FOAM	1768	
 Dellert-2017-1016-88	88	715	-0.077517	Schmutz	Schmutz::N	dirt	грязь	auf Gegenständen	on objects	на предметах	DIRT	25	
 Dellert-2017-1016-89	89	61	-2.228149	See	See::N	lake	озеро	Binnensee			LAKE	624	
@@ -350,7 +350,7 @@ Dellert-2017-1016-348	348	564	-0.038161	Nahrung	Nahrung::N	food	пища				FOOD
 Dellert-2017-1016-349	349	890	0.048027	Speise	Speise::N	dish	блюдо						
 Dellert-2017-1016-350	350	141	-2.228815	Fleisch	Fleisch::N	meat	мясо	Nahrungsmittel			MEAT	634	
 Dellert-2017-1016-351	351	845	-0.000722	Getreide	Getreide::N	corn	злак		cereal plant grown for its grain				GRAIN (PLANT)
-Dellert-2017-1016-352	352	330	-1.176774	Brei	Brei::N	mush	каша						
+Dellert-2017-1016-352	352	330	-1.176774	Brei	Brei::N	mush	каша				MUSH (FOOD)	3651	
 Dellert-2017-1016-353	353	128	-2.295693	Brot	Brot::N	bread	хлеб			пищевой продукт	BREAD	1368	
 Dellert-2017-1016-354	354	714	-0.083365	Scheibe	Scheibe::N	slice	ломоть	BSP:Brot	EX:of bread	кусок отрезанный ножом, ломтик НАПР:кусок хлеба	SLICE	2954	
 Dellert-2017-1016-355	355	116	-2.237866	Fett	Fett::N	fat	жир				FAT (ORGANIC SUBSTANCE)	323	
@@ -441,7 +441,7 @@ Dellert-2017-1016-439	439	132	-2.282615	Bogen[Waffe]	Bogen[Waffe]::N	bow	лук	
 Dellert-2017-1016-440	440	182	-1.182389	Pfeil	Pfeil::N	arrow	стрела	Geschoss von Bogen	projectile shot from a bow	для стрельбы из лука	ARROW	977	
 Dellert-2017-1016-441	441	866	-0.09154	Gewehr	Gewehr::N	gun	ружьё	Schusswaffe	firearm	стрелковое оружие	GUN	1566	
 Dellert-2017-1016-442	442	640	-0.063253	Fehler	Fehler::N	mistake	ошибка	falsche Handlung oder Entscheidung	wrong action or decision	неправильное действие, поступок	MISTAKE	1293	
-Dellert-2017-1016-443	443	464	-1.153829	Lüge	Lüge::N	lie	ложь				UNTRUTH	475	
+Dellert-2017-1016-443	443	464	-1.153829	Lüge	Lüge::N	lie	ложь				LIE (FALSEHOOD)	2826	
 Dellert-2017-1016-444	444	525	-1.116686	Schaden	Schaden::N	damage	вред	Beschädigung	material harm, detriment	ущерб	DAMAGE (INJURY)	2947	
 Dellert-2017-1016-445	445	903	0.041108	Unglück	Unglück::N	misfortune	беда	unerwünschter Zustand	undesirable condition	неприятное обстоятельство	BAD LUCK	56	
 Dellert-2017-1016-446	446	374	-1.179038	Schuld	Schuld::N	fault	вина	Verantwortung für Fehlverhalten	blame, responsibility	ответственность за проступок, преступление	FAULT	134	
@@ -907,7 +907,7 @@ Dellert-2017-1016-905	905	615	-0.033801	wiegen	wiegen::V	rock	качать	ein K
 Dellert-2017-1016-906	906	308	-1.141124	zudecken	zudecken::V	cover	накрыть	BSP:ein Kind mit einer Decke	EX:a child with a blanket	НАПР:ребёнка одеялом			
 Dellert-2017-1016-907	907	388	-1.142837	wecken	wecken::V	wake	разбудить				WAKE UP (SOMEONE)	3174	
 Dellert-2017-1016-908	908	340	-1.154715	zeigen	zeigen::V	show	показать				SHOW	1039	
-Dellert-2017-1016-909	909	508	-1.157343	führen	führen::V	guide	вести	BSP:ans Ziel	EX:to one's destination	НАПР:к цели			
+Dellert-2017-1016-909	909	508	-1.157343	führen	führen::V	guide	вести	BSP:ans Ziel	EX:to one's destination	НАПР:к цели	LEAD (GUIDE)	43	
 Dellert-2017-1016-910	910	369	-1.191239	lehren	lehren::V	teach	учить	beibringen, BSP:Schwimmen, Nähen	EX:to swim, to sew	НАПР:плавать, шитью	TEACH	709	
 Dellert-2017-1016-911	911	704	-0.01729	unterrichten	unterrichten::V	instruct	преподавать, обучать	BSP:Kinder	EX:children	НАПР:детям			
 Dellert-2017-1016-912	912	764	-0.065493	aufziehen	aufziehen::V	bring up	растить	großziehen, BSP:ein Kind	raise, ЕX:a child	НАПР:ребёнка	RAISE (A CHILD)	2134	
@@ -918,7 +918,7 @@ Dellert-2017-1016-916	916	557	-0.047427	einladen	einladen::V	invite	пригла
 Dellert-2017-1016-917	917	816	-0.081565	vereinigen	vereinigen::V	unite	объединить				JOIN	1743	
 Dellert-2017-1016-918	918	962	0.099967	besuchen	besuchen::V	visit	повидать, посетить	BSP:einen Freund	EX:a friend	НАПР:друга	VISIT	1377	
 Dellert-2017-1016-919	919	758	-0.081395	treffen	treffen::V	meet	встретить	jemanden	someone	кого-то	MEET	1831	not MEET
-Dellert-2017-1016-920	920	833	-0.038883	sich versammeln	sich versammeln::V	assemble	собраться	von einer Gruppe	of a group	о группе			
+Dellert-2017-1016-920	920	833	-0.038883	sich versammeln	sich versammeln::V	assemble	собраться	von einer Gruppe	of a group	о группе	ASSEMBLE (GET TOGETHER)	3638	
 Dellert-2017-1016-921	921	439	-1.120828	spielen	spielen::V	play	играть	BSP:von Kindern	EX:of children	НАПР:о детях	PLAY	1413	
 Dellert-2017-1016-922	922	275	-1.120117	singen	singen::V	sing	петь				SING	1261	
 Dellert-2017-1016-923	923	685	-0.052985	tanzen	tanzen::V	dance	плясать, танцевать				DANCE	1879	
