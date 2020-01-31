@@ -168,8 +168,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 167	MAIL	Modern world	A batch of letters and parcels received via post.	Person/Thing	
 168	REST	The body	To cease working, moving or thinking for some time in order to relieve fatigue.	Action/Process	
 169	IT	Kinship	An inanimate object, an animate object of unspecified sex, or a subject that is previously mentioned.	Other	
-170	FATHER'S SISTER	Kinship	The sister of one's father.	Person/Thing	
-171	MOTHER'S SISTER	Kinship	The sister of one's mother.	Person/Thing	
+170	FATHER'S SISTER	Kinship	The sister of one's father.	Person/Thing	2691
+171	MOTHER'S SISTER	Kinship	The sister of one's mother.	Person/Thing	2693
 172	SHOULDERBLADE	The body	A large flat bone located at the back of each shoulder.	Person/Thing	
 173	SIBLING'S CHILD	Kinship	The child of a sibling.	Person/Thing	
 174	PROUD	Emotions and values	Feeling greatly pleased, or satisfied by something or someone that is highly honorable or creditable to oneself	Property	
@@ -473,7 +473,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 472	PELICAN	Animals	Large water birds comprising the family Pelecanidae. They are characterised by a long beak and large throat pouch used for catching prey and draining water from the scooped up contents before swallowing.	Person/Thing	
 473	SPEAR (SOMEBODY)	Warfare and hunting	To penetrate or strike with, or as if with, any long narrow object. To make a thrusting motion that catches an object on the tip of a long device.	Action/Process	
 474	DRESS	Clothing and grooming	A one-piece garment for a woman that has a skirt and a body section.	Person/Thing	
-475	UNTRUTH	Emotions and values	A false statement made with the intention to deceive.	Person/Thing	
+475	UNTRUTH	Emotions and values	A false statement made with the intention to deceive.	Person/Thing	2826
 476	CUP	Food and drink	A concave vessel for holding liquid, generally adorned with either a handle or a stem	Person/Thing	
 477	LATE	Time	Towards the end of a time period.	Other	
 478	LIP	The body	Either of the two fleshy protrusions around the opening of the mouth.	Person/Thing	
@@ -912,7 +912,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 911	TEMPLE	Religion and belief	A house of worship and spiritual activities.	Person/Thing	
 912	COYOTE	Animals	(Canis latrans) A member of the Canidae family native to North America.	Person/Thing	
 913	CROW	Animals	A bird, usually black, of the genus Corvus, having a strong conical beak, with projecting bristles; it has a harsh, croaking call.	Person/Thing	
-914	SCULPTOR	Basic actions and technology	a person who practices the art of sculpture.	Person/Thing	
+914	SCULPTOR	Basic actions and technology	A person who practices the art of sculpture.	Person/Thing	
 915	SINK (BASIN)	Modern world	A bowl for washing hands, dishwashing or other purposes, often affixed to a wall.	Person/Thing	
 916	LINEN	Clothing and grooming	A material made from the fibers of the flax plant.	Person/Thing	
 917	ORNAMENT	Clothing and grooming	An element of decoration.	Person/Thing	
@@ -1175,7 +1175,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1174	YESTERDAY	Time	The day before today.	Other	
 1175	GHOST	Religion and belief	The visible disembodied soul of a dead person.	Person/Thing	
 1176	SPADE	Agriculture and vegetation	Tool having a flat and sharp metal tip and a wooden handle used to break, dig and move the earth.	Person/Thing	
-1177	DIARREA	The body	A condition in which the sufferer has frequent and watery bowel movements.	Person/Thing	
+1177	DIARRHEA	The body	A condition in which the sufferer has frequent and watery bowel movements.	Person/Thing	
 1178	NOSTRIL	The body	Either of the two orifices located on the nose (or on the beak of a bird); used as a passage for air and other gases to travel the nasal passages.	Person/Thing	
 1179	DAY AFTER TOMORROW	Time	On the day following tomorrow.	Other	
 1180	DAY BEFORE YESTERDAY	Time	On the day before yesterday.	Other	
@@ -1765,7 +1765,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1764	OBSCURE	Cognition	Known vaguely or incompletely, if at all.	Property	
 1765	IN VAIN	Miscellaneous function words	Without success, without the desired effect.	Other	
 1766	FINISH	Time	To end something, to bring something to a conclusion.	Action/Process	
-1767	SCRAPE	Food and drink	To move an object against another object such that abrasion or minor cutting occurs.	Action/Process	
+1767	SCRAPE	Basic actions and technology	To move an object against another object such that abrasion or minor cutting occurs.	Action/Process	
 1768	FOAM	The physical world	A mass of adjacent small pockets of air or bubbles with solid or liquid boundaries.	Person/Thing	
 1769	AXLE	Motion	The central part of a wheel, that usually does not turn.	Person/Thing	
 1770	CARCASS	The body	The body of a dead animal, on which other animals have begun to feed.	Person/Thing	
@@ -1982,8 +1982,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1981	WIDOWER	Kinship	A man whose spouse has died.	Person/Thing	
 1982	WHIRLPOOL	The physical world	A rapidly rotating body of water.	Person/Thing	
 1983	SNORE	The body	To make a noise during sleep by vibration of soft respiratory tissues (soft palate, base of the tongue and pharyngeal walls), particularly during inhalation.	Action/Process	
-1984	MOTHER'S BROTHER	Kinship	The brother of someone’s mother.	Person/Thing	
-1985	FATHER'S BROTHER	Kinship	The brother of someone’s father.	Person/Thing	
+1984	MOTHER'S BROTHER	Kinship	The brother of someone’s mother.	Person/Thing	2692
+1985	PATERNAL UNCLE (FATHER'S BROTHER)	Kinship	The brother of one’s father.	Person/Thing	
 1986	DISEASE	The body	A definite pathological process having a characteristic set of signs and symptoms which are detrimental to the well-being of the individual.	Person/Thing	
 1987	CHOPSTICKS	Food and drink	A pair of small equal-length tapered sticks, which are generally believed to have originated in ancient China, and are the traditional eating utensils of China, Japan, Korea, Taiwan, and Vietnam.	Person/Thing	
 1988	RIBES	Agriculture and vegetation	A member of the genus Ribes in the gooseberry family Grossulariaceae, native to parts of western Europe (France, Belgium, Netherlands, Germany, and northern Italy). It is a deciduous shrub normally growing to 1-1.5 m tall, occasionally 2 m, with five-lobed leaves arranged spirally on the stems.	Person/Thing	
@@ -2712,7 +2712,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2711	TRANSPORT	Basic actions and technology	To carry larger objects, usually with help of a vehicle.	Action/Process	
 2712	GET DIZZY	Basic actions and technology	Experience an impairment in spatial perception and stability.	Action/Process	
 2713	HAVE A FEVER	Basic actions and technology	Have an increased body temperature.	Action/Process	
-2714	HAVE DIARREA	Basic actions and technology	Suffering from loose or liquid bowel movements.	Action/Process	
+2714	HAVE DIARRHEA	Basic actions and technology	Suffering from loose or liquid bowel movements.	Action/Process	
 2715	DESPISE	Basic actions and technology	To feel a strong dislike for something.	Action/Process	
 2716	BLAME (SOMEBODY)	Basic actions and technology	To hold somebody responsible for something.	Action/Process	
 2717	STEEP	Spatial relations	Vertically raising.	Property	
@@ -2858,7 +2858,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2861	BUDGE (ONESELF)	Motion	To move oneself.	Action/Process	
 2862	CONNECT	Motion	To link two objects with each other.	Action/Process	
 2863	DASH (OF VEHICLE)	Motion	To move quickly (of a vehicle).	Action/Process	
-2864	DECREASE	Basic actions and technology	A reduction in number or size.	Action/Process	
+2864	DECREASE	Basic actions and technology	To become smaller in number or size.	Action/Process	
 2865	DIE (FROM ACCIDENT)	Basic actions and technology	To cease to live due to unforeseen circumstances.	Action/Process	
 2866	DROP (SOMETHING)	Basic actions and technology	To let something fall down.	Action/Process	
 2867	CALCULATE	Modern world	To determine by mathematical processes.	Action/Process	
@@ -3634,7 +3634,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3648	SERVE (SOMEONE)	Social and political relations	To perform the duties of a servant.	Action/Process	
 3649	PUNISH	Law	To inflict pain, suffering or loss on somebody who has broken a law or done something wrong.	Action/Process	
 3650	APPLY (OINTMENT)	The body	To put and spread some substance on the skin.	Action/Process	
-3651	MUSH (FOOD)	Food and drink	A kind of porridge, usually made of corn, that is prepared by boiling it with water or milk until thick.	Person/Thing	
+3651	MUSH (FOOD)	Food and drink	A kind of porridge that is prepared by boiling it with water or milk until thick.	Person/Thing	
 3652	FERMENT	The physical world	To undergo the chemical change characterized by the conversion of sugars into alcohol under the influence of enzymes.	Action/Process	
 3653	COOKING POT	Food and drink	A vessel, usually with a rounded body, used to cook food.	Person/Thing	
 3654	TAKE OUT	Spatial relations	To remove or pull something out of an enclosed space.	Action/Process	
@@ -3731,3 +3731,5 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3745	CRANE (DEVICE)	Modern world	A device for lifting and moving heavy objects, typically consisting of a moving boom, beam, or gantry from which lifting gear is suspended.	Person/Thing	
 3746	VASE	Modern world	An often round vessel which is used for decoration or for holding cut flowers.	Person/Thing	
 3747	SHAPE	Sense perception	The form of an object or person which refers to its outline.	Person/Thing	
+3748	DROP (OF A LIQUID)	The physical world	A small amount of a liquid that falls in a round shape.	Person/Thing	
+3749	HATE (LOATHING)	Emotions and values	A strong feeling of dislike for something or somebody.	Person/Thing	
