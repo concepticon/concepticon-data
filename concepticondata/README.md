@@ -1,12 +1,12 @@
 
 # Concepticon Statistics
-* concept sets (used): 3652
-* concept lists: 293
-* concept labels: 59597
-* concept labels (unique): 14832
-* Ø concepts per list: 203.40
-* Ø concepts per concept set: 16.32
-* Ø unique concept labels per concept set: 4.21
+* concept sets (used): 3662
+* concept lists: 295
+* concept labels: 60390
+* concept labels (unique): 14951
+* Ø concepts per list: 204.71
+* Ø concepts per concept set: 16.49
+* Ø unique concept labels per concept set: 4.24
 
 
 ## Twenty Most Diverse Concept Sets
@@ -23,7 +23,7 @@
 | 8 | SLEEP | 34 | 186 | «(he) sleeps», «(he) slept», «(you) sleep!», «I sleep», «SLEEP (VERB)», «SLEEP», «Sleep (v.)», «Sleep», «TO SLEEP», «To sleep», «`*`sleep vb», «`*`sleep», «sleep (1)», «sleep (1st)», «sleep (2)», «sleep (as in ‘he is sleeping’)», «sleep (to)», «sleep (v)», «sleep (v.)», «sleep (vb.; sb.)», «sleep (vi)», «sleep [vb]», «sleep! (2s)», «sleep!», «sleep+», «sleep, to», «sleep/lie down», «sleep», «to sleep (verb)», «to sleep / sleep!», «to sleep`*`», «to sleep», «to_sleep», «you sleep!» |
 | 9 | LIE (REST) | 34 | 95 | «(be) lying down», «(he) lay down», «LIE (DOWN)», «LIE», «Lie», «TO LIE (ON SIDE)», «To lie», «`*`lie», «be lying down», «he lies», «lie (as ‘the boy lies on the floor’)», «lie (down)», «lie (i.e. be in lying position)», «lie (recline)», «lie (v., to tell a lie)», «lie (vi)», «lie [recline]», «lie on side», «lie», «to be lying down», «to lie (as on one's side)», «to lie (down)», «to lie (on bed)», «to lie (on side)», «to lie (on the side)», «to lie (posture)», «to lie (recline)», «to lie / lie down!», «to lie on side», «to lie, to rest (verb)», «to lie», «to recline`*`», «to_lie_on_side», «you lie down!» |
 | 10 | FLY (MOVE THROUGH AIR) | 33 | 165 | «(the bird) flew», «(the bird) flies», «FLY (VERB)», «FLY (v.)», «FLY», «Fly», «TO FLY», «To fly», «`*`fly (vb)», «`*`fly vb», «`*`fly», «fly (V)», «fly (as a bird)», «fly (of bird)», «fly (to)», «fly (v)», «fly (v.)», «fly (vb)», «fly (vb.)», «fly (vi)», «fly [vb]», «fly v.», «fly, to», «fly_V», «flying», «fly», «the bird flies», «to fly (move through air)», «to fly / the bird flies / flew», «to fly away», «to fly`*`», «to fly», «to_fly» |
-| 11 | BE ALIVE | 33 | 104 | «(be) alive», «Alive», «LIVE (VERB)», «Live», «TO LIVE», «alive (be v)», «alive (live)», «alive (living)», «alive, healthy», «alive, life», «alive, living (adjective)», «alive/live», «alive», «live (be alive)», «live (v)», «live (v., not be dead)», «live (vb.)», «live v.», «live(alive)», «live, to», «live/be alive», «live», «living (adj.) (animals)», «living», «to be alive», «to live (alive)», «to live (to be alive)», «to live (verb)», «to live, be alive», «to live`*`», «to live», «to_live», «—alive» |
+| 11 | BE ALIVE | 33 | 105 | «(be) alive», «Alive», «LIVE (VERB)», «Live», «TO LIVE», «alive (be v)», «alive (live)», «alive (living)», «alive, healthy», «alive, life», «alive, living (adjective)», «alive/live», «alive», «live (be alive)», «live (v)», «live (v., not be dead)», «live (vb.)», «live v.», «live(alive)», «live, to», «live/be alive», «live», «living (adj.) (animals)», «living», «to be alive», «to live (alive)», «to live (to be alive)», «to live (verb)», «to live, be alive», «to live`*`», «to live», «to_live», «—alive» |
 | 12 | WASH | 32 | 106 | «(he) washes», «TO WASH», «WASH (VERB)», «WASH2», «WASH», «Wash (face/clothes)», «Wash», «`*``*`wash (hands)», «`*`wash», «to wash (generic)», «to wash (hands)», «to wash (hands, things)», «to wash (self)», «to wash clothes», «to wash(hands)`*`», «to wash/to bathe», «to wash», «to_wash», «wash (V)», «wash (clothes)», «wash (clothes, utensils)», «wash (dishes)», «wash (hands)», «wash (objects)», «wash (to)», «wash (tr)», «wash (v.)», «wash [clothes]», «wash it (v)», «wash it», «wash sago», «wash» |
 | 13 | SIT | 32 | 179 | «(be) seated», «(he) sat down», «(he) sits», «(you) sit down!», «I sit», «SIT (VERB)», «SIT», «Sit», «TO SIT», «To sit», «`*`sit», «he sits», «lie (vb.); sit», «sit (1st)», «sit (as in ‘he is sitting here’)», «sit (imperative)», «sit (state)», «sit (stay)», «sit (to)», «sit (v.)», «sit down!», «sit! (2s)», «sit!», «sit, stay (v)», «sit, to», «sits», «sit», «to sit / sit!», «to sit`*`», «to sit», «to_sit», «you sit down!» |
 | 14 | EAT | 32 | 205 | «(he) ate», «(he) eats», «(you) eat!», «EAT (VERB)», «EAT», «Eat», «I eat (verb)», «TO EAT», «To eat», «`*`eat», «ate», «eat (1)», «eat (1st)», «eat (2)», «eat (to)», «eat (v.)», «eat (vt)», «eat! (2s)», «eat!», «eat, to», «eats», «eat», «he eats (verb)», «he eats», «he is eating», «to eat (verb)», «to eat / eat!», «to eat`*`», «to eat», «to_eat», «you eat (verb)», «you eat!» |
@@ -42,19 +42,19 @@
 | 2 | TOOTH | 24 | 221 | «(his) tooth», «(its) tooth», «TOOTH (FRONT)», «TOOTH», «Teeth», «Tooth», «`*`tooth», «diente», «one tooth», «teeth, tooth (noun)», «teeth», «the tooth (front)», «the tooth», «tooth (front rather than molar)», «tooth (general)», «tooth (incisor)», «tooth (molar)», «tooth (my)», «tooth (n.)», «tooth (noun)», «tooth (rather not molar)», «tooth+», «tooth`*`», «tooth» |
 | 3 | WATER | 16 | 220 | «WATER», «Water», «`*`water», «agua», «the water (one mouth of water)», «the water», «water (1)», «water (2)», «water (fresh water)», «water (fresh)», «water (n)», «water (n.)», «water (noun)», «water+», «water`*`», «water» |
 | 4 | NOSE | 16 | 217 | «(his) nose», «(its) nose», «NOSE», «Nose», «`*`nose», «nariz», «nose (1)», «nose (2)», «nose (my)», «nose (n.)», «nose (noun)», «nose++», «nose; to smell», «nose`*`», «nose», «the nose» |
-| 5 | BLOOD | 14 | 217 | «(its) blood», «BLOOD», «Blood», «`*`blood», «blood (1)», «blood (2)», «blood (n)», «blood (n.)», «blood (noun)», «blood`*`», «blood», «his blood», «sangre», «the blood» |
-| 6 | EAR | 20 | 216 | «(his) ear», «(its) ear», «EAR2», «EAR», «Ear», «`*`ear», «ear (1)», «ear (2)», «ear (my)», «ear (n.)», «ear (noun)», «ear(s)», «ear-», «ear`*`», «ears», «ear», «noise, ear», «one ear», «oreja», «the ear» |
-| 7 | DOG | 11 | 216 | «DOG», «Dog», «`*`dog», «dog (n.)», «dog (noun)», «dog+», «dog`*`», «dog», «hound», «perro», «the dog» |
+| 5 | DOG | 11 | 217 | «DOG», «Dog», «`*`dog», «dog (n.)», «dog (noun)», «dog+», «dog`*`», «dog», «hound», «perro», «the dog» |
+| 6 | BLOOD | 14 | 217 | «(its) blood», «BLOOD», «Blood», «`*`blood», «blood (1)», «blood (2)», «blood (n)», «blood (n.)», «blood (noun)», «blood`*`», «blood», «his blood», «sangre», «the blood» |
+| 7 | EAR | 20 | 216 | «(his) ear», «(its) ear», «EAR2», «EAR», «Ear», «`*`ear», «ear (1)», «ear (2)», «ear (my)», «ear (n.)», «ear (noun)», «ear(s)», «ear-», «ear`*`», «ears», «ear», «noise, ear», «one ear», «oreja», «the ear» |
 | 8 | TONGUE | 18 | 215 | «(his) tongue», «(its) tongue», «TONGUE», «Tongue», «`*`Tongue», «`*`tongue», «lengua», «the tongue», «tongue (1)», «tongue (2)», «tongue (anatomical)», «tongue (body part)», «tongue (my)», «tongue (n.)», «tongue (noun)», «tongue (of a human being)», «tongue`*`», «tongue» |
-| 9 | TWO | 16 | 214 | «2», «TWO2», «TWO», «Two», «[CL] `*`two», «`*`two», «dos», «two (1)», «two (2)», «two (numeral)», «two (people)», «two (persons)», «two (things)», «two/pair», «two`*`», «two» |
-| 10 | STAR | 12 | 214 | «STAR», «Stars», «Star», «`*`star», «estrella», «one star», «star (n.)», «star (noun)», «star++», «star`*`», «star», «the star» |
-| 11 | FIRE | 12 | 214 | «FIRE, (FIREWOOD)», «FIRE», «Fire», «`*`fire», «candela, fuego», «fire (for cooking)/heat», «fire (n.)», «fire (noun)», «fire-», «fire`*`», «fire», «the fire» |
-| 12 | BONE | 13 | 214 | «(its) bone», «BONE», «Bone», «`*`bone», «bone (my)», «bone (n.)», «bone (noun)», «bone`*`», «bones», «bone», «his bone», «hueso», «the bone» |
+| 9 | BONE | 13 | 215 | «(its) bone», «BONE», «Bone», «`*`bone», «bone (my)», «bone (n.)», «bone (noun)», «bone`*`», «bones», «bone», «his bone», «hueso», «the bone» |
+| 10 | TWO | 16 | 214 | «2», «TWO2», «TWO», «Two», «[CL] `*`two», «`*`two», «dos», «two (1)», «two (2)», «two (numeral)», «two (people)», «two (persons)», «two (things)», «two/pair», «two`*`», «two» |
+| 11 | STAR | 12 | 214 | «STAR», «Stars», «Star», «`*`star», «estrella», «one star», «star (n.)», «star (noun)», «star++», «star`*`», «star», «the star» |
+| 12 | FIRE | 12 | 214 | «FIRE, (FIREWOOD)», «FIRE», «Fire», «`*`fire», «candela, fuego», «fire (for cooking)/heat», «fire (n.)», «fire (noun)», «fire-», «fire`*`», «fire», «the fire» |
 | 13 | ONE | 13 | 212 | «1», «ONE», «One», «[CL] `*`one», «`*`one», «one (1)», «one (numeral)», «one (person)», «one (thing)», «one++», «one`*`», «one», «uno» |
-| 14 | SUN | 14 | 210 | «SUN, (SUMMER)», «SUN2, (DAY)», «SUN», «Sun», «`*`sun», «sol», «sun (1)», «sun (2)», «sun (n.)», «sun (noun)», «sun+», «sun`*`», «sun», «the sun» |
+| 14 | SUN | 14 | 211 | «SUN, (SUMMER)», «SUN2, (DAY)», «SUN», «Sun», «`*`sun», «sol», «sun (1)», «sun (2)», «sun (n.)», «sun (noun)», «sun+», «sun`*`», «sun», «the sun» |
 | 15 | MOUTH | 17 | 208 | «(his) mouth», «MOUTH2», «MOUTH3», «MOUTH», «Mouth», «`*`mouth», «mouth (my)», «mouth (n.)», «mouth (noun)», «mouth (of a person)», «mouth (opening) (note:mouth | opening)», «mouth---», «mouth1», «mouth2», «mouth`*`», «mouth», «the mouth» |
 | 16 | HEAD | 16 | 208 | «(his) head», «(its) head», «11a. head (2)», «HEAD», «Head», «`*`head», «head (1)», «head (3)», «head (anatomic)», «head (my)», «head (n.)», «head (noun)», «head++», «head`*`», «head», «the head» |
-| 17 | FISH | 20 | 205 | «A fish», «FISH2», «FISH», «Fish (n.)», «Fish», «PACU FISH», «`*`fish», «fish (1)», «fish (2)», «fish (N)», «fish (n)», «fish (n.)», «fish (noun)», «fish+», «fish`*`», «fish», «pacu fish», «pescado», «the fish (one piece of fish)», «the fish» |
-| 18 | EAT | 32 | 205 | «(he) ate», «(he) eats», «(you) eat!», «EAT (VERB)», «EAT», «Eat», «I eat (verb)», «TO EAT», «To eat», «`*`eat», «ate», «eat (1)», «eat (1st)», «eat (2)», «eat (to)», «eat (v.)», «eat (vt)», «eat! (2s)», «eat!», «eat, to», «eats», «eat», «he eats (verb)», «he eats», «he is eating», «to eat (verb)», «to eat / eat!», «to eat`*`», «to eat», «to_eat», «you eat (verb)», «you eat!» |
-| 19 | BLACK | 15 | 205 | «(be) black», «BLACK», «Black», «`*`black», «black (1)», «black (2)», «black (adjective)», «black (black cllour)», «black (colour)», «black (of faces)», «black (thing)», «black++», «black`*`», «black», «colour term black» |
-| 20 | STONE | 16 | 203 | «A stone», «STONE2», «STONE», «Stone», «`*`stone», «piedra», «rock», «stone (noun)», «stone (rock) (n.)», «stone (small)», «stone / rock», «stone--», «stone_rock», «stone`*`», «stone», «the stone (a piece of)» |
+| 17 | FISH | 20 | 206 | «A fish», «FISH2», «FISH», «Fish (n.)», «Fish», «PACU FISH», «`*`fish», «fish (1)», «fish (2)», «fish (N)», «fish (n)», «fish (n.)», «fish (noun)», «fish+», «fish`*`», «fish», «pacu fish», «pescado», «the fish (one piece of fish)», «the fish» |
+| 18 | BLACK | 15 | 206 | «(be) black», «BLACK», «Black», «`*`black», «black (1)», «black (2)», «black (adjective)», «black (black cllour)», «black (colour)», «black (of faces)», «black (thing)», «black++», «black`*`», «black», «colour term black» |
+| 19 | EAT | 32 | 205 | «(he) ate», «(he) eats», «(you) eat!», «EAT (VERB)», «EAT», «Eat», «I eat (verb)», «TO EAT», «To eat», «`*`eat», «ate», «eat (1)», «eat (1st)», «eat (2)», «eat (to)», «eat (v.)», «eat (vt)», «eat! (2s)», «eat!», «eat, to», «eats», «eat», «he eats (verb)», «he eats», «he is eating», «to eat (verb)», «to eat / eat!», «to eat`*`», «to eat», «to_eat», «you eat (verb)», «you eat!» |
+| 20 | STONE | 16 | 204 | «A stone», «STONE2», «STONE», «Stone», «`*`stone», «piedra», «rock», «stone (noun)», «stone (rock) (n.)», «stone (small)», «stone / rock», «stone--», «stone_rock», «stone`*`», «stone», «the stone (a piece of)» |

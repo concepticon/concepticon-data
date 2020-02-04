@@ -25,26 +25,26 @@
 | [Birchall-2016-125](Birchall-2016-125.tsv) | 125 | 100 | 0 |
 | [Blust-1981-200](Blust-1981-200.tsv) | 206 | 100 | 0 |
 | [Blust-2008-210](Blust-2008-210.tsv) | 210 | 100 | 0 |
-| [Bodt-2019-664](Bodt-2019-664.tsv) | 554 | 83 | 17 |
+| [Bodt-2019-664](Bodt-2019-664.tsv) | 558 | 84 | 17 |
 | [Borin-2012-40](Borin-2012-40.tsv) | 39 | 97 | 0 |
 | [Borin-2015-1532](Borin-2015-1532.tsv) | 1375 | 100 | 2 |
 | [Bowern-2008-207](Bowern-2008-207.tsv) | 207 | 100 | 0 |
 | [Bowern-2011-204](Bowern-2011-204.tsv) | 204 | 100 | 1 |
 | [Bowern-2012-189](Bowern-2012-189.tsv) | 190 | 100 | 1 |
 | [Bowern-2012-205](Bowern-2012-205.tsv) | 205 | 100 | 2 |
-| [Bowern-2012-644](Bowern-2012-644.tsv) | 488 | 75 | 13 |
+| [Bowern-2012-644](Bowern-2012-644.tsv) | 489 | 75 | 13 |
 | [Bowern-2017-348](Bowern-2017-348.tsv) | 342 | 98 | 0 |
 | [Bremer-2016-200](Bremer-2016-200.tsv) | 184 | 92 | 1 |
 | [Brinton-1891-21](Brinton-1891-21.tsv) | 21 | 100 | 0 |
 | [Bromley-1967-111](Bromley-1967-111.tsv) | 108 | 97 | 0 |
-| [Buck-1949-1108](Buck-1949-1108.tsv) | 1036 | 93 | 25 |
-| [Bulakh-2013-870](Bulakh-2013-870.tsv) | 861 | 98 | 10 |
+| [Buck-1949-1108](Buck-1949-1108.tsv) | 1030 | 92 | 24 |
+| [Bulakh-2013-870](Bulakh-2013-870.tsv) | 862 | 99 | 10 |
 | [Calero-2002-15](Calero-2002-15.tsv) | 14 | 93 | 0 |
 | [Calude-2011-200](Calude-2011-200.tsv) | 200 | 100 | 0 |
 | [Campbell-1999-100](Campbell-1999-100.tsv) | 100 | 100 | 1 |
 | [Carling-2017-104a](Carling-2017-104a.tsv) | 104 | 100 | 0 |
 | [Carling-2017-10h](Carling-2017-10h.tsv) | 10 | 100 | 0 |
-| [Carling-2017-112e](Carling-2017-112e.tsv) | 110 | 98 | 0 |
+| [Carling-2017-112e](Carling-2017-112e.tsv) | 111 | 99 | 0 |
 | [Carling-2017-127g](Carling-2017-127g.tsv) | 123 | 96 | 0 |
 | [Carling-2017-209b](Carling-2017-209b.tsv) | 209 | 100 | 0 |
 | [Carling-2017-240c](Carling-2017-240c.tsv) | 219 | 91 | 12 |
@@ -54,9 +54,9 @@
 | [Carling-2017-97i](Carling-2017-97i.tsv) | 96 | 98 | 0 |
 | [Carling-2017-97j](Carling-2017-97j.tsv) | 96 | 98 | 0 |
 | [Carling-2019-100](Carling-2019-100.tsv) | 99 | 99 | 0 |
-| [Castro-2010-511](Castro-2010-511.tsv) | 488 | 95 | 0 |
-| [Castro-2010-540](Castro-2010-540.tsv) | 531 | 98 | 3 |
-| [Castro-2015-608](Castro-2015-608.tsv) | 523 | 86 | 2 |
+| [Castro-2010-511](Castro-2010-511.tsv) | 489 | 95 | 0 |
+| [Castro-2010-540](Castro-2010-540.tsv) | 532 | 98 | 3 |
+| [Castro-2015-608](Castro-2015-608.tsv) | 525 | 86 | 2 |
 | [Ceolin-2019-168](Ceolin-2019-168.tsv) | 168 | 100 | 0 |
 | [Chacon-2014-142](Chacon-2014-142.tsv) | 128 | 90 | 3 |
 | [Chacon-2017-102](Chacon-2017-102.tsv) | 102 | 100 | 2 |
@@ -65,7 +65,7 @@
 | [Chen-1996-100a](Chen-1996-100a.tsv) | 100 | 100 | 0 |
 | [Chen-1996-100b](Chen-1996-100b.tsv) | 100 | 100 | 0 |
 | [Chen-1996-200](Chen-1996-200.tsv) | 200 | 100 | 0 |
-| [Chen-2012-888](Chen-2012-888.tsv) | 798 | 89 | 0 |
+| [Chen-2012-888](Chen-2012-888.tsv) | 800 | 90 | 0 |
 | [Clouse-1993-71](Clouse-1993-71.tsv) | 69 | 97 | 0 |
 | [Comrie-1977-207](Comrie-1977-207.tsv) | 207 | 100 | 0 |
 | [ConradDye-1975-102](ConradDye-1975-102.tsv) | 102 | 100 | 0 |
@@ -75,8 +75,9 @@
 | [Davies-1985-116](Davies-1985-116.tsv) | 116 | 100 | 0 |
 | [Dawson-1887-731](Dawson-1887-731.tsv) | 472 | 64 | 6 |
 | [Deepadung-2015-100](Deepadung-2015-100.tsv) | 100 | 100 | 0 |
-| [Dellert-2017-1016](Dellert-2017-1016.tsv) | 952 | 93 | 1 |
+| [Dellert-2017-1016](Dellert-2017-1016.tsv) | 957 | 94 | 2 |
 | [Desrochers-2010-330](Desrochers-2010-330.tsv) | 124 | 37 | 2 |
+| [DiezAlamo-2018-750](DiezAlamo-2018-750.tsv) | 426 | 56 | 11 |
 | [Dixon-1919-175](Dixon-1919-175.tsv) | 170 | 98 | 39 |
 | [Dolch-1936-220](Dolch-1936-220.tsv) | 190 | 86 | 16 |
 | [Dolch-1936-95](Dolch-1936-95.tsv) | 94 | 98 | 1 |
@@ -104,7 +105,7 @@
 | [Grollemund-2015-100](Grollemund-2015-100.tsv) | 100 | 100 | 0 |
 | [Gudschinsky-1956-200](Gudschinsky-1956-200.tsv) | 200 | 100 | 0 |
 | [Hale-1961-100](Hale-1961-100.tsv) | 100 | 100 | 0 |
-| [Hale-1973-1798](Hale-1973-1798.tsv) | 1230 | 68 | 93 |
+| [Hale-1973-1798](Hale-1973-1798.tsv) | 1296 | 72 | 93 |
 | [Haspelmath-2009-1460](Haspelmath-2009-1460.tsv) | 1459 | 99 | 1 |
 | [Hattori-1961-236](Hattori-1961-236.tsv) | 236 | 100 | 0 |
 | [Hattori-1973-200](Hattori-1973-200.tsv) | 200 | 100 | 0 |
@@ -122,7 +123,7 @@
 | [Holman-2008-40](Holman-2008-40.tsv) | 40 | 100 | 0 |
 | [Hooley-1971-128](Hooley-1971-128.tsv) | 127 | 99 | 0 |
 | [Hou-2004-180](Hou-2004-180.tsv) | 179 | 99 | 0 |
-| [Huang-1992-1820](Huang-1992-1820.tsv) | 1274 | 70 | 1 |
+| [Huang-1992-1820](Huang-1992-1820.tsv) | 1285 | 70 | 1 |
 | [Huber-1992-375](Huber-1992-375.tsv) | 347 | 94 | 1 |
 | [Izura-2005-499](Izura-2005-499.tsv) | 272 | 54 | 22 |
 | [Janhunan-2008-235](Janhunan-2008-235.tsv) | 268 | 98 | 19 |
@@ -137,9 +138,9 @@
 | [Kleinewillinghoefer-2014-16](Kleinewillinghoefer-2014-16.tsv) | 16 | 100 | 0 |
 | [Kleinewillinghoefer-2015-119](Kleinewillinghoefer-2015-119.tsv) | 118 | 99 | 0 |
 | [Kolipakam-2018-100](Kolipakam-2018-100.tsv) | 100 | 100 | 0 |
-| [Kraft-1981-434](Kraft-1981-434.tsv) | 433 | 99 | 5 |
+| [Kraft-1981-434](Kraft-1981-434.tsv) | 433 | 99 | 4 |
 | [Krisadawan-2000-210](Krisadawan-2000-210.tsv) | 211 | 100 | 1 |
-| [Lama-2012-301](Lama-2012-301.tsv) | 280 | 93 | 0 |
+| [Lama-2012-301](Lama-2012-301.tsv) | 283 | 94 | 0 |
 | [Larson-1972-68](Larson-1972-68.tsv) | 66 | 100 | 0 |
 | [Laycock-1968-50](Laycock-1968-50.tsv) | 50 | 100 | 0 |
 | [Lee-2011-211](Lee-2011-211.tsv) | 211 | 100 | 1 |
@@ -165,7 +166,7 @@
 | [Mann-2004-209](Mann-2004-209.tsv) | 209 | 100 | 1 |
 | [Mann-2004-210](Mann-2004-210.tsv) | 210 | 100 | 0 |
 | [Mann-2004-500](Mann-2004-500.tsv) | 499 | 99 | 13 |
-| [Marrison-1967-917](Marrison-1967-917.tsv) | 852 | 93 | 17 |
+| [Marrison-1967-917](Marrison-1967-917.tsv) | 855 | 93 | 17 |
 | [Marsden-1782-50](Marsden-1782-50.tsv) | 50 | 100 | 0 |
 | [Matisoff-1978-200](Matisoff-1978-200.tsv) | 210 | 100 | 0 |
 | [Matisoff-2009-47](Matisoff-2009-47.tsv) | 47 | 100 | 0 |
@@ -177,20 +178,20 @@
 | [Miedema-1985-40](Miedema-1985-40.tsv) | 40 | 100 | 0 |
 | [Miller-1994-281](Miller-1994-281.tsv) | 283 | 99 | 1 |
 | [Mitterhofer-2013-300](Mitterhofer-2013-300.tsv) | 298 | 99 | 3 |
-| [Mitterhofer-2013-355](Mitterhofer-2013-355.tsv) | 341 | 96 | 7 |
+| [Mitterhofer-2013-355](Mitterhofer-2013-355.tsv) | 343 | 96 | 8 |
 | [Mitterhofer-2013-95](Mitterhofer-2013-95.tsv) | 87 | 91 | 4 |
 | [Monnier-2014-1031](Monnier-2014-1031.tsv) | 605 | 58 | 26 |
-| [Nagano-2013-1256](Nagano-2013-1256.tsv) | 971 | 77 | 84 |
+| [Nagano-2013-1256](Nagano-2013-1256.tsv) | 987 | 78 | 83 |
 | [Nagaraja-2013-200](Nagaraja-2013-200.tsv) | 200 | 100 | 0 |
 | [Nahhas-2006-100](Nahhas-2006-100.tsv) | 100 | 100 | 0 |
 | [Nash-2017-9](Nash-2017-9.tsv) | 9 | 100 | 0 |
 | [Nelson-2001-89](Nelson-2001-89.tsv) | 89 | 100 | 0 |
 | [Nicholas-1989-60](Nicholas-1989-60.tsv) | 59 | 98 | 0 |
-| [Nordlinger-2019-57](Nordlinger-2019-57.tsv) | 47 | 82 | 0 |
+| [Nordlinger-2019-57](Nordlinger-2019-57.tsv) | 49 | 85 | 0 |
 | [Norman-2003-40](Norman-2003-40.tsv) | 40 | 100 | 0 |
 | [OGrady-1969-100](OGrady-1969-100.tsv) | 100 | 100 | 0 |
 | [Ogden-1930-100](Ogden-1930-100.tsv) | 77 | 77 | 1 |
-| [Ogden-1930-200](Ogden-1930-200.tsv) | 186 | 93 | 0 |
+| [Ogden-1930-200](Ogden-1930-200.tsv) | 187 | 93 | 0 |
 | [Othaniel-2017-300](Othaniel-2017-300.tsv) | 285 | 95 | 2 |
 | [Pagel-2007-200](Pagel-2007-200.tsv) | 200 | 100 | 0 |
 | [Pagel-2013-23](Pagel-2013-23.tsv) | 23 | 100 | 0 |
@@ -200,15 +201,15 @@
 | [Paperno-2019-99](Paperno-2019-99.tsv) | 69 | 69 | 1 |
 | [Payne-1991-202](Payne-1991-202.tsv) | 202 | 100 | 39 |
 | [Peiros-1999-100](Peiros-1999-100.tsv) | 100 | 100 | 0 |
-| [Pereira-2018-180](Pereira-2018-180.tsv) | 108 | 60 | 2 |
-| [Perrin-2010-110](Perrin-2010-110.tsv) | 97 | 88 | 5 |
+| [Pereira-2018-180](Pereira-2018-180.tsv) | 110 | 61 | 2 |
+| [Perrin-2010-110](Perrin-2010-110.tsv) | 99 | 90 | 5 |
 | [Petroni-2010-100](Petroni-2010-100.tsv) | 100 | 100 | 0 |
 | [Peust-2013-54](Peust-2013-54.tsv) | 54 | 100 | 0 |
 | [Pozdniakov-2014-100a](Pozdniakov-2014-100a.tsv) | 100 | 100 | 0 |
 | [Pozdniakov-2014-100b](Pozdniakov-2014-100b.tsv) | 100 | 100 | 0 |
 | [Ray-1895-26](Ray-1895-26.tsv) | 26 | 100 | 0 |
 | [Rea-1958-100](Rea-1958-100.tsv) | 100 | 100 | 0 |
-| [Reinhard-1970-337](Reinhard-1970-337.tsv) | 296 | 88 | 26 |
+| [Reinhard-1970-337](Reinhard-1970-337.tsv) | 298 | 88 | 26 |
 | [Ringe-1992-100](Ringe-1992-100.tsv) | 100 | 100 | 0 |
 | [Ringe-2002-333](Ringe-2002-333.tsv) | 333 | 100 | 0 |
 | [Ritchie-2019-111](Ritchie-2019-111.tsv) | 111 | 100 | 0 |
@@ -265,6 +266,7 @@
 | [Tryon-1983-324](Tryon-1983-324.tsv) | 318 | 98 | 3 |
 | [Urban-2011-160](Urban-2011-160.tsv) | 160 | 100 | 1 |
 | [Vejdemo-2016-167](Vejdemo-2016-167.tsv) | 167 | 100 | 0 |
+| [Verheyen-2019-1000](Verheyen-2019-1000.tsv) | 244 | 24 | 34 |
 | [Voorhoeve-1971-125](Voorhoeve-1971-125.tsv) | 115 | 99 | 0 |
 | [Voorhoeve-1975-40](Voorhoeve-1975-40.tsv) | 40 | 100 | 0 |
 | [Walker-2011-100](Walker-2011-100.tsv) | 100 | 100 | 0 |
@@ -283,7 +285,7 @@
 | [Wilkins-1996-75](Wilkins-1996-75.tsv) | 74 | 98 | 1 |
 | [Wilson-1969-35](Wilson-1969-35.tsv) | 35 | 100 | 0 |
 | [Winter-2016-300](Winter-2016-300.tsv) | 87 | 28 | 0 |
-| [Woll-2010-301](Woll-2010-301.tsv) | 258 | 85 | 2 |
+| [Woll-2010-301](Woll-2010-301.tsv) | 259 | 86 | 2 |
 | [Woodward-1991-100](Woodward-1991-100.tsv) | 100 | 100 | 0 |
 | [Xiao-2012-213](Xiao-2012-213.tsv) | 158 | 74 | 1 |
 | [Yakhontov-1991-100](Yakhontov-1991-100.tsv) | 100 | 100 | 0 |
@@ -296,5 +298,5 @@
 | [Zorc-1974-100](Zorc-1974-100.tsv) | 100 | 100 | 0 |
 | [vanderWouw-1974-28](vanderWouw-1974-28.tsv) | 28 | 100 | 0 |
 
-(293 rows)
+(295 rows)
 

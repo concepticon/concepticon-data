@@ -71,6 +71,7 @@ ID	GLOSS	PRIORITY
 1309	ASK (INQUIRE)///спрашивать	1
 1309	ASK (INQUIRE)///спросить	1
 1828	ASK (REQUEST)///просить	2
+3638	ASSEMBLE (GET TOGETHER)///собраться	1
 2915	AT FIRST///сперва	1
 2922	AT THAT TIME///тогда	1
 1461	AT///возле	1
@@ -517,6 +518,7 @@ ID	GLOSS	PRIORITY
 1100	COOK (SOMETHING)///приготовить	1
 269	COOKED///варёный	1
 334	COOKHOUSE///кухня (помещение)	1
+3653	COOKING POT///горшок, котелок	1
 1825	COPPER///Мѣдь	1
 192	CORNER///угол	2
 767	CORPSE///труп	1
@@ -689,6 +691,7 @@ ID	GLOSS	PRIORITY
 741	DRIVE///ехать	1
 741	DRIVE///ехать на машине	1
 741	DRIVE///ѣхать	1
+3748	DROP (OF A LIQUID)///капля	1
 2866	DROP (SOMETHING)///капать	1
 2866	DROP (SOMETHING)///ронять	1
 2866	DROP (SOMETHING)///уронить	1
@@ -823,8 +826,6 @@ ID	GLOSS	PRIORITY
 2449	FAT (OF MEAT AND FOOD)///Толстъ	1
 323	FAT (ORGANIC SUBSTANCE)///жир	2
 323	FAT (ORGANIC SUBSTANCE)///жир, сало	1
-1985	FATHER'S BROTHER///дядя, брат отца	1
-170	FATHER'S SISTER///тетя, сестра отца	1
 2255	FATHER-IN-LAW (OF MAN)///свекор	1
 2254	FATHER-IN-LAW (OF WOMAN)///тесть	1
 1217	FATHER///Отецъ	2
@@ -1366,7 +1367,7 @@ ID	GLOSS	PRIORITY
 1564	LAZY///ленивый	2
 627	LEAD (CHEMICAL ELEMENT)///Свинецъ	1
 627	LEAD (CHEMICAL ELEMENT)///свинец	1
-43	LEAD (GUIDE)///вести	1
+43	LEAD (GUIDE)///вести	2
 43	LEAD (GUIDE)///руководить	1
 628	LEAF///List	1
 628	LEAF///Листъ	2
@@ -1392,6 +1393,7 @@ ID	GLOSS	PRIORITY
 1612	LETTER///письмо	1
 319	LICK///лизать	5
 2319	LID (COVER, CAP)///крышка	1
+2826	LIE (FALSEHOOD)///ложь	1
 601	LIE (MISLEAD)///лгать	1
 1411	LIE (REST)///Лечь	2
 1411	LIE (REST)///лежать	7
@@ -1485,6 +1487,8 @@ ID	GLOSS	PRIORITY
 383	MASTER///мастер	1
 195	MAT///циновка	1
 1133	MATCH///спичка	3
+2693	MATERNAL AUNT (MOTHER'S SISTER)///тетя, сестра матери	1
+2692	MATERNAL UNCLE (MOTHER'S BROTHER)///дядя, брат матери	1
 2848	MAY (MONTH)///май	1
 2301	ME///меня	1
 941	MEAD///мед (напиток)	1
@@ -1548,8 +1552,6 @@ ID	GLOSS	PRIORITY
 1509	MOSQUITO///Комарь	1
 1509	MOSQUITO///комар	1
 1509	MOSQUITO///москит (тропический комар)	1
-1984	MOTHER'S BROTHER///дядя, брат матери	1
-171	MOTHER'S SISTER///тетя, сестра матери	1
 2257	MOTHER-IN-LAW (OF MAN)///свекровь	1
 2256	MOTHER-IN-LAW (OF WOMAN)///теща	1
 1216	MOTHER///Мать	2
@@ -1575,6 +1577,7 @@ ID	GLOSS	PRIORITY
 128	MUMBLE///бормотать	1
 845	MURDER///убийство	1
 2139	MUROID (MOUSE OR RAT)///мышь, крыса	1
+3651	MUSH (FOOD)///каша	1
 641	MUSHROOM///гриб	4
 1666	MUTE///немой	1
 502	NAIL (TOOL)///Гвоздъ	1
@@ -1665,6 +1668,7 @@ ID	GLOSS	PRIORITY
 1764	OBSCURE///непонятный	1
 645	OCEAN///океан	1
 2853	OCTOBER///октябрь	1
+3704	ODOR (SMELL)///запах	1
 2336	OF THIS KIND (SUCH)///так	1
 1852	OFTEN///часто	2
 1484	OIL (ORGANIC SUBSTANCE)///масло	1
@@ -1735,6 +1739,8 @@ ID	GLOSS	PRIORITY
 1951	PASS///проходи́ть	1
 649	PASTURE///пастбище	1
 649	PASTURE///пастбище, выгон	1
+2691	PATERNAL AUNT (FATHER'S SISTER)///тетя, сестра отца	1
+1985	PATERNAL UNCLE (FATHER'S BROTHER)///дядя, брат отца	1
 2457	PATH OR ROAD///путь	1
 2252	PATH///дорожка, тропинка	1
 2252	PATH///тропа	1
@@ -1817,7 +1823,6 @@ ID	GLOSS	PRIORITY
 281	POST///жердь	1
 281	POST///столб	1
 3095	POSTMAN///почтальон	2
-1462	POT///горшок, котелок	1
 1462	POT///кастрюля	1
 593	POTATO///картофель	1
 359	POTTER///гончар	1
@@ -2569,7 +2574,6 @@ ID	GLOSS	PRIORITY
 1755	UNDRESS///снять	1
 1958	UNRIPE///зеленый, неспелый, незрелый	1
 352	UNTIE///развязывать	1
-475	UNTRUTH///ложь	1
 1591	UP///вверх	1
 1591	UP///над	1
 2881	URGE (SOMEONE)///подгонять	1

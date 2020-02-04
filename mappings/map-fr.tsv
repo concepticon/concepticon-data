@@ -608,6 +608,7 @@ ID	GLOSS	PRIORITY
 1100	COOK (SOMETHING)///cuire	1
 269	COOKED///cuit	2
 334	COOKHOUSE///cuisine	1
+3653	COOKING POT///casserole, marmite	1
 3653	COOKING POT///marmite (en terre)	1
 1825	COPPER///Cuivre	1
 1825	COPPER///cuivre	1
@@ -735,7 +736,7 @@ ID	GLOSS	PRIORITY
 681	DESTROY///détruire	1
 1977	DEW///Roßée	1
 1977	DEW///rosée	3
-1177	DIARREA///diarrhea	1
+1177	DIARRHEA///diarrhea	1
 1494	DIE///Mourir	1
 1494	DIE///mourir	4
 2504	DIFFERENT///(être) différent	1
@@ -947,10 +948,6 @@ ID	GLOSS	PRIORITY
 323	FAT (ORGANIC SUBSTANCE)///graisse	2
 323	FAT (ORGANIC SUBSTANCE)///graisse, le gras	1
 1688	FATE///sort	1
-1985	FATHER'S BROTHER///frère du père	1
-1985	FATHER'S BROTHER///oncle paternel	1
-170	FATHER'S SISTER///soeur du père	1
-170	FATHER'S SISTER///tante paternelle	1
 2255	FATHER-IN-LAW (OF MAN)///beau-père (d'un homme)	1
 2254	FATHER-IN-LAW (OF WOMAN)///beau-père (d'une femme)	1
 1055	FATHER-IN-LAW///beau-père	1
@@ -1130,6 +1127,7 @@ ID	GLOSS	PRIORITY
 2355	GECKO///gecko	1
 29	GELD///châtrer, castrer	1
 3632	GENEROUS///(être) généreux	1
+3632	GENEROUS///généreux	1
 2712	GET DIZZY///avoir le vertige	1
 694	GET///accepter, recevoir	1
 694	GET///obtenir	1
@@ -1675,6 +1673,10 @@ ID	GLOSS	PRIORITY
 195	MAT///natte	2
 1133	MATCH///allumette	1
 1133	MATCH///allumette 	1
+2693	MATERNAL AUNT (MOTHER'S SISTER)///soeur de la mère	1
+2693	MATERNAL AUNT (MOTHER'S SISTER)///tante maternelle	1
+2692	MATERNAL UNCLE (MOTHER'S BROTHER)///frère de la mère	1
+2692	MATERNAL UNCLE (MOTHER'S BROTHER)///oncle maternel	1
 941	MEAD///hydromel	1
 941	MEAD///hydromel (bière de miel)	1
 1526	MEAL///repas	1
@@ -1741,10 +1743,6 @@ ID	GLOSS	PRIORITY
 1509	MOSQUITO///moustique	2
 1509	MOSQUITO///moustique 	1
 2828	MOTH///papillon de nuit	1
-1984	MOTHER'S BROTHER///frère de la mère	1
-1984	MOTHER'S BROTHER///oncle maternel	1
-171	MOTHER'S SISTER///soeur de la mère	1
-171	MOTHER'S SISTER///tante maternelle	1
 2257	MOTHER-IN-LAW (OF MAN)///belle-mère (d'un homme)	1
 2256	MOTHER-IN-LAW (OF WOMAN)///belle-mère (d'une femme)	1
 1050	MOTHER-IN-LAW///belle-mère	1
@@ -1943,6 +1941,10 @@ ID	GLOSS	PRIORITY
 779	PART///morceau, partie	1
 3681	PARTRIDGE///perdrix	1
 649	PASTURE///pâturage, pâture	1
+2691	PATERNAL AUNT (FATHER'S SISTER)///soeur du père	1
+2691	PATERNAL AUNT (FATHER'S SISTER)///tante paternelle	1
+1985	PATERNAL UNCLE (FATHER'S BROTHER)///frère du père	1
+1985	PATERNAL UNCLE (FATHER'S BROTHER)///oncle paternel	1
 2457	PATH OR ROAD///chemin, route	1
 2252	PATH///chemin	1
 2252	PATH///sentier, chemin	1
@@ -2057,7 +2059,6 @@ ID	GLOSS	PRIORITY
 281	POST///Poteau, Pie	1
 281	POST///poteau 	1
 281	POST///poteau, piquet	1
-1462	POT///casserole, marmite	1
 1462	POT///jarre (à eau)	1
 1462	POT///pot 	1
 593	POTATO///pomme de terre	2
@@ -2667,6 +2668,7 @@ ID	GLOSS	PRIORITY
 785	STRONG///Fort	1
 785	STRONG///fort	2
 3634	STUBBORN///(être) têtu	1
+3634	STUBBORN///têtu	1
 1929	STUDY///étudier	1
 3617	STUMBLE///trébucher, broncher	1
 1518	STUPID///(être) stupide, bête	1
