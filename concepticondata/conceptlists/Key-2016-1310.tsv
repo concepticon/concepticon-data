@@ -551,7 +551,7 @@ Key-2016-1310-549	pitcher, jug	549	5-340	http://ids.clld.org/parameters/5-340	cr
 Key-2016-1310-550	plate	550	5-320	http://ids.clld.org/parameters/5-320	assiette	prato	тарелка	plato	5	320	480	PLATE
 Key-2016-1310-551	dish	551	5-310	http://ids.clld.org/parameters/5-310	plat	prato	блюдо, тарелка	plato, fuente	5	310	481	DISH
 Key-2016-1310-552	pan	552	5-280	http://ids.clld.org/parameters/5-280	casserole	panela	кастрюля	cacerola, cazuela	5	280	31	PAN
-Key-2016-1310-553	pot, cooking vessel	553	5-260	http://ids.clld.org/parameters/5-260	casserole, marmite	panela	горшок, котелок	olla	5	260	1462	POT
+Key-2016-1310-553	pot, cooking vessel	553	5-260	http://ids.clld.org/parameters/5-260	casserole, marmite	panela	горшок, котелок	olla	5	260	3653	COOKING POT
 Key-2016-1310-554	kettle	554	5-270	http://ids.clld.org/parameters/5-270	bouilloire	chaleira	чайник	caldera	5	270	854	KETTLE
 Key-2016-1310-555	bake	555	5-240	http://ids.clld.org/parameters/5-240	cuire au four	cozer no forno	печь (испечь)	hornear	5	240	183	BAKE
 Key-2016-1310-556	oven	556	5-250	http://ids.clld.org/parameters/5-250	four	forno	печь (духовка)	horno	5	250	1143	OVEN
@@ -848,11 +848,11 @@ Key-2016-1310-846	ancestors	846	2-560	http://ids.clld.org/parameters/2-560	ancê
 Key-2016-1310-847	cousin	847	2-550	http://ids.clld.org/parameters/2-550	cousin/cousine	primo/prima	двоюродный(ая) брат (сестра), кузен/кузина	primo/prima	2	550	1643	COUSIN
 Key-2016-1310-848	niece	848	2-540	http://ids.clld.org/parameters/2-540	nièce	sobrinha	племянница	sobrina	2	540	1642	NIECE
 Key-2016-1310-849	nephew	849	2-530	http://ids.clld.org/parameters/2-530	neveu	sobrinho	племянник	sobrino	2	530	1063	NEPHEW
-Key-2016-1310-850	father's sister	850	2-522	http://ids.clld.org/parameters/2-522	soeur du père	irmã (do pai)	тетя, сестра отца	hermana del padre	2	522	170	FATHER'S SISTER
+Key-2016-1310-850	father's sister	850	2-522	http://ids.clld.org/parameters/2-522	soeur du père	irmã (do pai)	тетя, сестра отца	hermana del padre	2	522	2691	PATERNAL AUNT (FATHER'S SISTER)
 Key-2016-1310-851	aunt	851	2-520	http://ids.clld.org/parameters/2-520	tante	tia	тетя	tía	2	520	1272	AUNT
-Key-2016-1310-852	mother's sister	852	2-521	http://ids.clld.org/parameters/2-521	soeur de la mère	irmã (da mãe)	тетя, сестра матери	hermana de la madre	2	521	171	MOTHER'S SISTER
-Key-2016-1310-853	father's brother	853	2-512	http://ids.clld.org/parameters/2-512	frère du père	irmão (do pai)	дядя, брат отца	hermano del padre	2	512	1985	FATHER'S BROTHER
-Key-2016-1310-854	mother's brother	854	2-511	http://ids.clld.org/parameters/2-511	frère de la mère	irmão (da mãe)	дядя, брат матери	hermano de la madre	2	511	1984	MOTHER'S BROTHER
+Key-2016-1310-852	mother's sister	852	2-521	http://ids.clld.org/parameters/2-521	soeur de la mère	irmã (da mãe)	тетя, сестра матери	hermana de la madre	2	521	2693	MATERNAL AUNT (MOTHER'S SISTER)
+Key-2016-1310-853	father's brother	853	2-512	http://ids.clld.org/parameters/2-512	frère du père	irmão (do pai)	дядя, брат отца	hermano del padre	2	512	1985	PATERNAL UNCLE (FATHER'S BROTHER)
+Key-2016-1310-854	mother's brother	854	2-511	http://ids.clld.org/parameters/2-511	frère de la mère	irmão (da mãe)	дядя, брат матери	hermano de la madre	2	511	2692	MATERNAL UNCLE (MOTHER'S BROTHER)
 Key-2016-1310-855	uncle	855	2-510	http://ids.clld.org/parameters/2-510	oncle	tio	дядя	tío	2	510	1327	UNCLE
 Key-2016-1310-856	grandson	856	2-480	http://ids.clld.org/parameters/2-480	petit-fils	neto	внук	nieto	2	480	1618	GRANDSON
 Key-2016-1310-857	granddaughter	857	2-490	http://ids.clld.org/parameters/2-490	petite-fille	neta	внучка	nieta	2	490	1619	GRANDDAUGHTER
