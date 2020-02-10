@@ -1,0 +1,123 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dialect": {
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        },
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        },
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": 1
+                        },
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MEANING_1"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "FREQ_MEANING_1"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MEANING_2"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "FREQ_MEANING_2"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "DOMINANCE_SCORE"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "FREQ_MEANING_1_AMERICAN_EN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "FREQ_RAW_BNC"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "FREQ_LOG"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "BIGRAM_LOG_BNC"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "NUMBER_WORD_SENSE_WORDSMYTH"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "NUMBER_WORDSENSE_WORDNET"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "SEMANTIC_DIVERSITY"
+                    },
+                    {
+                        "name": "IMAGEABILITY",
+                        "null": "NA",
+                        "datatype": {
+                            "base": "float"
+                        }
+                    },
+                    {
+                        "name": "CONCRETENESS",
+                        "null": "NA",
+                        "datatype": {
+                            "base": "float"
+                        }
+                    },
+                    {
+                        "name": "FAMILIARITY",
+                        "null": "NA",
+                        "datatype": {
+                            "base": "float"
+                        }
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "Maciejewski-2016-100.tsv"
+        }
+    ]
+}
