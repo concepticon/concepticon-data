@@ -33,6 +33,14 @@
                         "name": "ENGLISH"
                     },
                     {
+                        "datatype": "integer",
+                        "name": "HOMOPHONE_MEANING_NUMBER"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "DEFINITION"
+                    },
+                    {
                         "datatype": "string",
                         "name": "CONCEPTICON_GLOSS"
                     },
@@ -44,20 +52,8 @@
                         "name": "CONCEPTICON_ID"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MEANING_1"
-                    },
-                    {
                         "datatype": "float",
-                        "name": "FREQ_MEANING_1"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "MEANING_2"
-                    },
-                    {
-                        "datatype": "float",
-                        "name": "FREQ_MEANING_2"
+                        "name": "SUBJECTIVE_FREQ"
                     },
                     {
                         "datatype": "float",
