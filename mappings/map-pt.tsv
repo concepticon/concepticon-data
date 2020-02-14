@@ -264,6 +264,7 @@ ID	GLOSS	PRIORITY
 1100	COOK (SOMETHING)///cozinhar	1
 269	COOKED///cozinhado, cozido	1
 334	COOKHOUSE///cozinha	1
+3653	COOKING POT///panela	1
 192	CORNER///esquina, canto	1
 767	CORPSE///cadáver	1
 1725	CORRECT (RIGHT)///correto	1
@@ -408,8 +409,6 @@ ID	GLOSS	PRIORITY
 1159	FART///peido	1
 1631	FAST///rápido, ligeiro	1
 323	FAT (ORGANIC SUBSTANCE)///gordura	2
-1985	FATHER'S BROTHER///irmão (do pai)	1
-170	FATHER'S SISTER///irmã (do pai)	1
 2255	FATHER-IN-LAW (OF MAN)///sogro (de homem)	1
 2254	FATHER-IN-LAW (OF WOMAN)///sogro (de mulher)	1
 1217	FATHER///pai	1
@@ -721,6 +720,8 @@ ID	GLOSS	PRIORITY
 383	MASTER///senhor, patrão, dono	1
 195	MAT///tapete	1
 1133	MATCH///fósforo	1
+2693	MATERNAL AUNT (MOTHER'S SISTER)///irmã (da mãe)	1
+2692	MATERNAL UNCLE (MOTHER'S BROTHER)///irmão (da mãe)	1
 941	MEAD///mulso, hidromel	1
 1526	MEAL///refeição	1
 1506	MEASURE///medir	1
@@ -752,8 +753,6 @@ ID	GLOSS	PRIORITY
 1731	MORTAR BINDER///argamassa	1
 224	MORTAR CRUSHER///morteiro	1
 1509	MOSQUITO///mosquito	1
-1984	MOTHER'S BROTHER///irmão (da mãe)	1
-171	MOTHER'S SISTER///irmã (da mãe)	1
 2257	MOTHER-IN-LAW (OF MAN)///sogra (de homem)	1
 2256	MOTHER-IN-LAW (OF WOMAN)///sogra (de mulher)	1
 1216	MOTHER///mãe	1
@@ -848,6 +847,8 @@ ID	GLOSS	PRIORITY
 882	PARROT///papagaio	1
 779	PART///parte, pedaço, peça	1
 649	PASTURE///pasto, pastagem	1
+2691	PATERNAL AUNT (FATHER'S SISTER)///irmã (do pai)	1
+1985	PATERNAL UNCLE (FATHER'S BROTHER)///irmão (do pai)	1
 2252	PATH///caminho	1
 2252	PATH///caminho, vereda	1
 718	PAY///pagar	1
@@ -890,7 +891,6 @@ ID	GLOSS	PRIORITY
 1674	POOR///pobre	1
 610	PORT///pôrto	1
 281	POST///poste, vara	1
-1462	POT///panela	1
 593	POTATO///batata	1
 359	POTTER///oleiro	1
 354	POUND///bater com o punho	1
