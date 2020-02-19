@@ -1,14 +1,19 @@
 {
-    "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
     "dialect": {
         "header": true,
         "skipBlankRows": true,
         "delimiter": "\t",
-	"encoding": "utf-8-sig"
+        "encoding": "utf-8-sig"
     },
     "tables": [
         {
-            "url": null,
+            "url": "Heggarty-2020-200.tsv-metadata.json",
             "tableSchema": {
                 "columns": [
                     {
@@ -22,7 +27,7 @@
                         "name": "NUMBER",
                         "datatype": {
                             "base": "string",
-                            "format": "[0-9\\.]+([a-z\\–]+)?$"
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
                         }
                     },
                     {
@@ -33,23 +38,11 @@
                         }
                     },
                     {
-                        "name": "URL",
-                        "datatype": "anyURI"
-		    },
-                    {
                         "name": "CONCEPTICON_GLOSS",
                         "datatype": "string"
                     },
                     {
                         "name": "ENGLISH",
-                        "datatype": "string"
-                    },
-                    {
-                        "name": "DESCRIPTION",
-                        "datatype": "string"
-                    },
-                    {
-                        "name": "EXAMPLE_CONTEXT",
                         "datatype": "string"
                     }
                 ],
