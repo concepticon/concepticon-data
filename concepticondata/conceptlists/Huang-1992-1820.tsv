@@ -188,7 +188,7 @@ Huang-1992-1820-186	186	blacksmith	铁匠	1001	BLACKSMITH	n	blacksmith
 Huang-1992-1820-187	187	boatman	船夫			n	boatman
 Huang-1992-1820-188	188	hunter	猎人	1053	HUNTER	n	hunter
 Huang-1992-1820-189	189	monk	和尚			n	monk
-Huang-1992-1820-190	190	nun (Buddhist) (female lama) (note:"female_Lama")	尼姑 ("女喇嘛")			n	nun (Buddhist) (female lama) (note:"female_Lama")
+Huang-1992-1820-190	190	nun (Buddhist) (female lama) (note:female_Lama)	尼姑 (女喇嘛)			n	nun (Buddhist) (female lama) (note:female_Lama)
 Huang-1992-1820-191	191	wizard / sorcerer	巫师	823	SORCERER	n	wizard / sorcerer
 Huang-1992-1820-192	192	witch / sorceress	巫婆	824	WITCH	n	witch / sorceress
 Huang-1992-1820-193	193	beggar	乞丐	1934	BEGGAR	n	beggar
@@ -198,7 +198,7 @@ Huang-1992-1820-196	196	patient	病人	3375	PATIENT (SICK PERSON)	n	patient
 Huang-1992-1820-197	197	enemy (personal) / antagonizer	仇人	1358	ENEMY	n	enemy (personal) / antagonizer
 Huang-1992-1820-198	198	emperor	皇帝	3377	EMPEROR	n	emperor
 Huang-1992-1820-199	199	official (government)	官	486	MINISTER	n	official (government)
-Huang-1992-1820-200	200	king (chieftain (Mand. 'tu3si1')) (note:"emperor")	国王 (同"皇帝")	1508	KING	n	king (chieftain (Mand. 'tu3si1')) (note:"emperor")
+Huang-1992-1820-200	200	king (chieftain (Mand. 'tu3si1')) (note:emperor)	国王 (同皇帝)	1508	KING	n	king (chieftain (Mand. 'tu3si1')) (note:emperor)
 Huang-1992-1820-201	201	friend (male-to-male) (note:+male-male)	朋友 ((男朋友互称))	1325	FRIEND	n	friend (male-to-male) (note:+male-male)
 Huang-1992-1820-202	202	blind person (one eye) (note:+both_eyes)	瞎子 ((双眼)~)	457	BLIND PERSON	n	blind person (one eye) (note:+both_eyes)
 Huang-1992-1820-203	203	lame person	跛子	2322	LAME PERSON	n	lame person
@@ -238,10 +238,10 @@ Huang-1992-1820-236	236	sisters (reference by brothers) (note:+brother_address)	
 Huang-1992-1820-237	237	sister-in-law	嫂子	2317	SISTER-IN-LAW	n	sister-in-law
 Huang-1992-1820-238	238	uncle (mother’s borther)	舅父	2692	MATERNAL UNCLE (MOTHER'S BROTHER)	n	uncle (mother’s borther)
 Huang-1992-1820-239	239	aunt (mother’s brother’s wife)	舅母	2172	MATERNAL AUNT (WIFE OF MOTHER'S BROTHER)	n	aunt (mother’s brother’s wife)
-Huang-1992-1820-240	240	uncle (mother's sister's husband (= as 'mom's br.') (note:"mother's_brother")	姨父 (同"舅父")	2694	MATERNAL UNCLE (HUSBAND OF ONE'S MATERNAL AUNT)	n	uncle (mother's sister's husband (= as 'mom's br.') (note:"mother's_brother")
-Huang-1992-1820-241	241	aunt (mother's sister) (= wife of mom's bro) (note:"mother's_brother's_wife")	姨母 (同"舅母")			n	aunt (mother's sister) (= wife of mom's bro) (note:"mother's_brother's_wife")
+Huang-1992-1820-240	240	uncle (mother's sister's husband (= as 'mom's br.') (note:mother's_brother)	姨父 (同舅父)	2694	MATERNAL UNCLE (HUSBAND OF ONE'S MATERNAL AUNT)	n	uncle (mother's sister's husband (= as 'mom's br.') (note:mother's_brother)
+Huang-1992-1820-241	241	aunt (mother's sister) (= wife of mom's bro) (note:mother's_brother's_wife)	姨母 (同舅母)	2176	MATERNAL AUNT	n	aunt (mother's sister) (= wife of mom's bro) (note:mother's_brother's_wife)
 Huang-1992-1820-242	242	uncle (father's sister's husband) (= father's o. bro) (note:father's_older_sister's_husband)	姑父 (大~(父之姐丈))			n	uncle (father's sister's husband) (= father's o. bro) (note:father's_older_sister's_husband)
-Huang-1992-1820-243	243	aunt (father's sister)	姑母 (同"伯母")			n	aunt (father's sister) (= 'wife of f's o. bro') (note:"father's_older_brother's_wife" (wrong number))
+Huang-1992-1820-243	243	aunt (father's sister)	姑母 (同伯母)			n	aunt (father's sister) (= 'wife of f's o. bro') (note:father's_older_brother's_wife (wrong number))
 Huang-1992-1820-244	244	relatives	亲戚	1644	RELATIVES	n	relatives
 Huang-1992-1820-245	245	father-in-law	岳父	1055	FATHER-IN-LAW	n	father-in-law
 Huang-1992-1820-246	246	mother-in-law	岳母	1050	MOTHER-IN-LAW	n	mother-in-law
@@ -294,7 +294,7 @@ Huang-1992-1820-292	292	rabbit	兔子	1136	RABBIT	n	rabbit
 Huang-1992-1820-293	293	chicken	鸡	1318	CHICKEN	n	chicken
 Huang-1992-1820-294	294	cock	公鸡	1511	ROOSTER	n	cock
 Huang-1992-1820-295	295	hen	母鸡	1514	HEN	n	hen
-Huang-1992-1820-296	296	chick (newly hatched) (note:"newly hatched chicken")	雏鸡 ("才孵出的鸡")	2512	CHICK	n	chick (newly hatched) (note:"newly hatched chicken")
+Huang-1992-1820-296	296	chick (newly hatched) (note:newly hatched chicken)	雏鸡 (才孵出的鸡)	2512	CHICK	n	chick (newly hatched) (note:newly hatched chicken)
 Huang-1992-1820-297	297	cockscomb	鸡冠	188	COMB OF BIRD	n	cockscomb
 Huang-1992-1820-298	298	wing	翅膀	1257	WING	n	wing
 Huang-1992-1820-299	299	feather / plume (bird) (note:+chicken)	羽毛 (鸡~)	1201	FEATHER	n	feather / plume (bird)||feather / plume (chicken)||feather / plume
@@ -376,7 +376,7 @@ Huang-1992-1820-374	374	branch / twig	树枝	1531	BRANCH	n	branch / twig
 Huang-1992-1820-375	375	root	根	670	ROOT	n	root
 Huang-1992-1820-376	376	leaf	叶子	628	LEAF	n	leaf
 Huang-1992-1820-377	377	flower	花	239	FLOWER	n	flower
-Huang-1992-1820-378	378	fruit (lit. 'pear peach apricot') (note:"plum-peach-apricot")	水果 ("梨桃杏")	1507	FRUIT	n	fruit||fruit (lit. 'pear peach apricot')
+Huang-1992-1820-378	378	fruit (lit. 'pear peach apricot') (note:plum-peach-apricot)	水果 (梨桃杏)	1507	FRUIT	n	fruit||fruit (lit. 'pear peach apricot')
 Huang-1992-1820-379	379	pit / stone	核儿	1762	STONE (OF FRUIT)	n	pit / stone
 Huang-1992-1820-380	380	sprout / shoot	芽儿	3358	SPROUT (SHOOT)	n	sprout / shoot
 Huang-1992-1820-381	381	bud	蓓蕾	1684	BUD	n	bud
@@ -436,10 +436,10 @@ Huang-1992-1820-434	434	peanut	花生	2364	PEANUT	n	peanut
 Huang-1992-1820-435	435	sesame	芝麻	2797	SESAME	n	sesame
 Huang-1992-1820-436	436	grass (not eaten by draught animals) (note:+small)	草 (小~)	606	GRASS	n	grass (not eaten by draught animals)||grass (eaten by draught animals)||grass (long-stemmed)||grass (small)||grass
 Huang-1992-1820-437	437	mushroom	蘑菇	641	MUSHROOM	n	mushroom
-Huang-1992-1820-438	438	fungus (edible) (lit. 'mouse's ear') (note:"old-person ear")	木耳 ("老人耳朵")	3392	MUER (FUNGUS)	n	fungus (edible) (lit. 'mouse's ear') (note:"old-person ear")
+Huang-1992-1820-438	438	fungus (edible) (lit. 'mouse's ear') (note:old-person ear)	木耳 (老人耳朵)	3392	MUER (FUNGUS)	n	fungus (edible) (lit. 'mouse's ear') (note:old-person ear)
 Huang-1992-1820-439	439	rice	米	926	RICE	n	rice
 Huang-1992-1820-440	440	cooked rice	饭 ((早晚)~)	1191	COOKED RICE	n	meal (note:meal)
-Huang-1992-1820-441	441	gruel / porridge	粥(稀饭)	1167	GRUEL	n	gruel / porridge
+Huang-1992-1820-441	441	gruel / porridge	粥(稀饭)	2049	CONGEE	n	gruel / porridge
 Huang-1992-1820-442	442	flour	面粉	1594	FLOUR	n	flour
 Huang-1992-1820-443	443	meat	肉	634	MEAT	n	meat
 Huang-1992-1820-444	444	meat (lean)	瘦肉	3393	LEAN MEAT	n	meat (lean)
@@ -456,7 +456,7 @@ Huang-1992-1820-454	454	tea	茶	1373	TEA	n	tea
 Huang-1992-1820-455	455	cigarette / tobacco	烟(吸的~)	969	CIGARETTE	n	cigarette / tobacco
 Huang-1992-1820-456	456	medicine	药	1372	MEDICINE	n	medicine
 Huang-1992-1820-457	457	chaff / bran	糠	2362	BRAN	n	chaff / bran
-Huang-1992-1820-458	458	wheat bran	麦麸			n	wheat bran
+Huang-1992-1820-458	458	wheat bran	麦麸	2363	CHAFF (HUSK)	n	wheat bran
 Huang-1992-1820-459	459	feed (pig) / pigwash	猪食			n	feed (pig) / pigwash
 Huang-1992-1820-460	460	fodder / feed (horse)	马料			n	fodder / feed (horse)
 Huang-1992-1820-461	461	thread	线	1161	THREAD	n	thread
@@ -555,7 +555,7 @@ Huang-1992-1820-553	553	bowl (tea) (note:+tea)	碗 (茶~)			n	bowl (tea) (note:+
 Huang-1992-1820-554	554	plate / dish	盘子	480	PLATE	n	plate / dish
 Huang-1992-1820-555	555	chopsticks (term used by old people) (note:younger{language})	筷子 ((青年语))	1987	CHOPSTICKS	n	chopsticks (term used by old people) (note:younger{language})
 Huang-1992-1820-556	556	bottle	瓶子	1321	BOTTLE	n	bottle
-Huang-1992-1820-557	557	pot / jar / tin	罐子	1462	POT	n	pot / jar / tin
+Huang-1992-1820-557	557	pot / jar / tin	罐子	1051	CAN	n	pot / jar / tin
 Huang-1992-1820-558	558	jar (earthen)	坛子	3409	EARTHEN JUG	n	jar (earthen)
 Huang-1992-1820-559	559	kettle / pot (glossy porcelain)	壶 ((一般的)~)	854	KETTLE	n	kettle / pot (glossy porcelain)
 Huang-1992-1820-560	560	vat / jar	缸	270	JUG	n	vat / jar
@@ -571,7 +571,7 @@ Huang-1992-1820-569	569	piece of cloth with straps for carrying a toddler	背带
 Huang-1992-1820-570	570	steelyard / scales (small) (note:+small)	秤 (小~)	2687	STEELYARD (BALANCE)	n	steelyard / scales (small) (note:+small)
 Huang-1992-1820-571	571	container for measuring grain (=1 decaliter)	斗			n	container for measuring grain (=1 decaliter)
 Huang-1992-1820-572	572	container (measuring, 1-liter-volume)	升			n	container (measuring, 1-liter-volume)
-Huang-1992-1820-573	573	money (lit. 'conch shell') (note:"shells")	钱(货币) ("贝壳")	1559	MONEY	n	money (lit. 'conch shell') (note:"shells")
+Huang-1992-1820-573	573	money (lit. 'conch shell') (note:shells)	钱(货币) (贝壳)	1559	MONEY	n	money (lit. 'conch shell') (note:shells)
 Huang-1992-1820-574	574	capital / principal	本钱			n	capital / principal
 Huang-1992-1820-575	575	goods / merchandise	货物	3406	MERCHANDISE	n	goods / merchandise
 Huang-1992-1820-576	576	interest (financial)	利息	2062	INTEREST	n	interest (financial)
@@ -581,7 +581,7 @@ Huang-1992-1820-579	579	awl	锥子	278	AWL	n	awl
 Huang-1992-1820-580	580	nail / tack	钉子	502	NAIL (TOOL)	n	nail / tack
 Huang-1992-1820-581	581	scissors	剪子	356	SHEARS	n	scissors
 Huang-1992-1820-582	582	ladder	梯子	1464	LADDER	n	ladder
-Huang-1992-1820-583	583	umbrella (lit. 'cloth hat') (note:"cloth hat")	伞 ("布帽子")	3105	UMBRELLA	n	umbrella (lit. 'cloth hat') (note:"cloth hat")
+Huang-1992-1820-583	583	umbrella (lit. 'cloth hat') (note:cloth hat)	伞 (布帽子)	3105	UMBRELLA	n	umbrella (lit. 'cloth hat') (note:cloth hat)
 Huang-1992-1820-584	584	lock	锁	1596	LOCK	n	lock
 Huang-1992-1820-585	585	key	钥匙	1472	KEY	n	key
 Huang-1992-1820-586	586	rod / stick	棍子	1295	STICK	n	rod / stick
@@ -686,7 +686,7 @@ Huang-1992-1820-684	684	gift / present	礼物	2982	GIFT	n	gift / present
 Huang-1992-1820-685	685	age	年纪	1789	AGE	n	age
 Huang-1992-1820-686	686	surname / name (family)	姓	3426	SURNAME	n	surname / name (family)
 Huang-1992-1820-687	687	name	名字	1405	NAME	n	name
-Huang-1992-1820-688	688	pain / agony (emotional) (note:"arduous")	痛苦 ("辛苦")	1783	PAIN	n	pain / agony (emotional) (note:"arduous")
+Huang-1992-1820-688	688	pain / agony (emotional) (note:arduous)	痛苦 (辛苦)	1783	PAIN	n	pain / agony (emotional) (note:arduous)
 Huang-1992-1820-689	689	mistake / error	错误	1293	MISTAKE	n	mistake / error
 Huang-1992-1820-690	690	danger	危险	1810	DANGER	n	danger
 Huang-1992-1820-691	691	difference / distinction	区别			n	difference / distinction
@@ -704,7 +704,7 @@ Huang-1992-1820-702	702	color	颜色	1613	COLOR	n	color
 Huang-1992-1820-703	703	direction / orientation	方向	3427	DIRECTION	n	direction / orientation
 Huang-1992-1820-704	704	east	东(~方)	1877	EAST	n	east
 Huang-1992-1820-705	705	south	南(~方)	1595	SOUTH	n	south
-Huang-1992-1820-706	706	west (lit. 'sun set place') (note:"sunset-place")	西(~方) ("太阳落处")	1817	WEST	n	west (lit. 'sun set place') (note:"sunset-place")
+Huang-1992-1820-706	706	west (lit. 'sun set place') (note:sunset-place)	西(~方) (太阳落处)	1817	WEST	n	west (lit. 'sun set place') (note:sunset-place)
 Huang-1992-1820-707	707	north	北(~方)	1598	NORTH	n	north
 Huang-1992-1820-708	708	middle	中间	1093	MIDDLE	n	middle
 Huang-1992-1820-709	709	side	旁边	682	SIDE	n	side
@@ -771,7 +771,7 @@ Huang-1992-1820-769	769	day (first of lunar month)	初一	3354	FIRST DAY OF THE 
 Huang-1992-1820-770	770	day (second of lunar month)	初二	3355	SECOND DAY OF THE MONTH	n	day (second of lunar month)
 Huang-1992-1820-771	771	month	月	1370	MONTH	n	month
 Huang-1992-1820-772	772	January (year in which New Year is celebrated)	一月 (正月(过年的月份))	2036	JANUARY	n	January (year in which New Year is celebrated)
-Huang-1992-1820-773	773	February (lit. 'second month') (note:"the second month")	二月 ("第二个月")	2037	FEBRUARY	n	February (lit. 'second month') (note:"the second month")
+Huang-1992-1820-773	773	February (lit. 'second month') (note:the second month)	二月 (第二个月)	2037	FEBRUARY	n	February (lit. 'second month') (note:the second month)
 Huang-1992-1820-774	774	beginning of a month	月初			n	beginning of a month
 Huang-1992-1820-775	775	middle of a month	月中			n	middle of a month
 Huang-1992-1820-776	776	end of a month	月底			n	end of a month
@@ -790,9 +790,9 @@ Huang-1992-1820-788	788	initially / beginning, in the	开始(~时)	2915	AT FIRST
 Huang-1992-1820-789	789	Monday	星期一	1697	MONDAY	n	Monday
 Huang-1992-1820-790	790	Tuesday	星期二	1695	TUESDAY	n	Tuesday
 Huang-1992-1820-791	791	spring (season)	春	1537	SPRINGTIME	n	spring (season)
-Huang-1992-1820-792	792	summer (lit. 'rainy season') (note:"rainy season")	夏 ("雨季")	1342	SUMMER	n	summer (lit. 'rainy season') (note:"rainy season")
+Huang-1992-1820-792	792	summer (lit. 'rainy season') (note:rainy season)	夏 (雨季)	1342	SUMMER	n	summer (lit. 'rainy season') (note:rainy season)
 Huang-1992-1820-793	793	fall / autumn	秋	1276	AUTUMN	n	fall / autumn
-Huang-1992-1820-794	794	winter (lit. 'dry season') (note:"dry season")	冬 ("旱季")	1471	WINTER	n	winter (lit. 'dry season') (note:"dry season")
+Huang-1992-1820-794	794	winter (lit. 'dry season') (note:dry season)	冬 (旱季)	1471	WINTER	n	winter (lit. 'dry season') (note:dry season)
 Huang-1992-1820-795	795	New Year's Day (in Burmese system, around April)	新年	2188	NEW YEAR'S EVE	n	New Year's Day (in Burmese system, around April)
 Huang-1992-1820-796	796	festival	节日	131	FESTIVAL	n	festival
 Huang-1992-1820-797	797	one	一	1493	ONE	n	one
@@ -841,7 +841,7 @@ Huang-1992-1820-839	839	sheet (of paper)	张(一~纸)	2729	SHEET (CLASSIFIER)	n	
 Huang-1992-1820-840	840	page	页(一~书)			n	page
 Huang-1992-1820-841	841	classifier for eggs	个(一~鸡旦)	3417	EGG (CLASSIFIER)	n	classifier for eggs
 Huang-1992-1820-842	842	classifier for two birds	只(两~鸟)	2081	CHICKEN (CLASSIFIER)	n	classifier for two birds
-Huang-1992-1820-843	843	classifier for sticks (big) (note:+long)	根(一~棍子) ((用于修饰"大棍子"))	2085	STICK (CLASSIFIER)	n	classifier for sticks (big) (note:+long)
+Huang-1992-1820-843	843	classifier for sticks (big) (note:+long)	根(一~棍子) ((用于修饰大棍子))	2085	STICK (CLASSIFIER)	n	classifier for sticks (big) (note:+long)
 Huang-1992-1820-844	844	blade (of grass)	根(一~草)	2731	NEEDLE (CLASSIFIER)	n	blade (of grass)
 Huang-1992-1820-845	845	grain (of rice)	粒(一~米)	2086	GRAIN (CLASSIFIER)	n	grain (of rice)
 Huang-1992-1820-846	846	classifier for brooms	把(一~扫帚)			n	classifier for brooms
@@ -879,7 +879,7 @@ Huang-1992-1820-877	877	bundle / sheaf	捆(一~)			n	bundle / sheaf
 Huang-1992-1820-878	878	load of cupped-hands	捧(一~)			n	load of cupped-hands
 Huang-1992-1820-879	879	classifier for age of animals (cows) (note:+horse)	岁口(一~牛、马) ((马的)~)			n	classifier for age of animals (cows) (note:+horse)
 Huang-1992-1820-880	880	load on an animal's back	驮(一~)			n	load on an animal's back
-Huang-1992-1820-881	881	bowl (of tobacco) (lit. 'pole / shaft')	袋(抽一~烟) ("杆")			n	bowl (of tobacco) (lit. 'pole / shaft')
+Huang-1992-1820-881	881	bowl (of tobacco) (lit. 'pole / shaft')	袋(抽一~烟) (杆)			n	bowl (of tobacco) (lit. 'pole / shaft')
 Huang-1992-1820-882	882	team / line (of people (&animals))	队(一~人马)			n	team / line (of people (&animals))
 Huang-1992-1820-883	883	row (of houses)	排(一~房子)			n	row (of houses)
 Huang-1992-1820-884	884	string (of beads)	串(一~珠子)	2724	CHAIN (CLASSIFIER)	n	string (of beads)
@@ -893,10 +893,10 @@ Huang-1992-1820-891	891	bottle (of wine)	瓶(一~酒)	2727	BOTTLE (CLASSIFIER)	n
 Huang-1992-1820-892	892	puddle (of mud)	滩(一~泥)			n	puddle (of mud)
 Huang-1992-1820-893	893	measure of weight (Tibetan 'big')	斤(一~) ((藏式大斤))			n	measure of weight (Tibetan 'big')
 Huang-1992-1820-894	894	tael (=50 grams)	两(一~)			n	tael (=50 grams)
-Huang-1992-1820-895	895	m.o.w. borrowed from Eng. 'ounce' (=0.1 tael)	钱(两~) (英语借词"盎司")			n	m.o.w. borrowed from Eng. 'ounce' (=0.1 tael)
-Huang-1992-1820-896	896	unit of dry measure for grain (lit. 'small liter')	斗(一~) ("小升")			n	unit of dry measure for grain (lit. 'small liter')
+Huang-1992-1820-895	895	m.o.w. borrowed from Eng. 'ounce' (=0.1 tael)	钱(两~) (英语借词盎司)			n	m.o.w. borrowed from Eng. 'ounce' (=0.1 tael)
+Huang-1992-1820-896	896	unit of dry measure for grain (lit. 'small liter')	斗(一~) (小升)			n	unit of dry measure for grain (lit. 'small liter')
 Huang-1992-1820-897	897	liter	升(一~)			n	liter
-Huang-1992-1820-898	898	mile (=0.5 kilometer) (borr. from Ch. 'gong1li3')	里(一~) ("公里")			n	mile (=0.5 kilometer) (borr. from Ch. 'gong1li3')
+Huang-1992-1820-898	898	mile (=0.5 kilometer) (borr. from Ch. 'gong1li3')	里(一~) (公里)			n	mile (=0.5 kilometer) (borr. from Ch. 'gong1li3')
 Huang-1992-1820-899	899	fathom	庹(一~)	81	FATHOM	n	fathom
 Huang-1992-1820-900	900	foot (=1 / 3 meter)	尺(一~)	2782	FOOT (MEASURE)	n	foot (=1 / 3 meter)
 Huang-1992-1820-901	901	span (thumb to index finger)	拃(一~) ((拇指与中指张开的长度))			n	span (thumb to index finger)
@@ -924,7 +924,7 @@ Huang-1992-1820-922	922	time / instance (of biting)	口(咬一~)	2728	MOUTHFUL (
 Huang-1992-1820-923	923	some	一些	1241	SOME	n	some
 Huang-1992-1820-924	924	several / few, a	几个			n	several / few, a
 Huang-1992-1820-925	925	every day	每天			n	every day
-Huang-1992-1820-926	926	each / every (thing) (note:+human)	每个 ((指每"人"))	3416	EVERY (EACH)	n	each / every (thing) (note:+human)
+Huang-1992-1820-926	926	each / every (thing) (note:+human)	每个 ((指每人))	3416	EVERY (EACH)	n	each / every (thing) (note:+human)
 Huang-1992-1820-927	927	double / twice	倍(一~)	1546	TWICE	n	double / twice
 Huang-1992-1820-928	928	I	我	1209	I	n	I
 Huang-1992-1820-929	929	we (two)	我俩	2634	WE TWO	n	we (two)
@@ -987,7 +987,7 @@ Huang-1992-1820-985	985	empty	空	1624	EMPTY	adj	empty
 Huang-1992-1820-986	986	shrivelled / shrunken	瘪			adj	shrivelled / shrunken
 Huang-1992-1820-987	987	many / much	多	1198	MANY	adj	many / much
 Huang-1992-1820-988	988	few / little	少	1242	FEW	adj	few / little
-Huang-1992-1820-989	989	square / rectangular (lit. 'four face four corner') (note:"four-face-four-angle")	方 ("四面四角")	850	SQUARE	adj	square / rectangular (lit. 'four face four corner') (note:"four-face-four-angle")
+Huang-1992-1820-989	989	square / rectangular (lit. 'four face four corner') (note:four-face-four-angle)	方 (四面四角)	850	SQUARE	adj	square / rectangular (lit. 'four face four corner') (note:four-face-four-angle)
 Huang-1992-1820-990	990	circle / circular (planar)	圆 ((圆筒形))	1395	ROUND	adj	circle / circular (planar)||circle / circular||circle / circular (spherical)||circle / circular (tubular)
 Huang-1992-1820-991	991	flat / shallow	扁			adj	flat / shallow
 Huang-1992-1820-992	992	pointed	尖	372	POINTED	adj	pointed
@@ -1009,7 +1009,7 @@ Huang-1992-1820-1007	1007	red	红	156	RED	adj	red
 Huang-1992-1820-1008	1008	yellow	黄	1424	YELLOW	adj	yellow
 Huang-1992-1820-1009	1009	green	绿	1425	GREEN	adj	green
 Huang-1992-1820-1010	1010	blue	蓝	837	BLUE	adj	blue
-Huang-1992-1820-1011	1011	grey (deep)	灰(~的) ("鸽子色")	153	GREY	adj	grey (deep)
+Huang-1992-1820-1011	1011	grey (deep)	灰(~的) (鸽子色)	153	GREY	adj	grey (deep)
 Huang-1992-1820-1012	1012	bright	亮(~的)	679	BRIGHT	adj	bright
 Huang-1992-1820-1013	1013	dark	暗	706	DARK	adj	dark
 Huang-1992-1820-1014	1014	heavy	重	1210	HEAVY	adj	heavy
@@ -1058,8 +1058,8 @@ Huang-1992-1820-1056	1056	overgrown	老(植物~)	1229	OLD	adj	overgrown
 Huang-1992-1820-1057	1057	tender young	嫩(植物~)			adj	tender young
 Huang-1992-1820-1058	1058	old, elderly	年老	2112	OLD (AGED)	adj	old / elderly
 Huang-1992-1820-1059	1059	young	年轻	1207	YOUNG	adj	young
-Huang-1992-1820-1060	1060	beautiful, grow to be	美 ("长得好")	1427	BEAUTIFUL	adj	beautiful, grow to be
-Huang-1992-1820-1061	1061	ugly (looking)	丑 ("不好看")	1548	UGLY	adj	ugly (looking)
+Huang-1992-1820-1060	1060	beautiful, grow to be	美 (长得好)	1427	BEAUTIFUL	adj	beautiful, grow to be
+Huang-1992-1820-1061	1061	ugly (looking)	丑 (不好看)	1548	UGLY	adj	ugly (looking)
 Huang-1992-1820-1062	1062	hot (water)	热 ((水)~)	1286	HOT	adj	hot (weather)||hot||hot (water)
 Huang-1992-1820-1063	1063	cold (weather,	冷	1287	COLD	adj	cold (weather, water)||cold (water)||cold (weather)
 Huang-1992-1820-1064	1064	lukewarm	温(水~)			adj	lukewarm
@@ -1078,7 +1078,7 @@ Huang-1992-1820-1076	1076	salty	咸	1091	SALTY	adj	salty
 Huang-1992-1820-1077	1077	tasteless /	淡(盐~)	1771	TASTELESS	adj	tasteless /
 Huang-1992-1820-1078	1078	astringent, like unripe persimmon	涩			adj	astringent, like unripe persimmon
 Huang-1992-1820-1079	1079	fishy-smelling	腥			adj	fishy-smelling
-Huang-1992-1820-1080	1080	bored	腻 ("做事烦")	905	BORING	adj	bored
+Huang-1992-1820-1080	1080	bored	腻 (做事烦)	905	BORING	adj	bored
 Huang-1992-1820-1081	1081	idle / not	闲	2756	IDLE	adj	idle / not
 Huang-1992-1820-1082	1082	busy	忙	2755	BUSY	adj	busy
 Huang-1992-1820-1083	1083	rich	富	712	RICH	adj	rich
@@ -1180,7 +1180,7 @@ Huang-1992-1820-1178	1178	add (water), dilute	掺(~水) (兑(水))	550	DILUTE	v.
 Huang-1992-1820-1179	1179	wind (thread onto a	缠(~线)			v.	wind (thread onto a
 Huang-1992-1820-1180	1180	want to eat (meat)	馋(~肉)			v.	want to eat (meat)
 Huang-1992-1820-1181	1181	gluttonous	馋(嘴~)			v.	gluttonous
-Huang-1992-1820-1182	1182	taste ('have a look')	尝 ("看一下")	21	TASTE (SOMETHING)	v.	taste ('have a look')
+Huang-1992-1820-1182	1182	taste ('have a look')	尝 (看一下)	21	TASTE (SOMETHING)	v.	taste ('have a look')
 Huang-1992-1820-1183	1183	repay	偿还			v.	repay
 Huang-1992-1820-1184	1184	sing (own songs)	唱 (~(本族歌曲))	1261	SING	v.	sing||sing (Han songs)||sing (own songs)
 Huang-1992-1820-1185	1185	make a row,	吵			v.	make a row,
@@ -1232,14 +1232,14 @@ Huang-1992-1820-1230	1230	hunt	打猎	1435	HUNT	v.	hunt
 Huang-1992-1820-1231	1231	fire (a	打枪			v.	fire (a
 Huang-1992-1820-1232	1232	hit, have (the	打中	3307	HIT (A TARGET)	v.	hit, have (the
 Huang-1992-1820-1233	1233	war, go to / battle	打仗			v.	war, go to / battle
-Huang-1992-1820-1234	1234	fight ('mutually hit') (note:"hit-each-other")	打架 ("互相打")	1423	FIGHT	v.	fight||fight ('mutually hit')
+Huang-1992-1820-1234	1234	fight ('mutually hit') (note:hit-each-other)	打架 (互相打)	1423	FIGHT	v.	fight||fight ('mutually hit')
 Huang-1992-1820-1235	1235	break up / scatter	打散(队伍~)			v.	break up / scatter
 Huang-1992-1820-1236	1236	separated accidentally and lose contact with, get	失散			v.	separated accidentally and lose contact with, get
 Huang-1992-1820-1237	1237	overthrow / down with (traitors) (note:+overthrow (knock_over +traitor))	打倒 (~(叛徒))			v.	overthrow / down with (traitors) (note:+overthrow (knock_over +traitor))
 Huang-1992-1820-1238	1238	fetch / draw (water)	打(水)	1911	DRAW (WATER)	v.	fetch / draw (water)
 Huang-1992-1820-1239	1239	gather (firewood)	打(柴)			v.	gather (firewood)
 Huang-1992-1820-1240	1240	bet	打赌			v.	bet
-Huang-1992-1820-1241	1241	thresh grain (lit. 'hit chain cangue') (note:"use-flails")	打场 ("打链枷")			v.	thresh grain (lit. 'hit chain cangue') (note:"use-flails")
+Huang-1992-1820-1241	1241	thresh grain (lit. 'hit chain cangue') (note:use-flails)	打场 (打链枷)			v.	thresh grain (lit. 'hit chain cangue') (note:use-flails)
 Huang-1992-1820-1242	1242	doze / nod off	打瞌睡			v.	doze / nod off
 Huang-1992-1820-1243	1243	yawn	打哈欠	1028	YAWN	v.	yawn
 Huang-1992-1820-1244	1244	hiccup	打嗝儿(呃逆)	162	HICCOUGH	v.	hiccup
@@ -1249,7 +1249,7 @@ Huang-1992-1820-1247	1247	break (thunderbolt)	打霹雳			v.	break (thunderbolt)
 Huang-1992-1820-1248	1248	thunder	打雷	2378	THUNDER (VERB)	v.	thunder
 Huang-1992-1820-1249	1249	carry (money) on one	带(~钱)			v.	carry (money) on one
 Huang-1992-1820-1250	1250	bring up (children)	带(~孩子)			v.	bring up (children)
-Huang-1992-1820-1251	1251	lead (the way) / guide (lit. 'lead head') (note:"pioneer")	带(~路) ("带头")	43	LEAD (GUIDE)	v.	lead (the way) / guide (lit. 'lead head') (note:"pioneer")
+Huang-1992-1820-1251	1251	lead (the way) / guide (lit. 'lead head') (note:pioneer)	带(~路) (带头)	43	LEAD (GUIDE)	v.	lead (the way) / guide (lit. 'lead head') (note:pioneer)
 Huang-1992-1820-1252	1252	wear (a hat)	戴(~帽子)	3428	WEAR (ON HEAD)	v.	wear (a hat)
 Huang-1992-1820-1253	1253	wear (a turban)	戴(~包头)			v.	wear (a turban)
 Huang-1992-1820-1254	1254	wear (a bracelet)	戴(~手镯)			v.	wear (a bracelet)
@@ -1430,33 +1430,33 @@ Huang-1992-1820-1428	1428	meow	(-)			v.	meow
 Huang-1992-1820-1429	1429	bray	叫(驴~)			v.	bray
 Huang-1992-1820-1430	1430	neigh	叫(马~)			v.	neigh
 Huang-1992-1820-1431	1431	moo	叫(牛~)			v.	moo
-Huang-1992-1820-1432	1432	bark	叫(狗~)	1204	BARK	v.	bark
+Huang-1992-1820-1432	1432	bark	叫(狗~)	1206	BARKING	v.	bark
 Huang-1992-1820-1433	1433	grunt (of pigs)	叫(猪~)			v.	grunt (of pigs)
 Huang-1992-1820-1434	1434	baa / bleat	叫(羊~)			v.	baa / bleat
 Huang-1992-1820-1435	1435	growl (of wild animals)	叫(老虎~) ((兽)~)	3679	GROWL	v.	growl (of wild animals)
-Huang-1992-1820-1436	1436	howl (of wolves) (lit. 'cry')	叫(狼~) ("呻吟")	526	HOWL	v.	howl (of wolves) (lit. 'cry')
-Huang-1992-1820-1437	1437	called, be / named (lit. = copula)	叫(~名字) ("是")	180	CALL BY NAME	v.	called, be / named (lit. = copula)
+Huang-1992-1820-1436	1436	howl (of wolves) (lit. 'cry')	叫(狼~) (呻吟)	526	HOWL	v.	howl (of wolves) (lit. 'cry')
+Huang-1992-1820-1437	1437	called, be / named (lit. = copula)	叫(~名字) (是)	180	CALL BY NAME	v.	called, be / named (lit. = copula)
 Huang-1992-1820-1438	1438	lift (the lid)	揭(~盖子)	501	LIFT	v.	lift (the lid)
 Huang-1992-1820-1439	1439	bear (fruit)	结(~果子)	3054	BEAR FRUIT	v.	bear (fruit)
 Huang-1992-1820-1440	1440	freeze / ice up	结冰	1431	FREEZE	v.	freeze / ice up
-Huang-1992-1820-1441	1441	marry (lit. 'drink liquor')	结婚 ("举行完婚仪式")	203	MARRY	v.	marry (lit. 'drink liquor')
+Huang-1992-1820-1441	1441	marry (lit. 'drink liquor')	结婚 (举行完婚仪式)	203	MARRY	v.	marry (lit. 'drink liquor')
 Huang-1992-1820-1442	1442	borrow (money)	借(~钱)			v.	borrow (money)
 Huang-1992-1820-1443	1443	borrow (tools)	借(~工具)	1823	BORROW	v.	borrow (tools)
 Huang-1992-1820-1444	1444	soak / steep	浸泡	2069	SOAK (VERB)	v.	soak / steep
 Huang-1992-1820-1445	1445	ban / forbid / prohibit	禁止	83	FORBID	v.	ban / forbid / prohibit
-Huang-1992-1820-1446	1446	immerse / submerge	浸入			v.	immerse / submerge
+Huang-1992-1820-1446	1446	immerse / submerge	浸入	2069	SOAK (VERB)	v.	immerse / submerge
 Huang-1992-1820-1447	1447	enter (a house)	进(~屋)	749	ENTER	v.	enter (a house)
 Huang-1992-1820-1448	1448	pass / go by	经过			v.	pass / go by
 Huang-1992-1820-1449	1449	startle / disturb	惊动	2883	DISTURB	v.	startle / disturb
 Huang-1992-1820-1450	1450	startled, be / shy (of animals)	受惊			v.	startled, be / shy (of animals)
 Huang-1992-1820-1451	1451	rescue / save	救	2008	RESCUE	v.	rescue / save
-Huang-1992-1820-1452	1452	live / reside (lit. 'be at')	居住 ("在")	1099	RESIDE	v.	live / reside (lit. 'be at')||live / reside (lit. 'sit')||live / reside
+Huang-1992-1820-1452	1452	live / reside (lit. 'be at')	居住 (在)	1099	RESIDE	v.	live / reside (lit. 'be at')||live / reside (lit. 'sit')||live / reside
 Huang-1992-1820-1453	1453	raise (the hand)	举(~手)	1317	RAISE	v.	raise (the hand)
 Huang-1992-1820-1454	1454	saw	锯	3543	SAW (SOMETHING)	v.	saw
 Huang-1992-1820-1455	1455	get together, all / assemble	聚齐	3638	ASSEMBLE (GET TOGETHER)	v.	get together, all / assemble
 Huang-1992-1820-1456	1456	roll up (cloth)	卷(~布)			v.	roll up (cloth)
 Huang-1992-1820-1457	1457	huddle / curl up	蜷缩			v.	huddle / curl up
-Huang-1992-1820-1458	1458	dig / excavate	掘			v.	dig / excavate
+Huang-1992-1820-1458	1458	dig / excavate	掘	1418	DIG	v.	dig / excavate
 Huang-1992-1820-1459	1459	block / obstruct (by a thorn)	卡主 ((被石头)~)			v.	block / obstruct (by a thorn)
 Huang-1992-1820-1460	1460	obstruct (cause to) / block	卡主(使~)			v.	obstruct (cause to) / block
 Huang-1992-1820-1461	1461	open (a door)	开(~门)			v.	open (a door)
@@ -1488,7 +1488,7 @@ Huang-1992-1820-1486	1486	sleepy, be	困(~倦)	3620	SLEEPY	v.	sleepy, be
 Huang-1992-1820-1487	1487	pull / tug	拉	1455	PULL	v.	pull / tug
 Huang-1992-1820-1488	1488	empty the bowels	拉屎			v.	empty the bowels
 Huang-1992-1820-1489	1489	peppery	辣			v.	peppery
-Huang-1992-1820-1490	1490	fall (?)	落(遗漏[?])			v.	
+Huang-1992-1820-1490	1490	fall (?)	落(遗漏[?])			v.
 Huang-1992-1820-1491	1491	come (imperative)	来 ((将来时))	1446	COME	v.	come (imperative)||come (1sg)||come (future)||come (past)||come
 Huang-1992-1820-1492	1492	drag for / dredge up	捞			v.	drag for / dredge up
 Huang-1992-1820-1493	1493	old, be	老			v.	old, be
@@ -1794,7 +1794,7 @@ Huang-1992-1820-1792	1792	found / located	找到	719	FIND	v.	found / located
 Huang-1992-1820-1793	1793	sting (of	蜇(马蜂~)			v.	sting (of
 Huang-1992-1820-1794	1794	cover / hide from view	遮蔽	761	COVER	v.	cover / hide from view
 Huang-1992-1820-1795	1795	shake / quake	震动	1909	SHAKE	v.	shake / quake
-Huang-1992-1820-1796	1796	fight / vie for (contend)	争夺 ("争名")			v.	fight / vie for (contend)
+Huang-1992-1820-1796	1796	fight / vie for (contend)	争夺 (争名)			v.	fight / vie for (contend)
 Huang-1992-1820-1797	1797	steam	蒸	2067	STEAM (VERB)	v.	steam
 Huang-1992-1820-1798	1798	know	知道	1410	KNOW (SOMETHING)	v.	know
 Huang-1992-1820-1799	1799	weave / knit	织	2905	KNIT	v.	weave / knit
