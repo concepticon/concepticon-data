@@ -91,7 +91,7 @@ Castro-2015-608-89	89	pig	1337	PIG	猪	pig
 Castro-2015-608-90	90	wildboar	3154	WILD BOAR	野猪	wild pig, wild boar
 Castro-2015-608-91	91	goat	1502	GOAT	羊（养的）	goat, sheep (domestic)
 Castro-2015-608-92	92	chicken	1318	CHICKEN	鸡	chicken
-Castro-2015-608-93	93	young	2513	CHICKEN CHICK	未下蛋的母鸡	y. chicken
+Castro-2015-608-93	93	young			未下蛋的母鸡	y. chicken
 Castro-2015-608-94	94	duck	1360	DUCK	鸭	duck
 Castro-2015-608-95	95	goose	1187	GOOSE	鹅	goose
 Castro-2015-608-96	96	bird	937	BIRD	鸟	bird
@@ -131,7 +131,7 @@ Castro-2015-608-129	129	bedbug	1949	BEDBUG	臭虫（家里）	bedbug
 Castro-2015-608-130	130	stink bug			臭虫（山上）	smelly bug (outdoors)
 Castro-2015-608-131	131	flea	232	FLEA	跳蚤	flea
 Castro-2015-608-132	132	maggot	2640	LARVA	蛆	maggot
-Castro-2015-608-133	133	worm	1219	WORM	蚯蚓	worm
+Castro-2015-608-133	133	worm	2350	EARTHWORM	蚯蚓	worm
 Castro-2015-608-134	134	leech	949	WATER LEECH	蚂蝗	leech
 Castro-2015-608-135	135	snake	730	SNAKE	蛇	snake
 Castro-2015-608-136	136	dragon	2038	DRAGON	龙	dragon
@@ -228,7 +228,7 @@ Castro-2015-608-226	226	drum	908	DRUM	鼓	drum
 Castro-2015-608-227	227	gong	2502	GONG	锣	gong
 Castro-2015-608-228	228	bronze drum			铜鼓	bronze drum
 Castro-2015-608-229	229	top (game)			陀螺	top (game)
-Castro-2015-608-230	230	coop			圈（鸡圈）	coop (chicken coop)
+Castro-2015-608-230	230	coop	3401	HENHOUSE	圈（鸡圈）	coop (chicken coop)
 Castro-2015-608-231	231	lair, burrow	2949	LAIR	窝（老鼠住的）	a hole in the ground for some animals to live
 Castro-2015-608-232	232	room	1450	ROOM	房间（房圈）	small room
 Castro-2015-608-233	233	toilet	219	TOILET	厕所	toilet
@@ -275,7 +275,7 @@ Castro-2015-608-273	273	son-in-law	1056	SON-IN-LAW	女婿	son-in-law
 Castro-2015-608-274	274	daughter-in-law	1057	DAUGHTER-IN-LAW	媳妇（儿媳）	daughter-in-law, wife
 Castro-2015-608-275	275	son	1620	SON	儿子	son
 Castro-2015-608-276	276	daughter	1357	DAUGHTER	女儿	daughter
-Castro-2015-608-277	277	grandchild	1617	GRANDCHILD	孙子	grandchild
+Castro-2015-608-277	277	grandchild	1618	GRANDSON	孙子	grandchild
 Castro-2015-608-278	278	elder brother	1759	OLDER BROTHER	哥哥	elder brother
 Castro-2015-608-279	279	elder sister	1758	OLDER SISTER	姐姐	elder sister
 Castro-2015-608-280	280	younger siblings	427	YOUNGER SIBLING	弟或妹	younger sibling
@@ -373,7 +373,7 @@ Castro-2015-608-371	371	to scold	299	SCOLD	骂	to scold
 Castro-2015-608-372	372	to accompany	1542	ACCOMPANY	陪	to accompany
 Castro-2015-608-373	373	to ask	1309	ASK (INQUIRE)	问	to ask
 Castro-2015-608-374	374	to chat	2903	CHAT (WITH SOMEBODY)	聊天，玩	to chat, to hang out
-Castro-2015-608-375	375	to lie	1411	LIE (REST)	撒谎，假	to tell lies, false
+Castro-2015-608-375	375	to lie	601	LIE (MISLEAD)	撒谎，假	to tell lies, false
 Castro-2015-608-376	376	to agree			同意	to agree
 Castro-2015-608-377	377	to be willing to			愿意	to be willing (to do sth.)
 Castro-2015-608-378	378	to laugh	1355	LAUGH	笑	to laugh
@@ -430,9 +430,9 @@ Castro-2015-608-428	428	to peel	275	PEEL	削（皮）	to peel, to pare (with kni
 Castro-2015-608-429	429	to pound	354	POUND	舂（米）	to pound, pestle
 Castro-2015-608-430	430	to wipe	1454	WIPE	擦（擦桌子）	to wipe (a table clean)
 Castro-2015-608-431	431	to scrub			搓洗（用力地）	to scrub (with two hands)
-Castro-2015-608-432	432	to warm oneself			烤（火）	to warm oneself (by a fire)
+Castro-2015-608-432	432	to warm oneself	2032	WARM UP	烤（火）	to warm oneself (by a fire)
 Castro-2015-608-433	433	to dry by the fire			烤，烘干（衣服）	to warm (clothes in front of a fire order to dry them)
-Castro-2015-608-434	434	to dry in sun	2015	MAKE DRY	晾（衣服）	to dry clothes (in the wind)
+Castro-2015-608-434	434	to dry in sun	3364	DRY IN SUN	晾（衣服）	to dry clothes (in the wind)
 Castro-2015-608-435	435	to burn (fields)	3539	BURN LAND	烧（地）	to burn (fields)
 Castro-2015-608-436	436	to know (a fact)	1410	KNOW (SOMETHING)	知道	to know (a fact)
 Castro-2015-608-437	437	to know (a person)	2248	KNOW (SOMEBODY)	认识	to know (a person)
@@ -443,7 +443,7 @@ Castro-2015-608-441	441	to want	1784	WANT	要	to want, to take
 Castro-2015-608-442	442	to do	813	DO	做（做事情）	to do
 Castro-2015-608-443	443	to disappear	485	DISAPPEAR	消失	to disappear
 Castro-2015-608-444	444	to forget	1523	FORGET	忘记	to forget
-Castro-2015-608-445	445	to carry on shoulder pole			挑（水）	to carry on a shoulder pole
+Castro-2015-608-445	445	to carry on shoulder pole	3438	CARRY (WITH POLE ON SHOULDER)	挑（水）	to carry on a shoulder pole
 Castro-2015-608-446	446	carry over shoulder	413	CARRY ON SHOULDER	挎	to carry over one's shoulder or on one's arm, e.g. a backpack, a handbag, etc.
 Castro-2015-608-447	447	to carry on back	465	CARRY ON BACK	背（小孩）	to carry (on back)
 Castro-2015-608-448	448	to hold (a child)			抱（小孩）	to hold (child)
@@ -547,7 +547,7 @@ Castro-2015-608-545	545	bitter	887	BITTER	苦	bitter
 Castro-2015-608-546	546	salty	1091	SALTY	咸	salty
 Castro-2015-608-547	547	fishy			腥（味）	fishy (taste)
 Castro-2015-608-548	548	puckery			涩（味）	puckery, astringent
-Castro-2015-608-549	549	bland			淡	bland
+Castro-2015-608-549	549	bland	2181	LIGHT (IN TASTE)	淡	bland
 Castro-2015-608-550	550	crispy			脆	crispy
 Castro-2015-608-551	551	wet (clothes)	1726	WET	湿（衣服湿）	wet (clothes)
 Castro-2015-608-552	552	dry (clothes)	1398	DRY	干（衣服干）	dry (clothes)
@@ -572,7 +572,7 @@ Castro-2015-608-570	570	steep	2717	STEEP	陡	steep
 Castro-2015-608-571	571	straight	1404	STRAIGHT	直	straight
 Castro-2015-608-572	572	deep	1593	DEEP	深	deep
 Castro-2015-608-573	573	shallow	193	SHALLOW	浅	shallow
-Castro-2015-608-574	574	tight (clothes)			紧（衣服紧）	tight (e.g. clothes are tight)
+Castro-2015-608-574	574	tight (clothes)	3053	TIGHT	紧（衣服紧）	tight (e.g. clothes are tight)
 Castro-2015-608-575	575	many	1198	MANY	多	many
 Castro-2015-608-576	576	few	1242	FEW	少	few
 Castro-2015-608-577	577	clear	989	CLEAR	清楚（讲得清楚）	clear

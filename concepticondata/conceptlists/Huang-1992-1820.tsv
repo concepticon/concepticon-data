@@ -161,7 +161,7 @@ Huang-1992-1820-159	159	pus	脓	1808	PUS	n	pus
 Huang-1992-1820-160	160	dirt / filth	污垢	25	DIRT	n	dirt / filth
 Huang-1992-1820-161	161	sound	声音	1811	SOUND OR NOISE	n	sound
 Huang-1992-1820-162	162	corpse	尸体	767	CORPSE	n	corpse
-Huang-1992-1820-163	163	life	生命			n	life
+Huang-1992-1820-163	163	life	生命	210	LIFE	n	life
 Huang-1992-1820-164	164	life span	寿命			n	life span
 Huang-1992-1820-165	165	Chinese (Han)	汉族(人)	3373	HAN CHINESE	n	Chinese (Han)
 Huang-1992-1820-166	166	Tibetan	藏族(人)	3374	TIBETAN	n	Tibetan
@@ -254,7 +254,7 @@ Huang-1992-1820-252	252	orphan	孤儿	1149	ORPHAN	n	orphan
 Huang-1992-1820-253	253	livestock / animal (domestic)	牲畜	631	LIVESTOCK	n	livestock / animal (domestic)
 Huang-1992-1820-254	254	cattle	牛	3044	BOVINE	n	cattle
 Huang-1992-1820-255	255	cattle (common) (note:+female)	黄牛 (母~)	1153	CATTLE	n	cattle (common) (note:+female)
-Huang-1992-1820-256	256	buffalo	水牛	934	BUFFALO	n	buffalo
+Huang-1992-1820-256	256	buffalo	水牛	2516	WATER BUFFALO	n	buffalo
 Huang-1992-1820-257	257	yak (male)	牦牛	2477	YAK	n	yak (male)
 Huang-1992-1820-258	258	cattle (bull-yak crossbreed, male)	犏牛			n	cattle (bull-yak crossbreed, male)
 Huang-1992-1820-259	259	calf (bull-yak crossbreed) (note:+bull-yak)	牛犊 (犏~)	1989	CALF	n	calf (bull-yak crossbreed) (note:+bull-yak)
@@ -275,8 +275,8 @@ Huang-1992-1820-273	273	dung (horse)	马粪	3378	HORSE DUNG	n	dung (horse)
 Huang-1992-1820-274	274	sheep (general)	羊	2684	CAPRINE (GOAT OR SHEEP)	n	sheep (general)
 Huang-1992-1820-275	275	sheep	绵羊	1331	SHEEP	n	sheep
 Huang-1992-1820-276	276	goat (male) (note:+female)	山羊 (母~)	2476	FEMALE GOAT	n	goat (male)||goat (female)||goat
-Huang-1992-1820-277	277	lamb	山羊羔	820	LAMB	n	lamb
-Huang-1992-1820-278	278	kid	绵羊羔	1972	KID	n	kid
+Huang-1992-1820-277	277	lamb	山羊羔	1972	KID	n	lamb
+Huang-1992-1820-278	278	kid	绵羊羔	820	LAMB	n	kid
 Huang-1992-1820-279	279	wool / fleece (goat) (note:goat)	羊毛 (山~)	964	WOOL	n	wool / fleece (goat) (note:goat)
 Huang-1992-1820-280	280	dung (goat, sheep)	羊粪	3381	SHEEP DUNG	n	dung (goat, sheep)
 Huang-1992-1820-281	281	mule	骡子	890	MULE	n	mule
@@ -462,7 +462,7 @@ Huang-1992-1820-460	460	fodder / feed (horse)	马料			n	fodder / feed (horse)
 Huang-1992-1820-461	461	thread	线	1161	THREAD	n	thread
 Huang-1992-1820-462	462	cloth	布	1616	CLOTH	n	cloth
 Huang-1992-1820-463	463	silk thread (note:+thread)	丝 (~线)			n	silk thread (note:+thread)
-Huang-1992-1820-464	464	fabric (silk)	绸子			n	fabric (silk)
+Huang-1992-1820-464	464	fabric (silk)	绸子	1641	SILK	n	fabric (silk)
 Huang-1992-1820-465	465	fabric (satin)	缎子			n	fabric (satin)
 Huang-1992-1820-466	466	cloth (woollen) (tweed native to area) (note:+homespun)	呢子 (本地粗呢)			n	cloth (woollen) (tweed native to area) (note:+homespun)
 Huang-1992-1820-467	467	clothing / garment	衣服	1895	CLOTHES	n	clothing / garment
@@ -504,8 +504,8 @@ Huang-1992-1820-502	502	warehouse / storehouse	仓库	3399	WAREHOUSE	n	warehouse
 Huang-1992-1820-503	503	shed (cow) / fence (ox)	牛圈	3400	COWSHED	n	shed (cow) / fence (ox)
 Huang-1992-1820-504	504	pigsty / pen (hog)	猪圈	3369	PIGSTY	n	pigsty / pen (hog)
 Huang-1992-1820-505	505	stable / fence (horse)	马圈	3403	HORSE BARN	n	stable / fence (horse)
-Huang-1992-1820-506	506	sheepfold / pen (sheep)	羊圈	3401	HENHOUSE	n	sheepfold / pen (sheep)
-Huang-1992-1820-507	507	pen (chicken)	鸡圈	3402	SHEEPFOLD	n	pen (chicken)
+Huang-1992-1820-506	506	sheepfold / pen (sheep)	羊圈	3402	SHEEPFOLD	n	sheepfold / pen (sheep)
+Huang-1992-1820-507	507	pen (chicken)	鸡圈	3401	HENHOUSE	n	pen (chicken)
 Huang-1992-1820-508	508	brick	砖	1006	BRICK	n	brick
 Huang-1992-1820-509	509	tile	瓦	3404	TILE	n	tile
 Huang-1992-1820-510	510	wall (earthen, cob wall)	墙	933	WALL (OF HOUSE)	n	wall (earthen, cob wall)
@@ -616,7 +616,7 @@ Huang-1992-1820-614	614	plow	犁	2154	PLOUGH (INSTRUMENT)	n	plow
 Huang-1992-1820-615	615	plowshare	铧			n	plowshare
 Huang-1992-1820-616	616	rake	耙	338	RAKE	n	rake
 Huang-1992-1820-617	617	hoe (pointed) (note:+small)	锄头 (小锄)			n	hoe (pointed) (note:+small)
-Huang-1992-1820-618	618	pole (carrying / shoulder)	扁担			n	pole (carrying / shoulder)
+Huang-1992-1820-618	618	pole (carrying / shoulder)	扁担	3432	SHOULDER POLE	n	pole (carrying / shoulder)
 Huang-1992-1820-619	619	rope / string	绳子	1218	ROPE	n	rope / string
 Huang-1992-1820-620	620	wedge	楔子			n	wedge
 Huang-1992-1820-621	621	grip / handle	把儿(茶缸~)			n	grip / handle
@@ -1207,7 +1207,7 @@ Huang-1992-1820-1205	1205	produce	出产	2886	PRODUCE	v.	produce
 Huang-1992-1820-1206	1206	go	出去	695	GO	v.	go
 Huang-1992-1820-1207	1207	come out (the	出(~太阳)			v.	come out (the
 Huang-1992-1820-1208	1208	come out (future)	出来 ((将来时))			v.	come out (future)
-Huang-1992-1820-1209	1209	withdraw / take	取出			v.	withdraw / take
+Huang-1992-1820-1209	1209	withdraw / take	取出	3654	TAKE OUT	v.	withdraw / take
 Huang-1992-1820-1210	1210	hoe up	锄(~草)			v.	hoe up
 Huang-1992-1820-1211	1211	wear (a	穿(~衣)	976	WEAR	v.	wear (a
 Huang-1992-1820-1212	1212	put on	穿(~鞋)			v.	put on
@@ -1788,7 +1788,7 @@ Huang-1992-1820-1786	1786	grow up (of animals)	长(~大) ((植物)~)	552	GROW UP
 Huang-1992-1820-1787	1787	go up (water level) / rise	涨(~水)	568	RISE (MOVE UPWARDS)	v.	go up (water level) / rise
 Huang-1992-1820-1788	1788	bloated, feel (of the stomach)	胀(肚子~)			v.	bloated, feel (of the stomach)
 Huang-1992-1820-1789	1789	catch (fire) / be (on fire) (a house)	着(~火) ((房子)~火)	2102	BURN	v.	catch (fire) / be (on fire) (a house)
-Huang-1992-1820-1790	1790	catch cold	着凉			v.	catch cold
+Huang-1992-1820-1790	1790	catch cold	着凉	2184	CATCH A COLD	v.	catch cold
 Huang-1992-1820-1791	1791	call together / convene	召集			v.	call together / convene
 Huang-1992-1820-1792	1792	found / located	找到	719	FIND	v.	found / located
 Huang-1992-1820-1793	1793	sting (of	蜇(马蜂~)			v.	sting (of
