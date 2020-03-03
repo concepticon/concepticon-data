@@ -10,6 +10,8 @@ Period | Name
 2017- | Simon Greenhill
 2019- | Nathanael Schweikhard
 2019- | Kristina Pianykh
+2020- | Annika Tjuka
+2020- | Mei-Shin Wu
 2015- | Robert Forkel
 
 
@@ -53,6 +55,7 @@ Andrew Kitchen | D | 1.0
 Anja Gampe | D | 1.1
 Anthony Grant | MS | 1.1
 Ben Yackley | P | 1.1
+Carolin Hundt | DCTLPG | 2.3
 Christoph Rzymski | CLPG | 1.1
 Claire Bowern | D | 1.1, 2.2
 Cormac Anderson | CP | 1.1, 1.2
@@ -61,6 +64,7 @@ Doug Cooper | DCSM | 1.1, 2.1
 Evgeniya Korovina | MSCLPA | 1.1, 2.2
 Frederike Urke | CLS | 1.0  
 Harald Hammarström | DMS | 1.0 
+Hans Geisler | MSD | 2.3
 Isabella Boga | LP | 1.1
 Jan Auracher | D | 1.1
 Johannes Dellert | LPD | 1.1
@@ -71,19 +75,19 @@ Martin Haspelmath | AD | 1.0
 Maurizio Serva | MD | 1.1
 Mei-Shin Wu | CTLG | 1.2, 2.0, 2.1, 2.2
 Michael Dunn | G | 1.1
-Nathan Hill | MSDP | 1.1
+Nathan Hill | MSDP | 1.1, 2.3
 Nicholas Evans | A | 1.0
 Paul Heggarty | D | 1.0
 Quentin Atkinson | MD | 1.1
 Robert Blust | D | 1.0 
 Sean Lee | D | 1.0
 Sebastian Nicolai | CMS | 1.0  
-Thiago Chacon | MSD | 1.0, 1.1 
-Tiago Tresoldi | CTLG | 1.1, 1.2, 2.0, 2.1, 2.2
+Thiago Chacon | MSD | 1.0, 1.1, 2.3 
+Tiago Tresoldi | CTLG | 1.1, 1.2, 2.0, 2.1, 2.2, 2.3
 Viola Kirchhoff da Cruz | CLS | 1.0 
 Wang Feng | D | 1.0
 Yunfan Lai | CTLG | 1.1
-Andy Castro | T | 2.0
+Andy Castro | T | 2.0, 2.2
 Natalia Morozowa | DCPTL | 2.0, 2.1, 2.2
 Kristina Pianykh | LP | 2.1
 David Nash | MP | 2.2
