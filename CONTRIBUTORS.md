@@ -87,4 +87,4 @@ Andy Castro | T | 2.0
 Natalia Morozowa | DCPTL | 2.0, 2.1, 2.2
 Kristina Pianykh | LP | 2.1
 David Nash | MP | 2.2
-Andrew Hsiu | DM | 2.2
+Andrew Hsiu | DM | 2.3
