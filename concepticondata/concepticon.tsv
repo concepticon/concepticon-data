@@ -296,7 +296,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 295	WHETSTONE	Basic actions and technology	Before cutting the meat, he sharpened his knife with a whetstone.	Person/Thing	
 296	CROUCH	Motion	To lower one's body close to the ground by bending one's knees completely.	Action/Process	
 297	CROOKED	Spatial relations	Opposite of straight.	Property	
-298	SHRIEK	Speech and language	To make a very high, loud sound.	Action/Process	
+298	SHRIEK	Speech and language	To make a very high, loud sound in reaction to something.	Action/Process	
 299	SCOLD	Speech and language	To rebuke.	Action/Process	
 300	RATTLE	Speech and language	A wooden instrument that makes a loud knocking noise [used by people watching football games].	Person/Thing	
 301	CHIEFTAIN	Social and political relations	The leader/ruler of a tribe/clan.	Person/Thing	
@@ -404,7 +404,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 403	GARDEN-HOUSE	The house	A small building in a garden, such as a shed, which is not usually build to be inhabitated for long times.	Person/Thing	
 404	ALCOHOL (FERMENTED DRINK)	Food and drink	A fermented drink is a beverage containing alcohol because of a metabolic process that converts sugar to acids, gases and/or alcohol (e.g. beer or wine).	Person/Thing	
 405	OLDER SIBLING	Kinship	A person who is born before another person who has the same parents.	Person/Thing	
-406	OLD MAN	Kinship	A male pe喷rson who is old of age.	Person/Thing	
+406	OLD MAN	Kinship	A male person who is old of age.	Person/Thing	
 407	MANIOC BREAD	Food and drink	Bread made of the roots of the cassava plant.	Person/Thing	
 408	MEN'S HOUSE	The house	A separate building for male persons.	Person/Thing	
 409	FORKED BRANCH	Agriculture and vegetation	At this point a branch is forked into two or more branches.	Person/Thing	
@@ -713,7 +713,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 712	RICH	Possession	Possessing in abundance a particular trait.	Property	
 713	STEAL	Law	To take possession of property belonging to another without the consent of this owner; most typically when not observed, rather than by force.	Action/Process	
 714	SEED	Agriculture and vegetation	A mature fertilized plant ovule, consisting of an embryo and its food store surrounded by a protective seed coat (testa).	Person/Thing	
-715	SHOUT	Speech and language	To utter in a loud voice.	Action/Process	
+715	SHOUT	Speech and language	To say something in a loud voice.	Action/Process	
 716	GROAN	Emotions and values	To utter a low, guttural sound of frustration.	Action/Process	
 717	SWEET	Sense perception	Having the taste characteristic of sugar or honey.	Property	
 718	PAY	Possession	To give money in exchange for goods or services.	Action/Process	
@@ -3750,3 +3750,5 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3764	BAD OR EVIL	Emotions and values	Not good; unfavorable; negative, or intending to harm or being/acting ethically wrong.	Property	
 3765	STORING POT	Food and drink	A vessel used for storing food or liquids.	Person/Thing	
 3766	WATER POT	Food and drink	A vessel used for storing water.	Person/Thing	
+3767	RICE SEEDLING	Agriculture and vegetation	The seedling of a rice plant.	Person/Thing	
+3768	POUND (FOOD)	Motion	To prepare food with a pounding or beating movement, for example, pre-processing of grain or of sago.	Action/Process	

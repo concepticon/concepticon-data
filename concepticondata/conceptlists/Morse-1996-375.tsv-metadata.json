@@ -42,13 +42,21 @@
                     {
                         "datatype": "string",
                         "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SPANISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SWADESH_1955_100"
                     }
                 ],
                 "primaryKey": [
                     "ID"
                 ]
             },
-            "url": "Savelyev-2019-254.tsv"
+            "url": "Morse-1996-375.tsv"
         }
     ]
 }

@@ -227,9 +227,9 @@ Hale-1973-1798-225	Human_Body-126	wait	v	02b1.49	1590	WAIT (FOR)
 Hale-1973-1798-226	Human_Body-127	stop	v	02b1.50	2880	HALT (STOP)
 Hale-1973-1798-227	Human_Body-128	feel (by touch)	v	02b1.51	2559	FEEL (TACTUALLY)
 Hale-1973-1798-228	Human_Body-129	touch	v	02b1.52	1892	TOUCH
-Hale-1973-1798-229	Human_Body-130	move, stir (itr)	vi	02b1.53	2874	MOVE (ONESELF)
-Hale-1973-1798-230	Human_Body-131	move to other place	v	02b1.54	765	MOVE
-Hale-1973-1798-231	Human_Body-132	shift s.th.	v	02b1.54a		
+Hale-1973-1798-229	Human_Body-130	move, stir (itr)	vi	02b1.53		
+Hale-1973-1798-230	Human_Body-131	move to other place	v	02b1.54	2874	MOVE (ONESELF)
+Hale-1973-1798-231	Human_Body-132	shift s.th.	v	02b1.54a	765	MOVE
 Hale-1973-1798-232	Human_Body-133	slip	v	02b1.55	1324	SLIP
 Hale-1973-1798-233	Human_Body-134	fall over	v	02b1.56	2894	TUMBLE (FALL DOWN)
 Hale-1973-1798-234	Human_Body-135	stumble	v	02b1.57	3617	STUMBLE
@@ -265,7 +265,7 @@ Hale-1973-1798-263	Human_Body-164	wake up (itr)	vi	02b2.19	1602	WAKE UP
 Hale-1973-1798-264	Human_Body-165	breathe	v	02b2.20	1407	BREATHE
 Hale-1973-1798-265	Human_Body-166	pant	v	02b2.21	3614	PANT
 Hale-1973-1798-266	Human_Body-167	hiccup	v	02b2.22	162	HICCOUGH
-Hale-1973-1798-267	Human_Body-168	beat (heart)	v	02b2.23	1665	BEAT
+Hale-1973-1798-267	Human_Body-168	beat (heart)	v	02b2.23		
 Hale-1973-1798-268	Human_Body-169	bleed	v	02b2.24	3615	BLEED
 Hale-1973-1798-269	Human_Body-170	faint	v	02b2.25	3616	FAINT (PASS OUT)
 Hale-1973-1798-270	Human_Body-171	cough	v	02b2.26	879	COUGH
@@ -804,7 +804,7 @@ Hale-1973-1798-802	House_and_Home-144	bungle (spoil by hurrying)	v	06b3.23
 Hale-1973-1798-803	House_and_Home-145	chatter, babble	v	06b3.24		
 Hale-1973-1798-804	Food_and_Clothing-1	food	n	07a.01	256	FOOD
 Hale-1973-1798-805	Food_and_Clothing-2	cooked rice	n	07a.02	1191	COOKED RICE
-Hale-1973-1798-806	Food_and_Clothing-3	uncooked rice	n	07a.03	926	RICE
+Hale-1973-1798-806	Food_and_Clothing-3	uncooked rice	n	07a.03	3289	UNCOOKED RICE
 Hale-1973-1798-807	Food_and_Clothing-4	rice broth	n	07a.04		
 Hale-1973-1798-808	Food_and_Clothing-5	spices	n	07a.05		
 Hale-1973-1798-809	Food_and_Clothing-6	dal, pulse	n	07a.06		
@@ -863,7 +863,7 @@ Hale-1973-1798-861	Food_and_Clothing-58	knead	v	07b1.08	274	KNEAD
 Hale-1973-1798-862	Food_and_Clothing-59	flatten dough (with roll)	v	07b1.09		
 Hale-1973-1798-863	Food_and_Clothing-60	flatten dough (with hands)	v	07b1.10		
 Hale-1973-1798-864	Food_and_Clothing-61	grind (press through)	v	07b1.11		
-Hale-1973-1798-865	Food_and_Clothing-62	pound grain	v	07b1.12	354	POUND
+Hale-1973-1798-865	Food_and_Clothing-62	pound grain	v	07b1.12	3768	POUND (FOOD)
 Hale-1973-1798-866	Food_and_Clothing-63	peel	v	07b1.13	275	PEEL
 Hale-1973-1798-867	Food_and_Clothing-64	peel (strip skin by hand)	v	07b1.14		
 Hale-1973-1798-868	Food_and_Clothing-65	peel (out of shells)	v	07b1.15	3660	SHELL (SOMETHING)
@@ -1433,7 +1433,7 @@ Hale-1973-1798-1431	Role_and_Social_Structure-85	play	v	11b1.02	1413	PLAY
 Hale-1973-1798-1432	Role_and_Social_Structure-86	sing	v	11b1.03	1261	SING
 Hale-1973-1798-1433	Role_and_Social_Structure-87	whistle	v	11b1.04	1025	WHISTLE
 Hale-1973-1798-1434	Role_and_Social_Structure-88	hum (a tune)	v	11b1.05	3671	HUM
-Hale-1973-1798-1435	Role_and_Social_Structure-89	beat drum	v	11b1.06	1665	BEAT
+Hale-1973-1798-1435	Role_and_Social_Structure-89	beat drum	v	11b1.06		
 Hale-1973-1798-1436	Role_and_Social_Structure-90	play instr.	v	11b1.07	3124	PLAY (INSTRUMENT)
 Hale-1973-1798-1437	Role_and_Social_Structure-91	sound	v	11b1.08	2879	SOUND (OF INSTRUMENT OR VOICE)
 Hale-1973-1798-1438	Role_and_Social_Structure-92	rattle	v	11b1.09		
