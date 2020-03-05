@@ -114,15 +114,15 @@ In brief, whenever you add a new concept list, you could use the following check
 
 ## Testing 
 
-After you have added your new concept list, you should test whether the mapping and the format conforms to our standards. For this, we use the [nose](http://pythontesting.net/framework/nose/nose-introduction/) library. To test, if you have nose installed, just type:
+After you have added your new concept list, you should test whether the mapping and the format 
+conforms to our standards. This can be done by running:
 
 ```shell
-$ nosetests 
+concepticon test
 ```
 
-The output will tell you whether your mapping has succeeded. If you run into problems, just let us know, and we try to help as best as we can.
-
-(AT: Could this be replaced by the concepticon test command?)
+The output will tell you whether your mapping has succeeded and any issues will be reported.
+If you run into problems, just let us know, and we try to help as best as we can.
 
 ## Conventions
 
