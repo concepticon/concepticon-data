@@ -115,6 +115,9 @@ In brief, whenever you add a new concept list, you could use the following check
 * [ ] thank and acknowledge contributors?
 * [ ] tested the code? (`concepticon test`)
 
+When you open a pull request there will be a template where you can mark what applies
+to your pull request and you can provide additional information.
+
 ## Testing 
 
 After you have added your new concept list, you should test whether the mapping and the format 
