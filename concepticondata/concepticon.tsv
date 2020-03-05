@@ -730,7 +730,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 729	DAWN	Time	A period of time at the beginning of the day shortly before sunrise during which the light gradually becomes stronger.	Person/Thing	
 730	SNAKE	Animals	Any reptile of the suborder Serpentes, typically having a scaly cylindrical limbless body, fused eyelids, and a jaw modified for swallowing large prey.	Person/Thing	
 731	BEVERAGE	Food and drink	Any one of various liquids for drinking.	Person/Thing	
-732	YOUR (SINGULAR)	Possession	belonging to the second person that is addressed by the first person.	Other	
+732	YOUR (SINGULAR)	Possession	Belonging to the second person that is addressed by the first person.	Other	
 733	EARN	Possession	To gain (success, payment) through applied effort or work.	Action/Process	
 734	MAKE	Basic actions and technology	To create something by combining or assembling materials or parts or by changing it.	Action/Process	
 735	OWL	Animals	A solitary, mainly nocturnal bird of prey, belonging to the order Strigiformes; it has large forward-facing eyes and ears and a hawk-like beak, and it can turn its head 180 degrees around.	Person/Thing	
@@ -2089,8 +2089,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2088	CLOTHING (CLASSIFIER)	Quantity	classifier for things that one wears	Classifier	
 2089	PAIR (CLASSIFIER)	Quantity	classifier for objects that occur in pairs	Classifier	
 2090	MY	Possession	Belonging to me.	Other	
-2091	YOUR	Possession	belonging to the second person that is addressed by the first person	Other	732
-2092	HIS OR HER	Possession	belonging to the third person that is addressed	Other	
+2091	YOUR	Possession	Belonging to the second person that is addressed by the first person.	Other	732
+2092	HIS OR HER	Possession	Belonging to the third person that is addressed.	Other	
 2093	AFTERWARDS	Time	Later or after something else has happened or happens.	Other	
 2094	DOWN OR BELOW	Spatial relations	Moving from a higher position to a lower one, or being at a lower position.	Other	
 2095	FAT (FOR NOURISHMENT)	Food and drink	Soft liquid retrieved from animals or plant and used for cooking.	Person/Thing	
@@ -3753,3 +3753,17 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3767	RICE SEEDLING	Agriculture and vegetation	The seedling of a rice plant.	Person/Thing	
 3768	POUND (FOOD)	Motion	To prepare food with a pounding or beating movement, for example, pre-processing of grain or of sago.	Action/Process	
 3769	GRAPEVINE	Agriculture and vegetation	A climbing plant that produces grapes and belongs to the family Vitaceae.	Person/Thing	
+3770	YOU TWO (OBLIQUE CASE)	Kinship	Oblique cases of the second person dual pronoun.	Other	
+3771	THEM TWO	Kinship	Oblique cases of the third person dual pronoun.	Other	
+3772	THEIR (DUAL)	Kinship	Belonging to the third person dual.	Other	
+3773	YOU (MORE THAN TWO)	Kinship	Second person plural excluding dual pronoun.	Other	
+3774	THEM (MORE THAN TWO)	Kinship	Oblique cases of the third person plural excluding dual pronoun.	Other	
+3775	US TWO	Kinship	Oblique cases of the first person dual pronoun.	Other	
+3776	HIM OR HER OR IT	Kinship	Oblique cases of the third person singular pronoun.	Other	
+3777	YOU (MORE THAN TWO OBLIQUE CASE)	Kinship	Oblique cases of the second person plural excluding dual pronoun.	Other	
+3778	OUR (DUAL)	Kinship	Belonging to the first person dual.	Other	
+3779	OUR (MORE THAN TWO)	Kinship	Belonging to the first person plural excluding dual.	Other	
+3780	THEIR (MORE THAN TWO)	Kinship	Belonging to the third person plural excluding dual.	Other	
+3781	YOUR (MORE THAN TWO)	Kinship	Belonging to the second person plural excluding dual.	Other	
+3782	WE (MORE THAN TWO)	Kinship	First person plural excluding dual pronoun.	Other	
+3783	THEY (MORE THAN TWO)	Kinship	Third person plural excluding dual pronoun.	Other	
