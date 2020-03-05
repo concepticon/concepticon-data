@@ -244,7 +244,7 @@ ID	GLOSS	PRIORITY
 837	BLUE///голубой	1
 837	BLUE///синий, голубой	1
 379	BLUNT///тупой	4
-1348	BOAR///кабан, хряк	1
+1348	BOAR (MALE PIG)///кабан, хряк	1
 1227	BOARD///доска	2
 101	BOAST///хвастаться	2
 1844	BOAT///Лодья	1
@@ -920,6 +920,7 @@ ID	GLOSS	PRIORITY
 2003	FLOW///течь, литься потоком	1
 239	FLOWER///Цвѣтъ	1
 239	FLOWER///цветок	6
+3311	FLOWING BODY OF WATER///река, поток, ручей	1
 777	FLUTE///флейта	1
 1504	FLY (INSECT)///Муха	2
 1504	FLY (INSECT)///муха	4
@@ -1030,7 +1031,6 @@ ID	GLOSS	PRIORITY
 1069	GLUE///клей	1
 2014	GO DOWN (DESCEND)///спускаться, идти вниз	1
 1107	GO OUT///выходить	1
-705	GO UP (ASCEND)///подниматься	1
 705	GO UP (ASCEND)///подниматься, идти вверх	1
 695	GO///Иди	2
 695	GO///Итти	1
@@ -1060,6 +1060,8 @@ ID	GLOSS	PRIORITY
 1496	GRANDMOTHER///бабушка	2
 1618	GRANDSON///внук	1
 920	GRAPE///виноград	1
+3769	GRAPEVINE///Виноградъ	1
+3769	GRAPEVINE///виноградная лоза, ползучее растение	1
 328	GRASS-SKIRT///юбка из листьев	1
 606	GRASS///Зелень	2
 606	GRASS///трава	4
@@ -1141,7 +1143,6 @@ ID	GLOSS	PRIORITY
 307	HAWK///ястреб, сокол	1
 342	HAY///сено	2
 262	HE OR SHE OR IT///он/она/оно	1
-264	HE-GOAT///козел	1
 1211	HE///Онъ	2
 1211	HE///он	3
 310	HEAD LOUSE///вошь	1
@@ -1201,6 +1202,7 @@ ID	GLOSS	PRIORITY
 1745	HIP///бедро, ляжка	1
 3213	HIRE OR RENT///нанимать, брать на прокат	1
 1433	HIT///ударить	2
+1433	HIT///ударять	1
 3117	HITCHHIKE///путешествовать	2
 2925	HITHER (HERE TO)///сюда	1
 2942	HOARFROST///иней	1
@@ -1467,6 +1469,7 @@ ID	GLOSS	PRIORITY
 734	MAKE///сделать	1
 2263	MALE (OF ANIMAL)///мужской	1
 2261	MALE (OF PERSON)///самец	1
+2475	MALE GOAT///козел	1
 2106	MALE PERSON///мужчина	1
 1554	MAN///мужчина	9
 488	MANNER///способ	1
@@ -1548,7 +1551,7 @@ ID	GLOSS	PRIORITY
 1339	MORNING///Утро	2
 1339	MORNING///утро	2
 1731	MORTAR BINDER///известковый раствор	1
-224	MORTAR CRUSHER///ступка, ступа	1
+224	MORTAR///ступка, ступа	1
 1509	MOSQUITO///Комарь	1
 1509	MOSQUITO///комар	1
 1509	MOSQUITO///москит (тропический комар)	1
@@ -1660,7 +1663,7 @@ ID	GLOSS	PRIORITY
 191	NUT///орех	1
 644	OAK///Дубъ	2
 644	OAK///дуб	1
-3137	OAR///весло	1
+3137	OAR///весло	2
 60	OAT///Овесъ	2
 60	OAT///овес	1
 1712	OATH///клятва	1
@@ -1717,7 +1720,6 @@ ID	GLOSS	PRIORITY
 684	OWN///иметь	1
 1169	OX///вол	1
 3087	PACIFIER///соска	2
-234	PADDLE///весло	1
 234	PADDLE///весло (байдарочный гребок)	1
 1783	PAIN///Боль	2
 1783	PAIN///боль	2
@@ -1889,7 +1891,7 @@ ID	GLOSS	PRIORITY
 1733	RAINBOW///радуга	4
 2108	RAINING OR RAIN///дождь	1
 2108	RAINING OR RAIN///идёт дождь	2
-2134	RAISE (A CHILD)///растить	1
+2134	RAISE (BRING UP)///растить	1
 3127	RAKE (SOMETHING)///работать граблями	2
 338	RAKE///грабли	1
 1344	RAM///Баранъ	2
@@ -1947,7 +1949,6 @@ ID	GLOSS	PRIORITY
 568	RISE (MOVE UPWARDS)///подниматься, восходить	1
 666	RIVER///Рѣка	2
 666	RIVER///река	3
-666	RIVER///река, поток, ручей	1
 3463	RIVERBANK///Берегъ	1
 667	ROAD///дорога	10
 2876	ROAR (OF SEA)///бушевать	1
@@ -2096,7 +2097,6 @@ ID	GLOSS	PRIORITY
 1482	SHOULDER///Плечо	2
 1482	SHOULDER///плечо	2
 172	SHOULDERBLADE///лопатка	1
-715	SHOUT///Кричать	1
 715	SHOUT///кричать	2
 1901	SHOVEL///лопата, совок	1
 1901	SHOVEL///совок	1
@@ -2322,11 +2322,11 @@ ID	GLOSS	PRIORITY
 202	STRENGTH///Сила	2
 202	STRENGTH///крепость	1
 214	STRETCH///тянуть, натягивать	1
+3308	STRIKE (SOMEONE)///Бить	1
 3308	STRIKE (SOMEONE)///ударить	1
 3309	STRIKE (SOMETHING)///ударить	1
-2133	STRIKE OR BEAT///Бить	2
+2133	STRIKE OR BEAT///Бить	1
 2133	STRIKE OR BEAT///бить	1
-353	STRIKE///ударять	1
 362	STRING///верёвка	1
 2993	STROKE (OF PEN)///черта	1
 785	STRONG///sil’nyj	1
@@ -2592,8 +2592,7 @@ ID	GLOSS	PRIORITY
 783	VICTORY///победа	1
 930	VILLAGE///Деревня	1
 930	VILLAGE///деревня	2
-343	VINE///Виноградъ	2
-343	VINE///виноградная лоза, ползучее растение	1
+343	VINE///Виноградъ	1
 2976	VIOLENCE///насилие	1
 1868	VISIBLE///виднеться	1
 1377	VISIT///повидать, посетить	1
