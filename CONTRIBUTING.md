@@ -45,20 +45,27 @@ If you link a concept list manually, we will check automatically and manually th
   Apart from this, you can add as many further columns as you want. Here, we have further conventions:
   - if you have translations of the gloss in different languages, label them accordingly (CHINESE, FRENCH, etc.)
   - if you have a ranked list, provide the RANK as an integer and name the field RANK
-  - there are further "soft" conventions, which you can inspect by having a look at the different concept lists which are already mapped (CR: examples might be beneficial)
+  - there are further "soft" conventions e.g. concerning the way additional metadata are handled, which you can inspect by having a look at the different concept lists which are already mapped (see for example [Luniewska-2016-299.tsv](https://github.com/concepticon/concepticon-data/blob/master/concepticondata/conceptlists/Luniewska-2016-299.tsv) and [the associcated metadata file](https://github.com/concepticon/concepticon-data/blob/master/concepticondata/conceptlists/Luniewska-2016-299.tsv-metadata.json))
 * the reference, provided as a BibTex entry in the file [references.bib](https://github.com/concepticon/concepticon-data/blob/master/concepticondata/references/references.bib). Please use the schema FirstAuthorYear and add a, b, c, etc. if there are multiple entires for the same author and the same year, 
 * a description of the basic characteristics of the list in the file [conceptlists.tsv](https://github.com/concepticon/concepticon-data/blob/master/concepticondata/conceptlists.tsv). Here, we recommend you to either contact us if there are further questions, or to just look up how we usually encode the respective values. Not all information is required, but it is our goal to always try to fill out as many cells for a new concept list as possible. 
-* if you have a scan of your list which does not fall under the copyright law (no full books, but pages in which one can see the concept lists should be acceptable), please label it as BibTexKey.pdf and put it in the folder [sources](https://github.com/concepticon/concepticon-data/tree/master/concepticondata/sources) (AT: This might need to be adapted.)
+* if you have a scan of your list which does not fall under the copyright law (no full books, but pages in which one can see the concept lists should be acceptable), please label it as BibTexKey.pdf and put it in the folder [sources](https://github.com/concepticon/concepticon-data/tree/master/concepticondata/sources)
 
 If you feel that you need to add new concepts which are currently missing in the CLLD Concepticon, please contact us, and we will provide you with the relevant information on how to add new concept set identifiers. Please also do not hesitate to ask us if there are any further questions.
 
 ### Using automatic mapping software
 
+NOTE: The `concepticon` command takes an argument `--repos` where you can specify
+a path to the clone of `concepticon-data` that you want to work with. This is not required
+if `concepticon` is ran within the root of the `concepticon-data` clone but might be helpful
+if you're working with multiple clones of Concepticon. In this document we assume that that all
+commands are executed within the root of the Concepticon clone. If unsure, you can explicitly
+specify a path with `concepticon --repos=/PATH/TO/concepticon-data YOURCOMMAND`.
+
 The Concepticon API allows you to automatically link your concept list to the Concepticon. We currently support two different styles, one which exhaustively compares each gloss with each other, and one quick style, which compares only those glosses which have been filtered as similar enough in a first run. The styles also differ slightly in their output. Here is, how you can carry out a linking using the quick style of your list called "input.tsv"
 ```shell
-$ concepticon map_concepts input.tsv
+concepticon map_concepts input.tsv
 # or 
-$ concepticon map_concepts input.tsv > automatic.tsv  # redirect output to file.
+concepticon map_concepts input.tsv > automatic.tsv  # redirect output to file.
 ```
 This script requires that the Concepticon API has been installed, and that your input list contains at least two columns: one labeled "ID" and one labeled "GLOSS" or "ENGLISH" (for detailed instructions, see the [beginner's guide](https://calc.hypotheses.org/2225)).
 
@@ -94,10 +101,9 @@ If you write a pull request to Concepticon, make sure that you have added the re
 2. Have you added the metadata for your concept list? You find more information by looking into the file [```conceptlists.tsv```](https://github.com/concepticon/concepticon-data/blob/master/concepticondata/conceptlists.tsv), please contact us if you run in trouble.
 3. Have you added your reference for the concept list, and all references which you used in your description, to our bibtex file [```references.bib```](https://github.com/concepticon/concepticon-data/blob/master/concepticondata/references/references.bib)?
 4. Have you added new concept sets to our Concepticon in the file [```concepticon.tsv```](https://github.com/concepticon/concepticon-data/blob/master/concepticondata/concepticon.tsv)? If so, have you offered proper definitions?
-5. Do you reference a source file in PDF, in your description of the concept list in [```conceptlists.tsv```](https://github.com/concepticon/concepticon-data/blob/master/concepticondata/conceptlists.tsv)? If so, have you added it (in the form ```FirstAuthorLastNameYear```) to the folder [```sources/```](https://github.com/concepticon/concepticon-data/blob/master/concepticondata/sources/)? (AT: Might also need editing.)
+5. Do you reference a source file in PDF, in your description of the concept list in [```conceptlists.tsv```](https://github.com/concepticon/concepticon-data/blob/master/concepticondata/conceptlists.tsv)? If so, have you added it (in the form ```FirstAuthorLastNameYear```) to the folder [```sources/```](https://github.com/concepticon/concepticon-data/blob/master/concepticondata/sources/)? If the file size of a source PDF exceeds multiple megabytes, please provide it e.g. within the pull request itself as an attachment. 
 6. Do you have to thank a person for help with the concept list? If you are contributing and not part of our core editorial team, we will add you, so please provide us with your name and affiliation. To keep track of whom to thank, please edit the [```CONTRIBUTORS.MD```](https://github.com/concepticon/concepticon-data/blob/master/CONTRIBUTORS.md) document.
-7. Have you tested your modifications by typing ```$ concepticon test``` in the command line?
-8. Have you computed the new statistics, by typing ```$ concepticon stats``` and commited the files [```concepticondata/README.md```](https://github.com/concepticon/concepticon-data/blob/master/concepticondata/README.md) and [```concepticondata/conceptlists/README.md```](https://github.com/concepticon/concepticon-data/blob/master/concepticondata/conceptlists/README.md)? (AT: Might be deleted due to our new convention of updateing after around 10 newly added lists)
+7. Have you tested your modifications by typing ```concepticon test``` in the command line?
 
 In brief, whenever you add a new concept list, you could use the following check-list:
 
@@ -105,12 +111,9 @@ In brief, whenever you add a new concept list, you could use the following check
 * [ ] metadata in ```concepticondata/conceptlists.tsv``` edited?
 * [ ] references in ```concepticondata/references/references.bib``` added?
 * [ ] new concept sets added?
-* [ ] source file in PDF? (AT: see above)
+* [ ] source file in PDF?
 * [ ] thank and acknowledge contributors?
-* [ ] tested the code?
-* [ ] computed and committed new statistics? (AT: see above)
-
-
+* [ ] tested the code? (`concepticon test`)
 
 ## Testing 
 
