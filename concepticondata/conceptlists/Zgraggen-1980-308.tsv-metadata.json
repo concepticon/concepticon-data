@@ -42,13 +42,20 @@
                     {
                         "datatype": "string",
                         "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        },
+                        "name": "ORIGINAL_NUMBER"
                     }
                 ],
                 "primaryKey": [
                     "ID"
                 ]
             },
-            "url": "Zgraggen-1980-380.tsv"
+            "url": "Zgraggen-1980-308.tsv"
         }
     ]
 }
