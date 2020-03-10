@@ -131,6 +131,7 @@
 - [Urban2011 [PDF 103.6KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-0786-4F79-1847-0/Urban2011.pdf)
 - [Voorhoeve1971 [PDF 637.7KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-CB16-8DFD-561C-0/Voorhoeve1971.pdf)
 - [Voorhoeve1975 [PDF 213.8KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-D4F1-54BA-E96C-0/Voorhoeve1975.pdf)
+- [Walker2011 [PDF 1.3MB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-150A-F0E3-7D03-0/Walker2011.pdf)
 - [Wang1960 [PDF 543.7KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-9A8E-8CF2-FADD-0/Wang1960.pdf)
 - [Wang2004 [PDF 100.1KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-472C-3E8F-947D-0/Wang2004.pdf)
 - [Wichmann2010 [PDF 71.4KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-0EC6-F0E1-E6BD-0/Wichmann2010.pdf)
