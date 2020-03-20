@@ -41,19 +41,27 @@
                     },
                     {
                         "datatype": "string",
+                        "name": "GLOSS"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "https://glottolog.org/resource/languoid/id/stan1293",
                         "name": "ENGLISH"
                     },
                     {
                         "datatype": "string",
-                        "name": "RUSSIAN_COUNTER"
+                        "propertyUrl": "https://glottolog.org/resource/languoid/id/russ1263",
+                        "name": "RUSSIAN"
                     },
                     {
                         "datatype": "string",
-                        "name": "GERMAN_COUNTER"
+                        "propertyUrl": "https://glottolog.org/resource/languoid/id/stan1295",
+                        "name": "GERMAN"
                     },
                     {
                         "datatype": "string",
-                        "name": "ENGLISH_COUNTER"
+                        "propertyUrl": "https://glottolog.org/resource/languoid/id/mand1415",
+                        "name": "MANDARIN"
                     },
                     {
                         "datatype": "string",
