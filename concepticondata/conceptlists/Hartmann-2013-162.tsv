@@ -14,7 +14,7 @@ Hartmann-2013-162-12	12	BE FAR FROM THE TRUTH			His reasoning is far from the tr
 Hartmann-2013-162-13	13	BE GLAD			The woman is glad.	A is glad.	New meaning	be-glad
 Hartmann-2013-162-14	14	BE HUNGRY	1533	BE HUNGRY	The baby is hungry.	E is hungry	Core list	be-hungry
 Hartmann-2013-162-15	15	BE ILL	1847	SICK	The little boy is sick.	S is sick	Old meaning	be-ill
-Hartmann-2013-162-16	16	BE NAMED			The man was named Peter.	S is named X	New meaning	be-named
+Hartmann-2013-162-16	16	BE NAMED	180	CALL BY NAME	The man was named Peter.	S is named X	New meaning	be-named
 Hartmann-2013-162-17	17	BE NEEDED	2339	NEED (SOMETHING)	This is severely needed.	S is needed	New meaning	be-needed
 Hartmann-2013-162-18	18	BE SAD	699	SAD	The little girl was sad.	E is sad	Core list	be-sad
 Hartmann-2013-162-19	19	BE SAD ABOUT			The man is sad about his loss.	E is sad about S	New meaning	be-sad-about
@@ -45,7 +45,7 @@ Hartmann-2013-162-43	43	CRAM			The boy crammed peanuts into his mouth.	X crams Y
 Hartmann-2013-162-44	44	CROSS			The boys crossed the road.	X crosses Y	New meaning	cross
 Hartmann-2013-162-45	45	CRY	1839	CRY	The baby is crying.	S cries	Old meaning	cry
 Hartmann-2013-162-46	46	CRY ABOUT			The woman cries about her loss.	A cries about X	New meaning	cry-about
-Hartmann-2013-162-47	47	CUT	1432	CUT	The woman cut the bread with a sharp knife.	A cuts P (with I)	Core list	cut
+Hartmann-2013-162-47	47	CUT	2156	CUT (WITH KNIFE)	The woman cut the bread with a sharp knife.	A cuts P (with I)	Core list	cut
 Hartmann-2013-162-48	48	DESERVE			The woman deserves credit.	A deserves P	New meaning	deserve
 Hartmann-2013-162-49	49	DIE	1494	DIE	The snake died.	S dies	Core list	die
 Hartmann-2013-162-50	50	DIG	1418	DIG	The woman is digging for potatoes.	A digs (for X)	Extended list	dig
@@ -81,11 +81,11 @@ Hartmann-2013-162-79	79	GRIND	1033	GRIND	The women ground the seeds (with mortar
 Hartmann-2013-162-80	80	HAVE AN INTUITION			The woman has the intuition that it will rain.	A has the intiontion that P	New meaning	have-an-intuition
 Hartmann-2013-162-81	81	HEAR	1408	HEAR	The boy heard the bear.	E hears M	Extended list	hear
 Hartmann-2013-162-82	82	HELP	1897	HELP	I helped the boys.	A helps X	Core list	help
-Hartmann-2013-162-83	83	HIDE	2485	HIDE (ONESELF)	The boy hid the frog from his mother.	A hides T (from X)	Core list	hide
+Hartmann-2013-162-83	83	HIDE	602	HIDE (CONCEAL)	The boy hid the frog from his mother.	A hides T (from X)	Core list	hide
 Hartmann-2013-162-84	84	HIT	1433	HIT	The boy hit the snake with a stick.	A hits P (with I)	Core list	hit
 Hartmann-2013-162-85	85	HUG	928	EMBRACE	The mother hugged her little boy.	A hugs P	Core list	hug
 Hartmann-2013-162-86	86	HUNT (FOR)	1435	HUNT	The man hunts for deer.	X hunts (for) Y	Old meaning	hunt-for
-Hartmann-2013-162-87	87	HURT			The man hurts his hand.	A hurts X	New meaning	hurt
+Hartmann-2013-162-87	87	HURT	44	INJURE	The man hurts his hand.	A hurts X	New meaning	hurt
 Hartmann-2013-162-88	88	JUMP	1829	JUMP	The girl jumped.	A jumps	Core list	jump
 Hartmann-2013-162-89	89	JUMP OVER			The boy jumped over the fence.	A jumps over X	New meaning	jump-over
 Hartmann-2013-162-90	90	KILL	1417	KILL	The man killed his enemy with a club.	A kills P (with I)	Core list	kill
@@ -96,7 +96,7 @@ Hartmann-2013-162-94	94	LEARN	504	LEARN	The girl learnt the song.	A learns P	New
 Hartmann-2013-162-95	95	LEAVE	1752	LEAVE	The boy left the village.	A left L	Core list	leave
 Hartmann-2013-162-96	96	LIKE	1117	LIKE	The boy liked his new toy.	E likes M	Core list	like
 Hartmann-2013-162-97	97	LISTEN	1608	LISTEN	The boy listened to the music.	E listens to M.	New meaning	listen
-Hartmann-2013-162-98	98	LIVE	1422	BE ALIVE	The old people live in town.	S lives somewhere (L)	Core list	live
+Hartmann-2013-162-98	98	LIVE	363	DWELL (LIVE, RESIDE)	The old people live in town.	S lives somewhere (L)	Core list	live
 Hartmann-2013-162-99	99	LOAD	3669	LOAD (SOMETHING)	The farmer loaded hay onto the truck. = The farmer loaded the truck with hay.	A loads T (onto L)	Core list	load
 Hartmann-2013-162-100	100	LONG FOR	3473	LONG (FOR SOMETHING)	The teacher longs for coffee.	A longs for P	New meaning	long-for
 Hartmann-2013-162-101	101	LOOK AT	1819	LOOK	The boy looked at the girl.	A looks at P	Core list	look-at
@@ -159,5 +159,5 @@ Hartmann-2013-162-157	157	TOUCH	1892	TOUCH	The boy touched the snake with a stic
 Hartmann-2013-162-158	158	TWINKLE	2889	TWINKLE	Stars twinkle.	X twinkle	New meaning	twinkle
 Hartmann-2013-162-159	159	WANT	1784	WANT	The monkey wanted a banana.	A wants X	Old meaning	want
 Hartmann-2013-162-160	160	WASH	1453	WASH	The mother washed the baby.	A washes P	Core list	wash
-Hartmann-2013-162-161	161	WINK			The boy winked at his favorite girl.	A winks at X	New meaning	wink
+Hartmann-2013-162-161	161	WINK	1655	BLINK	The boy winked at his favorite girl.	A winks at X	New meaning	wink
 Hartmann-2013-162-162	162	WIPE	1454	WIPE	The women wiped dirt off the table.	A wipes T (off X)	Extended list	wipe
