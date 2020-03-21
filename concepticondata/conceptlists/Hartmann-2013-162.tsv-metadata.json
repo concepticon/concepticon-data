@@ -1,0 +1,90 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dialect": {
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        },
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        },
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": 1
+                        },
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "GLOSS"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "https://glottolog.org/resource/languoid/id/stan1293",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "https://glottolog.org/resource/languoid/id/russ1263",
+                        "name": "RUSSIAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "https://glottolog.org/resource/languoid/id/stan1295",
+                        "name": "GERMAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "https://glottolog.org/resource/languoid/id/mand1415",
+                        "name": "MANDARIN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "typical_context"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "role_frame"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "meaning_list"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "label_for_url"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "Hartmann-2013-162.tsv"
+        }
+    ]
+}
