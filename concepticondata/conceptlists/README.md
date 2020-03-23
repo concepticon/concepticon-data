@@ -61,7 +61,7 @@
 | [Chacon-2014-142](Chacon-2014-142.tsv) | 128 | 90 | 3 |
 | [Chacon-2017-102](Chacon-2017-102.tsv) | 102 | 100 | 2 |
 | [Chacon-2017-129](Chacon-2017-129.tsv) | 126 | 97 | 0 |
-| [Chan-2019-95](Chan-2019-95.tsv) | 95 | 100 | 0 |
+| [Chan-2019-102](Chan-2019-102.tsv) | 102 | 100 | 0 |
 | [Chen-1996-100a](Chen-1996-100a.tsv) | 100 | 100 | 0 |
 | [Chen-1996-100b](Chen-1996-100b.tsv) | 100 | 100 | 0 |
 | [Chen-1996-200](Chen-1996-200.tsv) | 200 | 100 | 0 |
@@ -75,6 +75,7 @@
 | [Cysouw-2006-110](Cysouw-2006-110.tsv) | 110 | 100 | 0 |
 | [Daniels-2016-85](Daniels-2016-85.tsv) | 85 | 100 | 0 |
 | [Davies-1985-116](Davies-1985-116.tsv) | 116 | 100 | 0 |
+| [Davletshin-2012-100](Davletshin-2012-100.tsv) | 100 | 100 | 0 |
 | [Dawson-1887-731](Dawson-1887-731.tsv) | 472 | 64 | 6 |
 | [Deepadung-2015-100](Deepadung-2015-100.tsv) | 100 | 100 | 0 |
 | [Dellert-2017-1016](Dellert-2017-1016.tsv) | 956 | 94 | 2 |
@@ -109,6 +110,7 @@
 | [Gudschinsky-1956-200](Gudschinsky-1956-200.tsv) | 200 | 100 | 0 |
 | [Hale-1961-100](Hale-1961-100.tsv) | 100 | 100 | 0 |
 | [Hale-1973-1798](Hale-1973-1798.tsv) | 1294 | 71 | 92 |
+| [Hartmann-2013-162](Hartmann-2013-162.tsv) | 122 | 75 | 1 |
 | [Haspelmath-2009-1460](Haspelmath-2009-1460.tsv) | 1459 | 99 | 1 |
 | [Hattori-1961-236](Hattori-1961-236.tsv) | 236 | 100 | 0 |
 | [Hattori-1973-200](Hattori-1973-200.tsv) | 200 | 100 | 0 |
@@ -305,6 +307,7 @@
 | [Yakhontov-1991-35](Yakhontov-1991-35.tsv) | 35 | 100 | 0 |
 | [Yakhontov-1991-65](Yakhontov-1991-65.tsv) | 65 | 100 | 0 |
 | [Yang-2011-1014](Yang-2011-1014.tsv) | 884 | 87 | 10 |
+| [Yao-2017-1100](Yao-2017-1100.tsv) | 290 | 26 | 3 |
 | [Youn-2016-22](Youn-2016-22.tsv) | 22 | 100 | 0 |
 | [Zettersten-2020-16b](Zettersten-2020-16b.tsv) | 13 | 81 | 1 |
 | [Zettersten-2020-24a](Zettersten-2020-24a.tsv) | 20 | 83 | 7 |
@@ -313,5 +316,5 @@
 | [Zorc-1974-100](Zorc-1974-100.tsv) | 100 | 100 | 0 |
 | [vanderWouw-1974-28](vanderWouw-1974-28.tsv) | 28 | 100 | 0 |
 
-(310 rows)
+(313 rows)
 
