@@ -395,7 +395,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 394	SHAMAN (FOLK HEALER)	Religion and belief	A traditional (prescientific) faith healer; a member of certain tribal societies who acts as a religious medium between the concrete and spirit worlds.	Person/Thing	
 395	PILL	Modern world	A small, usually cylindrical object designed for easy swallowing, usually containing some sort of medication.	Person/Thing	
 396	TABLET	Modern world	A pill; a small, easily swallowed portion of a substance.	Person/Thing	395
-397	BIRTH CERTIFICATE	Modern world	official document certifying the details of a person's birth. Name, date, and parents' names are always included; details such as parents' occupation and religion may be included.	Person/Thing	
+397	BIRTH CERTIFICATE	Modern world	Official document certifying the details of a person's birth. Name, date, and parents' names are always included; details such as parents' occupation and religion may be included.	Person/Thing	
 398	PIERCE	Basic actions and technology	To tab something through something else.	Action/Process	
 399	PLANTAIN	Agriculture and vegetation	A kind of banana that is normally cooked and not eaten raw.	Person/Thing	
 400	MUSH	The physical world	Soaked clay or soil; very soft ground.	Person/Thing	
@@ -963,7 +963,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 962	WOMAN	Kinship	An adult human member of the sex that produces ova and bears young.	Person/Thing	
 963	BOOK	Speech and language	A collection of leaves of paper, parchment or other material, usually bound or fastened together within covers, containing writing of any type or blank pages for future inscription.	Person/Thing	
 964	WOOL	Clothing and grooming	The soft, curly hair that forms the fleece of sheep, lamas and other animals and which is used to produce clothing.	Person/Thing	
-965	WORLD	The physical world	The Earth with all its inhabitants and all things upon it.	Person/Thing	
+965	WORLD	The physical world	The earth with all its inhabitants and all things upon it.	Person/Thing	
 966	BRAKE	Modern world	Decelerate using a mechanical device.	Action/Process	
 967	YEAST	Food and drink	Many species of unicellular fungi, most of which belong to the Ascomycetes and reproduce by budding. The genus Saccharomyces is used in brewing and winemaking because in low oxygen concentration it produces zymase, an enzyme system that breaks down sugars to alcohol and carbon dioxide. Saccharomyces is also used in bread-making. Some yeasts are used as a source of protein and of vitamins of the B group. (Source: ALL)	Person/Thing	
 968	ACORN	Agriculture and vegetation	Fruit of the oak tree.	Person/Thing	
@@ -1128,8 +1128,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1127	SEND	Motion	To make something (an object, a message) go from one place to another.	Action/Process	
 1128	ORDER	Basic actions and technology	To order someone or several persons by a superior authority to do something, or to arrange something in a tidy manner.	Action/Process	
 1129	PAINFUL	Sense perception	Full of pain; causing uneasiness or distress, either physical or mental.	Property	
-1130	WE (EXCLUSIVE)	Kinship	exclusive “we”: I and at least one other person, but not the addressed person (you) (pronoun 1st person plural without 2nd person)	Other	
-1131	WE (INCLUSIVE)	Kinship	inclusive “we”: I and at least one other person, including the addressed person(s) (pronoun 1st person plural with 2nd person)	Other	
+1130	WE (EXCLUSIVE)	Kinship	Exclusive “we”: I and at least one other person, but not the addressed person (you) (pronoun 1st person plural without 2nd person)	Other	
+1131	WE (INCLUSIVE)	Kinship	Inclusive “we”: I and at least one other person, including the addressed person(s) (pronoun 1st person plural with 2nd person)	Other	
 1132	BEAM	The house	A structural member loaded on its narrow face, and typically used in a horizontal or sloping position to span between bearing points.	Person/Thing	
 1133	MATCH	The physical world	A stick with inflammable substance on one end that can be set on fire by friction.	Person/Thing	
 1134	DIVORCE	Kinship	Legal dissolution of a marriage.	Person/Thing	
@@ -1150,12 +1150,12 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1149	ORPHAN	Kinship	A person one or both of whose parents have died, especially a minor.	Person/Thing	
 1150	THUNDER	The physical world	Sound produced by fast air expansion induced by a lightning.	Person/Thing	
 1151	VEIL	Clothing and grooming	A head covering.	Person/Thing	
-1152	BEGET	The body	(especially of a male parent) to procreate or generate.	Action/Process	
+1152	BEGET	The body	(Especially of a male parent) to procreate or generate.	Action/Process	
 1153	CATTLE	Animals	Domesticated bovine animals, including cows, steers and bulls, raised and bred on a ranch or farm.	Person/Thing	
 1154	OLIVE	Food and drink	The small oval fruit of the olive tree, Olea europaea.	Person/Thing	
 1155	CAVE	The physical world	1) An underground hollow with access from the ground surface or from the sea, often found in limestone areas and on rocky coastlines.2) A natural cavity, chamber or recess which leads beneath the surface of the earth, generally in a horizontal or obliquely inclined direction. It may be in the form of a passage or a gallery, its shape depending in part on the joint pattern or structure of the rock and partly on the type of process involved in its excavation. Thus, caves worn by subterranean rivers may be different in character from, and of considerably greater extent than, a sea-cave eroded by marine waves.3) A natural underground open space, generally with a connection to the surface and large enough for a person to enter. The most common type of cave is formed in a limestone by dissolution. (Source: CED /  WHIT /  BJGEO)	Person/Thing	
 1156	OPEN	Spatial relations	To make the inside something accessible by moving an obstacle aside (e.g. a door or covering), or to move said obstacle.	Action/Process	
-1157	BECAUSE	Cognition	conjunction initiating a causal phrase.	Other	
+1157	BECAUSE	Cognition	Conjunction initiating a causal phrase.	Other	
 1158	STEP	The house	A flat surface or support that facilitates the ascent or descent of a stairway or step-ladder.	Person/Thing	
 1159	FART	The body	To emit digestive gases through the anus.	Action/Process	
 1160	THIEF	Law	Someone who takes property belonging to someone else with the intention of keeping it or selling it.	Person/Thing	
@@ -1236,8 +1236,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1235	WHO	Cognition	What person or people; which person or people.	Other	
 1236	WHAT	Cognition	Which thing.	Other	
 1237	WHERE	Cognition	At what place?	Other	
-1238	WHEN	Cognition	at what time	Other	
-1239	HOW	Cognition	In what way.	Other	
+1238	WHEN	Cognition	At what time?	Other	
+1239	HOW	Cognition	In what way?	Other	
 1240	NOT	Miscellaneous function words	Negates the meaning of the modified verb or adjective.	Other	
 1241	SOME	Quantity	An unspecified quantity or number of.	Other	
 1242	FEW	Quantity	More than one, but not as many as usual or as expected.	Other	
@@ -1463,7 +1463,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1462	POT	Food and drink	A vessel used for cooking or storing food or liquids.	Person/Thing	
 1463	DRUNK	The body	Being in a temporary state in which one's physical and mental faculties are impaired due to excessive consumption of alcohol.	Property	
 1464	LADDER	The house	A frame usually portable, of wood, metal, or rope, for ascent and descent, consisting of two vertical side pieces to which are horizontally fastened cross strips or rounds forming steps.	Person/Thing	
-1465	BOX	Modern world	A generic manmade object with space in it (commonly made of cardboard or wood) that is used to keep and store many various different objects.	Person/Thing	
+1465	BOX	Modern world	A generic man-made object with space in it (commonly made of cardboard or wood) that is used to keep and store many various different objects.	Person/Thing	
 1466	EXACT	Emotions and values	Without diversion from the desired or agreed specification; neither exceeding nor failling short in any way.	Property	
 1467	CIRCLE	Spatial relations	A two-dimensional, geometric shape that is made up of every point on a plane which is equidistant from the centre. May be drawn with a pair of compasses.	Person/Thing	
 1468	LOOK FOR	Possession	To try to find something.	Action/Process	
@@ -1662,7 +1662,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1661	STRAIT	The physical world	A narrow body of water connecting two larger bodies of water.	Person/Thing	
 1662	CAPE	The physical world	A piece of land extending into water.	Person/Thing	
 1663	BED	The house	A piece of furniture, made for a person to sleep on.	Person/Thing	
-1664	RAFT	Motion	a collection of logs, planks, casks, etc., fastened together for floating on water.	Person/Thing	
+1664	RAFT	Motion	A collection of logs, planks, casks, etc., fastened together for floating on water.	Person/Thing	
 1665	BEAT	Basic actions and technology	To strike or pound repeatedly, usually in some sort of rhythm.	Action/Process	
 1666	MUTE	The body	Not making a sound.	Property	
 1667	HOLE	Spatial relations	A, often round, piece of nothingness in some solid.	Person/Thing	
@@ -1717,7 +1717,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1716	FORTY	Quantity	The natural number forty (40).	Number	
 1717	FIFTY	Quantity	The natural number fifty (50).	Number	
 1718	SIXTY	Quantity	The natural number sixty (60).	Number	
-1719	BURY	The body	to put in the ground and cover with earth.	Action/Process	
+1719	BURY	The body	To put in the ground and cover with earth.	Action/Process	
 1720	SIGN	Speech and language	Feature element which permits to refer to anything or any person.	Person/Thing	
 1721	SEVENTY	Quantity	The natural number seventy (70).	Number	
 1722	EIGHTY	Quantity	The natural number eighty (80).	Number	
@@ -1883,7 +1883,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1882	BEFORE	Time	At a time before that.	Other	
 1883	IN FRONT OF	Spatial relations	In front of in space	Other	
 1884	HARD	Sense perception	Resistant to pressure.	Property	
-1885	ARMADILLO	Animals	(family Dasypodidae) Burrowing chiefly nocturnal mammal with body covered with strong horny plates.	Person/Thing	
+1885	ARMADILLO	Animals	(Family Dasypodidae) Burrowing chiefly nocturnal mammal with body covered with strong horny plates.	Person/Thing	
 1886	ARMPIT	The body	The hollow under the upper part of the arm at the shoulder.	Person/Thing	
 1887	CHEAP	Possession	Low in price.	Property	
 1888	PAIR	Quantity	Two similar or identical things taken together.	Person/Thing	
@@ -1929,7 +1929,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1928	CEASE	Time	To have an end, in a temporal, spatial, or quantitative sense; either spatial or metaphorical.	Action/Process	
 1929	STUDY	Cognition	To follow a course of study; to be enrolled at an institute of learning.	Action/Process	
 1930	RAVINE	The physical world	A deep narrow valley or gorge in the earth's surface worn by running water.	Person/Thing	
-1931	BEESWAX	Animals	a yellowish or dark brown wax secreted by honeybees for constructing honeycombs.	Person/Thing	
+1931	BEESWAX	Animals	A yellowish or dark brown wax secreted by honeybees for constructing honeycombs.	Person/Thing	
 1932	GUESS	Cognition	To suppose, to estimate or to make a surmise.	Action/Process	
 1933	LOOSEN	Basic actions and technology	To make undone or untied ; to free from any fastening.	Action/Process	
 1934	BEGGAR	Possession	A person who begs.	Person/Thing	
@@ -2064,7 +2064,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2063	CLOSE (EYES)	Basic actions and technology	Move ones eyelids in such a way that the eyes are no longer visible.	Action/Process	
 2064	SCATTER (SEEDS)	Basic actions and technology	To distribute seeds over a field.	Action/Process	
 2065	STEP (VERB)	Basic actions and technology	To move the foot in walking; to advance or recede by raising and moving one of the feet to another resting place, or by moving both feet in succession.	Action/Process	
-2066	PULL UP (RICE SEEDLINGS)	Basic actions and technology		Action/Process	
+2066	PULL UP (RICE SEEDLINGS)	Basic actions and technology	To remove the roots of a rice plant.	Action/Process	
 2067	STEAM (VERB)	Food and drink	A method of cooking using steam.	Action/Process	
 2068	BRAISE (VERB)	Food and drink	A method of cooking using steam that avoids overcooking or burning food.	Action/Process	
 2069	SOAK (VERB)	Food and drink	To put into water in order to soften something, e.g. seeds.	Action/Process	
@@ -2078,19 +2078,19 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2077	DILIGENT	Emotions and values	Being busy-working.	Property	
 2078	TEN THOUSAND	Quantity	The natural number ten thousand (10000).	Number	
 2079	CUNNING PERSON	Emotions and values	A smart and witty person.	Person/Thing	
-2080	BOWL (CLASSIFIER)	Quantity	classifier for bowl-like objects	Classifier	
-2081	CHICKEN (CLASSIFIER)	Quantity	classifier for bird-like animals	Classifier	
-2082	KNIFE (CLASSIFIER)	Quantity	classifier for knife-like objects	Classifier	
-2083	AXE (CLASSIFIER)	Quantity	classifier for axe-like objects	Classifier	
-2084	ROPE (CLASSIFIER)	Quantity	classifier for rope-like objects	Classifier	
-2085	STICK (CLASSIFIER)	Quantity	classifier for stick-like objects	Classifier	
-2086	GRAIN (CLASSIFIER)	Quantity	classifier for tiny objects, like rice	Classifier	
-2087	DROP (CLASSIFIER)	Quantity	classifier for small units of liquid, like water	Classifier	
-2088	CLOTHING (CLASSIFIER)	Quantity	classifier for things that one wears	Classifier	
-2089	PAIR (CLASSIFIER)	Quantity	classifier for objects that occur in pairs	Classifier	
+2080	BOWL (CLASSIFIER)	Quantity	Classifier for bowl-like objects	Classifier	
+2081	CHICKEN (CLASSIFIER)	Quantity	Classifier for bird-like animals	Classifier	
+2082	KNIFE (CLASSIFIER)	Quantity	Classifier for knife-like objects	Classifier	
+2083	AXE (CLASSIFIER)	Quantity	Classifier for axe-like objects	Classifier	
+2084	ROPE (CLASSIFIER)	Quantity	Classifier for rope-like objects	Classifier	
+2085	STICK (CLASSIFIER)	Quantity	Classifier for stick-like objects	Classifier	
+2086	GRAIN (CLASSIFIER)	Quantity	Classifier for tiny objects, like rice	Classifier	
+2087	DROP (CLASSIFIER)	Quantity	Classifier for small units of liquid, like water	Classifier	
+2088	CLOTHING (CLASSIFIER)	Quantity	Classifier for things that one wears	Classifier	
+2089	PAIR (CLASSIFIER)	Quantity	Classifier for objects that occur in pairs	Classifier	
 2090	MY	Possession	Belonging to me.	Other	
-2091	YOUR	Possession	belonging to the second person that is addressed by the first person	Other	732
-2092	HIS OR HER	Possession	belonging to the third person that is addressed	Other	
+2091	YOUR	Possession	Belonging to the second person that is addressed by the first person	Other	732
+2092	HIS OR HER	Possession	Belonging to the third person that is addressed	Other	
 2093	AFTERWARDS	Time	Later or after something else has happened or happens.	Other	
 2094	DOWN OR BELOW	Spatial relations	Moving from a higher position to a lower one, or being at a lower position.	Other	
 2095	FAT (FOR NOURISHMENT)	Food and drink	Soft liquid retrieved from animals or plant and used for cooking.	Person/Thing	
@@ -2346,7 +2346,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2345	LEPORID (RABBIT OR HARE)	Animals	Mammal of the family hares and rabbits (Leporidae) with long ears, short tail and hindlegs which are shorter than the forelegs and permit running quickly.	Person/Thing	
 2346	CRESTED MYNA	Animals	A species of starling native to southeastern China and Indochina.	Person/Thing	
 2347	YELLOW CROAKER	Animals	A species of croaker native to the western Pacific, generally in temperate waters such as the East China Sea and the Yellow Sea.	Person/Thing	
-2348	CRAB	Animals	"Decapod crustaceans of the infraorder Brachyura, which typically have a very short projecting ""tail"" (abdomen) (Greek: βραχύς / brachys = short, οὐρά / οura = tail), usually entirely hidden under the thorax."	Person/Thing	
+2348	CRAB	Animals	Decapod crustaceans of the infraorder Brachyura, which typically have a very short projecting "tail" (abdomen) (Greek: βραχύς / brachys = short, οὐρά / οura = tail), usually entirely hidden under the thorax.	Person/Thing	
 2349	SHRIMP	Animals	Refers to some decapod crustaceans, although the exact animals covered can vary. Used broadly, it may cover any of the groups with elongated bodies and a primarily swimming mode of locomotion – chiefly Caridea and Dendrobranchiata.	Person/Thing	
 2350	EARTHWORM	Animals	A tube-shaped, segmented worm found in the phylum Annelida.	Person/Thing	
 2351	SILKWORM	Animals	The larva or caterpillar of the domesticated silkmoth (Bombyx mori)	Person/Thing	
@@ -2543,7 +2543,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2542	HERB	Agriculture and vegetation	A flowering plant that is valued for its medical properties.	Person/Thing	
 2543	RAVEN	Animals	One of several larger-bodied members of the genus Corvus. These species do not form a single taxonomic group within the genus, but share similar characteristics and appearances that generally separate them from other crows.	Person/Thing	
 2544	SHEPHERD	Basic actions and technology	The person that watches over sheep.	Person/Thing	
-2545	HARROW (TOOL)	Agriculture and vegetation	an agricultural implement consisting of many spikes, tines or discs dragged across the soil.	Person/Thing	
+2545	HARROW (TOOL)	Agriculture and vegetation	An agricultural implement consisting of many spikes, tines or discs dragged across the soil.	Person/Thing	
 2546	BORDER	Social and political relations	The non-natural boundary of a region.	Person/Thing	
 2547	CITY	Modern world	A big village.	Person/Thing	
 2548	BARREL	Modern world	A cylindrical container for liquids and food.	Person/Thing	
@@ -3059,7 +3059,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3063	RAMIE	Agriculture and vegetation	A perennial shrub native to Eastern Asia, with broad leaves and clusters of greenish flowers.	Person/Thing	
 3064	RUST	Basic actions and technology	Any of various metallic coatings formed by corrosion, especially after oxidation in presence of water.	Person/Thing	
 3065	SADDLE	Basic actions and technology	A seat for an animal (especially horse) rider, secured by a girth.	Person/Thing	
-3066	SCARF OR TURBAN	Clothing and grooming	A garnment, usually consisting of a long piece of cloth, wound around the head or neck or shoulders.	Person/Thing	
+3066	SCARF OR TURBAN	Clothing and grooming	A garment, usually consisting of a long piece of cloth, wound around the head or neck or shoulders.	Person/Thing	
 3067	CLEAVER	Food and drink	A knife with a large and square blade used for cutting and mincing meat, especially by butchers.	Person/Thing	
 3068	COOL DOWN	The physical world	To cause a decrease in temperature of an object or space; to cause something to become cold.	Action/Process	
 3069	FALSE	Emotions and values	Not concurring with a given set of facts; fake; unreal.	Property	
