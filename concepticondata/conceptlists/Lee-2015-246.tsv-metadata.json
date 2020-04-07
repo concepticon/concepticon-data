@@ -33,6 +33,12 @@
                         "name": "ENGLISH"
                     },
                     {
+                        "dc:description": "gloss in KOREAN",
+                        "datatype": "string",
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/kore1280",
+                        "name": "KOREAN"
+                    },
+                    {
                         "datatype": {
                             "base": "integer",
                             "minimum": 1
