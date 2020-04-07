@@ -173,7 +173,7 @@ Snider-2004-1700-171	171	lean against (intr)	s'appuyer (contre)	3619	LEAN	7	1	4	
 Snider-2004-1700-172	172	bend down, stoop	se courber, se pencher	2761	BEND (ONESELF)	7	1	4	1	MAN'S PHYSICAL BEING	BODY STATES AND CONDITIONS	Body positions
 Snider-2004-1700-173	173	bow (as in greeting)	s'incliner (pour saluer)			7	1	4	1	MAN'S PHYSICAL BEING	BODY STATES AND CONDITIONS	Body positions
 Snider-2004-1700-174	174	(be) seated	(être) assis	1416	SIT	7	1	4	1	MAN'S PHYSICAL BEING	BODY STATES AND CONDITIONS	Body positions
-Snider-2004-1700-175	175	squat	s'accroupir	3163	SQUAT	7	1	4	1	MAN'S PHYSICAL BEING	BODY STATES AND CONDITIONS	Body positions
+Snider-2004-1700-175	175	squat	s'accroupir	296	CROUCH	7	1	4	1	MAN'S PHYSICAL BEING	BODY STATES AND CONDITIONS	Body positions
 Snider-2004-1700-176	176	kneel	s'agenouiller	66	KNEEL	7	1	4	1	MAN'S PHYSICAL BEING	BODY STATES AND CONDITIONS	Body positions
 Snider-2004-1700-177	177	(be) lying down	(être) couché, étendu	1411	LIE (REST)	7	1	4	1	MAN'S PHYSICAL BEING	BODY STATES AND CONDITIONS	Body positions
 Snider-2004-1700-178	178	(be) hot (of person)	(avoir) chaud			7	1	4	2	MAN'S PHYSICAL BEING	BODY STATES AND CONDITIONS	Body conditions
@@ -485,7 +485,7 @@ Snider-2004-1700-483	483	account (report) (n)	rapport, compte rendu			15	4	2	5	P
 Snider-2004-1700-484	484	embrace, hug (v)	embrasser, êtreindre	928	EMBRACE	15	4	3		PERSONAL INTERACTION	INTERPERSONAL CONTACT	
 Snider-2004-1700-485	485	caress (v)	caresser			15	4	3		PERSONAL INTERACTION	INTERPERSONAL CONTACT	
 Snider-2004-1700-486	486	kiss (v)	embrasser, donner un baiser	578	KISS	15	4	3		PERSONAL INTERACTION	INTERPERSONAL CONTACT	
-Snider-2004-1700-487	487	copulate, have sexual intercourse	faire l'amour, avoir des relations sexuelles	1785	HAVE SEX	15	4	3		PERSONAL INTERACTION	INTERPERSONAL CONTACT	
+Snider-2004-1700-487	487	copulate, have sexual intercourse	faire l'amour, avoir des relations sexuelles	549	COPULATE	15	4	3		PERSONAL INTERACTION	INTERPERSONAL CONTACT	
 Snider-2004-1700-488	488	nurse, suckle (baby) (tr)	téter, allaiter	2472	SUCKLE (BREASTFEED, NURSE)	15	4	3		PERSONAL INTERACTION	INTERPERSONAL CONTACT	
 Snider-2004-1700-489	489	tickle (v)	chatouiller	3647	TICKLE (SOMEBODY)	15	4	3		PERSONAL INTERACTION	INTERPERSONAL CONTACT	
 Snider-2004-1700-490	490	spank (child)	donner une fessée, fesser			15	4	3		PERSONAL INTERACTION	INTERPERSONAL CONTACT	
@@ -585,7 +585,7 @@ Snider-2004-1700-583	583	spoil (food) (intr)	pourrir, se gâter (aliments)	569	S
 Snider-2004-1700-584	584	mould (n)	moisissure	3251	MOLD (GET ROTTEN)	18	5	3	1	HUMAN CIVILISATION	FOOD AND DRINK	Food
 Snider-2004-1700-585	585	milk (n)	lait	635	MILK	18	5	3	2	HUMAN CIVILISATION	FOOD AND DRINK	Drink
 Snider-2004-1700-586	586	curdled milk	lait caillé			18	5	3	2	HUMAN CIVILISATION	FOOD AND DRINK	Drink
-Snider-2004-1700-587	587	alcohol (general)	alcool (général)	2050	ALCOHOL (DRINK)	18	5	3	2	HUMAN CIVILISATION	FOOD AND DRINK	Drink
+Snider-2004-1700-587	587	alcohol (general)	alcool (général)	404	ALCOHOL (FERMENTED DRINK)	18	5	3	2	HUMAN CIVILISATION	FOOD AND DRINK	Drink
 Snider-2004-1700-588	588	beer (traditional)	bière (traditionelle)	1639	BEER	18	5	3	2	HUMAN CIVILISATION	FOOD AND DRINK	Drink
 Snider-2004-1700-589	589	mead, honey beer	hydromel (bière de miel)	941	MEAD	18	5	3	2	HUMAN CIVILISATION	FOOD AND DRINK	Drink
 Snider-2004-1700-590	590	palm wine	vin de palme			18	5	3	2	HUMAN CIVILISATION	FOOD AND DRINK	Drink
@@ -964,7 +964,7 @@ Snider-2004-1700-962	962	steer	bouvillon, boeuf châtré			28	6	1	1	Animals	DOME
 Snider-2004-1700-963	963	calf	veau	1989	CALF	28	6	1	1	Animals	DOMESTIC ANIMALS	Bovines
 Snider-2004-1700-964	964	herd (of cattle)	troupeau (de boeufs)			28	6	1	1	Animals	DOMESTIC ANIMALS	Bovines
 Snider-2004-1700-965	965	goat	chèvre	1502	GOAT	28	6	1	2	Animals	DOMESTIC ANIMALS	Ovines and caprines
-Snider-2004-1700-966	966	he-goat, billy goat	bouc	264	HE-GOAT	28	6	1	2	Animals	DOMESTIC ANIMALS	Ovines and caprines
+Snider-2004-1700-966	966	he-goat, billy goat	bouc	2475	MALE GOAT	28	6	1	2	Animals	DOMESTIC ANIMALS	Ovines and caprines
 Snider-2004-1700-967	967	she-goat, nanny goat	chèvre (femelle)	2476	FEMALE GOAT	28	6	1	2	Animals	DOMESTIC ANIMALS	Ovines and caprines
 Snider-2004-1700-968	968	kid	cabri, chevreau	1972	KID	28	6	1	2	Animals	DOMESTIC ANIMALS	Ovines and caprines
 Snider-2004-1700-969	969	sheep	mouton	1331	SHEEP	28	6	1	2	Animals	DOMESTIC ANIMALS	Ovines and caprines
@@ -1348,7 +1348,7 @@ Snider-2004-1700-1346	1346	cold weather	temps froid	3694	COLD WEATHER	38	8	2	1	E
 Snider-2004-1700-1347	1347	light	lumière	630	LIGHT (RADIATION)	38	8	2	2	ENVIRONMENT	WEATHER TEMPS	Ambient conditions
 Snider-2004-1700-1348	1348	sunshine	lumière du soleil	3276	SUNSHINE	38	8	2	2	ENVIRONMENT	WEATHER TEMPS	Ambient conditions
 Snider-2004-1700-1349	1349	moonlight	claire de lune			38	8	2	2	ENVIRONMENT	WEATHER TEMPS	Ambient conditions
-Snider-2004-1700-1350	1350	shadow	ombre	2275	SHADOW	38	8	2	2	ENVIRONMENT	WEATHER TEMPS	Ambient conditions
+Snider-2004-1700-1350	1350	shadow	ombre	1388	SHADE	38	8	2	2	ENVIRONMENT	WEATHER TEMPS	Ambient conditions
 Snider-2004-1700-1351	1351	darkness	obscurité	11	DARKNESS	38	8	2	2	ENVIRONMENT	WEATHER TEMPS	Ambient conditions
 Snider-2004-1700-1352	1352	time	temps	892	TIME	38	8	3		ENVIRONMENT	TIME	
 Snider-2004-1700-1353	1353	now	maintenant	1376	NOW	38	8	3		ENVIRONMENT	TIME	
