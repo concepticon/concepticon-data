@@ -90,6 +90,7 @@ Sebastian Nicolai | CMS | 1.0
 Taraka Rama | MSDCG | 2.4
 Thiago Chacon | MSD | 1.0, 1.1, 2.3 
 Tiago Tresoldi | CTLG | 1.1, 1.2, 2.0, 2.1, 2.2, 2.3, 2.4
+Timotheus A. Bodt | CTP | 2.4
 Viola Kirchhoff da Cruz | CLS | 1.0 
 Wang Feng | D | 1.0
 Yunfan Lai | CTLG | 1.1
