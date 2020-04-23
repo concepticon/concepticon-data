@@ -398,7 +398,7 @@ ID	GLOSS	PRIORITY
 228	CARVE///tallar	2
 925	CASSAVA///mandioca, yuca	1
 925	CASSAVA///manioc	1
-925	CASSAVA///yuca	1
+925	CASSAVA///yuca	2
 211	CAST///fundir	1
 1208	CAT///GATO	1
 1208	CAT///Gato	1
@@ -541,6 +541,7 @@ ID	GLOSS	PRIORITY
 269	COOKED///cocido, cocinado	1
 334	COOKHOUSE///cocina (lugar)	1
 3653	COOKING POT///olla	3
+549	COPULATE///tener relaciones sexuales	1
 2240	CORAL SNAKE///coral	2
 449	CORN FIELD///chagra	1
 449	CORN FIELD///corn field	1
@@ -1055,7 +1056,6 @@ ID	GLOSS	PRIORITY
 771	HAT///sombrero	2
 3116	HATCH (OUT)///eclosionar	2
 1607	HATE///odiar	1
-1785	HAVE SEX///tener relaciones sexuales	1
 773	HAVE///tener	1
 307	HAWK///CERNÍCALO	1
 307	HAWK///gavilán, halcón	1
@@ -1369,7 +1369,6 @@ ID	GLOSS	PRIORITY
 2367	MANDARINE///MANDARINA	1
 324	MANIOC FLOUR///harina de yuca	2
 324	MANIOC FLOUR///manioc flour	1
-927	MANIOC///yuca	1
 488	MANNER///modo, manera	1
 1198	MANY///mucho	1
 1198	MANY///mucho(s)!!!, harto	1
@@ -1945,8 +1944,6 @@ ID	GLOSS	PRIORITY
 497	SCAR///cicatriz	1
 673	SCHOOL///Instituto	1
 673	SCHOOL///escuela, colegio	1
-1328	SCISSORS///TIJERAS	1
-1328	SCISSORS///tijeras	2
 299	SCOLD///reprender	1
 1538	SCORPION///ESCORPIÓN	1
 1538	SCORPION///alacrán	1
@@ -1997,7 +1994,8 @@ ID	GLOSS	PRIORITY
 2771	SHAWL///Chal	1
 1834	SHE///ella	2
 1532	SHEAR///trasquilar	2
-356	SHEARS///tijeras	1
+356	SHEARS///TIJERAS	1
+356	SHEARS///tijeras	3
 1331	SHEEP///OVEJA	1
 1331	SHEEP///Oveja	1
 1331	SHEEP///oveja	1
