@@ -34,8 +34,8 @@ ID	GLOSS	PRIORITY
 27	AIR///air	1
 27	AIR///air (respiré)	1
 1597	AIRPLANE///avion	1
-2050	ALCOHOL (DRINK)///alcool (général)	1
 404	ALCOHOL (FERMENTED DRINK)///alcool	1
+404	ALCOHOL (FERMENTED DRINK)///alcool (général)	1
 404	ALCOHOL (FERMENTED DRINK)///boisson fermentée	1
 98	ALL///chaque, tous	1
 98	ALL///tous	3
@@ -506,6 +506,8 @@ ID	GLOSS	PRIORITY
 702	CATCH///attraper	1
 702	CATCH///attraper (un objet dans l'air)	1
 2247	CATERPILLAR///chenille	2
+3777	CATFISH///poisson-chat, silure	1
+3777	CATFISH///silure	1
 1153	CATTLE///bétail	1
 1153	CATTLE///troupeau (boeufs, moutons)	1
 860	CAUSE///causer, provoquer	1
@@ -661,6 +663,8 @@ ID	GLOSS	PRIORITY
 3653	COOKING POT///marmite (en terre)	1
 1825	COPPER///Cuivre	1
 1825	COPPER///cuivre	1
+549	COPULATE///faire l'amour	1
+549	COPULATE///faire l'amour, avoir des relations sexuelles	1
 3686	CORN HUSK///enveloppe (de maïs)	1
 192	CORNER///coin	2
 767	CORPSE///cadavre	2
@@ -698,7 +702,7 @@ ID	GLOSS	PRIORITY
 297	CROOKED///courbé	1
 1367	CROSS///croix	1
 1367	CROSS///croix 	1
-296	CROUCH///s'accroupir	1
+296	CROUCH///s'accroupir	2
 2074	CROW (VERB)///chanter (p.ex. coq)	1
 913	CROW///Corneille	1
 913	CROW///corbeau	2
@@ -1389,8 +1393,6 @@ ID	GLOSS	PRIORITY
 3116	HATCH (OUT)///éclore	1
 1607	HATE///haïr	1
 1607	HATE///haïr, détester	1
-1785	HAVE SEX///faire l'amour	1
-1785	HAVE SEX///faire l'amour, avoir des relations sexuelles	1
 773	HAVE///avoir	2
 773	HAVE///avoir, posséder	1
 307	HAWK///faucon	1
@@ -1399,7 +1401,6 @@ ID	GLOSS	PRIORITY
 342	HAY///foin	1
 342	HAY///foin 	1
 262	HE OR SHE OR IT///il/elle/il	1
-264	HE-GOAT///bouc	1
 1211	HE///Il	1
 1211	HE///il (humain)	1
 1256	HEAD///(à la) tête	1
@@ -1798,7 +1799,7 @@ ID	GLOSS	PRIORITY
 3059	MALARIA///paludisme (la fièvre)	1
 2263	MALE (OF ANIMAL)///mâle	1
 2261	MALE (OF PERSON)///mâle	1
-2475	MALE GOAT///bouc	1
+2475	MALE GOAT///bouc	2
 1554	MAN///homme	5
 1554	MAN///homme (mâle)	2
 1918	MANE///crinière	1
@@ -2491,7 +2492,6 @@ ID	GLOSS	PRIORITY
 3066	SCARF OR TURBAN///écharpe	1
 3705	SCATTER///éparpiller, répandre	1
 673	SCHOOL///école	2
-1328	SCISSORS///ciseaux	1
 299	SCOLD///réprimander, gronder, blâmer	1
 1538	SCORPION///scorpion	4
 1767	SCRAPE///gratter, racler	1
@@ -2542,8 +2542,7 @@ ID	GLOSS	PRIORITY
 419	SEVERE///méchant	1
 1457	SEW///coudre	3
 1388	SHADE///Ombre	1
-1388	SHADE///ombre	1
-2275	SHADOW///ombre	1
+1388	SHADE///ombre	2
 1909	SHAKE///secouer	2
 1909	SHAKE///secouer, agiter	1
 193	SHALLOW///(être) peu profond	1
@@ -2565,7 +2564,7 @@ ID	GLOSS	PRIORITY
 231	SHAVE///raser	1
 231	SHAVE///se raser	1
 356	SHEARS///(des) ciseaux	1
-356	SHEARS///ciseaux	1
+356	SHEARS///ciseaux	2
 1331	SHEEP///Brebis	1
 1331	SHEEP///mouton	4
 745	SHELF///étagère	1
@@ -2813,7 +2812,6 @@ ID	GLOSS	PRIORITY
 2076	SPROUT (VERB)///apparaître, germer	1
 850	SQUARE///carré	2
 850	SQUARE///place 	1
-3163	SQUAT///s'accroupir	1
 3692	SQUEAK///grincer, crier	1
 1414	SQUEEZE///presser	2
 1628	SQUIRREL///écureuil	2
