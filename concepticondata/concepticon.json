@@ -18,7 +18,11 @@
         "specific": "A list that we deem specific, since it is not easy to compare with other lists in our sample.",
         "stable": "A list that is supposed to represent the stable part of a larger list. Usually, the stable part has an unstable counterpart.",
         "ultra-stable": "A usually very short list of the supposedly most stable concepts.",
-        "unstable": "A list that is supposed to represent the unstable part of a larger list. Usually has a stable counterpart."
+        "unstable": "A list that is supposed to represent the unstable part of a larger list. Usually has a stable counterpart.",
+        "norms": "A list that includes norms, for example, word frequuency counts.",
+        "ratings": "A list that includes user ratings and their mean values for psycholinguistic criteria, for example, concreteness, imageability, arousal, among others.",
+        "relations": "A list that illustrates relationships between concepts such as rankings, tags, or networks."
+
     },
     "SEMANTICFIELD": [
         "Agriculture and vegetation",
