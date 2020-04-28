@@ -49,18 +49,14 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "OLD_CHINESE"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "NOTE"
+                        "name": "REMARK"
                     }
                 ],
                 "primaryKey": [
                     "ID"
                 ]
             },
-            "url": "Zhang-2019-122.tsv"
+            "url": "Zhang-2019-308.tsv"
         }
     ]
 }
