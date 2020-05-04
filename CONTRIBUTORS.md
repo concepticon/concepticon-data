@@ -75,6 +75,7 @@ Julia Fischer | SDT | 1.0
 Kristina Pianykh | LP | 2.1
 Lars Borin | DL | 1.0 
 Magdalena Łuniewska | D | 1.1
+Marina Dalarossa | C | 2.4
 Martin Haspelmath | AD | 1.0  
 Maurizio Serva | MD | 1.1
 Mei-Shin Wu | CTLG | 1.2, 2.0, 2.1, 2.2
@@ -85,12 +86,15 @@ Nicholas Evans | A | 1.0
 Paul Heggarty | D | 1.0
 Quentin Atkinson | MD | 1.1
 Robert Blust | D | 1.0 
+Sandra Auderset | LG | 2.4
 Sean Lee | D | 1.0
-Sebastian Nicolai | CMS | 1.0  
+Sebastian Nicolai | CMS | 1.0
+Sylvia Li | C | 2.4
 Taraka Rama | MSDCG | 2.4
 Thiago Chacon | MSD | 1.0, 1.1, 2.3 
 Tiago Tresoldi | CTLG | 1.1, 1.2, 2.0, 2.1, 2.2, 2.3, 2.4
 Timotheus A. Bodt | CTP | 2.4
 Viola Kirchhoff da Cruz | CLS | 1.0 
-Wang Feng | D | 1.0Yue Chen | D | 
+Wang Feng | D | 1.0
+Yue Chen | C | 2.4
 Yunfan Lai | CTLG | 1.1
