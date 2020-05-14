@@ -6,13 +6,13 @@ Steinthal-1875-1565-4	4	Der Himmel ist klar, ist bedeckt.	Der Himmel ist bedeckt
 Steinthal-1875-1565-5	5	Luft	Luft	air	27	AIR
 Steinthal-1875-1565-6	6	Der Wind weht.	Der Wind weht.	The wind blows.	175	BLOW (OF WIND)
 Steinthal-1875-1565-7	7	Sturm	Sturm	storm	858	STORM
-Steinthal-1875-1565-8	8	Wirbelwind	Wirbelwind	tornado	2532	TORNADO
+Steinthal-1875-1565-8	8	Wirbelwind	Wirbelwind	whirlwind	3740	WHIRLWIND
 Steinthal-1875-1565-9	9	Die Sonne ist aufgegangen, untergegangen, brennt heiss.	Die Sonne ist aufgegangen.	The sun has risen.		
 Steinthal-1875-1565-10	10	Die Sonne ist aufgegangen, untergegangen, brennt heiss.	Die Sonne ist untergegangen.	The sun has set.		
 Steinthal-1875-1565-11	11	Die Sonne ist aufgegangen, untergegangen, brennt heiss.	Die Sonne brennt heiss.	The sun burns hot.		
 Steinthal-1875-1565-12	12	Mond	Mond	moon	1313	MOON
 Steinthal-1875-1565-13	13	Neumond	Neumond	new moon	3691	NEW MOON
-Steinthal-1875-1565-14	14	Es ist Mondfinsterniss.	Es ist Mondfinsterniss.	A lunar eclipse occurs.	2285	ECLIPSE
+Steinthal-1875-1565-14	14	Es ist Mondfinsterniss.	Es ist Mondfinsterniss.	A lunar eclipse occurs.		
 Steinthal-1875-1565-15	15	Sterne	Sterne	stars	1430	STAR
 Steinthal-1875-1565-16	16	Komet	Komet	comet		
 Steinthal-1875-1565-17	17	Sternschnuppe	Sternschnuppe	shooting star	2835	SHOOTING STAR
@@ -45,7 +45,7 @@ Steinthal-1875-1565-43	43	Mittag	Mittag	noon	12	MIDDAY
 Steinthal-1875-1565-44	44	Abend	Abend	evening	1629	EVENING
 Steinthal-1875-1565-45	45	Morgenroth	Morgenroth	dawn	729	DAWN
 Steinthal-1875-1565-46	46	Abendröthe	Abendröthe	dusk	2297	DUSK
-Steinthal-1875-1565-47	47	Es ist finster.	Es ist finster.	It is gloomy.	1552	GLOOMY
+Steinthal-1875-1565-47	47	Es ist finster.	Es ist finster.	It is gloomy.		
 Steinthal-1875-1565-48	48	Finsterniss	Finsternis	gloom		
 Steinthal-1875-1565-49	49	dunkel, -heit	dunkel	dark	706	DARK
 Steinthal-1875-1565-50	50	dunkel, -heit	Dunkelheit	darkness	11	DARKNESS
@@ -79,7 +79,7 @@ Steinthal-1875-1565-77	77	die Weltgegenden	Nordosten	northeast
 Steinthal-1875-1565-78	78	die Weltgegenden	Südosten	southeast		
 Steinthal-1875-1565-79	79	die Weltgegenden	Nordwesten	northwest		
 Steinthal-1875-1565-80	80	die Weltgegenden	Südwesten	southwest		
-Steinthal-1875-1565-81	81	Es ist kalt.	Es ist kalt.	It is cold.	2483	COLD (OF WEATHER)
+Steinthal-1875-1565-81	81	Es ist kalt.	Es ist kalt.	It is cold.	1287	COLD
 Steinthal-1875-1565-82	82	Kälte	Kälte	cold	2932	COLD (CHILL)
 Steinthal-1875-1565-83	83	Hitze	Hitze	heat	612	HEAT
 Steinthal-1875-1565-84	84	Erde (Welt)	Erde (Welt)	earth	965	WORLD
@@ -92,7 +92,7 @@ Steinthal-1875-1565-90	90	Oase	Oase	oasis
 Steinthal-1875-1565-91	91	Quelle	Quelle	spring of water	849	SPRING (OF WATER)
 Steinthal-1875-1565-92	92	Brunnen	Brunnen	well	954	WELL
 Steinthal-1875-1565-93	93	Wald	Wald	forest	420	FOREST
-Steinthal-1875-1565-94	94	Busch	Busch	bush	1683	BUSH
+Steinthal-1875-1565-94	94	Busch	Busch	bush		
 Steinthal-1875-1565-95	95	Berg	Berg	mountain	639	MOUNTAIN
 Steinthal-1875-1565-96	96	Gebirge	Gebirge	mountain range	2123	MOUNTAIN RIDGE
 Steinthal-1875-1565-97	97	Hügel	Hügel	hill	614	HILL
@@ -131,7 +131,7 @@ Steinthal-1875-1565-129	129	Staub	Staub	dust	2	DUST
 Steinthal-1875-1565-130	130	Schlamm	Schlamm	mud	640	MUD
 Steinthal-1875-1565-131	131	Salz	Salz	salt	1274	SALT
 Steinthal-1875-1565-132	132	Seife	Seife	soap	788	SOAP
-Steinthal-1875-1565-133	133	Baum fällen	Baum fällen	to fell a tree		
+Steinthal-1875-1565-133	133	Baum fällen	Baum fällen	to fell a tree	463	FELL (A TREE)
 Steinthal-1875-1565-134	134	Strauch	Strauch	shrub	751	SHRUB
 Steinthal-1875-1565-135	135	Rohr abschneiden	Rohr abschneiden	to cut reed		
 Steinthal-1875-1565-136	136	Gras	Gras	grass	606	GRASS
@@ -147,7 +147,7 @@ Steinthal-1875-1565-145	145	Rinde	Rinde	bark	1204	BARK
 Steinthal-1875-1565-146	146	Dorn	Dorn	thorn	124	THORN
 Steinthal-1875-1565-147	147	Die Frucht reift, ist noch nicht reif, faul.	Die Frucht reift.	The fruit ripens.	179	RIPEN
 Steinthal-1875-1565-148	148	Die Frucht reift, ist noch nicht reif, faul.	Die Frucht ist noch nicht reif.	The fruit is not ripe yet.	1958	UNRIPE
-Steinthal-1875-1565-149	149	Die Frucht reift, ist noch nicht reif, faul.	Die Frucht fault.	The fruit rots.		
+Steinthal-1875-1565-149	149	Die Frucht reift, ist noch nicht reif, faul.	Die Frucht fault.	The fruit rots.	2907	ROT
 Steinthal-1875-1565-150	150	Same	Same	seed	714	SEED
 Steinthal-1875-1565-151	151	Wurzel	Wurzel	root	670	ROOT
 Steinthal-1875-1565-152	152	Kartoffel	Kartoffel	potato	593	POTATO
@@ -162,7 +162,7 @@ Steinthal-1875-1565-160	160	Cacao	Cacao	cocoa	2442	COCOA BEAN
 Steinthal-1875-1565-161	161	Cocosnuss	Cocosnuss	coconut	970	COCONUT
 Steinthal-1875-1565-162	162	Beere	Beere	berry	904	BERRY
 Steinthal-1875-1565-163	163	Kern	Kern	pip	1762	STONE (OF FRUIT)
-Steinthal-1875-1565-164	164	Schale	Schale	peel		
+Steinthal-1875-1565-164	164	Schale	Schale	peel	2373	SKIN (OF FRUIT)
 Steinthal-1875-1565-165	165	schälen	schälen	to peel	275	PEEL
 Steinthal-1875-1565-166	166	Hülse	Hülse	husk	2363	CHAFF (HUSK)
 Steinthal-1875-1565-167	167	Fleisch der Früchte	Fleisch der Früchte	fruit pulp		
@@ -199,7 +199,7 @@ Steinthal-1875-1565-197	197	Schwein grunzt.	Schwein grunzt.	Pig grunts.
 Steinthal-1875-1565-198	198	Pferd wiehert.	Pferd wiehert.	Horse neighs.		
 Steinthal-1875-1565-199	199	Esel ist träge.	Esel ist träge.	Donkey is idle.		
 Steinthal-1875-1565-200	200	Maulthier	Maulthier	mule (female horse, male donkey)	890	MULE
-Steinthal-1875-1565-201	201	Maulesel	Maulesel	mule (male horse, female donkey)	890	MULE
+Steinthal-1875-1565-201	201	Maulesel	Maulesel	hinny (male horse, female donkey)		
 Steinthal-1875-1565-202	202	Zebra	Zebra	zebra	3675	ZEBRA
 Steinthal-1875-1565-203	203	Kameel	Kameel	camel	1871	CAMEL
 Steinthal-1875-1565-204	204	Elefant	Elefant	elephant	1290	ELEPHANT
@@ -214,7 +214,7 @@ Steinthal-1875-1565-212	212	Bär	Bär	bear	1820	BEAR
 Steinthal-1875-1565-213	213	Fuchs	Fuchs	fox	1312	FOX
 Steinthal-1875-1565-214	214	Wolf	Wolf	wolf	522	WOLF
 Steinthal-1875-1565-215	215	Rennthier	Rennthier	reindeer, caribou	1876	REINDEER
-Steinthal-1875-1565-216	216	Eber	Eber	boar	1348	BOAR (MALE PIG)
+Steinthal-1875-1565-216	216	Eber	Eber	boar	3154	WILD BOAR
 Steinthal-1875-1565-217	217	Hase	Hase	hare	1190	HARE
 Steinthal-1875-1565-218	218	Ratte	Ratte	rat	1490	RAT
 Steinthal-1875-1565-219	219	Maus	Maus	mouse	1491	MOUSE
@@ -269,14 +269,14 @@ Steinthal-1875-1565-267	267	Wurm	Wurm	worm	1219	WORM
 Steinthal-1875-1565-268	268	Seide	Seide	silk	1641	SILK
 Steinthal-1875-1565-269	269	Schnecke	Schnecke	snail	1543	SNAIL
 Steinthal-1875-1565-270	270	Auster	Auster	oyster	2830	OYSTERS
-Steinthal-1875-1565-271	271	Männchen	Männchen	male (of animals)	2263	MALE (OF ANIMAL)
-Steinthal-1875-1565-272	272	Weibchen	Weibchen	female (of animals)	2262	FEMALE (OF ANIMAL)
+Steinthal-1875-1565-271	271	Männchen	Männchen	male (of animals)		
+Steinthal-1875-1565-272	272	Weibchen	Weibchen	female (of animals)		
 Steinthal-1875-1565-273	273	Fleisch	Fleisch	flesh, meat	2615	FLESH OR MEAT
 Steinthal-1875-1565-274	274	Fett	Fett	fat	323	FAT (ORGANIC SUBSTANCE)
 Steinthal-1875-1565-275	275	Milch	Milch	milk	635	MILK
 Steinthal-1875-1565-276	276	Butter	Butter	butter	1245	BUTTER
 Steinthal-1875-1565-277	277	Käse	Käse	cheese	1569	CHEESE
-Steinthal-1875-1565-278	278	Haar	Haar	hair	2678	HAIR OR FUR
+Steinthal-1875-1565-278	278	Haar	Haar	fur	580	FUR
 Steinthal-1875-1565-279	279	Schwanz	Schwanz	tail	1220	TAIL
 Steinthal-1875-1565-280	280	Wolle	Wolle	wool	964	WOOL
 Steinthal-1875-1565-281	281	Fett	Fett	fat	1282	FAT (FROM ANIMALS)
@@ -368,7 +368,7 @@ Steinthal-1875-1565-366	366	Schwager, Schwägerin (meiner Frau Bruder, meiner Sc
 Steinthal-1875-1565-367	367	Schwager, Schwägerin (meiner Frau Bruder, meiner Schwester Mann; meines Bruders Frau; nennt eine Frau ihren Schwager und ihre Schwägerin ebenso? also ihres Mannes Bruder, ihrer Schwester Mann, ihres Bruders Frau)	Frau des eigenen Bruders	wife of one's brother		
 Steinthal-1875-1565-368	368	Greis	Greis	old man	406	OLD MAN
 Steinthal-1875-1565-369	369	alte Frau	alte Frau	old woman	907	OLD WOMAN
-Steinthal-1875-1565-370	370	Er ist alt.	Er ist alt.	He is old.		
+Steinthal-1875-1565-370	370	Er ist alt.	Er ist alt.	He is old.	2112	OLD (AGED)
 Steinthal-1875-1565-371	371	Er altert.	Er altert.	He is ageing.		
 Steinthal-1875-1565-372	372	Er bekommt graue Haare.	Er bekommt graue Haare.	He is greying.		
 Steinthal-1875-1565-373	373	Er ist gestorben, todt, alt geworden, nicht alt geworden, noch jung.	Er ist gestorben.	He died.		
@@ -389,7 +389,7 @@ Steinthal-1875-1565-387	387	Fleisch	Fleisch	flesh	2259	FLESH
 Steinthal-1875-1565-388	388	Blut	Blut	blood	946	BLOOD
 Steinthal-1875-1565-389	389	Adern	Adern	veins	1924	VEIN
 Steinthal-1875-1565-390	390	Haut	Haut	skin	763	SKIN
-Steinthal-1875-1565-391	391	Haar	Haar	hair	2648	HAIR (HEAD)
+Steinthal-1875-1565-391	391	Haar	Haar	hair	1040	HAIR
 Steinthal-1875-1565-392	392	Glied	Glied	limb		
 Steinthal-1875-1565-393	393	Kopf	Kopf	head	1256	HEAD
 Steinthal-1875-1565-394	394	Schädel	Schädel	skull	1605	SKULL
@@ -507,7 +507,7 @@ Steinthal-1875-1565-505	505	Salbe	Salbe	ointment	1926	OINTMENT
 Steinthal-1875-1565-506	506	sich mit Farbe bestreichen	sich mit Farbe bestreichen	to paint oneself		
 Steinthal-1875-1565-507	507	tättowiren	tättowiren	to tattoo		
 Steinthal-1875-1565-508	508	baden	baden	to bathe	138	BATHE
-Steinthal-1875-1565-509	509	sich abtrocknen	sich abtrocknen	to dry oneself	2015	MAKE DRY
+Steinthal-1875-1565-509	509	sich abtrocknen	sich abtrocknen	to dry oneself		
 Steinthal-1875-1565-510	510	mager	mager	meagre		
 Steinthal-1875-1565-511	511	bleich	bleich	pale		
 Steinthal-1875-1565-512	512	fett	fett	fat	1279	FAT (OBESE)
@@ -542,7 +542,7 @@ Steinthal-1875-1565-540	540	Abendbrot	Abendbrot	dinner	1833	DINNER (SUPPER)
 Steinthal-1875-1565-541	541	berauschendes Getränk	berauschendes Getränk	intoxicating drink	2050	ALCOHOL (DRINK)
 Steinthal-1875-1565-542	542	betrunken	betrunken	drunk	1463	DRUNK
 Steinthal-1875-1565-543	543	Tabak rauchen	Tabak rauchen	to smoke tobacco	1689	SMOKE (INHALE)
-Steinthal-1875-1565-544	544	schmecken	schmecken	to taste	21	TASTE (SOMETHING)
+Steinthal-1875-1565-544	544	schmecken	schmecken	to taste		
 Steinthal-1875-1565-545	545	Geschmack	Geschmack	taste	2190	TASTE
 Steinthal-1875-1565-546	546	süss	süss	sweet	717	SWEET
 Steinthal-1875-1565-547	547	bitter	bitter	bitter	887	BITTER
@@ -613,8 +613,8 @@ Steinthal-1875-1565-611	611	Schüssel	Schüssel	bowl	1530	BOWL
 Steinthal-1875-1565-612	612	Löffel	Löffel	spoon	1378	SPOON
 Steinthal-1875-1565-613	613	Messer	Messer	knife	1352	KNIFE
 Steinthal-1875-1565-614	614	Schneide	Schneide	knife edge		
-Steinthal-1875-1565-615	615	Heft	Heft	knife handle	1254	HANDLE
-Steinthal-1875-1565-616	616	schleifen	schleifen	to grind	1033	GRIND
+Steinthal-1875-1565-615	615	Heft	Heft	knife handle		
+Steinthal-1875-1565-616	616	schleifen	schleifen	to grind		
 Steinthal-1875-1565-617	617	Gabel	Gabel	fork	1302	FORK
 Steinthal-1875-1565-618	618	sonstiges Küchengeräth	sonstiges Küchengeräth	other kitchen utensils		
 Steinthal-1875-1565-619	619	reinigen	reinigen	to clean	2235	CLEAN (SOMETHING)
@@ -625,7 +625,7 @@ Steinthal-1875-1565-623	623	Brunnen graben	Brunnen graben	to dig a well
 Steinthal-1875-1565-624	624	Hof	Hof	courtyard	4	COURTYARD
 Steinthal-1875-1565-625	625	Stall	Stall	stable	851	STABLE
 Steinthal-1875-1565-626	626	Garten	Garten	garden	586	GARDEN
-Steinthal-1875-1565-627	627	Früchte pflücken	Früchte pflücken	to pick fruit		
+Steinthal-1875-1565-627	627	Früchte pflücken	Früchte pflücken	to pick fruit	2148	PICK
 Steinthal-1875-1565-628	628	Scheune	Scheune	barn	3657	GRANARY
 Steinthal-1875-1565-629	629	Korb	Korb	basket	1539	BASKET
 Steinthal-1875-1565-630	630	Schippe	Schippe	shovel	1901	SHOVEL
@@ -704,7 +704,7 @@ Steinthal-1875-1565-702	702	aufstehn	aufstehn	to get up	1512	RISE (ONESELF)
 Steinthal-1875-1565-703	703	wachen bei einem Kranken	wachen bei einem Kranken	to keep watch over a sick person		
 Steinthal-1875-1565-704	704	Ich bin wach.	Ich bin wach.	I am awake.	825	AWAKE
 Steinthal-1875-1565-705	705	wohnen	wohnen	to reside	363	DWELL (LIVE, RESIDE)
-Steinthal-1875-1565-706	706	leben	leben	to live	2309	LIVE
+Steinthal-1875-1565-706	706	leben	leben	to live	1422	BE ALIVE
 Steinthal-1875-1565-707	707	wachsen	wachsen	to grow	479	GROW
 Steinthal-1875-1565-708	708	sterben	sterben	to die	1494	DIE
 Steinthal-1875-1565-709	709	tödten	tödten	to kill	1417	KILL
@@ -724,7 +724,7 @@ Steinthal-1875-1565-722	722	Blattern	Blattern	smallpox	1054	SMALLPOX
 Steinthal-1875-1565-723	723	sonstige heimische Krankheiten	sonstige heimische Krankheiten	other local diseases		
 Steinthal-1875-1565-724	724	Die Wunde schmerzt, heilt.	Die Wunde schmerzt.	The wound hurts.		
 Steinthal-1875-1565-725	725	Die Wunde schmerzt, heilt.	Die Wunde heilt.	The wound heals.		
-Steinthal-1875-1565-726	726	Es juckt mich.	Es juckt mich.	I am itching.		
+Steinthal-1875-1565-726	726	Es juckt mich.	Es juckt mich.	I am itching.	149	ITCHY
 Steinthal-1875-1565-727	727	jemanden heilen	jemanden heilen	to heal someone		
 Steinthal-1875-1565-728	728	Narbe	Narbe	scar	497	SCAR
 Steinthal-1875-1565-729	729	Medicin	Medicin	medicine	1372	MEDICINE
@@ -737,7 +737,7 @@ Steinthal-1875-1565-735	735	lahm	lahm	lame	320	LAME
 Steinthal-1875-1565-736	736	stumm	stumm	mute	1492	DUMB
 Steinthal-1875-1565-737	737	taub	taub	deaf	996	DEAF
 Steinthal-1875-1565-738	738	blind	blind	blind	1653	BLIND
-Steinthal-1875-1565-739	739	schwindlig	schwindlig	dizzy	2712	GET DIZZY
+Steinthal-1875-1565-739	739	schwindlig	schwindlig	dizzy		
 Steinthal-1875-1565-740	740	zittern	zittern	to tremble	52	SHIVER
 Steinthal-1875-1565-741	741	greifen	greifen	to grab	855	SEIZE
 Steinthal-1875-1565-742	742	hart	hart	hard	1884	HARD
@@ -810,7 +810,7 @@ Steinthal-1875-1565-808	808	fangen	fangen	to catch	702	CATCH
 Steinthal-1875-1565-809	809	Heerden hüten	Heerden hüten	to herd	2885	HERD (SOMETHING)
 Steinthal-1875-1565-810	810	schlachten	schlachten	to slaughter	1796	SLAUGHTER
 Steinthal-1875-1565-811	811	kochen	kochen	to cook	1100	COOK (SOMETHING)
-Steinthal-1875-1565-812	812	Das Wasser kocht.	Das Wasser kocht.	The water boils.		
+Steinthal-1875-1565-812	812	Das Wasser kocht.	Das Wasser kocht.	The water boils.	792	BOIL (OF LIQUID)
 Steinthal-1875-1565-813	813	braten	braten	to fry	2146	ROAST OR FRY
 Steinthal-1875-1565-814	814	rösten	rösten	to roast	1962	ROAST (SOMETHING)
 Steinthal-1875-1565-815	815	backen	backen	to bake	183	BAKE
@@ -821,7 +821,7 @@ Steinthal-1875-1565-819	819	Feuer anschlagen, anzünden, anblasen, auslöschen	F
 Steinthal-1875-1565-820	820	Feuer anschlagen, anzünden, anblasen, auslöschen	Feuer anblasen	to blow on a fire		
 Steinthal-1875-1565-821	821	Feuer anschlagen, anzünden, anblasen, auslöschen	Feuer auslöschen	to extinguish a fire	127	EXTINGUISH
 Steinthal-1875-1565-822	822	Das Feuer lischt aus, brennt.	Das Feuer lischt aus.	The fire dies down.		
-Steinthal-1875-1565-823	823	Das Feuer lischt aus, brennt.	Das Feuer brennt.	The fire burns.		
+Steinthal-1875-1565-823	823	Das Feuer lischt aus, brennt.	Das Feuer brennt.	The fire burns.	1428	BURNING
 Steinthal-1875-1565-824	824	Holz verbrennen	Holz verbrennen	to burn wood		
 Steinthal-1875-1565-825	825	Ich habe mich verbrannt.	Ich habe mich verbrannt.	I got burned.		
 Steinthal-1875-1565-826	826	Rauch	Rauch	smoke	778	SMOKE (EXHAUST)
@@ -843,7 +843,7 @@ Steinthal-1875-1565-841	841	weben	weben	to weave	133	WEAVE
 Steinthal-1875-1565-842	842	Webebaum	Webebaum	weaver‘s beam		
 Steinthal-1875-1565-843	843	mahlen	mahlen	to grind	1033	GRIND
 Steinthal-1875-1565-844	844	Mühle	Mühle	mill	636	MILL
-Steinthal-1875-1565-845	845	Loch bohren	Loch bohren	to drill a hole		
+Steinthal-1875-1565-845	845	Loch bohren	Loch bohren	to drill a hole	1501	BORE
 Steinthal-1875-1565-846	846	Schiff	Schiff	ship	740	SHIP
 Steinthal-1875-1565-847	847	Boot	Boot	boat	1844	BOAT
 Steinthal-1875-1565-848	848	Kahn	Kahn	rowing boat		
@@ -898,7 +898,7 @@ Steinthal-1875-1565-896	896	zählen	zählen	to count	1420	COUNT
 Steinthal-1875-1565-897	897	Häuptling	Häuptling	chieftain	301	CHIEFTAIN
 Steinthal-1875-1565-898	898	König, Königin, deren Sohn	König	king	1508	KING
 Steinthal-1875-1565-899	899	König, Königin, deren Sohn	Königin	queen	1306	QUEEN
-Steinthal-1875-1565-900	900	König, Königin, deren Sohn	Prinz	prince	2554	PRINCE (RULER)
+Steinthal-1875-1565-900	900	König, Königin, deren Sohn	Prinz	prince		
 Steinthal-1875-1565-901	901	freier Mann	freier Mann	free man	384	FREEMAN
 Steinthal-1875-1565-902	902	berathende Versammlung	berathende Versammlung	gathering		
 Steinthal-1875-1565-903	903	Sklave	Sklave	male slave	812	SLAVE
@@ -916,7 +916,7 @@ Steinthal-1875-1565-914	914	beten (Ceremonien beim Beten)	Ceremonien beim Beten	
 Steinthal-1875-1565-915	915	fasten	fasten	to fast	303	ABSTAIN FROM FOOD
 Steinthal-1875-1565-916	916	schwören	schwören	to swear	1939	SWEAR
 Steinthal-1875-1565-917	917	Geister beschwören	Geister beschwören	to conjure spirits		
-Steinthal-1875-1565-918	918	fluchen	fluchen	to curse	8	CURSE
+Steinthal-1875-1565-918	918	fluchen	fluchen	to curse		
 Steinthal-1875-1565-919	919	segnen	segnen	to bless	391	BLESS
 Steinthal-1875-1565-920	920	lesen	lesen	to read	724	READ
 Steinthal-1875-1565-921	921	schreiben	schreiben	to write	1672	WRITE
@@ -1046,7 +1046,7 @@ Steinthal-1875-1565-1044	1044	empfangen	empfangen	to receive	694	GET
 Steinthal-1875-1565-1045	1045	halten	halten	to hold	1448	HOLD
 Steinthal-1875-1565-1046	1046	festhalten	festhalten	to clutch		
 Steinthal-1875-1565-1047	1047	zurückhalten	zurückhalten	to restrain		
-Steinthal-1875-1565-1048	1048	zurückgeben	zurückgeben	to return something		
+Steinthal-1875-1565-1048	1048	zurückgeben	zurückgeben	to return something	85	GIVE BACK
 Steinthal-1875-1565-1049	1049	bringen	bringen	to bring	692	BRING
 Steinthal-1875-1565-1050	1050	holen	holen	to get	694	GET
 Steinthal-1875-1565-1051	1051	verlieren	verlieren	to lose	1660	LOSE
@@ -1066,7 +1066,7 @@ Steinthal-1875-1565-1064	1064	liegen	liegen	to lie	1411	LIE (REST)
 Steinthal-1875-1565-1065	1065	sich legen	sich legen	to lie down	215	LIE DOWN
 Steinthal-1875-1565-1066	1066	laufen	laufen	to run	1519	RUN
 Steinthal-1875-1565-1067	1067	knien	knien	to kneel	66	KNEEL
-Steinthal-1875-1565-1068	1068	kriechen	kriechen	to crawl	3456	CRAWL OR CREEP
+Steinthal-1875-1565-1068	1068	kriechen	kriechen	to creep	3215	CREEP
 Steinthal-1875-1565-1069	1069	springen	springen	to jump	1829	JUMP
 Steinthal-1875-1565-1070	1070	sich anlehnen	sich anlehnen	to lean on someone or something		
 Steinthal-1875-1565-1071	1071	hängen	hängen	to hang	2884	HANG
@@ -1078,7 +1078,7 @@ Steinthal-1875-1565-1076	1076	kommen	kommen	to come	1446	COME
 Steinthal-1875-1565-1077	1077	weggehn	weggehn	to go away	1752	LEAVE
 Steinthal-1875-1565-1078	1078	hereinkommen	hereinkommen	to come inside		
 Steinthal-1875-1565-1079	1079	hinausgehn	hinausgehn	to go outside	1107	GO OUT
-Steinthal-1875-1565-1080	1080	hineingehen	hineingehen	to go inside		
+Steinthal-1875-1565-1080	1080	hineingehen	hineingehen	to go inside	749	ENTER
 Steinthal-1875-1565-1081	1081	spazieren gehen	spazieren gehen	to stroll	2890	WALK (TAKE A WALK)
 Steinthal-1875-1565-1082	1082	zurückkehren	zurückkehren	to return	581	COME BACK
 Steinthal-1875-1565-1083	1083	wohnen (zu Hause sein)	wohnen (zu Hause sein)	to reside	1099	RESIDE
@@ -1194,7 +1194,7 @@ Steinthal-1875-1565-1192	1192	rechts	rechts	right	1019	RIGHT
 Steinthal-1875-1565-1193	1193	links	links	left	244	LEFT
 Steinthal-1875-1565-1194	1194	gerade	gerade	straight	1404	STRAIGHT
 Steinthal-1875-1565-1195	1195	krumm	krumm	bent	297	CROOKED
-Steinthal-1875-1565-1196	1196	einfach	einfach	simple	686	EASY
+Steinthal-1875-1565-1196	1196	einfach	einfach	simple		
 Steinthal-1875-1565-1197	1197	doppelt	doppelt	double	1546	TWICE
 Steinthal-1875-1565-1198	1198	viel	viel	much, many	1198	MANY
 Steinthal-1875-1565-1199	1199	wenig	wenig	little, few	1242	FEW
@@ -1254,7 +1254,7 @@ Steinthal-1875-1565-1252	1252	nicht wollen	nicht wollen	to not want
 Steinthal-1875-1565-1253	1253	hoffen	hoffen	to hope	1092	HOPE
 Steinthal-1875-1565-1254	1254	nachdenken (überlegen)	nachdenken (überlegen)	to reflect	1415	THINK (REFLECT)
 Steinthal-1875-1565-1255	1255	versuchen	versuchen	to try	1812	TRY
-Steinthal-1875-1565-1256	1256	prüfen	prüfen	to examine		
+Steinthal-1875-1565-1256	1256	prüfen	prüfen	to examine	2571	TRY (TEST)
 Steinthal-1875-1565-1257	1257	Gib Acht.	Gib Acht.	Take care.		
 Steinthal-1875-1565-1258	1258	sich erinnern	sich erinnern	to remember	707	REMEMBER
 Steinthal-1875-1565-1259	1259	vergessen	vergessen	to forget	1523	FORGET
@@ -1445,7 +1445,7 @@ Steinthal-1875-1565-1443	1443	Wohin?	Wohin?	Where to?	2928	WHITHER (WHERE TO)
 Steinthal-1875-1565-1444	1444	Woher?	Woher?	Where from?		
 Steinthal-1875-1565-1445	1445	hier	hier	here	136	HERE
 Steinthal-1875-1565-1446	1446	dort	dort	there	1937	THERE
-Steinthal-1875-1565-1447	1447	her	her	back	2910	BACK (DIRECTION)
+Steinthal-1875-1565-1447	1447	her	her	back		
 Steinthal-1875-1565-1448	1448	hin	hin	forth		
 Steinthal-1875-1565-1449	1449	diesseits	diesseits	this side of		
 Steinthal-1875-1565-1450	1450	jenseits	jenseits	that side of		
@@ -1531,7 +1531,7 @@ Steinthal-1875-1565-1529	1529	auf, über (Ruhe und Bewegung)	auf (Bewegung)	up	1
 Steinthal-1875-1565-1530	1530	auf, über (Ruhe und Bewegung)	über (Ruhe)	over	1741	ABOVE
 Steinthal-1875-1565-1531	1531	auf, über (Ruhe und Bewegung)	über (Bewegung)	across	2670	ACROSS
 Steinthal-1875-1565-1532	1532	unter	unter	beneath	1485	BELOW OR UNDER
-Steinthal-1875-1565-1533	1533	oben	oben	on top	57	ATOP
+Steinthal-1875-1565-1533	1533	oben	oben	on top	1265	HIGH
 Steinthal-1875-1565-1534	1534	unten	unten	below	1485	BELOW OR UNDER
 Steinthal-1875-1565-1535	1535	aufwärts	aufwärts	upward	1591	UP
 Steinthal-1875-1565-1536	1536	abwärts	abwärts	downward	1326	DOWN
@@ -1563,4 +1563,4 @@ Steinthal-1875-1565-1561	1561	woraus	woraus	from what
 Steinthal-1875-1565-1562	1562	weshalb	weshalb	why	1270	WHY
 Steinthal-1875-1565-1563	1563	wozu	wozu	what for		
 Steinthal-1875-1565-1564	1564	deshalb	deshalb	because of this	2918	BECAUSE OF
-Steinthal-1875-1565-1565	1565	dazu	dazu	in order to	2918	BECAUSE OF
+Steinthal-1875-1565-1565	1565	dazu	dazu	in order to		
