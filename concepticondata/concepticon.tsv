@@ -304,7 +304,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 303	ABSTAIN FROM FOOD	Religion and belief	To refrain from eating.	Action/Process	
 304	PREACH	Religion and belief	To deliver a sermon.	Action/Process	
 305	GRANDPARENTS	Kinship	The parents of someone's parent.	Person/Thing	
-306	PARENTS-IN-LAW	Kinship	Mother-in-law and father-in-law.	Person/Thing	
+306	PARENTS-IN-LAW	Kinship	The parents of someone's spouse	Person/Thing	
 307	HAWK	Animals	A predatory bird of the family Accipitridae.	Person/Thing	
 308	TOUCAN	Animals	A bird with a large colorful beak, living in the tropics and belonging to the family Ramphastidae.	Person/Thing	
 309	OPOSSUM	Animals	A mammal being a member of the family Didelphidae.	Person/Thing	
@@ -1054,8 +1054,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1053	HUNTER	Warfare and hunting	A person who hunts game.	Person/Thing	
 1054	SMALLPOX	The body	A highly contagious viral disease characterized by fever and weakness and skin eruption with pustules that form scabs that slough off leaving scars.	Person/Thing	
 1055	FATHER-IN-LAW	Kinship	The father of someone's spouse.	Person/Thing	
-1056	SON-IN-LAW	Kinship	The husband of someone's daughter.	Person/Thing	
-1057	DAUGHTER-IN-LAW	Kinship	The wife of someone's son.	Person/Thing	
+1056	SON-IN-LAW	Kinship	The male marital partner of someone's child.	Person/Thing	
+1057	DAUGHTER-IN-LAW	Kinship	The female marital partner of someone's child.	Person/Thing	
 1058	STEPDAUGHTER	Kinship	The daughter of one's spouse and his or her previous partner.	Person/Thing	
 1059	STEPSON	Kinship	The son of one's spouse and his or her previous partner.	Person/Thing	
 1060	CHILD-IN-LAW	Kinship	The spouse of someone's child.	Person/Thing	
