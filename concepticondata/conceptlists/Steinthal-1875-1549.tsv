@@ -79,7 +79,7 @@ Steinthal-1875-1549-77	77	die Weltgegenden	Nordosten	northeast
 Steinthal-1875-1549-78	78	die Weltgegenden	Südosten	southeast		
 Steinthal-1875-1549-79	79	die Weltgegenden	Nordwesten	northwest		
 Steinthal-1875-1549-80	80	die Weltgegenden	Südwesten	southwest		
-Steinthal-1875-1549-81	81	Es ist kalt.	Es ist kalt.	It is cold.	1287	COLD
+Steinthal-1875-1549-81	81	Es ist kalt.	Es ist kalt.	It is cold.		
 Steinthal-1875-1549-82	82	Kälte	Kälte	cold	2932	COLD (CHILL)
 Steinthal-1875-1549-83	83	Hitze	Hitze	heat	612	HEAT
 Steinthal-1875-1549-84	84	Erde (Welt)	Erde (Welt)	earth	965	WORLD
@@ -322,7 +322,7 @@ Steinthal-1875-1549-320	320	Wittwer	Wittwer	widower	1981	WIDOWER
 Steinthal-1875-1549-321	321	sich verheirathen	sich verheirathen	to marry	203	MARRY
 Steinthal-1875-1549-322	322	Ein Mann A hat die Jungfrau B geheirathet.	Ein Mann A hat die Jungfrau B geheirathet.	A man A has married the virgin B.		
 Steinthal-1875-1549-323	323	Sein Sohn hat meine Tochter zur Frau.	Sein Sohn hat meine Tochter zur Frau.	His son is married to my daughter.		
-Steinthal-1875-1549-324	324	Heirath	Heirath	marriage	2432	MARRIAGE
+Steinthal-1875-1549-324	324	Heirath	Heirath	marriage		
 Steinthal-1875-1549-325	325	Hochzeit	Hochzeit	wedding	1259	WEDDING
 Steinthal-1875-1549-326	326	Er ist unverheirathet.	Er ist unverheirathet.	He is unmarried.		
 Steinthal-1875-1549-327	327	Vater	Vater	father	1217	FATHER
@@ -693,7 +693,7 @@ Steinthal-1875-1549-691	691	schmecken	schmecken	to taste	21	TASTE (SOMETHING)
 Steinthal-1875-1549-692	692	tasten	tasten	to touch	2559	FEEL (TACTUALLY)
 Steinthal-1875-1549-693	693	fühlen	fühlen	to feel	1079	FEEL
 Steinthal-1875-1549-694	694	schlafen	schlafen	to sleep	1585	SLEEP
-Steinthal-1875-1549-695	695	schläfrig sein	schläfrig sein	to be tired	1757	TIRED
+Steinthal-1875-1549-695	695	schläfrig sein	schläfrig sein	to be tired	3620	SLEEPY
 Steinthal-1875-1549-696	696	schnarchen	schnarchen	to snore	1983	SNORE
 Steinthal-1875-1549-697	697	träumen	träumen	to dream	1920	DREAM (SOMETHING)
 Steinthal-1875-1549-698	698	sich niederlegen	sich niederlegen	to lie down	215	LIE DOWN
@@ -710,8 +710,8 @@ Steinthal-1875-1549-708	708	gesund	gesund	healthy	1364	HEALTHY
 Steinthal-1875-1549-709	709	kräftig	kräftig	strong	785	STRONG
 Steinthal-1875-1549-710	710	schwach	schwach	weak	1601	WEAK
 Steinthal-1875-1549-711	711	krank	krank	sick	1847	SICK
-Steinthal-1875-1549-712	712	gross	gross	tall, big	1202	BIG
-Steinthal-1875-1549-713	713	klein	klein	small	1246	SMALL
+Steinthal-1875-1549-712	712	gross	gross	tall, big	711	TALL
+Steinthal-1875-1549-713	713	klein	klein	small	2484	SMALL (NOT TALL)
 Steinthal-1875-1549-714	714	nackt	nackt	naked	590	NAKED
 Steinthal-1875-1549-715	715	Schmerz, Kopf-, Leib-	Schmerz	pain	1783	PAIN
 Steinthal-1875-1549-716	716	Schmerz, Kopf-, Leib-	Kopfschmerz	headache	3625	HEADACHE
@@ -850,7 +850,7 @@ Steinthal-1875-1549-848	848	tanzen	tanzen	to dance	1879	DANCE
 Steinthal-1875-1549-849	849	singen	singen	to sing	1261	SING
 Steinthal-1875-1549-850	850	spielen	spielen	to play	1413	PLAY
 Steinthal-1875-1549-851	851	trommeln	trommeln	to drum	111	DRUMMING
-Steinthal-1875-1549-852	852	blasen	blasen	to blow	176	BLOW (WITH MOUTH)
+Steinthal-1875-1549-852	852	blasen	blasen	to blow		
 Steinthal-1875-1549-853	853	erzählen	erzählen	to tell	1711	TELL
 Steinthal-1875-1549-854	854	Geschichte	Geschichte	story	2060	STORY
 Steinthal-1875-1549-855	855	Fabel	Fabel	fable		
@@ -1033,7 +1033,7 @@ Steinthal-1875-1549-1031	1031	festhalten	festhalten	to clutch
 Steinthal-1875-1549-1032	1032	zurückhalten	zurückhalten	to restrain		
 Steinthal-1875-1549-1033	1033	zurückgeben	zurückgeben	to return something	85	GIVE BACK
 Steinthal-1875-1549-1034	1034	bringen	bringen	to bring	692	BRING
-Steinthal-1875-1549-1035	1035	holen	holen	to get	694	GET
+Steinthal-1875-1549-1035	1035	holen	holen	to get	3551	FETCH
 Steinthal-1875-1549-1036	1036	verlieren	verlieren	to lose	1660	LOSE
 Steinthal-1875-1549-1037	1037	hergeben	hergeben	to hand something over		
 Steinthal-1875-1549-1038	1038	verweigern	verweigern	to refuse	49	REFUSE
@@ -1109,7 +1109,7 @@ Steinthal-1875-1549-1107	1107	Das Kleid ist abgetragen.	Das Kleid ist abgetragen
 Steinthal-1875-1549-1108	1108	Der Krug ist gespalten.	Der Krug ist gespalten.	The jug is split in two.		
 Steinthal-1875-1549-1109	1109	Der Schlauch platzt.	Der Schlauch platzt.	The pipe bursts.		
 Steinthal-1875-1549-1110	1110	werfen	werfen	to throw	1456	THROW
-Steinthal-1875-1549-1111	1111	setzen	setzen	to sit down	1649	SIT DOWN
+Steinthal-1875-1549-1111	1111	setzen	setzen	to sit down		
 Steinthal-1875-1549-1112	1112	legen	legen	to lay	2071	LAY (VERB)
 Steinthal-1875-1549-1113	1113	sitzen	sitzen	to sit	1416	SIT
 Steinthal-1875-1549-1114	1114	liegen	liegen	to lie	1411	LIE (REST)
@@ -1119,7 +1119,7 @@ Steinthal-1875-1549-1117	1117	Knoten	Knoten	knot	760	KNOT
 Steinthal-1875-1549-1118	1118	lösen	lösen	to untie	352	UNTIE
 Steinthal-1875-1549-1119	1119	drehen	drehen	to turn	1445	TURN (SOMETHING)
 Steinthal-1875-1549-1120	1120	schlagen	schlagen	to beat	2133	STRIKE OR BEAT
-Steinthal-1875-1549-1121	1121	drücken	drücken	to push	1452	PUSH
+Steinthal-1875-1549-1121	1121	drücken	drücken	to press	1913	PRESS
 Steinthal-1875-1549-1122	1122	ziehen	ziehen	to pull	1455	PULL
 Steinthal-1875-1549-1123	1123	wegziehen	wegziehen	to pull away		
 Steinthal-1875-1549-1124	1124	stossen	stossen	to push, to thrust	1452	PUSH
@@ -1179,7 +1179,7 @@ Steinthal-1875-1549-1177	1177	links	links	left	244	LEFT
 Steinthal-1875-1549-1178	1178	gerade	gerade	straight	1404	STRAIGHT
 Steinthal-1875-1549-1179	1179	krumm	krumm	bent	297	CROOKED
 Steinthal-1875-1549-1180	1180	einfach	einfach	simple		
-Steinthal-1875-1549-1181	1181	doppelt	doppelt	double	1546	TWICE
+Steinthal-1875-1549-1181	1181	doppelt	doppelt	double		
 Steinthal-1875-1549-1182	1182	viel	viel	much, many	1198	MANY
 Steinthal-1875-1549-1183	1183	wenig	wenig	little, few	1242	FEW
 Steinthal-1875-1549-1184	1184	oft	oft	often	1852	OFTEN
@@ -1187,7 +1187,7 @@ Steinthal-1875-1549-1185	1185	selten	selten	rare	209	RARE
 Steinthal-1875-1549-1186	1186	alt	alt	old	2113	OLD (USED)
 Steinthal-1875-1549-1187	1187	neu	neu	new	1231	NEW
 Steinthal-1875-1549-1188	1188	ganz	ganz	whole	2277	WHOLE
-Steinthal-1875-1549-1189	1189	halb	halb	half	816	HALF
+Steinthal-1875-1549-1189	1189	halb	halb	half		
 Steinthal-1875-1549-1190	1190	voll	voll	full	1429	FULL
 Steinthal-1875-1549-1191	1191	leer	leer	empty	1624	EMPTY
 Steinthal-1875-1549-1192	1192	stark	stark	strong	785	STRONG
@@ -1202,7 +1202,7 @@ Steinthal-1875-1549-1200	1200	Er ist ausgezeichnet an Grösse, Schönheit.	Er is
 Steinthal-1875-1549-1201	1201	heiter	heiter	cheerful	1976	MERRY
 Steinthal-1875-1549-1202	1202	ernst	ernst	serious		
 Steinthal-1875-1549-1203	1203	lustig	lustig	funny		
-Steinthal-1875-1549-1204	1204	betrübt	betrübt	sad	699	SAD
+Steinthal-1875-1549-1204	1204	betrübt	betrübt	melancholic	1552	GLOOMY
 Steinthal-1875-1549-1205	1205	Er betrauert seinen Vater.	Er betrauert seinen Vater.	He mourns his father.		
 Steinthal-1875-1549-1206	1206	Ich bedaure dich.	Ich bedaure dich.	I pity you.		
 Steinthal-1875-1549-1207	1207	glücklich	glücklich	happy	1495	HAPPY
@@ -1229,7 +1229,7 @@ Steinthal-1875-1549-1227	1227	helfen	helfen	to help	1897	HELP
 Steinthal-1875-1549-1228	1228	Mitleid	Mitleid	compassion		
 Steinthal-1875-1549-1229	1229	Aerger	Aerger	anger	82	ANGER
 Steinthal-1875-1549-1230	1230	Freude	Freude	joy	2524	JOY
-Steinthal-1875-1549-1231	1231	Zorn	Zorn	rage	82	ANGER
+Steinthal-1875-1549-1231	1231	Zorn	Zorn	rage		
 Steinthal-1875-1549-1232	1232	zürnen	zürnen	to be angry	2223	BE ANGRY
 Steinthal-1875-1549-1233	1233	Scham	Scham	shame	1776	SHAME
 Steinthal-1875-1549-1234	1234	wünschen	wünschen	to wish		
@@ -1355,13 +1355,13 @@ Steinthal-1875-1549-1353	1353	die Zahlen von eins bis hundert	neunundneunzig	nin
 Steinthal-1875-1549-1354	1354	die Zahlen von eins bis hundert	hundert	one hundred	1634	HUNDRED
 Steinthal-1875-1549-1355	1355	Mandel	Mandel	almond		
 Steinthal-1875-1549-1356	1356	Schock	Schock	shock		
-Steinthal-1875-1549-1357	1357	zählen, rechnen	zählen, rechnen	to count, to calculate	1420	COUNT
+Steinthal-1875-1549-1357	1357	zählen, rechnen	zählen, rechnen	to count, to calculate	2867	CALCULATE
 Steinthal-1875-1549-1358	1358	addiren	addiren	to add		
 Steinthal-1875-1549-1359	1359	subtrahiren	subtrahiren	to deduct		
 Steinthal-1875-1549-1360	1360	multipliciren	multipliciren	to multiply		
 Steinthal-1875-1549-1361	1361	dividiren	dividiren	to divide		
 Steinthal-1875-1549-1362	1362	Hälfte	Hälfte	half	816	HALF
-Steinthal-1875-1549-1363	1363	Drittel	Drittel	third	1859	THIRD
+Steinthal-1875-1549-1363	1363	Drittel	Drittel	third		
 Steinthal-1875-1549-1364	1364	Viertel u.s.w.	Viertel	quarter		
 Steinthal-1875-1549-1365	1365	die Ordinalia von 1-20	erste, erster	first	728	FIRST
 Steinthal-1875-1549-1366	1366	die Ordinalia von 1-20	zweite, zweiter	second	1384	SECOND
@@ -1511,12 +1511,12 @@ Steinthal-1875-1549-1509	1509	an	an	at	1461	AT
 Steinthal-1875-1549-1510	1510	herum	herum	around		
 Steinthal-1875-1549-1511	1511	um	um	around		
 Steinthal-1875-1549-1512	1512	auf, über (Ruhe und Bewegung)	auf (Ruhe)	on	57	ATOP
-Steinthal-1875-1549-1513	1513	auf, über (Ruhe und Bewegung)	auf (Bewegung)	up	1591	UP
+Steinthal-1875-1549-1513	1513	auf, über (Ruhe und Bewegung)	auf (Bewegung)	up		
 Steinthal-1875-1549-1514	1514	auf, über (Ruhe und Bewegung)	über (Ruhe)	over	1741	ABOVE
-Steinthal-1875-1549-1515	1515	auf, über (Ruhe und Bewegung)	über (Bewegung)	across	2670	ACROSS
+Steinthal-1875-1549-1515	1515	auf, über (Ruhe und Bewegung)	über (Bewegung)	across		
 Steinthal-1875-1549-1516	1516	unter	unter	beneath	1485	BELOW OR UNDER
 Steinthal-1875-1549-1517	1517	oben	oben	on top	1265	HIGH
-Steinthal-1875-1549-1518	1518	unten	unten	below	1485	BELOW OR UNDER
+Steinthal-1875-1549-1518	1518	unten	unten	below	721	LOW
 Steinthal-1875-1549-1519	1519	aufwärts	aufwärts	upward	1591	UP
 Steinthal-1875-1549-1520	1520	abwärts	abwärts	downward	1326	DOWN
 Steinthal-1875-1549-1521	1521	zu	zu	to	2754	TOWARDS
@@ -1546,5 +1546,5 @@ Steinthal-1875-1549-1544	1544	hinterher	hinterher	afterwards	2093	AFTERWARDS
 Steinthal-1875-1549-1545	1545	woraus	woraus	from what		
 Steinthal-1875-1549-1546	1546	weshalb	weshalb	why	1270	WHY
 Steinthal-1875-1549-1547	1547	wozu	wozu	what for		
-Steinthal-1875-1549-1548	1548	deshalb	deshalb	because of this	2918	BECAUSE OF
+Steinthal-1875-1549-1548	1548	deshalb	deshalb	because of this		
 Steinthal-1875-1549-1549	1549	dazu	dazu	in order to		
