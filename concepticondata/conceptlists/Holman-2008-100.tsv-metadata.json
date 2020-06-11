@@ -45,6 +45,10 @@
                     {
                         "datatype": "string", 
                         "name": "STABILITY_SCORE"
+                    },
+                    {
+                        "datatype": "integer", 
+                        "name": "RANK"
                     }
                 ], 
                 "primaryKey": [
