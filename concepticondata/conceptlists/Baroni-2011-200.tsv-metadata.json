@@ -49,42 +49,42 @@
                     },
                     {
                         "name": "TYPICAL_ATTRIBUTE",
-                        "separator": ",",
+                        "separator": ", ",
                         "datatype": {"base": "string"}
                     },
                     {
                         "name": "COHYPONYMY",
-                        "separator": ",",
+                        "separator": ", ",
                         "datatype": {"base": "string"}
                     },
                     {
                         "name": "TYPICAL_EVENT",
-                        "separator": ",",
+                        "separator": ", ",
                         "datatype": {"base": "string"}
                     },
                     {
                         "name": "HYPERONYM",
-                        "separator": ",",
+                        "separator": ", ",
                         "datatype": {"base": "string"}
                     },
                     {
                         "name": "MERONYM",
-                        "separator": ",",
+                        "separator": ", ",
                         "datatype": {"base": "string"}
                     },
                     {
                         "name": "RANDOM_ADJECTIVE",
-                        "separator": ",",
+                        "separator": ", ",
                         "datatype": {"base": "string"}
                     },
                     {
                         "name": "RANDOM_NOUN",
-                        "separator": ",",
+                        "separator": ", ",
                         "datatype": {"base": "string"}
                     },
                     {
                         "name": "RANDOM_VERB",
-                        "separator": ",",
+                        "separator": ", ",
                         "datatype": {"base": "string"}
                     }
                 ],
