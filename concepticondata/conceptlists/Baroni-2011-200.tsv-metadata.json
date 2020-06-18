@@ -48,36 +48,44 @@
                         "name": "SEMANTIC_CLASS"
                     },
                     {
-                        "datatype": "string",
-                        "name": "TYPICAL_ATTRIBUTE"
+                        "name": "TYPICAL_ATTRIBUTE",
+                        "separator": ",",
+                        "datatype": {"base": "string"}
                     },
                     {
-                        "datatype": "string",
-                        "name": "COHYPONYMY"
+                        "name": "COHYPONYMY",
+                        "separator": ",",
+                        "datatype": {"base": "string"}
                     },
                     {
-                        "datatype": "string",
-                        "name": "TYPICAL_EVENT"
+                        "name": "TYPICAL_EVENT",
+                        "separator": ",",
+                        "datatype": {"base": "string"}
                     },
                     {
-                        "datatype": "string",
-                        "name": "HYPERONYM"
+                        "name": "HYPERONYM",
+                        "separator": ",",
+                        "datatype": {"base": "string"}
                     },
                     {
-                        "datatype": "string",
-                        "name": "MERONYM"
+                        "name": "MERONYM",
+                        "separator": ",",
+                        "datatype": {"base": "string"}
                     },
                     {
-                        "datatype": "string",
-                        "name": "RANDOM_ADJECTIVE"
+                        "name": "RANDOM_ADJECTIVE",
+                        "separator": ",",
+                        "datatype": {"base": "string"}
                     },
                     {
-                        "datatype": "string",
-                        "name": "RANDOM_NOUN"
+                        "name": "RANDOM_NOUN",
+                        "separator": ",",
+                        "datatype": {"base": "string"}
                     },
                     {
-                        "datatype": "string",
-                        "name": "RANDOM_VERB"
+                        "name": "RANDOM_VERB",
+                        "separator": ",",
+                        "datatype": {"base": "string"}
                     }
                 ],
                 "primaryKey": [
