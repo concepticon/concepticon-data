@@ -41,6 +41,7 @@
 - [Gabelentz1891 [PDF 528.3KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-3467-B183-D7FF-0/Gabelentz1891.pdf)
 - [Galucio2015 [PDF 25.6KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-F16B-97E2-DA68-0/Galucio2015.pdf)
 - [Goddard2001 [PDF 46.7KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-1C10-2132-200D-0/Goddard2001.pdf)
+- [Goddard2011 [PDF 123.3KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-C1BF-E247-4C8F-0/Goddard2011.pdf)
 - [Greenhill2008 [PDF 102.9KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-A562-8EF7-96DA-0/Greenhill2008.pdf)
 - [Gregersen1976 [PDF 2.1MB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-1A77-3C11-D40D-0/Gregersen1976.pdf)
 - [Gruntov2015 [PDF 76.7KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-A780-EAD5-2E8C-0/Gruntov2015.pdf)
