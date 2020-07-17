@@ -103,14 +103,14 @@
                         "name": "INSTRENGTH",
                         "null": "NaN",
                         "datatype": {
-                        "base": "float"
+                            "base": "float"
                         }
                     },
                     {
                         "name": "BETWEENNESS",
                         "null": "NaN",
                         "datatype": {
-                        "base": "float"
+                            "base": "float"
                         }
                     }
                 ],
@@ -118,7 +118,7 @@
                     "ID"
                 ]
             },
-            "url": "Verheyen-2019-1000.tsv"
+            "url": "Verheyen-2020-1000.tsv"
         }
     ]
 }
