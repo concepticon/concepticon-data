@@ -8,7 +8,6 @@ helpers/
 
 *.bak
 unlinked/*
-.*
 
 # jabref
 jabref.xml
@@ -69,4 +68,5 @@ docs/_build/
 
 # PyBuilder
 target/
-.idea
+.idea/
+.pytest_cache/

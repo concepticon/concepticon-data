@@ -44,14 +44,18 @@
                     },
                     {
                         "datatype": "integer",
-                        "name": "Total"
+                        "name": "TOTAL"
+                    },
+                    {
+                        "datatype": "boolean",
+                        "name": "CORE"
                     }
                 ],
                 "primaryKey": [
                     "ID"
                 ]
             },
-            "url": "Chan-2019-128.json"
+            "url": "Chan-2019-133.tsv"
         }
     ]
 }
