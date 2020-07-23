@@ -28,6 +28,11 @@ to normalize them for import:
   concepticon make_linkdata
   ```
 
+- Recreate `.zenodo.json`:
+  ```shell script
+  concepticon citation --version vX.Y.Z
+  ```
+
 - Make sure all changes are pushed and merged into the `master` branch.
 - Make sure all tests pass, and also address warnings about missing PDFs (see [handling source PDFs](#upload_sources))
   ```shell script
