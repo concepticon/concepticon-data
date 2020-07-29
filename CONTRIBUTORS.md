@@ -72,9 +72,10 @@ Isabella Boga | LP | 1.1
 Jan Auracher | D | 1.1
 Johannes Dellert | LPD | 1.1
 Julia Fischer | SDT | 1.0 
-Kristina Pianykh | LP | 2.1
+Kristina Pianykh | DCTLP | 2.1
 Lars Borin | DL | 1.0 
 Magdalena Łuniewska | D | 1.1
+Magnus Pharao Hansen | MD | 2.4
 Marina Dalarossa | C | 2.4
 Martin Haspelmath | AD | 1.0  
 Maurizio Serva | MD | 1.1
