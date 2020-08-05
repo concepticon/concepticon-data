@@ -96,7 +96,7 @@ Yang-2011-1014-94	94	93	leopard; panther	豹	93	leopard; panther	1139	LEOPARD
 Yang-2011-1014-95	95	94	wolf	狼	94	wolf	522	WOLF
 Yang-2011-1014-96	96	95	monkey	猴子	95	monkey	1350	MONKEY
 Yang-2011-1014-97	97	96	otter	水獭	96	otter	15	OTTER
-Yang-2011-1014-98	98	97	weasel	黄鼠狼	97	weasel		
+Yang-2011-1014-98	98	97	weasel	黄鼠狼	97	weasel	3384	WEASEL
 Yang-2011-1014-99	99	98	pangolin	穿山甲	98,0 / 98,1 / 98,2	pangolin / pangolin / pangolin	2508	PANGOLIN
 Yang-2011-1014-100	100	99	muntjak deer	麂子／赤鹿	99	muntjak deer	3152	MUNTJACS
 Yang-2011-1014-101	101	100	sambar deer	水鹿/黑鹿	100	sambar deer		
@@ -209,14 +209,14 @@ Yang-2011-1014-207	207	206	unhulled rice	谷子（稻谷）	206	unhulled rice	27
 Yang-2011-1014-208	208	207	rice (grains)	米	207	rice (grains)	926	RICE
 Yang-2011-1014-209	209	208	cooked rice	饭	208	cooked rice	1191	COOKED RICE
 Yang-2011-1014-210	210	209	glutinous rice	糯米	209	glutinous rice	2750	GLUTINOUS RICE
-Yang-2011-1014-211	211	210	rice seedling	秧苗	210	rice seedling		
+Yang-2011-1014-211	211	210	rice seedling	秧苗	210	rice seedling	3767	RICE SEEDLING
 Yang-2011-1014-212	212	211	rice hulls	稻壳	211	rice hulls	2501	RICE HUSK
 Yang-2011-1014-213	213	212	chaff	谷壳	212	chaff	2363	CHAFF (HUSK)
 Yang-2011-1014-214	214	213	fruit peel	果皮	213	fruit peel	2373	SKIN (OF FRUIT)
 Yang-2011-1014-215	215	214	shell (egg, etc)	皮/壳(蛋)	214	shell (egg, etc)	598	SHELL
 Yang-2011-1014-216	216	215	thorn	刺	215	thorn	124	THORN
 Yang-2011-1014-217	217	216	moss	苔(青苔)	216,0 / 216,1	moss / moss	637	MOSS
-Yang-2011-1014-218	218	217	fern	蕨草	217,0 / 217,1 / 217,2	fern / fern / fern		
+Yang-2011-1014-218	218	217	fern	蕨草	217,0 / 217,1 / 217,2	fern / fern / fern	3802	FERN
 Yang-2011-1014-219	219	218	yeast	酵母	218	yeast	967	YEAST
 Yang-2011-1014-220	220	219	ashes	灰(草木灰)	219	ashes	646	ASH
 Yang-2011-1014-221	221	220	body	身体	220	body	1480	BODY
@@ -309,8 +309,8 @@ Yang-2011-1014-307	307	306	strength	力气	306	strength	202	STRENGTH
 Yang-2011-1014-308	308	307	person	人	307	person	683	PERSON
 Yang-2011-1014-309	309	308	male	男人	308	male	2106	MALE PERSON
 Yang-2011-1014-310	310	309	female	女人	309,0 / 309,1	female / female	2105	FEMALE PERSON
-Yang-2011-1014-311	311	310	Autonym	(自称)	310,1 / 310,0	Autonym / Autonym		
-Yang-2011-1014-312	312	311	Han Chinese	汉族	311,0 / 311,1	Han Chinese / Han Chinese		
+Yang-2011-1014-311	311	310	Autonym	(自称)	310,1 / 310,0	Autonym / Autonym	3433	AUTONYM (OF PEOPLE)
+Yang-2011-1014-312	312	311	Han Chinese	汉族	311,0 / 311,1	Han Chinese / Han Chinese	3373	HAN CHINESE
 Yang-2011-1014-313	313	312	Yi/Lo	彝族	312	Yi/Lo		
 Yang-2011-1014-314	314	313	Bai	白族	313	Bai		
 Yang-2011-1014-315	315	314	Dai	傣族	314	Dai		
@@ -556,7 +556,7 @@ Yang-2011-1014-555	555	550	twist; wring	拧 (拧毛巾)	550	twist; wring	430	TWI
 Yang-2011-1014-556	556	551	pick up	拾 (拾起)	551	pick up	371	PICK UP
 Yang-2011-1014-557	557	552	catch; seize	捉 (捉鸡)	552	catch; seize	702	CATCH
 Yang-2011-1014-558	558	553	scatter; sprinkle (e.g., seed)	撒 (撒种子)	553	scatter; sprinkle (e.g., seed)	2064	SCATTER (SEEDS)
-Yang-2011-1014-559	559	554	throw away	丢掉	554	throw away		
+Yang-2011-1014-559	559	554	throw away	丢掉	554	throw away	3696	THROW AWAY
 Yang-2011-1014-560	560	555	pitch (throw from side way)	摔 (石头)	555	pitch (throw from side way)		
 Yang-2011-1014-561	561	556	toss (overhand)	投	556	toss (overhand)	1456	THROW
 Yang-2011-1014-562	562	557	stretch; stretch out	伸 (伸手)	557,0 / 557,1 / 557,1	stretch; stretch out / stretch; stretch out / stretch; stretch out	214	STRETCH
@@ -648,7 +648,7 @@ Yang-2011-1014-647	647	639	tie; bind	系	639	tie; bind	1094	FASTEN
 Yang-2011-1014-648	648	639	tie a belt	系	639.1	tie a belt		
 Yang-2011-1014-649	649	640	untie	解 (解绳结)	640	untie	352	UNTIE
 Yang-2011-1014-650	650	641	load; pack (put in)	装 (装进袋里)	641	load; pack (put in)	1679	LOAD
-Yang-2011-1014-651	651	642	take out	拿出	642	take out		
+Yang-2011-1014-651	651	642	take out	拿出	642	take out	3654	TAKE OUT
 Yang-2011-1014-652	652	643	press; fill in; squeeze in; stuff	塞 (塞在洞口)	643	press; fill in; squeeze in; stuff	1913	PRESS
 Yang-2011-1014-653	653	644	bury; cover up	埋 (埋物)	644	bury; cover up	1719	BURY
 Yang-2011-1014-654	654	645	hide (thing)	藏 (东西)	645	hide (thing)	602	HIDE (CONCEAL)
@@ -898,7 +898,7 @@ Yang-2011-1014-897	897	884	drunk	醉	884	drunk	1463	DRUNK
 Yang-2011-1014-898	898	885	backwards	落后	885	backwards	2911	BACKWARD
 Yang-2011-1014-899	899	886	different	不同	886	different	2504	DIFFERENT
 Yang-2011-1014-900	900	887	same	一样 (相同)	887	same	200	SAME
-Yang-2011-1014-901	901	888	sticky	粘	888,0 / 888,1	sticky / sticky		
+Yang-2011-1014-901	901	888	sticky	粘	888,0 / 888,1	sticky / sticky	3703	STICKY
 Yang-2011-1014-902	902	889	slick	(光)滑	889	slick		
 Yang-2011-1014-903	903	890	tight	紧 (绑的紧)	890	tight	3053	TIGHT
 Yang-2011-1014-904	904	891	loose	松 (绑的松)	891	loose	2506	LOOSE
@@ -997,7 +997,7 @@ Yang-2011-1014-996	996	983	now	现在	983	now	1376	NOW
 Yang-2011-1014-997	997	984	just now	刚才	984	just now	84	JUST
 Yang-2011-1014-998	998	985	before (sequential)	先 (先去)	985	before (sequential)	1882	BEFORE
 Yang-2011-1014-999	999	986	after	后 (后去)	986	after	1685	AFTER
-Yang-2011-1014-1000	1000	987	before (temporal)	以前	987	before (temporal)		
+Yang-2011-1014-1000	1000	987	before (temporal)	以前	987	before (temporal)	1882	BEFORE
 Yang-2011-1014-1001	1001	988	formerly	从前	988	formerly	2914	ONCE (IN THE PAST)
 Yang-2011-1014-1002	1002	989	already	已经	989	already	2576	ALREADY
 Yang-2011-1014-1003	1003	990	immediately	立刻	990	immediately	1963	IMMEDIATELY
