@@ -116,7 +116,11 @@ In brief, whenever you add a new concept list, you could use the following check
 * [ ] tested the code? (`concepticon test`)
 
 When you open a pull request there will be a template where you can mark what applies
-to your pull request and you can provide additional information.
+to your PR and you can provide additional information. Additionally, please ask one of
+the [active editors](CONTRIBUTORS.md) to moderate the PR. The moderator then will decide how to
+classify the pull request and assign reviewers accordingly. Depending on the nature and the amount
+of changes in a PR (e.g. from minor corrections to new lists and substantial data changes), a
+certain number of reviewers will be assigned to review the PR.
 
 ## Testing 
 
