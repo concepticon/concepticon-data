@@ -67,7 +67,7 @@ Doug Cooper | DCSM | 1.1, 2.1
 Evgeniya Korovina | MSCLPA | 1.1, 2.2
 Frederike Urke | CLS | 1.0  
 Hans Geisler | MSD | 2.3
-Harald Hammarström | DMS | 1.0 
+Harald Hammarström | DMS | 1.0, 2.4 
 Isabella Boga | LP | 1.1
 Jan Auracher | D | 1.1
 Johannes Dellert | LPD | 1.1
