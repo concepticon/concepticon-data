@@ -34,7 +34,7 @@
     ],
     "foreignKeys": [
       {
-        "columnnce": "CONCEPTICON_ID",
+        "columnReference": "CONCEPTICON_ID",
         "reference": {
           "resource": "../concepticon.tsv",
           "columnReference": "ID"
