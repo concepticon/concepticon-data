@@ -3,6 +3,7 @@
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
   "dc:title": "Mapping to BabelNet",
   "dc:source": "http://babelnet.org",
+  "dc:references" : "NavigliPonzetto2012",
   "dcat:keyword": ["dictionary", "multilingual"],
   "dc:description": "Mapping from Concepticon Concept Sets to BabelNet. Babelnet is an extension of Wordnet and offers Word senses in multiple languages.",
   "dialect": {
@@ -33,7 +34,7 @@
     ],
     "foreignKeys": [
       {
-        "columnReference": "CONCEPTICON_ID",
+        "columnnce": "CONCEPTICON_ID",
         "reference": {
           "resource": "../concepticon.tsv",
           "columnReference": "ID"

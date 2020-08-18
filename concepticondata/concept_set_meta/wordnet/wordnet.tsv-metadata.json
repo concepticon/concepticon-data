@@ -4,6 +4,7 @@
   "dc:title": "Mapping to WordNet",
   "dc:source": "https://wordnet.princeton.edu/",
   "dcat:keyword": ["dictionary", "english"],
+  "dc:references": "Fellbaum1998",
   "dc:description": "Mapping from Concepticon Concept Sets to WordNet. WordNetw is a lexical resource of the English language which offers word relations and senses along with definitions in English.",
   "dialect": {
     "delimiter": "\t",
