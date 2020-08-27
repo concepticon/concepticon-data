@@ -40,8 +40,8 @@ Gauchat-1925-480-38	38	of February	de février	febrariu	14
 Gauchat-1925-480-39	39	there is	il y a	habet	14	2152	THERE IS OR THERE ARE
 Gauchat-1925-480-40	40	snow	de la neige	nĭve	14	784	SNOW
 Gauchat-1925-480-41	41	ice	de la glace	glacia	14	617	ICE
-Gauchat-1925-480-42	42	It is	Il fait	facit	14		
-Gauchat-1925-480-43	43	some wind	du vent	vĕntu (aura)	16		
+Gauchat-1925-480-42	42	It is (2)	Il fait	facit	14		
+Gauchat-1925-480-43	43	some wind	du vent	vĕntu (aura)	16	960	WIND
 Gauchat-1925-480-44	44	Winter	L’hiver	hibĕrnu	16	1471	WINTER
 Gauchat-1925-480-45	45	arrives	arrive	adrīpat	16		
 Gauchat-1925-480-46	46	It is there	Il est là	illac	16		
@@ -80,15 +80,15 @@ Gauchat-1925-480-78	78	of iron	en fer	fĕrru	26
 Gauchat-1925-480-79	79	It is new	Il est neuf	nŏvu	28		
 Gauchat-1925-480-80	80	wide	large	largu	28	1243	WIDE
 Gauchat-1925-480-81	81	The wall	Le mur	mūru	28	933	WALL (OF HOUSE)
-Gauchat-1925-480-82	82	is begun	est commencé	cuminitiatu	28		
+Gauchat-1925-480-82	82	has begun	est commencé	cuminitiatu	28		
 Gauchat-1925-480-83	83	The journey	La tour	tŭrre	28	2393	JOURNEY
-Gauchat-1925-480-84	84	(is) started	(est) commencée	cuminitiata	28		
+Gauchat-1925-480-84	84	(has) started	(est) commencée	cuminitiata	28		
 Gauchat-1925-480-85	85	The journeys	Les tours	tŭrres	30		
 Gauchat-1925-480-86	86	(is) begun	(sont) commencées	cuminitiatas	30		
 Gauchat-1925-480-87	87	The bull	Le bœuf	bŏve	30	1008	BULL
 Gauchat-1925-480-88	88	has horns	a des cornes	habet cŏrn(u)as	30		
 Gauchat-1925-480-89	89	The ladder	L‘échelle	scala	30	1464	LADDER
-Gauchat-1925-480-90	90	is set	est dressée	directiata	30		
+Gauchat-1925-480-90	90	is leaned	est dressée	directiata	30		
 Gauchat-1925-480-91	91	against	contre	contra	32	2469	AGAINST
 Gauchat-1925-480-92	92	the ridge	le faîte	fresta	32	1748	RIDGE
 Gauchat-1925-480-93	93	of the roof	du toit	tēctu	32		
@@ -131,9 +131,9 @@ Gauchat-1925-480-129	129	(a) coil	(une) bobine	spōla	44
 Gauchat-1925-480-130	130	(a) crown	(une) couronne	corōna	44	1943	CROWN (OF HEAD)
 Gauchat-1925-480-131	131	I will buy	J‘achèterai	accaptare + habeo	44		
 Gauchat-1925-480-132	132	also	aussi	alesīc + bĕne	44		
-Gauchat-1925-480-133	133	trousers	«des» pantalons	calceas	46	809	TROUSERS
+Gauchat-1925-480-133	133	(of the) pants	«des» pantalons	calceas	46	809	TROUSERS
 Gauchat-1925-480-134	134	(a) belt	(une) ceinture	cinctūra	46	772	BELT
-Gauchat-1925-480-135	135	linen	(de la) toile	tela	46	916	LINEN
+Gauchat-1925-480-135	135	(some) linen	(de la) toile	tela	46	916	LINEN
 Gauchat-1925-480-136	136	(some) silk	(de la) soie	sēta	46	1641	SILK
 Gauchat-1925-480-137	137	(some) wool	(de la) laine	lana	46	964	WOOL
 Gauchat-1925-480-138	138	(some) leather	(du) cuir	cŏriu	46	629	LEATHER
@@ -182,7 +182,7 @@ Gauchat-1925-480-180	180	He is expensive	Il est cher	caru	60
 Gauchat-1925-480-181	181	(She is) expensive	(Elle est) chère	cara	62		
 Gauchat-1925-480-182	182	(They are) expensive	(Elles sont) chères	caras	62		
 Gauchat-1925-480-183	183	The boar	Le porc	pŏrcu	62	1348	BOAR (MALE PIG)
-Gauchat-1925-480-184	184	is big	est gros	grŏssu	62	1202	BIG
+Gauchat-1925-480-184	184	is fat	est gros	grŏssu	62		
 Gauchat-1925-480-185	185	The sow	La truie	trŏia	62	1351	SOW (FEMALE PIG)
 Gauchat-1925-480-186	186	(is) fat (feminine)	(est) grosse	grŏssa	62		
 Gauchat-1925-480-187	187	The hay	Le foin	fēnu	64	342	HAY
@@ -191,8 +191,8 @@ Gauchat-1925-480-189	189	The grass	L’herbe	hĕrba	64	606	GRASS
 Gauchat-1925-480-190	190	(is) dry (feminine)	(est) sèche	sĭcca	64		
 Gauchat-1925-480-191	191	What do you want?	Que veux-tu?	quĭd vŏles tū	64		
 Gauchat-1925-480-192	192	I would like	Je voudrais	volere + habēbam	64		
-Gauchat-1925-480-193	193	(of) salt	du sel	sal	66	1274	SALT
-Gauchat-1925-480-194	194	(of) pepper	du poivre	pĭper	66	1385	PEPPER
+Gauchat-1925-480-193	193	some salt	du sel	sal	66	1274	SALT
+Gauchat-1925-480-194	194	some pepper	du poivre	pĭper	66	1385	PEPPER
 Gauchat-1925-480-195	195	a leaf	une feuille	fŏlia	66	628	LEAF
 Gauchat-1925-480-196	196	of cabbage	de chou	caule	66	774	CABBAGE
 Gauchat-1925-480-197	197	a sheaf	une gerbe	garba	66		
@@ -204,22 +204,22 @@ Gauchat-1925-480-202	202	an armful	une brassée	braciata	68
 Gauchat-1925-480-203	203	armfuls	(des) brassées	braciatas	68		
 Gauchat-1925-480-204	204	of wood	de bois	bŏscu	68		
 Gauchat-1925-480-205	205	(a) shovel	(une) pelletée	palata	70		
-Gauchat-1925-480-206	206	shovels	(des) pelletées	palatas	70		
+Gauchat-1925-480-206	206	(some) shovels	(des) pelletées	palatas	70		
 Gauchat-1925-480-207	207	of coal	de charbon	carbōne	70		
 Gauchat-1925-480-208	208	a handful	une poignée	pugnata	70		
-Gauchat-1925-480-209	209	handfuls	(des) poignées	pugnatas	70		
+Gauchat-1925-480-209	209	some handfuls	(des) poignées	pugnatas	70		
 Gauchat-1925-480-210	210	of ash	de cendres	cĭneres	70		
 Gauchat-1925-480-211	211	I had	J’avais	habēbam	72		
 Gauchat-1925-480-212	212	hunger	faim	fame	72	1864	HUNGER
 Gauchat-1925-480-213	213	and thirst	et soif	sĭte	72		
 Gauchat-1925-480-214	214	I have eaten	J’ai mangé	manducatu	72		
-Gauchat-1925-480-215	215	(of) bread	du pain	pane	72	1368	BREAD
-Gauchat-1925-480-216	216	(of) honey	(du) miel	mĕl	72	942	HONEY
+Gauchat-1925-480-215	215	(some) bread	du pain	pane	72	1368	BREAD
+Gauchat-1925-480-216	216	(some) honey	(du) miel	mĕl	72	942	HONEY
 Gauchat-1925-480-217	217	an egg	un œuf	ŏvu	74	744	EGG
 Gauchat-1925-480-218	218	raw	cru	crūdu	74	1959	RAW
-Gauchat-1925-480-219	219	meat	(de la) viande	carne	74	634	MEAT
+Gauchat-1925-480-219	219	(some) meat	(de la) viande	carne	74	634	MEAT
 Gauchat-1925-480-220	220	raw (feminine)	crue	crūda	74		
-Gauchat-1925-480-221	221	(of) cheese	(du) fromage	formaticu	74	1569	CHEESE
+Gauchat-1925-480-221	221	(from the) cheese	(du) fromage	formaticu	74	1569	CHEESE
 Gauchat-1925-480-222	222	‘serac’	(du) «sérac»	seraceu	74		
 Gauchat-1925-480-223	223	the half	la moitié	medietate	76	816	HALF
 Gauchat-1925-480-224	224	of an apple	d’une pomme	pōma	76		
@@ -229,8 +229,8 @@ Gauchat-1925-480-227	227	The two halves	Les deux moitiés	dŭas medietates	76
 Gauchat-1925-480-228	228	(are) eaten	(sont) mangées	manducatas	76		
 Gauchat-1925-480-229	229	I needed	Il m’a fallu	fallūtu	78		
 Gauchat-1925-480-230	230	to drink	boire	bĭbere	78	1401	DRINK
-Gauchat-1925-480-231	231	(of) milk	du lait	lacticĕllu	78	635	MILK
-Gauchat-1925-480-232	232	(of) whey	du petit-lait	lactata	78		
+Gauchat-1925-480-231	231	(some) milk	du lait	lacticĕllu	78	635	MILK
+Gauchat-1925-480-232	232	(some) whey	du petit-lait	lactata	78		
 Gauchat-1925-480-233	233	The wine	Le vin	vīnu	78	1524	WINE
 Gauchat-1925-480-234	234	is clear	est clair	claru	78	250	LIGHT (COLOR)
 Gauchat-1925-480-235	235	lukewarm	tiède	tĕpidu	80		
@@ -265,7 +265,7 @@ Gauchat-1925-480-263	263	above	sur	sū(r)su	88	1741	ABOVE
 Gauchat-1925-480-264	264	the oak	le chêne	cassinu	88	644	OAK
 Gauchat-1925-480-265	265	The willow	Le saule	salice	88	818	WILLOW
 Gauchat-1925-480-266	266	has fewer	a moins	mĭnus	88		
-Gauchat-1925-480-267	267	knots	de nœuds	nōdos	90		
+Gauchat-1925-480-267	267	(of) knots	de nœuds	nōdos	90	760	KNOT
 Gauchat-1925-480-268	268	than the beech	que le hêtre	fagu	90		
 Gauchat-1925-480-269	269	See here	Voilà	*-	90		
 Gauchat-1925-480-270	270	a plant	une plante	planta	90	653	PLANT (VEGETATION)
@@ -337,15 +337,15 @@ Gauchat-1925-480-335	335	is bored	s’ennuie	inŏdiat	112
 Gauchat-1925-480-336	336	alone	tout seul	solĭttu	112	1964	ALONE
 Gauchat-1925-480-337	337	You would like	Vous voudriez	volēre + (hab)ebatis	112		
 Gauchat-1925-480-338	338	that I do not	que je ne le	ĭllu	112		
-Gauchat-1925-480-339	339	know it	sache pas	sapiam	112		
+Gauchat-1925-480-339	339	know	sache pas	sapiam	112		
 Gauchat-1925-480-340	340	I cry	Je pleure	plōro	114		
 Gauchat-1925-480-341	341	softly	doucement	-mĕnte	114		
 Gauchat-1925-480-342	342	so that one doesn’t hear	pour qu’on n’entende pas	hŏmo audiat	114		
 Gauchat-1925-480-343	343	(I) can	(Je) sais	sa(p)io	114		
 Gauchat-1925-480-344	344	a little	un peu	paucu	114	2924	A LITTLE
 Gauchat-1925-480-345	345	read	lire	lĕgere	114	724	READ
-Gauchat-1925-480-346	346	I say it	Je ne le dis	dīco	116		
-Gauchat-1925-480-347	347	only to them	qu’à eux	illōru	116		
+Gauchat-1925-480-346	346	I do not say it	Je ne le dis	dīco	116		
+Gauchat-1925-480-347	347	but to them	qu’à eux	illōru	116		
 Gauchat-1925-480-348	348	It beats	Il frappe	fĕrit	116		
 Gauchat-1925-480-349	349	one o'clock	une heure	hōra	116		
 Gauchat-1925-480-350	350	No smoke	Pas de fumée	fumaria	116		
@@ -375,7 +375,7 @@ Gauchat-1925-480-373	373	Have	Ayez	habeatis	124
 Gauchat-1925-480-374	374	mercy	pitié	pietate	124		
 Gauchat-1925-480-375	375	with this worker	de cet ouvrier	operariu	124		
 Gauchat-1925-480-376	376	(He does not have) good health	(Il n’a pas) la santé	sanitate	126		
-Gauchat-1925-480-377	377	What (feminine)	Quelle	quīna?	126		
+Gauchat-1925-480-377	377	What kind of (feminine)	Quelle	quīna?	126		
 Gauchat-1925-480-378	378	poverty	pauvreté	paupertate	126		
 Gauchat-1925-480-379	379	He wants	Il veut	vŏlet	126		
 Gauchat-1925-480-380	380	to change	changer	cambiare	126	2856	CHANGE (SOMETHING)
@@ -459,7 +459,7 @@ Gauchat-1925-480-457	457	its nest	son nid	nīdu	152
 Gauchat-1925-480-458	458	in the tree	dans l’arbre	arbore	152		
 Gauchat-1925-480-459	459	The chick	Le poussin	pullicīnu	152	2512	CHICK
 Gauchat-1925-480-460	460	has wings	a des ailes	alas	152		
-Gauchat-1925-480-461	461	feathers	des plumes	plūmas	154		
+Gauchat-1925-480-461	461	(of) feathers	des plumes	plūmas	154		
 Gauchat-1925-480-462	462	The cat	Le chat	cattu	154	1208	CAT
 Gauchat-1925-480-463	463	has hair	a le poil	pĭlu	154		
 Gauchat-1925-480-464	464	white	blanc	blancu	154	1335	WHITE
