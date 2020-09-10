@@ -296,7 +296,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 295	WHETSTONE	Basic actions and technology	Before cutting the meat, he sharpened his knife with a whetstone.	Person/Thing	
 296	CROUCH	Motion	To lower one's body close to the ground by bending one's knees completely.	Action/Process	
 297	CROOKED	Spatial relations	Opposite of straight.	Property	
-298	SHRIEK	Speech and language	To make a very high, loud sound in reaction to something.	Action/Process	
+298	SHRIEK	Speech and language	To make a short, loud and high-pitched sound in reaction to something.	Action/Process	
 299	SCOLD	Speech and language	To rebuke.	Action/Process	
 300	RATTLE	Speech and language	A wooden instrument that makes a loud knocking noise [used by people watching football games].	Person/Thing	
 301	CHIEFTAIN	Social and political relations	The leader/ruler of a tribe/clan.	Person/Thing	
@@ -1145,7 +1145,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1144	WITNESS	Law	Someone who has a personal knowledge of something.	Person/Thing	
 1145	SWAMP	The physical world	A permanently waterlogged area in which there is often associated tree growth, e.g. mangroves in hot climates.	Person/Thing	
 1146	AUBERGINE	Food and drink	An Asian plant, Solanum melongena, cultivated for its edible purple, green, or white ovoid fruit.	Person/Thing	
-1147	PURE	Miscellaneous function words	Free from contaminants or extraneous elements.	Property	
+1147	PURE	The physical world	Free from contaminants or extraneous elements.	Property	
 1148	BRUISE	The body	A collection of blood in the body tissue outside the blood vessels	Person/Thing	
 1149	ORPHAN	Kinship	A person one or both of whose parents have died, especially a minor.	Person/Thing	
 1150	THUNDER	The physical world	Sound produced by fast air expansion induced by a lightning.	Person/Thing	
@@ -1531,7 +1531,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1530	BOWL	Food and drink	A roughly hemispherical container used to hold, mix or present food, such as salad, fruit or soup, or other items.	Person/Thing	
 1531	BRANCH	Agriculture and vegetation	A woody part of a tree arising from the trunk and usually dividing.	Person/Thing	
 1532	SHEAR	Animals	To remove the fleece from a sheep etc. by clipping.	Action/Process	
-1533	BE HUNGRY	Food and drink	A need of food.	Action/Process	
+1533	BE HUNGRY	Food and drink	To be in need of food.	Action/Process	
 1534	FEVER	The body	A higher than normal temperature of a person (or generally a mammal).	Person/Thing	
 1535	SWORD	Warfare and hunting	A long-bladed weapon that has a handle (and sometimes a hilt) and is designed to stab, cut or slash.	Person/Thing	
 1536	UNDERSTAND	Cognition	To be aware of the meaning of.	Action/Process	
@@ -2290,7 +2290,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2289	MILKY WAY	The physical world	The galaxy that contains our Solar System. Its name milky is derived from its appearance as a dim glowing band arching across the night sky in which the naked eye cannot distinguish individual stars.	Person/Thing	
 2290	PUDDLE	The physical world	A small accumulation of liquid, usually water, on a surface. It can form either by pooling in a depression on the surface, or by surface tension upon a flat surface. Puddles are usually formed from rain water or from irrigation.	Person/Thing	
 2291	VOLCANO	The physical world	A rupture on the crust of a planetary-mass object, such as Earth, that allows hot lava, volcanic ash, and gases to escape from a magma chamber below the surface.	Person/Thing	
-2292	GLASSES	Basic actions and technology	Frames bearing lenses worn in front of the eyes used for vision correction.	Person/Thing	
+2292	GLASSES	Basic actions and technology	Frames bearing lenses worn in front of the eyes used for vision correction.	Person/Thing	1898
 2293	UVULA	The body	A conic projection from the posterior edge of the middle of the soft palate.	Person/Thing	
 2294	WRINKLE	The body	A fold, ridge or crease in the skin.	Person/Thing	
 2295	SUNSET	Time	The daily disappearance of the Sun below the western horizon as a result of Earth's rotation.	Person/Thing	
@@ -2501,7 +2501,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2500	GINGER	Agriculture and vegetation	A herbaceous perennial which grows annual stems about a meter tall bearing narrow green leaves and yellow flowers.	Person/Thing	
 2501	RICE HUSK	Agriculture and vegetation	The husk of rice seeds.	Person/Thing	
 2502	GONG	Modern world	An African, East and South East Asian musical percussion instrument that takes the form of a flat, circular metal disc which is hit with a mallet.	Person/Thing	
-2503	LAUNDER	Basic actions and technology	To remove dirt from clothes.	Action/Process	
+2503	LAUNDER (WASH CLOTHES)	Basic actions and technology	To remove dirt from clothes.	Action/Process	
 2504	DIFFERENT	Social and political relations	To be not the same as something else.	Property	
 2505	BEDROOM	The house	The area where people sleep.	Person/Thing	
 2506	LOOSE	Basic actions and technology	Being not tight.	Property	
@@ -2520,7 +2520,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2519	SEEING (VISUAL SENSE)	Sense perception	The sense that enables to perceive light.	Person/Thing	
 2520	SMELLING (OLFACTORY SENSE)	Sense perception	The sense that enables to perceive odours.	Person/Thing	
 2521	FEELING (HAPTIC SENSE)	Sense perception	The sense that enables to perceive surfaces of things.	Person/Thing	
-2522	SCREAMING	Speech and language	A loud vocalisation.	Person/Thing	
+2522	SCREAM (NOISE)	Speech and language	A loud vocalisation.	Person/Thing	
 2523	HOWLING	Speech and language	A loud vocalisation inflicted by pain.	Person/Thing	
 2524	JOY	Emotions and values	Mental happiness.	Person/Thing	
 2525	LABOUR (EFFORT)	Basic actions and technology	Work that has to be done and inflicts mental or physical pain.	Person/Thing	
@@ -2996,7 +2996,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3000	LIVING	The body	Being alive.	Property	1422
 3001	POWERFUL	Emotions and values	Being done using a huge amount of energy.	Property	
 3002	PRECIOUS	Emotions and values	Being dear or important to somebody.	Property	
-3003	SOLID	Basic actions and technology	Firm to the touch.	Property	
+3003	SOLID	Sense perception	Firm to the touch.	Property	
 3004	FORMER	Time	Coming before in time.	Property	
 3005	FAMILIAR	Emotions and values	Knowing somebody or something well.	Property	
 3006	SPACE (AVAILABLE)	Spatial relations	Available space to place things.	Person/Thing	
@@ -3417,7 +3417,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3431	RICE STEAMER	Food and drink	A device to steam rice.	Person/Thing	
 3432	SHOULDER POLE	Basic actions and technology	A pole that is used to carry things on the shoulder.	Person/Thing	
 3433	AUTONYM (OF PEOPLE)	Social and political relations	The identity term that a group of people uses to refer to themselves as the members of an ethnic group or nation.	Person/Thing	
-3434	WASH (CLOTHES)	Basic actions and technology	To clean pieces of clothing by using water and supplementary cleansing products as a part of hygiene routine. 	Person/Thing	
+3434	WASH (CLOTHES)	Basic actions and technology	To clean pieces of clothing by using water and supplementary cleansing products as a part of hygiene routine. 	Person/Thing	2503
 3435	COW DUNG	Animals	The faeces of a cow.	Person/Thing	
 3436	FAT MEAT	Food and drink	Any animal meat with a higher fat content.	Person/Thing	
 3437	OPEN (MOUTH)	Basic actions and technology	To move one's jaw(s) in a way that the oral cavity becomes partially or fully visible.	Action/Process	
@@ -3792,3 +3792,4 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3806	RIPE OR COOKED	Food and drink	Suitable for eating because it is fully grown (of fruit and crops) or because it has been boiled, fried, grilled, etc.	Property	
 3807	EYEBALL	The body	The partly visible orb nesting in the eye socket which contains for example pupil, retina and iris and is connected to the brain via the optic nerve.	Person/Thing	
 3808	JUNGLE	The physical world	A type of forest with thick and overgrown ground vegetation, typically associated with tropical or humid climate zones.	Person/Thing	
+3809	SCREAM (PRODUCE A CRY)	Speech and language	To give a loud cry out of pain, fear or excitement. The vocalisation resulted from screaming is distinct from that produced by shrieking in that it is typically characterized by a longer duration and lower pitch.	Action/Process	
