@@ -41,6 +41,14 @@
                     {
                         "datatype": "string", 
                         "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string", 
+                        "name": "PAIR"
+                    },
+                    {
+                        "datatype": "string", 
+                        "name": "ORDER"
                     }
                 ], 
                 "primaryKey": [
