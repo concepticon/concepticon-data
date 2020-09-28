@@ -440,7 +440,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 439	CEBUS MONKEY	Animals	A Central and South American monkey, Cebus capucinus, having a prehensile tail and hair on the head resembling a cowl.	Person/Thing	
 440	CHONTA PALM	Agriculture and vegetation	Species of flowering plant in the Arecaceae family, trunked palm tree which is endemic to the Juan Fernández Islands archipielago in the southeast Pacific Ocean west of Chile.	Person/Thing	
 441	CHICHA	Food and drink	Abeverage made from fermented corn in South and Central America.	Person/Thing	
-442	FRONT TOOTH (INCISOR)	The body	Aeveral teeth located above and below in the mouth of mammals to bite food off.	Person/Thing	
+442	FRONT TOOTH (INCISOR)	The body	Aeveral teeth located above and below in the mouth of mammals (including humans) to bite food off.	Person/Thing	
 443	TIP (OF TONGUE)	The body	The front part of the tongue.	Person/Thing	
 444	LONG HAIR	The body	Hair that is not cut.	Person/Thing	
 445	UPPER BACK	The body	The upper part of the back.	Person/Thing	
@@ -469,7 +469,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 468	G-STRING	Clothing and grooming	A thong underwear or swimsuit, a narrow piece of cloth, leather, or plastic, that covers or holds the genitals, passes between the buttocks, and is attached to a band around the hips.	Person/Thing	
 469	PANDANUS	Agriculture and vegetation	Palm-like, dioecious trees and shrubs native to the Old World tropics and subtropics.	Person/Thing	
 470	POSSUM	Animals	Small to medium-sized arboreal marsupial species native to Australia, New Guinea, and Sulawesi.	Person/Thing	
-471	UPPER LEG	The body	The part of the leg between the pelvis and the knee.	Person/Thing	
+471	UPPER LEG (THIGH)	The body	The part of the leg between the pelvis and the knee.	Person/Thing	
 472	PELICAN	Animals	Large water birds comprising the family Pelecanidae. They are characterised by a long beak and large throat pouch used for catching prey and draining water from the scooped up contents before swallowing.	Person/Thing	
 473	SPEAR (SOMEBODY)	Warfare and hunting	To penetrate or strike with, or as if with, any long narrow object. To make a thrusting motion that catches an object on the tip of a long device.	Action/Process	
 474	DRESS	Clothing and grooming	A one-piece garment for a woman that has a skirt and a body section.	Person/Thing	
@@ -523,7 +523,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 522	WOLF	Animals	A large wild canid (Canidae), closely related to the dog.	Person/Thing	
 523	BACK OF HEAD	The body	The back part of the head.	Person/Thing	
 524	BARBEL	Animals	European freshwater fish belonging to the family of carps (Cyprinidae), Genus of barbus.	Person/Thing	
-525	BLOOD VESSEL	The body	The blood vessels are the part of the circulatory system that transports blood throughout the human body.	Person/Thing	
+525	BLOOD VESSEL	The body	The blood vessels are the part of the circulatory system that transports blood throughout the human body or an animal body.	Person/Thing	
 526	HOWL	Speech and language	To cry like a wolf, dog, or other canids.	Action/Process	
 527	DOG-ROSE	Agriculture and vegetation	The dog-rose (rosa canina) is a variable climbing wild rose species native to Europe, northwest Africa and western Asia and whose fruit is known as hip.	Person/Thing	
 528	DREADFUL	Emotions and values	Causing dread; very bad.	Property	
@@ -795,10 +795,10 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 794	PEN	Speech and language	A utensil, usually tubular in form, containing ink used to write or make marks.	Person/Thing	
 795	TROUT	Animals	Fresh water salmon.	Person/Thing	
 796	NIPPLE	The body	The projection of a mammary gland from which, on female mammals, milk can be secreted.	Person/Thing	
-797	TESTICLES	The body	The male sex gland that produces sperm and male hormones, found in some types of animals.	Person/Thing	
+797	TESTICLES	The body	The male sex gland that produces sperm and male hormones, found in some types of animals and humans.	Person/Thing	
 798	JAW	The body	Either of the two opposable structures forming, or near the entrance to, the mouth.	Person/Thing	
 799	WRIST	The body	The flexible and narrower connection between the forearm and the hand.	Person/Thing	
-800	THIGH	The body	The area between the pelvis and buttocks and the knee.	Person/Thing	
+800	THIGH	The body	The area between the pelvis and buttocks and the knee.	Person/Thing	471
 801	RIB	The body	One of the long curved bones which form the rib cage.	Person/Thing	
 802	ADAM'S APPLE	The body	A lump at the front of the neck.	Person/Thing	
 803	ANKLE	The body	A joint formed where the foot and the leg meet.	Person/Thing	
@@ -978,7 +978,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 977	ARROW	Warfare and hunting	Pointed projectile that is shot with a bow.	Person/Thing	
 978	WAVE	The physical world	A disturbance in an fluid medium.	Person/Thing	
 979	FARMER	Agriculture and vegetation	A person who works the land or who keeps livestock, especially on a farm.	Person/Thing	
-980	HEEL	The body	The part of the foot on the backside where it becomes the leg.	Person/Thing	
+980	HEEL	The body	The part of the human foot on the backside where it becomes the leg.	Person/Thing	
 981	ELBOW	The body	The joint between arm and forearm.	Person/Thing	
 982	LIME (FRUIT)	Agriculture and vegetation	A green citrus fruit.	Person/Thing	
 983	CONVICT	Law	To find guilty of a crime as a result of legal proceedings.	Action/Process	
@@ -1246,7 +1246,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1245	BUTTER	Food and drink	A soft, fatty foodstuff that is made by churning the cream of milk (most often cows milk).	Person/Thing	
 1246	SMALL	Spatial relations	Not large or big; small in size.	Property	
 1247	EAR	The body	The organ of hearing, consisting of the pinna, auditory canal, eardrum, malleus, incus, stapes and cochlea.	Person/Thing	
-1248	EYE	The body	The organ that is sensitive to light, which it converts to electrical signals passed to the brain, by which means animals see.	Person/Thing	
+1248	EYE	The body	The organ that is sensitive to light, which it converts to electrical signals passed to the brain, by which means animals and humans see.	Person/Thing	
 1249	SPIKE	Agriculture and vegetation	The fruiting body of a grain plant.	Person/Thing	
 1250	JAGUAR	Animals	A carnivorous spotted large cat native to South and Central America.	Person/Thing	
 1251	BELLY	The body	The lower part of the front of the torso (or a comparable part of an animal), confined by the upper side by the midriff and the lowerside by the pelvis. Contains the intestines.	Person/Thing	
@@ -1332,7 +1332,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1331	SHEEP	Animals	A common, four-legged animal (Ovis) that is commonly kept by humans for its wool.	Person/Thing	
 1332	NEIGHBOUR	Social and political relations	A person living in a house that is adjacent or nearby another person's house.	Person/Thing	
 1333	NECK	The body	The part of the body (found in some animals, including humans) that connects the head and the trunk.	Person/Thing	
-1334	GUTS	The body	The internal organs of an animal.	Person/Thing	
+1334	GUTS	The body	The internal organs of an animal or human.	Person/Thing	
 1335	WHITE	Sense perception	Bright and colourless; reflecting equal quantities of all frequencies of visible light.	Property	
 1336	EAT	Food and drink	To consume something solid or semi-solid (usually food) by putting it into the mouth and eventually swallowing it.	Action/Process	
 1337	PIG	Animals	A common, four-legged animal (Sus scrofa) that has cloven hooves, bristles and a nose adapted for digging and is farmed by humans for its meat.	Person/Thing	
@@ -1378,7 +1378,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1377	VISIT	Social and political relations	To go and see a person or place.	Action/Process	
 1378	SPOON	Food and drink	An implement for eating or serving, a small bowl with a long straight handle.	Person/Thing	
 1379	TELEPHONE	Modern world	An electronic device used for calling people.	Person/Thing	
-1380	TOOTH	The body	A hard, calcareous structure present in the mouth of many vertebrate animals, generally used for eating.	Person/Thing	
+1380	TOOTH	The body	A hard, calcareous structure present in the mouth of many vertebrate animals (including humans), generally used for eating.	Person/Thing	
 1381	SHOE	Clothing and grooming	A protective covering for the foot, with a bottom part composed of thick leather or plastic sole and often a thicker heel, and a softer upper part made of leather or synthetic material. Shoes generally do not extend above the ankle, as opposed to boots, which do.	Person/Thing	
 1382	NEEDLE (FOR SEWING)	Clothing and grooming	A thin, sharp implement used in sewing, knitting and acupuncture.	Person/Thing	
 1383	GRANDFATHER	Kinship	The father of one of someone's parents.	Person/Thing	
@@ -1581,7 +1581,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1580	ONLY	Quantity	Nothing more than.	Other	
 1581	ALLIGATOR	Animals	A reptile belonging to the subfamily Alligatorinae in the family Alligatoridae in the order Crocodylia.	Person/Thing	
 1582	TIN (CAN)	Modern world	A tin-plate canister, often cylindrical, for preserved foods such as fruit, meat, or fish.	Person/Thing	
-1583	BRAIN	The body	The organ of the central nervous system of an animal located in the skull that controls the actions and thoughts of the animal.	Person/Thing	
+1583	BRAIN	The body	The organ of the central nervous system of an animal or human located in the skull that controls the actions and thoughts of the animal or human.	Person/Thing	
 1584	BLISTER	The body	A small bubble on the skin, that contains watery fluid and is caused by heat, pressure or infection.	Person/Thing	
 1585	SLEEP	The body	To rest in a state of decreased consciousness and reduced metabolism.	Action/Process	
 1586	SMELL (PERCEIVE)	Sense perception	To perceive the presence of molecules in the air by inhaling them through the nose.	Action/Process	
@@ -1834,7 +1834,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1833	DINNER (SUPPER)	Food and drink	A meal that is eaten in the late afternoon or evening daily.	Person/Thing	
 1834	SHE	Kinship	A female other; the female previously mentioned. 3rd person singular feminine subject pronoun.	Other	
 1835	MARROW	The body	The spongy tissue in the hollow parts of bones.	Person/Thing	
-1836	VAGINA	The body	The lower part of the female reproductive tract; a moist canal in female mammals extending from the labia minora to the uterus.	Person/Thing	
+1836	VAGINA	The body	The lower part of the female reproductive tract; a moist canal in female mammals (including humans) extending from the labia minora to the uterus.	Person/Thing	
 1837	VULVA	The body	The external parts of the female genitalia, in human beings this consists of the labia , clitoris, opening of the urethra (meatus), and the opening of the vagina.	Person/Thing	
 1838	NAVEL	The body	A scar where the umbilical cord was attached.	Person/Thing	
 1839	CRY	Emotions and values	To shed tears due to the impact of an emotion.	Action/Process	
@@ -1989,7 +1989,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1988	RIBES	Agriculture and vegetation	A member of the genus Ribes in the gooseberry family Grossulariaceae, native to parts of western Europe (France, Belgium, Netherlands, Germany, and northern Italy). It is a deciduous shrub normally growing to 1-1.5 m tall, occasionally 2 m, with five-lobed leaves arranged spirally on the stems.	Person/Thing	
 1989	CALF	Animals	Young cattle.	Person/Thing	
 1990	BECOME	Miscellaneous function words	To begin to be; to come to be; to turn into.	Action/Process	
-1991	INTESTINES	The body	The alimentary canal of an animal through which food passes after having passed all stomachs.	Person/Thing	
+1991	INTESTINES	The body	The alimentary canal of an animal or human through which food passes after having passed all stomachs.	Person/Thing	
 1992	MORE	Quantity	[Used in forming the comparative form of many adjectives and almost all comparable adverbs.]	Other	
 1993	SELF	Kinship	The essential qualities that make a person or a thing distinct from all others.	Other	
 1994	COLLARBONE	The body	Bone linking the scapula and sternum.	Person/Thing	
@@ -3698,7 +3698,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3712	RAINCOAT	Clothing and grooming	A long jacket which is waterproof. 	Person/Thing	
 3713	PHARYNX	The body	The inner part of the neck which starts after the oral and nasal cavity.	Person/Thing	
 3714	LARYNX	The body	Organ on the upper end of the trachea.	Person/Thing	
-3715	BELLYBUTTON	The body	The middle of the belly where the umbilical cord has grown in the womb during pregnancy.	Person/Thing	
+3715	BELLYBUTTON	The body	The middle of the belly where the umbilical cord has grown in the womb during pregnancy.	Person/Thing	1838
 3716	OVARY	The body	The female sex organ which is often paired and produces eggs for procreation.	Person/Thing	
 3717	BADGER	Animals	A mammal which belong to the family Mustelidae.	Person/Thing	
 3718	GUINEA PIG	Animals	A tailless rodent which is larger than a hamster and often kept as a pet. It belongs to the family Caviidae.	Person/Thing	
@@ -3719,7 +3719,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3733	FERRY	Modern world	A transport ship used for small distances from one port to another which often runs on a regular schedule.	Person/Thing	
 3734	CHIMPANZEE	Animals	A great ape which is native to Africa and is suggested to be the closest extant relative to humans.	Person/Thing	
 3735	NEAR (IN SPACE)	Spatial relations	Not far distant in space.	Property	
-3736	INSTEP	The body	The arched part of the foot between the ankle and the toes.	Person/Thing	
+3736	INSTEP	The body	The arched part of the human foot between the ankle and the toes.	Person/Thing	
 3737	BAREFOOT	Clothing and grooming	Not wearing anything on the feet.	Property	
 3738	GRIZZLY BEAR	Animals	A large and ferocious subspecies of the brown bear, inhabiting North America.	Person/Thing	
 3739	MARTEN	Animals	A mammal of the family Mustelidae in the genus Martes, inhabiting the forests of the Northern Hemisphere, having a long, slender body, a bushy tail and short legs and also known for its thick, valuable fur.	Person/Thing	

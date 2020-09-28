@@ -104,6 +104,7 @@
 - [Ringe1992 [PDF 37.6KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-955A-2311-4E98-0/Ringe1992.pdf)
 - [Ringe2002 [PDF 180.4KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-B4F7-13C7-EAE0-0/Ringe2002.pdf)
 - [Rowe1954 [PDF 100.3KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-A8ED-1F11-7957-0/Rowe1954.pdf)
+- [Rowe1954b [PDF 382.1KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-0599-4CDE-F7D6-0/Rowe1954b.pdf)
 - [SIL1980 [PDF 204.7KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-6C2D-484C-E5CA-0/SIL1980.pdf)
 - [Samarin1967 [PDF 1.7MB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-D277-3976-CC59-0/Samarin1967.pdf)
 - [Samarin1969 [PDF 1.7MB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-D277-3976-CC59-0/Samarin1967.pdf)
