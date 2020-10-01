@@ -1,0 +1,110 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dialect": {
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        },
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        },
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": 1
+                        },
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ITALIAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GUSTATORY_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "OLFACTORY_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "HAPTIC_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "AUDITORY_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "VISUAL_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "PERCEPTUAL_STRENGTH_MAX"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "PERCEPTUAL_DOMINANT"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "PERCEPTUAL_STRENGTH_SUM"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "PERCEPTUAL_STRENGTH_ENTROPY"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "EXCLUSIVITY"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "FAMILIARITY"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "AOA_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "CONTEXT_AVAILABILITY"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "Morucci-2019-643.tsv"
+        }
+    ]
+}
