@@ -1,0 +1,122 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dialect": {
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        },
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        },
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": 1
+                        },
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RUSSIAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "TRANSLITERATION"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CATEGORY"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ABSTRACTNESS"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "LENGTH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "GENDER"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "OBJECTIVE_WORD_FREQUENCY"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "VISUAL_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "AUDITORY_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "OLFACTORY_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GUSTATORY_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "HAPTIC_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "IMAGEABILITY_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "MANIPULABILITY_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "SPATIAL_LOCALIZATION_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "AOA_MEAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SUBJECTIVE_FREQ_MEAN"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "Miklashevsky-2018-506.tsv"
+        }
+    ]
+}
