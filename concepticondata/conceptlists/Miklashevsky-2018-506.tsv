@@ -11,7 +11,7 @@ Miklashevsky-2018-506-9	9	апельсин	apelsin	orange	Food	concrete	8	m	0.9	
 Miklashevsky-2018-506-10	10	арбуз	arbuz	water-melon	Food	concrete	5	m	1	4.41	2.07	5.14	6.03	5.1	6.93	5.21	1.78	3.11	3.89	2766	WATERMELON
 Miklashevsky-2018-506-11	11	асфальт	asfalt	asphalt 	Ground	concrete	7	m	1.5	4.14	1.79	4	1.91	3.97	6.66	3.86	2.15	4.57	4.41		
 Miklashevsky-2018-506-12	12	атака	ataka	attack	Action	abstract	5	f	1.6	3.6	3.71	1.81	1.54	3.11	5	5.14	4.22	5.62	3.73	722	ATTACK
-Miklashevsky-2018-506-13	13	аэростат	aerostat	balloon	Transport	concrete	8	m	0.5	3.53	3.43	1.52	1.23	2.32	4.04	3.8	4.32	11.25	1.6	3083	BALLOON
+Miklashevsky-2018-506-13	13	аэростат	aerostat	balloon	Transport	concrete	8	m	0.5	3.53	3.43	1.52	1.23	2.32	4.04	3.8	4.32	11.25	1.6		
 Miklashevsky-2018-506-14	14	бабочка	babochka	butterfly	Animal	concrete	7	f	1.3	5.87	1.7	1.27	1.44	4.08	6.83	2.73	4.79	3.23	3.65	1791	BUTTERFLY
 Miklashevsky-2018-506-15	15	баклажан	baklazhan	aubergine	Food	concrete	8	m	0.7	4.66	1.64	3.55	5.27	4.14	6.86	4.84	1.97	5.83	3.27	1146	AUBERGINE
 Miklashevsky-2018-506-16	16	баран	baran	ram	Animal	concrete	5	m	1	5.44	4.5	4.07	4.14	3.79	6.75	3.48	2.62	4.13	3.73	1344	RAM
@@ -30,7 +30,7 @@ Miklashevsky-2018-506-28	28	боль	bol	pain	Sense_Phys	abstract	4	f	2.1	3	3.34
 Miklashevsky-2018-506-29	29	ботинок	botinok	lace boot	Clothes	concrete	7	m	1.6	3.86	2.17	3.52	1.39	4.83	6.86	4.63	1.94	3.8	4.93		
 Miklashevsky-2018-506-30	30	боярышник	boyaryishnik	hawthorn	Food	concrete	9	m	0.4	3.24	1.43	5.1	5.07	3.79	4.87	3.07	2.64	7.52	2.4	1168	HAWTHORN
 Miklashevsky-2018-506-31	31	бровь	brov	eyebrow	Body_Part	concrete	5	f	1.6	4.67	1.37	1.55	1.57	4.86	6.56	4	3.68	3.83	4.93	1173	EYEBROW
-Miklashevsky-2018-506-32	32	бросок	brosok	throw	Action	abstract	6	m	1	3.1	2.5	1.15	1.21	3.22	5.41	5.33	3.75	4.92	3.7	1456	THROW
+Miklashevsky-2018-506-32	32	бросок	brosok	throw	Action	abstract	6	m	1	3.1	2.5	1.15	1.21	3.22	5.41	5.33	3.75	4.92	3.7		
 Miklashevsky-2018-506-33	33	брусника	brusnika	cowberry	Food	concrete	8	f	0.6	4.74	1.43	3.87	5.67	4.15	6.41	4.55	2.94	6.2	2.88		
 Miklashevsky-2018-506-34	34	бумеранг	bumerang	boomerang	Tool_power_grip	concrete	8	m	0.4	4.2	2.96	1.33	1.47	3.62	6.34	6.32	4.78	6.59	2.28	135	BOOMERANG
 Miklashevsky-2018-506-35	35	бункер	bunker	bunker	Building	concrete	6	m	0.8	3.73	2.19	1.83	1.17	2.17	5.97	4	1.25	9.56	2.52		
@@ -115,7 +115,7 @@ Miklashevsky-2018-506-113	113	зависть	zavist	envy	Sense_Emotion	abstract	
 Miklashevsky-2018-506-114	114	зажим	zazhim	clip	Tool_precise_grip	concrete	5	m	0.7	4.06	1.86	1.41	1.41	3.64	5.11	5.68	2.35	8.43	2.87		
 Miklashevsky-2018-506-115	115	заколка	zakolka	hairpin	Clothes	concrete	7	f	0.4	4.4	2	1.43	1.53	4.48	6.31	6.13	4.69	4.78	3.79		
 Miklashevsky-2018-506-116	116	замысел	zamyisel	intention	Intelligence	abstract	7	m	1.6	1.94	1.71	1.1	1.22	1.58	3.03	2.27	5.15	8.27	4.08	1162	INTENTION
-Miklashevsky-2018-506-117	117	запах	zapah	smell	Sense_Phys	abstract	5	m	2	1.48	1.57	5.59	3.48	1.46	2.63	2.37	3.7	3.87	5.97	2520	SMELLING (OLFACTORY SENSE)
+Miklashevsky-2018-506-117	117	запах	zapah	smell	Sense_Phys	abstract	5	m	2	1.48	1.57	5.59	3.48	1.46	2.63	2.37	3.7	3.87	5.97	3704	ODOR (SMELL)
 Miklashevsky-2018-506-118	118	запонка	zaponka	cuff link	Clothes	concrete	7	f	0.4	3.93	1.73	1.24	1.82	3.9	5.3	6.23	2.92	8.33	2.43		
 Miklashevsky-2018-506-119	119	застежка	zastezhka	clasp	Tool_precise_grip	concrete	8	f	0.6	4.3	2.53	1.21	1.57	4.72	5.33	6.53	3.08	5.2	4.61		
 Miklashevsky-2018-506-120	120	защелка	zaschelka	latch	Tool_precise_grip	concrete	7	f	0.4	3.83	3.66	1.41	1.07	4.72	5.04	5.24	2.81	5.41	2.5	1012	LATCH
@@ -132,17 +132,17 @@ Miklashevsky-2018-506-130	130	зрение	zrenie	vision	Sense_Phys	abstract	6	n
 Miklashevsky-2018-506-131	131	игла	igla	needle	Tool_precise_grip	concrete	4	f	1.2	4.9	1.29	1.27	1.81	5.38	6.83	6.63	2.91	4.1	3.81	1382	NEEDLE (FOR SEWING)
 Miklashevsky-2018-506-132	132	идея	ideya	idea	Intelligence	abstract	4	f	2.4	1.6	2.39	1.23	1.25	1.63	3.14	2.24	4.91	6.27	6.23	1609	IDEA
 Miklashevsky-2018-506-133	133	изюм	izyum	raisin	Food	concrete	4	m	0.6	3.97	1.4	4.66	6.07	4.71	6.8	4.3	2.64	4.93	3.73		
-Miklashevsky-2018-506-134	134	индюк	indyuk	turkey cock	Animal	concrete	5	m	0.4	4.48	2.5	1.93	3.78	3.38	6.45	2.73	2.73	5.73	2.42		
+Miklashevsky-2018-506-134	134	индюк	indyuk	turkey cock	Animal	concrete	5	m	0.4	4.48	2.5	1.93	3.78	3.38	6.45	2.73	2.73	5.73	2.42	2386	TURKEY
 Miklashevsky-2018-506-135	135	инстинкт	instinkt	instinct	Sense_Emotion	abstract	8	m	1.3	2.69	2.2	1.79	1.69	1.58	2.47	1.77	4.58	8.47	3.8		
-Miklashevsky-2018-506-136	136	интерес	interes	interest	Sense_Emotion	abstract	7	m	2.4	2.69	1.61	2.14	1.64	1.89	3.61	2.19	4.68	5.63	6.07	2062	INTEREST
+Miklashevsky-2018-506-136	136	интерес	interes	interest	Sense_Emotion	abstract	7	m	2.4	2.69	1.61	2.14	1.64	1.89	3.61	2.19	4.68	5.63	6.07		
 Miklashevsky-2018-506-137	137	истребитель	istrebitel	fighter aircraft	Transport	concrete	11	m	1.3	4.7	4.73	1.69	1.21	2.72	5.74	5.84	6.32	7.43	2.56		
-Miklashevsky-2018-506-138	138	кабан	kaban	boar	Animal	concrete	5	m	0.8	4	3.23	3.9	3.1	3.17	6.67	2.37	2.33	4.67	3.07	1348	BOAR (MALE PIG)
+Miklashevsky-2018-506-138	138	кабан	kaban	boar	Animal	concrete	5	m	0.8	4	3.23	3.9	3.1	3.17	6.67	2.37	2.33	4.67	3.07	3154	WILD BOAR
 Miklashevsky-2018-506-139	139	кабачок	kabachok	squash	Food	concrete	7	m	0.7	3.77	1.64	3.38	5.36	3.96	6.69	4.62	1.69	5.08	3.5		
 Miklashevsky-2018-506-140	140	каблук	kabluk	heel	Clothes	concrete	6	m	1.2	3.69	3.48	1.79	1.58	4.14	6.03	3.97	1.91	5.93	3.86		
 Miklashevsky-2018-506-141	141	калоша	kalosha	golosh	Clothes	concrete	6	f	0.6	3.9	1.97	1.83	1.61	4.79	6.41	5	1.73	5.5	1.85		
 Miklashevsky-2018-506-142	142	камень	kamen	stone	Tool_power_grip	concrete	6	m	2.1	4.1	2.15	1.8	1.83	4.69	6.71	3.74	1.69	3.07	4.14	857	STONE
 Miklashevsky-2018-506-143	143	каноэ	kanoe	canoe	Transport	concrete	5	n	0.1	3.71	1.89	1.1	1.44	2.54	6	4.9	2.76	10.14	1.5	1970	CANOE
-Miklashevsky-2018-506-144	144	капкан	kapkan	trap	Object	concrete	6	m	0.7	3.48	2.48	1.72	1.55	4.31	5.9	5.23	2.09	7.7	1.76	1075	TRAP (PITFALL)
+Miklashevsky-2018-506-144	144	капкан	kapkan	trap	Object	concrete	6	m	0.7	3.48	2.48	1.72	1.55	4.31	5.9	5.23	2.09	7.7	1.76		
 Miklashevsky-2018-506-145	145	капуста	kapusta	cabbage	Food	concrete	7	f	1.4	4.75	2.57	4.34	5.82	4.29	6.79	5.37	1.76	3.77	4.62	774	CABBAGE
 Miklashevsky-2018-506-146	146	карандаш	karandash	pencil	Tool_precise_grip	concrete	8	m	1.7	5.34	2.29	2.21	2.86	5.04	6.79	6.61	2.62	3.33	5.93	2578	PENCIL
 Miklashevsky-2018-506-147	147	карета	kareta	carriage	Transport	concrete	6	f	1	3.93	3.59	1.66	1.17	3.03	6.81	5.03	2.88	4.63	2.11	2620	CARRIAGE
@@ -196,7 +196,7 @@ Miklashevsky-2018-506-194	194	лодка	lodka	boat	Transport	concrete	5	f	1.8	4
 Miklashevsky-2018-506-195	195	ложка	lozhka	spoon	Tool_precise_grip	concrete	5	f	1.6	4.28	3	1.76	3.72	5.63	6.8	6.8	2.3	2.8	6.47	1378	SPOON
 Miklashevsky-2018-506-196	196	локомотив	lokomotiv	locomotive	Transport	concrete	9	m	1.2	4.26	4.71	2.13	1.37	2.54	5.72	4.4	3.33	8.4	2.38		
 Miklashevsky-2018-506-197	197	лопата	lopata	shovel	Tool_power_grip	concrete	6	f	1.3	3.83	2.03	1.76	1.67	4.86	6.48	6.5	2.58	4.73	2.97	1901	SHOVEL
-Miklashevsky-2018-506-198	198	лось	los	elk	Animal	concrete	4	m	0.9	4.67	3.1	2.79	3.5	3.21	6.11	2.53	3.14	5.03	2.89	1772	ELK
+Miklashevsky-2018-506-198	198	лось	los	elk	Animal	concrete	4	m	0.9	4.67	3.1	2.79	3.5	3.21	6.11	2.53	3.14	5.03	2.89		
 Miklashevsky-2018-506-199	199	лошадь	loshad	mare	Animal	concrete	6	f	1.9	4.38	4.3	4.62	2.62	4.5	6.77	3.57	2.67	4	4.4	938	MARE
 Miklashevsky-2018-506-200	200	лук	luk	bow/onion (homonyms)	Food	concrete	3	m	1.4	4.21	1.38	5.48	6.03	4.03	6.52	4.67	2.39	4.13	4.34		
 Miklashevsky-2018-506-201	201	луна	luna	moon	Space	concrete	4	f	1.7	6	1.5	1.59	1.41	1.79	6.79	1.58	6.56	3.33	5.07	1313	MOON
@@ -253,7 +253,7 @@ Miklashevsky-2018-506-251	251	ностальгия	nostalgiya	nostalgia	Sense_Em
 Miklashevsky-2018-506-252	252	обезьяна	obezyana	monkey	Animal	concrete	8	f	1.3	4.55	4.72	3.24	1.59	3.45	6.59	2.45	4.03	3.7	3.5	1350	MONKEY
 Miklashevsky-2018-506-253	253	обида	obida	offense	Sense_Emotion	abstract	5	f	1.6	2.07	2.63	1.5	1.97	1.45	4.5	2.32	3.47	4.96	5.48		
 Miklashevsky-2018-506-254	254	облако	oblako	cloud	Space	concrete	6	n	1.6	5.61	1.36	1.5	1.78	2.27	6.83	1.13	6.61	3.17	5.27	1489	CLOUD
-Miklashevsky-2018-506-255	255	обоняние	obonyanie	sense of smell	Sense_Phys	abstract	8	n	0.5	2.29	1.43	5.27	2.7	2.08	3.18	1.33	4.39	7.17	3.12		
+Miklashevsky-2018-506-255	255	обоняние	obonyanie	sense of smell	Sense_Phys	abstract	8	n	0.5	2.29	1.43	5.27	2.7	2.08	3.18	1.33	4.39	7.17	3.12	2520	SMELLING (OLFACTORY SENSE)
 Miklashevsky-2018-506-256	256	образ	obraz	image	Intelligence	abstract	5	m	2.7	5.17	2.28	2.14	1.39	2.34	2.86	2.37	4.91	7.77	4.72		
 Miklashevsky-2018-506-257	257	овца	ovtsa	sheep	Animal	concrete	4	f	1.3	4.47	4.17	2.83	2.89	3.59	6.15	3.41	2.51	4.43	3.75	1331	SHEEP
 Miklashevsky-2018-506-258	258	оговорка	ogovorka	slip of the tongue	Action	abstract	8	f	1.1	1.63	4.86	1.31	1.18	1.22	3.52	1.97	3.31	7.96	3.93		
@@ -265,7 +265,7 @@ Miklashevsky-2018-506-263	263	орел	orel	eagle	Animal	concrete	4	m	1.3	5.77	3
 Miklashevsky-2018-506-264	264	орех	oreh	nut	Food	concrete	4	m	1.2	4.75	2.25	3.9	6.32	4.43	6.43	4.77	3.68	4.73	3.77	191	NUT
 Miklashevsky-2018-506-265	265	осел	osel	donkey	Animal	concrete	4	m	0.9	3.76	3.9	3.1	1.69	3.72	6.7	3.03	2.5	4	2.96	1862	DONKEY
 Miklashevsky-2018-506-266	266	осьминог	osminog	octopus	Animal	concrete	8	m	0.4	4.97	2.11	2.31	2.95	3.14	6.75	2.65	1.85	5.1	2.13	2581	OCTOPUS
-Miklashevsky-2018-506-267	267	осязание	osyazanie	touch	Sense_Phys	abstract	8	n	0.3	1.45	1.5	1.34	1.83	4.13	2.69	4.97	4.12	6.83	3.37		
+Miklashevsky-2018-506-267	267	осязание	osyazanie	touch	Sense_Phys	abstract	8	n	0.3	1.45	1.5	1.34	1.83	4.13	2.69	4.97	4.12	6.83	3.37	2521	FEELING (HAPTIC SENSE)
 Miklashevsky-2018-506-268	268	отбор	otbor	selection	Action	abstract	5	m	1.4	1.97	1.53	1.24	1.32	1.97	2.44	3.66	3.57	7.57	3.85		
 Miklashevsky-2018-506-269	269	отвертка	otvertka	screwdriver	Tool_power_grip	concrete	8	f	0.5	4.66	2.18	1.79	1.18	4.75	6.82	6.48	2.47	5.33	3.73	836	SCREWDRIVER
 Miklashevsky-2018-506-270	270	отвращение	otvraschenie	disgust	Sense_Emotion	abstract	10	n	1.3	2.97	1.97	2.41	2.52	2.31	3.08		3.09	7.48	4.48	2465	DISGUST
@@ -280,9 +280,9 @@ Miklashevsky-2018-506-278	278	парашют	parashyut	parachute	Transport	concr
 Miklashevsky-2018-506-279	279	парик	parik	wig	Clothes	concrete	5	m	0.9	3.93	1.34	2.1	1.52	3.79	6.48	5.27	3.67	6.8	1.79		
 Miklashevsky-2018-506-280	280	паркет	parket	parquet	Ground	concrete	6	m	1	4.63	2.32	2.23	1.25	4.26	6.55	4.81	1.56	8.46	2.83		
 Miklashevsky-2018-506-281	281	паровоз	parovoz	steam locomotive	Transport	concrete	7	m	1.1	5.29	5.29	2.8	1.56	2.85	6.41	5.13	3.24	4.43	3.12		
-Miklashevsky-2018-506-282	282	паром	parom	ferryboat	Transport	concrete	5	m	0.7	3.59	4.17	2.07	1.66	3.21	6.1	4.2	2.7	7.87	2.43		
+Miklashevsky-2018-506-282	282	паром	parom	ferryboat	Transport	concrete	5	m	0.7	3.59	4.17	2.07	1.66	3.21	6.1	4.2	2.7	7.87	2.43	3733	FERRY
 Miklashevsky-2018-506-283	283	пароход	parohod	steamship	Transport	concrete	7	m	1.4	5.32	4.54	2	1.37	2.69	6.55	5.07	3.21	5.83	2.5		
-Miklashevsky-2018-506-284	284	парус	parus	sail	Transport	concrete	5	m	1.2	5.19	2.39	1.4	1.26	3.42	6.72	5.1	4.61	5.1	2.42	787	SAIL
+Miklashevsky-2018-506-284	284	парус	parus	sail	Transport	concrete	5	m	1.2	5.19	2.39	1.4	1.26	3.42	6.72	5.1	4.61	5.1	2.42	786	SAILCLOTH
 Miklashevsky-2018-506-285	285	парусник	parusnik	sailing ship	Transport	concrete	8	m	0.6	4.28	2.47	1.9	1.38	3.17	6.6	4.77	3.76	6.77	3.1		
 Miklashevsky-2018-506-286	286	паук	pauk	spider	Animal	concrete	4	m	1	5.28	1.75	1.52	1.32	3.57	6.57	2.71	2.35	3.47	4.07	843	SPIDER
 Miklashevsky-2018-506-287	287	педаль	pedal	pedal	Tool_power_grip	concrete	6	f	1	3.5	2.67	1.5	1	4.41	6.45	2.61	1.94	5.78	3.21		
@@ -294,7 +294,7 @@ Miklashevsky-2018-506-292	292	петух	petuh	cock	Animal	concrete	5	m	1.2	4.4	
 Miklashevsky-2018-506-293	293	печаль	pechal	sorrow	Sense_Emotion	abstract	6	f	1.3	2.84	2.11	1.45	2.55	1.61	4.43	2.06	4.09	6.17	4.97		
 Miklashevsky-2018-506-294	294	пила	pila	saw	Tool_power_grip	concrete	4	f	1	4.14	5.38	2	1.24	5.14	6.89	6.24	2.25	4.81	3.5	1948	SAW
 Miklashevsky-2018-506-295	295	пинцет	pintset	tweezers	Tool_precise_grip	concrete	6	m	0.4	4.28	1.67	1.52	2	4.92	6.5	6.67	2.24	7.77	3.7		
-Miklashevsky-2018-506-296	296	писк	pisk	squeak	Sound	concrete	4	m	0.7	1.71	5.32	1.1	1.11	1.58	3.54	1.67	4.12	4.77	3.38	3692	SQUEAK
+Miklashevsky-2018-506-296	296	писк	pisk	squeak	Sound	concrete	4	m	0.7	1.71	5.32	1.1	1.11	1.58	3.54	1.67	4.12	4.77	3.38		
 Miklashevsky-2018-506-297	297	плинтус	plintus	plinth	Ground	concrete	7	m	0.3	4.07	1.48	1.41	1.36	3.41	6.45	3.97	2.09	8.6	2		
 Miklashevsky-2018-506-298	298	плот	plot	raft	Transport	concrete	4	m	1	3.9	2	1.93	1.6	3.17	6.28	5.26	2.16	6.3	2.17	1664	RAFT
 Miklashevsky-2018-506-299	299	повозка	povozka	wagon	Transport	concrete	7	f	0.8	4.34	3.25	1.72	1.23	3.32	6.11	5.06	2.71	7.23	2.53	122	CART
@@ -352,7 +352,7 @@ Miklashevsky-2018-506-350	350	самолет	samolet	airplane	Transport	concrete
 Miklashevsky-2018-506-351	351	сандалия	sandaliya	sandal	Clothes	concrete	8	f	0.7	4.75	1.75	2.28	1.36	4.21	6	4.63	1.97	5.78	2.17		
 Miklashevsky-2018-506-352	352	сани	sani	sleigh	Transport	concrete	4	plur_tant	1.1	4.37	2.43	1.76	1.82	4.24	6.11	5.78	2.46	4.4	3.19	16	SLED
 Miklashevsky-2018-506-353	353	санки	sanki	sled	Transport	concrete	5	plur_tant	0.8	3.93	2.38	1.69	1.31	4.28	6.85	5.03	1.66	3.11	2.93		
-Miklashevsky-2018-506-354	354	сапог	sapog	jackboot	Clothes	concrete	5	m	1.8	5.19	2.21	3.07	1.41	4.46	6.93	5.17	1.97	3.53	5.31		
+Miklashevsky-2018-506-354	354	сапог	sapog	jackboot	Clothes	concrete	5	m	1.8	5.19	2.21	3.07	1.41	4.46	6.93	5.17	1.97	3.53	5.31	585	BOOT
 Miklashevsky-2018-506-355	355	свекла	svekla	beet	Food	concrete	6	f	0.9	3.76	1.63	4.86	5.62	4.33	6.63	3.43	2	4.63	3.8		
 Miklashevsky-2018-506-356	356	свинья	svinya	pig	Animal	concrete	6	f	1.4	3.97	3.17	4.28	4.03	3.28	6.48	3	2.48	4.53	3.17	1337	PIG
 Miklashevsky-2018-506-357	357	серьга	serga	ear-ring	Clothes	concrete	6	f	0.8	4.34	2.59	1.59	1.61	4.76	6.55	5.57	3.7	4.97	4.03	770	EARRING
@@ -389,14 +389,14 @@ Miklashevsky-2018-506-387	387	спутник	sputnik	satellite	Space	concrete	7	
 Miklashevsky-2018-506-388	388	стакан	stakan	glass	Tool_power_grip	concrete	6	m	1.9	4.43	2.43	1.72	3.11	4.79	6.7	6.44	2.84	3.67	5.96	604	GLASS
 Miklashevsky-2018-506-389	389	степлер	stepler	stapler	Tool_power_grip	concrete	7	m	0	4	2.79	1.39	1.52	4.72	6.66	6.27	2.64	7.93	3.48		
 Miklashevsky-2018-506-390	390	стимул	stimul	stimulus	Intelligence	abstract	6	m	1.1	2.27	2.13	1.31	1.71	1.79	2.6	2.13	4.62	8.8	5.04		
-Miklashevsky-2018-506-391	391	стопа	stopa	foot	Body_Part	concrete	5	f	1.1	3.53	2	2.3	1.3	4.79	6.21	1.87	1.81	5.48	3.55	2098	FOOT OR LEG
+Miklashevsky-2018-506-391	391	стопа	stopa	foot	Body_Part	concrete	5	f	1.1	3.53	2	2.3	1.3	4.79	6.21	1.87	1.81	5.48	3.55	1301	FOOT
 Miklashevsky-2018-506-392	392	страдание	stradanie	suffering	Sense_Emotion	abstract	9	n	1.6	2.4	3.36	1.69	1.54	2.27	3.39	2	3.5	7.77	3.73		
 Miklashevsky-2018-506-393	393	страсть	strast	passion	Sense_Emotion	abstract	7	f	0.2	3.37	3.27	1.9	2.89	2.76	3.29	4	4.86	9.07	5.11		
 Miklashevsky-2018-506-394	394	стратегия	strategiya	strategy	Intelligence	abstract	9	f	1.6	3.03	2.13	1.41	1.43	1.72	3.12	2.68	4.32	9.13	4.43		
 Miklashevsky-2018-506-395	395	страх	strah	fear	Sense_Emotion	abstract	5	m	2.1	2.73	3.21	2.38	1.79	2.48	4.07	2.43	3.69	3.92	4.6	781	FEAR (FRIGHT)
 Miklashevsky-2018-506-396	396	стрела	strela	arrow	Tool_precise_grip	concrete	6	f	1.3	4.28	3.55	1.31	1.31	4.31	6.59	5.21	4.78	5.11	3.46	977	ARROW
 Miklashevsky-2018-506-397	397	стресс	stress	stress	Sense_Emotion	abstract	6	m	1.1	2.21	2.5	1.69	1.83	1.67	2.79	2	4.3	9.17	4.6		
-Miklashevsky-2018-506-398	398	стук	stuk	knock	Sound	concrete	4	m	0.2	1.8	5.48	1.1	1.13	2.83	4.75	5.84	3.41	4.41	4.21	2396	KNOCK
+Miklashevsky-2018-506-398	398	стук	stuk	knock	Sound	concrete	4	m	0.2	1.8	5.48	1.1	1.13	2.83	4.75	5.84	3.41	4.41	4.21		
 Miklashevsky-2018-506-399	399	стыд	styid	shame	Sense_Emotion	abstract	4	m	1.4	2.53	2.2	1.48	1.64	2.03	2.85	1.75	3.08	5.97	4.14	1776	SHAME
 Miklashevsky-2018-506-400	400	суета	sueta	vanity	Action	abstract	5	f	1.3	3.58	3.61	1.13	1.5	2	4.29	2.33	3.73	7.6	4.31		
 Miklashevsky-2018-506-401	401	сужение	suzhenie	narrowing	Action	abstract	7	n	0.5	3.76	1.13	1.21	1.54	2.38	2.65	2.16	2.73	8.27	2.82		
@@ -408,7 +408,7 @@ Miklashevsky-2018-506-406	406	танк	tank	tank	Transport	concrete	4	m	1.7	4.52
 Miklashevsky-2018-506-407	407	тапочка	tapochka	slipper	Clothes	concrete	7	f	1	4.71	1.64	1.87	1.11	4.77	6.36	3.83	2.06	5.59	3.62		
 Miklashevsky-2018-506-408	408	таракан	tarakan	cockroach	Animal	concrete	7	m	1.1	4.07	1.24	1.76	2.24	3.76	6.93	2.33	2.06	4.47	3.79	1575	COCKROACH
 Miklashevsky-2018-506-409	409	тарелка	tarelka	plate	Tool_power_grip	concrete	7	f	1.6	4.83	2.46	2.54	3	5.07	6.86	6.46	3.38	2.81	6.53	480	PLATE
-Miklashevsky-2018-506-410	410	твердость	tverdost	hardness	Sense_Phys	abstract	9	f	0.9	2.31	1.86	1.19	1.68	4.78	3.48	2.59	2.72	5.73	4.1	1884	HARD
+Miklashevsky-2018-506-410	410	твердость	tverdost	hardness	Sense_Phys	abstract	9	f	0.9	2.31	1.86	1.19	1.68	4.78	3.48	2.59	2.72	5.73	4.1		
 Miklashevsky-2018-506-411	411	тележка	telezhka	small cart	Transport	concrete	7	f	1.1	4.17	3.37	1.48	1.39	4.28	5.7	6.09	2.54	5.03	2.96		
 Miklashevsky-2018-506-412	412	телефон	telefon	phone	Tool_precise_grip	concrete	7	m	2.2	4.53	5.3	1.83	1.89	5.83	6.22	6.59	2.92	4.23	6.79	1379	TELEPHONE
 Miklashevsky-2018-506-413	413	теория	teoriya	theory	Intelligence	abstract	6	f	2.1	2	1.9	1.41	1.41	1.5	2.59	1.97	4.94	10.27	5.53	2433	THEORY
@@ -425,10 +425,10 @@ Miklashevsky-2018-506-423	423	тревога	trevoga	anxiety	Sense_Emotion	abstr
 Miklashevsky-2018-506-424	424	троллейбус	trolleybus	trolleybus	Transport	concrete	10	m	1.2	4.52	3.45	2.59	1.52	4	6.69	4.8	3.48	6.13	4.79		
 Miklashevsky-2018-506-425	425	тротуар	trotuar	sidewalk	Ground	concrete	7	m	1.4	4.97	2.07	2.5	1.45	3.54	6.43	3.19	1.65	5.77	4.5		
 Miklashevsky-2018-506-426	426	туфля	tuflya	shoe	Clothes	concrete	5	f	1.4	4.31	2.97	2.34	1.62	5.21	6.8	4.3	1.94	3.8	4.47	1381	SHOE
-Miklashevsky-2018-506-427	427	туча	tucha	cloud	Space	concrete	4	f	1.4	4.66	2.66	2.24	1.38	1.76	6.78	2.66	6.41	3.37	4.43		
+Miklashevsky-2018-506-427	427	туча	tucha	cloud	Space	concrete	4	f	1.4	4.66	2.66	2.24	1.38	1.76	6.78	2.66	6.41	3.37	4.43	448	STORM CLOUDS
 Miklashevsky-2018-506-428	428	тыква	tyikva	pumpkin	Food	concrete	5	f	0.8	3.86	1.93	4.93	5.1	4.21	6.87	3.9	2.21	4.57	2.83	864	PUMPKIN
 Miklashevsky-2018-506-429	429	тяга	tyaga	draught	Action	abstract	4	f	1.2	2.21	1.62	1.17	1.45	2.38	3.11	3.23	3.33	9.77	3.21		
-Miklashevsky-2018-506-430	430	углубление	uglublenie	cavity	Ground	concrete	10	n	1	3.32	1.43	1.27	1.37	2.54	4.32	3.8	1.85	7.67	3.96	1155	CAVE
+Miklashevsky-2018-506-430	430	углубление	uglublenie	cavity	Ground	concrete	10	n	1	3.32	1.43	1.27	1.37	2.54	4.32	3.8	1.85	7.67	3.96		
 Miklashevsky-2018-506-431	431	угольник	ugolnik	set square	Tool_precise_grip	concrete	8	m	0	4.23	1.5	1.35	1.07	3.3	4.93	5.27	3.28	7.91	1.93		
 Miklashevsky-2018-506-432	432	удар	udar	blow	Action	abstract	4	m	2.2	3.38	4.89	1.9	1.82	5.32	5.25	5.81	3.47	4.07	5.03		
 Miklashevsky-2018-506-433	433	ударение	udarenie	emphasis	Sound	concrete	8	n	0.8	2.48	4.68	1.24	1.07	1.79	3.16	2	3.19	6.78	5		
@@ -449,7 +449,7 @@ Miklashevsky-2018-506-447	447	флаг	flag	flag	Object	concrete	4	m	1.5	4.45	2.
 Miklashevsky-2018-506-448	448	фламинго	flamingo	flamingo	Animal	concrete	8	m	0.2	4.24	2.1	2.48	1.45	2.88	6.53	1.97	2.67	6.23	2.13	3722	FLAMINGO
 Miklashevsky-2018-506-449	449	фломастер	flomaster	soft-tip pen	Tool_precise_grip	concrete	9	m	0.5	5.1	2.39	3.27	2.64	4.74	6.59	6.59	2.63	3.38	4.07		
 Miklashevsky-2018-506-450	450	фонарь	fonar	lantern	Object	concrete	6	m	1.5	5.84	1.93	1.31	1.36	3	6.54	4.9	4.03	4.33	4.67		
-Miklashevsky-2018-506-451	451	форма	forma	form	Sense_Phys	abstract	5	f	2.5	4.59	1.55	1.52	1.64	3.31	3.96	3.43	3.61	5.33	4.41		
+Miklashevsky-2018-506-451	451	форма	forma	form	Sense_Phys	abstract	5	f	2.5	4.59	1.55	1.52	1.64	3.31	3.96	3.43	3.61	5.33	4.41	3747	SHAPE
 Miklashevsky-2018-506-452	452	форточка	fortochka	ventlight	Object	concrete	8	f	1	4	3.07	2.17	1.24	4.24	6.22	4.66	4.22	4.89	5.14		
 Miklashevsky-2018-506-453	453	фрисби	frisbi	frisbee	Tool_power_grip	concrete	6	m	0	2.79	1.47	1.21	1.39	3.91	3.6	5.96	3.22	10.4	1.67		
 Miklashevsky-2018-506-454	454	фуражка	furazhka	peak-cap	Clothes	concrete	7	f	1.2	4.17	1.7	2	1.33	3.86	6.41	5.48	4.26	5.93	2.54		
@@ -469,8 +469,8 @@ Miklashevsky-2018-506-467	467	черешня	chereshnya	cherry	Food	concrete	7	f
 Miklashevsky-2018-506-468	468	черника	chernika	bilberry	Food	concrete	7	f	0.5	4.48	1.54	3.93	5.59	4	6.62	4.73	3.06	5.13	3.19		
 Miklashevsky-2018-506-469	469	чернослив	chernosliv	prunes	Food	concrete	9	m	0.4	3.97	1.44	4	5.57	3.38	6.59	4.13	2.94	6.33	2.59		
 Miklashevsky-2018-506-470	470	чеснок	chesnok	garlic	Food	concrete	6	m	1	4.03	1.33	5.79	5.71	5.34	6.63	5.13	2.03	4.4	4.25	2368	GARLIC
-Miklashevsky-2018-506-471	471	чувство	chuvstvo	feeling	Sense_Emotion	abstract	7	n	2.4	2.91	1.96	2.86	3.14	3.11	3.96	2.1	4.38	5.93	6.33	2521	FEELING (HAPTIC SENSE)
-Miklashevsky-2018-506-472	472	шаг	shag	step	Action	abstract	3	m	2.3	3.75	3.11	1.45	1.18	2.39	5.5	2.06	1.79	3.37	5.6	1158	STEP
+Miklashevsky-2018-506-471	471	чувство	chuvstvo	feeling	Sense_Emotion	abstract	7	n	2.4	2.91	1.96	2.86	3.14	3.11	3.96	2.1	4.38	5.93	6.33	2573	FEELING (EMOTION)
+Miklashevsky-2018-506-472	472	шаг	shag	step	Action	abstract	3	m	2.3	3.75	3.11	1.45	1.18	2.39	5.5	2.06	1.79	3.37	5.6		
 Miklashevsky-2018-506-473	473	шайба	shayba	washer	Tool_power_grip	concrete	5	f	0.8	4.97	2.54	1.47	1.33	4	6.66	4.5	2.39	6.9	2.12		
 Miklashevsky-2018-506-474	474	шапка	shapka	cap	Clothes	concrete	5	f	1.6	4.23	1.82	1.88	1	4.52	6.79	5.81	4.34	2.85	6.1	1288	CAP
 Miklashevsky-2018-506-475	475	шахта	shahta	mine	Building	concrete	5	f	1.3	4.19	2.57	3.03	1.44	2.46	6.17	5.53	1.3	6.73	2.27		
@@ -498,7 +498,7 @@ Miklashevsky-2018-506-496	496	щетка	schetka	brush	Tool_precise_grip	concret
 Miklashevsky-2018-506-497	497	щипцы	schiptsyi	tongs	Tool_power_grip	concrete	5	plur_tant	0.4	3.9	2.14	1.55	1.1	5.24	6.07	5.9	2.35	6.07	3.25	272	TONGS
 Miklashevsky-2018-506-498	498	эйфория	eyforiya	euphoria	Sense_Emotion	abstract	7	f	0.7	2.2	3.52	2.63	2.47	1.66	4.07	1.97	5.59	11.78	2.9		
 Miklashevsky-2018-506-499	499	электричка	elektrichka	electric train	Transport	concrete	10	f	1.2	4.52	5.48	2.38	1.45	3.03	6.52	4.62	2.78	6.15	3.46		
-Miklashevsky-2018-506-500	500	эмоция	emotsiya	emotion	Sense_Emotion	abstract	6	f	1.5	3.91	3.96	2.69	2.64	2.39	4.07	3.03	4.76	7.23	5.7	2573	FEELING (EMOTION)
+Miklashevsky-2018-506-500	500	эмоция	emotsiya	emotion	Sense_Emotion	abstract	6	f	1.5	3.91	3.96	2.69	2.64	2.39	4.07	3.03	4.76	7.23	5.7		
 Miklashevsky-2018-506-501	501	яблоко	yabloko	apple	Food	concrete	6	n	1.7	5.58	2.36	4.87	6.04	5	6.93	5.33	3.91	3.03	6.04	1320	APPLE
 Miklashevsky-2018-506-502	502	яма	yama	pit	Ground	concrete	3	f	1.5	4.97	1.82	2.43	1.59	3	6.62	4.17	1.52	3.97	4.15	2539	PIT (POTHOLE)
 Miklashevsky-2018-506-503	503	яркость	yarkost	brightness	Sense_Phys	abstract	7	f	0.8	5.03	1.64	1.4	2.85	1.35	4.15	1.87	5.33	5.37	5.62		
