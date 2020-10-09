@@ -8,6 +8,7 @@
 - [Beaufils2015 [PDF 82.0KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-D39A-50FB-EF52-0/Beaufils2015.pdf)
 - [Bender1971 [PDF 792.0KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-5FFB-17AB-9DF7-0/Bender1971.pdf)
 - [Benedict1976 [PDF 34.2KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-3348-2E93-56EC-0/Benedict1976.pdf)
+- [BirketSmith1928 [PDF 2.3MB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-C498-3040-D644-0/BirketSmith1928.pdf)
 - [Borin2012 [PDF 11.9KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-6727-D480-0CFA-0/Borin2012.pdf)
 - [Bowern2008 [PDF 14.0KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-E2BF-10CA-4D98-0/Bowern2008.pdf)
 - [Bowern2012 [PDF 52.4KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-3623-2679-3CA7-0/Bowern2012.pdf)
