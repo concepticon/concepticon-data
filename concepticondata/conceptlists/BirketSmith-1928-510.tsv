@@ -126,8 +126,8 @@ BirketSmith-1928-510-124	124	Spider, earth			Animals
 BirketSmith-1928-510-125	125	Starfish	3032	STARFISH	Animals
 BirketSmith-1928-510-126	126	Swan	2837	SWAN	Animals
 BirketSmith-1928-510-127	127	Tern			Animals
-BirketSmith-1928-510-128	128	Trout	795	TROUT	Animals
-BirketSmith-1928-510-129	129	Trout, freshwater			Animals
+BirketSmith-1928-510-128	128	Trout			Animals
+BirketSmith-1928-510-129	129	Trout, freshwater	795	TROUT	Animals
 BirketSmith-1928-510-130	130	Walrus			Animals
 BirketSmith-1928-510-131	131	Whale, right			Animals
 BirketSmith-1928-510-132	132	Whale, sperm			Animals
@@ -156,7 +156,7 @@ BirketSmith-1928-510-154	154	Breast (mamma)	1402	BREAST	Man and the Human Body
 BirketSmith-1928-510-155	155	Brow	1173	EYEBROW	Man and the Human Body
 BirketSmith-1928-510-156	156	Cheak	1730	CHEEK	Man and the Human Body
 BirketSmith-1928-510-157	157	Chest	1592	CHEST	Man and the Human Body
-BirketSmith-1928-510-158	158	Child (able to walk)			Man and the Human Body
+BirketSmith-1928-510-158	158	Child (able to walk)	2099	CHILD	Man and the Human Body
 BirketSmith-1928-510-159	159	Chin	1510	CHIN	Man and the Human Body
 BirketSmith-1928-510-160	160	Cunnus	1837	VULVA	Man and the Human Body
 BirketSmith-1928-510-161	161	Ear	1247	EAR	Man and the Human Body
@@ -237,8 +237,8 @@ BirketSmith-1928-510-235	235	Shoe	1381	SHOE	Dress
 BirketSmith-1928-510-236	236	Snow goggles			Dress
 BirketSmith-1928-510-237	237	Sock	1522	SOCK	Dress
 BirketSmith-1928-510-238	238	Stocking	329	STOCKING	Dress
-BirketSmith-1928-510-239	239	Trousers, man’s			Dress
-BirketSmith-1928-510-240	240	Trousers, woman’s			Dress
+BirketSmith-1928-510-239	239	Trousers, man's			Dress
+BirketSmith-1928-510-240	240	Trousers, woman's			Dress
 BirketSmith-1928-510-241	241	Arrow	977	ARROW	Hunting
 BirketSmith-1928-510-242	242	Arrow head			Hunting
 BirketSmith-1928-510-243	243	Arrow feathering			Hunting
@@ -308,13 +308,13 @@ BirketSmith-1928-510-306	306	Stitch, blind			Tools
 BirketSmith-1928-510-307	307	Thimble			Tools
 BirketSmith-1928-510-308	308	Thimble guard			Tools
 BirketSmith-1928-510-309	309	Thumbprotector			Tools
-BirketSmith-1928-510-310	310	Woman’s knife			Tools
+BirketSmith-1928-510-310	310	Woman's knife			Tools
 BirketSmith-1928-510-311	311	Amulet	2804	AMULET	Sociology and Religion
 BirketSmith-1928-510-312	312	Ball			Sociology and Religion
 BirketSmith-1928-510-313	313	Bull roarer			Sociology and Religion
 BirketSmith-1928-510-314	314	Buzz			Sociology and Religion
 BirketSmith-1928-510-315	315	Charm			Sociology and Religion
-BirketSmith-1928-510-316	316	Conjurer			Sociology and Religion
+BirketSmith-1928-510-316	316	Conjurer	394	SHAMAN (FOLK HEALER)	Sociology and Religion
 BirketSmith-1928-510-317	317	Dance	3472	DANCE (MOVEMENT)	Sociology and Religion
 BirketSmith-1928-510-318	318	Drum	908	DRUM	Sociology and Religion
 BirketSmith-1928-510-319	319	Drum skin			Sociology and Religion
@@ -347,36 +347,36 @@ BirketSmith-1928-510-345	345	Elder sister (of man)	2418	OLDER SISTER (OF MAN)	Re
 BirketSmith-1928-510-346	346	Elder brother (of woman)	2415	OLDER BROTHER (OF WOMAN)	Relationship
 BirketSmith-1928-510-347	347	Younger sister (of man)	2420	YOUNGER SISTER (OF MAN)	Relationship
 BirketSmith-1928-510-348	348	Younger brother (of woman)	2417	YOUNGER BROTHER (OF WOMAN)	Relationship
-BirketSmith-1928-510-349	349	Father’s brother	1985	PATERNAL UNCLE (FATHER'S BROTHER)	Relationship
-BirketSmith-1928-510-350	350	Father’s sister	2691	PATERNAL AUNT (FATHER'S SISTER)	Relationship
-BirketSmith-1928-510-351	351	Mother’s brother	2692	MATERNAL UNCLE (MOTHER'S BROTHER)	Relationship
-BirketSmith-1928-510-352	352	Mother’s sister	2693	MATERNAL AUNT (MOTHER'S SISTER)	Relationship
+BirketSmith-1928-510-349	349	Father's brother	1985	PATERNAL UNCLE (FATHER'S BROTHER)	Relationship
+BirketSmith-1928-510-350	350	Father's sister	2691	PATERNAL AUNT (FATHER'S SISTER)	Relationship
+BirketSmith-1928-510-351	351	Mother's brother	2692	MATERNAL UNCLE (MOTHER'S BROTHER)	Relationship
+BirketSmith-1928-510-352	352	Mother's sister	2693	MATERNAL AUNT (MOTHER'S SISTER)	Relationship
 BirketSmith-1928-510-353	353	Cousin (male line)			Relationship
 BirketSmith-1928-510-354	354	Cousin (female line)			Relationship
-BirketSmith-1928-510-355	355	Man’s brother’s child			Relationship
-BirketSmith-1928-510-356	356	Woman’s brother’s child			Relationship
-BirketSmith-1928-510-357	357	Man’s sister’s child			Relationship
-BirketSmith-1928-510-358	358	Woman’s sister’s child			Relationship
+BirketSmith-1928-510-355	355	Man's brother's child			Relationship
+BirketSmith-1928-510-356	356	Woman's brother's child			Relationship
+BirketSmith-1928-510-357	357	Man's sister's child			Relationship
+BirketSmith-1928-510-358	358	Woman's sister's child			Relationship
 BirketSmith-1928-510-359	359	Father in law	1055	FATHER-IN-LAW	Relationship
 BirketSmith-1928-510-360	360	Mother in law	1050	MOTHER-IN-LAW	Relationship
 BirketSmith-1928-510-361	361	Son in law	1056	SON-IN-LAW	Relationship
-BirketSmith-1928-510-362	362	Man’s sister’s husband			Relationship
+BirketSmith-1928-510-362	362	Man's sister's husband			Relationship
 BirketSmith-1928-510-363	363	Daughter in law	1057	DAUGHTER-IN-LAW	Relationship
-BirketSmith-1928-510-364	364	Woman’s brother’s wife			Relationship
-BirketSmith-1928-510-365	365	Wife’s brother			Relationship
-BirketSmith-1928-510-366	366	Husband’s sister			Relationship
-BirketSmith-1928-510-367	367	Man’s brother’s wife			Relationship
-BirketSmith-1928-510-368	368	Wife’s sister			Relationship
-BirketSmith-1928-510-369	369	Woman’s sister’s husband			Relationship
-BirketSmith-1928-510-370	370	Husband’s brother			Relationship
-BirketSmith-1928-510-371	371	Wife’s younger sister’s husband			Relationship
-BirketSmith-1928-510-372	372	Husband’s younger brother’s wife			Relationship
-BirketSmith-1928-510-373	373	Wife’s elder sister’s husband			Relationship
-BirketSmith-1928-510-374	374	Husband’s elder brother’s wife			Relationship
-BirketSmith-1928-510-375	375	Son’s father-in-law			Relationship
-BirketSmith-1928-510-376	376	Daughter’s father-in-law			Relationship
-BirketSmith-1928-510-377	377	Son’s mother-in-law			Relationship
-BirketSmith-1928-510-378	378	Daughter’s mother-in-law			Relationship
+BirketSmith-1928-510-364	364	Woman's brother's wife			Relationship
+BirketSmith-1928-510-365	365	Wife's brother	2380	BROTHER-IN-LAW (OF MAN)	Relationship
+BirketSmith-1928-510-366	366	Husband's sister			Relationship
+BirketSmith-1928-510-367	367	Man's brother's wife			Relationship
+BirketSmith-1928-510-368	368	Wife's sister			Relationship
+BirketSmith-1928-510-369	369	Woman's sister's husband			Relationship
+BirketSmith-1928-510-370	370	Husband's brother			Relationship
+BirketSmith-1928-510-371	371	Wife's younger sister's husband			Relationship
+BirketSmith-1928-510-372	372	Husband's younger brother's wife			Relationship
+BirketSmith-1928-510-373	373	Wife's elder sister's husband			Relationship
+BirketSmith-1928-510-374	374	Husband's elder brother's wife			Relationship
+BirketSmith-1928-510-375	375	Son's father-in-law			Relationship
+BirketSmith-1928-510-376	376	Daughter's father-in-law			Relationship
+BirketSmith-1928-510-377	377	Son's mother-in-law			Relationship
+BirketSmith-1928-510-378	378	Daughter's mother-in-law			Relationship
 BirketSmith-1928-510-379	379	Adopted father			Relationship
 BirketSmith-1928-510-380	380	Adopted mother			Relationship
 BirketSmith-1928-510-381	381	Adopted son			Relationship
