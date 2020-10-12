@@ -57,6 +57,7 @@
 - [Huber1992 [PDF 224.0KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-78F1-75A6-501A-0/Huber1992.pdf)
 - [Hymes1960 [PDF 381.0KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-40CE-AC89-9B73-0/Hymes1960.pdf)
 - [Janhunan2008 [PDF 1.7MB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-062A-6A8E-0CAD-0/Janhunan2008.pdf)
+- [Johansson2020 [PDF 56.6KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-4A56-AB35-C03A-0/Johansson2020.pdf)
 - [Josserand1983 [PDF 19.0MB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-AC3F-1827-8A1F-0/Josserand1983.pdf)
 - [Kassian2010 [PDF 274.9KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-B9C2-91A7-7B4B-0/Kassian2010.pdf)
 - [Kassian2015 [PDF 19.5KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-FAC3-DC12-6CAA-0/Kassian2015.pdf)
