@@ -48,6 +48,7 @@
                     },
                     {
                         "datatype": "string", 
+			"separator": " // ",
                         "name": "GLOSS_IN_DATA"
                     }
                 ], 
