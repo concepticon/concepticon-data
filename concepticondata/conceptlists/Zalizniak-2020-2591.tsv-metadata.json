@@ -44,12 +44,18 @@
                         "name": "ENGLISH"
                     },
                     {
-                        "datatype": "string",
+                        "datatype":{
+                          "base": "string",
+                          "format": "([→↔—][0-9]+)( [→↔—][0-9]+)*"
+                        },
                         "name": "SHIFTS"
                     },
                     {
                       "name": "SHIFT_URL",
-                      "datatype": "string",
+                      "datatype": {
+                        "base": "string",
+                        "format": "(shift[0-9]+)( shift[0-9]+)*"
+                      },
                       "propertyUrl": "dc:relation",
                       "valueUrl": "http://datsemshift.ru/{SHIFT}"
                     },
