@@ -52,7 +52,7 @@ Name | Contribution | Version |
 Alexei Kassian | D | 1.0
 Andreea Calude | D | 1.1
 Andrew Hsiu | DM | 2.3
-Andrew Kitchen | D | 1.0 
+Andrew Kitchen | D | 1.0
 Andy Castro | T | 2.0, 2.2
 Anja Gampe | D | 1.1
 Anthony Grant | MS | 1.1
@@ -61,41 +61,43 @@ Carolin Hundt | DCTLPG | 2.3, 2.4
 Christoph Rzymski | CLPG | 1.1
 Claire Bowern | D | 1.1, 2.2
 Cormac Anderson | CP | 1.1, 1.2
-Damian Satterthwaite-Phillips | D | 1.0 
+Damian Satterthwaite-Phillips | D | 1.0
 David Nash | MP | 2.2
 Doug Cooper | DCSM | 1.1, 2.1
 Evgeniya Korovina | MSCLPA | 1.1, 2.2
-Frederike Urke | CLS | 1.0  
+Frederike Urke | CLS | 1.0
 Hans Geisler | MSDT | 2.3, 2.4
-Harald Hammarström | DMS | 1.0, 2.4 
+Harald Hammarström | DMS | 1.0, 2.4
 Isabella Boga | LP | 1.1
 Jan Auracher | D | 1.1
 Johannes Dellert | LPD | 1.1
-Julia Fischer | SDT | 1.0 
+Julia Fischer | SDT | 1.0
 Kristina Pianykh | DCTLP | 2.1
-Lars Borin | DL | 1.0 
+Lars Borin | DL | 1.0
 Magdalena Łuniewska | D | 1.1
 Magnus Pharao Hansen | MD | 2.4
 Marina Dalarossa | C | 2.4
-Martin Haspelmath | AD | 1.0  
+Martin Haspelmath | AD | 1.0
 Maurizio Serva | MD | 1.1
 Mei-Shin Wu | CTLG | 1.2, 2.0, 2.1, 2.2
 Michael Dunn | G | 1.1
+Muhammad Zakaria | L | 2.4
 Natalia Morozowa | DCPTL | 2.0, 2.1, 2.2
 Nathan Hill | MSDP | 1.1, 2.3
+Nathan Statezni | D | 2.4
 Nicholas Evans | A | 1.0
 Paul Heggarty | D | 1.0
 Quentin Atkinson | MD | 1.1
-Robert Blust | D | 1.0 
+Robert Blust | D | 1.0
 Sandra Auderset | LG | 2.4
 Sean Lee | D | 1.0
 Sebastian Nicolai | CMS | 1.0
 Sylvia Li | C | 2.4
 Taraka Rama | MSDCG | 2.4
-Thiago Chacon | MSD | 1.0, 1.1, 2.3 
+Thiago Chacon | MSD | 1.0, 1.1, 2.3
 Tiago Tresoldi | CTLG | 1.1, 1.2, 2.0, 2.1, 2.2, 2.3, 2.4
 Timotheus A. Bodt | CTP | 2.4
-Viola Kirchhoff da Cruz | CLS | 1.0 
+Viola Kirchhoff da Cruz | CLS | 1.0
 Wang Feng | D | 1.0
 Yue Chen | C | 2.4
 Yunfan Lai | CTLG | 1.1
