@@ -1,12 +1,12 @@
 {
-    "description": "<p>List, Johann Mattis &amp; Rzymski, Christoph &amp; Greenhill, Simon &amp; Schweikhard, Nathanael &amp; Pianykh, Kristina &amp; Tjuka, Annika &amp; Wu, Mei-Shin &amp; Forkel, Robert (eds.) 2020. Concepticon v2.4.0-rc.1. A Resource for the Linking of Concept Lists. Jena: Max Planck Institute for the Science of Human History. Available online at https://concepticon.clld.org</p>",
+    "description": "<p>List, Johann Mattis &amp; Rzymski, Christoph &amp; Greenhill, Simon &amp; Schweikhard, Nathanael &amp; Pianykh, Kristina &amp; Tjuka, Annika &amp; Wu, Mei-Shin &amp; Hundt, Carolin &amp; Tresoldi, Tiago &amp; Forkel, Robert (eds.) 2020. Concepticon v2.4.0. A Resource for the Linking of Concept Lists. Jena: Max Planck Institute for the Science of Human History. Available online at https://concepticon.clld.org</p>",
     "alternate_identifiers": [
         {
-            "scheme": "url",
-            "identifier": "https://concepticon.clld.org"
+            "identifier": "https://concepticon.clld.org",
+            "scheme": "url"
         }
     ],
-    "title": "CLLD Concepticon. Version v2.4.0-rc.1",
+    "title": "CLLD Concepticon. Version v2.4.0",
     "access_right": "open",
     "license": {
         "id": "CC-BY-4.0"
@@ -35,6 +35,12 @@
         },
         {
             "name": "Mei-Shin Wu"
+        },
+        {
+            "name": "Carolin Hundt"
+        },
+        {
+            "name": "Tiago Tresoldi"
         },
         {
             "name": "Robert Forkel"
