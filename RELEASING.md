@@ -41,7 +41,8 @@ to normalize them for import:
 
 - Make sure the data in `master` can be imported into the web app `clld/concepticon` by running
   ```shell script
-  concepticon-app init --dry-run
+  cd ../concepticon
+  clld initdb development.ini concepticon.clld.org
   ```
   and observing that all tests pass for the web app.
 
@@ -66,6 +67,8 @@ to normalize them for import:
 
 - Publish the release at https://concepticon.clld.org following the instructions
   at https://github.com/clld/concepticon/blob/master/RELEASING.md
+
+- Tweet
 
 
 <a name="upload_sources"> </a>
