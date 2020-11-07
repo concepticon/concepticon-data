@@ -67,6 +67,7 @@ Damian Satterthwaite-Phillips | D | 1.0
 David Nash | MP | 2.2
 Doug Cooper | DCSM | 1.1, 2.1
 Evgeniya Korovina | MSCLPA | 1.1, 2.2
+Franz Manni | A | 2.5
 Frederike Urke | CLS | 1.0
 Hans Geisler | MSDT | 2.3, 2.4
 Harald Hammarström | DMS | 1.0, 2.4
