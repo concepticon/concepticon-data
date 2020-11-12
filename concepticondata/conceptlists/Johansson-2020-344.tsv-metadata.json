@@ -45,6 +45,10 @@
                     {
                         "datatype": "string", 
                         "name": "SOUND_SYMBOLIC"
+                    },
+                    {
+                        "datatype": "string", 
+                        "name": "CONCEPT_IN_SOURCE"
                     }
                 ], 
                 "primaryKey": [
