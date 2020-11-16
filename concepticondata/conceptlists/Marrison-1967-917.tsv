@@ -45,8 +45,8 @@ Marrison-1967-917-43	43	bead	1860	BEAD	bead
 Marrison-1967-917-44	44	beam	1132	BEAM	beam
 Marrison-1967-917-45	45	bean	832	BEAN	bean
 Marrison-1967-917-46	46	a bear	1820	BEAR	bear (animal)//a bear
-Marrison-1967-917-47	47	to bear (a child)	1195	GIVE BIRTH	to bear (a child)
-Marrison-1967-917-48	48	to bear (fruit)	3054	BEAR FRUIT	bear (fruit)//to bear (fruit)
+Marrison-1967-917-47	47	to bear (a child)	1195	GIVE BIRTH	to bear (a child)//birth, give
+Marrison-1967-917-48	48	to bear (fruit)	3054	BEAR FRUIT	bear (fruit)//to bear (fruit)//bear fruit
 Marrison-1967-917-49	49	beard	678	BEARD	beard
 Marrison-1967-917-50	50	to beat	1665	BEAT	beat//to beat
 Marrison-1967-917-51	51	beautiful	1427	BEAUTIFUL	beautiful
@@ -55,10 +55,10 @@ Marrison-1967-917-53	53	to become	1990	BECOME	become//to become
 Marrison-1967-917-54	54	bed	1663	BED	bed
 Marrison-1967-917-55	55	bee	665	BEE	bee
 Marrison-1967-917-56	56	beetle	2242	BEETLE	beetle
-Marrison-1967-917-57	57	before	1882	BEFORE	before
+Marrison-1967-917-57	57	before	1882	BEFORE	before//before; at; to
 Marrison-1967-917-58	58	to begin	3447	BEGIN OR START	begin//to begin
 Marrison-1967-917-59	59	to believe	1890	BELIEVE	believe//to believe
-Marrison-1967-917-60	60	bellows	3658	BELLOWS	bellows
+Marrison-1967-917-60	60	bellows	3658	BELLOWS	bellows//belows
 Marrison-1967-917-61	61	belly	1251	BELLY	belly
 Marrison-1967-917-62	62	belt (girdle)	772	BELT	belt (girdle)
 Marrison-1967-917-63	63	belt (for weaving)			belt (for weaving)
@@ -83,7 +83,7 @@ Marrison-1967-917-81	81	to boil	2493	BOIL	boil//to boil
 Marrison-1967-917-82	82	bone	1394	BONE	bone
 Marrison-1967-917-83	83	book	963	BOOK	book
 Marrison-1967-917-84	84	bow (for shooting)	994	BOW	bow (for shooting)
-Marrison-1967-917-85	85	box	1465	BOX	box
+Marrison-1967-917-85	85	box	1465	BOX	box//box / chest
 Marrison-1967-917-86	86	boy	1366	BOY	boy
 Marrison-1967-917-87	87	bracelet	1754	BRACELET	bracelet
 Marrison-1967-917-88	88	brain	1583	BRAIN	brain
@@ -154,7 +154,7 @@ Marrison-1967-917-152	152	cock	1511	ROOSTER	cock
 Marrison-1967-917-153	153	cold	1287	COLD	cold
 Marrison-1967-917-154	154	comb	1475	COMB	comb
 Marrison-1967-917-155	155	to come	1446	COME	come//to come
-Marrison-1967-917-156	156	to cook	1100	COOK (SOMETHING)	cook//to cook
+Marrison-1967-917-156	156	to cook	1100	COOK (SOMETHING)	cook//to cook//cook3
 Marrison-1967-917-157	157	copper	1825	COPPER	copper
 Marrison-1967-917-158	158	cotton	1850	COTTON	cotton
 Marrison-1967-917-159	159	to cough	879	COUGH	cough//to cough
@@ -192,7 +192,7 @@ Marrison-1967-917-190	190	deer (sambhur)			deer (sambhur)
 Marrison-1967-917-191	191	to descend	2014	GO DOWN (DESCEND)	descend//to descend
 Marrison-1967-917-192	192	to desire	2117	DESIRE	desire//to desire
 Marrison-1967-917-193	193	dew	1977	DEW	dew
-Marrison-1967-917-194	194	diarrhoea	1177	DIARRHEA	diarrhea//diarrhoea
+Marrison-1967-917-194	194	diarrhoea	1177	DIARRHEA	diarrhea//diarrhoea//shite
 Marrison-1967-917-195	195	to die	1494	DIE	die//to die
 Marrison-1967-917-196	196	difficult	584	DIFFICULT	difficult
 Marrison-1967-917-197	197	to dig	1418	DIG	dig//to dig
@@ -223,13 +223,13 @@ Marrison-1967-917-221	221	earthquake	6	EARTHQUAKE	earthquake
 Marrison-1967-917-222	222	east	1877	EAST	east
 Marrison-1967-917-223	223	easy	686	EASY	easy
 Marrison-1967-917-224	224	to eat	1336	EAT	eat//to eat
-Marrison-1967-917-225	225	egg	744	EGG	egg
+Marrison-1967-917-225	225	egg	744	EGG	egg//egg ("bird-egg")//hen's egg
 Marrison-1967-917-226	226	eight	1705	EIGHT	eight
 Marrison-1967-917-227	227	eighteen	1713	EIGHTEEN	eighteen
 Marrison-1967-917-228	228	eighty	1722	EIGHTY	eighty
 Marrison-1967-917-229	229	elbow	981	ELBOW	elbow
 Marrison-1967-917-230	230	elephant	1290	ELEPHANT	elephant
-Marrison-1967-917-231	231	eleven	1706	ELEVEN	eleven
+Marrison-1967-917-231	231	eleven	1706	ELEVEN	eleven//elevent
 Marrison-1967-917-232	232	empty	1624	EMPTY	empty
 Marrison-1967-917-233	233	end	742	END (OF SPACE)	end
 Marrison-1967-917-234	234	enemy	1358	ENEMY	enemy
@@ -321,17 +321,17 @@ Marrison-1967-917-319	319	grass	606	GRASS	grass
 Marrison-1967-917-320	320	grasshopper	607	GRASSHOPPER	grasshopper
 Marrison-1967-917-321	321	a grave	1773	GRAVE	grave//a grave
 Marrison-1967-917-322	322	great	1202	BIG	great
-Marrison-1967-917-323	323	green (colour)	1425	GREEN	green//green (colour)
+Marrison-1967-917-323	323	green (colour)	1425	GREEN	green//green (colour)//grreen
 Marrison-1967-917-324	324	to grind	1033	GRIND	grind//to grind
 Marrison-1967-917-325	325	to grow	479	GROW	grow//to grow
 Marrison-1967-917-326	326	gum (of tree)			gum (of tree)
 Marrison-1967-917-327	327	gun	1566	GUN	gun
-Marrison-1967-917-328	328	hair (of head)	2648	HAIR (HEAD)	hair (of head)
+Marrison-1967-917-328	328	hair (of head)	2648	HAIR (HEAD)	hair (of head)//hair
 Marrison-1967-917-329	329	hair (of body)	189	HAIR (BODY)	hair (of body)
 Marrison-1967-917-330	330	half	816	HALF	half
 Marrison-1967-917-331	331	hand	1277	HAND	hand
 Marrison-1967-917-332	332	hard	1884	HARD	hard
-Marrison-1967-917-333	333	hat,helmet	1680	HELMET	hat, helmet
+Marrison-1967-917-333	333	hat,helmet	1680	HELMET	hat, helmet//hat / helmet
 Marrison-1967-917-334	334	to hate	1607	HATE	hate//to hate
 Marrison-1967-917-335	335	hawk	307	HAWK	hawk
 Marrison-1967-917-336	336	he	1211	HE	he
@@ -366,7 +366,7 @@ Marrison-1967-917-364	364	horse	615	HORSE	horse
 Marrison-1967-917-365	365	hot	1286	HOT	hot
 Marrison-1967-917-366	366	house	1252	HOUSE	house
 Marrison-1967-917-367	367	how	1239	HOW	how
-Marrison-1967-917-368	368	hundred	1634	HUNDRED	hundred
+Marrison-1967-917-368	368	hundred	1634	HUNDRED	hundred//hudnred
 Marrison-1967-917-369	369	hungry	1533	BE HUNGRY	hungry
 Marrison-1967-917-370	370	to hunt	1435	HUNT	hunt//to hunt
 Marrison-1967-917-371	371	husband	1200	HUSBAND	husband
@@ -382,7 +382,7 @@ Marrison-1967-917-380	380	ivory	3800	IVORY	ivory
 Marrison-1967-917-381	381	jackal	3313	JACKAL	jackal
 Marrison-1967-917-382	382	jaw	798	JAW	jaw
 Marrison-1967-917-383	383	Jaw's harp			jewsharp//Jew's harp
-Marrison-1967-917-384	384	Job's tears(coix)			Job's tears (coix)
+Marrison-1967-917-384	384	Job's tears(coix)			Job's tears (coix)//jobs tears//jobs tears (coix)
 Marrison-1967-917-385	385	to join	1743	JOIN	join//to join
 Marrison-1967-917-386	386	judgment	1067	JUDGMENT	judgment
 Marrison-1967-917-387	387	juice	1499	JUICE	juice
@@ -395,7 +395,7 @@ Marrison-1967-917-393	393	kidney	489	KIDNEY	kidney
 Marrison-1967-917-394	394	to kill	1417	KILL	kill//to kill
 Marrison-1967-917-395	395	kind (sort)	844	KIND (THING)	kind (sort)
 Marrison-1967-917-396	396	king	1508	KING	king
-Marrison-1967-917-397	397	to kiss	578	KISS	kiss//to kiss
+Marrison-1967-917-397	397	to kiss	578	KISS	kiss//to kiss//kiss; sniff
 Marrison-1967-917-398	398	kitchen	1365	KITCHEN	kitchen
 Marrison-1967-917-399	399	knee	1371	KNEE	knee
 Marrison-1967-917-400	400	knife	1352	KNIFE	knife
@@ -435,7 +435,7 @@ Marrison-1967-917-433	433	light (of weight)	1052	LIGHT (WEIGHT)	light (of weight
 Marrison-1967-917-434	434	to light (ignite)	737	LIGHT (IGNITE)	light (ignite)//to light (ignite)
 Marrison-1967-917-435	435	lightning	1654	LIGHTNING	lightning
 Marrison-1967-917-436	436	like (as)	1558	SIMILAR	like (as)
-Marrison-1967-917-437	437	lip	478	LIP	lip
+Marrison-1967-917-437	437	lip	478	LIP	lip//lip (lower)
 Marrison-1967-917-438	438	to listen	1608	LISTEN	listen//to listen
 Marrison-1967-917-439	439	a little	2924	A LITTLE	little//a little
 Marrison-1967-917-440	440	to live (to be alive)	1422	BE ALIVE	live (to be alive)//to live (to be alive)
@@ -551,7 +551,7 @@ Marrison-1967-917-549	549	people	789	PEOPLE	people
 Marrison-1967-917-550	550	person	683	PERSON	person
 Marrison-1967-917-551	551	to pierce	398	PIERCE	pierce//to pierce
 Marrison-1967-917-552	552	pig (domestic)	1337	PIG	pig (domestic)
-Marrison-1967-917-553	553	pig (wild)	3154	WILD BOAR	pig (wild)
+Marrison-1967-917-553	553	pig (wild)	3154	WILD BOAR	pig (wild)//pig(wild)
 Marrison-1967-917-554	554	pigeon			pigeon
 Marrison-1967-917-555	555	pillow	1044	PILLOW	pillow
 Marrison-1967-917-556	556	pipe (tobacco)	1124	PIPE	pipe (tobacco)
@@ -598,7 +598,7 @@ Marrison-1967-917-596	596	to remain	987	REMAIN	remain//to remain
 Marrison-1967-917-597	597	to return (come back)	581	COME BACK	return (come back)//to return (come back)
 Marrison-1967-917-598	598	rhinoceros	2591	RHINOCEROS	rhinoceros
 Marrison-1967-917-599	599	rib	801	RIB	rib
-Marrison-1967-917-600	600	rice (paddy)	2026	RICE PLANT	rice (paddy)
+Marrison-1967-917-600	600	rice (paddy)	2026	RICE PLANT	rice (paddy)//rice (paddy
 Marrison-1967-917-601	601	rice (uncooked)	3289	UNCOOKED RICE	rice (uncooked)
 Marrison-1967-917-602	602	rice (cooked)	1191	COOKED RICE	rice (cooked)
 Marrison-1967-917-603	603	rice-beer			rice-beer
@@ -631,7 +631,7 @@ Marrison-1967-917-629	629	to say	1458	SAY	say//to say
 Marrison-1967-917-630	630	scales (balance)	2783	SCALES (MEASURE INSTRUMENT)	scales (balance)
 Marrison-1967-917-631	631	scissors	356	SHEARS	scissors
 Marrison-1967-917-632	632	scorpion	1538	SCORPION	scorpion
-Marrison-1967-917-633	633	to scratch	1436	SCRATCH	scratch//to scratch
+Marrison-1967-917-633	633	to scratch	1436	SCRATCH	scratch//to scratch//scratch the soil for grain (birds)
 Marrison-1967-917-634	634	sea	1474	SEA	sea
 Marrison-1967-917-635	635	second (adj)	1384	SECOND	second//second (adj)
 Marrison-1967-917-636	636	to see	1409	SEE	see//to see
@@ -692,7 +692,7 @@ Marrison-1967-917-690	690	smoke	1689	SMOKE (INHALE)	smoke
 Marrison-1967-917-691	691	smooth	1234	SMOOTH	smooth
 Marrison-1967-917-692	692	snail	1543	SNAIL	snail
 Marrison-1967-917-693	693	snake	730	SNAKE	snake
-Marrison-1967-917-694	694	to sneeze	1621	SNEEZE	sneeze//to sneeze
+Marrison-1967-917-694	694	to sneeze	1621	SNEEZE	sneeze//to sneeze//sneaze
 Marrison-1967-917-695	695	snow	784	SNOW	snow
 Marrison-1967-917-696	696	to snore	1983	SNORE	snore//to snore
 Marrison-1967-917-697	697	so (like that)	2336	OF THIS KIND (SUCH)	so (like that)
@@ -828,7 +828,7 @@ Marrison-1967-917-826	826	until	2753	UNTIL	until
 Marrison-1967-917-827	827	up	1591	UP	up
 Marrison-1967-917-828	828	urine	1142	URINE	urine
 Marrison-1967-917-829	829	to use	2072	USE (VERB)	use//to use
-Marrison-1967-917-830	830	valley	921	VALLEY	valley
+Marrison-1967-917-830	830	valley	921	VALLEY	valley//valey
 Marrison-1967-917-831	831	vegetable	924	VEGETABLES	vegetable
 Marrison-1967-917-832	832	very	1311	VERY	very
 Marrison-1967-917-833	833	village	930	VILLAGE	village
