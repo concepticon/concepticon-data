@@ -44,7 +44,8 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "GLOSS_IN_DIGITAL_SOURCE"
+                        "separator": "//",
+                        "name": "LEXIBANK_GLOSS"
                     },
                     {
                         "dc:description": "gloss in SPANISH",

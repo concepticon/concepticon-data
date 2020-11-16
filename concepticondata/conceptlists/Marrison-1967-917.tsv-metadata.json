@@ -42,6 +42,11 @@
                     {
                         "datatype": "string",
                         "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "separator": "//",
+                        "name": "LEXIBANK_GLOSS"
                     }
                 ],
                 "primaryKey": [
