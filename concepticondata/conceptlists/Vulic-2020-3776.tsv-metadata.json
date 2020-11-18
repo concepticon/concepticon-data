@@ -1,0 +1,171 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dialect": {
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        },
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        },
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": 1
+                        },
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "name": "WORDPAIR_GLOSS",
+                        "separator": "; ",
+                        "datatype": {"base": "string"}
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "WORDPAIR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "POS"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "SIMILARITY_SCORE_ARABIC"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "SIMILARITY_SCORE_CHINESE"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "SIMILARITY_SCORE_WELSH"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "SIMILARITY_SCORE_ENGLISH"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "SIMILARITY_SCORE_ESTONIAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "SIMILARITY_SCORE_FINNISH"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "SIMILARITY_SCORE_FRENCH"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "SIMILARITY_SCORE_HEBREW"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "SIMILARITY_SCORE_POLISH"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "SIMILARITY_SCORE_RUSSIAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "SIMILARITY_SCORE_SPANISH"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "SIMILARITY_SCORE_KISWAHILI"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "SIMILARITY_SCORE_YUE_CHINESE"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "SIMILARITY_SCORE_MEAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ARABIC"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CHINESE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "WELSH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ESTONIAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FINNISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FRENCH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "HEBREW"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "POLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RUSSIAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SPANISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "KISWAHILI"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "YUE_CHINESE"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "Vulic-2020-3776.tsv"
+        }
+    ]
+}
