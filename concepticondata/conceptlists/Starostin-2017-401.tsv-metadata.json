@@ -49,7 +49,12 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "SEMANTIC_LINKS"
+                        "name": "SEMANTIC_LINKS",
+						"separator": "; "
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CATEGORY"
                     }
                 ],
                 "primaryKey": [
