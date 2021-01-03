@@ -54,7 +54,7 @@ Miklashevsky-2018-506-52	52	вишня	vishnya	cherry	Food	concrete	5	f	0.9	4.48
 Miklashevsky-2018-506-53	53	вкус	vkus	taste	Sense_Phys	abstract	4	m	1.9	1.77	1.86	4.81	5.89	2.3	3.79	2.24	3.81	3.27	6	2190	TASTE
 Miklashevsky-2018-506-54	54	волан	volan	shuttlecock	Tool_power_grip	concrete	5	m	0.2	3.83	2.93	1.31	1.1	4.03	4.59	4.21	3.48	8.21	1.61		
 Miklashevsky-2018-506-55	55	волк	volk	wolf	Animal	concrete	4	m	1.6	5.2	4.37	2.62	2.79	3.72	6.52	2.56	2.68	3.63	3.04	522	WOLF
-Miklashevsky-2018-506-56	56	волнение	volnenie	excitement 	Sense_Emotion	abstract	8	n	1.6	2.34	2.77	1.76	1.9	1.54	2.87	2.07	3.91	7.6	4.9		
+Miklashevsky-2018-506-56	56	волнение	volnenie	excitement 	Sense_Emotion	abstract	8	n	1.6	2.34	2.77	1.76	1.9	1.54	2.87	2.07	3.91	7.6	4.9	3846	EXCITEMENT
 Miklashevsky-2018-506-57	57	волчок	volchok	whipping top	Tool_precise_grip	concrete	6	m	0.5	4.14	3.07	2.14	1.62	4.83	5.8	5.4	2.15	5.07	2.17		
 Miklashevsky-2018-506-58	58	воображение	voobrazhenie	imagination	Intelligence	abstract	11	n	1.5	4.93	2.55	1.69	1.24	1.79	2.83	1.63	5.82	7.13	5.21		
 Miklashevsky-2018-506-59	59	воробей	vorobey	sparrow	Animal	concrete	7	m	1.2	4.67	4.21	2.12	1.57	3.07	6.72	2.89	4.78	3.15	4.67	1854	SPARROW
@@ -134,7 +134,7 @@ Miklashevsky-2018-506-132	132	идея	ideya	idea	Intelligence	abstract	4	f	2.4	
 Miklashevsky-2018-506-133	133	изюм	izyum	raisin	Food	concrete	4	m	0.6	3.97	1.4	4.66	6.07	4.71	6.8	4.3	2.64	4.93	3.73		
 Miklashevsky-2018-506-134	134	индюк	indyuk	turkey cock	Animal	concrete	5	m	0.4	4.48	2.5	1.93	3.78	3.38	6.45	2.73	2.73	5.73	2.42	2386	TURKEY
 Miklashevsky-2018-506-135	135	инстинкт	instinkt	instinct	Sense_Emotion	abstract	8	m	1.3	2.69	2.2	1.79	1.69	1.58	2.47	1.77	4.58	8.47	3.8		
-Miklashevsky-2018-506-136	136	интерес	interes	interest	Sense_Emotion	abstract	7	m	2.4	2.69	1.61	2.14	1.64	1.89	3.61	2.19	4.68	5.63	6.07		
+Miklashevsky-2018-506-136	136	интерес	interes	interest	Sense_Emotion	abstract	7	m	2.4	2.69	1.61	2.14	1.64	1.89	3.61	2.19	4.68	5.63	6.07	3847	INTEREST (FEELING)
 Miklashevsky-2018-506-137	137	истребитель	istrebitel	fighter aircraft	Transport	concrete	11	m	1.3	4.7	4.73	1.69	1.21	2.72	5.74	5.84	6.32	7.43	2.56		
 Miklashevsky-2018-506-138	138	кабан	kaban	boar	Animal	concrete	5	m	0.8	4	3.23	3.9	3.1	3.17	6.67	2.37	2.33	4.67	3.07	3154	WILD BOAR
 Miklashevsky-2018-506-139	139	кабачок	kabachok	squash	Food	concrete	7	m	0.7	3.77	1.64	3.38	5.36	3.96	6.69	4.62	1.69	5.08	3.5		
@@ -316,7 +316,7 @@ Miklashevsky-2018-506-314	314	потолок	potolok	ceiling	Space	concrete	7	m	
 Miklashevsky-2018-506-315	315	поход	pohod	hike	Action	abstract	5	m	1.6	4.06	2.36	2.83	2.73	2.86	5.39	4.45	2.88	6.53	3.53		
 Miklashevsky-2018-506-316	316	почва	pochva	soil	Ground	concrete	5	f	1.8	3.43	1.63	3.93	2.57	4.69	5	4.09	1.68	5.97	3.75	1228	EARTH (SOIL)
 Miklashevsky-2018-506-317	317	представление	predstavlenie	conception	Intelligence	abstract	13	n	2.2	4.2	3.07	1.93	1.33	1.93	3.59	2.65	5.53	6.93	4.24		
-Miklashevsky-2018-506-318	318	презрение	prezrenie	contempt	Sense_Emotion	abstract	9	n	1.2	2.75	1.68	1.59	1.45	1.39	3.75	1.87	3.68	9.5	3.2		
+Miklashevsky-2018-506-318	318	презрение	prezrenie	contempt	Sense_Emotion	abstract	9	n	1.2	2.75	1.68	1.59	1.45	1.39	3.75	1.87	3.68	9.5	3.2	3844	CONTEMPT
 Miklashevsky-2018-506-319	319	прием	priem	reception	Action	abstract	5	m	2	2.7	2.41	1.6	1.33	1.59	4.07	4.42	3.59	7.85	4.59		
 Miklashevsky-2018-506-320	320	прическа	pricheska	hairstyle	Body_Part	concrete	8	f	1.2	4.6	1.74	1.9	1.5	3.76	6.14	5.77	3.94	5.26	5.1		
 Miklashevsky-2018-506-321	321	провал	proval	failure	Ground	concrete	6	m	1.4	3.19	1.82	1.25	1.45	2	3.46	2	2.06	7.14	4.03		
@@ -332,7 +332,7 @@ Miklashevsky-2018-506-330	330	пятка	pyatka	heel	Body_Part	concrete	5	f	1.1	
 Miklashevsky-2018-506-331	331	равнодушие	ravnodushie	indifference	Sense_Emotion	abstract	10	n	1.1	2.55	2.07	1.3	1.85	2.08	3.29	1.4	3.75	8.63	4.73		
 Miklashevsky-2018-506-332	332	радость	radost	joy	Sense_Emotion	abstract	7	f	2.1	2.48	4.21	1.9	2.28	2.34	4.08	2.21	5.31	3.67	5.57	2524	JOY
 Miklashevsky-2018-506-333	333	радуга	raduga	rainbow	Space	concrete	6	f	1	5.83	1.86	2.19	1.64	1.74	6.69	2.51	6.13	3.65	3.67	1733	RAINBOW
-Miklashevsky-2018-506-334	334	разочарование	razocharovanie	disappointment	Sense_Emotion	abstract	13	n	1.2	2.4	2.19	1.4	2.03	1.45	4.28	2.19	3.81	8.96	4.14		
+Miklashevsky-2018-506-334	334	разочарование	razocharovanie	disappointment	Sense_Emotion	abstract	13	n	1.2	2.4	2.19	1.4	2.03	1.45	4.28	2.19	3.81	8.96	4.14	3845	DISAPPOINTMENT
 Miklashevsky-2018-506-335	335	ракета	raketa	rocket	Transport	concrete	6	f	1.8	3.97	5	2.76	1.52	2.72	6.59	5.33	5.91	4.9	2.86		
 Miklashevsky-2018-506-336	336	ранение	ranenie	wound	Sense_Phys	abstract	7	n	1.2	4.2	3.23	1.97	1.96	4.97	5.11	5.13	3.16	6.37	3.78	1109	WOUND
 Miklashevsky-2018-506-337	337	рассвет	rassvet	dawn	Space	concrete	7	m	1.4	5.63	2	2.47	1.47	1.62	6.07	1.35	5.66	5.93	3.79	729	DAWN
@@ -432,7 +432,7 @@ Miklashevsky-2018-506-430	430	углубление	uglublenie	cavity	Ground	conc
 Miklashevsky-2018-506-431	431	угольник	ugolnik	set square	Tool_precise_grip	concrete	8	m	0	4.23	1.5	1.35	1.07	3.3	4.93	5.27	3.28	7.91	1.93		
 Miklashevsky-2018-506-432	432	удар	udar	blow	Action	abstract	4	m	2.2	3.38	4.89	1.9	1.82	5.32	5.25	5.81	3.47	4.07	5.03		
 Miklashevsky-2018-506-433	433	ударение	udarenie	emphasis	Sound	concrete	8	n	0.8	2.48	4.68	1.24	1.07	1.79	3.16	2	3.19	6.78	5		
-Miklashevsky-2018-506-434	434	удивление	udivlenie	surprise	Sense_Emotion	abstract	9	n	1.8	3.47	2.57	1.96	2.32	1.89	4.42	2.48	4.68	5.5	5.43		
+Miklashevsky-2018-506-434	434	удивление	udivlenie	surprise	Sense_Emotion	abstract	9	n	1.8	3.47	2.57	1.96	2.32	1.89	4.42	2.48	4.68	5.5	5.43	3848	SURPRISE (FEELING)
 Miklashevsky-2018-506-435	435	удовольствие	udovolstvie	pleasure	Sense_Emotion	abstract	12	n	2.1	2.94	2.22	3.17	4.05	3.68	4.79	2.65	5.03	6.33	5.97		
 Miklashevsky-2018-506-436	436	укроп	ukrop	dill	Food	concrete	5	m	0.7	3.45	1.48	5.46	5.38	4.45	6.89	4.93	1.84	4.52	4.11		
 Miklashevsky-2018-506-437	437	умение	umenie	skill	Intelligence	abstract	6	n	1.6	2.53	2.41	1.4	1.57	2.21	3.9	4.74	4.59	6.78	5.66		
