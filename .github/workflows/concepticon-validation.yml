@@ -26,5 +26,5 @@ jobs:
         pip install pytest pyconcepticon
     - name: Test with pytest
       run: |
-        pytest test.py
+        pytest
 
