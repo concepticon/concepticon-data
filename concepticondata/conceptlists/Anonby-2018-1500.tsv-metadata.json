@@ -45,7 +45,7 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "PERSIAN_ORTHOGRAPHY"
+                        "name": "PERSIAN"
                     },
                     {
                         "datatype": "string",
@@ -53,15 +53,15 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "MAIN_CATEGORY"
+                        "name": "MAIN_SEMANTIC_CATEGORY"
                     },
                     {
                         "datatype": "string",
-                        "name": "SUB_CATEGORY1"
+                        "name": "SEMANTIC_CATEGORY"
                     },
                     {
                         "datatype": "string",
-                        "name": "SUB_CATEGORY2"
+                        "name": "SUB_SEMANTIC_CATEGORY"
                     }
                 ],
                 "primaryKey": [

@@ -1,4 +1,4 @@
-ID	NUMBER	CONCEPTICON_ID	CONCEPTICON_GLOSS	ENGLISH	PERSIAN_ORTHOGRAPHY	PERSIAN_PHONOLOGICAL	MAIN_CATEGORY	SUB_CATEGORY1	SUB_CATEGORY2
+ID	NUMBER	CONCEPTICON_ID	CONCEPTICON_GLOSS	ENGLISH	PERSIAN	PERSIAN_PHONOLOGICAL	MAIN_SEMANTIC_CATEGORY	SEMANTIC_CATEGORY	SUB_SEMANTIC_CATEGORY
 Anonby-2018-1500-1	1	1480	BODY	body	بدن	badan	Human physical being	Body parts	
 Anonby-2018-1500-2	2	2613	SKIN (HUMAN)	skin (of person)	پوست	pust	Human physical being	Body parts	
 Anonby-2018-1500-3	3	1256	HEAD	head	سر	sar	Human physical being	Body parts	Head
@@ -90,7 +90,7 @@ Anonby-2018-1500-88	88			wink (eye) (v.)	چشمک زدن	češmak zadan	Human p
 Anonby-2018-1500-89	89	1407	BREATHE	breathe	نفس کشیدن	nafas kešidan	Human physical being	Body processes, functions	
 Anonby-2018-1500-90	90	1028	YAWN	yawn  (v.)	خمیازه کشیدن	xamiyāze kešidan	Human physical being	Body processes, functions	
 Anonby-2018-1500-91	91	879	COUGH	cough (v.)	سرفه کردن	sorfe kardan	Human physical being	Body processes, functions	
-Anonby-2018-1500-92	92	162	HICCOUGH	hiccough (n.)	سکسکه	sekseke	Human physical being	Body processes, functions	
+Anonby-2018-1500-92	92			hiccough (n.)	سکسکه	sekseke	Human physical being	Body processes, functions	
 Anonby-2018-1500-93	93	1621	SNEEZE	sneeze (v.)	عطسه کردن	atse kardan	Human physical being	Body processes, functions	
 Anonby-2018-1500-94	94	52	SHIVER	shiver, tremble	لرزیدن	larzidan	Human physical being	Body processes, functions	
 Anonby-2018-1500-95	95	126	SWEAT (PERSPIRE)	perspire, sweat	عرق کردن	araġ kardan	Human physical being	Body processes, functions	
@@ -162,7 +162,7 @@ Anonby-2018-1500-160	160	1278	VOMIT	vomit (v.)	استفراغ کردن، بال�
 Anonby-2018-1500-161	161			stomachache, upset stomach	دل درد	deldard	Human physical being	Health and disease	
 Anonby-2018-1500-162	162	3625	HEADACHE	headache	سردرد	sardard	Human physical being	Health and disease	
 Anonby-2018-1500-163	163	1177	DIARRHEA	diarrhea	اسهال	eshāl	Human physical being	Health and disease	
-Anonby-2018-1500-164	164	148	ITCH	itch (v.) 	خاریدن، خارش داشتن	xāridan, xāreš dāštan	Human physical being	Health and disease	
+Anonby-2018-1500-164	164			itch (v.) 	خاریدن، خارش داشتن	xāridan, xāreš dāštan	Human physical being	Health and disease	
 Anonby-2018-1500-165	165	210	LIFE	life	زندگی	zendegi	Human physical being	Health and disease	Life and death
 Anonby-2018-1500-166	166	1422	BE ALIVE	alive	زنده	zende	Human physical being	Health and disease	Life and death
 Anonby-2018-1500-167	167	1123	PREGNANT	pregnant	حامله، باردار	hāmele,  bārdār	Human physical being	Health and disease	Life and death
@@ -391,7 +391,7 @@ Anonby-2018-1500-389	389	1846	RULE	rule over, dominate	حکومت کردن	hokum
 Anonby-2018-1500-390	390	1128	ORDER	order (someone to do something)	دستور دادن، فرمان دادن، امر کردن	dastur dādan, farmān dādan, amr kardan	Personal interaction	Dominion and control	
 Anonby-2018-1500-391	391			command (n.)	دستور، امر، فرمان	dastur, amr, farmān	Personal interaction	Dominion and control	
 Anonby-2018-1500-392	392	3471	OBLIGATION (DUTY)	duty, obligation	وظیفه	ʋazife	Personal interaction	Dominion and control	
-Anonby-2018-1500-393	393	1127	SEND	send (someone to do something)	فرستادن، روانه کردن	ferestādan, raʋāne kardan	Personal interaction	Dominion and control	
+Anonby-2018-1500-393	393			send (someone to do something)	فرستادن، روانه کردن	ferestādan, raʋāne kardan	Personal interaction	Dominion and control	
 Anonby-2018-1500-394	394	3648	SERVE (SOMEONE)	serve	خدمت کردن (به)	xedmat kardan (be)	Personal interaction	Dominion and control	
 Anonby-2018-1500-395	395	43	LEAD (GUIDE)	lead, guide (v.)	هدایت کردن	hedāyat kardan	Personal interaction	Dominion and control	
 Anonby-2018-1500-396	396	1085	FOLLOW	follow	پیروی کردن (از)	payraʋi kardan (az)	Personal interaction	Dominion and control	
@@ -438,13 +438,13 @@ Anonby-2018-1500-436	436	474	DRESS	dress (woman’s gown)	پیراهن، پیر�
 Anonby-2018-1500-437	437			woman’s head covering	روسری، حجاب 	rusari, hejāb 	Human civilisation	Clothing and adornment of body	Clothing
 Anonby-2018-1500-438	438	1381	SHOE	shoe, sandal	کفش	kafš	Human civilisation	Clothing and adornment of body	Clothing
 Anonby-2018-1500-439	439	1860	BEAD	bead	دانه‌ی تسبیح	dāne-ye tasbih, mohre	Human civilisation	Clothing and adornment of body	Adornment and accessories
-Anonby-2018-1500-440	440	362	STRING	string, thread (beads) (v.)	بند کردن، نخ کردن	band kardan, nax kardan	Human civilisation	Clothing and adornment of body	Adornment and accessories
+Anonby-2018-1500-440	440			string, thread (beads) (v.)	بند کردن، نخ کردن	band kardan, nax kardan	Human civilisation	Clothing and adornment of body	Adornment and accessories
 Anonby-2018-1500-441	441	1754	BRACELET	bracelet	دستبند، النگو	dastband, alangu	Human civilisation	Clothing and adornment of body	Adornment and accessories
 Anonby-2018-1500-442	442	1961	NECKLACE	necklace	گردنبند	gardanband 	Human civilisation	Clothing and adornment of body	Adornment and accessories
 Anonby-2018-1500-443	443			ankle ring, bangle	خلخال	xalxāl	Human civilisation	Clothing and adornment of body	Adornment and accessories
 Anonby-2018-1500-444	444	1374	RING	ring (finger)	حلقه	halġe	Human civilisation	Clothing and adornment of body	Adornment and accessories
 Anonby-2018-1500-445	445	770	EARRING	earring	گوشواره	gušʋāre	Human civilisation	Clothing and adornment of body	Adornment and accessories
-Anonby-2018-1500-446	446	398	PIERCE	pierce (ears)	سوراخ کردن گوش	surāx kardan-e guš	Human civilisation	Clothing and adornment of body	Adornment and accessories
+Anonby-2018-1500-446	446			pierce (ears)	سوراخ کردن گوش	surāx kardan-e guš	Human civilisation	Clothing and adornment of body	Adornment and accessories
 Anonby-2018-1500-447	447	3295	BRAID (VERB)	plait, braid (hair)	بافتن (مو)	bāftan (-e mu)	Human civilisation	Clothing and adornment of body	Adornment and accessories
 Anonby-2018-1500-448	448	68	TATTOO	tattoo(s)	خال کوبی	xālkubi	Human civilisation	Clothing and adornment of body	Adornment and accessories
 Anonby-2018-1500-449	449	1296	WALKING STICK	cane, walking stick	چوب دستی، عصا	čubdasti, asā	Human civilisation	Clothing and adornment of body	Adornment and accessories
@@ -477,7 +477,7 @@ Anonby-2018-1500-475	475	1524	WINE	wine	شراب	šarāb	Human civilisation	Food
 Anonby-2018-1500-476	476	2909	PREPARE	prepare (food to cook)	آماده کردن، درست کردن	āmāde kardan, dorost kardan	Human civilisation	Food preparation	Kitchen preparation
 Anonby-2018-1500-477	477	1432	CUT	cut (tr.)	بریدن	boridan	Human civilisation	Food preparation	Kitchen preparation
 Anonby-2018-1500-478	478	3080	SPLIT OPEN	cut open	شکافتن	šekāftan	Human civilisation	Food preparation	Kitchen preparation
-Anonby-2018-1500-479	479	2149	CHOP (INTO PIECES)	slice (v.)	قاچ کردن	ġāč kardan	Human civilisation	Food preparation	Kitchen preparation
+Anonby-2018-1500-479	479	2156	CUT (WITH KNIFE)	slice (v.)	قاچ کردن	ġāč kardan	Human civilisation	Food preparation	Kitchen preparation
 Anonby-2018-1500-480	480	275	PEEL	peel (v.)	پوست کندن	pust kandan	Human civilisation	Food preparation	Kitchen preparation
 Anonby-2018-1500-481	481	2017	MIX	mix (v.)	مخلوط کردن	maxlut kardan	Human civilisation	Food preparation	Kitchen preparation
 Anonby-2018-1500-482	482	696	STIR	stir	به هم زدن	be ham zadan	Human civilisation	Food preparation	Kitchen preparation
@@ -583,7 +583,7 @@ Anonby-2018-1500-581	581	2875	RING (MAKE SOUND)	ring (bell) (v.)	زنگ زدن	z
 Anonby-2018-1500-582	582	813	DO	act, do	کردن، کار کردن	kardan, kār kardan	Human civilisation	Professions and work	
 Anonby-2018-1500-583	583	984	WORK (LABOUR)	work (n.)	کار	kār	Human civilisation	Professions and work	
 Anonby-2018-1500-584	584	2243	REPAIR	mend, repair	تعمیر کردن	ta’mir kardan	Human civilisation	Professions and work	
-Anonby-2018-1500-585	585	288	FORGE	forge (n.)	کوره‌ی آهنگری	kure-ye āhangari	Human civilisation	Professions and work	Smithing
+Anonby-2018-1500-585	585			forge (n.)	کوره‌ی آهنگری	kure-ye āhangari	Human civilisation	Professions and work	Smithing
 Anonby-2018-1500-586	586	1481	HAMMER	hammer	چکش	čakoš	Human civilisation	Professions and work	Smithing
 Anonby-2018-1500-587	587	1166	MOULD	mould (pottery)	قالب	ġāleb	Human civilisation	Professions and work	Pottery
 Anonby-2018-1500-588	588			potter’s kiln	کوره	kure	Human civilisation	Professions and work	Pottery
@@ -592,7 +592,7 @@ Anonby-2018-1500-590	590	355	CUT DOWN	cut down (tree)	بریدن	boridan	Human c
 Anonby-2018-1500-591	591			log	کنده‌ی چوب	konde-ye čub	Human civilisation	Professions and work	Wood work
 Anonby-2018-1500-592	592	46	HOLLOW OUT	hollow out (log)	خالی کردن، پوک کردن	xāli kardan, puk kardan	Human civilisation	Professions and work	Wood work
 Anonby-2018-1500-593	593	677	AXE	axe	تبر	tabar	Human civilisation	Professions and work	Wood work
-Anonby-2018-1500-594	594			chop into pieces	تکه تکه کردن	teketeke kardan	Human civilisation	Professions and work	Wood work
+Anonby-2018-1500-594	594	2149	CHOP (INTO PIECES)	chop into pieces	تکه تکه کردن	teketeke kardan	Human civilisation	Professions and work	Wood work
 Anonby-2018-1500-595	595	1948	SAW	saw (n.)	اره	arre	Human civilisation	Professions and work	Wood work
 Anonby-2018-1500-596	596	3543	SAW (SOMETHING)	saw (wood) (v.)	اره کردن	arre kardan	Human civilisation	Professions and work	Wood work
 Anonby-2018-1500-597	597	1227	BOARD	plank (n.)	الوار	alʋār	Human civilisation	Professions and work	Wood work
@@ -668,7 +668,7 @@ Anonby-2018-1500-666	666			evade	گریز زدن (از)	goriz zadan (az)	Human c
 Anonby-2018-1500-667	667	1615	ESCAPE	escape	فرار کردن	farār kardan	Human civilisation	Hunting and fishing	Hunting
 Anonby-2018-1500-668	668	44	INJURE	wound (animal)	زخم زدن، زخمی کردن	zaxm zadan, zaxmi kardan	Human civilisation	Hunting and fishing	Hunting
 Anonby-2018-1500-669	669	1796	SLAUGHTER	slaughter, kill (animal for butchering)	کشتن	koštan	Human civilisation	Hunting and fishing	Hunting
-Anonby-2018-1500-670	670	2614	SKIN (ANIMAL)	skin (animal) (v.)	پوست کندن	pust kandan	Human civilisation	Hunting and fishing	Hunting
+Anonby-2018-1500-670	670	291	PULL OFF (SKIN)	skin (animal) (v.)	پوست کندن	pust kandan	Human civilisation	Hunting and fishing	Hunting
 Anonby-2018-1500-671	671	2638	FISHING	fish (v.)	ماهی گرفتن، ماهیگیری کردن	māhi gereftan, māhigiri kardan	Human civilisation	Hunting and fishing	Fishing
 Anonby-2018-1500-672	672	389	FISH TRAP	fish trap	قفسِ ماهیگیری	qafas-e māhigiri	Human civilisation	Hunting and fishing	Fishing
 Anonby-2018-1500-673	673	388	FISHNET	fishing net	تورِ ماهیگیری	tur-e māhigiri	Human civilisation	Hunting and fishing	Fishing
@@ -788,7 +788,7 @@ Anonby-2018-1500-786	786			poison (a person) (v.)	مسموم کردن	masmum kar
 Anonby-2018-1500-787	787	2804	AMULET	amulet, charm, fetish	طلسم	telesm	Human civilisation	Religion and the supernatural	Religion and witchcraft
 Anonby-2018-1500-788	788			protect by charm	طلسم کردن	telesm kardan	Human civilisation	Religion and the supernatural	Religion and witchcraft
 Anonby-2018-1500-789	789	2005	MASK	mask (n.)	نقاب	neġāb	Human civilisation	Religion and the supernatural	Religion and witchcraft
-Anonby-2018-1500-790	790	1103	SACRIFICE	sacrifice (v.)	قربانی کردن	ġorbāni kardan	Human civilisation	Religion and the supernatural	Religion and witchcraft
+Anonby-2018-1500-790	790			sacrifice (v.)	قربانی کردن	ġorbāni kardan	Human civilisation	Religion and the supernatural	Religion and witchcraft
 Anonby-2018-1500-791	791			dwelling place of the dead (spiritual: Hell, Hades, etc.)	جهنم، دنیای مردگان	jahanam, donyā-ye mordegān	Human civilisation	Religion and the supernatural	Religion and witchcraft
 Anonby-2018-1500-792	792	1747	CUSTOM	tradition, custom	سنت، رسم	sonat, rasm	Human civilisation	Ceremonies	
 Anonby-2018-1500-793	793			feast (n.)	جشن	jašn	Human civilisation	Ceremonies	
@@ -926,7 +926,7 @@ Anonby-2018-1500-924	924	1916	GILL	gill	آبشش	ābšoš	Animals	Fish	Fish part
 Anonby-2018-1500-925	925	213	FIN	fin	پره ماهی	paremāhi	Animals	Fish	Fish parts
 Anonby-2018-1500-926	926	2348	CRAB	crab	خرچنگ	xarčang	Animals	Fish	Shellfish and mollusks
 Anonby-2018-1500-927	927	2349	SHRIMP	shrimp	میگو	maygu	Animals	Fish	Shellfish and mollusks
-Anonby-2018-1500-928	928	2829	MUSSELS	clam, mussel	صدفِ خوراکی	Sadaf-e xorāki	Animals	Fish	Shellfish and mollusks
+Anonby-2018-1500-928	928			clam, mussel	صدفِ خوراکی	Sadaf-e xorāki	Animals	Fish	Shellfish and mollusks
 Anonby-2018-1500-929	929	730	SNAKE	snake	مار	mār	Animals	Reptiles and amphibians	
 Anonby-2018-1500-930	930	632	LIZARD	lizard	سوسمار	susmār	Animals	Reptiles and amphibians	
 Anonby-2018-1500-931	931	1555	CHAMELEON	chameleon	سوسمارِ کوچک	susmār-e kučak	Animals	Reptiles and amphibians	
@@ -1176,7 +1176,7 @@ Anonby-2018-1500-1174	1174	1174	YESTERDAY	yesterday	دیروز	diruz	Environment
 Anonby-2018-1500-1175	1175	1180	DAY BEFORE YESTERDAY	day before yesterday	پریروز	pariruz	Environment	Time	Time periods
 Anonby-2018-1500-1176	1176	1329	TOMORROW	tomorrow	فردا	fardā	Environment	Time	Time periods
 Anonby-2018-1500-1177	1177	1179	DAY AFTER TOMORROW	day after tomorrow	پس فردا 	pasfardā	Environment	Time	Time periods
-Anonby-2018-1500-1178	1178	2914	ONCE (IN THE PAST)	olden times	زمانِ قدیم	zamān-e ġadim	Environment	Time	Time periods
+Anonby-2018-1500-1178	1178			olden times	زمانِ قدیم	zamān-e ġadim	Environment	Time	Time periods
 Anonby-2018-1500-1179	1179	729	DAWN	dawn (before sunrise)	سپیده دم	sepidedam	Environment	Time	Times of the day
 Anonby-2018-1500-1180	1180	2296	SUNRISE	sunrise	طلوعِ آفتاب،  طلوعِ خورشید	tolu’-e āftāb, tolu’-e xoršid	Environment	Time	Times of the day
 Anonby-2018-1500-1181	1181	1339	MORNING	morning	صبح	sobh	Environment	Time	Times of the day
@@ -1213,7 +1213,7 @@ Anonby-2018-1500-1211	1211	705	GO UP (ASCEND)	ascend, go up	بالا رفتن	b�
 Anonby-2018-1500-1212	1212	2014	GO DOWN (DESCEND)	descend, go down	پایین آمدن	pāyin āmadan	Events and actions	Movement (mostly intransitive)	
 Anonby-2018-1500-1213	1213	1280	FALL	fall (intr.)	افتادن	oftādan	Events and actions	Movement (mostly intransitive)	
 Anonby-2018-1500-1214	1214	2871	SWING (MOVEMENT)	swing (v.), go back and forth	تاب خوردن	tāb xordan	Events and actions	Movement (mostly intransitive)	
-Anonby-2018-1500-1215	1215	1324	SLIP	slide	سر خوردن، لغزیدن	sor xordan, laġzidan	Events and actions	Movement (mostly intransitive)	
+Anonby-2018-1500-1215	1215			slide	سر خوردن، لغزیدن	sor xordan, laġzidan	Events and actions	Movement (mostly intransitive)	
 Anonby-2018-1500-1216	1216	827	ROLL	roll	غلتیدن	ġaltidan	Events and actions	Movement (mostly intransitive)	
 Anonby-2018-1500-1217	1217			spread (disease, fire) (intr.)	پخش شدن	paxš šodan	Events and actions	Movement (mostly intransitive)	
 Anonby-2018-1500-1218	1218	3020	BREAK (BREAKING)	burst	منفجر شدن، ترکیدن	monfajer šodan, tarakidan	Events and actions	Movement (mostly intransitive)	
@@ -1295,7 +1295,7 @@ Anonby-2018-1500-1293	1293	1904	DROWN	drown (intr.)	غرق شدن	ġarġ šodan	
 Anonby-2018-1500-1294	1294	708	SHINE	shine	درخشیدن	deraxšidan	Events and actions	Actions, events affecting matter	Action of light
 Anonby-2018-1500-1295	1295	2704	FADE (LOOSE COLOR)	fade	محو شدن 	mahʋ šodan	Events and actions	Actions, events affecting matter	Action of light
 Anonby-2018-1500-1296	1296	679	BRIGHT	bright	روشن	raʋšan	Events and actions	Actions, events affecting matter	Action of light
-Anonby-2018-1500-1297	1297	706	DARK	dim (v.)	تیره شدن، کم نور شدن	tire šodan, kamnur šodan	Events and actions	Actions, events affecting matter	Action of light
+Anonby-2018-1500-1297	1297			dim (v.)	تیره شدن، کم نور شدن	tire šodan, kamnur šodan	Events and actions	Actions, events affecting matter	Action of light
 Anonby-2018-1500-1298	1298	737	LIGHT (IGNITE)	light (fire) (v.)	روشن کردن	raʋšan kardan	Events and actions	Actions, events affecting matter	Action of heat, fire
 Anonby-2018-1500-1299	1299	127	EXTINGUISH	quench, extinguish	خاموش کردن، فرو نشاندن	xāmuš kardan, foru nešāndan	Events and actions	Actions, events affecting matter	Action of heat, fire
 Anonby-2018-1500-1300	1300	1428	BURNING	burn (intr.), blaze	سوختن، شعله ور شدن	suxtan, šo’leʋar šodan	Events and actions	Actions, events affecting matter	Action of heat, fire
