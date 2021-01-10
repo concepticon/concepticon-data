@@ -24,7 +24,7 @@ Anonby-2018-1500-22	22	1510	CHIN	chin	چانه	čāne	Human physical being	Body 
 Anonby-2018-1500-23	23	1333	NECK	neck	گردن	gardan	Human physical being	Body parts	Head
 Anonby-2018-1500-24	24	1347	NAPE (OF NECK)	nape of neck	پسِ گردن، پشتِ گردن	pas-e gardan, pošt-e gardan	Human physical being	Body parts	Head
 Anonby-2018-1500-25	25	1346	THROAT	throat	گلو	galu / gelu	Human physical being	Body parts	Head
-Anonby-2018-1500-26	26	802	ADAM'S APPLE	voice box, larynx, Adam’s apple	حنجره	hanjere / hanjare	Human physical being	Body parts	Head
+Anonby-2018-1500-26	26			voice box, larynx, Adam’s apple	حنجره	hanjere / hanjare	Human physical being	Body parts	Head
 Anonby-2018-1500-27	27	2648	HAIR (HEAD)	hair (of head)	مو	mu	Human physical being	Body parts	Head
 Anonby-2018-1500-28	28	678	BEARD	beard	ریش	riš	Human physical being	Body parts	Head
 Anonby-2018-1500-29	29	189	HAIR (BODY)	hair (of body)	مو	mu	Human physical being	Body parts	Head
@@ -481,7 +481,7 @@ Anonby-2018-1500-479	479	2156	CUT (WITH KNIFE)	slice (v.)	قاچ کردن	ġāc�
 Anonby-2018-1500-480	480	275	PEEL	peel (v.)	پوست کندن	pust kandan	Human civilisation	Food preparation	Kitchen preparation
 Anonby-2018-1500-481	481	2017	MIX	mix (v.)	مخلوط کردن	maxlut kardan	Human civilisation	Food preparation	Kitchen preparation
 Anonby-2018-1500-482	482	696	STIR	stir	به هم زدن	be ham zadan	Human civilisation	Food preparation	Kitchen preparation
-Anonby-2018-1500-483	483	3448	SIEVE OR STRAIN	strain (food) (v.)	آبکش کردن	ābkeš kardan	Human civilisation	Food preparation	Kitchen preparation
+Anonby-2018-1500-483	483	940	STRAIN	strain (food) (v.)	آبکش کردن	ābkeš kardan	Human civilisation	Food preparation	Kitchen preparation
 Anonby-2018-1500-484	484	3768	POUND (FOOD)	pound	کوبیدن	kubidan	Human civilisation	Food preparation	Kitchen preparation
 Anonby-2018-1500-485	485	1033	GRIND	grind	آسیاب کردن	āsiyāb kardan	Human civilisation	Food preparation	Kitchen preparation
 Anonby-2018-1500-486	486	274	KNEAD	knead	خمیر کردن	xamir kardan	Human civilisation	Food preparation	Kitchen preparation
@@ -820,7 +820,7 @@ Anonby-2018-1500-818	818	1007	COW	cow (female)	گاوِماده	gāʋ-e māde	An
 Anonby-2018-1500-819	819			heifer	گوساله‌ی ماده	gusāle-ye māde	Animals	Domestic animals	Bovines
 Anonby-2018-1500-820	820			steer	گوساله‌ی پرواری	gusāle-ye parʋāri	Animals	Domestic animals	Bovines
 Anonby-2018-1500-821	821	1989	CALF	calf	گوساله	gusāle	Animals	Domestic animals	Bovines
-Anonby-2018-1500-822	822			herd (of cattle)	گله	galle	Animals	Domestic animals	Bovines
+Anonby-2018-1500-822	822	1153	CATTLE	herd (of cattle)	گله	galle	Animals	Domestic animals	Bovines
 Anonby-2018-1500-823	823	1502	GOAT	goat	بز	boz	Animals	Domestic animals	Ovines
 Anonby-2018-1500-824	824	2475	MALE GOAT	he-goat, billy goat	بزِنر	boz-e nar	Animals	Domestic animals	Ovines
 Anonby-2018-1500-825	825	2476	FEMALE GOAT	she-goat, nanny goat	بزِماده	boz-e māde	Animals	Domestic animals	Ovines
@@ -1050,7 +1050,7 @@ Anonby-2018-1500-1048	1048			squash seed	تخمِ کدو، تخمه سفید	tox
 Anonby-2018-1500-1049	1049	1299	COFFEE	coffee	قهوه	ġahʋe	Plants	Plant products	Other plant products
 Anonby-2018-1500-1050	1050	1373	TEA	tea	چای	čāy	Plants	Plant products	Other plant products
 Anonby-2018-1500-1051	1051	1850	COTTON	cotton	پنبه	pambe	Plants	Plant products	Other plant products
-Anonby-2018-1500-1052	1052			grow (of plants) (intr.)	رشد کردن	rošd kardan	Plants	Plant processes	
+Anonby-2018-1500-1052	1052	479	GROW	grow (of plants) (intr.)	رشد کردن	rošd kardan	Plants	Plant processes	
 Anonby-2018-1500-1053	1053	2076	SPROUT (VERB)	sprout (v.)	جوانه زدن	jaʋāne zadan	Plants	Plant processes	
 Anonby-2018-1500-1054	1054	178	RIPE	ripe	رسیده	reside	Plants	Plant processes	
 Anonby-2018-1500-1055	1055	179	RIPEN	ripen, become ripe	رسیده شدن	residan	Plants	Plant processes	
@@ -1168,7 +1168,7 @@ Anonby-2018-1500-1166	1166	1676	ALWAYS	always	همیشه	hamiše	Environment	Tim
 Anonby-2018-1500-1167	1167	1656	NEVER	never	هرگز، هیچ وقت	hargez, hičʋaġt 	Environment	Time	
 Anonby-2018-1500-1168	1168			spend time, pass time	وقت گذراندن	ʋaġt gozarāndan	Environment	Time	
 Anonby-2018-1500-1169	1169	1590	WAIT (FOR)	wait	انتظار کشیدن، منتظر بودن	entezār kešidan, montazer budan	Environment	Time	
-Anonby-2018-1500-1170	1170	1225	DAY (NOT NIGHT)	day	روز	ruz	Environment	Time	Time periods
+Anonby-2018-1500-1170	1170	1260	DAY (24 HOURS)	day	روز	ruz	Environment	Time	Time periods
 Anonby-2018-1500-1171	1171	1370	MONTH	month	ماه	māh	Environment	Time	Time periods
 Anonby-2018-1500-1172	1172	1226	YEAR	year	سال	sāl	Environment	Time	Time periods
 Anonby-2018-1500-1173	1173	1283	TODAY	today	امروز	emruz	Environment	Time	Time periods
