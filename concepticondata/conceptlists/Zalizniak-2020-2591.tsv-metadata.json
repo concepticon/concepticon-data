@@ -22,10 +22,7 @@
                         "name": "ID"
                     },
                     {
-                        "datatype": {
-                            "base": "string",
-                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
-                        },
+                        "datatype": "integer",
                         "name": "NUMBER"
                     },
                     {
@@ -44,14 +41,24 @@
                         "name": "ENGLISH"
                     },
                     {
-                        "datatype":{
-                          "base": "string",
-                          "format": "([→↔—][0-9]+)( [→↔—][0-9]+)*"
-                        },
-                        "name": "SHIFTS"
+                      "datatype": "integer",
+                      "name": "RANK"
                     },
                     {
-                      "name": "SHIFT_URL",
+                        "datatype":{
+                          "base": "integer"
+                        },
+                        "separator": " ",
+                        "name": "LINKS"
+                    },
+                    {
+                      "name": "WEIGHTS",
+                      "datatype": "integer",
+                      "separator": " "
+                    },
+                    {
+                      "name": "URLS",
+                      "separator": " ",
                       "datatype": {
                         "base": "string",
                         "format": "(shift[0-9]+)( shift[0-9]+)*"
@@ -60,11 +67,11 @@
                       "valueUrl": "http://datsemshift.ru/{SHIFT}"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": "integer",
                         "name": "DEGREE"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": "integer",
                         "name": "WEIGHTED_DEGREE"
                     }
                 ],
