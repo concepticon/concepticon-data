@@ -41,7 +41,7 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "DOMINANT_MODALITY"
+                        "name": "PERCEPTUAL_DOMINANT"
                     },
                     {
                         "datatype": "float",
@@ -65,7 +65,7 @@
                     },
                     {
                         "datatype": "float",
-                        "name": "EXCLUSIVITY"
+                        "name": "PERCEPTUAL_EXCLUSIVITY"
                     },
                     {
                         "datatype": "string",

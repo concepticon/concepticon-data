@@ -1,7 +1,0 @@
-language: python
-python:
-  - "3.6"
-cache: pip
-before_cache: rm -f $HOME/.cache/pip/log/debug.log
-install: pip install pyconcepticon>=2.2.0 pytest
-script: pytest
