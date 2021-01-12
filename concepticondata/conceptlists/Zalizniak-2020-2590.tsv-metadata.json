@@ -58,6 +58,11 @@
                       "separator": " "
                     },
                     {
+                      "name": "DIRECTIONS",
+                      "datatype": "string",
+                      "separator": " "
+                    },
+                    {
                       "name": "URLS",
                       "separator": " ",
                       "datatype": "string",
