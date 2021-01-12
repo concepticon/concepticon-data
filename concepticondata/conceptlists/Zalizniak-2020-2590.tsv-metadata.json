@@ -22,7 +22,10 @@
                         "name": "ID"
                     },
                     {
-                        "datatype": "integer",
+                        "datatype": {
+                          "base": "string",
+                          "format": "[0-9]+"
+                        },
                         "name": "NUMBER"
                     },
                     {
@@ -45,9 +48,7 @@
                       "name": "RANK"
                     },
                     {
-                        "datatype":{
-                          "base": "integer"
-                        },
+                        "datatype": "string",
                         "separator": " ",
                         "name": "LINKS"
                     },
@@ -59,10 +60,7 @@
                     {
                       "name": "URLS",
                       "separator": " ",
-                      "datatype": {
-                        "base": "string",
-                        "format": "(shift[0-9]+)( shift[0-9]+)*"
-                      },
+                      "datatype": "string",
                       "propertyUrl": "dc:relation",
                       "valueUrl": "http://datsemshift.ru/{SHIFT}"
                     },
