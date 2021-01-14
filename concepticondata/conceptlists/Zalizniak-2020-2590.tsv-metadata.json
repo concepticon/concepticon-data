@@ -1,0 +1,88 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dialect": {
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        },
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": {
+                          "base": "string",
+                          "format": "[0-9]+"
+                        },
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": 1
+                        },
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                      "datatype": "integer",
+                      "name": "RANK"
+                    },
+                    {
+                        "datatype": "string",
+                        "separator": " ",
+                        "name": "LINKS"
+                    },
+                    {
+                      "name": "WEIGHTS",
+                      "datatype": "integer",
+                      "separator": " "
+                    },
+                    {
+                      "name": "DIRECTIONS",
+                      "datatype": "string",
+                      "separator": " "
+                    },
+                    {
+                      "name": "URLS",
+                      "separator": " ",
+                      "datatype": "string",
+                      "propertyUrl": "dc:relation",
+                      "valueUrl": "http://datsemshift.ru/{SHIFT}"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "DEGREE"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "WEIGHTED_DEGREE"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "Zalizniak-2020-2590.tsv"
+        }
+    ]
+}
