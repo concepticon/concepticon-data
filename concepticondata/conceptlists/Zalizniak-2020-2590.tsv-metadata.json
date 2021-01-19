@@ -67,7 +67,7 @@
                       "separator": " ",
                       "datatype": "string",
                       "propertyUrl": "dc:relation",
-                      "valueUrl": "http://datsemshift.ru/{SHIFT}"
+                      "valueUrl": "http://datsemshift.ru/{0}"
                     },
                     {
                         "datatype": "integer",
