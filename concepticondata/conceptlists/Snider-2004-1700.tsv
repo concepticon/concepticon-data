@@ -259,7 +259,7 @@ Snider-2004-1700-257	257	wisdom	sagesse			9	2	1		MAN'S NONPHYSICAL BEING	KNOW, B
 Snider-2004-1700-258	258	(be) wise	(être) sage	698	WISE	9	2	1		MAN'S NONPHYSICAL BEING	KNOW, BELIEVE, TEACH	
 Snider-2004-1700-259	259	(be) intelligent	(être) intelligent	2530	SMART	9	2	1		MAN'S NONPHYSICAL BEING	KNOW, BELIEVE, TEACH	
 Snider-2004-1700-260	260	(be) stupid	(être) stupide, bête	1518	STUPID	9	2	1		MAN'S NONPHYSICAL BEING	KNOW, BELIEVE, TEACH	
-Snider-2004-1700-261	261	(be) confused	(être) désorienté, embrouillé			9	2	1		MAN'S NONPHYSICAL BEING	KNOW, BELIEVE, TEACH	
+Snider-2004-1700-261	261	(be) confused	(être) désorienté, embrouillé	3858	CONFUSED	9	2	1		MAN'S NONPHYSICAL BEING	KNOW, BELIEVE, TEACH	
 Snider-2004-1700-262	262	learn	apprendre	504	LEARN	9	2	1		MAN'S NONPHYSICAL BEING	KNOW, BELIEVE, TEACH	
 Snider-2004-1700-263	263	teach	enseigner	709	TEACH	9	2	1		MAN'S NONPHYSICAL BEING	KNOW, BELIEVE, TEACH	
 Snider-2004-1700-264	264	show	montrer	1039	SHOW	9	2	1		MAN'S NONPHYSICAL BEING	KNOW, BELIEVE, TEACH	
@@ -296,7 +296,7 @@ Snider-2004-1700-294	294	prevent	empêcher	1550	PREVENT	10	2	3		MAN'S NONPHYSICA
 Snider-2004-1700-295	295	plan (n)	projet	3630	PLAN	10	2	3		MAN'S NONPHYSICAL BEING	HUMAN WILL	
 Snider-2004-1700-296	296	try	essayer	1812	TRY	10	2	3		MAN'S NONPHYSICAL BEING	HUMAN WILL	
 Snider-2004-1700-297	297	succeed	réussir	1112	SUCCEED	10	2	3		MAN'S NONPHYSICAL BEING	HUMAN WILL	
-Snider-2004-1700-298	298	fail	échouer			10	2	3		MAN'S NONPHYSICAL BEING	HUMAN WILL	
+Snider-2004-1700-298	298	fail	échouer	3861	FAIL	10	2	3		MAN'S NONPHYSICAL BEING	HUMAN WILL	
 Snider-2004-1700-299	299	pretend	faire semblant	3631	PRETEND	10	2	3		MAN'S NONPHYSICAL BEING	HUMAN WILL	
 Snider-2004-1700-300	300	(be) kind	(être) gentil, bon	3299	KIND	10	2	4		MAN'S NONPHYSICAL BEING	HUMAN CHARACTER	
 Snider-2004-1700-301	301	(be) generous	(être) généreux	3632	GENEROUS	10	2	4		MAN'S NONPHYSICAL BEING	HUMAN CHARACTER	
@@ -406,7 +406,7 @@ Snider-2004-1700-404	404	(domestic) servant	domestique, servante, serviteur	255	
 Snider-2004-1700-405	405	beggar	mendiant	1934	BEGGAR	13	3	5		PERSONS	PROFESSIONS	
 Snider-2004-1700-406	406	soldier	soldat	1941	SOLDIER	13	3	5		PERSONS	PROFESSIONS	
 Snider-2004-1700-407	407	prostitute	prostituée	1610	PROSTITUTE	13	3	5		PERSONS	PROFESSIONS	
-Snider-2004-1700-408	408	midwife	sage-femme, accoucheuse			13	3	5		PERSONS	PROFESSIONS	
+Snider-2004-1700-408	408	midwife	sage-femme, accoucheuse	3859	MIDWIFE	13	3	5		PERSONS	PROFESSIONS	
 Snider-2004-1700-409	409	medicine man, traditional healer	guérisseur traditionnel, chaman	394	SHAMAN (FOLK HEALER)	13	3	5		PERSONS	PROFESSIONS	
 Snider-2004-1700-410	410	fetish priest	féticheur	394	SHAMAN (FOLK HEALER)	13	3	5		PERSONS	PROFESSIONS	
 Snider-2004-1700-411	411	sorcerer (male)	sorcier	823	SORCERER	13	3	5		PERSONS	PROFESSIONS	
@@ -809,7 +809,7 @@ Snider-2004-1700-807	807	need (v)	avoir besoin	2339	NEED (SOMETHING)	23	5	10	1	H
 Snider-2004-1700-808	808	get, obtain	obtenir, recevoir	694	GET	23	5	10	1	HUMAN CIVILISATION	POSSESSIONS AND COMMERCE	Possessions
 Snider-2004-1700-809	809	give	donner	1447	GIVE	24	5	10	1	HUMAN CIVILISATION	POSSESSIONS AND COMMERCE	Possessions
 Snider-2004-1700-810	810	return (tr), give back	rendre, renvoyer	85	GIVE BACK	24	5	10	1	HUMAN CIVILISATION	POSSESSIONS AND COMMERCE	Possessions
-Snider-2004-1700-811	811	belongings	biens, possessions			24	5	10	1	HUMAN CIVILISATION	POSSESSIONS AND COMMERCE	Possessions
+Snider-2004-1700-811	811	belongings	biens, possessions	3860	POSSESSIONS	24	5	10	1	HUMAN CIVILISATION	POSSESSIONS AND COMMERCE	Possessions
 Snider-2004-1700-812	812	owner	propriétaire	1036	OWNER	24	5	10	1	HUMAN CIVILISATION	POSSESSIONS AND COMMERCE	Possessions
 Snider-2004-1700-813	813	rich man	(un) riche	3661	RICH PERSON	24	5	10	1	HUMAN CIVILISATION	POSSESSIONS AND COMMERCE	Possessions
 Snider-2004-1700-814	814	poor man	(un) pauvre	3662	POOR PERSON	24	5	10	1	HUMAN CIVILISATION	POSSESSIONS AND COMMERCE	Possessions
@@ -1065,7 +1065,7 @@ Snider-2004-1700-1063	1063	crop (of bird)	jabot			30	6	3	1	Animals	BIRDS	Bird pa
 Snider-2004-1700-1064	1064	gizzard	gésier			30	6	3	1	Animals	BIRDS	Bird parts and things
 Snider-2004-1700-1065	1065	claw	griffe	72	CLAW	30	6	3	1	Animals	BIRDS	Bird parts and things
 Snider-2004-1700-1066	1066	egg	oeuf	744	EGG	30	6	3	1	Animals	BIRDS	Bird parts and things
-Snider-2004-1700-1067	1067	eggshell	coquille d'oeuf			30	6	3	1	Animals	BIRDS	Bird parts and things
+Snider-2004-1700-1067	1067	eggshell	coquille d'oeuf	3857	EGGSHELL	30	6	3	1	Animals	BIRDS	Bird parts and things
 Snider-2004-1700-1068	1068	yolk (of egg)	jaune d'oeuf	1556	YOLK	30	6	3	1	Animals	BIRDS	Bird parts and things
 Snider-2004-1700-1069	1069	nest	nid	539	NEST	30	6	3	1	Animals	BIRDS	Bird parts and things
 Snider-2004-1700-1070	1070	flock (of birds)	vol, volée (d'oiseaux)			30	6	3	1	Animals	BIRDS	Bird parts and things
