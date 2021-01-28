@@ -95,6 +95,7 @@ Robert Blust | D | 1.0
 Sandra Auderset | LG | 2.4
 Sean Lee | D | 1.0
 Sebastian Nicolai | CMS | 1.0
+Stéphane Polis | P | 2.5 
 Sylvia Li | C | 2.4
 Taraka Rama | MSDCG | 2.4
 Thiago Chacon | MSD | 1.0, 1.1, 2.3
