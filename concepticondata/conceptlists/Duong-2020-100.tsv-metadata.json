@@ -32,6 +32,10 @@
                         "name": "ENGLISH"
                     }, 
                     {
+                        "datatype": "string", 
+                        "name": "VIETNAMESE"
+                    }, 
+                    {
                         "datatype": {
                             "base": "integer", 
                             "minimum": 1
