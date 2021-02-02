@@ -41,7 +41,12 @@
                     {
                         "datatype": "string", 
                         "name": "ENGLISH"
-                    }, 
+                    },
+                    {
+                        "datatype": "string", 
+                        "propertyUrl": "https://glottolog.org/resource/languoid/id/viet1252",
+                        "name": "VIETNAMESE"
+                    },					
                     {
                         "datatype": "string", 
                         "valueUrl": "Swadesh-1955-100-{SWADESH_1955_100}", 
