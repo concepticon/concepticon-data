@@ -41,7 +41,12 @@
                     {
                         "datatype": "string", 
                         "name": "ENGLISH"
-                    }, 
+                    },
+                    {
+                        "datatype": "string", 
+                        "name": "FRENCH",
+                        "propertyUrl": "https://glottolog.org/resource/languoid/id/stan1290"
+                    },
                     {
                         "datatype": "anyURI", 
                         "name": "URL"
