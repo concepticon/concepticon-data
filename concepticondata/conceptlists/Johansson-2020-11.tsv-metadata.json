@@ -63,7 +63,8 @@
                         "name": "SATURATION"
                     },
                     {
-                        "datatype": "string", 
+                        "separator": ", ",
+                        "datatype": {"base": "float"},
                         "name": "RGB"
                     },
                     {
