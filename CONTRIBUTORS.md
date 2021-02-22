@@ -75,6 +75,7 @@ Isabella Boga | LP | 1.1
 Jan Auracher | D | 1.1
 Johannes Dellert | LPD | 1.1
 Julia Fischer | SDT | 1.0
+Joshua Conrad Jackson | DM | 2.4
 Kristina Pianykh | DCTLP | 2.1
 Lars Borin | DL | 1.0
 Magdalena Łuniewska | D | 1.1
