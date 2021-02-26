@@ -52,8 +52,11 @@
                         "name": "POS"
                     },
                     {
-                        "datatype": "string",
                         "separator": " ",
+                        "datatype":{
+                          "base": "string",
+                          "format": "([0-9]+)(:[0-9]+)*"
+                        },
                         "name": "SIMLEX_IDS"
                     },
                     {
