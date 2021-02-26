@@ -293,7 +293,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 292	RUG	Basic actions and technology	A piece of thick cloth or wool that is smaller than a carpet and is put on the floor as decoration.	Person/Thing	
 293	NETBAG	Basic actions and technology	Bag made of net used to carry things.	Person/Thing	
 294	TUMPLINE	Basic actions and technology	A strap slung over the forehead or chest used (especially by native Americans) for carrying packs or loads.	Person/Thing	
-295	WHETSTONE	Basic actions and technology	Before cutting the meat, he sharpened his knife with a whetstone.	Person/Thing	
+295	WHETSTONE	Basic actions and technology	A stone that is used for whetting a knife or edge tools.	Person/Thing	
 296	CROUCH	Motion	To lower one's body close to the ground by bending one's knees completely.	Action/Process	
 297	CROOKED	Spatial relations	Opposite of straight.	Property	
 298	SHRIEK	Speech and language	To make a short, loud and high-pitched sound in reaction to something.	Action/Process	
@@ -2410,7 +2410,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2409	BROWN	Sense perception	Having a brown color.	Property	
 2410	GOOD-LOOKING	Sense perception	Being pleasant to watch (of humans).	Property	
 2411	HURT (SOMEBODY)	Sense perception	Imposing pain on somebody else.	Action/Process	
-2412	THANK (SOMBEODY)	Social and political relations	To express one's gratitude.	Action/Process	
+2412	THANK (SOMEBODY)	Social and political relations	To express one's gratitude.	Action/Process	
 2413	SARONG	Clothing and grooming	A sarong or sarung is a large tube or length of fabric, often wrapped around the waist and worn by men and women throughout much of South Asia.	Person/Thing	
 2414	OLDER BROTHER (OF MAN)	Kinship	The older brother of a man.	Person/Thing	
 2415	OLDER BROTHER (OF WOMAN)	Kinship	The older brother of a woman.	Person/Thing	
@@ -2471,8 +2471,8 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2470	DEAR	Emotions and values	Beloved or loved.	Property	
 2471	LADY	Social and political relations	A woman of higher social status.	Person/Thing	
 2472	SUCKLE (BREASTFEED, NURSE)	Basic actions and technology	Giving milk to babies and young children with milk from a woman's breast.	Action/Process	
-2473	HIS (GENITIVE OF HE)	Possession	Belonging to the male third person.	Person/Thing	
-2474	HER (GENITIVE OF SHE)	Possession	Belonging to the female third person.	Person/Thing	
+2473	HIS (GENITIVE OF HE)	Possession	Belonging to the male third person.	Other	
+2474	HER (GENITIVE OF SHE)	Possession	Belonging to the female third person.	Other	
 2475	MALE GOAT	Animals	A male goat.	Person/Thing	
 2476	FEMALE GOAT	Animals	A female goat.	Person/Thing	
 2477	YAK	Animals	A long-haired bovid found throughout the Himalaya region of southern Central Asia, the Tibetan Plateau and as far north as Mongolia and Russia.	Person/Thing	
@@ -2758,7 +2758,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2758	CAREFUL	Basic actions and technology	Be cautious.	Property	
 2759	RECOMMEND	Basic actions and technology	To suggest something or somebody.	Person/Thing	
 2760	MAKE A JOKE	Speech and language	To say something which is not meant seriously.	Action/Process	
-2761	BEND (ONESELF)	Basic actions and technology	To turn oneself over.	Person/Thing	
+2761	BEND (ONESELF)	Basic actions and technology	To turn oneself over.	Action/Process	
 2762	BLOCK (THE WAY)	Basic actions and technology	To prevent somebody or something from passing.	Person/Thing	
 2763	CARRY HORIZONTALLY	Basic actions and technology	To carry some object horizontally.	Person/Thing	
 2764	CHICKEN NEST	Animals	The nest of a chicken.	Person/Thing	
@@ -3317,7 +3317,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3331	FASTING	Religion and belief	To consume little or no food for a specific period of time, usually done for religious reasons.	Action/Process	
 3332	PRIEST OR SHAMAN	Religion and belief	A generic way of referring to a person of religious authority, irrespective of specific religious schools.	Person/Thing	
 3333	BELIEF (RELIGIOUS)	Religion and belief	A school of thought rooted in religious beliefs and traditions and used for guiding actions.	Action/Process	
-3334	RITE	Religion and belief	A specific process or action used to practise religious beliefs.	Action/Process	
+3334	RITE	Religion and belief	A specific process or action used to practise religious beliefs.	Person/Thing	
 3335	SACRED GROVE	Religion and belief	A place in nature believed to hold special religious, magical, etc. powers.	Person/Thing	
 3336	FUNERAL	Religion and belief	The ceremonial act of bidding farewell to a deceased person or animal.	Action/Process	
 3337	BURIAL MOUND	Religion and belief	A mound of earth raised around burial sites/graves.	Person/Thing	
@@ -3538,7 +3538,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3552	GREET	Speech and language	To welcome someone; to address someone in a friendly and welcoming way upon meeting them.	Action/Process	
 3553	HELLO	Speech and language	A conventional expression, used as a greeting.	Person/Thing	
 3554	GOODBYE	Speech and language	A conventional expression, used as a farewell when parting.	Person/Thing	
-3555	COME HERE	Speech and language	An order for the person addressed to come near to the speaker.	Person/Thing	
+3555	COME HERE	Speech and language	An order for the person addressed to come near to the speaker.	Other	
 3556	FORTY ONE	Quantity	The natural number forty-one (41).	Number	
 3557	FORTY TWO	Quantity	The natural number forty-two (42).	Number	
 3558	FORTY SIX	Quantity	The natural number forty-six (46).	Number	
@@ -3872,3 +3872,4 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3886	TARANTULA	The physical world	Any large and hairy spider, typically of the Theraphosidae family, although some other spider species are subsumed under this name as well.	Person/Thing	
 3887	NOBODY	Quantity	No person; not one member out of a group of people.	Other	
 3888	SKUNK	The physical world	Mammals of the family Mephitidae, typically found in North and South America. These animals are known for their ability to spray attackers with a strong-smelling liquid.	Person/Thing	
+3889	CUT OR HACK	Basic actions and technology	To perform an incision or chop something.	Action/Process	
