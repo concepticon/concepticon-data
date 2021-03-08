@@ -36,18 +36,18 @@ Huttenlocher-1979-225-34	34	10	jump	verb	verbs of movement	1.B	146	1829	JUMP
 Huttenlocher-1979-225-35	35	11	sit	verb	stative verbs	1.B	146	1416	SIT
 Huttenlocher-1979-225-36	36	12	question	verb	verbs of saying	1.B	146	1309	ASK (INQUIRE)
 Huttenlocher-1979-225-37	37	13	run	verb	verbs of movement	1.B	146	1519	RUN
-Huttenlocher-1979-225-38	38	14	relax	verb	stative verbs	1.B	146	168	REST
+Huttenlocher-1979-225-38	38	14	relax	verb	stative verbs	1.B	146		
 Huttenlocher-1979-225-39	39	15	call	verb	verbs of saying	1.B	146	1084	CALL
 Huttenlocher-1979-225-40	40	16	hike	verb	verbs of movement	1.B	146		
-Huttenlocher-1979-225-41	41	17	stay	verb	stative verbs	1.B	146	987	REMAIN
+Huttenlocher-1979-225-41	41	17	stay	verb	stative verbs	1.B	146		
 Huttenlocher-1979-225-42	42	18	speak	verb	verbs of saying	1.B	146	1623	SPEAK
 Huttenlocher-1979-225-43	43	19	hop	verb	verbs of movement	1.B	146		
 Huttenlocher-1979-225-44	44	20	rest	verb	stative verbs	1.B	146	168	REST
 Huttenlocher-1979-225-45	45	21	ask	verb	verbs of saying	1.B	146	1309	ASK (INQUIRE)
-Huttenlocher-1979-225-46	46	22	dance	verb	verbs of movement	1.B	146	3472	DANCE (MOVEMENT)
+Huttenlocher-1979-225-46	46	22	dance	verb	verbs of movement	1.B	146	1879	DANCE
 Huttenlocher-1979-225-47	47	23	lounge	verb	stative verbs	1.B	146		
 Huttenlocher-1979-225-48	48	24	talk	verb	verbs of saying	1.B	146	2708	TALK
-Huttenlocher-1979-225-49	49	25	jog	verb	verbs of movement	1.B	146	2899	JOG (SOMETHING)
+Huttenlocher-1979-225-49	49	25	jog	verb	verbs of movement	1.B	146		
 Huttenlocher-1979-225-50	50	26	stand	verb	stative verbs	1.B	146	1442	STAND
 Huttenlocher-1979-225-51	51	27	discuss	verb	verbs of saying	1.B	146		
 Huttenlocher-1979-225-52	52	1	walk	verb	verbs of movement	1.C	146	1443	WALK
@@ -60,9 +60,9 @@ Huttenlocher-1979-225-58	58	7	hop	verb	verbs of movement	1.C	146
 Huttenlocher-1979-225-59	59	8	wait	verb	stative verbs	1.C	146	1590	WAIT (FOR)
 Huttenlocher-1979-225-60	60	9	call	verb	verbs of saying	1.C	146	1084	CALL
 Huttenlocher-1979-225-61	61	10	run	verb	verbs of movement	1.C	146	1519	RUN
-Huttenlocher-1979-225-62	62	11	stay	verb	stative verbs	1.C	146	987	REMAIN
+Huttenlocher-1979-225-62	62	11	stay	verb	stative verbs	1.C	146		
 Huttenlocher-1979-225-63	63	12	speak	verb	verbs of saying	1.C	146	1623	SPEAK
-Huttenlocher-1979-225-64	64	13	dance	verb	verbs of movement	1.C	146	3472	DANCE (MOVEMENT)
+Huttenlocher-1979-225-64	64	13	dance	verb	verbs of movement	1.C	146	1879	DANCE
 Huttenlocher-1979-225-65	65	14	rest	verb	stative verbs	1.C	146	168	REST
 Huttenlocher-1979-225-66	66	15	ask	verb	verbs of saying	1.C	146	1309	ASK (INQUIRE)
 Huttenlocher-1979-225-67	67	16	jump	verb	verbs of movement	1.C	146	1829	JUMP
@@ -120,7 +120,7 @@ Huttenlocher-1979-225-118	118	1	arm	noun	body parts	3.A	151	1673	ARM
 Huttenlocher-1979-225-119	119	2	leg	noun	body parts	3.A	151	1297	LEG
 Huttenlocher-1979-225-120	120	3	neck	noun	body parts	3.A	151	1333	NECK
 Huttenlocher-1979-225-121	121	4	ball	noun	tools	3.A	151	1845	BALL
-Huttenlocher-1979-225-122	122	5	block	noun	tools	3.A	151	2762	BLOCK (THE WAY)
+Huttenlocher-1979-225-122	122	5	block	noun	tools	3.A	151		
 Huttenlocher-1979-225-123	123	6	doll	noun	tools	3.A	151	1659	DOLL
 Huttenlocher-1979-225-124	124	7	pie	noun	food	3.A	151		
 Huttenlocher-1979-225-125	125	8	bread	noun	food	3.A	151	1368	BREAD
@@ -209,7 +209,7 @@ Huttenlocher-1979-225-207	207	36	look	verb	random C	3.B	151	1819	LOOK
 Huttenlocher-1979-225-208	208	37	rub	verb	random D	3.B	151	1449	RUB
 Huttenlocher-1979-225-209	209	38	shut	verb	random D	3.B	151	1046	SHUT
 Huttenlocher-1979-225-210	210	39	think	verb	random D	3.B	151	2271	THINK
-Huttenlocher-1979-225-211	211	40	tear	verb	random E	3.B	151	1651	TEAR (OF EYE)
+Huttenlocher-1979-225-211	211	40	tear	verb	random E	3.B	151	1735	TEAR (SHRED)
 Huttenlocher-1979-225-212	212	41	hurt	verb	random E	3.B	151	2411	HURT (SOMEBODY)
 Huttenlocher-1979-225-213	213	42	catch	verb	random E	3.B	151	702	CATCH
 Huttenlocher-1979-225-214	214	43	blow	verb	random F	3.B	151	176	BLOW (WITH MOUTH)
