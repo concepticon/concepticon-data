@@ -227,6 +227,11 @@
             "poli1260",
             "pl"
         ],
+        "CANTONESE": [
+            "languoid",
+            "yuec1235",
+            null
+        ],
         "SOUTHAFRICANENGLISH": [
             "languoid",
             null,
@@ -262,6 +267,17 @@
             "stan1323",
             null
         ],
+        "ARABIC": [
+            "languoid",
+            "stan1318",
+            "ar"
+        ],
+        "WELSH": [
+            "languoid",
+            "wels1247",
+            "cy"
+        ],
+
         "MALAY": [
             "languoid",
             "indo1326",
@@ -276,6 +292,11 @@
             "languoid",
             "homs1234",
             null
+        ],
+        "ESTONIAN": [
+             "languoid",
+             "esto1258",
+             "et"
         ],
         "FREQUENCY": "decimal",
         "RANK": "integer",

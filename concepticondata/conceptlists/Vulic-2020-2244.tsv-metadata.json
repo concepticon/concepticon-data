@@ -65,7 +65,7 @@
                         "name": "SIMLEX_GLOSSES"
                     },
                     {
-                        "datatype": "integer",
+                        "datatype": "string",
                         "separator": " ",
                         "name": "LINKS"
                     },
@@ -75,7 +75,7 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "MANDARIN"
+                        "name": "CHINESE"
                     },
                     {
                         "datatype": "string",
@@ -115,51 +115,63 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "ENGLISH_IN_SOURCE"
+                        "name": "ENGLISH_IN_SOURCE",
+                        "separator": " "
                     },
                     {
                         "datatype": "string",
-                        "name": "ARABIC_IN_SOURCE"
+                        "name": "ARABIC_IN_SOURCE",
+                        "separator": " "
                     },
                     {
                         "datatype": "string",
-                        "name": "MANDARIN_IN_SOURCE"
+                        "name": "MANDARIN_IN_SOURCE",
+                        "separator": " "
                     },
                     {
                         "datatype": "string",
-                        "name": "WELSH_IN_SOURCE"
+                        "name": "WELSH_IN_SOURCE",
+                        "separator": " "
                     },
                     {
                         "datatype": "string",
-                        "name": "ESTONIAN_IN_SOURCE"
+                        "name": "ESTONIAN_IN_SOURCE",
+                        "separator": " "
                     },
                     {
                         "datatype": "string",
-                        "name": "FINNISH_IN_SOURCE"
+                        "name": "FINNISH_IN_SOURCE",
+                        "separator": " "
                     },
                     {
                         "datatype": "string",
-                        "name": "FRENCH_IN_SOURCE"
+                        "name": "FRENCH_IN_SOURCE",
+                        "separator": " "
                     },
                     {
                         "datatype": "string",
-                        "name": "HEBREW_IN_SOURCE"
+                        "name": "HEBREW_IN_SOURCE",
+                        "separator": " "
                     },
                     {
                         "datatype": "string",
-                        "name": "POLISH_IN_SOURCE"
+                        "name": "POLISH_IN_SOURCE",
+                        "separator": " "
                     },
                     {
                         "datatype": "string",
-                        "name": "RUSSIAN_IN_SOURCE"
+                        "name": "RUSSIAN_IN_SOURCE",
+                        "separator": " "
                     },
                     {
                         "datatype": "string",
-                        "name": "SPANISH_IN_SOURCE"
+                        "name": "SPANISH_IN_SOURCE",
+                        "separator": " "
                     },
                     {
                         "datatype": "string",
-                        "name": "CANTONESE_IN_SOURCE"
+                        "name": "CANTONESE_IN_SOURCE",
+                        "separator": " "
                     },
                     {
                         "datatype": "float",
@@ -246,7 +258,7 @@
                     "ID"
                 ]
             },
-            "url": "Vulic-2021-2244.tsv"
+            "url": "Vulic-2020-2244.tsv"
         }
     ]
 }
