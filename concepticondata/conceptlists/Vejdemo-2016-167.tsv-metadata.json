@@ -101,6 +101,10 @@
                     {
                         "datatype": "string", 
                         "name": "WordClass"
+                    },
+                    {
+                        "datatype": "integer", 
+                        "name": "RANK"
                     }
                 ], 
                 "primaryKey": [
