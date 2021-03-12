@@ -44,63 +44,63 @@
                     },
                     {
                         "datatype": "float", 
-                        "name": "Rate"
+                        "name": "RATE"
                     },
                     {
                         "datatype": "float",
-                        "name": "Synonyms_average"
+                        "name": "SYNONYMS_AVERAGE"
                     },
                     {
                         "datatype": "float", 
-                        "name": "SynonymsEnglish"
+                        "name": "SYNONYMS_ENGLISH"
                     },
                     {
                         "datatype": "float",
-                        "name": "SynonymsDanish"
+                        "name": "SYNONYMS_DANISH"
                     },
                     {
                         "datatype": "float", 
-                        "name": "SynonymsDutch"
+                        "name": "SYNONYMS_DUTCH"
                     },
                     {
                         "datatype": "float",
-                        "name": "SynonymsGerman"
+                        "name": "SYNONYMS_GERMAN"
                     },
                     {
                         "datatype": "float", 
-                        "name": "SynonymsSwedish"
+                        "name": "SYNONYMS_SWEDISH"
                     },
                     {
                         "datatype": "integer",
-                        "name": "Frequency"
+                        "name": "FREQUENCY"
                     },
                     {
                         "datatype": "float", 
-                        "name": "Imageability"
+                        "name": "IMAGEABILITY"
                     },
                     {
                         "datatype": "float",
-                        "name": "BrysbaertEtAl_concreteness"
+                        "name": "BRYSBAERT_CONCRETENESS"
                     },
                     {
                         "datatype": "float", 
-                        "name": "MutualInformation"
+                        "name": "MUTUAL_INFORMATION"
                     },
                     {
                         "datatype": "float",
-                        "name": "Arousal"
+                        "name": "AROUSAL"
                     },
                     {
                         "datatype": "integer", 
-                        "name": "Senses"
+                        "name": "SENSES"
                     },
                     {
                         "datatype": "float",
-                        "name": "AgeOfAcquisition"
+                        "name": "AGE_OF_ACQUISITION"
                     },
                     {
                         "datatype": "string", 
-                        "name": "WordClass"
+                        "name": "WORDCLASS"
                     },
                     {
                         "datatype": "integer", 
