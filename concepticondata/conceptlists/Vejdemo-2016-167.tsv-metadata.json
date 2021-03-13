@@ -48,7 +48,7 @@
                     },
                     {
                         "datatype": "float",
-                        "name": "SYNONYMS_AVERAGE"
+                        "name": "SYNONYMS_MEAN"
                     },
                     {
                         "datatype": "float", 
@@ -80,7 +80,7 @@
                     },
                     {
                         "datatype": "float",
-                        "name": "BRYSBAERT_CONCRETENESS"
+                        "name": "CONCRETENESS"
                     },
                     {
                         "datatype": "float", 
@@ -100,7 +100,7 @@
                     },
                     {
                         "datatype": "string", 
-                        "name": "WORDCLASS"
+                        "name": "POS"
                     },
                     {
                         "datatype": "integer", 
