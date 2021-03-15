@@ -41,6 +41,10 @@
                     {
                         "datatype": "string", 
                         "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "integer", 
+                        "name": "RANK"
                     }
                 ], 
                 "primaryKey": [

@@ -45,6 +45,10 @@
 					{
                         "datatype": "float", 
                         "name": "S_I"
+                    },
+                    {
+                        "datatype": "integer", 
+                        "name": "RANK"
                     }					
                 ], 
                 "primaryKey": [
