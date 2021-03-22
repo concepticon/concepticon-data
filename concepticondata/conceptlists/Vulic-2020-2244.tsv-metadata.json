@@ -125,7 +125,7 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "MANDARIN_IN_SOURCE",
+                        "name": "CHINESE_IN_SOURCE",
                         "separator": " "
                     },
                     {
@@ -186,7 +186,7 @@
                     {
                         "datatype": "float",
                         "separator": " ",
-                        "name": "MANDARIN_SCORE"
+                        "name": "CHINESE_SCORE"
                     },
                     {
                         "datatype": "float",
