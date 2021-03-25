@@ -1,0 +1,104 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dialect": {
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        },
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        },
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": 1
+                        },
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "POS"
+                    },
+                    {
+                        "separator": " ",
+                        "datatype":{
+                          "base": "string",
+                          "format": "([0-9]+)(:[a-zA-ZÀ-ž]+)(-[a-zA-ZÀ-ž]+)?(-[a-zA-ZÀ-ž]+)?(-[a-zA-ZÀ-ž]+)(:[0-9]+)*"
+                        },
+                        "name": "IDS_IN_SOURCE"
+                    },
+                    {
+                        "separator": " ",
+                        "datatype":{
+                          "base": "string",
+                          "format": "([→←][0-9]+)*"
+                        },
+                        "name": "LINKS"
+                    },
+                    {
+                        "separator": " ",
+                        "datatype": "string",
+                        "name": "POLYSEMY_CLASS"
+                    },
+                    {
+                        "separator": " ",
+                        "datatype": "string",
+                        "name": "FREQUENCY_CLASS"
+                    },
+                    {
+                        "separator": " ",
+                        "datatype": "string",
+                        "name": "DEGREE_CLASS"
+                    },
+                    {
+                        "separator": " ",
+                        "datatype": "string",
+                        "name": "RELATION_TYPE"
+                    },
+                    {
+                        "separator": " ",
+                        "datatype": "float",
+                        "name": "FORWARD_SCORES"
+                    },
+                    {
+                        "separator": " ",
+                        "datatype": "float",
+                        "name": "BACKWARD_SCORES"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "Scheible-2014-772b.tsv"
+        }
+    ]
+}
