@@ -13,8 +13,8 @@ Say-2020-130-11	11	encounter			X (encounter) Y	P. encountered M. (accidentally, 
 Say-2020-130-12	12	enter	ENTER	749	X (enter) Y	P. entered the house.
 Say-2020-130-13	13	win	WIN	866	X (beat) Y	(P. and M. played chess.) P. beat M.
 Say-2020-130-14	14	go out	GO OUT	1107	X (go out) of Y	P. went out of the house.
-Say-2020-130-15	15	drive			X (drive) Y	P. is driving the cow (to the pasture).
-Say-2020-130-16	16	bend	BEND	2004	X (bend) Y	P. bent the branch.
+Say-2020-130-15	15	drive	DRIVE (CATTLE)	2868	X (drive) Y	P. is driving the cow (to the pasture).
+Say-2020-130-16	16	bend	BEND (SOMETHING)	2224	X (bend) Y	P. bent the branch.
 Say-2020-130-17	17	tell	TELL	1711	X (tell) Y	P. told M. : (‘Call me this evening.’)
 Say-2020-130-18	18	hold	HOLD	1448	X (hold)Y	P. is holding a book (in his hands).
 Say-2020-130-19	19	catch up			X (catch up) with Y	(P. had an argument with M., M. went away, P. went after her.) P. caught up with M.
@@ -49,7 +49,7 @@ Say-2020-130-47	47	wave	WAVE	978	X (wave) Y	(Look, there’s P. on the other sid
 Say-2020-130-48	48	dream			X (dream) of Y	P. is dreaming of a new car.
 Say-2020-130-49	49	wash	WASH	1453	X (wash) Y	P. washed the cup.
 Say-2020-130-50	50	put on	PUT ON	158	X (put_on) Y	P. put on his trousers.
-Say-2020-130-51	51	be called			X (be_called) Y	(A boy saw his father’s compass and asked what this was. The father answered him:) ‘This tool is called a compass.’
+Say-2020-130-51	51	be called	BE CALLED BY NAME	3835	X (be_called) Y	(A boy saw his father’s compass and asked what this was. The father answered him:) ‘This tool is called a compass.’
 Say-2020-130-52	52	punish	PUNISH	3649	X (punish) Y	(P.’s son was misbehaving.) P. punished his son.
 Say-2020-130-53	53	attack	ATTACKING	3899	X (attack) Y	A bear attacked a fisherman.
 Say-2020-130-54	54	fill (intr)			X (fill) with Y	(There was a bucket near the house during the rain.) The bucket] filled with [water.
@@ -80,7 +80,7 @@ Say-2020-130-78	78	understand (language)	UNDERSTAND	1536	X (understand) Y	P. und
 Say-2020-130-79	79	hit (target)	HIT (A TARGET)	3307	X (hit) Y	Lightning hit / struck the house.
 Say-2020-130-80	80	cut oneself			X (cut oneself) with Y	P. cut himself with a razor.
 Say-2020-130-81	81	get stuck			X (get stuck) to Y	(The table was recently covered with paint. P. didn’t know this and placed his glass on it.) The glass] got stuck to [the table.
-Say-2020-130-82	82	lose (game)	LOSE	1660	X (lose) to Y	(P. played chess with M.) P. lost to M.
+Say-2020-130-82	82	lose (game)	BE DEFEATED	3535	X (lose) to Y	(P. played chess with M.) P. lost to M.
 Say-2020-130-83	83	be glad	REJOICE	2192	X (be glad) about Y	(P. received a letter from M.) P. was glad about the letter.
 Say-2020-130-84	84	speak	SPEAK	1623	X (speak) with Y	(I am looking for P. When I enter the room I see that) P. is speaking with M.
 Say-2020-130-85	85	give birth	GIVE BIRTH	1195	X (give birth) to Y	M. gave birth to a son.
@@ -101,7 +101,7 @@ Say-2020-130-99	99	have a quarrel	QUARREL (VERB)	3302	X (have a quarrel) with Y	
 Say-2020-130-100	100	cost	COST	242	X (cost) Y	This cup costs 1 euro.
 Say-2020-130-101	101	shoot at	SHOOT	1172	X (shoot) at Y	P. shot at the bird. (He missed.)
 Say-2020-130-102	102	pour	POUR	1487	X (pour) Y	P. poured the sugar (into the cup).
-Say-2020-130-103	103	lose			X (lose) Y	P. lost his keys.
+Say-2020-130-103	103	lose	MISPLACE	3072	X (lose) Y	P. lost his keys.
 Say-2020-130-104	104	sink	SINK (DESCEND)	1088	X (sink) in Y	(This tree has very heavy wood. I threw a log in the river.) The log sank in the water.
 Say-2020-130-105	105	kill	KILL	1417	X (kill) Y	P. killed M.
 Say-2020-130-106	106	hit	HIT	1433	X (hit) Y	P. hit M.
