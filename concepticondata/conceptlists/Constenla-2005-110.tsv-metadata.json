@@ -23,7 +23,7 @@
                     },
                     {
                         "datatype": {
-                            "base": "integer",
+                            "base": "string",
                             "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
                         },
                         "name": "NUMBER"
