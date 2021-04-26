@@ -12,7 +12,7 @@ Period | Name
 2019- | Kristina Pianykh
 2020- | Annika Tjuka
 2020  | Mei-Shin Wu
-2020  | Carolin Hundt
+2020- | Carolin Hundt
 2020  | Tiago Tresoldi
 2015- | Robert Forkel
 
