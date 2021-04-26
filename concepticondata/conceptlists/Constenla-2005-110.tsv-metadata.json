@@ -41,11 +41,15 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "ENGLISH"
+                        "name": "GLOSS"
                     },
                     {
                         "datatype": "string",
                         "name": "SPANISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "PAGE_IN_SOURCE"
                     }
                 ],
                 "primaryKey": [
