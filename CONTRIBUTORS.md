@@ -11,9 +11,9 @@ Period | Name
 2019- | Nathanael Schweikhard
 2019- | Kristina Pianykh
 2020- | Annika Tjuka
-2020- | Mei-Shin Wu
-2020- | Carolin Hundt
-2020- | Tiago Tresoldi
+2020  | Mei-Shin Wu
+2020  | Carolin Hundt
+2020  | Tiago Tresoldi
 2015- | Robert Forkel
 
 
@@ -58,24 +58,32 @@ Andrew Kitchen | D | 1.0
 Andy Castro | T | 2.0, 2.2
 Anja Gampe | D | 1.1
 Anthony Grant | MS | 1.1
+Ayten Tüfekci | CL | 2.5
 Ben Yackley | P | 1.1
+Carlotta Kintscher | C | 2.5
 Carolin Hundt | DCTLPG | 2.3, 2.4
 Christoph Rzymski | CLPG | 1.1
 Claire Bowern | D | 1.1, 2.2
 Cormac Anderson | CP | 1.1, 1.2
 Damian Satterthwaite-Phillips | D | 1.0
+Dana Thoeren | C | 2.5
 David Nash | MP | 2.2
 Doug Cooper | DCSM | 1.1, 2.1
 Evgeniya Korovina | MSCLPA | 1.1, 2.2
+Fabio Fromme | CL | 2.5
+Fiona Grond | CL | 2.5
 Franz Manni | A | 2.5
+Frederic Blum | G | 2.5
 Frederike Urke | CLS | 1.0
 Hans Geisler | MSDT | 2.3, 2.4
 Harald Hammarström | DMS | 1.0, 2.4
 Isabella Boga | LP | 1.1
 Jan Auracher | D | 1.1
+Janine Wieking | CL | 2.5
 Johannes Dellert | LPD | 1.1
-Julia Fischer | SDT | 1.0
 Joshua Conrad Jackson | DM | 2.4
+Julia Fischer | SDT | 1.0
+Katja Sirges | C | 2.5
 Kristina Pianykh | DCTLP | 2.1
 Lars Borin | DL | 1.0
 Magdalena Łuniewska | D | 1.1
@@ -96,6 +104,7 @@ Robert Blust | D | 1.0
 Sandra Auderset | LG | 2.4
 Sean Lee | D | 1.0
 Sebastian Nicolai | CMS | 1.0
+Simone Pomikalek | CL | 2.5
 Stéphane Polis | P | 2.5 
 Sylvia Li | C | 2.4
 Taraka Rama | MSDCG | 2.4
