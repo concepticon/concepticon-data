@@ -417,7 +417,7 @@ Dellert-2017-1016-415	415	406	-1.108912	Sünde	Sünde::N	sin	грех				SIN	297
 Dellert-2017-1016-416	416	65	-2.293946	Gott	Gott::N	god	бог				DEITY	3231	
 Dellert-2017-1016-417	417	933	0.076705	Arbeiter	Arbeiter::N	worker	рабочий				WORKER	2977	
 Dellert-2017-1016-418	418	688	-0.047896	Chef	Chef::N	boss	начальник	Vorgesetzter	supervisor	руководитель	BOSS	2930	not MASTER (opp. slave)
-Dellert-2017-1016-419	419	996	1.178351	Meister	Meister::N	master	мастер	eines Handwerks	expert tradesman	ремесленник, человек, занимающийся ремеслом НАПР:сапожный мастер	MASTER	383	not MASTER (opp. slave)
+Dellert-2017-1016-419	419	996	1.178351	Meister	Meister::N	master	мастер	eines Handwerks	expert tradesman	ремесленник, человек, занимающийся ремеслом НАПР:сапожный мастер			not MASTER (opp. slave)
 Dellert-2017-1016-420	420	918	0.033509	Arzt	Arzt::N	doctor	врач		physician		PHYSICIAN	597	
 Dellert-2017-1016-421	421	969	0.06446	Lehrer	Lehrer::N	teacher	учитель				TEACHER	1038	
 Dellert-2017-1016-422	422	743	-0.007048	Geld	Geld::N	money	деньги				MONEY	1559	
@@ -925,7 +925,7 @@ Dellert-2017-1016-923	923	685	-0.052985	tanzen	tanzen::V	dance	плясать, �
 Dellert-2017-1016-924	924	893	0.06391	sich trennen	sich trennen::V	separate	разойтись	verschiedener Wege gehen	part ways		SEPARATE	1359	
 Dellert-2017-1016-925	925	376	-1.175487	verlassen	verlassen::V	leave	покинуть	jemanden	someone	кого-то			
 Dellert-2017-1016-926	926	658	-0.021409	retten	retten::V	rescue	спасти	jemanden	someone	кого-то	RESCUE	2008	
-Dellert-2017-1016-927	927	737	-0.023238	bewachen	bewachen::V	guard	охранять	BSP:Gebäude	EX:a building	НАПР:здание	GUARD	1940	POS
+Dellert-2017-1016-927	927	737	-0.023238	bewachen	bewachen::V	guard	охранять	BSP:Gebäude	EX:a building	НАПР:здание			POS
 Dellert-2017-1016-928	928	748	-0.094972	schützen	schützen::V	protect	уберегать	Person	a person	человека	PROTECT	2900	
 Dellert-2017-1016-929	929	700	-0.023868	verteidigen	verteidigen::V	defend	защитить	BSP:Stadt, Staat	EX:city, state	НАПР:город, государство	DEFEND	1330	
 Dellert-2017-1016-930	930	546	-0.067805	sich schlagen	sich schlagen::V	brawl	драться	sich prügeln			BRAWL (FIGHT)	2902	
