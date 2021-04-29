@@ -41,7 +41,8 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "GLOSSES_IN_SOURCE"
+                        "separator": "//",
+                        "name": "LEXIBANK_GLOSS"
                     },
                     {
                         "datatype": "string",
