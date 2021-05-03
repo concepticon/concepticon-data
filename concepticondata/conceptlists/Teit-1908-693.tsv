@@ -95,8 +95,8 @@ Teit-1908-693-93	93	79	back	1291	BACK	46
 Teit-1908-693-94	94	80	beard	678	BEARD	46
 Teit-1908-693-95	95	81	mouth	674	MOUTH	48
 Teit-1908-693-96	96	82	lip	478	LIP	48
-Teit-1908-693-97	97		all			48
-Teit-1908-693-98	98		upper			48
+Teit-1908-693-97	97		all [lips]			48
+Teit-1908-693-98	98		upper [lip]			48
 Teit-1908-693-99	99	83	lower lip			48
 Teit-1908-693-100	100	84	lower jaw			48
 Teit-1908-693-101	101	85	tooth	1380	TOOTH	48
@@ -276,13 +276,13 @@ Teit-1908-693-274	274		stoneheaded club			60
 Teit-1908-693-275	275		stone head movable			60
 Teit-1908-693-276	276	245	war spear	945	SPEAR	60
 Teit-1908-693-277	277	246	fish spear two prong			62
-Teit-1908-693-278	278		handle	1254	HANDLE	62
-Teit-1908-693-279	279		three prong			62
-Teit-1908-693-280	280		handle and all			62
+Teit-1908-693-278	278		handle [of fish spear]	1254	HANDLE	62
+Teit-1908-693-279	279		three prong [fish spear]			62
+Teit-1908-693-280	280		handle and all [fish spear]			62
 Teit-1908-693-281	281	247	fish hook	1074	FISHHOOK	62
 Teit-1908-693-282	282	248	fish net	388	FISHNET	62
-Teit-1908-693-283	283		long			62
-Teit-1908-693-284	284		bag			62
+Teit-1908-693-283	283		long [fish net]			62
+Teit-1908-693-284	284		[fish net] bag			62
 Teit-1908-693-285	285	249	fish line	19	FISHING LINE	62
 Teit-1908-693-286	286	250	sinker line			62
 Teit-1908-693-287	287	251	bark canoe			62
@@ -295,7 +295,7 @@ Teit-1908-693-293	293	257	mule	890	MULE	62
 Teit-1908-693-294	294	258	buck			62
 Teit-1908-693-295	295	259	doe			62
 Teit-1908-693-296	296	260	fawn			62
-Teit-1908-693-297	297		(when spotted)			62
+Teit-1908-693-297	297		[fawn] (when spotted)			62
 Teit-1908-693-298	298	261	stallion	936	STALLION	62
 Teit-1908-693-299	299	262	mare	938	MARE	62
 Teit-1908-693-300	300	263	colt			62
@@ -335,27 +335,27 @@ Teit-1908-693-333	333	296	lynx	3314	LYNX	64
 Teit-1908-693-334	334		striped lynx			64
 Teit-1908-693-335	335	297	mtn lion or cougar			66
 Teit-1908-693-336	336	298	mtn sheep ram			66
-Teit-1908-693-337	337		ewe			66
-Teit-1908-693-338	338		lamb			66
+Teit-1908-693-337	337		[mtn] ewe			66
+Teit-1908-693-338	338		[mtn] lamb			66
 Teit-1908-693-339	339	299	mtn goat			66
 Teit-1908-693-340	340	300	elk	1772	ELK	66
 Teit-1908-693-341	341	301	caribou	1876	REINDEER	66
-Teit-1908-693-342	342		female			66
-Teit-1908-693-343	343		calf			66
+Teit-1908-693-342	342		female [caribou]			66
+Teit-1908-693-343	343		calf [caribou]			66
 Teit-1908-693-344	344	302	moose			66
 Teit-1908-693-345	345	303	rabbit	1136	RABBIT	66
 Teit-1908-693-346	346		small timber rabbit			66
 Teit-1908-693-347	347		snowshoe rabbit			66
 Teit-1908-693-348	348		jack rabbit			66
-Teit-1908-693-349	349		small run socks & timber s&e columbia			66
+Teit-1908-693-349	349		small run socks & timber S&E Columbia			66
 Teit-1908-693-350	350	304	marten	3739	MARTEN	66
 Teit-1908-693-351	351	305	fisher			66
 Teit-1908-693-352	352	306	mink			66
 Teit-1908-693-353	353	307	wolverine			66
 Teit-1908-693-354	354	308	marmot	3719	MARMOT	66
-Teit-1908-693-355	355		mountain			66
-Teit-1908-693-356	356		common			66
-Teit-1908-693-357	357		hoary			66
+Teit-1908-693-355	355		mountain [marmot]			66
+Teit-1908-693-356	356		common [marmot]			66
+Teit-1908-693-357	357		hoary [marmot]			66
 Teit-1908-693-358	358	309	antlers			66
 Teit-1908-693-359	359	310	tail	1220	TAIL	66
 Teit-1908-693-360	360	311	hair of animal	580	FUR	66
@@ -371,7 +371,7 @@ Teit-1908-693-369	369	320	mourning dove			68
 Teit-1908-693-370	370	321	duck all kinds	1360	DUCK	68
 Teit-1908-693-371	371	322	golden eagle			68
 Teit-1908-693-372	372	323	white headed eagle			68
-Teit-1908-693-373	373		baldhead			68
+Teit-1908-693-373	373		baldhead [eagle]			68
 Teit-1908-693-374	374	324	meadow lark			68
 Teit-1908-693-375	375	325	robin	2402	ROBIN	68
 Teit-1908-693-376	376	326	blue grouse			68
@@ -391,7 +391,7 @@ Teit-1908-693-389	389	339	king bird			68
 Teit-1908-693-390	390	340	king fisher	2444	KINGFISHER	68
 Teit-1908-693-391	391	341	loon			68
 Teit-1908-693-392	392	342	swallow	897	SWALLOW	68
-Teit-1908-693-393	393		blueback			68
+Teit-1908-693-393	393		blueback [swallow]			68
 Teit-1908-693-394	394	343	magpie	2039	MAGPIE	70
 Teit-1908-693-395	395	344	owl	735	OWL	70
 Teit-1908-693-396	396	345	raven	2543	RAVEN	70
@@ -485,8 +485,8 @@ Teit-1908-693-483	483	432	wind	960	WIND	76
 Teit-1908-693-484	484	433	whirlwind	3740	WHIRLWIND	76
 Teit-1908-693-485	485	434	mountain	639	MOUNTAIN	76
 Teit-1908-693-486	486	435	plain	652	PLAIN	76
-Teit-1908-693-487	487		small flat			76
-Teit-1908-693-488	488		large area			76
+Teit-1908-693-487	487		small flat [plain]			76
+Teit-1908-693-488	488		large area [plain]			76
 Teit-1908-693-489	489		open country without timber			76
 Teit-1908-693-490	490	436	valley	921	VALLEY	76
 Teit-1908-693-491	491	437	forest	420	FOREST	76
@@ -630,7 +630,7 @@ Teit-1908-693-628	628	572	steamboat			86
 Teit-1908-693-629	629	573	telegraph			86
 Teit-1908-693-630	630	574	telephone	1379	TELEPHONE	86
 Teit-1908-693-631	631	575	interpreter	3744	INTERPRETER	86
-Teit-1908-693-632	632	576	i	1209	I	86
+Teit-1908-693-632	632	576	I	1209	I	86
 Teit-1908-693-633	633	577	thou	1215	THOU	86
 Teit-1908-693-634	634	578	he she it	262	HE OR SHE OR IT	86
 Teit-1908-693-635	635	579	we	1212	WE	86
@@ -670,7 +670,7 @@ Teit-1908-693-668	668	612	where	1237	WHERE	90
 Teit-1908-693-669	669	613	why	1270	WHY	90
 Teit-1908-693-670	670	614	what	1236	WHAT	90
 Teit-1908-693-671	671	615	who	1235	WHO	90
-Teit-1908-693-672	672		plural			90
+Teit-1908-693-672	672		plural [who]			90
 Teit-1908-693-673	673	616	high	1265	HIGH	90
 Teit-1908-693-674	674	617	low	721	LOW	90
 Teit-1908-693-675	675	618	up	1591	UP	90
