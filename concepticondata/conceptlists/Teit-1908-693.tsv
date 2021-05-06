@@ -113,7 +113,7 @@ Teit-1908-693-111	111	95	front of body			48
 Teit-1908-693-112	112	96	chest	1592	CHEST	48
 Teit-1908-693-113	113	97	breast of woman	1402	BREAST	48
 Teit-1908-693-114	114	98	belly	1251	BELLY	48
-Teit-1908-693-115	115	99	belly (more inside)			48
+Teit-1908-693-115	115	99	belly (more inside)	1991	INTESTINES	48
 Teit-1908-693-116	116	100	arm	1673	ARM	48
 Teit-1908-693-117	117	101	elbow	981	ELBOW	48
 Teit-1908-693-118	118	102	wrist	799	WRIST	48
@@ -172,7 +172,7 @@ Teit-1908-693-170	170	152	feather headdress			52
 Teit-1908-693-171	171		feather bonnet			52
 Teit-1908-693-172	172	153	bunch of feathers on head or band			52
 Teit-1908-693-173	173	154	necklace	1961	NECKLACE	52
-Teit-1908-693-174	174		around throat			52
+Teit-1908-693-174	174		[necklace] around throat			52
 Teit-1908-693-175	175	155	neckerchief			52
 Teit-1908-693-176	176	156	handkerchief	1020	HANDKERCHIEF	52
 Teit-1908-693-177	177	157	dressed skin shirt			52
@@ -201,7 +201,7 @@ Teit-1908-693-199	199	177	awl (for sewing)	278	AWL	54
 Teit-1908-693-200	200	178	thimble			54
 Teit-1908-693-201	201	179	skin scraper			54
 Teit-1908-693-202	202	180	skin dresser			54
-Teit-1908-693-203	203		stone head			54
+Teit-1908-693-203	203		stone head [skin dresser]			54
 Teit-1908-693-204	204	181	chisel	1979	CHISEL	54
 Teit-1908-693-205	205	182	hammer of [chisel]			56
 Teit-1908-693-206	206	183	mortar	224	MORTAR	56
@@ -212,7 +212,7 @@ Teit-1908-693-210	210	187	knife	1352	KNIFE	56
 Teit-1908-693-211	211	188	knife-handle			56
 Teit-1908-693-212	212	189	cup	476	CUP	56
 Teit-1908-693-213	213	190	plate	480	PLATE	56
-Teit-1908-693-214	214		mat			56
+Teit-1908-693-214	214		[plate] mat			56
 Teit-1908-693-215	215	191	spoon	1378	SPOON	56
 Teit-1908-693-216	216	192	soup	1547	SOUP	56
 Teit-1908-693-217	217	193	pipe	1124	PIPE	56
@@ -243,7 +243,7 @@ Teit-1908-693-241	241	214	house	1252	HOUSE	58
 Teit-1908-693-242	242	215	town	1391	TOWN	58
 Teit-1908-693-243	243	216	earth lodge			58
 Teit-1908-693-244	244	217	mat lodge			58
-Teit-1908-693-245	245		conical			58
+Teit-1908-693-245	245		conical [mat lodge]			58
 Teit-1908-693-246	246	218	bark lodge			58
 Teit-1908-693-247	247	219	skin lodge			58
 Teit-1908-693-248	248	220	door (in general)	1567	DOOR	58
@@ -257,7 +257,7 @@ Teit-1908-693-255	255	228	hot water bath			60
 Teit-1908-693-256	256	229	fire	221	FIRE	60
 Teit-1908-693-257	257	230	ashes	646	ASH	60
 Teit-1908-693-258	258	231	smoke	778	SMOKE (EXHAUST)	60
-Teit-1908-693-259	259	232	snoot	1221	NOSE	60
+Teit-1908-693-259	259	232	snoot			60
 Teit-1908-693-260	260	233	firewood	10	FIREWOOD	60
 Teit-1908-693-261	261	234	charcoal	1188	CHARCOAL	60
 Teit-1908-693-262	262	235	wrist guard			60
@@ -276,7 +276,7 @@ Teit-1908-693-274	274		stoneheaded club			60
 Teit-1908-693-275	275		stone head movable			60
 Teit-1908-693-276	276	245	war spear	945	SPEAR	60
 Teit-1908-693-277	277	246	fish spear two prong			62
-Teit-1908-693-278	278		handle [of fish spear]	1254	HANDLE	62
+Teit-1908-693-278	278		handle [of fish spear]			62
 Teit-1908-693-279	279		three prong [fish spear]			62
 Teit-1908-693-280	280		handle and all [fish spear]			62
 Teit-1908-693-281	281	247	fish hook	1074	FISHHOOK	62
@@ -310,7 +310,7 @@ Teit-1908-693-308	308	271	[buffalo] bull			64
 Teit-1908-693-309	309	272	[buffalo] cow			64
 Teit-1908-693-310	310	273	[buffalo] calf			64
 Teit-1908-693-311	311	274	grisly bear	3738	GRIZZLY BEAR	64
-Teit-1908-693-312	312	275	blk bear			64
+Teit-1908-693-312	312	275	blk bear	3611	AMERICAN BLACK BEAR	64
 Teit-1908-693-313	313	276	beaver	1194	BEAVER	64
 Teit-1908-693-314	314	277	badger	3717	BADGER	64
 Teit-1908-693-315	315	278	chipmunk			64
@@ -403,7 +403,7 @@ Teit-1908-693-401	401	350	ruffed grouse			70
 Teit-1908-693-402	402	351	buzzard	1865	BUZZARD	70
 Teit-1908-693-403	403	352	chicken	1318	CHICKEN	70
 Teit-1908-693-404	404	353	egg	744	EGG	70
-Teit-1908-693-405	405	354	shell of egg	598	SHELL	70
+Teit-1908-693-405	405	354	shell of egg			70
 Teit-1908-693-406	406	355	feather	1201	FEATHER	70
 Teit-1908-693-407	407	356	wing	1257	WING	70
 Teit-1908-693-408	408	357	bird	937	BIRD	70
