@@ -2699,7 +2699,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2698	BROTHER-IN-LAW (HUSBAND'S OLDER BROTHER)	Kinship	Husband of one's older brother.	Person/Thing	
 2699	BROTHER-IN-LAW (HUSBAND'S YOUNGER BROTHER)	Kinship	Husband of one's younger brother.	Person/Thing	
 2700	SISTER-IN-LAW (HUSBAND'S OLDER SISTER)	Kinship	Husband of one's older sister.	Person/Thing	
-2701	SISTER-IN-LAW (HUSBANDS YOUNGER SISTER)	Kinship	Husband of one's younger sister.	Person/Thing	
+2701	SISTER-IN-LAW (HUSBAND'S YOUNGER SISTER)	Kinship	Husband of one's younger sister.	Person/Thing	
 2702	GRANDSON (SON'S SON)	Kinship	Son of one's son.	Person/Thing	
 2703	GRANDCHILD (DAUGHTER'S OFFSPRING)	Kinship	Offspring of one's daughter.	Person/Thing	
 2704	FADE (LOOSE COLOR)	Basic actions and technology	Loose color (of cloth or other material).	Action/Process	
@@ -3888,3 +3888,9 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3902	TRUST (SOMEBODY)	Social and political relations	To have great confidence in someone that he or she is sincere, honest, and will not deliberately inflict any harm. 	Action/Process	
 3903	SYMPATHIZE	Social and political relations	To show understanding for somebody's problems or hurt feelings.	Action/Process	
 3904	ENCOUNTER (MEET)	Social and political relations	To meet someone or discover something, usually unexpectedly.	Action/Process	
+3905	FATHER (OF A WOMAN)	Kinship	A male parent of a woman.	Person/Thing	
+3906	FATHER (OF A MAN)	Kinship	A male parent of a man.	Person/Thing	
+3907	MOTHER (OF A WOMAN)	Kinship	A female parent of a woman.	Person/Thing	
+3908	MOTHER (OF A MAN)	Kinship	A female parent of a man.	Person/Thing	
+3909	GRANDCHILD (SON'S OFFSPRING)	Kinship	Offspring of one's son.	Person/Thing	
+3910	STEPCHILD	Kinship	The child of one's spouse and his or her previous partner.	Person/Thing	
