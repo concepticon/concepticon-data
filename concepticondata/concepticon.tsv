@@ -1095,7 +1095,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1094	FASTEN	Basic actions and technology	Tighten and close, for example a belt.	Action/Process	
 1095	LET GO OR SET FREE	Possession	To give freedom; to stop holding; to release from confinement or restraint.	Action/Process	
 1096	SONG	Modern world	"A musical piece with lyrics (or ""words to sing""); prose that one can sing."	Person/Thing	
-1097	ABANDON	Motion	To give up control of, to surrender something.	Person/Thing	
+1097	ABANDON	Motion	To give up control of, to surrender something.	Action/Process	
 1098	WEIGH	Possession	To determine the weight of an object.	Action/Process	
 1099	RESIDE	The house	To have permanent residence.	Action/Process	363
 1100	COOK (SOMETHING)	Food and drink	To prepare a meal or a single dish.	Action/Process	
@@ -2425,7 +2425,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2424	MEMBER	Modern world	A person who belongs to any organized or non-organized group of people.	Person/Thing	
 2425	PROBLEM	Modern world	Something that poses difficulties and requires to be solved in someway.	Person/Thing	
 2426	CLIMATE	The physical world	Climate is the long-term pattern of weather in a particular area.	Person/Thing	
-2427	FUTURE		The future is what will happen in the time after the present.	Person/Thing	
+2427	FUTURE	Time	The future is what will happen in the time after the present.	Person/Thing	
 2428	LIBRARY	Modern world	A library is a collection of sources of information and similar resources, made accessible to a defined community for reference or borrowing.	Person/Thing	
 2429	LOGIC	Modern world	Logic (from the Ancient Greek: λογική, logike) is the branch of philosophy concerned with the use and study of valid reasoning. The study of logic also features prominently in mathematics and computer science.	Person/Thing	
 2430	OFFICE	Modern world	An office is generally a room or other area where administrative work is done.	Person/Thing	
@@ -2463,7 +2463,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2462	WINNOWING	Basic actions and technology	Wind winnowing is an agricultural method developed by ancient cultures for separating grain from chaff.	Action/Process	
 2463	MOON OR MONTH	The physical world	Either the moon as the object or the time period.	Person/Thing	
 2464	LAY EGGS	Basic actions and technology	The process by which birds produce eggs.	Action/Process	
-2465	DISGUST	Basic actions and technology	The feeling that one gets when seeing something rotten.	Person/Thing	
+2465	DISGUST	Emotions and values	The feeling that one gets when seeing something rotten.	Person/Thing	
 2466	WEIGHT	Sense perception	The amount a thing weighs.	Person/Thing	
 2467	GAME	Social and political relations	A game is structured form of play, usually undertaken for enjoyment and sometimes used as an educational tool.	Person/Thing	
 2468	BAG	Basic actions and technology	A container that stores things and is small enough so that one can wear it.	Person/Thing	
@@ -2756,11 +2756,11 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2756	IDLE	Time	The state of not being occupied with anything.	Person/Thing	
 2757	ANGULAR (SQUAREFORMED)	Spatial relations	Having the form of a square.	Person/Thing	
 2758	CAREFUL	Basic actions and technology	Be cautious.	Property	
-2759	RECOMMEND	Basic actions and technology	To suggest something or somebody.	Person/Thing	
+2759	RECOMMEND	Basic actions and technology	To suggest something or somebody.	Action/Process	
 2760	MAKE A JOKE	Speech and language	To say something which is not meant seriously.	Action/Process	
 2761	BEND (ONESELF)	Basic actions and technology	To turn oneself over.	Action/Process	
-2762	BLOCK (THE WAY)	Basic actions and technology	To prevent somebody or something from passing.	Person/Thing	
-2763	CARRY HORIZONTALLY	Basic actions and technology	To carry some object horizontally.	Person/Thing	
+2762	BLOCK (THE WAY)	Basic actions and technology	To prevent somebody or something from passing.	Action/Process	
+2763	CARRY HORIZONTALLY	Basic actions and technology	To carry some object horizontally.	Action/Process	
 2764	CHICKEN NEST	Animals	The nest of a chicken.	Person/Thing	
 2765	CHERRY	Food and drink	Fruit of the Cherry tree.	Person/Thing	
 2766	WATERMELON	Food and drink	A large, sprawling annual plant with coarse, hairy pinnately-lobed leaves and white to yellow flowers.	Person/Thing	
@@ -2790,7 +2790,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2793	NEXT MONTH	Time	The month after this month.	Person/Thing	
 2794	FIELD (UPLAND)	Agriculture and vegetation	A dry field rather than a flooded paddy field.	Person/Thing	
 2795	MOSQUITO NET	Basic actions and technology	A web that keeps mosquitos away.	Person/Thing	
-2796	FISHING (WITH A HOOK)	Basic actions and technology	To hunt for fish, using a hook on a line to catch them.	Person/Thing	
+2796	FISHING (WITH A HOOK)	Warfare and hunting	To hunt for fish, using a hook on a line to catch them.	Action/Process	
 2797	SESAME	Agriculture and vegetation	A flowering plant in the genus Sesamum.	Person/Thing	
 2798	RIVER OR WATER	The physical world	Common liquid (H₂O) which forms rain, rivers, the sea, etc, or a stream of this liquid flowing in a channel.	Person/Thing	
 2799	LANGUAGE OR WORD	Speech and language	A system of communication using the spoken or signed word or using symbols that represent words, signs or sounds or a distinct unit of language (sounds in speech or written letters) with a particular meaning, composed of one or more morphemes, and also of one or more phonemes that determine its sound pattern.	Person/Thing	
@@ -2809,7 +2809,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2812	CRAB CLAW	Animals	Curved pointed appendage of crabs.	Person/Thing	
 2813	CRAYFISH (FRESHWATER)	Animals	Freshwater crustaceans resembling small lobsters.	Person/Thing	467
 2814	CUTTLEFISH	Animals	Marine animals with unique internal shell.	Person/Thing	
-2815	DIALECT	Basic actions and technology	A variety of a language that is characteristic of a particular group.	Person/Thing	
+2815	DIALECT	Speech and language	A variety of a language that is characteristic of a particular group.	Person/Thing	
 2816	ECHO	Sense perception	Reflection of sound.	Person/Thing	
 2817	EMU	Animals	Second-largest living bird by height.	Person/Thing	
 2818	FORD (CROSSING)	The physical world	A shallow place on a river which may be crossed by wading.	Person/Thing	
@@ -2820,7 +2820,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2823	KANGAROO SKIN	Animals	The skin of a kangaroo.	Person/Thing	
 2824	KNUCKLE	The body	Joints of the fingers brought to prominence when hand is clenched.	Person/Thing	
 2825	LEFT HANDED	Basic actions and technology	Preference of using the left hand.	Property	
-2826	LIE (FALSEHOOD)	Basic actions and technology	Intentionally false statement for the purpose of deception.	Person/Thing	
+2826	LIE (FALSEHOOD)	Emotions and values	Intentionally false statement for the purpose of deception.	Person/Thing	
 2827	MENSTRUATE	Basic actions and technology	Regular natural change in female reproductive system that makes pregnancy possible.	Action/Process	
 2828	MOTH	Animals	Group of insects related to butterflies.	Person/Thing	
 2829	MUSSELS	Animals	Bivalve moluscs with an elongated and asymmetric shell.	Person/Thing	
@@ -2926,7 +2926,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2930	BOSS	Modern world	A boss is a person in charge, or a supervisor.	Person/Thing	
 2931	BUSINESS	Modern world	A business is an organizational entity involved in the provision of goods and services to consumers.	Person/Thing	
 2932	COLD (CHILL)	Sense perception	Cold is the presence of low temperature, especially in the atmosphere.	Person/Thing	
-2933	CONVERSATION	Basic actions and technology	Conversation is interactive, communication between two or more people.	Person/Thing	
+2933	CONVERSATION	Speech and language	Conversation is interactive, communication between two or more people.	Person/Thing	
 2934	CUCKOO	Animals	The cuckoos are a family of birds, Cuculidae, the sole taxon in the order Cuculiformes.	Person/Thing	
 2935	CURRENT (STREAM)	The physical world	A current, in a river or stream, is the flow of water influenced by gravity as the water moves downhill to reduce its potential energy.	Person/Thing	
 2936	ELEVATION	The physical world	The elevation of a geographic location is its height above or below a fixed reference point, most commonly a reference geoid, a mathematical model of the Earth's sea level as an equipotential gravitational surface (see Geodetic system, vertical datum).	Person/Thing	
@@ -2954,7 +2954,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2958	LAUGHTER	Emotions and values	Laughter is a physical reaction in humans and some other species of primate, consisting typically of rhythmical, often audible contractions of the diaphragm and other parts of the respiratory system.	Person/Thing	
 2959	LEASH	Basic actions and technology	A leash is a rope or similar material attached to the neck or head of an animal for restraint or control.	Person/Thing	
 2960	LONGING (WISH)	Emotions and values	The strong desire for something.	Person/Thing	
-2961	MESSAGE	Basic actions and technology	A message is a discrete unit of communication intended by the source for consumption by some recipient or group of recipients.	Person/Thing	
+2961	MESSAGE	Speech and language	A message is a discrete unit of communication intended by the source for consumption by some recipient or group of recipients.	Person/Thing	
 2962	MOORLAND	The physical world	Moorland or moor is a type of habitat found in upland areas in temperate grasslands, savannas, and shrublands and montane grasslands and shrublands biomes, characterised by low-growing vegetation on acidic soils.	Person/Thing	
 2963	NET	Basic actions and technology	A grid-like device or object.	Person/Thing	
 2964	NEWS	Basic actions and technology	News is information about current events.	Person/Thing	
@@ -3144,7 +3144,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3148	MEERKAT	Animals	Southern African animal known for its long tail and often seen standing up on its back legs.	Person/Thing	
 3149	ARMLET	Clothing and grooming	A band or bracelet worn round the upper part of a person's arm.	Person/Thing	
 3150	BOX OR CHEST	Modern world	Either a generic manmade object with space in it that is used to keep and store many various different objects, or a strong box with a lid on top.	Property	
-3151	CUT (WITH AXE)	Basic actions and technology	To chop with an axe, e.g. wood in order to use it as firewood.	Person/Thing	
+3151	CUT (WITH AXE)	Basic actions and technology	To chop with an axe, e.g. wood in order to use it as firewood.	Action/Process	
 3152	MUNTJACS	Animals	Also known as barking deer, a kind of small deer of the genus Muntiacus.	Person/Thing	
 3153	LORD	Social and political relations	A man of noble rank or high office; a nobleman.	Person/Thing	
 3154	WILD BOAR	Animals	Also known as wild pig, an undomestic four-legged animal (Sus scrofa) living in the wild.	Person/Thing	
@@ -3229,7 +3229,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3243	CYPRESS	Agriculture and vegetation	A common name for various coniferous trees or shrubs of northern temperate regions that belong to the family Cupressaceae.	Person/Thing	
 3244	EAR (OF GRAIN)	Agriculture and vegetation	The upper part of grain plants.	Person/Thing	
 3245	FROG (SMALL)	Animals	A small kind of frog (as opposed to big ones).	Person/Thing	
-3246	FRUIT (CLASSIFIER)	Food and drink	The measure word used for typical fruits.	Person/Thing	
+3246	FRUIT (CLASSIFIER)	Quantity	The measure word used for typical fruits.	Classifier	
 3247	KIWIFRUIT	Agriculture and vegetation	Edible berry of several species of woody vines in the genus Actinidia.	Person/Thing	
 3248	MAPLE TREE	Agriculture and vegetation	A group of trees belonging to the genus acer.	Person/Thing	
 3249	MATERNAL UNCLE (MOTHER'S OLDER BROTHER)	Kinship	Older brother of ego's mother.	Person/Thing	
@@ -3411,7 +3411,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3425	JOKE	Speech and language	Something that is said or done in a non-serious, comic way.	Person/Thing	
 3426	SURNAME	Kinship	The family name of a person.	Person/Thing	
 3427	DIRECTION	Spatial relations	A determined trajectory of movement.	Person/Thing	
-3428	WEAR (ON HEAD)	Clothing and grooming	Wear an object for shelter on the head.	Person/Thing	
+3428	WEAR (ON HEAD)	Clothing and grooming	Wear an object for shelter on the head.	Action/Process	
 3429	COMPARE	Basic actions and technology	To estimate something in terms of similar or contrasting features as opposed to the other(s).	Action/Process	
 3430	CELEBRATE NEW YEAR	Social and political relations	To take part in festivities on the occasion of the beginning of a new calendar year.	Action/Process	
 3431	RICE STEAMER	Food and drink	A device to steam rice.	Person/Thing	
