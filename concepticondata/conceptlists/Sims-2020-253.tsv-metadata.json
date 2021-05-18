@@ -44,7 +44,8 @@
                     },
                     {
                         "datatype": "string", 
-                        "name": "VARIANTS"
+                        "name": "LEXIBANK_GLOSS",
+                        "separator": "//"
                     }					
                 ], 
                 "primaryKey": [
