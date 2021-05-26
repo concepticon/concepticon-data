@@ -1,0 +1,97 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw", 
+        {
+            "@language": "en"
+        }
+    ], 
+    "dialect": {
+        "delimiter": "\t", 
+        "skipBlankRows": true
+    }, 
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string", 
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        }, 
+                        "name": "ID"
+                    }, 
+                    {
+                        "datatype": {
+                            "base": "string", 
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        }, 
+                        "name": "NUMBER"
+                    }, 
+                    {
+                        "datatype": {
+                            "base": "integer", 
+                            "minimum": 1
+                        }, 
+                        "name": "CONCEPTICON_ID"
+                    }, 
+                    {
+                        "datatype": "string", 
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": "string", 
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string", 
+                        "name": "TURKISH"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "AOA_MEAN"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "AOA_MEAN_CHILDREN"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "AOA_MEAN_YOUNG"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "AOA_MEAN_MIDDLE"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "AOA_MEAN_OLD"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "MEAN_IMAGEABILITY"
+                    },
+                    {
+                        "datatype": "float", 
+                        "name": "MEAN_CONCRETENESS"
+                    },
+                    {
+                        "datatype": "integer", 
+                        "name": "FREQUENCY"
+                    },
+                    {
+                        "datatype": "integer", 
+                        "name": "NUMBER_SYLLABLES"
+                    },
+                    {
+                        "datatype": "integer", 
+                        "name": "NUMBER_LETTERS"
+                    }
+                ], 
+                "primaryKey": [
+                    "ID"
+                ]
+            }, 
+            "url": "Goz-2017-600.tsv"
+        }
+    ]
+}
