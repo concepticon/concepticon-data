@@ -77,7 +77,7 @@ Miklashevsky-2018-506-75	75	гнев	gnev	anger	Sense_Emotion	abstract	4	m	1.5	2
 Miklashevsky-2018-506-76	76	голова	golova	head	Body_Part	concrete	6	f	2.9	4.72	2.48	2.24	1.38	5.21	6.7	3.48	4.44	3	6.21	1256	HEAD
 Miklashevsky-2018-506-77	77	голубь	golub	pigeon	Animal	concrete	6	m	1.2	5.55	3.29	2.27	1.81	3.58	6.76	2.3	5.55	3.93	4.81	1853	DOVE
 Miklashevsky-2018-506-78	78	гора	gora	mountain	Ground	concrete	4	f	2.1	4.48	1.62	2.64	1.73	3.07	6.66	2.14	5.12	4.03	3.28	639	MOUNTAIN
-Miklashevsky-2018-506-79	79	гордость	gordost	pride	Sense_Emotion	abstract	8	f	1.6	3.39	1.93	1.3	1.41	1.62	3.96	2.07	5.03	8.07	4.96		
+Miklashevsky-2018-506-79	79	гордость	gordost	pride	Sense_Emotion	abstract	8	f	1.6	3.39	1.93	1.3	1.41	1.62	3.96	2.07	5.03	8.07	4.96	3915	PRIDE
 Miklashevsky-2018-506-80	80	горе	gore	grief	Sense_Emotion	abstract	4	n	1.7	2.4	3.54	1.58	2	1.67	3.34	1.89	3.5	6.62	4.17	1668	GRIEF
 Miklashevsky-2018-506-81	81	горилла	gorilla	gorilla	Animal	concrete	7	f	0.4	4.21	4.76	2.86	1.69	2.83	6.52	2.34	3.91	5.15	2.14	3144	GORILLA
 Miklashevsky-2018-506-82	82	горох	goroh	pea	Food	concrete	5	m	0.9	3.83	2	3.79	5.66	4.72	6.7	4.03	2.31	4.11	3.57	2025	PEA
@@ -433,7 +433,7 @@ Miklashevsky-2018-506-431	431	угольник	ugolnik	set square	Tool_precise_g
 Miklashevsky-2018-506-432	432	удар	udar	blow	Action	abstract	4	m	2.2	3.38	4.89	1.9	1.82	5.32	5.25	5.81	3.47	4.07	5.03		
 Miklashevsky-2018-506-433	433	ударение	udarenie	emphasis	Sound	concrete	8	n	0.8	2.48	4.68	1.24	1.07	1.79	3.16	2	3.19	6.78	5		
 Miklashevsky-2018-506-434	434	удивление	udivlenie	surprise	Sense_Emotion	abstract	9	n	1.8	3.47	2.57	1.96	2.32	1.89	4.42	2.48	4.68	5.5	5.43	3848	SURPRISE (FEELING)
-Miklashevsky-2018-506-435	435	удовольствие	udovolstvie	pleasure	Sense_Emotion	abstract	12	n	2.1	2.94	2.22	3.17	4.05	3.68	4.79	2.65	5.03	6.33	5.97		
+Miklashevsky-2018-506-435	435	удовольствие	udovolstvie	pleasure	Sense_Emotion	abstract	12	n	2.1	2.94	2.22	3.17	4.05	3.68	4.79	2.65	5.03	6.33	5.97	3916	PLEASURE
 Miklashevsky-2018-506-436	436	укроп	ukrop	dill	Food	concrete	5	m	0.7	3.45	1.48	5.46	5.38	4.45	6.89	4.93	1.84	4.52	4.11		
 Miklashevsky-2018-506-437	437	умение	umenie	skill	Intelligence	abstract	6	n	1.6	2.53	2.41	1.4	1.57	2.21	3.9	4.74	4.59	6.78	5.66		
 Miklashevsky-2018-506-438	438	уныние	unyinie	despondency	Sense_Emotion	abstract	6	n	0.8	2.52	2.13	1.62	1.76	1.21	3.14	1.9	3.18	8.07	4.17		
