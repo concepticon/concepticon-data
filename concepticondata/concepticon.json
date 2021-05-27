@@ -303,6 +303,26 @@
              "esto1258",
              "et"
         ],
+        "AZERBAIJANI": [
+             "languoid",
+             "cent2356",
+             "az"
+        ],
+        "GEORGIAN": [
+             "languoid",
+             "nucl1302",
+             "ka"
+        ],
+        "NORWEGIAN": [
+             "languoid",
+             "norw1258",
+             "no"
+        ],
+        "UKRAINIAN": [
+             "languoid",
+             "ukra1253",
+             "uk"
+        ],
         "FREQUENCY": "decimal",
         "RANK": "integer",
         "*SCORE": "decimal"
