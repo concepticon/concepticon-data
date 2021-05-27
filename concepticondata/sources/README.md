@@ -59,6 +59,7 @@
 - [Holman2008 [PDF 41.1KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-2ADD-93A3-8905-0/Holman2008.pdf)
 - [Hooley1971 [PDF 48.3KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-7BC8-E384-7C5B-0/Hooley1971.pdf)
 - [Huber1992 [PDF 224.0KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-78F1-75A6-501A-0/Huber1992.pdf)
+- [Huttenlocher1979 [PDF 249.1KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-B51E-8970-9B48-0/Huttenlocher1979.pdf)
 - [Hymes1960 [PDF 381.0KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-40CE-AC89-9B73-0/Hymes1960.pdf)
 - [Janhunan2008 [PDF 1.7MB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-062A-6A8E-0CAD-0/Janhunan2008.pdf)
 - [Johansson2020a [PDF 56.6KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-4A56-AB35-C03A-0/Johansson2020.pdf)
