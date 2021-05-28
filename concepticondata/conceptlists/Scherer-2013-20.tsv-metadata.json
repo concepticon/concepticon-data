@@ -31,7 +31,7 @@
                     {
                         "datatype": {
                             "base": "integer",
-                            "minimum": 1
+                            "minimum": "1"
                         },
                         "name": "CONCEPTICON_ID"
                     },
@@ -42,18 +42,13 @@
                     {
                         "datatype": "string",
                         "name": "ENGLISH"
-                    },
-                    {
-                        "datatype": "string",
-                        "separator": "//",
-                        "name": "LEXIBANK_GLOSS"
                     }
                 ],
                 "primaryKey": [
                     "ID"
                 ]
             },
-            "url": "Kleinewillinghoefer-2015-119.tsv"
+            "url": "Scherer-2013-20.tsv"
         }
     ]
 }
