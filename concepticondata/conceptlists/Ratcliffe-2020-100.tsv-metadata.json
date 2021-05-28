@@ -39,6 +39,11 @@
                         "datatype": "string",
                         "name": "CONCEPTICON_GLOSS"
                     },
+		    {
+                        "datatype": "string",
+                        "separator": "//",
+                        "name": "LEXIBANK_GLOSS"
+                    },
                     {
                         "datatype": "string",
                         "name": "ENGLISH"
