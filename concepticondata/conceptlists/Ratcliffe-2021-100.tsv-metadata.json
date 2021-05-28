@@ -41,6 +41,11 @@
                     },
                     {
                         "datatype": "string",
+                        "separator": "//",
+                        "name": "LEXIBANK_GLOSS"
+                    },
+                    {
+                        "datatype": "string",
                         "name": "ENGLISH"
                     }
                 ],
@@ -48,7 +53,7 @@
                     "ID"
                 ]
             },
-            "url": "Ratcliffe-2020-100.tsv"
+            "url": "Ratcliffe-2021-100.tsv"
         }
     ]
 }
