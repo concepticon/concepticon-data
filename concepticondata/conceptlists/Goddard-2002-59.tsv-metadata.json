@@ -31,7 +31,7 @@
                     {
                         "datatype": {
                             "base": "integer",
-                            "minimum": 1
+                            "minimum": "1"
                         },
                         "name": "CONCEPTICON_ID"
                     },
@@ -42,13 +42,17 @@
                     {
                         "datatype": "string",
                         "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SEMANTIC_CATEGORY"
                     }
                 ],
                 "primaryKey": [
                     "ID"
                 ]
             },
-            "url": "Ratcliffe-2020-100.tsv"
+            "url": "Goddard-2002-59.tsv"
         }
     ]
 }
