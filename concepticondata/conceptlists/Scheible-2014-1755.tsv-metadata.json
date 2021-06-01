@@ -41,7 +41,11 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "ENGLISH"
+                        "name": "GLOSS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "GERMAN"
                     },
                     {
                         "datatype": "string",
@@ -64,41 +68,21 @@
                         "name": "LINKS"
                     },
                     {
-                        "separator": " ",
                         "datatype": "string",
-                        "name": "POLYSEMY_CLASS"
-                    },
-                    {
                         "separator": " ",
-                        "datatype": "string",
-                        "name": "FREQUENCY_CLASS"
-                    },
-                    {
-                        "separator": " ",
-                        "datatype": "string",
-                        "name": "DEGREE_CLASS"
-                    },
-                    {
-                        "separator": " ",
-                        "datatype": "string",
                         "name": "RELATION_TYPE"
                     },
                     {
-                        "separator": " ",
                         "datatype": "float",
-                        "name": "FORWARD_SCORES"
-                    },
-                    {
                         "separator": " ",
-                        "datatype": "float",
-                        "name": "BACKWARD_SCORES"
+                        "name": "SCORES"
                     }
                 ],
                 "primaryKey": [
                     "ID"
                 ]
             },
-            "url": "Scheible-2014-772b.tsv"
+            "url": "Scheible-2014-1755.tsv"
         }
     ]
 }
