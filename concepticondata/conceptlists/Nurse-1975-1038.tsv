@@ -1,10 +1,10 @@
 NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 1	Nurse-1975-1038-1	be, become	v.	be, become//become, be	(ku)wa	1990	BECOME
 2	Nurse-1975-1038-2	itch	v.	itch	(ku)wawa	148	ITCH
-3	Nurse-1975-1038-3	singe	v.	singe	(ku)unguza		
+3	Nurse-1975-1038-3	singe	v.	singe	(ku)unguza	3698	SINGE
 4	Nurse-1975-1038-4	count	v.	count	(ku)hesabu	1420	COUNT
 5	Nurse-1975-1038-5	spot, speckle	n.	spot, speckle	waa	519	SPOT
-6	Nurse-1975-1038-6	raphia palm	n.	raphia palm	mwale	1181	PALM TREE
+6	Nurse-1975-1038-6	raphia palm	n.	raphia palm	mwale		
 7	Nurse-1975-1038-7	borassus palm	n.	borassus palm	mvumo		
 8	Nurse-1975-1038-8	oil palm	n.	oil palm	mchikichi		
 9	Nurse-1975-1038-9	date palm	n.	date palm	mtende		
@@ -14,7 +14,7 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 13	Nurse-1975-1038-13	plot of ground	n.	plot of ground	kiwanja		
 14	Nurse-1975-1038-14	courtyard	n.	courtyard	uwanja	4	COURTYARD
 15	Nurse-1975-1038-15	you (sg.)	n.	you (sg)//you (sg.)//you (sing.)	wewe	1215	THOU
-16	Nurse-1975-1038-16	in front of	n.	in front of	mbele		
+16	Nurse-1975-1038-16	in front of	n.	in front of	mbele	1883	IN FRONT OF
 17	Nurse-1975-1038-17	breast	n.	breast (ya mke)//breast	33//maziwa (ya mke)	1402	BREAST
 18	Nurse-1975-1038-18	udder	n.	udder	kiwele	154	UDDER
 19	Nurse-1975-1038-19	milk	n.	milk (kwa kunywa)//milk	maziwa (kwa kunywa)	635	MILK
@@ -26,29 +26,30 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 25	Nurse-1975-1038-25	(very large long-tailed rat)	n.	(very large long-tailed rat)	buku		
 26	Nurse-1975-1038-26	(kind of rat)	n.	(kind of rat)	ndezi		
 27	Nurse-1975-1038-27	bad	n.	bad	-baya//kibaya	1292	BAD
-28	Nurse-1975-1038-28	wicked	n.	wicked	-ovu		
+28	Nurse-1975-1038-28	wicked	n.	wicked	-ovu	45	EVIL
 29	Nurse-1975-1038-29	rotten	n.	rotten	-bovu	1728	ROTTEN
-30	Nurse-1975-1038-30	boil	v.	boil	(ku)chemsha		
-31	Nurse-1975-1038-31	call	v.	call	(ku)ita	715	SHOUT
-32	Nurse-1975-1038-32	chase (away)	v.	chase (away)//chase, chase away	(ku)winga	1435	HUNT
+30	Nurse-1975-1038-30	boil	v.	boil	(ku)chemsha	2493	BOIL
+31	Nurse-1975-1038-31	call	v.	call	(ku)ita		
+32	Nurse-1975-1038-32	chase (away)	v.	chase (away)//chase, chase away	(ku)winga		
 33	Nurse-1975-1038-33	hunt	v.	hunt	(ku)winda	1435	HUNT
 34	Nurse-1975-1038-34	(professional) hunter	n.	(professional) hunter	mwindaji	1053	HUNTER
-35	Nurse-1975-1038-35	hunting	n.	hunting	uwindo	1435	HUNT
+35	Nurse-1975-1038-35	hunting	n.	hunting	uwindo		
 36	Nurse-1975-1038-36	soot	n.	soot	33//masizi	830	SOOT
 37	Nurse-1975-1038-37	become bad, rotten	v.	become bad, rotten	(ku)oza	1728	ROTTEN
 38	Nurse-1975-1038-38	be high (of meat)	v.	be high (of meat)//be high (of meta)	(ku)vunda		
-39	Nurse-1975-1038-39	pot, mug	n.	pot, mug	mkebe	1462	POT
-40	Nurse-1975-1038-40	(earthen) cooking pot	n.	(earthen) cooking pot	chungu	1462	POT
+39	Nurse-1975-1038-39	pot, mug	n.	pot, mug	mkebe		
+40	Nurse-1975-1038-40	(earthen) cooking pot	n.	(earthen) cooking pot	chungu		
 41	Nurse-1975-1038-41	pot, vessel	n.	pot, vessel	chombo	1462	POT
 42	Nurse-1975-1038-42	metal pot	n.	metal pot	kopo		
 43	Nurse-1975-1038-43	small cooking pan	n.	pot//small cooking pan	kibia		
-44	Nurse-1975-1038-44	(earthenware vessel for servin	n.	(earthenware vessel for servin	bia	1462	POT
+44	Nurse-1975-1038-44	(earthenware vessel for servin	n.	(earthenware vessel for servin	bia		
 45	Nurse-1975-1038-45	excrement, dung	n.	excrement, dung//excreta	33//mavi	2057	DUNG (ANIMAL FAECES)
-46	Nurse-1975-1038-46	give birth to a child	v.	give birth to a child	(ku)zaa		
-47	Nurse-1975-1038-47	he who begets (=parent)	n.	he who begets (=parent)//he who begets (parent)	mzazi	505	PARENTS
+46	Nurse-1975-1038-46	give birth to a child	v.	give birth to a child	(ku)zaa	1195	GIVE BIRTH
+47	Nurse-1975-1038-47	he who begets (=parent)	n.	he who begets (=parent)//he who begets (parent)	mzazi		
 48	Nurse-1975-1038-48	offspring	n.	offspring	mzao	1801	CHILD (DESCENDANT)
 49	Nurse-1975-1038-49	dirt	n.	dirt	uchafu	25	DIRT
-50	Nurse-1975-1038-50	filth	n.	filth	taka	1230	DIRTY
+50	Nurse-1975-1038-50	filth	n.	filth	taka		
+50a	Nurse-1975-1038-50a	filth	n.	filth	takataka		
 51	Nurse-1975-1038-51	swell	n.	rubbish, garbage//swell	(ku)vimba	1573	SWELL
 52	Nurse-1975-1038-52	corpse	n.	corpse	mzoga	767	CORPSE
 53	Nurse-1975-1038-53	dance	v.	dance	(ku)cheza ngoma	1879	DANCE
@@ -64,30 +65,30 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 63	Nurse-1975-1038-63	goat	n.	goat	mbuzi	1502	GOAT
 64	Nurse-1975-1038-64	open space	n.	open space	uga		
 65	Nurse-1975-1038-65	mould (pottery)	v.	mould pottery//mould (pottery)	(ku)umba (vyungu)	289	MOLD
-66	Nurse-1975-1038-66	oil (from plants)	n.	oil (from plants)	uto		
+66	Nurse-1975-1038-66	oil (from plants)	n.	oil (from plants)	uto	2555	OIL (FROM PLANTS)
 67	Nurse-1975-1038-67	seed	n.	seed	mbegu	714	SEED
 68	Nurse-1975-1038-68	grain	n.	grain//grain (ya mtama)	punje (ya mtama)	605	GRAIN
 69	Nurse-1975-1038-69	soil	n.	soil	udongo	1228	EARTH (SOIL)
-70	Nurse-1975-1038-70	earth, land	n.	earth, land	ardhi	626	LAND
+70	Nurse-1975-1038-70	earth, land	n.	earth, land	ardhi	3603	EARTH OR LAND
 71	Nurse-1975-1038-71	buffalo	n.	buffalo (=mbogo)//buffalo	nyati (=mbogo)	934	BUFFALO
 72	Nurse-1975-1038-72	mix, put together	v.	mix, put together	(ku)changanya	2017	MIX
-73	Nurse-1975-1038-73	mix (ingredients)	v.	mix (ingredients, e.g. unga ch//mix//mix (ingredients)	(ku)unga (e.g. chakula)	2017	MIX
+73	Nurse-1975-1038-73	mix (ingredients)	v.	mix (ingredients, e.g. unga ch//mix//mix (ingredients)	(ku)unga (e.g. chakula)		
 74	Nurse-1975-1038-74	stir, mix by stirring	v.	stir, mix by stirring	(ku)vuruga	696	STIR
 75	Nurse-1975-1038-75	white hair	n.	white hair	mvi		
-76	Nurse-1975-1038-76	rain	n.	rain	mvua	2108	RAINING OR RAIN
+76	Nurse-1975-1038-76	rain	n.	rain	mvua	658	RAIN (PRECIPITATION)
 77	Nurse-1975-1038-77	break, snap	v.	break, snap	(ku)vunja	2558	BREAK (CLEAVE)
-78	Nurse-1975-1038-78	stir up	v.	stir up, stir up//stir up	(ku)vumbua, (ku)vumbilia	696	STIR
+78	Nurse-1975-1038-78	stir up	v.	stir up, stir up//stir up	(ku)vumbua, (ku)vumbilia		
 79	Nurse-1975-1038-79	crumple	v.	crumple	(ku)vungavunga		
 80	Nurse-1975-1038-80	bunch	n.	bunch (la nywele)//bunch	vunga (la nywele)	1966	BUNCH
 81	Nurse-1975-1038-81	wrap up	v.	wrap up	(ku)kunja		
 82	Nurse-1975-1038-82	spark	n.	spark	cheche	518	SPARK
 83	Nurse-1975-1038-83	choose	v.	choose	(ku)chagua	1750	CHOOSE
 84	Nurse-1975-1038-84	search for	v.	search for	(ku)tafuta	1468	LOOK FOR
-85	Nurse-1975-1038-85	search diligently	v.	search diligently	(ku)chakura	1468	LOOK FOR
+85	Nurse-1975-1038-85	search diligently	v.	search diligently	(ku)chakura		
 86	Nurse-1975-1038-86	thicket	n.	thicket	chaka		
 87	Nurse-1975-1038-87	bait	n.	bait	chambo	2013	BAIT
 88	Nurse-1975-1038-88	(brass) wire	n.	(brass) wire//wire	masango	2631	WIRE
-89	Nurse-1975-1038-89	assemble, collect	v.	assemble, collect//meet someone	(ku)changa	7	GATHER
+89	Nurse-1975-1038-89	assemble, collect	v.	assemble, collect//meet someone	(ku)changa		
 90	Nurse-1975-1038-90	meet	v.	meet	(ku)kuta	1831	MEET
 91	Nurse-1975-1038-91	be gathered, be assembled	v.	be gathered, be assembled	(ku)kusanyika		
 92	Nurse-1975-1038-92	become cheerful	v.	become cheerful	(ku)changamka		
@@ -99,25 +100,25 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 98	Nurse-1975-1038-98	cut, lop	v.	cut//cut, lop	(ku)chenga	1432	CUT
 99	Nurse-1975-1038-99	(dry) land	n.	(dry) land//ground	nchi (kavu)	626	LAND
 100	Nurse-1975-1038-100	(our) country	n.	country//(our) country	nchi (yetu)	1300	COUNTRY
-101	Nurse-1975-1038-101	below, underneath	n.	underneath//below, underneath	chini		
+101	Nurse-1975-1038-101	below, underneath	n.	underneath//below, underneath	chini	1485	BELOW OR UNDER
 102	Nurse-1975-1038-102	squirrel	n.	squirrel	kindi	1628	SQUIRREL
 103	Nurse-1975-1038-103	lion	n.	lion	simba	1386	LION
 104	Nurse-1975-1038-104	cat	n.	cat	paka	1208	CAT
 105	Nurse-1975-1038-105	half-wild tomcat	n.	half-wild tomcat//half-wild tomcat (also shume l	nunda (=shume la paka)		
-106	Nurse-1975-1038-106	cheetah	n.	cheetah	duma		
+106	Nurse-1975-1038-106	cheetah	n.	cheetah	duma	3146	CHEETAH
 107	Nurse-1975-1038-107	leopard	n.	leopard	chui	1139	LEOPARD
-108	Nurse-1975-1038-108	genet (=kind of speckled civet	n.	genet (kind of speckled civet//genet (=kind of speckled civet//genet	fungo	3018	NATIVE CAT
+108	Nurse-1975-1038-108	genet (=kind of speckled civet	n.	genet (kind of speckled civet//genet (=kind of speckled civet//genet	fungo		
 109	Nurse-1975-1038-109	civet cat	n.	civet cat//civet cat (also paka wa zabadi	ngawa (=paka wa zabadi)	3018	NATIVE CAT
 110	Nurse-1975-1038-110	rub	v.	rub	(ku)sugua	1449	RUB
-111	Nurse-1975-1038-111	polish	v.	polish	(ku)katua		
+111	Nurse-1975-1038-111	polish	v.	polish	(ku)katua	3659	POLISH (SOMETHING)
 112	Nurse-1975-1038-112	wipe	v.	wipe	(ku)futa	1454	WIPE
-113	Nurse-1975-1038-113	broth	n.	broth	mchuzi	1547	SOUP
+113	Nurse-1975-1038-113	broth	n.	broth	mchuzi		
 114	Nurse-1975-1038-114	poke	v.	poke in//poke	(ku)chocha		
 115	Nurse-1975-1038-115	thrust into	v.	poke in//thrust into	(ku)choma		
 116	Nurse-1975-1038-116	shame	n.	shame	soni	1776	SHAME
 117	Nurse-1975-1038-117	cut to shape, sharpen to a poi	v.	cut to shape, sharpen to a poi	(ku)chonga		
 118	Nurse-1975-1038-118	incite	v.	incite	(ku)chonjomoa		
-119	Nurse-1975-1038-119	tip, point	n.	tip, point//sharpen to a point	ncha	2669	POINT (WITH FINGER)
+119	Nurse-1975-1038-119	tip, point	n.	tip, point//sharpen to a point	ncha		
 120	Nurse-1975-1038-120	canine tooth, tooth filed to a	n.	point//canine tooth, tooth filed to a	chonge		
 121	Nurse-1975-1038-121	termite	n.	termite	mchwa	883	TERMITE
 122	Nurse-1975-1038-122	ant-hill	n.	ant-hill	chuguu	1873	ANTHILL
@@ -133,15 +134,15 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 132	Nurse-1975-1038-132	intestines	n.	intestines	matumbo	1991	INTESTINES
 133	Nurse-1975-1038-133	belly, stomach	n.	belly, stomach	tumbo		
 134	Nurse-1975-1038-134	lie down	v.	lie down	(ku)lala	215	LIE DOWN
-135	Nurse-1975-1038-135	have sexual intercourse with	v.	have sexual intercourse with	(ku)lala (na)		
+135	Nurse-1975-1038-135	have sexual intercourse with	v.	have sexual intercourse with	(ku)lala (na)		HAVE SEX
 136	Nurse-1975-1038-136	sleep	v.	sleep	(ku)lala usingizi	1585	SLEEP
 137	Nurse-1975-1038-137	spend time	v.	spend time	(ku)pisha (wakati)		
 138	Nurse-1975-1038-138	bridge	n.	bridge	daraja	1011	BRIDGE
 139	Nurse-1975-1038-139	bridge	n.	bridge//bridge (wa mbao)	ulalo (wa mbao)	1011	BRIDGE
 140	Nurse-1975-1038-140	stretch oneself	v.	stretch oneself	(ku)jinyosha	214	STRETCH
-141	Nurse-1975-1038-141	be spread out	v.	be spread out	(ku)enea(enea)	38	SPREAD OUT
+141	Nurse-1975-1038-141	be spread out	v.	be spread out	(ku)enea(enea)		
 142	Nurse-1975-1038-142	follow	v.	follow	(ku)fuata	1085	FOLLOW
-143	Nurse-1975-1038-143	follow (in order)	v.	follow (in order)	(ku)andama	1085	FOLLOW
+143	Nurse-1975-1038-143	follow (in order)	v.	follow (in order)	(ku)andama		
 144	Nurse-1975-1038-144	long	n.	long	-refu	1203	LONG
 145	Nurse-1975-1038-145	serpent, snake	n.	serpent, snake	nyoka	730	SNAKE
 146	Nurse-1975-1038-146	today	n.	today	leo	1283	TODAY
@@ -154,6 +155,7 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 153	Nurse-1975-1038-153	cripple	n.	cripple	kilema		
 154	Nurse-1975-1038-154	make straight	v.	make straight	(ku)nyosha		
 155	Nurse-1975-1038-155	increase	v.	increase	(ku)zidi	1041	INCREASE
+155a	Nurse-1975-1038-155a	increase	v.	increase	(ku)zidi urefu	1041	INCREASE
 156	Nurse-1975-1038-156	eat	v.	eat//become long	(ku)la	1336	EAT
 157	Nurse-1975-1038-157	righthand	n.	righthand	kulia	1019	RIGHT
 158	Nurse-1975-1038-158	snare, trap	n.	snare, trap	mtego	1075	TRAP (PITFALL)
@@ -174,21 +176,21 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 173	Nurse-1975-1038-173	pull up, come to a halt	v.	pull up, come to a halt	(ku)simama		
 174	Nurse-1975-1038-174	turn round	v.	turn round	(ku)zungua, (ku)zungusha	1445	TURN (SOMETHING)
 175	Nurse-1975-1038-175	white man	n.	white man	mzungu	2839	WHITE MAN
-176	Nurse-1975-1038-176	stop up, fill a hole	v.	stop up, fill a hole	(ku)ziba	2006	FILL
+176	Nurse-1975-1038-176	stop up, fill a hole	v.	stop up, fill a hole	(ku)ziba		
 177	Nurse-1975-1038-177	pool	n.	pool	kiziwa		
 178	Nurse-1975-1038-178	lake	n.	lake	ziwa	624	LAKE
 179	Nurse-1975-1038-179	bury	v.	bury	(ku)zika	1719	BURY
 180	Nurse-1975-1038-180	quench, extinguish	v.	quench, extinguish	(ku)zima	127	EXTINGUISH
 181	Nurse-1975-1038-181	get lost	v.	get lost	(ku)potea	423	GET LOST
-182	Nurse-1975-1038-182	spirit (of dead person)	n.	spirit (of dead person)	mzimu	53	SPIRIT
-183	Nurse-1975-1038-183	go round, turn round	v.	go round, turn round	(ku)zinga	1445	TURN (SOMETHING)
+182	Nurse-1975-1038-182	spirit (of dead person)	n.	spirit (of dead person)	mzimu		
+183	Nurse-1975-1038-183	go round, turn round	v.	go round, turn round	(ku)zinga		TURN AROUND
 184	Nurse-1975-1038-184	surround	v.	surround	(ku)zunguka		
 185	Nurse-1975-1038-185	twist	v.	twist	(ku)sokota	430	TWIST
-186	Nurse-1975-1038-186	bend, twist	v.	bend, twist	(ku)pinda	430	TWIST
+186	Nurse-1975-1038-186	bend, twist	v.	bend, twist	(ku)pinda		BEND
 187	Nurse-1975-1038-187	wind up (thread)	v.	wind up (thread)	(ku)kunja (uzi)		
-188	Nurse-1975-1038-188	close	v.	close	(ku)sinzia	2063	CLOSE (EYES)
+188	Nurse-1975-1038-188	close	v.	close	(ku)sinzia		CLOSE (MOUTH)
 189	Nurse-1975-1038-189	fish-hook	n.	fish-hook	ndoana	1074	FISHHOOK
-190	Nurse-1975-1038-190	fish	v.	fish	(ku)vua (samaki)	227	FISH
+190	Nurse-1975-1038-190	fish	v.	fish	(ku)vua (samaki)		FISHING
 191	Nurse-1975-1038-191	fish up, pull out	v.	fish up, pull out	(ku)opoa	2325	PULL OUT
 192	Nurse-1975-1038-192	whistling	n.	whistling	ubinja / uwinja	1025	WHISTLE
 193	Nurse-1975-1038-193	bewitch	v.	bewitch	(ku)loga	118	BEWITCH
@@ -198,7 +200,7 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 197	Nurse-1975-1038-197	rainy season	n.	rainy season	33//masika	453	RAINY SEASON
 198	Nurse-1975-1038-198	lip	n.	lip	mdomo	478	LIP
 199	Nurse-1975-1038-199	ask for	v.	ask for	(ku)omba	1828	ASK (REQUEST)
-200	Nurse-1975-1038-200	look for, hand around (to get	v.	look for, hand around (to get	(ku)londea	1468	LOOK FOR
+200	Nurse-1975-1038-200	look for, hand around (to get	v.	look for, hand around (to get	(ku)londea		
 201	Nurse-1975-1038-201	sore	n.	sore	kidonda	51	SORE
 202	Nurse-1975-1038-202	start off, send away	v.	start off, send away	(ku)ondoa		
 203	Nurse-1975-1038-203	arrange, put in order	v.	arrange, put in order	(ku)panga	1568	ARRANGE
@@ -213,11 +215,11 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 212	Nurse-1975-1038-212	groove, furrow	n.	groove, furrow	mfuo	1794	FURROW
 213	Nurse-1975-1038-213	line, row	n.	line, row	mstari	1048	LINE
 214	Nurse-1975-1038-214	being one-eyed	n.	being one-eyed	uchongo		
-215	Nurse-1975-1038-215	dream	v.	dream	(ku)ota (ndoto)	2374	DREAM
+215	Nurse-1975-1038-215	dream	v.	dream	(ku)ota (ndoto)		DREAM (SOMETHING)
 216	Nurse-1975-1038-216	fight	v.	fight	(ku)pigana	1423	FIGHT
 217	Nurse-1975-1038-217	overcome, win, vanquish	v.	overcome, win, vanquish//overcome; win, vanquish	(ku)shinda	1999	OVERCOME
 218	Nurse-1975-1038-218	kill	v.	kill	(ku)ua	1417	KILL
-219	Nurse-1975-1038-219	put to death	v.	put to death	(ku)fisha	1417	KILL
+219	Nurse-1975-1038-219	put to death	v.	put to death	(ku)fisha		
 220	Nurse-1975-1038-220	slaughter	v.	slaughter	(ku)chinja	1796	SLAUGHTER
 221	Nurse-1975-1038-221	bitter	n.	bitter	-chungu	887	BITTER
 222	Nurse-1975-1038-222	bile	n.	bile	nyongo	1780	BILE
@@ -226,8 +228,8 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 225	Nurse-1975-1038-225	plait	v.	plait	(ku)suka	1729	PLAIT OR BRAID OR WEAVE
 226	Nurse-1975-1038-226	male	n.	male	(d)ume	1553	MALE
 227	Nurse-1975-1038-227	husband	n.	husband	mume	1200	HUSBAND
-228	Nurse-1975-1038-228	store up, collect	v.	store up, collect	(ku)kusanya	7	GATHER
-229	Nurse-1975-1038-229	add up	v.	add up	(ku)jumlisha		
+228	Nurse-1975-1038-228	store up, collect	v.	store up, collect	(ku)kusanya		
+229	Nurse-1975-1038-229	add up	v.	add up	(ku)jumlisha		ADD
 230	Nurse-1975-1038-230	construct, put together	v.	construct, put together	(ku)unda		
 231	Nurse-1975-1038-231	become burnt	v.	become burnt	(ku)ungua	1428	BURNING
 232	Nurse-1975-1038-232	pass, surpass	v.	pass, surpass	(ku)pita	402	SURPASS
@@ -245,12 +247,12 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 244	Nurse-1975-1038-244	pull	v.	pull	(ku)vuta	1455	PULL
 245	Nurse-1975-1038-245	divide	v.	divide	(ku)gawa	1119	DIVIDE
 246	Nurse-1975-1038-246	give away (present)	v.	give away (present)	(ku)toa (zawadi)	196	DONATE
-247	Nurse-1975-1038-247	turn round, change	v.	turn round, change	(ku)geuka	1264	CHANGE
+247	Nurse-1975-1038-247	turn round, change	v.	turn round, change	(ku)geuka		
 248	Nurse-1975-1038-248	alter, change	v.	alter, change	(ku)badili	1264	CHANGE
-249	Nurse-1975-1038-249	go back, return	v.	go back, return	(ku)rejea	581	COME BACK
+249	Nurse-1975-1038-249	go back, return	v.	go back, return	(ku)rejea		RETURN HOME
 250	Nurse-1975-1038-250	lie on one's back	v.	lie on one's back	(ku)lala chali	1411	LIE (REST)
 251	Nurse-1975-1038-251	say to, tell to	v.	say to, tell to	(ku)ambia	1458	SAY
-252	Nurse-1975-1038-252	abuse	v.	abuse	(ku)amba	1953	ABUSE
+252	Nurse-1975-1038-252	abuse	v.	abuse	(ku)amba		
 253	Nurse-1975-1038-253	speak	v.	speak	(ku)sema	1623	SPEAK
 254	Nurse-1975-1038-254	affair	n.	affair	jambo	2214	AFFAIR
 255	Nurse-1975-1038-255	clan	n.	clan	ukoo	302	CLAN
@@ -268,20 +270,22 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 267	Nurse-1975-1038-267	tooth	n.	tooth	jino	1380	TOOTH
 268	Nurse-1975-1038-268	stranger, guest	n.	stranger, guest	mgeni	1782	GUEST
 269	Nurse-1975-1038-269	go	n.	go	(kw)enda		
+269a	Nurse-1975-1038-269a	walk	n.	walk	(kw)enda kwa miguu		
 270	Nurse-1975-1038-270	travel	n.	travel//walk	(ku)safiri	1443	WALK
 271	Nurse-1975-1038-271	journey	n.	journey	665//safari	2393	JOURNEY
 272	Nurse-1975-1038-272	movement	n.	movement	665//mwendo		
 273	Nurse-1975-1038-273	egg	n.	egg	yai	744	EGG
-274	Nurse-1975-1038-274	act	v.	act	(ku)tenda	813	DO
+274	Nurse-1975-1038-274	act	v.	act	(ku)tenda		
 275	Nurse-1975-1038-275	imitate	v.	imitate	(ku)iga / (ku)igiza	117	IMITATE
 276	Nurse-1975-1038-276	village	n.	village	kijiji	930	VILLAGE
 277	Nurse-1975-1038-277	town	n.	town	mji	1391	TOWN
 278	Nurse-1975-1038-278	fly	n.	fly	inzi		
 279	Nurse-1975-1038-279	withhold from	v.	withhold from//withold from	(ku)nyima		
+279a	Nurse-1975-1038-279a	abstain	v.	abstain	(ku)jinyima		
 280	Nurse-1975-1038-280	fireplace, hearth, kitchen	v.	abstain//fireplace, hearth, kitchen	jiko	185	FIREPLACE
 281	Nurse-1975-1038-281	name	n.	name	jina	1405	NAME
 282	Nurse-1975-1038-282	string	n.	string	uzi	362	STRING
-283	Nurse-1975-1038-283	copy a pattern	v.	copy a pattern	(ku)oleza	117	IMITATE
+283	Nurse-1975-1038-283	copy a pattern	v.	copy a pattern	(ku)oleza		
 284	Nurse-1975-1038-284	drum	n.	drum	ngoma	908	DRUM
 285	Nurse-1975-1038-285	cow	n.	cow	ng'ombe	1007	COW
 286	Nurse-1975-1038-286	cattle	n.	cattle	mifugo	1153	CATTLE
@@ -291,20 +295,22 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 290	Nurse-1975-1038-290	millipede	n.	millipede	jongoo		
 291	Nurse-1975-1038-291	rooster (=cock)	n.	rooster (cock)//rooster (=cock)	jogoo	1511	ROOSTER
 292	Nurse-1975-1038-292	donkey	n.	donkey	punda	1862	DONKEY
+292a	Nurse-1975-1038-292a	zebra	n.	zebra	punda milia	3675	ZEBRA
 293	Nurse-1975-1038-293	tortoise	n.	tortoise//zebra	kobe	895	TORTOISE
 294	Nurse-1975-1038-294	hare	n.	hare	sungura		
 295	Nurse-1975-1038-295	frog	n.	frog	chura	503	FROG
 296	Nurse-1975-1038-296	snore, snort	v.	snore, snort	(ku)koroma	1983	SNORE
 297	Nurse-1975-1038-297	back	n.	back	mgongo		
+297a	Nurse-1975-1038-297a	backbone	n.	backbone	uti wa mgongo		
 298	Nurse-1975-1038-298	fall	n.	fall//backbone	(ku)anguka	1276	AUTUMN
 299	Nurse-1975-1038-299	cloth	n.	cloth	kitambaa	1616	CLOTH
 300	Nurse-1975-1038-300	clothes, material	n.	clothes, material	nguo	1895	CLOTHES
 301	Nurse-1975-1038-301	buy	v.	buy	(ku)nunua	1869	BUY
 302	Nurse-1975-1038-302	sell	v.	sell	(ku)uza	1571	SELL
 303	Nurse-1975-1038-303	sky	n.	sky	mbingu	1732	SKY
-304	Nurse-1975-1038-304	light, sky	n.	light, sky	anga	1732	SKY
+304	Nurse-1975-1038-304	light, sky	n.	light, sky	anga		LIGHT (RADIATION)
 305	Nurse-1975-1038-305	cloud	n.	cloud	wingu	1489	CLOUD
-306	Nurse-1975-1038-306	top, peak	n.	top, peak	kilele	2205	PEAK
+306	Nurse-1975-1038-306	top, peak	n.	top, peak	kilele		TOP
 307	Nurse-1975-1038-307	highest point, utmost	n.	highest point, utmost	kipeo	2205	PEAK
 308	Nurse-1975-1038-308	crown of the head	n.	crown of the head	utosi		
 309	Nurse-1975-1038-309	hill	n.	hill	kilima	614	HILL
@@ -329,7 +335,7 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 328	Nurse-1975-1038-328	dream	n.	dream	ndoto	2374	DREAM
 329	Nurse-1975-1038-329	elephant	n.	elephant//elephant (=tembo)	ndovu (=tembo)	1290	ELEPHANT
 330	Nurse-1975-1038-330	voice	n.	voice	sauti	1363	VOICE
-331	Nurse-1975-1038-331	sound, cry	n.	sound, cry	mlio	715	SHOUT
+331	Nurse-1975-1038-331	sound, cry	n.	sound, cry	mlio		SOUND (OF INSTRUMENT OR VOICE)
 332	Nurse-1975-1038-332	smallpox	n.	smallpox	ndui	1054	SMALLPOX
 333	Nurse-1975-1038-333	sun	n.	sun	jua	1343	SUN
 334	Nurse-1975-1038-334	charcoal	n.	charcoal	kaa	1188	CHARCOAL
@@ -352,8 +358,10 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 351	Nurse-1975-1038-351	guinea-fowl	n.	guinea-fowl	kanga	456	GUINEA FOWL
 352	Nurse-1975-1038-352	head-pad	n.	head-pad	kata		
 353	Nurse-1975-1038-353	inside	n.	inside	kati	1606	INSIDE
+353a	Nurse-1975-1038-353a	in the middle of	n.	in the middle of	katikati		
 354	Nurse-1975-1038-354	look at, examine	n.	look at, examine//in the middle of	(ku)tazama	1819	LOOK
-355	Nurse-1975-1038-355	cut	v.	cut//look round	(ku)kata	1432	CUT
+354a	Nurse-1975-1038-354a	look round	v.	look round	(ku)tazama pote (=kutupa jicho huko na huko)		
+355	Nurse-1975-1038-355	cut	v.	cut//look round	(ku)kata		
 356	Nurse-1975-1038-356	head	n.	head	kichwa	1256	HEAD
 357	Nurse-1975-1038-357	tobacco pipe	n.	tobacco pipe	kiko	1124	PIPE
 358	Nurse-1975-1038-358	grunt, grumble	v.	grunt, grumble	(ku)guna		
@@ -363,9 +371,9 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 362	Nurse-1975-1038-362	colobus monkey (with long blac	n.	colobus monkey (w/ long black//colobus monkey (with long blac	mbega		
 363	Nurse-1975-1038-363	(small lightish-coloured) monk	n.	(small lightish-coloured) monk	tumbili		
 364	Nurse-1975-1038-364	baboon, ape	n.	baboon, ape	nyani	1197	BABOON
-365	Nurse-1975-1038-365	dance (of men, to show courage	v.	dance (of men, to show courage	(ku)randa	1879	DANCE
+365	Nurse-1975-1038-365	dance (of men, to show courage	v.	dance (of men, to show courage	(ku)randa		
 366	Nurse-1975-1038-366	do	v.	do	(ku)fanya	813	DO
-367	Nurse-1975-1038-367	do, complete, finish	v.	do, complete, finish	(ku)maliza	813	DO
+367	Nurse-1975-1038-367	do, complete, finish	v.	do, complete, finish	(ku)maliza		FINISH
 368	Nurse-1975-1038-368	Grant's gazelle	n.	Grant's gazelle	swala	5	GAZELLE
 369	Nurse-1975-1038-369	pound (grain in a mortar to ge	v.	pound (grain in a mortar to ge	(ku)twanga	354	POUND
 370	Nurse-1975-1038-370	crush by pounding, pulverise	v.	crush by pounding, pulverise//crush by pounding pulverize	(ku)ponda	1520	CRUSH
@@ -396,7 +404,7 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 395	Nurse-1975-1038-395	strike, knock	v.	strike, knock	(ku)gonga	2396	KNOCK
 396	Nurse-1975-1038-396	hit with a hammer	n.	hit with a hammer	(ku)piga nyundo		
 397	Nurse-1975-1038-397	banana (fruit)	n.	banana (fruit)	ndizi	868	BANANA
-398	Nurse-1975-1038-398	banana (plant)	n.	banana (plant)	mgomba	868	BANANA
+398	Nurse-1975-1038-398	banana (plant)	n.	banana (plant)	mgomba		BANANA TREE
 399	Nurse-1975-1038-399	banana for cooking	n.	banana for cooking `matoke'//banana for cooking	mzuzu (=matoke)		
 400	Nurse-1975-1038-400	fist	n.	fist	konde	1473	FIST
 401	Nurse-1975-1038-401	trunk (of elephant)	n.	trunk (of elephant)	mkonga		
@@ -430,6 +438,7 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 429	Nurse-1975-1038-429	keep livestock	v.	leep livestock//keep livestock	(ku)fuga		
 430	Nurse-1975-1038-430	shoulder	n.	shoulder	fuzi	1482	SHOULDER
 431	Nurse-1975-1038-431	chief	n.	chief	mfumo	301	CHIEFTAIN
+431a	Nurse-1975-1038-431a	chief, headman	n.	chief, headman	jumbe		
 432	Nurse-1975-1038-432	grasp, hold in arm	n.	chief, headman//grasp, hold in arm	(ku)fumbata	1448	HOLD
 433	Nurse-1975-1038-433	bone	n.	bone	mfupa	1394	BONE
 434	Nurse-1975-1038-434	short	n.	short	-fupi	1645	SHORT
@@ -439,16 +448,17 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 438	Nurse-1975-1038-438	swallow	v.	swallow	(ku)meza	897	SWALLOW
 439	Nurse-1975-1038-439	left-hand	n.	left-hand	kushoto	244	LEFT
 440	Nurse-1975-1038-440	one	n.	one//one (=moja)	mosi (=moja)	1493	ONE
-441	Nurse-1975-1038-441	pour away	v.	pour away	(ku)mwaga	1487	POUR
+441	Nurse-1975-1038-441	pour away	v.	pour away	(ku)mwaga		
 442	Nurse-1975-1038-442	four	n.	four	nne	1500	FOUR
 443	Nurse-1975-1038-443	eight	n.	eight	nane	1705	EIGHT
 444	Nurse-1975-1038-444	thick, fat	n.	thick, fat	-nene	1244	THICK
 445	Nurse-1975-1038-445	tomato	n.	tomato	nyanya	986	TOMATO
 446	Nurse-1975-1038-446	urinate	v.	urinate	(ku)nya	592	PISS
+446a	Nurse-1975-1038-446a	defecate	v.	defecate	(ku)nya mavi		
 447	Nurse-1975-1038-447	finger	v.	finger//defecate	kidole (cha mkono)	1303	FINGER
 448	Nurse-1975-1038-448	drink	v.	drink	(ku)nywa	1401	DRINK
 449	Nurse-1975-1038-449	give	v.	give	(ku)pa	1447	GIVE
-450	Nurse-1975-1038-450	separate, leave each other	v.	separate, leave each other	(ku)achana	1359	SEPARATE
+450	Nurse-1975-1038-450	separate, leave each other	v.	separate, leave each other	(ku)achana		
 451	Nurse-1975-1038-451	separate, set apart	v.	separate, set apart	(ku)tenga	1359	SEPARATE
 452	Nurse-1975-1038-452	twin	n.	twin	pacha	1005	TWINS
 453	Nurse-1975-1038-453	scrape	v.	scrape	(ku)paa	1767	SCRAPE
@@ -499,7 +509,7 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 498	Nurse-1975-1038-498	be fitting, behoove	v.	be fitting, behoove//be fitting, behove	(ku)juzu		
 499	Nurse-1975-1038-499	resemble	v.	resemble	(ku)fanana na	1777	RESEMBLE
 500	Nurse-1975-1038-500	revive	v.	revive	(ku)fufua		
-501	Nurse-1975-1038-501	weave, knit	v.	weave, knit	(ku)fuma	133	WEAVE
+501	Nurse-1975-1038-501	weave, knit	v.	weave, knit	(ku)fuma		
 502	Nurse-1975-1038-502	foam	n.	foam	povu	1768	FOAM
 503	Nurse-1975-1038-503	dig	v.	dig	(ku)chimba	1418	DIG
 504	Nurse-1975-1038-504	dig up, dig out	v.	dig up, dig out	(ku)fukua		
@@ -518,11 +528,11 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 517	Nurse-1975-1038-517	sweet, pleasant	n.	sweet, pleasant	tamu	717	SWEET
 518	Nurse-1975-1038-518	pronounce	v.	pronounce	(ku)tamka		
 519	Nurse-1975-1038-519	strut proudly	v.	strut proudly	(ku)tamba		
-520	Nurse-1975-1038-520	crawl, creep	v.	crawl, creep	(ku)tamboa	96	CRAWL
-521	Nurse-1975-1038-521	make offerings to the dead	v.	make offerings to the dead	(ku)tambika	1103	SACRIFICE
+520	Nurse-1975-1038-520	crawl, creep	v.	crawl, creep	(ku)tamboa	3456	CRAWL OR CREEP
+521	Nurse-1975-1038-521	make offerings to the dead	v.	make offerings to the dead	(ku)tambika		
 522	Nurse-1975-1038-522	sacrifice	n.	sacrifice	dhabibu	1103	SACRIFICE
-523	Nurse-1975-1038-523	receive	v.	receive	(ku)pokea	694	GET
-524	Nurse-1975-1038-524	take a walk	v.	take a walk	(ku)tembea		
+523	Nurse-1975-1038-523	receive	v.	receive	(ku)pokea		
+524	Nurse-1975-1038-524	take a walk	v.	take a walk	(ku)tembea	2890	WALK (TAKE A WALK)
 525	Nurse-1975-1038-525	five	n.	five	tano	493	FIVE
 526	Nurse-1975-1038-526	centipede	n.	centipede	tandu	1974	CENTIPEDE
 527	Nurse-1975-1038-527	spread	v.	spread	(ku)tandika	38	SPREAD OUT
@@ -530,21 +540,22 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 529	Nurse-1975-1038-529	draw (water from well)	v.	draw (water from well)	(ku)teka (maji)	1911	DRAW (WATER)
 530	Nurse-1975-1038-530	tangle	v.	tangle	(ku)tata		
 531	Nurse-1975-1038-531	father	n.	father	baba	1217	FATHER
+531a	Nurse-1975-1038-531a	my father	n.	my father	babaangu		
 532	Nurse-1975-1038-532	three	n.	my father//three	tatu	492	THREE
 533	Nurse-1975-1038-533	spittle	n.	spittle	33//mate	1503	SALIVA
 534	Nurse-1975-1038-534	set a trap	v.	set a trap	(ku)tega		
 535	Nurse-1975-1038-535	be leaning	v.	be leaning	(ku)egama		
 536	Nurse-1975-1038-536	lean on, rely on	v.	lean on, rely on	(ku)tegemea		
 537	Nurse-1975-1038-537	reed	n.	reed	tete	659	REED
-538	Nurse-1975-1038-538	tremble, shake	v.	tremble, shake	(ku)tetemeka	1909	SHAKE
+538	Nurse-1975-1038-538	tremble, shake	v.	tremble, shake	(ku)tetemeka		
 539	Nurse-1975-1038-539	namely	n.	namely	yaani		
 540	Nurse-1975-1038-540	tree	n.	tree	mti	906	TREE
 541	Nurse-1975-1038-541	stick	n.	stick	fimbo	1295	STICK
 542	Nurse-1975-1038-542	inside	n.	inside	ndani	1606	INSIDE
 543	Nurse-1975-1038-543	heart	n.	heart	moyo	1223	HEART
-544	Nurse-1975-1038-544	leave (off)	v.	leave(off)//leave (off)	(ku)acha	1752	LEAVE
+544	Nurse-1975-1038-544	leave (off)	v.	leave(off)//leave (off)	(ku)acha		
 545	Nurse-1975-1038-545	remain, stay behind	v.	remain, stay behind	(ku)baki		
-546	Nurse-1975-1038-546	leave, permission	n.	leave, permission	ruhusa	1752	LEAVE
+546	Nurse-1975-1038-546	leave, permission	n.	leave, permission	ruhusa		
 547	Nurse-1975-1038-547	leave, go away	v.	leave, go away	(ku)ondoka	1752	LEAVE
 548	Nurse-1975-1038-548	push	v.	push	(ku)sukuma	1452	PUSH
 549	Nurse-1975-1038-549	fall short	v.	fall short	(ku)tindika		
@@ -552,32 +563,32 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 551	Nurse-1975-1038-551	unripe, half grown	n.	unripe, half grown	tindi	1958	UNRIPE
 552	Nurse-1975-1038-552	pit, hole	n.	pit, hole	shimo	1667	HOLE
 553	Nurse-1975-1038-553	press out (oil seed, sugar can	v.	press out (oil seed, sugar can	(ku)sindika	1913	PRESS
-554	Nurse-1975-1038-554	stem of maize, millet	n.	stem of maize, millet, etc.//stem of maize, millet	bua	931	MILLET
+554	Nurse-1975-1038-554	stem of maize, millet	n.	stem of maize, millet, etc.//stem of maize, millet	bua		
 555	Nurse-1975-1038-555	bush	n.	bush	msitu	1683	BUSH
 556	Nurse-1975-1038-556	forest	n.	forest	mwitu	420	FOREST
-557	Nurse-1975-1038-557	cook in water or fat	v.	cook in water or fat	(ku)tokosa	1279	FAT (OBESE)
+557	Nurse-1975-1038-557	cook in water or fat	v.	cook in water or fat	(ku)tokosa		
 558	Nurse-1975-1038-558	person	n.	person	mtu	683	PERSON
 559	Nurse-1975-1038-559	thing	n.	thing	kitu	738	THING
 560	Nurse-1975-1038-560	carry	v.	carry	(ku)chukua	700	CARRY
-561	Nurse-1975-1038-561	heap	n.	heap	chungu		
+561	Nurse-1975-1038-561	heap	n.	heap	chungu	2984	HEAP
 562	Nurse-1975-1038-562	stack, pile up	v.	stack, pile up	(ku)panganya	1576	PILE UP
 563	Nurse-1975-1038-563	ear	n.	ear	sikio	1247	EAR
-564	Nurse-1975-1038-564	bore a hole	v.	bore a hole	(ku)toboa		
-565	Nurse-1975-1038-565	take, carry	v.	take, carry	(ku)twaa	700	CARRY
+564	Nurse-1975-1038-564	bore a hole	v.	bore a hole	(ku)toboa	1501	BORE
+565	Nurse-1975-1038-565	take, carry	v.	take, carry	(ku)twaa		
 566	Nurse-1975-1038-566	trickle away	v.	trickle away	(ku)churuzika		
 567	Nurse-1975-1038-567	take up a heavy load	v.	take up a heavy load	(ku)twika		
 568	Nurse-1975-1038-568	giraffe	n.	giraffe	twiga	3089	GIRAFFE
 569	Nurse-1975-1038-569	use	v.	use	(ku)tumia	2072	USE (VERB)
 570	Nurse-1975-1038-570	send	v.	send	(ku)tuma	1127	SEND
-571	Nurse-1975-1038-571	abuse	v.	abuse	(ku)tukana	1953	ABUSE
+571	Nurse-1975-1038-571	abuse	v.	abuse	(ku)tukana		
 572	Nurse-1975-1038-572	hump (of hunchback)	n.	hump (of hunchback)	kigongo	534	HUMP
-573	Nurse-1975-1038-573	hump (of cow)	n.	hump (of cow)	nundu	534	HUMP
+573	Nurse-1975-1038-573	hump (of cow)	n.	hump (of cow)	nundu		
 574	Nurse-1975-1038-574	fruit	n.	fruit	tunda	1507	FRUIT
-575	Nurse-1975-1038-575	hole, nest	n.	hole, nest	tundu	539	NEST
+575	Nurse-1975-1038-575	hole, nest	n.	hole, nest	tundu		
 576	Nurse-1975-1038-576	basket of open wicker-work	n.	basket of open wicker-work (na//basket of open wicker-work	tundu (=namna ya kikapu)	1539	BASKET
 577	Nurse-1975-1038-577	plaited basket	n.	plaited basket	kikapu		
 578	Nurse-1975-1038-578	carry	v.	carry	(ku)tuta	700	CARRY
-579	Nurse-1975-1038-579	pile up, pile loads on head	v.	pile up, pile loads on head	(ku)tutika	1576	PILE UP
+579	Nurse-1975-1038-579	pile up, pile loads on head	v.	pile up, pile loads on head	(ku)tutika		
 580	Nurse-1975-1038-580	ramble	v.	ramble	(ku)tutuma		
 581	Nurse-1975-1038-581	boil up	v.	boil up	(ku)tutuma		
 582	Nurse-1975-1038-582	spit	v.	spit	(ku)tema mate	1440	SPIT
@@ -588,18 +599,18 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 587	Nurse-1975-1038-587	face downwards	n.	face downwards	fudifudi		
 588	Nurse-1975-1038-588	shoulder	n.	shoulder	bega	1482	SHOULDER
 589	Nurse-1975-1038-589	sew	v.	sew	(ku)shona	1457	SEW
-590	Nurse-1975-1038-590	open the mouth wide	v.	open the mouth wide	(ku)achama		
-591	Nurse-1975-1038-591	spread, scatter	v.	spread, scatter	(ku)tawanyika	2064	SCATTER (SEEDS)
-592	Nurse-1975-1038-592	spread, smear on	v.	spread, smear on	(ku)paka	38	SPREAD OUT
+590	Nurse-1975-1038-590	open the mouth wide	v.	open the mouth wide	(ku)achama	3437	OPEN (MOUTH)
+591	Nurse-1975-1038-591	spread, scatter	v.	spread, scatter	(ku)tawanyika	3705	SCATTER
+592	Nurse-1975-1038-592	spread, smear on	v.	spread, smear on	(ku)paka	364	SMEAR
 593	Nurse-1975-1038-593	year	n.	year	665//mwaka	1226	YEAR
 594	Nurse-1975-1038-594	suck (the breast)	v.	suck (the breast)	(ku)amwa	1421	SUCK
 595	Nurse-1975-1038-595	animal	n.	animal	nyama	619	ANIMAL
-596	Nurse-1975-1038-596	meat	n.	meat	nyama	2615	FLESH OR MEAT
+596	Nurse-1975-1038-596	meat	n.	meat	nyama	634	MEAT
 597	Nurse-1975-1038-597	child	n.	child	665//mwana	2099	CHILD
-598	Nurse-1975-1038-598	set out to dry	v.	set out to dry	(ku)anika	2015	MAKE DRY
+598	Nurse-1975-1038-598	set out to dry	v.	set out to dry	(ku)anika	3364	DRY IN SUN
 599	Nurse-1975-1038-599	prepare	v.	prepare	(ku)anda(li)a	2909	PREPARE
 600	Nurse-1975-1038-600	pay attention, take care	v.	pay attention, take care	(ku)angalia		
-601	Nurse-1975-1038-601	split, crack	v.	split, crack	(ku)atua	1437	SPLIT
+601	Nurse-1975-1038-601	split, crack	v.	split, crack	(ku)atua	3080	SPLIT OPEN
 602	Nurse-1975-1038-602	canoe	n.	canoe	mtumbwi	1970	CANOE
 603	Nurse-1975-1038-603	she, he	n.	she, he	665//yeye	2642	HE OR SHE
 604	Nurse-1975-1038-604	try	v.	try	(ku)jaribu	1812	TRY
@@ -620,22 +631,22 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 619	Nurse-1975-1038-619	thief	n.	thief	665//mwivi	1160	THIEF
 620	Nurse-1975-1038-620	eye	n.	eye	jicho	1248	EYE
 621	Nurse-1975-1038-621	tears	n.	tears	33//machozi	1651	TEAR (OF EYE)
-622	Nurse-1975-1038-622	dark, black	n.	dark, black	-eusi	11	DARKNESS
+622	Nurse-1975-1038-622	dark, black	n.	dark, black	-eusi	2633	BLACK OR DARK
 623	Nurse-1975-1038-623	hear	v.	hear	(ku)sikia	1408	HEAR
-624	Nurse-1975-1038-624	come	v.	come	(ku)ja		
-625	Nurse-1975-1038-625	become full	v.	become full	(ku)jaa	1429	FULL
-626	Nurse-1975-1038-626	know	v.	know	(ku)jua		
+624	Nurse-1975-1038-624	come	v.	come	(ku)ja	1446	COME
+625	Nurse-1975-1038-625	become full	v.	become full	(ku)jaa		
+626	Nurse-1975-1038-626	know	v.	know	(ku)jua	3626	KNOW
 627	Nurse-1975-1038-627	sit	v.	sit//sit (e.g. kukaa kitako)	(ku)kaa (e.g. kitako)	1416	SIT
 628	Nurse-1975-1038-628	dwell	v.	dwell	(ku)kaa	363	DWELL (LIVE, RESIDE)
 629	Nurse-1975-1038-629	smoke	n.	smoke	moshi	778	SMOKE (EXHAUST)
 630	Nurse-1975-1038-630	have enough to eat or drink, b	v.	have enough to eat or drink, b	(ku)shiba		
 631	Nurse-1975-1038-631	denial	n.	denial	mkano		
-632	Nurse-1975-1038-632	refuse, say no	v.	refuse, say no	(ku)kataa	49	REFUSE
+632	Nurse-1975-1038-632	refuse, say no	v.	refuse, say no	(ku)kataa		
 633	Nurse-1975-1038-633	reject, refuse	v.	reject, refuse	(ku)iza	49	REFUSE
-634	Nurse-1975-1038-634	at the back of	n.	at the back of	nyuma		
-635	Nurse-1975-1038-635	dip	v.	dip	(ku)chovya		
+634	Nurse-1975-1038-634	at the back of	n.	at the back of	nyuma	1686	BEHIND
+635	Nurse-1975-1038-635	dip	v.	dip	(ku)chovya	3697	DIP
 636	Nurse-1975-1038-636	be pregnant	v.	be pregnant	(ku)wa na mimba	1123	PREGNANT
-637	Nurse-1975-1038-637	your(s) (pl.)	n.	your(s) (Pl. 2nd person)//your(s) (pl.)	-enu		
+637	Nurse-1975-1038-637	your(s) (pl.)	n.	your(s) (Pl. 2nd person)//your(s) (pl.)	-enu	2274	YOUR (PLURAL)
 638	Nurse-1975-1038-638	pestle	n.	pestle	665//mchi (kwa kutwangia)	225	PESTLE
 639	Nurse-1975-1038-639	go in, come in	v.	go in, come in	(ku)ingia	749	ENTER
 640	Nurse-1975-1038-640	our(s)	n.	our(s) Pl. 1st person)//our(s)	-etu	780	OUR
@@ -643,44 +654,44 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 642	Nurse-1975-1038-642	mushroom	n.	mushroom	kiyoga	641	MUSHROOM
 643	Nurse-1975-1038-643	bathe	v.	bathe	(ku)oga	138	BATHE
 644	Nurse-1975-1038-644	roast	v.	roast	(ku)oka (motoni)	1962	ROAST (SOMETHING)
-645	Nurse-1975-1038-645	burn	v.	burn	(ku)waka		
+645	Nurse-1975-1038-645	burn	v.	burn	(ku)waka	2102	BURN
 646	Nurse-1975-1038-646	potter's kiln	n.	potter's kiln	joko		
 647	Nurse-1975-1038-647	plunder (a town)	v.	plunder (a town)	(ku)teka (mji)		
 648	Nurse-1975-1038-648	destroy, spoil	v.	destroy, spoil	(ku)haribu	681	DESTROY
 649	Nurse-1975-1038-649	spoil (a child)	v.	spoil (a child)	(ku)dekeza		
 650	Nurse-1975-1038-650	bask (in the sun), warm onesel	v.	bask (in the sun), warm onesel	(ku)ota (jua), (moto)		
 651	Nurse-1975-1038-651	thirst	n.	thirst	kiu	848	THIRST
-652	Nurse-1975-1038-652	feathers, fur	n.	feathers, fur	manyoya	1201	FEATHER
+652	Nurse-1975-1038-652	feathers, fur	n.	feathers, fur	manyoya		
 653	Nurse-1975-1038-653	bee	n.	bee	nyuki	665	BEE
 654	Nurse-1975-1038-654	honey	n.	honey	asali (ya nyuki)	942	HONEY
 655	Nurse-1975-1038-655	hard	n.	hard	-gumu	1884	HARD
-656	Nurse-1975-1038-656	quarrel	v.	quarrel	(ku)gombana	1848	QUARREL
+656	Nurse-1975-1038-656	quarrel	v.	quarrel	(ku)gombana	3302	QUARREL (VERB)
 657	Nurse-1975-1038-657	lime, whitewash	n.	lime, whitewash	chokaa	2540	LIME (MATERIAL)
 658	Nurse-1975-1038-658	bird-lime	n.	bird-lime	ulimbo		
 659	Nurse-1975-1038-659	fishing line	n.	fishing line	mshipi	19	FISHING LINE
-660	Nurse-1975-1038-660	brook, stream	n.	brook, stream	kijito	947	STREAM
-661	Nurse-1975-1038-661	stream, current	n.	stream, current	mkondo	947	STREAM
+660	Nurse-1975-1038-660	brook, stream	n.	brook, stream	kijito		
+661	Nurse-1975-1038-661	stream, current	n.	stream, current	mkondo	2935	CURRENT (STREAM)
 662	Nurse-1975-1038-662	carpenter's adze	n.	carpenter's adze	tezo	290	ADZE
-663	Nurse-1975-1038-663	(small) ant	n.	(small) ant	chungu	587	ANT
-664	Nurse-1975-1038-664	(reddish-brown biting) ant	n.	(reddish-brown biting) ant	siafu	587	ANT
+663	Nurse-1975-1038-663	(small) ant	n.	(small) ant	chungu		
+664	Nurse-1975-1038-664	(reddish-brown biting) ant	n.	(reddish-brown biting) ant	siafu		
 665	Nurse-1975-1038-665	arrow	n.	arrow	mshale	977	ARROW
 666	Nurse-1975-1038-666	head of arrow, spear head	n.	head of arrow, spear head	chembe		
 667	Nurse-1975-1038-667	axe	n.	axe	shoka	677	AXE
-668	Nurse-1975-1038-668	scythe, sickle	n.	scythe, sickle	mundu	20	SCYTHE
+668	Nurse-1975-1038-668	scythe, sickle	n.	scythe, sickle	mundu	2132	SICKLE OR SCYTHE
 669	Nurse-1975-1038-669	blood	n.	blood	665//damu	946	BLOOD
 670	Nurse-1975-1038-670	body	n.	body	mwili	1480	BODY
 671	Nurse-1975-1038-671	bow, bending	n.	bow, bending	upinde		
-672	Nurse-1975-1038-672	chest (of animals and birds)	n.	chest (of animals and birds)	kidari	1592	CHEST
+672	Nurse-1975-1038-672	chest (of animals and birds)	n.	chest (of animals and birds)	kidari		
 673	Nurse-1975-1038-673	brother, relative, fellow-trib	n.	brother, relative, fellow-trib	ndugu	1644	RELATIVES
 674	Nurse-1975-1038-674	bull	n.	bull	fahali	1008	BULL
-675	Nurse-1975-1038-675	dug-out canoe	n.	dug-out canoe	ngalawa	1970	CANOE
+675	Nurse-1975-1038-675	dug-out canoe	n.	dug-out canoe	ngalawa		
 676	Nurse-1975-1038-676	boat	n.	boat	33//mashua	1844	BOAT
 677	Nurse-1975-1038-677	king	n.	king	mfalme	1508	KING
-678	Nurse-1975-1038-678	head, chief person	n.	head, chief person	mkuu	1256	HEAD
+678	Nurse-1975-1038-678	head, chief person	n.	head, chief person	mkuu		
 679	Nurse-1975-1038-679	child	n.	child	665//mtoto	2099	CHILD
 680	Nurse-1975-1038-680	district, province, country	n.	district, province, country	jimbo	1300	COUNTRY
 681	Nurse-1975-1038-681	heifer	n.	heifer	1//mtamba (wa ng'ombe)		
-682	Nurse-1975-1038-682	day-time	n.	day-time	mchana	1260	DAY (24 HOURS)
+682	Nurse-1975-1038-682	day-time	n.	day-time	mchana	1225	DAY (NOT NIGHT)
 683	Nurse-1975-1038-683	evil spirit	n.	evil spirit	kizuu	1973	DEMON
 684	Nurse-1975-1038-684	sudden apparition, ghost	n.	sudden apparition, ghost	zuka	1175	GHOST
 685	Nurse-1975-1038-685	door	n.	door	mlango	1567	DOOR
@@ -690,13 +701,13 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 689	Nurse-1975-1038-689	threaten	v.	threaten	(ku)tisha	1192	THREATEN
 690	Nurse-1975-1038-690	hen, fowl	n.	hen, fowl	kuku	265	FOWL
 691	Nurse-1975-1038-691	shadow, shade	n.	shadow, shade	kivuli	1388	SHADE
-692	Nurse-1975-1038-692	virgin (bride), girl	n.	virgin (bride), girl//virgin(bride), girl	mwali	1646	GIRL
-693	Nurse-1975-1038-693	youth	n.	youth	kijana	1366	BOY
+692	Nurse-1975-1038-692	virgin (bride), girl	n.	virgin (bride), girl//virgin(bride), girl	mwali		
+693	Nurse-1975-1038-693	youth	n.	youth	kijana		
 694	Nurse-1975-1038-694	he-goat	n.	he-goat	beberu	264	HE-GOAT
 695	Nurse-1975-1038-695	god	n.	god	mungu	1944	GOD
 696	Nurse-1975-1038-696	grandfather	n.	grandfather	babu	1383	GRANDFATHER
 697	Nurse-1975-1038-697	grandmother	n.	grandmother	bibi	1496	GRANDMOTHER
-698	Nurse-1975-1038-698	grass, reeds	n.	grass, reeds	nyasi	659	REED
+698	Nurse-1975-1038-698	grass, reeds	n.	grass, reeds	nyasi		
 699	Nurse-1975-1038-699	leaf, blade of grass	n.	leaf, blade of grass	jani		
 700	Nurse-1975-1038-700	hay	n.	hay	ukoko mkwavu	342	HAY
 701	Nurse-1975-1038-701	gun	n.	gun	bunduki	1566	GUN
@@ -704,13 +715,14 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 703	Nurse-1975-1038-703	flat of hand	n.	flat of hand	kofi		
 704	Nurse-1975-1038-704	knot	n.	knot	kifundo	760	KNOT
 705	Nurse-1975-1038-705	heel	n.	heel//heel (cha mguu)	kisigino (cha mguu)	980	HEEL
+705a	Nurse-1975-1038-705a	elbow	n.	elbow	kisigino (cha mkono)	981	ELBOW
 706	Nurse-1975-1038-706	hoe	n.	elbow (cha mkono)//hoe	jembe	284	HOE
 707	Nurse-1975-1038-707	horn, ivory	n.	horn, ivory	pembe		
-708	Nurse-1975-1038-708	house	n.	house	nyumba	1678	HUT
+708	Nurse-1975-1038-708	house	n.	house	nyumba	1252	HOUSE
 709	Nurse-1975-1038-709	hyena	n.	hyena	fisi	1799	HYENA
 710	Nurse-1975-1038-710	island	n.	island	kisiwa	622	ISLAND
-711	Nurse-1975-1038-711	elephant's tusk	n.	elephant's tusk	buri		
-712	Nurse-1975-1038-712	shin (bone)	n.	shin (bone)	muundi (wa mguu)	186	SHIN
+711	Nurse-1975-1038-711	elephant's tusk	n.	elephant's tusk	buri	2495	ELEPHANT TUSK
+712	Nurse-1975-1038-712	shin (bone)	n.	shin (bone)	muundi (wa mguu)		
 713	Nurse-1975-1038-713	magic	n.	magic	uchawi	392	MAGIC
 714	Nurse-1975-1038-714	maize	n.	maize	33//muhindi	506	MAIZE
 715	Nurse-1975-1038-715	young man	n.	young man	mvulana	76	YOUNG MAN
@@ -724,19 +736,19 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 723	Nurse-1975-1038-723	salt	n.	salt (=munyu)//salt	chumvi (=munyu)	1274	SALT
 724	Nurse-1975-1038-724	shame, modesty	n.	shame, modesty	haya		
 725	Nurse-1975-1038-725	shield	n.	shield	ngao	1064	SHIELD
-726	Nurse-1975-1038-726	(his) sister, (her) brother	n.	(his) sister/(her) brother//(his) sister, (her) brother	umbu	3039	DIFFERENT-SEX OLDER SIBLING
+726	Nurse-1975-1038-726	(his) sister, (her) brother	n.	(his) sister/(her) brother//(his) sister, (her) brother	umbu		
 727	Nurse-1975-1038-727	slave, bondservant	n.	slave, bond servant//slave, bondservant	mtumwa	812	SLAVE
 728	Nurse-1975-1038-728	female slave	n.	female slave	mjakazi		
 729	Nurse-1975-1038-729	male slave	n.	male slave	mtwana		
 730	Nurse-1975-1038-730	sleeping-place, accommodation	n.	sleeping-place, accommodation	malalo		
-731	Nurse-1975-1038-731	sleep	n.	sleep	usingizi	1585	SLEEP
+731	Nurse-1975-1038-731	sleep	n.	sleep	usingizi	2972	SLEEP (STATE)
 732	Nurse-1975-1038-732	song	n.	song	wimbo	1096	SONG
 733	Nurse-1975-1038-733	spear	n.	spear	mkuki	945	SPEAR
-734	Nurse-1975-1038-734	soul, spirit	n.	soul, spirit	roho	53	SPIRIT
+734	Nurse-1975-1038-734	soul, spirit	n.	soul, spirit	roho	811	SOUL
 735	Nurse-1975-1038-735	star	n.	star	nyota	1430	STAR
 736	Nurse-1975-1038-736	cudgel	n.	cudgel	gongo		
 737	Nurse-1975-1038-737	thin pole	n.	thin pole	33//ufito		
-738	Nurse-1975-1038-738	seat, stool, chair	n.	seat, stool, chair	kiti	1476	CHAIR
+738	Nurse-1975-1038-738	seat, stool, chair	n.	seat, stool, chair	kiti		
 739	Nurse-1975-1038-739	testicle	n.	testicle	pumbu	797	TESTICLES
 740	Nurse-1975-1038-740	thorn	n.	thorn	mwiba	124	THORN
 741	Nurse-1975-1038-741	tobacco	n.	tobacco	tumbako	974	TOBACCO
@@ -746,8 +758,8 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 745	Nurse-1975-1038-745	urine	n.	urine	33//mkojo	1142	URINE
 746	Nurse-1975-1038-746	wind	n.	wind	upepo	960	WIND
 747	Nurse-1975-1038-747	womb	n.	womb	tumbo la uzazi	804	WOMB
-748	Nurse-1975-1038-748	pregnancy	n.	pregnancy	mimba	1123	PREGNANT
-749	Nurse-1975-1038-749	(sweet) potato	n.	(sweet) potato	kiazi	593	POTATO
+748	Nurse-1975-1038-748	pregnancy	n.	pregnancy	mimba		
+749	Nurse-1975-1038-749	(sweet) potato	n.	(sweet) potato	kiazi	159	SWEET POTATO
 750	Nurse-1975-1038-750	yesterday	n.	yesterday	jana	1174	YESTERDAY
 751	Nurse-1975-1038-751	the day before yesterday	n.	the day before yesterday	665//juzi	1180	DAY BEFORE YESTERDAY
 752	Nurse-1975-1038-752	two	n.	two	-wili	1498	TWO
@@ -755,7 +767,7 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 754	Nurse-1975-1038-754	seven	n.	seven	saba	1704	SEVEN
 755	Nurse-1975-1038-755	nine	n.	nine//nine (=tisa)	kenda (=tisa)	1483	NINE
 756	Nurse-1975-1038-756	hundred	n.	hundred	mia	1634	HUNDRED
-757	Nurse-1975-1038-757	fierce, sharp	n.	fierce, sharp	-kali	1396	SHARP
+757	Nurse-1975-1038-757	fierce, sharp	n.	fierce, sharp	-kali		
 758	Nurse-1975-1038-758	good	n.	good	-ema	1035	GOOD
 759	Nurse-1975-1038-759	beautiful	n.	beautiful	-zuri	1427	BEAUTIFUL
 760	Nurse-1975-1038-760	fine, excellent	n.	fine, excellent	bora		
@@ -767,12 +779,12 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 766	Nurse-1975-1038-766	here	n.	here	hapa (=huko)	136	HERE
 767	Nurse-1975-1038-767	there	n.	there	pale (=kule)	1937	THERE
 768	Nurse-1975-1038-768	beat	v.	beat	(ku)piga	1665	BEAT
-769	Nurse-1975-1038-769	love, want	v.	love, want	(ku)penda	1784	WANT
+769	Nurse-1975-1038-769	love, want	v.	love, want	(ku)penda		
 770	Nurse-1975-1038-770	see	v.	see	(ku)ona	1409	SEE
 771	Nurse-1975-1038-771	armpit	n.	armpit	kwapa	1886	ARMPIT
 772	Nurse-1975-1038-772	work as a mason	n.	work as a mason	(kw)aka		
 773	Nurse-1975-1038-773	yawn	v.	yawn	(ku)piga miayo	1028	YAWN
-774	Nurse-1975-1038-774	lend, borrow	v.	lend, borrow	(ku)azima	1823	BORROW
+774	Nurse-1975-1038-774	lend, borrow	v.	lend, borrow	(ku)azima		
 775	Nurse-1975-1038-775	beer	n.	beer	pombe	1639	BEER
 776	Nurse-1975-1038-776	boast, brag, praise oneself	v.	boast, brag, praise onself//boast, brag, praise oneself	(ku)jigamba	101	BOAST
 777	Nurse-1975-1038-777	swear	v.	swear	(ku)apa	1939	SWEAR
@@ -785,8 +797,9 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 784	Nurse-1975-1038-784	explain	v.	explain	(ku)eleza	1626	EXPLAIN
 785	Nurse-1975-1038-785	size, measure	n.	size, measure	cheo	2845	SIZE (OF OBJECT)
 786	Nurse-1975-1038-786	abundant	n.	abundant	tele		
-787	Nurse-1975-1038-787	kite	v.	abound//kite	mwewe	307	HAWK
-788	Nurse-1975-1038-788	satisfy	v.	satisfy	(ku)ridhisha		
+786a	Nurse-1975-1038-786a	abound	n.	abound	(ku)jaa tele		
+787	Nurse-1975-1038-787	kite	v.	abound//kite	mwewe		
+788	Nurse-1975-1038-788	satisfy	v.	satisfy	(ku)ridhisha	2691	PATERNAL AUNT (FATHER'S SISTER)
 789	Nurse-1975-1038-789	aunt (=father's sister)	n.	aunt (=father's sister)//aunt (father's sister)	shangazi	1272	AUNT
 790	Nurse-1975-1038-790	warthog	n.	warthog//wart-hog	ngizi		
 791	Nurse-1975-1038-791	lift up, pick up	v.	lift up, pick up	(ku)inua	371	PICK UP
@@ -798,8 +811,8 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 797	Nurse-1975-1038-797	hook (to pull down branches in	n.	hook (to pull down banches in//hook (to pull down branches in	kingoe	1071	HOOK
 798	Nurse-1975-1038-798	strength, power	n.	strength, power	nguvu	2526	POWER
 799	Nurse-1975-1038-799	catch unawares, startle	v.	catch unawares, statle//catch unawares, startle	(ku)gundua		
-800	Nurse-1975-1038-800	hide	v.	hide	(ku)ficha	602	HIDE (CONCEAL)
-801	Nurse-1975-1038-801	cultivated ground	n.	cultivated ground (shamba)//cultivated ground	mgunda (=shamba)	212	FIELD
+800	Nurse-1975-1038-800	hide	v.	hide	(ku)ficha	2486	HIDE
+801	Nurse-1975-1038-801	cultivated ground	n.	cultivated ground (shamba)//cultivated ground	mgunda (=shamba)		
 802	Nurse-1975-1038-802	sugar cane	n.	sugar cane	muwa	146	SUGAR CANE
 803	Nurse-1975-1038-803	crocodile	n.	crocodile//crocodile (ngwena)	mamba (=ngwena)	1857	CROCODILE
 804	Nurse-1975-1038-804	fill	v.	fill	(ku)jaza	2006	FILL
@@ -827,12 +840,12 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 826	Nurse-1975-1038-826	run	v.	run	(ku)kimbia	1519	RUN
 827	Nurse-1975-1038-827	bead(s)	n.	bead(s)	ushanga	1860	BEAD
 828	Nurse-1975-1038-828	eyebrow	n.	eyebrow	ushi	1173	EYEBROW
-829	Nurse-1975-1038-829	open (=set ajar) a door	v.	open (=set ajar) a door//open (set ajar) a door	(ku)shindua	1156	OPEN
+829	Nurse-1975-1038-829	open (=set ajar) a door	v.	open (=set ajar) a door//open (set ajar) a door	(ku)shindua		
 830	Nurse-1975-1038-830	startle, jerk	v.	startle, jerk	(ku)shtua		
-831	Nurse-1975-1038-831	break wind	v.	break wind	(ku)shuta	1159	FART
+831	Nurse-1975-1038-831	break wind	v.	break wind	(ku)shuta		
 832	Nurse-1975-1038-832	flatulence	n.	flatulence	riahi		
 833	Nurse-1975-1038-833	pull, drag	v.	pull, drag	(ku)kokota	2030	DRAG
-834	Nurse-1975-1038-834	please, satisfy	v.	please, satisfy	(ku)kora	1271	DELIGHT
+834	Nurse-1975-1038-834	please, satisfy	v.	please, satisfy	(ku)kora		
 835	Nurse-1975-1038-835	oyster	n.	oyster	chaza	2830	OYSTERS
 836	Nurse-1975-1038-836	hollow out	v.	hollow out	(ku)komba	46	HOLLOW OUT
 837	Nurse-1975-1038-837	snail	n.	snail	konokono	1543	SNAIL
@@ -849,11 +862,11 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 848	Nurse-1975-1038-848	fence, enclosure	n.	fence, enclosure	ua	1690	FENCE
 849	Nurse-1975-1038-849	squat (on the haunches)	v.	squat (on the haunches)//sguat (on the haunches)	(ku)chuchumaa		
 850	Nurse-1975-1038-850	stir	v.	stir	(ku)koroga	696	STIR
-851	Nurse-1975-1038-851	close (eyes, mouth)	v.	close (the eyes, mouth, etc.)//close (eyes, mouth)	(ku)fumba (macho, kinywa)	2063	CLOSE (EYES)
+851	Nurse-1975-1038-851	close (eyes, mouth)	v.	close (the eyes, mouth, etc.)//close (eyes, mouth)	(ku)fumba (macho, kinywa)		
 852	Nurse-1975-1038-852	cover (up)	v.	cover (up)	(ku)funika	761	COVER
 853	Nurse-1975-1038-853	jaw (bone)	n.	jaw (bone)	taya	798	JAW
 854	Nurse-1975-1038-854	thicket	n.	thicket	kichaka		
-855	Nurse-1975-1038-855	scrape, graze	v.	scrape, grace//scrape, graze	(ku)paruza	1767	SCRAPE
+855	Nurse-1975-1038-855	scrape, graze	v.	scrape, grace//scrape, graze	(ku)paruza		
 856	Nurse-1975-1038-856	scratch, grate	v.	scratch, grate	(ku)kuna	1436	SCRATCH
 857	Nurse-1975-1038-857	calf of the leg	n.	calf of the leg	shavu la mguu	498	CALF OF LEG
 858	Nurse-1975-1038-858	ferment, turn sour	v.	ferment, turn sour	(ku)chacha	2229	BECOME SOUR
@@ -871,7 +884,7 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 870	Nurse-1975-1038-870	sift	v.	sift	(ku)chunga		
 871	Nurse-1975-1038-871	look after grazing cattle,	v.	look after grazing cattle, hel//look after grazing cattle,	(ku)chunga		
 872	Nurse-1975-1038-872	bottle	n.	bottle	chupa	1321	BOTTLE
-873	Nurse-1975-1038-873	calabash	n.	calabash	buyu	411	GOURD
+873	Nurse-1975-1038-873	calabash	n.	calabash	buyu	3918	CALABASH
 874	Nurse-1975-1038-874	take the skin off, bruise	v.	take the skin off, bruise	(ku)chubua	1148	BRUISE
 875	Nurse-1975-1038-875	take leave of	v.	take leave of//take leace of	(ku)aga		
 876	Nurse-1975-1038-876	order, direct	v.	order, direct	(ku)agiza	1128	ORDER
@@ -893,11 +906,11 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 892	Nurse-1975-1038-892	place of the dead	n.	place of the dead	kuzimu		
 893	Nurse-1975-1038-893	heavy, serious, dull	n.	heavy, serious, dull	-zito		
 894	Nurse-1975-1038-894	cork, stopper	n.	cork, stopper	kizibo		
-895	Nurse-1975-1038-895	marry (of man)	v.	marry (of man)	(ku)oa		
+895	Nurse-1975-1038-895	marry (of man)	v.	marry (of man)	(ku)oa	2164	MARRY (AS MAN)
 896	Nurse-1975-1038-896	give in marriage (of parents,	v.	give in marriage (of parents,	(ku)oza		
 897	Nurse-1975-1038-897	marriage	n.	marriage	ndoa	2432	MARRIAGE
 898	Nurse-1975-1038-898	taste	v.	taste	(ku)onja	21	TASTE (SOMETHING)
-899	Nurse-1975-1038-899	examine, measure, test	v.	examine, measure, test	(ku)pima	1975	CHECK
+899	Nurse-1975-1038-899	examine, measure, test	v.	examine, measure, test	(ku)pima		
 900	Nurse-1975-1038-900	effort, exertion	n.	effort, exertion	jitihadi		
 901	Nurse-1975-1038-901	be ill, groan	v.	be ill, groan	(ku)ugua	716	GROAN
 902	Nurse-1975-1038-902	(crippling) illness	n.	(crippling) illness	uele	1986	DISEASE
@@ -911,11 +924,11 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 910	Nurse-1975-1038-910	borrow	v.	borrow	(ku)kopa	1823	BORROW
 911	Nurse-1975-1038-911	leak, ooze out	v.	leak, ooze out	(ku)vuja		
 912	Nurse-1975-1038-912	suffer, bear patiently	v.	suffer, bear patiently	(ku)vumilia		
-913	Nurse-1975-1038-913	grow (of plants)	v.	grow (of plants)	(ku)mea		
+913	Nurse-1975-1038-913	grow (of plants)	v.	grow (of plants)	(ku)mea	3461	GROW PLANTS
 914	Nurse-1975-1038-914	squeeze out	v.	squeeze out	(ku)minya		
 915	Nurse-1975-1038-915	shave	v.	shave	(ku)nyoa	231	SHAVE
 916	Nurse-1975-1038-916	give light to	v.	give light to	(ku)mulika		
-917	Nurse-1975-1038-917	rain	v.	rain	(ku)nya mvua	2108	RAINING OR RAIN
+917	Nurse-1975-1038-917	rain	v.	rain	(ku)nya mvua	1253	RAIN (RAINING)
 918	Nurse-1975-1038-918	who?	n.	who?	nani?	1235	WHO
 919	Nurse-1975-1038-919	what?	n.	what?	nini?	1236	WHAT
 920	Nurse-1975-1038-920	sharpen	v.	sharpen	(ku)noa	251	SHARPEN (SOMETHING)
@@ -925,7 +938,7 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 924	Nurse-1975-1038-924	smell out, sniff	v.	smell out, sniff	(ku)nusa	1586	SMELL (PERCEIVE)
 925	Nurse-1975-1038-925	hip	n.	hip	nyonga	1745	HIP
 926	Nurse-1975-1038-926	all	n.	all	-ote	98	ALL
-927	Nurse-1975-1038-927	be adjacent, border	v.	be adjacent, border	(ku)pakana	2546	BORDER
+927	Nurse-1975-1038-927	be adjacent, border	v.	be adjacent, border	(ku)pakana		
 928	Nurse-1975-1038-928	boundary	n.	boundary	mpaka	1010	BOUNDARY
 930	Nurse-1975-1038-929	bifurcation, cross-roads	n.	bifurcation, cross-roads	pacha (=njia panda)		
 931	Nurse-1975-1038-930	decorate	v.	decorate	(ku)pamba	1739	DECORATE
@@ -948,37 +961,39 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 948	Nurse-1975-1038-947	stutter	v.	stutter	(ku)gugumiza	1866	STUTTER
 949	Nurse-1975-1038-948	read	v.	read	(ku)soma	724	READ
 950	Nurse-1975-1038-949	cool, cure, heal	v.	cool, cure, heal	(ku)poza	499	CURE
-951	Nurse-1975-1038-950	spoil, blind	v.	spoil, blind	(ku)pofua	1653	BLIND
+951	Nurse-1975-1038-950	spoil, blind	v.	spoil, blind	(ku)pofua		
 952	Nurse-1975-1038-951	escape, recover	v.	escape, recover	(ku)pona	1978	RECOVER
 953	Nurse-1975-1038-952	bowstring	n.	bowstring	upote	2119	BOW STRING
-954	Nurse-1975-1038-953	dry up, ebb	v.	dry up, ebb	(ku)pwa	1786	DRY UP
+954	Nurse-1975-1038-953	dry up, ebb	v.	dry up, ebb	(ku)pwa		
 955	Nurse-1975-1038-954	beach, coast	n.	beach, coast	pwani	1525	COAST
 956	Nurse-1975-1038-955	listen	v.	listen	(ku)sikiliza	1608	LISTEN
 957	Nurse-1975-1038-956	rest, take a holiday	v.	rest, take a holiday	(ku)pumzika		
 958	Nurse-1975-1038-957	exercise; drive out a devil	v.	exercise; drive out a devil//exercise, drive out a devil (-	(ku)punga (pepo)		
-959	Nurse-1975-1038-958	wave, let off a trap, remove a	v.	wave, let off a trap, remove a	(ku)tegua	978	WAVE
+959	Nurse-1975-1038-958	wave, let off a trap, remove a	v.	wave, let off a trap, remove a	(ku)tegua		
+959a	Nurse-1975-1038-958a	sprain the ankle	v.	sprain the ankle	(ku)tegua mguu		
 960	Nurse-1975-1038-959	jealousy	v.	sprain the angkle//jealousy	wivu	2016	JEALOUSY
-961	Nurse-1975-1038-960	ostrich	n.	ostrich	mbuni		
+961	Nurse-1975-1038-960	ostrich	n.	ostrich	mbuni	3797	OSTRICH
 962	Nurse-1975-1038-961	new	n.	new	-pya	1231	NEW
-963	Nurse-1975-1038-962	charm (esp. to ensure wife's f	n.	charm (esp. to ensure wife's f	tego	1271	DELIGHT
+963	Nurse-1975-1038-962	charm (esp. to ensure wife's f	n.	charm (esp. to ensure wife's f	tego		
 964	Nurse-1975-1038-963	rest the cheek on the hand (in	v.	rest the cheek on the hand (in	(ku)shika tama		
-965	Nurse-1975-1038-964	spring, machine	n.	spring, machine	mtambo	144	MACHINE
+965	Nurse-1975-1038-964	spring, machine	n.	spring, machine	mtambo		
 966	Nurse-1975-1038-965	small cucumber	n.	small cucumber	tango		
 967	Nurse-1975-1038-966	slip, be slippery	v.	slip, be slippery	(ku)teleza	1324	SLIP
 968	Nurse-1975-1038-967	shiver, shudder	v.	shiver, shudder	(ku)tapa	52	SHIVER
 969	Nurse-1975-1038-968	put a pot on the fire	v.	put a pot on the fire	(ku)teleka		
 970	Nurse-1975-1038-969	slash	v.	slash	(ku)tema		
+970a	Nurse-1975-1038-969a	cut firewood	v.	cut firewood	(ku)tema kuni		
 971	Nurse-1975-1038-970	be settled, be in good order	v.	cut firewood//be settled, be in good order	(ku)tengenea		
 972	Nurse-1975-1038-971	be listless	v.	be listless	(ku)tepetea		
-973	Nurse-1975-1038-972	be loose, faint, weak	v.	be loose, faint, weak	(ku)legea	1601	WEAK
+973	Nurse-1975-1038-972	be loose, faint, weak	v.	be loose, faint, weak	(ku)legea		
 974	Nurse-1975-1038-973	place, put	v.	place, put	(ku)tia	998	PUT
-975	Nurse-1975-1038-974	be left over, remain over	v.	be left over, remain over	(ku)saa, (ku)salia		
+975	Nurse-1975-1038-974	be left over, remain over	v.	be left over, remain over	(ku)saa, (ku)salia	987	REMAIN
 976	Nurse-1975-1038-975	set up, appoint	v.	set up, appoint	(ku)simika		
 977	Nurse-1975-1038-976	long straight hair (of animals	n.	long straight hair (of animals	usinga		
 978	Nurse-1975-1038-977	tingle with excitement	v.	tingle with excitement	(ku)sisimika		
 979	Nurse-1975-1038-978	mud, mire	n.	mud, mire	33//tope	640	MUD
-980	Nurse-1975-1038-979	sink, be drowned	v.	sink, be drowned	(ku)tota	1088	SINK (DESCEND)
-981	Nurse-1975-1038-980	put together, compose	v.	put together, compose	(ku)tunga	1743	JOIN
+980	Nurse-1975-1038-979	sink, be drowned	v.	sink, be drowned	(ku)tota		
+981	Nurse-1975-1038-980	put together, compose	v.	put together, compose	(ku)tunga		
 982	Nurse-1975-1038-981	strike with a spear	v.	strike with a spear (=fumo)//strike with a spear	(ku)fuma (fumo)		
 983	Nurse-1975-1038-982	want, need, wish	v.	want, need, wish	(ku)taka	1784	WANT
 984	Nurse-1975-1038-983	open	v.	open	(ku)fungua	1156	OPEN
@@ -989,7 +1004,7 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 989	Nurse-1975-1038-988	apply by stretching, spread ov	v.	apply by stretching spread ove//apply by stretching, spread ov	(ku)wamba		
 990	Nurse-1975-1038-989	hold, arrest	v.	held, arrest//hold, arrest	(ku)bamba		
 991	Nurse-1975-1038-990	squeeze oneself up against wal	v.	squeeze oneself up against wal//squeeze onself up against a wa	(ku)jibanza		
-992	Nurse-1975-1038-991	put, place, set	v.	put, place, set	(ku)weka	160	SET (HEAVENLY BODIES)
+992	Nurse-1975-1038-991	put, place, set	v.	put, place, set	(ku)weka		
 993	Nurse-1975-1038-992	carry a child on the back (in	v.	carry a child on the back (in//carry a child on the back	(ku)beba	2153	CARRY PERSON ON BACK
 994	Nurse-1975-1038-993	unripe, uncooked	n.	unripe, uncooked	-bichi		
 995	Nurse-1975-1038-994	be owed by	v.	be owed by	(ku)wia		
@@ -1006,13 +1021,13 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 1006	Nurse-1975-1038-1005	the lesser rains	n.	the lesser rains	mvuli		
 1007	Nurse-1975-1038-1006	reap	v.	reap	(ku)vuna		
 1008	Nurse-1975-1038-1007	be born	v.	be born	(ku)zaliwa	1090	BE BORN
-1009	Nurse-1975-1038-1008	cowrie shell	n.	cowrie shell	kauri		
-1010	Nurse-1975-1038-1009	weak	n.	weak	dhaifu	1601	WEAK
+1009	Nurse-1975-1038-1008	cowrie shell	n.	cowrie shell	kauri	3663	COWRIE SHELL
+1010	Nurse-1975-1038-1009	weak	n.	weak	dhaifu		
 1011	Nurse-1975-1038-1010	leave over	v.	leave over	(ku)bakiza		
 1012	Nurse-1975-1038-1011	be round	v.	be round	(ku)viringana	1395	ROUND
 1013	Nurse-1975-1038-1012	idleness, sloth	n.	idleness, sloth	uvivu	2446	SLOTH
 1014	Nurse-1975-1038-1013	plunge into, cause to sink	v.	plunge into, cause to sink	(ku)tosa		
-1015	Nurse-1975-1038-1014	weight, rhythm	n.	weight, rhythm	uzani	2466	WEIGHT
+1015	Nurse-1975-1038-1014	weight, rhythm	n.	weight, rhythm	uzani		
 1016	Nurse-1975-1038-1015	I	n.	I	mimi	1209	I
 1017	Nurse-1975-1038-1016	we	n.	we	sisi	1212	WE
 1018	Nurse-1975-1038-1017	you (pl.)	n.	you (pl.)	ninyi	1213	YOU
@@ -1025,10 +1040,10 @@ NUMBER	ID	ENGLISH	POS	LEXIBANK_GLOSS	SWAHILI	CONCEPTICON_ID	CONCEPTICON_GLOSS
 1025	Nurse-1975-1038-1024	leaf (of tree)	n.	leaf (tree)//leaf (of tree)	jani	628	LEAF
 1026	Nurse-1975-1038-1025	mouth	n.	mouth	mdomo	674	MOUTH
 1027	Nurse-1975-1038-1026	die	v.	die	(ku)fa	1494	DIE
-1028	Nurse-1975-1038-1027	fly	v.	fly	(ku)ruka		
+1028	Nurse-1975-1038-1027	fly	v.	fly	(ku)ruka	1441	FLY (MOVE THROUGH AIR)
 1029	Nurse-1975-1038-1028	stand	v.	stand	(ku)simama	1442	STAND
 1030	Nurse-1975-1038-1029	milk	n.	milk	33//maziwa	635	MILK
-1031	Nurse-1975-1038-1030	resemble	n.	resemble	(ku)fanana	1777	RESEMBLE
+1031	Nurse-1975-1038-1030	resemble	n.	resemble	(ku)fanana		
 1032	Nurse-1975-1038-1031	foam	n.	foam	povu	1768	FOAM
 1033	Nurse-1975-1038-1032	sew	v.	sew	(ku)shona	1457	SEW
 1034	Nurse-1975-1038-1033	tie (=fasten)	v.	tie (fasten)//tie (=fasten)	(ku)funga	1917	TIE
