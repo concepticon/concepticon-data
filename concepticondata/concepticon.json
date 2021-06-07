@@ -323,6 +323,26 @@
              "ukra1253",
              "uk"
         ],
+        "WOLOF": [
+             "languoid",
+             "nucl1347",
+             "wo"
+        ],
+        "MARATHI": [
+             "languoid",
+             "mara1378",
+             "mr"
+        ],
+        "VIETNAMESE": [
+             "languoid",
+             "viet1252",
+             "vi"
+        ],
+        "KHOEKHOE": [
+             "languoid",
+             "khoe1242",
+             null
+        ],
         "FREQUENCY": "decimal",
         "RANK": "integer",
         "*SCORE": "decimal"

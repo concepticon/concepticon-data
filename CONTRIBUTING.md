@@ -40,9 +40,10 @@ If you link a concept list manually, we will check automatically and manually th
   - ID: an identifier, following the schema FirstAuthor-Year-NumberOfItems-Number
   - NUMBER: a number for each item of your list which corresponds to the ID 
   - ENGLISH or GLOSS: use ENGLISH, if the original language is ENGLISH; use GLOSS, if the original entry of the concept label is another language and the gloss is your translation
-  - CONCEPTICON_ID: either a valid id of our Concepticon, or an empty field, if you don't know how to map it (we automatically compute the amount of missing links and badge them for each concept list)
-  - CONCEPTICON_GLOSS: the corresponding gloss
-  Apart from this, you can add as many further columns as you want. Here, we have further conventions:
+  - CONCEPTICON_ID: either a valid id of our Concepticon, or an empty field, if you don't know how to map it (we automatically compute the amount of missing links and indicate them for each concept list)
+  - CONCEPTICON_GLOSS: the gloss corresponding to the CONCEPTICON_ID
+
+Apart from this, you can add as many further columns as you want. Here, we have further conventions:
   - if you have translations of the gloss in different languages, label them accordingly (CHINESE, FRENCH, etc.)
   - if you have a ranked list, provide the RANK as an integer and name the field RANK
   - there are further "soft" conventions e.g. concerning the way additional metadata are handled, which you can inspect by having a look at the different concept lists which are already mapped (see for example [Luniewska-2016-299.tsv](https://github.com/concepticon/concepticon-data/blob/master/concepticondata/conceptlists/Luniewska-2016-299.tsv) and [the associcated metadata file](https://github.com/concepticon/concepticon-data/blob/master/concepticondata/conceptlists/Luniewska-2016-299.tsv-metadata.json))
@@ -50,7 +51,18 @@ If you link a concept list manually, we will check automatically and manually th
 * a description of the basic characteristics of the list in the file [conceptlists.tsv](https://github.com/concepticon/concepticon-data/blob/master/concepticondata/conceptlists.tsv). Here, we recommend you to either contact us if there are further questions, or to just look up how we usually encode the respective values. Not all information is required, but it is our goal to always try to fill out as many cells for a new concept list as possible. 
 * if you have a scan of your list which does not fall under the copyright law (no full books, but pages in which one can see the concept lists should be acceptable), please label it as BibTexKey.pdf and put it in the folder [sources](https://github.com/concepticon/concepticon-data/tree/master/concepticondata/sources)
 
-If you feel that you need to add new concepts which are currently missing in the CLLD Concepticon, please contact us, and we will provide you with the relevant information on how to add new concept set identifiers. Please also do not hesitate to ask us if there are any further questions.
+If you feel that you need to add new concepts which are currently missing in
+Concepticon, please contact us, and we will provide you with the relevant
+information on how to add new concept set identifiers. Generally speaking, the
+process of adding new concepts can be done by:
+
+  - closely inspecting [the current list of concepts in Concepticon](https://github.com/concepticon/concepticon-data/blob/master/concepticondata/concepticon.tsv) and deciding whether a new concept is in fact required
+  - adding a new concept at the end of the list, with [a semantic field](https://github.com/concepticon/concepticon-data/blob/52c789ecd2cc20cdeb3433e2b945f6f4bf53d9ad/concepticondata/concepticon.json#L27-L51), a
+    definition, and [an ontological category](https://github.com/concepticon/concepticon-data/blob/52c789ecd2cc20cdeb3433e2b945f6f4bf53d9ad/concepticondata/concepticon.json#L53-L59)
+  - checking whether the newly added concept can be applied to existing lists
+    with: `concepticon notlinked --gloss "NEW_CONCEPT_GLOSS"`
+
+Please do not hesitate to ask us if there are any further questions.
 
 ### Using automatic mapping software
 
