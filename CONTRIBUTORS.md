@@ -55,6 +55,7 @@ Alexei Kassian | D | 1.0
 Andreea Calude | D | 1.1
 Andrew Hsiu | DM | 2.3
 Andrew Kitchen | D | 1.0
+András Kornai | M | 2.5
 Andy Castro | T | 2.0, 2.2
 Anja Gampe | D | 1.1
 Anthony Grant | MS | 1.1
