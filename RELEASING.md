@@ -27,11 +27,16 @@ to normalize them for import:
   ```shell script
   concepticon make_linkdata
   ```
+- Check and/or update `metadata.json` (which is read via
+  `clldutils.apilib.API.dataset_metadata`)
 
-- Recreate `.zenodo.json`:
+- Afterwards, recreate `.zenodo.json`:
   ```shell script
   concepticon citation --version vX.Y.Z
   ```
+
+- Verify that `.zenodo.json` contains the (potentially) updated information from
+  `metadata.json`
 
 - Make sure all changes are pushed and merged into the `master` branch.
 - Make sure all tests pass, and also address warnings about missing PDFs (see [handling source PDFs](#upload_sources))
