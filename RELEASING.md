@@ -12,7 +12,7 @@ Creating a release comprises the following tasks:
   concepticon notlinked
   ```
 
-- Run [bibtool](http://www.gerd-neugebauer.de/software/TeX/BibTool/en/) on the references 
+- Run [bibtool](http://www.gerd-neugebauer.de/software/TeX/BibTool/en/) on the references
 to normalize them for import:
   ```shell script
   bibtool -r concepticondata/references/bibtool.rsc -o concepticondata/references/references.bib concepticondata/references/references.bib
@@ -47,7 +47,7 @@ to normalize them for import:
 - Make sure the data in `master` can be imported into the web app `clld/concepticon` by running
   ```shell script
   cd ../concepticon
-  clld initdb development.ini concepticon.clld.org
+  clld initdb development.ini
   ```
   and observing that all tests pass for the web app.
 
@@ -59,7 +59,7 @@ to normalize them for import:
   git push origin --tags
   ```
 
-- Draft a release via GitHub UI 
+- Draft a release via GitHub UI
   - picking the correct tag, e.g. `v1.1.0`
   - using `CLLD Concepticon <version>` as the title
   - and giving the citation obtained running `concepticon citation` as release description.
