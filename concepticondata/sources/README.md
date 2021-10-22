@@ -24,6 +24,7 @@
 - [ConradandDye1975 [PDF 359.8KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-53C9-0FB7-E352-0/ConradandDye1975.pdf)
 - [Cross1964 [PDF 770.6KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-1DC5-ACF0-4FCC-0/Cross1964.pdf)
 - [DaCosta2016 [PDF 90.5KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-B8C2-6659-EA50-0/DaCosta2016.pdf)
+- [Daniel2021 [PDF 80.2KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-2D3D-32B7-216C-0/Daniel2021.pdf)
 - [Daniels2016 [PDF 132.8KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-E0F9-102F-27A0-0/Daniels2016.pdf)
 - [Davies1985 [PDF 1.9MB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-5435-1785-476C-0/Davies1985.pdf)
 - [Davletshin2012 [PDF 69.3KB]](https://cdstar.shh.mpg.de/bitstreams/EAEA0-BE27-1E57-EF4B-0/Davletshin2012.pdf)
