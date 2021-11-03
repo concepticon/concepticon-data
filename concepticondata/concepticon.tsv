@@ -2260,7 +2260,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2259	FLESH	The body	The soft substance in the body of living things.	Person/Thing	
 2260	FEMALE (OF PERSON)	Kinship	Relating to the female sex of humans.	Property	
 2261	MALE (OF PERSON)	Kinship	Relating to the male sex of humans.	Property	
-2262	FEMALE (OF ANIMAL)	Animals	Relating to the female sex of animals.	Property	
+2262	FEMALE (OF ANIMAL)	Animals	Relating to the female sex of animals (adjective).	Property	
 2263	MALE (OF ANIMAL)	Animals	Relating to the male sex of animals.	Property	
 2264	DAUGHTER-IN-LAW (OF WOMAN)	Kinship	The daughter-in-law of a woman.	Person/Thing	
 2265	DAUGHTER-IN-LAW (OF MAN)	Kinship	The daughter-in-law of a man.	Person/Thing	
@@ -3906,3 +3906,5 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3920	GENIPA	Agriculture and vegetation	Either a species of trees in the family Rubiaceae native to the tropical forests of Americas or its fruit (also referred to as “genipap”). A Genipa tree typically has large smooth or hairy leaves and ovoid-shaped fruit with large and flat seeds.	Person/Thing	
 3921	TINAMOU	Animals	Any of the 47 sedentary, ground-dwelling bird species of the order Tinamiformes found in Central and South America. It bears a strong resemblance to patridges but has limited flight capability.	Person/Thing	
 3922	PACU	Animals	A freshwater species of fish belonging to the family Serrasalmidae and related to piranha.	Person/Thing	
+3923	FEMALE ANIMAL	Animals	A female animal (Noun)	Property	
+3924	MALE ANIMAL	Animals	A male animal (Noun)	Property	
