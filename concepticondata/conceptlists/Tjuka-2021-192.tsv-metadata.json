@@ -46,6 +46,17 @@
                     {
                         "datatype": "string",
                         "name": "TAG"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "BROADER_CONCEPT"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": 1
+                        },
+                        "name": "BROADER_ID"
                     }
                 ],
                 "primaryKey": [
