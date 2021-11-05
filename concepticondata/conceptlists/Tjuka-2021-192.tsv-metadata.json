@@ -49,6 +49,7 @@
                     },
                     {
                         "datatype": "string",
+                        "separator": " // ",
                         "name": "BROADER_CONCEPT"
                     },
                     {
@@ -56,6 +57,7 @@
                             "base": "integer",
                             "minimum": 1
                         },
+                        "separator": " // ",
                         "name": "BROADER_ID"
                     }
                 ],
