@@ -75,15 +75,15 @@
                         "name": "AGE_SCORE"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": "float", 
                         "name": "BORROWING_SCORE"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": "float", 
                         "name": "SIMPLICITY_SCORE"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": "float", 
                         "name": "REPRESENTATION"
                     }, 
                     {
