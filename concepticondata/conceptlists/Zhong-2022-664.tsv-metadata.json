@@ -1,0 +1,202 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dialect": {
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        },
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        },
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CHINESE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CHINESE_TRADITIONAL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CHINESE_PINYIN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "POS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SEMANTIC_RADICAL_1"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CHARACTER_TYPE_1"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SEMANTIC_RADICAL_2"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CHARACTER_TYPE_2"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "VISUAL_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "AUDITORY_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GUSTATORY_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "OLFACTORY_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "HAPTIC_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "INTEROCEPTIVE_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "PERCEPTUAL_MEAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "PERCEPTUAL_DOMINANT"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "PERCEPTUAL_STRENGTH_MAX"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "PERCEPTUAL_STRENGTH_AGGREGATED"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "PERCEPTUAL_STRENGTH_SUM"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "PERCEPTUAL_EXCLUSIVITY"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "FOOT_ACTION_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "HAND_ACTION_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "MOUTH_ACTION_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "HEAD_ACTION_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "TORSO_ACTION_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "ACTION_STRENGTH_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "ACTION_STRENGTH_SUM"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "ACTION_STRENGTH_MAX"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "ACTION_STRENGTH_AGGREGATED"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "ACTION_EXCLUSIVITY"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ACTION_DOMINANT"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "SENSORIMOTOR_STRENGTH_MAX"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SENSORIMOTOR_DOMINANT"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "SENSORIMOTOR_STRENGTH_AGGREGATED"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "SENSORIMOTOR_STRENGTH_SUM"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "SENSORIMOTOR_EXCLUSIVITY"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCRETE_ABSTRACT"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "Zhong-2022-664.tsv"
+        }
+    ]
+}
