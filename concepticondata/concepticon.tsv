@@ -346,7 +346,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 345	SAP	Agriculture and vegetation	The juice of plants of any kind, especially the ascending and descending juices or circulating fluid essential to nutrition.	Person/Thing	
 346	BANYAN	Agriculture and vegetation	A tropical Indian fig tree, Ficus benghalensis, that has many aerial roots.	Person/Thing	
 347	SORGHUM	Agriculture and vegetation	A cereal, Sorghum vulgare or Sorghum bicolor, the grains of which are used to make flour and as cattle feed.	Person/Thing	
-348	FISH POISON	Agriculture and vegetation	In Amazonia, a kind of root is apparently used as fish poison.	Person/Thing	
+348	FISH POISON	Warfare and hunting	In Amazonia, a kind of root is apparently used as fish poison.	Person/Thing	
 349	ACHIOTE	Agriculture and vegetation	A derivative of the achiote trees of tropical regions of the Americas used as a red food coloring and as a flavoring.	Person/Thing	
 350	MANGROVE	Agriculture and vegetation	Any of various tropical evergreen trees or shrubs that grow in shallow coastal water; Plants of the Rhizophoraceae family and/or of the genus Rhizophora.	Person/Thing	
 351	TARO	Agriculture and vegetation	Colocasia esculenta, raised as a food primarily for its corm, which distantly resembles potato.	Person/Thing	
@@ -1308,7 +1308,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1307	LANGUAGE	Speech and language	A system of communication using the spoken or signed word or using symbols that represent words, signs or sounds.	Person/Thing	
 1308	DOUBT	Cognition	Uncertainty about the truth or accuracy of a matter.	Person/Thing	
 1309	ASK (INQUIRE)	Speech and language	To ask (a question) to somebody; to seek an answer to.	Action/Process	
-1310	CLEVER	Emotions and values	Mentally agile.	Property	
+1310	CLEVER	Cognition	Mentally agile.	Property	
 1311	VERY	Miscellaneous function words	To a high or large degree.	Other	
 1312	FOX	Animals	A carnivorous relatively small canine of the species Vulpes Vulpes.	Person/Thing	
 1313	MOON	The physical world	A natural satellite of a planet.	Person/Thing	
@@ -2046,7 +2046,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2045	COLUMN	The house	An upright supporting beam.	Person/Thing	
 2046	APRON	Clothing and grooming	A piece of cloth or plastic, worn over the front of the clothes for protection against dirt.	Person/Thing	
 2047	STRAW SANDAL	Clothing and grooming	An open type of outdoor footwear leaving most of the upper part of the foot exposed, particularly the toes.	Person/Thing	
-2048	QUILT	Clothing and grooming	To stitch or sew together.	Person/Thing	
+2048	QUILT	Clothing and grooming	To stitch or sew together.	Action/Process	
 2049	CONGEE	Food and drink	A type of rice porridge or gruel popular in many Asian countries	Person/Thing	
 2050	ALCOHOL (DRINK)	Food and drink	A drink (a liquor or brew) containing ethanol, commonly known as alcohol.	Person/Thing	404
 2051	DUSTPAN	Basic actions and technology	A cleaning utensil, commonly used in combination with a broom or brush.	Person/Thing	
@@ -2333,7 +2333,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2332	THREE DAYS FROM NOW	Time	Three days from today.	Other	
 2333	THREE DAYS BEFORE NOW	Time	Three days before today.	Other	
 2334	MELT	The physical world	To make a transition from a solid state (as of frozen water) to a liquid state.	Action/Process	
-2335	CUNNING	Emotions and values	To be smart and witty.	Property	
+2335	CUNNING	Cognition	To be smart and witty.	Property	
 2336	OF THIS KIND (SUCH)	Miscellaneous function words	In this way, such, etc.	Other	
 2337	OF THAT KIND (SUCH)	Miscellaneous function words	In that way, such, etc.	Other	
 2338	HOW LONG	Time	Asking for the duration of an event.	Other	
@@ -2505,7 +2505,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2504	DIFFERENT	Social and political relations	To be not the same as something else.	Property	
 2505	BEDROOM	The house	The area where people sleep.	Person/Thing	
 2506	LOOSE	Basic actions and technology	Being not tight.	Property	
-2507	DISGUSTING	Basic actions and technology	Creating disgust in somebody.	Property	
+2507	DISGUSTING	Emotions and values	Creating disgust in somebody.	Property	
 2508	PANGOLIN	Animals	Mammals of the order Pholidota. The one extant family, Manidae, has three genera: Manis which comprises four species living in Asia, Phataginus which comprises two species living in Africa, and Smutsia which comprises two species also living in Africa.	Person/Thing	
 2509	EXCHANGE	Basic actions and technology	To hand out one thing while receiving another thing or to replace one thing with another.	Action/Process	
 2510	PORCUPINE	Animals	Rodents with a coat of sharp spines, or quills, that protect against predators.	Person/Thing	
@@ -2994,7 +2994,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 2998	DAMP	Sense perception	Refers to the presence of a liquid, especially water, often in trace amounts.	Property	
 2999	EVERYWHERE	Spatial relations	In all places.	Other	
 3000	LIVING	The body	Being alive.	Property	1422
-3001	POWERFUL	Emotions and values	Being done using a huge amount of energy.	Property	
+3001	POWERFUL	Basic actions and technology	Being done using a huge amount of energy.	Property	
 3002	PRECIOUS	Emotions and values	Being dear or important to somebody.	Property	
 3003	SOLID	Sense perception	Firm to the touch.	Property	
 3004	FORMER	Time	Coming before in time.	Other	
@@ -3417,7 +3417,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3431	RICE STEAMER	Food and drink	A device to steam rice.	Person/Thing	
 3432	SHOULDER POLE	Basic actions and technology	A pole that is used to carry things on the shoulder.	Person/Thing	
 3433	AUTONYM (OF PEOPLE)	Social and political relations	The identity term that a group of people uses to refer to themselves as the members of an ethnic group or nation.	Person/Thing	
-3434	WASH (CLOTHES)	Basic actions and technology	To clean pieces of clothing by using water and supplementary cleansing products as a part of hygiene routine. 	Person/Thing	2503
+3434	WASH (CLOTHES)	Basic actions and technology	To clean pieces of clothing by using water and supplementary cleansing products as a part of hygiene routine. 	Action/Process	2503
 3435	COW DUNG	Animals	The faeces of a cow.	Person/Thing	
 3436	FAT MEAT	Food and drink	Any animal meat with a higher fat content.	Person/Thing	
 3437	OPEN (MOUTH)	Basic actions and technology	To move one's jaw(s) in a way that the oral cavity becomes partially or fully visible.	Action/Process	
@@ -3841,7 +3841,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3855	ITCH (CAUSE ITCHING OR FEEL ITCHY)	The body	To have an unpleasant sensation on the skin that provokes the need to scratch; to be the cause of this sensation.	Action/Process	
 3856	ITCH OR ITCHY OR ITCHING	The body	To have an unpleasant sensation on the skin that provokes the need to scratch or to be the cause of this sensation; the result of itching, i.e. an unpleasant sensation on the skin, or the property of having or producing such a sensation.	Other	
 3857	EGGSHELL	Animals	The calcareous covering protecting the inside of an egg.	Person/Thing	
-3858	CONFUSED	Emotions and values	Being in a state of not exactly knowing or understanding what is happening; bewildered; perplexed.	Property	
+3858	CONFUSED	Cognition	Being in a state of not exactly knowing or understanding what is happening; bewildered; perplexed.	Property	
 3859	MIDWIFE	Social and political relations	A person, usually a woman, who helps women in childbirth and provides ante- and postnatal care.	Person/Thing	
 3860	POSSESSIONS	Possession	The totality of things that someone owns; their property or belongings.	Person/Thing	
 3861	FAIL	Basic actions and technology	Not succeeding in an endeavour (of persons) or to stop working as intended (of objects).	Action/Process	
