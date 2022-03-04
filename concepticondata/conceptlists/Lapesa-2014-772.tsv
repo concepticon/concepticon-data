@@ -273,7 +273,7 @@ Lapesa-2014-772-271	271	forgive	verb	1528	FORGIVE	453:to-pardon-to-forgive:1 458
 Lapesa-2014-772-272	272	foul	adjective			56:gross-foul:1	←301	poli2	freqMax	LOW	SYN	3.5	4.4
 Lapesa-2014-772-273	273	free	verb	2316	FREE	301:to-confine-to-free:1 304:to-confine-to-free:1 315:to-constrict-to-free:1 318:to-constrict-to-free:1	←129 ←129 ←137 ←137	poli3 poli3 poli2 poli2	freqMax freqMax freqMin freqMin	NOT HIGH NOT HIGH	SYN ANT HYP ANT	0.1 5 0 4.8	0.1 4.9 0.1 4.7
 Lapesa-2014-772-274	274	freedom	noun			645:commitment-freedom:1	←118	poli3	freqMax	LOW	ANT	3.1	3
-Lapesa-2014-772-275	275	friendship	noun			792:rivalry-friendship:1	←560	poli1	freqMed	NOT	SYN	0	0.1
+Lapesa-2014-772-275	275	friendship	noun	3954	FRIENDSHIP (FEELING)	792:rivalry-friendship:1	←560	poli1	freqMed	NOT	SYN	0	0.1
 Lapesa-2014-772-276	276	frown	verb			494:to-simper-to-frown:1	←601	poli1	freqMin	HIGH	ANT	3.1	2.9
 Lapesa-2014-772-277	277	frugal	adjective			168:thrifty-frugal:1 169:thrifty-frugal:1 171:thrifty-frugal:1	←666 ←666 ←666	poli3 poli3 poli3	freqMin freqMin freqMin	LOW NOT HIGH	HYP ANT SYN	4.2 0.9 4.7	4.25 0 5
 Lapesa-2014-772-278	278	fruit	noun	1507	FRUIT	630:blueberry-fruit:1 726:kiwi-fruit:1 831:tomato-fruit:1 834:tomato-fruit:1	←71 ←380 ←670 ←670	poli2 poli3 poli2 poli2	freqMin freqMin freqMax freqMax	HIGH HIGH HIGH HIGH	HYP SYN HYP SYN	5 3 4.6 2.7	5 2.9 4.4 2.1
