@@ -45,191 +45,191 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "word_id"
+                        "name": "WORD_ID"
                     },
                     {
                         "datatype": "string",
-                        "name": "Chinese"
+                        "name": "CHINESE"
                     },
                     {
                         "datatype": "string",
-                        "name": "gram_class"
+                        "name": "GRAM_CLASS"
                     },
                     {
                         "datatype": "string",
-                        "name": "word type_2 subtypes"
+                        "name": "WORD TYPE_2 SUBTYPES"
                     },
                     {
                         "datatype": "string",
-                        "name": "word type_5 subtypes"
+                        "name": "WORD TYPE_5 SUBTYPES"
                     },
                     {
                         "datatype": "string",
-                        "name": "ISC_Brain_ObjNObj"
+                        "name": "ISC_BRAIN_OBJNOBJ"
                     },
                     {
                         "datatype": "string",
-                        "name": "ISC_Brain_ObjNObj_SE"
+                        "name": "ISC_BRAIN_OBJNOBJ_SE"
                     },
                     {
                         "datatype": "string",
-                        "name": "ISC_Brain_wordNeurosynth"
+                        "name": "ISC_BRAIN_WORDNEUROSYNTH"
                     },
                     {
                         "datatype": "string",
-                        "name": "ISC_Brain_wordNeurosynth_SE"
+                        "name": "ISC_BRAIN_WORDNEUROSYNTH_SE"
                     },
                     {
                         "datatype": "string",
-                        "name": "ISC_Brain_ObjEmoNObjNENObj"
+                        "name": "ISC_BRAIN_OBJEMONOBJNENOBJ"
                     },
                     {
                         "datatype": "string",
-                        "name": "ISC_Brain_ObjEmoNObjNENObj_SE"
+                        "name": "ISC_BRAIN_OBJEMONOBJNENOBJ_SE"
                     },
                     {
                         "datatype": "string",
-                        "name": "ISC_Brain_ObjNObj_leave2_top300"
+                        "name": "ISC_BRAIN_OBJNOBJ_LEAVE2_TOP300"
                     },
                     {
                         "datatype": "string",
-                        "name": "ISC_Brain_leave2_top300_SE"
+                        "name": "ISC_BRAIN_LEAVE2_TOP300_SE"
                     },
                     {
                         "datatype": "string",
-                        "name": "ISC_behavior"
+                        "name": "ISC_BEHAVIOR"
                     },
                     {
                         "datatype": "string",
-                        "name": "ISC_behavior_subjectSE"
+                        "name": "ISC_BEHAVIOR_SUBJECTSE"
                     },
                     {
                         "datatype": "string",
-                        "name": "ISC_behavior_wordSE"
+                        "name": "ISC_BEHAVIOR_WORDSE"
                     },
                     {
                         "datatype": "string",
-                        "name": "Mean_Language_Sensory"
+                        "name": "MEAN_LANGUAGE_SENSORY"
                     },
                     {
                         "datatype": "string",
-                        "name": "Mean_Language"
+                        "name": "MEAN_LANGUAGE"
                     },
                     {
                         "datatype": "string",
-                        "name": "Mean_Sensory"
+                        "name": "MEAN_SENSORY"
                     },
                     {
                         "datatype": "string",
-                        "name": "Mean_Navigation"
+                        "name": "MEAN_NAVIGATION"
                     },
                     {
                         "datatype": "string",
-                        "name": "Mean_Manipulation"
+                        "name": "MEAN_MANIPULATION"
                     },
                     {
                         "datatype": "string",
-                        "name": "Mean_Stress"
+                        "name": "MEAN_STRESS"
                     },
                     {
                         "datatype": "string",
-                        "name": "Mean_Arousal"
+                        "name": "MEAN_AROUSAL"
                     },
                     {
                         "datatype": "string",
-                        "name": "Mean_Valence"
+                        "name": "MEAN_VALENCE"
                     },
                     {
                         "datatype": "string",
-                        "name": "SD_Language"
+                        "name": "SD_LANGUAGE"
                     },
                     {
                         "datatype": "string",
-                        "name": "SD_Sensory"
+                        "name": "SD_SENSORY"
                     },
                     {
                         "datatype": "string",
-                        "name": "SD_Navigation"
+                        "name": "SD_NAVIGATION"
                     },
                     {
                         "datatype": "string",
-                        "name": "SD_Manipulation"
+                        "name": "SD_MANIPULATION"
                     },
                     {
                         "datatype": "string",
-                        "name": "SD_Stress"
+                        "name": "SD_STRESS"
                     },
                     {
                         "datatype": "string",
-                        "name": "SD_Arousal"
+                        "name": "SD_AROUSAL"
                     },
                     {
                         "datatype": "string",
-                        "name": "SD_Valence"
+                        "name": "SD_VALENCE"
                     },
                     {
                         "datatype": "string",
-                        "name": "MeanRatings_PC1"
+                        "name": "MEANRATINGS_PC1"
                     },
                     {
                         "datatype": "string",
-                        "name": "MeanRatings_PC2"
+                        "name": "MEANRATINGS_PC2"
                     },
                     {
                         "datatype": "string",
-                        "name": "SDRatings_PC1"
+                        "name": "SDRATINGS_PC1"
                     },
                     {
                         "datatype": "string",
-                        "name": "SDRatings_PC2"
+                        "name": "SDRATINGS_PC2"
                     },
                     {
                         "datatype": "string",
-                        "name": "Number_of_Strokes"
+                        "name": "NUMBER_OF_STROKES"
                     },
                     {
                         "datatype": "string",
-                        "name": "Subjective_Familiarity"
+                        "name": "SUBJECTIVE_FAMILIARITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "log_word_frequency"
+                        "name": "LOG_WORD_FREQUENCY"
                     },
                     {
                         "datatype": "string",
-                        "name": "log_Char1Freq"
+                        "name": "LOG_CHAR1FREQ"
                     },
                     {
                         "datatype": "string",
-                        "name": "log_AVG_Char_Freq"
+                        "name": "LOG_AVG_CHAR_FREQ"
                     },
                     {
                         "datatype": "string",
-                        "name": "log_Char1SRFreq"
+                        "name": "LOG_CHAR1SRFREQ"
                     },
                     {
                         "datatype": "string",
-                        "name": "log_AVG_SRFreq"
+                        "name": "LOG_AVG_SRFREQ"
                     },
                     {
                         "datatype": "string",
-                        "name": "Mean_LanguageSensory_cov_MeanArousalValence"
+                        "name": "MEAN_LANGUAGESENSORY_COV_MEANAROUSALVALENCE"
                     },
                     {
                         "datatype": "string",
-                        "name": "behav_ISC_cov_MeanArousalValence"
+                        "name": "BEHAV_ISC_COV_MEANAROUSALVALENCE"
                     },
                     {
                         "datatype": "string",
-                        "name": "ObjNObj_overall_activation"
+                        "name": "OBJNOBJ_OVERALL_ACTIVATION"
                     },
                     {
                         "datatype": "string",
-                        "name": "wordNeurosynth_overall_activation"
+                        "name": "WORDNEUROSYNTH_OVERALL_ACTIVATION"
                     },
                     {
                         "datatype": "string",
-                        "name": "ObjEmoNObjNENObj_overall_activation"
+                        "name": "OBJEMONOBJNENOBJ_OVERALL_ACTIVATION"
                     }
                 ],
                 "primaryKey": [
