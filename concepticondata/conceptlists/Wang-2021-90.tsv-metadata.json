@@ -1,0 +1,242 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dialect": {
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        },
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        },
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "WORD_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CHINESE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "GRAM_CLASS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "WORD TYPE_2 SUBTYPES"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "WORD TYPE_5 SUBTYPES"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ISC_BRAIN_OBJNOBJ"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ISC_BRAIN_OBJNOBJ_SE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ISC_BRAIN_WORDNEUROSYNTH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ISC_BRAIN_WORDNEUROSYNTH_SE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ISC_BRAIN_OBJEMONOBJNENOBJ"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ISC_BRAIN_OBJEMONOBJNENOBJ_SE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ISC_BRAIN_OBJNOBJ_LEAVE2_TOP300"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ISC_BRAIN_LEAVE2_TOP300_SE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ISC_BEHAVIOR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ISC_BEHAVIOR_SUBJECTSE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ISC_BEHAVIOR_WORDSE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MEAN_LANGUAGE_SENSORY"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MEAN_LANGUAGE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MEAN_SENSORY"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MEAN_NAVIGATION"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MEAN_MANIPULATION"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MEAN_STRESS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MEAN_AROUSAL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MEAN_VALENCE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SD_LANGUAGE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SD_SENSORY"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SD_NAVIGATION"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SD_MANIPULATION"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SD_STRESS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SD_AROUSAL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SD_VALENCE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MEANRATINGS_PC1"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MEANRATINGS_PC2"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SDRATINGS_PC1"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SDRATINGS_PC2"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NUMBER_OF_STROKES"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SUBJECTIVE_FAMILIARITY"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "LOG_WORD_FREQUENCY"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "LOG_CHAR1FREQ"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "LOG_AVG_CHAR_FREQ"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "LOG_CHAR1SRFREQ"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "LOG_AVG_SRFREQ"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MEAN_LANGUAGESENSORY_COV_MEANAROUSALVALENCE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "BEHAV_ISC_COV_MEANAROUSALVALENCE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "OBJNOBJ_OVERALL_ACTIVATION"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "WORDNEUROSYNTH_OVERALL_ACTIVATION"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "OBJEMONOBJNENOBJ_OVERALL_ACTIVATION"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "Wang-2021-90.tsv"
+        }
+    ]
+}

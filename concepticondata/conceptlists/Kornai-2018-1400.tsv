@@ -255,7 +255,7 @@ Kornai-2018-1400-253	253	2076	cell	N			sejt	cella	komórka	place/1026, HAS bord
 Kornai-2018-1400-254	254		centre	N	491	CENTER	közép	centrum	centrum	centre
 Kornai-2018-1400-255	255	1412	centre	N	491	CENTER	középpont	centrum	centrum	middle
 Kornai-2018-1400-256	256	2497	ceremony	N			ünnepély	sollemne	uroczystość	formal, act, <PART_OF religion>, tradition
-Kornai-2018-1400-257	257	567	certain	A	509	CERTAIN	egyes	quidam	pewien	 KNOW
+Kornai-2018-1400-257	257	567	certain	A	509	CERTAIN	egyes	quidam	pewien	KNOW
 Kornai-2018-1400-258	258	691	chance	N			esély	potestas	szansa	probability
 Kornai-2018-1400-259	259	2770	chance	N			véletlen			force, lack(knowledge) ABOUT, cause, lack(person LEAD/2617)
 Kornai-2018-1400-260	260	404	change	N			csere	mutatio	zmiana	
@@ -420,7 +420,7 @@ Kornai-2018-1400-418	418	815	earth	N			föld	terra	ziemia	planet, IN/2758 space
 Kornai-2018-1400-419	419	1380	easy	A	686	EASY	könnyű	facilis	łatwy	lack(difficult)
 Kornai-2018-1400-420	420	700	eat	V	1336	EAT	eszik	edo	jeść	=AGT CAUSE[=PAT IN/2758 mouth], swallow, =PAT[<food>], <bite/1001>, <chew>, =AGT HAS mouth
 Kornai-2018-1400-421	421	503	edge	N	863	EDGE	él	acies	kant	part, thin/2598, sharp, blade HAS, cut, instrument HAS
-Kornai-2018-1400-422	422	1014	effect	N			hatás	effectus	rezultat	<event> CAUSE
+Kornai-2018-1400-422	422	1014	effect	N	3968	EFFECT	hatás	effectus	rezultat	<event> CAUSE
 Kornai-2018-1400-423	423	1896	effect	V			okoz	efficio	powodować	cause
 Kornai-2018-1400-424	424	687	effort	N			erőfeszítés	labor	wysiłek	USE energy, attempt
 Kornai-2018-1400-425	425	2422	egg	N	744	EGG	tojás	ovum	jajo	food, round, animal[<hen>] MAKE, HAS thin/2598(shell)
@@ -554,7 +554,7 @@ Kornai-2018-1400-552	552	2507	glass	N	604	GLASS	üveg	vitrum	szkło	substance, 
 Kornai-2018-1400-553	553	1654	go	U	695	GO	megy	eo	iść	move, INSTRUMENT leg, =AGT HAS leg
 Kornai-2018-1400-554	554	175	gold	N	1369	GOLD	arany	aurum	złoto	metal, expensive, soft, yellow, coin FROM/2742, jewellery FROM/2742
 Kornai-2018-1400-555	555	2873	golf	N			golf			game, outdoor, ON course/1927, hole[many, far] AT/2744 course/1927, ball[small, hard], INSTRUMENT club/355, stroke/2749 PART_OF
-Kornai-2018-1400-556	556	1189	good	A	1035	GOOD	jó	bonus	dobry	 WANT
+Kornai-2018-1400-556	556	1189	good	A	1035	GOOD	jó	bonus	dobry	WANT
 Kornai-2018-1400-557	557	3022	goodbye	G			viszontlátásra			leave
 Kornai-2018-1400-558	558	92	goods	N			áru	merx	towary	product
 Kornai-2018-1400-559	559	1433	government	N	815	GOVERNMENT	kormány	gubernium	rzád	authority, country HAS, people IN/2758
@@ -584,7 +584,7 @@ Kornai-2018-1400-582	582	555	healthy	A	1364	HEALTHY	egészséges	sanus	zdrowy	
 Kornai-2018-1400-583	583	987	hear	U	1408	HEAR	hall	audio	słyszeć	=AGT PERCEIVE =PAT[sound/993], INSTRUMENT ear
 Kornai-2018-1400-584	584	1070	heat	N	612	HEAT	hő	calor	goráco	energy, warm
 Kornai-2018-1400-585	585	1772	heavy	A	1210	HEAVY	nehéz	gravis	cieźki	weight(ER')
-Kornai-2018-1400-586	586	3093	hello	N	3553	HELLO	helló			 SAY, AT/2744 meet, AT/2744 conversation[begin]
+Kornai-2018-1400-586	586	3093	hello	N	3553	HELLO	helló			SAY, AT/2744 meet, AT/2744 conversation[begin]
 Kornai-2018-1400-587	587	2072	help	V	1897	HELP	segít	adiuvo	pomagać	=AGT CAUSE[=PAT[succeed]], =AGT WITH =DAT
 Kornai-2018-1400-588	588	1114	here	A	136	HERE	ide	huc	tu	AT/2744 ' , near
 Kornai-2018-1400-589	589	2004	hide	V	2486	HIDE	rejt	occulto	kryć	=AGT CAUSE[animal SEE =PAT], see[can/1246[lack]]
@@ -683,7 +683,7 @@ Kornai-2018-1400-681	681	278	letter	N			betű	littera	litera	written(symbol)
 Kornai-2018-1400-682	682	1539	letter	N	1612	LETTER	levél	litterae	list	written(message)
 Kornai-2018-1400-683	683	2088	level	A	1633	FLAT	sík	planus	równy	
 Kornai-2018-1400-684	684	2781	level	N	3469	LEVEL	szint	tabulatum	poziom	position, AT/2744 scale
-Kornai-2018-1400-685	685	751	lid	N	2319	LID (COVER, CAP)	fedél	operculum	pokrywka	 MOVE, cover, hollow HAS
+Kornai-2018-1400-685	685	751	lid	N	2319	LID (COVER, CAP)	fedél	operculum	pokrywka	MOVE, cover, hollow HAS
 Kornai-2018-1400-686	686	762	lie	V	1411	LIE (REST)	fekszik	iaceo	kłamać	rest, flat, horizontal
 Kornai-2018-1400-687	687	1019	lie	V	601	LIE (MISLEAD)	hazudik	mentior	kłamać	=AGT SAY false
 Kornai-2018-1400-688	688	505	life	N	210	LIFE	élet	vita	źycie	live
@@ -935,7 +935,7 @@ Kornai-2018-1400-933	933	1819	print	V			nyomat	imprimo	drukować	CAUSE[ [text,i
 Kornai-2018-1400-934	934	312	prison	N	1281	PRISON	börtön	carcer	wiézienie	building, must[people IN/2758], people[lack(free)]
 Kornai-2018-1400-935	935	1578	private	A			magán	privatus	priwatny	lack(public), [one(person)] USE
 Kornai-2018-1400-936	936	2785	problem	N	2425	PROBLEM	probléma	problem	problem	situation, difficult, after(solve)
-Kornai-2018-1400-937	937	2791	process	N			folyamat	processus	proces	series, action, change, <HAS result>
+Kornai-2018-1400-937	937	2791	process	N	3970	PROCESS	folyamat	processus	proces	series, action, change, <HAS result>
 Kornai-2018-1400-938	938	93	produce	N			áru	merx	towary	
 Kornai-2018-1400-939	939	2363	produce	V	2886	PRODUCE	termel	procreo	produkować	make
 Kornai-2018-1400-940	940	2254	product	N			szorzat	summa quae ex multiplicatione effecta est	iloczyn	
@@ -953,7 +953,7 @@ Kornai-2018-1400-951	951	114	provide	V			ad	praebeo	zapewnić	supply
 Kornai-2018-1400-952	952	1407	public	A			köz-	publicus	publiczny	lack(private), every(people) HAS
 Kornai-2018-1400-953	953	1096	pull	V	1455	PULL	húz	vello	ciagnáć	=AGT CAUSE[=PAT AT/2744 =AGT]
 Kornai-2018-1400-954	954	791	punish	V	3649	PUNISH	fenyít	castigo	karać	=AGT HAS authority, before(=PAT DO bad), =AGT CAUSE[=PAT[suffer]]
-Kornai-2018-1400-955	955	365	purpose	N			cél	propositum	cel	 WANT
+Kornai-2018-1400-955	955	365	purpose	N			cél	propositum	cel	WANT
 Kornai-2018-1400-956	956	2424	push	V	1452	PUSH	tol	promoveo	pchać	move, =AGT CAUSE[=PAT[away]]
 Kornai-2018-1400-957	957	2374	put	V	998	PUT	tesz	pono	kłaść	=AGT CAUSE[=PAT AT/2744 =TO], =AGT MOVE =PAT, =PAT[object]
 Kornai-2018-1400-958	958	1699	quality	N			minőség	qualitas	jakość	good, =POSS[good], characteristic, inherent
@@ -997,7 +997,7 @@ Kornai-2018-1400-995	995	1251	request	V	1828	ASK (REQUEST)	kér	rogo	źádac�
 Kornai-2018-1400-996	996	2392	respect	V	385	RESPECT (SOMEBODY)	tisztel	observo	szanować	feeling, quality CAUSE, =PAT HAS quality
 Kornai-2018-1400-997	997	766	responsible	A			felelős	cui ratio reddenda est	odpowiedzialny	HAS control, HAS authority, HAS blame
 Kornai-2018-1400-998	998	1959	rest	U	168	REST	pihen	quiesco	odpoczywać	relax, lack(work), FOR [=AGT HAS energy], =AGT[tired[before]]
-Kornai-2018-1400-999	999	679	result	N			eredmény	eventus	wynik	action CAUSE, favourable
+Kornai-2018-1400-999	999	679	result	N	3969	RESULT	eredmény	eventus	wynik	action CAUSE, favourable
 Kornai-2018-1400-1000	1000	2641	return	V			visszaad	reddo	zwracać	=AGT CAUSE back/2639
 Kornai-2018-1400-1001	1001	2643	return	U	581	COME BACK	visszatér	revertor	wracać	back/2639
 Kornai-2018-1400-1002	1002	1555	ride	U	367	RIDE	lovagol	equito	jeździć konno	travel, =AGT ON <horse>, INSTRUMENT <horse>
@@ -1049,7 +1049,7 @@ Kornai-2018-1400-1047	1047	1570	second	N			másodperc	secundum	sekunda	unit, ti
 Kornai-2018-1400-1048	1048	2401	secret	N	1121	SECRET	titok	arcanum	tajemnica	few KNOW
 Kornai-2018-1400-1049	1049	1476	see	U	1409	SEE	lát	video	widzieć	perceive, INSTRUMENT eye
 Kornai-2018-1400-1050	1050	1577	seed	N	714	SEED	mag	semen	nasienie	organ, PART_OF plant, PRODUCE other(pant)
-Kornai-2018-1400-1051	1051	2451	seem	V	1521	SEEM	tűnik	pareo	wydawać sié	 SEE, =DAT THINK [=AGT IS_A =PAT]
+Kornai-2018-1400-1051	1051	2451	seem	V	1521	SEEM	tűnik	pareo	wydawać sié	SEE, =DAT THINK [=AGT IS_A =PAT]
 Kornai-2018-1400-1052	1052	595	sell	V	1571	SELL	elad	vendo	sprzedać	=AGT CAUSE[=DAT HAS =PAT], =DAT CAUSE[=AGT HAS <money>]
 Kornai-2018-1400-1053	1053	1447	send	V	1127	SEND	küld	mitto	wysyłać	give[lack(direct)]
 Kornai-2018-1400-1054	1054	2458	sense	N	2572	SENSE (PERCEIVE BY SENSES)	tudat	sensus	rozum	animal HAS, hear IS_A, see IS_A, smell IS_A, touch IS_A, taste IS_A
@@ -1086,7 +1086,7 @@ Kornai-2018-1400-1084	1084	2029	short	A	1645	SHORT	rövid	brevis	krótki	size[
 Kornai-2018-1400-1085	1085	1742	show	V	1039	SHOW	mutat	monstro	pokazywać	=AGT CAUSE[=DAT LOOK =PAT], communicate
 Kornai-2018-1400-1086	1086	274	sick	A			beteg	aeger	chory	ill, <after(vomit)>
 Kornai-2018-1400-1087	1087	1903	side	N	682	SIDE	oldal	latus	strona	part, <two>, NEXT_TO centre, oppose, object HAS
-Kornai-2018-1400-1088	1088	1183	sign	N	1720	SIGN	jel	signum	znak	 PERCEIVE, information, show, HAS meaning
+Kornai-2018-1400-1088	1088	1183	sign	N	1720	SIGN	jel	signum	znak	PERCEIVE, information, show, HAS meaning
 Kornai-2018-1400-1089	1089	1184	signal	N			jel	signum	signal	communicate, people SEE
 Kornai-2018-1400-1090	1090	2077	silk	N	1641	SILK	selyem	bombyx	jedwab	cloth, thin/2598, smooth, soft
 Kornai-2018-1400-1091	1091	358	silly	A			buta	stultus	głupi	stupid
@@ -1117,7 +1117,7 @@ Kornai-2018-1400-1115	1115	2092	smooth	A	1234	SMOOTH	sima	levis	gładki	surface,
 Kornai-2018-1400-1116	1116	1066	snow	N	784	SNOW	hó	nix	śnieg	ice, fall/2694, soft, white
 Kornai-2018-1400-1117	1117	2467	so	D	2336	OF THIS KIND (SUCH)	úgy	ita	tak	
 Kornai-2018-1400-1118	1118	2287	social	A			társas	socialis	towarzyski	animal, MEMBER '
-Kornai-2018-1400-1119	1119	2285	society	N			társadalom	societas	towarzystwo	group, <people> MEMBER, HAS rule
+Kornai-2018-1400-1119	1119	2285	society	N	3958	SOCIETY	társadalom	societas	towarzystwo	group, <people> MEMBER, HAS rule
 Kornai-2018-1400-1120	1120	2288	society	N			társaság	societas	towarzystwo	
 Kornai-2018-1400-1121	1121	2289	society	N			társulat	societas	towarzystwo	
 Kornai-2018-1400-1122	1122	1979	soft	A	1856	SOFT	puha	mollis	miékki	lack(hard)
@@ -1160,7 +1160,7 @@ Kornai-2018-1400-1158	1158	408	star	N	1430	STAR	csillag	stella	gwiazda	planet, s
 Kornai-2018-1400-1159	1159	1313	start	N			kezdet	initium	poczátek	after(=POSS)
 Kornai-2018-1400-1160	1160	76	state	N	2955	STATE (POLITICS)	állam	res publica	państwo	land, political(unit), HAS government
 Kornai-2018-1400-1161	1161	77	state	N			állapot	condicio	stan	situation
-Kornai-2018-1400-1162	1162	2802	statement	N			kijelentés	expositio	stwierdzenie	 SAY, formal
+Kornai-2018-1400-1162	1162	2802	statement	N			kijelentés	expositio	stwierdzenie	SAY, formal
 Kornai-2018-1400-1163	1163	80	station	N			állomás	mansio	stacja	stop AT/2744
 Kornai-2018-1400-1164	1164	1596	stay	U	987	REMAIN	marad	maneo	zostawać	remain, before(=AGT AT/2744 =AT), after(=AGT AT/2744 =AT)
 Kornai-2018-1400-1165	1165	304	steady	A			biztos	firmus	pewny	lack(change)
@@ -1209,7 +1209,7 @@ Kornai-2018-1400-1207	1207	1387	surround	V	3274	ENCIRCLE	körbevesz	circumdo	ot
 Kornai-2018-1400-1208	1208	495	sweet	A	717	SWEET	édes	dulcis	słodki	taste, good, pleasant, sugar HAS taste, honey HAS taste
 Kornai-2018-1400-1209	1209	2479	swim	N	1439	SWIM	úszás	natatio	pływanie	move, IN/2758 water, INSTRUMENT arm[<two>], INSTRUMENT leg[<two>]
 Kornai-2018-1400-1210	1210	1709	system	N			módszer	ratio	system	
-Kornai-2018-1400-1211	1211	2015	system	N			rendszer	ratio	system	group, complex, relation BETWEEN part
+Kornai-2018-1400-1211	1211	2015	system	N	3957	SYSTEM	rendszer	ratio	system	group, complex, relation BETWEEN part
 Kornai-2018-1400-1212	1212	180	table	N	1775	TABLE	asztal	mensa	stół	furniture, HAS leg[<more>], HAS surface[flat,horizontal]
 Kornai-2018-1400-1213	1213	728	tail	N	1220	TAIL	farok	cauda	ogon	PART_OF body, long, hang, AT/2744 bottom
 Kornai-2018-1400-1214	1214	653	take	U	1749	TAKE	elvesz	adimo	wziáć	take/654
@@ -1219,7 +1219,7 @@ Kornai-2018-1400-1217	1217	1581	tall	A	711	TALL	magas	procerus	wysoki	height(ER'
 Kornai-2018-1400-1218	1218	1113	taste	N	2190	TASTE	íz	sapor	smak	<food> HAS, person FEEL, INSTRUMENT tongue
 Kornai-2018-1400-1219	1219	116	tax	N	873	TAX	adó	tributum	podatek	money, government GET/1223, person GIVE, business GIVE
 Kornai-2018-1400-1220	1220	2302	teach	V	709	TEACH	tanít	doceo	uczyć	=AGT CAUSE[=DAT KNOW =PAT]
-Kornai-2018-1400-1221	1221	386	team	N			csapat	manus	druźyna	group
+Kornai-2018-1400-1221	1221	386	team	N	3961	TEAM	csapat	manus	druźyna	group
 Kornai-2018-1400-1222	1222	2325	tear	V	1735	TEAR (SHRED)	tép	scindo	rozrywać	pull, after(=PAT HAS more(piece)), INSTRUMENT force
 Kornai-2018-1400-1223	1223	2341	telephone	N	1379	TELEPHONE	telefon	telephonium	telefon	instrument, voice[move] INSTRUMENT, sound/993[move] INSTRUMENT
 Kornai-2018-1400-1224	1224	2343	television	N	1788	TELEVISION	televízió	televisio	telewizor	electric(equipment), box, HAS screen, programme ON screen, man/659 SEE programme
