@@ -166,7 +166,7 @@ Epps-2021-843-164	164	COLD	COLD 1 // COLD 2	1287	COLD	krim / forkjøling	1 / 1	-
 Epps-2021-843-165	165	COLLAR	COLLAR	2012	COLLAR	krage	4	krage	12	l	0	0	0
 Epps-2021-843-166	166	COMB	COMB	1475	COMB	kam	0	kam	7	c	0	0	0
 Epps-2021-843-167	167	COMBINE HARVESTER	COMBINE HARVESTER	3980	COMBINE HARVESTER	skurtreskar	3	skördetröska	1	c	0	0	0
-Epps-2021-843-168	168	COMPANY	COMPANY	3981	COMPANY	selskap	--	sällskap	--	l	0	1	1
+Epps-2021-843-168	168	COMPANY	COMPANY	3981	COMPANY (ORGANIZATION)	selskap	--	sällskap	--	l	0	1	1
 Epps-2021-843-169	169	COMPUTER	COMPUTER	3086	COMPUTER	datamaskin@	--		--	l	0	0	0
 Epps-2021-843-170	170	CONE	CONE 1 // CONE 2	287	CONE	kjegle / --	1 / --	kägla / kotte	3 / 1	l / c	0 / 0	0 / 0	0 / 0
 Epps-2021-843-171	171	COPPER	COPPER	1825	COPPER	kopar	4	koppar	16	l	0	0	0
@@ -219,7 +219,7 @@ Epps-2021-843-217	217	DOUBT	DOUBT 1 // DOUBT 2 // DOUBT 3	1308	DOUBT	tvil / uvis
 Epps-2021-843-218	218	DOUGH	DOUGH	273	DOUGH	deig	0	deg	2	c	0	1	0
 Epps-2021-843-219	219	DOVE	DOVE	1853	DOVE	due	0	duva	6	c	1	1	0
 Epps-2021-843-220	220	DRINK	DRINK 1 // DRINK 2	731	BEVERAGE	drikk, drykk / drikke	3 / 0	dryck / dricka	15 / 0	c / c	0 / 0	1 / 1	0 / 0
-Epps-2021-843-221	221	DRIVER'S LICENSE	DRIVER'S LICENSE	599	DRIVER'S LICENCE	førarkort	12	körkort	12	l	0	0	0
+Epps-2021-843-221	221	DRIVER'S LICENSE	DRIVER'S LICENSE	599	DRIVER'S LICENSE	førarkort	12	körkort	12	l	0	0	0
 Epps-2021-843-222	222	DRUM	DRUM	908	DRUM	tromme	18	trumma	10	l	0	0	0
 Epps-2021-843-223	223	DRUNKENNESS	DRUNKENNESS			fyll	--	fylleri@	--	c	0	1	1
 Epps-2021-843-224	224	DUCK	DUCK 1 // DUCK 2	1360	DUCK	and / --	4 / --	and / anka	7 / 2	c / c	1 /1	0 / 0	0 / 0
@@ -246,7 +246,7 @@ Epps-2021-843-244	244	ENEMY	ENEMY	1358	ENEMY	uven, uvenn	6	ovän	7	c	1	0	0
 Epps-2021-843-245	245	ENVY	ENVY	40	ENVY	avundsjuke	0	avundsjuka	9	c	0	x	1
 Epps-2021-843-246	246	EVENING	EVENING	1629	EVENING	kveld	422	kväll	176	c	0	0	1
 Epps-2021-843-247	247	EXCOMMUNICATION	EXCOMMUNICATION			bann	--	bann	--	l	0	0	1
-Epps-2021-843-248	248	EXPERIENCE	EXPERIENCE	3989	EXPERIENCE	oppleving	--	upplevelse	--	c	0	0	1
+Epps-2021-843-248	248	EXPERIENCE	EXPERIENCE	3990	EXPERIENCE	oppleving	--	upplevelse	--	c	0	0	1
 Epps-2021-843-249	249	EYE	EYE	1248	EYE	auga, auge	304	öga	207	c	0	0	0
 Epps-2021-843-250	250	EYEBROW	EYEBROW	1173	EYEBROW	augebryn, augnebryn	5	ögonbryn	8	c	0	0	0
 Epps-2021-843-251	251	EYELASH	EYELASH	1540	EYELASH	--	--	ögonfrans	1	l	0	0	0
@@ -297,7 +297,7 @@ Epps-2021-843-295	295	FOREHEAD	FOREHEAD	123	FOREHEAD	panne	24	panna	15	c	0	0	0
 Epps-2021-843-296	296	FORK	FORK	1302	FORK	gaffel	7	gaffel	2	l	0	0	0
 Epps-2021-843-297	297	FORTRESS	FORTRESS 1 // FORTRESS 2	1938	FORTRESS	borg / festning	5 / 4	borg / fästning	11 / 21	c / l	0 / 0	1 / 1	0 / 0
 Epps-2021-843-298	298	FOX	FOX	1312	FOX	rev	10	räv	9	c	1	0	0
-Epps-2021-843-299	299	FREEDOM	FREEDOM	3990	FREEDOM	fridom	--	frihet	--	l	0	1	1
+Epps-2021-843-299	299	FREEDOM	FREEDOM	3991	FREEDOM	fridom	--	frihet	--	l	0	1	1
 Epps-2021-843-300	300	FRIDAY	FRIDAY	1692	FRIDAY	fredag	153	fredag	95	l	0	0	1
 Epps-2021-843-301	301	FRIEND	FRIEND 1 // FRIEND 2	1325	FRIEND	ven, venn / kamerat	123 / 60	vän / kamrat	209 / 69	c / l	1 / 1	0 / 0	0 / 0
 Epps-2021-843-302	302	FROG	FROG 1 // FROG 2	503	FROG	frosk / --	2 / --	-- / klossa	-- / 0	c / c	1 / 1	0 / 0	0 / 0
@@ -340,7 +340,7 @@ Epps-2021-843-338	338	HAMMER	HAMMER	1481	HAMMER	hamar,hammar	17	hammare	2	c	0	0	
 Epps-2021-843-339	339	HAMMOCK	HAMMOCK	2019	HAMMOCK	matte	4	hängmatta	3	l	0	0	0
 Epps-2021-843-340	340	HAND	HAND	1277	HAND	hand	397	hand	482	c	0	0	0
 Epps-2021-843-341	341	HANDKERCHIEF OR RAG	HANDKERCHIEF OR RAG 1 // HANDKERCHIEF OR RAG 2	332	RAG	naseduk / trase	7 / 7	näsduk / trasa	5 / 4	l / c	0 / 0	0 / 0	0 / 0
-Epps-2021-843-342	342	HAPPENING	HAPPENING	3991	EVENT	hending	--	händelse	--	c	0	0	1
+Epps-2021-843-342	342	HAPPENING	HAPPENING	3989	EVENT	hending	--	händelse	--	c	0	0	1
 Epps-2021-843-343	343	HARE	HARE	1190	HARE	hare	7	hare	4	c	1	0	0
 Epps-2021-843-344	344	HARVEST	HARVEST	611	HARVEST	skurd	2	skörd	36	c	0	1	0
 Epps-2021-843-345	345	HAT OR CAP	HAT OR CAP 1 // HAT OR CAP 2 // HAT OR CAP 3	771	HAT	lue, luve / hatt / --	4 / 24 / --	luva / hatt / mössa	1 / 33 / 10	c / c / l	0 / 0 / 0	0 / 0 / 0	0 / 0 / 0
@@ -633,7 +633,7 @@ Epps-2021-843-631	631	SEA	SEA	1474	SEA	hav	123	hav	153	c	0	1	0
 Epps-2021-843-632	632	SEAGULL	SEAGULL 1 // SEAGULL 2 // SEAGULL 3	950	SEAGULL	lom / sjøfugl / måse, måke	8 / 2 / 5	lom / sjöfågel / mås	0 / 1 / 2	c / c / c	1 / 1 / 1	0 / 0 / 0	0 / 0 / 0
 Epps-2021-843-633	633	SEASON	SEASON	691	SEASON	årstid	16	årstid	9	c	0	1	1
 Epps-2021-843-634	634	SEAT	SEAT	4006	SEAT	sete	25	säte	7	c	0	0	0
-Epps-2021-843-635	635	SECTION	SECTION	4006	SECTION	seksjon	--	sektion	--	l	0	0	1
+Epps-2021-843-635	635	SECTION	SECTION	4007	SECTION (PART)	seksjon	--	sektion	--	l	0	0	1
 Epps-2021-843-636	636	SEED	SEED	714	SEED	frø	0	frö	28	c	0	1	0
 Epps-2021-843-637	637	SERVANT	SERVANT 1 // SERVANT 2 // SERVANT 3 // SERVANT 4	255	SERVANT	tenar / oppassar / hjon& / dreng	17 / 1 / -- / 11	tjänare / -- / hjon / dräng	15 / -- / -- / 3	c / l / c / c	1 / 1 / 1 / 1	0 / 0 / 0 / 0	0 / 0 / 0 / 0
 Epps-2021-843-638	638	SHADE OR SHADOW	SHADE OR SHADOW	1388	SHADE	skugge	51	skugga	63	c	0	1	0
@@ -697,8 +697,8 @@ Epps-2021-843-695	695	STABLE OR STALL	STABLE OR STALL	851	STABLE	lade, løe	32	l
 Epps-2021-843-696	696	STACK	STACK	2984	HEAP	stakk	7	stack	1	c	0	1	0
 Epps-2021-843-697	697	STAFF	STAFF	1296	WALKING STICK	pigg	2	pik	0	c	0	0	0
 Epps-2021-843-698	698	STAR	STAR	1430	STAR	stjerne	28	stjärna	33	c	0	0	0
-Epps-2021-843-699	699	STARCH	STARCH	4007	STARCH	--	--	stärkelse	--	c	0	1	1
-Epps-2021-843-700	700	STATION	STATION	4008	STATION	stasjon	--	station	--	l	0	0	0
+Epps-2021-843-699	699	STARCH	STARCH	4008	STARCH	--	--	stärkelse	--	c	0	1	1
+Epps-2021-843-700	700	STATION	STATION	4009	STATION	stasjon	--	station	--	l	0	0	0
 Epps-2021-843-701	701	STATUE	STATUE	1002	STATUE	statue	0	staty	5	l	0	0	0
 Epps-2021-843-702	702	STEAM	STEAM 1 // STEAM 2 // STEAM 3	1193	STEAM	-- / ange / eim	-- / 4 / 1	dofve / ånga / imma	0 / 2 / 0	c / c / c	0 / 0 / 0	1 / 1 / 1	0 / 0 / 0
 Epps-2021-843-703	703	STEER	STEER	1169	OX	stut	0	stut	0	c	1	1	0
