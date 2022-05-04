@@ -91,6 +91,7 @@ Magdalena Łuniewska | D | 1.1
 Magnus Pharao Hansen | MD | 2.4
 Marina Dalarossa | C | 2.4
 Martin Haspelmath | AD | 1.0
+Mateus Alves Motta | G | 2.6
 Maurizio Serva | MD | 1.1
 Mei-Shin Wu | CTLG | 1.2, 2.0, 2.1, 2.2
 Michael Dunn | G | 1.1
