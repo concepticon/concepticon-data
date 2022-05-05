@@ -10,6 +10,7 @@ ID	GLOSS	PRIORITY
 349	ACHIOTE///achiote, bija, onoto	1
 968	ACORN///bellota	1
 988	ACQUIT///absolver, exculpar	1
+1861	ACTIVE///activo/a, alerta	1
 802	ADAM'S APPLE///nuez de la garganta	2
 2882	ADD///añadir	1
 1818	ADJUDICATE///juzgar	1
@@ -325,6 +326,7 @@ ID	GLOSS	PRIORITY
 1501	BORE///perforar	1
 1501	BORE///taladrar	2
 905	BORING///aburrido	2
+905	BORING///desanimado/a, aburrido/a	1
 905	BORING///insulso (aburrido)	1
 1823	BORROW///pedir prestado	2
 2930	BOSS///jefe	1
@@ -469,6 +471,7 @@ ID	GLOSS	PRIORITY
 1084	CALL///llamar	1
 3820	CALM (OF SEA)///calma	1
 258	CALM///calma	1
+258	CALM///relajado/a, calmado/a	1
 1871	CAMEL///CAMELLO	1
 1871	CAMEL///Camello	1
 1871	CAMEL///camello	1
@@ -687,6 +690,7 @@ ID	GLOSS	PRIORITY
 3086	COMPUTER///ordenador	2
 3086	COMPUTER///ordenador (computadora)	1
 1087	CONCEIVE///concebir	1
+3966	CONCEPT///concepto	1
 484	CONDEMN///condenar	2
 3111	CONDUCT///dirigir	2
 2933	CONVERSATION///conversacion	1
@@ -973,6 +977,8 @@ ID	GLOSS	PRIORITY
 1629	EVENING///vísperas, noche	1
 1345	EWE///oveja	1
 2509	EXCHANGE///intercambio	1
+3972	EXCITED///emocionado	1
+3972	EXCITED///energico/a, emocionado/a	1
 1426	EXPENSIVE///caro (costoso)	1
 1426	EXPENSIVE///costoso	1
 1626	EXPLAIN///explicar	2
@@ -1340,6 +1346,7 @@ ID	GLOSS	PRIORITY
 1495	HAPPY///alegre, contento	1
 1495	HAPPY///feliz	1
 1495	HAPPY///feliz, alegre	1
+1495	HAPPY///feliz, satisfecho/a	1
 1884	HARD///duro	1
 1884	HARD///duro (difícil)	1
 1190	HARE///LIEBRE	1
@@ -1435,6 +1442,7 @@ ID	GLOSS	PRIORITY
 615	HORSE///caballo	5
 616	HOSPITAL///hospital	1
 1545	HOST///huésped, hospedero	1
+3955	HOSTILITY///hostilidad	1
 2272	HOT OR WARM///Caliente	1
 2272	HOT OR WARM///caliente	1
 1286	HOT///Caliente	1
@@ -1902,6 +1910,8 @@ ID	GLOSS	PRIORITY
 1063	NEPHEW///sobrino	2
 2626	NERVE///Nervio	1
 2626	NERVE///nervio	1
+3975	NERVOUS///agitado/a, nervioso/a	1
+3975	NERVOUS///nervioso	1
 539	NEST///NIDO	1
 539	NEST///nido	3
 2963	NET///RED	1
@@ -2383,10 +2393,10 @@ ID	GLOSS	PRIORITY
 23	RYE///centeno	1
 2990	SACK///SACO	1
 1103	SACRIFICE///ofrenda	1
-699	SAD///infeliz	1
 699	SAD///triste	1
 3065	SADDLE///MONTURA	1
 3762	SAFE///seguro	1
+3762	SAFE///seguro/a, comodo/a	1
 787	SAIL///navegar	3
 786	SAILCLOTH///vela	1
 1503	SALIVA///saliva	3
@@ -2642,6 +2652,7 @@ ID	GLOSS	PRIORITY
 788	SOAP///JABÓN	1
 788	SOAP///jabón	1
 69	SOBER///sobrio	1
+3958	SOCIETY///sociedad	1
 1522	SOCK///CALCETINES	1
 1522	SOCK///Calcetines	1
 1522	SOCK///Ejecutivos	1
@@ -2848,6 +2859,7 @@ ID	GLOSS	PRIORITY
 3101	SWING///columpio	2
 1535	SWORD///ESPADA	1
 1535	SWORD///espada	2
+3957	SYSTEM///sistema	1
 1775	TABLE///ESCRITORIO	1
 1775	TABLE///Escritor	1
 1775	TABLE///MESA	1
@@ -3078,6 +3090,8 @@ ID	GLOSS	PRIORITY
 1327	UNCLE///tío	2
 1536	UNDERSTAND///Comprender	1
 1536	UNDERSTAND///entender	2
+3974	UNHAPPY///infeliz	1
+3974	UNHAPPY///infeliz, insatisfecho/a	1
 2435	UNIVERSITY///Universidad	2
 1958	UNRIPE///inmaduro, no maduro, verde	1
 352	UNTIE///desatar	1
