@@ -29,6 +29,15 @@
                         "name": "NUMBER"
                     },
                     {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "separator": "//",
+                        "name": "LEXIBANK_GLOSS"
+                    },
+                    {
                         "datatype": {
                             "base": "integer",
                             "minimum": "1"
@@ -37,16 +46,7 @@
                     },
                     {
                         "datatype": "string",
-                        "separator": "//",
-                        "name": "LEXIBANK_GLOSS"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "ENGLISH"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "CONCEPT_IN_SOURCE"
+                        "name": "CONCEPTICON_GLOSS"
                     },
                     {
                         "datatype": "string",
