@@ -1,0 +1,91 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dialect": {
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        },
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        },
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "separator": "//",
+                        "name": "LEXIBANK_GLOSS"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NORWEGIAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NORWEGIAN_FREQUENCY"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SWEDISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SWEDISH_FREQUENCY"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "BORROWING"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ANIMACY"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MASS_NOUN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ABSTRACTNESS"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "Epps-2021-844.tsv"
+        }
+    ]
+}
