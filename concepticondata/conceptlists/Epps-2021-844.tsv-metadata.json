@@ -69,8 +69,11 @@
                         "name": "BORROWING"
                     },
                     {
-                        "datatype": "string",
-                        "name": "ANIMACY"
+                      "titles": "ANIMACY",
+                      "datatype": {
+                        "base": "string",
+                        "format": "1|0|x"
+                      }
                     },
                     {
                         "datatype": "string",
