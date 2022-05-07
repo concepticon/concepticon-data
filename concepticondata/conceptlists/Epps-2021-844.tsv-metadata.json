@@ -69,10 +69,10 @@
                         "name": "BORROWING"
                     },
                     {
-                      "titles": "ANIMACY",
-                      "datatype": {
-                        "base": "string",
-                        "format": "1|0|x"
+                        "titles": "ANIMACY",
+                        "datatype": {
+                           "base": "string",
+                           "format": "1|0|x"
                       }
                     },
                     {
@@ -80,8 +80,11 @@
                         "name": "MASS_NOUN"
                     },
                     {
-                        "datatype": "string",
-                        "name": "ABSTRACTNESS"
+                        "titles": "ABSTRACTNESS",
+                        "datatype": {
+                           "base": "string",
+                           "format": "1|0|x"
+                      }
                     }
                 ],
                 "primaryKey": [
