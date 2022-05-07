@@ -53,7 +53,7 @@
                         "name": "NORWEGIAN"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": "float",
                         "name": "NORWEGIAN_FREQUENCY"
                     },
                     {
@@ -61,23 +61,39 @@
                         "name": "SWEDISH"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": "float",
                         "name": "SWEDISH_FREQUENCY"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": {
+                          "base": "string",
+                          "format": "c|l"
+                        },
+                        "null": "",
                         "name": "BORROWING"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": {
+                          "base": "string",
+                          "format": "1|0"
+                        },
+                        "null": "x",
                         "name": "ANIMACY"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": {
+                          "base": "string",
+                          "format": "1|0"
+                        },
+                        "null": "x",
                         "name": "MASS_NOUN"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": {
+                          "base": "string",
+                          "format": "1|0"
+                        },
+                        "null": "x",
                         "name": "ABSTRACTNESS"
                     }
                 ],
@@ -85,7 +101,7 @@
                     "ID"
                 ]
             },
-            "url": "Epps-2021-844.tsv"
+            "url": "Epps-2021-843.tsv"
         }
     ]
 }
