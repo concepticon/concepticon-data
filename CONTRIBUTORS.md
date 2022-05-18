@@ -5,12 +5,12 @@
 Period | Name
 --- | ---
 2013- | Johann Mattis List
+2020- | Annika Tjuka
 2013-2018 | Michael Cysouw
 2019- | Christoph Rzymski
 2017- | Simon Greenhill
 2019- | Nathanael Schweikhard
 2019-2021 | Kristina Pianykh
-2020- | Annika Tjuka
 2020  | Mei-Shin Wu
 2020-2021 | Carolin Hundt
 2020  | Tiago Tresoldi
