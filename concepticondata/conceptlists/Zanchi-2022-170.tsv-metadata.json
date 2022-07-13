@@ -39,18 +39,12 @@
                         "datatype": "string",
                         "name": "CONCEPTICON_GLOSS"
                     },
-                    {
-                        "datatype": "string",
-                        "name": "GLOSS"
-                    },
+                    
                     {
                         "datatype": "string",
                         "name": "ENGLISH"
                     },
-                    {
-                        "datatype": "string",
-                        "name": "URLBASE"
-                    },
+                   
                     {
                         "datatype": "string",
                         "name": "ROLE FRAME"
@@ -59,10 +53,7 @@
                         "datatype": "string",
                         "name": "MICROROLES"
                     },
-                    {
-                        "datatype": "string",
-                        "name": "SIMILARITY"
-                    }
+                   
                 ],
                 "primaryKey": [
                     "ID"
