@@ -46,17 +46,19 @@
                     },
                    
                     {
+                        "name": "LINK",
                         "datatype": "string",
-                        "name": "LINK"
+                        "propertyUrl": "dc:relation",
+                        "valueUrl": "https://hodel.unipv.it/paveda/meanings//{LINK}"
                     },
                     {
                         "datatype": "string",
-                        "name": "ROLE FRAME"
+                        "name": "ROLE_FRAME"
                     },
                     {
                         "datatype": "string",
                         "name": "MICROROLES"
-                    },
+                    }
                    
                 ],
                 "primaryKey": [
