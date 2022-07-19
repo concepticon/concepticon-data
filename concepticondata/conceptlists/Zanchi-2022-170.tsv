@@ -50,7 +50,7 @@ Zanchi-2022-170-48	48	LIVE	live	S lives somewhere (L)	liver, living place, live 
 Zanchi-2022-170-49	49	APPEAR	appear	S appears	appearer, appear beneficiary, appear causer, appear location	1076	EMERGE (APPEAR)
 Zanchi-2022-170-50	50	DIE	die	S dies	dieer, killer/death causer, cause of death, dying location	1494	DIE
 Zanchi-2022-170-51	51	FALL	fall	S falls	fallee, fall causer, fall instrument, fall goal, fall source	1280	FALL
-Zanchi-2022-170-52	52	FEEL COLD	feel-cold	S is cold	freezing person, feeling cold locus, chill causer		
+Zanchi-2022-170-52	52	FEEL COLD	feel-cold	S is cold	freezing person, feeling cold locus, chill causer	3819	COLD (FEELING COLD)
 Zanchi-2022-170-53	53	BE HUNGRY	be-hungry	E is hungry	hungry person, hunger causer	1533	BE HUNGRY
 Zanchi-2022-170-54	54	RAIN	rain	(it) rains	rain, rain goal, rain causer, rain source	1253	RAIN (RAINING)
 Zanchi-2022-170-55	55	GET	get	R gets T (from X)	receiver, received thing, receiving source, receive causer	694	GET
@@ -81,7 +81,7 @@ Zanchi-2022-170-79	79	COOK	cook	A cooks P	cooker, cooked food, cooking instrumen
 Zanchi-2022-170-80	80	HEAR	hear	E hears M	hearer, heard sound, hear instrument, hear causer	1408	HEAR
 Zanchi-2022-170-81	81	WANT	want	A wants X	wanter, wanted thing, want beneficiary, want causer	1784	WANT
 Zanchi-2022-170-82	82	SINK	sink	S sinks	sunken entity, sink-(caus)er, sink location	1088	SINK (DESCEND)
-Zanchi-2022-170-83	83	BOIL	boil	S boils	boiled thing, boiler	792	BOIL (OF LIQUID)
+Zanchi-2022-170-83	83	BOIL	boil	S boils	boiled thing, boiler	2493	BOIL
 Zanchi-2022-170-84	84	SMELL	smell	E smells M	smeller, smelled entity, smell causer	1586	SMELL (PERCEIVE)
 Zanchi-2022-170-85	85	DRESS	dress	A dresses P	dresser, dressee, clothes, dress causer	814	DRESS UP
 Zanchi-2022-170-86	86	SHOUT AT	shout-at	A shouts at X	shouter, shoutee, shout causer, shouted words		
@@ -107,7 +107,7 @@ Zanchi-2022-170-105	105	GIVE BIRTH	give-birth	X gives birth to Y	birth giver, bo
 Zanchi-2022-170-106	106	ENTER	enter	X enters somewhere	enterer, entered place	749	ENTER
 Zanchi-2022-170-107	107	REST	rest	X rests	resting person	168	REST
 Zanchi-2022-170-108	108	DRINK	drink	X drinks Y	drinking person, drunken thing	1401	DRINK
-Zanchi-2022-170-109	109	FEEL SLEEPY	feel-sleepy	E feels sleepy	sleepy head		
+Zanchi-2022-170-109	109	FEEL SLEEPY	feel-sleepy	E feels sleepy	sleepy head	3620	SLEEPY
 Zanchi-2022-170-110	110	DREAM	dream	E dreams	dreamer, dream(t-of thing)	1920	DREAM (SOMETHING)
 Zanchi-2022-170-111	111	FEEL SICK	feel-sick	E feels sick	sick feeling person		
 Zanchi-2022-170-112	112	PROPOSE (a marriage)	propose-a-marriage	A proposes to M	proposer, proposed to person		
@@ -136,7 +136,7 @@ Zanchi-2022-170-134	134	DRY	dry	A dries P	drier (tr), dry thing (tr)	1786	DRY UP
 Zanchi-2022-170-135	135	MAKE APPEAR	make-appear	A makes P appear	appearer (tr), appear causer (tr)		
 Zanchi-2022-170-136	136	FELL	fell	A fells P	feller, fellee	355	CUT DOWN
 Zanchi-2022-170-137	137	DROP	drop	A drops P	dropper, dropped thing	2866	DROP (SOMETHING)
-Zanchi-2022-170-138	138	SEAT	seat	A seats P (somewhere L)	seater, seatee, seating place	1476	CHAIR
+Zanchi-2022-170-138	138	SEAT	seat	A seats P (somewhere L)	seater, seatee, seating place		
 Zanchi-2022-170-139	139	MAKE RUN	make-run	A makes P run	run causer (tr), runner (tr)		
 Zanchi-2022-170-140	140	SINK (tr)	sink-tr	A sinks P	sink-(caus)er (tr), sunken entity (tr), sinking instrument, sinking causer (tr)		
 Zanchi-2022-170-141	141	BOIL (tr)	boil-tr	A boils P	boiler (tr), boiled thing (tr), boiling causer (tr), boiling beneficiary (tr)	2492	BOIL (SOMETHING)
