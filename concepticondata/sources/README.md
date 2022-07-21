@@ -96,6 +96,7 @@
 - [Nelson2001 [PDF 109.5KB]](https://cdstar.eva.mpg.de/bitstreams/EAEA0-0B12-5362-1E08-0/Nelson2001.pdf)
 - [Nicholas1988 [PDF 62.7KB]](https://cdstar.eva.mpg.de/bitstreams/EAEA0-7296-A115-6585-0/Nicholas1988.pdf)
 - [Nicholas1989 [PDF 62.6KB]](https://cdstar.eva.mpg.de/bitstreams/EAEA0-72D9-618A-A288-0/Nicholas1989.pdf)
+- [Nordenskioeld1905 [PDF 267.1KB]](https://cdstar.eva.mpg.de/bitstreams/EAEA0-3D35-6B31-33B1-0/Nordenskioeld1905.pdf)
 - [Norman2003 [PDF 47.3KB]](https://cdstar.eva.mpg.de/bitstreams/EAEA0-B756-59E5-428E-0/Norman2003.pdf)
 - [OGrady1969 [PDF 1.1MB]](https://cdstar.eva.mpg.de/bitstreams/EAEA0-8824-48E3-C56C-0/OGrady1969.pdf)
 - [Pagel2013 [PDF 30.1KB]](https://cdstar.eva.mpg.de/bitstreams/EAEA0-9291-5FB1-D4E4-0/Pagel2013.pdf)

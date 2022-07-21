@@ -80,7 +80,7 @@ to normalize them for import:
 ## Handling source PDFs
 
 Source PDFs for concept lists - like all binary or media content of CLLD databases - are
-uploaded to [CDSTAR](https://cdstar.shh.mpg.de). This is done by
+uploaded to [CDSTAR](https://cdstar.eva.mpg.de). This is done by
 
 1. running
    ```shell script
