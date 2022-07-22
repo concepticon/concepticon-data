@@ -62,292 +62,63 @@
         "SUBLIST": "link",
         "URL": "anyURI",
         "PART_OF_SPEECH": "string",
-        "ENGLISH": [
-            "languoid",
-            "stan1293",
-            "en"
-        ],
-        "SPANISH": [
-            "languoid",
-            "stan1288",
-            "es"
-        ],
-        "FRENCH": [
-            "languoid",
-            "stan1290",
-            "fr"
-        ],
-        "MALAGASY": [
-          "languoid",
-          "mala1537",
-          null
-        ],
-        "GERMAN": [
-            "languoid",
-            "stan1295",
-            "de"
-        ],
-        "RUSSIAN": [
-            "languoid",
-            "russ1263",
-            "ru"
-        ],
-        "CHINESE": [
-            "languoid",
-            "mand1415",
-            "zh"
-        ],
-        "LATIN": [
-            "languoid",
-            "lati1261",
-            "la"
-        ],
-        "BASQUE": [
-            "languoid",
-            "basq1248",
-            null
-        ],
-        "ESPERANTO": [
-            "languoid",
-            "espe1235",
-            null
-        ],
-        "SWEDISH": [
-            "languoid",
-            "swed1254",
-            "sv"
-        ],
-        "SIKUANI": [
-            "languoid",
-            "guah1255",
-            null
-        ],
-        "PROTOWORLD": [
-            "languoid",
-            null,
-            null
-        ],
-        "PROTO_INDO_EUROPEAN": [
-            "languoid",
-            null,
-            null
-        ],
-        "DUTCH": [
-            "languoid",
-            "dutc1256",
-            "nl"
-        ],
-        "TURKISH": [
-            "languoid",
-            "nucl1301",
-            "tr"
-        ],
-        "HAUSA": [
-            "languoid",
-            "haus1257",
-            "ha"
-        ],
-        "JAPANESE": [
-            "languoid",
-            "nucl1643",
-            "ja"
-        ],
-        "PORTUGUESE": [
-            "languoid",
-            "port1283",
-            "pt"
-        ],
-        "AFRIKAANS": [
-            "languoid",
-            "afri1274",
-            "af"
-        ],
-        "CATALAN": [
-            "languoid",
-            "stan1289",
-            "ca"
-        ],
-        "DANISH": [
-            "languoid",
-            "dani1285",
-            "da"
-        ],
-        "FINNISH": [
-            "languoid",
-            "finn1318",
-            "fi"
-        ],
-        "GREEK": [
-            "languoid",
-            "mode1248",
-            "el"
-        ],
-        "HEBREW": [
-            "languoid",
-            "hebr1245",
-            "he"
-        ],
-        "HUNGARIAN": [
-            "languoid",
-            "hung1274",
-            "hu"
-        ],
-        "ICELANDIC": [
-            "languoid",
-            "icel1247",
-            "is"
-        ],
-        "IRISH": [
-            "languoid",
-            "iris1253",
-            "ga"
-        ],
-        "XHOSA": [
-            "languoid",
-            "xhos1239",
-            "xh"
-        ],
-        "ITALIAN": [
-            "languoid",
-            "ital1282",
-            "it"
-        ],
-        "LITHUANIAN": [
-            "languoid",
-            "lith1251",
-            "lt"
-        ],
-        "LUXEMBOURRGISH": [
-            "languoid",
-            "luxe1241",
-            "lb"
-        ],
-        "MALTESE": [
-            "languoid",
-            "malt1254",
-            "mt"
-        ],
-        "POLISH": [
-            "languoid",
-            "poli1260",
-            "pl"
-        ],
-        "CANTONESE": [
-            "languoid",
-            "yuec1235",
-            null
-        ],
-        "SOUTHAFRICANENGLISH": [
-            "languoid",
-            "sout3331",
-            null
-        ],
-        "SERBIAN": [
-            "languoid",
-            "serb1264",
-            "sr"
-        ],
-        "SLOVAK": [
-            "languoid",
-            "slov1269",
-            "sk"
-        ],
-        "AMERICANENGLISH": [
-            "languoid",
-            "nort3314",
-            null
-        ],
-        "CZECH": [
-            "languoid",
-            "czec1258",
-            null
-        ],
-        "GAELIC": [
-            "languoid",
-            "scot1245",
-            null
-        ],
-        "LEBANESEARABIC": [
-            "languoid",
-            "stan1323",
-            null
-        ],
-        "ARABIC": [
-            "languoid",
-            "stan1318",
-            "ar"
-        ],
-        "WELSH": [
-            "languoid",
-            "wels1247",
-            "cy"
-        ],
-
-        "MALAY": [
-            "languoid",
-            "indo1316",
-            null
-        ],
-        "PERSIAN": [
-            "languoid",
-            "fars1255",
-            null
-        ],
-        "WESTERNARMENIAN": [
-            "languoid",
-            "homs1234",
-            null
-        ],
-        "ESTONIAN": [
-             "languoid",
-             "esto1258",
-             "et"
-        ],
-        "AZERBAIJANI": [
-             "languoid",
-             "cent2356",
-             "az"
-        ],
-        "GEORGIAN": [
-             "languoid",
-             "nucl1302",
-             "ka"
-        ],
-        "NORWEGIAN": [
-             "languoid",
-             "norw1258",
-             "no"
-        ],
-        "UKRAINIAN": [
-             "languoid",
-             "ukra1253",
-             "uk"
-        ],
-        "WOLOF": [
-             "languoid",
-             "nucl1347",
-             "wo"
-        ],
-        "MARATHI": [
-             "languoid",
-             "mara1378",
-             "mr"
-        ],
-        "VIETNAMESE": [
-             "languoid",
-             "viet1252",
-             "vi"
-        ],
-        "KHOEKHOE": [
-             "languoid",
-             "khoe1242",
-             null
-        ],
-        "BISLAMA": [
-             "languoid",
-             "bisl1239",
-             null
-        ],
+        "AFRIKAANS": ["languoid", "afri1274", "af"],
+        "AMERICANENGLISH": ["languoid", "nort3314", null],
+        "ARABIC": ["languoid", "stan1318", "ar"],
+        "AZERBAIJANI": ["languoid", "cent2356", "az"],
+        "BASQUE": ["languoid", "basq1248", null],
+        "BISLAMA": ["languoid", "bisl1239", null],
+        "CANTONESE": ["languoid", "yuec1235", null],
+        "CATALAN": ["languoid", "stan1289", "ca"],
+        "CHINESE": ["languoid", "mand1415", "zh"],
+        "CZECH": ["languoid", "czec1258", null],
+        "DANISH": ["languoid", "dani1285", "da"],
+        "DUTCH": ["languoid", "dutc1256", "nl"],
+        "ENGLISH": ["languoid", "stan1293","en"],
+        "ESPERANTO": ["languoid", "espe1235", null],
+        "ESTONIAN": ["languoid", "esto1258", "et"],
+        "FINNISH": ["languoid", "finn1318", "fi"],
+        "FRENCH": ["languoid", "stan1290", "fr"],
+        "GAELIC": ["languoid", "scot1245", null],
+        "GEORGIAN": ["languoid", "nucl1302", "ka"],
+        "GERMAN": ["languoid", "stan1295", "de"],
+        "GREEK": ["languoid", "mode1248", "el"],
+        "HAUSA": ["languoid", "haus1257", "ha"],
+        "HEBREW": ["languoid", "hebr1245", "he"],
+        "HUNGARIAN": ["languoid", "hung1274", "hu"],
+        "ICELANDIC": ["languoid", "icel1247", "is"],
+        "IRISH": ["languoid", "iris1253", "ga"],
+        "ITALIAN": ["languoid", "ital1282", "it"],
+        "JAPANESE": ["languoid", "nucl1643", "ja"],
+        "KHOEKHOE": ["languoid", "khoe1242", null],
+        "LATIN": ["languoid", "lati1261", "la"],
+        "LEBANESEARABIC": ["languoid", "stan1323", null],
+        "LITHUANIAN": ["languoid", "lith1251", "lt"],
+        "LUXEMBOURGISH": ["languoid", "luxe1241", "lb"],
+        "MALAGASY": ["languoid", "mala1537", null],
+        "MALAY": ["languoid", "indo1316", null],
+        "MALTESE": ["languoid", "malt1254", "mt"],
+        "MARATHI": ["languoid", "mara1378", "mr"],
+        "NORWEGIAN": ["languoid", "norw1258", "no"],
+        "PERSIAN": ["languoid", "fars1255", null],
+        "POLISH": ["languoid", "poli1260", "pl"],
+        "PORTUGUESE": ["languoid", "port1283", "pt"],
+        "PROTO_INDO_EUROPEAN": ["languoid", "indo1319", null],
+        "PROTOWORLD": ["languoid", null, null],
+        "RUSSIAN": ["languoid", "russ1263", "ru"],
+        "SERBIAN": ["languoid", "serb1264", "sr"],
+        "SIKUANI": ["languoid", "guah1255", null],
+        "SLOVAK": ["languoid", "slov1269", "sk"],
+        "SOUTHAFRICANENGLISH": ["languoid", "sout3331", null],
+        "SPANISH": ["languoid", "stan1288", "es"],
+        "SWEDISH": ["languoid", "swed1254", "sv"],
+        "TURKISH": ["languoid", "nucl1301", "tr"],
+        "UKRAINIAN": ["languoid", "ukra1253", "uk"],
+        "VIETNAMESE": ["languoid", "viet1252", "vi"],
+        "WELSH": ["languoid", "wels1247", "cy"],
+        "WESTERNARMENIAN": ["languoid", "homs1234", null],
+        "WOLOF": ["languoid", "nucl1347", "wo"],
+        "XHOSA": ["languoid", "xhos1239", "xh"],
         "FREQUENCY": "decimal",
         "RANK": "integer",
         "*SCORE": "decimal"
