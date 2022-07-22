@@ -65,7 +65,7 @@
         "AFRIKAANS": ["languoid", "afri1274", "af"],
         "AMERICANENGLISH": ["languoid", "nort3314", null],
         "ARABIC": ["languoid", "stan1318", "ar"],
-        "AZERBAIJANI": ["languoid", "cent2356", "az"],
+        "AZERBAIJANI": ["languoid", "nort2697", "az"],
         "BASQUE": ["languoid", "basq1248", null],
         "BISLAMA": ["languoid", "bisl1239", null],
         "CANTONESE": ["languoid", "yuec1235", null],
@@ -165,6 +165,15 @@
         },
         "hasform": {
             "definition": "The oblique case form of x."
+        },
+        "resultsin": {
+            "definition": "Results in x."
+        },
+        "producedby": {
+            "definition": "Is produced by x."
+        },
+        "requires": {
+            "definition": "Requires x."
         }
     }
 }
