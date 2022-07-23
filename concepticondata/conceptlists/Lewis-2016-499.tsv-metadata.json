@@ -50,14 +50,14 @@
                             "base": "float", 
                             "minimum": 0
                         }, 
-                        "name": "_ConfidenceIntervalHigh"
+                        "name": "ConfidenceIntervalHigh"
                     }, 
                     {
                         "datatype": {
                             "base": "float", 
                             "minimum": 0
                         }, 
-                        "name": "_ConfidenceIntervalLow"
+                        "name": "ConfidenceIntervalLow"
                     }, 
                     {
                         "datatype": {
