@@ -1,6 +1,7 @@
 # CLLD Concepticon
 
-[![Build Status](https://travis-ci.org/concepticon/concepticon-data.svg?branch=master)](https://travis-ci.org/concepticon/concepticon-data)
+[![Build Status](https://github.com/concepticon/concepticon-data/workflows/Concepticon%20validation/badge.svg)](https://github.com/concepticon/concepticon-data/actions?query=workflow%3AConcepticon%20validation)
+
 
 The data underlying the [Concepticon](https://concepticon.clld.org) of the [CLLD](http://clld.org) project is maintained in this repository. Here, you can find 
 
