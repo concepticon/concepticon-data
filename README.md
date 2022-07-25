@@ -3,7 +3,7 @@
 [![Build Status](https://github.com/concepticon/concepticon-data/workflows/Concepticon%20validation/badge.svg)](https://github.com/concepticon/concepticon-data/actions?query=workflow%3AConcepticon%20validation)
 
 
-The data underlying the [Concepticon](https://concepticon.clld.org) of the [CLLD](http://clld.org) project is maintained in this repository. Here, you can find 
+The data underlying the [Concepticon](https://concepticon.clld.org) of the [CLLD](https://clld.org) project is maintained in this repository. Here, you can find 
 
 * [previous and current releases](https://github.com/concepticon/concepticon-data/releases), 
 * [issues we are trying to handle](https://github.com/concepticon/concepticon-data/issues),
@@ -14,7 +14,6 @@ The data underlying the [Concepticon](https://concepticon.clld.org) of the [CLLD
 ## Concepticon Data
 
 * For an overview on the status of all currently linked conceptlists, see [here](https://github.com/concepticon/concepticon-data/blob/master/concepticondata/conceptlists/README.md).
-* For basic information on metadata, see [here](https://github.com/concepticon/concepticon-data/blob/master/concepticondata/concept_set_meta/README.md).
 * For information on how you can contribute to the project or profit from the data sources we offer, see [here](https://github.com/concepticon/concepticon-data/blob/master/CONTRIBUTING.md).
 
 
@@ -36,16 +35,13 @@ The data underlying the [Concepticon](https://concepticon.clld.org) of the [CLLD
 - **sources/** contains pdf-files of each conceptlist (only the list-parts, not the full publications 
   for copyright reasons), naming is the same as for the conceptlists, but with the ending ".pdf" instead of ".tsv".
 - **concepticon.tsv** the backbone concept list. All concepts from individual concept lists are linked to entries in this file.
-- **concept_set_meta/** contains lists of metadata, relating concept sets to additional information, e.g. on Wikipedia. 
-  These lists are described by accompanying metadata files following the recommendations of the 
-  [Model for Tabular Data and Metadata on the Web](http://www.w3.org/TR/tabular-data-model/).
 - **app/** contains data for running the JavaScript-based Concepticon lookup
   tool.
 
 
 ### Update policy
 
-We try to [release](RELEASING.md) concepticon-data (as well as the [concepticon web app](http://concepticon.clld.org))
+We try to [release](RELEASING.md) concepticon-data (as well as the [concepticon web app](https://concepticon.clld.org))
 regularly at least once a year. Generally, new releases should only become more comprehensive, i.e. all data
 ever released should also be part of the newest release. Occasionally, though, we may have to correct an
 [erratum](https://github.com/concepticon/concepticon-data/issues?q=label%3Aerrata), which may result in some
