@@ -43,7 +43,7 @@
                         "name": "ENGLISH"
                     },
                     {
-                        "datatype": "integer", 
+                        "datatype": {"base": "positiveInteger", "minimum": 1, "maximum": 150}, 
                         "name": "RANK"
                     }
                 ], 

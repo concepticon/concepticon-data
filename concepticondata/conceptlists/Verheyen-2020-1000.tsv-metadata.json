@@ -48,31 +48,31 @@
                         "name": "CONCEPTICON_ID"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": "decimal",
                         "name": "AOA_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "AROUSAL_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "CONCRETENESS_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "DOMINANCE_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "FAMILIARITY_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "IMAGEABILITY_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "VALENCE_MEAN"
                     },
                     {

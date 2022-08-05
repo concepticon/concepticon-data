@@ -43,7 +43,7 @@
                         "name": "CONCEPTICON_GLOSS"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18}, 
                         "name": "AFRIKAANS_AOA"
                     },
                     {
@@ -52,7 +52,7 @@
                         "name": "AFRIKAANS"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "CATALAN_AOA"
                     },
                     {
@@ -61,7 +61,7 @@
                         "name": "CATALAN"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "DANISH_AOA"
                     },
                     {
@@ -70,7 +70,7 @@
                         "name": "DANISH"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "DUTCH_AOA"
                     },
                     {
@@ -79,7 +79,7 @@
                         "name": "DUTCH"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "ENGLISH_AOA"
                     },
                     {
@@ -88,7 +88,7 @@
                         "name": "ENGLISH"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "FINNISH_AOA"
                     },
                     {
@@ -97,7 +97,7 @@
                         "name": "FINNISH"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "GERMAN_AOA"
                     },
                     {
@@ -106,7 +106,7 @@
                         "name": "GERMAN"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "GREEK_AOA"
                     },
                     {
@@ -115,7 +115,7 @@
                         "name": "GREEK"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "HEBREW_AOA"
                     },
                     {
@@ -124,7 +124,7 @@
                         "name": "HEBREW"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "HUNGARIAN_AOA"
                     },
                     {
@@ -133,7 +133,7 @@
                         "name": "HUNGARIAN"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "ICELANDIC_AOA"
                     },
                     {
@@ -142,7 +142,7 @@
                         "name": "ICELANDIC"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "IRISH_AOA"
                     },
                     {
@@ -151,7 +151,7 @@
                         "name": "IRISH"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "XHOSA_AOA"
                     },
                     {
@@ -160,7 +160,7 @@
                         "name": "XHOSA"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "ITALIAN_AOA"
                     },
                     {
@@ -169,7 +169,7 @@
                         "name": "ITALIAN"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "LITHUANIAN_AOA"
                     },
                     {
@@ -178,7 +178,7 @@
                         "name": "LITHUANIAN"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "LUXEMBOURGISH_AOA"
                     },
                     {
@@ -187,7 +187,7 @@
                         "name": "LUXEMBOURGISH"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "MALTESE_AOA"
                     },
                     {
@@ -196,7 +196,7 @@
                         "name": "MALTESE"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "POLISH_AOA"
                     },
                     {
@@ -205,7 +205,7 @@
                         "name": "POLISH"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "RUSSIAN_AOA"
                     },
                     {
@@ -214,7 +214,7 @@
                         "name": "RUSSIAN"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "SOUTHAFRICANENGLISH_AOA"
                     },
                     {
@@ -223,7 +223,7 @@
                         "name": "SOUTHAFRICANENGLISH"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "SERBIAN_AOA"
                     },
                     {
@@ -232,7 +232,7 @@
                         "name": "SERBIAN"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "SLOVAK_AOA"
                     },
                     {
@@ -241,7 +241,7 @@
                         "name": "SLOVAK"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "SPANISH_AOA"
                     },
                     {
@@ -250,7 +250,7 @@
                         "name": "SPANISH"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "SWEDISH_AOA"
                     },
                     {
@@ -259,7 +259,7 @@
                         "name": "SWEDISH"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "TURKISH_AOA"
                     },
                     {

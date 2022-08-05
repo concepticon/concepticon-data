@@ -52,15 +52,15 @@
                         "name": "CONCEPTICON_ID"
                     },
                     {
-                        "datatype": "integer",
+                        "datatype": "nonNegativeInteger",
                         "name": "PEN_STROKES"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
                         "name": "ICONICITY"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 7},
                         "name": "PICTURABILITY"
                     },
                     {

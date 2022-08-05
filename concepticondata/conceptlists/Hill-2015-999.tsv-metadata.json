@@ -52,15 +52,15 @@
                         "name": "POS"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 10},
                         "name": "SIM_LEX_999"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "CONCRETENESS_WORD1"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "CONCRETENESS_WORD2"
                     },
                     {
@@ -72,7 +72,7 @@
                         "name": "ASSOCIATION_STRENGTH"
                     },
                     {
-                        "datatype": "integer",
+                        "datatype": {"base": "nonNegativeInteger", "minimum": 0, "maximum": 1},
                         "name": "SIM_ASSOCIATION_333"
                     }
                 ],

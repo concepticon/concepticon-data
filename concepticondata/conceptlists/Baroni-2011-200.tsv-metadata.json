@@ -44,7 +44,7 @@
                         "name": "ENGLISH"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": {"base": "string", "format": "amphibian_reptile|appliance|bird|building|clothing|container|fruit|furniture|ground_mammal|insect|musical_instrument|tool|tree|vegetable|vehicle|water_animal|weapon"},
                         "name": "SEMANTIC_CLASS"
                     },
                     {

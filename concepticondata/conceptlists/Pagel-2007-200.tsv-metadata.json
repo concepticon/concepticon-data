@@ -75,7 +75,7 @@
                         "name": "GREEK_FREQUENCY"
                     }, 
                     {
-                        "datatype": "integer", 
+                        "datatype": {"base": "positiveInteger", "minimum": 1, "maximum": 200}, 
                         "name": "RANK"
                     }
                 ], 

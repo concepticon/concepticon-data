@@ -48,35 +48,35 @@
                         "name": "TURKISH"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "AOA_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "AOA_MEAN_CHILDREN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "AOA_MEAN_YOUNG"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "AOA_MEAN_MIDDLE"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "AOA_MEAN_OLD"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "MEAN_IMAGEABILITY"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "MEAN_CONCRETENESS"
                     },
                     {
-                        "datatype": "integer",
+                        "datatype": {"base": "nonNegativeInteger", "maximum": 1016000},
                         "name": "FREQUENCY"
                     },
                     {

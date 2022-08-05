@@ -71,15 +71,15 @@
                         "name": "SEMANTIC_FIELD"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 1}, 
                         "name": "AGE_SCORE"
                     }, 
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
                         "name": "BORROWING_SCORE"
                     }, 
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
                         "name": "SIMPLICITY_SCORE"
                     }, 
                     {

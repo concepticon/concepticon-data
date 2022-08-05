@@ -103,7 +103,7 @@
                         "name": "POS"
                     },
                     {
-                        "datatype": "integer", 
+                        "datatype": {"base": "positiveInteger", "minimum": 1, "maximum": 167},
                         "name": "RANK"
                     }
                 ], 

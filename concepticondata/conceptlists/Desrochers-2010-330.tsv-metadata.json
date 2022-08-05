@@ -48,11 +48,11 @@
                         "name": "CONCEPTICON_ID"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": {"base": "string", "format": "Compound|Verb|Noun"},
                         "name": "WORD_TYPE"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "SUBJECTIVE_FREQ_MEAN"
                     },
                     {

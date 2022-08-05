@@ -40,7 +40,8 @@
                     }, 
                     {
                         "datatype": {
-                            "base": "float", 
+                            "base": "decimal",
+                            "maximum": 7, 
                             "minimum": 1
                         }, 
                         "name": "COMPLEXITY"
