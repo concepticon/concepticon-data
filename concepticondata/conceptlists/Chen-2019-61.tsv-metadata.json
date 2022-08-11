@@ -64,31 +64,31 @@
                         "name": "PERCEPTUAL_MORPHEME"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
                         "name": "GUSTATORY_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
                         "name": "VISUAL_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
                         "name": "AUDITORY_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
                         "name": "OLFACTORY_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
                         "name": "HAPTIC_MEAN"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": {"base": "string", "format": "Auditory|Gustatory|Haptic|Olfactory|Visual"},
                         "name": "PERCEPTUAL_DOMINANT"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
                         "name": "PERCEPTUAL_EXCLUSIVITY"
                     }
                 ],

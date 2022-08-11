@@ -112,31 +112,31 @@
                         "name": "SER_ZSCORE"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "LANGUAGE_DESCRIPTIVENESS_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "SER_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "NAVIGATION_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "MANIPULATION_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "STRESS_ACTION_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "AROUSAL_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "VALENCE_MEAN"
                     },
                     {
@@ -184,7 +184,7 @@
                         "name": "SDRATINGS_PC2"
                     },
                     {
-                        "datatype": "integer",
+                        "datatype": "nonNegativeInteger",
                         "name": "STROKE"
                     },
                     {

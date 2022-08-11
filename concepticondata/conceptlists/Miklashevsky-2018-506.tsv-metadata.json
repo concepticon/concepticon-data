@@ -52,11 +52,11 @@
                         "name": "TRANSLITERATION"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": {"base": "string", "format": "Action|Animal|Body_Part|Building|Clothes|Food|Ground|Intelligence|Object|Sense_Emotion|Sense_Phys|Sound|Space|Tool_power_grip|Tool_precise_grip|Transport"},
                         "name": "SEMANTIC_CATEGORY"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": {"base": "boolean", "format": "abstract|concrete"},
                         "name": "ABSTRACTNESS"
                     },
                     {
@@ -72,43 +72,43 @@
                         "name": "OBJECTIVE_WORD_FREQUENCY"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "VISUAL_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "AUDITORY_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "OLFACTORY_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "GUSTATORY_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "HAPTIC_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "IMAGEABILITY_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "MANIPULABILITY_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "SPATIAL_LOCALIZATION_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 15},
                         "name": "AOA_MEAN"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "SUBJECTIVE_FREQ_MEAN"
                     }
                 ],

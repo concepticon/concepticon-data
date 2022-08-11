@@ -47,11 +47,11 @@
                         "name": "CATEGORY"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 100},
                         "name": "STABILITY_SCORE"
                     }, 
                     {
-                        "datatype": "integer", 
+                        "datatype": {"base": "positiveInteger", "minimum": 1, "maximum": 215},
                         "name": "RANK"
                     }
                 ], 

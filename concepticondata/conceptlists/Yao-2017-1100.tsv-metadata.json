@@ -48,27 +48,27 @@
                         "name": "CHINESE"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
                         "name": "VALENCE_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
                         "name": "AROUSAL_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
                         "name": "CONCRETENESS_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
                         "name": "FAMILIARITY_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
                         "name": "IMAGEABILITY_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
                         "name": "CONTEXT_AVAILABILITY_MEAN"
                     }
                 ],

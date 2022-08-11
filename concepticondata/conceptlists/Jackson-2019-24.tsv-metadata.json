@@ -43,27 +43,27 @@
                         "name": "ENGLISH"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 10}, 
                         "name": "VALENCE"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 10},
                         "name": "ACTIVATION"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 10},
                         "name": "DOMINANCE"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 10},
                         "name": "CERTAINTY"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 10},
                         "name": "APPROACH_AVOIDANCE"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 10},
                         "name": "SOCIALITY"
                     }
                 ], 

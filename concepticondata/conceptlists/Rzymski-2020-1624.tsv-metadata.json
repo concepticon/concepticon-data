@@ -44,23 +44,23 @@
                         "name": "ENGLISH"
                     },
                     {
-                        "datatype": "integer",
+                        "datatype": "nonNegativeInteger",
                         "name": "FAMILY_FREQUENCY"
                     },
                     {
-                        "datatype": "integer",
+                        "datatype": "nonNegativeInteger",
                         "name": "LANGUAGE_FREQUENCY"
                     },
                     {
-                        "datatype": "integer",
+                        "datatype": "nonNegativeInteger",
                         "name": "WORD_FREQUENCY"
                     },
                     {
-                        "datatype": "integer",
+                        "datatype": "nonNegativeInteger",
                         "name": "RANK"
                     },
                     {
-                        "datatype": "integer",
+                        "datatype": "nonNegativeInteger",
                         "name": "COMMUNITY"
                     },
                     {
@@ -68,15 +68,15 @@
                         "name": "CENTRAL_CONCEPT"
                     },
                     {
-                        "datatype": "integer",
+                        "datatype": "nonNegativeInteger",
                         "name": "DEGREE"
                     },
                     {
-                        "datatype": "integer",
+                        "datatype": "nonNegativeInteger",
                         "name": "WEIGHTED_FAMILY_DEGREE"
                     },
                     {
-                        "datatype": "integer",
+                        "datatype": "nonNegativeInteger",
                         "name": "WEIGHTED_LANGUAGE_DEGREE"
                     }
                 ],

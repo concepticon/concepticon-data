@@ -48,31 +48,31 @@
                         "name": "CONCEPTICON_ID"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 8},
                         "name": "COLOR_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 8},
                         "name": "MOTION_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 8},
                         "name": "GRASP_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 8},
                         "name": "PAIN_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 8},
                         "name": "SOUND_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 8},
                         "name": "TASTE_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 8},
                         "name": "SMELL_MEAN"
                     },
                     {

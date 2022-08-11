@@ -48,7 +48,7 @@
                         "name": "SWEDISH"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": {"base": "string", "format": "abstract|emotional|general|specific"},
                         "name": "SEMANTIC_CATEGORY"
                     }
                 ],

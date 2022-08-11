@@ -52,7 +52,7 @@
                         "name": "SEMANTIC_CATEGORY"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "TYPICALITY_MEAN"
                     },
                     {
@@ -60,7 +60,7 @@
                         "name": "TYPICALITY_SD"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "AOA_MEAN"
                     },
                     {
@@ -68,7 +68,7 @@
                         "name": "AOA_SD"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
                         "name": "FAMILIARITY_MEAN"
                     },
                     {

@@ -43,291 +43,291 @@
                         "name": "CONCEPTICON_GLOSS"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18}, 
                         "name": "AFRIKAANS_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://glottolog.org/resource/languoid/id/afri1274",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/afri1274",
                         "name": "AFRIKAANS"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "AMERICANENGLISH_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "https://glottolog.org/resource/languoid/id/nort3314",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/nort3314",
                         "name": "AMERICANENGLISH"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "CATALAN_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://glottolog.org/resource/languoid/id/stan1289",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/stan1289",
                         "name": "CATALAN"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "CZECH_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "https://glottolog.org/resource/languoid/id/czec1258",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/czec1258",
                         "name": "CZECH"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "DANISH_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://glottolog.org/resource/languoid/id/dani1285",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/dani1285",
                         "name": "DANISH"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "DUTCH_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://glottolog.org/resource/languoid/id/dutc1256",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/dutc1256",
                         "name": "DUTCH"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "ENGLISH_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://glottolog.org/resource/languoid/id/stan1293",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/stan1293",
                         "name": "ENGLISH"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "FINNISH_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://glottolog.org/resource/languoid/id/finn1318",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/finn1318",
                         "name": "FINNISH"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "GAELIC_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "https://glottolog.org/resource/languoid/id/scot1245",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/scot1245",
                         "name": "GAELIC"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "GERMAN_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://glottolog.org/resource/languoid/id/stan1295",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/stan1295",
                         "name": "GERMAN"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "GREEK_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://glottolog.org/resource/languoid/id/mode1248",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/mode1248",
                         "name": "GREEK"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "HEBREW_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://glottolog.org/resource/languoid/id/hebr1245",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/hebr1245",
                         "name": "HEBREW"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "HUNGARIAN_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://glottolog.org/resource/languoid/id/hung1274",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/hung1274",
                         "name": "HUNGARIAN"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "ICELANDIC_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://glottolog.org/resource/languoid/id/icel1247",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/icel1247",
                         "name": "ICELANDIC"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "IRISH_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://glottolog.org/resource/languoid/id/iris1253",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/iris1253",
                         "name": "IRISH"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "XHOSA_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://glottolog.org/resource/languoid/id/xhos1239",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/xhos1239",
                         "name": "XHOSA"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "ITALIAN_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://glottolog.org/resource/languoid/id/ital1282",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/ital1282",
                         "name": "ITALIAN"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "LEBANESEARABIC_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "https://glottolog.org/resource/languoid/id/stan1323",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/stan1323",
                         "name": "LEBANESEARABIC"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "LITHUANIAN_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://glottolog.org/resource/languoid/id/lith1251",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/lith1251",
                         "name": "LITHUANIAN"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "LUXEMBOURGISH_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://glottolog.org/resource/languoid/id/luxe1241",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/luxe1241",
                         "name": "LUXEMBOURGISH"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "MALTESE_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://glottolog.org/resource/languoid/id/malt1254",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/malt1254",
                         "name": "MALTESE"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "MALAY_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "https://glottolog.org/resource/languoid/id/indo1326",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/indo1326",
                         "name": "MALAY"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "PERSIAN_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "https://glottolog.org/resource/languoid/id/fars1255",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/fars1255",
                         "name": "PERSIAN"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "POLISH_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://glottolog.org/resource/languoid/id/poli1260",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/poli1260",
                         "name": "POLISH"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "RUSSIAN_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://glottolog.org/resource/languoid/id/russ1263",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/russ1263",
                         "name": "RUSSIAN"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "SOUTHAFRICANENGLISH_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "",
+                        "valueUrl": "",
                         "name": "SOUTHAFRICANENGLISH"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "SERBIAN_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://glottolog.org/resource/languoid/id/serb1264",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/serb1264",
                         "name": "SERBIAN"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "SLOVAK_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://glottolog.org/resource/languoid/id/slov1269",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/slov1269",
                         "name": "SLOVAK"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "SPANISH_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://glottolog.org/resource/languoid/id/stan1288",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/stan1288",
                         "name": "SPANISH"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "SWEDISH_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://glottolog.org/resource/languoid/id/swed1254",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/swed1254",
                         "name": "SWEDISH"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "TURKISH_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "http://glottolog.org/resource/languoid/id/nucl1301",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/nucl1301",
                         "name": "TURKISH"
                     },
                     {
-                        "datatype": "float", 
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 18},
                         "name": "WESTERNARMENIAN_AOA"
                     },
                     {
                         "datatype": "string",
-                        "propertyUrl": "https://glottolog.org/resource/languoid/id/homs1234",
+                        "valueUrl": "https://glottolog.org/resource/languoid/id/homs1234",
                         "name": "WESTERNARMENIAN"
                     }
                 ], 

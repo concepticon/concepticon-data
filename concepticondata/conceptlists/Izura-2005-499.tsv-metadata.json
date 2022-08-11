@@ -48,31 +48,31 @@
                         "name": "CONCEPTICON_ID"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": {"base": "string", "format": "intelligence|clothing|furniture|animal|body part"},
                         "name": "SEMANTIC_CATEGORY"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "TYPICALITY"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "FAMILIARITY"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": "decimal",
                         "name": "AOA"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "IMAGEABILITY"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": "decimal",
                         "name": "LEXICAL_AVAILABILITY"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "nonNegativeInteger", "maximum": 2000000},
                         "name": "FREQUENCY"
                     },
                     {

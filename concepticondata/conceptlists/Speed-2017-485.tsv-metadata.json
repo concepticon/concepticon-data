@@ -48,43 +48,43 @@
                         "name": "DUTCH"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
                         "name": "AUDITORY_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
                         "name": "GUSTATORY_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
                         "name": "OLFACTORY_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
                         "name": "HAPTIC_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
                         "name": "VISUAL_MEAN"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": {"base": "string", "format": "horen|joint|proeven|ruiken|voelen|zien"},
                         "name": "PERCEPTUAL_DOMINANT"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
                         "name": "PERCEPTUAL_EXCLUSIVITY"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 7},
                         "name": "AROUSAL_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 7},
                         "name": "DOMINANCE_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 7},
                         "name": "VALENCE_MEAN"
                     }
                 ],

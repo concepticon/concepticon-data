@@ -56,7 +56,7 @@
                         "name": "SUBJECTIVE_FREQ"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
                         "name": "DOMINANCE_SCORE"
                     },
                     {
@@ -76,11 +76,11 @@
                         "name": "BIGRAM_LOG_BNC"
                     },
                     {
-                        "datatype": "integer",
+                        "datatype": "nonNegativeInteger",
                         "name": "NUMBER_WORD_SENSE_WORDSMYTH"
                     },
                     {
-                        "datatype": "integer",
+                        "datatype": "nonNegativeInteger",
                         "name": "NUMBER_WORDSENSE_WORDNET"
                     },
                     {

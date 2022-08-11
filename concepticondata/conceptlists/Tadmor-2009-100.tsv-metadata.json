@@ -43,27 +43,27 @@
                         "name": "ENGLISH"
                     }, 
                     {
-                        "datatype": "integer", 
+                        "datatype": {"base": "positiveInteger", "minimum": 1, "maximum": 100}, 
                         "name": "RANK"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 1}, 
                         "name": "BORROWED_SCORE"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
                         "name": "AGE_SCORE"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
                         "name": "ANALYZABILITY_SCORE"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
                         "name": "REPRESENTATION_SCORE"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
                         "name": "COMPOSITE_SCORE"
                     }
                 ], 

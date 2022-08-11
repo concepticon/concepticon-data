@@ -47,15 +47,15 @@
                         "name": "CATEGORY"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": {"base": "nonNegativeInteger", "maximum": 100}, 
                         "name": "SWADESH_1955_STABILITY_SCORE"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": {"base": "nonNegativeInteger", "maximum": 100}, 
                         "name": "STABILITY_SCORE"
                     }, 
                     {
-                        "datatype": "integer", 
+                        "datatype": {"base": "positiveInteger", "minimum": 1, "maximum": 168}, 
                         "name": "RANK"
                     }
                 ], 
