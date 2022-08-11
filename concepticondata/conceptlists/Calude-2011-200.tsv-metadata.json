@@ -43,71 +43,72 @@
                         "name": "ENGLISH"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": "decimal", 
                         "name": "ENGLISH_FREQUENCY"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": "decimal", 
                         "name": "SPANISH_FREQUENCY"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": "decimal", 
                         "name": "RUSSIAN_FREQUENCY"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": "decimal", 
                         "name": "GREEK_FREQUENCY"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": "decimal", 
                         "name": "PORTUGUESE_FREQUENCY"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": "decimal", 
                         "name": "CHINESE_FREQUENCY"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": "decimal", 
                         "name": "SWAHILI_FREQUENCY"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": "decimal", 
                         "name": "CHILEAN_FREQUENCY"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": "decimal", 
                         "name": "FINNISH_FREQUENCY"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": "decimal", 
                         "name": "ESTONIAN_FREQUENCY"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": "decimal", 
                         "name": "FRENCH_FREQUENCY"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": "decimal", 
                         "name": "TURKISH_FREQUENCY"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": "decimal", 
                         "name": "CZECH_FREQUENCY"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": "decimal", 
                         "name": "POLISH_FREQUENCY"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": "decimal", 
                         "name": "BASQUE_FREQUENCY"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": "decimal", 
                         "name": "MAORI_FREQUENCY"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": "decimal", 
+                        "null": ["-", ""],
                         "name": "TOK_PISIN_FREQUENCY"
                     }
                 ], 

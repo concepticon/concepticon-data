@@ -68,7 +68,7 @@
                         "name": "RANKING_VALUE"
                     },
                     {
-                        "datatype": "integer",
+                        "datatype": {"base": "positiveInteger", "minimum": 1, "maximum": 1016},
                         "name": "RANK"
                     }
                 ],

@@ -43,11 +43,11 @@
                         "name": "ENGLISH"
                     }, 
                     {
-                        "datatype": "integer", 
+                        "datatype": {"base": "positiveInteger", "minimum": 1, "maximum": 100}, 
                         "name": "RANK"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 1}, 
                         "name": "STABILITY_SCORE"
                     }
                 ], 

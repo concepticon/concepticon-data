@@ -60,27 +60,27 @@
                         "name": "PICTURE_NUMBER"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
                         "name": "VALENCE_ALL_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
                         "name": "AROUSAL_ALL_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
                         "name": "VALENCE_MALE_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
                         "name": "AROUSAL_MALE_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
                         "name": "VALENCE_FEMALE_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
                         "name": "AROUSAL_FEMALE_MEAN"
                     },
                     {

@@ -48,23 +48,23 @@
                         "name": "ITALIAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
                         "name": "GUSTATORY_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
                         "name": "OLFACTORY_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
                         "name": "HAPTIC_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
                         "name": "AUDITORY_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
                         "name": "VISUAL_MEAN"
                     },
                     {
@@ -72,7 +72,7 @@
                         "name": "PERCEPTUAL_STRENGTH_MAX"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": {"base": "string", "format": "gusto|olfatto|tatto|udito|vista"},
                         "name": "PERCEPTUAL_DOMINANT"
                     },
                     {
@@ -84,15 +84,15 @@
                         "name": "PERCEPTUAL_STRENGTH_ENTROPY"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
                         "name": "PERCEPTUAL_EXCLUSIVITY"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "FAMILIARITY_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
                         "name": "AOA_MEAN"
                     },
                     {

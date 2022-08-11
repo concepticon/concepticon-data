@@ -76,27 +76,28 @@
                         "name": "CHARACTER_TYPE_2"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
                         "name": "VISUAL_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
+                        "null": ["5.210526316"],
                         "name": "AUDITORY_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
                         "name": "GUSTATORY_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
                         "name": "OLFACTORY_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
                         "name": "HAPTIC_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
                         "name": "INTEROCEPTIVE_MEAN"
                     },
                     {
@@ -104,7 +105,7 @@
                         "name": "PERCEPTUAL_MEAN"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": {"base": "string", "format": "auditory|gustatory|gustatory/olfactory|interoceptive|olfactory|tactile|visual|visual/interoceptive"},
                         "name": "PERCEPTUAL_DOMINANT"
                     },
                     {
@@ -120,27 +121,27 @@
                         "name": "PERCEPTUAL_STRENGTH_SUM"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
                         "name": "PERCEPTUAL_EXCLUSIVITY"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
                         "name": "FOOT_ACTION_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
                         "name": "HAND_ACTION_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
                         "name": "MOUTH_ACTION_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
                         "name": "HEAD_ACTION_MEAN"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
                         "name": "TORSO_ACTION_MEAN"
                     },
                     {
@@ -160,11 +161,11 @@
                         "name": "ACTION_STRENGTH_AGGREGATED"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
                         "name": "ACTION_EXCLUSIVITY"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": {"base": "string", "format": "hand/arm|hand/arm\\+head|hand/arm\\+mouth/throat|hand/arm\\+mouth/throat\\+head|hand/arm\\+torso|head|head\\+torso|leg/foot|leg/foot\\+hand/arm|leg/foot\\+head|leg/foot\\+torso|mouth/throat|mouth/throat\\+head|mouth/throat\\+torso|torso"},
                         "name": "ACTION_DOMINANT"
                     },
                     {
@@ -172,7 +173,7 @@
                         "name": "SENSORIMOTOR_STRENGTH_MAX"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": {"base": "string", "format": "auditory|auditory&month/throat|gustatory|gustatory&mouth/throat|gustatory/olfactory|hand/arm|interoceptive|leg/foot|mouth/throat|olfactory|tactile|visual|visual/interoceptive"},
                         "name": "SENSORIMOTOR_DOMINANT"
                     },
                     {
@@ -184,11 +185,11 @@
                         "name": "SENSORIMOTOR_STRENGTH_SUM"
                     },
                     {
-                        "datatype": "float",
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
                         "name": "SENSORIMOTOR_EXCLUSIVITY"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": {"base": "string", "format": "abstract|concrete"},
                         "name": "CONCRETE_ABSTRACT"
                     }
                 ],
