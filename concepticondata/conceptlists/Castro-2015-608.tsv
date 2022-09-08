@@ -49,7 +49,7 @@ Castro-2015-608-47	47	root	670	ROOT	根（树根）	root
 Castro-2015-608-48	48	branch	1531	BRANCH	树枝（小的）	branch
 Castro-2015-608-49	49	bark	1204	BARK	树皮	bark
 Castro-2015-608-50	50	leaf	628	LEAF	叶（树叶）	leaf
-Castro-2015-608-51	51	sprout			豆芽	bean sprout
+Castro-2015-608-51	51	sprout	3358	SPROUT (SHOOT)	豆芽	bean sprout
 Castro-2015-608-52	52	flower	239	FLOWER	花	flower
 Castro-2015-608-53	53	bud	1684	BUD	花苞	bud
 Castro-2015-608-54	54	clf. for fruit	3246	FRUIT (CLASSIFIER)	个（水果，大的）〈量〉	m.w. for fruit
@@ -91,7 +91,7 @@ Castro-2015-608-89	89	pig	1337	PIG	猪	pig
 Castro-2015-608-90	90	wildboar	3154	WILD BOAR	野猪	wild pig, wild boar
 Castro-2015-608-91	91	goat	1502	GOAT	羊（养的）	goat, sheep (domestic)
 Castro-2015-608-92	92	chicken	1318	CHICKEN	鸡	chicken
-Castro-2015-608-93	93	young			未下蛋的母鸡	y. chicken
+Castro-2015-608-93	93	young	1207	YOUNG	未下蛋的母鸡	y. chicken
 Castro-2015-608-94	94	duck	1360	DUCK	鸭	duck
 Castro-2015-608-95	95	goose	1187	GOOSE	鹅	goose
 Castro-2015-608-96	96	bird	937	BIRD	鸟	bird
@@ -266,7 +266,7 @@ Castro-2015-608-264	264	father	1217	FATHER	父亲	father
 Castro-2015-608-265	265	mother	1216	MOTHER	母亲	mother
 Castro-2015-608-266	266	maternal uncle (elder)	3249	MATERNAL UNCLE (MOTHER'S OLDER BROTHER)	大舅（妈之兄）	uncle
 Castro-2015-608-267	267	maternal uncle (younger)	3250	MATERNAL UNCLE (MOTHER'S YOUNGER BROTHER)	小舅（妈之弟）	uncle
-Castro-2015-608-268	268	maternal aunt			舅母（妈之姐）	mother's older sister or older brother's wife
+Castro-2015-608-268	268	maternal aunt	2176	MATERNAL AUNT	舅母（妈之姐）	mother's older sister or older brother's wife
 Castro-2015-608-269	269	grand-father	1383	GRANDFATHER	爷爷	grandfather
 Castro-2015-608-270	270	grand-mother	1496	GRANDMOTHER	奶奶	grandmother
 Castro-2015-608-271	271	husband	1200	HUSBAND	丈夫	husband
@@ -367,14 +367,14 @@ Castro-2015-608-365	365	to gaze			望（远处）	to gaze into the distance
 Castro-2015-608-366	366	to face upward			仰（仰头的状态）	to face upward
 Castro-2015-608-367	367	to smell	2124	SMELL	闻（用鼻子）	to smell
 Castro-2015-608-368	368	to speak	1623	SPEAK	说（说汉话）	to speak, to say
-Castro-2015-608-369	369	to tell			说，指责（“我说你！”）	to reprimand, to advise
+Castro-2015-608-369	369	to tell	1711	TELL	说，指责（“我说你！”）	to reprimand, to advise
 Castro-2015-608-370	370	to sing	1261	SING	唱（水歌）	to sing (trad. Sui songs)
 Castro-2015-608-371	371	to scold	299	SCOLD	骂	to scold
 Castro-2015-608-372	372	to accompany	1542	ACCOMPANY	陪	to accompany
 Castro-2015-608-373	373	to ask	1309	ASK (INQUIRE)	问	to ask
 Castro-2015-608-374	374	to chat	2903	CHAT (WITH SOMEBODY)	聊天，玩	to chat, to hang out
 Castro-2015-608-375	375	to lie	601	LIE (MISLEAD)	撒谎，假	to tell lies, false
-Castro-2015-608-376	376	to agree			同意	to agree
+Castro-2015-608-376	376	to agree	3643	AGREE	同意	to agree
 Castro-2015-608-377	377	to be willing to			愿意	to be willing (to do sth.)
 Castro-2015-608-378	378	to laugh	1355	LAUGH	笑	to laugh
 Castro-2015-608-379	379	to cry	1839	CRY	哭	to cry
@@ -382,7 +382,7 @@ Castro-2015-608-380	380	to blow	176	BLOW (WITH MOUTH)	吹	to blow
 Castro-2015-608-381	381	to untie	352	UNTIE	解（解开鞋带 ）	to untie
 Castro-2015-608-382	382	to bark	1206	BARKING	吠	to bark
 Castro-2015-608-383	383	to graze	3058	GRAZE	放（牛）	to herd, to graze
-Castro-2015-608-384	384	to grow			栽（菜）	to grow (from seedling), to plant
+Castro-2015-608-384	384	to grow	3461	GROW PLANTS	栽（菜）	to grow (from seedling), to plant
 Castro-2015-608-385	385	to plant (seedings)	1486	PLANT (SOMETHING)	栽（秧）	to plant (young rice plants)
 Castro-2015-608-386	386	to bear (fruit)	3054	BEAR FRUIT	结（果子）	to bear (fruit)
 Castro-2015-608-387	387	to call	1084	CALL	叫（人过来）	to call (sb. over), to be called
@@ -396,13 +396,13 @@ Castro-2015-608-394	394	to spurt			喷	to spurt
 Castro-2015-608-395	395	to brush on			涂上（漆在棺材上）	to apply (lacquer to a coffin)
 Castro-2015-608-396	396	to sweep	230	SWEEP	扫	to sweep
 Castro-2015-608-397	397	to open (door)	1156	OPEN	开（门）	to open (a door wide)
-Castro-2015-608-398	398	to open (mouth)			张（嘴）	to open (mouth)
+Castro-2015-608-398	398	to open (mouth)	3437	OPEN (MOUTH)	张（嘴）	to open (mouth)
 Castro-2015-608-399	399	to turn off	1046	SHUT	关（门）	finished
 Castro-2015-608-400	400	to shut (eyes)	2063	CLOSE (EYES)	闭（眼睛）	to shut, close (eyes)
 Castro-2015-608-401	401	to hold in mouth			衔	to hold in one's mouth (e.g. a pipe)
 Castro-2015-608-402	402	to bite	1403	BITE	咬	to bite
 Castro-2015-608-403	403	to nod			点（头）	to nod
-Castro-2015-608-404	404	to wring			拧（毛巾）	to wring (towel)
+Castro-2015-608-404	404	to wring	3224	WRING	拧（毛巾）	to wring (towel)
 Castro-2015-608-405	405	to turn inside out			反（把里面翻到外面）	to turn inside out
 Castro-2015-608-406	406	to turn over	1445	TURN (SOMETHING)	翻（翻身）	to turn over
 Castro-2015-608-407	407	to turn (pages)			翻（书）	to turn (the pages of a book)
@@ -469,7 +469,7 @@ Castro-2015-608-467	467	that	78	THAT	那	that
 Castro-2015-608-468	468	what	1236	WHAT	什么？	what?
 Castro-2015-608-469	469	who	1235	WHO	谁	who?
 Castro-2015-608-470	470	where	1237	WHERE	哪里？	where?
-Castro-2015-608-471	471	place			处〈方位词〉(如这里)	place (location prefix)
+Castro-2015-608-471	471	place	723	PLACE (POSITION)	处〈方位词〉(如这里)	place (location prefix)
 Castro-2015-608-472	472	side	682	SIDE	边（如那边）	side
 Castro-2015-608-473	473	left	244	LEFT	左（左边）	left
 Castro-2015-608-474	474	right	1019	RIGHT	右（右边）	right
@@ -526,7 +526,7 @@ Castro-2015-608-524	524	beautiful	1427	BEAUTIFUL	漂亮	beautiful
 Castro-2015-608-525	525	deaf	996	DEAF	聋	deaf
 Castro-2015-608-526	526	a shame			可惜	a shame
 Castro-2015-608-527	527	tired	1757	TIRED	累	tired
-Castro-2015-608-528	528	bored			烦闷（郁闷）	bored, nothing to do, anxious
+Castro-2015-608-528	528	bored	905	BORING	烦闷（郁闷）	bored, nothing to do, anxious
 Castro-2015-608-529	529	lazy	1564	LAZY	懒	lazy
 Castro-2015-608-530	530	short-tempered			毛躁（容易发脾气）	short-tempered, irritable
 Castro-2015-608-531	531	insane	1899	MAD	癫，疯	insane
