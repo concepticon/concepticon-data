@@ -335,7 +335,7 @@ Chen-2012-888-333	333	马鞍	saddle	677	3065	SADDLE		588	用品工具
 Chen-2012-888-334	334	鞭子	whip	678	2630	WHIP		597	用品工具
 Chen-2012-888-335	335	伞	umbrella	678	3105	UMBRELLA		583	用品工具
 Chen-2012-888-336	336	斧子	axe	678	677	AXE		605	用品工具
-Chen-2012-888-337	337	柴刀	chopper	679				633	用品工具
+Chen-2012-888-337	337	柴刀	chopper	679	2772	KITCHEN KNIFE		633	用品工具
 Chen-2012-888-338	338	锤子	hammer	679	1481	HAMMER		606	用品工具
 Chen-2012-888-339	339	凿子	chisel	679	1979	CHISEL		607	用品工具
 Chen-2012-888-340	340	锯子	saw	680	1948	SAW		608	用品工具
@@ -388,7 +388,7 @@ Chen-2012-888-386	386	水缸	water tank	695				0	用品工具
 Chen-2012-888-387	387	水桶	bucket	695	2052	BUCKET		561	用品工具
 Chen-2012-888-388	388	罐子	can (jar)	696	3765	STORING POT		557	用品工具
 Chen-2012-888-389	389	水瓢	gourd ladle (wooden dipper)	696	2657	LADLE		0	用品工具
-Chen-2012-888-390	390	火钳	fire tongs	696				566	用品工具
+Chen-2012-888-390	390	火钳	fire tongs	696	272	TONGS		566	用品工具
 Chen-2012-888-391	391	吹火筒	tube (bamboo) for blowing on a fire	697				567	用品工具
 Chen-2012-888-392	392	篮子	basket	697	1539	BASKET		0	用品工具
 Chen-2012-888-393	393	背带	a piece of cloth with straps for carrying a toddler steelyard on the back	697	2973	STRAP		569	用品工具
@@ -489,7 +489,7 @@ Chen-2012-888-487	487	中午	noon	729	12	MIDDAY		750	方位时间
 Chen-2012-888-488	488	下午	afternoon	729	1807	AFTERNOON		0	方位时间
 Chen-2012-888-489	489	早晨	morning	729	1339	MORNING		749	方位时间
 Chen-2012-888-490	490	晚上	evening	730	1629	EVENING		752	方位时间
-Chen-2012-888-491	491	半夜	midnight	730				754	方位时间
+Chen-2012-888-491	491	半夜	midnight	730	2656	MIDNIGHT		754	方位时间
 Chen-2012-888-492	492	初一	1st day of the lunar month	730	3354	FIRST DAY OF THE MONTH		769	方位时间
 Chen-2012-888-493	493	初二	2nd day of the lunar month	731	3355	SECOND DAY OF THE MONTH		770	方位时间
 Chen-2012-888-494	494	初三	3rd day of the lunar month	731	3352	THIRD DAY OF THE MONTH		0	方位时间
@@ -669,7 +669,7 @@ Chen-2012-888-667	667	打（人）	hit (a person)	789	1433	HIT		1228	动词
 Chen-2012-888-668	668	打（枪）	fire (a shot)	789	3180	SHOOT (WITH SLINGSHOT)		1231	动词
 Chen-2012-888-669	669	戴（帽）	wear (a hat)	789	3428	WEAR (ON HEAD)		1252	动词
 Chen-2012-888-670	670	戴（手镯）	wear (a bracelet)	790				1254	动词
-Chen-2012-888-671	671	倒（下）	fall down	790				1257	动词
+Chen-2012-888-671	671	倒（下）	fall down	790	1280	FALL		1257	动词
 Chen-2012-888-672	672	到	arrive	790	1387	ARRIVE		1262	动词
 Chen-2012-888-673	673	倒（水）	pour out	791	1487	POUR		1261	动词
 Chen-2012-888-674	674	得到	get (acquire)	791	694	GET		1263	动词
@@ -686,7 +686,7 @@ Chen-2012-888-684	684	剁	chop into pieces	794	2149	CHOP (INTO PIECES)		1296	动
 Chen-2012-888-685	685	翻	turn over (on bed)	795	3537	TURN OVER		1310	动词
 Chen-2012-888-686	686	发烧	have a fever	795	2713	HAVE A FEVER		1305	动词
 Chen-2012-888-687	687	纺	spin (into yarn)	795	121	SPIN		1313	动词
-Chen-2012-888-688	688	放（牛）	put out to pasture	796				1316	动词
+Chen-2012-888-688	688	放（牛）	put out to pasture	796	2031	PUT OUT TO PASTURE		1316	动词
 Chen-2012-888-689	689	飞	fly	796	1441	FLY (MOVE THROUGH AIR)		1318	动词
 Chen-2012-888-690	690	分	separate	796	1359	SEPARATE		1321	动词
 Chen-2012-888-691	691	缝	sew (up)	797	1457	SEW		1324	动词
@@ -770,7 +770,7 @@ Chen-2012-888-768	768	爬（树）	climb (a tree)	822	1102	CLIMB		1539	动词
 Chen-2012-888-769	769	怕	fear (be afraid)	823	1419	FEAR (BE AFRAID)		1366	动词
 Chen-2012-888-770	770	拍	strike (beat)	823	2133	STRIKE OR BEAT		1540	动词
 Chen-2012-888-771	771	跑	run	823	1519	RUN		1544	动词
-Chen-2012-888-772	772	泡	soak	824				1444	动词
+Chen-2012-888-772	772	泡	soak	824	2069	SOAK (VERB)		1444	动词
 Chen-2012-888-773	773	赔	loose money	824				1547	动词
 Chen-2012-888-774	774	喷	spout	824				1152	动词
 Chen-2012-888-775	775	劈	chop (firewood)	825	1437	SPLIT		1552	动词
@@ -842,7 +842,7 @@ Chen-2012-888-840	840	削	pare (peel with a knife)	846				1733	动词
 Chen-2012-888-841	841	笑	laugh (smile)	847	1355	LAUGH		1735	动词
 Chen-2012-888-842	842	醒	wake up	847	1602	WAKE UP		1739	动词
 Chen-2012-888-843	843	选	choose	847	1750	CHOOSE		1675	动词
-Chen-2012-888-844	844	寻找	seek	848				1744	动词
+Chen-2012-888-844	844	寻找	seek	848	1468	LOOK FOR		1744	动词
 Chen-2012-888-845	845	压	press	848	1913	PRESS		1745	动词
 Chen-2012-888-846	846	痒	itch	848	3856	ITCH OR ITCHY OR ITCHING		1749	动词
 Chen-2012-888-847	847	摇	shake (head)	849	1909	SHAKE		1751	动词
@@ -881,7 +881,7 @@ Chen-2012-888-879	879	醉	drunk	859	1463	DRUNK		1818	动词
 Chen-2012-888-880	880	坐	sit	860	1416	SIT		1819	动词
 Chen-2012-888-881	881	做	do (something)	860	813	DO		1820	动词
 Chen-2012-888-882	882	不	not	860	1240	NOT		0	动词
-Chen-2012-888-883	883	都	all	861				0	动词
+Chen-2012-888-883	883	都	all	861	98	ALL		0	动词
 Chen-2012-888-884	884	也	also	861				0	动词
 Chen-2012-888-885	885	很	very	861	1311	VERY		0	动词
 Chen-2012-888-886	886	和	and	862	1577	AND		0	动词
