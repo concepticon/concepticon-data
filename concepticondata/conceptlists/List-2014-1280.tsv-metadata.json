@@ -47,7 +47,7 @@
                         "name": "COMMUNITY_LABEL"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": "integer", 
                         "name": "COMMUNITY_ID"
                     }, 
                     {
@@ -55,7 +55,7 @@
                         "name": "COMMUNITY_URL"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": "integer", 
                         "name": "SUBGRAPH_ID"
                     }, 
                     {
@@ -63,15 +63,15 @@
                         "name": "SUBGRAPH_URL"
                     }, 
                     {
-                        "datatype": "decimal", 
+                        "datatype": "integer", 
                         "name": "FREQUENCY"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": "integer", 
                         "name": "DEGREE"
                     }, 
                     {
-                        "datatype": "string", 
+                        "datatype": "integer", 
                         "name": "WEIGHTED_DEGREE"
                     }, 
                     {
