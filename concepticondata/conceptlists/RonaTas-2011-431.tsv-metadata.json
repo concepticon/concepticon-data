@@ -22,10 +22,7 @@
                         "name": "ID"
                     },
                     {
-                        "datatype": {
-                            "base": "integer",
-                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
-                        },
+                        "datatype": "integer",
                         "name": "NUMBER"
                     },
                     {
@@ -48,7 +45,7 @@
                     "ID"
                 ]
             },
-            "url": "RonaTas-2011-512.tsv"
+            "url": "RonaTas-2011-431.tsv"
         }
     ]
 }
