@@ -22,7 +22,7 @@
                         "name": "ID"
                     },
                     {
-                        "datatype": "integer",
+                        "datatype": "string",
                         "name": "NUMBER"
                     },
                     {
@@ -38,7 +38,7 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "GLOSS"
+                        "name": "ENGLISH"
                     }
                 ],
                 "primaryKey": [
