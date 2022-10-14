@@ -307,7 +307,7 @@ Hale-1973-1798-305	Animals-8	pheasant	n	03a.008	3060	PHEASANT
 Hale-1973-1798-306	Animals-9	peacock	n	03a.009	3382	PEACOCK
 Hale-1973-1798-307	Animals-10	sparrow	n	03a.010	1854	SPARROW
 Hale-1973-1798-308	Animals-11	swallow	n	03a.011	3077	SWALLOW (BIRD)
-Hale-1973-1798-309	Animals-12	bill	n	03a.012	1081	BILL
+Hale-1973-1798-309	Animals-12	bill	n	03a.012		
 Hale-1973-1798-310	Animals-13	nest	n	03a.013	539	NEST
 Hale-1973-1798-311	Animals-14	wing	n	03a.014	1257	WING
 Hale-1973-1798-312	Animals-15	parrot	n	03a.015	882	PARROT
@@ -656,7 +656,7 @@ Hale-1973-1798-654	Time_Weather_Geography-100	float	v	05b.25	1574	FLOAT
 Hale-1973-1798-655	Time_Weather_Geography-101	sink	v	05b.26	1088	SINK (DESCEND)
 Hale-1973-1798-656	Time_Weather_Geography-102	drown	v	05b.27	1904	DROWN
 Hale-1973-1798-657	Time_Weather_Geography-103	slide (earth slide)	v	05b.28		
-Hale-1973-1798-658	Time_Weather_Geography-104	echo	v	05b.29	2816	ECHO
+Hale-1973-1798-658	Time_Weather_Geography-104	echo	v	05b.29		
 Hale-1973-1798-659	House_and_Home-1	road	n	06a.01	2457	PATH OR ROAD
 Hale-1973-1798-660	House_and_Home-2	village	n	06a.02	930	VILLAGE
 Hale-1973-1798-661	House_and_Home-3	town	n	06a.03	1391	TOWN
@@ -724,7 +724,7 @@ Hale-1973-1798-722	House_and_Home-64	clay waterjar	n	06a.64
 Hale-1973-1798-723	House_and_Home-65	small water jar	n	06a.65		
 Hale-1973-1798-724	House_and_Home-66	bottle	n	06a.66	1321	BOTTLE
 Hale-1973-1798-725	House_and_Home-67	soap	n	06a.67	788	SOAP
-Hale-1973-1798-726	House_and_Home-68	plan	v	06b1.01	3630	PLAN
+Hale-1973-1798-726	House_and_Home-68	plan	v	06b1.01		
 Hale-1973-1798-727	House_and_Home-69	begin	v	06b1.02	3447	BEGIN OR START
 Hale-1973-1798-728	House_and_Home-70	be finished	v	06b1.03		
 Hale-1973-1798-729	House_and_Home-71	be made	v	06b1.04		
@@ -744,7 +744,7 @@ Hale-1973-1798-742	House_and_Home-84	scatter	v	06b1.17	3705	SCATTER
 Hale-1973-1798-743	House_and_Home-85	gather up	v	06b1.18	7	GATHER
 Hale-1973-1798-744	House_and_Home-86	pile up (heap)	v	06b1.19	1576	PILE UP
 Hale-1973-1798-745	House_and_Home-87	pile (layers)	v	06b1.20	1576	PILE UP
-Hale-1973-1798-746	House_and_Home-88	store	v	06b1.21	752	STORE
+Hale-1973-1798-746	House_and_Home-88	store	v	06b1.21		
 Hale-1973-1798-747	House_and_Home-89	decorate	v	06b1.22	1739	DECORATE
 Hale-1973-1798-748	House_and_Home-90	work	v	06b1.23	1086	WORK (ACTIVITY)
 Hale-1973-1798-749	House_and_Home-91	rest	v	06b1.24	168	REST
@@ -813,7 +813,7 @@ Hale-1973-1798-811	Food_and_Clothing-8	salt	n	07a.08	1274	SALT
 Hale-1973-1798-812	Food_and_Clothing-9	oil	n	07a.09	1484	OIL (ORGANIC SUBSTANCE)
 Hale-1973-1798-813	Food_and_Clothing-10	egg	n	07a.10	744	EGG
 Hale-1973-1798-814	Food_and_Clothing-11	yolk	n	07a.11	1556	YOLK
-Hale-1973-1798-815	Food_and_Clothing-12	white	n	07a.12	1335	WHITE
+Hale-1973-1798-815	Food_and_Clothing-12	white	n	07a.12		
 Hale-1973-1798-816	Food_and_Clothing-13	shell	n	07a.13	598	SHELL
 Hale-1973-1798-817	Food_and_Clothing-14	ghee	n	07a.14		
 Hale-1973-1798-818	Food_and_Clothing-15	meat	n	07a.15	634	MEAT
@@ -835,7 +835,7 @@ Hale-1973-1798-833	Food_and_Clothing-30	shirt	n	07a.30	1622	SHIRT
 Hale-1973-1798-834	Food_and_Clothing-31	men's lower garment	n	07a.31		
 Hale-1973-1798-835	Food_and_Clothing-32	cumberbund	n	07a.32		
 Hale-1973-1798-836	Food_and_Clothing-33	turban	n	07a.33	3066	SCARF OR TURBAN
-Hale-1973-1798-837	Food_and_Clothing-34	wrap	n	07a.34	1113	WRAP
+Hale-1973-1798-837	Food_and_Clothing-34	wrap	n	07a.34		
 Hale-1973-1798-838	Food_and_Clothing-35	blouse	n	07a.35		
 Hale-1973-1798-839	Food_and_Clothing-36	women's lower garment	n	07a.36		
 Hale-1973-1798-840	Food_and_Clothing-37	women's carry all back-cloth	n	07a.37		
@@ -881,7 +881,7 @@ Hale-1973-1798-879	Food_and_Clothing-76	overflow	v	07b1.26
 Hale-1973-1798-880	Food_and_Clothing-77	spill	v	07b1.27	3130	SPILL (SOMETHING)
 Hale-1973-1798-881	Food_and_Clothing-78	become empty	v	07b1.28		
 Hale-1973-1798-882	Food_and_Clothing-79	pour	v	07b1.29	1487	POUR
-Hale-1973-1798-883	Food_and_Clothing-80	bubble	v	07b1.30	3689	BUBBLE
+Hale-1973-1798-883	Food_and_Clothing-80	bubble	v	07b1.30		
 Hale-1973-1798-884	Food_and_Clothing-81	dip into	v	07b1.31	3697	DIP
 Hale-1973-1798-885	Food_and_Clothing-82	dilute	v	07b1.32	550	DILUTE
 Hale-1973-1798-886	Food_and_Clothing-83	be dissolved	v	07b1.33		
@@ -906,7 +906,7 @@ Hale-1973-1798-904	Food_and_Clothing-101	heat up roti	v	07b2.10	1341	HEAT UP
 Hale-1973-1798-905	Food_and_Clothing-102	heat	v	07b2.11	1341	HEAT UP
 Hale-1973-1798-906	Food_and_Clothing-103	cool	v	07b2.12	3068	COOL DOWN
 Hale-1973-1798-907	Food_and_Clothing-104	become soft (ripe)	v	07b2.13	178	RIPE
-Hale-1973-1798-908	Food_and_Clothing-105	season	v	07b2.14	691	SEASON
+Hale-1973-1798-908	Food_and_Clothing-105	season	v	07b2.14		
 Hale-1973-1798-909	Food_and_Clothing-106	put on (the stove)	v	07b2.15	737	LIGHT (IGNITE)
 Hale-1973-1798-910	Food_and_Clothing-107	take off (the stove)	v	07b2.16		
 Hale-1973-1798-911	Food_and_Clothing-108	become sour	v	07b2.17	2229	BECOME SOUR
@@ -1041,7 +1041,7 @@ Hale-1973-1798-1039	Tools_Instruments_Metals-61	carve figure	v	08b.06	228	CARVE
 Hale-1973-1798-1040	Tools_Instruments_Metals-62	bore a hole	v	08b.07	1501	BORE
 Hale-1973-1798-1041	Tools_Instruments_Metals-63	hammer	v	08b.08	3115	HAMMER (SOMETHING)
 Hale-1973-1798-1042	Tools_Instruments_Metals-64	saw	v	08b.09	3543	SAW (SOMETHING)
-Hale-1973-1798-1043	Tools_Instruments_Metals-65	plane	v	08b.10	2980	AREA
+Hale-1973-1798-1043	Tools_Instruments_Metals-65	plane	v	08b.10		
 Hale-1973-1798-1044	Tools_Instruments_Metals-66	break rope (itr)	v	08b.11	460	BREAK (OF ROPE)
 Hale-1973-1798-1045	Tools_Instruments_Metals-67	break (tr)	v	08b.11a	2558	BREAK (CLEAVE)
 Hale-1973-1798-1046	Tools_Instruments_Metals-68	become tangled	v	08b.12		
@@ -1111,7 +1111,7 @@ Hale-1973-1798-1109	Numbers_and_Quantifiers-51	no one		9.51
 Hale-1973-1798-1110	Numbers_and_Quantifiers-52	another		9.52	197	OTHER
 Hale-1973-1798-1111	Numbers_and_Quantifiers-53	some		9.54	1241	SOME
 Hale-1973-1798-1112	Numbers_and_Quantifiers-54	too much		9.55		
-Hale-1973-1798-1113	Human_Mind_and_Conditions-1	love	n	10a.01	923	LOVE
+Hale-1973-1798-1113	Human_Mind_and_Conditions-1	love	n	10a.01	3834	LOVE (AFFECTION)
 Hale-1973-1798-1114	Human_Mind_and_Conditions-2	hate	n	10a.02	3749	HATE (LOATHING)
 Hale-1973-1798-1115	Human_Mind_and_Conditions-3	envy	n	10a.03	40	ENVY
 Hale-1973-1798-1116	Human_Mind_and_Conditions-4	pride	n	10a.04	3915	PRIDE
@@ -1137,8 +1137,8 @@ Hale-1973-1798-1135	Human_Mind_and_Conditions-23	weeping	n	10a.23
 Hale-1973-1798-1136	Human_Mind_and_Conditions-24	weakness	n	10a.24		
 Hale-1973-1798-1137	Human_Mind_and_Conditions-25	fever	n	10a.25	1534	FEVER
 Hale-1973-1798-1138	Human_Mind_and_Conditions-26	cough	n	10a.26	3913	COUGH (ACT OF COUGHING)
-Hale-1973-1798-1139	Human_Mind_and_Conditions-27	sneeze	n	10a.27	1621	SNEEZE
-Hale-1973-1798-1140	Human_Mind_and_Conditions-28	hiccup	n	10a.28	162	HICCOUGH
+Hale-1973-1798-1139	Human_Mind_and_Conditions-27	sneeze	n	10a.27		
+Hale-1973-1798-1140	Human_Mind_and_Conditions-28	hiccup	n	10a.28		
 Hale-1973-1798-1141	Human_Mind_and_Conditions-29	disease	n	10a.29	1986	DISEASE
 Hale-1973-1798-1142	Human_Mind_and_Conditions-30	leprosy	n	10a.30	3624	LEPROSY
 Hale-1973-1798-1143	Human_Mind_and_Conditions-31	tuberculosis	n	10a.31		
@@ -1153,7 +1153,7 @@ Hale-1973-1798-1151	Human_Mind_and_Conditions-39	dysentery	n	10a.39
 Hale-1973-1798-1152	Human_Mind_and_Conditions-40	worms	n	10a.40	1219	WORM
 Hale-1973-1798-1153	Human_Mind_and_Conditions-41	poison	n	10a.41	655	POISON
 Hale-1973-1798-1154	Human_Mind_and_Conditions-42	medicine	n	10a.42	1372	MEDICINE
-Hale-1973-1798-1155	Human_Mind_and_Conditions-43	cure	n	10a.43	499	CURE
+Hale-1973-1798-1155	Human_Mind_and_Conditions-43	cure	n	10a.43		
 Hale-1973-1798-1156	Human_Mind_and_Conditions-44	doctor	n	10a.44	597	PHYSICIAN
 Hale-1973-1798-1157	Human_Mind_and_Conditions-45	death	n	10a.45	910	DEATH
 Hale-1973-1798-1158	Human_Mind_and_Conditions-46	corpse	n	10a.46	767	CORPSE
@@ -1177,7 +1177,7 @@ Hale-1973-1798-1175	Human_Mind_and_Conditions-63	miracle	n	10a.63	2541	MIRACLE
 Hale-1973-1798-1176	Human_Mind_and_Conditions-64	prayer	n	10a.64		
 Hale-1973-1798-1177	Human_Mind_and_Conditions-65	prayer flag	n	10a.65		
 Hale-1973-1798-1178	Human_Mind_and_Conditions-66	oath	n	10a.66	1712	OATH
-Hale-1973-1798-1179	Human_Mind_and_Conditions-67	worship	n	10a.67	257	WORSHIP
+Hale-1973-1798-1179	Human_Mind_and_Conditions-67	worship	n	10a.67		
 Hale-1973-1798-1180	Human_Mind_and_Conditions-68	sacrifice	n	10a.68	1103	SACRIFICE
 Hale-1973-1798-1181	Human_Mind_and_Conditions-69	offering	n	10a.69	1103	SACRIFICE
 Hale-1973-1798-1182	Human_Mind_and_Conditions-70	ceremony	n	10a.70		
@@ -1229,7 +1229,7 @@ Hale-1973-1798-1227	Human_Mind_and_Conditions-115	give back	v	10b1.42	85	GIVE BA
 Hale-1973-1798-1228	Human_Mind_and_Conditions-116	give in	v	10b1.43		
 Hale-1973-1798-1229	Human_Mind_and_Conditions-117	give up	v	10b1.44	1696	SURRENDER
 Hale-1973-1798-1230	Human_Mind_and_Conditions-118	greet	v	10b1.45	3552	GREET
-Hale-1973-1798-1231	Human_Mind_and_Conditions-119	guard	v	10b1.46	1940	GUARD
+Hale-1973-1798-1231	Human_Mind_and_Conditions-119	guard	v	10b1.46		
 Hale-1973-1798-1232	Human_Mind_and_Conditions-120	help	v	10b1.47	1897	HELP
 Hale-1973-1798-1233	Human_Mind_and_Conditions-121	meet	v	10b1.48	1831	MEET
 Hale-1973-1798-1234	Human_Mind_and_Conditions-122	invite	v	10b1.49	1611	INVITE
@@ -1264,7 +1264,7 @@ Hale-1973-1798-1262	Human_Mind_and_Conditions-150	flatter	v	10b1.77	2709	FLATTER
 Hale-1973-1798-1263	Human_Mind_and_Conditions-151	flirt	v	10b1.78	494	FLIRT
 Hale-1973-1798-1264	Human_Mind_and_Conditions-152	feel at ease	v	10b1.79		
 Hale-1973-1798-1265	Human_Mind_and_Conditions-153	quarrel with words	v	10b1.80	3302	QUARREL (VERB)
-Hale-1973-1798-1266	Human_Mind_and_Conditions-154	quarrel	v	10b1.81	1848	QUARREL
+Hale-1973-1798-1266	Human_Mind_and_Conditions-154	quarrel	v	10b1.81	3302	QUARREL (VERB)
 Hale-1973-1798-1267	Human_Mind_and_Conditions-155	separate	v	10b1.82	1359	SEPARATE
 Hale-1973-1798-1268	Human_Mind_and_Conditions-156	fail (in an attempt)	v	10b1.83	3861	FAIL
 Hale-1973-1798-1269	Human_Mind_and_Conditions-157	succeed	v	10b1.84	1112	SUCCEED
@@ -1326,10 +1326,10 @@ Hale-1973-1798-1324	Human_Mind_and_Conditions-212	worship idols	v	10b3.22	257	WO
 Hale-1973-1798-1325	Human_Mind_and_Conditions-213	pray	v	10b3.23	24	PRAY
 Hale-1973-1798-1326	Human_Mind_and_Conditions-214	believe	v	10b3.24	1890	BELIEVE
 Hale-1973-1798-1327	Human_Mind_and_Conditions-215	offer to gods	v	10b3.25		
-Hale-1973-1798-1328	Human_Mind_and_Conditions-216	sacrifice	v	10b3.26	1103	SACRIFICE
+Hale-1973-1798-1328	Human_Mind_and_Conditions-216	sacrifice	v	10b3.26		
 Hale-1973-1798-1329	Human_Mind_and_Conditions-217	kill sacrificial animal	v	10b3.27		
 Hale-1973-1798-1330	Human_Mind_and_Conditions-218	bless	v	10b3.28	391	BLESS
-Hale-1973-1798-1331	Human_Mind_and_Conditions-219	sin	v	10b3.29	2971	SIN
+Hale-1973-1798-1331	Human_Mind_and_Conditions-219	sin	v	10b3.29		
 Hale-1973-1798-1332	Human_Mind_and_Conditions-220	merit	v	10b3.30		
 Hale-1973-1798-1333	Human_Mind_and_Conditions-221	fast	v	10b3.31	303	ABSTAIN FROM FOOD
 Hale-1973-1798-1334	Human_Mind_and_Conditions-222	chant	v	10b3.32		
@@ -1436,7 +1436,7 @@ Hale-1973-1798-1434	Role_and_Social_Structure-88	hum (a tune)	v	11b1.05	3671	HUM
 Hale-1973-1798-1435	Role_and_Social_Structure-89	beat drum	v	11b1.06		
 Hale-1973-1798-1436	Role_and_Social_Structure-90	play instr.	v	11b1.07	3124	PLAY (INSTRUMENT)
 Hale-1973-1798-1437	Role_and_Social_Structure-91	sound	v	11b1.08	2879	SOUND (OF INSTRUMENT OR VOICE)
-Hale-1973-1798-1438	Role_and_Social_Structure-92	rattle	v	11b1.09	300	RATTLE
+Hale-1973-1798-1438	Role_and_Social_Structure-92	rattle	v	11b1.09		
 Hale-1973-1798-1439	Role_and_Social_Structure-93	clap hands	v	11b1.10	3110	CLAP
 Hale-1973-1798-1440	Role_and_Social_Structure-94	snap with fingers	v	11b1.11		
 Hale-1973-1798-1441	Role_and_Social_Structure-95	visit	v	11b1.12	1377	VISIT
@@ -1485,7 +1485,7 @@ Hale-1973-1798-1483	Role_and_Social_Structure-137	marry	v	11b2.17	203	MARRY
 Hale-1973-1798-1484	Role_and_Social_Structure-138	give in marriage	v	11b2.18		
 Hale-1973-1798-1485	Role_and_Social_Structure-139	settle (marriage)	v	11b2.19		
 Hale-1973-1798-1486	Role_and_Social_Structure-140	divorce	v	11b2.20	3672	DIVORCE (SEPARATE)
-Hale-1973-1798-1487	Role_and_Social_Structure-141	desert	v	11b2.21	3687	DESERT
+Hale-1973-1798-1487	Role_and_Social_Structure-141	desert	v	11b2.21		
 Hale-1973-1798-1488	Role_and_Social_Structure-142	be defiled	vi	11b2.22		
 Hale-1973-1798-1489	Role_and_Social_Structure-143	fulfill works of purification	v	11b2.23		
 Hale-1973-1798-1490	Role_and_Social_Structure-144	sprinkle water of purification	v	11b2.24		
@@ -1505,7 +1505,7 @@ Hale-1973-1798-1503	Role_and_Social_Structure-157	collect taxes	v	11b2.37
 Hale-1973-1798-1504	Role_and_Social_Structure-158	rob	v	11b3.01	2073	ROB (VERB)
 Hale-1973-1798-1505	Role_and_Social_Structure-159	steal	v	11b3.02	713	STEAL
 Hale-1973-1798-1506	Role_and_Social_Structure-160	plunder	v	11b3.03	3670	PLUNDER
-Hale-1973-1798-1507	Role_and_Social_Structure-161	attack	v	11b3.04	722	ATTACK
+Hale-1973-1798-1507	Role_and_Social_Structure-161	attack	v	11b3.04		
 Hale-1973-1798-1508	Role_and_Social_Structure-162	insult	v	11b3.05	3204	INSULT
 Hale-1973-1798-1509	Role_and_Social_Structure-163	conspire	v	11b3.06		
 Hale-1973-1798-1510	Role_and_Social_Structure-164	transgress	v	11b3.07		
@@ -1533,7 +1533,7 @@ Hale-1973-1798-1531	Attributes-6	violent	adj	12a.06
 Hale-1973-1798-1532	Attributes-7	gentle	adj	12a.07	1954	GENTLE
 Hale-1973-1798-1533	Attributes-8	alive	adj	12a.08	1422	BE ALIVE
 Hale-1973-1798-1534	Attributes-9	dead	adj	12a.09	1625	DEAD
-Hale-1973-1798-1535	Attributes-10	numb	adj	12a.10	2216	BECOME NUMB
+Hale-1973-1798-1535	Attributes-10	numb	adj	12a.10		
 Hale-1973-1798-1536	Attributes-11	blind	adj	12a.11	1653	BLIND
 Hale-1973-1798-1537	Attributes-12	deaf	adj	12a.12	996	DEAF
 Hale-1973-1798-1538	Attributes-13	curious	adj	12a.13	3633	CURIOUS
@@ -1680,14 +1680,14 @@ Hale-1973-1798-1678	Attributes-153	solid	adj	12c.30	3003	SOLID
 Hale-1973-1798-1679	Attributes-154	hollow	adj	12c.31	3701	HOLLOW
 Hale-1973-1798-1680	Attributes-155	empty	adj	12c.32	1624	EMPTY
 Hale-1973-1798-1681	Attributes-156	open	adj	12c.33	3235	OPEN (STATE)
-Hale-1973-1798-1682	Attributes-157	shut	adj	12c.34	2063	CLOSE (EYES)
+Hale-1973-1798-1682	Attributes-157	shut	adj	12c.34	589	CLOSED
 Hale-1973-1798-1683	Attributes-158	perforated	adj	12c.35		
 Hale-1973-1798-1684	Attributes-159	plugged	adj	12c.36		
 Hale-1973-1798-1685	Attributes-160	moving	adj	12c.37		
 Hale-1973-1798-1686	Attributes-161	stationary	adj	12c.38		
 Hale-1973-1798-1687	Attributes-162	fast	adj	12c.39	1631	FAST
 Hale-1973-1798-1688	Attributes-163	slow	adj	12c.40	701	SLOW
-Hale-1973-1798-1689	Attributes-164	slowly	adj	12c.41	701	SLOW
+Hale-1973-1798-1689	Attributes-164	slowly	adj	12c.41	2165	SLOWLY
 Hale-1973-1798-1690	Attributes-165	cubit (elbow to fingertip)		12c.42		
 Hale-1973-1798-1691	Attributes-166	span of hand		12c.43		
 Hale-1973-1798-1692	Attributes-167	from		12c.44	693	FROM
@@ -1723,7 +1723,7 @@ Hale-1973-1798-1721	Attributes-196	most		12d.09	1198	MANY
 Hale-1973-1798-1722	Attributes-197	least		12d.10		
 Hale-1973-1798-1723	Attributes-198	mixed		12d.11		
 Hale-1973-1798-1724	Attributes-199	unmixed		12d.12		
-Hale-1973-1798-1725	Attributes-200	real		12d.13	1657	TRUE
+Hale-1973-1798-1725	Attributes-200	real		12d.13		
 Hale-1973-1798-1726	Attributes-201	false		12d.14	3069	FALSE
 Hale-1973-1798-1727	Attributes-202	whole		12d.15	2277	WHOLE
 Hale-1973-1798-1728	Attributes-203	all		12d.16	98	ALL
@@ -1796,4 +1796,4 @@ Hale-1973-1798-1794	Miscellaneous-51	with		13b.31	1340	WITH
 Hale-1973-1798-1795	Miscellaneous-52	without		13b.32	1478	WITHOUT
 Hale-1973-1798-1796	Miscellaneous-53	of		13b.33		
 Hale-1973-1798-1797	Miscellaneous-54	except		13b.34		
-Hale-1973-1798-1798	Miscellaneous-55	like		13b.35	1117	LIKE
+Hale-1973-1798-1798	Miscellaneous-55	like		13b.35	1558	SIMILAR
