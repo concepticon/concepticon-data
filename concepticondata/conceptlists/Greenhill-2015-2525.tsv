@@ -266,7 +266,7 @@ Greenhill-2015-2525-280	280	sister	1263	SISTER
 Greenhill-2015-2525-281	281	skirt	1600	SKIRT
 Greenhill-2015-2525-282	282	soft	1856	SOFT
 Greenhill-2015-2525-283	283	slow	701	SLOW
-Greenhill-2015-2525-285	285	to stay		
+Greenhill-2015-2525-285	285	to stay	987	REMAIN
 Greenhill-2015-2525-286	286	to stop	2115	CEASE OR FINISH
 Greenhill-2015-2525-289	289	sweet potato	159	SWEET POTATO
 Greenhill-2015-2525-290	290	to talk	2708	TALK
@@ -294,7 +294,7 @@ Greenhill-2015-2525-332	332	chicken	1318	CHICKEN
 Greenhill-2015-2525-333	333	sago grub	2802	SAGO GRUB
 Greenhill-2015-2525-334	334	sago palm	2372	SAGO PALM
 Greenhill-2015-2525-335	335	sago refuse		
-Greenhill-2015-2525-339	339	spine of leaf		
+Greenhill-2015-2525-339	339	spine of leaf	2803	LEAF SPINE
 Greenhill-2015-2525-498	498	Medial Verb Suffix DS		
 Greenhill-2015-2525-499	499	Medial Sequential Suffix (having finished that, and then)		
 Greenhill-2015-2525-506	506	Medial SS Verb Suffix		
@@ -315,7 +315,7 @@ Greenhill-2015-2525-804	804	purposive verb suffix
 Greenhill-2015-2525-805	805	to call out	715	SHOUT
 Greenhill-2015-2525-806	806	navel	1838	NAVEL
 Greenhill-2015-2525-807	807	trunk (of tree)	776	TRUNK OF TREE
-Greenhill-2015-2525-808	808	yesterday, tomorrow		
+Greenhill-2015-2525-808	808	yesterday, tomorrow	2801	TOMORROW OR YESTERDAY
 Greenhill-2015-2525-809	809	day before yesterday, day after tomorrow		
 Greenhill-2015-2525-810	810	predicative possessive suffix		
 Greenhill-2015-2525-812	812	to scrape off	1767	SCRAPE
@@ -345,7 +345,7 @@ Greenhill-2015-2525-841	841	Locative noun suffix (at, to, from)
 Greenhill-2015-2525-842	842	to pour out	1487	POUR
 Greenhill-2015-2525-843	843	to buy, sell, barter		
 Greenhill-2015-2525-845	845	sibling, same sex, younger	3038	SAME-SEX YOUNGER SIBLING
-Greenhill-2015-2525-846	846	to eat, drink		
+Greenhill-2015-2525-846	846	to eat, drink	2787	CONSUME (DRINK OR EAT)
 Greenhill-2015-2525-847	847	noose, trap, net	1075	TRAP (PITFALL)
 Greenhill-2015-2525-849	849	to do, make	813	DO
 Greenhill-2015-2525-850	850	work (n)	984	WORK (LABOUR)
@@ -455,12 +455,12 @@ Greenhill-2015-2525-971	971	these
 Greenhill-2015-2525-972	972	rainbow	1733	RAINBOW
 Greenhill-2015-2525-973	973	chest	1592	CHEST
 Greenhill-2015-2525-974	974	hard	1884	HARD
-Greenhill-2015-2525-975	975	pigeon	1853	DOVE
+Greenhill-2015-2525-975	975	pigeon		
 Greenhill-2015-2525-976	976	lightning	1654	LIGHTNING
 Greenhill-2015-2525-977	977	sour	1906	SOUR
 Greenhill-2015-2525-978	978	sweet	717	SWEET
 Greenhill-2015-2525-979	979	nothing	687	NOTHING
-Greenhill-2015-2525-980	980	bush hen		
+Greenhill-2015-2525-980	980	bush hen	1514	HEN
 Greenhill-2015-2525-981	981	cheek	1730	CHEEK
 Greenhill-2015-2525-983	983	stomach	819	STOMACH
 Greenhill-2015-2525-984	984	grandfather	1383	GRANDFATHER
@@ -526,7 +526,7 @@ Greenhill-2015-2525-1240	1240	mushroom	641	MUSHROOM
 Greenhill-2015-2525-1241	1241	naked	590	NAKED
 Greenhill-2015-2525-1242	1242	dark	706	DARK
 Greenhill-2015-2525-1243	1243	noontime	2490	NOON
-Greenhill-2015-2525-1244	1244	over there		
+Greenhill-2015-2525-1244	1244	over there	3411	OVER THERE
 Greenhill-2015-2525-1245	1245	palm midrib		
 Greenhill-2015-2525-1246	1246	palm sp.	1181	PALM TREE
 Greenhill-2015-2525-1247	1247	pandanus fruit		
@@ -577,7 +577,7 @@ Greenhill-2015-2525-1298	1298	eight	1705	EIGHT
 Greenhill-2015-2525-1299	1299	nine	1483	NINE
 Greenhill-2015-2525-1300	1300	twenty	1710	TWENTY
 Greenhill-2015-2525-1301	1301	one hundred	1634	HUNDRED
-Greenhill-2015-2525-1302	1302	two hundred		
+Greenhill-2015-2525-1302	1302	two hundred	2676	TWO HUNDRED
 Greenhill-2015-2525-1303	1303	thousand	1843	THOUSAND
 Greenhill-2015-2525-1305	1305	nail	502	NAIL (TOOL)
 Greenhill-2015-2525-1306	1306	i see the snake		
@@ -591,7 +591,7 @@ Greenhill-2015-2525-1558	1558	bamboo knife
 Greenhill-2015-2525-1559	1559	banana seed		
 Greenhill-2015-2525-1560	1560	basket	1539	BASKET
 Greenhill-2015-2525-1562	1562	bird of paradise	2673	BIRD OF PARADISE
-Greenhill-2015-2525-1563	1563	bit		
+Greenhill-2015-2525-1563	1563	bit	2924	A LITTLE
 Greenhill-2015-2525-1565	1565	bivalve	2785	BIVALVIA (MUSSELS OR OYSTERS)
 Greenhill-2015-2525-1566	1566	black (creature)		
 Greenhill-2015-2525-1567	1567	black palm	3030	LONTAR PALM
@@ -611,15 +611,15 @@ Greenhill-2015-2525-1588	1588	to cast net
 Greenhill-2015-2525-1590	1590	cease	1928	CEASE
 Greenhill-2015-2525-1591	1591	centipede	1974	CENTIPEDE
 Greenhill-2015-2525-1592	1592	centre	491	CENTER
-Greenhill-2015-2525-1595	1595	chin, jaw	798	JAW
+Greenhill-2015-2525-1595	1595	chin, jaw		
 Greenhill-2015-2525-1596	1596	citrus fruit sp.	1126	CITRUS FRUIT
 Greenhill-2015-2525-1597	1597	club	1763	CLUB
 Greenhill-2015-2525-1598	1598	coconut mat		
 Greenhill-2015-2525-1600	1600	coral	3179	CORAL ROCK
 Greenhill-2015-2525-1601	1601	corner	192	CORNER
 Greenhill-2015-2525-1602	1602	cousin	1643	COUSIN
-Greenhill-2015-2525-1603	1603	co-wife		
-Greenhill-2015-2525-1604	1604	cowrie		
+Greenhill-2015-2525-1603	1603	co-wife	3636	CO-WIFE
+Greenhill-2015-2525-1604	1604	cowrie	3663	COWRIE SHELL
 Greenhill-2015-2525-1605	1605	cracking sound	1811	SOUND OR NOISE
 Greenhill-2015-2525-1610	1610	daylight	1225	DAY (NOT NIGHT)
 Greenhill-2015-2525-1611	1611	desire	2117	DESIRE
@@ -672,13 +672,13 @@ Greenhill-2015-2525-1693	1693	needlefish sp.
 Greenhill-2015-2525-1694	1694	nest	539	NEST
 Greenhill-2015-2525-1695	1695	nipa palm		
 Greenhill-2015-2525-1696	1696	noise	1182	NOISE
-Greenhill-2015-2525-1697	1697	odour		
+Greenhill-2015-2525-1697	1697	odour	3704	ODOR (SMELL)
 Greenhill-2015-2525-1699	1699	paddle	234	PADDLE
 Greenhill-2015-2525-1702	1702	palm roof		
 Greenhill-2015-2525-1703	1703	pandanus	469	PANDANUS
 Greenhill-2015-2525-1704	1704	pandanus mat		
 Greenhill-2015-2525-1705	1705	pandanus (net)		
-Greenhill-2015-2525-1706	1706	to pant		
+Greenhill-2015-2525-1706	1706	to pant	3614	PANT
 Greenhill-2015-2525-1707	1707	part	779	PART
 Greenhill-2015-2525-1708	1708	parrot	882	PARROT
 Greenhill-2015-2525-1709	1709	pepper	1385	PEPPER
@@ -696,8 +696,8 @@ Greenhill-2015-2525-1726	1726	roast	1962	ROAST (SOMETHING)
 Greenhill-2015-2525-1730	1730	sandfly	95	SANDFLY
 Greenhill-2015-2525-1731	1731	sawfish		
 Greenhill-2015-2525-1736	1736	shadow (shade, shadow)	2275	SHADOW
-Greenhill-2015-2525-1738	1738	sheath		
-Greenhill-2015-2525-1739	1739	shell, hull		
+Greenhill-2015-2525-1738	1738	sheath	3424	SHEATH
+Greenhill-2015-2525-1739	1739	shell, hull	598	SHELL
 Greenhill-2015-2525-1740	1740	shooting star	2288	METEROID (SHOOTING OR SHINING STAR)
 Greenhill-2015-2525-1742	1742	sibling, opposite sex		
 Greenhill-2015-2525-1743	1743	siblings	1640	SIBLING
@@ -790,7 +790,7 @@ Greenhill-2015-2525-1962	1962	to watch	1650	WATCH
 Greenhill-2015-2525-1963	1963	to sharpen	251	SHARPEN (SOMETHING)
 Greenhill-2015-2525-1964	1964	knot	760	KNOT
 Greenhill-2015-2525-1965	1965	to jump	1829	JUMP
-Greenhill-2015-2525-1966	1966	shoot, plant		
+Greenhill-2015-2525-1966	1966	shoot, plant	3358	SPROUT (SHOOT)
 Greenhill-2015-2525-1967	1967	firelight		
 Greenhill-2015-2525-1968	1968	vulva	1837	VULVA
 Greenhill-2015-2525-1969	1969	short-piece-of-wood		
@@ -869,16 +869,16 @@ Greenhill-2015-2525-2054	2054	shore	113	SHORE
 Greenhill-2015-2525-2055	2055	plate	480	PLATE
 Greenhill-2015-2525-2056	2056	pan	31	PAN
 Greenhill-2015-2525-2057	2057	courage	3049	COURAGE
-Greenhill-2015-2525-2058	2058	to husk		
+Greenhill-2015-2525-2058	2058	to husk	275	PEEL
 Greenhill-2015-2525-2059	2059	me (pronoun o:1s)	2301	ME
 Greenhill-2015-2525-2060	2060	us (pronoun o:1p)	2310	US (OBLIQUE CASE OF WE)
 Greenhill-2015-2525-2061	2061	thought	2975	THOUGHT
 Greenhill-2015-2525-2066	2066	them (pronoun o:3p)		
 Greenhill-2015-2525-2068	2068	him, her, it (pronoun o:3s)		
 Greenhill-2015-2525-2069	2069	to lie on ground	1411	LIE (REST)
-Greenhill-2015-2525-2070	2070	underneath		
+Greenhill-2015-2525-2070	2070	underneath	1485	BELOW OR UNDER
 Greenhill-2015-2525-2071	2071	on top	57	ATOP
-Greenhill-2015-2525-2072	2072	singsing		
+Greenhill-2015-2525-2072	2072	singsing	131	FESTIVAL
 Greenhill-2015-2525-2073	2073	ripe banana		
 Greenhill-2015-2525-2074	2074	negation-marker	1240	NOT
 Greenhill-2015-2525-2075	2075	possessive-marker		
@@ -893,7 +893,7 @@ Greenhill-2015-2525-2083	2083	you pl. (pronoun o:2p)	2312	YOU (OBLIQUE CASE OF Y
 Greenhill-2015-2525-2084	2084	you pl. two (pronoun o:2p, dual)	2111	YOU TWO
 Greenhill-2015-2525-2085	2085	us two (pronoun o:1p, dual)		
 Greenhill-2015-2525-2086	2086	them (pronoun o:3p, dual)		
-Greenhill-2015-2525-2087	2087	axe (iron)		
+Greenhill-2015-2525-2087	2087	axe (iron)	677	AXE
 Greenhill-2015-2525-2088	2088	your (two) pl (pronoun p:2p, dual)		
 Greenhill-2015-2525-2089	2089	our (two) (pronoun p:1p, dual)		
 Greenhill-2015-2525-2090	2090	their (pronoun p:3p, dual)		
@@ -902,7 +902,7 @@ Greenhill-2015-2525-2092	2092	chicken (wild)
 Greenhill-2015-2525-2093	2093	arrow (pronged)		
 Greenhill-2015-2525-2094	2094	arrow (hooked)		
 Greenhill-2015-2525-2095	2095	arrow (barred) (Arrow with cross bar)		
-Greenhill-2015-2525-2100	2100	blossom		
+Greenhill-2015-2525-2100	2100	blossom	3287	BLOOM
 Greenhill-2015-2525-2101	2101	death adder	2654	VIPER
 Greenhill-2015-2525-2102	2102	orphan	1149	ORPHAN
 Greenhill-2015-2525-2103	2103	seat	1476	CHAIR
@@ -910,7 +910,7 @@ Greenhill-2015-2525-2104	2104	word	1599	WORD
 Greenhill-2015-2525-2106	2106	theirs (pronoun p:3p)		
 Greenhill-2015-2525-2107	2107	testicles	797	TESTICLES
 Greenhill-2015-2525-2108	2108	grandparent	2399	GRANDPARENT
-Greenhill-2015-2525-2109	2109	witchcraft		
+Greenhill-2015-2525-2109	2109	witchcraft	392	MAGIC
 Greenhill-2015-2525-2110	2110	blue	837	BLUE
 Greenhill-2015-2525-2111	2111	alangalang		
 Greenhill-2015-2525-2112	2112	blow (on fire)	176	BLOW (WITH MOUTH)
@@ -926,7 +926,7 @@ Greenhill-2015-2525-2123	2123	leave	1752	LEAVE
 Greenhill-2015-2525-2124	2124	mirror	1171	MIRROR
 Greenhill-2015-2525-2125	2125	statue	1002	STATUE
 Greenhill-2015-2525-2126	2126	musical instrument		
-Greenhill-2015-2525-2127	2127	died		
+Greenhill-2015-2525-2127	2127	died	2101	BE DEAD OR DIE
 Greenhill-2015-2525-2128	2128	festival	131	FESTIVAL
 Greenhill-2015-2525-2129	2129	write, draw	1672	WRITE
 Greenhill-2015-2525-2130	2130	boat	1844	BOAT
@@ -959,8 +959,8 @@ Greenhill-2015-2525-2158	2158	blunt (of e.g. knife)	379	BLUNT
 Greenhill-2015-2525-2159	2159	cassurina tree		
 Greenhill-2015-2525-2160	2160	collar bone	1994	COLLARBONE
 Greenhill-2015-2525-2161	2161	crumbs		
-Greenhill-2015-2525-2162	2162	cut (hair)		
-Greenhill-2015-2525-2163	2163	dirty (water)		
+Greenhill-2015-2525-2162	2162	cut (hair)	2155	CUT (WITH SCISSORS)
+Greenhill-2015-2525-2163	2163	dirty (water)	1230	DIRTY
 Greenhill-2015-2525-2164	2164	husband and wife		
 Greenhill-2015-2525-2165	2165	eagle	1905	EAGLE
 Greenhill-2015-2525-2166	2166	husk (of nut)	2363	CHAFF (HUSK)
@@ -972,13 +972,13 @@ Greenhill-2015-2525-2171	2171	pregnant	1123	PREGNANT
 Greenhill-2015-2525-2172	2172	self, reflexive	1993	SELF
 Greenhill-2015-2525-2173	2173	in-law		
 Greenhill-2015-2525-2174	2174	appetiser		
-Greenhill-2015-2525-2175	2175	break (bone)		
+Greenhill-2015-2525-2175	2175	break (bone)	680	BREAK (DESTROY OR GET DESTROYED)
 Greenhill-2015-2525-2176	2176	emphatic pronoun marker		
 Greenhill-2015-2525-2177	2177	greedy, selfish	2018	GREEDY
 Greenhill-2015-2525-2178	2178	pancreas	3252	PANCREAS
 Greenhill-2015-2525-2179	2179	floor	1632	FLOOR
 Greenhill-2015-2525-2180	2180	point		
-Greenhill-2015-2525-2181	2181	sorcery		
+Greenhill-2015-2525-2181	2181	sorcery	392	MAGIC
 Greenhill-2015-2525-2182	2182	spark	518	SPARK
 Greenhill-2015-2525-2183	2183	Sago thatch	2616	SAGO THATCH
 Greenhill-2015-2525-2184	2184	Fishtrap	389	FISH TRAP
@@ -989,14 +989,14 @@ Greenhill-2015-2525-2189	2189	2SG (2nd person singular)	1215	THOU
 Greenhill-2015-2525-2190	2190	search	1468	LOOK FOR
 Greenhill-2015-2525-2191	2191	rooster	1511	ROOSTER
 Greenhill-2015-2525-2192	2192	teeth	1380	TOOTH
-Greenhill-2015-2525-2193	2193	meat (game)		
+Greenhill-2015-2525-2193	2193	meat (game)	634	MEAT
 Greenhill-2015-2525-2194	2194	muscle	1004	MUSCLE
-Greenhill-2015-2525-2195	2195	feaces		
+Greenhill-2015-2525-2195	2195	feaces	675	FAECES (EXCREMENT)
 Greenhill-2015-2525-2196	2196	scrotum	797	TESTICLES
-Greenhill-2015-2525-2197	2197	lower back		
+Greenhill-2015-2525-2197	2197	lower back	3613	LOWER BACK
 Greenhill-2015-2525-2198	2198	ash	646	ASH
 Greenhill-2015-2525-2199	2199	slick		
-Greenhill-2015-2525-2200	2200	staff		
+Greenhill-2015-2525-2200	2200	staff	1296	WALKING STICK
 Greenhill-2015-2525-2201	2201	midday	12	MIDDAY
 Greenhill-2015-2525-2202	2202	to mow	190	MOW
 Greenhill-2015-2525-2203	2203	smelly	42	STINKING
@@ -1010,8 +1010,8 @@ Greenhill-2015-2525-2210	2210	sago pancake
 Greenhill-2015-2525-2211	2211	in front	1883	IN FRONT OF
 Greenhill-2015-2525-2212	2212	old (people)	725	OLD PERSON
 Greenhill-2015-2525-2213	2213	young	1207	YOUNG
-Greenhill-2015-2525-2214	2214	short (things)		
-Greenhill-2015-2525-2215	2215	short (people)		
+Greenhill-2015-2525-2214	2214	short (things)	1645	SHORT
+Greenhill-2015-2525-2215	2215	short (people)	2484	SMALL (NOT TALL)
 Greenhill-2015-2525-2216	2216	awaken	825	AWAKE
 Greenhill-2015-2525-2217	2217	why?	1270	WHY
 Greenhill-2015-2525-2218	2218	to lay	2071	LAY (VERB)
@@ -1022,7 +1022,7 @@ Greenhill-2015-2525-2222	2222	heel	980	HEEL
 Greenhill-2015-2525-2223	2223	sweat	125	SWEAT (SUBSTANCE)
 Greenhill-2015-2525-2224	2224	toe	1389	TOE
 Greenhill-2015-2525-2225	2225	ironwood		
-Greenhill-2015-2525-2226	2226	goods		
+Greenhill-2015-2525-2226	2226	goods	3406	MERCHANDISE
 Greenhill-2015-2525-2227	2227	copulate	549	COPULATE
 Greenhill-2015-2525-2228	2228	copula	1579	BE
 Greenhill-2015-2525-2229	2229	matoa		
@@ -1030,10 +1030,10 @@ Greenhill-2015-2525-2231	2231	tortoise	895	TORTOISE
 Greenhill-2015-2525-2232	2232	to shiver	52	SHIVER
 Greenhill-2015-2525-2233	2233	stairs	34	STAIRS
 Greenhill-2015-2525-2234	2234	fault	134	FAULT
-Greenhill-2015-2525-2235	2235	umbilical cord		
+Greenhill-2015-2525-2235	2235	umbilical cord	2663	UMBILICAL CORD
 Greenhill-2015-2525-2236	2236	avenge	495	REVENGE
 Greenhill-2015-2525-2237	2237	dead person		
-Greenhill-2015-2525-2238	2238	sleepy		
+Greenhill-2015-2525-2238	2238	sleepy	3620	SLEEPY
 Greenhill-2015-2525-2239	2239	wall	933	WALL (OF HOUSE)
 Greenhill-2015-2525-2240	2240	crown-pigeon		
 Greenhill-2015-2525-2241	2241	malicious		
@@ -1043,16 +1043,16 @@ Greenhill-2015-2525-2244	2244	intransitivizer
 Greenhill-2015-2525-2245	2245	suckle	2472	SUCKLE (BREASTFEED, NURSE)
 Greenhill-2015-2525-2246	2246	excreta	47	EXCRETA
 Greenhill-2015-2525-2247	2247	dumb	1492	DUMB
-Greenhill-2015-2525-2248	2248	to throw away		
+Greenhill-2015-2525-2248	2248	to throw away	3696	THROW AWAY
 Greenhill-2015-2525-2249	2249	to twist	430	TWIST
-Greenhill-2015-2525-2250	2250	newborn		
+Greenhill-2015-2525-2250	2250	newborn	1289	BABY
 Greenhill-2015-2525-2251	2251	to give birth	1195	GIVE BIRTH
 Greenhill-2015-2525-2252	2252	widowed		
-Greenhill-2015-2525-2253	2253	to fetch		
+Greenhill-2015-2525-2253	2253	to fetch	3551	FETCH
 Greenhill-2015-2525-2254	2254	farm	201	FARM
 Greenhill-2015-2525-2255	2255	he, she, it, that, those		
-Greenhill-2015-2525-2256	2256	bad (worthless)		
-Greenhill-2015-2525-2257	2257	(fire) goes out		
+Greenhill-2015-2525-2256	2256	bad (worthless)	1292	BAD
+Greenhill-2015-2525-2257	2257	(fire) goes out	127	EXTINGUISH
 Greenhill-2015-2525-2258	2258	to get up	1512	RISE (ONESELF)
 Greenhill-2015-2525-2259	2259	bile	1780	BILE
 Greenhill-2015-2525-2260	2260	to gather	7	GATHER
@@ -1060,7 +1060,7 @@ Greenhill-2015-2525-2261	2261	knuckle	2824	KNUCKLE
 Greenhill-2015-2525-2262	2262	marsupial		
 Greenhill-2015-2525-2263	2263	low, beneath	1485	BELOW OR UNDER
 Greenhill-2015-2525-2264	2264	be unwilling		
-Greenhill-2015-2525-2265	2265	to suck at breast		
+Greenhill-2015-2525-2265	2265	to suck at breast	2472	SUCKLE (BREASTFEED, NURSE)
 Greenhill-2015-2525-2266	2266	nipple	796	NIPPLE
 Greenhill-2015-2525-2267	2267	to call	1084	CALL
 Greenhill-2015-2525-2268	2268	backbone	805	SPINE
@@ -1078,16 +1078,16 @@ Greenhill-2015-2525-2279	2279	to love	923	LOVE
 Greenhill-2015-2525-2280	2280	Adam's apple	802	ADAM'S APPLE
 Greenhill-2015-2525-2281	2281	little toe		
 Greenhill-2015-2525-2282	2282	scabies	3172	SCABIES
-Greenhill-2015-2525-2283	2283	to seek		
-Greenhill-2015-2525-2284	2284	slippery		
+Greenhill-2015-2525-2283	2283	to seek	1468	LOOK FOR
+Greenhill-2015-2525-2284	2284	slippery	3702	SLIPPERY
 Greenhill-2015-2525-2285	2285	uncooked	1959	RAW
 Greenhill-2015-2525-2286	2286	leaf decoration		
 Greenhill-2015-2525-2287	2287	roofing grass		
 Greenhill-2015-2525-2288	2288	bush knife		
-Greenhill-2015-2525-2289	2289	far away		
+Greenhill-2015-2525-2289	2289	far away	1406	FAR
 Greenhill-2015-2525-2290	2290	grandchild	1617	GRANDCHILD
 Greenhill-2015-2525-2291	2291	stale		
-Greenhill-2015-2525-2292	2292	opening		
+Greenhill-2015-2525-2292	2292	opening	1667	HOLE
 Greenhill-2015-2525-2293	2293	to bake	183	BAKE
 Greenhill-2015-2525-2294	2294	guard	1940	GUARD
 Greenhill-2015-2525-2295	2295	sleeping mat		
@@ -1115,17 +1115,17 @@ Greenhill-2015-2525-2399	2399	rack	3176	RACK (FOR STORING FOOD)
 Greenhill-2015-2525-2400	2400	to fart	1159	FART
 Greenhill-2015-2525-2401	2401	erect		
 Greenhill-2015-2525-2402	2402	fireplace	185	FIREPLACE
-Greenhill-2015-2525-2403	2403	fire tongs		
+Greenhill-2015-2525-2403	2403	fire tongs	272	TONGS
 Greenhill-2015-2525-2404	2404	to fish	2638	FISHING
 Greenhill-2015-2525-2405	2405	fish weir		
 Greenhill-2015-2525-2406	2406	skinny	1400	THIN (SLIM)
-Greenhill-2015-2525-2407	2407	sunlight		
+Greenhill-2015-2525-2407	2407	sunlight	3276	SUNSHINE
 Greenhill-2015-2525-2408	2408	to straighten		
 Greenhill-2015-2525-2409	2409	shield	1064	SHIELD
 Greenhill-2015-2525-2410	2410	coconut shell		
 Greenhill-2015-2525-2411	2411	tree sap		
 Greenhill-2015-2525-2412	2412	secretly		
-Greenhill-2015-2525-2413	2413	sea side (west)		
+Greenhill-2015-2525-2413	2413	sea side (west)	1817	WEST
 Greenhill-2015-2525-2414	2414	fish scale	266	SCALE
 Greenhill-2015-2525-2415	2415	bush fowl		
 Greenhill-2015-2525-2416	2416	camp	1105	CAMP
@@ -1135,34 +1135,34 @@ Greenhill-2015-2525-2419	2419	contents	3967	CONTENT
 Greenhill-2015-2525-2420	2420	crab	2348	CRAB
 Greenhill-2015-2525-2421	2421	crust		
 Greenhill-2015-2525-2422	2422	to cross	1367	CROSS
-Greenhill-2015-2525-2423	2423	movement		
+Greenhill-2015-2525-2423	2423	movement	3695	MOVEMENT
 Greenhill-2015-2525-2424	2424	snot	208	NASAL MUCUS (SNOT)
 Greenhill-2015-2525-2425	2425	murder	845	MURDER
 Greenhill-2015-2525-2426	2426	nipa fruit		
 Greenhill-2015-2525-2427	2427	hip	1745	HIP
 Greenhill-2015-2525-2428	2428	to cut down	355	CUT DOWN
-Greenhill-2015-2525-2429	2429	to cut through		
+Greenhill-2015-2525-2429	2429	to cut through	1432	CUT
 Greenhill-2015-2525-2430	2430	dead	1625	DEAD
 Greenhill-2015-2525-2431	2431	distribution		
 Greenhill-2015-2525-2432	2432	dry meat		
 Greenhill-2015-2525-2433	2433	edge	863	EDGE
-Greenhill-2015-2525-2434	2434	gall		
+Greenhill-2015-2525-2434	2434	gall	3372	GALL BLADDER
 Greenhill-2015-2525-2435	2435	wave	978	WAVE
 Greenhill-2015-2525-2436	2436	tusk	3280	TUSK
-Greenhill-2015-2525-2437	2437	to tremble		
+Greenhill-2015-2525-2437	2437	to tremble	52	SHIVER
 Greenhill-2015-2525-2438	2438	tight, hard		
 Greenhill-2015-2525-2439	2439	arrow shaft		
 Greenhill-2015-2525-2440	2440	mangrove	350	MANGROVE
 Greenhill-2015-2525-2441	2441	owner	1036	OWNER
 Greenhill-2015-2525-2442	2442	loins	187	LOIN
-Greenhill-2015-2525-2443	2443	lively, busy		
+Greenhill-2015-2525-2443	2443	lively, busy	2755	BUSY
 Greenhill-2015-2525-2444	2444	groin		
 Greenhill-2015-2525-2445	2445	high tide	613	HIGH TIDE
 Greenhill-2015-2525-2446	2446	Job's tears seeds	3281	JOB'S TEARS
 Greenhill-2015-2525-2447	2447	to join	1743	JOIN
 Greenhill-2015-2525-2448	2448	joint	999	JOINT
 Greenhill-2015-2525-2449	2449	knot in wood		
-Greenhill-2015-2525-2450	2450	knowledge		
+Greenhill-2015-2525-2450	2450	knowledge	3874	KNOWLEDGE
 Greenhill-2015-2525-2451	2451	to make thatch		
 Greenhill-2015-2525-2452	2452	midrib		
 Greenhill-2015-2525-2453	2453	to give an order		
@@ -1187,27 +1187,27 @@ Greenhill-2015-2525-2491	2491	pipe	1124	PIPE
 Greenhill-2015-2525-2492	2492	pubic nut		
 Greenhill-2015-2525-2493	2493	pubic shell		
 Greenhill-2015-2525-2494	2494	testicle	797	TESTICLES
-Greenhill-2015-2525-2495	2495	axe (tomahawk)		
+Greenhill-2015-2525-2495	2495	axe (tomahawk)	677	AXE
 Greenhill-2015-2525-2496	2496	whiskers	1165	MOUSTACHE
 Greenhill-2015-2525-2497	2497	not know		
-Greenhill-2015-2525-2498	2498	child (f)		
-Greenhill-2015-2525-2499	2499	child (m)		
-Greenhill-2015-2525-2500	2500	pandanus (edible)		
+Greenhill-2015-2525-2498	2498	child (f)	1646	GIRL
+Greenhill-2015-2525-2499	2499	child (m)	1366	BOY
+Greenhill-2015-2525-2500	2500	pandanus (edible)	469	PANDANUS
 Greenhill-2015-2525-2501	2501	to draw water	1911	DRAW (WATER)
-Greenhill-2015-2525-2502	2502	that (distant)		
-Greenhill-2015-2525-2503	2503	there (distant)		
-Greenhill-2015-2525-2504	2504	this (close)		
-Greenhill-2015-2525-2505	2505	this (further)		
-Greenhill-2015-2525-2506	2506	this (lohap)		
-Greenhill-2015-2525-2507	2507	there (lohap)		
+Greenhill-2015-2525-2502	2502	that (distant)	78	THAT
+Greenhill-2015-2525-2503	2503	there (distant)	1937	THERE
+Greenhill-2015-2525-2504	2504	this (close)	1214	THIS
+Greenhill-2015-2525-2505	2505	this (further)	1214	THIS
+Greenhill-2015-2525-2506	2506	this (lohap)	1214	THIS
+Greenhill-2015-2525-2507	2507	there (lohap)	1937	THERE
 Greenhill-2015-2525-2508	2508	yam (maho)		
 Greenhill-2015-2525-2509	2509	yam (taitu)		
-Greenhill-2015-2525-2510	2510	to fall (from standing)		
+Greenhill-2015-2525-2510	2510	to fall (from standing)	1280	FALL
 Greenhill-2015-2525-2511	2511	to look for	1468	LOOK FOR
 Greenhill-2015-2525-2512	2512	to break wood		
 Greenhill-2015-2525-2513	2513	woman's clothes (pulpul)		
 Greenhill-2015-2525-2514	2514	to tow		
-Greenhill-2015-2525-2515	2515	young boy		
+Greenhill-2015-2525-2515	2515	young boy	1366	BOY
 Greenhill-2015-2525-2516	2516	come quick!		
 Greenhill-2015-2525-2517	2517	give me!		
 Greenhill-2015-2525-2518	2518	give you		
