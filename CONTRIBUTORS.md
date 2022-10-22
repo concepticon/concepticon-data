@@ -61,6 +61,7 @@ Anja Gampe | D | 1.1
 Anthony Grant | MS | 1.1
 Ayten Tüfekci | CL | 2.5
 Ben Yackley | P | 1.1
+Bryan Allen | C | 3.0
 Carlotta Kintscher | C | 2.5
 Carolin Hundt | DCTLPG | 2.3, 2.4
 Christoph Rzymski | CLPG | 1.1
