@@ -13,8 +13,6 @@
 
 - authorative source for Concepticon:
   - https://github.com/concepticon/concepticon-data
-- lists to be linked/developed/etc.:
-  - https://github.com/concepticon/concepticon-dev
 - pyconcepticon:
   - https://github.com/concepticon/pyconcepticon
 - issues, lists to be checked, lists to be added:
@@ -41,5 +39,3 @@
 - understand what bibtex is and what we use it for:
   - https://www.economics.utoronto.ca/osborne/latex/BIBTEX.HTM
   - https://github.com/concepticon/concepticon-data/tree/master/concepticondata/references
-- have a first look at this issue and try to understand what needs to be done:
-  - https://github.com/concepticon/concepticon-dev/issues/14
