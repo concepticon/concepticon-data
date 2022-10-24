@@ -1,0 +1,161 @@
+ID	NUMBER	ENGLISH	PORTUGUESE	CONCEPTICON_ID	CONCEPTICON_GLOSS	POSITIVE_THINK_MONOLINGUALS_MEAN	POSITIVE_FEEL_MONOLINGUALS_MEAN	POSITIVE_THINK_BILINGUALS_MEAN	POSITIVE_FEEL_BILINGUALS_MEAN	NEGATIVE_THINK_MONOLINGUALS_MEAN	NEGATIVE_FEEL_MONOLINGUALS_MEAN	NEGATIVE_THINK_BILINGUALS_MEAN	NEGATIVE_FEEL_BILINGUALS_MEAN	EMOTION_TYPE	EMOTION_POLARITY	EMOTION_CONDITION	ORTHOGRAPHIC_SIMILARITY
+Ferre-2022-160-1	1	proud	orgulhoso	174	PROUD	8.47	6.82	7.6	6.57	1.29	1.51	1.86	0.4	1	1	1	0.22
+Ferre-2022-160-2	2	peaceful	pacífico			8.97	8.53	8.67	7.11	0.68	0.51	0.29	0.14	1	1	1	0.38
+Ferre-2022-160-3	3	astonished	atónito	1900	ASTONISHED	5.45	4.22	4.74	2.33	2.87	1.84	2.21	1.46	1	1	1	0.4
+Ferre-2022-160-4	4	euphoric	eufórico			8.21	7.12	6.71	3.91	1.39	0.94	2.07	1.54	1	1	1	0.5
+Ferre-2022-160-5	5	grateful	grato			8.73	7.64	8.88	6.4	0.76	0.62	0.33	0.09	1	1	1	0.5
+Ferre-2022-160-6	6	fun	diversão			9.08	7.8	8.71	6.77	0.58	0.8	0.4	0.26	1	1	1	0
+Ferre-2022-160-7	7	love	amor	3834	LOVE (AFFECTION)	9.15	8.4	9.43	7.49	2.02	1.71	0.74	1.14	1	1	1	0
+Ferre-2022-160-8	8	happiness	alegria	2941	HAPPINESS	9.53	8.31	9.07	7.29	0.61	0.62	0.12	0.26	1	1	1	0.11
+Ferre-2022-160-9	9	hope	esperança	1092	HOPE	9.1	7.96	8.9	6.69	0.97	0.75	0.5	0.43	1	1	1	0.22
+Ferre-2022-160-10	10	admiration	admiração			8.44	7.15	7.81	5.57	0.85	0.98	0.93	0.4	1	1	1	0.7
+Ferre-2022-160-11	11	pleasure	prazer	3916	PLEASURE	8.56	6.98	8.6	6.23	0.9	1.58	0.76	0.26	1	1	1	0.38
+Ferre-2022-160-12	12	tenderness	ternura			6.66	5.29	7.64	4.16	2.1	1.55	0.97	0.39	1	1	1	0.4
+Ferre-2022-160-13	13	passion	paixão			8.39	7.53	8	5.8	1.53	1	1.1	0.69	1	1	1	0.43
+Ferre-2022-160-14	14	affection	afeição			8.37	7.53	8.02	5.8	1.18	1.04	0.74	0.91	1	1	1	0.44
+Ferre-2022-160-15	15	desire	desejo	2960	LONGING (WISH)	6.16	5.2	6.76	4.83	2.66	2.49	1.93	1.09	1	1	1	0.5
+Ferre-2022-160-16	16	excitement	excitação	3846	EXCITEMENT	9.1	7.45	8.24	5.49	0.73	0.85	0.6	0.63	1	1	1	0.5
+Ferre-2022-160-17	17	serenity	serenidade			8.23	7.2	8.02	6.23	0.89	0.45	0.64	0.43	1	1	1	0.6
+Ferre-2022-160-18	18	compassion	compaixão			8.98	7.71	8.57	5.43	0.62	0.45	0.64	0.6	1	1	1	0.6
+Ferre-2022-160-19	19	sympathy	simpatia			7.56	5.69	8.36	6.2	2.32	2.18	0.5	0.4	1	1	1	0.63
+Ferre-2022-160-20	20	satisfaction	satisfação			8.47	6.73	8	5.29	1.13	1.22	0.71	0.26	1	1	1	0.67
+Ferre-2022-160-21	21	enraged	enfurecido			0.81	0.78	1.09	0.17	8.65	6.11	7.47	3.76	1	2	1	0.4
+Ferre-2022-160-22	22	depressed	deprimido	3973	DEPRESSED	0.45	0.33	0.19	0.09	9.45	8.15	9.1	7.34	1	2	1	0.44
+Ferre-2022-160-23	23	terrified	apavorado			0.79	0.53	0.31	0.06	8.9	7.07	8.67	6.23	1	2	1	0
+Ferre-2022-160-24	24	desperate	desesperado			1.23	0.56	0.78	0.17	7.73	6.56	7.95	5.69	1	2	1	0.64
+Ferre-2022-160-25	25	scared	assustado	3033	SCARED	0.92	0.85	1.26	0.2	8.05	6.25	7.5	5.97	1	2	1	0.22
+Ferre-2022-160-26	26	fear	medo	781	FEAR (FRIGHT)	1.3	0.64	1.17	0.4	8.52	6.98	7.9	6.09	1	2	1	0.25
+Ferre-2022-160-27	27	anguish	angústia			0.89	0.49	0.44	0.18	7.88	6.63	8.18	6.27	1	2	1	0.38
+Ferre-2022-160-28	28	melancholy	melancólico			3.19	1.6	1.76	1.29	5.63	4.81	6.6	4.23	1	2	1	0.55
+Ferre-2022-160-29	29	misfortune	infortúnio	56	BAD LUCK	0.87	0.45	0.3	0.35	8.26	6.18	7.6	3.84	1	2	1	0.5
+Ferre-2022-160-30	30	nervousness	nervosismo			1.87	1.22	1.88	0.71	6.9	5.75	5.95	5.8	1	2	1	0.55
+Ferre-2022-160-31	31	guilt	culpa	134	FAULT	1	0.65	1.1	0.14	8.73	7.04	7.95	6.46	1	2	1	0.2
+Ferre-2022-160-32	32	humiliation	humilhação			0.69	0.53	0.1	0.06	8.74	7.31	9.05	7.49	1	2	1	0.64
+Ferre-2022-160-33	33	despair	desespero			0.76	0.58	0.98	0.17	8.69	6.36	7.29	4.13	1	2	1	0.44
+Ferre-2022-160-34	34	anxiety	ansiedade	1000	ANXIETY	0.68	0.64	1.38	0.17	8.73	7.05	8.05	7.74	1	2	1	0.44
+Ferre-2022-160-35	35	envy	inveja	40	ENVY	1.13	0.91	1.15	0.29	7.89	6	7.6	5.62	1	2	1	0.33
+Ferre-2022-160-36	36	pity	pena	1141	PITY	1.38	1.24	1.36	0.52	7.51	6.22	6.08	3.94	1	2	1	0.25
+Ferre-2022-160-37	37	agony	agonia	1783	PAIN	0.61	0.76	0.2	0.15	8.73	6.76	8.71	6	1	2	1	0.67
+Ferre-2022-160-38	38	disappointment	desapontamento	3845	DISAPPOINTMENT	0.67	0.33	0.36	0.14	8.8	7.62	8.24	6.63	1	2	1	0.64
+Ferre-2022-160-39	39	shame	vergonha	1776	SHAME	0.74	0.31	0.86	0.17	8.44	6.71	7.62	6.2	1	2	1	0
+Ferre-2022-160-40	40	hate	ódio	3749	HATE (LOATHING)	0.53	0.49	0.26	0.06	9.52	7.58	9.57	6.83	1	2	1	0
+Ferre-2022-160-41	41	soul	alma	811	SOUL	6.6	6	6.74	4.97	1.98	1.38	0.71	0.43	2	1	1	0
+Ferre-2022-160-42	42	dream	sonho	2374	DREAM	7.11	6.55	7.33	6.38	2.05	1.42	1.21	0.56	2	1	1	0
+Ferre-2022-160-43	43	heavenly	celestial			9.16	7.82	7.64	4.5	0.66	0.58	0.62	0.75	2	1	1	0.11
+Ferre-2022-160-44	44	free	livre	2316	FREE	8.4	7.8	8.33	7.51	1.39	1	1.12	0.57	2	1	1	0.2
+Ferre-2022-160-45	45	wisdom	sabedoria			8.08	7.11	8.47	5.16	1.21	0.76	0.74	0.58	2	1	1	0.22
+Ferre-2022-160-46	46	survival	sobrevivência			5.63	4.27	4.93	3.63	3.31	3.16	3.31	2.6	2	1	1	0.39
+Ferre-2022-160-47	47	unity	unidade			8.48	6.6	6.6	4.37	0.94	1.25	1.05	0.43	2	1	1	0.43
+Ferre-2022-160-48	48	victory	vitória	783	VICTORY	9.03	7.85	8.38	6.51	0.74	0.84	0.64	0.23	2	1	1	0.43
+Ferre-2022-160-49	49	masterful	magistral			6.1	4.79	5.23	2.79	2.07	1.71	1.83	0.34	2	1	1	0.44
+Ferre-2022-160-50	50	fruitful	frutífero			7.36	6.13	6.09	3.63	1.13	0.68	1.06	0.26	2	1	1	0.44
+Ferre-2022-160-51	51	freshness	frescor			7.68	6.49	6.62	4.03	0.95	0.73	0.67	0.43	2	1	1	0.44
+Ferre-2022-160-52	52	creation	criação			7.58	6.35	6.31	4.23	1.63	1.2	0.95	0.8	2	1	1	0.5
+Ferre-2022-160-53	53	parenting	parentalidade			5.42	4.35	6.48	5.17	2.85	2.6	1.71	0.91	2	1	1	0.54
+Ferre-2022-160-54	54	honesty	honestidade			8.61	7.53	8.64	6.6	1.6	1.38	0.76	0.77	2	1	1	0.55
+Ferre-2022-160-55	55	memorable	memorável			7.56	6.67	7.81	5.2	1.82	1.45	1.5	0.89	2	1	1	0.56
+Ferre-2022-160-56	56	triumph	triunfo	3849	TRIUMPH	8.18	6.85	7.85	5.97	1.26	1.29	0.75	0.26	2	1	1	0.57
+Ferre-2022-160-57	57	phenomenon	fenômeno			4.92	4.24	4.21	1.74	2.39	1.85	1.52	0.91	2	1	1	0.6
+Ferre-2022-160-58	58	excellence	excelência			9.32	7.58	8.31	5.8	0.53	0.69	0.52	0.71	2	1	1	0.6
+Ferre-2022-160-59	59	authenticity	autenticidade			7.4	6.18	7.79	5.74	1.48	0.89	0.67	0.37	2	1	1	0.62
+Ferre-2022-160-60	60	sincerity	sinceridade			8	6.89	8.29	6.11	1	0.73	0.98	0.86	2	1	1	0.64
+Ferre-2022-160-61	61	blasphemy	blasfêmia			1.06	0.88	0.78	0.42	7.55	5.22	7.92	3.32	2	2	1	0.44
+Ferre-2022-160-62	62	censorship	censura			2.43	1.1	1.34	0.22	5.38	4.67	7.11	4.22	2	2	1	0.5
+Ferre-2022-160-63	63	cheat	fraude			0.61	0.89	0.62	0.2	8.69	7.24	7.64	6.51	2	2	1	0
+Ferre-2022-160-64	64	disadvantage	desvantagem			0.6	0.71	0.76	0.31	8.02	6.07	6.95	4.49	2	2	1	0.67
+Ferre-2022-160-65	65	disgrace	desgraça	75	DISGRACE	0.92	0.31	0.39	0.14	8.6	6.65	8.24	5.43	2	2	1	0.63
+Ferre-2022-160-66	66	doubt	dúvida	1308	DOUBT	1.03	0.69	2.5	0.32	7.56	5.93	5.29	4.74	2	2	1	0.17
+Ferre-2022-160-67	67	exile	exílio			1	0.67	1.26	0.39	7.82	5.81	6.86	4.16	2	2	1	0.5
+Ferre-2022-160-68	68	extinction	extinção			1.52	0.89	0.95	0.26	7.82	6.71	7.43	4.89	2	2	1	0.6
+Ferre-2022-160-69	69	failure	fracasso			0.79	0.38	0.9	0.23	9.11	7.95	7.64	6.31	2	2	1	0.25
+Ferre-2022-160-70	70	loss	perda			0.9	0.35	0.76	0.29	8.21	7.18	8.17	7.14	2	2	1	0
+Ferre-2022-160-71	71	negativity	negatividade			0.34	0.53	0.57	0.11	9.27	7.15	8.02	6.03	2	2	1	0.67
+Ferre-2022-160-72	72	poverty	pobreza			0.66	0.42	0.51	0.26	8.51	8.07	8.37	6.31	2	2	1	0.29
+Ferre-2022-160-73	73	punishment	punição	390	PUNISHMENT	1.05	0.84	0.83	0.29	8.34	7.29	8.1	5.91	2	2	1	0.4
+Ferre-2022-160-74	74	rejection	rejeição			0.53	0.55	0.74	0.09	8.55	7.29	8.17	7.14	2	2	1	0.56
+Ferre-2022-160-75	75	sadistic	sádico			1.02	1.15	0.98	0.25	8.2	5.94	7.65	4.41	2	2	1	0.38
+Ferre-2022-160-76	76	stereotype	estereótipo			1.66	0.89	1.21	0.43	7.24	5.87	6.83	4.23	2	2	1	0.64
+Ferre-2022-160-77	77	uncertain	incerto			1.9	0.96	1.71	0.66	5.79	4.62	5.79	4.23	2	2	1	0.56
+Ferre-2022-160-78	78	unfaithful	infiel			0.5	0.33	0.52	0.09	8.89	7.56	8.43	6.53	2	2	1	0.4
+Ferre-2022-160-79	79	unstable	instável			0.92	0.76	0.52	0.26	7.81	6.27	6.9	4.57	2	2	1	0.38
+Ferre-2022-160-80	80	wrong	errado	1390	WRONG	0.92	0.84	1.12	0.37	7.94	5.75	6.88	4.69	2	2	1	0.17
+Ferre-2022-160-81	81	debut	estréia			5.53	3.11	4.25	1.68	1.57	1.72	1.69	1.04	0	0	0	0
+Ferre-2022-160-82	82	motto	lema			4.67	4.11	5.07	1.76	1.92	0.91	0.96	0.57	0	0	0	0
+Ferre-2022-160-83	83	odd	ímpar			2.16	2.33	3.13	1.44	4.48	3.93	3.73	1.78	0	0	0	0
+Ferre-2022-160-84	84	phase	fase			2.95	2.15	3.74	1.24	2.85	2.25	3	1.62	0	0	0	0.6
+Ferre-2022-160-85	85	suitable	adequado			5.67	4.11	5.55	2.51	2.08	1.18	1	0.74	0	0	0	0
+Ferre-2022-160-86	86	underlying	subjacente			2.05	1.09	1.78	0.61	4.43	3.19	2.54	0.61	0	0	0	0
+Ferre-2022-160-87	87	rampant	galopante			2.1	0.94	1.45	1.36	6.1	4.53	4.1	0.91	0	0	0	0.56
+Ferre-2022-160-88	88	attempt	tentativa			4.55	3.25	4.69	2.65	2.92	2.49	2.55	1.53	0	0	0	0.11
+Ferre-2022-160-89	89	random	aleatória			3.68	2.8	3.24	1.86	3.13	1.8	2.48	1.2	0	0	0	0.11
+Ferre-2022-160-90	90	average	média			3.37	2.2	2.83	0.63	4	3.85	3.48	1.74	0	0	0	0.14
+Ferre-2022-160-91	91	busy	ocupado	2755	BUSY	3.44	2.67	3.19	1.91	5.23	3.76	4.55	2.69	0	0	0	0.14
+Ferre-2022-160-92	92	input	entrada			3.95	2.84	3.55	1.77	2.31	1.55	1.67	0.71	0	0	0	0.14
+Ferre-2022-160-93	93	naive	ingênuo			1.6	1.19	2.43	1.71	6.77	5.31	5.63	2.96	0	0	0	0.14
+Ferre-2022-160-94	94	guidance	orientação			7.07	5.6	6.37	3.21	1.33	0.98	1.1	0.33	0	0	0	0.2
+Ferre-2022-160-95	95	fade	dessaparecimento			2.18	1.33	2.15	1	4.56	3.35	4.18	2.44	0	0	0	0.13
+Ferre-2022-160-96	96	emphasis	ênfase			4.31	2.93	4.13	1.91	2.24	1.2	1.41	0.54	0	0	0	0.25
+Ferre-2022-160-97	97	feasible	factível			5.38	3.72	4.52	1.43	2.12	1.53	1.33	0.07	0	0	0	0.25
+Ferre-2022-160-98	98	previous	anterior			2.31	1.55	2.74	0.83	1.87	1.36	2.12	0.57	0	0	0	0.25
+Ferre-2022-160-99	99	rate	taxa			3.2	1.71	2.95	1.12	2.64	1.31	2.88	1.7	0	0	0	0.25
+Ferre-2022-160-100	100	reminder	lembrete			4.42	2.71	4.76	2.74	2.18	1.51	1.4	1.09	0	0	0	0.25
+Ferre-2022-160-101	101	act	ato			3.98	3.22	4.37	2.27	3.34	2.27	2.12	1.39	0	0	0	0.33
+Ferre-2022-160-102	102	law	lei	1062	LAW	4.44	2.76	5.24	2.91	4.08	3.42	3.6	1.51	0	0	0	0.33
+Ferre-2022-160-103	103	trend	tendência			4.13	2.51	3.86	2.17	2.82	2.05	2.21	1.49	0	0	0	0.33
+Ferre-2022-160-104	104	viable	viável			5.28	4	6.07	2.97	1.76	1.12	0.93	0.8	0	0	0	0.33
+Ferre-2022-160-105	105	leadership	liderança			7.85	6.58	6.14	4.09	1.79	1.56	1.76	1.12	0	0	0	0.4
+Ferre-2022-160-106	106	manageable	manejável			5.92	4.45	5.08	2.12	2.23	1.35	1.65	0.48	0	0	0	0.4
+Ferre-2022-160-107	107	similar	semelhante	1558	SIMILAR	4.81	2.93	4.26	1.94	2.32	1.76	2.74	1.49	0	0	0	0.4
+Ferre-2022-160-108	108	withdrawal	retirada			1.56	0.87	1.84	0.78	6.84	5.62	4.52	1.57	0	0	0	0.4
+Ferre-2022-160-109	109	past	passado			3.05	2.73	3.79	2.74	3.5	3.73	3.31	2.66	0	0	0	0.43
+Ferre-2022-160-110	110	reign	reinado			4.57	3.25	3.3	1.67	3.2	2.64	2.7	0.67	0	0	0	0.43
+Ferre-2022-160-111	111	sovereign	soberano			4.43	2.69	2.13	0.87	2.65	1.71	3.92	1.2	0	0	0	0.44
+Ferre-2022-160-112	112	dissent	divergência			2.3	1.46	3.73	1.94	4.84	3.46	2.86	1.28	0	0	0	0.27
+Ferre-2022-160-113	113	resemblance	semelhança			4.87	3.18	4.1	2.24	2.08	1.33	2.59	0.83	0	0	0	0.46
+Ferre-2022-160-114	114	genre	gênero			3.71	2.73	4.07	1.82	1.61	0.87	1.54	1.24	0	0	0	0.5
+Ferre-2022-160-115	115	hypothesis	hipótese			3.71	1.85	4.26	1.56	2.76	1.85	1.74	1.35	0	0	0	0.5
+Ferre-2022-160-116	116	method	método	3971	METHOD	3.32	2.29	3.57	2.43	1.95	1.31	1.14	0.91	0	0	0	0.5
+Ferre-2022-160-117	117	negotiable	negociável			4.8	4	4.88	2.89	2.62	1.76	2	1.09	0	0	0	0.5
+Ferre-2022-160-118	118	notion	noção			3.02	2.31	5.14	2.29	2.14	1.45	1.12	0.65	0	0	0	0.5
+Ferre-2022-160-119	119	palpable	palpável			3.21	2.71	3.9	1.66	2	1.09	1.62	0.4	0	0	0	0.5
+Ferre-2022-160-120	120	philosophy	filosofia			5.07	3.96	5.36	2.86	2.16	1.4	1.6	0.77	0	0	0	0.5
+Ferre-2022-160-121	121	prophecy	profecia			4.86	3.74	3.76	1.2	2.66	2.07	3.07	1.37	0	0	0	0.5
+Ferre-2022-160-122	122	psychic	psíquico			3.74	3.51	3.17	2.09	3.51	2.27	4	1.24	0	0	0	0.5
+Ferre-2022-160-123	123	rationing	racionamento			3	1.61	3.28	1.21	4.27	3.46	3.39	2.21	0	0	0	0.5
+Ferre-2022-160-124	124	reaction	reação			3.77	2.53	4.14	2.51	3.23	1.87	2.62	1.74	0	0	0	0.5
+Ferre-2022-160-125	125	renounce	renúncia			2.19	1.61	2.21	0.55	4.73	3.45	4.87	2.03	0	0	0	0.5
+Ferre-2022-160-126	126	resource	recurso			5.73	4.09	4.64	2.09	1.53	1.15	1.67	0.94	0	0	0	0.5
+Ferre-2022-160-127	127	tactical	tático			4.21	2.84	4.66	2.41	2.84	1.52	2.12	1.26	0	0	0	0.5
+Ferre-2022-160-128	128	theory	teoria	2433	THEORY	3.72	2.49	3.64	1.49	2.23	1.13	1.74	1.17	0	0	0	0.5
+Ferre-2022-160-129	129	variable	variável			3.17	1.95	3.38	1.26	2.29	1.47	2.33	1.46	0	0	0	0.5
+Ferre-2022-160-130	130	development	desenvolvimento			5.98	5.42	7.05	4.03	1.56	1.31	1.12	0.51	0	0	0	0.53
+Ferre-2022-160-131	131	presumption	presunção			2.58	1.32	1.95	0.75	4.42	3	4.7	2.75	0	0	0	0.55
+Ferre-2022-160-132	132	anonymous	anônimo			2.79	2.58	2.43	1.37	3.26	2.76	3.83	2.31	0	0	0	0.56
+Ferre-2022-160-133	133	deduction	dedução			2.46	1.91	3.81	1.69	5.49	3.49	2.07	0.97	0	0	0	0.56
+Ferre-2022-160-134	134	plausible	plausível			4.96	2.96	4.76	2.91	1.89	1.23	1.43	1.06	0	0	0	0.56
+Ferre-2022-160-135	135	practical	prático			5.37	3.47	5.98	3.24	2.13	1.55	0.98	0.85	0	0	0	0.56
+Ferre-2022-160-136	136	selection	seleção			3.18	1.91	3.69	1.14	2.4	2.42	2.86	1.46	0	0	0	0.56
+Ferre-2022-160-137	137	minimum	mínimo			2.33	1.96	2.45	0.77	3.98	2.67	3.86	1.49	0	0	0	0.57
+Ferre-2022-160-138	138	positioning	posicionamento			3.63	1.98	3.97	1.12	2.13	1.33	1.87	0.55	0	0	0	0.57
+Ferre-2022-160-139	139	identity	identidade	3960	IDENTITY	4.9	3.89	6.48	3.89	2.11	1.89	1.26	0.69	0	0	0	0.6
+Ferre-2022-160-140	140	indigenous	indígena			5	3.84	3.41	1.69	1.6	1.78	1.68	1.06	0	0	0	0.6
+Ferre-2022-160-141	141	mobility	mobilidade			5.8	4.16	4.88	3.03	1.63	1.29	1.19	0.69	0	0	0	0.6
+Ferre-2022-160-142	142	navigation	navegação			3.97	3.09	4.02	2.41	1.55	1.4	1.64	0.59	0	0	0	0.6
+Ferre-2022-160-143	143	repertoire	repertório			4.21	3.44	3.58	1.56	1.76	1.16	2.13	0.8	0	0	0	0.6
+Ferre-2022-160-144	144	fixation	fixação			3.25	1.85	2.31	0.83	4.35	3.07	4.71	2.46	0	0	0	0.63
+Ferre-2022-160-145	145	opposite	oposto	885	OPPOSITE	3	2.25	2.83	1.23	3.61	2.56	3.98	2.54	0	0	0	0.63
+Ferre-2022-160-146	146	rhetoric	retórica			3	2.08	2.71	1.41	2.46	2.31	2.83	1.26	0	0	0	0.63
+Ferre-2022-160-147	147	conjunction	conjunção			2.8	2.36	2.51	0.27	2.55	1.7	1.69	0.42	0	0	0	0.64
+Ferre-2022-160-148	148	description	descrição			3.77	2.15	4.17	1.06	1.82	1.04	1.33	0.56	0	0	0	0.64
+Ferre-2022-160-149	149	distinction	distinção			4.27	2.4	4.62	2.26	2.73	1.8	3.05	1.63	0	0	0	0.64
+Ferre-2022-160-150	150	formality	formalidade			3.97	2.57	3.36	1.71	2.54	2.17	2.36	1.57	0	0	0	0.64
+Ferre-2022-160-151	151	mentality	mentalidade			4.47	3.87	5.57	3.43	3.16	2.05	2.1	1.03	0	0	0	0.64
+Ferre-2022-160-152	152	posterity	posteridade			4.53	3.38	4.63	2.24	1.79	1.8	2.33	0.67	0	0	0	0.64
+Ferre-2022-160-153	153	resonance	ressonância			4.57	3.49	2.61	0.81	1.96	1.06	2.3	1.26	0	0	0	0.64
+Ferre-2022-160-154	154	restriction	restrição			1.69	1	1.38	0.6	6.9	5.29	5.6	3.63	0	0	0	0.64
+Ferre-2022-160-155	155	speculation	especulação			2.76	1.51	2.12	0.46	4.76	3.45	4.55	3.14	0	0	0	0.64
+Ferre-2022-160-156	156	continuity	continuidade			5.22	3.44	4.98	2.94	1.93	1.46	1.61	0.83	0	0	0	0.67
+Ferre-2022-160-157	157	jurisdiction	jurisdição			3.07	1.45	2.74	1.09	3.03	2.62	2.67	0.91	0	0	0	0.67
+Ferre-2022-160-158	158	legitimacy	legitimidade			6.27	4.46	5.76	2.41	1.92	1.57	1.45	0.38	0	0	0	0.67
+Ferre-2022-160-159	159	principle	princípio			4.08	3.02	5.07	3.31	2.55	1.98	0.98	0.43	0	0	0	0.67
+Ferre-2022-160-160	160	relativity	relatividade			4.27	1.94	3.57	1	2.03	1.3	2.19	0.68	0	0	0	0.67
