@@ -82,14 +82,14 @@
                     {
                         "datatype": {
                           "base": "string",
-                          "format": "1|0|2"
+                          "format": "0|1|2"
                         },
                         "name": "EMOTION_TYPE"
                     },
                     {
                         "datatype": {
                           "base": "string",
-                          "format": "1|0|2"
+                          "format": "0|1|2"
                         },
                         "name": "EMOTION_POLARITY"
                     },
