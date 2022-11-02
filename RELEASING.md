@@ -44,6 +44,11 @@ to normalize them for import:
   concepticon test
   ```
 
+- Make sure CLDF-creation works:
+  ```shell
+  cldfbench makecldf cldfbench_concepticon.py --glottolog-version v4.6
+  ```
+
 - Make sure the data in `master` can be imported into the web app `clld/concepticon` by running
   ```shell script
   cd ../concepticon
