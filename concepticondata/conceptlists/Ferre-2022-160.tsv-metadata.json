@@ -1,0 +1,115 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dialect": {
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        },
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        },
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": 1
+                        },
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "PORTUGUESE"
+                    },
+                    {
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 10},
+                        "name": "POSITIVE_THINK_MONOLINGUALS_MEAN"
+                    },
+                    {
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 10},
+                        "name": "POSITIVE_FEEL_MONOLINGUALS_MEAN"
+                    },
+                    {
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 10},
+                        "name": "POSITIVE_THINK_BILINGUALS_MEAN"
+                    },
+                    {
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 10},
+                        "name": "POSITIVE_FEEL_BILINGUALS_MEAN"
+                    },
+                    {
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 10},
+                        "name": "NEGATIVE_THINK_MONOLINGUALS_MEAN"
+                    },
+                    {
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 10},
+                        "name": "NEGATIVE_FEEL_MONOLINGUALS_MEAN"
+                    },
+                    {
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 10},
+                        "name": "NEGATIVE_THINK_BILINGUALS_MEAN"
+                    },
+                    {
+                        "datatype": {"base": "decimal", "minimum": 0, "maximum": 10},
+                        "name": "NEGATIVE_FEEL_BILINGUALS_MEAN"
+                    },
+                    {
+                        "datatype": {
+                          "base": "string",
+                          "format": "0|1|2"
+                        },
+                        "name": "EMOTION_TYPE"
+                    },
+                    {
+                        "datatype": {
+                          "base": "string",
+                          "format": "0|1|2"
+                        },
+                        "name": "EMOTION_POLARITY"
+                    },
+                    {
+                        "datatype": {
+                          "base": "string",
+                          "format": "1|0"
+                        },
+                        "name": "EMOTION_CONDITION"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "ORTHOGRAPHIC_SIMILARITY"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "Ferre-2022-160.tsv"
+        }
+    ]
+}
