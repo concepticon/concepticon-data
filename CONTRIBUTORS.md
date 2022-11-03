@@ -71,7 +71,7 @@ Damian Satterthwaite-Phillips | D | 1.0
 Dana Thoeren | C | 2.5
 David Nash | MP | 2.2
 Doug Cooper | DCSM | 1.1, 2.1
-Evgeniya Korovina | MSCLPA | 1.1, 2.2
+Evgeniya Korovina | MDSCLPA | 1.1, 2.2, 3.0
 Fabio Fromme | CL | 2.5
 Fiona Grond | CL | 2.5
 Franz Manni | A | 2.5
