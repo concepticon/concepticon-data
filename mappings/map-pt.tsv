@@ -5,7 +5,7 @@ ID	GLOSS	PRIORITY
 303	ABSTAIN FROM FOOD///jejuar	1
 2437	ACAI PALM///AÇAÍ	2
 1814	ACCUSE///acusar	1
-349	ACHIOTE///URUCU	1
+349	ACHIOTE///URUCU	2
 349	ACHIOTE///urucum	2
 968	ACORN///bolota	1
 988	ACQUIT///absolver	1
@@ -52,6 +52,7 @@ ID	GLOSS	PRIORITY
 1935	ANUS///ÂNUS	1
 1935	ANUS///ânus	1
 1648	ANVIL///bigorna	1
+1000	ANXIETY///ansiedade	1
 1000	ANXIETY///ansiedade, preocupação	1
 1778	APPROACH///aproximar	1
 876	ARCH///arco	1
@@ -81,12 +82,15 @@ ID	GLOSS	PRIORITY
 677	AXE///MACHADO	2
 677	AXE///machado	3
 1769	AXLE///eixo	1
+3925	BABASSU PALM///BABAÇU	1
+3926	BABY CARRIER///TIPÓIA	1
 3946	BABY SLING///tipóia	1
 1289	BABY///bebê	1
 1289	BABY///bebê, nenê	1
 1289	BABY///lactente	1
 1291	BACK///COSTAS	2
 1291	BACK///costas	4
+56	BAD LUCK///infortúnio	1
 56	BAD LUCK///infortúnio, má sorte, azar	1
 3764	BAD OR EVIL///MAU / MAL / RUIM	2
 1292	BAD///mal	1
@@ -192,6 +196,7 @@ ID	GLOSS	PRIORITY
 176	BLOW (WITH MOUTH)///SOPRAR	2
 176	BLOW (WITH MOUTH)///soprar	1
 432	BLOWGUN///zarabatana	1
+3927	BLUE-AND-YELLOW MACAW///Arara-canindé	1
 837	BLUE///AZUL	2
 837	BLUE///azul	2
 379	BLUNT///embotado	1
@@ -236,6 +241,8 @@ ID	GLOSS	PRIORITY
 2136	BRASS INSTRUMENT (HORN OR TRUMPET)///corneta, trombeta	1
 3	BRAVE///corajoso	1
 3	BRAVE///corajoso, bravo	1
+3928	BRAZIL NUT///CASTANHA DO PARÁ	2
+3929	BRAZILIAN CEDAR///ACAIACÁ / CEDRO-BATATA	1
 1368	BREAD///pão	1
 3020	BREAK (BREAKING)///QUEBRAR / ROMPER	1
 3020	BREAK (BREAKING)///quebrar(-se) / romper(-se)	1
@@ -273,6 +280,7 @@ ID	GLOSS	PRIORITY
 1428	BURNING///queimar, arder	1
 1719	BURY///ENTERRAR	2
 1719	BURY///enterrar	2
+2755	BUSY///ocupado	1
 1245	BUTTER///manteiga	1
 1791	BUTTERFLY///BORBOLETA	2
 1791	BUTTERFLY///borboleta	3
@@ -324,6 +332,7 @@ ID	GLOSS	PRIORITY
 1928	CEASE///parar, cessar	1
 439	CEBUS MONKEY///MACACO PREGO	1
 439	CEBUS MONKEY///macaco-prego	1
+3931	CECROPIA///EMBAÚBA / IMBAÚBA	1
 3208	CENTER OR MIDDLE///meio, centro	1
 1974	CENTIPEDE///CENTOPEIA / LACRAIA	2
 1974	CENTIPEDE///centopeia	2
@@ -475,6 +484,7 @@ ID	GLOSS	PRIORITY
 706	DARK///escuro	3
 11	DARKNESS///escuridão	1
 3778	DAUGHTER (OF MALE EGO)///FILHA DE HOMEM	1
+3930	DAUGHTER (OF WOMAN)///FILHA DE MULHER	1
 2265	DAUGHTER-IN-LAW (OF MAN)///nora (de homem)	1
 2264	DAUGHTER-IN-LAW (OF WOMAN)///nora (de mulher)	1
 1357	DAUGHTER///FILHA DE HOMEM	1
@@ -502,6 +512,7 @@ ID	GLOSS	PRIORITY
 1973	DEMON///Diabo	1
 1973	DEMON///demônio	1
 755	DENY///negar	1
+3973	DEPRESSED///deprimido	1
 490	DESCENDANTS///descendentes	1
 681	DESTROY///destruir	1
 1977	DEW///orvalho	2
@@ -518,6 +529,8 @@ ID	GLOSS	PRIORITY
 1230	DIRTY///SUJO	2
 1230	DIRTY///sujo	3
 485	DISAPPEAR///desaparecer	1
+3845	DISAPPOINTMENT///desapontamento	1
+75	DISGRACE///desgraça	1
 481	DISH///prato	1
 2002	DITCH///fosso, canal, vala	1
 119	DIVE///mergulhar	2
@@ -538,6 +551,7 @@ ID	GLOSS	PRIORITY
 1567	DOOR///porta, portão	1
 80	DOORPOST///umbral, ombreira da porta	1
 1308	DOUBT///duvidar	1
+1308	DOUBT///dúvida	1
 273	DOUGH///massa	1
 1853	DOVE///pomba	1
 1853	DOVE///pombo	1
@@ -547,6 +561,7 @@ ID	GLOSS	PRIORITY
 1920	DREAM (SOMETHING)///SONHAR	2
 1920	DREAM (SOMETHING)///sonhar	1
 2374	DREAM///SONHO / SONHAR	2
+2374	DREAM///sonho	1
 814	DRESS UP///VESTIR (-SE)	1
 474	DRESS///vestido	1
 268	DRIBBLE///babar	1
@@ -616,10 +631,12 @@ ID	GLOSS	PRIORITY
 1881	ENOUGH///bastante, suficiente	1
 749	ENTER///ENTRAR	2
 749	ENTER///entrar	1
+40	ENVY///inveja	1
 40	ENVY///inveja, ciúme	1
 1629	EVENING///noite, tardinha	1
 1629	EVENING///tarde	1
 1345	EWE///ovelha	1
+3846	EXCITEMENT///excitação	1
 1426	EXPENSIVE///caro	1
 1626	EXPLAIN///explicar	1
 127	EXTINGUISH///extinguir	1
@@ -660,9 +677,11 @@ ID	GLOSS	PRIORITY
 1217	FATHER///PAI	2
 1217	FATHER///pai	4
 81	FATHOM///palmo, braça	1
+134	FAULT///culpa	1
 134	FAULT///falta, culpa	1
 1419	FEAR (BE AFRAID)///TEMER / TER MEDO	2
 1419	FEAR (BE AFRAID)///ter medo	2
+781	FEAR (FRIGHT)///medo	1
 781	FEAR (FRIGHT)///medo, susto	1
 1201	FEATHER///PENA / PLUMA	2
 1201	FEATHER///pena	3
@@ -779,6 +798,7 @@ ID	GLOSS	PRIORITY
 265	FOWL///ave	1
 1312	FOX///raposa	1
 376	FRAGRANT///cheiroso, fragante	1
+2316	FREE///livre	1
 384	FREEMAN///homem livre	1
 1013	FRESHWATER EEL///enguia	1
 1692	FRIDAY///sexta-feira	1
@@ -888,10 +908,12 @@ ID	GLOSS	PRIORITY
 1277	HAND///MÃO	2
 1277	HAND///mão	5
 357	HANG UP///pendurar	1
+2941	HAPPINESS///alegria	1
 1495	HAPPY///FELIZ / CONTENTE	2
 1495	HAPPY///feliz, contente, alegre	1
 1884	HARD///duro	2
 611	HARVEST///colheita	1
+3749	HATE (LOATHING)///ódio	1
 1607	HATE///odiar	1
 773	HAVE///ter	1
 307	HAWK///GAVIÃO	2
@@ -952,7 +974,8 @@ ID	GLOSS	PRIORITY
 942	HONEY///mel	3
 3947	HONEYCOMB///favo de mel	1
 1071	HOOK///gancho	1
-1092	HOPE///esperança	1
+1092	HOPE///esperança	2
+3933	HOPLIAS (GENUS)///TRAÍRA	1
 1393	HORN (ANATOMY)///CHIFRE	2
 1393	HORN (ANATOMY)///chifre	2
 1393	HORN (ANATOMY)///chifre, corno	1
@@ -987,6 +1010,7 @@ ID	GLOSS	PRIORITY
 1209	I///eu	5
 617	ICE///gelo	1
 1609	IDEA///idéia	1
+3960	IDENTITY///identidade	1
 1945	IDOL///ídolo	1
 1459	IF///se	1
 1578	IGUANA///CAMALEÃO	2
@@ -998,6 +1022,7 @@ ID	GLOSS	PRIORITY
 1883	IN FRONT OF///frente	1
 1460	IN///em	1
 3612	INDIGENOUS PEOPLES OF THE AMERICAS///Índio	1
+3934	INGA (GENUS)///INGÁ	1
 90	INNOCENT///inocente	1
 620	INSECT///inseto	1
 1606	INSIDE///DENTRO (DE)	2
@@ -1026,7 +1051,6 @@ ID	GLOSS	PRIORITY
 854	KETTLE///chaleira	1
 1472	KEY///chave	1
 1135	KICK///dar um pontapé, chutar	1
-1972	KID///cabrito	1
 489	KIDNEY///rim	1
 1417	KILL///MATAR	2
 1417	KILL///matar	4
@@ -1062,7 +1086,7 @@ ID	GLOSS	PRIORITY
 477	LATE///tarde	1
 1355	LAUGH///RIR	2
 1355	LAUGH///rir	2
-1062	LAW///lei	1
+1062	LAW///lei	2
 1564	LAZY///preguiçoso	1
 627	LEAD (CHEMICAL ELEMENT)///chumbo	1
 43	LEAD (GUIDE)///conduzir, guiar	1
@@ -1117,6 +1141,7 @@ ID	GLOSS	PRIORITY
 1203	LONG///COMPRIDO / LONGO / ALTO	2
 1203	LONG///comprido	3
 1203	LONG///longo	1
+2960	LONGING (WISH)///desejo	1
 1468	LOOK FOR///BUSCAR / PROCURAR	2
 1468	LOOK FOR///buscar, procurar	1
 1819	LOOK///OLHAR	2
@@ -1125,6 +1150,7 @@ ID	GLOSS	PRIORITY
 377	LOUD///ruidoso, barulhento	1
 1392	LOUSE///PIOLHO	2
 1392	LOUSE///piolho	4
+3834	LOVE (AFFECTION)///amor	1
 923	LOVE///amar	1
 1026	LOW TIDE///maré baixa, maré vazia	1
 721	LOW///baixo	1
@@ -1183,6 +1209,7 @@ ID	GLOSS	PRIORITY
 408	MEN'S HOUSE///casa de homens	1
 408	MEN'S HOUSE///casa dos homens	1
 1082	MERCHANT///negociante	1
+3971	METHOD///método	1
 12	MIDDAY///meio dia	1
 12	MIDDAY///meio-dia	1
 3387	MIDDLE FINGER///dedo médio	1
@@ -1334,6 +1361,7 @@ ID	GLOSS	PRIORITY
 309	OPOSSUM///gambá	1
 309	OPOSSUM///mucura (saruê)	1
 309	OPOSSUM///sarigüê, gambá	1
+885	OPPOSITE///oposto	1
 1014	OR///ou	1
 3945	ORION'S CONSTELLATION///Orion, constelação de	1
 917	ORNAMENT///ORNAMENTO / ENFEITE	1
@@ -1425,7 +1453,9 @@ ID	GLOSS	PRIORITY
 592	PISS///URINAR	2
 592	PISS///urinar	2
 337	PITCHFORK///forcado, forquilha	1
+1141	PITY///pena	1
 1141	PITY///pena, compaixão	1
+3937	PIUM (SIMULIIDAE)///BORRACHUDO	1
 723	PLACE (POSITION)///espaço, lugar	1
 652	PLAIN///campo, planície, savannah	1
 2020	PLAINTIFF///queixoso	1
@@ -1436,6 +1466,7 @@ ID	GLOSS	PRIORITY
 1413	PLAY///BRINCAR	2
 1413	PLAY///jogar	1
 1413	PLAY///jogar, brincar	1
+3916	PLEASURE///prazer	1
 2024	PLOT///conspiração	1
 1921	PLOUGH///arar	1
 1851	POCKET///bolso	1
@@ -1466,7 +1497,7 @@ ID	GLOSS	PRIORITY
 1072	PRISONER///cativo, prisioneiro	1
 1675	PROMISE///prometer	1
 1610	PROSTITUTE///prostituta	1
-174	PROUD///orgulhoso	1
+174	PROUD///orgulhoso	2
 36	PUBIC HAIR///pelo pubiano	1
 36	PUBIC HAIR///pêlo púbico	1
 291	PULL OFF (SKIN)///esfolar	1
@@ -1478,6 +1509,7 @@ ID	GLOSS	PRIORITY
 864	PUMPKIN///ABÓBORA / MORANGA / JERIMUN	2
 864	PUMPKIN///abóbora	2
 864	PUMPKIN///moranga	1
+390	PUNISHMENT///punição	1
 390	PUNISHMENT///punição, castigo	1
 753	PUPIL (STUDENT)///aluno	1
 1047	PURSUE///perseguir	1
@@ -1596,6 +1628,7 @@ ID	GLOSS	PRIORITY
 266	SCALE///escama	1
 266	SCALE///escamas	1
 497	SCAR///cicatriz	1
+3033	SCARED///assustado	1
 673	SCHOOL///escola	1
 299	SCOLD///repreender	1
 1538	SCORPION///ESCORPIÃO	2
@@ -1631,7 +1664,7 @@ ID	GLOSS	PRIORITY
 1909	SHAKE///agitar	1
 193	SHALLOW///raso, baixo	1
 394	SHAMAN (FOLK HEALER)///PAJÉ	2
-1776	SHAME///vergonha	1
+1776	SHAME///vergonha	2
 884	SHARE///distribuir, compartilhar	1
 1110	SHARK///tubarão	1
 1396	SHARP///afiado	1
@@ -1687,6 +1720,7 @@ ID	GLOSS	PRIORITY
 1641	SILK///seda	1
 759	SILVER///prata	1
 1558	SIMILAR///parecido	1
+1558	SIMILAR///semelhante	1
 1261	SING///CANTAR	2
 1261	SING///cantar	3
 1088	SINK (DESCEND)///afundar	1
@@ -1756,7 +1790,7 @@ ID	GLOSS	PRIORITY
 1620	SON///filho	1
 703	SOON///em breve	1
 811	SOUL///Alma	1
-811	SOUL///alma	1
+811	SOUL///alma	2
 811	SOUL///alma, espírito	1
 1811	SOUND OR NOISE///BARULHO	1
 1811	SOUND OR NOISE///ruído, barulho	1
@@ -1851,6 +1885,7 @@ ID	GLOSS	PRIORITY
 1343	SUN///SOL	2
 1343	SUN///sol	5
 1699	SUNDAY///domingo	1
+1572	SURPRISED///atónito	1
 1572	SURPRISED///surpreso, espantado	1
 1696	SURRENDER///capitular, render-se	1
 1841	SUSPECT///suspeitar	1
@@ -1890,6 +1925,7 @@ ID	GLOSS	PRIORITY
 21	TASTE (SOMETHING)///sabor, gosto	1
 68	TATTOO///tatuagem	1
 873	TAX///imposto, taxa	1
+3941	TAYRA (EIRA BARBARA)///IRARA	1
 709	TEACH///ENSINAR	2
 709	TEACH///ensinar	1
 1038	TEACHER///professor	1
@@ -1912,6 +1948,7 @@ ID	GLOSS	PRIORITY
 78	THAT///aquele	1
 78	THAT///esse	1
 279	THATCH///palha, colmo, sapé	1
+2433	THEORY///teoria	1
 1937	THERE///ali	1
 1937	THERE///lá	1
 817	THEY///eles	2
@@ -2007,6 +2044,7 @@ ID	GLOSS	PRIORITY
 344	TREE TRUNK///tronco	1
 906	TREE///ÁRVORE	2
 906	TREE///árvore	6
+3849	TRIUMPH///triunfo	1
 205	TROUGH///gamela	1
 809	TROUSERS///calças	1
 1657	TRUE///verdadeiro	1
@@ -2045,7 +2083,7 @@ ID	GLOSS	PRIORITY
 1151	VEIL///véu	1
 1924	VEIN///VEIA	2
 1924	VEIN///veia	1
-783	VICTORY///vitória	1
+783	VICTORY///vitória	2
 930	VILLAGE///ALDEIA	2
 930	VILLAGE///aldeia	1
 343	VINE///cipo	1
@@ -2165,7 +2203,7 @@ ID	GLOSS	PRIORITY
 799	WRIST///pulso	1
 1672	WRITE///escrever	1
 1390	WRONG///ERRAR / ESTAR ERRADO	2
-1390	WRONG///errado	1
+1390	WRONG///errado	2
 410	YAM///INHAME	2
 410	YAM///inhame	2
 410	YAM///inhame, cará	1
@@ -2184,6 +2222,7 @@ ID	GLOSS	PRIORITY
 1213	YOU///VOCÊS / VÓS	2
 1213	YOU///vocês, vós	1
 1213	YOU///vós	1
+1972	YOUNG GOAT (KID)///cabrito	1
 76	YOUNG MAN///homem jovem	1
 76	YOUNG MAN///jovem, rapaz	1
 76	YOUNG MAN///moço	1

@@ -49,12 +49,7 @@ to normalize them for import:
   cldfbench makecldf cldfbench_concepticon.py --glottolog-version v4.6
   ```
 
-- Make sure the data in `master` can be imported into the web app `clld/concepticon` by running
-  ```shell script
-  cd ../concepticon
-  clld initdb development.ini
-  ```
-  and observing that all tests pass for the web app.
+- Adapt `CHANGELOG.md`
 
 - Commit the updates for this version and push updated data:
   ```shell script
@@ -75,8 +70,8 @@ to normalize them for import:
 - Create a [new milestone](https://github.com/concepticon/concepticon-data/milestones) to
   link to issues for the next version.
 
-- Publish the release at https://concepticon.clld.org following the instructions
-  at https://github.com/clld/concepticon/blob/master/RELEASING.md
+- Create the corresponding CLDF dataset release following the instructions
+  at https://github.com/concepticon/concepticon-cldf/blob/master/RELEASING.md
 
 - Tweet
 
