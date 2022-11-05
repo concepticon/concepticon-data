@@ -45,6 +45,7 @@
                     },
                     {
                         "datatype": "string",
+                        "separator": " ",
                         "name": "SEMANTIC_FIELD"
                     }
                 ],
@@ -52,7 +53,7 @@
                     "ID"
                 ]
             },
-            "url": "Gerardi-2022-711.tsv"
+            "url": "Gerardi-2022-705.tsv"
         }
     ]
 }
