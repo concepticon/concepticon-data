@@ -34,7 +34,8 @@ Period    | Grant Name                                                     | Gra
 2012-2016 | [Discovering Trans-New Guinea: Revealing the history of New Guinea](http://transnewguinea.org)                                                            | ARC Discovery Projects                            | Australian Research Council                           | DE 120101954 | SJG
 2015-2022  | [ARC Center of Excellence for the Dynamics of Language](http://www.dynamicsoflanguage.edu.au/)                                                               | Center of Excellence for the Dynamics of Language | Australian Research Council                           | CE140100041  | SJG
 2014-2017 | [Glottobank Project](http://glottobank.org)                                             | Marsden Fund                                      | Royal Society of New Zealand                          | 13-UOA-121   | SJG, JML, RF
-2014-now  | [Glottobank Project](http://glottobank.org)                                             |                                                   | Max Planck Institute for the Science of Human history |              | SJG, JML, RF
+2014-2021 | [Glottobank Project](http://glottobank.org)                                             |                                                   | Max Planck Institute for the Science of Human history |              | SJG, JML, RF
+2022-now  | [Glottobank Project](http://glottobank.org)                                             |                                                   | Max Planck Institute for Evolutionary Anthropology |              | SJG, JML, RF
 2014-2017 | [CLLD Project](http://clld.org)                                                   |                                                   | Max Planck Society                                    |              | RF
 
 

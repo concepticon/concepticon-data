@@ -1,9 +1,12 @@
-# CLLD Concepticon
+# Concepticon data curation
 
 [![Build Status](https://github.com/concepticon/concepticon-data/workflows/Concepticon%20validation/badge.svg)](https://github.com/concepticon/concepticon-data/actions?query=workflow%3AConcepticon%20validation)
 
+The data underlying the [Concepticon](https://concepticon.clld.org) is maintained in this repository.
+Released versions of this data are distributed as CLDF datasets, uploaded to
+Zenodo from the [concepticon-cldf](https://github.com/concepticon/concepticon-cldf) repository
 
-The data underlying the [Concepticon](https://concepticon.clld.org) of the [CLLD](https://clld.org) project is maintained in this repository. Here, you can find 
+Here, you can find 
 
 * [previous and current releases](https://github.com/concepticon/concepticon-data/releases), 
 * [issues we are trying to handle](https://github.com/concepticon/concepticon-data/issues),
@@ -39,9 +42,17 @@ The data underlying the [Concepticon](https://concepticon.clld.org) of the [CLLD
   tool.
 
 
+### Norms, Ratings and Relations associated with words and concepts
+
+Before release 3.0, this repository contained metadata linked to Concepticon concept sets. With release
+3.0, this data moved to a separate (though related) project - NoRaRe. For the curation and publication
+workflow of NoRaRe data see https://github.com/concepticon
+
+
 ### Update policy
 
-We try to [release](RELEASING.md) concepticon-data (as well as the [concepticon web app](https://concepticon.clld.org))
+We try to [release](RELEASING.md) concepticon-data (as well as the [CLDF dataset](https://github.com/concepticon/concepticon-cldf) 
+and the [concepticon web app](https://concepticon.clld.org))
 regularly at least once a year. Generally, new releases should only become more comprehensive, i.e. all data
 ever released should also be part of the newest release. Occasionally, though, we may have to correct an
 [erratum](https://github.com/concepticon/concepticon-data/issues?q=label%3Aerrata), which may result in some

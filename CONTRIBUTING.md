@@ -1,6 +1,6 @@
 ﻿# How to Contribute to the CLLD Concepticon?
 
-Contributing to the CLLD Concepticon is simple on the one hand and difficult on the other hand. If you are an experienced user of GitHub and know about the basic ideas behind pull requests and testing in Python, it will be easy to propose changes. Creating the change proposals, however, requires to study the way we encode data in the CLLD Concepticon. We recommend that you have a look at the workflows we created, since these may significantly ease the task of adding new concept lists, or changing the mappings we provide in existing ones.
+Contributing to the CLLD Concepticon is simple on the one hand and difficult on the other. If you are an experienced user of GitHub and know about the basic ideas behind pull requests and testing in Python, it will be easy to propose changes. Creating the change proposals, however, requires to study the way we encode data in the CLLD Concepticon. We recommend that you have a look at the workflows we created, since these may significantly ease the task of adding new concept lists, or changing the mappings we provide in existing ones.
 
 ## GitHub Pull Requests
 
