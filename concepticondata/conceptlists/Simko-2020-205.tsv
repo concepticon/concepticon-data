@@ -21,7 +21,7 @@ Simko-2020-205-19	19	чужд	čužd	strange, foreign	common adjectives	109	FORE
 Simko-2020-205-20	20	велик	velik	great	common adjectives	1202	BIG
 Simko-2020-205-21	21	зелен	zelen	green	common adjectives	1425	GREEN
 Simko-2020-205-22	22	зъл	zăl	angry	common adjectives	1826	ANGRY
-Simko-2020-205-23	23	жив	živ	alive	common adjectives	1422	BE ALIVE
+Simko-2020-205-23	23	жив	živ	alive	common adjectives		
 Simko-2020-205-24	24	жълт	žălt	yellow	common adjectives	1424	YELLOW
 Simko-2020-205-25	25	агне	agne	lamb	common animals and birds	820	LAMB
 Simko-2020-205-26	26	яйце	jajce	egg	common animals and birds	744	EGG
@@ -37,7 +37,7 @@ Simko-2020-205-35	35	кобила	kobila	mare	common animals and birds	938	MARE
 Simko-2020-205-36	36	кон	kon	horse	common animals and birds	615	HORSE
 Simko-2020-205-37	37	крава	krava	cow	common animals and birds	1007	COW
 Simko-2020-205-38	38	коза	koza	goat	common animals and birds	1502	GOAT
-Simko-2020-205-39	39	кур	kur	penis, rooster	common animals and birds	1222	PENIS
+Simko-2020-205-39	39	кур	kur	penis, rooster	common animals and birds	1511	ROOSTER
 Simko-2020-205-40	40	мравка	mravka	ant	common animals and birds	587	ANT
 Simko-2020-205-41	41	лебед	lebed	swan	common animals and birds	2837	SWAN
 Simko-2020-205-42	42	орел	orel	eagle	common animals and birds	1905	EAGLE
@@ -123,7 +123,7 @@ Simko-2020-205-121	121	девер	dever	brother-in-law	kinship terms	2314	BROTHE
 Simko-2020-205-122	122	дъщеря	dăšterja	daughter	kinship terms	1357	DAUGHTER
 Simko-2020-205-123	123	люде	ljude	people	kinship terms	789	PEOPLE
 Simko-2020-205-124	124	мъж	măž	man, husband	kinship terms	2646	HUSBAND OR MALE PERSON
-Simko-2020-205-125	125	невеста	nevesta	bride, daughter-in-law	kinship terms	1057	DAUGHTER-IN-LAW
+Simko-2020-205-125	125	невеста	nevesta	bride, daughter-in-law	kinship terms		
 Simko-2020-205-126	126	отец	otec	father	kinship terms	1217	FATHER
 Simko-2020-205-127	127	сестра	sestra	sister	kinship terms	1263	SISTER
 Simko-2020-205-128	128	син	sin	son	kinship terms	1620	SON
@@ -131,11 +131,11 @@ Simko-2020-205-129	129	свекър	svekăr	father-in-law (bridegroom's father)	
 Simko-2020-205-130	130	тъст	tăst	father-in-law (bride's father)	kinship terms	2254	FATHER-IN-LAW (OF WOMAN)
 Simko-2020-205-131	131	внук	vnuk	grandchild	kinship terms	1617	GRANDCHILD
 Simko-2020-205-132	132	зет	zet	son-in-law	kinship terms	1056	SON-IN-LAW
-Simko-2020-205-133	133	жена	žena	woman, spouse	kinship terms	2514	SPOUSE
-Simko-2020-205-134	134	бряг	brjag	coast, shore	concepts concerning nature, tools and housing	1525	COAST
+Simko-2020-205-133	133	жена	žena	woman, spouse	kinship terms		
+Simko-2020-205-134	134	бряг	brjag	coast, shore	concepts concerning nature, tools and housing		
 Simko-2020-205-135	135	брана	brana	harrow	concepts concerning nature, tools and housing	2545	HARROW (TOOL)
 Simko-2020-205-136	136	цеп	cep	chain	concepts concerning nature, tools and housing	1627	CHAIN
-Simko-2020-205-137	137	чад	čad	haze	concepts concerning nature, tools and housing	249	FOG
+Simko-2020-205-137	137	чад	čad	haze	concepts concerning nature, tools and housing		
 Simko-2020-205-138	138	члун	člun	boat	concepts concerning nature, tools and housing	1844	BOAT
 Simko-2020-205-139	139	ден	den	day	concepts concerning nature, tools and housing	1225	DAY (NOT NIGHT)
 Simko-2020-205-140	140	дол	dol	valley	concepts concerning nature, tools and housing	921	VALLEY
@@ -143,9 +143,9 @@ Simko-2020-205-141	141	дом	dom	home	concepts concerning nature, tools and hou
 Simko-2020-205-142	142	дъжд	dăžd	rain	concepts concerning nature, tools and housing	658	RAIN (PRECIPITATION)
 Simko-2020-205-143	143	дим	dim	smoke	concepts concerning nature, tools and housing	778	SMOKE (EXHAUST)
 Simko-2020-205-144	144	двери	dveri	door	concepts concerning nature, tools and housing	1567	DOOR
-Simko-2020-205-145	145	двор	dvor	court, yard	concepts concerning nature, tools and housing	1068	COURT
+Simko-2020-205-145	145	двор	dvor	court, yard	concepts concerning nature, tools and housing	736	YARD
 Simko-2020-205-146	146	езеро	ezero	lake	concepts concerning nature, tools and housing	624	LAKE
-Simko-2020-205-147	147	гора	gora	forest, mountain	concepts concerning nature, tools and housing	420	FOREST
+Simko-2020-205-147	147	гора	gora	forest, mountain	concepts concerning nature, tools and housing		
 Simko-2020-205-148	148	звезда	zvezda	star	concepts concerning nature, tools and housing	1430	STAR
 Simko-2020-205-149	149	камен	kamen	stone	concepts concerning nature, tools and housing	857	STONE
 Simko-2020-205-150	150	лято	ljato	summer	concepts concerning nature, tools and housing	1342	SUMMER
@@ -172,10 +172,10 @@ Simko-2020-205-170	170	лой	loj	tallow	concepts concerning nourishment
 Simko-2020-205-171	171	масло	maslo	fat, grease	concepts concerning nourishment	323	FAT (ORGANIC SUBSTANCE)
 Simko-2020-205-172	172	мед	med	honey	concepts concerning nourishment	942	HONEY
 Simko-2020-205-173	173	мляко	mljako	milk	concepts concerning nourishment	635	MILK
-Simko-2020-205-174	174	месо	meso	meat	concepts concerning nourishment	2615	FLESH OR MEAT
+Simko-2020-205-174	174	месо	meso	meat	concepts concerning nourishment	634	MEAT
 Simko-2020-205-175	175	пия	pija	drink	concepts concerning nourishment	731	BEVERAGE
 Simko-2020-205-176	176	пиво	pivo	beer	concepts concerning nourishment	1639	BEER
-Simko-2020-205-177	177	сало	salo	fat	concepts concerning nourishment	323	FAT (ORGANIC SUBSTANCE)
+Simko-2020-205-177	177	сало	salo	fat	concepts concerning nourishment	1282	FAT (FROM ANIMALS)
 Simko-2020-205-178	178	сирене	sirene	(white) cheese	concepts concerning nourishment	1569	CHEESE
 Simko-2020-205-179	179	сит	sit	fed	concepts concerning nourishment		
 Simko-2020-205-180	180	тесто	testo	dough	concepts concerning nourishment	273	DOUGH
@@ -188,7 +188,7 @@ Simko-2020-205-186	186	длан	dlan	palm	body parts	1183	PALM OF HAND
 Simko-2020-205-187	187	глава	glava	head	body parts	1256	HEAD
 Simko-2020-205-188	188	език	ezik	tongue	body parts	1205	TONGUE
 Simko-2020-205-189	189	кост	kost	bone	body parts	1394	BONE
-Simko-2020-205-190	190	кожа	koža	skin	body parts	2613	SKIN (HUMAN)
+Simko-2020-205-190	190	кожа	koža	skin	body parts	763	SKIN
 Simko-2020-205-191	191	кръв	krăv	blood	body parts	946	BLOOD
 Simko-2020-205-192	192	нога	noga	leg	body parts	1297	LEG
 Simko-2020-205-193	193	нокът	nokăt	nail	body parts	1896	FINGERNAIL OR TOENAIL
