@@ -76,6 +76,7 @@ Doug Cooper | DCSM | 1.1, 2.1
 Evgeniya Korovina | MDSCLPA | 1.1, 2.2, 3.0
 Fabio Fromme | CL | 2.5
 Fiona Grond | CL | 2.5
+Fiona M. Wilson | MD | 3.1
 Franz Manni | A | 2.5
 Frederic Blum | GR | 2.5, 3.0
 Frederike Urke | CLS | 1.0
@@ -105,6 +106,7 @@ Natalia Morozowa | DCPTL | 2.0, 2.1, 2.2
 Nathan Hill | MSDP | 1.1, 2.3
 Nathan Statezni | D | 2.4
 Nicholas Evans | A | 1.0
+Panayiotis Pappas | MD | 3.1
 Paul Heggarty | D | 1.0
 Quentin Atkinson | MD | 1.1
 Robert Blust | D | 1.0
