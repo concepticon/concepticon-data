@@ -1,4 +1,4 @@
-ID	NUMBER	GLOSS	ENGLISH	NOTE	CONCEPTICON_ID	CONCEPTICON_GLOSS	REFLEX_GLOSSES	PROTO_ID
+ID	NUMBER	CONCEPT	ENGLISH	NOTE	CONCEPTICON_ID	CONCEPTICON_GLOSS	REFLEX_GLOSSES	PROTO_ID
 Oliveira-2014-517-1	1	fazer, matar	to make, to kill				MAKE//KILL	§1
 Oliveira-2014-517-2	2	macaxeira, mandioca	manioc, cassava		925	CASSAVA	CASSAVA//MANIOC	§2
 Oliveira-2014-517-3	3	capivara	cabybara		314	CAPYBARA		§3
@@ -181,7 +181,7 @@ Oliveira-2014-517-179	179	costurar	to sew		1457	SEW		§176
 Oliveira-2014-517-180	180	vasilha, prato	bowl, plate					§177
 Oliveira-2014-517-181	181	duro, forte	hard, strong		1884	HARD		§178
 Oliveira-2014-517-182	182	pedaço, caco	piece, shard		594	PIECE		§179
-Oliveira-2014-517-183	183	grosso, espesso	think		1244	THICK		§180
+Oliveira-2014-517-183	183	grosso, espesso	thick		1244	THICK		§180
 Oliveira-2014-517-184	184	tipo de panela	type of pot					§181
 Oliveira-2014-517-185	185	terminar, acabar	to finish, to end		1766	FINISH		§182
 Oliveira-2014-517-186	186	sufixo locativo ablativo	locative ablative suffix					§183
@@ -230,7 +230,7 @@ Oliveira-2014-517-228	228	esp. de cabaça	species of gourd					§224
 Oliveira-2014-517-229	229	areia	sand		671	SAND		§225
 Oliveira-2014-517-230	230	pedra	stone		857	STONE		§226
 Oliveira-2014-517-231	231	urucum (a árvore e o seu fruto)	achiote		349	ACHIOTE		§227
-Oliveira-2014-517-232	232	encima, cume	atop		57	ATOP		§228
+Oliveira-2014-517-232	232	encima, cume	atop, peak				ATOP//PEAK	§228
 Oliveira-2014-517-233	233	cortar o cabelo	to cut hair		2155	CUT (WITH SCISSORS)		§229
 Oliveira-2014-517-234	234	chifre de animal	animal horn		1393	HORN (ANATOMY)		§230
 Oliveira-2014-517-235	235	golpear a cabeça	to hit oneself's head					§231
@@ -267,9 +267,9 @@ Oliveira-2014-517-265	265	dentro, no centro	inside, in the center		1606	INSIDE		
 Oliveira-2014-517-266	266	banhar-se, tomar banho	to bathe, to take a bath		138	BATHE		§262
 Oliveira-2014-517-267	267	largo	wide		1243	WIDE		§263
 Oliveira-2014-517-268	268	morder	to bite		1403	BITE		§264
-Oliveira-2014-517-269	269	estrangeiro	stranger		791	STRANGER		§265
+Oliveira-2014-517-269	269	estrangeiro	foreigner					§265
 Oliveira-2014-517-270	270	arco íris	rainbow		1733	RAINBOW		§266
-Oliveira-2014-517-271	271	capoeira, roça abandonada	abandoned rock					§267
+Oliveira-2014-517-271	271	capoeira, roça abandonada	abandoned field					§267
 Oliveira-2014-517-272	272	jacamim (esp. de pássaro)	jacamim (species of bord)					§268
 Oliveira-2014-517-273	273	unir, juntar	to join, to gather		7	GATHER		§269
 Oliveira-2014-517-274	274	amarrar	to tie		1917	TIE		§270
@@ -474,7 +474,7 @@ Oliveira-2014-517-472	472	esp. de peixe	species of fish					§469
 Oliveira-2014-517-473	473	pupunha	peach palm		3919	PEACH PALM		§470
 Oliveira-2014-517-474	474	esp. de abóbora	species of pumpkin					§471
 Oliveira-2014-517-475	475	esp. de macaco	species of monkey					§472
-Oliveira-2014-517-476	476	varrer, ciscar	to sweep		230	SWEEP		§473
+Oliveira-2014-517-476	476	varrer, ciscar	to sweep, to scrape				SWEEP//SCRAPE	§473
 Oliveira-2014-517-477	477	erva	grass		606	GRASS		§474
 Oliveira-2014-517-478	478	teia de aranha	spider web		1065	SPIDER WEB		§475
 Oliveira-2014-517-479	479	algodão	cotton		1850	COTTON		§476
@@ -482,12 +482,12 @@ Oliveira-2014-517-480	480	sufixo verbal imperativo	verbal imperative suffix					
 Oliveira-2014-517-481	481	igarapé (?)	igarapé					§478
 Oliveira-2014-517-482	482	outro	other		197	OTHER		§479
 Oliveira-2014-517-483	483	um (numeral)	one		1493	ONE		§480
-Oliveira-2014-517-484	484	canela, parte inferior da perna	cinnamon, lower part of leg				LOWER LEG	§481
+Oliveira-2014-517-484	484	canela, parte inferior da perna	lower part of leg		447	LOWER LEG		§481
 Oliveira-2014-517-485	485	cheiro	smell		3704	ODOR (SMELL)		§482
 Oliveira-2014-517-486	486	remar	to row		1849	ROW		§483a
 Oliveira-2014-517-487	487	remo	oar		3137	OAR		§483b
 Oliveira-2014-517-488	488	remo	oar		3137	OAR		§484
-Oliveira-2014-517-489	489	borduna, bastão	stick		1295	STICK		§485
+Oliveira-2014-517-489	489	borduna, bastão	borduna, walking stick					§485
 Oliveira-2014-517-490	490	passar	to pass by		558	PASS BY		§486
 Oliveira-2014-517-491	491	pantorrilha	calf		1989	CALF		§487
 Oliveira-2014-517-492	492	negro	black		163	BLACK		§488
@@ -500,7 +500,7 @@ Oliveira-2014-517-498	498	escuro, noite	dark, night				DARK//NIGHT	§494
 Oliveira-2014-517-499	499	machado	axe		677	AXE		§495
 Oliveira-2014-517-500	500	peixe	fish		227	FISH		§496
 Oliveira-2014-517-501	501	tarde	afternoon		1807	AFTERNOON		§497
-Oliveira-2014-517-502	502	esp. de queixada (porco do mato)	species of pig					§498
+Oliveira-2014-517-502	502	esp. de queixada (porco do mato)	species of pig (wild pig)					§498
 Oliveira-2014-517-503	503	esp. de tatu	species of armadillo					§499
 Oliveira-2014-517-504	504	dizer, falar	to say, to speak		1458	SAY		§500
 Oliveira-2014-517-505	505	animal	animal		619	ANIMAL		§501
@@ -512,7 +512,7 @@ Oliveira-2014-517-510	510	perguntar	to ask		1309	ASK (INQUIRE)		§505
 Oliveira-2014-517-511	511	esp. de peixe	species of fish					§506
 Oliveira-2014-517-512	512	fio, linha, corda	thread, line, rope				THREAD//LINE//ROPE	§507
 Oliveira-2014-517-513	513	roubar	to steal		713	STEAL		§508
-Oliveira-2014-517-514	514	gente, corpo humano	person, human body		683	PERSON		§509
+Oliveira-2014-517-514	514	gente, corpo humano	people, human body					§509
 Oliveira-2014-517-515	515	crescer	to grow		479	GROW		§510
 Oliveira-2014-517-516	516	espírito	ghost		1175	GHOST		§511
 Oliveira-2014-517-517	517	mulher, velha	woman, old woman				WOMAN//OLD WOMAN	§512
