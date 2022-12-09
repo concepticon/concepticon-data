@@ -1,174 +1,174 @@
-ID	NUMBER	MEANING	LATIN	SPANISH	ENGLISH	SCORE	POS	NO_OF_STATES	MEAN_RATE	RATE_SD	MSP_FREQUENCY	CONCEPTICON_ID	CONCEPTICON_GLOSS
-Wilson-2015-173-1	1	ALL	totus	todo	all	0	Adj.	15	2,02	0,03	5477,21	98	ALL
-Wilson-2015-173-2	2	AND	et	y	and	2	Conj.	25	3,39	0,03	25203,09	1577	AND
-Wilson-2015-173-3	3	ANIMAL	animal	animal	animal	0	Noun	23	3,4	0,03	89,56	619	ANIMAL
-Wilson-2015-173-4	4	ASHES	cinis	ceniza	ashes	2	Noun	21	2,65	0,03	5,74	646	ASH
-Wilson-2015-173-5	5	BACK	dorsum	espalda	back	4	Noun	26	4,29	0,03	48,38	1291	BACK
-Wilson-2015-173-6	6	BAD	malus	malo	bad	0	Adj.	40	6,87	0,04	237,5	1292	BAD
-Wilson-2015-173-7	7	BARK (OF A TREE)	cortex	corteza	bark (of a tree)	1	Noun	27	3,79	0,03	3,82	1204	BARK
-Wilson-2015-173-8	8	BECAUSE	quia	porque	because	3	Conj.	39	7,11	0,04	3855,15	1157	BECAUSE
-Wilson-2015-173-9	9	BELLY	stomachus	estómago	belly	5	Noun	28	4,39	0,03	2,94	1251	BELLY
-Wilson-2015-173-10	10	BIG	grandis	grande	big	1	Adj.	24	4,31	0,04	478,09	1202	BIG
-Wilson-2015-173-11	11	BIRD	avis	ave	bird	1	Noun	15	2,15	0,03	28,53	937	BIRD
-Wilson-2015-173-12	12	BLACK	niger	negro	black	1	Adj.	15	1,91	0,03	145,15	163	BLACK
-Wilson-2015-173-13	13	BLOOD	sanguis	sangre	blood	2	Noun	15	2,19	0,04	95	946	BLOOD
-Wilson-2015-173-14	14	BONE	os	hueso	bone	1	Noun	13	1,34	0,03	26,32	1394	BONE
-Wilson-2015-173-15	15	CLOUD	nubes	nube	cloud	1	Noun	24	3,25	0,03	19,71	1489	CLOUD
-Wilson-2015-173-16	16	COLD	frigidus	frío	cold	1	Adj.	22	3,58	0,03	104,85	1287	COLD
-Wilson-2015-173-17	17	DAY (NOT NIGHT)	dies	día	day (not night)	1	Noun	10	1,04	0,03	1459,56	1225	DAY (NOT NIGHT)
-Wilson-2015-173-18	18	DIRTY	sordidus	sucio	dirty	4	Adj.	46	9,27	0,04	31,18	1230	DIRTY
-Wilson-2015-173-19	19	DOG	canis	perro	dog	4	Noun	15	1,79	0,03	128,82	2009	DOG
-Wilson-2015-173-20	20	DRY (SUBSTANCE)	siccus	seco	dry (substance)	0	Adj.	13	1,83	0,04	23,97	1398	DRY
-Wilson-2015-173-21	21	DUST	pulvis	polvo	dust	2	Noun	26	3,63	0,03	20,44	2	DUST
-Wilson-2015-173-22	22	EAR	auris	oreja	ear	4	Noun	6	0,88	0,05	101,91	1247	EAR
-Wilson-2015-173-23	23	EARTH (SOIL)	solum	suelo	earth (soil)	1	Noun	23	3,52	0,03	137,65	1228	EARTH (SOIL)
-Wilson-2015-173-24	24	EGG	ovum	huevo	egg	1	Noun	13	1,57	0,04	22,35	744	EGG
-Wilson-2015-173-25	25	EYE	oculus	ojo	eye	1	Noun	8	0,93	0,04	235,59	1248	EYE
-Wilson-2015-173-26	26	FAR	procul	lejos	far	4	Adj.	19	3,14	0,04	90,88	1406	FAR
-Wilson-2015-173-27	27	FAT	adeps	grasa	fat	4	Noun	31	4,89	0,03	14,71	323	FAT (ORGANIC SUBSTANCE)
-Wilson-2015-173-28	28	FATHER	pater	padre	father	1	Pronoun	9	2,3	0,06	499,12	1217	FATHER
-Wilson-2015-173-29	29	FEATHER	pluma	pluma	feather	1	Noun	15	2,35	0,04	18,68	1201	FEATHER
-Wilson-2015-173-30	30	FIRE	incendium	incendio	fire	1	Noun	15	1,75	0,03	50,59	221	FIRE
-Wilson-2015-173-31	31	FISH	piscis	pez	fish	1	Noun	11	1,45	0,04	18,97	227	FISH
-Wilson-2015-173-32	32	FIVE	quinque	cinco	five	2	Number	1	0,09	0,09	377,5	493	FIVE
-Wilson-2015-173-33	33	FLOWER	flos	flor	flower	1	Noun	18	2,29	0,03	109,56	239	FLOWER
-Wilson-2015-173-34	34	FOG	nebula	niebla	fog	1	Noun	32	4,97	0,04	5,15	249	FOG
-Wilson-2015-173-35	35	FOOT	pes	pie	foot	0	Noun	12	1,39	0,03	142,21	1301	FOOT
-Wilson-2015-173-36	36	FOUR	quattuor	cuatro	four	2	Number	2	0,38	0,13	406,32	1500	FOUR
-Wilson-2015-173-37	37	FRUIT	fructus	fruto	fruit	5	Noun	23	2,95	0,03	22,65	1507	FRUIT
-Wilson-2015-173-38	38	GOOD	bonus	buen	good	0	Adj.	25	3,04	0,03	2433,68	1035	GOOD
-Wilson-2015-173-39	39	GRASS	herba	hierba	grass	1	Noun	22	2,73	0,03	7,94	606	GRASS
-Wilson-2015-173-40	40	GREEN	viridis	verde	green	1	Adj.	19	2,46	0,03	58,82	1425	GREEN
-Wilson-2015-173-41	41	GUTS	intestinum	intestino	guts	1	Noun	35	6,89	0,04	5,44	1334	GUTS
-Wilson-2015-173-42	42	HAIR	pilus	pelo	hair	1	Noun	24	3,61	0,03	69,26	1040	HAIR
-Wilson-2015-173-43	43	HAND	manus	mano	hand	1	Noun	8	0,82	0,04	446,18	1277	HAND
-Wilson-2015-173-44	44	HE (THEY)	is	él	he (they)	4	Pronoun	11	2,45	0,05	1201,62		
-Wilson-2015-173-45	45	HEAD	caput	cabeza	head	1	Noun	17	2,32	0,03	195,29	1256	HEAD
-Wilson-2015-173-46	46	HEART	cor	corazón	heart	4	Noun	13	1,69	0,03	106,47	1223	HEART
-Wilson-2015-173-47	47	HEAVY	gravis	pesado	heavy	4	Adj.	20	2,89	0,03	32,65	1210	HEAVY
-Wilson-2015-173-48	48	HOLD (IN HAND)	teneo	sostener	hold (in hand)	4	Verb	29	4,48	0,03	71,47	1448	HOLD
-Wilson-2015-173-49	49	HOW	quo	como	how	1	Adv.	3	0,41	0,08	1206,47	1239	HOW
-Wilson-2015-173-50	50	HUSBAND	maritus	marido	husband	1	Noun	28	4,74	0,03	126,18	1200	HUSBAND
-Wilson-2015-173-51	51	I	ego	yo	i	1	Pronoun	1	0,09	0,09	5990,29	1209	I
-Wilson-2015-173-52	52	ICE	glacies	hielo	ice	4	Noun	20	2,58	0,03	16,32	617	ICE
-Wilson-2015-173-53	53	IF	si	si	if	0	Conj.	27	4,32	0,03	3533,97	1459	IF
-Wilson-2015-173-54	54	KNOW	scio	saber	know	4	Verb	13	2,11	0,04	2906,47	3626	KNOW
-Wilson-2015-173-55	55	LAKE	lacus	lago	lake	1	Noun	25	3,5	0,03	19,71	624	LAKE
-Wilson-2015-173-56	56	LEAF	folium	hoja	leaf	1	Noun	19	2,43	0,03	40,15	2250	LEAF (LEAFLIKE OBJECT)
-Wilson-2015-173-57	57	LEFT (HAND)	sinister	izquierda	left (hand)	5	Adj.	30	4,41	0,03	191,62		
-Wilson-2015-173-58	58	LEG	crus	pierna	leg	4	Noun	25	3,73	0,03	70,88	1297	LEG
-Wilson-2015-173-59	59	LIVER	iecur	hígado	liver	4	Noun	17	2,66	0,04	6,03	1224	LIVER
-Wilson-2015-173-60	60	LONG	longus	largo	long	4	Adj.	12	1,22	0,03	237,94	1203	LONG
-Wilson-2015-173-61	61	LOUSE	pediculus	piojo	louse	1	Noun	12	1,74	0,04	3,53	1392	LOUSE
-Wilson-2015-173-62	62	MAN	vir	hombre	man	4	Noun	18	3,38	0,04	964,12	1554	MAN
-Wilson-2015-173-63	63	MANY	multus	mucho	many	2	Adj.	32	5,6	0,04	2866,32	1198	MANY
-Wilson-2015-173-64	64	MEAT (FLESH)	caro	carne	meat (flesh)	1	Noun	15	1,62	0,03	78,53	2615	FLESH OR MEAT
-Wilson-2015-173-65	65	MOTHER	mater	madre	mother	1	Pronoun	10	2,36	0,07	447,94	1216	MOTHER
-Wilson-2015-173-66	66	MOUNTAIN	mons	montaña	mountain	4	Noun	20	2,75	0,03	34,56	639	MOUNTAIN
-Wilson-2015-173-67	67	MOUTH	oris	boca	mouth	4	Noun	19	2,78	0,03	102,21	674	MOUTH
-Wilson-2015-173-68	68	NAME	nomen	nombre	name	1	Noun	4	0,47	0,06	280,74	1405	NAME
-Wilson-2015-173-69	69	NARROW	angustus	estrecho	narrow	4	Adj.	19	2,89	0,04	20,59	1267	NARROW
-Wilson-2015-173-70	70	NEAR	circa	cerca	near	2	Adj.	35	4,86	0,03	138,24	1942	NEAR
-Wilson-2015-173-71	71	NECK	collum	cuello	neck	1	Noun	21	3,57	0,04	32,5	1333	NECK
-Wilson-2015-173-72	72	NEW	novus	nuevo	new	0	Adj.	5	0,6	0,05	589,85	1231	NEW
-Wilson-2015-173-73	73	NIGHT	nox	noche	night	1	Noun	6	0,76	0,05	391,32	1233	NIGHT
-Wilson-2015-173-74	74	NOSE	nasus	nariz	nose	4	Noun	14	1,49	0,03	23,97	1221	NOSE
-Wilson-2015-173-75	75	OLD	vetus	viejo	old	4	Adj.	18	2,53	0,03	215,59	1229	OLD
-Wilson-2015-173-76	76	ONE	unus	uno	one	1	Number	2	0,43	0,14	22858,68	1493	ONE
-Wilson-2015-173-77	77	PERSON	homo	persona	person	4	Noun	28	4,81	0,04	829,26	683	PERSON
-Wilson-2015-173-78	78	RED	russus	rojo	red	2	Adj.	14	2,26	0,04	96,03	156	RED
-Wilson-2015-173-79	79	RIGHT (CORRECT)	rectus	correcto	right (correct)	4	Adj.	25	3,91	0,03	62,65	1725	CORRECT (RIGHT)
-Wilson-2015-173-80	80	RIGHT (HAND)	dexter	derecha	right (hand)	4	Adj.	18	2,61	0,03	456,03		
-Wilson-2015-173-81	81	RIVER	rivus	río	river	2	Noun	23	3,69	0,03	109,71	666	RIVER
-Wilson-2015-173-82	82	ROAD	via	carretera	road	4	Noun	31	4,86	0,03	172,5	667	ROAD
-Wilson-2015-173-83	83	ROOT	radix	raíz	root	1	Noun	13	1,75	0,04	41,91	670	ROOT
-Wilson-2015-173-84	84	ROPE	funis	cuerda	rope	4	Noun	35	6,09	0,03	27,35	1218	ROPE
-Wilson-2015-173-85	85	ROTTEN (LOG)	puter	podrido	rotten (log)	2	Adj.	32	4,76	0,03	6,76	1728	ROTTEN
-Wilson-2015-173-86	86	RUB	frico	frotar	rub	5	Verb	27	3,57	0,03	8,38	1449	RUB
-Wilson-2015-173-87	87	SALT	sal	sal	salt	0	Noun	10	1,01	0,03	17,06	1274	SALT
-Wilson-2015-173-88	88	SAND	harena	arena	sand	1	Noun	27	4,26	0,03	38,38	671	SAND
-Wilson-2015-173-89	89	SEA (OCEAN)	mare	mar	sea (ocean)	0	Noun	15	2,53	0,04	98,82	1474	SEA
-Wilson-2015-173-90	90	SEED	semen	semilla	seed	4	Noun	14	2,56	0,04	11,76	714	SEED
-Wilson-2015-173-91	91	SHARP (KNIFE)	acutus	agudo	sharp (knife)	0	Adj.	24	3,76	0,03	14,12	1396	SHARP
-Wilson-2015-173-92	92	SHORT	brevis	corto	short	4	Adj.	24	3,39	0,03	105,44	1645	SHORT
-Wilson-2015-173-93	93	SKIN (OF PERSON)	cutis	piel	skin (of person)	4	Noun	17	2,73	0,04	51,47	2613	SKIN (HUMAN)
-Wilson-2015-173-94	94	SKY	caelum	cielo	sky	1	Noun	18	2,52	0,03	65,44	1732	SKY
-Wilson-2015-173-95	95	SMALL	paucus	poco	small	0	Adj.	26	3,7	0,03	318,68	1246	SMALL
-Wilson-2015-173-96	96	SMOKE	fumus	humo	smoke	1	Noun	11	1,7	0,04	15,88	778	SMOKE (EXHAUST)
-Wilson-2015-173-97	97	SNAKE	colubra	culebra	snake	2	Noun	20	3,11	0,04	7,21	730	SNAKE
-Wilson-2015-173-98	98	SNOW	nix	nieve	snow	2	Noun	11	1,62	0,04	21,91	784	SNOW
-Wilson-2015-173-99	99	SOME	paulum	alguno	some	4	Adj.	26	2,57	0,02	1543,82	1241	SOME
-Wilson-2015-173-100	100	STAR	stella	estrella	star	2	Noun	7	0,72	0,04	73,38	1430	STAR
-Wilson-2015-173-101	101	STONE	petra	piedra	stone	1	Noun	21	2,73	0,03	59,85	857	STONE
-Wilson-2015-173-102	102	SUN	sol	sol	sun	0	Noun	8	0,98	0,04	115,74	1343	SUN
-Wilson-2015-173-103	103	TAIL	cauda	cola	tail	2	Noun	28	4,16	0,03	36,18	1220	TAIL
-Wilson-2015-173-104	104	THICK	grossus	grueso	thick	0	Adj.	29	5,41	0,04	36,18	1244	THICK
-Wilson-2015-173-105	105	THIN	tenuis	delgado	thin	4	Adj.	25	2,99	0,03	12,06	2308	THIN
-Wilson-2015-173-106	106	THREE	tres	tres	three	0	Number	1	0,09	0,09	734,41	492	THREE
-Wilson-2015-173-107	107	TO BITE	mordeo	morder	to bite	0	Verb	26	4,67	0,04	17,35	1403	BITE
-Wilson-2015-173-108	108	TO BLOW	flo	soplar	to blow	4	Verb	24	4,31	0,04	8,82	176	BLOW (WITH MOUTH)
-Wilson-2015-173-109	109	TO BREATHE	spiro	respirar	to breathe	4	Verb	18	2,48	0,04	33,68	1407	BREATHE
-Wilson-2015-173-110	110	TO BURN (INTRANSITIVE)	ardeo	quemar	to burn (intransitive)	4	Verb	20	2,94	0,03	33,53	1428	BURNING
-Wilson-2015-173-111	111	TO COME	venio	venir	to come	0	Verb	14	1,9	0,04	1043,53	1446	COME
-Wilson-2015-173-112	112	TO COUNT	numero	contar	to count	4	Verb	27	4,07	0,03	853,97	1420	COUNT
-Wilson-2015-173-113	113	TO CUT	seco	cortar	to cut	4	Verb	23	3,36	0,03	70	1432	CUT
-Wilson-2015-173-114	114	TO DIE	morior	morir	to die	2	Verb	8	0,82	0,04	348,53	1494	DIE
-Wilson-2015-173-115	115	TO DIG	fodio	cavar	to dig	4	Verb	27	3,86	0,03	2,21	1418	DIG
-Wilson-2015-173-116	116	TO DRINK	bibo	beber	to drink	0	Verb	12	1,49	0,03	71,76	1401	DRINK
-Wilson-2015-173-117	117	TO EAT	edo	comer	to eat	4	Verb	15	1,77	0,03	270,29	1336	EAT
-Wilson-2015-173-118	118	TO FALL (DROP)	cado	caer	to fall (drop)	0	Verb	23	2,97	0,03	225,88	1280	FALL
-Wilson-2015-173-119	119	TO FIGHT	pugno	luchar	to fight	4	Verb	29	4,21	0,03	35,29	1423	FIGHT
-Wilson-2015-173-120	120	TO FLOAT	fluito	flotar	to float	5	Verb	27	4,04	0,03	7,06	1574	FLOAT
-Wilson-2015-173-121	121	TO FLOW	fluo	fluir	to flow	0	Verb	27	3,4	0,03	8,24	2003	FLOW
-Wilson-2015-173-122	122	TO FLY	volo	volar	to fly	0	Verb	21	2,83	0,03	53,38	1441	FLY (MOVE THROUGH AIR)
-Wilson-2015-173-123	123	TO GIVE	do	dar	to give	0	Verb	7	0,76	0,04	2657,21	1447	GIVE
-Wilson-2015-173-124	124	TO HEAR	audio	oír	to hear	1	Verb	15	2,35	0,04	471,32	1408	HEAR
-Wilson-2015-173-125	125	TO HIT	verbero	golpear	to hit	4	Verb	40	5,51	0,03	44,41	1433	HIT
-Wilson-2015-173-126	126	TO HUNT (GAME)	venor	cazar	to hunt (game)	4	Verb	23	3,33	0,03	16,03	1435	HUNT
-Wilson-2015-173-127	127	TO KILL	interficio	matar	to kill	4	Verb	28	3,5	0,03	163,97	1417	KILL
-Wilson-2015-173-128	128	TO LAUGH	rideo	reír	to laugh	1	Verb	13	1,61	0,03	106,76	1355	LAUGH
-Wilson-2015-173-129	129	TO LIVE	vivo	vivir	to live	0	Verb	10	1,1	0,04	668,24		
-Wilson-2015-173-130	130	TO PLAY	ludo	jugar	to play	4	Verb	24	3,18	0,03	197,5	1413	PLAY
-Wilson-2015-173-131	131	TO PULL	traho	tirar	to pull	5	Verb	28	4,53	0,03	88,38	1455	PULL
-Wilson-2015-173-132	132	TO PUSH	trudo	empujar	to push	4	Verb	40	8,06	0,04	28,53	1452	PUSH
-Wilson-2015-173-133	133	TO SAY	dico	decir	to say	2	Verb	26	3,64	0,03	6301,62	1458	SAY
-Wilson-2015-173-134	134	TO SEE	video	ver	to see	0	Verb	20	2,63	0,03	2841,76	1409	SEE
-Wilson-2015-173-135	135	TO SEW	suo	coser	to sew	4	Verb	13	1,71	0,04	17,79	1457	SEW
-Wilson-2015-173-136	136	TO SING	cano	cantar	to sing	4	Verb	20	2,54	0,03	147,94	1261	SING
-Wilson-2015-173-137	137	TO SIT	sedeo	sentar	to sit	1	Verb	11	1,25	0,03	117,21	1416	SIT
-Wilson-2015-173-138	138	TO SLEEP	dormio	dormir	to sleep	0	Verb	15	2,01	0,03	142,21	1585	SLEEP
-Wilson-2015-173-139	139	TO SMELL (PERCEIVE ODOR)	oleo	oler	to smell (perceive odor)	0	Verb	36	6,48	0,04	31,32	1586	SMELL (PERCEIVE)
-Wilson-2015-173-140	140	TO SPIT	spuo	escupir	to spit	4	Verb	17	2,04	0,03	9,85	1440	SPIT
-Wilson-2015-173-141	141	TO SPLIT	findo	hender	to split	1	Verb	31	5,58	0,04	140,59	1437	SPLIT
-Wilson-2015-173-142	142	TO SQUEEZE	exprimo	exprimir	to squeeze	0	Verb	42	7,83	0,04	25,29	1414	SQUEEZE
-Wilson-2015-173-143	143	TO SUCK	sugo	mamar	to suck	4	Verb	19	2,41	0,03	13,38	1421	SUCK
-Wilson-2015-173-144	144	TO SWIM	nato	nadar	to swim	0	Verb	22	2,73	0,03	13,97	1439	SWIM
-Wilson-2015-173-145	145	TO THINK	cogito	pensar	to think	4	Verb	36	5,34	0,03	710	2271	THINK
-Wilson-2015-173-146	146	TO THROW	iacio	lanzar	to throw	4	Verb	42	7,52	0,03	88,38	1456	THROW
-Wilson-2015-173-147	147	TO TIE	ligo	atar	to tie	4	Verb	21	2,68	0,03	22,06	1917	TIE
-Wilson-2015-173-148	148	TO TURN (VEER)	gyro	volver	to turn (veer)	4	Verb	34	8,18	0,05	8,82	1444	TURN AROUND
-Wilson-2015-173-149	149	TO VOMIT	vomo	vomitar	to vomit	1	Verb	32	5,02	0,03	9,56	1278	VOMIT
-Wilson-2015-173-150	150	TO WALK	ambulo	andar	to walk	4	Verb	36	5,14	0,03	232,65	1443	WALK
-Wilson-2015-173-151	151	TO WASH	lavo	lavar	to wash	0	Verb	24	3	0,03	38,24	1453	WASH
-Wilson-2015-173-152	152	TONGUE	lingua	lengua	tongue	1	Noun	4	0,49	0,06	116,47	1205	TONGUE
-Wilson-2015-173-153	153	TOOTH	dens	diente	tooth	1	Noun	7	1,18	0,05	26,03	1380	TOOTH
-Wilson-2015-173-154	154	TREE	arbor	árbol	tree	2	Noun	26	3,58	0,03	67,94	906	TREE
-Wilson-2015-173-155	155	TWO	duo	dos	two	2	Number	1	0,09	0,09	1412,94	1498	TWO
-Wilson-2015-173-156	156	WARM (WEATHER)	calidus	cálido	warm (weather)	1	Adj.	16	2,35	0,04	32,35	2110	WARM (OF WEATHER)
-Wilson-2015-173-157	157	WATER	aqua	agua	water	1	Adj.	8	0,86	0,04	241,62	948	WATER
-Wilson-2015-173-158	158	WE	nos	nosotros	we	3	Pronoun	2	0,37	0,12	1097,06	1212	WE
-Wilson-2015-173-159	159	WET	umidus	húmedo	wet	0	Adj.	28	4,45	0,03	10,29	1726	WET
-Wilson-2015-173-160	160	WHEN	quando	cuando	when	0	Adv.	10	1,08	0,03	1899,71	1238	WHEN
-Wilson-2015-173-161	161	WHERE	ubi	donde	where	3	Adv.	7	0,7	0,04	884,85	1237	WHERE
-Wilson-2015-173-162	162	WHITE	albus	blanco	white	5	Adj.	17	2,22	0,03	121,62	1335	WHITE
-Wilson-2015-173-163	163	WHO	qui	quién	who	1	Pronoun	1	0,09	0,09	452,35	1235	WHO
-Wilson-2015-173-164	164	WIDE	latus	ancho	wide	4	Adj.	20	2,89	0,03	18,97	1243	WIDE
-Wilson-2015-173-165	165	WIFE	uxor	esposa	wife	4	Noun	31	4,12	0,03	62,5	1199	WIFE
-Wilson-2015-173-166	166	WIND (BREEZE)	ventus	viento	wind (breeze)	1	Noun	16	1,78	0,03	47,79	960	WIND
-Wilson-2015-173-167	167	WING	ala	ala	wing	1	Noun	22	2,66	0,03	23,97	1257	WING
-Wilson-2015-173-168	168	WOMAN	mulier	mujer	woman	0	Noun	25	2,75	0,02	591,62	962	WOMAN
-Wilson-2015-173-169	169	WOODS	silva	selva	woods	1	Noun	27	4,15	0,03	43,53	420	FOREST
-Wilson-2015-173-170	170	WORM	lumbricus	lombriz	worm	1	Noun	19	2,16	0,03	5,88	1219	WORM
-Wilson-2015-173-171	171	YEAR	annus	año	year	1	Noun	21	2,78	0,03	1985,15	1226	YEAR
-Wilson-2015-173-172	172	YELLOW	flavus	amarillo	yellow	4	Adj.	18	2,12	0,03	40,29	1424	YELLOW
-Wilson-2015-173-173	173	YOU (THOU)	tu	tú	you (thou)	0	pronoun	13	1,32	0,03	1549,41	1215	THOU
+ID	NUMBER	MEANING	LATIN	SPANISH	ENGLISH	SCORE	POS	NO_OF_STATES	RATE_MEAN	RATE_SD	MSP_FREQUENCY	CONCEPTICON_ID	CONCEPTICON_GLOSS
+Wilson-2015-173-1	1	ALL	totus	todo	all	0	Adj.	15	02.02	0.03	5477,21	98	ALL
+Wilson-2015-173-2	2	AND	et	y	and	2	Conj.	25	3.39	0.03	25203,09	1577	AND
+Wilson-2015-173-3	3	ANIMAL	animal	animal	animal	0	Noun	23	3.4	0.03	89,56	619	ANIMAL
+Wilson-2015-173-4	4	ASHES	cinis	ceniza	ashes	2	Noun	21	2.65	0.03	5,74	646	ASH
+Wilson-2015-173-5	5	BACK	dorsum	espalda	back	4	Noun	26	4.29	0.03	48,38	1291	BACK
+Wilson-2015-173-6	6	BAD	malus	malo	bad	0	Adj.	40	6.87	0.04	237,5	1292	BAD
+Wilson-2015-173-7	7	BARK (OF A TREE)	cortex	corteza	bark (of a tree)	1	Noun	27	3.79	0.03	3,82	1204	BARK
+Wilson-2015-173-8	8	BECAUSE	quia	porque	because	3	Conj.	39	7.11	0.04	3855,15	1157	BECAUSE
+Wilson-2015-173-9	9	BELLY	stomachus	estómago	belly	5	Noun	28	4.39	0.03	2,94	1251	BELLY
+Wilson-2015-173-10	10	BIG	grandis	grande	big	1	Adj.	24	4.31	0.04	478,09	1202	BIG
+Wilson-2015-173-11	11	BIRD	avis	ave	bird	1	Noun	15	2.15	0.03	28,53	937	BIRD
+Wilson-2015-173-12	12	BLACK	niger	negro	black	1	Adj.	15	1.91	0.03	145,15	163	BLACK
+Wilson-2015-173-13	13	BLOOD	sanguis	sangre	blood	2	Noun	15	2.19	0.04	95	946	BLOOD
+Wilson-2015-173-14	14	BONE	os	hueso	bone	1	Noun	13	1.34	0.03	26,32	1394	BONE
+Wilson-2015-173-15	15	CLOUD	nubes	nube	cloud	1	Noun	24	3.25	0.03	19,71	1489	CLOUD
+Wilson-2015-173-16	16	COLD	frigidus	frío	cold	1	Adj.	22	3.58	0.03	104,85	1287	COLD
+Wilson-2015-173-17	17	DAY (NOT NIGHT)	dies	día	day (not night)	1	Noun	10	01.04	0.03	1459,56	1225	DAY (NOT NIGHT)
+Wilson-2015-173-18	18	DIRTY	sordidus	sucio	dirty	4	Adj.	46	9.27	0.04	31,18	1230	DIRTY
+Wilson-2015-173-19	19	DOG	canis	perro	dog	4	Noun	15	1.79	0.03	128,82	2009	DOG
+Wilson-2015-173-20	20	DRY (SUBSTANCE)	siccus	seco	dry (substance)	0	Adj.	13	1.83	0.04	23,97	1398	DRY
+Wilson-2015-173-21	21	DUST	pulvis	polvo	dust	2	Noun	26	3.63	0.03	20,44	2	DUST
+Wilson-2015-173-22	22	EAR	auris	oreja	ear	4	Noun	6	0.88	0.05	101,91	1247	EAR
+Wilson-2015-173-23	23	EARTH (SOIL)	solum	suelo	earth (soil)	1	Noun	23	3.52	0.03	137,65	1228	EARTH (SOIL)
+Wilson-2015-173-24	24	EGG	ovum	huevo	egg	1	Noun	13	1.57	0.04	22,35	744	EGG
+Wilson-2015-173-25	25	EYE	oculus	ojo	eye	1	Noun	8	0.93	0.04	235,59	1248	EYE
+Wilson-2015-173-26	26	FAR	procul	lejos	far	4	Adj.	19	3.14	0.04	90,88	1406	FAR
+Wilson-2015-173-27	27	FAT	adeps	grasa	fat	4	Noun	31	4.89	0.03	14,71	323	FAT (ORGANIC SUBSTANCE)
+Wilson-2015-173-28	28	FATHER	pater	padre	father	1	Pronoun	9	2.3	0.06	499,12	1217	FATHER
+Wilson-2015-173-29	29	FEATHER	pluma	pluma	feather	1	Noun	15	2.35	0.04	18,68	1201	FEATHER
+Wilson-2015-173-30	30	FIRE	incendium	incendio	fire	1	Noun	15	1.75	0.03	50,59	221	FIRE
+Wilson-2015-173-31	31	FISH	piscis	pez	fish	1	Noun	11	1.45	0.04	18,97	227	FISH
+Wilson-2015-173-32	32	FIVE	quinque	cinco	five	2	Number	1	0.09	0.09	377,5	493	FIVE
+Wilson-2015-173-33	33	FLOWER	flos	flor	flower	1	Noun	18	2.29	0.03	109,56	239	FLOWER
+Wilson-2015-173-34	34	FOG	nebula	niebla	fog	1	Noun	32	4.97	0.04	5,15	249	FOG
+Wilson-2015-173-35	35	FOOT	pes	pie	foot	0	Noun	12	1.39	0.03	142,21	1301	FOOT
+Wilson-2015-173-36	36	FOUR	quattuor	cuatro	four	2	Number	2	0.38	0.13	406,32	1500	FOUR
+Wilson-2015-173-37	37	FRUIT	fructus	fruto	fruit	5	Noun	23	2.95	0.03	22,65	1507	FRUIT
+Wilson-2015-173-38	38	GOOD	bonus	buen	good	0	Adj.	25	03.04	0.03	2433,68	1035	GOOD
+Wilson-2015-173-39	39	GRASS	herba	hierba	grass	1	Noun	22	2.73	0.03	7,94	606	GRASS
+Wilson-2015-173-40	40	GREEN	viridis	verde	green	1	Adj.	19	2.46	0.03	58,82	1425	GREEN
+Wilson-2015-173-41	41	GUTS	intestinum	intestino	guts	1	Noun	35	6.89	0.04	5,44	1334	GUTS
+Wilson-2015-173-42	42	HAIR	pilus	pelo	hair	1	Noun	24	3.61	0.03	69,26	1040	HAIR
+Wilson-2015-173-43	43	HAND	manus	mano	hand	1	Noun	8	0.82	0.04	446,18	1277	HAND
+Wilson-2015-173-44	44	HE (THEY)	is	él	he (they)	4	Pronoun	11	2.45	0.05	1201,62	1211	HE
+Wilson-2015-173-45	45	HEAD	caput	cabeza	head	1	Noun	17	2.32	0.03	195,29	1256	HEAD
+Wilson-2015-173-46	46	HEART	cor	corazón	heart	4	Noun	13	1.69	0.03	106,47	1223	HEART
+Wilson-2015-173-47	47	HEAVY	gravis	pesado	heavy	4	Adj.	20	2.89	0.03	32,65	1210	HEAVY
+Wilson-2015-173-48	48	HOLD (IN HAND)	teneo	sostener	hold (in hand)	4	Verb	29	4.48	0.03	71,47	1448	HOLD
+Wilson-2015-173-49	49	HOW	quo	como	how	1	Adv.	3	0.41	0.08	1206,47	1239	HOW
+Wilson-2015-173-50	50	HUSBAND	maritus	marido	husband	1	Noun	28	4.74	0.03	126,18	1200	HUSBAND
+Wilson-2015-173-51	51	I	ego	yo	i	1	Pronoun	1	0.09	0.09	5990,29	1209	I
+Wilson-2015-173-52	52	ICE	glacies	hielo	ice	4	Noun	20	2.58	0.03	16,32	617	ICE
+Wilson-2015-173-53	53	IF	si	si	if	0	Conj.	27	4.32	0.03	3533,97	1459	IF
+Wilson-2015-173-54	54	KNOW	scio	saber	know	4	Verb	13	2.11	0.04	2906,47	3626	KNOW
+Wilson-2015-173-55	55	LAKE	lacus	lago	lake	1	Noun	25	3.5	0.03	19,71	624	LAKE
+Wilson-2015-173-56	56	LEAF	folium	hoja	leaf	1	Noun	19	2.43	0.03	40,15	628	LEAF
+Wilson-2015-173-57	57	LEFT (HAND)	sinister	izquierda	left (hand)	5	Adj.	30	4.41	0.03	191,62	2182	LEFT HAND
+Wilson-2015-173-58	58	LEG	crus	pierna	leg	4	Noun	25	3.73	0.03	70,88	1297	LEG
+Wilson-2015-173-59	59	LIVER	iecur	hígado	liver	4	Noun	17	2.66	0.04	6,03	1224	LIVER
+Wilson-2015-173-60	60	LONG	longus	largo	long	4	Adj.	12	1.22	0.03	237,94	1203	LONG
+Wilson-2015-173-61	61	LOUSE	pediculus	piojo	louse	1	Noun	12	1.74	0.04	3,53	1392	LOUSE
+Wilson-2015-173-62	62	MAN	vir	hombre	man	4	Noun	18	3.38	0.04	964,12	1554	MAN
+Wilson-2015-173-63	63	MANY	multus	mucho	many	2	Adj.	32	5.6	0.04	2866,32	1198	MANY
+Wilson-2015-173-64	64	MEAT (FLESH)	caro	carne	meat (flesh)	1	Noun	15	1.62	0.03	78,53	2615	FLESH OR MEAT
+Wilson-2015-173-65	65	MOTHER	mater	madre	mother	1	Pronoun	10	2.36	0.07	447,94	1216	MOTHER
+Wilson-2015-173-66	66	MOUNTAIN	mons	montaña	mountain	4	Noun	20	2.75	0.03	34,56	639	MOUNTAIN
+Wilson-2015-173-67	67	MOUTH	oris	boca	mouth	4	Noun	19	2.78	0.03	102,21	674	MOUTH
+Wilson-2015-173-68	68	NAME	nomen	nombre	name	1	Noun	4	0.47	0.06	280,74	1405	NAME
+Wilson-2015-173-69	69	NARROW	angustus	estrecho	narrow	4	Adj.	19	2.89	0.04	20,59	1267	NARROW
+Wilson-2015-173-70	70	NEAR	circa	cerca	near	2	Adj.	35	4.86	0.03	138,24	1942	NEAR
+Wilson-2015-173-71	71	NECK	collum	cuello	neck	1	Noun	21	3.57	0.04	32,5	1333	NECK
+Wilson-2015-173-72	72	NEW	novus	nuevo	new	0	Adj.	5	0.6	0.05	589,85	1231	NEW
+Wilson-2015-173-73	73	NIGHT	nox	noche	night	1	Noun	6	0.76	0.05	391,32	1233	NIGHT
+Wilson-2015-173-74	74	NOSE	nasus	nariz	nose	4	Noun	14	1.49	0.03	23,97	1221	NOSE
+Wilson-2015-173-75	75	OLD	vetus	viejo	old	4	Adj.	18	2.53	0.03	215,59	1229	OLD
+Wilson-2015-173-76	76	ONE	unus	uno	one	1	Number	2	0.43	0.14	22858,68	1493	ONE
+Wilson-2015-173-77	77	PERSON	homo	persona	person	4	Noun	28	4.81	0.04	829,26	683	PERSON
+Wilson-2015-173-78	78	RED	russus	rojo	red	2	Adj.	14	2.26	0.04	96,03	156	RED
+Wilson-2015-173-79	79	RIGHT (CORRECT)	rectus	correcto	right (correct)	4	Adj.	25	3.91	0.03	62,65	1725	CORRECT (RIGHT)
+Wilson-2015-173-80	80	RIGHT (HAND)	dexter	derecha	right (hand)	4	Adj.	18	2.61	0.03	456,03	2183	RIGHT HAND
+Wilson-2015-173-81	81	RIVER	rivus	río	river	2	Noun	23	3.69	0.03	109,71	666	RIVER
+Wilson-2015-173-82	82	ROAD	via	carretera	road	4	Noun	31	4.86	0.03	172,5	667	ROAD
+Wilson-2015-173-83	83	ROOT	radix	raíz	root	1	Noun	13	1.75	0.04	41,91	670	ROOT
+Wilson-2015-173-84	84	ROPE	funis	cuerda	rope	4	Noun	35	06.09	0.03	27,35	1218	ROPE
+Wilson-2015-173-85	85	ROTTEN (LOG)	puter	podrido	rotten (log)	2	Adj.	32	4.76	0.03	6,76	1728	ROTTEN
+Wilson-2015-173-86	86	RUB	frico	frotar	rub	5	Verb	27	3.57	0.03	8,38	1449	RUB
+Wilson-2015-173-87	87	SALT	sal	sal	salt	0	Noun	10	01.01	0.03	17,06	1274	SALT
+Wilson-2015-173-88	88	SAND	harena	arena	sand	1	Noun	27	4.26	0.03	38,38	671	SAND
+Wilson-2015-173-89	89	SEA (OCEAN)	mare	mar	sea (ocean)	0	Noun	15	2.53	0.04	98,82	1474	SEA
+Wilson-2015-173-90	90	SEED	semen	semilla	seed	4	Noun	14	2.56	0.04	11,76	714	SEED
+Wilson-2015-173-91	91	SHARP (KNIFE)	acutus	agudo	sharp (knife)	0	Adj.	24	3.76	0.03	14,12	1396	SHARP
+Wilson-2015-173-92	92	SHORT	brevis	corto	short	4	Adj.	24	3.39	0.03	105,44	1645	SHORT
+Wilson-2015-173-93	93	SKIN (OF PERSON)	cutis	piel	skin (of person)	4	Noun	17	2.73	0.04	51,47	2613	SKIN (HUMAN)
+Wilson-2015-173-94	94	SKY	caelum	cielo	sky	1	Noun	18	2.52	0.03	65,44	1732	SKY
+Wilson-2015-173-95	95	SMALL	paucus	poco	small	0	Adj.	26	3.7	0.03	318,68	1246	SMALL
+Wilson-2015-173-96	96	SMOKE	fumus	humo	smoke	1	Noun	11	1.7	0.04	15,88	778	SMOKE (EXHAUST)
+Wilson-2015-173-97	97	SNAKE	colubra	culebra	snake	2	Noun	20	3.11	0.04	7,21	730	SNAKE
+Wilson-2015-173-98	98	SNOW	nix	nieve	snow	2	Noun	11	1.62	0.04	21,91	784	SNOW
+Wilson-2015-173-99	99	SOME	paulum	alguno	some	4	Adj.	26	2.57	0.02	1543,82	1241	SOME
+Wilson-2015-173-100	100	STAR	stella	estrella	star	2	Noun	7	0.72	0.04	73,38	1430	STAR
+Wilson-2015-173-101	101	STONE	petra	piedra	stone	1	Noun	21	2.73	0.03	59,85	857	STONE
+Wilson-2015-173-102	102	SUN	sol	sol	sun	0	Noun	8	0.98	0.04	115,74	1343	SUN
+Wilson-2015-173-103	103	TAIL	cauda	cola	tail	2	Noun	28	4.16	0.03	36,18	1220	TAIL
+Wilson-2015-173-104	104	THICK	grossus	grueso	thick	0	Adj.	29	5.41	0.04	36,18	1244	THICK
+Wilson-2015-173-105	105	THIN	tenuis	delgado	thin	4	Adj.	25	2.99	0.03	12,06	2308	THIN
+Wilson-2015-173-106	106	THREE	tres	tres	three	0	Number	1	0.09	0.09	734,41	492	THREE
+Wilson-2015-173-107	107	TO BITE	mordeo	morder	to bite	0	Verb	26	4.67	0.04	17,35	1403	BITE
+Wilson-2015-173-108	108	TO BLOW	flo	soplar	to blow	4	Verb	24	4.31	0.04	8,82	176	BLOW (WITH MOUTH)
+Wilson-2015-173-109	109	TO BREATHE	spiro	respirar	to breathe	4	Verb	18	2.48	0.04	33,68	1407	BREATHE
+Wilson-2015-173-110	110	TO BURN (INTRANSITIVE)	ardeo	quemar	to burn (intransitive)	4	Verb	20	2.94	0.03	33,53	1428	BURNING
+Wilson-2015-173-111	111	TO COME	venio	venir	to come	0	Verb	14	1.9	0.04	1043,53	1446	COME
+Wilson-2015-173-112	112	TO COUNT	numero	contar	to count	4	Verb	27	04.07	0.03	853,97	1420	COUNT
+Wilson-2015-173-113	113	TO CUT	seco	cortar	to cut	4	Verb	23	3.36	0.03	70	1432	CUT
+Wilson-2015-173-114	114	TO DIE	morior	morir	to die	2	Verb	8	0.82	0.04	348,53	1494	DIE
+Wilson-2015-173-115	115	TO DIG	fodio	cavar	to dig	4	Verb	27	3.86	0.03	2,21	1418	DIG
+Wilson-2015-173-116	116	TO DRINK	bibo	beber	to drink	0	Verb	12	1.49	0.03	71,76	1401	DRINK
+Wilson-2015-173-117	117	TO EAT	edo	comer	to eat	4	Verb	15	1.77	0.03	270,29	1336	EAT
+Wilson-2015-173-118	118	TO FALL (DROP)	cado	caer	to fall (drop)	0	Verb	23	2.97	0.03	225,88	1280	FALL
+Wilson-2015-173-119	119	TO FIGHT	pugno	luchar	to fight	4	Verb	29	4.21	0.03	35,29	1423	FIGHT
+Wilson-2015-173-120	120	TO FLOAT	fluito	flotar	to float	5	Verb	27	04.04	0.03	7,06	1574	FLOAT
+Wilson-2015-173-121	121	TO FLOW	fluo	fluir	to flow	0	Verb	27	3.4	0.03	8,24	2003	FLOW
+Wilson-2015-173-122	122	TO FLY	volo	volar	to fly	0	Verb	21	2.83	0.03	53,38	1441	FLY (MOVE THROUGH AIR)
+Wilson-2015-173-123	123	TO GIVE	do	dar	to give	0	Verb	7	0.76	0.04	2657,21	1447	GIVE
+Wilson-2015-173-124	124	TO HEAR	audio	oír	to hear	1	Verb	15	2.35	0.04	471,32	1408	HEAR
+Wilson-2015-173-125	125	TO HIT	verbero	golpear	to hit	4	Verb	40	5.51	0.03	44,41	1433	HIT
+Wilson-2015-173-126	126	TO HUNT (GAME)	venor	cazar	to hunt (game)	4	Verb	23	3.33	0.03	16,03	1435	HUNT
+Wilson-2015-173-127	127	TO KILL	interficio	matar	to kill	4	Verb	28	3.5	0.03	163,97	1417	KILL
+Wilson-2015-173-128	128	TO LAUGH	rideo	reír	to laugh	1	Verb	13	1.61	0.03	106,76	1355	LAUGH
+Wilson-2015-173-129	129	TO LIVE	vivo	vivir	to live	0	Verb	10	1.1	0.04	668,24	1422	BE ALIVE
+Wilson-2015-173-130	130	TO PLAY	ludo	jugar	to play	4	Verb	24	3.81	0.03	197,5	1413	PLAY
+Wilson-2015-173-131	131	TO PULL	traho	tirar	to pull	5	Verb	28	4.53	0.03	88,38	1455	PULL
+Wilson-2015-173-132	132	TO PUSH	trudo	empujar	to push	4	Verb	40	08.06	0.04	28,53	1452	PUSH
+Wilson-2015-173-133	133	TO SAY	dico	decir	to say	2	Verb	26	3.64	0.03	6301,62	1458	SAY
+Wilson-2015-173-134	134	TO SEE	video	ver	to see	0	Verb	20	2.63	0.03	2841,76	1409	SEE
+Wilson-2015-173-135	135	TO SEW	suo	coser	to sew	4	Verb	13	1.71	0.04	17,79	1457	SEW
+Wilson-2015-173-136	136	TO SING	cano	cantar	to sing	4	Verb	20	2.54	0.03	147,94	1261	SING
+Wilson-2015-173-137	137	TO SIT	sedeo	sentar	to sit	1	Verb	11	1.25	0.03	117,21	1416	SIT
+Wilson-2015-173-138	138	TO SLEEP	dormio	dormir	to sleep	0	Verb	15	02.01	0.03	142,21	1585	SLEEP
+Wilson-2015-173-139	139	TO SMELL (PERCEIVE ODOR)	oleo	oler	to smell (perceive odor)	0	Verb	36	6.48	0.04	31,32	1586	SMELL (PERCEIVE)
+Wilson-2015-173-140	140	TO SPIT	spuo	escupir	to spit	4	Verb	17	02.04	0.03	9,85	1440	SPIT
+Wilson-2015-173-141	141	TO SPLIT	findo	hender	to split	1	Verb	31	5.58	0.04	140,59	1437	SPLIT
+Wilson-2015-173-142	142	TO SQUEEZE	exprimo	exprimir	to squeeze	0	Verb	42	7.83	0.04	25,29	1414	SQUEEZE
+Wilson-2015-173-143	143	TO SUCK	sugo	mamar	to suck	4	Verb	19	2.41	0.03	13,38	1421	SUCK
+Wilson-2015-173-144	144	TO SWIM	nato	nadar	to swim	0	Verb	22	2.73	0.03	13,97	1439	SWIM
+Wilson-2015-173-145	145	TO THINK	cogito	pensar	to think	4	Verb	36	5.34	0.03	710	2271	THINK
+Wilson-2015-173-146	146	TO THROW	iacio	lanzar	to throw	4	Verb	42	7.52	0.03	88,38	1456	THROW
+Wilson-2015-173-147	147	TO TIE	ligo	atar	to tie	4	Verb	21	2.68	0.03	22,06	1917	TIE
+Wilson-2015-173-148	148	TO TURN (VEER)	gyro	volver	to turn (veer)	4	Verb	34	8.18	0.05	8,82	1444	TURN AROUND
+Wilson-2015-173-149	149	TO VOMIT	vomo	vomitar	to vomit	1	Verb	32	05.02	0.03	9,56	1278	VOMIT
+Wilson-2015-173-150	150	TO WALK	ambulo	andar	to walk	4	Verb	36	5.14	0.03	232,65	1443	WALK
+Wilson-2015-173-151	151	TO WASH	lavo	lavar	to wash	0	Verb	24	3	0.03	38,24	1453	WASH
+Wilson-2015-173-152	152	TONGUE	lingua	lengua	tongue	1	Noun	4	0.49	0.06	116,47	1205	TONGUE
+Wilson-2015-173-153	153	TOOTH	dens	diente	tooth	1	Noun	7	1.18	0.05	26,03	1380	TOOTH
+Wilson-2015-173-154	154	TREE	arbor	árbol	tree	2	Noun	26	3.58	0.03	67,94	906	TREE
+Wilson-2015-173-155	155	TWO	duo	dos	two	2	Number	1	0.09	0.09	1412,94	1498	TWO
+Wilson-2015-173-156	156	WARM (WEATHER)	calidus	cálido	warm (weather)	1	Adj.	16	2.35	0.04	32,35	2110	WARM (OF WEATHER)
+Wilson-2015-173-157	157	WATER	aqua	agua	water	1	Adj.	8	0.86	0.04	241,62	948	WATER
+Wilson-2015-173-158	158	WE	nos	nosotros	we	3	Pronoun	2	0.37	0.12	1097,06	1212	WE
+Wilson-2015-173-159	159	WET	umidus	húmedo	wet	0	Adj.	28	4.45	0.03	10,29	1726	WET
+Wilson-2015-173-160	160	WHEN	quando	cuando	when	0	Adv.	10	01.08	0.03	1899,71	1238	WHEN
+Wilson-2015-173-161	161	WHERE	ubi	donde	where	3	Adv.	7	0.7	0.04	884,85	1237	WHERE
+Wilson-2015-173-162	162	WHITE	albus	blanco	white	5	Adj.	17	2.22	0.03	121,62	1335	WHITE
+Wilson-2015-173-163	163	WHO	qui	quién	who	1	Pronoun	1	0.09	0.09	452,35	1235	WHO
+Wilson-2015-173-164	164	WIDE	latus	ancho	wide	4	Adj.	20	2.89	0.03	18,97	1243	WIDE
+Wilson-2015-173-165	165	WIFE	uxor	esposa	wife	4	Noun	31	4.12	0.03	62,5	1199	WIFE
+Wilson-2015-173-166	166	WIND (BREEZE)	ventus	viento	wind (breeze)	1	Noun	16	1.78	0.03	47,79	960	WIND
+Wilson-2015-173-167	167	WING	ala	ala	wing	1	Noun	22	2.66	0.03	23,97	1257	WING
+Wilson-2015-173-168	168	WOMAN	mulier	mujer	woman	0	Noun	25	2.75	0.02	591,62	962	WOMAN
+Wilson-2015-173-169	169	WOODS	silva	selva	woods	1	Noun	27	4.15	0.03	43,53	420	FOREST
+Wilson-2015-173-170	170	WORM	lumbricus	lombriz	worm	1	Noun	19	2.16	0.03	5,88	1219	WORM
+Wilson-2015-173-171	171	YEAR	annus	año	year	1	Noun	21	2.78	0.03	1985,15	1226	YEAR
+Wilson-2015-173-172	172	YELLOW	flavus	amarillo	yellow	4	Adj.	18	2.12	0.03	40,29	1424	YELLOW
+Wilson-2015-173-173	173	YOU (THOU)	tu	tú	you (thou)	0	pronoun	13	1.32	0.03	1549,41	1215	THOU

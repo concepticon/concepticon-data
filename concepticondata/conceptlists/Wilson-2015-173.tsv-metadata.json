@@ -56,7 +56,7 @@
                         "name": "SPANISH"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": "integer",
                         "name": "SCORE"
                     },
                     {
@@ -64,15 +64,15 @@
                         "name": "POS"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": "integer",
                         "name": "NO_OF_STATES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MEAN_RATE"
+                        "datatype": "float",
+                        "name": "RATE_MEAN"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": "float",
                         "name": "RATE_SD"
                     },
                     {
