@@ -23,14 +23,10 @@
                     },
                     {
                         "datatype": {
-                            "base": "integer",
+                            "base": "string",
                             "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
                         },
                         "name": "NUMBER"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "ENGLISH"
                     },
                     {
                         "datatype": {
@@ -44,35 +40,33 @@
                         "name": "CONCEPTICON_GLOSS"
                     },
                     {
-						"datatype": {
-                          "base": "string",
-                          "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
-                        },
-						"name": "SPANISH"
-					},
-					{
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SPANISH"
+                    },
+                    {
                         "datatype": "integer",
                         "name": "GBIF_ID"
                     },
-					{
-                        "datatype": {
-                            "base": "string",
-                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
-                        },
+                    {
+                        "datatype": "string",
                         "name": "GBIF_NAME"
                     },
-					{
-						"datatype": "string",
-						"name": "KINGDOM"
-					},
-					{
-						"datatype": "string",
-						"name": "CLASS"
-					},
-					{
-						"datatype": "string",
-						"name": "GENUS"
-					}
+                    {
+                        "datatype": "string",
+                        "name": "KINGDOM"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CLASS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "GENUS"
+                    }
                 ],
                 "primaryKey": [
                     "ID"
