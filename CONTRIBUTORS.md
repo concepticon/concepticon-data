@@ -27,7 +27,7 @@ which funding agency.
 
 Period    | Grant Name                                                     | Grant Type                                        | Funding Agency                                        | Grant Number | Beneficiaries
 ---       | ---                                                            | ---                                               | ---                                                   | --- | ---
-2022-2024 | [CALC³](https://digling.org/calc) | | Max Planck Society | JML 
+2022-2024 | [CALC³](https://digling.org/calc) | | Max Planck Society |  | JML 
 2012-2014 | *Quantitative modelling of historical-comparative linguistics* | ERC Starting Grant                                | European Research Council                             | 240816       | MC, JML
 2015-2016 | *Vertical and lateral aspects of Chinese dialect history*      | Research Fellowship                               | German Research Council                               | 261553824    | JML
 2017-2022 | [*Computer-Assisted Language Comparison*](http://calc.digling.org)      | ERC Starting Grant                              | European Research Council                               | [206320](https://cordis.europa.eu/project/rcn/206320/factsheet/en)    | JML
