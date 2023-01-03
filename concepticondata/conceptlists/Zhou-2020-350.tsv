@@ -27,17 +27,17 @@ Zhou-2020-350-25	25	buy	買	1869	BUY
 Zhou-2020-350-26	26	cat	貓	1208	CAT
 Zhou-2020-350-27	27	cave	洞	1155	CAVE
 Zhou-2020-350-28	28	cedar tree	杉樹		
-Zhou-2020-350-29	29	chilly	涼		
+Zhou-2020-350-29	29	chilly	涼	2483	COLD (OF WEATHER)
 Zhou-2020-350-30	30	Chinese	漢	3373	HAN CHINESE
 Zhou-2020-350-31	31	chopsticks	筷子	1987	CHOPSTICKS
-Zhou-2020-350-32	32	cl. for animals	（一）頭（牛）		
-Zhou-2020-350-33	33	clf. for clothes	件		
+Zhou-2020-350-32	32	cl. for animals	（一）頭（牛）	3056	ANIMAL (CLASSIFIER)
+Zhou-2020-350-33	33	clf. for clothes	件	2088	CLOTHING (CLASSIFIER)
 Zhou-2020-350-34	34	clf. for general objects	個		
 Zhou-2020-350-35	35	cloth	布	1616	CLOTH
 Zhou-2020-350-36	36	clothes	衣服	1895	CLOTHES
 Zhou-2020-350-37	37	cold	冷	1287	COLD
 Zhou-2020-350-38	38	comb	梳子	1475	COMB
-Zhou-2020-350-39	39	crow	烏鴉	2074	CROW (VERB)
+Zhou-2020-350-39	39	crow	烏鴉	913	CROW
 Zhou-2020-350-40	40	daughter-in-law	兒媳	1057	DAUGHTER-IN-LAW
 Zhou-2020-350-41	41	day	（一）天	1260	DAY (24 HOURS)
 Zhou-2020-350-42	42	deaf	聾	996	DEAF
@@ -56,7 +56,7 @@ Zhou-2020-350-54	54	eagle	老鷹	1905	EAGLE
 Zhou-2020-350-55	55	ear of grain	穗子	3244	EAR (OF GRAIN)
 Zhou-2020-350-56	56	earth	地	1228	EARTH (SOIL)
 Zhou-2020-350-57	57	egg	蛋	744	EGG
-Zhou-2020-350-58	58	eye, blind	眼睛、盲	1248	EYE
+Zhou-2020-350-58	58	eye, blind	眼睛、盲		
 Zhou-2020-350-59	59	face	臉	1560	FACE
 Zhou-2020-350-60	60	fan	扇子	1971	FAN (OBJECT)
 Zhou-2020-350-61	61	fat (adj.)	肥	1279	FAT (OBESE)
@@ -77,7 +77,7 @@ Zhou-2020-350-75	75	flower/blossom	花	239	FLOWER
 Zhou-2020-350-76	76	four	四	1500	FOUR
 Zhou-2020-350-77	77	front	前面	2194	FRONT (PART)
 Zhou-2020-350-78	78	fruit	果子	1507	FRUIT
-Zhou-2020-350-79	79	god, ghost	神、鬼	53	SPIRIT
+Zhou-2020-350-79	79	god, ghost	神、鬼		
 Zhou-2020-350-80	80	good	好	1035	GOOD
 Zhou-2020-350-81	81	gourd	葫蘆	411	GOURD
 Zhou-2020-350-82	82	granary	倉庫	3025	BARN OR SHED
@@ -136,7 +136,7 @@ Zhou-2020-350-134	134	paint	漆	647	PAINT (PIGMENTS)
 Zhou-2020-350-135	135	person	人	683	PERSON
 Zhou-2020-350-136	136	pheasant	野雞	3060	PHEASANT
 Zhou-2020-350-137	137	pig	豬	1337	PIG
-Zhou-2020-350-138	138	pro-3rd-sg	---	262	HE OR SHE OR IT
+Zhou-2020-350-138	138	pro-3rd-sg	他	262	HE OR SHE OR IT
 Zhou-2020-350-139	139	radish	蘿蔔	2365	RADISH
 Zhou-2020-350-140	140	rain	雨	658	RAIN (PRECIPITATION)
 Zhou-2020-350-141	141	raw	生	1959	RAW
@@ -184,15 +184,15 @@ Zhou-2020-350-182	182	sour	酸	1906	SOUR
 Zhou-2020-350-183	183	soy bean	豆	2027	SOYA
 Zhou-2020-350-184	184	sparrow	喜鵲	1854	SPARROW
 Zhou-2020-350-185	185	spider	蜘蛛	843	SPIDER
-Zhou-2020-350-186	186	stone, bone	石頭、骨頭	857	STONE
+Zhou-2020-350-186	186	stone, bone	石頭、骨頭		
 Zhou-2020-350-187	187	straight	直	1404	STRAIGHT
 Zhou-2020-350-188	188	sun	太陽	1343	SUN
 Zhou-2020-350-189	189	swollen	腫	1573	SWELL
 Zhou-2020-350-190	190	tael	兩		
 Zhou-2020-350-191	191	ten	十	1515	TEN
 Zhou-2020-350-192	192	thick	厚	1244	THICK
-Zhou-2020-350-193	193	thick (liquid)	濃	1244	THICK
-Zhou-2020-350-194	194	thin (<> thick)	薄		
+Zhou-2020-350-193	193	thick (liquid)	濃		
+Zhou-2020-350-194	194	thin (<> thick)	薄	2306	THIN (OF LEAF AND CLOTH)
 Zhou-2020-350-195	195	thorn	刺兒	124	THORN
 Zhou-2020-350-196	196	thread	綫	1161	THREAD
 Zhou-2020-350-197	197	three	三	492	THREE
@@ -200,7 +200,7 @@ Zhou-2020-350-198	198	thunder, to sound	雷、響
 Zhou-2020-350-199	199	tiger	老虎	846	TIGER
 Zhou-2020-350-200	200	to answer	答應	1275	ANSWER
 Zhou-2020-350-201	201	to arrive	到	1387	ARRIVE
-Zhou-2020-350-202	202	to ask, to tell	問、告訴	1309	ASK (INQUIRE)
+Zhou-2020-350-202	202	to ask, to tell	問、告訴		
 Zhou-2020-350-203	203	to be able to	會	972	BE ABLE
 Zhou-2020-350-204	204	to be willing to	肯		
 Zhou-2020-350-205	205	to become	變成	1990	BECOME
@@ -213,8 +213,8 @@ Zhou-2020-350-211	211	to blow	吹	175	BLOW (OF WIND)
 Zhou-2020-350-212	212	to boil	煮	2492	BOIL (SOMETHING)
 Zhou-2020-350-213	213	to break (from the middle)	斷	3020	BREAK (BREAKING)
 Zhou-2020-350-214	214	to broke in the middle	破、斷		
-Zhou-2020-350-215	215	to burn	燃燒	2102	BURN
-Zhou-2020-350-216	216	to burn	燒	2102	BURN
+Zhou-2020-350-215	215	to burn	燃燒		
+Zhou-2020-350-216	216	to burn	燒	141	BURN (SOMETHING)
 Zhou-2020-350-217	217	to carry	搬	700	CARRY
 Zhou-2020-350-218	218	to carry on the back	背 v.	465	CARRY ON BACK
 Zhou-2020-350-219	219	to chisel	鑿	1979	CHISEL
@@ -229,12 +229,12 @@ Zhou-2020-350-227	227	to crawl	爬、上	96	CRAWL
 Zhou-2020-350-228	228	to crow	啼	2074	CROW (VERB)
 Zhou-2020-350-229	229	to cry	哭	1839	CRY
 Zhou-2020-350-230	230	to cut with a saw	鋸		
-Zhou-2020-350-231	231	to cut with knife	割		
+Zhou-2020-350-231	231	to cut with knife	割	2156	CUT (WITH KNIFE)
 Zhou-2020-350-232	232	to die	死	1494	DIE
 Zhou-2020-350-233	233	to do	做	813	DO
 Zhou-2020-350-234	234	to dream	夢	1920	DREAM (SOMETHING)
 Zhou-2020-350-235	235	to drip	撒、滴	808	DRIP (FALL IN GLOBULES)
-Zhou-2020-350-236	236	to drive away	趕	30	DISPEL
+Zhou-2020-350-236	236	to drive away	趕		
 Zhou-2020-350-237	237	to eat	吃	1336	EAT
 Zhou-2020-350-238	238	to escape	逃	1615	ESCAPE
 Zhou-2020-350-239	239	to exchange	交換	2509	EXCHANGE
@@ -249,7 +249,7 @@ Zhou-2020-350-247	247	to fly	飛	1441	FLY (MOVE THROUGH AIR)
 Zhou-2020-350-248	248	to forget	忘記	1523	FORGET
 Zhou-2020-350-249	249	to fry	油炸	2162	STIR FRY
 Zhou-2020-350-250	250	to get	得到	694	GET
-Zhou-2020-350-251	251	to give, to feed	給、送、餵	1447	GIVE
+Zhou-2020-350-251	251	to give, to feed	給、送、餵		
 Zhou-2020-350-252	252	to go pass	過 v.		
 Zhou-2020-350-253	253	to grip	握	1448	HOLD
 Zhou-2020-350-254	254	to grow	生長	479	GROW
@@ -312,14 +312,14 @@ Zhou-2020-350-310	310	to sweep	掃	230	SWEEP
 Zhou-2020-350-311	311	to swing	甩	2871	SWING (MOVEMENT)
 Zhou-2020-350-312	312	to think	想	2271	THINK
 Zhou-2020-350-313	313	to throw	扔	1456	THROW
-Zhou-2020-350-314	314	to tie together	捆		
-Zhou-2020-350-315	315	to tie up	綁	1917	TIE
+Zhou-2020-350-314	314	to tie together	捆	1917	TIE
+Zhou-2020-350-315	315	to tie up	綁		
 Zhou-2020-350-316	316	to touch	摸	1892	TOUCH
-Zhou-2020-350-317	317	to understand, to know	知道	1536	UNDERSTAND
+Zhou-2020-350-317	317	to understand, to know	知道	1410	KNOW (SOMETHING)
 Zhou-2020-350-318	318	to wait	等待	1590	WAIT (FOR)
 Zhou-2020-350-319	319	to walk	走	1443	WALK
 Zhou-2020-350-320	320	to wash	洗	1453	WASH
-Zhou-2020-350-321	321	to wash	淘洗	1453	WASH
+Zhou-2020-350-321	321	to wash	淘洗		
 Zhou-2020-350-322	322	to water (a plant)	澆	1487	POUR
 Zhou-2020-350-323	323	to wear	穿	976	WEAR
 Zhou-2020-350-324	324	to weave	織	133	WEAVE
