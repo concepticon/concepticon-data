@@ -48,8 +48,8 @@
                         "name": "SPANISH"
                     },
                     {
-                        "datatype": "integer",
-                        "name": "GBIF_ID"
+                        "name": "GBIF_ID",
+                        "url": "http://cldf.clld.org/v1.0/terms.rdf#gbifReference"
                     },
                     {
                         "datatype": "string",
