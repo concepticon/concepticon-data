@@ -29,6 +29,10 @@
                         "name": "NUMBER"
                     },
                     {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
                         "datatype": {
                             "base": "integer",
                             "minimum": 1
@@ -41,20 +45,16 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "ENGLISH"
-                    },
-                    {
-                        "datatype": "string",
-				"separator": "//",
+						"separator": "//",
                         "name": "LEXIBANK_GLOSS_ENGLISH"
                     },
                     {
                         "datatype": "string",
-				"separator": "//",
+						"separator": "//",
                         "name": "LEXIBANK_GLOSS_FRENCH"
-                    },
+                    }
                 ],
-                "primaryKey": [
+                "primaryKey"    : [
                     "ID"
                 ]
             },
