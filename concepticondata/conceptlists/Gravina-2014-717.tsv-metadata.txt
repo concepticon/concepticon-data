@@ -43,20 +43,22 @@
                         "datatype": "string",
                         "name": "ENGLISH"
                     },
-					{
-						"datatype": "string",
-						"name": "ENGLISH_GLOSS"
-					},
-					{
-						"datatype": "string",
-						"name": "FRENCH_GLOSS"
-					}
+                    {
+                        "datatype": "string",
+				"separator": "//",
+                        "name": "LEXIBANK_GLOSS_ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+				"separator": "//",
+                        "name": "LEXIBANK_GLOSS_FRENCH"
+                    },
                 ],
                 "primaryKey": [
                     "ID"
                 ]
             },
-            "url": "Gravina-2014-1611.tsv"
+            "url": "Gravina-2014-717.tsv"
         }
     ]
 }
