@@ -7,6 +7,9 @@ Period | Name
 2013- | Johann Mattis List
 2020- | Annika Tjuka
 2013-2018 | Michael Cysouw
+2023- | Mathilda van Zantwijk
+2023- | Frederic Blum
+2023- | Carlos Barrientos Ugarte
 2019- | Christoph Rzymski
 2017- | Simon Greenhill
 2019-2022 | Nathanael Schweikhard
@@ -64,6 +67,7 @@ Anthony Grant | MS | 1.1
 Ayten Tüfekci | CL | 2.5
 Ben Yackley | P | 1.1
 Bryan Allen | C | 3.0
+Carlos Barrientos Ugarte | LGR | 3.0
 Carlotta Kintscher | C | 2.5
 Carolin Hundt | DCTLPG | 2.3, 2.4
 Christoph Rzymski | CLPG | 1.1
