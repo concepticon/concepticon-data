@@ -69,7 +69,7 @@ ID	GLOSS	PRIORITY
 2407	BIRTHDAY///compleanno	1
 1403	BITE///mordere	3
 887	BITTER///amaro	1
-163	BLACK///Bianco	1
+163	BLACK///Nero	1
 163	BLACK///nero	3
 3084	BLACKBOARD///lavagna	2
 391	BLESS///benedire	1
@@ -79,7 +79,7 @@ ID	GLOSS	PRIORITY
 946	BLOOD///sangue	1
 175	BLOW (OF WIND)///soffiare	1
 176	BLOW (WITH MOUTH)///soffiare	2
-837	BLUE///Nero	1
+837	BLUE///Blu	1
 837	BLUE///blu	2
 379	BLUNT///smussato	2
 1227	BOARD///bordo	1
@@ -100,6 +100,7 @@ ID	GLOSS	PRIORITY
 2902	BRAWL (FIGHT)///litigare	2
 1402	BREAST///seno	1
 1407	BREATHE///respirare	1
+3982	BREEZE///brezza	1
 1266	BRIDE///sposa	1
 679	BRIGHT///luminoso	2
 3709	BRILLIANT///brillante	1
@@ -107,7 +108,7 @@ ID	GLOSS	PRIORITY
 588	BROKEN///rotto	2
 245	BROOM///scopa	2
 1262	BROTHER///fratello	1
-2409	BROWN///Grigio	1
+2409	BROWN///Marrone	1
 2409	BROWN///marrone	1
 3109	BRUSH (TEETH)///lavare	2
 1821	BRUSH///spazzola	2
@@ -317,7 +318,6 @@ ID	GLOSS	PRIORITY
 249	FOG///nebbia	1
 3759	FOGGY///nebbioso	1
 256	FOOD///cibo	1
-256	FOOD///pizza	1
 1301	FOOT///piede	2
 420	FOREST///foresta	1
 1302	FORK///forchetta	3
@@ -358,10 +358,10 @@ ID	GLOSS	PRIORITY
 3114	GRATE (SOMETHING)///grattugiare	2
 1773	GRAVE///tomba	1
 2018	GREEDY///famelico	1
-1425	GREEN///Rosso	1
+1425	GREEN///Verde	1
 1425	GREEN///verde	3
 3552	GREET///salutare	1
-153	GREY///Arancione	1
+153	GREY///Grigio	1
 153	GREY///grigio	1
 1668	GRIEF///afflizione	1
 1940	GUARD///guardia	1
@@ -579,7 +579,7 @@ ID	GLOSS	PRIORITY
 1156	OPEN///aperto	1
 1156	OPEN///aprire	2
 3121	OPERATE (MEDICINE)///operare	2
-3328	ORANGE (COLOR)///Giallo	1
+3328	ORANGE (COLOR)///Arancione	1
 3328	ORANGE (COLOR)///arancione	1
 2627	ORANGE (FRUIT)///arancia	2
 197	OTHER///altro	1
@@ -617,7 +617,7 @@ ID	GLOSS	PRIORITY
 378	PINCH///pizzicotto	1
 1740	PINE///pino	1
 2440	PINEAPPLE///ananas	2
-3446	PINK///Verde	1
+3446	PINK///Rosa	1
 3446	PINK///rosa	2
 592	PISS///fare pipě	2
 3881	PISTOL///pistola	1
@@ -649,7 +649,7 @@ ID	GLOSS	PRIORITY
 390	PUNISHMENT///punizione	1
 74	PUPPY///cucciolo	1
 1147	PURE///puro	1
-2452	PURPLE///Turchese	1
+2452	PURPLE///Viola	1
 2452	PURPLE///purpureo	1
 1808	PUS///pus	1
 1452	PUSH///spingere	3
@@ -673,7 +673,7 @@ ID	GLOSS	PRIORITY
 151	RAZOR///rasoio	1
 724	READ///leggere	2
 2968	REASON///motivo	1
-156	RED///Blu	1
+156	RED///Rosso	1
 156	RED///rosso	3
 2008	RESCUE///salvataggio	1
 712	RICH///ricco	1
@@ -893,7 +893,7 @@ ID	GLOSS	PRIORITY
 1638	TRUTH///verità	1
 537	TURBID///torbido	1
 1588	TURN///girare	1
-3914	TURQUOISE///Viola	1
+3914	TURQUOISE///Turchese	1
 3914	TURQUOISE///turchese	1
 112	TURTLE///tartaruga	2
 1498	TWO///due	1
@@ -946,7 +946,7 @@ ID	GLOSS	PRIORITY
 3107	WHISTLE (INSTRUMENT)///fischietto	2
 1025	WHISTLE///fischiare	2
 1025	WHISTLE///fischio	1
-1335	WHITE///Marrone	1
+1335	WHITE///Bianco	1
 1335	WHITE///bianco	3
 1235	WHO///chi	1
 1243	WIDE///largo	2
@@ -969,7 +969,7 @@ ID	GLOSS	PRIORITY
 1672	WRITE///scrivere	2
 1390	WRONG///sbagliato	1
 1226	YEAR///anno	1
-1424	YELLOW///Rosa	1
+1424	YELLOW///Giallo	1
 1424	YELLOW///giallo	3
 1213	YOU///voi	1
 1207	YOUNG///giovane	1

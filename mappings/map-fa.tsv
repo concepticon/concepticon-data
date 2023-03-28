@@ -118,8 +118,7 @@ ID	GLOSS	PRIORITY
 1403	BITE///گاز زدن به...، گاز گرفتن	1
 1403	BITE///گاز گرفتن	1
 887	BITTER///تلخ	1
-163	BLACK///سفید	1
-163	BLACK///سیاه	1
+163	BLACK///سیاه	2
 3084	BLACKBOARD///تخته سیاه	1
 1001	BLACKSMITH///آهنگر	1
 1746	BLADDER///مثانه	1
@@ -129,8 +128,7 @@ ID	GLOSS	PRIORITY
 175	BLOW (OF WIND)///وزیدن	1
 176	BLOW (WITH MOUTH)///دمیدن	1
 176	BLOW (WITH MOUTH)///فوت کردن	1
-837	BLUE///آبی	1
-837	BLUE///سیاه	1
+837	BLUE///آبی	2
 379	BLUNT///کند، بی نوک	1
 1227	BOARD///الوار	1
 101	BOAST///لاف زدن، بلوف زدن	1
@@ -175,7 +173,7 @@ ID	GLOSS	PRIORITY
 245	BROOM///جارو	2
 2314	BROTHER-IN-LAW///برادرشوهر، برادرزن، شوهر خواهر، باجناق (شوهرِ خواهر زن)	1
 1262	BROTHER///برادر	1
-2409	BROWN///خاکستری	1
+2409	BROWN///قهوه ای	1
 2409	BROWN///قهوه‌ای	1
 3109	BRUSH (TEETH)///مسواک زدن	1
 1821	BRUSH///بُرُس	1
@@ -508,7 +506,6 @@ ID	GLOSS	PRIORITY
 1470	FOLD///تا کردن	1
 1085	FOLLOW///پیروی کردن (از)	1
 256	FOOD///غذا، خوراک	1
-256	FOOD///پیتزا	1
 1301	FOOT///پا	1
 1301	FOOT///پا (از مچِ پا به پایین)	1
 318	FOOTPRINT///ردِ پا	1
@@ -575,10 +572,9 @@ ID	GLOSS	PRIORITY
 1773	GRAVE///قبر	1
 3028	GRAVEL///شن	1
 3284	GRAVEYARD///قبرستان	1
-1425	GREEN///سبز	1
-1425	GREEN///قرمز	1
+1425	GREEN///سبز	2
 3552	GREET///سلام کردن، سلام علیک کردن	1
-153	GREY///نارنجی	1
+153	GREY///خاکستری	1
 1668	GRIEF///غم، اندوه، غصه	1
 1033	GRIND///آسیاب کردن	1
 2459	GRINDSTONE///سنگِ آسیاب	1
@@ -887,7 +883,7 @@ ID	GLOSS	PRIORITY
 3235	OPEN (STATE)///باز	1
 1156	OPEN///باز کردن	2
 3121	OPERATE (MEDICINE)///جراحی کردن	1
-3328	ORANGE (COLOR)///زرد	1
+3328	ORANGE (COLOR)///نارنجی	1
 2627	ORANGE (FRUIT)///پرتقال	2
 1128	ORDER///دستور دادن، فرمان دادن، امر کردن	1
 1149	ORPHAN///یتیم	1
@@ -934,7 +930,7 @@ ID	GLOSS	PRIORITY
 378	PINCH///نیشگون گرفتن	1
 1740	PINE///کاج	1
 2440	PINEAPPLE///آناناس	1
-3446	PINK///سبز	1
+3446	PINK///صورتی	1
 1124	PIPE///چپقِ تنباکو، پیپ	1
 592	PISS///جیش کردن	1
 2539	PIT (POTHOLE)///گودال	1
@@ -951,7 +947,6 @@ ID	GLOSS	PRIORITY
 1921	PLOUGH///شخم زدن	1
 3670	PLUNDER///غارت کردن	1
 1851	POCKET///جیب	1
-3255	POINT (POINTED END)///نوکِ تیر	1
 2669	POINT (WITH FINGER)///نشان دادن، اشاره کردن	1
 655	POISON///زهر، سم	1
 3659	POLISH (SOMETHING)///براق کردن	1
@@ -986,7 +981,7 @@ ID	GLOSS	PRIORITY
 390	PUNISHMENT///جریمه، تنبیه	1
 1658	PUPIL///مردمک	1
 74	PUPPY///توله سگ‌	1
-2452	PURPLE///فیروزه ای	1
+2452	PURPLE///بنفش	1
 1047	PURSUE///دنبال کردن	1
 1452	PUSH///هل دادن	1
 1452	PUSH///هل دادن فشار دادن	1
@@ -1008,7 +1003,7 @@ ID	GLOSS	PRIORITY
 151	RAZOR///تیغِ صورت تراشی	1
 724	READ///خواندن	1
 1978	RECOVER///خوب شدن، بهبود یافتن	1
-156	RED///آبی	1
+156	RED///قرمز	1
 156	RED///قرمز، سرخ	1
 659	REED///نی	1
 49	REFUSE///نپذیرفتن، رد کردن	1
@@ -1328,6 +1323,7 @@ ID	GLOSS	PRIORITY
 846	TIGER///ببر	2
 3053	TIGHT///محکم	1
 892	TIME///وقت، زمان	1
+2992	TIP (OF OBJECT)///نوکِ تیر	1
 1757	TIRED///خسته	1
 974	TOBACCO///تنباکو	1
 1283	TODAY///امروز	1
@@ -1362,7 +1358,7 @@ ID	GLOSS	PRIORITY
 2386	TURKEY///بوقلمون	1
 1445	TURN (SOMETHING)///برگشتن	1
 1444	TURN AROUND///چرخیدن	1
-3914	TURQUOISE///بنفش	1
+3914	TURQUOISE///فیروزه ای	1
 112	TURTLE///لاک پشت	1
 112	TURTLE///لاک پشتِ آبی	1
 1707	TWELVE///دوازده	1
@@ -1434,8 +1430,7 @@ ID	GLOSS	PRIORITY
 55	WHISPER///پچ پچ کردن	1
 3107	WHISTLE (INSTRUMENT)///سوت	1
 1025	WHISTLE///سوت زدن	2
-1335	WHITE///سفید	1
-1335	WHITE///قهوه ای	1
+1335	WHITE///سفید	2
 1235	WHO///چه کسی؟ کی؟	1
 2277	WHOLE///تمام	1
 1270	WHY///چرا؟ 	1
@@ -1468,8 +1463,7 @@ ID	GLOSS	PRIORITY
 1390	WRONG///غلط، نادرست، اشتباه	1
 1028	YAWN///خمیازه کشیدن	1
 1226	YEAR///سال	1
-1424	YELLOW///زرد	1
-1424	YELLOW///صورتی	1
+1424	YELLOW///زرد	2
 1268	YES///بله، آره، ها	1
 1174	YESTERDAY///دیروز	1
 1556	YOLK///زرده‌ی تخم	1
