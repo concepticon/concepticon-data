@@ -22,6 +22,7 @@ ID	GLOSS	PRIORITY
 1597	AIRPLANE///aeroplanum	1
 404	ALCOHOL (FERMENTED DRINK)///alcohol	1
 98	ALL///omnis	1
+98	ALL///totus	1
 98	ALL///tōttī	1
 1964	ALONE///solus/modo	1
 1964	ALONE///solĭttu	1
@@ -31,9 +32,10 @@ ID	GLOSS	PRIORITY
 1676	ALWAYS///ad id ĭpsu	1
 1676	ALWAYS///semper	1
 2987	AMOUNT///numerus	1
+1577	AND///et	1
 1577	AND///et/-que	1
 1826	ANGRY///iratus	1
-619	ANIMAL///animal	1
+619	ANIMAL///animal	2
 1275	ANSWER///respondeo	1
 587	ANT///Formica	1
 587	ANT///formīcu, -a	1
@@ -50,6 +52,7 @@ ID	GLOSS	PRIORITY
 1568	ARRANGE///ordino	1
 1387	ARRIVE///advenio	1
 977	ARROW///sagitta	2
+646	ASH///cinis	1
 1309	ASK (INQUIRE)///quaero	1
 1828	ASK (REQUEST)///rogo	1
 1461	AT///apud	2
@@ -61,20 +64,20 @@ ID	GLOSS	PRIORITY
 677	AXE///securis	1
 1289	BABY///pupus	1
 1291	BACK///Dorßum	1
-1291	BACK///dorsum	1
+1291	BACK///dorsum	2
 1291	BACK///tergum	1
 2911	BACKWARD///retro	1
 1292	BAD///Male	1
 1292	BAD///male	1
 1292	BAD///male, dementer	1
-1292	BAD///malus	1
+1292	BAD///malus	2
 2468	BAG///saccus	1
 1845	BALL///Globus	1
 1845	BALL///globus	1
 1845	BALL///pila	1
 1284	BANK///argentaria	1
 1204	BARK///Cortex	1
-1204	BARK///cortex	1
+1204	BARK///cortex	2
 932	BARLEY///Hordeum	1
 2548	BARREL///Cadus	1
 2548	BARREL///cūpa	1
@@ -82,7 +85,7 @@ ID	GLOSS	PRIORITY
 138	BATHE///balneum	1
 972	BE ABLE///potest	2
 1422	BE ALIVE///Vivere	1
-1422	BE ALIVE///vivo	1
+1422	BE ALIVE///vivo	2
 1422	BE ALIVE///vivum	1
 425	BE LATE///tardus	1
 48	BE SILENT///qu(i)etiare	1
@@ -107,6 +110,7 @@ ID	GLOSS	PRIORITY
 1665	BEAT///tundo	1
 1427	BEAUTIFUL///Pulcher	1
 1427	BEAUTIFUL///pulchre, lepide	1
+1157	BECAUSE///quia	1
 1157	BECAUSE///quod	1
 1990	BECOME///fio	1
 1663	BED///lectus	1
@@ -125,6 +129,7 @@ ID	GLOSS	PRIORITY
 1686	BEHIND///post	1
 1890	BELIEVE///credo	1
 1251	BELLY///Venter	2
+1251	BELLY///stomachus	1
 1251	BELLY///venter	2
 1485	BELOW OR UNDER///Sub	1
 1485	BELOW OR UNDER///infra	1
@@ -141,25 +146,26 @@ ID	GLOSS	PRIORITY
 731	BEVERAGE///potus	1
 747	BICYCLE///birota	1
 1202	BIG///Magnus	1
-1202	BIG///grandis	1
+1202	BIG///grandis	2
 1202	BIG///magnum	1
 1202	BIG///magnus	1
 937	BIRD///Avis	2
 937	BIRD///aucĕllu	1
-937	BIRD///avis	3
-1403	BITE///mordeo	1
+937	BIRD///avis	4
+1403	BITE///mordeo	2
 887	BITTER///amarus	1
 163	BLACK///Niger	2
-163	BLACK///niger	1
+163	BLACK///niger	2
 163	BLACK///nigrum	1
 869	BLADE///lamina	1
 2716	BLAME (SOMEBODY)///incuso	1
 2529	BLESSED///NAN	1
 2529	BLESSED///benignus, beatus	1
 946	BLOOD///Sanguis	1
-946	BLOOD///sanguis	3
+946	BLOOD///sanguis	4
 175	BLOW (OF WIND)///Ventilare	1
 175	BLOW (OF WIND)///flo	1
+176	BLOW (WITH MOUTH)///flo	1
 837	BLUE///Coerulus	1
 1348	BOAR (MALE PIG)///pŏrcu	1
 1227	BOARD///axis	1
@@ -169,7 +175,7 @@ ID	GLOSS	PRIORITY
 1480	BODY///corpus	2
 2493	BOIL///fervo	1
 1394	BONE///Os	2
-1394	BONE///os	2
+1394	BONE///os	3
 1394	BONE///ossa	1
 1394	BONE///ŏssu	1
 963	BOOK///liber	1
@@ -195,7 +201,7 @@ ID	GLOSS	PRIORITY
 2536	BREADTH///Latitudo	1
 2536	BREADTH///latitudo	1
 680	BREAK (DESTROY OR GET DESTROYED)///frango	1
-1407	BREATHE///spiro	1
+1407	BREATHE///spiro	2
 1011	BRIDGE///pons	1
 1011	BRIDGE///pŏnte	1
 679	BRIGHT///clarus	1
@@ -212,6 +218,7 @@ ID	GLOSS	PRIORITY
 1008	BULL///bos	1
 1008	BULL///bŏve	1
 2102	BURN///ardeo	1
+1428	BURNING///ardeo	1
 1719	BURY///infodio	1
 1070	BUS///autocarrus	1
 2931	BUSINESS///negotium	1
@@ -282,21 +289,21 @@ ID	GLOSS	PRIORITY
 1895	CLOTHES///vestis	2
 1489	CLOUD///Nimbus	1
 1489	CLOUD///Nubes	1
-1489	CLOUD///nubes	2
+1489	CLOUD///nubes	3
 1763	CLUB///clava	1
 2658	COAL///carbo	1
 603	COAT///tunica manicata	1
 1867	COIN///nummus	1
 2483	COLD (OF WEATHER)///frigidus	1
 1287	COLD///Frigus	1
-1287	COLD///frigidus	1
+1287	COLD///frigidus	2
 1287	COLD///frigus	1
 1287	COLD///frĭgidu	1
 1613	COLOR///colour	1
 2070	COMB (VERB)///favus	1
 1475	COMB///pecten	1
 581	COME BACK///revertor	1
-1446	COME///venio	1
+1446	COME///venio	2
 1446	COME///venīre	1
 3086	COMPUTER///ordinatrum	1
 2862	CONNECT///coniungo	1
@@ -308,8 +315,9 @@ ID	GLOSS	PRIORITY
 3068	COOL DOWN///frigesco	1
 1825	COPPER///Cuprum	1
 1825	COPPER///cyprium	1
-1725	CORRECT (RIGHT)///rectus	1
+1725	CORRECT (RIGHT)///rectus	2
 1850	COTTON///Goßßypium	1
+1420	COUNT///numero	1
 1300	COUNTRY///terra	1
 3049	COURAGE///animus	1
 1068	COURT///curia	1
@@ -329,7 +337,7 @@ ID	GLOSS	PRIORITY
 499	CURE///warīre	1
 1432	CUT///Secare	1
 1432	CUT///secare	1
-1432	CUT///seco	1
+1432	CUT///seco	2
 2947	DAMAGE (INJURY)///vulnus	1
 1116	DAMAGE///damnum	1
 3472	DANCE (MOVEMENT)///saltatio	1
@@ -342,7 +350,7 @@ ID	GLOSS	PRIORITY
 1357	DAUGHTER///filia	2
 1357	DAUGHTER///fīlia	1
 1225	DAY (NOT NIGHT)///Dies	1
-1225	DAY (NOT NIGHT)///dies	2
+1225	DAY (NOT NIGHT)///dies	3
 1225	DAY (NOT NIGHT)///diŭrnu	1
 1625	DEAD///mortuus	1
 996	DEAF///sŭrdu, -da	1
@@ -359,21 +367,22 @@ ID	GLOSS	PRIORITY
 1977	DEW///Ros	1
 1977	DEW///rosata	1
 1494	DIE///Mori	1
-1494	DIE///morior	1
+1494	DIE///morior	2
 2504	DIFFERENT///diversus	1
 584	DIFFICULT///difficilis	1
-1418	DIG///fodio	1
+1418	DIG///fodio	2
 3427	DIRECTION///regio	1
 25	DIRT///Coenum	1
 25	DIRT///lutum	1
 25	DIRT///sordes	1
+1230	DIRTY///sordidus	1
 481	DISH///lanx	1
 2978	DISTANCE///distantia	1
 1119	DIVIDE///divido	1
 813	DO///facio	1
 2009	DOG///Canis	2
 2009	DOG///cane	1
-2009	DOG///canis	3
+2009	DOG///canis	4
 1862	DONKEY///Aßinus	1
 1567	DOOR///Porta	1
 1567	DOOR///foris	1
@@ -387,7 +396,7 @@ ID	GLOSS	PRIORITY
 474	DRESS///vestis	1
 1401	DRINK///Bibere	2
 1401	DRINK///bibere	2
-1401	DRINK///bibo	1
+1401	DRINK///bibo	2
 1401	DRINK///bĭbere	1
 741	DRIVE///Vehi	1
 741	DRIVE///Veture	1
@@ -395,20 +404,20 @@ ID	GLOSS	PRIORITY
 741	DRIVE///vehere	1
 2087	DROP (CLASSIFIER)///gŭtta	1
 750	DROP///demitto	1
-1398	DRY///siccus	1
+1398	DRY///siccus	2
 1398	DRY///sĭccu	1
 1360	DUCK///Anas	1
 1360	DUCK///anas	1
 2	DUST///Pulvis	1
-2	DUST///pulvis	1
+2	DUST///pulvis	2
 1905	EAGLE///Aquila	1
 1905	EAGLE///aquila	1
 1247	EAR///Auris	2
-1247	EAR///auris	2
+1247	EAR///auris	3
 1247	EAR///aurĭcla, -ŭcla	1
 733	EARN///mereo	1
 1228	EARTH (SOIL)///Terra	1
-1228	EARTH (SOIL)///solum	1
+1228	EARTH (SOIL)///solum	2
 1228	EARTH (SOIL)///terra	2
 1228	EARTH (SOIL)///tĕrra	1
 1877	EAST///Oriens	1
@@ -418,11 +427,11 @@ ID	GLOSS	PRIORITY
 1336	EAT///Edit	1
 1336	EAT///Edo	1
 1336	EAT///edere	2
-1336	EAT///edo	1
+1336	EAT///edo	2
 863	EDGE///acies	1
 3968	EFFECT///effectus	1
 744	EGG///Ovum	2
-744	EGG///ovum	2
+744	EGG///ovum	3
 744	EGG///ŏvu	1
 1705	EIGHT///8	1
 1705	EIGHT///Octo	1
@@ -460,7 +469,7 @@ ID	GLOSS	PRIORITY
 1626	EXPLAIN///interpreto	1
 3976	EXPLODE///displodor	1
 1248	EYE///Oculus	2
-1248	EYE///oculus	3
+1248	EYE///oculus	4
 1173	EYEBROW///Supercilia	1
 1173	EYEBROW///supercilia	1
 1540	EYELASH///Cilia	1
@@ -468,10 +477,11 @@ ID	GLOSS	PRIORITY
 1560	FACE///Facies	1
 1560	FACE///facies	1
 1560	FACE///vultus	1
-1280	FALL///cado	1
+1280	FALL///cado	2
 194	FAMILY///Genus	1
 194	FAMILY///familia	1
 1406	FAR///Longinque	1
+1406	FAR///procul	1
 201	FARM///ager	1
 1631	FAST///Celer	1
 1631	FAST///celer	2
@@ -481,15 +491,16 @@ ID	GLOSS	PRIORITY
 1279	FAT (OBESE)///pinguis	1
 2449	FAT (OF MEAT AND FOOD)///Craßßus	1
 2449	FAT (OF MEAT AND FOOD)///crassus	1
-323	FAT (ORGANIC SUBSTANCE)///adeps	1
+323	FAT (ORGANIC SUBSTANCE)///adeps	2
 1055	FATHER-IN-LAW///socer	1
 1217	FATHER///Pater	1
-1217	FATHER///pater	2
+1217	FATHER///pater	3
 134	FAULT///delictum	1
 781	FEAR (FRIGHT)///pavōre	1
 1201	FEATHER///Penna	1
 1201	FEATHER///Penna, Pluma	1
 1201	FEATHER///penna	1
+1201	FEATHER///pluma	1
 2037	FEBRUARY///mensis Februarius	1
 739	FEED///Nutrire	1
 1079	FEEL///sentio	1
@@ -507,6 +518,7 @@ ID	GLOSS	PRIORITY
 212	FIELD///campus	1
 1717	FIFTY///50	1
 3880	FIGHT (COMBAT)///pugna	1
+1423	FIGHT///pugno	1
 2006	FILL///compleo	1
 719	FIND///invenio	1
 2157	FINE OR THIN///elegans	1
@@ -519,38 +531,41 @@ ID	GLOSS	PRIORITY
 1258	FINGERNAIL///ŭngla	1
 221	FIRE///Ignis	2
 221	FIRE///ignis	3
+221	FIRE///incendium	1
 728	FIRST///primus	1
 227	FISH///Piscis	1
 227	FISH///Pißcis	1
-227	FISH///piscis	3
+227	FISH///piscis	4
 493	FIVE///5	1
 493	FIVE///Quinque	1
 493	FIVE///cīnque	1
-493	FIVE///quinque	1
+493	FIVE///quinque	2
 3057	FLAIL///flagĕllu	1
 889	FLAME///flamma	1
 1633	FLAT///planus	2
 3462	FLAX OR LINEN///Linum	1
 232	FLEA///pūlice	1
-2615	FLESH OR MEAT///caro	1
+2615	FLESH OR MEAT///caro	2
 2259	FLESH///caro	1
+1574	FLOAT///fluito	1
 1632	FLOOR///coaxatio	1
 1594	FLOUR///farina	1
-2003	FLOW///fluo	1
+2003	FLOW///fluo	2
 239	FLOWER///Flos	1
-239	FLOWER///flos	1
+239	FLOWER///flos	2
 1504	FLY (INSECT)///Mußca	1
 1504	FLY (INSECT)///musca	1
 1504	FLY (INSECT)///mŭsca	1
 1441	FLY (MOVE THROUGH AIR)///Natare	1
-1441	FLY (MOVE THROUGH AIR)///volo	1
+1441	FLY (MOVE THROUGH AIR)///volo	2
 249	FOG///Nebula	1
+249	FOG///nebula	1
 1470	FOLD///complico	1
 1085	FOLLOW///sequor	1
 1085	FOLLOW///sĕquere	1
 256	FOOD///cibus	2
 1301	FOOT///Pes	2
-1301	FOOT///pes	3
+1301	FOOT///pes	4
 318	FOOTPRINT///sequor	1
 123	FOREHEAD///Frons	1
 123	FOREHEAD///frons	2
@@ -561,6 +576,7 @@ ID	GLOSS	PRIORITY
 1500	FOUR///4	1
 1500	FOUR///Quatuor	1
 1500	FOUR///quatt(u)or	1
+1500	FOUR///quattuor	1
 1500	FOUR///quatuor	1
 1312	FOX///Vulpes	1
 1312	FOX///vulpes	1
@@ -578,7 +594,7 @@ ID	GLOSS	PRIORITY
 2034	FROST///gelata	1
 2034	FROST///gelu	1
 1507	FRUIT///Fructus	1
-1507	FRUIT///fructus	2
+1507	FRUIT///fructus	3
 1429	FULL///plenus	1
 1429	FULL///plēnu	1
 3336	FUNERAL///funus	1
@@ -598,7 +614,7 @@ ID	GLOSS	PRIORITY
 1447	GIVE///Da	1
 1447	GIVE///Dare	1
 1447	GIVE///da	1
-1447	GIVE///do	1
+1447	GIVE///do	2
 604	GLASS///vitrum	1
 604	GLASS///vĭtru	1
 2014	GO DOWN (DESCEND)///descĕndere	1
@@ -617,7 +633,7 @@ ID	GLOSS	PRIORITY
 2410	GOOD-LOOKING///suavis	1
 1035	GOOD///Bene, Bonus	1
 1035	GOOD///bene, pulchre	1
-1035	GOOD///bonus	1
+1035	GOOD///bonus	2
 1187	GOOSE///Anßer	1
 1187	GOOSE///anser	1
 815	GOVERNMENT///gubernium	1
@@ -628,13 +644,14 @@ ID	GLOSS	PRIORITY
 3769	GRAPEVINE///Vitis	1
 606	GRASS///Gramen	1
 606	GRASS///gramen	2
+606	GRASS///herba	1
 606	GRASS///hĕrba	1
 2819	GRASSLAND///Pratum	1
 2819	GRASSLAND///pratu	1
 2819	GRASSLAND///pratum	1
 1425	GREEN///Viridis	2
 1425	GREEN///viride	1
-1425	GREEN///viridis	1
+1425	GREEN///viridis	2
 1425	GREEN///vĭrida	1
 153	GREY///canus	1
 1668	GRIEF///Trißtitia	1
@@ -649,6 +666,7 @@ ID	GLOSS	PRIORITY
 1682	GUILTY///reus	1
 3090	GUITAR///cithara	1
 1566	GUN///sclopetum	1
+1334	GUTS///intestinum	1
 609	HAIL///Grando	1
 609	HAIL///grando	2
 2648	HAIR (HEAD)///Capillus	1
@@ -656,10 +674,11 @@ ID	GLOSS	PRIORITY
 1040	HAIR///capillus	1
 1040	HAIR///crines	1
 1040	HAIR///crinis	1
+1040	HAIR///pilus	1
 816	HALF///medietate	1
 2880	HALT (STOP)///consisto	1
 1277	HAND///manu	1
-1277	HAND///manus	3
+1277	HAND///manus	4
 1254	HANDLE///manicu	1
 1254	HANDLE///manubrium	1
 2884	HANG///pendeo	1
@@ -682,23 +701,24 @@ ID	GLOSS	PRIORITY
 342	HAY///fēnu	1
 1211	HE///Ille	1
 1211	HE///ille	1
+1211	HE///is	1
 1256	HEAD///Caput	1
-1256	HEAD///caput	3
+1256	HEAD///caput	4
 1256	HEAD///tĕsta	1
 1364	HEALTHY///Sanus	1
 1364	HEALTHY///sanus	2
 1408	HEAR///Audire	1
-1408	HEAR///audio	1
+1408	HEAR///audio	2
 2518	HEARING (AURAL SENSE)///Auditus	1
 2518	HEARING (AURAL SENSE)///auditus	1
 1223	HEART///Cor	1
-1223	HEART///cor	2
+1223	HEART///cor	3
 1223	HEART///cŏr	1
 612	HEAT///aestus	1
 612	HEAT///calor	2
 1565	HEAVEN///coelum	1
 1210	HEAVY///Gravis	1
-1210	HEAVY///gravis	1
+1210	HEAVY///gravis	2
 1680	HELMET///Galea	1
 1897	HELP///adiuvo	1
 2041	HEMP///cannapu	1
@@ -717,8 +737,9 @@ ID	GLOSS	PRIORITY
 614	HILL///collis	1
 2473	HIS (GENITIVE OF HE)///suus	1
 1433	HIT///pulso	1
+1433	HIT///verbero	1
 1448	HOLD///Tenere	1
-1448	HOLD///teneo	1
+1448	HOLD///teneo	2
 1667	HOLE///Foramen	1
 1667	HOLE///foramen	2
 3701	HOLLOW///cavus	1
@@ -742,6 +763,7 @@ ID	GLOSS	PRIORITY
 1252	HOUSE///domus	3
 531	HOW MUCH///waigaro	1
 1239	HOW///Quomodo	1
+1239	HOW///quo	1
 1239	HOW///quo modo	1
 1239	HOW///quomodo	1
 2523	HOWLING///Ululatus	1
@@ -752,20 +774,21 @@ ID	GLOSS	PRIORITY
 1634	HUNDRED///cĕntu	1
 1864	HUNGER///fame	1
 1435	HUNT///captiare	1
+1435	HUNT///venor	1
 1053	HUNTER///captiatōre	1
 2411	HURT (SOMEBODY)///laedo	1
 1200	HUSBAND///Maritus	1
-1200	HUSBAND///maritus	1
+1200	HUSBAND///maritus	2
 1200	HUSBAND///vir	1
 1678	HUT///Tugurium	1
 1209	I///Ego	1
-1209	I///ego	1
+1209	I///ego	2
 617	ICE///Glacies	1
 617	ICE///glacia	1
-617	ICE///glacies	2
+617	ICE///glacies	3
 617	ICE///glacïes	1
 1609	IDEA///opinio	1
-1459	IF///si	1
+1459	IF///si	2
 1285	IMPORTANT///gravis	1
 1883	IN FRONT OF///de + abante	1
 1460	IN///In	1
@@ -791,6 +814,7 @@ ID	GLOSS	PRIORITY
 1829	JUMP///concito	2
 1829	JUMP///saltare	1
 2849	JUNE///mensis Iunius	1
+3808	JUNGLE///silva	1
 84	JUST///modo	1
 84	JUST///solummodo	1
 1477	KEEP///teneo	2
@@ -799,7 +823,7 @@ ID	GLOSS	PRIORITY
 1472	KEY///clave	1
 1472	KEY///clavis	1
 1135	KICK///calcitro	1
-1417	KILL///interficio	1
+1417	KILL///interficio	2
 1417	KILL///occidere	1
 3299	KIND///benignus	1
 1508	KING///Rex	1
@@ -812,15 +836,16 @@ ID	GLOSS	PRIORITY
 760	KNOT///nōdos	1
 1410	KNOW (SOMETHING)///scire	1
 3626	KNOW///sapiam	1
-3626	KNOW///scio	1
+3626	KNOW///scio	2
 2525	LABOUR (EFFORT)///Labor	1
 1464	LADDER///scala	1
 1464	LADDER///scalae	1
 624	LAKE///Lacus	1
+624	LAKE///lacus	1
 626	LAND///ager	1
 1307	LANGUAGE///lingua	1
 1355	LAUGH///Ridere	1
-1355	LAUGH///rideo	1
+1355	LAUGH///rideo	2
 1062	LAW///Lex	1
 1062	LAW///ius	1
 1564	LAZY///Piger	1
@@ -829,14 +854,16 @@ ID	GLOSS	PRIORITY
 627	LEAD (CHEMICAL ELEMENT)///plumbum	1
 43	LEAD (GUIDE)///duco	1
 628	LEAF///Folium	2
-628	LEAF///folium	1
+628	LEAF///folium	2
 628	LEAF///fŏlia	1
 504	LEARN///disco	1
 629	LEATHER///cŏriu	1
 629	LEATHER///tergus	1
 1752	LEAVE///Abi	1
 1752	LEAVE///sino	1
+2182	LEFT HAND///sinister	1
 244	LEFT///laevus	1
+1297	LEG///crus	1
 1297	LEG///pes	1
 2537	LENGTH///Longitudo	1
 2537	LENGTH///longitudo	2
@@ -874,14 +901,16 @@ ID	GLOSS	PRIORITY
 478	LIP///Labra	1
 58	LIQUID///fluidus	1
 1608	LISTEN///ausculto	1
+1224	LIVER///iecur	1
 631	LIVESTOCK///bĕstias	1
-1203	LONG///longus	1
+1203	LONG///longus	2
 1468	LOOK FOR///circare	1
 1468	LOOK FOR///quaero	1
 1819	LOOK///Ecce	1
 1819	LOOK///ecce, vide	1
 1819	LOOK///specto	1
 377	LOUD///clarud	1
+1392	LOUSE///pediculus	1
 1392	LOUSE///pedŭclu	1
 923	LOVE///Amare	1
 923	LOVE///Amor	1
@@ -897,8 +926,8 @@ ID	GLOSS	PRIORITY
 506	MAIZE///zea	1
 734	MAKE///facio	1
 1553	MALE///mas	1
-1554	MAN///vir	2
-1198	MANY///multus	2
+1554	MAN///vir	3
+1198	MANY///multus	3
 2846	MARCH///mensis Martius	1
 2432	MARRIAGE///Matrimonium	1
 2432	MARRIAGE///matrimonium	1
@@ -945,12 +974,13 @@ ID	GLOSS	PRIORITY
 1339	MORNING///matutinata	1
 1509	MOSQUITO///Culex	1
 1216	MOTHER///Mater	1
-1216	MOTHER///mater	3
+1216	MOTHER///mater	4
 639	MOUNTAIN///Mons	2
-639	MOUNTAIN///mons	3
+639	MOUNTAIN///mons	4
 1491	MOUSE///Mus	1
 1491	MOUSE///mus	2
 674	MOUTH///Os	2
+674	MOUTH///oris	1
 674	MOUTH///os	3
 765	MOVE///moveor	1
 3695	MOVEMENT///motus	1
@@ -961,28 +991,29 @@ ID	GLOSS	PRIORITY
 502	NAIL (TOOL)///clavus	2
 590	NAKED///nūdu	1
 1405	NAME///Nomen	1
-1405	NAME///nomen	2
-1267	NARROW///angustus	1
+1405	NAME///nomen	3
+1267	NARROW///angustus	2
 1267	NARROW///strĭcta	1
 3735	NEAR (IN SPACE)///intimus	1
 1942	NEAR///Prope	1
+1942	NEAR///circa	1
 1942	NEAR///propinquus	1
 1030	NECESSARY///necessarius	1
 1333	NECK///Collum	2
 1333	NECK///cervices	1
 1333	NECK///collu	1
-1333	NECK///collum	1
+1333	NECK///collum	2
 2339	NEED (SOMETHING)///necessitas	1
 1382	NEEDLE (FOR SEWING)///acus	1
 1332	NEIGHBOUR///vicīnu	1
 3975	NERVOUS///nervosus	1
 3975	NERVOUS///trepidus	1
 539	NEST///Nidus	1
-1231	NEW///novus	1
+1231	NEW///novus	2
 1298	NEWSPAPER///diurna	1
 1354	NEXT///posterus	1
 1233	NIGHT///Nox	1
-1233	NIGHT///nox	2
+1233	NIGHT///nox	3
 1233	NIGHT///nŏcte	1
 1483	NINE///9	1
 1483	NINE///Novem	1
@@ -999,7 +1030,7 @@ ID	GLOSS	PRIORITY
 1221	NOSE///Nasus	1
 1221	NOSE///Naßus	1
 1221	NOSE///nasu	1
-1221	NOSE///nasus	3
+1221	NOSE///nasus	4
 1178	NOSTRIL///Nares	1
 1178	NOSTRIL///nares	1
 1240	NOT///non	1
@@ -1030,9 +1061,10 @@ ID	GLOSS	PRIORITY
 2112	OLD (AGED)///vetus	1
 2112	OLD (AGED)///vĕclu, -cla	1
 1229	OLD///senex	2
+1229	OLD///vetus	1
 1493	ONE///Unus	1
 1493	ONE///unum	1
-1493	ONE///unus	2
+1493	ONE///unus	3
 1493	ONE///ūnu, ūna	1
 2366	ONION///Bulbus	1
 1580	ONLY///solus/modo	1
@@ -1072,7 +1104,7 @@ ID	GLOSS	PRIORITY
 508	PERIOD///tempestas	1
 1003	PERMIT///sino	1
 683	PERSON///Homo	1
-683	PERSON///homo	3
+683	PERSON///homo	4
 683	PERSON///persona	1
 2344	PETROL///benzina	1
 650	PETROLEUM///benzinum	1
@@ -1097,7 +1129,7 @@ ID	GLOSS	PRIORITY
 653	PLANT (VEGETATION)///planta	2
 2628	PLANT STEM///stirps	1
 480	PLATE///catinus	1
-1413	PLAY///ludo	1
+1413	PLAY///ludo	2
 3916	PLEASURE///voluptas	1
 2154	PLOUGH (INSTRUMENT)///Aratrum	2
 2154	PLOUGH (INSTRUMENT)///aratrum	1
@@ -1133,10 +1165,12 @@ ID	GLOSS	PRIORITY
 2900	PROTECT///tueor	1
 174	PROUD///fĕru, -ra	1
 1455	PULL///Lacerare	1
+1455	PULL///traho	1
 1455	PULL///vello	1
 3649	PUNISH///castigo	1
 1658	PUPIL///pupilla	1
 1452	PUSH///promoveo	1
+1452	PUSH///trudo	1
 998	PUT///pono	1
 1848	QUARREL///Rixa	1
 1848	QUARREL///rixa	1
@@ -1165,6 +1199,7 @@ ID	GLOSS	PRIORITY
 156	RED///Ruber	2
 156	RED///ruber	1
 156	RED///rubrum	1
+156	RED///russus	1
 156	RED///rŭbea	1
 1875	REGRET///tristis	1
 661	RELIGION///religio	1
@@ -1178,6 +1213,7 @@ ID	GLOSS	PRIORITY
 712	RICH///rīccu	1
 367	RIDE///equito	1
 1748	RIDGE///fresta	1
+2183	RIGHT HAND///dexter	1
 1019	RIGHT///dextra	1
 2875	RING (MAKE SOUND)///tinnit	1
 1374	RING///anulus	1
@@ -1185,23 +1221,27 @@ ID	GLOSS	PRIORITY
 568	RISE (MOVE UPWARDS)///ascendo	1
 666	RIVER///Fluvius	1
 666	RIVER///fluvius	3
+666	RIVER///rivus	1
 666	RIVER///rīpa	1
 3463	RIVERBANK///ripa	2
-667	ROAD///via	1
+667	ROAD///via	2
 668	ROCK///rupes	1
 769	ROOF///tectum	1
 1450	ROOM///conclave	1
 1511	ROOSTER///Gallus	1
 1511	ROOSTER///gallus	1
 670	ROOT///Radix	1
-670	ROOT///radix	1
+670	ROOT///radix	2
 1218	ROPE///cŏrda	1
+1218	ROPE///funis	1
 1218	ROPE///restis	1
+1728	ROTTEN///puter	1
 1923	ROUGH///asper	1
 1395	ROUND///Rotundus	1
 1395	ROUND///rotundus	1
 1395	ROUND///rotŭndu	1
 1849	ROW///ordo	1
+1449	RUB///frico	1
 1449	RUB///tero	1
 1412	RUDE///asper	2
 1846	RULE///regno	1
@@ -1214,13 +1254,14 @@ ID	GLOSS	PRIORITY
 3762	SAFE///tutus	1
 786	SAILCLOTH///velum	1
 1274	SALT///Sal	1
-1274	SALT///sal	4
+1274	SALT///sal	5
 200	SAME///idem	2
 671	SAND///Arena (Sabulum)	1
 671	SAND///arena	3
+671	SAND///harena	1
 1700	SATURDAY///dies Saturni	1
 1458	SAY///Dicere	1
-1458	SAY///dico	1
+1458	SAY///dico	2
 2783	SCALES (MEASURE INSTRUMENT)///modulus	1
 673	SCHOOL///schola	1
 1767	SCRAPE///reaciariare	1
@@ -1228,17 +1269,17 @@ ID	GLOSS	PRIORITY
 2522	SCREAM (NOISE)///clamor	1
 20	SCYTHE///falce	1
 1474	SEA///Mare	1
-1474	SEA///mare	3
+1474	SEA///mare	4
 691	SEASON///satiōne	1
 691	SEASON///tempus	1
 691	SEASON///tempus anni	1
 1384	SECOND///alter	1
 1121	SECRET///arcanum	1
 1409	SEE///Videre	1
-1409	SEE///video	1
+1409	SEE///video	2
 1409	SEE///videre	1
 714	SEED///Semen	1
-714	SEED///semen	1
+714	SEED///semen	2
 2519	SEEING (VISUAL SENSE)///Vißus	1
 2519	SEEING (VISUAL SENSE)///visus	1
 1521	SEEM///pareo	1
@@ -1251,7 +1292,7 @@ ID	GLOSS	PRIORITY
 1704	SEVEN///Septem	1
 1704	SEVEN///septem	1
 1704	SEVEN///sĕpte	1
-1457	SEW///suo	1
+1457	SEW///suo	2
 2562	SEX (GENDER)///sexus	1
 1388	SHADE///Umbra	1
 3747	SHAPE///figura	1
@@ -1260,7 +1301,7 @@ ID	GLOSS	PRIORITY
 884	SHARE///portio	1
 1396	SHARP///Acutus	1
 1396	SHARP///acute	1
-1396	SHARP///acutus	1
+1396	SHARP///acutus	2
 1834	SHE///illa	1
 1532	SHEAR///tŏndere	1
 356	SHEARS///fŏrfices	1
@@ -1281,7 +1322,7 @@ ID	GLOSS	PRIORITY
 1172	SHOOT///emitto	1
 746	SHOP///taberna	1
 3465	SHORE OF SEA///Littus	1
-1645	SHORT///brevis	1
+1645	SHORT///brevis	2
 1482	SHOULDER///Axilla	1
 1482	SHOULDER///humerus	1
 1901	SHOVEL///pala	1
@@ -1299,13 +1340,13 @@ ID	GLOSS	PRIORITY
 1558	SIMILAR///sicut	1
 1261	SING///Cantare	2
 1261	SING///canere	1
-1261	SING///cano	1
+1261	SING///cano	2
 1261	SING///cantare	1
 915	SINK (BASIN)///depressio	1
 1263	SISTER///Soror	1
 1263	SISTER///soror	2
 1416	SIT///Sedee	1
-1416	SIT///sedeo	1
+1416	SIT///sedeo	2
 1703	SIX///6	1
 1703	SIX///Sex	1
 1703	SIX///sex	1
@@ -1313,36 +1354,40 @@ ID	GLOSS	PRIORITY
 2845	SIZE (OF OBJECT)///magnitudo	1
 2528	SIZE (OF PERSON)///Statura	1
 2528	SIZE (OF PERSON)///statura	1
+2613	SKIN (HUMAN)///cutis	1
 763	SKIN///Pellis	1
 763	SKIN///cutis	3
 763	SKIN///pĕlle	1
 1732	SKY///Coelum	1
-1732	SKY///caelum	1
+1732	SKY///caelum	2
 1732	SKY///coelum	1
 812	SLAVE///Servus	1
 2972	SLEEP (STATE)///Somnus	1
 2972	SLEEP (STATE)///somnus	1
 1585	SLEEP///Dormire	2
-1585	SLEEP///dormio	1
+1585	SLEEP///dormio	2
 1585	SLEEP///dormire	2
 3702	SLIPPERY///lubricus	1
 701	SLOW///tardus	1
 1246	SMALL///Parvus	1
 1246	SMALL///parvum	1
 1246	SMALL///parvus	1
+1246	SMALL///paucus	1
 2530	SMART///Sapiens	1
 1586	SMELL (PERCEIVE)///Olfacere	1
+1586	SMELL (PERCEIVE)///oleo	1
 2520	SMELLING (OLFACTORY SENSE)///Olfactus	1
 2520	SMELLING (OLFACTORY SENSE)///odoratus	1
 1451	SMILE///ridere	1
-778	SMOKE (EXHAUST)///fumus	2
+778	SMOKE (EXHAUST)///fumus	3
 1234	SMOOTH///levis	1
 730	SNAKE///Serpens	2
+730	SNAKE///colubra	1
 730	SNAKE///serpens	1
 3320	SNARE (TRAP)///laqueus	1
 1621	SNEEZE///Sternutare	1
 784	SNOW///Nix	1
-784	SNOW///nix	3
+784	SNOW///nix	4
 784	SNOW///nĭve	1
 3958	SOCIETY///societas	1
 1522	SOCK///Tibiale	1
@@ -1352,6 +1397,7 @@ ID	GLOSS	PRIORITY
 1941	SOLDIER///miles	2
 3003	SOLID///solidus	1
 1241	SOME///nonnullus	1
+1241	SOME///paulum	1
 2422	SOMEONE///aliquis	1
 1544	SOMETIMES///nonnumquam	1
 1056	SON-IN-LAW///gener	1
@@ -1380,6 +1426,8 @@ ID	GLOSS	PRIORITY
 843	SPIDER///aranea	1
 53	SPIRIT///Spiritus	1
 53	SPIRIT///spiritus	1
+1440	SPIT///spuo	1
+1437	SPLIT///findo	1
 92	SPOIL (SOMEBODY OR SOMETHING)///corrumpo	1
 1378	SPOON///cochlear	1
 1378	SPOON///cochleare	1
@@ -1388,12 +1436,13 @@ ID	GLOSS	PRIORITY
 1537	SPRINGTIME///Ver	1
 1537	SPRINGTIME///ver	1
 850	SQUARE///quadratum	1
+1414	SQUEEZE///exprimo	1
 1442	STAND///Sta	1
 1442	STAND///sta	1
 1442	STAND///stare	1
 1442	STAND///sto	1
 1430	STAR///Stella	1
-1430	STAR///stella	3
+1430	STAR///stella	4
 1430	STAR///stēllas	1
 2955	STATE (POLITICS)///res publica	1
 713	STEAL///furor	1
@@ -1406,6 +1455,7 @@ ID	GLOSS	PRIORITY
 819	STOMACH///venter	1
 857	STONE///Lapis, Saxum	1
 857	STONE///lapis	3
+857	STONE///petra	1
 857	STONE///pĕtra	1
 752	STORE///taberna	1
 858	STORM///Procella	1
@@ -1429,10 +1479,11 @@ ID	GLOSS	PRIORITY
 1518	STUPID///Stultus	1
 1518	STUPID///stultus	1
 1112	SUCCEED///succedo	1
+1421	SUCK///sugo	1
 1342	SUMMER///Aeßtas	1
 1342	SUMMER///aestas	2
 1343	SUN///Sol	2
-1343	SUN///sol	3
+1343	SUN///sol	4
 1699	SUNDAY///dīe domĭnica	1
 547	SURFACE///superficies	1
 897	SWALLOW///Hirundo	1
@@ -1441,11 +1492,12 @@ ID	GLOSS	PRIORITY
 717	SWEET///dŭlce + a	1
 1439	SWIM///Natare	1
 1439	SWIM///natatio	1
+1439	SWIM///nato	1
 1535	SWORD///gladius	1
 3957	SYSTEM///ratio	1
 1775	TABLE///Menßa	1
 1775	TABLE///mensa	1
-1220	TAIL///cauda	1
+1220	TAIL///cauda	2
 1220	TAIL///cōda	1
 1749	TAKE///Sumere	1
 1749	TAKE///adimo	2
@@ -1482,22 +1534,23 @@ ID	GLOSS	PRIORITY
 817	THEY///illi	1
 817	THEY///illis	1
 1244	THICK///densus	1
+1244	THICK///grossus	1
 1244	THICK///spĭssu	1
 1160	THIEF///Fur	1
 1160	THIEF///fur	1
 1160	THIEF///latro	1
 2305	THIN (OF HAIR AND THREAD)///Tenuis	1
 1400	THIN (SLIM)///macru	1
-2308	THIN///tenuis	1
+2308	THIN///tenuis	2
 738	THING///res	1
-2271	THINK///cogito	1
+2271	THINK///cogito	2
 1715	THIRTY///30	1
 1715	THIRTY///Triginta	1
 1214	THIS///hic	1
 1214	THIS///hic/haec/hoc	1
 124	THORN///spīnas	1
 1215	THOU///Tu	1
-1215	THOU///tu	1
+1215	THOU///tu	2
 2975	THOUGHT///cogitatum	1
 1843	THOUSAND///1000	1
 1843	THOUSAND///Mille	1
@@ -1505,6 +1558,7 @@ ID	GLOSS	PRIORITY
 1161	THREAD///filum lineum	1
 492	THREE///3	1
 492	THREE///Tria	1
+492	THREE///tres	1
 492	THREE///tria	1
 492	THREE///trēs	1
 1346	THROAT///Guttur	1
@@ -1512,13 +1566,14 @@ ID	GLOSS	PRIORITY
 97	THROUGH///per	1
 1456	THROW///Projicere	1
 1456	THROW///conjectus	1
+1456	THROW///iacio	1
 1781	THUMB///pŏllice	1
 1150	THUNDER///Tonitru	1
 1150	THUNDER///tonitru	2
 1150	THUNDER///tonĭtru	1
 1693	THURSDAY///dies Iovis	1
 1693	THURSDAY///dīe jŏvis	1
-1917	TIE///ligo	1
+1917	TIE///ligo	2
 3053	TIGHT///artus	1
 3053	TIGHT///suspensus	1
 892	TIME///Tempus	1
@@ -1531,12 +1586,12 @@ ID	GLOSS	PRIORITY
 1329	TOMORROW///Cras	1
 1205	TONGUE///Lengua	1
 1205	TONGUE///Lingua	1
-1205	TONGUE///lingua	2
+1205	TONGUE///lingua	3
 1205	TONGUE///lĭngua	1
 1361	TOOL///instrumentum	2
 1380	TOOTH///Dens	1
 1380	TOOTH///Dentes	1
-1380	TOOTH///dens	3
+1380	TOOTH///dens	4
 1380	TOOTH///dĕntes	1
 1753	TOP///culmen	1
 2532	TORNADO///Turbo	1
@@ -1551,7 +1606,7 @@ ID	GLOSS	PRIORITY
 241	TREE STUMP///Caudex	1
 241	TREE STUMP///truncus	1
 906	TREE///Arbor	2
-906	TREE///arbor	2
+906	TREE///arbor	3
 2538	TRENCH (FOSSE)///Foßßa	1
 2538	TRENCH (FOSSE)///fossa	1
 809	TROUSERS///calceas	1
@@ -1561,6 +1616,7 @@ ID	GLOSS	PRIORITY
 2956	TUBE///fistula	1
 1695	TUESDAY///dies Martis	1
 1445	TURN (SOMETHING)///versor	1
+1444	TURN AROUND///gyro	1
 1444	TURN AROUND///vertor	1
 1588	TURN///(re)virare	1
 1707	TWELVE///d(u)ōdeci	1
@@ -1569,7 +1625,7 @@ ID	GLOSS	PRIORITY
 1710	TWENTY///vigĭnti	1
 430	TWIST///torqueo	1
 1498	TWO///Duo	1
-1498	TWO///duo	2
+1498	TWO///duo	3
 1498	TWO///dŭo, dŭas	1
 1548	UGLY///pūtidu, -da	1
 1536	UNDERSTAND///intellego	1
@@ -1599,8 +1655,10 @@ ID	GLOSS	PRIORITY
 1363	VOICE///Vox	1
 1363	VOICE///vox	2
 2291	VOLCANO///vulcanus	1
+1278	VOMIT///vomo	1
 1681	WAIST///coxa	1
 1443	WALK///Gradi	1
+1443	WALK///ambulo	1
 1443	WALK///eo	1
 933	WALL (OF HOUSE)///murus	1
 933	WALL (OF HOUSE)///mūru	1
@@ -1608,17 +1666,18 @@ ID	GLOSS	PRIORITY
 1784	WANT///volo	2
 935	WAR///Bellum	1
 935	WAR///bellum	2
+2110	WARM (OF WEATHER)///calidus	1
 1232	WARM///Calidus	1
-1453	WASH///lavo	1
+1453	WASH///lavo	2
 1517	WASP///wĕspa	1
 79	WASTE///quisquiliae	1
 948	WATER///Aqua	1
-948	WATER///aqua	4
+948	WATER///aqua	5
 3544	WAVE (VERB)///manu signum do	1
 978	WAVE///Fluctus	1
 978	WAVE///unda	2
 1212	WE///Nos	1
-1212	WE///nos	1
+1212	WE///nos	2
 1601	WEAK///Debilis	1
 1601	WEAK///infirmus	1
 951	WEAPONS///arma	1
@@ -1635,6 +1694,7 @@ ID	GLOSS	PRIORITY
 954	WELL///pŭteu	1
 1817	WEST///Occidens	1
 1726	WET///humidus	1
+1726	WET///umidus	1
 957	WHALE///Cete	1
 957	WHALE///cetus	1
 1236	WHAT///Quid	1
@@ -1646,39 +1706,41 @@ ID	GLOSS	PRIORITY
 710	WHEEL///rota	1
 710	WHEEL///rŏta	1
 1238	WHEN///Quando	1
-1238	WHEN///quando	3
+1238	WHEN///quando	4
 1237	WHERE///Ubi	1
-1237	WHERE///ubi	2
+1237	WHERE///ubi	3
 727	WHICH///quis	1
 1025	WHISTLE///Sibilare	1
 1335	WHITE///Albus	2
 1335	WHITE///album	1
-1335	WHITE///albus	1
+1335	WHITE///albus	2
 1335	WHITE///blancu	1
 1235	WHO///Quis	1
 1235	WHO///Quocum	1
 1235	WHO///perquem, quis	1
+1235	WHO///qui	1
 1235	WHO///qui/quis	1
 2277	WHOLE///totus	1
 1270	WHY///cur/quare	1
 1243	WIDE///largu	1
-1243	WIDE///latus	1
+1243	WIDE///latus	2
 1756	WIDOW///Vidua	1
 1199	WIFE///Uxor	1
-1199	WIFE///uxor	3
+1199	WIFE///uxor	4
 958	WILD ANIMAL///Animal	1
 958	WILD ANIMAL///fera	1
 3154	WILD BOAR///singulare	1
 818	WILLOW///salice	1
 866	WIN///vinco	1
 960	WIND///Ventus	1
-960	WIND///ventus	2
+960	WIND///ventus	3
 960	WIND///vĕntu (aura)	1
 1375	WINDOW///fenestra	1
 1375	WINDOW///fenĕstra	1
 1524	WINE///Vinum	1
 1524	WINE///vinum	3
 1524	WINE///vīnu	1
+1257	WING///ala	1
 1471	WINTER///Hyems	1
 1471	WINTER///hibĕrnu	1
 1471	WINTER///hiems	2
@@ -1691,7 +1753,7 @@ ID	GLOSS	PRIORITY
 522	WOLF///Lupus	1
 522	WOLF///lupus	1
 522	WOLF///lŭpu	1
-962	WOMAN///mulier	2
+962	WOMAN///mulier	3
 1803	WOOD///lignum	1
 964	WOOL///Lana	1
 964	WOOL///lana	2
@@ -1703,6 +1765,7 @@ ID	GLOSS	PRIORITY
 965	WORLD///Mundus	1
 965	WORLD///mundus	1
 1219	WORM///Vermis	2
+1219	WORM///lumbricus	1
 1219	WORM///vermis	1
 1109	WOUND///vulnero	1
 1113	WRAP///involvo	1
@@ -1713,9 +1776,9 @@ ID	GLOSS	PRIORITY
 736	YARD///aula	1
 1028	YAWN///Oßcitare	1
 1226	YEAR///Annus	1
-1226	YEAR///annus	2
+1226	YEAR///annus	3
 1424	YELLOW///Flavus	2
-1424	YELLOW///flavus	1
+1424	YELLOW///flavus	2
 1424	YELLOW///galbina	1
 1268	YES///Ita	1
 1268	YES///ita	1

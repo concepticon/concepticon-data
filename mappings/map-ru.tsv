@@ -308,9 +308,9 @@ ID	GLOSS	PRIORITY
 887	BITTER///горький	2
 163	BLACK///Tchiorne	1
 163	BLACK///černyj	1
-163	BLACK///Белый	1
 163	BLACK///ЧЕРНЫЙ	1
 163	BLACK///Черно	2
+163	BLACK///Чёрный	1
 163	BLACK///черный	8
 163	BLACK///чёрный	2
 3084	BLACKBOARD///школьная доска	2
@@ -341,7 +341,7 @@ ID	GLOSS	PRIORITY
 837	BLUE///sinij	1
 837	BLUE///СИНИЙ	1
 837	BLUE///Синiй	1
-837	BLUE///Чёрный	1
+837	BLUE///Синий	1
 837	BLUE///голубой	1
 837	BLUE///синий	1
 837	BLUE///синий, голубой	1
@@ -458,7 +458,7 @@ ID	GLOSS	PRIORITY
 1262	BROTHER///БРАТ	1
 1262	BROTHER///Братъ	2
 1262	BROTHER///брат	4
-2409	BROWN///Серый	1
+2409	BROWN///Коричневый	1
 1148	BRUISE///ушиб	1
 3109	BRUSH (TEETH)///чистить	2
 1821	BRUSH///расческа	1
@@ -1324,7 +1324,6 @@ ID	GLOSS	PRIORITY
 1470	FOLD///сворачивать, складывать	1
 1085	FOLLOW///следовать	3
 256	FOOD///питание	1
-256	FOOD///пицца	1
 256	FOOD///пища	2
 1301	FOOT///Noga	1
 1301	FOOT///НОГА	1
@@ -1511,12 +1510,12 @@ ID	GLOSS	PRIORITY
 1425	GREEN///zelenyj	1
 1425	GREEN///ЗЕЛЕНЫЙ	1
 1425	GREEN///Зелено	2
-1425	GREEN///Красный	1
+1425	GREEN///Зелёный	1
 1425	GREEN///зеленый	8
 1425	GREEN///зелёный	2
 3552	GREET///приветствовать	1
 153	GREY///seryj	1
-153	GREY///Оранжевый	1
+153	GREY///Серый	1
 153	GREY///серый	1
 1668	GRIEF///Печаль	1
 1668	GRIEF///горе	3
@@ -2354,7 +2353,7 @@ ID	GLOSS	PRIORITY
 885	OPPOSITE///противоположный (противолежащий)	1
 1014	OR///Или	2
 1014	OR///или	2
-3328	ORANGE (COLOR)///Жёлтый	1
+3328	ORANGE (COLOR)///Оранжевый	1
 2627	ORANGE (FRUIT)///апельсин	4
 2551	ORGANIC FAT OR OIL///Масло	1
 917	ORNAMENT///орнамент, украшение	1
@@ -2464,7 +2463,7 @@ ID	GLOSS	PRIORITY
 378	PINCH///щипать, жать	1
 1740	PINE///сосна	2
 2440	PINEAPPLE///ананас	4
-3446	PINK///Зелёный	1
+3446	PINK///Розовый	1
 1124	PIPE///трубка	2
 1124	PIPE///трубка курительная	1
 592	PISS///мочиться	1
@@ -2568,7 +2567,7 @@ ID	GLOSS	PRIORITY
 753	PUPIL (STUDENT)///ученик	1
 74	PUPPY///ЩЕНОК	1
 1147	PURE///чистый	1
-2452	PURPLE///Голубой	1
+2452	PURPLE///Фиолетовый	1
 1047	PURSUE///добиваться	1
 1047	PURSUE///заниматься	1
 1047	PURSUE///преследовать	1
@@ -2634,7 +2633,7 @@ ID	GLOSS	PRIORITY
 156	RED///krasnyj	1
 156	RED///КРАСНЫЙ	1
 156	RED///Красно	2
-156	RED///Синий	1
+156	RED///Красный	1
 156	RED///красный	11
 660	REEF///риф	2
 49	REFUSE///NA	1
@@ -3515,7 +3514,7 @@ ID	GLOSS	PRIORITY
 1444	TURN AROUND///развернуть(ся)	1
 1588	TURN///поворачивать	1
 3062	TURNIP///репа	1
-3914	TURQUOISE///Фиолетовый	1
+3914	TURQUOISE///Голубой	1
 112	TURTLE///черепаха	4
 1707	TWELVE///двенадцать	2
 1710	TWENTY///Дватцать	1
@@ -3707,8 +3706,8 @@ ID	GLOSS	PRIORITY
 1335	WHITE///Bliedno	1
 1335	WHITE///belyj	1
 1335	WHITE///БЕЛЫЙ	1
+1335	WHITE///Белый	1
 1335	WHITE///Бѣло	2
-1335	WHITE///Коричневый	1
 1335	WHITE///белый	11
 2928	WHITHER (WHERE TO)///куда	1
 2147	WHO OR WHAT///кто, что	1
@@ -3817,7 +3816,7 @@ ID	GLOSS	PRIORITY
 1424	YELLOW///želtyj	1
 1424	YELLOW///ЖЕЛТЫЙ	1
 1424	YELLOW///Желто	1
-1424	YELLOW///Розовый	1
+1424	YELLOW///Жёлтый	1
 1424	YELLOW///желтый	8
 1424	YELLOW///жёлтый	2
 1268	YES///Да	2

@@ -1,13 +1,13 @@
 {
     "upload_type": "dataset",
-    "description": "<p>List, Johann Mattis &amp; Tjuka, Annika &amp; Rzymski, Christoph &amp; Greenhill, Simon &amp; Forkel, Robert (eds.) 2022. Concepticon v3.0.0. A Resource for the Linking of Concept Lists. Leipzig: Max Planck Institute for Evolutionary Anthropology. Available online at https://concepticon.clld.org</p>",
+    "description": "<p>List, Johann Mattis &amp; Tjuka, Annika &amp; van Zantwijk, Mathilda &amp; Blum, Frederic &amp; Ugarte, Carlos Barrientos &amp; Rzymski, Christoph &amp; Greenhill, Simon &amp; Forkel, Robert (eds.) 2023. Concepticon v3.1.0. A Resource for the Linking of Concept Lists. Leipzig: Max Planck Institute for Evolutionary Anthropology. Available online at https://concepticon.clld.org</p>",
     "alternate_identifiers": [
         {
             "scheme": "url",
             "identifier": "https://concepticon.clld.org"
         }
     ],
-    "title": "CLLD Concepticon 3.0.0",
+    "title": "CLLD Concepticon 3.1.0",
     "access_right": "open",
     "license": {
         "id": "CC-BY-4.0"
@@ -21,6 +21,15 @@
         },
         {
             "name": "Annika Tjuka"
+        },
+        {
+            "name": "Mathilda van Zantwijk"
+        },
+        {
+            "name": "Frederic Blum"
+        },
+        {
+            "name": "Carlos Barrientos Ugarte"
         },
         {
             "name": "Christoph Rzymski"

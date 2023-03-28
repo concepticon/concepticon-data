@@ -1,5 +1,10 @@
 # Changes
 
+## v3.1
+
+- Added 11 conceptlists.
+
+
 ## v3.0
 
 - Removed metadata in `concept_set_meta`, since this data is superseded by the more comprehensive and

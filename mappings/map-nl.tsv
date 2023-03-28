@@ -63,7 +63,7 @@ ID	GLOSS	PRIORITY
 2805	BIRTH (ACCOUCHEMENT)///geboren	1
 1403	BITE///bijten	2
 887	BITTER///bitter	1
-163	BLACK///Wit	1
+163	BLACK///Zwart	1
 163	BLACK///zwart	2
 3084	BLACKBOARD///krijtbord	1
 3084	BLACKBOARD///schoolbord	2
@@ -71,7 +71,7 @@ ID	GLOSS	PRIORITY
 1653	BLIND///blind	1
 946	BLOOD///bloed	2
 176	BLOW (WITH MOUTH)///blazen	2
-837	BLUE///Zwart	1
+837	BLUE///Blauw	1
 837	BLUE///blauw	2
 379	BLUNT///bot	1
 379	BLUNT///stomp	1
@@ -90,6 +90,7 @@ ID	GLOSS	PRIORITY
 2902	BRAWL (FIGHT)///vechten	2
 1368	BREAD///brood	1
 1407	BREATHE///ademen	1
+3982	BREEZE///bries	1
 1006	BRICK///baksteen	1
 1011	BRIDGE///brug	1
 3751	BRIGHT YELLOW///knalgeel	1
@@ -98,7 +99,7 @@ ID	GLOSS	PRIORITY
 588	BROKEN///kapot	1
 245	BROOM///bezem	2
 1262	BROTHER///broer	1
-2409	BROWN///Grijs	1
+2409	BROWN///Bruin	1
 2409	BROWN///bruin	2
 3109	BRUSH (TEETH)///poetsen [tanden]	2
 1821	BRUSH///borstel	2
@@ -309,7 +310,6 @@ ID	GLOSS	PRIORITY
 1441	FLY (MOVE THROUGH AIR)///vliegen	2
 249	FOG///mist	1
 3759	FOGGY///mistig	1
-256	FOOD///pizza	1
 1301	FOOT///voet	1
 418	FOR A LONG TIME///lang	1
 418	FOR A LONG TIME///lang (tijd)	1
@@ -352,9 +352,9 @@ ID	GLOSS	PRIORITY
 606	GRASS///gras	1
 3114	GRATE (SOMETHING)///raspen	2
 3028	GRAVEL///grind	1
-1425	GREEN///Rood	1
+1425	GREEN///Groen	1
 1425	GREEN///groen	2
-153	GREY///Oranje	1
+153	GREY///Grijs	1
 153	GREY///grauw	1
 153	GREY///grijs	2
 595	GROUNDNUT (PEANUT)///pinda	1
@@ -551,7 +551,7 @@ ID	GLOSS	PRIORITY
 3235	OPEN (STATE)///open	1
 1156	OPEN///openen	2
 3121	OPERATE (MEDICINE)///opereren	2
-3328	ORANGE (COLOR)///Geel	1
+3328	ORANGE (COLOR)///Oranje	1
 3328	ORANGE (COLOR)///oranje	1
 2627	ORANGE (FRUIT)///sinaasappel	3
 735	OWL///uil	3
@@ -588,7 +588,7 @@ ID	GLOSS	PRIORITY
 1044	PILLOW///kussen	1
 378	PINCH///knijpen	2
 2440	PINEAPPLE///ananas	3
-3446	PINK///Groen	1
+3446	PINK///Roze	1
 3446	PINK///roze	1
 592	PISS///plassen	2
 653	PLANT (VEGETATION)///planten	2
@@ -614,7 +614,7 @@ ID	GLOSS	PRIORITY
 864	PUMPKIN///pompoen	1
 1147	PURE///puur	1
 1147	PURE///zuiver	1
-2452	PURPLE///Turquoise	1
+2452	PURPLE///Paars	1
 2452	PURPLE///paars	2
 2452	PURPLE///purper	1
 2452	PURPLE///sierlijk	1
@@ -636,7 +636,7 @@ ID	GLOSS	PRIORITY
 1959	RAW///rauw	1
 151	RAZOR///scheermes	1
 724	READ///lezen	3
-156	RED///Blauw	1
+156	RED///Rood	1
 156	RED///rood	2
 156	RED///ros	1
 707	REMEMBER///onthouden	1
@@ -806,6 +806,7 @@ ID	GLOSS	PRIORITY
 1535	SWORD///zwaard	1
 1775	TABLE///bureau	2
 1775	TABLE///tafel	1
+3979	TADPOLE///kikkervisje	1
 1220	TAIL///staart	2
 3133	TALK (PHONE)///bellen	2
 3346	TALL (PERSON)///lang (persoon)	1
@@ -856,7 +857,7 @@ ID	GLOSS	PRIORITY
 809	TROUSERS///broek	2
 1657	TRUE///waar	1
 537	TURBID///troebel	1
-3914	TURQUOISE///Paars	1
+3914	TURQUOISE///Turquoise	1
 112	TURTLE///schildpad	2
 1707	TWELVE///twaalf	1
 1734	TWENTY ONE///eenentwintig	1
@@ -903,7 +904,7 @@ ID	GLOSS	PRIORITY
 55	WHISPER///fluisteren	2
 3107	WHISTLE (INSTRUMENT)///fluitje	3
 1025	WHISTLE///fluiten	2
-1335	WHITE///Bruin	1
+1335	WHITE///Wit	1
 1335	WHITE///wit	2
 1235	WHO///wie	1
 2277	WHOLE///gans	1
@@ -923,7 +924,7 @@ ID	GLOSS	PRIORITY
 1672	WRITE///schrijven	3
 1390	WRONG///fout	2
 1226	YEAR///jaar	1
-1424	YELLOW///Roze	1
+1424	YELLOW///Geel	1
 1424	YELLOW///geel	2
 1268	YES///ja	1
 1207	YOUNG///jong	1
