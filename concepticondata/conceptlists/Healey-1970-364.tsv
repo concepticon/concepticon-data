@@ -9,7 +9,7 @@ Healey-1970-364-7	7	ash	646	ASH
 Healey-1970-364-8	8	ask for/about	1309	ASK (INQUIRE)
 Healey-1970-364-9	9	at	1461	AT
 Healey-1970-364-10	10	avenge		
-Healey-1970-364-11	11	axe, stone	677	AXE
+Healey-1970-364-11	11	axe, stone		
 Healey-1970-364-12	12	back	1291	BACK
 Healey-1970-364-13	13	backbone	805	SPINE
 Healey-1970-364-14	14	bad	1292	BAD
@@ -35,7 +35,7 @@ Healey-1970-364-33	33	brain	1583	BRAIN
 Healey-1970-364-34	34	branch	1531	BRANCH
 Healey-1970-364-35	35	breadfruit	2371	BREADFRUIT
 Healey-1970-364-36	36	break (rope)	460	BREAK (OF ROPE)
-Healey-1970-364-37	37	break (stone)	2558	BREAK (CLEAVE)
+Healey-1970-364-37	37	break (stone)		
 Healey-1970-364-38	38	break (wood)		
 Healey-1970-364-39	39	breaks, (rope)	460	BREAK (OF ROPE)
 Healey-1970-364-40	40	breaks, (stone)		
@@ -54,7 +54,7 @@ Healey-1970-364-52	52	cheek	1730	CHEEK
 Healey-1970-364-53	53	child	2099	CHILD
 Healey-1970-364-54	54	chin	1510	CHIN
 Healey-1970-364-55	55	chop	155	CHOP
-Healey-1970-364-56	56	chop down	463	FELL (A TREE)
+Healey-1970-364-56	56	chop down	355	CUT DOWN
 Healey-1970-364-57	57	climb	1102	CLIMB
 Healey-1970-364-58	58	coconut	970	COCONUT
 Healey-1970-364-59	59	cold	1287	COLD
@@ -70,7 +70,7 @@ Healey-1970-364-68	68	cut	1432	CUT
 Healey-1970-364-69	69	dark	706	DARK
 Healey-1970-364-70	70	daughter	1357	DAUGHTER
 Healey-1970-364-71	71	daylight	1225	DAY (NOT NIGHT)
-Healey-1970-364-72	72	dead person	1625	DEAD
+Healey-1970-364-72	72	dead person		
 Healey-1970-364-73	73	deep	1593	DEEP
 Healey-1970-364-74	74	die	1494	DIE
 Healey-1970-364-75	75	dig	1418	DIG
@@ -93,7 +93,7 @@ Healey-1970-364-91	91	excreta	47	EXCRETA
 Healey-1970-364-92	92	extinguish	127	EXTINGUISH
 Healey-1970-364-93	93	eye	1248	EYE
 Healey-1970-364-94	94	eyelashes	1540	EYELASH
-Healey-1970-364-95	95	far away		
+Healey-1970-364-95	95	far away	1405	FAR
 Healey-1970-364-96	96	farm	201	FARM
 Healey-1970-364-97	97	fat (n)	323	FAT (ORGANIC SUBSTANCE)
 Healey-1970-364-98	98	fault	134	FAULT
@@ -102,7 +102,7 @@ Healey-1970-364-100	100	fell, to	463	FELL (A TREE)
 Healey-1970-364-101	101	female	2105	FEMALE PERSON
 Healey-1970-364-102	102	fence	1690	FENCE
 Healey-1970-364-103	103	fetch	3551	FETCH
-Healey-1970-364-104	104	find, see	719	FIND
+Healey-1970-364-104	104	find, see		
 Healey-1970-364-105	105	finger	1303	FINGER
 Healey-1970-364-106	106	little finger	2774	LITTLE FINGER
 Healey-1970-364-107	107	fire	221	FIRE
@@ -125,8 +125,8 @@ Healey-1970-364-123	123	get up	570	STAND UP
 Healey-1970-364-124	124	ghost	1175	GHOST
 Healey-1970-364-125	125	girl	1646	GIRL
 Healey-1970-364-126	126	give	1447	GIVE
-Healey-1970-364-127	127	go away		
-Healey-1970-364-128	128	goes out, (fire)		
+Healey-1970-364-127	127	go away	1752	LEAVE
+Healey-1970-364-128	128	goes out, (fire)	127	EXTINGUISH
 Healey-1970-364-129	129	grandchild	1617	GRANDCHILD
 Healey-1970-364-130	130	grandparent	2399	GRANDPARENT
 Healey-1970-364-131	131	ground	2159	GROUND
@@ -203,13 +203,13 @@ Healey-1970-364-201	201	name	1405	NAME
 Healey-1970-364-202	202	navel	1838	NAVEL
 Healey-1970-364-203	203	neck	1333	NECK
 Healey-1970-364-204	204	nest	539	NEST
-Healey-1970-364-205	205	newborn		
+Healey-1970-364-205	205	newborn	1289	BABY
 Healey-1970-364-206	206	night	1233	NIGHT
 Healey-1970-364-207	207	nipple	796	NIPPLE
 Healey-1970-364-208	208	nose	1221	NOSE
 Healey-1970-364-209	209	nostril	1178	NOSTRIL
 Healey-1970-364-210	210	nothing	687	NOTHING
-Healey-1970-364-211	211	offspring		
+Healey-1970-364-211	211	offspring	1801	CHILD (DESCENDANT)
 Healey-1970-364-212	212	old (person)	725	OLD PERSON
 Healey-1970-364-213	213	old (thing)	2113	OLD (USED)
 Healey-1970-364-214	214	one	1493	ONE
@@ -217,7 +217,7 @@ Healey-1970-364-215	215	only	1580	ONLY
 Healey-1970-364-216	216	our	780	OUR
 Healey-1970-364-217	217	outside	762	OUTSIDE
 Healey-1970-364-218	218	paddle	234	PADDLE
-Healey-1970-364-219	219	pain, have a	1783	PAIN
+Healey-1970-364-219	219	pain, have a	2561	HURT (SENSE PAIN)
 Healey-1970-364-220	220	penis	1222	PENIS
 Healey-1970-364-221	221	person	683	PERSON
 Healey-1970-364-222	222	perspiration		
@@ -243,7 +243,7 @@ Healey-1970-364-241	241	say	1458	SAY
 Healey-1970-364-242	242	scabies	3172	SCABIES
 Healey-1970-364-243	243	scar	497	SCAR
 Healey-1970-364-244	244	see	1409	SEE
-Healey-1970-364-245	245	seek		
+Healey-1970-364-245	245	seek	1468	LOOK FOR
 Healey-1970-364-246	246	shallow	193	SHALLOW
 Healey-1970-364-247	247	sharp	1396	SHARP
 Healey-1970-364-248	248	she	1834	SHE
@@ -275,7 +275,7 @@ Healey-1970-364-273	273	speak	1623	SPEAK
 Healey-1970-364-274	274	spider	843	SPIDER
 Healey-1970-364-275	275	spirit, person's	53	SPIRIT
 Healey-1970-364-276	276	to spit	1440	SPIT
-Healey-1970-364-277	277	spittle		
+Healey-1970-364-277	277	spittle	1503	SALIVA
 Healey-1970-364-278	278	stairs	34	STAIRS
 Healey-1970-364-279	279	stale		
 Healey-1970-364-280	280	stand	1442	STAND
@@ -326,12 +326,12 @@ Healey-1970-364-324	324	tooth	1380	TOOTH
 Healey-1970-364-325	325	torch	1919	TORCH
 Healey-1970-364-326	326	tree	906	TREE
 Healey-1970-364-327	327	twist	430	TWIST
-Healey-1970-364-328	328	twist rope		
+Healey-1970-364-328	328	twist rope	3236	TWIST (TOGETHER)
 Healey-1970-364-329	329	two	1498	TWO
 Healey-1970-364-330	330	umbilical cord	2663	UMBILICAL CORD
 Healey-1970-364-331	331	uncooked	1959	RAW
 Healey-1970-364-332	332	unwilling		
-Healey-1970-364-333	333	urinate		
+Healey-1970-364-333	333	urinate	592	URINATE
 Healey-1970-364-334	334	urine	1142	URINE
 Healey-1970-364-335	335	vagina	1836	VAGINA
 Healey-1970-364-336	336	voice	1363	VOICE
@@ -343,7 +343,7 @@ Healey-1970-364-341	341	war, make	2208	BE AT WAR
 Healey-1970-364-342	342	wash	1453	WASH
 Healey-1970-364-343	343	water	948	WATER
 Healey-1970-364-344	344	we	1212	WE
-Healey-1970-364-345	345	weep		
+Healey-1970-364-345	345	weep	1839	CRY
 Healey-1970-364-346	346	white	1335	WHITE
 Healey-1970-364-347	347	wide	1243	WIDE
 Healey-1970-364-348	348	widow	1756	WIDOW
@@ -360,6 +360,6 @@ Healey-1970-364-358	358	yawn	1028	YAWN
 Healey-1970-364-359	359	yesterday	1174	YESTERDAY
 Healey-1970-364-360	360	you pl.	1213	YOU
 Healey-1970-364-361	361	you sg.	1215	THOU
-Healey-1970-364-362	362	young person		
+Healey-1970-364-362	362	young person	1207	YOUNG
 Healey-1970-364-363	363	your pl.	2274	YOUR (PLURAL)
 Healey-1970-364-364	364	your sg.	732	YOUR (SINGULAR)
