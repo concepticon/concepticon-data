@@ -44,12 +44,9 @@
                         "name": "ENGLISH"
                     },
                     {
-                        "datatype": {
-                            "base": "string",
-                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
-                        },
+                        "datatype": "string",
                         "name": "SOURCE"
-                    },
+                    }
                 ],
                 "primaryKey": [
                     "ID"
