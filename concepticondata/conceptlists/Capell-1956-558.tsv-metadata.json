@@ -46,6 +46,12 @@
                     {
                         "datatype": "string",
                         "name": "SOURCE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "URL",
+				"propertyUrl": "dc:relation",
+                      	"valueUrl": "https://indigenous.sl.nsw.gov.au/collection-items/vocabulary-600-words-forty-north-australian-languages-1956-arthur-capell#pid={0}"
                     }
                 ],
                 "primaryKey": [
