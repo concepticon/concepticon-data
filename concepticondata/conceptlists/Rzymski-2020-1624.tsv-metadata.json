@@ -65,6 +65,7 @@
                     },
                     {
                         "datatype": "string",
+                        "valueUrl": "https://clics.clld.org/graphs/infomap_{COMMUNITY}_{CENTRAL_CONCEPT}",
                         "name": "CENTRAL_CONCEPT"
                     },
                     {
