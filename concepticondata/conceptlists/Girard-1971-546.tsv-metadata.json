@@ -40,9 +40,11 @@
                         "name": "CONCEPTICON_GLOSS"
                     },
                     {
-                        "datatype": "string",
+                        "dc:description": "gloss in SPANISH", 
+                        "datatype": "string", 
+                        "propertyUrl": "http://glottolog.org/resource/languoid/id/stan1288", 
                         "name": "GLOSS"
-                    },
+                    }, 
                     {
                         "datatype": "string",
                         "name": "PROTO_ID"
