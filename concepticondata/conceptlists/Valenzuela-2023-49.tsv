@@ -1,50 +1,45 @@
-ID	NUMBER	NUMBERINSOURCE	ENGLISH	CONCEPTICON_ID	CONCEPTICON_GLOSS
-Valenzuela-2023-49-1	1	1	Tree	906	TREE
-Valenzuela-2023-49-2	2	2	Tooth	1380	TOOTH
-Valenzuela-2023-49-3	3	3	Two	1498	TWO
-Valenzuela-2023-49-4	4	4	Liver	1224	LIVER
-Valenzuela-2023-49-5	5	5	Leaf	628	LEAF
-Valenzuela-2023-49-6	6	6	Bone	1394	BONE
-Valenzuela-2023-49-7	7	7	Tongue	1205	TONGUE
-Valenzuela-2023-49-8	8	8	Hand	1277	HAND
-Valenzuela-2023-49-9	9	9	Night	1233	NIGHT
-Valenzuela-2023-49-10	10	10	Skin	763	SKIN
-Valenzuela-2023-49-11	11	11	Fire	221	FIRE
-Valenzuela-2023-49-12	12	12	Knee	1371	KNEE
-Valenzuela-2023-49-13	13	13	Blood	946	BLOOD
-Valenzuela-2023-49-14	14	14	Breast	1402	BREAST
-Valenzuela-2023-49-15	15	15	Sun	1343	SUN
-Valenzuela-2023-49-16	16	16	You	1215	THOU
-Valenzuela-2023-49-17	17	17	Come	1446	COME
-Valenzuela-2023-49-18	18	18	I	1209	I
-Valenzuela-2023-49-19	19		Flesh	2259	FLESH
-Valenzuela-2023-49-20	20		Fat	323	FAT (ORGANIC SUBSTANCE)
-Valenzuela-2023-49-21	21		Fingernail	1258	FINGERNAIL
-Valenzuela-2023-49-22	22		Foot,leg	2098	FOOT OR LEG
-Valenzuela-2023-49-23	23		Lip,edge		
-Valenzuela-2023-49-24	24		Cheek	1730	CHEEK
-Valenzuela-2023-49-25	25		Mouth	674	MOUTH
-Valenzuela-2023-49-26	26		Elbow	981	ELBOW
-Valenzuela-2023-49-27	27	5	To fan	360	FAN (ACTION)
-Valenzuela-2023-49-28	28		Night,tomorrow		
-Valenzuela-2023-49-29	29	15	Moon	1313	MOON
-Valenzuela-2023-49-30	30	1	1st SG 'I'		
-Valenzuela-2023-49-31	31	2	2nd SG 'you'		
-Valenzuela-2023-49-32	32	3	DEMONSTRATIVE distal		
-Valenzuela-2023-49-33	33	4	DEMONSTRATIVE proximate		
-Valenzuela-2023-49-34	34	5	GENITIVE		
-Valenzuela-2023-49-35	35	6	IMPERATIVE		
-Valenzuela-2023-49-36	36	7	GOING DOWN,DOWNWARD		
-Valenzuela-2023-49-37	37	8	DO COMING		
-Valenzuela-2023-49-38	38	9	DESIDERATIVE		
-Valenzuela-2023-49-39	39	10	NEGATIVE	1240	NOT
-Valenzuela-2023-49-40	40	11	CAUSATIVE		
-Valenzuela-2023-49-41	41	12	AUGMENTATIVE		
-Valenzuela-2023-49-42	42	13	DO (TR.),AUXILIARY (TR.)		
-Valenzuela-2023-49-43	43	14	TRANSITIVIZER		
-Valenzuela-2023-49-44	44	15	DETRANSITIVIZER,REFLEXIVE		
-Valenzuela-2023-49-45	45	16	ERGATIVE		
-Valenzuela-2023-49-46	46	17	PREVIOUS EVENT, SAME-SUBJECT		
-Valenzuela-2023-49-47	47	18	COMITATIVE,ALONG WITH		
-Valenzuela-2023-49-48	48	18	COMITATIVE,ALONG WITH TWO		
-Valenzuela-2023-49-49	49	3	DEMONSTRATIVE 'this' 'he'		
+ID	NUMBER	NUMBER_IN_TABLE	ENGLISH	CONCEPTICON_ID	CONCEPTICON_GLOSS	TABLE
+Valenzuela-2023-44-1	1	1	Tree	906	TREE	Lexical_List
+Valenzuela-2023-44-2	2	2	Tooth	1380	TOOTH	Lexical_List
+Valenzuela-2023-44-3	3	3	Two	1498	TWO	Lexical_List
+Valenzuela-2023-44-4	4	4	Liver	1224	LIVER	Lexical_List
+Valenzuela-2023-44-5	5	5	Leaf,To fan			Lexical_List
+Valenzuela-2023-44-6	6	6	Bone	1394	BONE	Lexical_List
+Valenzuela-2023-44-7	7	7	Tongue	1205	TONGUE	Lexical_List
+Valenzuela-2023-44-8	8	8	Hand	1277	HAND	Lexical_List
+Valenzuela-2023-44-9	9	9	Night,Tomorrow			Lexical_List
+Valenzuela-2023-44-10	10	10	Skin	763	SKIN	Lexical_List
+Valenzuela-2023-44-11	11	11	Fire	221	FIRE	Lexical_List
+Valenzuela-2023-44-12	12	12	Knee	1371	KNEE	Lexical_List
+Valenzuela-2023-44-13	13	13	Blood	946	BLOOD	Lexical_List
+Valenzuela-2023-44-14	14	14	Breast	1402	BREAST	Lexical_List
+Valenzuela-2023-44-15	15	15	Sun,Moon			Lexical_List
+Valenzuela-2023-44-16	16	16	You	1215	THOU	Lexical_List
+Valenzuela-2023-44-17	17	17	Come	1446	COME	Lexical_List
+Valenzuela-2023-44-18	18	18	I	1209	I	Lexical_List
+Valenzuela-2023-44-19	19		Flesh	2259	FLESH	Body_Parts
+Valenzuela-2023-44-20	20		Fat	323	FAT (ORGANIC SUBSTANCE)	Body_Parts
+Valenzuela-2023-44-21	21		Fingernail	1258	FINGERNAIL	Body_Parts
+Valenzuela-2023-44-22	22		Foot,leg	2098	FOOT OR LEG	Body_Parts
+Valenzuela-2023-44-23	23		Lip,edge			Body_Parts
+Valenzuela-2023-44-24	24		Cheek	1730	CHEEK	Body_Parts
+Valenzuela-2023-44-25	25		Mouth	674	MOUTH	Body_Parts
+Valenzuela-2023-44-26	26		Elbow	981	ELBOW	Body_Parts
+Valenzuela-2023-44-27	27	1	1st SG 'I'			Grammatical_Morphemes
+Valenzuela-2023-44-28	28	2	2nd SG 'you'			Grammatical_Morphemes
+Valenzuela-2023-44-29	29	3	DEMONSTRATIVE			Grammatical_Morphemes
+Valenzuela-2023-44-30	30	4	DEMONSTRATIVE proximate			Grammatical_Morphemes
+Valenzuela-2023-44-31	31	5	GENITIVE			Grammatical_Morphemes
+Valenzuela-2023-44-32	32	6	IMPERATIVE			Grammatical_Morphemes
+Valenzuela-2023-44-33	33	7	GOING DOWN,DOWNWARD			Grammatical_Morphemes
+Valenzuela-2023-44-34	34	8	DO COMING			Grammatical_Morphemes
+Valenzuela-2023-44-35	35	9	DESIDERATIVE			Grammatical_Morphemes
+Valenzuela-2023-44-36	36	10	NEGATIVE	1240	NOT	Grammatical_Morphemes
+Valenzuela-2023-44-37	37	11	CAUSATIVE			Grammatical_Morphemes
+Valenzuela-2023-44-38	38	12	AUGMENTATIVE			Grammatical_Morphemes
+Valenzuela-2023-44-39	39	13	DO (TR.),AUXILIARY (TR.)			Grammatical_Morphemes
+Valenzuela-2023-44-40	40	14	TRANSITIVIZER			Grammatical_Morphemes
+Valenzuela-2023-44-41	41	15	DETRANSITIVIZER,REFLEXIVE			Grammatical_Morphemes
+Valenzuela-2023-44-42	42	16	ERGATIVE			Grammatical_Morphemes
+Valenzuela-2023-44-43	43	17	PREVIOUS EVENT, SAME-SUBJECT			Grammatical_Morphemes
+Valenzuela-2023-44-44	44	18	COMITATIVE,ALONG WITH			Grammatical_Morphemes

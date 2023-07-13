@@ -51,11 +51,7 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "PROTO_ID"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "PROTO_CONCEPT"
+                        "name": "SOURCE_ID"
                     }
                 ],
                 "primaryKey": [
