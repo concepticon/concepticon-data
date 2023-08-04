@@ -33,10 +33,6 @@
                         "name": "ENGLISH"
                     },
                     {
-                        "datatype": "string",
-                        "name": "SPANISH"
-                    },
-                    {
                         "datatype": {
                             "base": "integer",
                             "minimum": 1
