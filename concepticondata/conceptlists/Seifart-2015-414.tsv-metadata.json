@@ -44,10 +44,7 @@
                         "name": "ENGLISH"
                     },
                     {
-                        "datatype": {
-                            "base": "integer",
-                            "minimum": 1
-                        },
+                        "datatype": "string",
                         "name": "PROTO_ID"
                     }
                 ],
