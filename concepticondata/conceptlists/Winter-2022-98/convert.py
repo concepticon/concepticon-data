@@ -3,7 +3,7 @@ from pysem import to_concepticon
 from collections import defaultdict
 import json
 
-list_name = "Winter-2022-99"
+list_name = "Winter-2022-98"
 
 # must correct for error in data
 correct = {
@@ -11,7 +11,14 @@ correct = {
         "Milky Way": "milky way",
         "river": "river/stream",
         "fog": "fog/mist",
-        "(molar) tooth": "tooth"
+        "(molar) tooth": "tooth",
+        "stomach": "belly/stomach"
+        }
+
+map_concepts = {
+        "pupil": ["1658", "PUPIL"],
+        "spring": ["849", "SPRING (OF WATER)"],
+        "meteoroid": ["2288", "METEROID (SHOOTING OR SHINING STAR)"],
         }
 
 # read in data
@@ -94,14 +101,14 @@ with UnicodeWriter(list_name + ".tsv", delimiter="\t") as writer:
     table = []
     for concept in graph:
         # get concept mappings
-        mappings = to_concepticon([{"gloss": concept}])[concept]
-        if mappings:
-            cid, cgl = mappings[0][0], mappings[0][1]
+        if concept in map_concepts:
+            cid, cgl = map_concepts[concept]
         else:
-            cid, cgl = "", ""
-        if concept == "meteroid":
-            cid = "2288"
-            cgl = "METEROID (SHOOTING OR SHINING STAR)"
+            mappings = to_concepticon([{"gloss": concept}])[concept]
+            if mappings:
+                cid, cgl = mappings[0][0], mappings[0][1]
+            else:
+                cid, cgl = "", ""
         table += [[
             list_name + "-{0}".format(row2idx[concept]),
             str(row2idx[concept]),
