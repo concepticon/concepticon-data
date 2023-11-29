@@ -45,11 +45,11 @@
                     },
                     {
                         "datatype": "json",
-                        "name": "TARGET_NODES"
+                        "name": "TARGET_CONCEPTS"
                     },
                     {
                         "datatype": "json",
-                        "name": "SOURCE_NODES"
+                        "name": "SOURCE_CONCEPTS"
                     }
                 ],
                 "primaryKey": [
