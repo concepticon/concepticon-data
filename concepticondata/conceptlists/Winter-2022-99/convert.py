@@ -1,4 +1,4 @@
-from csvw.dsv import UnicodeDictReader
+from csvw.dsv import UnicodeDictReader, UnicodeWriter
 from pysem import to_concepticon
 from collections import defaultdict
 import json
@@ -78,17 +78,19 @@ with open("edges.tsv", "w") as f:
                     target["polysemy"],
                     target["overt_marking"]))
 
-with open(list_name + ".tsv", "w") as f:
-    f.write("\t".join([
-        "ID",
-        "NUMBER",
-        "ENGLISH",
-        "CONCEPTICON_ID",
-        "CONCEPTICON_GLOSS",
-        "SOURCE_CONCEPTS",
-        "TARGET_CONCEPTS",
-        ])+"\n"
-            )
+
+with UnicodeWriter(list_name + ".tsv", delimiter="\t") as writer:
+    writer.writerow(
+            [        
+             "ID",
+             "NUMBER",
+             "ENGLISH",
+             "CONCEPTICON_ID",
+             "CONCEPTICON_GLOSS",
+             "SOURCE_CONCEPTS",
+             "TARGET_CONCEPTS",
+             ])
+
     table = []
     for concept in graph:
         # get concept mappings
@@ -110,4 +112,4 @@ with open(list_name + ".tsv", "w") as f:
             json.dumps(graph[concept]["targets"]),
             ]]
     for row in sorted(table, key=lambda x: int(x[1])):
-        f.write("\t".join(row)+"\n")
+        writer.writerow(row)
