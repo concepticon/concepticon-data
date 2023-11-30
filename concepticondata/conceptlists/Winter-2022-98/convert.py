@@ -17,6 +17,7 @@ correct = {
 
 map_concepts = {
         "pupil": ["1658", "PUPIL"],
+        "straw/hay": ["2299", "STRAW"],
         "spring": ["849", "SPRING (OF WATER)"],
         "meteoroid": ["2288", "METEROID (SHOOTING OR SHINING STAR)"],
         }
