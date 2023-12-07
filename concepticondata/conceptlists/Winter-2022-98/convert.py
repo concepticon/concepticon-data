@@ -42,10 +42,13 @@ graph = defaultdict(lambda: {"sources": [], "targets": []})
 for concept, rows in data.items():
     # add info on 
     for row in rows:
-        oma, omar, polysemy = (
-                int(row["OvertMarking"]),
-                int(row["OvertMarkingReverse"]),
-                int(row["Polysemy"]))
+        if row["PairName"] == "day~noon":
+            oma, omar, polysemy = 3, 20, 0
+        else:
+            oma, omar, polysemy = (
+                    int(row["OvertMarking"]),
+                    int(row["OvertMarkingReverse"]),
+                    int(row["Polysemy"]))
         source, target = list(map(lambda x: correct.get(x, x),
                                   row["PairName"].split("~")))
         source_id, target_id = list(map(
