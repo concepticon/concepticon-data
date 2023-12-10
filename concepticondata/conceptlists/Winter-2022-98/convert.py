@@ -57,16 +57,16 @@ for concept, rows in data.items():
             [source, target]))
 
         source_json = {
-                "name": source,
-                "id": source_id,
-                "polysemy": polysemy,
-                "overt_marking": oma
+                "NAME": source,
+                "ID": source_id,
+                "Polysemy": polysemy,
+                "OvertMarking": oma
                 }
         target_json = {
-                "name": target,
-                "id": target_id,
-                "polysemy": polysemy,
-                "overt_marking": oma
+                "NAME": target,
+                "ID": target_id,
+                "Polysemy": polysemy,
+                "OvertMarking": oma
                 }
         if concept == source:
             graph[concept]["targets"] += [target_json]
@@ -85,9 +85,9 @@ with open("edges.tsv", "w") as f:
             for target in graph[node]["targets"]:
                 f.write("{0}\t{1}\t{2}\t{3}\n".format(
                     node,
-                    target["name"],
-                    target["polysemy"],
-                    target["overt_marking"]))
+                    target["NAME"],
+                    target["Polysemy"],
+                    target["OvertMarking"]))
 
 
 with UnicodeWriter(list_name + ".tsv", delimiter="\t") as writer:

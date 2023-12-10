@@ -39,11 +39,11 @@ for concept in urban.concepts.values():
             polysemies = data_b.split(" ")[0]
             overt = data_b.split(", ")[1].split(" ")[0]
             targets += [{
-                "id": concept2id[reps.get(target, target)],
-                "name": target,
-                "polysemy": int(polysemies),
-                "overt_marking": int(overt),
-                "shift_id": int(number)}]
+                "ID": concept2id[reps.get(target, target)],
+                "NAME": reps.get(target, target),
+                "Polysemy": int(polysemies),
+                "OvertMarking": int(overt),
+                "ShiftID": int(number)}]
     row += [json.dumps(targets)]
     table += [row]
 
