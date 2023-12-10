@@ -53,6 +53,10 @@
                     {
                         "datatype": "json", 
                         "name": "TARGET_CONCEPTS"
+                    },
+                    {
+                        "datatype": "json", 
+                        "name": "LINKED_CONCEPTS"
                     }
                 ], 
                 "primaryKey": [
