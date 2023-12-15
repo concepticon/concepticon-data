@@ -50,6 +50,10 @@
                     {
                         "datatype": "json",
                         "name": "SOURCE_CONCEPTS"
+                    },
+                    {
+                        "datatype": "json",
+                        "name": "LINKED_CONCEPTS"
                     }
                 ],
                 "primaryKey": [

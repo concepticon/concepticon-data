@@ -29,7 +29,7 @@ for concept in urban.concepts.values():
     if concept.attributes["semantic_change"]:
         print(concept.attributes["semantic_change"])
         # get the information, split by space
-        targets = []
+        targets, links = [], []
         for text in concept.attributes["semantic_change"].split("; "):
             # parse the data now
             data_a, data_b = text.split("» (")
@@ -39,11 +39,17 @@ for concept in urban.concepts.values():
             polysemies = data_b.split(" ")[0]
             overt = data_b.split(", ")[1].split(" ")[0]
             targets += [{
-                "id": concept2id[reps.get(target, target)],
-                "name": target,
-                "polysemy": int(polysemies),
-                "overt_marking": int(overt),
-                "shift_id": int(number)}]
+                "ID": concept2id[reps.get(target, target)],
+                "NAME": reps.get(target, target),
+                "OvertMarking": int(overt),
+                "ShiftID": int(number)}]
+            links += [{
+                "ID": concept2id[reps.get(target, target)],
+                "NAME": reps.get(target, target),
+                "Polysemy": int(polysemies),
+                "ShiftID": int(number)}]
+
+
     row += [json.dumps(targets)]
     table += [row]
 
@@ -53,7 +59,8 @@ with UnicodeWriter("Urban-2011-160.tsv", delimiter="\t") as writer:
                 "ID",
                 "NUMBER",
                 "ENGLISH", "CONCEPTICON_ID", "CONCEPTICON_GLOSS",
-                "SEMANTIC_CLASS_ID", "CATEGORY", "TARGET_CONCEPTS"])
+                "SEMANTIC_CLASS_ID", "CATEGORY", "TARGET_CONCEPTS",
+                "LINKED_CONCEPTS"])
     for row in table:
         writer.writerow(row)
 
