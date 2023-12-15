@@ -39,7 +39,7 @@ for i, (concept, row) in enumerate(data.items()):
     row2idx[concept] = idx
 
 # create graph
-graph = defaultdict(lambda: {"sources": [], "targets": []})
+graph = defaultdict(lambda: {"sources": [], "targets": [], "linked": []})
 for concept, rows in data.items():
     # add info on 
     for row in rows:
@@ -57,37 +57,30 @@ for concept, rows in data.items():
             [source, target]))
 
         source_json = {
-                "name": source,
-                "id": source_id,
-                "polysemy": polysemy,
-                "overt_marking": oma
+                "NAME": source,
+                "ID": source_id,
+                "OvertMarking": oma
                 }
         target_json = {
-                "name": target,
-                "id": target_id,
-                "polysemy": polysemy,
-                "overt_marking": oma
+                "NAME": target,
+                "ID": target_id,
+                "OvertMarking": oma
+                }
+        links_json = {
+                "NAME": target,
+                "ID": target_id,
+                "Polysemy": polysemy
                 }
         if concept == source:
             graph[concept]["targets"] += [target_json]
             graph[concept]["sources"] += [{
-                k: omar if k == "overt_marking" else v for k, v in target_json.items()}]
+                k: omar if k == "OvertMarking" else v for k, v in target_json.items()}]
         else:
             graph[concept]["sources"] += [source_json]
             graph[concept]["targets"] += [{
-                k: omar if k == "overt_marking" else v for k, v in source_json.items()}]
-            
+                k: omar if k == "OvertMarking" else v for k, v in source_json.items()}]
+        graph[concept]["linked"] += [links_json]
 
-with open("edges.tsv", "w") as f:
-    f.write("Source\tTarget\tPolysemy\tOvertMarking\n")
-    for node in graph:
-        if graph[node]["targets"]:
-            for target in graph[node]["targets"]:
-                f.write("{0}\t{1}\t{2}\t{3}\n".format(
-                    node,
-                    target["name"],
-                    target["polysemy"],
-                    target["overt_marking"]))
 
 
 with UnicodeWriter(list_name + ".tsv", delimiter="\t") as writer:
@@ -100,6 +93,7 @@ with UnicodeWriter(list_name + ".tsv", delimiter="\t") as writer:
              "CONCEPTICON_GLOSS",
              "SOURCE_CONCEPTS",
              "TARGET_CONCEPTS",
+             "LINKED_CONCEPTS",
              ])
 
     table = []
@@ -121,6 +115,7 @@ with UnicodeWriter(list_name + ".tsv", delimiter="\t") as writer:
             cgl,
             json.dumps(graph[concept]["sources"]),
             json.dumps(graph[concept]["targets"]),
+            json.dumps(graph[concept]["linked"])
             ]]
     for row in sorted(table, key=lambda x: int(x[1])):
         writer.writerow(row)
