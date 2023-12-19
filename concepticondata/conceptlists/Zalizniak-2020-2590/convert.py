@@ -25,14 +25,14 @@ for concept in dss.concepts.values():
             polysemy += [{
                 "ID": num2id[link],
                 "NAME": num2name[link],
-                "Weight": weight,
+                "Weight": int(weight),
                 "Shifts": "https://datsemshift.ru/" + shift
                 }]
         elif direction == "→":
             targets += [{
                 "ID": num2id[link],
                 "NAME": num2name[link],
-                "Weight": weight,
+                "Weight": int(weight),
                 "Shifts": "https://datsemshift.ru/" + shift
                 }]
     row = [
