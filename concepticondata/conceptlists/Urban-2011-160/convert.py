@@ -50,7 +50,7 @@ for concept in urban.concepts.values():
                 "ShiftID": int(number)}]
 
 
-    row += [json.dumps(targets)]
+    row += [json.dumps(targets), json.dumps(links)]
     table += [row]
 
 with UnicodeWriter("Urban-2011-160.tsv", delimiter="\t") as writer:
