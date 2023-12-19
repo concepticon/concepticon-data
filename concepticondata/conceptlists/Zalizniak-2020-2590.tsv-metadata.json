@@ -48,26 +48,12 @@
                       "name": "RANK"
                     },
                     {
-                        "datatype": "string",
-                        "separator": " ",
-                        "name": "LINKS"
+                        "datatype": "json",
+                        "name": "LINKED_CONCEPTS"
                     },
                     {
-                      "name": "WEIGHTS",
-                      "datatype": "integer",
-                      "separator": " "
-                    },
-                    {
-                      "name": "DIRECTIONS",
-                      "datatype": "string",
-                      "separator": " "
-                    },
-                    {
-                      "name": "URLS",
-                      "separator": " ",
-                      "datatype": "string",
-                      "propertyUrl": "dc:relation",
-                      "valueUrl": "http://datsemshift.ru/{0}"
+                      "name": "TARGET_CONCEPTS",
+                      "datatype": "json"
                     },
                     {
                         "datatype": "integer",
