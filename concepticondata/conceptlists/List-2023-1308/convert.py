@@ -65,6 +65,11 @@ for i, node in enumerate(full_graph.vs):
 
 valid_edges = defaultdict(list)
 common_edges = defaultdict(list)
+selected_edges = {
+        "colexification": [], 
+        "affixes": [],
+        "overlap": []}
+
 for graph, name in [
         (full_graph, "colexification"), 
         (affix_graph, "affixes"),
@@ -92,14 +97,15 @@ for graph, name in [
                 label2id[graph.vs[edge.target]["label"]],
                 label2id[graph.vs[edge.source]["label"]],
                 )] += [(name, edge.attributes()["family_count"])]
+            selected_edges[name] += [edge]
 
 
-for graph, name in [(full_graph, "Full"), 
-                    (affix_graph, "Affix"),
-                    (overlap_graph, "Overlap")
-                    ]:
+for graph, edgelist, name in [
+        (full_graph, "colexification", "Full"), 
+        (affix_graph, "affixes", "Affix"),
+        (overlap_graph, "overlap", "Overlap")]:
     print(name)
-    for edge in graph.es:
+    for edge in selected_edges[edgelist]:
         sid, tid = edge.source, edge.target
         sname, tname = (
                 graph.vs[sid]["label"], 
@@ -117,7 +123,17 @@ for graph, name in [(full_graph, "Full"),
             jds[target_idx][name + "Vars"] = int(edge["variety_count"]) 
             jds[target_idx][name + "Lngs"] = int(edge["language_count"]) 
             jds[target_idx][name + "Fams"] = int(edge["family_count"])
-            #concepts[sidx][-1] = jds
+
+        if edgelist in ["colexification", "overlap"]:
+            if (tidx, sidx) in valid_edges:
+                source = concepts[tidx]
+                jds = source[-2]
+                target_idx = list_prefix + "-" + sidx
+                jds[target_idx]["ID"] = target_idx
+                jds[target_idx]["NAME"] = sname
+                jds[target_idx][name + "Vars"] = int(edge["variety_count"]) 
+                jds[target_idx][name + "Lngs"] = int(edge["language_count"]) 
+                jds[target_idx][name + "Fams"] = int(edge["family_count"])
             
 
 with UnicodeWriter(list_prefix + ".tsv", delimiter="\t") as writer:
