@@ -39,6 +39,7 @@ for i, node in enumerate(graphs['Full'].vs):
     ])
 
 valid_edges = collections.defaultdict(list)
+selected_edges = collections.defaultdict(list)
 for name, graph in graphs.items():
     name = {'Full': 'colexification', 'Affix': 'affixes', 'Overlap': 'overlap'}[name]
     for edge in graph.es:
@@ -66,7 +67,15 @@ for name, graph in graphs.items():
             jds[target_idx][name + "Vars"] = int(edge["variety_count"]) 
             jds[target_idx][name + "Lngs"] = int(edge["language_count"]) 
             jds[target_idx][name + "Fams"] = int(edge["family_count"])
-
+        if name != "Affix":
+            if (tidx, sidx) in valid_edges:
+                jds = concepts[sidx]['TARGET_CONCEPTS' if name == 'Affix' else 'LINKED_CONCEPTS']
+                target_idx = pathlib.Path(__file__).parent.name + "-" + sidx
+                jds[target_idx]["ID"] = target_idx
+                jds[target_idx]["NAME"] = sname
+                jds[target_idx][name + "Vars"] = int(edge["variety_count"]) 
+                jds[target_idx][name + "Lngs"] = int(edge["language_count"]) 
+                jds[target_idx][name + "Fams"] = int(edge["family_count"])
 
 with ConceptlistWithNetworksWriter(pathlib.Path(__file__).parent.name) as table:
     for row in sorted(concepts.values(), key=lambda x: int(x['NUMBER'])):
