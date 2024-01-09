@@ -51,8 +51,12 @@
                         "name": "CATEGORY"
                     }, 
                     {
-                        "datatype": "string", 
-                        "name": "SEMANTIC_CHANGE"
+                        "datatype": "json", 
+                        "name": "TARGET_CONCEPTS"
+                    },
+                    {
+                        "datatype": "json", 
+                        "name": "LINKED_CONCEPTS"
                     }
                 ], 
                 "primaryKey": [

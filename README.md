@@ -31,6 +31,22 @@ Here, you can find
   (if not all files) have a "NUMBER" field indicating the number in the reference, which is also 
   important for ordering the entries as given in the original source. Additional columns are more 
   or less free to the user, but we tried to be consistent.
+
+  Some concept lists are based on sources that may change, thus require a mechanism for re-creation.
+  In this case, there will a directory named after the list, containing the relevant curation scripts.
+
+  Concept lists may contain information about relations between concepts. If so, such relations must
+  be stored as content of columns named `LINKED|SOURCE|TARGET_CONCEPTS`. The values for these columns
+  must be
+  - lists of edge objects, where
+  - the concept described in the same row is assumed to be one node of the edge,
+  - the second node is specified via a property `ID` the value of which must be a concept identifier
+    in the list,
+  - serialized as JSON.
+
+  Edges in the graph described in `LINKED_CONCEPTS` are considered undirected, whereas edges in
+  `SOURCE|TARGET_CONCEPTS` are considered directed, with the concepts specified in the edge objects
+  identifying the `SOURCE` or `TARGET`, respectively, of the edge.
 - **conceptlists.tsv** contains metadata about the lists in **conceptlists/**.
 - **references/references.bib** the bibtex file showing links to all concept lists (bibtex-key 
   identical to the name of the conceptlist file, without file-ending. File further contains links 
