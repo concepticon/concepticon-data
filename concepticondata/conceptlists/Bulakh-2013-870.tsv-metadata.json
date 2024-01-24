@@ -46,11 +46,7 @@
                         "datatype": "string", 
                         "name": "DSS_ID"
                     }, 
-                    {
-                        "datatype": "anyURI", 
-                        "name": "URL"
-                    }, 
-                    {
+        	    {
                         "datatype": "string", 
                         "name": "OCCURRENCES"
                     }
