@@ -39,7 +39,7 @@ If you link a concept list manually, we will check automatically and manually th
 * the concept list itself, which should be placed into the folder [conceptlists/](https://github.com/concepticon/concepticon-data/tree/master/concepticondata/conceptlists). Here, we follow the convention of naming the file according to the schema FirstAuthor-Year-NumberOfItems.tsv. If you have multiple lists published in the same article/book, disambiguation with a, b, and c is recommended. If two lists have the same author, year, and number of items, they must be disambiguated with a, b, c. Each list needs to have the following fields (the order is irrelevant):
   - ID: an identifier, following the schema FirstAuthor-Year-NumberOfItems-Number
   - NUMBER: a number for each item of your list which corresponds to the ID 
-  - ENGLISH or GLOSS: use ENGLISH, if the original language is ENGLISH; use GLOSS, if the original entry of the concept label is another language and the gloss is your translation
+  - ENGLISH or GLOSS: use ENGLISH, if the original language is ENGLISH; use GLOSS, if the original entry of the concept label is another language and the gloss is your translation; at least one of the columns needs to be included in the concept list
   - CONCEPTICON_ID: either a valid ID of our Concepticon, or an empty field, if you don't know how to map it (we automatically compute the amount of missing links and indicate them for each concept list)
   - CONCEPTICON_GLOSS: the gloss corresponding to the CONCEPTICON_ID
 

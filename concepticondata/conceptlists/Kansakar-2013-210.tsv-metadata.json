@@ -43,19 +43,15 @@
                         "name": "ENGLISH"
                     }, 
                     {
-                        "datatype": "string", 
-                        "name": "DSS_ID"
-                    }, 
-        	    {
-                        "datatype": "string", 
-                        "name": "OCCURRENCES"
+                        "datatype": "integer", 
+                        "name": "PAGE"
                     }
                 ], 
                 "primaryKey": [
                     "ID"
                 ]
             }, 
-            "url": "Bulakh-2013-870.tsv"
+            "url": "Kansakar-2013-210.tsv"
         }
     ]
 }
