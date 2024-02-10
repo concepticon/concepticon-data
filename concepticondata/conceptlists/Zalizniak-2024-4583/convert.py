@@ -11,7 +11,7 @@ with UnicodeDictReader("raw/parameters.csv") as reader:
 
 id2id = {}
 for row in data:
-    id2id[row["ID"]] = "Salizniak-2024-4583-" + row["Number"]
+    id2id[row["ID"]] = "Zalizniak-2024-4583-" + row["Number"]
 
 with ConceptlistWithNetworksWriter(
         pathlib.Path(__file__).parent.name) as table:
