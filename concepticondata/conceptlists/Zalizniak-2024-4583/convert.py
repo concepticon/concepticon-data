@@ -20,6 +20,7 @@ with ConceptlistWithNetworksWriter(
         new_row = collections.OrderedDict([
             ("NUMBER", row["Number"]),
             ("ENGLISH", row["Name"]),
+            ("GLOSS_IN_SOURCE", row["Gloss_in_Source"]),
             ("CONCEPTICON_ID", row["Concepticon_ID"]),
             ("CONCEPTICON_GLOSS", row["Concepticon_Gloss"]),
             ("SHIFTS", row["Shifts"]),
