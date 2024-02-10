@@ -12,32 +12,32 @@ concept2id = {concept.english: concept.id for concept in urban.concepts.values()
 # get indo-aryan shifts
 
 reps = {"mirrow": "mirror", "straw/hay": "straw", "cheeck": "cheek"}
-iashifts = {}
+iashifts = collections.defaultdict(dict)
 with UnicodeDictReader(
         pathlib.Path(__file__).parent / "raw" / "indo-aryan-shifts.tsv",
         delimiter="\t") as reader:
     for row in reader:
-        if row["Direction"] == "1":
-            iashifts[reps.get(row["Source"], row["Source"])] = reps.get(
-                    row["Target"],
-                    row["Target"])
-        else:
-            iashifts[reps.get(row["Target"], row["Target"])] = reps.get(
-                    row["Source"],
-                    row["Source"])
+        iashifts[reps.get(row["Source"], row["Source"])][reps.get(
+                row["Target"],
+                row["Target"])] = row["ID"]
 
 
 with ConceptlistWithNetworksWriter(pathlib.Path(__file__).parent.name) as table:
+    linked_concepts = {concept.id: [] for concept in
+                       urban.concepts.values()}
+    targeted_concepts = {concept.id: [] for concept in
+                         urban.concepts.values()}
     for concept in urban.concepts.values():
-        row = collections.OrderedDict([
-            ('NUMBER', concept.number),
-            ('ENGLISH', concept.english),
-            ('CONCEPTICON_ID', concept.concepticon_id),
-            ('CONCEPTICON_GLOSS', concept.concepticon_gloss),
-            ('SEMANTIC_CLASS_ID', concept.attributes["semantic_class_id"]),
-            ('CATEGORY', concept.attributes["category"]),
-        ])
-        targets, links  = [], []
+        targets, links = [], []
+        if concept.english in iashifts and not concept.attributes["semantic_change"]:
+            for target, idx in iashifts[concept.english].items():
+                targeted_concepts[concept.id] += [{
+                    "ID": concept2id[target],
+                    "NAME": target,
+                    "OvertMarking": 0,
+                    "IndoAryanShift": 1,
+                    "ShiftID": idx
+                    }]
         if concept.attributes["semantic_change"]:
             # get the information, split by space
             for text in concept.attributes["semantic_change"].split("; "):
@@ -53,17 +53,33 @@ with ConceptlistWithNetworksWriter(pathlib.Path(__file__).parent.name) as table:
                 if concept.english in iashifts:
                     if reps.get(target, target) in iashifts[concept.english]:
                         attested_shift = 1
-                targets += [{
+                targeted_concepts[concept.id] += [{
                     "ID": concept2id[reps.get(target, target)],
                     "NAME": reps.get(target, target),
                     "OvertMarking": int(overt),
-                    "ShiftID": int(number)}]
-                links += [{
+                    "IndoAryanShift": attested_shift,
+                    "ShiftID": int(number) + 1}]
+                linked_concepts[concept.id] += [{
                     "ID": concept2id[reps.get(target, target)],
                     "NAME": reps.get(target, target),
                     "Polysemy": int(polysemies),
-                    "AttestedShift": attested_shift,
-                    "ShiftID": int(number)}]
-        row['TARGET_CONCEPTS'] = targets
-        row['LINKED_CONCEPTS'] = links
+                    "ShiftID": int(number)+ 1}]
+                linked_concepts[concept2id[reps.get(target, target)]] += [{
+                    "ID": concept.id,
+                    "NAME": concept.english,
+                    "Polysemy": int(polysemies),
+                    "ShiftID": int(number) + 1}]
+
+    for concept in urban.concepts.values():
+        row = collections.OrderedDict([
+            ('NUMBER', concept.number),
+            ('ENGLISH', concept.english),
+            ('CONCEPTICON_ID', concept.concepticon_id),
+            ('CONCEPTICON_GLOSS', concept.concepticon_gloss),
+            ('SEMANTIC_CLASS_ID', concept.attributes["semantic_class_id"]),
+            ('CATEGORY', concept.attributes["category"]),
+        ])
+                
+        row['TARGET_CONCEPTS'] = targeted_concepts[concept.id]
+        row['LINKED_CONCEPTS'] = linked_concepts[concept.id]
         table.append(row)
