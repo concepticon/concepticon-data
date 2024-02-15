@@ -25,7 +25,7 @@ with ConceptlistWithNetworksWriter(
         if number not in data:
             new_row = collections.OrderedDict([
                 ("NUMBER", row_["NUMBER"]),
-                ("ENGLISH", row_["ENGLISH"]),
+                ("ENGLISH", "*" + row_["ENGLISH"]),
                 ("GLOSS_IN_SOURCE", row_["GLOSS_IN_SOURCE"]),
                 ("DEFINITION", row_["DEFINITION"]),
                 ("CONCEPTICON_ID", ""),
