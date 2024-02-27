@@ -9,7 +9,7 @@ import collections
 with UnicodeDictReader(pathlib.Path(__file__).parent / "raw" / "parameters.csv") as reader:
     data = {row["Number"]: row for row in reader}
 
-with UnicodeDictReader(pathlib.Path(__file__).parent / "raw" / "concepts.tsv",
+with UnicodeDictReader(pathlib.Path(__file__).parent / "raw" / "concepts-mapped.tsv",
                        delimiter="\t") as reader:
     concepts = {row["NUMBER"]: row for row in reader}
     
@@ -43,8 +43,8 @@ with ConceptlistWithNetworksWriter(
                 ("NUMBER", row["Number"]),
                 ("ENGLISH", row["Name"]),
                 ("GLOSS_IN_SOURCE", row["Gloss_in_Source"]),
-                ("CONCEPTICON_ID", row["Concepticon_ID"]),
-                ("CONCEPTICON_GLOSS", row["Concepticon_Gloss"]),
+                ("CONCEPTICON_ID", row_["CONCEPTICON_ID"]),
+                ("CONCEPTICON_GLOSS", row_["CONCEPTICON_GLOSS"]),
                 ("SHIFTS", row["Shifts"]),
                 ("DEFINITION", row["Definition"]),
                 ("ALIAS", row["Alias"]),
