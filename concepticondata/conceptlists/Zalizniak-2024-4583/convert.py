@@ -9,7 +9,7 @@ import collections
 with UnicodeDictReader(pathlib.Path(__file__).parent / "raw" / "parameters.csv") as reader:
     data = {row["Number"]: row for row in reader}
 
-with UnicodeDictReader(pathlib.Path(__file__).parent / "raw" / "concepts.tsv",
+with UnicodeDictReader(pathlib.Path(__file__).parent / "raw" / "concepts-mapped.tsv",
                        delimiter="\t") as reader:
     concepts = {row["NUMBER"]: row for row in reader}
     
