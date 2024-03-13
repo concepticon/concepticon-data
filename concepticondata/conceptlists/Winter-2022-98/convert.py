@@ -48,7 +48,10 @@ for concept, rows in data.items():
 
         source_json = {"NAME": source, "ID": source_id, "OvertMarking": oma}
         target_json = {"NAME": target, "ID": target_id, "OvertMarking": oma}
-        links_json = {"NAME": target, "ID": target_id, "Polysemy": polysemy}
+        if concept == source:
+            links_json = {"NAME": target, "ID": target_id, "Polysemy": polysemy}
+        elif concept == target:
+            links_json = {"NAME": source, "ID": source_id, "Polysemy": polysemy}
         if concept == source:
             graph[concept]["targets"] += [target_json]
             graph[concept]["sources"] += [{

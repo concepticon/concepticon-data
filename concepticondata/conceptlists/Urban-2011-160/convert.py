@@ -11,7 +11,6 @@ concept2id = {concept.english: concept.id for concept in urban.concepts.values()
 reps = {"mirrow": "mirror", "straw/hay": "straw", "cheeck": "cheek"}
 
 with ConceptlistWithNetworksWriter(pathlib.Path(__file__).parent.name) as table:
-    links = []
     for concept in urban.concepts.values():
         row = collections.OrderedDict([
             ('NUMBER', concept.number),
@@ -21,10 +20,9 @@ with ConceptlistWithNetworksWriter(pathlib.Path(__file__).parent.name) as table:
             ('SEMANTIC_CLASS_ID', concept.attributes["semantic_class_id"]),
             ('CATEGORY', concept.attributes["category"]),
         ])
-        targets = []
+        targets, links  = [], []
         if concept.attributes["semantic_change"]:
             # get the information, split by space
-            targets, links = [], []
             for text in concept.attributes["semantic_change"].split("; "):
                 # parse the data now
                 data_a, data_b = text.split("» (")
