@@ -44,7 +44,7 @@ for g in Graphs:
                 ('TARGET_CONCEPTS', collections.defaultdict(functools.partial(node_dict, 'TARGET')))
             ])
 
-    for edge in graph.es:  # Loop over the edges of the graph.
+    for edge in graph.es:  # Collect the data for the network columns.
         if ((g != Graphs.Overlap and int(edge["family_count"]) > 1)
                 or (g == Graphs.Overlap and int(edge["family_count"]) > 4)):  # Apply thresholds.
             sname, tname = graph.vs[edge.source]["label"], graph.vs[edge.target]["label"]
