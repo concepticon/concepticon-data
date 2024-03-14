@@ -20,6 +20,7 @@ map_concepts = {
     "straw/hay": ["2299", "STRAW"],
     "spring": ["849", "SPRING (OF WATER)"],
     "meteoroid": ["2288", "METEOROID (SHOOTING OR SHINING STAR)"],
+    "road/street/way": ["2457", "PATH OR ROAD"],
 }
 
 # read in data

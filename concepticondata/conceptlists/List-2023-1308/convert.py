@@ -1,84 +1,72 @@
+import enum
 import pathlib
+import functools
 import collections
 
 import igraph
 from pyconcepticon import Concepticon
 from pyconcepticon.util import ConceptlistWithNetworksWriter
 
-c2i = {c.gloss: c.id for c in Concepticon().conceptsets.values()}
 
-graphs = collections.OrderedDict([
-    (key, igraph.read("raw/colexification-{}.gml".format(key.lower())))
-    for key in ['Full', 'Affix', 'Overlap']])
+class Graphs(enum.Enum):  # We read data from three different CLICS graphs.
+    Full = 1
+    Affix = 2
+    Overlap = 3
 
-label2id = {k.attributes()["label"]: str(i+1) for i, k in enumerate(graphs['Full'].vs)}
 
-concepts = {}
-for i, node in enumerate(graphs['Full'].vs):
-    data = node.attributes()
-    concepts[label2id[data["label"]]] = collections.OrderedDict([
-        ('NUMBER', label2id[data["label"]]),
-        ('ENGLISH', data["label"]),
-        ('CONCEPTICON_ID', c2i[data["label"]]),
-        ('CONCEPTICON_GLOSS', data["label"]),
-        ('VARIETY_COUNT', int(data["variety_count"])),
-        ('LANGUAGE_COUNT', int(data["language_count"])),
-        ('FAMILY_COUNT', int(data["family_count"])),
-        ('LINKED_CONCEPTS', collections.defaultdict(lambda: dict(
-            ID="",
-            NAME="",
-            OverlapVars=0,
-            OverlapLngs=0,
-            OverlapFams=0,
-            FullVars=0,
-            FullLngs=0,
-            FullFams=0
-        ))),
-        ('TARGET_CONCEPTS', collections.defaultdict(lambda: dict(
-            ID="", NAME="", AffixVars=0, AffixLngs=0, AffixFams=0)))
-    ])
+def node_dict(type_):  # The skeleton for a concept node.
+    res = {'ID': '', 'NAME': ''}
+    if type_ == 'LINKED':
+        res.update({'{}{}'.format(Graphs.Full.name, s): 0 for s in ['Vars', 'Lngs', 'Fams']})
+        res.update({'{}{}'.format(Graphs.Overlap.name, s): 0 for s in ['Vars', 'Lngs', 'Fams']})
+    else:
+        res.update({'{}{}'.format(Graphs.Affix.name, s): 0 for s in ['Vars', 'Lngs', 'Fams']})
+    return res
 
-valid_edges = collections.defaultdict(list)
-selected_edges = collections.defaultdict(list)
-for name, graph in graphs.items():
-    name = {'Full': 'colexification', 'Affix': 'affixes', 'Overlap': 'overlap'}[name]
-    for edge in graph.es:
-        if ((name != "overlap" and edge["family_count"] > 1)
-                or (name == "overlap" and edge["family_count"] > 4)):
-            valid_edges[(
-                label2id[graph.vs[edge.source]["label"]],
-                label2id[graph.vs[edge.target]["label"]],
-            )] += [(name, edge.attributes()["family_count"])]
-            valid_edges[(
-                label2id[graph.vs[edge.target]["label"]],
-                label2id[graph.vs[edge.source]["label"]],
-            )] += [(name, edge.attributes()["family_count"])]
 
-for name, graph in graphs.items():
-    print(name)
-    for edge in graph.es:
-        sname, tname = graph.vs[edge.source]["label"], graph.vs[edge.target]["label"]
-        sidx, tidx = label2id[sname], label2id[tname]
-        if (sidx, tidx) in valid_edges:
-            jds = concepts[sidx]['TARGET_CONCEPTS' if name == 'Affix' else 'LINKED_CONCEPTS']
+concepts, label2id = {}, {}
+for g in Graphs:
+    graph = igraph.read("raw/colexification-{}.gml".format(g.name.lower()))
+    if g == Graphs.Full:  # Initialize the concepts.
+        c2i = {c.gloss: c.id for c in Concepticon().conceptsets.values()}
+        for i, node in enumerate(graph.vs):
+            data = node.attributes()
+            label2id[data["label"]] = str(i + 1)
+            concepts[label2id[data["label"]]] = collections.OrderedDict([
+                ('NUMBER', label2id[data["label"]]),
+                ('ENGLISH', data["label"]),
+                ('CONCEPTICON_ID', c2i[data["label"]]),
+                ('CONCEPTICON_GLOSS', data["label"]),
+                ('VARIETY_COUNT', int(data["variety_count"])),
+                ('LANGUAGE_COUNT', int(data["language_count"])),
+                ('FAMILY_COUNT', int(data["family_count"])),
+                ('LINKED_CONCEPTS', collections.defaultdict(functools.partial(node_dict, 'LINKED'))),
+                ('TARGET_CONCEPTS', collections.defaultdict(functools.partial(node_dict, 'TARGET')))
+            ])
+
+    for edge in graph.es:  # Collect the data for the network columns.
+        if ((g != Graphs.Overlap and int(edge["family_count"]) > 1)
+                or (g == Graphs.Overlap and int(edge["family_count"]) > 4)):  # Apply thresholds.
+            sname, tname = graph.vs[edge.source]["label"], graph.vs[edge.target]["label"]
+            sidx, tidx = label2id[sname], label2id[tname]
+            jds = concepts[sidx]['TARGET_CONCEPTS' if g == Graphs.Affix else 'LINKED_CONCEPTS']
             target_idx = pathlib.Path(__file__).parent.name + "-" + tidx
             jds[target_idx]["ID"] = target_idx
             jds[target_idx]["NAME"] = tname
-            jds[target_idx][name + "Vars"] = int(edge["variety_count"]) 
-            jds[target_idx][name + "Lngs"] = int(edge["language_count"]) 
-            jds[target_idx][name + "Fams"] = int(edge["family_count"])
-        if name != "Affix":
-            if (tidx, sidx) in valid_edges:
-                jds = concepts[sidx]['TARGET_CONCEPTS' if name == 'Affix' else 'LINKED_CONCEPTS']
+            jds[target_idx][g.name + "Vars"] = int(edge["variety_count"]) 
+            jds[target_idx][g.name + "Lngs"] = int(edge["language_count"]) 
+            jds[target_idx][g.name + "Fams"] = int(edge["family_count"])
+            if g != Graphs.Affix:  # For non-Affix edges, we also add the reversed edge.
+                jds = concepts[tidx]['LINKED_CONCEPTS']
                 target_idx = pathlib.Path(__file__).parent.name + "-" + sidx
                 jds[target_idx]["ID"] = target_idx
                 jds[target_idx]["NAME"] = sname
-                jds[target_idx][name + "Vars"] = int(edge["variety_count"]) 
-                jds[target_idx][name + "Lngs"] = int(edge["language_count"]) 
-                jds[target_idx][name + "Fams"] = int(edge["family_count"])
+                jds[target_idx][g.name + "Vars"] = int(edge["variety_count"]) 
+                jds[target_idx][g.name + "Lngs"] = int(edge["language_count"]) 
+                jds[target_idx][g.name + "Fams"] = int(edge["family_count"])
 
 with ConceptlistWithNetworksWriter(pathlib.Path(__file__).parent.name) as table:
-    for row in sorted(concepts.values(), key=lambda x: int(x['NUMBER'])):
+    for rid, row in sorted(concepts.items(), key=lambda x: int(x[1]['NUMBER'])):
         for type_ in ['TARGET', 'LINKED']:
             row[type_ + '_CONCEPTS'] = sorted(
                 row[type_ + '_CONCEPTS'].values(),
