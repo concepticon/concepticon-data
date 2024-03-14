@@ -1,26 +1,18 @@
-from pycldf import Dataset
-from csvw.dsv import UnicodeWriter, UnicodeDictReader
 import json
-from pyconcepticon.util import ConceptlistWithNetworksWriter
 import pathlib
 import collections
 
+from pycldf import Dataset
+from csvw.dsv import UnicodeWriter, reader
+from pyconcepticon.util import ConceptlistWithNetworksWriter
 
-with UnicodeDictReader(pathlib.Path(__file__).parent / "raw" / "parameters.csv") as reader:
-    data = {row["Number"]: row for row in reader}
+rdir = pathlib.Path(__file__).parent / "raw"
+data = {row["Number"]: row for row in reader(rdir / "parameters.csv", dicts=True)}
+concepts = {
+    row["NUMBER"]: row for row in reader(rdir / "concepts-mapped.tsv", dicts=True, delimiter='\t')}
+id2id = {row['ID']: "Zalizniak-2024-4583-" + row["Number"] for row in data.values()}
 
-with UnicodeDictReader(pathlib.Path(__file__).parent / "raw" / "concepts-mapped.tsv",
-                       delimiter="\t") as reader:
-    concepts = {row["NUMBER"]: row for row in reader}
-    
-
-id2id = {}
-for row in data.values():
-    id2id[row["ID"]] = "Zalizniak-2024-4583-" + row["Number"]
-
-with ConceptlistWithNetworksWriter(
-        pathlib.Path(__file__).parent.name) as table:
-
+with ConceptlistWithNetworksWriter(pathlib.Path(__file__).parent.name) as table:
     for number, row_ in concepts.items():
         if number not in data:
             new_row = collections.OrderedDict([

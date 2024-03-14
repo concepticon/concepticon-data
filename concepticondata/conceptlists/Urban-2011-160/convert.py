@@ -1,6 +1,7 @@
 import pathlib
 import collections
-from csvw.dsv import UnicodeDictReader
+
+from csvw.dsv import reader
 
 from pyconcepticon import models
 from pyconcepticon.util import ConceptlistWithNetworksWriter
@@ -10,23 +11,15 @@ urban = models.Conceptlist.from_file("raw/Urban-2011-160.tsv")
 concept2id = {concept.english: concept.id for concept in urban.concepts.values()}
 
 # get indo-aryan shifts
-
 reps = {"mirrow": "mirror", "straw/hay": "straw", "cheeck": "cheek"}
 iashifts = collections.defaultdict(dict)
-with UnicodeDictReader(
-        pathlib.Path(__file__).parent / "raw" / "indo-aryan-shifts.tsv",
-        delimiter="\t") as reader:
-    for row in reader:
-        iashifts[reps.get(row["Source"], row["Source"])][reps.get(
-                row["Target"],
-                row["Target"])] = row["ID"]
+for row in reader('raw/indo-aryan-shifts.tsv', delimiter='\t', dicts=True):
+    iashifts[reps.get(row["Source"], row["Source"])][reps.get(row["Target"], row["Target"])] = row["ID"]
 
 
 with ConceptlistWithNetworksWriter(pathlib.Path(__file__).parent.name) as table:
-    linked_concepts = {concept.id: [] for concept in
-                       urban.concepts.values()}
-    targeted_concepts = {concept.id: [] for concept in
-                         urban.concepts.values()}
+    linked_concepts = {concept.id: [] for concept in urban.concepts.values()}
+    targeted_concepts = {concept.id: [] for concept in urban.concepts.values()}
     for concept in urban.concepts.values():
         targets, links = [], []
         if concept.english in iashifts and not concept.attributes["semantic_change"]:
