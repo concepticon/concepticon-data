@@ -63,6 +63,7 @@ Andrew Kitchen | D | 1.0
 András Kornai | M | 2.5
 Andy Castro | T | 2.0, 2.2
 Anja Gampe | D | 1.1
+Anna Di Natale | LP | 3.2
 Anthony Grant | MS | 1.1
 Ayten Tüfekci | CL | 2.5
 Ben Yackley | P | 1.1
@@ -92,6 +93,7 @@ Janine Wieking | CL | 2.5
 Johannes Dellert | LPD | 1.1
 Joshua Conrad Jackson | DM | 2.4
 Julia Fischer | SDT | 1.0
+Katja Bocklage | LP | 3.2
 Katja Sirges | C | 2.5
 Kristina Pianykh | DCTLP | 2.1
 Lars Borin | DL | 1.0
