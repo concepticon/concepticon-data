@@ -56,7 +56,7 @@ for g in Graphs:
             jds[target_idx][g.name + "Vars"] = int(edge["variety_count"]) 
             jds[target_idx][g.name + "Lngs"] = int(edge["language_count"]) 
             jds[target_idx][g.name + "Fams"] = int(edge["family_count"])
-            if g != Graphs.Affix:  # For non-Affix edges, we als add the reversed edge.
+            if g != Graphs.Affix:  # For non-Affix edges, we also add the reversed edge.
                 jds = concepts[tidx]['LINKED_CONCEPTS']
                 target_idx = pathlib.Path(__file__).parent.name + "-" + sidx
                 jds[target_idx]["ID"] = target_idx
