@@ -56,6 +56,7 @@ For all this help, we are very grateful and express our gratitude.
 
 Name | Contribution | Version |
 --- | --- | --- |
+Alexander D. Smith | A | 3.2
 Alexei Kassian | D | 1.0
 Andreea Calude | D | 1.1
 Andrew Hsiu | DM | 2.3
