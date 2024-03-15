@@ -24,14 +24,12 @@ with ConceptlistWithNetworksWriter(pathlib.Path(__file__).parent.name) as table:
                     "ID": num2id[link],
                     "NAME": num2name[link],
                     "Weight": weight,
-                    "Shifts": "https://datsemshift.ru/" + shift
                 }]
             elif direction == "→":
                 targets += [{
                     "ID": num2id[link],
                     "NAME": num2name[link],
                     "Weight": weight,
-                    "Shifts": "https://datsemshift.ru/" + shift
                 }]
         table.append(collections.OrderedDict([
             ('NUMBER', concept.number),
