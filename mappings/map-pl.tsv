@@ -18,12 +18,14 @@ ID	GLOSS	PRIORITY
 1597	AIRPLANE///samolot	2
 404	ALCOHOL (FERMENTED DRINK)///alkohol	2
 98	ALL///wszyscy	1
+3238	ALLOW///pozwalać	1
 3238	ALLOW///zezwalać	1
 1964	ALONE///sam	1
 1676	ALWAYS///zawsze	2
 1863	AMAZING///niesamowity	1
 2987	AMOUNT///ilość	1
 1577	AND///i	1
+1577	AND///i/a	1
 82	ANGER///gniew	1
 1826	ANGRY///rozzłoszczony	1
 1826	ANGRY///zły	1
@@ -55,7 +57,8 @@ ID	GLOSS	PRIORITY
 1828	ASK (REQUEST)///źádać	1
 1461	AT///przy	1
 1461	AT///u	1
-722	ATTACK///atak	1
+3894	ATTACH///dołáczyć	1
+722	ATTACK///atak	2
 2851	AUGUST///sierpień	1
 2851	AUGUST///sierpień	1
 1272	AUNT///ciotka	1
@@ -71,6 +74,7 @@ ID	GLOSS	PRIORITY
 2468	BAG///torba	1
 2468	BAG///torebka	1
 183	BAKE///piec	1
+1845	BALL///bal	1
 1845	BALL///kula	1
 1845	BALL///piłka	3
 1845	BALL///piłka (bal)	1
@@ -90,6 +94,7 @@ ID	GLOSS	PRIORITY
 662	BATTERY///bateria	3
 579	BATTLE///bitwa	1
 972	BE ABLE///móc	2
+972	BE ABLE///w stanie	1
 1422	BE ALIVE///źyć	1
 1422	BE ALIVE///żyć	1
 3535	BE DEFEATED///bić (pobić)	1
@@ -122,6 +127,7 @@ ID	GLOSS	PRIORITY
 1806	BEGIN///zaczynać	1
 1686	BEHIND///za	1
 3333	BELIEF (RELIGIOUS)///przekonanie	1
+3333	BELIEF (RELIGIOUS)///wiara	1
 1890	BELIEVE///wierzyć	1
 1890	BELIEVE///wierzyć	1
 2246	BELL///dzwon	1
@@ -157,6 +163,7 @@ ID	GLOSS	PRIORITY
 1584	BLISTER///pęcherz	1
 946	BLOOD///krew	2
 175	BLOW (OF WIND)///dmuchać	1
+176	BLOW (WITH MOUTH)///cios	1
 176	BLOW (WITH MOUTH)///dmuchać	2
 837	BLUE///Niebieski	1
 837	BLUE///niebieski	1
@@ -190,10 +197,12 @@ ID	GLOSS	PRIORITY
 1530	BOWL///miska	2
 3108	BOX (SOMEBODY OR SOMETHING)///bić się (uderzać)	2
 1465	BOX///pudełko	2
+1465	BOX///skrzynka	1
 1366	BOY///chłopiec	1
 1583	BRAIN///mózg	1
 1531	BRANCH///gałáź	1
 3743	BRASS///bráz	1
+3743	BRASS///déte	1
 3	BRAVE///odwaźny	1
 2902	BRAWL (FIGHT)///bić się (walczyć)	2
 1368	BREAD///chleb	2
@@ -226,6 +235,7 @@ ID	GLOSS	PRIORITY
 141	BURN (SOMETHING)///palić się	2
 2102	BURN///palić	1
 2102	BURN///spalić	1
+1719	BURY///grzebać	1
 1719	BURY///zakopać	1
 1070	BUS///autobus	4
 1683	BUSH///krzak	1
@@ -251,7 +261,7 @@ ID	GLOSS	PRIORITY
 3202	CANNON///działo	1
 1111	CAR///samochód	1
 1111	CAR///samochód	1
-2619	CARD///karta	2
+2619	CARD///karta	3
 2758	CAREFUL///ostroz̈ny	1
 2620	CARRIAGE///powóz	1
 2620	CARRIAGE///przedział	1
@@ -266,6 +276,7 @@ ID	GLOSS	PRIORITY
 2247	CATERPILLAR///gąsienica	1
 1153	CATTLE///bydło	3
 2896	CAUSE TO (LET)///pozwalać	1
+2896	CAUSE TO (LET)///wynajáć	1
 860	CAUSE///powód	1
 491	CENTER///centrum	2
 509	CERTAIN///pewien	1
@@ -275,6 +286,7 @@ ID	GLOSS	PRIORITY
 1264	CHANGE///zmieniać	1
 1264	CHANGE///zmienić	1
 1024	CHARACTER///charakter	1
+1024	CHARACTER///litera	1
 1188	CHARCOAL///węgiel drzewny	1
 1887	CHEAP///tani	1
 1730	CHEEK///policzek	1
@@ -304,7 +316,7 @@ ID	GLOSS	PRIORITY
 1102	CLIMB///wspinać sié	1
 1102	CLIMB///wspinać się	3
 1323	CLOCK///zegar	2
-1616	CLOTH///materiał	1
+1616	CLOTH///materiał	2
 1616	CLOTH///sukno	1
 1895	CLOTHES///ubrania	2
 1489	CLOUD///chmura	4
@@ -327,6 +339,7 @@ ID	GLOSS	PRIORITY
 581	COME BACK///wracać	1
 1446	COME///przychodzić	1
 1446	COME///przyjść	1
+2983	COMPANIONSHIP///towarzystwo	1
 3429	COMPARE///porównywać	1
 2606	COMPASS///kompas	1
 3642	COMPLAIN///narzekać	1
@@ -371,6 +384,7 @@ ID	GLOSS	PRIORITY
 496	CUCUMBER///ogórek	2
 476	CUP///filiźanka	1
 476	CUP///filiżanka	1
+476	CUP///kubek	1
 2621	CURTAIN///zasłona	1
 1698	CURVED///wygięty	1
 1747	CUSTOM///tradycja	1
@@ -467,6 +481,7 @@ ID	GLOSS	PRIORITY
 733	EARN///zarabiać	1
 1228	EARTH (SOIL)///ziemia	1
 6	EARTHQUAKE///trzęsienie ziemi	1
+686	EASY///prosty	1
 686	EASY///łatwy	2
 1336	EAT///jeść	1
 1336	EAT///jeść	2
@@ -510,6 +525,7 @@ ID	GLOSS	PRIORITY
 1173	EYEBROW///brew	1
 1560	FACE///twarz	1
 2704	FADE (LOOSE COLOR)///blaknąć	1
+3861	FAIL///zawodzić	1
 3258	FALCON///sokół	1
 1280	FALL///spadać	1
 1280	FALL///spadać	2
@@ -554,6 +570,7 @@ ID	GLOSS	PRIORITY
 728	FIRST///pierwszy	1
 227	FISH///ryba	3
 2638	FISHING///łowić	2
+3074	FIX///przymocowywać	1
 2623	FLAG///flaga	3
 1633	FLAT///płaski	1
 1633	FLAT///równy	1
@@ -606,6 +623,7 @@ ID	GLOSS	PRIORITY
 2940	GATE///brama	3
 3632	GENEROUS///hojny	1
 1954	GENTLE///delikatny	1
+1996	GET TIRED///méczyć	1
 1996	GET TIRED///zméczyć sié	1
 694	GET///dostawać	3
 694	GET///dostać	1
@@ -613,6 +631,7 @@ ID	GLOSS	PRIORITY
 2982	GIFT///przedstawić	1
 3089	GIRAFFE///żyrafa	2
 1646	GIRL///dziewczyna	1
+85	GIVE BACK///zwracać	1
 1447	GIVE///dać	1
 1447	GIVE///dać	1
 604	GLASS///szklanka	2
@@ -676,6 +695,7 @@ ID	GLOSS	PRIORITY
 1884	HARD///ciéźki	1
 1884	HARD///twardy	1
 1827	HARVEST CROPS///zbierać	1
+611	HARVEST///zbiór	1
 771	HAT///kapelusz	3
 3116	HATCH (OUT)///wykluwać się	2
 1607	HATE///nienawidzić	1
@@ -718,6 +738,7 @@ ID	GLOSS	PRIORITY
 3628	HONOR (SOMEBODY)///honor	1
 1092	HOPE///mieć nadziejé	1
 1393	HORN (ANATOMY)///róg	1
+939	HORN (INSTRUMENT)///róg	1
 939	HORN (INSTRUMENT)///róg	1
 615	HORSE///koń	1
 615	HORSE///koń	4
@@ -740,6 +761,7 @@ ID	GLOSS	PRIORITY
 1609	IDEA///pomysł	1
 1459	IF///jeźeli	1
 41	IGNORE///ignorować	1
+3879	IMAGINE///wyobraźać sobie	1
 117	IMITATE///naśladować	1
 1963	IMMEDIATELY///natychmiast	1
 1285	IMPORTANT///waźny	1
@@ -757,6 +779,7 @@ ID	GLOSS	PRIORITY
 1652	INSTEAD///zamiast	1
 3204	INSULT///obrazić	1
 1162	INTENTION///intencja	1
+3847	INTEREST (FEELING)///interes	1
 3847	INTEREST (FEELING)///zainteresowanie	1
 2062	INTEREST///oprocentowanie	1
 1611	INVITE///zapraszać	1
@@ -800,6 +823,7 @@ ID	GLOSS	PRIORITY
 2396	KNOCK///pukać	2
 3626	KNOW///wiedzieć	1
 3626	KNOW///wiedzieć	1
+3874	KNOWLEDGE///wiedza	1
 1464	LADDER///drabina	3
 2471	LADY///dama	1
 624	LAKE///jezioro	1
@@ -883,6 +907,7 @@ ID	GLOSS	PRIORITY
 506	MAIZE///ziarno	1
 734	MAKE///robić	1
 734	MAKE///robić	1
+2261	MALE (OF PERSON)///samiec	1
 2106	MALE PERSON///mężczyźni	1
 1553	MALE///samiec	1
 1554	MAN///méźczyzna	1
@@ -951,6 +976,7 @@ ID	GLOSS	PRIORITY
 640	MUD///błoto	1
 1004	MUSCLE///miésień	1
 1004	MUSCLE///mięsień	1
+641	MUSHROOM///grzyb	1
 641	MUSHROOM///pieczarka	2
 642	MUSIC///muzyka	2
 971	MUST///musieć	1
@@ -999,6 +1025,7 @@ ID	GLOSS	PRIORITY
 2581	OCTOPUS///ośmiornica	1
 3704	ODOR (SMELL)///zapach	1
 2336	OF THIS KIND (SUCH)///tak	1
+557	OFFEND///obrazić	1
 2430	OFFICE///biuro	2
 3361	OFFICIAL///urzédnik	1
 1852	OFTEN///czésto	1
@@ -1091,6 +1118,7 @@ ID	GLOSS	PRIORITY
 3916	PLEASURE///przyjemność	1
 1921	PLOUGH///orać	2
 1045	POET///poeta	1
+656	POLICE///policja	1
 3659	POLISH (SOMETHING)///polerować	1
 3300	POLITE///grzeczny	1
 3300	POLITE///uprzejmy	1
@@ -1109,6 +1137,7 @@ ID	GLOSS	PRIORITY
 24	PRAY///modlić się	1
 3002	PRECIOUS///cenny	1
 2909	PREPARE///przygotowywać	1
+3542	PREPARED FOOD///potrawa	1
 1997	PRESERVE///konserwować	1
 899	PRESIDENT///prezydent	1
 1913	PRESS///naciskać	1
@@ -1194,6 +1223,7 @@ ID	GLOSS	PRIORITY
 1962	ROAST (SOMETHING)///piec	2
 668	ROCK///skała	1
 769	ROOF///dach	4
+1450	ROOM///miejsce	1
 1450	ROOM///pokój	1
 1450	ROOM///pokój	1
 670	ROOT///korzeń	1
@@ -1292,7 +1322,7 @@ ID	GLOSS	PRIORITY
 1046	SHUT///zamknáć	1
 1046	SHUT///zamykać	1
 487	SHY///nieśmiały	1
-1847	SICK///chory	2
+1847	SICK///chory	3
 682	SIDE///bok	1
 682	SIDE///strona	1
 1720	SIGN///znak	4
@@ -1358,12 +1388,14 @@ ID	GLOSS	PRIORITY
 1096	SONG///piosenka (piosenka )	1
 703	SOON///niebawem	1
 811	SOUL///duch	1
+2879	SOUND (OF INSTRUMENT OR VOICE)///brzmieć	1
 2879	SOUND (OF INSTRUMENT OR VOICE)///dźwięk	1
 1811	SOUND OR NOISE///odgłos	1
 1547	SOUP///zupa	1
-1906	SOUR///kwas	1
+1906	SOUR///kwas	2
 1906	SOUR///kwaśny	1
 1595	SOUTH///południe	1
+3006	SPACE (AVAILABLE)///przestrzeń	1
 1623	SPEAK///mówić	1
 1623	SPEAK///mówić	1
 1898	SPECTACLES///okulary	2
@@ -1377,6 +1409,7 @@ ID	GLOSS	PRIORITY
 92	SPOIL (SOMEBODY OR SOMETHING)///zepsuć	1
 1378	SPOON///łyźka	1
 1378	SPOON///łyżka	3
+38	SPREAD OUT///rozprzestrzeniać sié	1
 38	SPREAD OUT///szerzyć	1
 849	SPRING (OF WATER)///źródło	1
 2144	SPRING OR WELL///studnia	1
@@ -1394,6 +1427,8 @@ ID	GLOSS	PRIORITY
 713	STEAL///kraść	2
 713	STEAL///kraść (ukraść)	1
 2343	STEEL///stal	1
+2065	STEP (VERB)///kroczyć	1
+1158	STEP///krok	1
 1295	STICK///kij	1
 3703	STICKY///klejácy	1
 3703	STICKY///klejący	1
@@ -1437,6 +1472,7 @@ ID	GLOSS	PRIORITY
 2295	SUNSET///zachód słońca	1
 3276	SUNSHINE///światło słoneczne	1
 547	SURFACE///powierzchnia	1
+3848	SURPRISE (FEELING)///niespodzianka	1
 1841	SUSPECT///podejrzewać	1
 897	SWALLOW///połykać	1
 1145	SWAMP///bagno	1
@@ -1481,10 +1517,12 @@ ID	GLOSS	PRIORITY
 2921	THEN///wtedy	1
 2433	THEORY///teoria	1
 3104	THERMOMETER///termometr	2
+3984	THESE (PLURAL OF THIS)///te	1
 817	THEY///oni	1
 1244	THICK///gésty	1
 1400	THIN (SLIM)///szczupły	1
 2308	THIN///chudy	1
+2308	THIN///rzadki	1
 738	THING///rzecz	1
 2271	THINK///myśleć	1
 2271	THINK///myśleć	1
@@ -1622,6 +1660,7 @@ ID	GLOSS	PRIORITY
 1238	WHEN///kiedy	1
 1237	WHERE///gdzie	1
 727	WHICH///który	1
+726	WHILE///podczas	2
 2630	WHIP///smagać	1
 55	WHISPER///szeptać	3
 3107	WHISTLE (INSTRUMENT)///gwizdek	2
@@ -1629,7 +1668,8 @@ ID	GLOSS	PRIORITY
 1335	WHITE///Biały	1
 1335	WHITE///biały	2
 1235	WHO///kto/który	1
-2277	WHOLE///cały	1
+2277	WHOLE///całkowity	1
+2277	WHOLE///cały	2
 1270	WHY///dlaczego	1
 1243	WIDE///szeroki	2
 1199	WIFE///źona	1
@@ -1655,6 +1695,7 @@ ID	GLOSS	PRIORITY
 965	WORLD///świat	1
 1219	WORM///robak	1
 150	WORRY///martwić	1
+1109	WOUND///rana	1
 1109	WOUND///ranić	1
 1113	WRAP///owináć	1
 799	WRIST///nadgarstek	1

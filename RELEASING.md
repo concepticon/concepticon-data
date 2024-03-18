@@ -14,24 +14,29 @@ Creating a release comprises the following tasks:
 
 - Run [bibtool](http://www.gerd-neugebauer.de/software/TeX/BibTool/en/) on the references
 to normalize them for import:
-  ```shell script
+  ```shell
   bibtool -r concepticondata/references/bibtool.rsc -o concepticondata/references/references.bib concepticondata/references/references.bib
   ```
 
+- Recreate network data in concept lists (optionally also download raw data again):
+  ```shell
+  concepticon recreate_networks
+  ```
+
 - Recreate the statistics pages:
-  ```shell script
+  ```shell
   concepticon stats
   ```
 
 - Recreate and push the linking data:
-  ```shell script
+  ```shell
   concepticon make_linkdata
   ```
 - Check and/or update `metadata.json` (which is read via
   `clldutils.apilib.API.dataset_metadata`)
 
 - Afterwards, recreate `.zenodo.json`:
-  ```shell script
+  ```shell
   concepticon citation --version vX.Y.Z
   ```
 
@@ -40,19 +45,19 @@ to normalize them for import:
 
 - Make sure all changes are pushed and merged into the `master` branch.
 - Make sure all tests pass, and also address warnings about missing PDFs (see [handling source PDFs](#upload_sources))
-  ```shell script
+  ```shell
   concepticon test
   ```
 
 - Make sure CLDF-creation works:
   ```shell
-  cldfbench makecldf cldfbench_concepticon.py --glottolog-version v4.7
+  cldfbench makecldf cldfbench_concepticon.py --glottolog-version v5.0
   ```
 
 - Adapt `CHANGELOG.md`
 
 - Commit the updates for this version and push updated data:
-  ```shell script
+  ```shell
   git commit -a -m"<version> release"
   git tag -a v<version> -m"release <version>"
   git push origin
@@ -83,7 +88,7 @@ Source PDFs for concept lists - like all binary or media content of CLLD databas
 uploaded to [CDSTAR](https://cdstar.eva.mpg.de). This is done by
 
 1. running
-   ```shell script
+   ```shell
    concepticon upload_sources
    ```
 2. deleting the uploaded PDF files from `concepticondata/sources`
