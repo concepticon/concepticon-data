@@ -1,5 +1,11 @@
 # Changes
 
+## v3.2
+
+- Added 17 conceptlists.
+- Network data in conceptlists is now handled in a more uniform way.
+
+
 ## v3.1
 
 - Added 11 conceptlists.
