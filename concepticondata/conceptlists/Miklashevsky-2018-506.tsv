@@ -64,7 +64,7 @@ Miklashevsky-2018-506-62	62	восприятие	vospriyatie	perception	Sense_Ph
 Miklashevsky-2018-506-63	63	впадина	vpadina	hollow	Ground	concrete	7	f	0.7	4.93	1.61	1.42	1	3.04	5.46	2.38	1.44	7.19	2.2		
 Miklashevsky-2018-506-64	64	всплытие	vsplyitie	emersion (only about liquid environments)	Action	abstract	8	n	0.2	2.28	2.93	1.59	1.24	2.34	4.15	3.24	3.03	7.96	2.36		
 Miklashevsky-2018-506-65	65	выбор	vyibor	choice	Action	abstract	5	m	2.1	2.57	1.77	1.76	2.46	2.07	2.81	3	4.27	6.23	5.64		
-Miklashevsky-2018-506-66	66	газон	gazon	lawn	Ground	concrete	5	m	1.1	4.5	2.26	4.63	1.97	4.1	6.38	5	1.63	7.22	3.17		
+Miklashevsky-2018-506-66	66	газон	gazon	lawn	Ground	concrete	5	m	1.1	4.5	2.26	4.63	1.97	4.1	6.38	5	1.63	7.22	3.17	3990	LAWN
 Miklashevsky-2018-506-67	67	гайка	gayka	female screw	Tool_precise_grip	concrete	5	f	0.8	4.66	2.14	2.07	1.77	4.04	6.36	6.29	2.62	6.1	2.73		
 Miklashevsky-2018-506-68	68	галлюцинация	gallyutsinatsiya	hallucination	Intelligence	abstract	12	f	0.8	4.72	2.45	2.03	1.58	2.03	3.11	1.87	4.67	10.03	2.76		
 Miklashevsky-2018-506-69	69	галоша	galosha	galosh	Clothes	concrete	6	f	0.8	4.03	2	2.1	1.52	4.23	6.38	4.8	2.3	5.24	1.88		
@@ -122,7 +122,7 @@ Miklashevsky-2018-506-120	120	защелка	zaschelka	latch	Tool_precise_grip	c
 Miklashevsky-2018-506-121	121	защита	zaschita	protection	Action	abstract	6	f	2.2	2.79	2.1	1.28	1.24	3.31	3.62	5.03	4.42	6.07	4.9		
 Miklashevsky-2018-506-122	122	заяц	zayats	hare	Animal	concrete	4	m	1.4	4.66	2.59	2.17	3.52	3.52	6.89	3.31	2.41	2.93	3.18	1190	HARE
 Miklashevsky-2018-506-123	123	звезда	zvezda	star	Space	concrete	6	f	2.1	5.38	1.86	1.17	1.27	2.21	6.57	1.55	6.79	3.63	5	1430	STAR
-Miklashevsky-2018-506-124	124	звон	zvon	jingle	Sound	concrete	4	m	1.4	1.73	6.4	1.41	1.75	1.31	3.88	3.75	5	5.07	4.64		
+Miklashevsky-2018-506-124	124	звон	zvon	jingle	Sound	concrete	4	m	1.4	1.73	6.4	1.41	1.75	1.31	3.88	3.75	5	5.07	4.64	3993	JINGLE (INSTRUMENT)
 Miklashevsky-2018-506-125	125	звук	zvuk	sound	Sound	concrete	4	m	2.1	1.6	6.48	1.43	1.4	1.72	4.21	2.16	5.47	4.07	5.9	1811	SOUND OR NOISE
 Miklashevsky-2018-506-126	126	зебра	zebra	zebra	Animal	concrete	5	f	0.5	4.9	2.52	2.03	1.52	2.5	6.76	2.84	3.44	4.78	2.28	3675	ZEBRA
 Miklashevsky-2018-506-127	127	змея	zmeya	snake	Animal	concrete	4	f	1.3	4.48	3.34	1.76	2.24	3.59	6.7	2.34	1.84	4.11	3.64	730	SNAKE
