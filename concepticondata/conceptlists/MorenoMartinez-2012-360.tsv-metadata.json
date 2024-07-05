@@ -49,27 +49,27 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "SEMANTIC_CATEGORY_23"
+                        "name": "SEMANTIC_CATEGORY"
                     },
                     {
                         "datatype": "float",
-                        "name": "AoA_M"
+                        "name": "AoA"
                     },
                     {
                         "datatype": "float",
-                        "name": "FAMILIARITY_LICKERT_M"
+                        "name": "FAMILIARITY"
                     },
                     {
                         "datatype": "float",
-                        "name": "TYPICALITY_LICKERT_M"
+                        "name": "TYPICALITY"
                     },
                     {
                         "datatype": "float",
-                        "name": "VISUALCOMPLEX_LICKERT_M"
+                        "name": "VISUALCOMPLEXITY"
                     },
                     {
                         "datatype": "float",
-                        "name": "LEXICALFREQ_LOG"
+                        "name": "LEXICALFREQ"
                     }
                 ],
                 "primaryKey": [
