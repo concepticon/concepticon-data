@@ -52,13 +52,17 @@
                     {
                         "datatype": "string",
                         "name": "NUMBER_IN_SOURCE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "PROTO_CONCEPT"
                     }
                 ],
                 "primaryKey": [
                     "ID"
                 ]
             },
-            "url": "Girard-1971-559.tsv"
+            "url": "Girard-1971-572.tsv"
         }
     ]
 }
