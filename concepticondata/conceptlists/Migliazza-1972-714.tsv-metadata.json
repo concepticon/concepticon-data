@@ -42,13 +42,17 @@
                     {
                         "datatype": "string",
                         "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ID_IN_SOURCE"
                     }
                 ],
                 "primaryKey": [
                     "ID"
                 ]
             },
-            "url": "Migliazza-1972-599.tsv"
+            "url": "Migliazza-1972-714.tsv"
         }
     ]
 }
