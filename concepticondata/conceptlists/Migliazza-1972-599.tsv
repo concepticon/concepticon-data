@@ -571,17 +571,17 @@ NUMBER	ID_IN_SOURCE	ENGLISH	CONCEPTICON_ID	CONCEPTICON_GLOSS
 	606	young woman	77	YOUNG WOMAN
 	607	Fa bro	1985	PATERNAL UNCLE (FATHER'S BROTHER)
 	608	Mo MoSi		
-	609	Son		
-	610	Da.		
-	611	Bro. Older		
-	612	Si Older		
-	613	Sibling Younger (same sex)		
-	614	Sibling Younger (opposite sex)		
+	609	Son	1620	SON
+	610	Da.	1357	DAUGHTER
+	611	Bro. Older	1759	OLDER BORTHER
+	612	Si Older	1758	OLDER SISTER
+	613	Sibling Younger (same sex)	3038	SAME-SEX YOUNGER SIBLING
+	614	Sibling Younger (opposite sex)	3040	DIFFERENT-SEX YOUNGER SIBLING
 	615	Da Son Si Son		
 	616	Si Da Da Da		
 	617	Mo Bro Mo Fa Wi Fa		
 	618	Fa Si Fa Mo Wi Mo		
-	620	Wi		
+	620	Wi	1199	WIFE
 	621	Si Hu Wi Bro		
 	108-110	come	1446	COME
 	13-14	all	98	ALL
@@ -610,18 +610,18 @@ NUMBER	ID_IN_SOURCE	ENGLISH	CONCEPTICON_ID	CONCEPTICON_GLOSS
 	630-660	you (dual)	2111	YOU TWO
 	631-662	you (plural)	1213	YOU
 	623	you (singular)	1215	THOU
-	640	me		
+	640	me	2301	ME
 	625	it (inanimate)		
-	632-633-634-664	they dual		
+	632-633-634-664	they dual	2635	THEY TWO
 	637-666	they (plural inanimate)		
 	638	plural of Noun (inanimate)		
-	635	they (plural nondistinctive)		
+	635	they (plural nondistinctive)	817	THEY
 	636	they (plural animate)		
-	641	you		
+	641	you	1213	YOU
 	642	you (object)		
 	643	I – you [+Agent][-Agent]		
 	644	he, she, it (subj. intr. Obj. of tr.)		
-	645	he, she, it for nouns		
+	645	he, she, it for nouns	262	HE OR SHE OR IT
 	646	he [+Agent]		
 	647	it [inanimate]		
 	648	it (root)		
@@ -631,18 +631,18 @@ NUMBER	ID_IN_SOURCE	ENGLISH	CONCEPTICON_ID	CONCEPTICON_GLOSS
 	652	it (skin)		
 	653	it (liquid)		
 	658	us dual		
-	659	us plural		
+	659	us plural	2310	US (OBLIQUE CASE OF WE)
 	661	you dual obj.		
 	663	you plural obj.		
 	665	they dual [+Agent] (V. suf.)		
-	667	they plural		
+	667	they plural	817	THEY
 	668	they plural [+Agent] (V. suf.)		
-	669	this		
+	669	this	1214	THIS
 	670	these animate		
 	671	these inanimate		
 	672	that (near hearer)		
-	673	that		
-	674	those		
+	673	that	78	THAT
+	674	those	3985	THOSE (PLURAL OF THAT)
 	675	that one mentioned		
 	676	another (same kind)		
 	677	another (different kind)		
@@ -651,11 +651,11 @@ NUMBER	ID_IN_SOURCE	ENGLISH	CONCEPTICON_ID	CONCEPTICON_GLOSS
 	681-682	the one (nominalizer of verbs)		
 	683	verb nominalizer principial -ing		
 	684	inalienable pronoun		
-	685	my-mine		
+	685	my-mine	2090	MY
 	686	my (kinship term)		
 	687	your-yours		
 	688	your (kinship term)		
-	689	his		
+	689	his	2473	HIS (GENITIVE OF HE)
 	690	his (kinship term)		
 	691	our pers. Pro. Your + suffix their		
 	692	ours pers. Pro yours + post- theirs position		
@@ -679,14 +679,14 @@ NUMBER	ID_IN_SOURCE	ENGLISH	CONCEPTICON_ID	CONCEPTICON_GLOSS
 	711	far (pres.)		
 	712	and then		
 	713	if (contrary to fact)		
-	714	if		
-	715	while (at the same time)		
+	714	if	1459	IF
+	715	while (at the same time)	726	WHILE
 	716	when (after)		
-	717-718	when		
+	717-718	when	1238	WHEN
 	719	although		
 	720	just now		
 	721	just now (with incho.)		
-	722	today		
+	722	today	1283	TODAY
 	723	today (with incho)		
 	724	remote		
 	725	remote (with incho.)		
