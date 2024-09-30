@@ -1,0 +1,1321 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dialect": {
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        },
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        },
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "PICTURE_CODE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_AE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_AE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_AR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__AE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_AR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_AR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_AE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_AR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_AE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_AuE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_AuE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_AuE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_AuE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__AuE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_AuE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_AuE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_AuE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_AuR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_AuE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_BAS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_BAS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_BAS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_BAS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__BAS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_BAS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_BAS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_BAS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_BAS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_BAS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_WF"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_WF"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_WF"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_WF"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__WF"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_WF"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_WF"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_WF"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_WF"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_WF"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_BE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_BE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_BE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_BE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__BE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_BE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_BE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_BE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_BE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_BE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_CAT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_CAT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_CAT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_CAT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__CAT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_CAT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_CAT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_CAT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_CAT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_CAT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_MAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_MAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_MAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_MAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__MAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_MAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_MAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_MAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_MAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_MAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_CG"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_CG"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_CG"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_CG"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__CG"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_CG"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_CG"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_CG"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_CG"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_CG"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_CZ"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_CZ"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_CZ"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_CZ"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__CZ"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_CZ"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_CZ"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_CZ"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_CZ"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_CZ"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_FIN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_FIN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_FIN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_FIN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__FIN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_FIN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_FIN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_FIN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_FIN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_FIN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_FR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_FR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_FR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_FR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__FR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_FR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_FR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_FR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_FR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_FR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_DE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_DE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_DE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_DE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__DE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_DE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_DE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_DE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_DE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_DE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_GR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_GR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_GR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_GR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_GR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_GR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_GR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_GR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_GR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_HEB"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_HEB"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_HEB"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_HEB"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__HEB"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_HEB"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_HEB"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_HEB"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_HEB"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_HEB"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_HU"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_HU"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_HU"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_HU"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__HU"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_HU"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_HU"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_HU"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_HU"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_HU"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_IT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_IT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_IT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_IT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__IT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_IT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_IT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_IT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_IT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_IT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_KOR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_KOR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_KOR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_KOR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__KOR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_KOR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_KOR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_KOR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_KOR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_KOR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_LebA"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_LebA"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_LebA"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_LebA"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__LebA"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_LebA"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_LebA"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_LebA"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_LebA"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_LebA"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_MAL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_MAL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_MAL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_MAL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__MAL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_MAL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_MAL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_MAL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_MAL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_MAL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_MalE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_MalE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_MalE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_MalE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__MalE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_MalE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_MalE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_MalE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_MalE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_MalE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_DUT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_DUT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_DUT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_DUT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__DUT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_DUT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_DUT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_DUT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_DUT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_DUT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_NOR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_NOR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_NOR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_NOR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__NOR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_NOR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_NOR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_NOR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_NOR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_NOR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_POL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_POL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_POL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_POL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__POL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_POL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_POL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_POL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_POL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_POL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_POR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_POR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_POR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_POR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__POR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_POR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_POR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_POR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_POR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_POR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_QFR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_QFR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_QFR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_QFR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__QFR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_QFR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_QFR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_QFR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_QFR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_QFR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_ESRio"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_ESRio"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_ESRio"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_ESRio"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__ESRio"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_ESRio"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_ESRio"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_ESRio"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_ESRio"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_ESRio"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_RU"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_RU"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_RU"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_RU"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__RU"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_RU"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_RU"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_RU"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_RU"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_RU"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_SER"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_SER"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_SER"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_SER"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__SER"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_SER"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_SER"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_SER"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_SER"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_SER"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_SK"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_SK"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_SK"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_SK"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__SK"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_SK"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_SK"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_SK"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_SK"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY (STANDARD DEVIATION)"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_ES"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_ES"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_ES"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_ES"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__ES"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_ES"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_ES"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_ES"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_ES"
+                    },                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD_ES"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_TUR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_TUR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_TUR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_TUR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__TUR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_TUR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_TUR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_TUR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_TUR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RESPONSES_NUMBER_WEL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_NAMEAGREEMENT_WEL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_WEL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENT_WEL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_PERCENT__WEL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_WEL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENT_WEL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_WEL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN_WEL"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "Dunabeitia-2022-500.tsv"
+        }
+    ]
+}
