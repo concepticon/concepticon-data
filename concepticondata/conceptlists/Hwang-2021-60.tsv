@@ -1,92 +1,92 @@
-ID	NUMBER	ENGLISH	CONCEPTICON_GLOSS	KOREAN	SEMANTIC_CATEGORY	CONCEPTICON_ID
-Hwang-2021-60-1	1	cigarette	CIGARETTE	담배	인공	969
-Hwang-2021-60-2	2	bus	BUS	버스	인공	1070
-Hwang-2021-60-3	3	desk	TABLE	책상	인공	1775
-Hwang-2021-60-4	4	guitar	GUITAR	기타	인공	3090
-Hwang-2021-60-5	5	bed	BED	침대	인공	1663
+ID	NUMBER	ENGLISH	CONCEPTICON_GLOSS	KOREAN	SEMANTIC_CATEGORY	SEMANTIC_CATEGORY_TRANSLATED	CONCEPTICON_ID
+Hwang-2021-60-1	1	cigarette	CIGARETTE	담배	인공	Man-made	969
+Hwang-2021-60-2	2	bus	BUS	버스	인공	Man-made	1070
+Hwang-2021-60-3	3	desk	TABLE	책상	인공	Man-made	1775
+Hwang-2021-60-4	4	guitar	GUITAR	기타	인공	Man-made	3090
+Hwang-2021-60-5	5	bed	BED	침대	인공	Man-made	1663
 Hwang-2021-60-6	6	tiger	TIGER	호랑이	"자연
-(동)"	846
+(동)"	Nature (animal)	846
 Hwang-2021-60-7	7	pig	PIG	돼지	"자연
-(동)"	1337
+(동)"	Nature (animal)	1337
 Hwang-2021-60-8	8	apple	APPLE	사과	"자연
-(식)"	1320
+(식)"	Nature (plant)	1320
 Hwang-2021-60-9	9	airplane	AIRPLANE	비행기	"자연
-(식)"	1597
+(식)"	Nature (plant)	1597
 Hwang-2021-60-10	10	rabbit	RABBIT	토끼	"자연
-(동)"	1136
+(동)"	Nature (animal)	1136
 Hwang-2021-60-11	11	dragonfly	DRAGONFLY	잠자리	"자연
-(동)"	2352
+(동)"	Nature (animal)	2352
 Hwang-2021-60-12	12	butterfly	BUTTERFLY	나비	"자연
-(동)"	1791
-Hwang-2021-60-13	13	glasses	SPECTACLES	안경	인공	1898
+(동)"	Nature (animal)	1791
+Hwang-2021-60-13	13	glasses	SPECTACLES	안경	인공	Man-made	1898
 Hwang-2021-60-14	14	frog	FROG	개구리	"자연
-(동)"	503
+(동)"	Nature (animal)	503
 Hwang-2021-60-15	15	squirrel	SQUIRREL	다람쥐	"자연
-(동)"	1628
+(동)"	Nature (animal)	1628
 Hwang-2021-60-16	16	chilli pepper	CHILI PEPPER	고추	"자연
-(식)"	919
+(식)"	Nature (plant)	919
 Hwang-2021-60-17	17	peacock 	PEACOCK	공작	"자연
-(동)"	3382
+(동)"	Nature (animal)	3382
 Hwang-2021-60-18	18	rose	ROSE	장미	"자연
-(식)"	3882
+(식)"	Nature (plant)	3882
 Hwang-2021-60-19	19	ant	ANT	개미	"자연
-(동)"	587
+(동)"	Nature (animal)	587
 Hwang-2021-60-20	20	grape	GRAPE	포도	"자연
-(식)"	920
-Hwang-2021-60-21	21	scissors	SHEARS	가위	인공	356
+(식)"	Nature (plant)	920
+Hwang-2021-60-21	21	scissors	SHEARS	가위	인공	Man-made	356
 Hwang-2021-60-22	22	watermelon	WATERMELON	수박	"자연
-(식)"	2766
-Hwang-2021-60-23	23	swing	SWING	그네	인공	3101
-Hwang-2021-60-24	24	refrigerator	REFRIGERATOR	냉장고	인공	3952
-Hwang-2021-60-25	25	bike	BICYCLE	오토바이	인공	747
-Hwang-2021-60-26	26	gloves	GLOVE	장갑	인공	867
-Hwang-2021-60-27	27	squid	INK	오징어	"자연
-(동)"	2643
-Hwang-2021-60-28	28	ballpoint	PEN	볼펜	인공	794
+(식)"	Nature (plant)	2766
+Hwang-2021-60-23	23	swing	SWING	그네	인공	Man-made	3101
+Hwang-2021-60-24	24	refrigerator	REFRIGERATOR	냉장고	인공	Man-made	3952
+Hwang-2021-60-25	25	bike	BICYCLE	오토바이	인공	Man-made	747
+Hwang-2021-60-26	26	gloves	GLOVE	장갑	인공	Man-made	867
+Hwang-2021-60-27	27	squid		오징어	"자연
+(동)"	Nature (animal)	
+Hwang-2021-60-28	28	ballpoint	PEN	볼펜	인공	Man-made	794
 Hwang-2021-60-29	29	eagle	EAGLE	독수리	"자연
-(동)"	1905
+(동)"	Nature (animal)	1905
 Hwang-2021-60-30	30	sunflower	SUNFLOWER	해바라기	"자연
-(식)"	1956
-Hwang-2021-60-31	31	Helicopter	HELICOPTER	헬리콥터	인공	2580
-Hwang-2021-60-32	32	slippers		슬리퍼	인공	
+(식)"	Nature (plant)	1956
+Hwang-2021-60-31	31	Helicopter	HELICOPTER	헬리콥터	인공	Man-made	2580
+Hwang-2021-60-32	32	slippers		슬리퍼	인공	Man-made	
 Hwang-2021-60-33	33	giraffe	GIRAFFE	기린	"자연
-(동)"	3089
+(동)"	Nature (animal)	3089
 Hwang-2021-60-34	34	mantis	MANTIS	사마귀	"자연
-(동)"	3279
+(동)"	Nature (animal)	3279
 Hwang-2021-60-35	35	carrot	CARROT	당근	"자연
-(식)"	3085
-Hwang-2021-60-36	36	antenna		안테나	인공	
-Hwang-2021-60-37	37	lighter	LIGHTER	라이터	인공	3092
+(식)"	Nature (plant)	3085
+Hwang-2021-60-36	36	antenna		안테나	인공	Man-made	
+Hwang-2021-60-37	37	lighter	LIGHTER	라이터	인공	Man-made	3092
 Hwang-2021-60-38	38	pineapple	PINEAPPLE	파인애플	"자연
-(식)"	2440
-Hwang-2021-60-39	39	vaulting horse		뜀틀	인공	
-Hwang-2021-60-40	40	iron		다리미	인공	
+(식)"	Nature (plant)	2440
+Hwang-2021-60-39	39	vaulting horse		뜀틀	인공	Man-made	
+Hwang-2021-60-40	40	iron		다리미	인공	Man-made	
 Hwang-2021-60-41	41	cabbage	CABBAGE	양배추	"자연
-(식)"	774
+(식)"	Nature (plant)	774
 Hwang-2021-60-42	42	ostrich	OSTRICH	타조	"자연
-(동)"	3797
-Hwang-2021-60-43	43	rocking chair		흔들의자	인공	
+(동)"	Nature (animal)	3797
+Hwang-2021-60-43	43	rocking chair		흔들의자	인공	Man-made	
 Hwang-2021-60-44	44	carnation 		카네이션	"자연
-(식)"	
+(식)"	Nature (plant)	
 Hwang-2021-60-45	45	rhinoceros	RHINOCEROS	코뿔소	"자연
-(동)"	2591
-Hwang-2021-60-46	46	tweezers		족집게	인공	
-Hwang-2021-60-47	47	xylophone		실로폰	인공	
-Hwang-2021-60-48	48	basketball stand		농구대	인공	
+(동)"	Nature (animal)	2591
+Hwang-2021-60-46	46	tweezers		족집게	인공	Man-made	
+Hwang-2021-60-47	47	xylophone		실로폰	인공	Man-made	
+Hwang-2021-60-48	48	basketball stand		농구대	인공	Man-made	
 Hwang-2021-60-49	49	penguin	PENGUIN	펭귄	"자연
-(동)"	2831
-Hwang-2021-60-50	50	fly swatter		파리채	인공	
+(동)"	Nature (animal)	2831
+Hwang-2021-60-50	50	fly swatter		파리채	인공	Man-made	
 Hwang-2021-60-51	51	kangaroo	KANGAROO	캥거루	"자연
-(동)"	164
-Hwang-2021-60-52	52	earpick		귀이개	인공	
-Hwang-2021-60-53	53	tambourine	TAMBOURINE	탬버린	인공	3141
-Hwang-2021-60-54	54	rake 	RAKE	고무래	인공	338
+(동)"	Nature (animal)	164
+Hwang-2021-60-52	52	earpick		귀이개	인공	Man-made	
+Hwang-2021-60-53	53	tambourine	TAMBOURINE	탬버린	인공	Man-made	3141
+Hwang-2021-60-54	54	rake 	RAKE	고무래	인공	Man-made	338
 Hwang-2021-60-55	55	ladybug	LADYBUG	무당벌레	"자연
-(동)"	3139
+(동)"	Nature (animal)	3139
 Hwang-2021-60-56	56	lotus	LOTUS	연꽃	"자연
-(식)"	2359
+(식)"	Nature (plant)	2359
 Hwang-2021-60-57	57	cucurbit 	GOURD	조롱박	"자연
-(식)"	411
-Hwang-2021-60-58	58	accordion 	ACCORDION	아코디언	인공	2603
-Hwang-2021-60-59	59	rake 	RAKE	갈퀴	인공	338
-Hwang-2021-60-60	60	millstone 	GRINDSTONE	맷돌	인공	2459
+(식)"	Nature (plant)	411
+Hwang-2021-60-58	58	accordion 	ACCORDION	아코디언	인공	Man-made	2603
+Hwang-2021-60-59	59	rake 	RAKE	갈퀴	인공	Man-made	338
+Hwang-2021-60-60	60	millstone 	GRINDSTONE	맷돌	인공	Man-made	2459
