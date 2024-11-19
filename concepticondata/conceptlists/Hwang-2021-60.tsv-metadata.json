@@ -45,6 +45,10 @@
                         "name": "SEMANTIC_CATEGORY"
                     },
                     {
+                        "datatype": "string",
+                        "name": "SEMANTIC_CATEGORY_TRANSLATED"
+                    },
+                    {
                         "datatype": {
                             "base": "integer",
                             "minimum": "1"
