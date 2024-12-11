@@ -1,0 +1,242 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dialect": {
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        },
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        },
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "GERMAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_FREQUENCY"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_VALENCE_MEAN_FEMALE_YOUNG"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_VALENCE_MEAN_MALE_YOUNG"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_VALENCE_MEAN_FEMALE_OLD"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_VALENCE_MEAN_MALE_OLD"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_VALENCE_MEAN_YOUNG"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_VALENCE_MEAN_OLD"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_VALENCE_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_AROUSAL_MEAN_FEMALE_YOUNG"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_AROUSAL_MEAN_MALE_YOUNG"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_AROUSAL_MEAN_FEMALE_OLD"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_AROUSAL_MEAN_MALE_OLD"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_AROUSAL_MEAN_YOUNG"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_AROUSAL_MEAN_OLD"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_AROUSAL_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_CONTROL_MEAN_FEMALE_YOUNG"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_CONTROL_MEAN_MALE_YOUNG"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_CONTROL_MEAN_FEMALE_OLD"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_CONTROL_MEAN_MALE_OLD"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_CONTROL_MEAN_YOUNG"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_CONTROL_MEAN_OLD"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_CONTROL_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_IMAGERY_MEAN_FEMALE_YOUNG"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_IMAGERY_MEAN_MALE_YOUNG"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_IMAGERY_MEAN_FEMALE_OLD"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_IMAGERY_MEAN_MALE_OLD"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_IMAGERY_MEAN_YOUNG"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_IMAGERY_MEAN_OLD"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_IMAGERY_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_EGO_MEAN_FEMALE_YOUNG"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_EGO_MEAN_MALE_YOUNG"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_EGO_MEAN_FEMALE_OLD"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_EGO_MEAN_MALE_OLD"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_EGO_MEAN_YOUNG"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_EGO_MEAN_OLD"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_EGO_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_AGE_RELEVANCE_MEAN_FEMALE_YOUNG"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_AGE_RELEVANCE_MEAN_MALE_YOUNG"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_AGE_RELEVANCE_MEAN_FEMALE_OLD"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_AGE_RELEVANCE_MEAN_MALE_OLD"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_AGE_RELEVANCE_MEAN_YOUNG"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_AGE_RELEVANCE_MEAN_OLD"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_AGE_RELEVANCE_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_RELEVANCE_SELF_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_RELEVANCE_OTHER_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "GERMAN_RELEVANCE_SELF_OTHER_MEAN"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "Gruehn-2008-200.tsv"
+        }
+    ]
+}
