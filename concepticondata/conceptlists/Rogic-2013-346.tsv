@@ -60,7 +60,7 @@ Rogic-2013-346-58	58	city	grad	0.86	0.00	2547	CITY
 Rogic-2013-346-59	59	pea	grašak	0.22	0.16	2025	PEA
 Rogic-2013-346-60	60	grapes	grožđe	1.00	-	920	GRAPE
 Rogic-2013-346-61	61	tire	guma	0.48	-0.08	1996	GET TIRED
-Rogic-2013-346-62	62	pirate	gusar	0.82	-0.08		
+Rogic-2013-346-62	62	pirate	gusar	0.82	-0.08	4015	PIRATE
 Rogic-2013-346-63	63	caterpillar	gusjenica	0.48	0.29	2247	CATERPILLAR
 Rogic-2013-346-64	64	dress	haljina	0.86	0.16	474	DRESS
 Rogic-2013-346-65	65	harp	harfa	0.74	0.37	2597	HARP
@@ -78,7 +78,7 @@ Rogic-2013-346-76	76	jacket	jaketa	0.64	-0.05	2770	JACKET
 Rogic-2013-346-77	77	lamb	janje	0.52	0.09	820	LAMB
 Rogic-2013-346-78	78	lobster	jastog	0.42	0.27	2397	LOBSTER
 Rogic-2013-346-79	79	pillow	jastuk	0.84	-0.14	1044	PILLOW
-Rogic-2013-346-80	80	sailboat	jedrilica	0.50	0.17		
+Rogic-2013-346-80	80	sailboat	jedrilica	0.50	0.17	4026	SAILBOAT
 Rogic-2013-346-81	81	deer	jelen	0.94	0.14	1936	DEER
 Rogic-2013-346-82	82	helmet	kaciga	1.00	-	1680	HELMET
 Rogic-2013-346-83	83	bathtub	kada	0.92	-0.01		
@@ -86,7 +86,7 @@ Rogic-2013-346-84	84	belt	kaiš	0.72	0.06	772	BELT
 Rogic-2013-346-85	85	cactus	kaktus	1.00	-	2595	CACTUS
 Rogic-2013-346-86	86	calendar	kalendar	1.00	-	1967	CALENDAR
 Rogic-2013-346-87	87	fireplace	kamin	0.62	0.11	185	FIREPLACE
-Rogic-2013-346-88	88	truck	kamion	1.00	-		
+Rogic-2013-346-88	88	truck	kamion	1.00	-	4011	TRUCK
 Rogic-2013-346-89	89	bucket	kanta	0.60	-0.06	2052	BUCKET
 Rogic-2013-346-90	90	hat	kapa	1.00	-	771	HAT
 Rogic-2013-346-91	91	coat	kaput	0.58	0.29	603	COAT
@@ -97,9 +97,9 @@ Rogic-2013-346-95	95	statue	kip	0.72	0.03	1002	STATUE
 Rogic-2013-346-96	96	paintbrush	kist	0.50	-0.15	3094	PAINTBRUSH
 Rogic-2013-346-97	97	rain	kiša	0.94	0.02	658	RAIN (PRECIPITATION)
 Rogic-2013-346-98	98	umbrella	kišobran	1.00	-	3105	UMBRELLA
-Rogic-2013-346-99	99	clown	klaun	0.98	-0.01		
+Rogic-2013-346-99	99	clown	klaun	0.98	-0.01	4020	CLOWN
 Rogic-2013-346-100	100	piano	klavir	0.84	-0.13	3994	PIANO (INSTRUMENT)
-Rogic-2013-346-101	101	pliers	kliješta	0.84	0.04		
+Rogic-2013-346-101	101	pliers	kliješta	0.84	0.04	4003	PLIERS
 Rogic-2013-346-102	102	kangaroo	klokan	0.98	0.06	164	KANGAROO
 Rogic-2013-346-103	103	bench	klupa	0.88	0.26	2584	BENCH
 Rogic-2013-346-104	104	key	ključ	1.00	-	1472	KEY
@@ -166,8 +166,8 @@ Rogic-2013-346-164	164	monkey	majmun	0.48	-0.25	1350	MONKEY
 Rogic-2013-346-165	165	queen bee	matica	0.26	0.03		
 Rogic-2013-346-166	166	bear	medvjed	0.84	-0.25	1820	BEAR
 Rogic-2013-346-167	167	broom	metla	1.00	-	245	BROOM
-Rogic-2013-346-168	168	microphone	mikrofon	0.86	0.08		
-Rogic-2013-346-169	169	microscope	mikroskop	0.88	0.04		
+Rogic-2013-346-168	168	microphone	mikrofon	0.86	0.08	4014	MICROPHONE
+Rogic-2013-346-169	169	microscope	mikroskop	0.88	0.04	4016	MICROSCOPE
 Rogic-2013-346-170	170	mouse	miš	0.98	0.03	1491	MOUSE
 Rogic-2013-346-171	171	mouse	miš	0.68	0.10		
 Rogic-2013-346-172	172	moon	mjesec	0.92	-0.12	1313	MOON
@@ -205,10 +205,10 @@ Rogic-2013-346-203	203	dog	pas	1.00	-	2009	DOG
 Rogic-2013-346-204	204	duck	patka	0.98	0.14	1360	DUCK
 Rogic-2013-346-205	205	spider	pauk	0.98	0.34	843	SPIDER
 Rogic-2013-346-206	206	bee	pčela	0.54	-0.19	665	BEE
-Rogic-2013-346-207	207	iron	pegla	0.88	-0.17		
+Rogic-2013-346-207	207	iron	pegla	0.88	-0.17	4031	IRON (PRESSING)
 Rogic-2013-346-208	208	trophy	pehar	0.66	0.15		
 Rogic-2013-346-209	209	diapers	pelene	0.32	0.02		
-Rogic-2013-346-210	210	ashtray	pepeljara	0.82	0.20		
+Rogic-2013-346-210	210	ashtray	pepeljara	0.82	0.20	4028	ASHTRAY
 Rogic-2013-346-211	211	wig	perika	0.86	-0.02		
 Rogic-2013-346-212	212	feather	pero	0.96	-0.02	1201	FEATHER
 Rogic-2013-346-213	213	saw	pila	0.96	-0.05	1948	SAW
@@ -221,7 +221,7 @@ Rogic-2013-346-219	219	letter	pismo	0.76	0.12
 Rogic-2013-346-220	220	gun	pištolj	0.96	0.06	1566	GUN
 Rogic-2013-346-221	221	mountain	planina	0.92	0.13	639	MOUNTAIN
 Rogic-2013-346-222	222	tiles	pločice	0.50	-0.12	3404	TILE
-Rogic-2013-346-223	223	submarine	podmornica	0.86	0.18		
+Rogic-2013-346-223	223	submarine	podmornica	0.86	0.18	4022	SUBMARINE
 Rogic-2013-346-224	224	gift	poklon	0.78	0.23	2982	GIFT
 Rogic-2013-346-225	225	slingshot	praćka	0.96	0.20		
 Rogic-2013-346-226	226	trailer	prikolica	0.52	-0.18		
@@ -242,16 +242,16 @@ Rogic-2013-346-240	240	rocket	raketa	0.98	0.34
 Rogic-2013-346-241	241	ruler	ravnalo	0.54	0.08	3405	RULER
 Rogic-2013-346-242	242	racket	reket	0.86	-0.13	3096	RACKET
 Rogic-2013-346-243	243	tail	rep	0.68	0.11	1220	TAIL
-Rogic-2013-346-244	244	robot	robot	1.00	-		
+Rogic-2013-346-244	244	robot	robot	1.00	-	4006	ROBOT
 Rogic-2013-346-245	245	towel	ručnik	0.76	0.10	1021	TOWEL
 Rogic-2013-346-246	246	arm	ruka	0.80	0.14	2121	ARM OR HAND
 Rogic-2013-346-247	247	glove	rukavica	1.00	-	867	GLOVE
 Rogic-2013-346-248	248	backpack	ruksak	0.46	0.11		
 Rogic-2013-346-249	249	rose	ruža	0.86	0.15	3882	ROSE
-Rogic-2013-346-250	250	saxophone	saksofon	0.46	0.60		
+Rogic-2013-346-250	250	saxophone	saksofon	0.46	0.60	4024	SAXOPHONE
 Rogic-2013-346-251	251	clock	sat	1.00	-	1323	CLOCK
 Rogic-2013-346-252	252	saddle	sedlo	0.96	0.06	3065	SADDLE
-Rogic-2013-346-253	253	sandwich	sendvič	1.00	-		
+Rogic-2013-346-253	253	sandwich	sendvič	1.00	-	4008	SANDWICH
 Rogic-2013-346-254	254	anchor	sidro	1.00	-	1870	ANCHOR
 Rogic-2013-346-255	255	cheese	sir	1.00	-	1569	CHEESE
 Rogic-2013-346-256	256	axe	sjekira	0.88	0.12	677	AXE
@@ -293,7 +293,7 @@ Rogic-2013-346-291	291	clothespin	štipalica	0.44	0.01
 Rogic-2013-346-292	292	plate	tanjur	0.48	-0.03	480	PLATE
 Rogic-2013-346-293	293	pan	tava	0.96	0.28	31	PAN
 Rogic-2013-346-294	294	telephone	telefon	1.00	-	1379	TELEPHONE
-Rogic-2013-346-295	295	telescope	teleskop	0.58	0.10		
+Rogic-2013-346-295	295	telescope	teleskop	0.58	0.10	4012	TELESCOPE
 Rogic-2013-346-296	296	tank	tenk	0.98	-0.12	3102	TANK
 Rogic-2013-346-297	297	carpet	tepih	0.48	-0.11	292	RUG
 Rogic-2013-346-298	298	thermometer	termometar	0.54	0.18	3104	THERMOMETER
@@ -315,7 +315,7 @@ Rogic-2013-346-313	313	fire	vatra	0.96	-0.17	221	FIRE
 Rogic-2013-346-314	314	firefighter	vatrogasac	0.98	0.34		
 Rogic-2013-346-315	315	vase	vaza	0.80	0.19	3746	VASE
 Rogic-2013-346-316	316	fan	ventilator	0.88	0.02	1971	FAN (OBJECT)
-Rogic-2013-346-317	317	violin	violina	0.78	0.30		
+Rogic-2013-346-317	317	violin	violina	0.78	0.30	4023	VIOLIN
 Rogic-2013-346-318	318	hanger	vješalica	0.98	0.03	770	EARRING
 Rogic-2013-346-319	319	witch	vještica	0.94	-0.09	824	WITCH
 Rogic-2013-346-320	320	windmill	vjetrenjača	0.94	0.30	3841	WINDMILL
