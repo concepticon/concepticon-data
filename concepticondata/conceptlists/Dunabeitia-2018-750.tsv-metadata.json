@@ -1,0 +1,251 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dialect": {
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        },
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        },
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "PICTURE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ITALIAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SPANISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "GERMAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "WESTERNFLEMISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FRENCH"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "H_INDEX_ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_NAME_ENGLISH"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "0"
+                        },
+                        "name": "VALID_RESPONSES_ENGLISH"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "0"
+                        },
+                        "name": "NUMBER_DIFFERENT_RESPONSES_ENGLISH"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "0"
+                        },
+                        "name": "UNKNOWN_RESPONSES_ENGLISH"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "VISUAL_COMPLEXITY_ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_INDEX_ITALIAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_NAME_ITALIAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_ITALIAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NUMBER_DIFFERENT_RESPONSES__ITALIAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "UNKNOWN_RESPONSES__ITALIAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSES__ITALIAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VISUAL_COMPLEXITY__ITALIAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_INDEX_SPANISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_NAME_SPANISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_SPANISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NUMBER_DIFFERENT_RESPONSES_SPANISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "UNKNOWN_RESPONSES_SPANISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSES_SPANISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VISUAL_COMPLEXITY_SPANISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_INDEX_GERMAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_NAME_GERMAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_GERMAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NUMBER_DIFFERENT_RESPONSES_GERMAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "UNKNOWN_RESPONSES_GERMAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSES_GERMAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VISUAL_COMPLEXITY_GERMAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_INDEX_WESTERNFLEMISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_NAME_WESTERNFLEMISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_WESTERNFLEMISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NUMBER_DIFFERENT_RESPONSES_WESTERNFLEMISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "UNKNOWN_RESPONSES_WESTERNFLEMISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSES_WESTERNFLEMISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VISUAL_COMPLEXITY_WESTERNFLEMISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_INDEX_FRENCH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_NAME_FRENCH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_RESPONSES_FRENCH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NUMBER_DIFFERENT_RESPONSES_FRENCH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "UNKNOWN_RESPONSES_FRENCH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "IDIOSYNCRATIC_RESPONSES_FRENCH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VISUAL_COMPLEXITY_FRENCH"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "Dunabeitia-2018-750.tsv"
+        }
+    ]
+}

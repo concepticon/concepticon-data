@@ -1,0 +1,123 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dialect": {
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        },
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        },
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MANDARINE_CHINESE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "SOURCE"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "WORD_LENGTH"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "IMAGE_VARIABILITY"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "IMAGE_AGREEMENT"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "CONCEPT_FAMILIARITY"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "VISUAL_COMPLEXITY"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "SUBJECTIVE_FREQUENCY"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "NAME_AGREEMENT_PERCENT"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "NAME_AGREMENT_H"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "CONCEPT_AGREEMENT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "AoA_RATED"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "AoA_OBJECTIVE"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "ERROR_PERCENT"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "LATENCY_ms"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "Liu-2011-435.tsv"
+        }
+    ]
+}

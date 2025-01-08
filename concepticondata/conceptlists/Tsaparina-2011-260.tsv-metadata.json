@@ -1,0 +1,85 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dialect": {
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        },
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        },
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RUSSIAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RUSSIAN_DOMINANT"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "NAME_AGREEMENT_PERCENT"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "IMAGE_AGREEMENT_M"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "CONCEPTUAL_FAMILIARITY_M"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "RUSSIAN_AOA_M"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "IMAGEABILITY_M"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "Tsaparina-2011-260.tsv"
+        }
+    ]
+}
