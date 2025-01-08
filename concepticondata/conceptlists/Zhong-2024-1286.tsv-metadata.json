@@ -1,0 +1,114 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dialect": {
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        },
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        },
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "PICTURE_CODE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SOURCE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "H_STATISTIC"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CANTONESE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ALTERNATIVE_CANTONESE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_RESPONSE_PERCENTAGE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VALID_ALTERNATIVE_RESPONSE_PERCENTAGE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NA_PERCENTAGE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_MEAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FAMILIARITY_SD"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "VISUAL_COMPLEXITY"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SKETCHENGINE_CANTONESEFREQUENCYCOUNT"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SKETCHENGINE CANTONESE FREQUENCY RATIO"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SKETCHENGINE_CANTONESEFREQUENCY_LOG10"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPT_AGREEMENT_PERCENT"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "Zhong-2024-1286.tsv"
+        }
+    ]
+}
