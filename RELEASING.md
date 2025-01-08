@@ -51,7 +51,7 @@ to normalize them for import:
 
 - Make sure CLDF-creation works:
   ```shell
-  cldfbench makecldf cldfbench_concepticon.py --glottolog-version v5.0
+  cldfbench makecldf cldfbench_concepticon.py --glottolog-version v5.1
   ```
 
 - Adapt `CHANGELOG.md`

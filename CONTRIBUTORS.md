@@ -6,10 +6,10 @@ Period | Name
 --- | ---
 2013- | Johann Mattis List
 2020- | Annika Tjuka
-2025- | Alžběta Kučerová 
 2013-2018 | Michael Cysouw
 2023-2024 | Mathilda van Zantwijk
 2023- | Frederic Blum
+2025- | Alžběta Kučerová 
 2023- | Carlos Barrientos Ugarte
 2019- | Christoph Rzymski
 2017- | Simon Greenhill
