@@ -137,31 +137,31 @@
                     },
                     {
                         "datatype": "float",
-                        "name": "GERMAN_IMAGERY_MEAN_FEMALE_YOUNG"
+                        "name": "GERMAN_IMAGEABILITY_MEAN_FEMALE_YOUNG"
                     },
                     {
                         "datatype": "float",
-                        "name": "GERMAN_IMAGERY_MEAN_MALE_YOUNG"
+                        "name": "GERMAN_IMAGEABILITY_MEAN_MALE_YOUNG"
                     },
                     {
                         "datatype": "float",
-                        "name": "GERMAN_IMAGERY_MEAN_FEMALE_OLD"
+                        "name": "GERMAN_IMAGEABILITY_MEAN_FEMALE_OLD"
                     },
                     {
                         "datatype": "float",
-                        "name": "GERMAN_IMAGERY_MEAN_MALE_OLD"
+                        "name": "GERMAN_IMAGEABILITY_MEAN_MALE_OLD"
                     },
                     {
                         "datatype": "float",
-                        "name": "GERMAN_IMAGERY_MEAN_YOUNG"
+                        "name": "GERMAN_IMAGEABILITY_MEAN_YOUNG"
                     },
                     {
                         "datatype": "float",
-                        "name": "GERMAN_IMAGERY_MEAN_OLD"
+                        "name": "GERMAN_IMAGEABILITY_MEAN_OLD"
                     },
                     {
                         "datatype": "float",
-                        "name": "GERMAN_IMAGERY_MEAN"
+                        "name": "GERMAN_IMAGEABILITY_MEAN"
                     },
                     {
                         "datatype": "float",
@@ -221,11 +221,11 @@
                     },
                     {
                         "datatype": "float",
-                        "name": "GERMAN_RELEVANCE_SELF_MEAN"
+                        "name": "GERMAN_VALENCE_SELF_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "GERMAN_RELEVANCE_OTHER_MEAN"
+                        "name": "GERMAN_VALENCE_OTHER_MEAN"
                     },
                     {
                         "datatype": "float",
