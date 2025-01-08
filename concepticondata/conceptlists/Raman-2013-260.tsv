@@ -7,11 +7,11 @@ Raman-2013-260-5	5	ant	587	ANT	Karınca	Karınca	93	4.47	0.99	4.68	0.71	1.85	0.7
 Raman-2013-260-6	6	apple	1320	APPLE	Elma	Elma	100	3.75	1.25	4.78	0.83	1.74	0.75	1.09	0.64	2	4	23.50
 Raman-2013-260-7	7	arm	1673	ARM	Kol	Kol	100	4.50	1.41	4.83	0.66	1.57	0.69	1.22	0.57	1	3	37.10
 Raman-2013-260-8	8	arrow	977	ARROW	Ok	Ok	71	3.97	1.33	4.68	1.02	2.49	0.78	1.00	0.98	1	2	15.51
-Raman-2013-260-9	9	artichoke			Enginar	Enginar	81	4.13	1.67	4.56	1.16	2.61	0.94	1.66	1.24	3	7	1.89
-Raman-2013-260-10	10	ashtray			Kül tablası	Kül tablası	61	3.88	1.01	4.58	0.74	2.90	1.22	1.22	1.17	4	11	0.71
+Raman-2013-260-9	9	artichoke	3997	ARTICHOKE	Enginar	Enginar	81	4.13	1.67	4.56	1.16	2.61	0.94	1.66	1.24	3	7	1.89
+Raman-2013-260-10	10	ashtray	4028	ASHTRAY	Kül tablası	Kül tablası	61	3.88	1.01	4.58	0.74	2.90	1.22	1.22	1.17	4	11	0.71
 Raman-2013-260-11	11	aspargus			Kuşkonmaz	Ayrelli	22	3.44	1.96	3.47	0.43	2.69	0.90	1.66	0.47	3	7	NA
 Raman-2013-260-12	12	axe	677	AXE	Balta	Balta	89	4.78	1.01	4.76	0.40	2.57	0.91	1.06	0.91	2	5	4.76
-Raman-2013-260-13	13	baby carriage			Çocuk arabası	Bebek Arabası	86	4.03	1.45	4.80	0.67	2.02	1.08	1.50	0.71	6	13	0.02
+Raman-2013-260-13	13	baby carriage	4029	BABY CARRIAGE	Çocuk arabası	Bebek Arabası	86	4.03	1.45	4.80	0.67	2.02	1.08	1.50	0.71	6	13	0.02
 Raman-2013-260-14	14	ball	1845	BALL	Top	Top	100	3.91	1.95	4.49	0.50	1.75	0.98	1.63	0.79	1	3	49.59
 Raman-2013-260-15	15	balloon	3083	BALLOON	Balon	Balon	100	4.53	1.22	4.88	0.70	1.38	1.06	1.03	1.21	2	5	8.14
 Raman-2013-260-16	16	banana	868	BANANA	Muz	Muz	89	4.94	1.55	4.93	0.71	1.62	1.09	1.03	0.59	1	3	6.93
@@ -27,7 +27,7 @@ Raman-2013-260-25	25	bell	2246	BELL	Zil	Zil	91	3.63	1.20	4.64	0.95	2.41	1.11	1.2
 Raman-2013-260-26	26	belt	772	BELT	Kemer	Kemer	91	4.61	0.75	4.80	0.77	2.28	0.92	1.16	0.37	2	5	9.61
 Raman-2013-260-27	27	bicycle	747	BICYCLE	Bisiklet	Bisiklet	98	4.48	0.75	4.83	0.48	1.97	0.90	1.34	0.25	3	8	9.93
 Raman-2013-260-28	28	bird	937	BIRD	Kuş	Kuş	98	4.28	2.14	4.66	0.80	1.90	1.15	1.34	0.77	1	3	80.92
-Raman-2013-260-29	29	blouse			Bluz	Gömlek	36	2.57	1.10	4.76	0.95	2.07	0.72	1.38	1.15	2	6	14.69
+Raman-2013-260-29	29	blouse	4018	BLOUSE	Bluz	Gömlek	36	2.57	1.10	4.76	0.95	2.07	0.72	1.38	1.15	2	6	14.69
 Raman-2013-260-30	30	book	963	BOOK	Kitap	Kitap	100	4.38	1.39	4.81	1.07	1.92	1.13	1.16	1.34	2	5	183.33
 Raman-2013-260-31	31	boot	585	BOOT	Çizme	Çizme	61	3.28	1.58	4.66	0.63	2.13	0.99	1.28	0.45	2	5	3.27
 Raman-2013-260-32	32	bottle	1321	BOTTLE	Şişe	Şişe	98	2.50	0.89	4.70	0.91	2.28	0.75	1.03	0.75	2	4	19.35
@@ -56,12 +56,12 @@ Raman-2013-260-54	54	cherry	2765	CHERRY	Kiraz	Kiraz	100	4.53	0.89	4.58	1.10	2.11
 Raman-2013-260-55	55	chicken	1318	CHICKEN	Tavuk	Tavuk	100	3.97	0.73	4.78	0.60	1.95	0.91	1.59	0.94	2	5	27.03
 Raman-2013-260-56	56	chisel	1979	CHISEL	Keski	Keski	21	4.61	1.15	4.28	0.31	3.31	0.80	1.53	0.80	2	5	0.69
 Raman-2013-260-57	57	church	1349	CHURCH	Kilise	Kilise	88	4.53	0.82	4.36	0.52	3.26	1.00	1.59	1.30	3	6	31.02
-Raman-2013-260-58	58	cigar			Puro	Puro	93	4.42	0.96	4.68	0.34	3.25	0.80	1.72	0.74	2	4	3.25
+Raman-2013-260-58	58	cigar	4019	CIGAR	Puro	Puro	93	4.42	0.96	4.68	0.34	3.25	0.80	1.72	0.74	2	4	3.25
 Raman-2013-260-59	59	cigarette	969	CIGARETTE	Sigara	Sigara	100	4.06	0.62	4.59	0.47	2.89	0.80	1.09	0.47	3	6	107.22
 Raman-2013-260-60	60	clock	1323	CLOCK	Saat	Saat	100	3.72	0.89	4.83	0.60	2.31	0.99	1.38	0.25	2	4	317.43
 Raman-2013-260-61	61	clothespin			Mandal	Mandal	72	3.00	0.55	4.86	1.02	2.44	0.89	1.19	0.98	2	6	0.80
 Raman-2013-260-62	62	cloud	1489	CLOUD	Bulut	Bulut	91	4.16	0.54	4.42	0.88	1.85	0.87	1.47	0.84	2	5	19.56
-Raman-2013-260-63	63	clown			Palyaço	Palyaço	98	4.22	1.02	4.71	0.52	2.02	0.78	1.84	0.30	3	7	2.35
+Raman-2013-260-63	63	clown	4020	CLOWN	Palyaço	Palyaço	98	4.22	1.02	4.71	0.52	2.02	0.78	1.84	0.30	3	7	2.35
 Raman-2013-260-64	64	coat	603	COAT	Ceket	Ceket	43	3.84	0.67	4.80	0.43	2.31	0.64	1.44	0.47	2	5	6.82
 Raman-2013-260-65	65	comb	1475	COMB	Tarak	Tarak	100	4.00	1.29	4.73	0.43	1.98	0.67	1.59	0.54	2	5	2.52
 Raman-2013-260-66	66	corn	506	MAIZE	Mısır	Mısır	100	4.28	1.07	4.81	1.09	2.13	0.87	1.63	0.63	2	5	54.21
@@ -75,7 +75,7 @@ Raman-2013-260-73	73	dog	2009	DOG	Köpek	Köpek	100	4.41	0.51	4.83	0.25	1.70	0.6
 Raman-2013-260-74	74	doll	1659	DOLL	Bebek	Bebek	79	2.71	1.00	4.64	0.43	1.38	0.95	1.34	0.95	2	5	50.85
 Raman-2013-260-75	75	donkey	1862	DONKEY	Eşek	Eşek	98	4.41	0.53	4.63	0.95	1.80	0.85	1.13	0.87	2	4	17.25
 Raman-2013-260-76	76	door	1567	DOOR	Kapı	Kapı	100	4.63	1.32	4.71	0.97	1.85	0.95	1.22	0.25	2	4	104.95
-Raman-2013-260-77	77	doorknob			Kapı tokmağı	Kulp	53	3.43	0.77	4.78	0.69	2.33	0.79	1.38	0.42	1	4	1.36
+Raman-2013-260-77	77	doorknob	4030	DOORKNOB	Kapı tokmağı	Kulp	53	3.43	0.77	4.78	0.69	2.33	0.79	1.38	0.42	1	4	1.36
 Raman-2013-260-78	78	dress	474	DRESS	Elbise	Elbise	98	3.84	0.98	4.85	0.58	2.07	1.02	1.09	1.16	3	6	21.20
 Raman-2013-260-79	79	dresser			Şifoniyer	Komidin	39	1.37	1.62	4.83	0.96	2.03	0.58	1.38	0.97	3	7	0.02
 Raman-2013-260-80	80	drum	908	DRUM	Davul	Davul	65	3.38	1.55	4.34	1.07	2.64	1.05	1.84	0.87	2	5	9.15
@@ -100,7 +100,7 @@ Raman-2013-260-98	98	fox	1312	FOX	Tilki	Tilki	91	3.68	0.82	4.36	1.09	2.59	0.96	1
 Raman-2013-260-99	99	french horn	939	HORN (INSTRUMENT)	Korno	Saksafon	25	1.42	1.03	4.17	0.58	3.72	0.61	1.69	0.18	3	8	0.78
 Raman-2013-260-100	100	frog	503	FROG	Kurbağa	Kurbağa	98	4.19	1.07	4.42	0.95	2.21	0.82	1.53	0.37	3	7	7.51
 Raman-2013-260-101	101	frying pan	31	PAN	Tava	Tava	95	3.88	0.77	4.75	0.78	2.44	0.88	1.19	0.51	2	4	3.63
-Raman-2013-260-102	102	garbage can			Çöp tenekesi	Çöp	59	3.44	1.05	4.90	0.59	2.15	0.76	1.19	0.39	1	3	23.55
+Raman-2013-260-102	102	garbage can	4036	GARBAGE CAN	Çöp tenekesi	Çöp	59	3.44	1.05	4.90	0.59	2.15	0.76	1.19	0.39	1	3	23.55
 Raman-2013-260-103	103	giraffe	3089	GIRAFFE	Zürafa	Zürafa	96	3.53	0.88	4.61	0.50	2.54	0.64	1.91	0.63	3	6	2.39
 Raman-2013-260-104	104	glass	604	GLASS	Bardak	Bardak	100	4.69	1.08	4.93	0.52	1.51	0.79	1.03	0.39	2	6	37.04
 Raman-2013-260-105	105	glasses	1898	SPECTACLES	Gözlük	Gözlük	100	4.19	1.16	4.85	0.78	1.90	0.78	1.09	0.34	2	6	7.05
@@ -121,8 +121,8 @@ Raman-2013-260-119	119	heart	1223	HEART	Kalp	Kalp	98	4.16	1.12	4.83	1.17	2.28	1.
 Raman-2013-260-120	120	helicopter	2580	HELICOPTER	Helikopter	Helikopter	100	4.16	0.83	4.63	0.45	2.41	0.87	1.66	0.49	4	10	9.38
 Raman-2013-260-121	121	horse	615	HORSE	At	At	100	4.75	1.21	4.68	0.34	2.03	0.70	1.41	1.02	1	2	70.87
 Raman-2013-260-122	122	house	1252	HOUSE	Ev	Ev	100	3.84	0.86	4.92	0.61	1.56	0.77	1.25	0.30	1	2	218.40
-Raman-2013-260-123	123	iron			Ütü	Ütü	100	3.39	0.81	4.78	0.40	2.49	0.67	1.28	0.53	2	3	3.15
-Raman-2013-260-124	124	ironing board			Ütü Tahtası	Ütü masası	100	3.29	0.68	4.75	0.46	2.51	0.62	1.47	0.93	5	10	0.17
+Raman-2013-260-123	123	iron	4031	IRON (PRESSING)	Ütü	Ütü	100	3.39	0.81	4.78	0.40	2.49	0.67	1.28	0.53	2	3	3.15
+Raman-2013-260-124	124	ironing board	3998	IRONING BOARD	Ütü Tahtası	Ütü masası	100	3.29	0.68	4.75	0.46	2.51	0.62	1.47	0.93	5	10	0.17
 Raman-2013-260-125	125	jacket	2770	JACKET	Ceket	Ceket	47	4.22	0.77	4.86	0.85	2.30	0.78	1.28	1.33	2	5	6.82
 Raman-2013-260-126	126	kangaroo	164	KANGAROO	Kanguru	Kanguru	93	4.84	0.93	4.44	0.84	2.61	0.84	1.31	1.21	3	7	0.46
 Raman-2013-260-127	127	kettle	854	KETTLE	Çaydanlık	Çaydanlık	93	3.32	1.58	4.80	0.36	2.18	0.77	1.25	0.63	3	9	1.70
@@ -136,8 +136,8 @@ Raman-2013-260-134	134	leg	1297	LEG	Bacak	Bacak	95	4.06	1.19	4.85	0.72	1.66	0.93
 Raman-2013-260-135	135	lemon	3091	LEMON	Limon	Limon	98	4.38	1.00	4.80	0.40	1.97	0.87	1.00	0.97	2	5	24.15
 Raman-2013-260-136	136	leopard	1139	LEOPARD	Leopar	Kaplan	59	4.38	0.30	4.41	1.12	2.56	0.94	1.63	0.82	2	6	8.54
 Raman-2013-260-137	137	lettuce	3729	LETTUCE	Marul	Marul	59	3.55	0.34	4.69	1.24	2.48	0.98	1.69	1.13	2	5	2.43
-Raman-2013-260-138	138	light bulb			Ampül	Ampül	73	4.84	0.37	4.86	0.64	1.75	0.84	1.34	1.10	2	5	0.04
-Raman-2013-260-139	139	light switch			Elektrik düğmesi	Düğme	33	4.19	0.95	4.73	0.83	2.16	0.81	1.16	0.75	2	5	4.26
+Raman-2013-260-138	138	light bulb	4000	LIGHTBULB	Ampül	Ampül	73	4.84	0.37	4.86	0.64	1.75	0.84	1.34	1.10	2	5	0.04
+Raman-2013-260-139	139	light switch	4001	LIGHT SWITCH	Elektrik düğmesi	Düğme	33	4.19	0.95	4.73	0.83	2.16	0.81	1.16	0.75	2	5	4.26
 Raman-2013-260-140	140	lion	1386	LION	Aslan	Aslan	100	4.66	0.48	4.53	1.00	2.18	0.82	1.50	0.34	2	5	37.88
 Raman-2013-260-141	141	lips	478	LIP	Dudak	Dudak	100	4.28	0.48	4.80	0.43	1.39	0.83	1.03	0.81	2	5	12.23
 Raman-2013-260-142	142	lobster	2397	LOBSTER	ıstakoz	ıstakoz	56	2.97	0.43	4.51	0.63	2.80	0.71	1.56	0.25	3	7	0.84
@@ -174,7 +174,7 @@ Raman-2013-260-172	172	pig	1337	PIG	Domuz	Domuz	98	4.19	0.91	4.42	0.57	2.69	0.75
 Raman-2013-260-173	173	pineapple	2440	PINEAPPLE	Ananas	Ananas	86	4.75	0.88	4.85	0.47	2.85	0.92	1.72	1.26	3	6	0.99
 Raman-2013-260-174	174	pipe	1124	PIPE	Pipo	Pipo	81	4.16	1.47	4.61	0.53	3.38	0.89	1.19	1.36	2	4	1.32
 Raman-2013-260-175	175	pitcher	120	PITCHER	Sürahi	Sürahi	91	4.00	1.37	4.85	0.68	2.33	0.94	1.09	0.00	3	6	1.51
-Raman-2013-260-176	176	pliers			kerpeten	Pens	71	4.19	0.87	4.68	0.38	2.98	0.85	1.09	1.22	1	4	0.31
+Raman-2013-260-176	176	pliers	4003	PLIERS	kerpeten	Pens	71	4.19	0.87	4.68	0.38	2.98	0.85	1.09	1.22	1	4	0.31
 Raman-2013-260-177	177	plug			Fiş	Fiş	67	3.17	0.97	4.44	0.44	2.59	0.92	1.75	0.73	1	3	5.94
 Raman-2013-260-178	178	pocketbook			Çanta	Çanta	100	3.59	0.82	4.71	0.67	2.07	0.87	1.25	1.59	2	5	8.10
 Raman-2013-260-179	179	pot	1462	POT	Tencere	Tava	45	3.17	1.47	4.81	0.94	2.28	0.79	1.16	0.55	2	4	3.63
@@ -182,18 +182,18 @@ Raman-2013-260-180	180	potato	593	POTATO	patates	patates	93	4.59	0.78	4.64	0.62	
 Raman-2013-260-181	181	pumpkin	864	PUMPKIN	Balkabağı	Balkabağı	98	3.17	1.17	4.51	0.83	2.72	0.88	1.34	1.21	4	9	0.40
 Raman-2013-260-182	182	rabbit	1136	RABBIT	Tavşan	Tavşan	100	3.97	0.97	4.73	0.95	2.15	0.97	1.31	0.94	2	6	18.85
 Raman-2013-260-183	183	raccoon	828	RACCOON	Rakun	Tilki	23	3.19	0.96	4.19	0.75	2.92	0.96	1.53	0.30	2	5	15.59
-Raman-2013-260-184	184	record player			Pikap	Gramofon	30	1.88	0.86	4.27	0.83	3.49	1.08	1.66	0.59	3	8	1.24
+Raman-2013-260-184	184	record player	4004	RECORD PLAYER	Pikap	Gramofon	30	1.88	0.86	4.27	0.83	3.49	1.08	1.66	0.59	3	8	1.24
 Raman-2013-260-185	185	refrigerator	3952	REFRIGERATOR	Buzdolabı	Buzdolabı	93	4.59	0.82	4.83	0.60	1.95	0.95	1.09	1.37	4	9	6.11
 Raman-2013-260-186	186	rhinoceros	2591	RHINOCEROS	Gergedan	Gergedan	75	4.50	0.91	4.29	0.67	3.21	0.88	1.31	0.99	3	8	0.94
 Raman-2013-260-187	187	ring	1374	RING	Yüzük	Yüzük	93	3.71	1.06	4.53	0.81	2.59	0.96	1.31	0.85	2	5	7.64
-Raman-2013-260-188	188	rocking chair			Sallanan sandalye	Sallanan sandalye	51	4.32	1.57	4.66	0.50	2.31	0.94	1.28	0.94	6	17	0.06
+Raman-2013-260-188	188	rocking chair	3999	ROCKING CHAIR	Sallanan sandalye	Sallanan sandalye	51	4.32	1.57	4.66	0.50	2.31	0.94	1.28	0.94	6	17	0.06
 Raman-2013-260-189	189	roller skate			Paten	Paten	73	3.29	1.36	4.47	0.40	3.08	0.85	1.63	0.98	2	5	1.07
-Raman-2013-260-190	190	rolling pin			Merdane	Merdane	44	4.03	1.31	4.64	0.80	2.64	0.77	1.09	0.34	3	7	0.61
+Raman-2013-260-190	190	rolling pin	4002	ROLLING PIN	Merdane	Merdane	44	4.03	1.31	4.64	0.80	2.64	0.77	1.09	0.34	3	7	0.61
 Raman-2013-260-191	191	rooster	1511	ROOSTER	Horoz	Horoz	100	3.97	0.83	4.66	0.34	1.89	0.80	1.59	0.42	2	5	7.28
 Raman-2013-260-192	192	ruler	3405	RULER	Cetvel	Cetvel	100	4.55	0.93	4.78	0.51	2.16	0.81	1.16	1.01	2	6	4.18
 Raman-2013-260-193	193	sail boat			Yelkenli	Yelken	78	3.42	1.04	4.75	0.69	2.49	0.81	1.53	1.37	2	6	9.40
 Raman-2013-260-194	194	salt shaker			Tuzluk	Tuzluk	91	3.87	1.40	4.81	0.66	2.25	0.81	1.19	1.27	2	6	0.57
-Raman-2013-260-195	195	sandwich			Sandviç	Sandviç	96	4.09	0.88	4.86	1.02	2.02	1.16	1.44	0.30	2	7	3.50
+Raman-2013-260-195	195	sandwich	4008	SANDWICH	Sandviç	Sandviç	96	4.09	0.88	4.86	1.02	2.02	1.16	1.44	0.30	2	7	3.50
 Raman-2013-260-196	196	saw	1948	SAW	Testere	Testere	65	3.08	0.92	4.68	0.74	2.79	0.91	1.06	0.98	3	7	2.73
 Raman-2013-260-197	197	scissors	356	SHEARS	Makas	Makas	100	4.06	1.26	4.81	0.90	2.20	0.95	1.09	0.66	2	5	5.73
 Raman-2013-260-198	198	screw	1802	SCREW	Vida	Vida	82	3.81	1.26	4.51	0.75	3.02	0.97	1.44	0.78	2	4	1.55
@@ -211,7 +211,7 @@ Raman-2013-260-209	209	snake	730	SNAKE	Yılan	Yılan	100	3.58	0.86	4.47	1.07	2.3
 Raman-2013-260-210	210	snowman	3098	SNOWMAN	Kardanadam	Kardanadam	96	4.75	1.45	4.56	0.87	2.08	0.92	1.13	1.29	4	10	0.15
 Raman-2013-260-211	211	socks	1522	SOCK	çorap	çorap	100	3.10	1.50	4.81	0.68	1.79	0.81	1.19	0.72	2	5	9.23
 Raman-2013-260-212	212	spider	843	SPIDER	Örümcek	Örümcek	93	3.32	1.02	4.49	0.67	2.28	0.76	1.34	0.94	3	7	11.46
-Raman-2013-260-213	213	spinning wheel			çıkrık	eğirme makinasi	28	1.09	1.44	3.60	1.11	3.48	0.96	2.09	0.86	7	15	NA
+Raman-2013-260-213	213	spinning wheel	4009	SPINNING WHEEL	çıkrık	eğirme makinasi	28	1.09	1.44	3.60	1.11	3.48	0.96	2.09	0.86	7	15	NA
 Raman-2013-260-214	214	spool of thread			İplik	İplik	48	4.04	1.03	4.58	0.99	2.54	0.94	1.34	1.21	2	5	9.57
 Raman-2013-260-215	215	spoon	1378	SPOON	Kaşık	Kaşık	100	4.72	1.12	4.81	1.25	1.64	0.94	1.06	1.41	2	5	16.94
 Raman-2013-260-216	216	squirrel	1628	SQUIRREL	Sincap	Sincap	98	4.00	1.03	4.49	0.89	2.64	0.88	1.28	0.57	2	6	3.53
@@ -219,10 +219,10 @@ Raman-2013-260-217	217	star	1430	STAR	Yıldız	Yıldız	100	3.68	1.23	4.71	0.98	
 Raman-2013-260-218	218	stool	2058	STOOL	Tabure	Tabure	82	4.56	0.98	4.78	0.71	1.85	0.90	1.16	1.14	3	6	1.07
 Raman-2013-260-219	219	stove	859	STOVE	Fırın	Ocak	55	3.96	1.00	4.83	0.81	2.34	0.97	1.63	1.52	2	4	84.26
 Raman-2013-260-220	220	strawberry	3138	STRAWBERRY	Çilek	Çilek	100	3.19	1.14	4.85	0.63	1.98	0.92	1.41	0.47	2	5	4.68
-Raman-2013-260-221	221	suitcase			Bavul	Bavul	64	4.03	1.38	4.86	0.86	2.38	1.09	1.41	0.45	2	5	6.11
+Raman-2013-260-221	221	suitcase	4005	SUITCASE	Bavul	Bavul	64	4.03	1.38	4.86	0.86	2.38	1.09	1.41	0.45	2	5	6.11
 Raman-2013-260-222	222	sun	1343	SUN	Güneş	Güneş	100	4.53	1.04	4.90	0.74	1.51	0.76	1.09	0.45	2	5	150.70
 Raman-2013-260-223	223	swan	2837	SWAN	Kuğu	Kuğu	86	4.13	1.31	4.58	0.42	2.48	0.89	1.19	1.26	2	4	3.34
-Raman-2013-260-224	224	sweater			Kazak	Kazak	74	2.70	1.11	4.90	0.66	2.10	0.85	1.16	0.88	2	5	9.36
+Raman-2013-260-224	224	sweater	4035	SWEATER	Kazak	Kazak	74	2.70	1.11	4.90	0.66	2.10	0.85	1.16	0.88	2	5	9.36
 Raman-2013-260-225	225	swing	3101	SWING	Salıncak	Salıncak	95	4.10	1.26	4.66	0.81	1.85	1.04	1.13	0.87	3	8	2.31
 Raman-2013-260-226	226	table	1775	TABLE	Masa	Masa	96	4.19	1.21	4.91	0.78	1.95	1.07	1.06	0.98	2	4	34.02
 Raman-2013-260-227	227	telephone	1379	TELEPHONE	Telefon	Telefon	100	3.70	1.09	4.76	1.02	1.93	0.88	1.25	0.88	3	7	147.30
@@ -232,7 +232,7 @@ Raman-2013-260-230	230	thimble			Yüksük	Yüksük	32	2.75	1.32	3.98	0.48	3.10	0
 Raman-2013-260-231	231	thumb	1781	THUMB	Başparmak	Parmak	53	4.50	1.30	4.80	0.92	1.54	1.00	1.13	1.19	2	6	39.22
 Raman-2013-260-232	232	tie	1917	TIE	Kravat	Kravat	100	4.41	1.19	4.81	0.89	2.64	1.07	1.19	0.69	2	6	5.29
 Raman-2013-260-233	233	tiger	846	TIGER	Kaplan	Kaplan	98	4.84	1.07	4.34	1.07	2.51	1.07	1.44	0.90	2	6	8.54
-Raman-2013-260-234	234	toaster			Ekmek kızartma makinesi	Ekmek kızartma makinesi	45	3.78	1.30	4.59	1.10	2.85	0.92	1.44	1.42	9	23	0.19
+Raman-2013-260-234	234	toaster	4010	TOASTER	Ekmek kızartma makinesi	Ekmek kızartma makinesi	45	3.78	1.30	4.59	1.10	2.85	0.92	1.44	1.42	9	23	0.19
 Raman-2013-260-235	235	toe	1389	TOE	Ayak parmağı	Parmak	65	4.77	1.01	4.78	0.74	1.52	0.95	1.19	0.18	2	6	39.22
 Raman-2013-260-236	236	tomato	986	TOMATO	Domates	Domates	100	4.81	1.34	4.85	0.70	1.70	0.97	1.03	0.18	3	7	25.56
 Raman-2013-260-237	237	toothbrush	2579	TOOTHBRUSH	Diş fırçası	Diş fırçası	100	4.31	1.19	4.81	0.81	1.70	0.95	1.00	1.52	4	11	0.97
@@ -240,13 +240,13 @@ Raman-2013-260-238	238	top	3995	TOP (TOY)	Topaç	Topaç	74	3.77	1.02	4.31	1.00	2
 Raman-2013-260-239	239	traffic lights			Trafik ışığı	Trafik lambası	52	3.90	1.29	4.80	0.87	2.62	0.89	1.50	1.53	5	14	0.23
 Raman-2013-260-240	240	train	900	TRAIN	Tren	Tren	100	3.90	1.36	4.63	0.83	2.57	0.84	1.75	0.77	1	4	35.95
 Raman-2013-260-241	241	tree	906	TREE	Ağaç	Ağaç	100	4.59	1.26	4.97	0.83	1.54	0.81	1.53	0.62	2	4	67.78
-Raman-2013-260-242	242	truck			Kamyon	Kamyon	73	3.42	1.33	4.71	0.78	2.34	0.80	1.47	0.34	2	6	15.09
+Raman-2013-260-242	242	truck	4011	TRUCK	Kamyon	Kamyon	73	3.42	1.33	4.71	0.78	2.34	0.80	1.47	0.34	2	6	15.09
 Raman-2013-260-243	243	trumpet	775	TRUMPET	Trompet	Saksafon	33	2.18	1.59	4.44	0.66	3.38	0.90	1.50	0.62	3	8	0.78
 Raman-2013-260-244	244	turtle	112	TURTLE	kaplumbağa	kaplumbağa	100	4.69	1.15	4.71	0.85	2.23	0.94	1.38	1.34	4	10	9.65
 Raman-2013-260-245	245	umbrella	3105	UMBRELLA	Şemsiye	Şemsiye	98	1.71	1.28	4.78	0.78	2.10	0.89	1.31	0.25	3	7	5.58
 Raman-2013-260-246	246	vase	3746	VASE	Vazo	Vazo	96	3.69	1.52	4.66	0.45	2.54	0.76	1.47	1.10	2	4	3.74
 Raman-2013-260-247	247	vest	3140	VEST	Yelek	Yelek	98	3.61	1.42	4.63	0.96	2.61	1.02	1.31	0.85	2	5	2.06
-Raman-2013-260-248	248	violin			Keman	Keman	84	4.63	1.43	4.76	0.47	2.69	0.86	1.41	0.94	2	5	9.57
+Raman-2013-260-248	248	violin	4023	VIOLIN	Keman	Keman	84	4.63	1.43	4.76	0.47	2.69	0.86	1.41	0.94	2	5	9.57
 Raman-2013-260-249	249	wagon	122	CART	Yük vagonu	Araba	23	2.15	1.57	4.32	0.54	2.85	0.90	1.53	0.64	3	5	60.52
 Raman-2013-260-250	250	watch	3349	WRISTWATCH	Kol Saati	Kol Saati	82	3.97	1.18	4.90	0.40	2.26	0.89	1.41	0.64	4	9	0.25
 Raman-2013-260-251	251	watering can			Su süzgeci	Süzgeç	13	1.58	1.18	4.75	0.75	2.66	0.92	1.28	0.95	2	6	1.76
