@@ -1,0 +1,119 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dialect": {
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        },
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        },
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "TURKISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MODAL_NAME"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "NAME_AGREEMENT_PERCENT"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "IMAGE_AGREEMENT_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "IMAGE_AGREEMENT_SD"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "CONCEPTUAL_FAMILIARITY_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "CONCEPTUAL_FAMILIARITY_SD"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "TURKISH_AOA_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "TURKISH_AOA_SD"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "VISUAL_COMPLEXITY_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "VISUAL_COMPLEXITY_SD"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "SYLLABLES_NUMBER"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "LETTERS_NUMBER"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "WORD_FREQUENCY"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "Raman-2013-260.tsv"
+        }
+    ]
+}
