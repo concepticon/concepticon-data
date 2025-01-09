@@ -97,6 +97,7 @@ Joshua Conrad Jackson | DM | 2.4
 Julia Fischer | SDT | 1.0
 Katja Bocklage | LP | 3.2
 Katja Sirges | C | 2.5
+Kellen Parker van Dam | MSDCG | 3.3
 Kristina Pianykh | DCTLP | 2.1
 Lars Borin | DL | 1.0
 Magdalena Łuniewska | D | 1.1
