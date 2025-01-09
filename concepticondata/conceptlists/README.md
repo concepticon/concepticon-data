@@ -59,7 +59,7 @@
 | [Calero-2002-15](Calero-2002-15.tsv) | 14 | 93 | 0 |
 | [Calude-2011-200](Calude-2011-200.tsv) | 200 | 100 | 0 |
 | [Campbell-1999-100](Campbell-1999-100.tsv) | 100 | 100 | 1 |
-| [Capell-1956-558](Capell-1956-558.tsv) | 473 | 84 | 3 |
+| [Capell-1956-558](Capell-1956-558.tsv) | 473 | 84 | 4 |
 | [Carling-2017-104a](Carling-2017-104a.tsv) | 104 | 100 | 0 |
 | [Carling-2017-10h](Carling-2017-10h.tsv) | 10 | 100 | 0 |
 | [Carling-2017-112e](Carling-2017-112e.tsv) | 111 | 99 | 0 |
@@ -74,7 +74,7 @@
 | [Carling-2019-99](Carling-2019-99.tsv) | 98 | 98 | 0 |
 | [Carvalho-2021-206](Carvalho-2021-206.tsv) | 180 | 87 | 6 |
 | [Castro-2010-511](Castro-2010-511.tsv) | 492 | 96 | 1 |
-| [Castro-2010-540](Castro-2010-540.tsv) | 534 | 98 | 2 |
+| [Castro-2010-540](Castro-2010-540.tsv) | 534 | 98 | 3 |
 | [Castro-2015-608](Castro-2015-608.tsv) | 534 | 87 | 3 |
 | [Ceolin-2019-168](Ceolin-2019-168.tsv) | 168 | 100 | 0 |
 | [Chacon-2014-142](Chacon-2014-142.tsv) | 129 | 90 | 2 |
@@ -157,7 +157,7 @@
 | [Gregersen-1976-217](Gregersen-1976-217.tsv) | 217 | 100 | 1 |
 | [Grierson-1928-168](Grierson-1928-168.tsv) | 102 | 60 | 0 |
 | [Grollemund-2015-100](Grollemund-2015-100.tsv) | 100 | 100 | 0 |
-| [Gruehn-2008-200](Gruehn-2008-200.tsv) | 55 | 27 | 1 |
+| [Gruehn-2008-200](Gruehn-2008-200.tsv) | 55 | 27 | 2 |
 | [Gudschinsky-1956-200](Gudschinsky-1956-200.tsv) | 200 | 100 | 0 |
 | [Hale-1846-179](Hale-1846-179.tsv) | 175 | 97 | 0 |
 | [Hale-1961-100](Hale-1961-100.tsv) | 100 | 100 | 0 |
@@ -209,7 +209,7 @@
 | [Kibrik-2012-122](Kibrik-2012-122.tsv) | 104 | 85 | 0 |
 | [Kingsada-1999-303](Kingsada-1999-303.tsv) | 297 | 98 | 1 |
 | [Kitchen-2009-95](Kitchen-2009-95.tsv) | 95 | 100 | 0 |
-| [Klamer-2018-607](Klamer-2018-607.tsv) | 591 | 97 | 0 |
+| [Klamer-2018-607](Klamer-2018-607.tsv) | 591 | 97 | 1 |
 | [Kleinewillinghoefer-2014-16](Kleinewillinghoefer-2014-16.tsv) | 16 | 100 | 0 |
 | [Kleinewillinghoefer-2015-119](Kleinewillinghoefer-2015-119.tsv) | 118 | 99 | 0 |
 | [KochGrunberg-1914-821](KochGrunberg-1914-821.tsv) | 462 | 56 | 1 |
@@ -325,13 +325,13 @@
 | [Ringe-1992-100](Ringe-1992-100.tsv) | 100 | 100 | 0 |
 | [Ringe-2002-333](Ringe-2002-333.tsv) | 332 | 99 | 0 |
 | [Ritchie-2019-111](Ritchie-2019-111.tsv) | 111 | 100 | 0 |
-| [Robinson-2012-398](Robinson-2012-398.tsv) | 392 | 98 | 0 |
+| [Robinson-2012-398](Robinson-2012-398.tsv) | 392 | 98 | 1 |
 | [Rogic-2013-346](Rogic-2013-346.tsv) | 298 | 86 | 7 |
 | [Rojas-2019-5](Rojas-2019-5.tsv) | 5 | 100 | 0 |
 | [RonaTas-2011-431](RonaTas-2011-431.tsv) | 260 | 60 | 15 |
 | [Rowe-1954-232](Rowe-1954-232.tsv) | 212 | 91 | 0 |
 | [Ruhlen-1998-36](Ruhlen-1998-36.tsv) | 32 | 88 | 0 |
-| [Rzymski-2020-1624](Rzymski-2020-1624.tsv) | 1623 | 99 | 0 |
+| [Rzymski-2020-1624](Rzymski-2020-1624.tsv) | 1623 | 99 | 3 |
 | [SIL-1980-281](SIL-1980-281.tsv) | 281 | 99 | 1 |
 | [SIL-2002-436](SIL-2002-436.tsv) | 441 | 99 | 5 |
 | [Sagart-2019-250](Sagart-2019-250.tsv) | 250 | 100 | 0 |
@@ -359,7 +359,7 @@
 | [Sims-2020-253](Sims-2020-253.tsv) | 209 | 82 | 11 |
 | [Smeltzer-1995-300](Smeltzer-1995-300.tsv) | 292 | 97 | 0 |
 | [Smith-2015-97](Smith-2015-97.tsv) | 94 | 96 | 0 |
-| [Smith-2017-679](Smith-2017-679.tsv) | 613 | 90 | 3 |
+| [Smith-2017-679](Smith-2017-679.tsv) | 613 | 90 | 4 |
 | [Snider-2004-1700](Snider-2004-1700.tsv) | 1400 | 82 | 18 |
 | [Snodgrass-1980-260](Snodgrass-1980-260.tsv) | 240 | 92 | 1 |
 | [Snoek-2013-61](Snoek-2013-61.tsv) | 61 | 100 | 1 |
@@ -399,8 +399,8 @@
 | [Tjuka-2019-28](Tjuka-2019-28.tsv) | 28 | 100 | 0 |
 | [Tjuka-2020-171](Tjuka-2020-171.tsv) | 171 | 100 | 0 |
 | [Tjuka-2021-192](Tjuka-2021-192.tsv) | 192 | 100 | 0 |
-| [Tjuka-2022-220](Tjuka-2022-220.tsv) | 220 | 100 | 0 |
-| [Tjuka-2022-784](Tjuka-2022-784.tsv) | 784 | 100 | 1 |
+| [Tjuka-2022-220](Tjuka-2022-220.tsv) | 220 | 100 | 1 |
+| [Tjuka-2022-784](Tjuka-2022-784.tsv) | 784 | 100 | 2 |
 | [Tjuka-2024-1310](Tjuka-2024-1310.tsv) | 1310 | 100 | 2 |
 | [Tolmie-1884-211](Tolmie-1884-211.tsv) | 201 | 95 | 0 |
 | [Trask-1996-100](Trask-1996-100.tsv) | 100 | 100 | 0 |
