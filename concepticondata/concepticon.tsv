@@ -256,7 +256,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 255	SERVANT	Social and political relations	A person performing duties for others. For example a person employed in a household which cares about the domestic duties.	Person/Thing	
 256	FOOD	Food and drink	A substance that can be ingested and utilized by the organism as a source of nutrition and energy.	Person/Thing	
 257	WORSHIP	Religion and belief	To show devotion and obeisance to.	Action/Process	
-258	CALM	The physical world	Describing a quiet body of water free from disturbance and without wind or waves.	Property	
+258	CALM	Emotions and values	Having a peaceful feeling or not being upset.	Property	
 259	ROUGH (OF SEA)	The physical world	With large waves (of sea).	Property	
 260	SAVANNA	The physical world	A large open grassland in tropical and subtropical regions.	Person/Thing	
 261	ARCTIC LIGHTS	The physical world	A natural light display in the sky particularly in the Arctic regions.	Person/Thing	
@@ -1974,7 +1974,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1973	DEMON	Religion and belief	Evil spirit or person that is wicked or cruel in their actions.	Person/Thing	
 1974	CENTIPEDE	Animals	Any of various flattened, wormlike arthropods of the class Chilopoda, whose bodies are divided into many segments, each with one pair of legs.	Person/Thing	
 1975	CHECK	Cognition	To see if something is correct.	Action/Process	
-1976	MERRY	Emotions and values	In good spirits.	Property	
+1976	MERRY	Emotions and values	Full of cheerfulness and joy, often associated with festivities and celebration.	Property	
 1977	DEW	The physical world	Atmospheric moisture that condenses after a warm day and appears during the night on cool surfaces as small drops.	Person/Thing	
 1978	RECOVER	The body	To return to health and strength after illness.	Action/Process	
 1979	CHISEL	Basic actions and technology	A tool with a cutting edge at the end.	Person/Thing	
@@ -3803,7 +3803,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3817	WANING MOON	The physical world	The phase in the lunar cycle between full moon and new moon when the illuminated area decreases.	Person/Thing	
 3818	HOT (FEELING HOT)	Sense perception	The subjective feeling of an increased body temperature.	Property	
 3819	COLD (FEELING COLD)	Sense perception	The subjective feeling of a decreased body temperature.	Property	
-3820	CALM (OF SEA)	The physical world	A situation in which a body of water is free from disturbance and without wind or waves.	Person/Thing	
+3820	CALM (OF SEA)	The physical world	A situation in which a body of water is free from disturbance and without wind or waves.	Property	
 3821	BROOK	The physical world	A very shallow flowing body of water smaller than a creek that can easily be crossed.	Person/Thing	
 3822	MALE COUSIN	Kinship	The male child of the sibling of a parent of a person.	Person/Thing	
 3823	FEMALE COUSIN	Kinship	The female child of the sibling of a parent of a person.	Person/Thing	
@@ -3955,7 +3955,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 3969	RESULT	Basic actions and technology	The final outcome or consequence of a causal chain, operation or set of circumstances.	Person/Thing	
 3970	PROCESS	Basic actions and technology	A systematic and continuous course of actions and changes, which can be goal-directed or spontaneous.	Person/Thing	
 3971	METHOD	Modern world	A specific technique or way of performing an action to achieve a particular goal.	Person/Thing	
-3972	EXCITED	Emotions and values	Arousal or a feeling of enthusiasm about something.	Property	
+3972	EXCITED	Emotions and values	Having a feeling of enthusiasm or full of energy, often arising when something good is happening or about to happen.	Property	
 3973	DEPRESSED	Emotions and values	A mental state of despondency, unhappinness, or hopelessness.	Property	
 3974	UNHAPPY	Emotions and values	Feeling not cheerful or glad, sometimes due to a misfortune.	Property	
 3975	NERVOUS	Emotions and values	A mental state of nervousness or agitation. Also, being easily excited or irritated.	Property	
@@ -4020,3 +4020,5 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 4034	SANDALS	Clothing and grooming	A light shoe consisting of a sole with straps, usually made of leather and worn when it is hot outside.	Person/Thing
 4035	SWEATER	Clothing and grooming	A knitted jacket or pullover, usually warm and long-sleeved.	Person/Thing
 4036	GARBAGE CAN	Modern world	A large container for rubbish from a house, usually made of either metal or plastic.	Person/Thing
+4037	CHEERFUL	Emotions and values	Having a feeling of happiness, positivity or being in good spirits.	Property
+4038	FUNNY	Emotions and values	Causing laughter and amusement caused by jokes, humor or unexpected situations.	Property
