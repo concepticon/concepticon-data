@@ -154,7 +154,7 @@ Lapesa-2014-772-152	152	crinkle	verb			409:to-iron-to-crinkle:1	←374	poli1	fre
 Lapesa-2014-772-153	153	critical	adjective			238:vital-critical:1	←744	poli1	freqMax	LOW	SYN	4.5	4.6
 Lapesa-2014-772-154	154	critique	verb			337:to-critique-to-praise:0 338:to-critique-to-ignore:0 339:to-critique-to-review:0	→499 →329 →557	poli1 poli1 poli1	freqMin freqMin freqMin	HIGH LOW NOT	ANT ANT ANT	4.2 3.7 0.9	4.2 3.6 0.5
 Lapesa-2014-772-155	155	crustacean	noun			662:crab-crustacean:1 665:crab-crustacean:1 732:lobster-crustacean:1 733:lobster-crustacean:1	←147 ←147 ←405 ←405	poli3 poli3 poli2 poli2	freqMed freqMed freqMed freqMed	HIGH LOW HIGH LOW	SYN HYP SYN HYP	3.4 5 3.1 5	3.7 4.9 2.7 4.9
-Lapesa-2014-772-156	156	crystal	noun			822:stone-crystal:1	←637	poli3	freqMax	LOW	SYN	2.8	2.3
+Lapesa-2014-772-156	156	crystal	noun	4039	CRYSTAL	822:stone-crystal:1	←637	poli3	freqMax	LOW	SYN	2.8	2.3
 Lapesa-2014-772-157	157	cut	verb	1432	CUT	421:to-lop-to-cut:1 423:to-lop-to-cut:1 550:to-trim-to-cut:1 551:to-trim-to-cut:1 717:groove-cut:1	←406 ←406 ←677 ←677 ←300	poli2 poli2 poli3 poli3 poli3	freqMin freqMin freqMed freqMed freqMed	HIGH HIGH HIGH HIGH LOW	SYN HYP HYP SYN HYP	4.5 4.7 4.5 4.3 2.6	4.5 4.2 4.4 4.1 3.8
 Lapesa-2014-772-158	158	cyclical	adjective			104:orbital-cyclical:1	←460	poli2	freqMin	LOW	HYP	3.538	3.364
 Lapesa-2014-772-159	159	cynical	adjective			174:unaffected-cynical:1	←690	poli3	freqMed	LOW	ANT	1.6	1.1
@@ -355,7 +355,7 @@ Lapesa-2014-772-353	353	indivisible	adjective			44:double-indivisible:1	←209	p
 Lapesa-2014-772-354	354	inexperience	noun			748:naivety-inexperience:1	←444	poli1	freqMin	LOW	SYN	4.1	3.3
 Lapesa-2014-772-355	355	infect	verb			324:to-contaminate-to-infect:1	←139	poli2	freqMed	NOT	ANT	0	0.2
 Lapesa-2014-772-356	356	inform	verb			348:to-disclose-to-inform:1	←191	poli2	freqMax	LOW	SYN	4.3	4.6
-Lapesa-2014-772-357	357	information	noun			796:rumour-information:1	←565	poli1	freqMax	LOW	HYP	2.6	3.2
+Lapesa-2014-772-357	357	information	noun	4044	INFORMATION	796:rumour-information:1	←565	poli1	freqMax	LOW	HYP	2.6	3.2
 Lapesa-2014-772-358	358	inhabit	verb			376:to-inhabit-to-abandon:0 377:to-inhabit-to-live:0 378:to-inhabit-to-vacate:0 379:to-inhabit-to-live:0 380:to-inhabit-to-live:0 381:to-inhabit-to-occupy:0 382:to-inhabit-to-occupy:0 383:to-inhabit-to-abandon:0 384:to-inhabit-to-abandon:0	→1 →404 →733 →404 →404 →455 →455 →1 →1	poli2 poli2 poli2 poli2 poli2 poli2 poli2 poli2 poli2	freqMax freqMax freqMax freqMax freqMax freqMax freqMax freqMax freqMax	NOT HIGH LOW HIGH NOT LOW LOW NOT HIGH	HYP SYN ANT HYP ANT SYN HYP SYN ANT	0 4.6 4.8 3.6 0.7 4.6 4.6 0 4.2	0.4 4 4.8 4.6 0.5 4.9 4.6 0 4.2
 Lapesa-2014-772-359	359	ink	verb	2643	INK	385:to-ink-to-unmark:0 386:to-ink-to-erase:0 387:to-ink-to-write:0	→714 →231 →768	poli2 poli2 poli2	freqMin freqMin freqMin	LOW HIGH NOT	ANT ANT ANT	4.5 4 0.3	4.6 4.1 0.3
 Lapesa-2014-772-360	360	innocence	noun			749:naivety-innocence:1	←444	poli1	freqMin	HIGH	SYN	4.5	3.8
@@ -487,7 +487,7 @@ Lapesa-2014-772-485	485	piano	noun	3994	PIANO (INSTRUMENT)	838:trombone-piano:1 
 Lapesa-2014-772-486	486	picture	verb			463:to-picture-to-imagine:0 464:to-picture-to-imagine:0 465:to-picture-to-illustrate:0 466:to-picture-to-forget:0 467:to-picture-to-forget:0 468:to-picture-to-see:0	→334 →334 →332 →270 →270 →585	poli2 poli2 poli2 poli2 poli2 poli2	freqMax freqMax freqMax freqMax freqMax freqMax	HIGH HIGH LOW NOT NOT LOW	SYN HYP SYN HYP SYN HYP	4.6 4.6 2.4 0.1 0 4	4.7 4.6 2.8 0 0 3.5
 Lapesa-2014-772-487	487	place	verb			460:to-park-to-place:1	←473	poli2	freqMax	NOT	ANT	0.5	0.5
 Lapesa-2014-772-488	488	plane	noun	1597	AIRPLANE	605:aircraft-plane:1	←24	poli1	freqMax	HIGH	SYN	4.8	4.9
-Lapesa-2014-772-489	489	planet	noun			763:planet-star:0 764:planet-moon:0 765:planet-world:0	→627 →434 →764	poli2 poli2 poli2	freqMax freqMax freqMax	LOW HIGH NOT	ANT ANT ANT	1.2 0.8 0.4	1.3 1.3 0.2
+Lapesa-2014-772-489	489	planet	noun	4042	PLANET	763:planet-star:0 764:planet-moon:0 765:planet-world:0	→627 →434 →764	poli2 poli2 poli2	freqMax freqMax freqMax	LOW HIGH NOT	ANT ANT ANT	1.2 0.8 0.4	1.3 1.3 0.2
 Lapesa-2014-772-490	490	plausible	adjective			118:probable-plausible:1	←508	poli3	freqMax	LOW	SYN	3.4	4.1
 Lapesa-2014-772-491	491	play	verb	1413	PLAY	520:to-strum-to-play:1	←645	poli1	freqMin	HIGH	HYP	4.3	4.1
 Lapesa-2014-772-492	492	playwright	noun			635:cameraman-playwright:1	←83	poli1	freqMin	LOW	ANT	1.2	1.8

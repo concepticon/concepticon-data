@@ -88,7 +88,7 @@ Kornai-2018-1400-86	86	1695	all	N	98	ALL	mind	omnis	wszyscy
 Kornai-2018-1400-87	87	670	allow	V	1003	PERMIT	enged	sino	pozwolić	=AGT SAY =DAT[=PAT[can/1246]], say CAUSE =DAT[=PAT[can/1246]]
 Kornai-2018-1400-88	88	380	alone	D	1964	ALONE	csak	solus/modo	sam	only
 Kornai-2018-1400-89	89	1669	along	D			mentén	per	wzdłuź	AT/2744 =REL[long]
-Kornai-2018-1400-90	90	203	although	G			bár	quamquam	pomimo	though
+Kornai-2018-1400-90	90	203	although	G	4045	ALTHOUGH	bár	quamquam	pomimo	though
 Kornai-2018-1400-91	91	1696	always	D	1676	ALWAYS	mindig	semper	zawsze	AT/2744 time[all]
 Kornai-2018-1400-92	92	1666	amount	N	2987	AMOUNT	mennyiség	numerus	ilość	quantity
 Kornai-2018-1400-93	93	1737	amuse	V			mulattat	delecto	bawić	=AGT CAUSE[=PAT[merry]]
@@ -621,7 +621,7 @@ Kornai-2018-1400-619	619	838	increase	V	1041	INCREASE	fokoz	augeo	zwiékrzać	
 Kornai-2018-1400-620	620	1146	industry	N			ipar	industria	przemysł	produce
 Kornai-2018-1400-621	621	254	influence	V			befolyás	auctoritas	wpływ	control
 Kornai-2018-1400-622	622	1040	information	N			hír	nuntius	informacja	
-Kornai-2018-1400-623	623	1141	information	N			információ	nuntiatio	informacja	study GIVE, experience GIVE, ' KNOW
+Kornai-2018-1400-623	623	1141	information	N	4044	INFORMATION	információ	nuntiatio	informacja	study GIVE, experience GIVE, ' KNOW
 Kornai-2018-1400-624	624	1642	injure	V	44	INJURE	megsebesít	vulnero	ranić	harm
 Kornai-2018-1400-625	625	2048	insect	N	620	INSECT	rovar	insectum	owad	small(animal), HAS [pair[three],leg], HAS head, <HAS wing[pair[two]]>
 Kornai-2018-1400-626	626	13	inside	G	1606	INSIDE	-ban	intra	w	in/2758
@@ -891,7 +891,7 @@ Kornai-2018-1400-889	889	2089	plain	A			sík	planus	równy
 Kornai-2018-1400-890	890	2369	plan	N	3630	PLAN	terv	propositum	plan	after(structure)
 Kornai-2018-1400-891	891	2807	plane	N	1597	AIRPLANE	repülő	aeroplanum	samolot	vehicle, fly, HAS two(wing), <HAS engine>
 Kornai-2018-1400-892	892	2090	plane	N			sík	planum	płaszczyzna	flat
-Kornai-2018-1400-893	893		planet	N			égitest			object, IN space/2509
+Kornai-2018-1400-893	893		planet	N	4042	PLANET	égitest			object, IN space/2509
 Kornai-2018-1400-894	894	2792	plant	N	653	PLANT (VEGETATION)	növény	planta	roślina	live, lack(move), HAS many(leaf), HAS root, AT/2744 earth
 Kornai-2018-1400-895	895	2495	plant	V	1486	PLANT (SOMETHING)	ültet	sero	sadzić	
 Kornai-2018-1400-896	896	144	plastic	A			alakítható	formabilis/qui formari potest	elastyczny	material, HAS shape, shape[can/1246(change)], <artificial>
@@ -1029,7 +1029,7 @@ Kornai-2018-1400-1027	1027	2248	sad	A	699	SAD	szomorú	miserabilis	smutny	emoti
 Kornai-2018-1400-1028	1028	303	safe	A	3762	SAFE	biztos	tutus	bezpieczny	lack(danger), protect, harm[lack, after]
 Kornai-2018-1400-1029	1029	2991	sail	V	787	SAIL	hajózik			travel, ON water
 Kornai-2018-1400-1030	1030	2650	sail	N	786	SAILCLOTH	vitorla	velum	źagiel	
-Kornai-2018-1400-1031	1031	3550	salad	N			saláta	acetarium	sałatka	
+Kornai-2018-1400-1031	1031	3550	salad	N	4041	SALAD	saláta	acetarium	sałatka	
 Kornai-2018-1400-1032	1032	2108	salt	N	1274	SALT	só	sal	sól	white, CAUSE[ food HAS taste], mineral, powder
 Kornai-2018-1400-1033	1033	192	same	A	200	SAME	azonos	idem	taki sam/ten sam	lack(different)
 Kornai-2018-1400-1034	1034	2521	same	A	200	SAME	ugyanaz	idem	taki sam	
@@ -1161,7 +1161,7 @@ Kornai-2018-1400-1159	1159	1313	start	N			kezdet	initium	poczátek	after(=POSS)
 Kornai-2018-1400-1160	1160	76	state	N	2955	STATE (POLITICS)	állam	res publica	państwo	land, political(unit), HAS government
 Kornai-2018-1400-1161	1161	77	state	N			állapot	condicio	stan	situation
 Kornai-2018-1400-1162	1162	2802	statement	N			kijelentés	expositio	stwierdzenie	SAY, formal
-Kornai-2018-1400-1163	1163	80	station	N			állomás	mansio	stacja	stop AT/2744
+Kornai-2018-1400-1163	1163	80	station	N	4043	STATION	állomás	mansio	stacja	stop AT/2744
 Kornai-2018-1400-1164	1164	1596	stay	U	987	REMAIN	marad	maneo	zostawać	remain, before(=AGT AT/2744 =AT), after(=AGT AT/2744 =AT)
 Kornai-2018-1400-1165	1165	304	steady	A			biztos	firmus	pewny	lack(change)
 Kornai-2018-1400-1166	1166	1553	steal	V	713	STEAL	lop	furor	kraść	=AGT CAUSE[=PAT AT/2744 =AGT], HAS lack(=PAT), HAS lack(right/3122), =AGT HAS lack(permission)
