@@ -114,6 +114,7 @@
 - [Peust2013 [PDF 54.2KB]](https://cdstar.eva.mpg.de/bitstreams/EAEA0-890C-FAC5-01DF-0/Peust2013.pdf)
 - [Pozdniakov2014 [PDF 105.6KB]](https://cdstar.eva.mpg.de/bitstreams/EAEA0-61E8-C809-F350-0/Pozdniakov2014.pdf)
 - [QLAA1979 [PDF 7.3MB]](https://cdstar.eva.mpg.de/bitstreams/EAEA0-7C15-387E-ADDC-0/QLAA1979.pdf)
+- [Ray1889 [PDF 824.7KB]](https://cdstar.eva.mpg.de/bitstreams/EAEA0-D27F-B560-4C42-0/Ray1889.pdf)
 - [Ray1895 [PDF 602.5KB]](https://cdstar.eva.mpg.de/bitstreams/EAEA0-2074-3E06-2E64-0/Ray1895.pdf)
 - [Rea1958 [PDF 56.2KB]](https://cdstar.eva.mpg.de/bitstreams/EAEA0-7584-275E-952B-0/Rea1958.pdf)
 - [Rea1973 [PDF 1.9MB]](https://cdstar.eva.mpg.de/bitstreams/EAEA0-C655-BBF5-5EBD-0/Rea1973.pdf)
