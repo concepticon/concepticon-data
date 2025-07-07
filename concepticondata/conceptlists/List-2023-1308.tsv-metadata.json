@@ -42,26 +42,6 @@
                     {
                         "datatype": "string",
                         "name": "ENGLISH"
-                    },
-                    {
-                        "datatype": "integer",
-                        "name": "FAMILY_COUNT"
-                    },
-                    {
-                        "datatype": "integer",
-                        "name": "LANGUAGE_COUNT"
-                    },
-                    {
-                        "datatype": "integer",
-                        "name": "VARIETY_COUNT"
-                    },
-                    {
-                        "datatype": "json",
-                        "name": "LINKED_CONCEPTS"
-                    },
-                    {
-                        "datatype": "json",
-                        "name": "TARGET_CONCEPTS"
                     }
                 ],
                 "primaryKey": [
