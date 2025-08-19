@@ -1,6 +1,6 @@
 ID	NUMBER	DUTCH	ENGLISH	GLOSS	CONCEPTICON_ID	CONCEPTICON_GLOSS	POS	TYPE	DUTCH_CATEGORY	DUTCH_AROUSAL_MEAN	DUTCH_VALENCE_MEAN	DUTCH_TABOO_GENERAL_MEAN	DUTCH_TABOO_PERSONAL_MEAN	DUTCH_INSULT_MEAN
 Roest-2018-672-1	1	aanslag	assault/keystroke/taxes/attack	aanslag	722	ATTACK	N	Negative	neg high arousal	4.27	1.86	2.76	2.41	1.7
-Roest-2018-672-2	2	aarslog	butthole	aarslog	1935	ANUS	N	Taboo	taboo	3.45	2.7	3.1	2.72	3.36
+Roest-2018-672-2	2	aarslog	butthole	aarslog			N	Taboo	taboo	3.45	2.7	3.1	2.72	3.36
 Roest-2018-672-3	3	aarsneger	lit. buttnigger	aarsneger			N	Taboo	taboo	4.34	1.6	5.28	4.71	5.37
 Roest-2018-672-4	4	aarsridder	lit. buttknight	aarsridder			N	Taboo	taboo	3.64	2.49	3.84	3.15	3.93
 Roest-2018-672-5	5	abortus	abortion	abortus	3866	ABORTION	N	Taboo	taboo	3.8	2.77	4.39	2.57	1.91
@@ -46,7 +46,7 @@ Roest-2018-672-44	44	braaf	good/ honest	braaf	1120	HONEST	A	Positive	pos low aro
 Roest-2018-672-45	45	bruiloft	wedding	bruiloft	1259	WEDDING	N	Positive	pos high arousal	3.34	5.72	01.07	01.07	01.01
 Roest-2018-672-46	46	bruinen	to get tanned	bruinen			V	Positive	pos low arousal	2.52	04.09	1.24	1.14	1.3
 Roest-2018-672-47	47	buttplug	buttplug	buttplug			N	Taboo	taboo	04.05	2.86	4.67	3.57	1.99
-Roest-2018-672-48	48	castreren	to castrate	castreren	29	GELD	V	Taboo	taboo	3.84	2.95	3.26	2.3	1.63
+Roest-2018-672-48	48	castreren	to castrate	castreren	2563	CASTRATE	V	Taboo	taboo	3.84	2.95	3.26	2.3	1.63
 Roest-2018-672-49	49	climax	climax	climax			N	Taboo	taboo	3.52	4.91	1.95	1.43	1.11
 Roest-2018-672-50	50	clitoris	clitoris	clitoris	3257	CLITORIS	N	Taboo	taboo	4.16	4	3.92	2.79	1.51
 Roest-2018-672-51	51	coma	coma	coma			N	Negative	neg low arousal	03.02	2.4	1.8	1.41	1.26
@@ -104,7 +104,7 @@ Roest-2018-672-102	102	fuck	fuck	fuck	549	COPULATE	A	Taboo	taboo	3.84	3.12	3.15	
 Roest-2018-672-103	103	fuckface	fuckface	fuckface			N	Taboo	taboo	4	2.26	3.98	03.09	4.13
 Roest-2018-672-104	104	futloos	drained/ no energy	futloos			A	Negative	neg low arousal	1.95	03.02	1.34	1.25	1.66
 Roest-2018-672-105	105	futon	futon/ couch	futon	3099	SOFA	N	Neutral	livingroom	2.23	04.09	01.07	01.06	01.06
-Roest-2018-672-106	106	garde	whisk/ guard	garde	1940	GUARD	N	Neutral	kitchen	2.3	04.09	01.05	01.05	01.02
+Roest-2018-672-106	106	garde	whisk/ guard	garde			N	Neutral	kitchen	2.3	04.09	01.05	01.05	01.02
 Roest-2018-672-107	107	gay	gay	gay			N	Taboo	taboo	3.55	3.14	3.75	2	3.36
 Roest-2018-672-108	108	gebak	cake/ pastry	gebak	2408	CAKE	N	Positive	pos low arousal	2.64	4.98	1	1	1
 Roest-2018-672-109	109	geboorte	birth	geboorte	2805	BIRTH (ACCOUCHEMENT)	N	Positive	pos high arousal	3.18	5.65	1.22	01.09	1
@@ -203,7 +203,7 @@ Roest-2018-672-201	201	kernbom	nuclear bomb	kernbom			N	Negative	neg high arousa
 Roest-2018-672-202	202	kers	cherry	kers	2765	CHERRY	N	Neutral	fruit	2.16	4.44	1	1	1
 Roest-2018-672-203	203	kinky	kinky	kinky			A	Taboo	taboo	3.93	04.05	3.78	2.68	1.47
 Roest-2018-672-204	204	kip	chicken	kip	1318	CHICKEN	N	Neutral	bird	2.52	4.23	01.08	01.03	1.1
-Roest-2018-672-205	205	kist	chest	kist			N	Neutral	livingroom	2.32	3.7	1.3	1.25	01.06
+Roest-2018-672-205	205	kist	chest	kist	3150	BOX OR CHEST	N	Neutral	livingroom	2.32	3.7	1.3	1.25	01.06
 Roest-2018-672-206	206	kiwi	kiwi	kiwi	3247	KIWIFRUIT	N	Neutral	fruit	02.07	4.33	1	1	01.02
 Roest-2018-672-207	207	klaarkomen	climaxing (sexually)	klaarkomen			V	Taboo	taboo	4.43	4.77	3.99	2.86	1.22
 Roest-2018-672-208	208	kleed	carpet/ rug	kleed	292	RUG	V	Neutral	livingroom	02.09	4.12	01.03	1	1
@@ -258,7 +258,7 @@ Roest-2018-672-256	256	leven	life	leven	210	LIFE	N	Positive	pos high arousal	3.1
 Roest-2018-672-257	257	levendig	lively	levendig			A	Positive	pos high arousal	3.48	5.49	01.02	01.06	01.05
 Roest-2018-672-258	258	levenslustig	approx. high-spirited/ cheerfull	levenslustig			A	Positive	pos high arousal	3.61	5.67	01.07	01.06	1
 Roest-2018-672-259	259	liefde	love	liefde	3834	LOVE (AFFECTION)	N	Positive	pos high arousal	3.89	6.23	1.25	1.23	01.01
-Roest-2018-672-260	260	liegen	to lie	liegen	1411	LIE (REST)	V	Negative	neg high arousal	3.41	2.37	2.45	2.34	02.06
+Roest-2018-672-260	260	liegen	to lie	liegen	601	LIE (MISLEAD)	V	Negative	neg high arousal	3.41	2.37	2.45	2.34	02.06
 Roest-2018-672-261	261	lijk	corpse	lijk	767	CORPSE	N	Negative	neg low arousal	3.43	2.21	2.33	1.86	1.97
 Roest-2018-672-262	262	likken	to lick	likken	319	LICK	V	Taboo	taboo	3.68	4.14	2.11	1.6	01.09
 Roest-2018-672-263	263	limoen	lime	limoen	982	LIME (FRUIT)	N	Neutral	fruit	2.25	4.23	01.01	1	1
@@ -276,7 +276,7 @@ Roest-2018-672-274	274	machteloos	powerless	machteloos			A	Negative	neg low arou
 Roest-2018-672-275	275	magnetron	microwave	magnetron			N	Neutral	kitchen	2.27	4.16	1	1	01.01
 Roest-2018-672-276	276	ma•s	maize/ corn	maïs	506	MAIZE	N	Neutral	vegetable	2.14	4.14	1	1	1
 Roest-2018-672-277	277	malloot	fool/ goof	malloot	1438	FOOL	N	Taboo	taboo	3.34	3.16	2.14	1.71	2.86
-Roest-2018-672-278	278	mals	tender	mals	1954	GENTLE	A	Positive	pos low arousal	2.59	4.72	01.05	01.01	01.02
+Roest-2018-672-278	278	mals	tender	mals	1856	SOFT	A	Positive	pos low arousal	2.59	4.72	01.05	01.01	01.02
 Roest-2018-672-279	279	mango	mango	mango	2398	MANGO	N	Neutral	fruit	2.27	4.56	01.03	01.03	1
 Roest-2018-672-280	280	manwijf	manwoman	manwijf			N	Taboo	taboo	3.93	2.33	3.89	03.02	4.43
 Roest-2018-672-281	281	masturberen	to masturbate	masturberen			V	Taboo	taboo	4.18	3.93	4.57	3.29	1.37
@@ -308,7 +308,7 @@ Roest-2018-672-306	306	mus	sparrow	mus	1854	SPARROW	N	Neutral	bird	2.25	4.26	01.
 Roest-2018-672-307	307	muts	cap/ stupid woman/ vagina	muts			N	Taboo	taboo	2.59	3.86	1.49	1.36	1.85
 Roest-2018-672-308	308	naaien	to sew/ to fuck	naaien			V	Taboo	taboo	3.61	3.6	2.41	2	1.72
 Roest-2018-672-309	309	naakt	naked	naakt	590	NAKED	A	Taboo	taboo	3.48	4.21	03.06	1.94	1.21
-Roest-2018-672-310	310	nageboorte	afterbirth	nageboorte	3388	PLACENTA	N	Taboo	taboo	3.14	3.42	02.05	1.57	1.51
+Roest-2018-672-310	310	nageboorte	afterbirth	nageboorte			N	Taboo	taboo	3.14	3.42	02.05	1.57	1.51
 Roest-2018-672-311	311	nalatig	negligent	nalatig			A	Negative	neg low arousal	2.45	03.07	1.63	1.54	02.06
 Roest-2018-672-312	312	necrofiel	necrophiliac	necrofiel			N	Taboo	taboo	4.39	1.67	5.4	4.77	4.41
 Roest-2018-672-313	313	nectarine	nectarine	nectarine			N	Neutral	fruit	2.2	4.51	01.01	1	1
@@ -498,7 +498,7 @@ Roest-2018-672-496	496	spiegel	mirror	spiegel	1171	MIRROR	N	Neutral	livingroom	2
 Roest-2018-672-497	497	spijker	nail	spijker	502	NAIL (TOOL)	N	Neutral	tool	2.23	3.93	01.01	1	1
 Roest-2018-672-498	498	spinazie	spinach	spinazie	975	SPINACH	N	Neutral	vegetable	2.16	04.02	01.01	01.01	1
 Roest-2018-672-499	499	spruiten	Brussels sprout	spruiten			N	Neutral	vegetable	2.34	3.65	01.06	01.03	1
-Roest-2018-672-500	500	squash	squash	squash	864	PUMPKIN	N	Neutral	sport	2.7	4.28	01.01	01.06	01.07
+Roest-2018-672-500	500	squash	squash	squash			N	Neutral	sport	2.7	4.28	01.01	01.06	01.07
 Roest-2018-672-501	501	staalborstel	wire brush	staalborstel			N	Neutral	tool	2.27	3.93	01.08	01.03	01.03
 Roest-2018-672-502	502	stabiel	stable/ solid	stabiel	3003	SOLID	A	Positive	pos low arousal	2.34	4.84	01.02	01.03	1
 Roest-2018-672-503	503	stelen	to steal/ stems	stelen	713	STEAL	V	Negative	neg high arousal	3.59	2.42	2.72	2.45	1.76
