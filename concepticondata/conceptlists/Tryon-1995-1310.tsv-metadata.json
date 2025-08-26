@@ -30,7 +30,7 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "NAME"
+                        "name": "ENGLISH"
                     },
                     {
                         "datatype": {
@@ -48,7 +48,7 @@
                             "base": "string",
                             "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
                         },
-                        "name": "ORIGINAL_ID"
+                        "name": "BUCK_1949_1110"
                     }
                 ],
                 "primaryKey": [
