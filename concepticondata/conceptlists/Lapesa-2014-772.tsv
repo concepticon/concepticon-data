@@ -278,7 +278,7 @@ Lapesa-2014-772-276	276	frown	verb			494:to-simper-to-frown:1	←601	poli1	freqM
 Lapesa-2014-772-277	277	frugal	adjective			168:thrifty-frugal:1 169:thrifty-frugal:1 171:thrifty-frugal:1	←666 ←666 ←666	poli3 poli3 poli3	freqMin freqMin freqMin	LOW NOT HIGH	HYP ANT SYN	4.2 0.9 4.7	4.25 0 5
 Lapesa-2014-772-278	278	fruit	noun	1507	FRUIT	630:blueberry-fruit:1 726:kiwi-fruit:1 831:tomato-fruit:1 834:tomato-fruit:1	←71 ←380 ←670 ←670	poli2 poli3 poli2 poli2	freqMin freqMin freqMax freqMax	HIGH HIGH HIGH HIGH	HYP SYN HYP SYN	5 3 4.6 2.7	5 2.9 4.4 2.1
 Lapesa-2014-772-279	279	fullness	noun			652:completeness-fullness:1	←123	poli2	freqMed	LOW	SYN	4	3.9
-Lapesa-2014-772-280	280	fun	noun			779:recreation-fun:1 781:recreation-fun:1	←536 ←536	poli1 poli1	freqMax freqMax	NOT LOW	ANT HYP	1 2.9	0 3.2
+Lapesa-2014-772-280	280	fun	noun	4062	FUN	779:recreation-fun:1 781:recreation-fun:1	←536 ←536	poli1 poli1	freqMax freqMax	NOT LOW	ANT HYP	1 2.9	0 3.2
 Lapesa-2014-772-281	281	funded	adjective			52:funded-paid:0 53:funded-resourced:0 54:funded-unfunded:0	→466 →549 →703	poli1 poli1 poli1	freqMax freqMax freqMax	HIGH LOW NOT	HYP HYP HYP	4.308 4.5 0	4.182 4.4 0
 Lapesa-2014-772-282	282	gather	verb	7	GATHER	428:to-lump-to-gather:1	←409	poli2	freqMin	LOW	HYP	4	4
 Lapesa-2014-772-283	283	gauge	noun			706:gauge-guess:0 707:gauge-estimate:0 708:gauge-measure:0 709:gauge-measure:0 710:gauge-guess:0 711:gauge-test:0	→305 →234 →421 →421 →305 →663	poli1 poli1 poli1 poli1 poli1 poli1	freqMax freqMax freqMax freqMax freqMax freqMax	HIGH LOW NOT HIGH NOT LOW	ANT ANT ANT SYN SYN SYN	0.8 0.5 1.3 4.6 2.1 3.7	1.6 1 0 4.3 2.2 3.8
@@ -323,7 +323,7 @@ Lapesa-2014-772-321	321	hone	verb			367:to-hone-to-muddle:0 368:to-hone-to-acqui
 Lapesa-2014-772-322	322	horizon	noun	2287	HORIZON	818:skyline-horizon:1	←605	poli2	freqMed	HIGH	SYN	3.8	4.3
 Lapesa-2014-772-323	323	horn	noun	939	HORN (INSTRUMENT)	837:trombone-horn:1	←679	poli1	freqMed	LOW	SYN	3	2.7
 Lapesa-2014-772-324	324	horse	noun	615	HORSE	855:zebra-horse:1	←771	poli1	freqMin	NOT	HYP	2.2	3
-Lapesa-2014-772-325	325	humble	adjective			61:humble-modest:0 62:humble-boastful:0 63:humble-proud:0	→433 →72 →515	poli3 poli3 poli3	freqMax freqMax freqMax	NOT LOW HIGH	ANT ANT ANT	0.6 4.9 5	0.4 4.9 4.3
+Lapesa-2014-772-325	325	humble	adjective	4069	HUMBLE	61:humble-modest:0 62:humble-boastful:0 63:humble-proud:0	→433 →72 →515	poli3 poli3 poli3	freqMax freqMax freqMax	NOT LOW HIGH	ANT ANT ANT	0.6 4.9 5	0.4 4.9 4.3
 Lapesa-2014-772-326	326	hurricane	noun			813:sandstorm-hurricane:1	←570	poli1	freqMin	NOT	HYP	0.1	0.2
 Lapesa-2014-772-327	327	hurt	verb	2411	HURT (SOMEBODY)	248:to-abuse-to-hurt:1 250:to-abuse-to-hurt:1	←5 ←5	poli3 poli3	freqMax freqMax	HIGH HIGH	HYP SYN	4.7 4.2	4.7 4.2
 Lapesa-2014-772-328	328	ignorance	noun			676:education-ignorance:1 678:education-ignorance:1 679:education-ignorance:1	←214 ←214 ←214	poli3 poli3 poli3	freqMax freqMax freqMax	NOT NOT HIGH	SYN HYP ANT	0 0 4.3	0.2 0.1 3.7
@@ -431,7 +431,7 @@ Lapesa-2014-772-429	429	miss	verb			358:to-evidence-to-miss:1 647:compass-miss:1
 Lapesa-2014-772-430	430	mistreat	verb			251:to-abuse-to-mistreat:1	←5	poli3	freqMax	LOW	SYN	4.3	4.5
 Lapesa-2014-772-431	431	misunderstand	verb			394:to-interpret-to-misunderstand:1 439:to-misconstrue-to-misunderstand:1 441:to-misconstrue-to-misunderstand:1	←367 ←428 ←428	poli3 poli1 poli1	freqMax freqMin freqMin	HIGH NOT HIGH	ANT ANT SYN	2.7 0.7 3.4	3.1 0.2 4.7
 Lapesa-2014-772-432	432	mobilize	verb			375:to-immobilize-to-mobilize:1	←335	poli3	freqMin	NOT	SYN	0	0
-Lapesa-2014-772-433	433	modest	adjective			61:humble-modest:1	←325	poli3	freqMax	NOT	ANT	0.6	0.4
+Lapesa-2014-772-433	433	modest	adjective	4053	MODEST	61:humble-modest:1	←325	poli3	freqMax	NOT	ANT	0.6	0.4
 Lapesa-2014-772-434	434	moon	noun	1313	MOON	764:planet-moon:1	←489	poli2	freqMax	HIGH	ANT	0.8	1.3
 Lapesa-2014-772-435	435	mortal	adjective			66:immortal-mortal:1 69:immortal-mortal:1 97:mortal-eternal:0 98:mortal-fatal:0 99:mortal-immortal:0	←336 ←336 →236 →256 →336	poli3 poli3 poli2 poli2 poli2	freqMed freqMed freqMed freqMed freqMed	HIGH NOT LOW NOT HIGH	ANT SYN ANT ANT ANT	5 0 4 0.5 5	5 0 4.2 0.4 5
 Lapesa-2014-772-436	436	most	adjective			91:maximum-most:1	←420	poli3	freqMax	HIGH	SYN	4.6	4.6

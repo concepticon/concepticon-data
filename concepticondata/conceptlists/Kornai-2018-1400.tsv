@@ -60,7 +60,7 @@ Kornai-2018-1400-58	58	2871	Washington	N			Washington			place/1026, @Washington
 Kornai-2018-1400-59	59	1245	able	A	972	BE ABLE	képes	idoneus	w stanie	can/1246[=AGT[=TO]]
 Kornai-2018-1400-60	60	1686	about	D			miatt	propter	o	=REL CAUSE
 Kornai-2018-1400-61	61	615	accept	V			elfogad	accipio	akceptować	allow, =PAT[lack(good)], =AGT SAY[=PAT[right/1191]], receive, before(=FROM OFFER =PAT)
-Kornai-2018-1400-62	62	223	accident	N			baleset	casus adversus	wypadek	event, lack(person PLAN), bad, CAUSE damage
+Kornai-2018-1400-62	62	223	accident	N	4058	ACCIDENT	baleset	casus adversus	wypadek	event, lack(person PLAN), bad, CAUSE damage
 Kornai-2018-1400-63	63	2064	acid	N	1906	SOUR	sav	acidum	kwas	substance, <burn>, HAS taste[sharp,sour], lack(kind)
 Kornai-2018-1400-64	64	98	across	D	2670	ACROSS	át	trans	poprzez	before(ON side), =REL HAS side, after(ON other(side))
 Kornai-2018-1400-65	65	1010	act	V			hat	proficio	oddziaływać	
@@ -514,11 +514,11 @@ Kornai-2018-1400-512	512	1400	follow	V	1085	FOLLOW	követ	sequor	podáźać	
 Kornai-2018-1400-513	513	542	food	N	256	FOOD	étel	cibus	jedzenie	material, ' EAT
 Kornai-2018-1400-514	514	1466	foot	N	1301	FOOT	láb	pes	stopa	organ, leg HAS, AT/2744 ground
 Kornai-2018-1400-515	515	826	football	N			foci	ludus calcius	piłka noźna	game, [team[two]] PART_OF, INSTRUMENT ball
-Kornai-2018-1400-516	516	2824	for	G			-ért	pro	dla	
-Kornai-2018-1400-517	517	2826	for	G			-ig	adhoc	do	
-Kornai-2018-1400-518	518	27	for	G			-ig	tenus	przez	
-Kornai-2018-1400-519	519	2825	for	G			-nak		dla	
-Kornai-2018-1400-520	520	2782	for	#			miatt	propter	przez	
+Kornai-2018-1400-516	516	2824	for	G	4065	FOR	-ért	pro	dla	
+Kornai-2018-1400-517	517	2826	for	G	4065	FOR	-ig	adhoc	do	
+Kornai-2018-1400-518	518	27	for	G	4065	FOR	-ig	tenus	przez	
+Kornai-2018-1400-519	519	2825	for	G	4065	FOR	-nak		dla	
+Kornai-2018-1400-520	520	2782	for	#	4065	FOR	miatt	propter	przez	
 Kornai-2018-1400-521	521	683	force	N			erő	vis	siła	power
 Kornai-2018-1400-522	522	141	form	N	3747	SHAPE	alak	forma	forma	object HAS
 Kornai-2018-1400-523	523	143	formal	A			alaki	formalis	formalny	HAS structure
@@ -1020,7 +1020,7 @@ Kornai-2018-1400-1018	1018	492	rough	A	1923	ROUGH	durva	asper	szorstki	surface, 
 Kornai-2018-1400-1019	1019	1295	round	A	1395	ROUND	kerek	rotundus	okrágły	circular/1294
 Kornai-2018-1400-1020	1020	2119	row	N	1849	ROW	sor	ordo	rzád	many, one NEXT_TO other, one FOLLOW other
 Kornai-2018-1400-1021	1021	474	rub	V	1449	RUB	dörzsöl	tero	trzeć	press, =PAT[surface], move[firm/2215,repeat]
-Kornai-2018-1400-1022	1022	914	rubber	N			gumi	gummis	guma	material, flexible, CAUSE[lack(mark) AT =FROM[surface]]
+Kornai-2018-1400-1022	1022	914	rubber	N	4064	RUBBER	gumi	gummis	guma	material, flexible, CAUSE[lack(mark) AT =FROM[surface]]
 Kornai-2018-1400-1023	1023	2946	rude	A	1412	RUDE	durva	asper	nieuprzejmy	lack(kind), lack(respect)
 Kornai-2018-1400-1024	1024	493	rude	A	1412	RUDE	durva	asper	nieuprzejmy	<speak>, lack(polite), offend, annoy
 Kornai-2018-1400-1025	1025	2530	rule	U	1846	RULE	uralkodik	regno	rzádzić	govern

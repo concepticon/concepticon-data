@@ -112,7 +112,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 111	DRUMMING	Motion	To produce sound with a drum.	Action/Process	
 112	TURTLE	Animals	A reptile of the order Testudines (the crown group of the superorder Chelonia), characterised by a special bony or cartilaginous shell developed from their ribs that acts as a shield.	Person/Thing	
 113	SHORE	The physical world	The margin or shore of a river, lake, or ocean.	Person/Thing	
-114	PORPOISE	Animals	A short-snouted genus of the dolphin family, 1.2 to 2.5 metres (4 to 8 feet) long, gregarious in habits, yielding an oil and leather.	Person/Thing	
+114	PORPOISE	Animals	Short-snouted cetacean aquatic mammals of the Phocoenidae family within the superfamily Delphinoidea (along dolphins or belugas), characterized by a compact, robust body ranging from 1.2 to 2.5 metres (4 to 8 feet) in length, gregarious in habits, historically rendered for oil or used for leather.	Person/Thing
 115	PROFLIGATE	Possession	Someone who spends money prodigiously and who is extravagant and recklessly wasteful.	Person/Thing	
 116	LARCH	Agriculture and vegetation	A coniferous  tree, of genus Larix, having deciduous leaves.	Person/Thing	
 117	IMITATE	Cognition	To follow as a model or a pattern.	Action/Process	
@@ -1477,7 +1477,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1476	CHAIR	The house	An item of furniture comprising a seat, legs, back, and sometimes arm rests, on which or in which one people can sit.	Person/Thing	
 1477	KEEP	Possession	To retain possession of something.	Action/Process	
 1478	WITHOUT	Miscellaneous function words	Not having, containing, characteristic of, etc.	Other	
-1479	DOLPHIN	Animals	A carnivorous aquatic mammal inhabiting mostly in the shallower seas of the continental shelves.	Person/Thing	
+1479	DOLPHIN	Animals	A carnivorous cetacean aquatic mammal of the family Delphinidae within the superfamily Delphinoidea (along porpoises or belugas) inhabiting mostly in the shallower seas of the continental shelves.	Person/Thing	
 1480	BODY	The body	The physical structure of a human or animal.	Person/Thing	
 1481	HAMMER	Basic actions and technology	A tool with a heavy head and a handle used for pounding.	Person/Thing	
 1482	SHOULDER	The body	One side of the top of the torso, where an arm attaches or joins.	Person/Thing	
@@ -4039,4 +4039,22 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 4053	MODEST	Emotions and values	Having a humble opinion of one’s own abilities or achievements, or showing simplicity and restraint in behavior, appearance, or lifestyle.	Property	
 4054	MELODY	The physical world	A sequence of musical notes arranged in a particular rhythmic and tonal pattern that is perceived as a single, coherent tune.	Person/Thing	
 4055	DRESSER	The house	A piece of furniture with drawers used for storing clothes or other personal items.	Person/Thing	
-4056	CHAOS	Emotions and values	A state of complete disorder, confusion, or unpredictability, often lacking any clear pattern or organization.	Person/Thing	
+4056	CHAOS	Emotions and values	A state of complete disorder, confusion, or unpredictability, often lacking any clear pattern or organization.	Person/Thing
+4057	ANGEL	Religion and belief	A spiritual being in religious traditions, especially Christianity, regarded as a messenger or servant of God, often depicted as benevolent, immortal, and winged.	Person/Thing
+4058	ACCIDENT	Basic actions and technology	An unforeseen event, typically harmful or damaging, that occurs without deliberate intent.	Person/Thing
+4059	PALACE	The house	A large and grand residence, typically the official home of a sovereign, monarch, or high-ranking dignitary.	Person/Thing
+4060	PASSION	Emotions and values	A powerful and overwhelming emotional state characterized by intense feelings such as love, desire, or enthusiasm that strongly motivates behavior or thought.	Person/Thing
+4061	PARSLEY	Agriculture and vegetation	Any of various biennial herbs with bright green, aromatic leaves, belonging to the family Apiaceae and the genus Petroselinum crispum, widely used as a culinary herb and garnish.	Person/Thing
+4062	FUN	Emotions and values	A feeling or experience of enjoyment, amusement, or lighthearted pleasure, often arising from engaging activities or social interactions.	Person/Thing
+4063	PLUM	Agriculture and vegetation	A smooth-skinned, typically sweet or tart edible fruit with a hard pit inside, produced by trees of the genus Prunus.	Person/Thing
+4064	RUBBER	Modern world	An elastic material obtained either from the latex of rubber trees or produced synthetically, widely used in manufacturing for its flexibility, resilience, and water resistance.	Person/Thing
+4065	FOR	Miscellaneous function words	A function word used to express purpose, intended recipient, destination, duration, cause, substitution, or relation, as in actions done with a goal, on behalf of someone, toward a place, over a period of time, or in exchange for something.	Other
+4066	POVERTY	Social and political relations	The condition of lacking enough resources or income to meet basic needs like food, shelter, and healthcare.	Person/Thing
+4067	ARROGANT	Emotions and values	Having an exaggerated sense of one’s own importance or abilities; displaying overbearing pride or self-confidence.	Property
+4068	BIBLE	Religion and belief	The sacred scriptures of Judaism and Christianity, comprising the Old and New Testaments, considered authoritative and foundational for religious faith and practice.	Person/Thing
+4069	HUMBLE	Emotions and values	Having or showing a modest or low view of one’s own importance; not proud or arrogant.	Property
+4070	ROCKET	Modern world	A vehicle or device propelled by the rapid expulsion of gases, used to travel into space or for military purposes.	Person/Thing
+4071	THEFT	Law	The unlawful taking of another’s property without consent and with the intent to permanently deprive them of it.	Person/Thing
+4072	DRAWER	The house	A sliding compartment in furniture, such as a desk or cabinet, used for storing items.	Person/Thing
+4073	WHEELBARROW	Agriculture and vegetation	A small hand-propelled vehicle with one wheel at the front and two handles at the back, used to transport soil, tools, or other heavy materials.	Person/Thing
+4074	DOLPHIN-LIKE WHALE (DOLPHIN OR PORPOISE)	Animals	Any of the related aquatic mammals within the superfamily Delphinoidea, such as dolphins or porpoises.	Person/Thing	
