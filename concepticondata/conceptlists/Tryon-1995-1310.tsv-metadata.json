@@ -33,6 +33,10 @@
                         "name": "ENGLISH"
                     },
                     {
+                        "datatype": "string",
+                        "name": "GLOSS_IN_SOURCE"
+                    },
+                    {
                         "datatype": {
                             "base": "integer",
                             "minimum": 1
