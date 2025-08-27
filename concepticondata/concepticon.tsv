@@ -112,8 +112,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 111	DRUMMING	Motion	To produce sound with a drum.	Action/Process	
 112	TURTLE	Animals	A reptile of the order Testudines (the crown group of the superorder Chelonia), characterised by a special bony or cartilaginous shell developed from their ribs that acts as a shield.	Person/Thing	
 113	SHORE	The physical world	The margin or shore of a river, lake, or ocean.	Person/Thing	
-114	PORPOISE	Animals	A short-snouted genus of the dolphin family, 1.2 to 2.5 metres (4 to 8 feet) long, gregarious in habits, yielding an oil and leather.	Person/Thing	
-115	PROFLIGATE	Possession	Someone who spends money prodigiously and who is extravagant and recklessly wasteful.	Person/Thing	
+114	PORPOISE	Animals	Short-snouted cetacean aquatic mammals of the Phocoenidae family within the superfamily Delphinoidea, characterized by a compact, robust body ranging from 1.2 to 2.5 metres (4 to 8 feet) in length, gregarious in habits, historically rendered for oil or used for leather.	Person/Thing
 116	LARCH	Agriculture and vegetation	A coniferous  tree, of genus Larix, having deciduous leaves.	Person/Thing	
 117	IMITATE	Cognition	To follow as a model or a pattern.	Action/Process	
 118	BEWITCH	Religion and belief	To cast a spell on someone or something.	Action/Process	
@@ -1477,7 +1476,7 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 1476	CHAIR	The house	An item of furniture comprising a seat, legs, back, and sometimes arm rests, on which or in which one people can sit.	Person/Thing	
 1477	KEEP	Possession	To retain possession of something.	Action/Process	
 1478	WITHOUT	Miscellaneous function words	Not having, containing, characteristic of, etc.	Other	
-1479	DOLPHIN	Animals	A carnivorous aquatic mammal inhabiting mostly in the shallower seas of the continental shelves.	Person/Thing	
+1479	DOLPHIN	Animals	A carnivorous cetacean aquatic mammal of the family Delphinidae within the superfamily Delphinoidea (along porpoises or belugas) inhabiting mostly in the shallower seas of the continental shelves.	Person/Thing	
 1480	BODY	The body	The physical structure of a human or animal.	Person/Thing	
 1481	HAMMER	Basic actions and technology	A tool with a heavy head and a handle used for pounding.	Person/Thing	
 1482	SHOULDER	The body	One side of the top of the torso, where an arm attaches or joins.	Person/Thing	
@@ -4056,4 +4055,5 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 4070	ROCKET	Modern world	A vehicle or device propelled by the rapid expulsion of gases, used to travel into space or for military purposes.	Person/Thing
 4071	THEFT	Law	The unlawful taking of another’s property without consent and with the intent to permanently deprive them of it.	Person/Thing
 4072	DRAWER	The house	A sliding compartment in furniture, such as a desk or cabinet, used for storing items.	Person/Thing
-4073	WHEELBARROW	Agriculture and vegetation	A small hand-propelled vehicle with one wheel at the front and two handles at the back, used to transport soil, tools, or other heavy materials.	Person/Thing	
+4073	WHEELBARROW	Agriculture and vegetation	A small hand-propelled vehicle with one wheel at the front and two handles at the back, used to transport soil, tools, or other heavy materials.	Person/Thing
+4074	DELPHINOID	Animals	Any of the related aquatic mammals within the superfamily Delphinoidea, such as dolphins, porpoises, belugas or narwhals.	Person/Thing	
