@@ -378,7 +378,7 @@ Kornai-2018-1400-376	376	1627	determine	V			meghatároz	determino	ustalać	dec
 Kornai-2018-1400-377	377	758	develop	V			fejleszt	excolo	budować	
 Kornai-2018-1400-378	378	759	develop	U			fejlődik	confirmor	rozwijać sié	=PAT[er[after, good]]
 Kornai-2018-1400-379	379	1333	develop	V			kifejleszt	excolo	rozwijać	
-Kornai-2018-1400-380	380	3442	development	N			fejlődés	progressio	rozwój	
+Kornai-2018-1400-380	380	3442	development	N	4076	DEVELOPMENT	fejlődés	progressio	rozwój	
 Kornai-2018-1400-381	381	1626	die	U	1494	DIE	meghal	morior	umierać	=PAT[dead[after]]
 Kornai-2018-1400-382	382	1566	different	A	2504	DIFFERENT	más	diversus	inny	lack(similar), lack(like/1701)
 Kornai-2018-1400-383	383	1771	difficult	A	584	DIFFICULT	nehéz	difficilis	trudny	=DAT NEED large(effort), effort FOR/2782 difficult
@@ -945,7 +945,7 @@ Kornai-2018-1400-943	943	2993	progress	N			halad	progredior	postépować	ER pa
 Kornai-2018-1400-944	944	1106	promise	V	1675	PROMISE	ígér	polliceor	obiecywać	=AGT SAY[after(=AGT DO)]
 Kornai-2018-1400-945	945	1030	proper	A			helyes	iustus	poprawny	perfect, AT/2744 situation
 Kornai-2018-1400-946	946	2593	protect	V	2900	PROTECT	véd	tueor	chronić	=AGT CAUSE[=PAT[safe], lack(harm)]
-Kornai-2018-1400-947	947	1906	protection	N			oltalom	praesidium	ochrona	protect
+Kornai-2018-1400-947	947	1906	protection	N	4083	PROTECTION	oltalom	praesidium	ochrona	protect
 Kornai-2018-1400-948	948	3007	protest	V			tiltakozik	adclamo	protesować	=AGT SHOW[=AGT THINK[=OBL[wrong]]], public
 Kornai-2018-1400-949	949		proton	N			proton			particle, PART_OF atom
 Kornai-2018-1400-950	950	1127	prove	V			igazol	demonstro	udowadniać	after(other(people) KNOW =PAT[true]), INSTRUMENT real
@@ -956,7 +956,7 @@ Kornai-2018-1400-954	954	791	punish	V	3649	PUNISH	fenyít	castigo	karać	=AGT 
 Kornai-2018-1400-955	955	365	purpose	N			cél	propositum	cel	WANT
 Kornai-2018-1400-956	956	2424	push	V	1452	PUSH	tol	promoveo	pchać	move, =AGT CAUSE[=PAT[away]]
 Kornai-2018-1400-957	957	2374	put	V	998	PUT	tesz	pono	kłaść	=AGT CAUSE[=PAT AT/2744 =TO], =AGT MOVE =PAT, =PAT[object]
-Kornai-2018-1400-958	958	1699	quality	N			minőség	qualitas	jakość	good, =POSS[good], characteristic, inherent
+Kornai-2018-1400-958	958	1699	quality	N	4078	QUALITY	minőség	qualitas	jakość	good, =POSS[good], characteristic, inherent
 Kornai-2018-1400-959	959	1667	quantity	N			mennyiség	quantitas	ilość	much, <large>
 Kornai-2018-1400-960	960	2315	quantity	N			tartam	spatium	ilość	
 Kornai-2018-1400-961	961	1353	queen	N	1306	QUEEN	királynő	regina	królowa	woman, monarch
@@ -1043,7 +1043,7 @@ Kornai-2018-1400-1041	1041	2350	sea	N	1474	SEA	tenger	mare	morze	ocean
 Kornai-2018-1400-1042	1042	1297	search	V	1468	LOOK FOR	keres	quaero	szukać	effort, SEE place/1026, =AGT WANT[=AGT KNOW place/1026], =PAT AT/2744 place/1026
 Kornai-2018-1400-1043	1043	546	season	N	691	SEASON	évad	tempus	sezon	period[<four>], PART_OF year, spring/2318 IS_A, summer IS_A, fall/1883 IS_A, winter IS_A, HAS weather
 Kornai-2018-1400-1044	1044	548	season	N	691	SEASON	évszak	tempus anni	pora roku	period, time, PART_OF year, activity IN/2758
-Kornai-2018-1400-1045	1045	2494	seat	N			ülés	sedes	siedzenie	sit IN/2758
+Kornai-2018-1400-1045	1045	2494	seat	N	4088	SEAT	ülés	sedes	siedzenie	sit IN/2758
 Kornai-2018-1400-1046	1046	1569	second	A	1384	SECOND	második	alter	drugi	-th/5, FOLLOW first
 Kornai-2018-1400-1047	1047	1570	second	N			másodperc	secundum	sekunda	unit, time
 Kornai-2018-1400-1048	1048	2401	secret	N	1121	SECRET	titok	arcanum	tajemnica	few KNOW
@@ -1263,7 +1263,7 @@ Kornai-2018-1400-1261	1261	1120	time	N	892	TIME	idő	tempus	czas	event IN/2758,
 Kornai-2018-1400-1262	1262	712	tire	U	1996	GET TIRED	fárad	laboro	zméczyć sié	work, =PAT[exhausted[after]]
 Kornai-2018-1400-1263	1263	714	tire	V	1996	GET TIRED	fáraszt	lasso	méczyć	=AGT CAUSE[=PAT[exhausted]]
 Kornai-2018-1400-1264	1264	2528	tire	V			untat	defatigo	méczyć	bore/2697
-Kornai-2018-1400-1265	1265	371	title	N			cím	appellatio	tytuł	name, <book> HAS
+Kornai-2018-1400-1265	1265	371	title	N	4080	TITLE	cím	appellatio	tytuł	name, <book> HAS
 Kornai-2018-1400-1266	1266	12	to	G	2754	TOWARDS	-ba	in	do	
 Kornai-2018-1400-1267	1267	2743	to	G	2754	TOWARDS	-hoz	ad	do	after(AT/2744 =REL)
 Kornai-2018-1400-1268	1268	586	together	D	2482	TOGETHER	együtt	una	razem	MEMBER group, lack(separate)
