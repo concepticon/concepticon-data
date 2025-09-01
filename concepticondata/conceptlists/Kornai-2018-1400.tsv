@@ -564,7 +564,7 @@ Kornai-2018-1400-562	562	877	grass	N	606	GRASS	fű	gramen	trawa	plant, HAS narr
 Kornai-2018-1400-563	563		gray	N	153	GREY	szürke	canus	szary	grey
 Kornai-2018-1400-564	564	1746	great	N			nagy	magnus	wielki	big
 Kornai-2018-1400-565	565	2679	green	A	1425	GREEN	zöld	viridis	zielony	colour, plant HAS colour, HAS lack(experience)
-Kornai-2018-1400-566	566	432	group	N			csoport	caterva	grupa	several MEMBER, together
+Kornai-2018-1400-566	566	432	group	N	4103	GROUP	csoport	caterva	grupa	several MEMBER, together
 Kornai-2018-1400-567	567	1796	grow	U	479	GROW	nő	cresco	rosnáć	after(size(ER'))
 Kornai-2018-1400-568	568	3472	guilty	N	1682	GUILTY	bűnös	reus	winny	
 Kornai-2018-1400-569	569	3473	guitar	N	3090	GUITAR	gitár	cithara	gitara	
@@ -667,7 +667,7 @@ Kornai-2018-1400-665	665	1200	law	N	1062	LAW	jog	ius	prawo	rule, system, society
 Kornai-2018-1400-666	666		layer	N			réteg			material, BETWEEN two(thing)
 Kornai-2018-1400-667	667	1832	lead	N	627	LEAD (CHEMICAL ELEMENT)	ólom	plumbum	ołów	soft(metal)
 Kornai-2018-1400-668	668	2617	lead	V	43	LEAD (GUIDE)	vezet	duco	prowadzić	=AGT CAUSE[=PAT[change]]
-Kornai-2018-1400-669	669	3106	leader	N			vezető	princeps	wódz	lead/2617
+Kornai-2018-1400-669	669	3106	leader	N	4097	LEADER	vezető	princeps	wódz	lead/2617
 Kornai-2018-1400-670	670	2304	learn	V	504	LEARN	tanul	disco	uczyć sié	after(=AGT HAS knowledge)
 Kornai-2018-1400-671	671	317	leather	N	629	LEATHER	bőr	tergus	skóra	material, artefact, FROM/2742 skin
 Kornai-2018-1400-672	672	970	leave	V	1752	LEAVE	hagy	sino	pozwalać	at[lack, after]
@@ -1170,7 +1170,7 @@ Kornai-2018-1400-1168	1168	1505	step	U	2065	STEP (VERB)	lép	gradior	kroczyć	
 Kornai-2018-1400-1169	1169	1508	step	N	1158	STEP	lépés	gradus	krok	
 Kornai-2018-1400-1170	1170	338	stick	N	1295	STICK	bot	baculum	kij	object, long, <wood>, <' USE>
 Kornai-2018-1400-1171	1171	1987	sticky	A	3703	STICKY	ragadós	glutinosus	klejácy	stick
-Kornai-2018-1400-1172	1172	1674	stiff	A			merev	rigidus	sztywny	lack(bend/975)
+Kornai-2018-1400-1172	1172	1674	stiff	A	4106	STIFF	merev	rigidus	sztywny	lack(bend/975)
 Kornai-2018-1400-1173	1173	1848	stitch	V			ölt	suo	zaszywać	unit, thread IN/2758 needle[move], sew
 Kornai-2018-1400-1174	1174		stock	N			részvény			document, prove, ABOUT[=POSS HAS part]
 Kornai-2018-1400-1175	1175	939	stomach	N	819	STOMACH	gyomor	venter	źołádek	organ, animal HAS, tube, food TO/2743
