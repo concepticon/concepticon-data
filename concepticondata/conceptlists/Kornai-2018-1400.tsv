@@ -117,7 +117,7 @@ Kornai-2018-1400-115	115	2011	arrange	V	1568	ARRANGE	rendez	ordino	układać	=A
 Kornai-2018-1400-116	116	266	arrangement	N			beosztás	dispositio	uklad	plan, IN/2758 time
 Kornai-2018-1400-117	117	1622	arrive	V	1387	ARRIVE	megérkezik	advenio	przyjechać	after(=AGT AT/2744 goal), =AGT[move[lack, after]]
 Kornai-2018-1400-118	118	1813	arrow	N	977	ARROW	nyíl	sagitta	strzała	artefact, long, straight/563, HAS pointed(head), move
-Kornai-2018-1400-119	119	1735	art	N			művészet	ars	sztuka	MAKE beautiful
+Kornai-2018-1400-119	119	1735	art	N	4094	ART	művészet	ars	sztuka	MAKE beautiful
 Kornai-2018-1400-120	120	1700	as	D			mint	ut	jak	
 Kornai-2018-1400-121	121	1253	ask	V	1309	ASK (INQUIRE)	kérdez	quaero	pytać	communicate, =AGT SAY want
 Kornai-2018-1400-122	122	2744	at	G	1461	AT	-nál	apud	u	=PAT[place/1026]
@@ -1037,7 +1037,7 @@ Kornai-2018-1400-1035	1035	1078	sand	N	671	SAND	homok	arena	piasek	substance, gr
 Kornai-2018-1400-1036	1036	1719	say	V	1458	SAY	mond	dico	mówić	communicate, INSTRUMENT sound/993, =DAT HEAR sound/993
 Kornai-2018-1400-1037	1037	2107	scale	N	2783	SCALES (MEASURE INSTRUMENT)	skála	modulus	skala	range, level AT/2744, measure INSTRUMENT, regular
 Kornai-2018-1400-1038	1038	1156	school	N	673	SCHOOL	iskola	schola	szkoła	institution, student IN/2758, educate IN/2758
-Kornai-2018-1400-1039	1039	2461	science	N			tudomány	scientia	nauka	knowledge, <INSTRUMENT[examine, test, prove]>
+Kornai-2018-1400-1039	1039	2461	science	N	4095	SCIENCE	tudomány	scientia	nauka	knowledge, <INSTRUMENT[examine, test, prove]>
 Kornai-2018-1400-1040	1040	2977	screen	N			képernÿ	album	ekran	artefact, <PART_OF electric(machine)>, picture ON
 Kornai-2018-1400-1041	1041	2350	sea	N	1474	SEA	tenger	mare	morze	ocean
 Kornai-2018-1400-1042	1042	1297	search	V	1468	LOOK FOR	keres	quaero	szukać	effort, SEE place/1026, =AGT WANT[=AGT KNOW place/1026], =PAT AT/2744 place/1026
@@ -1195,7 +1195,7 @@ Kornai-2018-1400-1193	1193	2750	subject	N			tárgy	materia	przedmiot	=POSS[<lea
 Kornai-2018-1400-1194	1194	172	substance	N			anyag	materia	materia	HAS mass, IN/2758 space/2327, physical
 Kornai-2018-1400-1195	1195	1401	succeed	V	1112	SUCCEED	követ	succedo	odnieść sukces	before(WANT thing), =AGT CAUSE thing
 Kornai-2018-1400-1196	1196	2718	succeed	V	1112	SUCCEED	sikerrel jár			aim[real[after]], =AGT HAS aim
-Kornai-2018-1400-1197	1197	2969	success	N			siker			real, good, before(desire), lack(failure)
+Kornai-2018-1400-1197	1197	2969	success	N	4089	SUCCESS	siker			real, good, before(desire), lack(failure)
 Kornai-2018-1400-1198	1198	1136	such	A			ilyen	talis	taki	
 Kornai-2018-1400-1199	1199	1061	sudden	A			hirtelen	subitus	nagły	lack(warn), before(lack(' KNOW))
 Kornai-2018-1400-1200	1200	154	suitable	A			alkalmas	commodus	odpowiedni	good
