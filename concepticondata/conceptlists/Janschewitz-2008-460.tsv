@@ -165,7 +165,7 @@ Janschewitz-2008-460-163	163	intercourse			pos hi ar	3.47	5.16	1.44	3.82	5.51	05
 Janschewitz-2008-460-164	164	joke	3425	JOKE	pos hi ar	6.45	6.64	01.08	1.14	06.04	2.81	2.23
 Janschewitz-2008-460-165	165	joyful	1495	HAPPY	pos hi ar	4.53	5.23	1	01.05	7.35	3.61	3.49
 Janschewitz-2008-460-166	166	liberty			pos hi ar	3.58	5.13	01.04	01.06	7.31	2.96	3.1
-Janschewitz-2008-460-167	167	lively			pos hi ar	4.28	4.82	01.03	1.15	6.5	2.82	3.49
+Janschewitz-2008-460-167	167	lively	4107	LIVELY	pos hi ar	4.28	4.82	01.03	1.15	6.5	2.82	3.49
 Janschewitz-2008-460-168	168	loved			pos hi ar	6.49	6.97	1	01.08	08.05	4.67	3.44
 Janschewitz-2008-460-169	169	lust			pos hi ar	3.97	5.22	1.45	2.77	4.33	4.1	2.88
 Janschewitz-2008-460-170	170	muscular			pos hi ar	05.08	06.04	01.06	01.06	6.26	3.31	7.23
@@ -204,7 +204,7 @@ Janschewitz-2008-460-202	202	gloom			neg lo ar	3.35	3.9	1.17	1.26	3.39	2.14	3.48
 Janschewitz-2008-460-203	203	headache	3625	HEADACHE	neg lo ar	5.49	6.42	01.05	01.06	3.44	2.29	3.56
 Janschewitz-2008-460-204	204	hungry	1533	BE HUNGRY	neg lo ar	7.61	7.54	01.03	01.03	4.36	3.89	3.53
 Janschewitz-2008-460-205	205	illness	1986	DISEASE	neg lo ar	4.58	5.84	1.22	1.55	03.09	2.64	3.77
-Janschewitz-2008-460-206	206	lonely			neg lo ar	5.43	6.23	1.52	1.38	03.06	2.53	3.38
+Janschewitz-2008-460-206	206	lonely	4096	LONELY	neg lo ar	5.43	6.23	1.52	1.38	03.06	2.53	3.38
 Janschewitz-2008-460-207	207	massacre			neg lo ar	3.21	4.38	1.64	02.09	2.34	4.18	5.13
 Janschewitz-2008-460-208	208	measles	3389	MEASLES	neg lo ar	2.25	3.34	01.01	1.35	3.29	2.37	4.53
 Janschewitz-2008-460-209	209	meek	1954	GENTLE	neg lo ar	2.27	3.12	1.32	1.22	4.3	1.73	2.18
@@ -236,7 +236,7 @@ Janschewitz-2008-460-234	234	assault			neg hi ar	3.69	5.25	1.86	2.29	2.56	3.75	0
 Janschewitz-2008-460-235	235	bankrupt			neg hi ar	3.16	4.69	1.18	1.92	2.87	2.99	2.71
 Janschewitz-2008-460-236	236	bees	665	BEE	neg hi ar	3.9	4.56	01.04	01.04	4.48	2.22	8.21
 Janschewitz-2008-460-237	237	betray	1902	BETRAY	neg hi ar	3.91	4.71	1.81	2.1	2.77	3.51	2.18
-Janschewitz-2008-460-238	238	brutal			neg hi ar	4.51	4.94	1.45	1.9	2.97	3.21	03.04
+Janschewitz-2008-460-238	238	brutal	4104	BRUTAL	neg hi ar	4.51	4.94	1.45	1.9	2.97	3.21	03.04
 Janschewitz-2008-460-239	239	chaos	4056	CHAOS	neg hi ar	04.09	4.99	1.3	1.62	03.08	3.43	4.36
 Janschewitz-2008-460-240	240	cockroach	1575	COCKROACH	neg hi ar	3.3	4.18	1.26	1.56	3.61	03.08	8.12
 Janschewitz-2008-460-241	241	crash			neg hi ar	4.71	5.88	1.16	1.38	3.25	3.62	6.53
@@ -246,7 +246,7 @@ Janschewitz-2008-460-244	244	evil	45	EVIL	neg hi ar	4.93	5.58	1.71	2.37	2.41	3.1
 Janschewitz-2008-460-245	245	fight	1423	FIGHT	neg hi ar	5.54	6.36	1.32	1.59	3.43	3.18	5.86
 Janschewitz-2008-460-246	246	fire	221	FIRE	neg hi ar	4.86	5.75	01.06	1.18	4.19	3.52	8.31
 Janschewitz-2008-460-247	247	flood	613	HIGH TIDE	neg hi ar	3.71	05.01	01.04	1.13	3.68	2.36	7.1
-Janschewitz-2008-460-248	248	fraud			neg hi ar	3.16	4.95	02.01	1.94	2.81	2.83	2.52
+Janschewitz-2008-460-248	248	fraud	4081	FRAUD	neg hi ar	3.16	4.95	02.01	1.94	2.81	2.83	2.52
 Janschewitz-2008-460-249	249	gossip	3640	GOSSIP	neg hi ar	05.04	6.22	1.49	1.95	3.54	2.96	2.7
 Janschewitz-2008-460-250	250	guilty	1682	GUILTY	neg hi ar	05.04	06.01	1.44	1.79	2.91	2.91	2.51
 Janschewitz-2008-460-251	251	gun	1566	GUN	neg hi ar	4.21	06.08	1.55	2.58	3.33	3.89	8.36
@@ -298,7 +298,7 @@ Janschewitz-2008-460-296	296	egg	744	EGG	unrel neu	5.45	5.79	01.01	01.04	05.09	1
 Janschewitz-2008-460-297	297	elbow	981	ELBOW	unrel neu	4.75	5	01.01	01.01	05.03	1.38	7.86
 Janschewitz-2008-460-298	298	engine	2622	ENGINE	unrel neu	4.23	4.92	01.03	01.03	5.13	1.66	7.16
 Janschewitz-2008-460-299	299	errand			unrel neu	5.15	5.65	01.05	01.03	4.91	1.71	2.99
-Janschewitz-2008-460-300	300	fabric			unrel neu	4.29	4.81	1	1	05.05	1.57	6.61
+Janschewitz-2008-460-300	300	fabric	4105	FABRIC	unrel neu	4.29	4.81	1	1	05.05	1.57	6.61
 Janschewitz-2008-460-301	301	farm	201	FARM	unrel neu	3.3	4.35	01.03	01.03	5.14	1.69	7.6
 Janschewitz-2008-460-302	302	finger	1303	FINGER	unrel neu	5.53	5.78	1.2	1.38	4.91	1.71	8.38
 Janschewitz-2008-460-303	303	foot	1301	FOOT	unrel neu	5.71	5.97	01.01	01.05	05.08	1.45	8.3
@@ -352,7 +352,7 @@ Janschewitz-2008-460-350	350	sheltered			unrel neu	3.83	4.81	1.36	1.28	4.55	1.89
 Janschewitz-2008-460-351	351	ship	740	SHIP	unrel neu	3.92	4.74	01.01	1	05.09	1.39	08.01
 Janschewitz-2008-460-352	352	spray			unrel neu	4.54	5	01.01	01.03	4.92	1.53	5.65
 Janschewitz-2008-460-353	353	statue	1002	STATUE	unrel neu	3.77	4.49	01.04	01.04	05.01	1.58	7.34
-Janschewitz-2008-460-354	354	stiff			unrel neu	04.04	4.42	1.31	1.4	4.42	2.13	04.06
+Janschewitz-2008-460-354	354	stiff	4106	STIFF	unrel neu	04.04	4.42	1.31	1.4	4.42	2.13	04.06
 Janschewitz-2008-460-355	355	subdued			unrel neu	3.22	04.01	1.22	1.18	4.64	1.81	2.39
 Janschewitz-2008-460-356	356	taxi			unrel neu	4.21	5.19	01.01	01.03	05.05	1.49	8.23
 Janschewitz-2008-460-357	357	teacher	1038	TEACHER	unrel neu	6.12	6.86	1	01.01	5.68	1.86	07.07

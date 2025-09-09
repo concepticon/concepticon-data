@@ -22,7 +22,7 @@ Schauenburg-2015-858-20	20	Altenpfleger	geriatric nurse (male)			noun	5.718	4.07
 Schauenburg-2015-858-21	21	amerikanisch	American			adjective	4.737	5.583	5.684	4.833	4.333
 Schauenburg-2015-858-22	22	Amt	department			noun	4.2	5.333	5.567	7.043	6.391
 Schauenburg-2015-858-23	23	Anarchist	anarchist			noun	4.386	6.455	5.75	3.174	4
-Schauenburg-2015-858-24	24	Anführer	leader			noun	3.857	6.607	7.071	8	5.182
+Schauenburg-2015-858-24	24	Anführer	leader	4097	LEADER	noun	3.857	6.607	7.071	8	5.182
 Schauenburg-2015-858-25	25	angeben	to boast	101	BOAST	verb	3.378	6.162	4.297	6.174	3
 Schauenburg-2015-858-26	26	Angeber	braggart			noun	3.297	6.595	4.622	6.292	2.833
 Schauenburg-2015-858-27	27	angepasst	adjusted			adjective	4.828	3.621	3.655	5.727	6.318
@@ -37,7 +37,7 @@ Schauenburg-2015-858-35	35	anordnen	to impose			verb	4.861	4.972	5.861	7.318	5.6
 Schauenburg-2015-858-36	36	anpassen	to adapt			verb	4.432	4.833	4.333	4.5	6.923
 Schauenburg-2015-858-37	37	anpumpen	to bum			verb	3.375	6.313	3.7	4.773	4.591
 Schauenburg-2015-858-38	38	Anschiss	dressing-down			noun	2.375	7.25	6.05	7.125	4.292
-Schauenburg-2015-858-39	39	Ansehen	reputation			noun	6.381	4.19	6.5	6.609	4.739
+Schauenburg-2015-858-39	39	Ansehen	reputation	4098	REPUTATION	noun	6.381	4.19	6.5	6.609	4.739
 Schauenburg-2015-858-40	40	Anstand	decency			noun	6.306	4.194	5.75	5.043	5.522
 Schauenburg-2015-858-41	41	anständig	decent			adjective	6.762	3.293	5.317	4.708	5.417
 Schauenburg-2015-858-42	42	anvertrauen	to confide			verb	6.724	3.862	6.138	3.267	5.267
@@ -123,7 +123,7 @@ Schauenburg-2015-858-121	121	Besucher	visitor	1782	GUEST	noun	5.694	5.194	4.824	
 Schauenburg-2015-858-122	122	beten	to pray	24	PRAY	verb	5.364	3.5	4.939	5	5.091
 Schauenburg-2015-858-123	123	betreuen	to take care			verb	5.286	4.036	5.036	4.706	6.588
 Schauenburg-2015-858-124	124	Betriebsrat	worker's council			noun	4.974	4.842	5.474	4	6.25
-Schauenburg-2015-858-125	125	Betrug	fraud			noun	2.27	7.351	5.622	5.958	3.875
+Schauenburg-2015-858-125	125	Betrug	fraud	4081	FRAUD	noun	2.27	7.351	5.622	5.958	3.875
 Schauenburg-2015-858-126	126	betrügen	to betray	1902	BETRAY	verb	2.265	7.265	5.412	5.652	3.304
 Schauenburg-2015-858-127	127	Bettler	beggar	1934	BEGGAR	noun	3.889	5.741	3.444	5.273	3.636
 Schauenburg-2015-858-128	128	betucht	monied			adjective	4.967	4.867	5.586	5.875	3.438
@@ -141,7 +141,7 @@ Schauenburg-2015-858-139	139	brauchen	to need	2339	NEED (SOMETHING)	verb	4.767	5
 Schauenburg-2015-858-140	140	Briefträger	postman	3095	POSTMAN	noun	5.579	4.526	4.263	4.778	4.5
 Schauenburg-2015-858-141	141	Bruder	brother	1262	BROTHER	noun	6.824	4.059	5.424	3.737	5.842
 Schauenburg-2015-858-142	142	brüderlich	brotherly			adjective	6.483	3.931	6.069	4	7.067
-Schauenburg-2015-858-143	143	brutal	brutal			adjective	2.026	8.026	6.763	6.923	3.462
+Schauenburg-2015-858-143	143	brutal	brutal	4104	BRUTAL	adjective	2.026	8.026	6.763	6.923	3.462
 Schauenburg-2015-858-144	144	Bundestag	(German) Bundestag			noun	4.667	5.077	6.346	5.786	6.643
 Schauenburg-2015-858-145	145	Bündnis	alliance			noun	6.361	4.083	6.444	3.389	6.889
 Schauenburg-2015-858-146	146	Bürger	citizen	1032	CITIZEN	noun	5.5	4.585	5.073	4.471	5.941
@@ -212,13 +212,13 @@ Schauenburg-2015-858-210	210	eingeschüchtert	intimidated			adjective	2.818	5.54
 Schauenburg-2015-858-211	211	eingesperrt	confined			adjective	2.257	7.343	5.057	7.733	4.467
 Schauenburg-2015-858-212	212	Einheit	unity			noun	6.281	3.5	6.656	4.6	7
 Schauenburg-2015-858-213	213	einhellig	unanimous			adjective	5.789	4.526	5.447	4.688	6.25
-Schauenburg-2015-858-214	214	einsam	lonely			adjective	2.846	5.179	4.872	5.348	2.739
+Schauenburg-2015-858-214	214	einsam	lonely	4096	LONELY	adjective	2.846	5.179	4.872	5.348	2.739
 Schauenburg-2015-858-215	215	einsperren	to imprison			verb	2.206	7.265	6.441	8.667	4.889
 Schauenburg-2015-858-216	216	Einzelkind	singleton			noun	4.594	5.719	4.719	5.25	3.063
 Schauenburg-2015-858-217	217	einzeln	single			adjective	4.944	5.278	4.583	5.6	2.467
 Schauenburg-2015-858-218	218	eiskalt	ice cold			adjective	3.059	6.029	6.697	6.348	3.435
 Schauenburg-2015-858-219	219	eitel	peacocky			adjective	3.5	5.407	5.148	5.909	2.545
-Schauenburg-2015-858-220	220	elegant	elegant			adjective	6.571	4.643	5.607	5.167	3.5
+Schauenburg-2015-858-220	220	elegant	elegant	4099	ELEGANT	adjective	6.571	4.643	5.607	5.167	3.5
 Schauenburg-2015-858-221	221	Elektriker	electrician			noun	5.146	5.073	4.846	5.231	4.615
 Schauenburg-2015-858-222	222	elitär	elite			adjective	3.514	5.919	6.054	7.96	4.08
 Schauenburg-2015-858-223	223	Elite	elite			noun	4.686	5.629	6.971	6.789	3.737
@@ -232,7 +232,7 @@ Schauenburg-2015-858-230	230	entscheiden	to decide	685	DECIDE	verb	5.909	5.97	6.
 Schauenburg-2015-858-231	231	enttäuscht	disappointed			adjective	2.769	6.205	4.513	5.375	4.167
 Schauenburg-2015-858-232	232	Erbe	heritage			noun	5.848	4.848	5.636	5.364	4.727
 Schauenburg-2015-858-233	233	erfahren sein*	to be experienced	2218	EXPERIENCED	verb	7.395	3.368	6.789	5.063	3.313
-Schauenburg-2015-858-234	234	Erfolg	success			noun	7.412	5.333	7	5.435	3.696
+Schauenburg-2015-858-234	234	Erfolg	success	4089	SUCCESS	noun	7.412	5.333	7	5.435	3.696
 Schauenburg-2015-858-235	235	erniedrigen	to debase			verb	1.676	7.351	4.784	7.962	3.615
 Schauenburg-2015-858-236	236	Eroberer	conqueror			noun	4	6.944	6.833	7.563	3.313
 Schauenburg-2015-858-237	237	Erwachsener	adult (grownup)	3635	ADULT	noun	5.579	4.763	6.132	5.909	3.727
@@ -281,7 +281,7 @@ Schauenburg-2015-858-279	279	freundschaftlich	friendly			adjective	7.718	2.872	6
 Schauenburg-2015-858-280	280	Frühschoppen	sunday morning pint			noun	4.889	5.519	4.333	4.632	6.158
 Schauenburg-2015-858-281	281	frustriert	frustrated			adjective	2.791	6.256	5.047	5.682	3.455
 Schauenburg-2015-858-282	282	führen	to lead	43	LEAD (GUIDE)	verb	5.29	5.7	7.032	6.813	5
-Schauenburg-2015-858-283	283	Führer	leader			noun	2.107	7.593	7.593	7.813	4.188
+Schauenburg-2015-858-283	283	Führer	leader	4097	LEADER	noun	2.107	7.593	7.593	7.813	4.188
 Schauenburg-2015-858-284	284	Führung	leadership			noun	4.585	5.488	7.317	7.455	4.909
 Schauenburg-2015-858-285	285	Führungsfigur	leading figure			noun	4.7	6.128	7.175	7.778	3.556
 Schauenburg-2015-858-286	286	Führungsmacht	leading power			noun	3.279	6.767	7.535	8.636	3.636
@@ -294,7 +294,7 @@ Schauenburg-2015-858-292	292	Gangster	gangster			noun	3.025	6.744	6	6.824	3
 Schauenburg-2015-858-293	293	Gastarbeiter	guest worker			noun	4.421	5.243	3.946	5.813	5.125
 Schauenburg-2015-858-294	294	Gastgeber	host	1545	HOST	noun	6.711	4.356	5.778	4.65	6.45
 Schauenburg-2015-858-295	295	Gauner	crook			noun	3.375	6.594	5.406	5.565	3.13
-Schauenburg-2015-858-296	296	Gebet	prayer			noun	5.229	3.629	5.343	5.208	5.417
+Schauenburg-2015-858-296	296	Gebet	prayer	4100	PRAYER	noun	5.229	3.629	5.343	5.208	5.417
 Schauenburg-2015-858-297	297	Geburtstagsfest	birthday party			noun	6.583	6.167	5.139	4.4	5.8
 Schauenburg-2015-858-298	298	gedemütigt	humiliated			adjective	1.897	6.828	4.138	6.636	3.091
 Schauenburg-2015-858-299	299	Geduld	patience			noun	6.848	2.879	5.303	3.696	5.087
@@ -305,7 +305,7 @@ Schauenburg-2015-858-303	303	Gefängnis	prison	1281	PRISON	noun	2.417	6.972	6.80
 Schauenburg-2015-858-304	304	gehässig	mean			adjective	2.314	7.286	5.257	6.273	3.909
 Schauenburg-2015-858-305	305	gehemmt	inhibited			adjective	3.059	5.412	3.853	5.455	3.727
 Schauenburg-2015-858-306	306	gehorchen	to obey	1635	OBEY	verb	3.256	5.436	4.487	7.786	5.929
-Schauenburg-2015-858-307	307	gehorsam	obedient			adjective	3.902	5	4.659	8.077	5
+Schauenburg-2015-858-307	307	gehorsam	obedient	4102	OBEDIENT	adjective	3.902	5	4.659	8.077	5
 Schauenburg-2015-858-308	308	Geiz	avarice			noun	2.795	6.128	5	6.217	2.652
 Schauenburg-2015-858-309	309	geizig	stingy	1774	STINGY	adjective	2.645	6.161	4.355	5.739	2.478
 Schauenburg-2015-858-310	310	Geld	money	1559	MONEY	noun	6	4.681	6.804	6.522	4.478
@@ -349,7 +349,7 @@ Schauenburg-2015-858-347	347	Großeltern	grandparents	305	GRANDPARENTS	noun	6.88
 Schauenburg-2015-858-348	348	Großvater	grandfather	1383	GRANDFATHER	noun	6.833	3.69	5.69	6.385	5.692
 Schauenburg-2015-858-349	349	Grundschüler	primary pupils			noun	5.593	5.481	3.481	5.462	5.308
 Schauenburg-2015-858-350	350	Grundüberzeugung	fundamental conviction			noun	5.912	4.353	6.324	5.095	2.81
-Schauenburg-2015-858-351	351	Gruppe	group			noun	5.577	4.96	6.154	3.933	7.667
+Schauenburg-2015-858-351	351	Gruppe	group	4103	GROUP	noun	5.577	4.96	6.154	3.933	7.667
 Schauenburg-2015-858-352	352	Gruppenleiter	group leader			noun	5.419	5	5.767	5.5	6.667
 Schauenburg-2015-858-353	353	gutmütig	good-natured	3299	KIND	adjective	6.818	3.152	5	3.739	5.391
 Schauenburg-2015-858-354	354	Gymnasium	high school			noun	6.097	4.871	5.903	5.7	4.4
@@ -493,7 +493,7 @@ Schauenburg-2015-858-491	491	lüstern	lecherous			adjective	4.439	6.45	5.975	5.1
 Schauenburg-2015-858-492	492	Macht	power	2526	POWER	noun	3.684	6.789	7.553	7.154	4.692
 Schauenburg-2015-858-493	493	mächtig	powerful	3001	POWERFUL	adjective	4.424	6.03	7.212	7.857	3.929
 Schauenburg-2015-858-494	494	Mainstream	mainstream			noun	4.125	4.71	5.774	5.231	6.462
-Schauenburg-2015-858-495	495	Maler	painter			noun	5.925	4.475	4.825	4.667	2.917
+Schauenburg-2015-858-495	495	Maler	painter	4101	PAINTER	noun	5.925	4.475	4.825	4.667	2.917
 Schauenburg-2015-858-496	496	Managerin	manageress			noun	5.333	5.514	6.361	6.792	3.333
 Schauenburg-2015-858-497	497	Mandant	client			noun	4.949	5.103	4.949	4.818	4.455
 Schauenburg-2015-858-498	498	manipulieren	to manipulate			verb	2.719	7.188	6.438	7.615	3.692
@@ -850,7 +850,7 @@ Schauenburg-2015-858-848	848	zärtlich	tender	1954	GENTLE	adjective	8.161	3.097	
 Schauenburg-2015-858-849	849	Zorn	anger			noun	3.233	7.4	7.4	6.565	3.826
 Schauenburg-2015-858-850	850	Zugehörigkeit	affiliation			noun	6.556	3.889	5.667	4	7.417
 Schauenburg-2015-858-851	851	Zuhause	home	2406	HOME	noun	8.184	2.053	6.811	3.75	4.333
-Schauenburg-2015-858-852	852	Zuneigung	affection			noun	8	3.41	6.256	3.563	4.438
+Schauenburg-2015-858-852	852	Zuneigung	affection	4093	AFFECTION	noun	8	3.41	6.256	3.563	4.438
 Schauenburg-2015-858-853	853	zusammenarbeiten	to collaborate			verb	7.324	4.324	6.486	3.6	8.067
 Schauenburg-2015-858-854	854	Zusammenhalt	cohesion			noun	7.405	3.297	7.139	3.3	8.1
 Schauenburg-2015-858-855	855	zutrauen	to trust sb.			verb	7.4	3.533	6.2	4.6	4

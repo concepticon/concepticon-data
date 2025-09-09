@@ -117,7 +117,7 @@ Kornai-2018-1400-115	115	2011	arrange	V	1568	ARRANGE	rendez	ordino	układać	=A
 Kornai-2018-1400-116	116	266	arrangement	N			beosztás	dispositio	uklad	plan, IN/2758 time
 Kornai-2018-1400-117	117	1622	arrive	V	1387	ARRIVE	megérkezik	advenio	przyjechać	after(=AGT AT/2744 goal), =AGT[move[lack, after]]
 Kornai-2018-1400-118	118	1813	arrow	N	977	ARROW	nyíl	sagitta	strzała	artefact, long, straight/563, HAS pointed(head), move
-Kornai-2018-1400-119	119	1735	art	N			művészet	ars	sztuka	MAKE beautiful
+Kornai-2018-1400-119	119	1735	art	N	4094	ART	művészet	ars	sztuka	MAKE beautiful
 Kornai-2018-1400-120	120	1700	as	D			mint	ut	jak	
 Kornai-2018-1400-121	121	1253	ask	V	1309	ASK (INQUIRE)	kérdez	quaero	pytać	communicate, =AGT SAY want
 Kornai-2018-1400-122	122	2744	at	G	1461	AT	-nál	apud	u	=PAT[place/1026]
@@ -378,7 +378,7 @@ Kornai-2018-1400-376	376	1627	determine	V			meghatároz	determino	ustalać	dec
 Kornai-2018-1400-377	377	758	develop	V			fejleszt	excolo	budować	
 Kornai-2018-1400-378	378	759	develop	U			fejlődik	confirmor	rozwijać sié	=PAT[er[after, good]]
 Kornai-2018-1400-379	379	1333	develop	V			kifejleszt	excolo	rozwijać	
-Kornai-2018-1400-380	380	3442	development	N			fejlődés	progressio	rozwój	
+Kornai-2018-1400-380	380	3442	development	N	4076	DEVELOPMENT	fejlődés	progressio	rozwój	
 Kornai-2018-1400-381	381	1626	die	U	1494	DIE	meghal	morior	umierać	=PAT[dead[after]]
 Kornai-2018-1400-382	382	1566	different	A	2504	DIFFERENT	más	diversus	inny	lack(similar), lack(like/1701)
 Kornai-2018-1400-383	383	1771	difficult	A	584	DIFFICULT	nehéz	difficilis	trudny	=DAT NEED large(effort), effort FOR/2782 difficult
@@ -564,7 +564,7 @@ Kornai-2018-1400-562	562	877	grass	N	606	GRASS	fű	gramen	trawa	plant, HAS narr
 Kornai-2018-1400-563	563		gray	N	153	GREY	szürke	canus	szary	grey
 Kornai-2018-1400-564	564	1746	great	N			nagy	magnus	wielki	big
 Kornai-2018-1400-565	565	2679	green	A	1425	GREEN	zöld	viridis	zielony	colour, plant HAS colour, HAS lack(experience)
-Kornai-2018-1400-566	566	432	group	N			csoport	caterva	grupa	several MEMBER, together
+Kornai-2018-1400-566	566	432	group	N	4103	GROUP	csoport	caterva	grupa	several MEMBER, together
 Kornai-2018-1400-567	567	1796	grow	U	479	GROW	nő	cresco	rosnáć	after(size(ER'))
 Kornai-2018-1400-568	568	3472	guilty	N	1682	GUILTY	bűnös	reus	winny	
 Kornai-2018-1400-569	569	3473	guitar	N	3090	GUITAR	gitár	cithara	gitara	
@@ -667,7 +667,7 @@ Kornai-2018-1400-665	665	1200	law	N	1062	LAW	jog	ius	prawo	rule, system, society
 Kornai-2018-1400-666	666		layer	N			réteg			material, BETWEEN two(thing)
 Kornai-2018-1400-667	667	1832	lead	N	627	LEAD (CHEMICAL ELEMENT)	ólom	plumbum	ołów	soft(metal)
 Kornai-2018-1400-668	668	2617	lead	V	43	LEAD (GUIDE)	vezet	duco	prowadzić	=AGT CAUSE[=PAT[change]]
-Kornai-2018-1400-669	669	3106	leader	N			vezető	princeps	wódz	lead/2617
+Kornai-2018-1400-669	669	3106	leader	N	4097	LEADER	vezető	princeps	wódz	lead/2617
 Kornai-2018-1400-670	670	2304	learn	V	504	LEARN	tanul	disco	uczyć sié	after(=AGT HAS knowledge)
 Kornai-2018-1400-671	671	317	leather	N	629	LEATHER	bőr	tergus	skóra	material, artefact, FROM/2742 skin
 Kornai-2018-1400-672	672	970	leave	V	1752	LEAVE	hagy	sino	pozwalać	at[lack, after]
@@ -945,7 +945,7 @@ Kornai-2018-1400-943	943	2993	progress	N			halad	progredior	postépować	ER pa
 Kornai-2018-1400-944	944	1106	promise	V	1675	PROMISE	ígér	polliceor	obiecywać	=AGT SAY[after(=AGT DO)]
 Kornai-2018-1400-945	945	1030	proper	A			helyes	iustus	poprawny	perfect, AT/2744 situation
 Kornai-2018-1400-946	946	2593	protect	V	2900	PROTECT	véd	tueor	chronić	=AGT CAUSE[=PAT[safe], lack(harm)]
-Kornai-2018-1400-947	947	1906	protection	N			oltalom	praesidium	ochrona	protect
+Kornai-2018-1400-947	947	1906	protection	N	4083	PROTECTION	oltalom	praesidium	ochrona	protect
 Kornai-2018-1400-948	948	3007	protest	V			tiltakozik	adclamo	protesować	=AGT SHOW[=AGT THINK[=OBL[wrong]]], public
 Kornai-2018-1400-949	949		proton	N			proton			particle, PART_OF atom
 Kornai-2018-1400-950	950	1127	prove	V			igazol	demonstro	udowadniać	after(other(people) KNOW =PAT[true]), INSTRUMENT real
@@ -956,7 +956,7 @@ Kornai-2018-1400-954	954	791	punish	V	3649	PUNISH	fenyít	castigo	karać	=AGT 
 Kornai-2018-1400-955	955	365	purpose	N			cél	propositum	cel	WANT
 Kornai-2018-1400-956	956	2424	push	V	1452	PUSH	tol	promoveo	pchać	move, =AGT CAUSE[=PAT[away]]
 Kornai-2018-1400-957	957	2374	put	V	998	PUT	tesz	pono	kłaść	=AGT CAUSE[=PAT AT/2744 =TO], =AGT MOVE =PAT, =PAT[object]
-Kornai-2018-1400-958	958	1699	quality	N			minőség	qualitas	jakość	good, =POSS[good], characteristic, inherent
+Kornai-2018-1400-958	958	1699	quality	N	4078	QUALITY	minőség	qualitas	jakość	good, =POSS[good], characteristic, inherent
 Kornai-2018-1400-959	959	1667	quantity	N			mennyiség	quantitas	ilość	much, <large>
 Kornai-2018-1400-960	960	2315	quantity	N			tartam	spatium	ilość	
 Kornai-2018-1400-961	961	1353	queen	N	1306	QUEEN	királynő	regina	królowa	woman, monarch
@@ -1037,13 +1037,13 @@ Kornai-2018-1400-1035	1035	1078	sand	N	671	SAND	homok	arena	piasek	substance, gr
 Kornai-2018-1400-1036	1036	1719	say	V	1458	SAY	mond	dico	mówić	communicate, INSTRUMENT sound/993, =DAT HEAR sound/993
 Kornai-2018-1400-1037	1037	2107	scale	N	2783	SCALES (MEASURE INSTRUMENT)	skála	modulus	skala	range, level AT/2744, measure INSTRUMENT, regular
 Kornai-2018-1400-1038	1038	1156	school	N	673	SCHOOL	iskola	schola	szkoła	institution, student IN/2758, educate IN/2758
-Kornai-2018-1400-1039	1039	2461	science	N			tudomány	scientia	nauka	knowledge, <INSTRUMENT[examine, test, prove]>
+Kornai-2018-1400-1039	1039	2461	science	N	4095	SCIENCE	tudomány	scientia	nauka	knowledge, <INSTRUMENT[examine, test, prove]>
 Kornai-2018-1400-1040	1040	2977	screen	N			képernÿ	album	ekran	artefact, <PART_OF electric(machine)>, picture ON
 Kornai-2018-1400-1041	1041	2350	sea	N	1474	SEA	tenger	mare	morze	ocean
 Kornai-2018-1400-1042	1042	1297	search	V	1468	LOOK FOR	keres	quaero	szukać	effort, SEE place/1026, =AGT WANT[=AGT KNOW place/1026], =PAT AT/2744 place/1026
 Kornai-2018-1400-1043	1043	546	season	N	691	SEASON	évad	tempus	sezon	period[<four>], PART_OF year, spring/2318 IS_A, summer IS_A, fall/1883 IS_A, winter IS_A, HAS weather
 Kornai-2018-1400-1044	1044	548	season	N	691	SEASON	évszak	tempus anni	pora roku	period, time, PART_OF year, activity IN/2758
-Kornai-2018-1400-1045	1045	2494	seat	N			ülés	sedes	siedzenie	sit IN/2758
+Kornai-2018-1400-1045	1045	2494	seat	N	4088	SEAT	ülés	sedes	siedzenie	sit IN/2758
 Kornai-2018-1400-1046	1046	1569	second	A	1384	SECOND	második	alter	drugi	-th/5, FOLLOW first
 Kornai-2018-1400-1047	1047	1570	second	N			másodperc	secundum	sekunda	unit, time
 Kornai-2018-1400-1048	1048	2401	secret	N	1121	SECRET	titok	arcanum	tajemnica	few KNOW
@@ -1170,7 +1170,7 @@ Kornai-2018-1400-1168	1168	1505	step	U	2065	STEP (VERB)	lép	gradior	kroczyć	
 Kornai-2018-1400-1169	1169	1508	step	N	1158	STEP	lépés	gradus	krok	
 Kornai-2018-1400-1170	1170	338	stick	N	1295	STICK	bot	baculum	kij	object, long, <wood>, <' USE>
 Kornai-2018-1400-1171	1171	1987	sticky	A	3703	STICKY	ragadós	glutinosus	klejácy	stick
-Kornai-2018-1400-1172	1172	1674	stiff	A			merev	rigidus	sztywny	lack(bend/975)
+Kornai-2018-1400-1172	1172	1674	stiff	A	4106	STIFF	merev	rigidus	sztywny	lack(bend/975)
 Kornai-2018-1400-1173	1173	1848	stitch	V			ölt	suo	zaszywać	unit, thread IN/2758 needle[move], sew
 Kornai-2018-1400-1174	1174		stock	N			részvény			document, prove, ABOUT[=POSS HAS part]
 Kornai-2018-1400-1175	1175	939	stomach	N	819	STOMACH	gyomor	venter	źołádek	organ, animal HAS, tube, food TO/2743
@@ -1195,7 +1195,7 @@ Kornai-2018-1400-1193	1193	2750	subject	N			tárgy	materia	przedmiot	=POSS[<lea
 Kornai-2018-1400-1194	1194	172	substance	N			anyag	materia	materia	HAS mass, IN/2758 space/2327, physical
 Kornai-2018-1400-1195	1195	1401	succeed	V	1112	SUCCEED	követ	succedo	odnieść sukces	before(WANT thing), =AGT CAUSE thing
 Kornai-2018-1400-1196	1196	2718	succeed	V	1112	SUCCEED	sikerrel jár			aim[real[after]], =AGT HAS aim
-Kornai-2018-1400-1197	1197	2969	success	N			siker			real, good, before(desire), lack(failure)
+Kornai-2018-1400-1197	1197	2969	success	N	4089	SUCCESS	siker			real, good, before(desire), lack(failure)
 Kornai-2018-1400-1198	1198	1136	such	A			ilyen	talis	taki	
 Kornai-2018-1400-1199	1199	1061	sudden	A			hirtelen	subitus	nagły	lack(warn), before(lack(' KNOW))
 Kornai-2018-1400-1200	1200	154	suitable	A			alkalmas	commodus	odpowiedni	good
@@ -1263,7 +1263,7 @@ Kornai-2018-1400-1261	1261	1120	time	N	892	TIME	idő	tempus	czas	event IN/2758,
 Kornai-2018-1400-1262	1262	712	tire	U	1996	GET TIRED	fárad	laboro	zméczyć sié	work, =PAT[exhausted[after]]
 Kornai-2018-1400-1263	1263	714	tire	V	1996	GET TIRED	fáraszt	lasso	méczyć	=AGT CAUSE[=PAT[exhausted]]
 Kornai-2018-1400-1264	1264	2528	tire	V			untat	defatigo	méczyć	bore/2697
-Kornai-2018-1400-1265	1265	371	title	N			cím	appellatio	tytuł	name, <book> HAS
+Kornai-2018-1400-1265	1265	371	title	N	4080	TITLE	cím	appellatio	tytuł	name, <book> HAS
 Kornai-2018-1400-1266	1266	12	to	G	2754	TOWARDS	-ba	in	do	
 Kornai-2018-1400-1267	1267	2743	to	G	2754	TOWARDS	-hoz	ad	do	after(AT/2744 =REL)
 Kornai-2018-1400-1268	1268	586	together	D	2482	TOGETHER	együtt	una	razem	MEMBER group, lack(separate)
