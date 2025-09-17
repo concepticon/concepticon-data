@@ -57,11 +57,11 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "TYPE"
+                        "name": "EMOTION_CATEGORY"
                     },
                     {
                         "datatype": "string",
-                        "name": "DUTCH_CATEGORY"
+                        "name": "EMOTION_SEMANTIC_CATEGORY"
                     },
                     {
                         "datatype": "float",
@@ -73,7 +73,7 @@
                     },
                     {
                         "datatype": "float",
-                        "name": "DUTCH_TABOO_GENERAL_MEAN"
+                        "name": "DUTCH_TABOO_MEAN"
                     },
                     {
                         "datatype": "float",
