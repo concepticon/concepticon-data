@@ -48,7 +48,7 @@ Miklashevsky-2018-506-46	46	верблюд	verblyud	camel	Animal	concrete	7	m	1.
 Miklashevsky-2018-506-47	47	вертолет	vertolet	helicopter	Transport	concrete	8	m	1.6	3.86	4.93	1.68	1.61	3	6.59	4.97	5.58	5.17	3.03	2580	HELICOPTER
 Miklashevsky-2018-506-48	48	веселье	vesele	fun	Sense_Emotion	abstract	7	n	1.2	3.6	5.2	2.34	2.39	1.97	3.84	3.09	5.05	4.5	5.96	4062	FUN
 Miklashevsky-2018-506-49	49	вилка	vilka	fork	Tool_precise_grip	concrete	5	f	1.2	4.53	1.86	2.73	4.14	5.48	6.93	6.68	2.75	2.54	6.4	1302	FORK
-Miklashevsky-2018-506-50	50	вина	vina	guilt	Sense_Emotion	abstract	4	f	1.7	2.07	1.6	2.28	2.41	1.58	2.97	2.1	4.15	6.03	4.93	134	FAULT
+Miklashevsky-2018-506-50	50	вина	vina	guilt	Sense_Emotion	abstract	4	f	1.7	2.07	1.6	2.28	2.41	1.58	2.97	2.1	4.15	6.03	4.93	4125	GUILT
 Miklashevsky-2018-506-51	51	виноград	vinograd	grapes (sing.)	Food	concrete	8	m	1.1	4.97	1.82	4.21	6.32	4.86	6.61	5.13	3.79	4	3.97	920	GRAPE
 Miklashevsky-2018-506-52	52	вишня	vishnya	cherry	Food	concrete	5	f	0.9	4.48	1.31	5.69	6.52	4.9	6.74	4.69	4.03	4	4.64		
 Miklashevsky-2018-506-53	53	вкус	vkus	taste	Sense_Phys	abstract	4	m	1.9	1.77	1.86	4.81	5.89	2.3	3.79	2.24	3.81	3.27	6	2190	TASTE
@@ -298,7 +298,7 @@ Miklashevsky-2018-506-296	296	писк	pisk	squeak	Sound	concrete	4	m	0.7	1.71	5
 Miklashevsky-2018-506-297	297	плинтус	plintus	plinth	Ground	concrete	7	m	0.3	4.07	1.48	1.41	1.36	3.41	6.45	3.97	2.09	8.6	2		
 Miklashevsky-2018-506-298	298	плот	plot	raft	Transport	concrete	4	m	1	3.9	2	1.93	1.6	3.17	6.28	5.26	2.16	6.3	2.17	1664	RAFT
 Miklashevsky-2018-506-299	299	повозка	povozka	wagon	Transport	concrete	7	f	0.8	4.34	3.25	1.72	1.23	3.32	6.11	5.06	2.71	7.23	2.53	122	CART
-Miklashevsky-2018-506-300	300	погреб	pogreb	cellar	Building	concrete	6	m	1	4.16	1.75	4.2	2.22	2.77	6.34	5.63	1.42	5.07	3.5		
+Miklashevsky-2018-506-300	300	погреб	pogreb	cellar	Building	concrete	6	m	1	4.16	1.75	4.2	2.22	2.77	6.34	5.63	1.42	5.07	3.5	4108	CELLAR
 Miklashevsky-2018-506-301	301	подвал	podval	basement	Building	concrete	6	m	1.5	4.19	2	4.07	1.36	2.64	6.5	3.65	1.32	4.2	4.2		
 Miklashevsky-2018-506-302	302	подножка	podnozhka	backheel	Action	abstract	8	f	0.8	2.59	1.8	1.41	1.28	4.08	5.13	2.43	1.79	6.07	2.83		
 Miklashevsky-2018-506-303	303	подъем	pod'em	raising	Action	abstract	6	m	1.6	3.21	2.14	1.41	1.31	2.83	4.33	4.38	5.19	5.37	4.82		
