@@ -251,7 +251,7 @@ Kornai-2018-1400-249	249	828	catch	V	702	CATCH	fog	capio	łapać	=AGT CAUSE[=PA
 Kornai-2018-1400-250	250	1599	cattle	N	1153	CATTLE	marha	pecus	bydło	mammal, herbivore, AT/2744 farm, PRODUCE milk
 Kornai-2018-1400-251	251	1891	cause	N	860	CAUSE	ok	causa	powód	reason
 Kornai-2018-1400-252	252	609	cell	N			elem	membrum/particula/pila electrica	komórka	electric(energy) IN/2758
-Kornai-2018-1400-253	253	2076	cell	N			sejt	cella	komórka	place/1026, HAS border, small, space/2327
+Kornai-2018-1400-253	253	2076	cell	N	4109	CELL (BIOLOGY)	sejt	cella	komórka	place/1026, HAS border, small, space/2327
 Kornai-2018-1400-254	254		centre	N	491	CENTER	közép	centrum	centrum	centre
 Kornai-2018-1400-255	255	1412	centre	N	491	CENTER	középpont	centrum	centrum	middle
 Kornai-2018-1400-256	256	2497	ceremony	N			ünnepély	sollemne	uroczystość	formal, act, <PART_OF religion>, tradition
@@ -300,8 +300,8 @@ Kornai-2018-1400-298	298	746	comb	N	1475	COMB	fésű	pecten	grzebień	artefac
 Kornai-2018-1400-299	299	1504	comb	N	2070	COMB (VERB)	lép	favus	plaster	
 Kornai-2018-1400-300	300	2603	combine	V			vegyít	misceo	mieszać	=PAT[more], after(together)
 Kornai-2018-1400-301	301	1195	come	U	1446	COME	jön	venio	przychodzić	move, =AGT[near[after]]
-Kornai-2018-1400-302	302	1240	comfort	N			kényelem	commoditas	wygoda	pleasure, rest
-Kornai-2018-1400-303	303	2626	comfort	N			vigasz	solacium	pocieszenie	good FOR soul
+Kornai-2018-1400-302	302	1240	comfort	N	4112	COMFORT	kényelem	commoditas	wygoda	pleasure, rest
+Kornai-2018-1400-303	303	2626	comfort	N	4112	COMFORT	vigasz	solacium	pocieszenie	good FOR soul
 Kornai-2018-1400-304	304	1415	common	A			közös	communis	wspólny	AT/2744 many, more HAS, public
 Kornai-2018-1400-305	305	385	company	N	2983	COMPANIONSHIP	csapat	manus	towarzystwo	group, human
 Kornai-2018-1400-306	306	2549	company	N			vállalat	negotiatio	firma	organization, FOR/2782 business
@@ -311,7 +311,7 @@ Kornai-2018-1400-309	309	2968	computer	N	3086	COMPUTER	számítógép	ordina
 Kornai-2018-1400-310	310	904	concern	N			gond	sollicitudo	zmartwienie	important, FOR/2782 =PAT, CAUSE =PAT[anxious]
 Kornai-2018-1400-311	311	782	condition	N			feltétel	condicio	warunek	CAUSE[=REL[possible]]
 Kornai-2018-1400-312	312	2699	condition	N			körülmény	status	warunek	situation
-Kornai-2018-1400-313	313		confidence	N			bizalom			trust
+Kornai-2018-1400-313	313		confidence	N	4118	CONFIDENCE	bizalom			trust
 Kornai-2018-1400-314	314	1227	connect	V	2862	CONNECT	kapcsol	coniungo	łáczyć	join
 Kornai-2018-1400-315	315	2339	consider	V			tekint	considero	rozwaźać	think
 Kornai-2018-1400-316	316	2586	consist	V			van	consisto	składać sié	=PAT PART_OF =AGT
@@ -618,7 +618,7 @@ Kornai-2018-1400-616	616	10	in	G	1460	IN	-ba	in	do
 Kornai-2018-1400-617	617	2758	in	G	1460	IN	-ban	in	w	=REL CONTAIN, AT/2744 =REL
 Kornai-2018-1400-618	618	259	include	V			belevesz	comprehendo	włáczyć	=PAT IN/2758 =TO
 Kornai-2018-1400-619	619	838	increase	V	1041	INCREASE	fokoz	augeo	zwiékrzać	after(=PAT ER')
-Kornai-2018-1400-620	620	1146	industry	N			ipar	industria	przemysł	produce
+Kornai-2018-1400-620	620	1146	industry	N	4114	INDUSTRY	ipar	industria	przemysł	produce
 Kornai-2018-1400-621	621	254	influence	V			befolyás	auctoritas	wpływ	control
 Kornai-2018-1400-622	622	1040	information	N			hír	nuntius	informacja	
 Kornai-2018-1400-623	623	1141	information	N	4044	INFORMATION	információ	nuntiatio	informacja	study GIVE, experience GIVE, ' KNOW
@@ -831,7 +831,7 @@ Kornai-2018-1400-829	829	381	only	D	1580	ONLY	csak	solus/modo	tylko	lack(other)
 Kornai-2018-1400-830	830	2793	onto	G			-ra			after(on)
 Kornai-2018-1400-831	831	1814	open	A	3235	OPEN (STATE)	nyílt	apertus	otwarty	move[can/1246], move THROUGH, lack(shut/2668)
 Kornai-2018-1400-832	832	1815	open	V	1156	OPEN	nyit	aperio	otwierać	=PAT[open/1814[after]]
-Kornai-2018-1400-833	833	1768	opinion	N			nézet	opinio	zdanie	=POSS THINK, =POSS[confident], =POSS HAS lack(proof)
+Kornai-2018-1400-833	833	1768	opinion	N	4113	OPINION	nézet	opinio	zdanie	=POSS THINK, =POSS[confident], =POSS HAS lack(proof)
 Kornai-2018-1400-834	834	631	opponent	N			ellenfél	adversarius	przeciwnik	person, oppose, <compete>, <AT/2744 battle>
 Kornai-2018-1400-835	835	630	oppose	V			ellenez	adversor	sprzeciwić sié	lack(agree)
 Kornai-2018-1400-836	836	635	oppose	V			ellenz	adversor	sprzeciwić sié	
