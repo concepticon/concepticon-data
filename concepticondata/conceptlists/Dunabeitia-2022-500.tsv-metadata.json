@@ -44,1271 +44,1096 @@
                         "name": "ENGLISH"
                     },
                     {
-                        "datatype": "string",
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
                         "name": "PICTURE_CODE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_AE"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_AE"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_AR"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__AE"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_AR"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_AR"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_AE"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_AR"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_SD_AE"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_AuE"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_AuE"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_AuE"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_AuE"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__AuE"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_AuE"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_AuE"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_AuE"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_AuR"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_SD_AuE"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_BAS"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_BAS"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_BAS"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_BAS"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__BAS"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_BAS"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_BAS"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_BAS"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_BAS"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_SD_BAS"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_WF"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_WF"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_WF"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_WF"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__WF"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_WF"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_WF"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_WF"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_WF"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_SD_WF"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_BE"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_BE"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_BE"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_BE"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__BE"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_BE"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_BE"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_BE"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_BE"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_SD_BE"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_CAT"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_CAT"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_CAT"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_CAT"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__CAT"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_CAT"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_CAT"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_CAT"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_CAT"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_SD_CAT"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_MAN"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_MAN"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_MAN"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_MAN"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__MAN"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_MAN"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_MAN"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_MAN"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_MAN"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_SD_MAN"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_CG"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_CG"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "AMERICAN_ENGLISH_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_CG"
+                        "datatype": "float",
+                        "name": "AMERICAN_ENGLISH_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_CG"
+                        "name": "AMERICAN_ENGLISH"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__CG"
+                        "datatype": "float",
+                        "name": "AMERICAN_ENGLISH_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_CG"
+                        "datatype": "float",
+                        "name": "AMERICAN_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_CG"
+                        "datatype": "float",
+                        "name": "AMERICAN_ENGLISH_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_CG"
+                        "datatype": "float",
+                        "name": "AMERICAN_ENGLISH_FAMILIARITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_CG"
+                        "name": "AUSTRALIAN_ENGLISH"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_SD_CG"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "AUSTRALIAN_ENGLISH_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_CZ"
+                        "datatype": "float",
+                        "name": "AUSTRALIAN_ENGLISH_SHANNON_DIVERSITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_CZ"
+                        "datatype": "float",
+                        "name": "AUSTRALIAN_ENGLISH_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_CZ"
+                        "datatype": "float",
+                        "name": "AUSTRALIAN_ENGLISH_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_CZ"
+                        "datatype": "float",
+                        "name": "AUSTRALIAN_ENGLISH_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__CZ"
+                        "datatype": "float",
+                        "name": "AUSTRALIAN_ENGLISH_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_CZ"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "BASQUE_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_CZ"
+                        "datatype": "float",
+                        "name": "BASQUE_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_CZ"
+                        "name": "BASQUE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_CZ"
+                        "datatype": "float",
+                        "name": "BASQUE_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_SD_CZ"
+                        "datatype": "float",
+                        "name": "BASQUE_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_FIN"
+                        "datatype": "float",
+                        "name": "BASQUE_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_FIN"
+                        "datatype": "float",
+                        "name": "BASQUE_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_FIN"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "BELGIUM_DUTCH_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_FIN"
+                        "datatype": "float",
+                        "name": "BELGIUM_DUTCH_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__FIN"
+                        "name": "BELGIUM_DUTCH"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_FIN"
+                        "datatype": "float",
+                        "name": "BELGIUM_DUTCH_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_FIN"
+                        "datatype": "float",
+                        "name": "BELGIUM_DUTCH_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_FIN"
+                        "datatype": "float",
+                        "name": "BELGIUM_DUTCH_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_FIN"
+                        "datatype": "float",
+                        "name": "BELGIUM_DUTCH_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_SD_FIN"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "BRITISH_ENGLISH_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_FR"
+                        "datatype": "float",
+                        "name": "BRITISH_ENGLISH_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_FR"
+                        "name": "BRITISH_ENGLISH"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_FR"
+                        "datatype": "float",
+                        "name": "BRITISH_ENGLISH_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_FR"
+                        "datatype": "float",
+                        "name": "BRITISH_ENGLISH_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__FR"
+                        "datatype": "float",
+                        "name": "BRITISH_ENGLISH_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_FR"
+                        "datatype": "float",
+                        "name": "BRITISH_ENGLISH_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_FR"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "CATALAN_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_FR"
+                        "datatype": "float",
+                        "name": "CATALAN_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_FR"
+                        "name": "CATALAN"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_SD_FR"
+                        "datatype": "float",
+                        "name": "CATALAN_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_DE"
+                        "datatype": "float",
+                        "name": "CATALAN_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_DE"
+                        "datatype": "float",
+                        "name": "CATALAN_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_DE"
+                        "datatype": "float",
+                        "name": "CATALAN_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_DE"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "MANDARIN_CHINESE_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__DE"
+                        "datatype": "float",
+                        "name": "MANDARIN_CHINESE_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_DE"
+                        "name": "MANDARIN_CHINESE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_DE"
+                        "datatype": "float",
+                        "name": "MANDARIN_CHINESE_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_DE"
+                        "datatype": "float",
+                        "name": "MANDARIN_CHINESE_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_DE"
+                        "datatype": "float",
+                        "name": "MANDARIN_CHINESE_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_SD_DE"
+                        "datatype": "float",
+                        "name": "MANDARIN_CHINESE_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_GR"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "CYPRIOT_GREEK_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_GR"
+                        "datatype": "float",
+                        "name": "CYPRIOT_GREEK_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "MODAL_RESPONSE_GR"
+                        "name": "CYPRIOT_GREEK"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_GR"
+                        "datatype": "float",
+                        "name": "CYPRIOT_GREEK_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_GR"
+                        "datatype": "float",
+                        "name": "CYPRIOT_GREEK_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_GR"
+                        "datatype": "float",
+                        "name": "CYPRIOT_GREEK_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_GR"
+                        "datatype": "float",
+                        "name": "CYPRIOT_GREEK_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_GR"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "CZECH_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_SD_GR"
+                        "datatype": "float",
+                        "name": "CZECH_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "RESPONSES_NUMBER_HEB"
+                        "name": "CZECH"
                     },
                     {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_HEB"
+                        "datatype": "float",
+                        "name": "CZECH_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_HEB"
+                        "datatype": "float",
+                        "name": "CZECH_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_HEB"
+                        "datatype": "float",
+                        "name": "CZECH_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__HEB"
+                        "datatype": "float",
+                        "name": "CZECH_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_HEB"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "FINNISH_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_HEB"
+                        "datatype": "float",
+                        "name": "FINNISH_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_HEB"
+                        "name": "FINNISH"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_HEB"
+                        "datatype": "float",
+                        "name": "FINNISH_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_SD_HEB"
+                        "datatype": "float",
+                        "name": "FINNISH_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_HU"
+                        "datatype": "float",
+                        "name": "FINNISH_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_HU"
+                        "datatype": "float",
+                        "name": "FINNISH_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_HU"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "FRENCH_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_HU"
+                        "datatype": "float",
+                        "name": "FRENCH_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__HU"
+                        "name": "FRENCH"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_HU"
+                        "datatype": "float",
+                        "name": "FRENCH_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_HU"
+                        "datatype": "float",
+                        "name": "FRENCH_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_HU"
+                        "datatype": "float",
+                        "name": "FRENCH_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_HU"
+                        "datatype": "float",
+                        "name": "FRENCH_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_SD_HU"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "GERMAN_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_IT"
+                        "datatype": "float",
+                        "name": "GERMAN_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_IT"
+                        "name": "GERMAN"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_IT"
+                        "datatype": "float",
+                        "name": "GERMAN_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_IT"
+                        "datatype": "float",
+                        "name": "GERMAN_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__IT"
+                        "datatype": "float",
+                        "name": "GERMAN_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_IT"
+                        "datatype": "float",
+                        "name": "GERMAN_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_IT"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "GREEK_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_IT"
+                        "datatype": "float",
+                        "name": "GREEK_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_IT"
+                        "name": "GREEK"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_SD_IT"
+                        "datatype": "float",
+                        "name": "GREEK_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_KOR"
+                        "datatype": "float",
+                        "name": "GREEK_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_KOR"
+                        "datatype": "float",
+                        "name": "GREEK_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_KOR"
+                        "datatype": "float",
+                        "name": "GREEK_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_KOR"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "HEBREW_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__KOR"
+                        "datatype": "float",
+                        "name": "HEBREW_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_KOR"
+                        "name": "HEBREW"
                     },
                     {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_KOR"
+                        "datatype": "float",
+                        "name": "HEBREW_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_KOR"
+                        "datatype": "float",
+                        "name": "HEBREW_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_KOR"
+                        "datatype": "float",
+                        "name": "HEBREW_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_SD_KOR"
+                        "datatype": "float",
+                        "name": "HEBREW_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_LebA"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "HUNGARIAN_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_LebA"
+                        "datatype": "float",
+                        "name": "HUNGARIAN_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "MODAL_RESPONSE_LebA"
+                        "name": "HUNGARIAN"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_LebA"
+                        "datatype": "float",
+                        "name": "HUNGARIAN_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__LebA"
+                        "datatype": "float",
+                        "name": "HUNGARIAN_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_LebA"
+                        "datatype": "float",
+                        "name": "HUNGARIAN_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_LebA"
+                        "datatype": "float",
+                        "name": "HUNGARIAN_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_LebA"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "ITALIAN_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_LebA"
+                        "datatype": "float",
+                        "name": "ITALIAN_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "FAMILIARITY_SD_LebA"
+                        "name": "ITALIAN"
                     },
                     {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_MAL"
+                        "datatype": "float",
+                        "name": "ITALIAN_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_MAL"
+                        "datatype": "float",
+                        "name": "ITALIAN_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_MAL"
+                        "datatype": "float",
+                        "name": "ITALIAN_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_MAL"
+                        "datatype": "float",
+                        "name": "ITALIAN_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__MAL"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "KOREAN_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_MAL"
+                        "datatype": "float",
+                        "name": "KOREAN_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "NA_PERCENT_MAL"
+                        "name": "KOREAN"
                     },
                     {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_MAL"
+                        "datatype": "float",
+                        "name": "KOREAN_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_MAL"
+                        "datatype": "float",
+                        "name": "KOREAN_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_SD_MAL"
+                        "datatype": "float",
+                        "name": "KOREAN_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_MalE"
+                        "datatype": "float",
+                        "name": "KOREAN_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_MalE"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "LEBANESE_ARABIC_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_MalE"
+                        "datatype": "float",
+                        "name": "LEBANESE_ARABIC_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_MalE"
+                        "name": "LEBANESE_ARABIC"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__MalE"
+                        "datatype": "float",
+                        "name": "LEBANESE_ARABIC_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_MalE"
+                        "datatype": "float",
+                        "name": "LEBANESE_ARABIC_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_MalE"
+                        "datatype": "float",
+                        "name": "LEBANESE_ARABIC_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_MalE"
+                        "datatype": "float",
+                        "name": "LEBANESE_ARABIC_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_MalE"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "MALAY_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_SD_MalE"
+                        "datatype": "float",
+                        "name": "MALAY_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "RESPONSES_NUMBER_DUT"
+                        "name": "MALAY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_DUT"
+                        "datatype": "float",
+                        "name": "MALAY_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_DUT"
+                        "datatype": "float",
+                        "name": "MALAY_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_DUT"
+                        "datatype": "float",
+                        "name": "MALAY_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__DUT"
+                        "datatype": "float",
+                        "name": "MALAY_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_DUT"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "MALAY_ENGLISH_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_DUT"
+                        "datatype": "float",
+                        "name": "MALAY_ENGLISH_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_DUT"
+                        "name": "MALAY_ENGLISH"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_DUT"
+                        "datatype": "float",
+                        "name": "MALAY_ENGLISH_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_SD_DUT"
+                        "datatype": "float",
+                        "name": "MALAY_ENGLISH_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_NOR"
+                        "datatype": "float",
+                        "name": "MALAY_ENGLISH_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_NOR"
+                        "datatype": "float",
+                        "name": "MALAY_ENGLISH_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_NOR"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "NETHERLANDS_DUTCH_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_NOR"
+                        "datatype": "float",
+                        "name": "NETHERLANDS_DUTCH_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__NOR"
+                        "name": "NETHERLANDS_DUTCH"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_NOR"
+                        "datatype": "float",
+                        "name": "NETHERLANDS_DUTCH_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_NOR"
+                        "datatype": "float",
+                        "name": "NETHERLANDS_DUTCH_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_NOR"
+                        "datatype": "float",
+                        "name": "NETHERLANDS_DUTCH_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_NOR"
+                        "datatype": "float",
+                        "name": "NETHERLANDS_DUTCH_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_SD_NOR"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "NORWEGIAN_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_POL"
+                        "datatype": "float",
+                        "name": "NORWEGIAN_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_POL"
+                        "name": "NORWEGIAN"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_POL"
+                        "datatype": "float",
+                        "name": "NORWEGIAN_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_POL"
+                        "datatype": "float",
+                        "name": "NORWEGIAN_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__POL"
+                        "datatype": "float",
+                        "name": "NORWEGIAN_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_POL"
+                        "datatype": "float",
+                        "name": "NORWEGIAN_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_POL"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "POLISH_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_POL"
+                        "datatype": "float",
+                        "name": "POLISH_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_POL"
+                        "name": "POLISH"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_SD_POL"
+                        "datatype": "float",
+                        "name": "POLISH_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_POR"
+                        "datatype": "float",
+                        "name": "POLISH_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_POR"
+                        "datatype": "float",
+                        "name": "POLISH_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_POR"
+                        "datatype": "float",
+                        "name": "POLISH_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_POR"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "PORTUGUESE_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__POR"
+                        "datatype": "float",
+                        "name": "PORTUGUESE_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_POR"
+                        "name": "PORTUGUESE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_POR"
+                        "datatype": "float",
+                        "name": "PORTUGUESE_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_POR"
+                        "datatype": "float",
+                        "name": "PORTUGUESE_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_POR"
+                        "datatype": "float",
+                        "name": "PORTUGUESE_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_SD_POR"
+                        "datatype": "float",
+                        "name": "PORTUGUESE_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_QFR"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "QUEBEC_FRENCH_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_QFR"
+                        "datatype": "float",
+                        "name": "QUEBEC_FRENCH_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "MODAL_RESPONSE_QFR"
+                        "name": "QUEBEC_FRENCH"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_QFR"
+                        "datatype": "float",
+                        "name": "QUEBEC_FRENCH_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__QFR"
+                        "datatype": "float",
+                        "name": "QUEBEC_FRENCH_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_QFR"
+                        "datatype": "float",
+                        "name": "QUEBEC_FRENCH_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_QFR"
+                        "datatype": "float",
+                        "name": "QUEBEC_FRENCH_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_QFR"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "RIOPLATENSE_SPANISH_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_QFR"
+                        "datatype": "float",
+                        "name": "RIOPLATENSE_SPANISH_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "FAMILIARITY_SD_QFR"
+                        "name": "RIOPLATENSE_SPANISH"
                     },
                     {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_ESRio"
+                        "datatype": "float",
+                        "name": "RIOPLATENSE_SPANISH_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_ESRio"
+                        "datatype": "float",
+                        "name": "RIOPLATENSE_SPANISH_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_ESRio"
+                        "datatype": "float",
+                        "name": "RIOPLATENSE_SPANISH_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_ESRio"
+                        "datatype": "float",
+                        "name": "RIOPLATENSE_SPANISH_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__ESRio"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "RUSSIAN_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_ESRio"
+                        "datatype": "float",
+                        "name": "RUSSIAN_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "NA_PERCENT_ESRio"
+                        "name": "RUSSIAN"
                     },
                     {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_ESRio"
+                        "datatype": "float",
+                        "name": "RUSSIAN_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_ESRio"
+                        "datatype": "float",
+                        "name": "RUSSIAN_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_SD_ESRio"
+                        "datatype": "float",
+                        "name": "RUSSIAN_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_RU"
+                        "datatype": "float",
+                        "name": "RUSSIAN_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_RU"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "SERBIAN_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_RU"
+                        "datatype": "float",
+                        "name": "SERBIAN_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_RU"
+                        "name": "SERBIAN"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__RU"
+                        "datatype": "float",
+                        "name": "SERBIAN_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_RU"
+                        "datatype": "float",
+                        "name": "SERBIAN_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_RU"
+                        "datatype": "float",
+                        "name": "SERBIAN_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_RU"
+                        "datatype": "float",
+                        "name": "SERBIAN_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_RU"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "SLOVAK_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_SD_RU"
+                        "datatype": "float",
+                        "name": "SLOVAK_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "RESPONSES_NUMBER_SER"
+                        "name": "SLOVAK"
                     },
                     {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_SER"
+                        "datatype": "float",
+                        "name": "SLOVAK_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_SER"
+                        "datatype": "float",
+                        "name": "SLOVAK_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_SER"
+                        "datatype": "float",
+                        "name": "SLOVAK_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__SER"
+                        "datatype": "float",
+                        "name": "SLOVAK_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_SER"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "SPANISH_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_SER"
+                        "datatype": "float",
+                        "name": "SPANISH_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_SER"
+                        "name": "SPANISH"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_SER"
+                        "datatype": "float",
+                        "name": "SPANISH_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_SD_SER"
+                        "datatype": "float",
+                        "name": "SPANISH_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_SK"
+                        "datatype": "float",
+                        "name": "SPANISH_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_SK"
+                        "datatype": "float",
+                        "name": "SPANISH_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_SK"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "TURKISH_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_SK"
+                        "datatype": "float",
+                        "name": "TURKISH_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__SK"
+                        "name": "TURKISH"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_SK"
+                        "datatype": "float",
+                        "name": "TURKISH_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_SK"
+                        "datatype": "float",
+                        "name": "TURKISH_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_SK"
+                        "datatype": "float",
+                        "name": "TURKISH_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_SK"
+                        "datatype": "float",
+                        "name": "TURKISH_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY (STANDARD DEVIATION)"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "WELSH_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_ES"
+                        "datatype": "float",
+                        "name": "WELSH_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_ES"
+                        "name": "WELSH"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_ES"
+                        "datatype": "float",
+                        "name": "WELSH_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_ES"
+                        "datatype": "float",
+                        "name": "WELSH_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__ES"
+                        "datatype": "float",
+                        "name": "WELSH_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_ES"
+                        "datatype": "float",
+                        "name": "WELSH_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_ES"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "CANTONESE_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_ES"
+                        "datatype": "float",
+                        "name": "CANTONESE_SHANNON_DIVERSITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_ES"
-                    },                    {
                         "datatype": "string",
-                        "name": "FAMILIARITY_SD_ES"
+                        "name": "CANTONESE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_TUR"
+                        "datatype": "float",
+                        "name": "CANTONESE_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_TUR"
+                        "datatype": "float",
+                        "name": "CANTONESE_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_TUR"
+                        "datatype": "float",
+                        "name": "CANTONESE_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_TUR"
+                        "datatype": "float",
+                        "name": "CANTONESE_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__TUR"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "GALICIAN_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_TUR"
+                        "datatype": "float",
+                        "name": "GALICIAN_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "NA_PERCENT_TUR"
+                        "name": "GALICIAN"
                     },
                     {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_TUR"
+                        "datatype": "float",
+                        "name": "GALICIAN_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_TUR"
+                        "datatype": "float",
+                        "name": "GALICIAN_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "RESPONSES_NUMBER_WEL"
+                        "datatype": "float",
+                        "name": "GALICIAN_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "H_NAMEAGREEMENT_WEL"
+                        "datatype": "float",
+                        "name": "GALICIAN_FAMILIARITY"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_WEL"
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "UKRAINIAN_RESPONSES"
                     },
                     {
-                        "datatype": "string",
-                        "name": "MODAL_RESPONSE_PERCENT_WEL"
+                        "datatype": "float",
+                        "name": "UKRAINIAN_SHANNON_DIVERSITY"
                     },
                     {
                         "datatype": "string",
-                        "name": "VALID_RESPONSES_PERCENT__WEL"
+                        "name": "UKRAINIAN"
                     },
                     {
-                        "datatype": "string",
-                        "name": "VALID_ALTERNATIVE_WEL"
+                        "datatype": "float",
+                        "name": "UKRAINIAN_MODAL_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "NA_PERCENT_WEL"
+                        "datatype": "float",
+                        "name": "UKRAINIAN_IDK_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "IDIOSYNCRATIC_RESPONSE_PERCENT_WEL"
+                        "datatype": "float",
+                        "name": "UKRAINIAN_IDIOSYNCRATIC_RESPONSE_PERCENTAGE"
                     },
                     {
-                        "datatype": "string",
-                        "name": "FAMILIARITY_MEAN_WEL"
+                        "datatype": "float",
+                        "name": "UKRAINIAN_FAMILIARITY"
                     }
                 ],
                 "primaryKey": [
