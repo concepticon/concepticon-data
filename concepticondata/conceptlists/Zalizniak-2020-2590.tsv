@@ -905,7 +905,7 @@ Zalizniak-2020-2590-903	903	inside	1606	INSIDE	903	2	1	"[{""ID"": ""Zalizniak-20
 Zalizniak-2020-2590-904	904	ice	617	ICE	904	2	1	"[{""ID"": ""Zalizniak-2020-2590-555"", ""NAME"": ""snow"", ""Weight"": ""1""}]"	"[{""ID"": ""Zalizniak-2020-2590-189"", ""NAME"": ""glass (material)"", ""Weight"": ""1""}]"
 Zalizniak-2020-2590-905	905	hyena	1799	HYENA	905	2	1	"[{""ID"": ""Zalizniak-2020-2590-308"", ""NAME"": ""old (vs. young)"", ""Weight"": ""1""}]"	"[{""ID"": ""Zalizniak-2020-2590-2397"", ""NAME"": ""glutton"", ""Weight"": ""1""}]"
 Zalizniak-2020-2590-906	906	hunter	1053	HUNTER	906	2	1	[]	"[{""ID"": ""Zalizniak-2020-2590-156"", ""NAME"": ""wolf (Canis lupus)"", ""Weight"": ""1""}, {""ID"": ""Zalizniak-2020-2590-470"", ""NAME"": ""bishop (chess)"", ""Weight"": ""1""}]"
-Zalizniak-2020-2590-907	907	human temper, character	1024	CHARACTER	907	2	1	"[{""ID"": ""Zalizniak-2020-2590-1542"", ""NAME"": ""nature"", ""Weight"": ""3""}]"	"[{""ID"": ""Zalizniak-2020-2590-2282"", ""NAME"": ""obstinate"", ""Weight"": ""1""}]"
+Zalizniak-2020-2590-907	907	human temper, character			907	2	1	"[{""ID"": ""Zalizniak-2020-2590-1542"", ""NAME"": ""nature"", ""Weight"": ""3""}]"	"[{""ID"": ""Zalizniak-2020-2590-2282"", ""NAME"": ""obstinate"", ""Weight"": ""1""}]"
 Zalizniak-2020-2590-908	908	hour	1353	HOUR	908	2	6	"[{""ID"": ""Zalizniak-2020-2590-172"", ""NAME"": ""time"", ""Weight"": ""3""}]"	"[{""ID"": ""Zalizniak-2020-2590-1944"", ""NAME"": ""watch, clock"", ""Weight"": ""6""}]"
 Zalizniak-2020-2590-909	909	horseman, rider			909	2	5	[]	"[{""ID"": ""Zalizniak-2020-2590-2281"", ""NAME"": ""of high rank"", ""Weight"": ""4""}, {""ID"": ""Zalizniak-2020-2590-2336"", ""NAME"": ""knight (chess)"", ""Weight"": ""5""}]"
 Zalizniak-2020-2590-910	910	horned			910	2	1	"[{""ID"": ""Zalizniak-2020-2590-1527"", ""NAME"": ""obvious"", ""Weight"": ""1""}]"	"[{""ID"": ""Zalizniak-2020-2590-2129"", ""NAME"": ""to be unfaithful (to one's husband or wife)"", ""Weight"": ""2""}]"
@@ -1477,7 +1477,7 @@ Zalizniak-2020-2590-1475	1475	property, possessions	3860	POSSESSIONS	1475	1	23	"
 Zalizniak-2020-2590-1476	1476	probable			1476	1	2	"[{""ID"": ""Zalizniak-2020-2590-1880"", ""NAME"": ""alike"", ""Weight"": ""2""}]"	[]
 Zalizniak-2020-2590-1477	1477	prison	1281	PRISON	1477	1	1	[]	"[{""ID"": ""Zalizniak-2020-2590-443"", ""NAME"": ""hell"", ""Weight"": ""1""}]"
 Zalizniak-2020-2590-1478	1478	powerless			1478	1	3	[]	"[{""ID"": ""Zalizniak-2020-2590-2405"", ""NAME"": ""furious"", ""Weight"": ""3""}]"
-Zalizniak-2020-2590-1479	1479	poverty			1479	1	3	"[{""ID"": ""Zalizniak-2020-2590-1564"", ""NAME"": ""misfortune"", ""Weight"": ""3""}]"	[]
+Zalizniak-2020-2590-1479	1479	poverty	4066	POVERTY	1479	1	3	"[{""ID"": ""Zalizniak-2020-2590-1564"", ""NAME"": ""misfortune"", ""Weight"": ""3""}]"	[]
 Zalizniak-2020-2590-1480	1480	pottery fragment			1480	1	2	"[{""ID"": ""Zalizniak-2020-2590-413"", ""NAME"": ""skull"", ""Weight"": ""2""}]"	[]
 Zalizniak-2020-2590-1481	1481	pomegranate	3732	POMEGRANATE	1481	1	1	"[{""ID"": ""Zalizniak-2020-2590-1451"", ""NAME"": ""ruby (stone)"", ""Weight"": ""1""}]"	[]
 Zalizniak-2020-2590-1482	1482	pole			1482	1	2	"[{""ID"": ""Zalizniak-2020-2590-179"", ""NAME"": ""oak"", ""Weight"": ""2""}]"	[]
@@ -1485,7 +1485,7 @@ Zalizniak-2020-2590-1483	1483	poisonous	888	POISONOUS	1483	1	5	[]	"[{""ID"": ""Z
 Zalizniak-2020-2590-1484	1484	poetry	541	POETRY	1484	1	1	[]	"[{""ID"": ""Zalizniak-2020-2590-2432"", ""NAME"": ""false"", ""Weight"": ""1""}]"
 Zalizniak-2020-2590-1485	1485	poet	1045	POET	1485	1	1	"[{""ID"": ""Zalizniak-2020-2590-224"", ""NAME"": ""mad"", ""Weight"": ""1""}]"	[]
 Zalizniak-2020-2590-1486	1486	pod			1486	1	3	"[{""ID"": ""Zalizniak-2020-2590-1425"", ""NAME"": ""sheath"", ""Weight"": ""3""}]"	[]
-Zalizniak-2020-2590-1487	1487	plum			1487	1	9	"[{""ID"": ""Zalizniak-2020-2590-1507"", ""NAME"": ""peach"", ""Weight"": ""9""}]"	[]
+Zalizniak-2020-2590-1487	1487	plum	4063	PLUM	1487	1	9	"[{""ID"": ""Zalizniak-2020-2590-1507"", ""NAME"": ""peach"", ""Weight"": ""9""}]"	[]
 Zalizniak-2020-2590-1488	1488	plot of land			1488	1	4	"[{""ID"": ""Zalizniak-2020-2590-1593"", ""NAME"": ""lot"", ""Weight"": ""4""}]"	[]
 Zalizniak-2020-2590-1489	1489	pleasure	3916	PLEASURE	1489	1	1	"[{""ID"": ""Zalizniak-2020-2590-990"", ""NAME"": ""benefit"", ""Weight"": ""1""}]"	[]
 Zalizniak-2020-2590-1490	1490	pleasant			1490	1	2	"[{""ID"": ""Zalizniak-2020-2590-33"", ""NAME"": ""cold (adj.)"", ""Weight"": ""2""}]"	[]
@@ -1511,7 +1511,7 @@ Zalizniak-2020-2590-1509	1509	payment			1509	1	1	"[{""ID"": ""Zalizniak-2020-259
 Zalizniak-2020-2590-1510	1510	patch			1510	1	3	"[{""ID"": ""Zalizniak-2020-2590-174"", ""NAME"": ""spot, stain"", ""Weight"": ""3""}]"	[]
 Zalizniak-2020-2590-1511	1511	palm (body part)	1183	PALM OF HAND	1511	1	1	[]	"[{""ID"": ""Zalizniak-2020-2590-951"", ""NAME"": ""destiny"", ""Weight"": ""1""}]"
 Zalizniak-2020-2590-1512	1512	pale			1512	1	1	"[{""ID"": ""Zalizniak-2020-2590-46"", ""NAME"": ""green"", ""Weight"": ""1""}]"	[]
-Zalizniak-2020-2590-1513	1513	palace			1513	1	2	[]	"[{""ID"": ""Zalizniak-2020-2590-1965"", ""NAME"": ""transport station"", ""Weight"": ""2""}]"
+Zalizniak-2020-2590-1513	1513	palace	4059	PALACE	1513	1	2	[]	"[{""ID"": ""Zalizniak-2020-2590-1965"", ""NAME"": ""transport station"", ""Weight"": ""2""}]"
 Zalizniak-2020-2590-1514	1514	pair of compasses			1514	1	2	"[{""ID"": ""Zalizniak-2020-2590-1796"", ""NAME"": ""compass (mariners' directional tool)"", ""Weight"": ""2""}]"	[]
 Zalizniak-2020-2590-1515	1515	pair	1888	PAIR	1515	1	1	"[{""ID"": ""Zalizniak-2020-2590-80"", ""NAME"": ""friend"", ""Weight"": ""1""}]"	[]
 Zalizniak-2020-2590-1516	1516	paint, dye (n.)	647	PAINT (PIGMENTS)	1516	1	9	[]	"[{""ID"": ""Zalizniak-2020-2590-333"", ""NAME"": ""colour"", ""Weight"": ""9""}]"
@@ -1680,7 +1680,7 @@ Zalizniak-2020-2590-1678	1678	hammer	1481	HAMMER	1678	1	2	[]	"[{""ID"": ""Zalizn
 Zalizniak-2020-2590-1679	1679	half	816	HALF	1679	1	1	"[{""ID"": ""Zalizniak-2020-2590-786"", ""NAME"": ""to be inclined"", ""Weight"": ""1""}]"	[]
 Zalizniak-2020-2590-1680	1680	hajji			1680	1	1	"[{""ID"": ""Zalizniak-2020-2590-4"", ""NAME"": ""father"", ""Weight"": ""1""}]"	[]
 Zalizniak-2020-2590-1681	1681	habit			1681	1	1	"[{""ID"": ""Zalizniak-2020-2590-407"", ""NAME"": ""stick (n.)"", ""Weight"": ""1""}]"	[]
-Zalizniak-2020-2590-1682	1682	guilt			1682	1	3	"[{""ID"": ""Zalizniak-2020-2590-974"", ""NAME"": ""cause; reason"", ""Weight"": ""3""}]"	[]
+Zalizniak-2020-2590-1682	1682	guilt	4125	GUILT	1682	1	3	"[{""ID"": ""Zalizniak-2020-2590-974"", ""NAME"": ""cause; reason"", ""Weight"": ""3""}]"	[]
 Zalizniak-2020-2590-1683	1683	grown-up, adult	3635	ADULT	1683	1	1	[]	"[{""ID"": ""Zalizniak-2020-2590-986"", ""NAME"": ""boss"", ""Weight"": ""1""}]"
 Zalizniak-2020-2590-1684	1684	grey-haired			1684	1	1	"[{""ID"": ""Zalizniak-2020-2590-16"", ""NAME"": ""Boletus edulis"", ""Weight"": ""1""}]"	[]
 Zalizniak-2020-2590-1685	1685	greediness			1685	1	1	"[{""ID"": ""Zalizniak-2020-2590-1456"", ""NAME"": ""robbery"", ""Weight"": ""1""}]"	[]
@@ -2274,7 +2274,7 @@ Zalizniak-2020-2590-2272	2272	own (of a relative)			2272	0	0	[]	[]
 Zalizniak-2020-2590-2273	2273	ostrich	3797	OSTRICH	2273	0	1	[]	[]
 Zalizniak-2020-2590-2274	2274	original			2274	0	1	[]	[]
 Zalizniak-2020-2590-2275	2275	origin (n.)			2275	0	1	[]	[]
-Zalizniak-2020-2590-2276	2276	opinion			2276	0	1	[]	[]
+Zalizniak-2020-2590-2276	2276	opinion	4113	OPINION	2276	0	1	[]	[]
 Zalizniak-2020-2590-2277	2277	one time, once			2277	0	1	[]	[]
 Zalizniak-2020-2590-2278	2278	one piece (at counting)			2278	0	1	[]	[]
 Zalizniak-2020-2590-2279	2279	on the outside			2279	0	1	[]	[]
@@ -2354,7 +2354,7 @@ Zalizniak-2020-2590-2352	2352	influential person			2352	0	1	[]	[]
 Zalizniak-2020-2590-2353	2353	inflammation			2353	0	0	[]	[]
 Zalizniak-2020-2590-2354	2354	inexperienced			2354	0	1	[]	[]
 Zalizniak-2020-2590-2355	2355	industrious, diligent person			2355	0	1	[]	[]
-Zalizniak-2020-2590-2356	2356	indifferent			2356	0	1	[]	[]
+Zalizniak-2020-2590-2356	2356	indifferent	4052	INDIFFERENT	2356	0	1	[]	[]
 Zalizniak-2020-2590-2357	2357	incomprehensible			2357	0	1	[]	[]
 Zalizniak-2020-2590-2358	2358	inclination to smth	918	INCLINATION	2358	0	1	[]	[]
 Zalizniak-2020-2590-2359	2359	impudence			2359	0	1	[]	[]
@@ -2550,7 +2550,7 @@ Zalizniak-2020-2590-2548	2548	arterial			2548	0	1	[]	[]
 Zalizniak-2020-2590-2549	2549	approximately			2549	0	1	[]	[]
 Zalizniak-2020-2590-2550	2550	any			2550	0	1	[]	[]
 Zalizniak-2020-2590-2551	2551	anthrax			2551	0	6	[]	[]
-Zalizniak-2020-2590-2552	2552	angel			2552	0	3	[]	[]
+Zalizniak-2020-2590-2552	2552	angel	4057	ANGEL	2552	0	3	[]	[]
 Zalizniak-2020-2590-2553	2553	anemone (Anemone)			2553	0	1	[]	[]
 Zalizniak-2020-2590-2554	2554	ambush	65	AMBUSH	2554	0	2	[]	[]
 Zalizniak-2020-2590-2555	2555	although	4045	ALTHOUGH	2555	0	2	[]	[]
