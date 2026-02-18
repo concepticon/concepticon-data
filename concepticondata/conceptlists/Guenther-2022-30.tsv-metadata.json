@@ -217,6 +217,28 @@
                     },
                     {
                         "datatype": "string",
+                        "name": "FRENCH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FRENCH_PLURAL"
+                    },
+                    {
+                      "name": "FRENCH_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "FRENCH_FREQUENCY_PM",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
                         "name": "GERMAN"
                     },
                     {
