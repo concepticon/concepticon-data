@@ -23,7 +23,7 @@ Huisman-2025-255-21	21	blunt	鈍い	にぶい	nibui	379	BLUNT
 Huisman-2025-255-22	22	bone	骨	ほね	hone	1394	BONE
 Huisman-2025-255-23	23	branch	枝	えだ	eda	1531	BRANCH
 Huisman-2025-255-24	24	breast	乳	ちち	chichi	1402	BREAST
-Huisman-2025-255-25	25	breath	息	いき	iki	1407	BREATHE
+Huisman-2025-255-25	25	breath	息	いき	iki	810	BREATH
 Huisman-2025-255-26	26	to burn	燃える	もえる	moeru	2102	BURN
 Huisman-2025-255-27	27	to buy	買う	かう	kau	1869	BUY
 Huisman-2025-255-28	28	to carry	運ぶ	はこぶ	hakobu	700	CARRY
@@ -104,7 +104,7 @@ Huisman-2025-255-102	102	husband	夫	おっと	otto	1200	HUSBAND
 Huisman-2025-255-103	103	I	私	わたし	watashi	1209	I
 Huisman-2025-255-104	104	ice	氷	こおり	koori	617	ICE
 Huisman-2025-255-105	105	if	若し	もし	moshi	1459	IF
-Huisman-2025-255-106	106	inside	中	なか	naka	1460	IN
+Huisman-2025-255-106	106	inside	中	なか	naka	1606	INSIDE
 Huisman-2025-255-107	107	to kill	殺す	ころす	korosu	1417	KILL
 Huisman-2025-255-108	108	knee	膝	ひざ	hiza	1371	KNEE
 Huisman-2025-255-109	109	to know	知る	しる	shiru	1410	KNOW (SOMETHING)
@@ -112,7 +112,7 @@ Huisman-2025-255-110	110	to laugh	笑う	わらう	warau	1355	LAUGH
 Huisman-2025-255-111	111	leaf	葉	は	ha	628	LEAF
 Huisman-2025-255-112	112	left	左	ひだり	hidari	244	LEFT
 Huisman-2025-255-113	113	leg	脚	あし	ashi	1297	LEG
-Huisman-2025-255-114	114	to lie down	寝る	ねる	neru	1411	LIE (REST)
+Huisman-2025-255-114	114	to lie down	寝る	ねる	neru	215	LIE DOWN
 Huisman-2025-255-115	115	lightning	稲光	いなびかり	inabikari	1654	LIGHTNING
 Huisman-2025-255-116	116	to live	生きる	いきる	ikiru	1422	BE ALIVE
 Huisman-2025-255-117	117	liver	肝臓	かんぞう	kanzou	1224	LIVER
@@ -157,7 +157,7 @@ Huisman-2025-255-155	155	road	道	みち	michi	667	ROAD
 Huisman-2025-255-156	156	roof	屋根	やね	yane	769	ROOF
 Huisman-2025-255-157	157	root	根	ね	ne	670	ROOT
 Huisman-2025-255-158	158	rope	綱	つな	tsuna	1218	ROPE
-Huisman-2025-255-159	159	to rot	腐る	くさる	kusaru	1728	ROTTEN
+Huisman-2025-255-159	159	to rot	腐る	くさる	kusaru	2907	ROT
 Huisman-2025-255-160	160	round	丸い	まるい	marui	1395	ROUND
 Huisman-2025-255-161	161	to rub	擦る	こする	kosuru	1449	RUB
 Huisman-2025-255-162	162	to run	走る	はしる	hashiru	1519	RUN
@@ -176,7 +176,7 @@ Huisman-2025-255-174	174	to shoot	撃つ	うつ	utsu	1172	SHOOT
 Huisman-2025-255-175	175	short	短い	みじかい	mijikai	1645	SHORT
 Huisman-2025-255-176	176	shoulder	肩	かた	kata	1482	SHOULDER
 Huisman-2025-255-177	177	shy, ashamed	恥ずかしい	はずかしい	hazukashii	3805	SHY OR ASHAMED
-Huisman-2025-255-178	178	sickness	病気	びょうき	byouki	1847	SICK
+Huisman-2025-255-178	178	sickness	病気	びょうき	byouki	1986	DISEASE
 Huisman-2025-255-179	179	to sing	歌う	うたう	utau	1261	SING
 Huisman-2025-255-180	180	to sit	座る	すわる	suwaru	1416	SIT
 Huisman-2025-255-181	181	six	六つ	むっつ	muttsu	1703	SIX
@@ -212,9 +212,9 @@ Huisman-2025-255-210	210	ten	十	とお	too	1515	TEN
 Huisman-2025-255-211	211	that	彼れ	あれ	are	78	THAT
 Huisman-2025-255-212	212	there	彼処	あそこ	asoko	1937	THERE
 Huisman-2025-255-213	213	thick (cylindrical)	太い	ふとい	futoi	1244	THICK
-Huisman-2025-255-214	214	thick (2D)	厚い	あつい	atsui	1244	THICK
+Huisman-2025-255-214	214	thick (2D)	厚い	あつい	atsui		
 Huisman-2025-255-215	215	thin (cylindrical)	細い	ほそい	hosoi	2308	THIN
-Huisman-2025-255-216	216	thin (2D)	薄い	うすい	usui	2308	THIN
+Huisman-2025-255-216	216	thin (2D)	薄い	うすい	usui		
 Huisman-2025-255-217	217	to think	思う	おもう	omou	2271	THINK
 Huisman-2025-255-218	218	this	此れ	これ	kore	1214	THIS
 Huisman-2025-255-219	219	thou (pol.)	貴方	あなた	anata	1215	THOU
@@ -252,5 +252,5 @@ Huisman-2025-255-250	250	yawn	欠伸	あくび	akubi	1028	YAWN
 Huisman-2025-255-251	251	year	年	とし	toshi	1226	YEAR
 Huisman-2025-255-252	252	yellow	黄色い	きいろい	kiiroi	1424	YELLOW
 Huisman-2025-255-253	253	yesterday	昨日	きのう	kinou	1174	YESTERDAY
-Huisman-2025-255-254	254	you (pol.)	貴方達	あなたたち	anatatachi	1213	YOU
+Huisman-2025-255-254	254	you (pol.)	貴方達	あなたたち	anatatachi	3293	YOU (HONORIFIC)
 Huisman-2025-255-255	255	you (col.)	お前ら	おまえら	omaera	1213	YOU
