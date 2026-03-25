@@ -45,7 +45,7 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "TYPE"
+                        "name": "EMOTION_CATEGORY"
                     },
                     {
                         "datatype": "float",
@@ -61,7 +61,7 @@
                     },
                     {
                         "datatype": "float",
-                        "name": "ENGLISH_TABOONESS_MEAN"
+                        "name": "ENGLISH_TABOO_MEAN"
                     },
                     {
                         "datatype": "float",

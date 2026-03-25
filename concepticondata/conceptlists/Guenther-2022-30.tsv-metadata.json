@@ -1,0 +1,780 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dialect": {
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        },
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        },
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ENGLISH_PLURAL"
+                    },
+                    {
+                      "name": "ENGLISH_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "ENGLISH_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "AMHARIC"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "AMHARIC_PLURAL"
+                    },
+                    {
+                      "name": "AMHARIC_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "AMHARIC_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ARABIC"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ARABIC_PLURAL"
+                    },
+                    {
+                      "name": "ARABIC_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "ARABIC_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "BENGALI"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "BENGALI_PLURAL"
+                    },
+                    {
+                      "name": "BENGALI_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "BENGALI_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CHINESE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CHINESE_PLURAL"
+                    },
+                    {
+                      "name": "CHINESE_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "CHINESE_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CROATIAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CROATIAN_PLURAL"
+                    },
+                    {
+                      "name": "CROATIAN_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "CROATIAN_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CZECH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CZECH_PLURAL"
+                    },
+                    {
+                      "name": "CZECH_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "CZECH_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "DUTCH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "DUTCH_PLURAL"
+                    },
+                    {
+                      "name": "DUTCH_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "DUTCH_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FRENCH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FRENCH_PLURAL"
+                    },
+                    {
+                      "name": "FRENCH_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "FRENCH_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "GERMAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "GERMAN_PLURAL"
+                    },
+                    {
+                      "name": "GERMAN_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "GERMAN_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "GREEK"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "GREEK_PLURAL"
+                    },
+                    {
+                      "name": "GREEK_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "GREEK_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "HEBREW"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "HEBREW_PLURAL"
+                    },
+                    {
+                      "name": "HEBREW_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "HEBREW_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "HINDI"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "HINDI_PLURAL"
+                    },
+                    {
+                      "name": "HINDI_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "HINDI_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "HUNGARIAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "HUNGARIAN_PLURAL"
+                    },
+                    {
+                      "name": "HUNGARIAN_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "HUNGARIAN_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ITALIAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ITALIAN_PLURAL"
+                    },
+                    {
+                      "name": "ITALIAN_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "ITALIAN_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "JAPANESE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "JAPANESE_PLURAL"
+                    },
+                    {
+                      "name": "JAPANESE_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "JAPANESE_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "LATIN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "LATIN_PLURAL"
+                    },
+                    {
+                      "name": "LATIN_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "LATIN_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "LATVIAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "LATVIAN_PLURAL"
+                    },
+                    {
+                      "name": "LATVIAN_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "LATVIAN_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MALAY"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "MALAY_PLURAL"
+                    },
+                    {
+                      "name": "MALAY_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "MALAY_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "POLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "POLISH_PLURAL"
+                    },
+                    {
+                      "name": "POLISH_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "POLISH_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "PORTUGUESE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "PORTUGUESE_PLURAL"
+                    },
+                    {
+                      "name": "PORTUGUESE_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "PORTUGUESE_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RUSSIAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RUSSIAN_PLURAL"
+                    },
+                    {
+                      "name": "RUSSIAN_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "RUSSIAN_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SOMALI"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SOMALI_PLURAL"
+                    },
+                    {
+                      "name": "SOMALI_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "SOMALI_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SPANISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SPANISH_PLURAL"
+                    },
+                    {
+                      "name": "SPANISH_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "SPANISH_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SWAHILI"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SWAHILI_PLURAL"
+                    },
+                    {
+                      "name": "SWAHILI_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "SWAHILI_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "TAGALOG"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "TAGALOG_PLURAL"
+                    },
+                    {
+                      "name": "TAGALOG_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "TAGALOG_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "TAMIL"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "TAMIL_PLURAL"
+                    },
+                    {
+                      "name": "TAMIL_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "TAMIL_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "TURKISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "TURKISH_PLURAL"
+                    },
+                    {
+                      "name": "TURKISH_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "TURKISH_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "URDU"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "URDU_PLURAL"
+                    },
+                    {
+                      "name": "URDU_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "URDU_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "YORUBA"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "YORUBA_PLURAL"
+                    },
+                    {
+                      "name": "YORUBA_FREQUENCY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "integer"
+                      }
+                    },
+                    {
+                      "name": "YORUBA_FREQUENCY_LOG",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                      "name": "BRAINAREA_SENSORY",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                      "name": "BRAINAREA_MOTOR",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                      "name": "BODYAREA_ANTERIOR_ARM1",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                      "name": "BODYAREA_AP_ARM1",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                      "name": "BODYAREA_ANTERIOR_BOTH_ARM1",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                      "name": "BODYAREA_AP_BOTH_ARM1",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                      "name": "BODYAREA_ANTERIOR_ARM2",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                      "name": "BODYAREA_AP_ARM2",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                      "name": "BODYAREA_ANTERIOR_BOTH_ARM2",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    },
+                    {
+                      "name": "BODYAREA_AP_BOTH_ARM2",
+                      "null": "NA",
+                      "datatype": {
+                        "base": "float"
+                      }
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "Guenther-2022-30.tsv"
+        }
+    ]
+}
