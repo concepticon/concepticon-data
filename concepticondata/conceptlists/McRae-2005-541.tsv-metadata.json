@@ -1,0 +1,98 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dialect": {
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        },
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        },
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "ENGLISH_FAMILIARITY_MEAN"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "ENGLISH_FEATURES_TAXONOMIC_SCORE"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "ENGLISH_FEATURES_FUNCTIONAL_SCORE"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "ENGLISH_FEATURES_VISUAL_MOTOR_SCORE"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "ENGLISH_FEATURES_VISUAL_SURFACE_SCORE"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "ENGLISH_FEATURES_VISUAL_COLOR_SCORE"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "ENGLISH_FEATURES_AUDITORY_SCORE"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "ENGLISH_FEATURES_GUSTATORY_SCORE"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "ENGLISH_FEATURES_OLFACTORY_SCORE"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "ENGLISH_FEATURES_HAPTIC_SCORE"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "ENGLISH_FEATURES_ENCYCLOPEDIC_SCORE"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "McRae-2005-541.tsv"
+        }
+    ]
+}
