@@ -4137,10 +4137,10 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 4152	BEETROOT	Agriculture and vegetation	A cultivated root vegetable of the variety Beta vulgaris with a round, typically dark red bulbous root, used as food.	Person/Thing
 4153	CABIN	The house	A small, simple, and often roughly built shelter, typically made of wood and located in a remote or rural area.	Person/Thing
 4154	CATHEDRAL	Religion and belief	A large and principal church that serves as the official seat of a bishop within a Christian diocese.	Person/Thing
-4155	CHAPEL	Religion and belief	A small place of Christian worship, typically serving a private community or institution	Person/Thing
+4155	CHAPEL	Religion and belief	A small place of Christian worship, typically serving a private community or institution.	Person/Thing
 4156	CLAMS	Animals	Edible marine bivalve mollusks with two hinged shells, commonly found buried in sand or mud.	Person/Thing
 4157	CLARINET	Basic actions and technology	A woodwind musical instrument with a single reed mouthpiece, a cylindrical tube, and finger holes or keys used to produce sound.	Person/Thing
-4158	CORK	Agriculture and vegetation	A lightweight, porous plant tissue obtained from the bark of cork oak trees, commonly used as a sealing material for bottles and insulation.	Person/Thing
+4158	CORK	Agriculture and vegetation	A lightweight, porous plant tissue obtained from the bark of cork oak trees, used both as a raw material (e.g. insulation) and as manufactured objects such as bottle stoppers.	Person/Thing
 4159	CORKSCREW	Basic actions and technology	A hand tool consisting of a spiraled metal screw attached to a handle, used for inserting into and removing corks from bottles.	Person/Thing
 4160	GOLDFISH	Animals	A small freshwater fish of the carp family, commonly kept as an ornamental pet in aquariums and ponds.	Person/Thing
 4161	HOSE	Basic actions and technology	A flexible tube used to convey liquids or gases, typically water, from one place to another.	Person/Thing
@@ -4148,4 +4148,9 @@ ID	GLOSS	SEMANTICFIELD	DEFINITION	ONTOLOGICAL_CATEGORY	REPLACEMENT_ID
 4163	SLIPPER	Clothing and grooming	A soft, lightweight indoor shoe typically worn for comfort and warmth at home.	Person/Thing
 4164	TUNA	Animals	A large marine fish of the genus Thunnus, known for its streamlined body and importance as a commercial food species.	Person/Thing
 4165	YACHT	Modern world	A recreational boat or vessel, typically medium to large in size, used for leisure cruising or racing on water.	Person/Thing
-4166	FOOTBALL	Modern world	A sport played by two teams in which players move a ball toward a goal to score points, mainly by kicking or carrying it OR the ball used in that sport.	Person/Thing
+4166	FOOTBALL (GAME OR OBJECT)	Modern world	A sport played by two teams in which players move a ball toward a goal to score points, mainly by kicking or carrying it OR the ball used in that sport.	Person/Thing
+4167	FOOTBALL (GAME)	Modern world	A sport played by two teams in which players move a ball toward a goal to score points, mainly by kicking or carrying it depending on the variant.	Person/Thing
+4168	FOOTBALL (OBJECT)	Modern world	A ball used in football-related sports, typically spherical in association football and oval-shaped in rugby and American football, with size varying by game type.	Person/Thing
+4169	BASKETBALL (GAME OR OBJECT)	Modern world	A team sport in which players attempt to score by throwing a ball through an elevated hoop OR the ball used in that sport.	Person/Thing
+4170	BASKETBALL (GAME)	Modern world	A team sport in which players attempt to score by throwing a ball through an elevated hoop.	Person/Thing
+4171	BASKETBALL (OBJECT)	Modern world	A spherical ball used in basketball, typically made of rubber or leather and designed for bouncing.	Person/Thing
