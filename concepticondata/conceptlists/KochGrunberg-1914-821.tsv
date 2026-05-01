@@ -418,7 +418,7 @@ KochGrunberg-1914-821-416	416	otter	Fischotter	lontra	15	OTTER	822	F. Säugetier
 KochGrunberg-1914-821-417	417	tapir	Tapir	anta	312	TAPIR	822	F. Säugetiere	
 KochGrunberg-1914-821-418	418	capybara	Capivara	capivara	314	CAPYBARA	822	F. Säugetiere	
 KochGrunberg-1914-821-419	419	paca	Paca	paca	316	PACA	822	F. Säugetiere	
-KochGrunberg-1914-821-420	420	agutí	Agutí	cutia			822	F. Säugetiere	
+KochGrunberg-1914-821-420	420	agutí	Agutí	cutia	313	AGOUTI	822	F. Säugetiere	
 KochGrunberg-1914-821-421	421	agutiuaya	Agutiuaya	cutiara			822	F. Säugetiere	
 KochGrunberg-1914-821-422	422	coati (coatimundi)	Cuatí	quati	2389	COATI (COATIMUNDI)	822	F. Säugetiere	
 KochGrunberg-1914-821-423	423	cuatipurú	Cuatipurú	quatipuru (tipo de esquilo)			822	F. Säugetiere	
@@ -441,8 +441,8 @@ KochGrunberg-1914-821-439	439	manatee	Manatí	peixe-boi	3995	AMAZONIAN MANATEE	8
 KochGrunberg-1914-821-440	440	dolphin	Delphin	golfinho	1479	DOLPHIN	822	F. Säugetiere	
 KochGrunberg-1914-821-441	441	small bird (=passarinho)	Vogel (=passarinho)	passarinho			822	G. Vögel	
 KochGrunberg-1914-821-442	442	egg	Ei	ovo	744	EGG	822	G. Vögel	
-KochGrunberg-1914-821-443	443	red macaw	Arara, rot	arara vermelha			822	G. Vögel	
-KochGrunberg-1914-821-444	444	blue macaw	Arara, blau	arara azul			822	G. Vögel	
+KochGrunberg-1914-821-443	443	red macaw	Arara, rot	arara vermelha	3938	RED-AND-GREEN MACAW	822	G. Vögel	
+KochGrunberg-1914-821-444	444	blue macaw	Arara, blau	arara azul	3927	BLUE-AND-YELLOW MACAW	822	G. Vögel	
 KochGrunberg-1914-821-445	445	periquito	Periquito	periquito			822	G. Vögel	
 KochGrunberg-1914-821-446	446	parrot	Papagei	papagaio	882	PARROT	822	G. Vögel	
 KochGrunberg-1914-821-447	447	anacã	Anacã	anacã			822	G. Vögel	
@@ -458,7 +458,7 @@ KochGrunberg-1914-821-456	456	dove	Taube	pombo	1853	DOVE	823	G. Vögel
 KochGrunberg-1914-821-457	457	toucan	Tucáno	tucano	308	TOUCAN	823	G. Vögel	
 KochGrunberg-1914-821-458	458	oropendola	Yapú	japu			823	G. Vögel	
 KochGrunberg-1914-821-459	459	yellow-rumped cacique	Japeim	japiim			823	G. Vögel	
-KochGrunberg-1914-821-460	460	woodpecker (arapaso)	Specht (Arapaso)	arapaçu			823	G. Vögel	
+KochGrunberg-1914-821-460	460	woodpecker (arapaso)	Specht (Arapaso)	arapaçu	2447	WOODPECKER	823	G. Vögel	
 KochGrunberg-1914-821-461	461	thunder (bird sp.)	Trovão	trovão (espécie de ave)			823	G. Vögel	
 KochGrunberg-1914-821-462	462	taiasuirá	Taiasuirá	taiasuirá			823	G. Vögel	
 KochGrunberg-1914-821-463	463	aracuã	Aracuã	aracuã			823	G. Vögel	
@@ -472,7 +472,7 @@ KochGrunberg-1914-821-470	470	bird (sp.)	Vogel (spec.)	pássaro (sp.)			823	G. V
 KochGrunberg-1914-821-471	471	rooster or chicken	Hahn, Huhn	galo, frango	1318	CHICKEN	823	G. Vögel	
 KochGrunberg-1914-821-472	472	duck	Ente	pato	1360	DUCK	823	G. Vögel	
 KochGrunberg-1914-821-473	473	small colorful duck	Kleine bunte Ente	pato pequeno colorido			823	G. Vögel	
-KochGrunberg-1914-821-474	474	martim pescador (type of kingfisher)	Martim pescador (Art Eisvogel)	martim pescador			823	G. Vögel	
+KochGrunberg-1914-821-474	474	martim pescador (type of kingfisher)	Martim pescador (Art Eisvogel)	martim pescador	2444	KINGFISHER	823	G. Vögel	
 KochGrunberg-1914-821-475	475	carará	Carará	carará			823	G. Vögel	
 KochGrunberg-1914-821-476	476	mergulhão	Mergulhão	mergulhão			823	G. Vögel	
 KochGrunberg-1914-821-477	477	small gull	Kleine Möve	gaivota-pequena			823	G. Vögel	
@@ -533,13 +533,13 @@ KochGrunberg-1914-821-531	531	tree earthworm larva	Baumregenwurm	larva de minhoc
 KochGrunberg-1914-821-532	532	ant	Ameise	formiga	587	ANT	824	I. Niedere Tiere	
 KochGrunberg-1914-821-533	533	saúba ant	Saúba-Ameise	saúva			824	I. Niedere Tiere	
 KochGrunberg-1914-821-534	534	maniuára ant	Maniuára-Ameise	maniuara			824	I. Niedere Tiere	
-KochGrunberg-1914-821-535	535	tocandíra ant	Tocandíra-Ameise	tocandira			824	I. Niedere Tiere	
+KochGrunberg-1914-821-535	535	tocandíra ant	Tocandíra-Ameise	tocandira	3935	LARGE-BULLET-ANT	824	I. Niedere Tiere	
 KochGrunberg-1914-821-536	536	termite	Termiten	cupim	883	TERMITE	824	I. Niedere Tiere	
 KochGrunberg-1914-821-537	537	taracuá	Taracuá	taracuá (tipo de formiga)			824	I. Niedere Tiere	
 KochGrunberg-1914-821-538	538	fly (insect)	Fliege	mosca	1504	FLY (INSECT)	824	I. Niedere Tiere	
 KochGrunberg-1914-821-539	539	mosquito	Mosquito	mosquito	1509	MOSQUITO	824	I. Niedere Tiere	
 KochGrunberg-1914-821-540	540	small mosquito	Kleine Mosquito	mosquito pequeno			824	I. Niedere Tiere	
-KochGrunberg-1914-821-541	541	pium	Pium	pium			825	I. Niedere Tiere	
+KochGrunberg-1914-821-541	541	pium	Pium	pium	3937	PIUM (SIMULIIDAE)	825	I. Niedere Tiere	
 KochGrunberg-1914-821-542	542	mutuca	Mutuca	mutuca			825	I. Niedere Tiere	
 KochGrunberg-1914-821-543	543	bee	Biene	abelha	665	BEE	825	I. Niedere Tiere	
 KochGrunberg-1914-821-544	544	honey	Honig	mel	942	HONEY	825	I. Niedere Tiere	
@@ -597,7 +597,7 @@ KochGrunberg-1914-821-595	595	tucupi	Tucupí	tucupi			826	K. Pfianzen
 KochGrunberg-1914-821-596	596	pineapple	Ananas	abacaxi	2440	PINEAPPLE	826	K. Pfianzen	
 KochGrunberg-1914-821-597	597	tame	Zahme	domesticado			826	K. Pfianzen	
 KochGrunberg-1914-821-598	598	savage	Wilde	selvagem			826	K. Pfianzen	
-KochGrunberg-1914-821-599	599	cocoa	Kakao	cacao			826	K. Pfianzen	
+KochGrunberg-1914-821-599	599	cocoa	Kakao	cacao	2442	COCOA BEAN	826	K. Pfianzen	
 KochGrunberg-1914-821-600	600	japurá	Yapurá	japurá			826	K. Pfianzen	
 KochGrunberg-1914-821-601	601	cucura	Cucura	cucura			826	K. Pfianzen	
 KochGrunberg-1914-821-602	602	umarí	Umarí	umari			826	K. Pfianzen	
@@ -621,9 +621,9 @@ KochGrunberg-1914-821-619	619	giant reed	Pfeilrohr	cana-do-reino			826	K. Pfianz
 KochGrunberg-1914-821-620	620	sugar cane	Zuckerrohr	cana-de-açúcar	146	SUGAR CANE	826	K. Pfianzen	
 KochGrunberg-1914-821-621	621	achiote	Urucú	urucum	349	ACHIOTE	826	K. Pfianzen	
 KochGrunberg-1914-821-622	622	carajuru	Carayurú	carajuru			826	K. Pfianzen	
-KochGrunberg-1914-821-623	623	genipap	Genipapo	genipapo			826	K. Pfianzen	
+KochGrunberg-1914-821-623	623	genipap	Genipapo	genipapo	3920	GENIPA	826	K. Pfianzen	
 KochGrunberg-1914-821-624	624	mold on manioc cake	Schimmel auf Mandiocafladen	mofo no bolo de mandioca			826	K. Pfianzen	
-KochGrunberg-1914-821-625	625	moriche palm	Mirití	buriti			826	K. Pfianzen	Palmen
+KochGrunberg-1914-821-625	625	moriche palm	Mirití	buriti	3811	MIRITI PALM	826	K. Pfianzen	Palmen
 KochGrunberg-1914-821-626	626	tucum	Tucum	tucum			826	K. Pfianzen	Palmen
 KochGrunberg-1914-821-627	627	tucumã	Tucumá	tucumã			826	K. Pfianzen	Palmen
 KochGrunberg-1914-821-628	628	caraná	Caraná	caraná			826	K. Pfianzen	Palmen
@@ -793,7 +793,7 @@ KochGrunberg-1914-821-791	791	I want to sleep	Ich will schlafen	eu quero dormir	
 KochGrunberg-1914-821-792	792	strike or beat	Schlagen	bater ou surrar	2133	STRIKE OR BEAT	831	S. Zeltwörter	
 KochGrunberg-1914-821-793	793	grind	Schleifen	moer	1033	GRIND	831	S. Zeltwörter	
 KochGrunberg-1914-821-794	794	swallow	Schlucken	engolir	897	SWALLOW	831	S. Zeltwörter	
-KochGrunberg-1914-821-795	795	snoring	Schnarchen	roncar			831	S. Zeltwörter	
+KochGrunberg-1914-821-795	795	snoring	Schnarchen	roncar	1983	SNORE	831	S. Zeltwörter	
 KochGrunberg-1914-821-796	796	cut	Schneiden	cortar	1432	CUT	831	S. Zeltwörter	
 KochGrunberg-1914-821-797	797	I cut with my knife	Ich schneide mit meinem Messer	eu corto com a minha faca			831	S. Zeltwörter	
 KochGrunberg-1914-821-798	798	swim	Schwimmen	nadar	1439	SWIM	831	S. Zeltwörter	
