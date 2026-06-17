@@ -46,33 +46,7 @@
                     {
                         "datatype": "string",
                         "name": "GLOSS_IN_SOURCE"
-                    },
-                    {
-                        "datatype": "json",
-                        "name": "LINKED_CONCEPTS"
-                    },
-                    {
-                      "name": "TARGET_CONCEPTS",
-                      "datatype": "json"
-                    },
-                    {
-                      "name": "SHIFTS",
-                      "datatype": "string",
-                      "delimiter": " "
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "DOMAIN"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "ALIAS"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "DEFINITION"
                     }
-                      
                 ],
                 "primaryKey": [
                     "ID"
