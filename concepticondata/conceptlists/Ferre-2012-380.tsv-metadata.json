@@ -31,7 +31,7 @@
                     {
                         "datatype": {
                             "base": "integer",
-                            "minimum": 1
+                            "minimum": "1"
                         },
                         "name": "CONCEPTICON_ID"
                     },
@@ -41,14 +41,38 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "ENGLISH"
+                        "name": "GLOSS"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "SPANISH_VALENCE_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "SPANISH_AROUSAL_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "SPANISH_FAMILIARITY_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "SPANISH_CONCRETENESS_MEAN"
+                    },
+                    {
+                        "datatype": "float",
+                        "name": "FREQUENCY_LEXESP"
+                    },
+                    {
+                        "name": "SEMANTIC_CATEGORY",
+                        "datatype": {"base": "string", "format": "animal|people|object"}
                     }
                 ],
                 "primaryKey": [
                     "ID"
                 ]
             },
-            "url": "Winter-2022-98.tsv"
+            "url": "Ferre-2012-380.tsv"
         }
     ]
 }
