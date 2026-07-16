@@ -42,50 +42,13 @@
                     {
                         "datatype": "string",
                         "name": "ENGLISH"
-                    },
-                    {
-                        "datatype": "nonNegativeInteger",
-                        "name": "FAMILY_FREQUENCY"
-                    },
-                    {
-                        "datatype": "nonNegativeInteger",
-                        "name": "LANGUAGE_FREQUENCY"
-                    },
-                    {
-                        "datatype": "nonNegativeInteger",
-                        "name": "WORD_FREQUENCY"
-                    },
-                    {
-                        "datatype": "nonNegativeInteger",
-                        "name": "RANK"
-                    },
-                    {
-                        "datatype": "nonNegativeInteger",
-                        "name": "COMMUNITY"
-                    },
-                    {
-                        "datatype": "string",
-                        "valueUrl": "https://clics.clld.org/graphs/infomap_{COMMUNITY}_{CENTRAL_CONCEPT}",
-                        "name": "CENTRAL_CONCEPT"
-                    },
-                    {
-                        "datatype": "nonNegativeInteger",
-                        "name": "DEGREE"
-                    },
-                    {
-                        "datatype": "nonNegativeInteger",
-                        "name": "WEIGHTED_FAMILY_DEGREE"
-                    },
-                    {
-                        "datatype": "nonNegativeInteger",
-                        "name": "WEIGHTED_LANGUAGE_DEGREE"
                     }
                 ],
                 "primaryKey": [
                     "ID"
                 ]
             },
-            "url": "Rzymski-2020-1624.tsv"
+            "url": "Rzymski-2020-1647.tsv"
         }
     ]
 }
