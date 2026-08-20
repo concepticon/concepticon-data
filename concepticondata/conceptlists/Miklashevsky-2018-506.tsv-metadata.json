@@ -57,59 +57,59 @@
                     },
                     {
                         "datatype": {"base": "boolean", "format": "abstract|concrete"},
-                        "name": "ABSTRACTNESS"
+                        "name": "RUSSIAN_CONCRETENESS"
                     },
                     {
                         "datatype": "integer",
-                        "name": "LENGTH"
+                        "name": "RUSSIAN_LENGTH"
                     },
                     {
                         "datatype": "string",
-                        "name": "GENDER"
+                        "name": "RUSSIAN_GENDER"
                     },
                     {
                         "datatype": "float",
-                        "name": "OBJECTIVE_WORD_FREQUENCY"
+                        "name": "RUSSIAN_OBJECTIVE_WORD_FREQUENCY"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
-                        "name": "VISUAL_MEAN"
+                        "name": "RUSSIAN_VISUAL_MEAN"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
-                        "name": "AUDITORY_MEAN"
+                        "name": "RUSSIAN_AUDITORY_MEAN"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
-                        "name": "OLFACTORY_MEAN"
+                        "name": "RUSSIAN_OLFACTORY_MEAN"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
-                        "name": "GUSTATORY_MEAN"
+                        "name": "RUSSIAN_GUSTATORY_MEAN"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
-                        "name": "HAPTIC_MEAN"
+                        "name": "RUSSIAN_HAPTIC_MEAN"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
-                        "name": "IMAGEABILITY_MEAN"
+                        "name": "RUSSIAN_IMAGEABILITY_MEAN"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
-                        "name": "MANIPULABILITY_MEAN"
+                        "name": "RUSSIAN_MANIPULABILITY_MEAN"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
-                        "name": "SPATIAL_LOCALIZATION_MEAN"
+                        "name": "RUSSIAN_SPATIAL_LOCALIZATION_MEAN"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 1, "maximum": 15},
-                        "name": "AOA_MEAN"
+                        "name": "RUSSIAN_AOA_MEAN"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
-                        "name": "SUBJECTIVE_FREQ_MEAN"
+                        "name": "RUSSIAN_SUBJECTIVE_FREQ_MEAN"
                     }
                 ],
                 "primaryKey": [

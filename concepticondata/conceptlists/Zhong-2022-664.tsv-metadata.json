@@ -77,120 +77,120 @@
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
-                        "name": "VISUAL_MEAN"
+                        "name": "CHINESE_VISUAL_MEAN"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
                         "null": ["5.210526316"],
-                        "name": "AUDITORY_MEAN"
+                        "name": "CHINESE_AUDITORY_MEAN"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
-                        "name": "GUSTATORY_MEAN"
+                        "name": "CHINESE_GUSTATORY_MEAN"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
-                        "name": "OLFACTORY_MEAN"
+                        "name": "CHINESE_OLFACTORY_MEAN"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
-                        "name": "HAPTIC_MEAN"
+                        "name": "CHINESE_HAPTIC_MEAN"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
-                        "name": "INTEROCEPTIVE_MEAN"
+                        "name": "CHINESE_INTEROCEPTIVE_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "PERCEPTUAL_MEAN"
+                        "name": "CHINESE_PERCEPTUAL_MEAN"
                     },
                     {
                         "datatype": {"base": "string", "format": "auditory|gustatory|gustatory/olfactory|interoceptive|olfactory|tactile|visual|visual/interoceptive"},
-                        "name": "PERCEPTUAL_DOMINANT"
+                        "name": "CHINESE_PERCEPTUAL_DOMINANT"
                     },
                     {
                         "datatype": "float",
-                        "name": "PERCEPTUAL_STRENGTH_MAX"
+                        "name": "CHINESE_PERCEPTUAL_STRENGTH_MAX"
                     },
                     {
                         "datatype": "float",
-                        "name": "PERCEPTUAL_STRENGTH_AGGREGATED"
+                        "name": "CHINESE_PERCEPTUAL_STRENGTH_AGGREGATED"
                     },
                     {
                         "datatype": "float",
-                        "name": "PERCEPTUAL_STRENGTH_SUM"
+                        "name": "CHINESE_PERCEPTUAL_STRENGTH_SUM"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
-                        "name": "PERCEPTUAL_EXCLUSIVITY"
+                        "name": "CHINESE_PERCEPTUAL_EXCLUSIVITY"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
-                        "name": "FOOT_ACTION_MEAN"
+                        "name": "CHINESE_FOOT_ACTION_MEAN"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
-                        "name": "HAND_ACTION_MEAN"
+                        "name": "CHINESE_HAND_ACTION_MEAN"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
-                        "name": "MOUTH_ACTION_MEAN"
+                        "name": "CHINESE_MOUTH_ACTION_MEAN"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
-                        "name": "HEAD_ACTION_MEAN"
+                        "name": "CHINESE_HEAD_ACTION_MEAN"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
-                        "name": "TORSO_ACTION_MEAN"
+                        "name": "CHINESE_TORSO_ACTION_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "ACTION_STRENGTH_MEAN"
+                        "name": "CHINESE_ACTION_STRENGTH_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "ACTION_STRENGTH_SUM"
+                        "name": "CHINESE_ACTION_STRENGTH_SUM"
                     },
                     {
                         "datatype": "float",
-                        "name": "ACTION_STRENGTH_MAX"
+                        "name": "CHINESE_ACTION_STRENGTH_MAX"
                     },
                     {
                         "datatype": "float",
-                        "name": "ACTION_STRENGTH_AGGREGATED"
+                        "name": "CHINESE_ACTION_STRENGTH_AGGREGATED"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
-                        "name": "ACTION_EXCLUSIVITY"
+                        "name": "CHINESE_ACTION_EXCLUSIVITY"
                     },
                     {
                         "datatype": {"base": "string", "format": "hand/arm|hand/arm\\+head|hand/arm\\+mouth/throat|hand/arm\\+mouth/throat\\+head|hand/arm\\+torso|head|head\\+torso|leg/foot|leg/foot\\+hand/arm|leg/foot\\+head|leg/foot\\+torso|mouth/throat|mouth/throat\\+head|mouth/throat\\+torso|torso"},
-                        "name": "ACTION_DOMINANT"
+                        "name": "CHINESE_ACTION_DOMINANT"
                     },
                     {
                         "datatype": "float",
-                        "name": "SENSORIMOTOR_STRENGTH_MAX"
+                        "name": "CHINESE_SENSORIMOTOR_STRENGTH_MAX"
                     },
                     {
                         "datatype": {"base": "string", "format": "auditory|auditory&month/throat|gustatory|gustatory&mouth/throat|gustatory/olfactory|hand/arm|interoceptive|leg/foot|mouth/throat|olfactory|tactile|visual|visual/interoceptive"},
-                        "name": "SENSORIMOTOR_DOMINANT"
+                        "name": "CHINESE_SENSORIMOTOR_DOMINANT"
                     },
                     {
                         "datatype": "float",
-                        "name": "SENSORIMOTOR_STRENGTH_AGGREGATED"
+                        "name": "CHINESE_SENSORIMOTOR_STRENGTH_AGGREGATED"
                     },
                     {
                         "datatype": "float",
-                        "name": "SENSORIMOTOR_STRENGTH_SUM"
+                        "name": "CHINESE_SENSORIMOTOR_STRENGTH_SUM"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
-                        "name": "SENSORIMOTOR_EXCLUSIVITY"
+                        "name": "CHINESE_SENSORIMOTOR_EXCLUSIVITY"
                     },
                     {
                         "datatype": {"base": "string", "format": "abstract|concrete"},
-                        "name": "CONCRETE_ABSTRACT"
+                        "name": "CHINESE_CONCRETENESS"
                     }
                 ],
                 "primaryKey": [
