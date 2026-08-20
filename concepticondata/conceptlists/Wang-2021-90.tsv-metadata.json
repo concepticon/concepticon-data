@@ -109,63 +109,63 @@
                     },
                     {
                         "datatype": "float",
-                        "name": "CHINESE_SER_ZSCORE"
+                        "name": "SER_ZSCORE"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
-                        "name": "CHINESE_LANGUAGE_DESCRIPTIVENESS_MEAN"
+                        "name": "LANGUAGE_DESCRIPTIVENESS_MEAN"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
-                        "name": "CHINESE_SER_MEAN"
+                        "name": "SER_MEAN"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
-                        "name": "CHINESE_NAVIGATION_MEAN"
+                        "name": "NAVIGATION_MEAN"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
-                        "name": "CHINESE_MANIPULATION_MEAN"
+                        "name": "MANIPULATION_MEAN"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
-                        "name": "CHINESE_STRESS_ACTION_MEAN"
+                        "name": "STRESS_ACTION_MEAN"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
-                        "name": "CHINESE_AROUSAL_MEAN"
+                        "name": "AROUSAL_MEAN"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
-                        "name": "CHINESE_VALENCE_MEAN"
+                        "name": "VALENCE_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "CHINESE_LANGUAGE_DESCRIPTIVENESS_SD"
+                        "name": "LANGUAGE_DESCRIPTIVENESS_SD"
                     },
                     {
                         "datatype": "float",
-                        "name": "CHINESE_SER_SD"
+                        "name": "SER_SD"
                     },
                     {
                         "datatype": "float",
-                        "name": "CHINESE_NAVIGATION_SD"
+                        "name": "NAVIGATION_SD"
                     },
                     {
                         "datatype": "float",
-                        "name": "CHINESE_MANIPULATION_SD"
+                        "name": "MANIPULATION_SD"
                     },
                     {
                         "datatype": "float",
-                        "name": "CHINESE_STRESS_ACTION_SD"
+                        "name": "STRESS_ACTION_SD"
                     },
                     {
                         "datatype": "float",
-                        "name": "CHINESE_AROUSAL_SD"
+                        "name": "AROUSAL_SD"
                     },
                     {
                         "datatype": "float",
-                        "name": "CHINESE_VALENCE_SD"
+                        "name": "VALENCE_SD"
                     },
                     {
                         "datatype": "float",
@@ -185,39 +185,39 @@
                     },
                     {
                         "datatype": "nonNegativeInteger",
-                        "name": "CHINESE_STROKE"
+                        "name": "STROKE"
                     },
                     {
                         "datatype": "float",
-                        "name": "CHINESE_FAMILIARITY_MEAN"
+                        "name": "FAMILIARITY_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "CHINESE_WORD_FREQ_LOG"
+                        "name": "WORD_FREQ_LOG"
                     },
                     {
                         "datatype": "float",
-                        "name": "CHINESE_FIRST_CHARACTER_FREQ_LOG"
+                        "name": "FIRST_CHARACTER_FREQ_LOG"
                     },
                     {
                         "datatype": "float",
-                        "name": "CHINESE_AVG_CHARACTER_FREQ_LOG"
+                        "name": "AVG_CHARACTER_FREQ_LOG"
                     },
                     {
                         "datatype": "float",
-                        "name": "CHINESE_ALL_CHARACTER_FREQ_LOG"
+                        "name": "ALL_CHARACTER_FREQ_LOG"
                     },
                     {
                         "datatype": "float",
-                        "name": "CHINESE_AVG_SEMANTIC_RADICAL_FREQ_LOG"
+                        "name": "AVG_SEMANTIC_RADICAL_FREQ_LOG"
                     },
                     {
                         "datatype": "float",
-                        "name": "CHINESE_RESIDUALS_SER_AROUSAL_VALENCE_MEAN"
+                        "name": "RESIDUALS_SER_AROUSAL_VALENCE_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "CHINESE_RESIDUALS_BEHAVIORAL_ISC_AROUSAL_VALENCE_MEAN"
+                        "name": "RESIDUALS_BEHAVIORAL_ISC_AROUSAL_VALENCE_MEAN"
                     },
                     {
                         "datatype": "float",
