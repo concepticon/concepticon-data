@@ -57,11 +57,11 @@
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
-                        "name": "ICONICITY"
+                        "name": "ICONICITY_MEAN"
                     },
                     {
                         "datatype": {"base": "decimal", "minimum": 0, "maximum": 7},
-                        "name": "IMAGEABILITY"
+                        "name": "IMAGEABILITY_MEAN"
                     },
                     {
                         "datatype": "float",
