@@ -57,7 +57,7 @@
                     },
                     {
                         "datatype": {"base": "boolean", "format": "abstract|concrete"},
-                        "name": "ABSTRACTNESS"
+                        "name": "CONCRETENESS"
                     },
                     {
                         "datatype": "integer",
