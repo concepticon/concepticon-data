@@ -49,31 +49,31 @@
                     },
                     {
                         "datatype": "integer",
-                        "name": "ITALIAN_CONCRETENESS_MEAN"
+                        "name": "CONCRETENESS_MEAN"
                     },
                     {
                         "datatype": "integer",
-                        "name": "ITALIAN_IMAGEABILITY_MEAN"
+                        "name": "IMAGEABILITY_MEAN"
                     },
                     {
                         "datatype": "integer",
-                        "name": "ITALIAN_FAMILIARITY_MEAN"
+                        "name": "FAMILIARITY_MEAN"
                     },
                     {
                         "datatype": "integer",
-                        "name": "ITALIAN_AoA_MEAN"
+                        "name": "AoA_MEAN"
                     },
                     {
                         "datatype": "integer",
-                        "name": "ITALIAN_CONTEXT_AVAILABILITY_MEAN"
+                        "name": "CONTEXT_AVAILABILITY_MEAN"
                     },
                     {
                         "datatype": "integer",
-                        "name": "ITALIAN_ABSTRACTNESS_MEAN"
+                        "name": "ABSTRACTNESS_MEAN"
                     },
                     {
                         "datatype": "integer",
-                        "name": "ITALIAN_MoA_MEAN"
+                        "name": "MoA_MEAN"
                     }
                 ],
                 "primaryKey": [

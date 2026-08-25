@@ -45,35 +45,35 @@
                     },
                     {
                         "datatype": "float",
-                        "name": "ENGLISH_FAMILIARITY_MEAN"
+                        "name": "FAMILIARITY_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "ENGLISH_PAIN_MEAN"
+                        "name": "PAIN_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "ENGLISH_OLFACTORY_MEAN"
+                        "name": "OLFACTORY_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "ENGLISH_COLOR_MEAN"
+                        "name": "COLOR_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "ENGLISH_GUSTATORY_MEAN"
+                        "name": "GUSTATORY_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "ENGLISH_AUDITORY_MEAN"
+                        "name": "AUDITORY_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "ENGLISH_GRASP_MEAN"
+                        "name": "GRASP_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "ENGLISH_MOTION_MEAN"
+                        "name": "MOTION_MEAN"
                     }
                 ],
                 "primaryKey": [

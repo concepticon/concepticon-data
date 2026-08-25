@@ -49,31 +49,31 @@
                     },
                     {
                         "datatype": "float",
-                        "name": "ENGLISH_PERSONAL_USE_MEAN"
+                        "name": "PERSONAL_USE_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "ENGLISH_FAMILIARITY MEAN"
+                        "name": "FAMILIARITY_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "ENGLISH_OFFENSIVENESS_MEAN"
+                        "name": "OFFENSIVENESS_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "ENGLISH_TABOO_MEAN"
+                        "name": "TABOO_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "ENGLISH_VALENCE_MEAN"
+                        "name": "VALENCE_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "ENGLISH_AROUSAL_MEAN"
+                        "name": "AROUSAL_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "ENGLISH_IMAGEABILITY_MEAN"
+                        "name": "IMAGEABILITY_MEAN"
                     }
                 ],
                 "primaryKey": [
