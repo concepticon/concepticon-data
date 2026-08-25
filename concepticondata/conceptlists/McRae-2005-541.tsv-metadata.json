@@ -45,47 +45,47 @@
                     },
                     {
                         "datatype": "float",
-                        "name": "ENGLISH_FAMILIARITY_MEAN"
+                        "name": "FAMILIARITY_MEAN"
                     },
                     {
                         "datatype": "integer",
-                        "name": "ENGLISH_FEATURES_TAXONOMIC_SCORE"
+                        "name": "FEATURES_TAXONOMIC_SCORE"
                     },
                     {
                         "datatype": "integer",
-                        "name": "ENGLISH_FEATURES_FUNCTIONAL_SCORE"
+                        "name": "FEATURES_FUNCTIONAL_SCORE"
                     },
                     {
                         "datatype": "integer",
-                        "name": "ENGLISH_FEATURES_VISUAL_MOTOR_SCORE"
+                        "name": "FEATURES_VISUAL_MOTOR_SCORE"
                     },
                     {
                         "datatype": "integer",
-                        "name": "ENGLISH_FEATURES_VISUAL_SURFACE_SCORE"
+                        "name": "FEATURES_VISUAL_SURFACE_SCORE"
                     },
                     {
                         "datatype": "integer",
-                        "name": "ENGLISH_FEATURES_VISUAL_COLOR_SCORE"
+                        "name": "FEATURES_VISUAL_COLOR_SCORE"
                     },
                     {
                         "datatype": "integer",
-                        "name": "ENGLISH_FEATURES_AUDITORY_SCORE"
+                        "name": "FEATURES_AUDITORY_SCORE"
                     },
                     {
                         "datatype": "integer",
-                        "name": "ENGLISH_FEATURES_GUSTATORY_SCORE"
+                        "name": "FEATURES_GUSTATORY_SCORE"
                     },
                     {
                         "datatype": "integer",
-                        "name": "ENGLISH_FEATURES_OLFACTORY_SCORE"
+                        "name": "FEATURES_OLFACTORY_SCORE"
                     },
                     {
                         "datatype": "integer",
-                        "name": "ENGLISH_FEATURES_HAPTIC_SCORE"
+                        "name": "FEATURES_HAPTIC_SCORE"
                     },
                     {
                         "datatype": "integer",
-                        "name": "ENGLISH_FEATURES_ENCYCLOPEDIC_SCORE"
+                        "name": "FEATURES_ENCYCLOPEDIC_SCORE"
                     }
                 ],
                 "primaryKey": [
