@@ -190,7 +190,7 @@
                     },
                     {
                         "datatype": {"base": "string", "format": "abstract|concrete"},
-                        "name": "CONCRETE_ABSTRACT"
+                        "name": "CONCRETENESS"
                     }
                 ],
                 "primaryKey": [
