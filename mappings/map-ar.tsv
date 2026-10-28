@@ -1,11 +1,14 @@
 ID	GLOSS	PRIORITY
 2527	ABILITY///قدرة	1
+4082	ABUNDANCE///وفرة	1
+4058	ACCIDENT///حادث	1
 1814	ACCUSE///يتهّم (يتّهم)	1
 2882	ADD///يضيف	1
 2022	ADMIT///يعترف	1
 3635	ADULT///بالغ	1
 1685	AFTER///بعد	1
 1789	AGE///عمر	1
+4122	AGONY///عذاب	1
 3643	AGREE///يوافق	1
 3644	AGREEMENT///اتفاق (اتفاقية)	1
 27	AIR///هواء	1
@@ -14,19 +17,23 @@ ID	GLOSS	PRIORITY
 3238	ALLOW///يسمح (يمنح)	1
 1676	ALWAYS///دائما	1
 1863	AMAZING///مدهش	1
+4057	ANGEL///ملاك	1
 82	ANGER///غضب	1
 1826	ANGRY///غاضب	1
 619	ANIMAL///حيوان	1
+803	ANKLE///الكاحل	1
 803	ANKLE///كاحل	1
 9	ANNOUNCE///يبلغ (أبلغ)	1
 587	ANT///نملة	1
+4149	APARTMENT///شقّة (شقة)	1
 1320	APPLE///تفاحة	1
 2980	AREA///مستوى	1
 2980	AREA///منطقة	1
-1673	ARM///ذراع	1
+1673	ARM///ذراع	2
 1561	ARMY///جيش	1
 1568	ARRANGE///يرتّب	1
 1387	ARRIVE///يصل	1
+4067	ARROGANT///متكبّر 	1
 977	ARROW///سهم	1
 1894	ASHAMED///خجول	1
 1309	ASK (INQUIRE)///يطلب (يسأل)	1
@@ -36,6 +43,7 @@ ID	GLOSS	PRIORITY
 3639	AVOID///يتجنّب	1
 1289	BABY///طفل	1
 523	BACK OF HEAD///خلفي	1
+1291	BACK///ظهر	1
 1292	BAD///سيئ	1
 2468	BAG///حقيبة	1
 183	BAKE///يخبز	1
@@ -45,6 +53,7 @@ ID	GLOSS	PRIORITY
 1284	BANK///مصرف	1
 831	BASE///قاعدة  (قاعدة)	1
 1539	BASKET///سلّة	1
+4169	BASKETBALL (GAME OR OBJECT)///كرة السلة	1
 1793	BAT///خفاش	1
 662	BATTERY///بطّاريّة (بطّتريّة)	1
 579	BATTLE///معركة	1
@@ -56,6 +65,7 @@ ID	GLOSS	PRIORITY
 832	BEAN///فصوليا (فاصوليا)	1
 1665	BEAT///يخفق	1
 1427	BEAUTIFUL///جميل	1
+4051	BEAUTY///جمال	1
 1990	BECOME///يصبح	1
 1663	BED///سرير	1
 2505	BEDROOM///غرفة نوم	1
@@ -73,11 +83,13 @@ ID	GLOSS	PRIORITY
 772	BELT///حزام	1
 2584	BENCH///مقعد	1
 731	BEVERAGE///شراب	1
+4068	BIBLE///الكتاب المقدّس (كتاب المقدس)	1
 747	BICYCLE///درّاجة	1
 1202	BIG///كبير	1
 1202	BIG///كبير (ضخم)	1
 937	BIRD///طائر	1
 2407	BIRTHDAY///عيد ميلاد	1
+4126	BISCUIT///بسكويت	1
 1403	BITE///يعض	1
 163	BLACK///اسود	1
 2716	BLAME (SOMEBODY)///يلوم	1
@@ -109,6 +121,7 @@ ID	GLOSS	PRIORITY
 1368	BREAD///خبز	1
 680	BREAK (DESTROY OR GET DESTROYED)///يكسر	1
 1322	BREAKFAST///فطور	1
+1402	BREAST///ثدي	1
 1407	BREATHE///ينتفّس	1
 1006	BRICK///طابوق	1
 1266	BRIDE///عروس	1
@@ -124,7 +137,7 @@ ID	GLOSS	PRIORITY
 3396	BUILDING///بناء	1
 2617	BULB///مصباح	1
 1008	BULL///ثور	1
-1966	BUNCH///باقة 	1
+1966	BUNCH///باقة	1
 2102	BURN///يحرق	1
 1070	BUS///حافلة	1
 1683	BUSH///شجيّرة	1
@@ -134,12 +147,14 @@ ID	GLOSS	PRIORITY
 1791	BUTTERFLY///فراشة	1
 757	BUTTON///زر	1
 1869	BUY///يشتري	1
+4153	CABIN///قمرة	1
 3283	CAGE///قفص	1
 1967	CALENDAR///لتقويم (تقويم)	1
 1989	CALF///عجل	1
 258	CALM///هادئ	1
 2618	CAMERA///صوّارة (صوارة)	1
 1105	CAMP///مخيم	1
+4110	CANCER (DISEASE)///سرطان	1
 874	CANDY///حلويات	1
 3202	CANNON///مدفع	1
 1111	CAR///سيارة	1
@@ -151,12 +166,16 @@ ID	GLOSS	PRIORITY
 1208	CAT///قط	1
 702	CATCH///يقبض	1
 2247	CATERPILLAR///يرقة	1
+4154	CATHEDRAL///كاتدرائية	1
 1153	CATTLE///بقرة	1
 1153	CATTLE///بقرة (ماشية)	1
 2896	CAUSE TO (LET)///يسمح	1
+4108	CELLAR///قبو	1
 1476	CHAIR///كرسي	1
 2856	CHANGE (SOMETHING)///يبدّل	1
 1264	CHANGE///يغيّر	1
+4056	CHAOS///فوضى	1
+4155	CHAPEL///كنيسة صغيرة (مصلى كنسي)	1
 1188	CHARCOAL///فحم نباتي	1
 1887	CHEAP///رخيص (زهيد)	1
 1730	CHEEK///خد	1
@@ -187,14 +206,18 @@ ID	GLOSS	PRIORITY
 1446	COME///يأتي (يقدم)	1
 3429	COMPARE///يقارن	1
 2606	COMPASS///بوصلة	1
+4123	COMPETENCE///جدارة (مهارة)	1
 3642	COMPLAIN///يتذمّر	1
 3086	COMPUTER///حاسوب	1
 3966	CONCEPT///مفهوم	1
 484	CONDEMN///يدين	1
+4118	CONFIDENCE///ثقة	1
 2933	CONVERSATION///محادثة	1
 1100	COOK (SOMETHING)///يطبخ	1
 269	COOKED///مطبوخ	1
 192	CORNER///زاوية	1
+4117	CORRIDOR///رواق	1
+4116	COTTAGE///كوخ	1
 1850	COTTON///قطن	1
 1068	COURT///محكمة	1
 1643	COUSIN///ابن العم	1
@@ -211,6 +234,8 @@ ID	GLOSS	PRIORITY
 500	CRUEL///قاسي (وحشي)	1
 1839	CRY///يبكي	1
 1839	CRY///يتباكى	1
+4039	CRYSTAL///بلّور	1
+4179	CUBE///مكعب (مكعّب)	1
 476	CUP///كوب	1
 2621	CURTAIN///ستارة	1
 1698	CURVED///منحن (منحني)	1
@@ -237,6 +262,8 @@ ID	GLOSS	PRIORITY
 2715	DESPISE///يحتقر	1
 681	DESTROY///يهدم	1
 681	DESTROY///يهدم (يدمّر)	1
+4115	DESTRUCTION///تدمير	1
+4076	DEVELOPMENT///تطوير	1
 1494	DIE///يموت	1
 2504	DIFFERENT///مختلف	1
 584	DIFFICULT///صعب	1
@@ -254,13 +281,14 @@ ID	GLOSS	PRIORITY
 813	DO///يفعل	1
 2009	DOG///كلب	1
 1567	DOOR///باب	1
+4072	DRAWER///درج	1
 2374	DREAM///حلم	1
 1401	DRINK///يشرب	1
 741	DRIVE///يقود	1
 1016	DRIZZLE///رذاذ	1
 1904	DROWN///يغرق	1
 908	DRUM///طبل	1
-1463	DRUNK///ثمل 	1
+1463	DRUNK///ثمل	1
 1492	DUMB///أحمق (احمق)	1
 2297	DUSK///غسق	1
 2	DUST///غبار	1
@@ -269,6 +297,7 @@ ID	GLOSS	PRIORITY
 6	EARTHQUAKE///زلزال	1
 686	EASY///سهل (غير حصين)	1
 981	ELBOW///كوع (مرفق)	1
+981	ELBOW///مرفق	1
 240	ELECTION///انتخاب	1
 59	ELECTRICITY///كهرباء	1
 1290	ELEPHANT///فيل	1
@@ -284,8 +313,13 @@ ID	GLOSS	PRIORITY
 3972	EXCITED///منفعل	1
 1426	EXPENSIVE///غالي	1
 1626	EXPLAIN///يفسّر	1
-1248	EYE///عين	1
+1248	EYE///عين	2
 1173	EYEBROW///حاجب	1
+1173	EYEBROW///حاجب_العين	1
+17	EYELID///جفن	1
+4105	FABRIC///قماش	1
+1560	FACE///وجه	1
+4180	FACTORY///مصنع	1
 2704	FADE (LOOSE COLOR)///يتلاشى	1
 3258	FALCON///صقر	1
 1280	FALL///يفشل	1
@@ -302,6 +336,7 @@ ID	GLOSS	PRIORITY
 1423	FIGHT///يقاتل	1
 719	FIND///يجد	1
 1303	FINGER///اصبع اليد (اصبع)	1
+1303	FINGER///اصبع_اليد	1
 1896	FINGERNAIL OR TOENAIL///ظفر	1
 1766	FINISH///ينهي	1
 221	FIRE///حريق	1
@@ -319,16 +354,22 @@ ID	GLOSS	PRIORITY
 249	FOG///ضباب	1
 1085	FOLLOW///يتّبع	1
 256	FOOD///طعام	1
-1301	FOOT///قدم	1
+1301	FOOT///قدم	2
+4166	FOOTBALL (GAME OR OBJECT)///كرة القدم	1
+4167	FOOTBALL (GAME)///كرة القدم الامريكي	1
 1523	FORGET///ينسى	1
 1528	FORGIVE///يسامح	1
 1938	FORTRESS///قصر	1
 1312	FOX///ثعلب	1
 2624	FRAME///حيلة	1
+4081	FRAUD///تزوير	1
 2316	FREE///حر	1
+4086	FREEDOM///تحرّر (حريّة)	1
 243	FRESH///طازج	1
 1325	FRIEND///صديق	1
 991	FRY///يقلي	1
+4062	FUN///مرح (متعة)	1
+4038	FUNNY///مضحك	1
 580	FUR///فرو	1
 2467	GAME///لعبة	1
 2948	GAP (DISTANCE)///فارق	1
@@ -370,7 +411,7 @@ ID	GLOSS	PRIORITY
 2880	HALT (STOP)///يتوقف	1
 2880	HALT (STOP)///يوقف (يتوقّف)	1
 1481	HAMMER///مطرقة	1
-1277	HAND///يد	1
+1277	HAND///يد	2
 1254	HANDLE///مقبض	1
 357	HANG UP///يعلّق	1
 248	HAPPEN///يحدث	1
@@ -390,8 +431,9 @@ ID	GLOSS	PRIORITY
 1897	HELP///يساعد	1
 1514	HEN///دجاجة	1
 136	HERE///هنا	1
+4175	HERO///بطل	1
 614	HILL///تل	1
-1745	HIP///ورك	1
+1745	HIP///ورك	2
 1433	HIT///يصيب (يضرب)	1
 1448	HOLD///يمسك	1
 1667	HOLE///ثقب (حفرة)	1
@@ -402,9 +444,11 @@ ID	GLOSS	PRIORITY
 3628	HONOR (SOMEBODY)///شرف	1
 939	HORN (INSTRUMENT)///بوق	1
 615	HORSE///حصان	2
+4161	HOSE///خرطوم (حصان)	1
 616	HOSPITAL///مستشفى	1
 3955	HOSTILITY///عدائية	1
 1252	HOUSE///بيت	1
+4069	HUMBLE///وديع	1
 1435	HUNT///يصيد	1
 3380	HUNTING DOG///كلب	1
 754	HURRY///يعجل	1
@@ -417,21 +461,25 @@ ID	GLOSS	PRIORITY
 117	IMITATE///يقلّد	1
 1963	IMMEDIATELY///مباشرة	1
 1285	IMPORTANT///مهم	1
+4114	INDUSTRY///صناعة	1
+4044	INFORMATION///معلومات	1
 90	INNOCENT///بريء	1
 620	INSECT///حشرة	1
 2916	INSTANTLY (IMMEDIATELY)///فورا	1
 3204	INSULT///يهين	1
+4087	INTELLIGENCE///ذكاء	1
 1162	INTENTION///قصد	1
 3847	INTEREST (FEELING)///اشتياق	1
 621	IRON///حديد	1
 622	ISLAND///جزيرة	1
 2770	JACKET///معطف (سترة)	1
-798	JAW///فك	1
+798	JAW///فك	2
 1743	JOIN///ينضم	1
 2393	JOURNEY///رحلة	1
 2524	JOY///سعادة	1
 861	JUDGE///قاضي	1
 1499	JUICE///عصير	1
+4049	JUSTICE///عدل	1
 1477	KEEP///يحتفظ	1
 1472	KEY///مفتاح	1
 1135	KICK///يركل	1
@@ -439,9 +487,10 @@ ID	GLOSS	PRIORITY
 1417	KILL///يقتل	1
 1508	KING///ملك	1
 1365	KITCHEN///مطبخ	1
-1371	KNEE///ركبة	1
+1371	KNEE///ركبة	2
 1352	KNIFE///سكّين	1
 3626	KNOW///يعرف (يعلم)	1
+2525	LABOUR (EFFORT)///مجهود	1
 2471	LADY///سيدة	1
 624	LAKE///بحيرة	1
 820	LAMB///حمل	1
@@ -449,11 +498,12 @@ ID	GLOSS	PRIORITY
 1307	LANGUAGE///لغّة	1
 1355	LAUGH///يضحك	1
 1564	LAZY///كسول	1
+4097	LEADER///قائد	1
 628	LEAF///ورقة نبات	1
 504	LEARN///يتعلّم	1
 1752	LEAVE///يترك (يغادر)	1
 1752	LEAVE///يغادر	1
-1297	LEG///ساق	1
+1297	LEG///ساق	2
 3091	LEMON///ليمون	1
 582	LEND///يقرض	1
 1095	LET GO OR SET FREE///يطلق (يحرّر)	1
@@ -465,6 +515,7 @@ ID	GLOSS	PRIORITY
 366	LIMP///يعرج	1
 916	LINEN///كتان	1
 1386	LION///أسد	1
+478	LIP///شفة	1
 478	LIP///شفّة	1
 842	LIQUOR///خمر	1
 1608	LISTEN///يستمع	1
@@ -472,12 +523,14 @@ ID	GLOSS	PRIORITY
 632	LIZARD///سحليّة	1
 1596	LOCK///قفل	1
 2429	LOGIC///منطق	1
+4096	LONELY///وحيد	1
 1203	LONG///طويل	1
 1468	LOOK FOR///يبحث (يفتّش)	1
 1819	LOOK///يراقب	1
 2506	LOOSE///رخو	1
 1660	LOSE///يخسر	1
 377	LOUD///صاخب	1
+446	LOWER ARM///ساعد	1
 768	LUNCH///غداء	1
 688	LUNG///رئة	1
 144	MACHINE///الة	1
@@ -496,7 +549,9 @@ ID	GLOSS	PRIORITY
 2005	MASK///قناع	1
 1526	MEAL///وجبة	1
 634	MEAT///لحم	1
+4136	MEDAL///ميدالية	1
 1831	MEET///يجتمع	1
+4054	MELODY///لحن	1
 2334	MELT///ينصهر	1
 2244	METAL///معدن	1
 4016	MICROSCOPE///مجهر	1
@@ -506,6 +561,7 @@ ID	GLOSS	PRIORITY
 486	MINISTER///قس	1
 161	MISS (A TARGET)///أخطأ	1
 2017	MIX///يخلط	1
+4053	MODEST///متواضع	1
 1559	MONEY///مال	1
 1350	MONKEY///قرد	1
 1370	MONTH///شهر	1
@@ -516,7 +572,7 @@ ID	GLOSS	PRIORITY
 110	MOTOR///محرّك كهربائي (محرك)	1
 639	MOUNTAIN///جبل	1
 1491	MOUSE///فأر	1
-674	MOUTH///فم	1
+674	MOUTH///فم	2
 765	MOVE///يتحرّك	1
 3695	MOVEMENT///حركة	1
 216	MOVIE///فيلم	1
@@ -538,6 +594,7 @@ ID	GLOSS	PRIORITY
 1182	NOISE///ضجيج	1
 1598	NORTH///شمال	1
 1221	NOSE///أنف	1
+1221	NOSE///انف	1
 1376	NOW///حاليا	1
 1356	NUMBER///رقم	1
 1104	NURSE///ممرضة	1
@@ -546,9 +603,11 @@ ID	GLOSS	PRIORITY
 1635	OBEY///يطيع	1
 645	OCEAN///محيط	1
 2430	OFFICE///مكتب	1
+4176	OFFICER///نائب	1
 1852	OFTEN///غالبا	1
 1229	OLD///قديم	1
 374	ONE TIME///مرة	1
+4113	OPINION///رأي	1
 885	OPPOSITE///عكسي (معاكس)	1
 3328	ORANGE (COLOR)///برتقالي	1
 2627	ORANGE (FRUIT)///برتقال	1
@@ -559,8 +618,11 @@ ID	GLOSS	PRIORITY
 1783	PAIN///الم	1
 2001	PAINTING///يرسم	1
 1888	PAIR///زوج	1
+4059	PALACE///قصر	1
 1183	PALM OF HAND///كف	1
 648	PAPER///ورقة	1
+4061	PARSLEY///بقدونس	1
+4060	PASSION///شغف	1
 2252	PATH///مسار	1
 3375	PATIENT (SICK PERSON)///مريض	1
 718	PAY///يدفع	1
@@ -581,6 +643,7 @@ ID	GLOSS	PRIORITY
 2440	PINEAPPLE///أناناس	1
 3446	PINK///زهري	1
 1124	PIPE///غليون تدخين	1
+4042	PLANET///كوكب	1
 653	PLANT (VEGETATION)///نبتة	1
 480	PLATE///صحن	1
 1413	PLAY///يلعب	1
@@ -590,6 +653,7 @@ ID	GLOSS	PRIORITY
 1674	POOR///فقير	1
 593	POTATO///بطاطس	1
 1487	POUR///يصب	1
+4066	POVERTY///فقر	1
 3001	POWERFUL///قوي	1
 24	PRAY///يصلّي	1
 3002	PRECIOUS///ثمين	1
@@ -618,6 +682,7 @@ ID	GLOSS	PRIORITY
 209	RARE///نادر	1
 1490	RAT///جرذ	1
 724	READ///يقرأ	1
+4119	REALITY///واقع	1
 156	RED///أحمر	1
 156	RED///احمر	1
 660	REEF///شعب	1
@@ -629,6 +694,7 @@ ID	GLOSS	PRIORITY
 880	REPEAT///يكرّر	1
 2008	RESCUE///ينقذ	1
 421	RETREAT///يتراجع	1
+4120	REWARD///جائزة	1
 926	RICE///أرز	1
 367	RIDE///يركب	1
 1374	RING///خاتم	1
@@ -648,6 +714,8 @@ ID	GLOSS	PRIORITY
 1519	RUN///يركض	1
 699	SAD///حزين	1
 3762	SAFE///امن	1
+4085	SAFETY///سلامة	1
+4041	SALAD///سلطة	1
 1274	SALT///ملح	1
 671	SAND///رمل	1
 4008	SANDWICH///شطيرة	1
@@ -655,10 +723,12 @@ ID	GLOSS	PRIORITY
 1458	SAY///يقول	1
 3033	SCARED///خائف	2
 673	SCHOOL///مدرسة	1
+4095	SCIENCE///علوم	1
 2522	SCREAM (NOISE)///يصرخ	1
 914	SCULPTOR///نحّات	1
 1474	SEA///بحر	1
 691	SEASON///فصل	1
+4088	SEAT///مقعد	1
 714	SEED///بذرة	1
 3050	SEEDLING///زراعة	1
 1521	SEEM///يبدو	1
@@ -676,7 +746,7 @@ ID	GLOSS	PRIORITY
 52	SHIVER///يرجف	1
 113	SHORE///شاطئ	1
 1645	SHORT///قصير	1
-1482	SHOULDER///كتف	1
+1482	SHOULDER///كتف	2
 715	SHOUT///يصيح	1
 1046	SHUT///يغلق	1
 487	SHY///خجول	1
@@ -687,11 +757,13 @@ ID	GLOSS	PRIORITY
 2351	SILKWORM///دودة القز	1
 1558	SIMILAR///مماثل	1
 1261	SING///يغنّي	1
+4173	SINGER///مغنّي	1
 1263	SISTER///أخت	1
 2845	SIZE (OF OBJECT)///حجم	1
 763	SKIN///جلد	1
 1600	SKIRT///تنّورة	1
 1732	SKY///سماء	1
+4162	SKYSCRAPER///ناطحة سحّاب	1
 812	SLAVE///عبد	1
 2530	SMART///ذكي	1
 2530	SMART///عاقل (ذكي)	1
@@ -723,6 +795,7 @@ ID	GLOSS	PRIORITY
 92	SPOIL (SOMEBODY OR SOMETHING)///يفسد	1
 1378	SPOON///ملعقة	1
 849	SPRING (OF WATER)///مصدر	1
+849	SPRING (OF WATER)///ينبوع	1
 1414	SQUEEZE///يضغط	1
 1442	STAND///يقف	1
 1430	STAR///نجمة (خليّة)	1
@@ -731,7 +804,9 @@ ID	GLOSS	PRIORITY
 713	STEAL///يسرق	1
 2343	STEEL///فلاذ	1
 3703	STICKY///لزج	1
+4106	STIFF///صلب	1
 696	STIR///يحرّك	1
+819	STOMACH///بطن	1
 819	STOMACH///معدة	1
 857	STONE///حجر	1
 2058	STOOL///مقعد	1
@@ -781,12 +856,14 @@ ID	GLOSS	PRIORITY
 4012	TELESCOPE///مرصد	1
 1788	TELEVISION///تلفاز	1
 1711	TELL///يخبر	1
+4071	THEFT///سرقة	1
 2433	THEORY///نظرية (نطرية)	1
 1400	THIN (SLIM)///ضعيف	1
 2271	THINK///يفكّر	1
 847	THIRSTY///متعطش	1
 1161	THREAD///خيط	1
-1346	THROAT///حلق	1
+1346	THROAT///حلق	2
+1781	THUMB///إبهام_اليد	1
 1781	THUMB///ابهام	1
 1917	TIE///يربط	1
 893	TIN (METAL)///قصدير	1
@@ -795,12 +872,14 @@ ID	GLOSS	PRIORITY
 974	TOBACCO///تبغ	1
 1283	TODAY///اليوم	1
 1389	TOE///إصبع قدم	1
+1389	TOE///اصبع_القدم	1
 1329	TOMORROW///غدا	1
-1205	TONGUE///لسان	1
+1205	TONGUE///لسان	2
 1361	TOOL///أداة	1
 1380	TOOTH///أسنان	1
-1380	TOOTH///سن	1
+1380	TOOTH///سن	2
 1753	TOP///أعلى	1
+2667	TORSO///جذع	1
 1671	TOWER///برج	1
 1391	TOWN///بلدة	1
 2403	TOY///لعبة	1
@@ -863,9 +942,11 @@ ID	GLOSS	PRIORITY
 960	WIND///ريح	1
 1375	WINDOW///شبّاك (شباك)	1
 1524	WINE///نبيذ	1
+4174	WINNER///فائز	1
 1471	WINTER///الشتاء	1
 1454	WIPE///يمسح	1
 2631	WIRE///سلك	1
+4040	WISDOM///حكمة	1
 962	WOMAN///امرأة	1
 1803	WOOD///خشب	1
 1599	WORD///كلمة	1
@@ -873,7 +954,7 @@ ID	GLOSS	PRIORITY
 965	WORLD///عالم	1
 1219	WORM///دودة حاسوب	1
 150	WORRY///يقلق	1
-799	WRIST///معصم	1
+799	WRIST///معصم	2
 3349	WRISTWATCH///ساعة	1
 1672	WRITE///يكتب	1
 1390	WRONG///خاطئ	1

@@ -1,54 +1,85 @@
 ID	GLOSS	PRIORITY
 2527	ABILITY///kyky	1
+3866	ABORTION///Abortti	1
+4082	ABUNDANCE///Runsaus	1
+4082	ABUNDANCE///yltäkylläisyys	1
+1953	ABUSE///solvaus	1
+4058	ACCIDENT///Tapaturma	1
+4058	ACCIDENT///onnettomuus	2
 1814	ACCUSE///moittia	1
 2882	ADD///lisätä	1
 2022	ADMIT///myöntää	1
 3635	ADULT///aikuinen	1
+4093	AFFECTION///Kiintymys	1
+4093	AFFECTION///hellyys	1
 1685	AFTER///jälkeen	1
 1789	AGE///ikä	1
+4122	AGONY///tuska	2
 3643	AGREE///myöntyä	1
 3644	AGREEMENT///sopimus	1
+3644	AGREEMENT///sovinto	1
 27	AIR///ilma	1
 1597	AIRPLANE///lentokone	3
 404	ALCOHOL (FERMENTED DRINK)///alkoholi	1
 3238	ALLOW///sallia	1
+3815	ALMOND///Manteli	1
 1676	ALWAYS///aina	1
 1863	AMAZING///hämmästyttävä	1
+4057	ANGEL///Enkeli	1
+4057	ANGEL///enkeli	1
+82	ANGER///Raivo	1
+82	ANGER///Suuttumus	1
+82	ANGER///kiukku	1
 82	ANGER///viha	1
 1826	ANGRY///vihainen	1
 619	ANIMAL///eläin	1
 803	ANKLE///nilkka	1
 9	ANNOUNCE///kuuluttaa	1
 587	ANT///muurahainen	3
+1000	ANXIETY///Ahdistus	1
+1000	ANXIETY///ahdistus	1
+4149	APARTMENT///asunto	1
 1320	APPLE///omena	3
 2980	AREA///alue	1
 2980	AREA///lentokone	1
 1673	ARM///käsivarsi	1
-1561	ARMY///armeija	1
+1061	ARMOUR///Haarniska	1
+1561	ARMY///Armeija	1
+1561	ARMY///armeija	2
 1568	ARRANGE///järjestää	1
 1387	ARRIVE///saapua	1
+4067	ARROGANT///ylimielinen	1
 977	ARROW///nuoli	1
+4094	ART///Taide	1
+4094	ART///taide	1
 1894	ASHAMED///häpeissään oleva	1
 1309	ASK (INQUIRE)///kysyä	1
+722	ATTACK///Hyökkäys	1
 722	ATTACK///hyökkäys (hyökätä)	1
 2851	AUGUST///elokuu	1
 1272	AUNT///täti	1
+1276	AUTUMN///Syksy	1
 3639	AVOID///välttää	1
 677	AXE///kirves	2
-1289	BABY///vauva	1
+1289	BABY///vauva	2
 523	BACK OF HEAD///takaosa	1
 1292	BAD///paha	1
+2468	BAG///Laukku	1
 2468	BAG///laukku	1
 183	BAKE///leipoa	1
+2568	BAKER///Leipuri	1
 1845	BALL///pallo	3
 1845	BALL///sfääri	1
 3083	BALLOON///ilmapallo	3
 868	BANANA///banaani	2
 1284	BANK///pankki	1
+1204	BARK///Kaarna	1
 1206	BARKING///haukkua	2
-2548	BARREL///tynnyri	2
+2548	BARREL///tynnyri	3
 831	BASE///pohja	1
 1539	BASKET///kori	3
+4169	BASKETBALL (GAME OR OBJECT)///koripallo	1
+1947	BASTARD///äpärä	1
 1793	BAT///lepakko	1
 138	BATHE///kylpeä	2
 662	BATTERY///paristo	1
@@ -63,16 +94,21 @@ ID	GLOSS	PRIORITY
 1820	BEAR///karhu	2
 1665	BEAT///lyödä	1
 1427	BEAUTIFUL///kaunis	1
+4051	BEAUTY///Kauneus	1
+4051	BEAUTY///kauneus	2
 1990	BECOME///tulla	1
-1663	BED///sänky	3
+1663	BED///Vuode	1
+1663	BED///sänky	4
 2505	BEDROOM///makuuhuone	1
+665	BEE///Ampiainen	1
 665	BEE///mehiläinen	1
 2570	BEEF///naudanliha	1
-1639	BEER///olut	1
+1639	BEER///olut	2
 1882	BEFORE///ennen	1
 3534	BEG///anoa	1
 3534	BEG///kerjätä	2
 3447	BEGIN OR START///aloittaa	1
+3333	BELIEF (RELIGIOUS)///Uskomus	1
 3333	BELIEF (RELIGIOUS)///uskomus	1
 1890	BELIEVE///uskoa	1
 2246	BELL///kello	3
@@ -80,12 +116,16 @@ ID	GLOSS	PRIORITY
 1251	BELLY///maha	1
 772	BELT///vyö	3
 2584	BENCH///penkki	1
+731	BEVERAGE///Juoma	1
 731	BEVERAGE///juoma	1
+4068	BIBLE///raamattu	1
 747	BICYCLE///polkupyörä	3
 1202	BIG///iso	1
 1202	BIG///suuri	1
 937	BIRD///lintu	3
+2805	BIRTH (ACCOUCHEMENT)///Syntymä	1
 2407	BIRTHDAY///syntymäpäivä	1
+4126	BISCUIT///keksi	1
 1403	BITE///3.01	2
 1403	BITE///purra	1
 163	BLACK///Musta	1
@@ -105,7 +145,7 @@ ID	GLOSS	PRIORITY
 3362	BOILED WATER///keitetty	1
 2860	BOLT (MOVE IN HASTE)///rynnätä	1
 1394	BONE///luu	3
-963	BOOK///kirja	1
+963	BOOK///kirja	2
 585	BOOT///saapas	2
 2546	BORDER///raja	1
 1501	BORE///porata	2
@@ -117,30 +157,32 @@ ID	GLOSS	PRIORITY
 1321	BOTTLE///pullo	3
 690	BOTTOM///pohja	1
 1010	BOUNDARY///rajaviiva	1
-1530	BOWL///kulho	1
+1530	BOWL///kulho	2
 3108	BOX (SOMEBODY OR SOMETHING)///nyrkkeillä	2
 1465	BOX///laatikko	1
 1366	BOY///poika	1
 1583	BRAIN///aivot	1
 2902	BRAWL (FIGHT)///tapella	2
-1368	BREAD///leipä	1
+1368	BREAD///leipä	2
 680	BREAK (DESTROY OR GET DESTROYED)///rikkoa	1
 1322	BREAKFAST///aamiainen	1
 1407	BREATHE///hengittää	1
 1006	BRICK///tiili	1
+1266	BRIDE///Morsian	1
 1266	BRIDE///morsian	1
 1011	BRIDGE///silta	1
 3709	BRILLIANT///loistava	1
 692	BRING///tuoda	1
 2531	BROAD///laaja	1
 245	BROOM///luuta	3
-1262	BROTHER///veli	1
+1262	BROTHER///veli	2
 2409	BROWN///Ruskea	1
 3109	BRUSH (TEETH)///harjata (hampaat)	2
 1821	BRUSH///harja	2
 3689	BUBBLE///kupla	1
 1840	BUILD///muurata	2
 1840	BUILD///rakentaa	1
+3396	BUILDING///Rakennus	1
 3396	BUILDING///rakennus	1
 2617	BULB///polttimo	1
 1008	BULL///sonni	1
@@ -155,20 +197,29 @@ ID	GLOSS	PRIORITY
 1791	BUTTERFLY///perhonen	3
 757	BUTTON///nappi	3
 1869	BUY///ostaa	1
+4153	CABIN///kämppä	1
 3283	CAGE///häkki	1
+2408	CAKE///Kakku	1
 1967	CALENDAR///kalenteri	1
 1989	CALF///vasikka	1
 258	CALM///rauhallinen	1
 2618	CAMERA///kamera	1
 1105	CAMP///leiri	1
+4110	CANCER (DISEASE)///syöpä	2
 1273	CANDLE///kynttilä	2
+874	CANDY///Karkki	1
+874	CANDY///Makeinen	1
 874	CANDY///makeinen	1
 3202	CANNON///tykki	1
+1970	CANOE///Kanootti	1
 1288	CAP///lakki	2
-1111	CAR///auto	2
+1111	CAR///auto	3
 1111	CAR///auto (auto )	1
+1770	CARCASS///Haaska	1
+1770	CARCASS///Raato	1
 2619	CARD///kortti	1
 2620	CARRIAGE///vaunut	2
+3085	CARROT///Porkkana	1
 3085	CARROT///porkkana	2
 700	CARRY///kantaa	3
 122	CART///vaunu	1
@@ -176,12 +227,17 @@ ID	GLOSS	PRIORITY
 1208	CAT///kissa	3
 702	CATCH///saada kiinni	1
 2247	CATERPILLAR///toukka	1
+4154	CATHEDRAL///kadetraali (katedraali)	1
 1153	CATTLE///karja	2
 2896	CAUSE TO (LET)///päästää	1
+4109	CELL (BIOLOGY)///solu	1
+4108	CELLAR///kellari	1
 1627	CHAIN///ketju	2
-1476	CHAIR///tuoli	3
+1476	CHAIR///tuoli	4
 2856	CHANGE (SOMETHING)///muuttaa	1
 1264	CHANGE///vaihtaa	1
+4056	CHAOS///kaaos	1
+4155	CHAPEL///kappeli	1
 1188	CHARCOAL///puuhiili	1
 1887	CHEAP///halpa	1
 1730	CHEEK///poski	1
@@ -192,88 +248,132 @@ ID	GLOSS	PRIORITY
 301	CHIEFTAIN///päällikkö	1
 2099	CHILD///lapsi	1
 2099	CHILD///muksu	1
+3873	CHOCOLATE///Suklaa	1
 129	CHOKE///tukehtua	1
 1750	CHOOSE///valita	1
 1349	CHURCH///kirkko	1
+4019	CIGAR///Sikari	1
 969	CIGARETTE///savuke	1
+1467	CIRCLE///Ympyrä	1
 2547	CITY///suurkaupunki	1
 3110	CLAP///taputtaa	2
 2235	CLEAN (SOMETHING)///pestä	2
 704	CLEAN///puhdas	1
 1310	CLEVER///nokkela	1
+992	CLIFF///Kallio	1
 992	CLIFF///kalliojyrkänne	1
 1102	CLIMB///kiivetä	3
 1323	CLOCK///kello	2
 1616	CLOTH///liina	1
+1895	CLOTHES///Vaate	1
 1895	CLOTHES///vaatteet	1
+1489	CLOUD///Pilvi	1
 1489	CLOUD///pilvi	3
 1763	CLUB///kerho	1
 2658	COAL///hiili	1
+1525	COAST///Rannikko	1
 1525	COAST///rannikkoalue	1
 1299	COFFEE///kahvi	1
 1867	COIN///kolikko	1
+2932	COLD (CHILL)///Kylmyys	1
 1287	COLD///kylmä	1
+2045	COLUMN///pylväs	1
 2070	COMB (VERB)///kammata	2
+1475	COMB///Kampa	1
 1475	COMB///kampa	2
 1446	COME///tulla	1
+4112	COMFORT///mukavuus	1
 3429	COMPARE///verrata	1
 2606	COMPASS///kompassi	1
+4123	COMPETENCE///Etevyys	1
+4123	COMPETENCE///Pätevyys	1
+4123	COMPETENCE///pätevyys	1
 3642	COMPLAIN///valittaa	1
-3086	COMPUTER///tietokone	3
+3086	COMPUTER///tietokone	4
 3966	CONCEPT///konsepti	1
 484	CONDEMN///paheksua	1
 3111	CONDUCT///johtaa	2
+4118	CONFIDENCE///itseluottamus	1
+4118	CONFIDENCE///luottamus	1
+3967	CONTENT///sisältö	1
 2933	CONVERSATION///keskustelu	1
 1100	COOK (SOMETHING)///keittää	2
 1100	COOK (SOMETHING)///kypsentää	1
 269	COOKED///kypsennetty	1
-192	CORNER///nurkka	1
+192	CORNER///nurkka	2
+767	CORPSE///Ruumis	1
+4117	CORRIDOR///käytävä	2
+4116	COTTAGE///mökki	2
 1850	COTTON///puuvilla	1
+3049	COURAGE///Rohkeus	1
 1068	COURT///tuomioistuin	1
 1643	COUSIN///serkku	1
 761	COVER///peittää	1
 1007	COW///lehmä	3
+1319	COWARD///Pelkuri	1
 2946	CRADLE///kehto	1
 96	CRAWL///kontata	2
 2354	CRICKET///kriketti	1
-1066	CRIME///rikos	1
+1066	CRIME///rikos	2
 1857	CROCODILE///krokotiili	3
 297	CROOKED///kiero	1
 1367	CROSS///risti	1
 2023	CROWD///väkijoukko	1
+1943	CROWN (OF HEAD)///Kruunu	1
 1943	CROWN (OF HEAD)///kruunu	1
 500	CRUEL///julma	1
 1839	CRY///itkeä	3
 1839	CRY///vuotaa	1
+4039	CRYSTAL///kristalli	1
+4179	CUBE///kuutio	1
 496	CUCUMBER///kurkku	2
+476	CUP///Kuppi	1
 476	CUP///kuppi	1
+3357	CUPBOARD///kamari	1
 2621	CURTAIN///verho	1
 1698	CURVED///kaareva	1
+1747	CUSTOM///Käytäntö	1
 1747	CUSTOM///perinne	1
 1432	CUT///leikata	2
+2947	DAMAGE (INJURY)///Vaurio	1
+2947	DAMAGE (INJURY)///vamma	1
 3472	DANCE (MOVEMENT)///tanssi	1
 1879	DANCE///tanssia	2
-1810	DANGER///vaara	1
+1810	DANGER///vaara	2
+11	DARKNESS///Pimeys	1
 1357	DAUGHTER///tytär	1
 729	DAWN///aamunkoitto	1
 1225	DAY (NOT NIGHT)///päivä  (päivä)	1
-910	DEATH///kuolema	1
+910	DEATH///Kuolema	1
+910	DEATH///Surma	1
+910	DEATH///kuolema	2
+1914	DEBT///Velka	1
+1914	DEBT///velka	1
 3230	DECEIVE///pettää	1
 685	DECIDE///päättää	1
 2864	DECREASE///pienentää	1
+782	DEFEAT///Tappio	1
 1330	DEFEND///puolustaa	1
+3231	DEITY///Jumaluus	1
 3231	DEITY///jumala	1
 1271	DELIGHT///miellyttää	1
 1973	DEMON///demoni	1
 2239	DENSE///tiheä	1
 755	DENY///kiistää	1
 756	DEPEND///riippua	1
+3877	DEPRESSION///Masennus	1
+3877	DEPRESSION///masennus	1
 2534	DEPTH///syvyys	1
 3687	DESERT///aavikko	1
 2117	DESIRE///himoita	1
 2715	DESPISE///halveksia	1
 681	DESTROY///hävittää	1
 681	DESTROY///tuhota	1
+4115	DESTRUCTION///tuho	2
+4076	DEVELOPMENT///Kehitys	1
+4076	DEVELOPMENT///kehitys	1
+1977	DEW///Kaste	1
+3878	DIAMOND///Timantti	1
 1494	DIE///kuolla	1
 2504	DIFFERENT///erilainen	1
 584	DIFFICULT///kova	1
@@ -282,21 +382,31 @@ ID	GLOSS	PRIORITY
 1833	DINNER (SUPPER)///illallinen	1
 1833	DINNER (SUPPER)///päivällinen	1
 4021	DINOSAUR///dinosaurus	1
+3427	DIRECTION///Suunta	1
 25	DIRT///lika	1
 1230	DIRTY///likainen	1
 485	DISAPPEAR///hävitä (hävitä )	1
+3845	DISAPPOINTMENT///Pettymys	1
+3845	DISAPPOINTMENT///pettymys	1
+1986	DISEASE///Sairaus	1
+1986	DISEASE///sairaus	1
 1986	DISEASE///sairaus (tauti/pahoinvointi)	1
+481	DISH///Astia	1
 2978	DISTANCE///etäisyys	1
 2883	DISTURB///häiritä	1
 119	DIVE///sukeltaa	3
 1119	DIVIDE///jakaa	1
 813	DO///tehdä	1
 2009	DOG///koira	3
+1659	DOLL///Nukke	1
 1659	DOLL///nukke	2
-1567	DOOR///ovi	3
+1567	DOOR///ovi	4
 2030	DRAG///vetää	2
 93	DRAW MILK///lypsää	2
+4072	DRAWER///vetolaatikko	1
+2374	DREAM///Unelma	1
 2374	DREAM///unelma	1
+2374	DREAM///uni	1
 474	DRESS///mekko	2
 1401	DRINK///juoda	3
 2253	DRIP (EMIT LIQUID)///tippua	2
@@ -310,6 +420,7 @@ ID	GLOSS	PRIORITY
 1786	DRY UP///kuivata	2
 1360	DUCK///sorsa	2
 1492	DUMB///tyhmä	1
+2057	DUNG (ANIMAL FAECES)///Lanta	1
 2297	DUSK///iltahämärä	1
 2	DUST///pöly	1
 1905	EAGLE///kotka	1
@@ -318,15 +429,18 @@ ID	GLOSS	PRIORITY
 6	EARTHQUAKE///maanjäristys	1
 686	EASY///helppo	1
 1336	EAT///syödä	2
+2816	ECHO///Kaiku	1
 981	ELBOW///kyynärpää	1
 240	ELECTION///vaalit	1
 59	ELECTRICITY///sähkö	1
 1290	ELEPHANT///elefantti	1
 1290	ELEPHANT///norsu	2
-4033	ELEVATOR///hissi	1
+4033	ELEVATOR///hissi	2
 928	EMBRACE///halata	3
 1076	EMERGE (APPEAR)///ilmestyä	1
 3377	EMPEROR///keisari	1
+742	END (OF SPACE)///Loppu	1
+2622	ENGINE///moottori	1
 2622	ENGINE///moottori (veduri)	1
 749	ENTER///tulla sisään (käydä sisään)	1
 3088	ENVELOPE///kirjekuori	3
@@ -339,33 +453,50 @@ ID	GLOSS	PRIORITY
 127	EXTINGUISH///sammuttaa	2
 1248	EYE///silmä	3
 1173	EYEBROW///kulmakarva	1
+4105	FABRIC///Kangas	1
+4105	FABRIC///kangas	1
+4180	FACTORY///tehdas	1
 2704	FADE (LOOSE COLOR)///haalistua	1
+675	FAECES (EXCREMENT)///paska	1
 3258	FALCON///haukka	1
 1280	FALL///kaatua	1
 1280	FALL///pudota	2
+865	FAME///Suosio	1
 865	FAME///kuuluisuus	1
+194	FAMILY///Perhe	1
+194	FAMILY///perhe	1
+1159	FART///pieru	1
 1631	FAST///nopea	1
 1631	FAST///nopeasti	1
 1631	FAST///vikkelä	1
-1217	FATHER///isä	2
+1217	FATHER///isä	3
+781	FEAR (FRIGHT)///Pelko	1
+781	FEAR (FRIGHT)///pelko	1
+1201	FEATHER///Sulka	1
 1201	FEATHER///sulka	2
 739	FEED///syöttää	2
 1079	FEEL///tuntea	1
+2573	FEELING (EMOTION)///Tunne	1
 2573	FEELING (EMOTION)///tunne	1
 1690	FENCE///aita	1
+131	FESTIVAL///Juhla	1
 131	FESTIVAL///juhla	1
 1534	FEVER///kuume	1
+212	FIELD///kenttä	1
 212	FIELD///pelto	1
 1423	FIGHT///taistella	1
 3113	FILE (SOMETHING)///viilata	2
+4124	FILTH///Saasta	1
+4124	FILTH///saasta	1
 719	FIND///löytää	1
 1303	FINGER///sormi	1
 1896	FINGERNAIL OR TOENAIL///kynsi	1
 1766	FINISH///suorittaa loppuun	1
 221	FIRE///tuli	1
 227	FISH///kala	2
+2638	FISHING///Kalastus	1
 2638	FISHING///onkia	2
-2623	FLAG///lippu	3
+2623	FLAG///lippu	4
 956	FLEE///paeta	1
 2259	FLESH///liha	1
 1691	FLEXIBLE///joustava	1
@@ -379,32 +510,48 @@ ID	GLOSS	PRIORITY
 1441	FLY (MOVE THROUGH AIR)///lentää	2
 249	FOG///sumu	1
 1085	FOLLOW///seurata	1
-256	FOOD///ruoka	1
+256	FOOD///ruoka	2
 1301	FOOT///jalkaterä	1
+4166	FOOTBALL (GAME OR OBJECT)///amerikkalainen jalkapallo (jalkapallo)	1
+4167	FOOTBALL (GAME)///futis	1
 1523	FORGET///unohtaa	1
 1528	FORGIVE///antaa anteeksi	1
 1302	FORK///haarukka	2
 1938	FORTRESS///linna	1
 1312	FOX///kettu	1
 2624	FRAME///kehys	1
+4081	FRAUD///Petos	1
+4081	FRAUD///petos	2
 2316	FREE///vapaa	1
+4086	FREEDOM///Vapaus	1
+4086	FREEDOM///vapaus	2
 243	FRESH///tuore	1
-1325	FRIEND///ystävä	1
+1325	FRIEND///Ystävä	1
+1325	FRIEND///ystävä	2
+3954	FRIENDSHIP///Ystävyys	1
 503	FROG///sammakko	2
 991	FRY///paistaa	3
+4062	FUN///hauskuus (hauskanpito)	1
+3336	FUNERAL///hautajaiset	1
+4038	FUNNY///hauska	1
+580	FUR///Turkis	1
 580	FUR///turkki	1
 2467	GAME///peli	1
 2948	GAP (DISTANCE)///rako	1
+909	GARBAGE///roska	1
 586	GARDEN///puutarha	1
 2940	GATE///portti	3
+2566	GELDING///Ruuna	1
 3632	GENEROUS///antelias	1
 694	GET///saada	1
-2982	GIFT///lahja	1
+2982	GIFT///Lahja	1
+2982	GIFT///lahja	2
 3089	GIRAFFE///kirahvi	2
 1646	GIRL///tyttö	1
 1447	GIVE///antaa	1
-604	GLASS///lasi	3
+604	GLASS///lasi	4
 2588	GLOBE///maapallo	1
+867	GLOVE///Käsine	1
 867	GLOVE///hanska	1
 1069	GLUE///liimata	2
 2014	GO DOWN (DESCEND)///laskeutua	1
@@ -417,26 +564,30 @@ ID	GLOSS	PRIORITY
 815	GOVERNMENT///hallitus	1
 3657	GRANARY///lato	1
 2021	GRASP///sisäistää	1
+606	GRASS///Ruohikko	1
 606	GRASS///ruoho	1
 2819	GRASSLAND///niitty	1
 2819	GRASSLAND///ruohoalue	1
 3114	GRATE (SOMETHING)///raastaa	2
-1773	GRAVE///hauta	1
+1773	GRAVE///Hauta	1
+1773	GRAVE///hauta	2
 1425	GREEN///Vihreä	1
 3552	GREET///tervehtiä	1
 153	GREY///Harmaa	1
-1668	GRIEF///murhe	1
+1668	GRIEF///murhe	2
 1668	GRIEF///suru	1
 3282	GROOM///sulhanen	1
 479	GROW///kasvaa	1
 1782	GUEST///vieras	1
+4125	GUILT///syyllisyys	1
 1682	GUILTY///syyllinen	1
 3090	GUITAR///kitara	3
 1566	GUN///ase	1
 1566	GUN///pyssy	2
 609	HAIL///raekuuro	1
 2880	HALT (STOP)///pysähtyä	2
-1481	HAMMER///vasara	1
+1481	HAMMER///Vasara	1
+1481	HAMMER///vasara	2
 1277	HAND///käsi (käsi )	1
 1254	HANDLE///kahva	1
 357	HANG UP///roikkua	1
@@ -447,18 +598,24 @@ ID	GLOSS	PRIORITY
 1827	HARVEST CROPS///niittää	1
 771	HAT///hattu	3
 3116	HATCH (OUT)///kuoriutua	2
+3749	HATE (LOATHING)///viha	1
 1607	HATE///vihata	1
 307	HAWK///haukka	1
 1256	HEAD///pää	1
+3828	HEALTHINESS///Terveys	1
 1408	HEAR///kuulla	1
+2518	HEARING (AURAL SENSE)///Kuulo	1
+1223	HEART///Sydän	1
 1223	HEART///sydän	3
 1210	HEAVY///painava	1
 2580	HELICOPTER///helikopteri	3
+878	HELL///helvetti	1
 1680	HELMET///kypärä	1
 1897	HELP///auttaa	1
 1514	HEN///kana	2
 1514	HEN///naaraslintu	1
 136	HERE///täällä	1
+4175	HERO///sankari	1
 614	HILL///mäki	1
 1745	HIP///lonkka	1
 1433	HIT///osua	1
@@ -468,13 +625,18 @@ ID	GLOSS	PRIORITY
 1702	HOLY///pyhä	1
 2406	HOME///koti	1
 1120	HONEST///rehellinen	1
-942	HONEY///hunaja	1
+942	HONEY///hunaja	2
 3628	HONOR (SOMEBODY)///kunnia	1
+3211	HOPE (FAITH)///toivo	1
 939	HORN (INSTRUMENT)///sarvi	1
 615	HORSE///hevonen	4
-616	HOSPITAL///sairaala	1
+4161	HOSE///letku	1
+616	HOSPITAL///Sairaala	1
+616	HOSPITAL///sairaala	2
 3955	HOSTILITY///vihamielisyys	1
-1252	HOUSE///talo	3
+1252	HOUSE///talo	4
+4069	HUMBLE///nöyrä	1
+1864	HUNGER///Nälkä	1
 1435	HUNT///metsästää	3
 3380	HUNTING DOG///ajokoira	1
 754	HURRY///kiirehtiä	1
@@ -487,10 +649,16 @@ ID	GLOSS	PRIORITY
 117	IMITATE///matkia	1
 1963	IMMEDIATELY///välittömästi	1
 1285	IMPORTANT///tärkeä	1
+4114	INDUSTRY///teollisuus	2
+4044	INFORMATION///tieto	1
+4048	INHABITANT///Asukas	1
+4048	INHABITANT///asukas	1
 90	INNOCENT///viaton	1
 620	INSECT///hyönteinen	1
 2916	INSTANTLY (IMMEDIATELY)///välittömästi	1
 3204	INSULT///solvata	1
+4087	INTELLIGENCE///Älykkyys	1
+4087	INTELLIGENCE///älykkyys	1
 1162	INTENTION///tarkoitus	1
 3847	INTEREST (FEELING)///mielenkiinto	1
 3118	IRON (CLOTHES)///silittää	2
@@ -501,18 +669,28 @@ ID	GLOSS	PRIORITY
 2770	JACKET///jakku	1
 798	JAW///leuka	1
 1743	JOIN///liittyä	1
+3425	JOKE///Vitsi	1
+3425	JOKE///vitsi	1
 2393	JOURNEY///matka	1
-2524	JOY///ilo	1
+2524	JOY///Riemu	1
+2524	JOY///ilo	2
 861	JUDGE///tuomari	1
 1499	JUICE///mehu	1
 1829	JUMP///hypätä	2
+4049	JUSTICE///oikeudenmukaisuus	1
+4049	JUSTICE///oikeus	1
 164	KANGAROO///kenguru	2
 1477	KEEP///pitää	1
+854	KETTLE///pannu	1
 1472	KEY///avain	3
 1135	KICK///potkaista	3
 489	KIDNEY///munuainen	1
 1417	KILL///tappaa	1
+3468	KINDNESS///Kiltteys	1
+1508	KING///Kuningas	1
 1508	KING///kuningas	1
+3454	KISS (NOUN)///Suudelma	1
+3454	KISS (NOUN)///suudelma	1
 578	KISS///suukottaa	2
 1365	KITCHEN///keittiö	1
 1371	KNEE///polvi	1
@@ -520,6 +698,8 @@ ID	GLOSS	PRIORITY
 2905	KNIT///kutoa	2
 2396	KNOCK///koputtaa	2
 3626	KNOW///tietää	1
+3874	KNOWLEDGE///Tieto	1
+2525	LABOUR (EFFORT)///ponnistus	1
 1464	LADDER///tikapuut	2
 2471	LADY///leidi	1
 624	LAKE///järvi	1
@@ -527,7 +707,12 @@ ID	GLOSS	PRIORITY
 625	LAMP///lamppu	3
 1307	LANGUAGE///kielenkäyttö	1
 1355	LAUGH///nauraa	3
+2958	LAUGHTER///Nauru	1
+2958	LAUGHTER///nauru	1
+3990	LAWN///Nurmikko	1
+3990	LAWN///nurmikko	1
 1564	LAZY///laiska	1
+4097	LEADER///johtaja	2
 628	LEAF///lehti	3
 504	LEARN///oppia	1
 1752	LEAVE///jättää	1
@@ -535,15 +720,19 @@ ID	GLOSS	PRIORITY
 1297	LEG///jalka	3
 3091	LEMON///sitruuna	3
 582	LEND///lainata (antaa lainaksi)	1
+2537	LENGTH///pituus	1
 1095	LET GO OR SET FREE///vapauttaa	1
 1612	LETTER///kirje	1
-3469	LEVEL///taso	1
+3469	LEVEL///taso	2
 319	LICK///nuolla	2
 601	LIE (MISLEAD)///valehdella	1
+210	LIFE///Elämä	1
+210	LIFE///elämä	1
 501	LIFT///nostaa	1
 737	LIGHT (IGNITE)///sytyttää	2
 630	LIGHT (RADIATION)///valo	1
 3092	LIGHTER///sytytin	2
+4079	LIGHTHOUSE///Majakka	1
 366	LIMP///ontua	1
 916	LINEN///pellava	1
 1386	LION///leijona	3
@@ -553,17 +742,21 @@ ID	GLOSS	PRIORITY
 1608	LISTEN///kuunnella	3
 1224	LIVER///maksa	1
 632	LIZARD///lisko	1
+1679	LOAD///Taakka	1
 1596	LOCK///lukko	1
 2429	LOGIC///logiikka	1
+4096	LONELY///yksinäinen	1
 1203	LONG///pitkä	1
+2960	LONGING (WISH)///halu	1
 1468	LOOK FOR///etsiä	3
 1819	LOOK///katsoa	1
 2506	LOOSE///löysä	1
 1660	LOSE///menettää (kadottaa)	1
 377	LOUD///äänekäs	1
+3834	LOVE (AFFECTION)///Rakkaus	1
 768	LUNCH///lounas	1
 688	LUNG///keuhko	1
-144	MACHINE///kone	1
+144	MACHINE///kone	2
 1899	MAD///hullu	1
 506	MAIZE///maissi	1
 506	MAIZE///maissikasvi	1
@@ -577,30 +770,46 @@ ID	GLOSS	PRIORITY
 938	MARE///tamma	1
 203	MARRY///naida	1
 203	MARRY///vihkiä	2
+2005	MASK///Naamari	1
 2005	MASK///naamio	1
 3119	MASSAGE (SOMEBODY)///hieroa	2
 1133	MATCH///tulitikku	2
 1526	MEAL///ateria	1
 1506	MEASURE///mitata	2
 634	MEAT///liha	1
+4136	MEDAL///mitali	1
+1372	MEDICINE///Lääke	1
+1372	MEDICINE///lääke	1
 1831	MEET///tavata	1
+4054	MELODY///melodia	1
 2334	MELT///sulaa	3
 2244	METAL///metalli	1
 4016	MICROSCOPE///mikroskooppi	1
-635	MILK///maito	1
+635	MILK///maito	2
 636	MILL///mylly	1
+1562	MIND///Mieli	1
 1562	MIND///mieli	1
 486	MINISTER///ministeri	1
+2541	MIRACLE///ihme	1
+2553	MISERY///Kärsimys	1
+2553	MISERY///kurjuus	1
 161	MISS (A TARGET)///ampua ohi	1
+1293	MISTAKE///Vahinko	1
+1293	MISTAKE///Virhe	1
 2017	MIX///sekoittaa	3
-1559	MONEY///raha	1
+4053	MODEST///vaatimaton	1
+4075	MOMENT///Hetki	1
+4075	MOMENT///hetki	1
+1559	MONEY///raha	2
 1350	MONKEY///apina	3
 1370	MONTH///kuukausi	1
 1313	MOON///kuu	3
 3120	MOP (SOMETHING)///luututa	2
 1339	MORNING///aamu	1
+1509	MOSQUITO///sääski	1
 637	MOSS///sammal	1
-1216	MOTHER///äiti	1
+1216	MOTHER///äiti	2
+110	MOTOR///Moottori	1
 110	MOTOR///moottori  (moottori)	1
 638	MOTORCYCLE///moottoripyörä	2
 639	MOUNTAIN///vuori	1
@@ -610,21 +819,30 @@ ID	GLOSS	PRIORITY
 3695	MOVEMENT///liike	1
 216	MOVIE///elokuva	1
 640	MUD///muta	1
+845	MURDER///Murha	1
+3871	MURDERER///Murhaaja	1
+3871	MURDERER///Tappaja	1
+3871	MURDERER///murhaaja	1
 1004	MUSCLE///lihas	1
-641	MUSHROOM///sieni	2
-642	MUSIC///musiikki	1
+641	MUSHROOM///sieni	3
+642	MUSIC///Musiikki	1
+642	MUSIC///musiikki	2
 3181	MUSTARD///sinappi	1
 3306	NAIL///naulata	2
 1267	NARROW///kapea	1
+3897	NATURE///luonto	1
 1030	NECESSARY///tarpeellinen	1
 1333	NECK///niska	1
+643	NEED (NOUN)///Tarve	1
 1382	NEEDLE (FOR SEWING)///neula	2
 1063	NEPHEW///veljenpoika	1
+2626	NERVE///Hermo	1
 2626	NERVE///hermo	1
 3975	NERVOUS///hermostunut	1
 539	NEST///pesä	2
 1656	NEVER///ei koskaan	1
 1231	NEW///uusi	1
+2964	NEWS///Uutinen	1
 2964	NEWS///uutiset	1
 1298	NEWSPAPER///sanomalehti	3
 1233	NIGHT///yö	1
@@ -632,19 +850,25 @@ ID	GLOSS	PRIORITY
 1598	NORTH///pohjoinen	1
 1221	NOSE///nenä	3
 1376	NOW///nyt	1
+1356	NUMBER///Numero	1
 1356	NUMBER///numero	1
+1104	NURSE///Hoitaja	1
 1104	NURSE///sairaanhoitaja	1
 644	OAK///tammi	1
 60	OAT///kaura	1
 1635	OBEY///totella	1
 645	OCEAN///valtameri	1
-2430	OFFICE///toimisto	1
+3704	ODOR (SMELL)///Tuoksu	1
+2430	OFFICE///Toimisto	1
+2430	OFFICE///toimisto	2
+4176	OFFICER///sijainen	1
 1852	OFTEN///usein	1
 1229	OLD///vanha	1
 374	ONE TIME///kerran	1
 2366	ONION///sipuli	2
 1156	OPEN///avata	2
 3121	OPERATE (MEDICINE)///leikata	2
+4113	OPINION///mielipide	1
 885	OPPOSITE///vastapäinen	1
 3328	ORANGE (COLOR)///Oranssi	1
 2627	ORANGE (FRUIT)///appelsiini	3
@@ -654,18 +878,26 @@ ID	GLOSS	PRIORITY
 735	OWL///pöllö	2
 1169	OX///härkä	1
 3087	PACIFIER///tutti	2
-1783	PAIN///kipu	1
+1783	PAIN///kipu	2
 3122	PAINT (SOMETHING)///maalata	2
 3094	PAINTBRUSH///pensseli	2
 2001	PAINTING///piirtää	3
 1888	PAIR///pari	1
+4059	PALACE///palatsi	1
+2611	PALETTE (PAINTING)///Paletti	1
 1183	PALM OF HAND///palmu	1
 31	PAN///paistinpannu	2
 648	PAPER///paperi	1
+4061	PARSLEY///persilja	1
+779	PART///osa	1
+4060	PASSION///Intohimo	1
+4060	PASSION///intohimo	1
 2252	PATH///polku	1
 3375	PATIENT (SICK PERSON)///potilas	1
 718	PAY///maksaa	1
-1338	PEACE///rauha	1
+1338	PEACE///Kappale	1
+1338	PEACE///Rauha	1
+1338	PEACE///rauha	2
 922	PEAR///päärynä	2
 3325	PEARL///helmi	1
 275	PEEL///kuoria	2
@@ -674,57 +906,87 @@ ID	GLOSS	PRIORITY
 2578	PENCIL///kynä	1
 2578	PENCIL///lyijykynä	2
 2831	PENGUIN///pingviini	2
+789	PEOPLE///Kansa	1
 2278	PERHAPS///ehkäpä	1
 1003	PERMIT///antaa lupa	1
 683	PERSON///henkilö	1
 2458	PERSPIRE OR SWEAT///hikoilla	2
 3645	PERSUADE///suostutella	1
+3780	PET///Lemmikki	1
 3780	PET///lemmikkieläin	1
 3123	PHOTOGRAPH (SOMETHING)///kuvata	2
+597	PHYSICIAN///lääkäri	1
 597	PHYSICIAN///tohtori	1
 3994	PIANO (INSTRUMENT)///piano	1
 2148	PICK///poimia	3
+3303	PICTURE (PAINTING)///Maalaus	1
 594	PIECE///pala	1
+1044	PILLOW///tyyny	1
 378	PINCH///nipistää	3
+1740	PINE///Mänty	1
 2440	PINEAPPLE///ananas	3
 3446	PINK///Pinkki	1
 1124	PIPE///putki	1
 592	PISS///pissata	2
+723	PLACE (POSITION)///Sijainti	1
+4042	PLANET///planeetta	1
+653	PLANT (VEGETATION)///Kasvi	1
 653	PLANT (VEGETATION)///istuttaa	2
 653	PLANT (VEGETATION)///kasvi	1
 480	PLATE///lautanen	1
 3125	PLAY (GAME)///golfata	2
 3124	PLAY (INSTRUMENT)///soittaa (pianoa)	2
 1413	PLAY///leikkiä	1
+3916	PLEASURE///Nautinto	1
 1921	PLOUGH///kyntää	2
 1045	POET///runoilija	1
+541	POETRY///Runous	1
+655	POISON///Myrkky	1
+655	POISON///myrkky	1
 3659	POLISH (SOMETHING)///kiillottaa	1
 3300	POLITE///kohtelias	1
 1674	POOR///köyhä	1
+610	PORT///Satama	1
 3126	POST (SOMETHING)///postittaa	2
 3095	POSTMAN///postinkantaja	2
 593	POTATO///peruna	1
 1487	POUR///kaataa	3
+4066	POVERTY///Köyhyys	1
+4066	POVERTY///köyhyys	2
+2526	POWER///Valta	1
+2526	POWER///Voima	1
 3001	POWERFUL///voimallinen	1
+1687	PRAISE///Ylistys	1
 24	PRAY///rukoilla	1
+4100	PRAYER///Rukous	1
 3002	PRECIOUS///kallisarvoinen	1
 899	PRESIDENT///presidentti	1
 1913	PRESS///painaa	1
+3915	PRIDE///Ylpeys	1
+852	PRIEST///Pappi	1
 852	PRIEST///pappi	1
 2554	PRINCE (RULER)///prinssi	1
 1281	PRISON///putka (vankila)	1
+1072	PRISONER///Vanki	1
 1675	PROMISE///luvata	1
+1610	PROSTITUTE///huora	1
 2900	PROTECT///suojella	1
+4083	PROTECTION///Suojelu	1
 174	PROUD///ylpeä	1
 1455	PULL///vetää	3
 3649	PUNISH///rangaista	1
+390	PUNISHMENT///rangaistus	1
 753	PUPIL (STUDENT)///opiskelija	1
 1147	PURE///puhdashenkinen	1
 2452	PURPLE///Violetti	1
 1047	PURSUE///tavoitella	2
+1808	PUS///visva	1
 1452	PUSH///työntää	3
 998	PUT///laittaa	1
+4078	QUALITY///Laatu	1
 3302	QUARREL (VERB)///kiistellä	2
+1848	QUARREL///Riita	1
+1848	QUARREL///riita	1
 1136	RABBIT///jänis	1
 1136	RABBIT///kani	2
 3096	RACKET///maila	1
@@ -734,13 +996,17 @@ ID	GLOSS	PRIORITY
 2108	RAINING OR RAIN///sataa	2
 2134	RAISE (BRING UP)///korottaa	1
 3127	RAKE (SOMETHING)///haravoida	2
+953	RAPE///Raiskaus	1
+953	RAPE///raiskaus	1
 209	RARE///harvinainen	1
 1490	RAT///rotta	1
 724	READ///lukea	3
+4119	REALITY///todellisuus	2
 156	RED///Punainen	1
 156	RED///punainen	1
 660	REEF///riutta	1
 49	REFUSE///kieltäytyä	1
+1644	RELATIVES///Omainen	1
 661	RELIGION///uskonto	1
 987	REMAIN///jäädä	1
 987	REMAIN///pysyä	1
@@ -748,7 +1014,12 @@ ID	GLOSS	PRIORITY
 2243	REPAIR///korjata	1
 880	REPEAT///toistaa	1
 2008	RESCUE///pelastaa	1
+1912	RESPECT (NOUN)///kunnioitus	1
+4091	RESTAURANT///Ravintola	1
 421	RETREAT///vetäytyä	1
+495	REVENGE///Kosto	1
+4120	REWARD///palkinto	1
+4120	REWARD///palkkio	1
 926	RICE///riisi	1
 367	RIDE///ajaa	1
 367	RIDE///ratsastaa	2
@@ -759,8 +1030,10 @@ ID	GLOSS	PRIORITY
 667	ROAD///tie	1
 1962	ROAST (SOMETHING)///paistaa	2
 769	ROOF///katto	3
+1450	ROOM///Huone	1
 1450	ROOM///huone	1
 670	ROOT///juuri	1
+1218	ROPE///Nyöri	1
 1218	ROPE///johto	1
 1923	ROUGH///karkea	1
 1849	ROW///soutaa	2
@@ -771,10 +1044,16 @@ ID	GLOSS	PRIORITY
 3405	RULER///viivotin	2
 2142	RUN AWAY///karata	1
 1519	RUN///juosta	3
+3064	RUST///Ruoste	1
 699	SAD///surullinen	1
 3762	SAFE///turvallinen	1
+4085	SAFETY///Turva	1
+4085	SAFETY///turvallisuus	1
 787	SAIL///purjehtia	2
+4041	SALAD///Salaatti	1
+4041	SALAD///salaatti	1
 1274	SALT///suola	1
+671	SAND///Hiekka	1
 671	SAND///hiekka	1
 4008	SANDWICH///voileipä	3
 132	SAUCE///kastike	1
@@ -785,10 +1064,16 @@ ID	GLOSS	PRIORITY
 3033	SCARED///pelokas	1
 3033	SCARED///pelästynyt	1
 673	SCHOOL///koulu	1
+4095	SCIENCE///Tiede	1
+4095	SCIENCE///tiede	1
+2522	SCREAM (NOISE)///Kiljunta	1
 2522	SCREAM (NOISE)///kirkua	1
+2834	SCROTUM///kivekset	1
 914	SCULPTOR///kuvanveistäjä	1
 1474	SEA///meri	1
 691	SEASON///kausi	1
+4088	SEAT///Istuin	1
+4088	SEAT///istuin	1
 714	SEED///siemen	1
 3050	SEEDLING///taimi	1
 1521	SEEM///näyttää	1
@@ -796,17 +1081,23 @@ ID	GLOSS	PRIORITY
 1571	SELL///myydä	1
 1127	SEND///lähettää	1
 1359	SEPARATE///erottaa	1
+3167	SERMON///Saarna	1
 255	SERVANT///palvelija	1
 1457	SEW///ommella	2
 3097	SEWING MACHINE///ompelukone	2
 1909	SHAKE///ravistaa	1
+1776	SHAME///Häpeä	1
 1776	SHAME///häpeä	1
+3747	SHAPE///Muoto	1
 251	SHARPEN (SOMETHING)///teroittaa	2
 231	SHAVE///ajaa partaa	2
 1532	SHEAR///keritä	2
 356	SHEARS///sakset	2
 1331	SHEEP///lammas	1
+745	SHELF///Hylly	1
+598	SHELL///Kuori	1
 1064	SHIELD///suoja	1
+2236	SHINE (EMITTED LIGHT)///Loisto	1
 708	SHINE///loistaa	1
 1622	SHIRT///paita	3
 52	SHIVER///vapista	1
@@ -824,17 +1115,21 @@ ID	GLOSS	PRIORITY
 2351	SILKWORM///silkkitoukka	1
 1558	SIMILAR///samankaltainen	1
 1261	SING///laulaa	3
+4173	SINGER///laulaja	1
 1088	SINK (DESCEND)///upota	2
-1263	SISTER///sisko	1
+1263	SISTER///sisko	2
 1416	SIT///istua	2
-2845	SIZE (OF OBJECT)///koko	1
+2845	SIZE (OF OBJECT)///koko	2
 3129	SKATE///rullaluistella	2
 2991	SKI///hiihtää	2
 763	SKIN///iho	1
 1600	SKIRT///hame	1
+1605	SKULL///Kallo	1
 1732	SKY///taivas	1
+4162	SKYSCRAPER///pilvenpiirtäjä	1
 812	SLAVE///orja	1
 1585	SLEEP///nukkua	2
+4121	SLIME///lima	1
 1324	SLIP///liukastua	2
 2530	SMART///fiksu	1
 2530	SMART///älykäs	1
@@ -845,9 +1140,10 @@ ID	GLOSS	PRIORITY
 1689	SMOKE (INHALE)///tupakoida	2
 1234	SMOOTH///sileä	1
 1543	SNAIL///etana	2
-730	SNAKE///käärme	3
+730	SNAKE///Käärme	1
+730	SNAKE///käärme	4
 1983	SNORE///kuorsata	1
-784	SNOW///lumi	1
+784	SNOW///lumi	2
 1255	SNOWING///sataa lunta	2
 3098	SNOWMAN///lumiukko	2
 69	SOBER///selvin päin oleva	1
@@ -856,6 +1152,7 @@ ID	GLOSS	PRIORITY
 3099	SOFA///sohva	3
 3099	SOFA///valmentaja	1
 1856	SOFT///pehmeä	1
+1941	SOLDIER///Sotilas	1
 1941	SOLDIER///sotilas	1
 1544	SOMETIMES///joskus	1
 1620	SON///poika (jonkun poika)	1
@@ -864,10 +1161,14 @@ ID	GLOSS	PRIORITY
 2879	SOUND (OF INSTRUMENT OR VOICE)///ääni	1
 1547	SOUP///keitto	1
 1906	SOUR///happo	1
+1595	SOUTH///Etelä	1
 1595	SOUTH///etelä	1
 1623	SPEAK///puhua	1
 1898	SPECTACLES///silmälasit	2
 544	SPICY///mausteinen	1
+843	SPIDER///Hämähäkki	1
+843	SPIDER///hämähäkki	1
+1249	SPIKE///Piikki	1
 3130	SPILL (SOMETHING)///kaataa	2
 121	SPIN///kehrätä	2
 805	SPINE///selkäranka	1
@@ -875,6 +1176,7 @@ ID	GLOSS	PRIORITY
 1437	SPLIT///halkaista	1
 92	SPOIL (SOMEBODY OR SOMETHING)///pilata	1
 1378	SPOON///lusikka	3
+849	SPRING (OF WATER)///kevät	1
 849	SPRING (OF WATER)///lähde	1
 1414	SQUEEZE///puristaa	3
 1628	SQUIRREL///orava	2
@@ -882,24 +1184,28 @@ ID	GLOSS	PRIORITY
 1442	STAND///seistä	1
 1430	STAR///tähti	3
 2955	STATE (POLITICS)///osavaltio	1
-1002	STATUE///patsas	1
+1002	STATUE///patsas	2
 713	STEAL///varastaa	3
 2343	STEEL///teräs	1
+1158	STEP///Askel	1
 3703	STICKY///tahmea	1
+4106	STIFF///jäykkä	1
 571	STING///pistää	2
 696	STIR///hämmentää	1
 696	STIR///sekoittaa	2
 819	STOMACH///vatsa	1
 857	STONE///kivi	1
 2058	STOOL///jakkara	3
+858	STORM///Myrsky	1
 858	STORM///myrsky	1
+2060	STORY///Tarina	1
 2060	STORY///tarina	1
 1404	STRAIGHT///suora	1
 600	STRANGE///kummallinen	1
 2299	STRAW///pilli	1
 3138	STRAWBERRY///mansikka	3
 947	STREAM///puro	1
-1362	STREET///katu	1
+1362	STREET///katu	2
 202	STRENGTH///vahvuus	1
 353	STRIKE///iskeä	1
 362	STRING///naru	1
@@ -908,9 +1214,11 @@ ID	GLOSS	PRIORITY
 3617	STUMBLE///kompastua	1
 1518	STUPID///typerä	1
 1112	SUCCEED///onnistua	1
+4089	SUCCESS///Menestys	1
 146	SUGAR CANE///sokeriruoko	1
 862	SUGAR///sokeri	1
 1342	SUMMER///kesä	1
+1343	SUN///Aurinko	1
 1343	SUN///aurinko	3
 3131	SUNBATHE///ottaa aurinkoa	2
 3100	SUNGLASSES///aurinkolasit	2
@@ -920,7 +1228,7 @@ ID	GLOSS	PRIORITY
 3132	SURF///surffata	2
 1841	SUSPECT///epäillä	1
 897	SWALLOW///niellä	1
-1145	SWAMP///suo	1
+1145	SWAMP///suo	2
 1939	SWEAR///vannoa	1
 4035	SWEATER///(villa)pusero	2
 4035	SWEATER///villapaita (neule)	1
@@ -931,16 +1239,20 @@ ID	GLOSS	PRIORITY
 2871	SWING (MOVEMENT)///keinua	2
 3101	SWING///keinu	2
 1535	SWORD///miekka	1
+4090	SYRINGE///Ruisku	1
 3957	SYSTEM///järjestelmä	1
+1775	TABLE///pöytä	1
 1775	TABLE///työpöytä	2
 1220	TAIL///häntä	3
 1749	TAKE///ottaa	1
+4084	TALENT///Taito	1
 3133	TALK (PHONE)///puhua	2
 3102	TANK///panssarivaunu	2
 3102	TANK///tankki	1
 873	TAX///vero	1
 1373	TEA///tee	1
 709	TEACH///opettaa	1
+1038	TEACHER///Opettaja	1
 1038	TEACHER///opettaja	1
 1651	TEAR (OF EYE)///kyynel	1
 1735	TEAR (SHRED)///repiä	3
@@ -950,24 +1262,30 @@ ID	GLOSS	PRIORITY
 1788	TELEVISION///televisio	3
 1711	TELL///kertoa	1
 3103	TENNIS BALL///tennispallo	2
+4071	THEFT///varkaus	1
 2433	THEORY///teoria	1
 3104	THERMOMETER///lämpömittari	2
 1400	THIN (SLIM)///hoikka	1
 2271	THINK///ajatella	1
 847	THIRSTY///janoinen	1
+2975	THOUGHT///Ajatus	1
 1161	THREAD///ompelulanka	1
 1346	THROAT///kurkku	1
 1456	THROW///heittää	2
 1781	THUMB///peukalo	1
+1150	THUNDER///Ukkonen	1
 3711	TIE (NOUN)///solmio	2
 1917	TIE///sitoa	3
 846	TIGER///tiikeri	2
+892	TIME///aika	1
 893	TIN (METAL)///säilyketölkki	1
 2992	TIP (OF OBJECT)///pää	1
 1757	TIRED///väsynyt	1
+4080	TITLE///Nimike	1
 974	TOBACCO///tupakka	1
 1283	TODAY///tänään	1
 1389	TOE///varvas	1
+986	TOMATO///Tomaatti	1
 986	TOMATO///tomaatti	2
 1329	TOMORROW///huomenna	1
 1205	TONGUE///kieli	1
@@ -979,15 +1297,19 @@ ID	GLOSS	PRIORITY
 1671	TOWER///torni	1
 1391	TOWN///kaupunki	1
 2403	TOY///lelu	1
+4144	TRACTOR///traktori	2
 2434	TRAGEDY///tragedia	1
 900	TRAIN///juna	1
+4092	TRAITOR///Kavaltaja	1
 3665	TRAVEL///matkustaa	1
 906	TREE///puu	3
+4077	TRIANGLE///Kolmio	1
 809	TROUSERS///housut	2
 795	TROUT///taimen	1
 4011	TRUCK///kuorma-auto	1
 4011	TRUCK///rekka	1
 1657	TRUE///aito	1
+1638	TRUTH///totuus	1
 1812	TRY///yrittää	1
 2386	TURKEY///kalkkuna	1
 3914	TURQUOISE///Turkoosi	1
@@ -1000,9 +1322,11 @@ ID	GLOSS	PRIORITY
 1536	UNDERSTAND///ymmärtää	1
 3974	UNHAPPY///onneton	1
 2435	UNIVERSITY///yliopisto	1
+1142	URINE///virtsa	1
 3135	VACUUM (SOMETHING)///imuroida	2
 921	VALLEY///laakso	1
 2549	VEHICLE///ajoneuvo	1
+2549	VEHICLE///kulkuneuvo	1
 1924	VEIN///laskimo	1
 783	VICTORY///voitto	1
 985	VINEGAR///etikka	1
@@ -1013,10 +1337,12 @@ ID	GLOSS	PRIORITY
 1681	WAIST///vyötärö	1
 1590	WAIT (FOR)///odottaa	1
 1602	WAKE UP///herätä	2
+2979	WALK (MANNER)///Kävely	1
 1443	WALK///kävellä	3
 933	WALL (OF HOUSE)///seinä	1
 3666	WANDER///vaeltaa	1
 1784	WANT///haluta	1
+935	WAR///sota	1
 3106	WARDROBE///vaatekaappi	2
 3608	WARRIOR///soturi	1
 1453	WASH///pestä	1
@@ -1024,11 +1350,12 @@ ID	GLOSS	PRIORITY
 79	WASTE///tuhlata	1
 3136	WATCH (TV)///katsoa televisiota	2
 1650	WATCH///katsella	1
-1650	WATCH///rannekello	2
-948	WATER///vesi	1
+948	WATER///vesi	2
 2766	WATERMELON///vesimeloni	2
 3544	WAVE (VERB)///vilkuttaa	2
 978	WAVE///aalto	3
+2996	WEALTH///Rikkaus	1
+2996	WEALTH///varallisuus	1
 2996	WEALTH///varallisuus (varakkuus)	1
 951	WEAPONS///ase	1
 976	WEAR///pitää päällä	1
@@ -1036,9 +1363,12 @@ ID	GLOSS	PRIORITY
 133	WEAVE///pujotella	1
 1469	WEEK///viikko	1
 1098	WEIGH///punnita	2
+2466	WEIGHT///Paino	1
+1817	WEST///Länsi	1
 1817	WEST///länsi	1
 1726	WET///märkä	1
 1077	WHEAT///vehnä	1
+2630	WHIP///Piiska	1
 2630	WHIP///ruoskia	1
 55	WHISPER///kuiskata	3
 3107	WHISTLE (INSTRUMENT)///pilli	2
@@ -1046,15 +1376,20 @@ ID	GLOSS	PRIORITY
 1335	WHITE///Valkoinen	1
 1335	WHITE///valkoinen	1
 1243	WIDE///leveä	1
+1756	WIDOW///Leski	1
 1199	WIFE///vaimo	1
 958	WILD ANIMAL///peto	1
 866	WIN///voittaa	1
 960	WIND///tuuli	1
 1375	WINDOW///ikkuna	1
-1524	WINE///viini	1
+1524	WINE///viini	2
+4174	WINNER///Voittaja	1
+4174	WINNER///voittaja	1
 1471	WINTER///talvi	1
 1454	WIPE///pyyhkiä	1
 2631	WIRE///johdin	1
+4040	WISDOM///Viisaus	1
+4040	WISDOM///viisaus	1
 962	WOMAN///nainen	1
 1803	WOOD///puumateriaali	1
 1599	WORD///sana	1
@@ -1062,8 +1397,12 @@ ID	GLOSS	PRIORITY
 965	WORLD///maailma	1
 1219	WORM///mato	1
 150	WORRY///murehtia	1
+257	WORSHIP///Palvonta	1
+1109	WOUND///Haava	1
+1109	WOUND///haava	1
+2294	WRINKLE///Ryppy	1
 799	WRIST///ranne	1
-3349	WRISTWATCH///rannekello	1
+3349	WRISTWATCH///rannekello	3
 1672	WRITE///kirjoittaa	3
 1390	WRONG///väärä	1
 1226	YEAR///vuosi	1

@@ -1,4 +1,5 @@
 ID	GLOSS	PRIORITY
+4082	ABUNDANCE///överflöd	1
 1814	ACCUSE///anklaga	1
 591	ADDRESS///adress	1
 902	ADULTERY///otrohet	1
@@ -30,6 +31,7 @@ ID	GLOSS	PRIORITY
 1561	ARMY///armé	1
 977	ARROW///pil	1
 1889	ARSON///mordbrand	1
+4094	ART///konst	1
 646	ASH///aska	1
 1894	ASHAMED///skämmas	1
 1309	ASK (INQUIRE)///fråga	1
@@ -71,6 +73,7 @@ ID	GLOSS	PRIORITY
 832	BEAN///böna	1
 1820	BEAR///björn	4
 678	BEARD///skägg	1
+4051	BEAUTY///skönhet	1
 1194	BEAVER///bjur	1
 1157	BECAUSE///därför	1
 1663	BED///säng	3
@@ -183,6 +186,7 @@ ID	GLOSS	PRIORITY
 1974	CENTIPEDE///tusenfoting	1
 1627	CHAIN///kedja	3
 1476	CHAIR///stol	4
+4056	CHAOS///kaos	1
 1188	CHARCOAL///träkol, kol	1
 1730	CHEEK///kind	1
 1569	CHEESE///ost	3
@@ -212,6 +216,7 @@ ID	GLOSS	PRIORITY
 1763	CLUB///klubba	1
 603	COAT///kappa	1
 1575	COCKROACH///kackerlacka	1
+4132	COD///torsk	1
 1299	COFFEE///kaffe	2
 1867	COIN///skilling	1
 1287	COLD///kall	1
@@ -220,6 +225,7 @@ ID	GLOSS	PRIORITY
 2070	COMB (VERB)///kamma sig	2
 1475	COMB///kam	1
 1475	COMB///kam 	2
+4112	COMFORT///tröst	1
 3086	COMPUTER///dator	4
 3111	CONDUCT///dirigera	2
 287	CONE///kägla	1
@@ -415,6 +421,7 @@ ID	GLOSS	PRIORITY
 1500	FOUR///fyra	1
 2451	FOURTEEN///fjorton	1
 1312	FOX///räv	1
+4086	FREEDOM///frihet	2
 1431	FREEZE///frysa (om saker)	1
 1013	FRESHWATER EEL///ål	1
 1692	FRIDAY///fredag	1
@@ -679,10 +686,10 @@ ID	GLOSS	PRIORITY
 208	NASAL MUCUS (SNOT)///snor	1
 89	NATIVE COUNTRY///hemland	1
 1838	NAVEL///navel	1
-422	NECESSITY///behov	1
 1333	NECK///nacke	1
 1961	NECKLACE///halsband	1
 643	NEED (NOUN)///behov	1
+4181	NEED OR NECESSITY///behov	1
 1382	NEEDLE (FOR SEWING)///nål	3
 1332	NEIGHBOUR///granne	1
 539	NEST///fågelbo	3
@@ -744,6 +751,7 @@ ID	GLOSS	PRIORITY
 505	PARENTS///föräldrar	2
 882	PARROT///papegoja	1
 779	PART///del	1
+4060	PASSION///passion	1
 649	PASTURE///hage	1
 2252	PATH///väg	1
 718	PAY///betala	1
@@ -851,6 +859,7 @@ ID	GLOSS	PRIORITY
 1644	RELATIVES///släkt	1
 661	RELIGION///religion	1
 707	REMEMBER///komma ihåg	1
+4120	REWARD///belöning	1
 926	RICE///ris	1
 2970	RIDDLE///gåta	1
 367	RIDE///rida	2
@@ -892,12 +901,14 @@ ID	GLOSS	PRIORITY
 2783	SCALES (MEASURE INSTRUMENT)///våg	2
 497	SCAR///ärr	1
 673	SCHOOL///skola	2
+4095	SCIENCE///vetenskap	1
 1538	SCORPION///skorpion	1
 1802	SCREW///skruv	1
 914	SCULPTOR///skulptör	1
 1474	SEA///hav	3
 950	SEAGULL///lom	1
 691	SEASON///årstid	1
+4088	SEAT///säte	1
 1409	SEE///se	1
 714	SEED///frö	1
 1993	SELF///själv	1
@@ -997,6 +1008,7 @@ ID	GLOSS	PRIORITY
 34	STAIRS///trappa 	2
 1442	STAND///stå (person)	1
 1430	STAR///stjärna	4
+4043	STATION///station	1
 1002	STATUE///staty	1
 713	STEAL///stjäla	3
 1193	STEAM///dofve	1
@@ -1011,6 +1023,7 @@ ID	GLOSS	PRIORITY
 791	STRANGER///främmande	1
 2973	STRAP///bärrem	1
 3138	STRAWBERRY///jordgubbe	2
+4089	SUCCESS///framgång	1
 3475	SUFFICE///nöja	1
 862	SUGAR///socker	1
 1342	SUMMER///sommar	2
@@ -1098,6 +1111,7 @@ ID	GLOSS	PRIORITY
 1671	TOWER///torn	1
 1391	TOWN///stad	1
 2403	TOY///leksak	2
+4144	TRACTOR///traktor	2
 900	TRAIN///tåg	1
 574	TRANSIT///kors	1
 1075	TRAP (PITFALL)///gläfs	1
@@ -1148,7 +1162,6 @@ ID	GLOSS	PRIORITY
 1517	WASP///geting	1
 79	WASTE///slöseri	1
 3136	WATCH (TV)///titta (på tv)	2
-1650	WATCH///klocka	2
 948	WATER///vatten	2
 943	WATERFALL///fors	1
 2766	WATERMELON///vattenmelon 	2
@@ -1183,6 +1196,7 @@ ID	GLOSS	PRIORITY
 1524	WINE///vin	1
 1257	WING///vinge	1
 1471	WINTER///vinter	2
+4040	WISDOM///visdom	2
 824	WITCH///häxa	1
 1144	WITNESS///vittne	1
 522	WOLF///varg	2
@@ -1196,6 +1210,7 @@ ID	GLOSS	PRIORITY
 1219	WORM///mask	1
 1109	WOUND///sår	1
 799	WRIST///handled	1
+3349	WRISTWATCH///klocka	2
 1672	WRITE///skriva	3
 1390	WRONG///fel	1
 736	YARD///gård	1

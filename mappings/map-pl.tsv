@@ -1,6 +1,8 @@
 ID	GLOSS	PRIORITY
 2527	ABILITY///umiejętność	1
 1741	ABOVE///przez	1
+4082	ABUNDANCE///obfitość	1
+4058	ACCIDENT///wypadek	2
 1814	ACCUSE///oskarżać	1
 2670	ACROSS///poprzez	1
 2882	ADD///dodawać	1
@@ -10,6 +12,7 @@ ID	GLOSS	PRIORITY
 1685	AFTER///po	2
 2469	AGAINST///przeciwko	1
 1789	AGE///wiek	2
+4122	AGONY///agonia	1
 3643	AGREE///zgadzać sié	1
 3643	AGREE///zgadzać się (zgądzać się)	1
 3644	AGREEMENT///porozumienie	1
@@ -21,21 +24,24 @@ ID	GLOSS	PRIORITY
 3238	ALLOW///pozwalać	1
 3238	ALLOW///zezwalać	1
 1964	ALONE///sam	1
+4045	ALTHOUGH///pomimo	1
 1676	ALWAYS///zawsze	2
 1863	AMAZING///niesamowity	1
 2987	AMOUNT///ilość	1
 1577	AND///i	1
 1577	AND///i/a	1
+4057	ANGEL///anioł	1
 82	ANGER///gniew	1
 1826	ANGRY///rozzłoszczony	1
 1826	ANGRY///zły	1
 619	ANIMAL///zwierzé	1
 619	ANIMAL///zwierzę	1
-803	ANKLE///kostka	1
+803	ANKLE///kostka	2
 9	ANNOUNCE///ogłaszać	1
 1275	ANSWER///odpowiadać	1
 587	ANT///mrówka	3
 1000	ANXIETY///zmartwienie	1
+4149	APARTMENT///mieszkanie	1
 1017	APPEARANCE///wyglád	1
 1320	APPLE///jabłko	3
 2847	APRIL///kwiecień	1
@@ -44,13 +50,16 @@ ID	GLOSS	PRIORITY
 2980	AREA///teren	2
 1673	ARM///ramié	1
 1673	ARM///ramię	1
+1673	ARM///ręka	1
 1561	ARMY///armia	1
 1561	ARMY///wojsko	1
 1568	ARRANGE///układać	1
 1568	ARRANGE///ustalać	1
 1387	ARRIVE///przybywać	1
 1387	ARRIVE///przyjechać	1
+4067	ARROGANT///arogancki	1
 977	ARROW///strzała	2
+4094	ART///sztuka	1
 1894	ASHAMED///zawstydzony	1
 1309	ASK (INQUIRE)///pytać	1
 1309	ASK (INQUIRE)///pytać	1
@@ -68,7 +77,7 @@ ID	GLOSS	PRIORITY
 1289	BABY///niemowlé	1
 1289	BABY///niemowlę	1
 523	BACK OF HEAD///tył	1
-1291	BACK///plecy	1
+1291	BACK///plecy	2
 2911	BACKWARD///zpowrotem	1
 1292	BAD///zły	2
 2468	BAG///torba	1
@@ -88,6 +97,7 @@ ID	GLOSS	PRIORITY
 831	BASE///podstawa	1
 1539	BASKET///kosz	1
 1539	BASKET///koszyk	2
+4169	BASKETBALL (GAME OR OBJECT)///koszykówka	1
 1793	BAT///nietoperz	1
 138	BATHE///kápiel	1
 138	BATHE///kąpać się	2
@@ -109,6 +119,7 @@ ID	GLOSS	PRIORITY
 1665	BEAT///bić	1
 1665	BEAT///bić	1
 1427	BEAUTIFUL///piękny	1
+4051	BEAUTY///piękno	1
 1157	BECAUSE///poniewaź	1
 1990	BECOME///stawać sié	1
 1990	BECOME///stać się	1
@@ -144,12 +155,14 @@ ID	GLOSS	PRIORITY
 689	BETWEEN///miédzy	1
 731	BEVERAGE///napój	1
 731	BEVERAGE///napój	1
+4068	BIBLE///biblia	1
 747	BICYCLE///rower	2
 1202	BIG///duźy	2
 1202	BIG///duży	1
 1202	BIG///wielki	1
 937	BIRD///ptak	4
 2407	BIRTHDAY///urodziny	1
+4126	BISCUIT///ciastko	1
 1403	BITE///gryźć	1
 1403	BITE///gryźć	3
 887	BITTER///goźki	1
@@ -209,6 +222,7 @@ ID	GLOSS	PRIORITY
 680	BREAK (DESTROY OR GET DESTROYED)///złamać się	1
 680	BREAK (DESTROY OR GET DESTROYED)///łamać	1
 1322	BREAKFAST///śniadanie	1
+1402	BREAST///pierś	1
 1407	BREATHE///oddechać	1
 1407	BREATHE///oddychać	1
 1006	BRICK///cegła	1
@@ -247,6 +261,7 @@ ID	GLOSS	PRIORITY
 757	BUTTON///guzik	4
 1869	BUY///kupować	1
 1869	BUY///kupować	1
+4153	CABIN///domek	1
 3283	CAGE///klatka	1
 2408	CAKE///ciasto	1
 1967	CALENDAR///kalendarz	1
@@ -256,6 +271,7 @@ ID	GLOSS	PRIORITY
 2618	CAMERA///aparat (kamera)	1
 1105	CAMP///pole	1
 1051	CAN///puszka	1
+4110	CANCER (DISEASE)///rak	1
 1273	CANDLE///świeczka	2
 874	CANDY///cukierek	1
 3202	CANNON///działo	1
@@ -274,10 +290,13 @@ ID	GLOSS	PRIORITY
 702	CATCH///złapać	1
 702	CATCH///łapać	1
 2247	CATERPILLAR///gąsienica	1
+4154	CATHEDRAL///katedra	1
 1153	CATTLE///bydło	3
 2896	CAUSE TO (LET)///pozwalać	1
 2896	CAUSE TO (LET)///wynajáć	1
 860	CAUSE///powód	1
+4109	CELL (BIOLOGY)///komórka	1
+4108	CELLAR///piwnica	1
 491	CENTER///centrum	2
 509	CERTAIN///pewien	1
 509	CERTAIN///pewny	1
@@ -285,6 +304,8 @@ ID	GLOSS	PRIORITY
 2856	CHANGE (SOMETHING)///przerobić	1
 1264	CHANGE///zmieniać	1
 1264	CHANGE///zmienić	1
+4056	CHAOS///chaos	1
+4155	CHAPEL///kaplica	1
 1024	CHARACTER///charakter	1
 1024	CHARACTER///litera	1
 1188	CHARCOAL///węgiel drzewny	1
@@ -339,13 +360,17 @@ ID	GLOSS	PRIORITY
 581	COME BACK///wracać	1
 1446	COME///przychodzić	1
 1446	COME///przyjść	1
+4112	COMFORT///pocieszenie	1
+4112	COMFORT///wygoda	1
 2983	COMPANIONSHIP///towarzystwo	1
 3429	COMPARE///porównywać	1
 2606	COMPASS///kompas	1
+4123	COMPETENCE///kompetencja	1
 3642	COMPLAIN///narzekać	1
 3086	COMPUTER///komputer	4
 3966	CONCEPT///pojęcie	1
 484	CONDEMN///potępić	1
+4118	CONFIDENCE///pewność siebie	1
 2862	CONNECT///łáczyć	1
 2933	CONVERSATION///konwersacja	1
 2315	COOK (PERSON)///kucharz	1
@@ -356,6 +381,8 @@ ID	GLOSS	PRIORITY
 1825	COPPER///miedź	1
 192	CORNER///narożnik	1
 1725	CORRECT (RIGHT)///poprawny	1
+4117	CORRIDOR///korytarz	1
+4116	COTTAGE///chata	1
 1850	COTTON///bawełna	1
 1300	COUNTRY///państwo	1
 3049	COURAGE///odwaga	1
@@ -381,6 +408,8 @@ ID	GLOSS	PRIORITY
 1520	CRUSH///miaźdźyć	1
 1839	CRY///płakać	3
 1839	CRY///łkać	1
+4039	CRYSTAL///kryształ	1
+4179	CUBE///sześcian	1
 496	CUCUMBER///ogórek	2
 476	CUP///filiźanka	1
 476	CUP///filiżanka	1
@@ -424,6 +453,9 @@ ID	GLOSS	PRIORITY
 681	DESTROY///demolować	1
 681	DESTROY///niszczyć	1
 681	DESTROY///niszczyć	1
+4115	DESTRUCTION///destrukcja	1
+4076	DEVELOPMENT///rozwój	1
+4076	DEVELOPMENT///rozwój	1
 1494	DIE///umierać	1
 1494	DIE///umrzeć	1
 2504	DIFFERENT///inny	2
@@ -455,6 +487,7 @@ ID	GLOSS	PRIORITY
 1567	DOOR///drzwi	4
 1326	DOWN///w dół	1
 93	DRAW MILK///doić	2
+4072	DRAWER///szuflada	1
 2374	DREAM///marzenie	1
 814	DRESS UP///ubierać sié	1
 474	DRESS///suknia	1
@@ -489,7 +522,7 @@ ID	GLOSS	PRIORITY
 863	EDGE///kant	1
 3968	EFFECT///rezultat	1
 744	EGG///jajo	1
-981	ELBOW///łokieć	1
+981	ELBOW///łokieć	2
 240	ELECTION///wybory	1
 59	ELECTRICITY///elektryczność	2
 59	ELECTRICITY///elektryczność	1
@@ -523,9 +556,12 @@ ID	GLOSS	PRIORITY
 1626	EXPLAIN///tłumaczyć	1
 3976	EXPLODE///wybuchać	1
 127	EXTINGUISH///gasić	2
-1248	EYE///oko	4
-1173	EYEBROW///brew	1
-1560	FACE///twarz	1
+1248	EYE///oko	5
+1173	EYEBROW///brew	2
+17	EYELID///powieka	1
+4105	FABRIC///tkanina	1
+1560	FACE///twarz	2
+4180	FACTORY///fabryka	1
 2704	FADE (LOOSE COLOR)///blaknąć	1
 3861	FAIL///zawodzić	1
 3258	FALCON///sokół	1
@@ -564,7 +600,7 @@ ID	GLOSS	PRIORITY
 719	FIND///znajdować	1
 719	FIND///znaleźć	1
 2157	FINE OR THIN///dobry	1
-1303	FINGER///palec	2
+1303	FINGER///palec	3
 1896	FINGERNAIL OR TOENAIL///paznokieć (gwóźdź)	1
 1766	FINISH///skończyć	1
 221	FIRE///ogień	1
@@ -596,8 +632,14 @@ ID	GLOSS	PRIORITY
 1085	FOLLOW///podáźać	1
 1085	FOLLOW///śledzić	1
 256	FOOD///jedzenie	2
-1301	FOOT///stopa	2
+1301	FOOT///stopa	3
+4166	FOOTBALL (GAME OR OBJECT)///piłka nożna	1
+4167	FOOTBALL (GAME)///futbol	1
+4168	FOOTBALL (OBJECT)///piłka noźna	1
 318	FOOTPRINT///śledzić	1
+4065	FOR///dla	2
+4065	FOR///do	1
+4065	FOR///przez	2
 1523	FORGET///zapominać	1
 1528	FORGIVE///wybaczać	1
 1302	FORK///widelec	2
@@ -605,7 +647,9 @@ ID	GLOSS	PRIORITY
 2912	FORWARD///na przód	1
 1312	FOX///lis	1
 2624	FRAME///rama	2
+4081	FRAUD///oszustwo	1
 2316	FREE///wolny	2
+4086	FREEDOM///wolność	1
 243	FRESH///świeży	1
 1325	FRIEND///przyjaciel	2
 252	FRIGHTEN///straszyć	1
@@ -615,7 +659,10 @@ ID	GLOSS	PRIORITY
 1507	FRUIT///owoc	1
 991	FRY///smażyć	3
 1429	FULL///pełny	1
+4062	FUN///zabawa	1
 3336	FUNERAL///pogrzeb	1
+4038	FUNNY///śmieszny	1
+4038	FUNNY///śmieszny	1
 580	FUR///futro	2
 2427	FUTURE///przyszłość	1
 2467	GAME///gra	2
@@ -670,6 +717,7 @@ ID	GLOSS	PRIORITY
 1668	GRIEF///smutek	1
 1668	GRIEF///zgryzota	1
 3282	GROOM///pan młody	1
+4103	GROUP///grupa	1
 479	GROW///rosnáć	1
 479	GROW///rosnąć	1
 1782	GUEST///gość	1
@@ -684,7 +732,7 @@ ID	GLOSS	PRIORITY
 2880	HALT (STOP)///zatrzymywać	2
 1481	HAMMER///młotek	1
 1277	HAND///réka	1
-1277	HAND///ręka	1
+1277	HAND///ręka	2
 1254	HANDLE///ráczka	1
 1254	HANDLE///uchwyt	1
 357	HANG UP///wisieć	1
@@ -718,10 +766,11 @@ ID	GLOSS	PRIORITY
 1514	HEN///kura	1
 136	HERE///tu	1
 136	HERE///tutaj	1
+4175	HERO///bohater	1
 2486	HIDE///kryć	1
 1265	HIGH///wysoki	1
 614	HILL///wzgórze	1
-1745	HIP///biodro	1
+1745	HIP///biodro	2
 2473	HIS (GENITIVE OF HE)///jego	1
 1433	HIT///uderzać	1
 1433	HIT///uderzyć	1
@@ -744,12 +793,14 @@ ID	GLOSS	PRIORITY
 939	HORN (INSTRUMENT)///róg	1
 615	HORSE///koń	1
 615	HORSE///koń	4
+4161	HOSE///wąż ogrodowy (wąż (ogrodowy))	1
 616	HOSPITAL///szpital	2
 3955	HOSTILITY///wrogość	1
 1286	HOT///gorácy	1
 1252	HOUSE///dom	3
 1252	HOUSE///dom (dom )	1
 1239	HOW///jak	1
+4069	HUMBLE///pokorny	1
 1435	HUNT///polować	3
 3380	HUNTING DOG///ogar	1
 754	HURRY///śpieszyć się	1
@@ -771,6 +822,8 @@ ID	GLOSS	PRIORITY
 1460	IN///do	1
 1460	IN///w	1
 1041	INCREASE///zwiékrzać	1
+4114	INDUSTRY///przemysł	2
+4044	INFORMATION///informacja	2
 44	INJURE///ranić	1
 90	INNOCENT///niewinny	1
 620	INSECT///insekt	1
@@ -780,6 +833,7 @@ ID	GLOSS	PRIORITY
 2916	INSTANTLY (IMMEDIATELY)///natychmiast	1
 1652	INSTEAD///zamiast	1
 3204	INSULT///obrazić	1
+4087	INTELLIGENCE///inteligencja	1
 1162	INTENTION///intencja	1
 3847	INTEREST (FEELING)///interes	1
 3847	INTEREST (FEELING)///zainteresowanie	1
@@ -793,7 +847,7 @@ ID	GLOSS	PRIORITY
 622	ISLAND///wyspa	1
 169	IT///to	1
 2770	JACKET///kurtka	1
-798	JAW///szczęka	1
+798	JAW///szczęka	2
 1743	JOIN///dołáczyć	1
 1743	JOIN///złączyć (przyłączyć się)	1
 3425	JOKE///źart	1
@@ -806,6 +860,7 @@ ID	GLOSS	PRIORITY
 1829	JUMP///skakać	2
 2849	JUNE///czerwiec	1
 84	JUST///właśnie	2
+4049	JUSTICE///sprawiedliwość	1
 164	KANGAROO///kangur	2
 1477	KEEP///trzymać	2
 1477	KEEP///zachować	1
@@ -820,13 +875,14 @@ ID	GLOSS	PRIORITY
 1508	KING///król	1
 578	KISS///całować	2
 1365	KITCHEN///kuchnia	1
-1371	KNEE///kolano	1
+1371	KNEE///kolano	2
 1352	KNIFE///nóż	3
 2905	KNIT///robić na drutach	2
 2396	KNOCK///pukać	2
 3626	KNOW///wiedzieć	1
 3626	KNOW///wiedzieć	1
 3874	KNOWLEDGE///wiedza	1
+2525	LABOUR (EFFORT)///wysiłek	2
 1464	LADDER///drabina	3
 2471	LADY///dama	1
 624	LAKE///jezioro	1
@@ -841,6 +897,8 @@ ID	GLOSS	PRIORITY
 1564	LAZY///leniwy	1
 627	LEAD (CHEMICAL ELEMENT)///ołów	1
 43	LEAD (GUIDE)///prowadzić	1
+4097	LEADER///lider	1
+4097	LEADER///wódz	1
 628	LEAF///liść	3
 504	LEARN///uczyć sié	1
 504	LEARN///uczyć się	1
@@ -849,7 +907,7 @@ ID	GLOSS	PRIORITY
 1752	LEAVE///pozwalać	1
 1752	LEAVE///wyruszyć	1
 244	LEFT///lewy	1
-1297	LEG///noga	4
+1297	LEG///noga	5
 3091	LEMON///cytryna	3
 582	LEND///pożyczyć	1
 2537	LENGTH///długość	1
@@ -879,6 +937,7 @@ ID	GLOSS	PRIORITY
 916	LINEN///len	1
 916	LINEN///pościel	1
 1386	LION///lew	4
+478	LIP///usta	1
 478	LIP///warga	1
 3093	LIPSTICK///szminka	2
 58	LIQUID///płynny	1
@@ -889,6 +948,7 @@ ID	GLOSS	PRIORITY
 632	LIZARD///jaszczurka	1
 1596	LOCK///zamek	1
 2429	LOGIC///logika	1
+4096	LONELY///samotny	1
 1203	LONG///długi	2
 1468	LOOK FOR///szukać	1
 1468	LOOK FOR///szukać	1
@@ -900,6 +960,7 @@ ID	GLOSS	PRIORITY
 377	LOUD///głośny	1
 923	LOVE///kochać	1
 721	LOW///niski	1
+446	LOWER ARM///przedramię	1
 768	LUNCH///obiad	1
 688	LUNG///płuco	1
 144	MACHINE///maszyna	2
@@ -935,13 +996,14 @@ ID	GLOSS	PRIORITY
 1506	MEASURE///mierzyć	2
 634	MEAT///miéso	1
 634	MEAT///mięso	1
+4136	MEDAL///medal	1
 1372	MEDICINE///narkotyk	1
 1831	MEET///spotykać	1
 1831	MEET///spotykać (spotykać się)	1
+4054	MELODY///melodia	1
 2334	MELT///topić	1
 2334	MELT///topić się	2
 2424	MEMBER///członek	1
-1976	MERRY///śmieszny	1
 2961	MESSAGE///wiadomość	1
 2244	METAL///metal	2
 4016	MICROSCOPE///mikroskop	1
@@ -955,6 +1017,7 @@ ID	GLOSS	PRIORITY
 2017	MIX///mieszać	1
 2017	MIX///miksować	2
 2017	MIX///wymieszać	1
+4053	MODEST///skromny	1
 1697	MONDAY///poniedziałek	1
 1559	MONEY///pieniádze	1
 1559	MONEY///pieniądze	1
@@ -971,7 +1034,7 @@ ID	GLOSS	PRIORITY
 639	MOUNTAIN///góra	1
 639	MOUNTAIN///góra	1
 1491	MOUSE///mysz	3
-674	MOUTH///usta	2
+674	MOUTH///usta	3
 765	MOVE///ruszać sié	1
 765	MOVE///ruszać	1
 3695	MOVEMENT///ruch	2
@@ -1012,7 +1075,7 @@ ID	GLOSS	PRIORITY
 1182	NOISE///hałas	2
 1598	NORTH///północ	1
 1598	NORTH///północ	1
-1221	NOSE///nos	4
+1221	NOSE///nos	5
 1240	NOT///nie	1
 687	NOTHING///nic	1
 2893	NOTICE (SOMETHING)///zauwaźać	1
@@ -1031,6 +1094,8 @@ ID	GLOSS	PRIORITY
 2336	OF THIS KIND (SUCH)///tak	1
 557	OFFEND///obrazić	1
 2430	OFFICE///biuro	2
+4176	OFFICER///deputowany	1
+4176	OFFICER///oficer	1
 3361	OFFICIAL///urzédnik	1
 1852	OFTEN///czésto	1
 1852	OFTEN///często	1
@@ -1044,6 +1109,8 @@ ID	GLOSS	PRIORITY
 1156	OPEN///otwierać	1
 1156	OPEN///otwierać	2
 3121	OPERATE (MEDICINE)///operować	2
+4113	OPINION///opinia	1
+4113	OPINION///zdanie	1
 885	OPPOSITE///przeciwny	1
 1014	OR///albo	1
 3328	ORANGE (COLOR)///Pomarańczowy	1
@@ -1063,10 +1130,13 @@ ID	GLOSS	PRIORITY
 3094	PAINTBRUSH///pędzel	2
 2001	PAINTING///rysować	3
 1888	PAIR///para	2
+4059	PALACE///pałac	1
 1183	PALM OF HAND///dłoń	1
 648	PAPER///papier	2
+4061	PARSLEY///pietruszka	1
 779	PART///czéść	1
 1951	PASS///przepuścić	1
+4060	PASSION///pasja	1
 2457	PATH OR ROAD///droga	1
 2252	PATH///ścieżka	1
 3375	PATIENT (SICK PERSON)///pacjent	1
@@ -1111,6 +1181,7 @@ ID	GLOSS	PRIORITY
 592	PISS///sikać	2
 723	PLACE (POSITION)///miejsce	1
 3630	PLAN///plan	1
+4042	PLANET///planeta	1
 1486	PLANT (SOMETHING)///sadzić	1
 653	PLANT (VEGETATION)///roślina	1
 653	PLANT (VEGETATION)///roślina	1
@@ -1135,6 +1206,7 @@ ID	GLOSS	PRIORITY
 3095	POSTMAN///listonosz	2
 593	POTATO///ziemniak	1
 1487	POUR///nalewać	3
+4066	POVERTY///bieda	1
 3368	POWDER///puder	1
 2526	POWER///moc	1
 3001	POWERFUL///mocny	1
@@ -1159,6 +1231,7 @@ ID	GLOSS	PRIORITY
 1675	PROMISE///obiecywać	1
 2900	PROTECT///chronić	1
 2900	PROTECT///chronić	1
+4083	PROTECTION///ochrona	1
 174	PROUD///dumny	1
 1455	PULL///ciagnáć	1
 1455	PULL///ciągnąć	3
@@ -1172,6 +1245,7 @@ ID	GLOSS	PRIORITY
 1452	PUSH///pchać	3
 998	PUT///kłaść	1
 998	PUT///kłaść	1
+4078	QUALITY///jakość	1
 3302	QUARREL (VERB)///argumentować (kłócić się)	1
 3302	QUARREL (VERB)///argumentować (kłócić się/kłocić się)	1
 1306	QUEEN///królowa	1
@@ -1191,6 +1265,7 @@ ID	GLOSS	PRIORITY
 724	READ///czytać	1
 724	READ///czytać	3
 790	READY///gotowy	1
+4119	REALITY///rzeczywistość	1
 2968	REASON///powód	1
 156	RED///Czerwony	1
 156	RED///czerwony	2
@@ -1211,6 +1286,7 @@ ID	GLOSS	PRIORITY
 168	REST///odpoczywać	1
 3969	RESULT///wynik	1
 421	RETREAT///wycofywać się	1
+4120	REWARD///wynagrodzenie	1
 926	RICE///ryż	1
 367	RIDE///jeździć konno	1
 367	RIDE///jeździć	1
@@ -1239,6 +1315,7 @@ ID	GLOSS	PRIORITY
 1849	ROW///rzád	1
 1849	ROW///wiosłować	2
 1449	RUB///trzeć	1
+4064	RUBBER///guma	1
 1412	RUDE///niegrzeczny	1
 1412	RUDE///nieuprzejmy	2
 292	RUG///dywan	1
@@ -1251,8 +1328,10 @@ ID	GLOSS	PRIORITY
 1519	RUN///biegać	3
 699	SAD///smutny	2
 3762	SAFE///bezpieczny	2
+4085	SAFETY///bezpieczeństwo	1
 787	SAIL///żeglować	2
 786	SAILCLOTH///źagiel	1
+4041	SALAD///sałatka	2
 1274	SALT///sól	1
 1274	SALT///sól	1
 200	SAME///taki sam	1
@@ -1270,11 +1349,13 @@ ID	GLOSS	PRIORITY
 3033	SCARED///przestraszony	1
 3033	SCARED///wystraszony	1
 673	SCHOOL///szkoła	2
+4095	SCIENCE///nauka	2
 2522	SCREAM (NOISE)///krzyczeć	1
 914	SCULPTOR///rzeźbiarz	1
 1474	SEA///morze	2
 691	SEASON///pora roku	2
 691	SEASON///sezon	1
+4088	SEAT///siedzenie	2
 1384	SECOND///drugi	1
 1121	SECRET///tajemnica	1
 1409	SEE///widzieć	1
@@ -1322,6 +1403,7 @@ ID	GLOSS	PRIORITY
 1645	SHORT///krótki	1
 1645	SHORT///krótki	1
 1482	SHOULDER///bark	1
+1482	SHOULDER///ramię	1
 715	SHOUT///wrzeszczeć	1
 1039	SHOW///pokazywać	1
 3128	SHOWER (ACTION)///brać prysznic	2
@@ -1338,6 +1420,7 @@ ID	GLOSS	PRIORITY
 1558	SIMILAR///podobny	1
 1261	SING///śpiewać	1
 1261	SING///śpiewać	3
+4173	SINGER///piosenkarz	1
 915	SINK (BASIN)///tonáć	1
 1088	SINK (DESCEND)///tonąć	2
 1263	SISTER///siostra	1
@@ -1350,6 +1433,7 @@ ID	GLOSS	PRIORITY
 763	SKIN///skóra	1
 1600	SKIRT///spódnica	1
 1732	SKY///niebo	2
+4162	SKYSCRAPER///wieżowiec	1
 812	SLAVE///niewolnik	1
 1585	SLEEP///spać	1
 1585	SLEEP///spać	2
@@ -1417,7 +1501,7 @@ ID	GLOSS	PRIORITY
 1378	SPOON///łyżka	3
 38	SPREAD OUT///rozprzestrzeniać sié	1
 38	SPREAD OUT///szerzyć	1
-849	SPRING (OF WATER)///źródło	1
+849	SPRING (OF WATER)///źródło	2
 2144	SPRING OR WELL///studnia	1
 850	SQUARE///kwadrat	1
 1414	SQUEEZE///wyciskać	2
@@ -1428,6 +1512,7 @@ ID	GLOSS	PRIORITY
 1430	STAR///gwiazda	4
 2955	STATE (POLITICS)///państwo	1
 2955	STATE (POLITICS)///stan	1
+4043	STATION///stacja	1
 1002	STATUE///statua	1
 713	STEAL///kraść	1
 713	STEAL///kraść	2
@@ -1438,8 +1523,10 @@ ID	GLOSS	PRIORITY
 1295	STICK///kij	1
 3703	STICKY///klejácy	1
 3703	STICKY///klejący	1
+4106	STIFF///sztywny	2
 571	STING///żądlić	2
 696	STIR///mieszać	3
+819	STOMACH///brzuch	1
 819	STOMACH///źołádek	1
 819	STOMACH///żołądek	1
 857	STONE///kamień	1
@@ -1518,9 +1605,11 @@ ID	GLOSS	PRIORITY
 1711	TELL///powiedzieć	1
 1711	TELL///powiedzieć	1
 3103	TENNIS BALL///piłka tenisowa	2
+4148	TENSE///spiéty	1
 1316	TENT///namiot	1
 2412	THANK (SOMEBODY)///dziékować	1
 78	THAT///tamten	1
+4071	THEFT///kradzież	1
 2400	THEIR///ich	1
 2921	THEN///wtedy	1
 2433	THEORY///teoria	1
@@ -1540,42 +1629,46 @@ ID	GLOSS	PRIORITY
 2975	THOUGHT///myśl	1
 1161	THREAD///nić	1
 1161	THREAD///nić	1
-1346	THROAT///gardło	1
+1346	THROAT///gardło	2
 97	THROUGH///przez	1
 1456	THROW///rzucać	1
 1456	THROW///wyrzucać	2
-1781	THUMB///kciuk	1
+1781	THUMB///kciuk	2
 1693	THURSDAY///czwartek	1
 3711	TIE (NOUN)///krawat	2
 1917	TIE///wiázać	1
 1917	TIE///wiązać	3
 846	TIGER///tygrys	2
 3053	TIGHT///ciasny	1
-3053	TIGHT///spiéty	1
 892	TIME///czas	1
 893	TIN (METAL)///blacha	1
 2992	TIP (OF OBJECT)///głowa	1
 1757	TIRED///zmęczony	1
+4080	TITLE///tytuł	1
 974	TOBACCO///tytoń	1
 1283	TODAY///dzisiaj	1
 1389	TOE///palec (u nogi)	1
+1389	TOE///palec_u_nogi	1
 2482	TOGETHER///razem	1
 986	TOMATO///pomidor	2
 1329	TOMORROW///jutro	1
+1205	TONGUE///język	1
 1205	TONGUE///język (język )	1
 1361	TOOL///narzédzie	2
 1361	TOOL///narzędzie	1
 1380	TOOTH///záb	1
-1380	TOOTH///ząb	1
+1380	TOOTH///ząb	2
 1380	TOOTH///zęby	1
 2579	TOOTHBRUSH///szczoteczka do zębów	2
 1753	TOP///dach	1
 1753	TOP///wierzch	1
+2667	TORSO///tułów	1
 1892	TOUCH///dotknáć	1
 2754	TOWARDS///do	3
 1671	TOWER///wieża	1
 1391	TOWN///miasteczko	2
 2403	TOY///zabawka	1
+4144	TRACTOR///traktor	2
 2434	TRAGEDY///tragedia	1
 900	TRAIN///pociág	1
 900	TRAIN///pociąg	1
@@ -1645,7 +1738,6 @@ ID	GLOSS	PRIORITY
 79	WASTE///odpady	1
 3136	WATCH (TV)///oglądać [telewizję]	2
 1650	WATCH///oglądać	1
-1650	WATCH///zegarek	2
 948	WATER///woda	2
 3544	WAVE (VERB)///machać	1
 3544	WAVE (VERB)///machać	2
@@ -1690,9 +1782,11 @@ ID	GLOSS	PRIORITY
 960	WIND///wiatr	2
 1375	WINDOW///okno	2
 1524	WINE///wino	2
+4174	WINNER///zwycięzca	1
 1471	WINTER///zima	2
 1454	WIPE///wycierać	1
 2631	WIRE///drut	2
+4040	WISDOM///mądrość	1
 1340	WITH///z	2
 1478	WITHOUT///bez	2
 962	WOMAN///kobieta	2
@@ -1708,8 +1802,8 @@ ID	GLOSS	PRIORITY
 1109	WOUND///rana	1
 1109	WOUND///ranić	1
 1113	WRAP///owináć	1
-799	WRIST///nadgarstek	1
-3349	WRISTWATCH///zegarek	2
+799	WRIST///nadgarstek	2
+3349	WRISTWATCH///zegarek	4
 1672	WRITE///pisać	1
 1672	WRITE///pisać	3
 1390	WRONG///błędny	1

@@ -3,10 +3,12 @@ ID	GLOSS	PRIORITY
 1597	AIRPLANE///αεξνπιάλν 	1
 1581	ALLIGATOR///θξνθόδεηινο 	1
 1870	ANCHOR///άγθπξα 	1
+803	ANKLE///αστράγαλος	1
 587	ANT///κπξκήγθη 	1
 587	ANT///μυρμήγκι	2
 1320	APPLE///κήιν 	1
 1320	APPLE///μήλο	2
+1673	ARM///μπράτσο	1
 1673	ARM///ρέξη 	1
 1673	ARM///χέρι	1
 977	ARROW///βέινο 	1
@@ -17,6 +19,7 @@ ID	GLOSS	PRIORITY
 677	AXE///τσεκούρι	2
 4029	BABY CARRIAGE///θαξόηζη 	1
 1291	BACK///μέση	1
+1291	BACK///πλάτη	1
 1845	BALL///κπάια 	2
 1845	BALL///μπάλα	2
 3083	BALLOON///κπαιόλη 	1
@@ -28,6 +31,7 @@ ID	GLOSS	PRIORITY
 2548	BARREL///βαρέλι	2
 1539	BASKET///θαιάζη 	1
 1539	BASKET///καλάθι	2
+4151	BAT (BASEBALL)///ξόπαιν 	1
 138	BATHE///κάνει μπάνιο	2
 662	BATTERY///μπαταρία	2
 1820	BEAR///αξθνύδα 	1
@@ -65,6 +69,7 @@ ID	GLOSS	PRIORITY
 1465	BOX///θνπηί 	1
 2902	BRAWL (FIGHT)///τσακώνεται	2
 1368	BREAD///ςσκί 	1
+1402	BREAST///στήθος	1
 245	BROOM///ζθνύπα 	1
 245	BROOM///σκούπα	2
 2409	BROWN///Καφέ	1
@@ -140,6 +145,7 @@ ID	GLOSS	PRIORITY
 4030	DOORKNOB///πόκνιν 	1
 93	DRAW MILK///αρμέγει	2
 474	DRESS///θόξεκα 	1
+4055	DRESSER///ζπξηαξηέξα 	1
 1401	DRINK///πίνει	2
 2253	DRIP (EMIT LIQUID)///στάζει	2
 741	DRIVE///οδηγάει	2
@@ -154,6 +160,7 @@ ID	GLOSS	PRIORITY
 1247	EAR///αυτί	3
 770	EARRING///θξεκάζηξα 	1
 1336	EAT///τρώει	2
+981	ELBOW///αγκώνας	1
 1290	ELEPHANT///ειέθαληαο 	1
 1290	ELEPHANT///ελέφαντας	2
 928	EMBRACE///αγκαλιάζονται	2
@@ -162,13 +169,15 @@ ID	GLOSS	PRIORITY
 3112	ERUPT///εκρήγνυται	2
 127	EXTINGUISH///σβήνει	2
 1248	EYE///κάηη 	1
-1248	EYE///μάτι	3
-1560	FACE///πρόσωπο	1
+1248	EYE///μάτι	4
+1173	EYEBROW///μέτωπο	1
+17	EYELID///βλέφαρο	1
+1560	FACE///πρόσωπο	2
 1280	FALL///πέφτει	2
 1201	FEATHER///φτερό	2
 739	FEED///ταϊζει	2
 1690	FENCE///θξάρηεο 	1
-1303	FINGER///δάχτυλο	1
+1303	FINGER///δάχτυλο	2
 1303	FINGER///δείθηεο 	1
 227	FISH///ςάξη 	1
 227	FISH///ψάρι	2
@@ -181,7 +190,7 @@ ID	GLOSS	PRIORITY
 1504	FLY (INSECT)///κύγα 	1
 1441	FLY (MOVE THROUGH AIR)///πετάει	2
 1301	FOOT///παηνύζα 	1
-1301	FOOT///πόδι	1
+1301	FOOT///πόδι	2
 1302	FORK///πηξνύλη 	1
 1302	FORK///πιρούνι	2
 1312	FOX///αιεπνύ 	1
@@ -211,7 +220,7 @@ ID	GLOSS	PRIORITY
 2648	HAIR (HEAD)///καιιηά 	1
 1481	HAMMER///ζθπξί 	1
 1277	HAND///ρέξη 	1
-1277	HAND///χέρι	1
+1277	HAND///χέρι	2
 2597	HARP///άξπα 	1
 771	HAT///θαπέιν 	1
 771	HAT///καπέλο	2
@@ -223,6 +232,7 @@ ID	GLOSS	PRIORITY
 2580	HELICOPTER///ειηθόπηεξν 	1
 2580	HELICOPTER///ελικόπτερο	2
 1745	HIP///NA	1
+1745	HIP///γοφός	1
 3117	HITCHHIKE///κάνει ωτοστόπ	2
 939	HORN (INSTRUMENT)///ηξνκπόλη 	1
 615	HORSE///άινγν 	1
@@ -236,6 +246,7 @@ ID	GLOSS	PRIORITY
 3998	IRONING BOARD///ζηδεξώζηξα 	1
 3078	IRRIGATE///ποτίζει	2
 2770	JACKET///παιηό 	1
+798	JAW///σαγόνι	1
 1829	JUMP///πηδάει	2
 164	KANGAROO///θαγθνπξό 	1
 164	KANGAROO///καγκουρό	2
@@ -245,7 +256,7 @@ ID	GLOSS	PRIORITY
 1135	KICK///κλωτσάει	2
 578	KISS///φιλάει	2
 4032	KITE (TOY)///ραξηαεηόο 	1
-1371	KNEE///γόνατο	1
+1371	KNEE///γόνατο	2
 1352	KNIFE///καραίξη 	1
 1352	KNIFE///μαχαίρι	2
 2905	KNIT///κεντάει	2
@@ -258,7 +269,7 @@ ID	GLOSS	PRIORITY
 628	LEAF///θύιιν 	1
 628	LEAF///φύλλο	2
 1297	LEG///πόδη 	1
-1297	LEG///πόδι	3
+1297	LEG///πόδι	4
 3091	LEMON///ιεκόλη 	1
 3091	LEMON///λεμόνι	2
 1139	LEOPARD///ιενπάξδαιε 	1
@@ -271,10 +282,12 @@ ID	GLOSS	PRIORITY
 1386	LION///ιηνληάξη 	1
 1386	LION///λιοντάρι	2
 478	LIP///ρείιε 	1
+478	LIP///χείλος	1
 3093	LIPSTICK///κραγιόν	2
 1608	LISTEN///ακούει	2
 2397	LOBSTER///αζηαθόο 	1
 1596	LOCK///ινπθέην 	1
+446	LOWER ARM///πήχης	1
 506	MAIZE///θαιακπόθη 	1
 203	MARRY///παντρεύει	2
 3119	MASSAGE (SOMEBODY)///στέλνει  μήνυμα	2
@@ -291,7 +304,7 @@ ID	GLOSS	PRIORITY
 639	MOUNTAIN///βνπλό 	1
 1491	MOUSE///πνληίθη 	1
 1491	MOUSE///ποντιίκι	2
-674	MOUTH///στόμα	1
+674	MOUTH///στόμα	2
 641	MUSHROOM///καληηάξη 	1
 641	MUSHROOM///μανιτάρι	2
 502	NAIL (TOOL)///θαξθί 	1
@@ -302,7 +315,7 @@ ID	GLOSS	PRIORITY
 1382	NEEDLE (FOR SEWING)///βελόνι	2
 539	NEST///φωλιά	2
 1221	NOSE///κύηε 	1
-1221	NOSE///μύτη	3
+1221	NOSE///μύτη	4
 191	NUT///παμηκάδη 	1
 2366	ONION///θξεκκύδη 	1
 2366	ONION///κρεμμύδι	2
@@ -402,7 +415,7 @@ ID	GLOSS	PRIORITY
 1622	SHIRT///πουκάμισο	2
 1381	SHOE///παπνύηζη 	1
 1381	SHOE///παπούτσι	2
-1482	SHOULDER///ώμος	1
+1482	SHOULDER///ώμος	2
 3128	SHOWER (ACTION)///λούζει	2
 1261	SING///τραγουδάει	2
 1088	SINK (DESCEND)///βυθίζεται	2
@@ -444,6 +457,7 @@ ID	GLOSS	PRIORITY
 713	STEAL///κλέβει	2
 571	STING///κεντρίζει	2
 696	STIR///ανακατεύει	2
+819	STOMACH///στομάχι	1
 2058	STOOL///ζθακπό 	1
 2058	STOOL///σκαμπό	2
 859	STOVE///θνπδίλα 	1
@@ -472,9 +486,10 @@ ID	GLOSS	PRIORITY
 1788	TELEVISION///ηειεόξαζε 	1
 3103	TENNIS BALL///μπαλάκι του τένις	2
 3104	THERMOMETER///θερμόμετρο	2
-1346	THROAT///λαιμός	1
+1346	THROAT///λαιμός	2
 1456	THROW///πετάει	2
 1781	THUMB///αληίρεηξαο 	1
+1781	THUMB///αντίχειρας	1
 3711	TIE (NOUN)///γραβάτα	2
 1917	TIE///γξαβάηα 	1
 1917	TIE///δένει	2
@@ -483,13 +498,16 @@ ID	GLOSS	PRIORITY
 4010	TOASTER///θξπγαληέξα 	1
 1389	TOE///δάρηπιν 	1
 1389	TOE///δάχτυλα των ποδιών	1
+1389	TOE///δάχτυλο_του_ποδιού	1
 986	TOMATO///ληνκάηα 	1
 986	TOMATO///ντομάτα	2
-1205	TONGUE///γλώσσα	1
-1380	TOOTH///δόντι	1
+1205	TONGUE///γλώσσα	2
+1380	TOOTH///δόντι	2
 2579	TOOTHBRUSH///νδνληόβνπξηζα 	1
 2579	TOOTHBRUSH///οδοντόβουρτσα	2
 3996	TOP (TOY)///ζβνύξα 	1
+2667	TORSO///προβοσκίδα	1
+4144	TRACTOR///τρακτέρ	2
 900	TRAIN///ηξέλν 	1
 906	TREE///δέληξν 	1
 809	TROUSERS///παληειόλη 	1
@@ -512,7 +530,6 @@ ID	GLOSS	PRIORITY
 1443	WALK///περπατάει	2
 1453	WASH///πλένει	2
 3136	WATCH (TV)///βλέπει	2
-1650	WATCH///ρολόι	2
 2766	WATERMELON///θαξπνύδη 	1
 3544	WAVE (VERB)///χαιρετάει	2
 978	WAVE///κύμα	2
@@ -526,7 +543,10 @@ ID	GLOSS	PRIORITY
 1335	WHITE///Λευκό	1
 3841	WINDMILL///αλεκόκπινο 	1
 1375	WINDOW///παξάζπξν 	1
+4145	WRENCH///θιεηδί 	1
+799	WRIST///καρπός	1
 3349	WRISTWATCH///ξνιόη 	1
+3349	WRISTWATCH///ρολόι	2
 1672	WRITE///γράφει	2
 1424	YELLOW///Κίτρινο	1
 3675	ZEBRA///δέβξα 	1

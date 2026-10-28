@@ -1,5 +1,6 @@
 ID	GLOSS	PRIORITY
 1741	ABOVE///át	1
+4058	ACCIDENT///baleset	1
 2670	ACROSS///át	1
 2882	ADD///összead	1
 1685	AFTER///után	1
@@ -14,12 +15,14 @@ ID	GLOSS	PRIORITY
 98	ALL///mind	1
 3238	ALLOW///hagy	1
 1964	ALONE///csak	1
+4045	ALTHOUGH///bár	1
 1676	ALWAYS///mindig	1
 2987	AMOUNT///mennyiség	1
 1577	AND///és	1
 1577	AND///s	1
 1826	ANGRY///haragos	1
 619	ANIMAL///állat	1
+803	ANKLE///boka	1
 1275	ANSWER///felel	1
 587	ANT///hangya	2
 1000	ANXIETY///gond	1
@@ -28,11 +31,12 @@ ID	GLOSS	PRIORITY
 2847	APRIL///április	1
 2980	AREA///terep	1
 2980	AREA///terület	1
-1673	ARM///kar	2
+1673	ARM///kar	3
 1561	ARMY///hadsereg	1
 1568	ARRANGE///rendez	1
 1387	ARRIVE///megérkezik	1
 977	ARROW///nyíl	1
+4094	ART///művészet	1
 1309	ASK (INQUIRE)///kérdez	1
 1828	ASK (REQUEST)///kér	1
 1461	AT///nál	1
@@ -44,7 +48,7 @@ ID	GLOSS	PRIORITY
 677	AXE///balta	2
 1289	BABY///baba	1
 1291	BACK///hát	1
-1291	BACK///hát	1
+1291	BACK///hát	2
 2911	BACKWARD///vissza	1
 1292	BAD///rossz	1
 2468	BAG///zsák	1
@@ -128,6 +132,7 @@ ID	GLOSS	PRIORITY
 2902	BRAWL (FIGHT)///verekszik	2
 1368	BREAD///kenyér	1
 680	BREAK (DESTROY OR GET DESTROYED)///tör	1
+1402	BREAST///mell	1
 1407	BREATHE///lélegzik	1
 1011	BRIDGE///híd	1
 679	BRIGHT///világos	1
@@ -172,6 +177,7 @@ ID	GLOSS	PRIORITY
 1153	CATTLE///marha	1
 2896	CAUSE TO (LET)///bérbead	1
 860	CAUSE///ok	1
+4109	CELL (BIOLOGY)///sejt	1
 491	CENTER///közép	1
 491	CENTER///középpont	1
 509	CERTAIN///biztos	1
@@ -216,10 +222,13 @@ ID	GLOSS	PRIORITY
 1475	COMB///fésű	2
 581	COME BACK///visszatér	1
 1446	COME///jön	1
+4112	COMFORT///kényelem	1
+4112	COMFORT///vigasz	1
 2983	COMPANIONSHIP///csapat	1
 3086	COMPUTER///számítógép	1
 3086	COMPUTER///számítógép	2
 3111	CONDUCT///vezényel	2
+4118	CONFIDENCE///bizalom	1
 2862	CONNECT///kapcsol	1
 2315	COOK (PERSON)///szakács	1
 1100	COOK (SOMETHING)///főz	1
@@ -259,6 +268,7 @@ ID	GLOSS	PRIORITY
 1593	DEEP///mély	1
 1271	DELIGHT///tetszik	1
 681	DESTROY///lerombol	1
+4076	DEVELOPMENT///fejlődés	1
 1494	DIE///meghal	1
 2504	DIFFERENT///más	1
 584	DIFFICULT///nehéz	1
@@ -298,6 +308,7 @@ ID	GLOSS	PRIORITY
 863	EDGE///él	1
 3968	EFFECT///hatás	1
 744	EGG///tojás	1
+981	ELBOW///könyök	1
 59	ELECTRICITY///áram	1
 59	ELECTRICITY///villamosság	1
 1290	ELEPHANT///elefánt	1
@@ -321,8 +332,10 @@ ID	GLOSS	PRIORITY
 1626	EXPLAIN///megmagyaráz	1
 3976	EXPLODE///robban	1
 127	EXTINGUISH///olt	2
-1248	EYE///szem	4
-1560	FACE///arc	2
+1248	EYE///szem	5
+1173	EYEBROW///szemöldök	1
+17	EYELID///szemhéj	1
+1560	FACE///arc	3
 3861	FAIL///kudarcotvall	1
 1280	FALL///esik	2
 1280	FALL///zuhan	1
@@ -348,7 +361,7 @@ ID	GLOSS	PRIORITY
 2006	FILL///tölt	1
 719	FIND///lel	1
 2157	FINE OR THIN///finom	1
-1303	FINGER///ujj	2
+1303	FINGER///ujj	3
 1896	FINGERNAIL OR TOENAIL///köröm	1
 221	FIRE///tűz	1
 728	FIRST///első	1
@@ -371,8 +384,13 @@ ID	GLOSS	PRIORITY
 1085	FOLLOW///követ	1
 256	FOOD///étel	1
 1301	FOOT///láb	1
-1301	FOOT///láb	1
+1301	FOOT///láb	2
+4168	FOOTBALL (OBJECT)///foci	1
 318	FOOTPRINT///követ	1
+4065	FOR///ért	1
+4065	FOR///ig	2
+4065	FOR///miatt	1
+4065	FOR///nak	1
 420	FOREST///erdő	1
 1302	FORK///villa	2
 2912	FORWARD///előre	1
@@ -389,6 +407,7 @@ ID	GLOSS	PRIORITY
 991	FRY///süt	2
 1429	FULL///teli	1
 3336	FUNERAL///temetés	1
+4038	FUNNY///vicces	1
 580	FUR///prém	1
 2427	FUTURE///jövő	1
 2467	GAME///játék	1
@@ -418,6 +437,7 @@ ID	GLOSS	PRIORITY
 3114	GRATE (SOMETHING)///reszek	2
 1425	GREEN///zöld	1
 153	GREY///szürke	1
+4103	GROUP///csoport	1
 479	GROW///nő	1
 1682	GUILTY///bűnös	1
 3090	GUITAR///gitár	1
@@ -428,7 +448,7 @@ ID	GLOSS	PRIORITY
 1040	HAIR///haj	1
 2880	HALT (STOP)///megáll	1
 1277	HAND///kéz	1
-1277	HAND///kéz	1
+1277	HAND///kéz	2
 1254	HANDLE///fogó	1
 2884	HANG///lóg	1
 248	HAPPEN///történik	1
@@ -453,6 +473,7 @@ ID	GLOSS	PRIORITY
 136	HERE///ide	1
 2486	HIDE///rejt	1
 1265	HIGH///magas	1
+1745	HIP///csipő	1
 1745	HIP///csípő	1
 2473	HIS (GENITIVE OF HE)///övé	1
 1433	HIT///üt	1
@@ -483,6 +504,8 @@ ID	GLOSS	PRIORITY
 1460	IN///ba	1
 1460	IN///ban	1
 1041	INCREASE///fokoz	1
+4114	INDUSTRY///ipar	1
+4044	INFORMATION///információ	1
 44	INJURE///megsebesít	1
 620	INSECT///rovar	1
 1606	INSIDE///ban	1
@@ -497,6 +520,7 @@ ID	GLOSS	PRIORITY
 3078	IRRIGATE///öntöz	2
 169	IT///az	1
 2770	JACKET///kabát	1
+798	JAW///állkapocs	1
 1743	JOIN///csatlakozik	1
 3425	JOKE///vicc	1
 861	JUDGE///bíró	1
@@ -515,12 +539,13 @@ ID	GLOSS	PRIORITY
 3299	KIND///kedves	1
 1508	KING///király	1
 578	KISS///puszil	2
-1371	KNEE///térd	1
+1371	KNEE///térd	2
 1352	KNIFE///kés	2
 2905	KNIT///köt	2
 2396	KNOCK///kopog	2
 3626	KNOW///tud	1
 3874	KNOWLEDGE///tudás	1
+2525	LABOUR (EFFORT)///erőfeszítés	1
 1464	LADDER///létra	1
 1464	LADDER///létra	2
 625	LAMP///lámpa	2
@@ -530,13 +555,14 @@ ID	GLOSS	PRIORITY
 1062	LAW///jog	1
 627	LEAD (CHEMICAL ELEMENT)///ólom	1
 43	LEAD (GUIDE)///vezet	1
+4097	LEADER///vezető	1
 628	LEAF///levél	2
 504	LEARN///tanul	1
 629	LEATHER///bőr	1
 1752	LEAVE///hagy	1
 244	LEFT///bal	1
 1297	LEG///láb	1
-1297	LEG///láb	3
+1297	LEG///láb	4
 3091	LEMON///citrom	2
 2537	LENGTH///hossz	1
 1612	LETTER///levél	1
@@ -560,6 +586,7 @@ ID	GLOSS	PRIORITY
 916	LINEN///vászon	1
 1386	LION///oroszlán	1
 1386	LION///oroszlán	2
+478	LIP///ajak	1
 3093	LIPSTICK///rúzs	2
 58	LIQUID///folyékony	1
 1608	LISTEN///fülel	1
@@ -570,6 +597,7 @@ ID	GLOSS	PRIORITY
 377	LOUD///hangos	1
 923	LOVE///szeret	1
 721	LOW///alacsony	1
+446	LOWER ARM///alkar	1
 144	MACHINE///gép	1
 167	MAIL///posta	1
 1078	MAIN///fő	1
@@ -593,7 +621,6 @@ ID	GLOSS	PRIORITY
 1831	MEET///találkozik	1
 2334	MELT///olvad	2
 2424	MEMBER///tag	1
-1976	MERRY///vicces	1
 2961	MESSAGE///üzen	1
 2244	METAL///fém	1
 1093	MIDDLE///közép	1
@@ -614,7 +641,7 @@ ID	GLOSS	PRIORITY
 639	MOUNTAIN///hegy	1
 1491	MOUSE///egér	2
 674	MOUTH///száj	1
-674	MOUTH///száj	1
+674	MOUTH///száj	2
 765	MOVE///mozog	1
 3695	MOVEMENT///mozgalom	1
 3452	MUCH///sok	1
@@ -645,7 +672,7 @@ ID	GLOSS	PRIORITY
 1269	NO///nem	1
 1182	NOISE///zaj	1
 1598	NORTH///észak	1
-1221	NOSE///orr	4
+1221	NOSE///orr	5
 1240	NOT///nem	1
 687	NOTHING///semmi	1
 2893	NOTICE (SOMETHING)///észrevesz	1
@@ -659,6 +686,7 @@ ID	GLOSS	PRIORITY
 2336	OF THIS KIND (SUCH)///úgy	1
 557	OFFEND///bánt	1
 2430	OFFICE///iroda	1
+4176	OFFICER///tiszt	1
 3361	OFFICIAL///tisztviselő	1
 1852	OFTEN///gyakran	1
 1484	OIL (ORGANIC SUBSTANCE)///olaj	1
@@ -669,6 +697,7 @@ ID	GLOSS	PRIORITY
 3235	OPEN (STATE)///nyílt	1
 1156	OPEN///nyit	3
 3121	OPERATE (MEDICINE)///műt	2
+4113	OPINION///nézet	1
 1014	OR///vagy	1
 2627	ORANGE (FRUIT)///narancs	2
 1128	ORDER///parancs	1
@@ -716,6 +745,7 @@ ID	GLOSS	PRIORITY
 592	PISS///pisil	2
 723	PLACE (POSITION)///hely	1
 3630	PLAN///terv	1
+4042	PLANET///égitest	1
 1486	PLANT (SOMETHING)///ültet	1
 653	PLANT (VEGETATION)///növény	1
 653	PLANT (VEGETATION)///ültet	2
@@ -748,11 +778,13 @@ ID	GLOSS	PRIORITY
 2886	PRODUCE///termel	1
 1675	PROMISE///ígér	1
 2900	PROTECT///véd	1
+4083	PROTECTION///oltalom	1
 1455	PULL///húz	1
 1455	PULL///húz	2
 3649	PUNISH///fenyít	1
 1452	PUSH///tol	3
 998	PUT///tesz	1
+4078	QUALITY///minőség	1
 1306	QUEEN///királynő	1
 3268	QUESTION///kérdés	1
 1314	QUIET///halk	1
@@ -799,6 +831,7 @@ ID	GLOSS	PRIORITY
 1849	ROW///evez	2
 1849	ROW///sor	1
 1449	RUB///dörzsöl	1
+4064	RUBBER///gumi	1
 1412	RUDE///durva	2
 1846	RULE///uralkodik	1
 3405	RULER///vonalzó	2
@@ -808,6 +841,7 @@ ID	GLOSS	PRIORITY
 787	SAIL///hajózik	1
 787	SAIL///vitorlázik	2
 786	SAILCLOTH///vitorla	1
+4041	SALAD///saláta	1
 1274	SALT///só	1
 200	SAME///azonos	1
 200	SAME///ugyanaz	1
@@ -820,9 +854,11 @@ ID	GLOSS	PRIORITY
 2783	SCALES (MEASURE INSTRUMENT)///mérleg	2
 2783	SCALES (MEASURE INSTRUMENT)///skála	1
 673	SCHOOL///iskola	1
+4095	SCIENCE///tudomány	1
 1474	SEA///tenger	1
 691	SEASON///évad	1
 691	SEASON///évszak	1
+4088	SEAT///ülés	1
 1384	SECOND///második	1
 1121	SECRET///titok	1
 1409	SEE///lát	1
@@ -854,7 +890,7 @@ ID	GLOSS	PRIORITY
 1172	SHOOT///lő	1
 746	SHOP///bolt	1
 1645	SHORT///rövid	1
-1482	SHOULDER///váll	1
+1482	SHOULDER///váll	2
 1039	SHOW///mutat	1
 3128	SHOWER (ACTION)///zuhanyzik	2
 1046	SHUT///csuk	1
@@ -927,14 +963,17 @@ ID	GLOSS	PRIORITY
 1442	STAND///áll	1
 1430	STAR///csillag	3
 2955	STATE (POLITICS)///állam	1
+4043	STATION///állomás	1
 713	STEAL///lop	3
 2065	STEP (VERB)///lép	1
 1158	STEP///lépés	1
 1295	STICK///bot	1
 3703	STICKY///ragadós	1
+4106	STIFF///merev	1
 571	STING///csíp	2
 696	STIR///kever	2
 819	STOMACH///gyomor	1
+819	STOMACH///has	1
 857	STONE///kő	1
 2058	STOOL///szék	2
 752	STORE///bolt	1
@@ -949,6 +988,7 @@ ID	GLOSS	PRIORITY
 1518	STUPID///buta	1
 1112	SUCCEED///követ	1
 1112	SUCCEED///sikerrel jár	1
+4089	SUCCESS///siker	1
 1342	SUMMER///nyár	1
 1343	SUN///nap	3
 3131	SUNBATHE///napozik	2
@@ -983,6 +1023,7 @@ ID	GLOSS	PRIORITY
 1788	TELEVISION///tv (tévé)	2
 1711	TELL///mond	1
 3103	TENNIS BALL///teniszlabda	2
+4148	TENSE///feszült	1
 1316	TENT///sátor	1
 2412	THANK (SOMEBODY)///megköszön	1
 78	THAT///az	1
@@ -1000,32 +1041,36 @@ ID	GLOSS	PRIORITY
 1214	THIS///ilyen	1
 2975	THOUGHT///gondolat	1
 1161	THREAD///cérna	1
-1346	THROAT///torok	1
+1346	THROAT///torok	2
 97	THROUGH///át	1
 1456	THROW///dob	1
 1456	THROW///kidob	2
+1781	THUMB///hüvelykujj	1
 1693	THURSDAY///csütörtök	1
 3711	TIE (NOUN)///nyakkendő	2
 1917	TIE///cipőfűzőt köt	2
 1917	TIE///köt	1
 846	TIGER///tigris	2
-3053	TIGHT///feszült	1
 3053	TIGHT///szoros	1
 892	TIME///idő	1
+4080	TITLE///cím	1
+1389	TOE///lábuj	1
 1389	TOE///lábujjak	1
 2482	TOGETHER///együtt	1
 986	TOMATO///paradicsom	2
-1205	TONGUE///nyelv	1
+1205	TONGUE///nyelv	2
 1361	TOOL///eszköz	1
 1361	TOOL///szerszám	1
-1380	TOOTH///fog	2
+1380	TOOTH///fog	3
 2579	TOOTHBRUSH///fogkefe	2
 1753	TOP///tető	1
+2667	TORSO///hajótest	1
 1892	TOUCH///érint	1
 2754	TOWARDS///ba	1
 2754	TOWARDS///felé	1
 2754	TOWARDS///hoz	1
 1391	TOWN///város	1
+4144	TRACTOR///traktor	2
 900	TRAIN///vonat	1
 3665	TRAVEL///utazik	1
 906	TREE///fa	3
@@ -1069,7 +1114,6 @@ ID	GLOSS	PRIORITY
 1453	WASH///mos	3
 79	WASTE///szemét	1
 3136	WATCH (TV)///tévét néz	2
-1650	WATCH///óra	2
 948	WATER///víz	1
 2766	WATERMELON///görögdinnye	2
 3544	WAVE (VERB)///int	1
@@ -1119,7 +1163,9 @@ ID	GLOSS	PRIORITY
 1109	WOUND///seb	1
 1109	WOUND///sebesít	1
 1113	WRAP///becsomagol	1
+799	WRIST///csukló	1
 3349	WRISTWATCH///óra	1
+3349	WRISTWATCH///óra	2
 1672	WRITE///ír	1
 1672	WRITE///ír	2
 1390	WRONG///rossz	1

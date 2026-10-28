@@ -1,11 +1,14 @@
 ID	GLOSS	PRIORITY
 2527	ABILITY///võime	1
+4082	ABUNDANCE///küllus	1
+4058	ACCIDENT///õnnetus	1
 1814	ACCUSE///süüdistama (ründama)	1
 2882	ADD///lisama	1
 2022	ADMIT///tunnistama	1
 3635	ADULT///täiskasvanu	1
 1685	AFTER///pärast	1
 1789	AGE///iga	1
+4122	AGONY///piin	1
 3643	AGREE///nõustuma	1
 3644	AGREEMENT///kokkulepe	1
 27	AIR///õhk	1
@@ -14,12 +17,14 @@ ID	GLOSS	PRIORITY
 3238	ALLOW///lubama	1
 1676	ALWAYS///alati	1
 1863	AMAZING///hämmastav	1
+4057	ANGEL///ingel	1
 82	ANGER///viha	1
 1826	ANGRY///vihane	1
 619	ANIMAL///loom	1
 803	ANKLE///pahkluu	1
 9	ANNOUNCE///teadustama (kuulutama)	1
 587	ANT///sipelgas	1
+4149	APARTMENT///korter	1
 1320	APPLE///õun	1
 2980	AREA///ala	1
 2980	AREA///lennuk	1
@@ -27,6 +32,7 @@ ID	GLOSS	PRIORITY
 1561	ARMY///armee	1
 1568	ARRANGE///korraldama	1
 1387	ARRIVE///saabuma (kohale jõudma)	1
+4067	ARROGANT///ülbe	1
 977	ARROW///nool	1
 1894	ASHAMED///häbenev	1
 1309	ASK (INQUIRE)///küsima	1
@@ -45,6 +51,7 @@ ID	GLOSS	PRIORITY
 1284	BANK///pank	1
 831	BASE///baas (alus)	1
 1539	BASKET///korv	1
+4169	BASKETBALL (GAME OR OBJECT)///korvpall	1
 1793	BAT///nahkhiir	1
 662	BATTERY///patarei	1
 579	BATTLE///võitlus	1
@@ -56,6 +63,7 @@ ID	GLOSS	PRIORITY
 832	BEAN///uba	1
 1665	BEAT///kloppima	1
 1427	BEAUTIFUL///ilus	1
+4051	BEAUTY///ilu	1
 1990	BECOME///saama	1
 1663	BED///voodi	1
 2505	BEDROOM///magamistuba	1
@@ -73,11 +81,13 @@ ID	GLOSS	PRIORITY
 772	BELT///vöö	1
 2584	BENCH///pink	1
 731	BEVERAGE///karastusjook	1
+4068	BIBLE///piibel	1
 747	BICYCLE///jalgratas	1
 1202	BIG///suur	1
 1202	BIG///suur (ruumikas)	1
 937	BIRD///lind	1
 2407	BIRTHDAY///sünnipäev	1
+4126	BISCUIT///küpsis	1
 1403	BITE///hammustama	1
 163	BLACK///Must	1
 2716	BLAME (SOMEBODY)///süüdistama	1
@@ -135,12 +145,14 @@ ID	GLOSS	PRIORITY
 1791	BUTTERFLY///liblikas	1
 757	BUTTON///nööp	1
 1869	BUY///ostma	1
+4153	CABIN///metsamajake	1
 3283	CAGE///puur	1
 1967	CALENDAR///kalender	1
 1989	CALF///vasikas	1
 258	CALM///rahulik	1
 2618	CAMERA///kaamera	1
 1105	CAMP///laager	1
+4110	CANCER (DISEASE)///vähk	1
 874	CANDY///komm	1
 3202	CANNON///kahur	1
 1111	CAR///auto (autor)	1
@@ -151,11 +163,15 @@ ID	GLOSS	PRIORITY
 1208	CAT///kass	1
 702	CATCH///püüdma	1
 2247	CATERPILLAR///tõuk	1
+4154	CATHEDRAL///katedraal	1
 1153	CATTLE///kari	2
 2896	CAUSE TO (LET)///laskma	1
+4108	CELLAR///kelder	1
 1476	CHAIR///tool	1
 2856	CHANGE (SOMETHING)///muutma	1
 1264	CHANGE///vahetama	1
+4056	CHAOS///kaos	1
+4155	CHAPEL///kabel	1
 1188	CHARCOAL///puusüsi	1
 1887	CHEAP///odav	1
 1730	CHEEK///põsk	1
@@ -187,14 +203,18 @@ ID	GLOSS	PRIORITY
 1446	COME///tulema	1
 3429	COMPARE///võrdlema	1
 2606	COMPASS///compass	1
+4123	COMPETENCE///pädevus	1
 3642	COMPLAIN///kaebama	1
 3086	COMPUTER///arvuti	1
 3966	CONCEPT///konseptsioon	1
 484	CONDEMN///hukka mõistma	1
+4118	CONFIDENCE///kindlus (kindlustunne)	1
 2933	CONVERSATION///vestlus	1
 1100	COOK (SOMETHING)///süüa tegema (küpsetama)	1
 269	COOKED///küpsetatud	1
 192	CORNER///nurk	1
+4117	CORRIDOR///koridor	1
+4116	COTTAGE///maamaja	1
 1850	COTTON///puuvill	1
 1068	COURT///kohus	1
 1643	COUSIN///nõbu	1
@@ -211,6 +231,8 @@ ID	GLOSS	PRIORITY
 500	CRUEL///julm	1
 1839	CRY///nutma	1
 1839	CRY///vesistama	1
+4039	CRYSTAL///kristall	1
+4179	CUBE///kuubik (kuup)	1
 476	CUP///tass	1
 2621	CURTAIN///kardin	1
 1698	CURVED///kõver	1
@@ -237,6 +259,8 @@ ID	GLOSS	PRIORITY
 2715	DESPISE///põlgama	1
 681	DESTROY///hävitama	1
 681	DESTROY///lammutama	1
+4115	DESTRUCTION///purustamine	1
+4076	DEVELOPMENT///arendus	1
 1494	DIE///surema	1
 2504	DIFFERENT///erinev	1
 584	DIFFICULT///keeruline	1
@@ -255,6 +279,7 @@ ID	GLOSS	PRIORITY
 813	DO///tegema	1
 2009	DOG///koer	1
 1567	DOOR///uks	1
+4072	DRAWER///sahtel	1
 2374	DREAM///unistus	1
 1401	DRINK///jooma	1
 741	DRIVE///sõitma	1
@@ -287,6 +312,8 @@ ID	GLOSS	PRIORITY
 1626	EXPLAIN///seletama	1
 1248	EYE///silm	1
 1173	EYEBROW///kulm	1
+4105	FABRIC///riie	1
+4180	FACTORY///tehas	1
 2704	FADE (LOOSE COLOR)///hajuma	1
 3258	FALCON///pistrik	1
 1280	FALL///kukkuma	1
@@ -322,15 +349,21 @@ ID	GLOSS	PRIORITY
 1085	FOLLOW///jälitama	1
 256	FOOD///toit	1
 1301	FOOT///jalg	1
+4166	FOOTBALL (GAME OR OBJECT)///ameerika jalgpall (jalgpall)	1
+4167	FOOTBALL (GAME)///jalgpall	1
 1523	FORGET///unustama	1
 1528	FORGIVE///andestama	1
 1938	FORTRESS///kindlus	1
 1312	FOX///rebane	1
 2624	FRAME///raam	1
+4081	FRAUD///pettus	1
 2316	FREE///vaba	1
+4086	FREEDOM///priius (vabadus)	1
 243	FRESH///värske	1
 1325	FRIEND///sõber	1
 991	FRY///praadima	1
+4062	FUN///lõbu	1
+4038	FUNNY///naljakas	1
 580	FUR///karusnahk	1
 2467	GAME///mäng	1
 2948	GAP (DISTANCE)///vahe	1
@@ -392,6 +425,7 @@ ID	GLOSS	PRIORITY
 1897	HELP///aitama	1
 1514	HEN///kana	1
 136	HERE///siin	1
+4175	HERO///kangelane	1
 614	HILL///küngas	1
 1745	HIP///puus	1
 1433	HIT///lööma (tabama)	1
@@ -404,9 +438,11 @@ ID	GLOSS	PRIORITY
 3628	HONOR (SOMEBODY)///au	1
 939	HORN (INSTRUMENT)///ruupor	1
 615	HORSE///hobune	2
+4161	HOSE///voolik	1
 616	HOSPITAL///haigla	1
 3955	HOSTILITY///vaenulikkus	1
 1252	HOUSE///maja	1
+4069	HUMBLE///alandlik	1
 1435	HUNT///jahtima	1
 3380	HUNTING DOG///jahikoer	1
 754	HURRY///kiirustama	1
@@ -419,10 +455,13 @@ ID	GLOSS	PRIORITY
 117	IMITATE///imiteerima	1
 1963	IMMEDIATELY///koheselt	1
 1285	IMPORTANT///oluline	1
+4114	INDUSTRY///tööstus	1
+4044	INFORMATION///informatsioon	1
 90	INNOCENT///süütu	1
 620	INSECT///putukas	1
 2916	INSTANTLY (IMMEDIATELY)///otsekohe	1
 3204	INSULT///solvama	1
+4087	INTELLIGENCE///intelligentsus	1
 1162	INTENTION///kavatsus	1
 3847	INTEREST (FEELING)///huvi	1
 621	IRON///raud	1
@@ -434,6 +473,7 @@ ID	GLOSS	PRIORITY
 2524	JOY///rõõm	1
 861	JUDGE///kohtunik	1
 1499	JUICE///mahl	1
+4049	JUSTICE///õiglus	1
 1477	KEEP///hoidma	1
 1472	KEY///võti	1
 1135	KICK///jalaga lööma	1
@@ -444,6 +484,7 @@ ID	GLOSS	PRIORITY
 1371	KNEE///põlv	1
 1352	KNIFE///nuga	1
 3626	KNOW///teadma	1
+2525	LABOUR (EFFORT)///pingutus	1
 2471	LADY///leedi	1
 624	LAKE///järv	1
 820	LAMB///lambatall	1
@@ -451,6 +492,7 @@ ID	GLOSS	PRIORITY
 1307	LANGUAGE///keel	1
 1355	LAUGH///naerma	1
 1564	LAZY///laisk	1
+4097	LEADER///juht	1
 628	LEAF///leht	1
 504	LEARN///õppima	1
 1752	LEAVE///lahkuma (jätma)	1
@@ -474,6 +516,7 @@ ID	GLOSS	PRIORITY
 632	LIZARD///sisalik	1
 1596	LOCK///lukk	1
 2429	LOGIC///loogika	1
+4096	LONELY///üksildane	1
 1203	LONG///pikk	1
 1468	LOOK FOR///otsima	1
 1819	LOOK///vaatama	1
@@ -498,7 +541,9 @@ ID	GLOSS	PRIORITY
 2005	MASK///mask	1
 1526	MEAL///eine	1
 634	MEAT///liha	1
+4136	MEDAL///medal	1
 1831	MEET///kohtuma	1
+4054	MELODY///meloodia	1
 2334	MELT///sulama	1
 2244	METAL///metall	1
 4016	MICROSCOPE///mikroskoop	1
@@ -508,6 +553,7 @@ ID	GLOSS	PRIORITY
 486	MINISTER///vaimulik	1
 161	MISS (A TARGET)///mööda lööma	1
 2017	MIX///segama (segunema/ühendama)	1
+4053	MODEST///tagasihoidlik	1
 1559	MONEY///raha	1
 1350	MONKEY///ahv	1
 1370	MONTH///kuu	1
@@ -548,9 +594,11 @@ ID	GLOSS	PRIORITY
 1635	OBEY///alluma	1
 645	OCEAN///ookean	1
 2430	OFFICE///kontor	1
+4176	OFFICER///asetäitja	1
 1852	OFTEN///tihti	1
 1229	OLD///vana	1
 374	ONE TIME///üks kord (ükskord)	1
+4113	OPINION///arvamus	1
 885	OPPOSITE///vastandlik	1
 3328	ORANGE (COLOR)///Oranž	1
 2627	ORANGE (FRUIT)///apelsin	1
@@ -561,8 +609,11 @@ ID	GLOSS	PRIORITY
 1783	PAIN///valu	1
 2001	PAINTING///joonistama	1
 1888	PAIR///paar	1
+4059	PALACE///palee	1
 1183	PALM OF HAND///pihk	1
 648	PAPER///paber	1
+4061	PARSLEY///petersell	1
+4060	PASSION///kirg	1
 2252	PATH///rada	1
 3375	PATIENT (SICK PERSON)///patsient	1
 718	PAY///maksma	1
@@ -583,6 +634,7 @@ ID	GLOSS	PRIORITY
 2440	PINEAPPLE///ananass	1
 3446	PINK///Roosa	1
 1124	PIPE///toru	1
+4042	PLANET///planeet	1
 653	PLANT (VEGETATION)///taim	1
 480	PLATE///taldrik	1
 1413	PLAY///mängima	1
@@ -592,6 +644,7 @@ ID	GLOSS	PRIORITY
 1674	POOR///vaene	1
 593	POTATO///kartul	1
 1487	POUR///kallama	1
+4066	POVERTY///vaesus	1
 3001	POWERFUL///võimas	1
 24	PRAY///palvetama	1
 3002	PRECIOUS///kallis	1
@@ -619,6 +672,7 @@ ID	GLOSS	PRIORITY
 209	RARE///haruldane	1
 1490	RAT///rott	1
 724	READ///lugema	1
+4119	REALITY///reaalsus	1
 156	RED///Punane	1
 156	RED///punane	1
 660	REEF///riff	1
@@ -630,6 +684,7 @@ ID	GLOSS	PRIORITY
 880	REPEAT///kordama	1
 2008	RESCUE///vabastama	1
 421	RETREAT///taganema	1
+4120	REWARD///auhind	1
 926	RICE///riis	1
 367	RIDE///sõitma	1
 1374	RING///sõrmus	1
@@ -649,6 +704,8 @@ ID	GLOSS	PRIORITY
 1519	RUN///jooksma	1
 699	SAD///kurb	1
 3762	SAFE///ohutu	1
+4085	SAFETY///ohutus	1
+4041	SALAD///salat	1
 1274	SALT///sool	1
 671	SAND///liiv	1
 4008	SANDWICH///võileib	1
@@ -657,10 +714,12 @@ ID	GLOSS	PRIORITY
 3033	SCARED///hirmul	1
 3033	SCARED///hirmunud	1
 673	SCHOOL///kool	1
+4095	SCIENCE///teadus	1
 2522	SCREAM (NOISE)///kiljuma	1
 914	SCULPTOR///skulptor	1
 1474	SEA///meri	1
 691	SEASON///aastaeg	1
+4088	SEAT///iste	1
 714	SEED///seeme	1
 3050	SEEDLING///seemik	1
 1521	SEEM///näima	1
@@ -688,11 +747,13 @@ ID	GLOSS	PRIORITY
 2351	SILKWORM///siidiuss	1
 1558	SIMILAR///sarnane	1
 1261	SING///allkirjastama (laulma)	1
+4173	SINGER///laulja	1
 1263	SISTER///õde	1
 2845	SIZE (OF OBJECT)///suurus	1
 763	SKIN///nahk	1
 1600	SKIRT///seelik	1
 1732	SKY///taevas	1
+4162	SKYSCRAPER///pilvelõhkuja	1
 812	SLAVE///ori	1
 2530	SMART///intelligentne	1
 2530	SMART///tark	1
@@ -723,7 +784,7 @@ ID	GLOSS	PRIORITY
 1437	SPLIT///poolitama	1
 92	SPOIL (SOMEBODY OR SOMETHING)///rikkuma	1
 1378	SPOON///lusikas	1
-849	SPRING (OF WATER)///allikas	1
+849	SPRING (OF WATER)///allikas	2
 1414	SQUEEZE///pigistama	1
 1442	STAND///seisma	1
 1430	STAR///täht	1
@@ -732,6 +793,7 @@ ID	GLOSS	PRIORITY
 713	STEAL///varastama	1
 2343	STEEL///teras	1
 3703	STICKY///kleepuv	1
+4106	STIFF///kange	1
 696	STIR///segama	1
 819	STOMACH///kõht	1
 857	STONE///kivi	1
@@ -782,6 +844,7 @@ ID	GLOSS	PRIORITY
 4012	TELESCOPE///teleskoop	1
 1788	TELEVISION///televisioon	1
 1711	TELL///ütlema	1
+4071	THEFT///vargus	1
 2433	THEORY///teooria	1
 1400	THIN (SLIM)///peenike	1
 2271	THINK///mõtlema	1
@@ -864,9 +927,11 @@ ID	GLOSS	PRIORITY
 960	WIND///tuul	1
 1375	WINDOW///aken	1
 1524	WINE///vein	1
+4174	WINNER///võitja	1
 1471	WINTER///talv	1
 1454	WIPE///pühkima	1
 2631	WIRE///juhe	1
+4040	WISDOM///tarkus	1
 962	WOMAN///naine	1
 1803	WOOD///puit	1
 1599	WORD///sõna	1
