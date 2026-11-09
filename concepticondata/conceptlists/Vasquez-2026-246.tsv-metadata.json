@@ -69,9 +69,25 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "GBIF_NameGBIF_RankGBIF_KingdomGBIF_PhylumGBIF_Class"
+                        "name": "GBIF_Name"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "GBIF_Rank"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "GBIF_Kingdom"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "GBIF_Phylum"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "GBIF_Class"
                     }
-                ],
+                 ],
                 "primaryKey": [
                     "ID"
                 ]
