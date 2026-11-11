@@ -5,7 +5,7 @@ Vasquez-2026-246-3	3	russet-backed oropendola			3_russetbackedoropendola	3	pauca
 Vasquez-2026-246-4	4	scarlet macaw	1630	MACAW	4_scarletmacaw	4	guacamayo	Ara macao	Animals	5959227	Ara macao	SPECIES	Animalia	Chordata	Aves
 Vasquez-2026-246-5	5	red scarlet macaw	3938	RED-AND-GREEN MACAW	4x1_redscarletmacaw	4_1	guacamayo (rojo)	Ara macao	Animals	5959227	Ara macao	SPECIES	Animalia	Chordata	Aves
 Vasquez-2026-246-6	6	blue-yellow scarlet macaw	3927	BLUE-AND-YELLOW MACAW	4x2_blueyellowscarletmacaw	4_2	guacamayo (azul-amarillo)	Ara macao	Animals	5959227	Ara macao	SPECIES	Animalia	Chordata	Aves
-Vasquez-2026-246-7	7	white throated toucan	308	TOUCAN	5_whitethroatedtoucan	5	tucán	Ramphastos tucanus	Animals	2478774	Ramphastos tucanus	SPECIES	Animalia	Chordata	Aves
+Vasquez-2026-246-7	7	white throated toucan			5_whitethroatedtoucan	5	tucán	Ramphastos tucanus	Animals	2478774	Ramphastos tucanus	SPECIES	Animalia	Chordata	Aves
 Vasquez-2026-246-8	8	big white throated toucan			5x1_bigwhitethroatedtoucan	5_1	tucán grande	Ramphastos tucanus	Animals	2478774	Ramphastos tucanus	SPECIES	Animalia	Chordata	Aves
 Vasquez-2026-246-9	9	little white throated toucan			5x2_littlewhitethroatedtoucan	5_2	tucán pequeño	Ramphastos tucanus	Animals	2478774	Ramphastos tucanus	SPECIES	Animalia	Chordata	Aves
 Vasquez-2026-246-10	10	Spix's guan			6_spixsguan	6	pucacunga	Penelope jacquacu	Animals	9462558	Penelope jacquacu	SPECIES	Animalia	Chordata	Aves
@@ -78,7 +78,7 @@ Vasquez-2026-246-76	76	cacao tree			69_cacaotree	69	cacao	Theobroma cacao L.	Agr
 Vasquez-2026-246-77	77	mocambo tree			70_mocambotree	70	macambo	Theobroma bicolor	Agriculture and vegetation	3152209	Theobroma bicolor	SPECIES	Viridiplantae	Streptophyta	Magnoliopsida
 Vasquez-2026-246-78	78	chestnut	2318	CHESTNUT	71_chestnut	71	castaña	Castanea sativa	Agriculture and vegetation	5333294	Castanea sativa	SPECIES	Plantae	Magnoliophyta	Rosopsida
 Vasquez-2026-246-79	79	cashew	2441	CASHEW	72_cashew	72	cashew/marañón	Anacardium occidentale	Agriculture and vegetation	5421368	Anacardium occidentale	SPECIES	Viridiplantae	Streptophyta	Magnoliopsida
-Vasquez-2026-246-80	80	culantro			73_culantro	73	sachaculantro	Eryngium foetidum	Agriculture and vegetation	3034425	Eryngium foetidum	SPECIES	Plantae	Tracheophyta	Magnoliopsida
+Vasquez-2026-246-80	80	culantro	3241	CORIANDER	73_culantro	73	sachaculantro	Eryngium foetidum	Agriculture and vegetation	3034425	Eryngium foetidum	SPECIES	Plantae	Tracheophyta	Magnoliopsida
 Vasquez-2026-246-81	81	tobacco	974	TOBACCO	74_tobacco	74	tabaco	Nicotiana tabacum	Agriculture and vegetation	2928774	Nicotiana tabacum	SPECIES	Plantae	Tracheophyta	Magnoliopsida
 Vasquez-2026-246-82	82	peach palm	3919	PEACH PALM	75_peachpalm	75	pijuayo	Bactris gasipaes	Agriculture and vegetation	2733060	Bactris gasipaes	SPECIES	Viridiplantae	Streptophyta	Magnoliopsida
 Vasquez-2026-246-83	83	aguaje	3811	MIRITI PALM	76_aguaje	76	aguaje	Mauritia flexuosa	Agriculture and vegetation	5294777	Mauritia flexuosa	SPECIES	Plantae	Tracheophyta	Liliopsida
@@ -98,7 +98,7 @@ Vasquez-2026-246-96	96	soapapple			89_soapapple	89	zapote	Pouteria sapota	Agricu
 Vasquez-2026-246-97	97	ajospiro			90_ajospiro	90	ajospiro		Agriculture and vegetation						
 Vasquez-2026-246-98	98	hot pepper	919	CHILI PEPPER	91_hotpepper	91	ají		Agriculture and vegetation						
 Vasquez-2026-246-99	99	wayruru			92_wayruru	92	huairuro	Ormosia coccinea	Agriculture and vegetation	5355587	Ormosia coccinea	SPECIES	Viridiplantae	Streptophyta	Magnoliopsida
-Vasquez-2026-246-100	100	manioc drink			93_maniocdrink	93	masato		Food and drink						
+Vasquez-2026-246-100	100	manioc drink	441	CHICHA	93_maniocdrink	93	masato		Food and drink						
 Vasquez-2026-246-101	101	plantain drink			94_plantaindrink	94	chapo		Food and drink						
 Vasquez-2026-246-102	102	fish-based food			95_fishbasedfood	95	patarashca		Food and drink						
 Vasquez-2026-246-103	103	arrow	977	ARROW	96_arrow	96	flecha		Warfare and hunting						
@@ -243,5 +243,5 @@ Vasquez-2026-246-241	241	machete	2680	MACHETE	223_machete	223	machete		Basic act
 Vasquez-2026-246-242	242	hammock	2019	HAMMOCK	224_hammock	224	hamaca		The house						
 Vasquez-2026-246-243	243	pipe	1124	PIPE	225_pipe	225	pipa		Basic actions and technology						
 Vasquez-2026-246-244	244	canoe	1970	CANOE	226_canoe	226	canoa		Motion						
-Vasquez-2026-246-245	245	rowing	234	PADDLE	227_rowing	227	remo		Basic actions and technology						
+Vasquez-2026-246-245	245	paddle	234	PADDLE	227_paddle	227	remo		Basic actions and technology						
 Vasquez-2026-246-246	246	basket	1539	BASKET	228_basket	228	canasta		Basic actions and technology						
