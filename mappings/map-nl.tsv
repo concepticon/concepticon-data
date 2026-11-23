@@ -1,29 +1,38 @@
 ID	GLOSS	PRIORITY
 2924	A LITTLE///gering	1
+3866	ABORTION///abortus	1
+1953	ABUSE///misbruik	1
 2603	ACCORDION///Accordeon	1
 1814	ACCUSE///beschuldigen	1
 968	ACORN///Eikel	1
 1861	ACTIVE///actief	1
 1807	AFTERNOON///middag	1
 1597	AIRPLANE///Vliegtuig	1
-1597	AIRPLANE///vliegtuig	3
+1597	AIRPLANE///vliegtuig	4
 3815	ALMOND///amandel	1
+1964	ALONE///alleen	1
 4013	AMBULANCE///Ambulance	1
 1870	ANCHOR///anker	1
+82	ANGER///woede	1
 1826	ANGRY///boos	2
 619	ANIMAL///dier	1
+803	ANKLE///enkel	1
 1275	ANSWER///antwoorden	1
 587	ANT///Mier	1
 587	ANT///mier	2
+1935	ANUS///anus	1
 1320	APPLE///Appel	1
 1320	APPLE///appel	4
 3730	APRICOT///Abrikoos	1
 3730	APRICOT///abrikoos	1
-1673	ARM///arm	1
+2046	APRON///schort	1
+1673	ARM///arm	2
+4067	ARROGANT///arrogant	1
 977	ARROW///Pijl	1
 977	ARROW///pijl	1
 1894	ASHAMED///schamen	1
 1309	ASK (INQUIRE)///vragen	1
+722	ATTACK///aanslag	1
 1908	ATTENTIVE///aandachtig	1
 1146	AUBERGINE///aubergine	1
 1272	AUNT///tante	1
@@ -33,6 +42,7 @@ ID	GLOSS	PRIORITY
 677	AXE///bijl	3
 1289	BABY///Baby	1
 1289	BABY///baby	1
+1291	BACK///rug	1
 1292	BAD///slecht	2
 2468	BAG///Tas	1
 1125	BALD///kaal	1
@@ -41,6 +51,7 @@ ID	GLOSS	PRIORITY
 3083	BALLOON///Ballon	1
 3083	BALLOON///ballon	2
 3083	BALLOON///balloon	1
+3083	BALLOON///luchtballon	1
 1927	BAMBOO///Bamboe	1
 868	BANANA///Banaan	1
 868	BANANA///banaan	3
@@ -50,6 +61,8 @@ ID	GLOSS	PRIORITY
 2548	BARREL///ton	2
 1539	BASKET///Mand	1
 1539	BASKET///mand	2
+4171	BASKETBALL (OBJECT)///Basketbal	1
+1793	BAT///vleermuis	1
 138	BATHE///badderen	2
 4027	BATHTUB///Badkuip	1
 662	BATTERY///Batterij	1
@@ -60,32 +73,39 @@ ID	GLOSS	PRIORITY
 48	BE SILENT///stil	1
 3474	BE THIRSTY///dorsten	1
 1579	BE///bestaand	1
+3460	BEACH///strand	1
 1820	BEAR///Beer	1
 1820	BEAR///beer	4
 1427	BEAUTIFUL///heerlijk	1
 1427	BEAUTIFUL///mooi	1
 1194	BEAVER///Bever	1
 1157	BECAUSE///omdat	1
+2209	BECOME EXTINGUISHED///uitgedoofd	1
 1663	BED///Hemelbed	1
-1663	BED///bed	2
+1663	BED///bed	3
 665	BEE///bij	1
 1639	BEER///bier	1
+4152	BEETROOT///Biet	1
 3534	BEG///bedelen	2
 3707	BEIGE///beige	1
 2246	BELL///bel	3
 1251	BELLY///buik	1
 1485	BELOW OR UNDER///lager	1
 772	BELT///Riem	1
-772	BELT///riem	3
+772	BELT///riem	4
 747	BICYCLE///Fiets	1
+747	BICYCLE///fiets	1
 747	BICYCLE///mountainbike	2
 1202	BIG///groot	2
 1202	BIG///uitgestrekt	1
 937	BIRD///Vogel	1
 937	BIRD///vogel	3
+2805	BIRTH (ACCOUCHEMENT)///geboorte	1
 2805	BIRTH (ACCOUCHEMENT)///geboren	1
+2407	BIRTHDAY///verjaardag	1
 1403	BITE///bijten	2
 887	BITTER///bitter	1
+2806	BLACK MAN///neger	1
 163	BLACK///Zwart	1
 163	BLACK///zwart	2
 3084	BLACKBOARD///krijtbord	1
@@ -101,20 +121,24 @@ ID	GLOSS	PRIORITY
 1844	BOAT///Boot	1
 1844	BOAT///boot	1
 2493	BOIL///koken	2
-1804	BOMB///bom	1
+1804	BOMB///bom	2
 1394	BONE///bot	2
 963	BOOK///boek	2
 585	BOOT///laars	2
+585	BOOT///laarzen	1
 1501	BORE///boren	2
-905	BORING///saai	1
+905	BORING///saai	2
 1321	BOTTLE///Fles	1
-1321	BOTTLE///fles	3
+1321	BOTTLE///fles	4
 3108	BOX (SOMEBODY OR SOMETHING)///boksen	2
-3	BRAVE///dapper	1
-3	BRAVE///moedig	1
+3150	BOX OR CHEST///kist	1
+3	BRAVE///dapper	2
+3	BRAVE///moedig	2
 2902	BRAWL (FIGHT)///vechten	2
 1368	BREAD///Brood	1
 1368	BREAD///brood	1
+1402	BREAST///borst	1
+1402	BREAST///borsten	1
 1407	BREATHE///ademen	1
 3982	BREEZE///bries	1
 1006	BRICK///Baksteen	1
@@ -148,6 +172,7 @@ ID	GLOSS	PRIORITY
 1245	BUTTER///boter	1
 1791	BUTTERFLY///Vlinder	1
 1791	BUTTERFLY///vlinder	2
+834	BUTTOCKS///reet	1
 757	BUTTON///Knop	1
 757	BUTTON///knoop	3
 1869	BUY///kopen	1
@@ -156,47 +181,57 @@ ID	GLOSS	PRIORITY
 2595	CACTUS///cactus	1
 3283	CAGE///Kooi	1
 2408	CAKE///Taart	1
+2408	CAKE///gebak	1
+4177	CALCULATOR///rekenmachine	1
 1967	CALENDAR///Kalender	1
 1989	CALF///Kalf	1
-258	CALM///kalm	1
+258	CALM///kalm	2
 1871	CAMEL///Kameel	1
 2618	CAMERA///camera	1
 1273	CANDLE///Kaars	1
 1273	CANDLE///kaars	3
 1288	CAP///muts	2
+1288	CAP///pet	1
 1111	CAR///Auto	1
 1111	CAR///auto	4
+1770	CARCASS///karkas	1
 2619	CARD///Kaart	1
 2758	CAREFUL///voorzichtig	1
-3085	CARROT///wortel	3
+3085	CARROT///wortel	4
 700	CARRY///dragen	2
 122	CART///Kar	1
+122	CART///kar	1
+122	CART///wagen	1
 228	CARVE///uitsnijden	2
 2441	CASHEW///cashew	1
 1208	CAT///Kat	1
 1208	CAT///Poes	1
-1208	CAT///kat	4
+1208	CAT///kat	5
 2843	CAULIFLOWER///Bloemkool	1
 2843	CAULIFLOWER///bloemkool	1
-3727	CELERY///selderij	1
+4147	CEDAR///ceder	1
+3727	CELERY///selderij	2
 509	CERTAIN///zeker	1
 1627	CHAIN///Ketting	1
 1627	CHAIN///ketting	2
-1476	CHAIR///stoel	4
+1476	CHAIR///stoel	5
+4130	CHALK///krijt	1
 1887	CHEAP///goedkoop	1
 1730	CHEEK///wang	1
+4037	CHEERFUL///opgewekt	1
 1569	CHEESE///Kaas	1
 1569	CHEESE///kaas	3
 2765	CHERRY///Kers	1
-2765	CHERRY///kers	1
+2765	CHERRY///kers	2
 1592	CHEST///borst	1
 2318	CHESTNUT///kastanje	1
 1318	CHICKEN///Kip	1
-1318	CHICKEN///kip	1
+1318	CHICKEN///kip	2
 2099	CHILD///kind	1
 919	CHILI PEPPER///chili	1
 1510	CHIN///kin	1
 3873	CHOCOLATE///Chocolade	1
+129	CHOKE///stikken	1
 1750	CHOOSE///kiezen	1
 1349	CHURCH///Kerk	1
 1349	CHURCH///kerk	1
@@ -211,6 +246,7 @@ ID	GLOSS	PRIORITY
 3710	CLEAR (TO SEE)///duidelijk	1
 1310	CLEVER///slim	1
 1102	CLIMB///klimmen	2
+3257	CLITORIS///clitoris	1
 1323	CLOCK///Klok	1
 1323	CLOCK///klok	3
 589	CLOSED///gesloten	1
@@ -221,8 +257,10 @@ ID	GLOSS	PRIORITY
 2000	CLOVE///kruidnagel	1
 4020	CLOWN///Clown	1
 2151	COARSE///grof	1
-970	COCONUT///kokosnoot	1
+603	COAT///jas	1
+970	COCONUT///kokosnoot	2
 1299	COFFEE///koffie	1
+2011	COFFIN///doodskist	1
 1867	COIN///munt	1
 2483	COLD (OF WEATHER)///koel	1
 1287	COLD///koud	2
@@ -232,6 +270,7 @@ ID	GLOSS	PRIORITY
 2997	COLORFUL///kleurrijk	1
 2070	COMB (VERB)///kammen	2
 1475	COMB///kam	2
+4112	COMFORT///comfort	1
 2606	COMPASS///Kompas	1
 2606	COMPASS///kompas	1
 3086	COMPUTER///computer	3
@@ -239,46 +278,66 @@ ID	GLOSS	PRIORITY
 3858	CONFUSED///verward	1
 2315	COOK (PERSON)///Kok	1
 1100	COOK (SOMETHING)///koken	2
+549	COPULATE///batsen	1
+549	COPULATE///fuck	1
+549	COPULATE///neuken	1
 3241	CORIANDER///Koriander	1
 3241	CORIANDER///koriander	1
+4159	CORKSCREW///kurkentrekker	1
+767	CORPSE///lijk	1
 1725	CORRECT (RIGHT)///correct	1
 1725	CORRECT (RIGHT)///juist	1
 1725	CORRECT (RIGHT)///juist/goed	1
 1850	COTTON///katoen	1
 1420	COUNT///tellen	1
 1007	COW///Koe	1
-1007	COW///koe	3
-3812	COWARDLY///laf	1
+1007	COW///koe	4
+1319	COWARD///lafbek	1
+3812	COWARDLY///laf	2
 2348	CRAB///Krab	1
 2946	CRADLE///Wieg	1
 96	CRAWL///kruipen	2
 2354	CRICKET///krekels	1
+1066	CRIME///misdrijf	1
+3875	CRIMINAL///crimineel	1
 1857	CROCODILE///Krokodil	1
 1857	CROCODILE///krokodil	2
 297	CROOKED///krom	1
 1367	CROSS///Kruis	1
 1367	CROSS///kruis	1
 913	CROW///Kraai	1
+913	CROW///kraai	1
 1943	CROWN (OF HEAD)///kroon	1
-500	CRUEL///wreed	1
+500	CRUEL///wreed	2
 1839	CRY///huilen	2
-496	CUCUMBER///komkommer	3
+4039	CRYSTAL///kristal	1
+4179	CUBE///kubus	1
+2934	CUCKOO///koekoek	1
+496	CUCUMBER///komkommer	4
 476	CUP///Beker	1
+3357	CUPBOARD///kast	1
+2621	CURTAIN///gordijn	1
 1432	CUT///knippen	2
 2998	DAMP///vochtig	1
 1879	DANCE///dansen	3
+1810	DANGER///gevaar	1
 706	DARK///donker	2
 1357	DAUGHTER///dochter	1
 1225	DAY (NOT NIGHT)///dag	1
-1625	DEAD///dood	1
+1625	DEAD///dood	2
 458	DEAF PERSON///Doof (van een persoon)	1
-996	DEAF///doof	1
+996	DEAF///doof	2
 2470	DEAR///dierbaar	1
 2470	DEAR///lief	1
 3230	DECEIVE///bedriegen	1
 1593	DEEP///diep	1
 1936	DEER///Hert	1
+1936	DEER///hert	1
 3231	DEITY///god	1
+3973	DEPRESSED///depressief	1
+681	DESTROY///vernietigen	1
+3917	DEVIL///duivel	1
+3917	DEVIL///satan	1
 1824	DEXTEROUS///handig	1
 3878	DIAMOND///Diamant	1
 1494	DIE///doodgaan	1
@@ -291,20 +350,23 @@ ID	GLOSS	PRIORITY
 1230	DIRTY///vies	2
 2507	DISGUSTING///walgelijk	1
 119	DIVE///duiken	2
+3672	DIVORCE (SEPARATE)///scheiden	1
+1134	DIVORCE///scheiding	1
 2009	DOG///Hond	1
-2009	DOG///hond	4
+2009	DOG///hond	5
 1659	DOLL///Pop	1
 1659	DOLL///pop	2
 1479	DOLPHIN///Dolfijn	1
 1862	DONKEY///Ezel	1
-1862	DONKEY///ezel	1
+1862	DONKEY///ezel	2
 1567	DOOR///Deur	1
 1567	DOOR///deur	2
+1326	DOWN///down	1
 2030	DRAG///slepen	2
 93	DRAW MILK///melken	2
 1920	DREAM (SOMETHING)///dromen	2
 474	DRESS///Jurk	1
-474	DRESS///jurk	3
+474	DRESS///jurk	4
 3423	DRILL///boor	1
 1401	DRINK///drinken	3
 2253	DRIP (EMIT LIQUID)///druppelen	2
@@ -334,14 +396,17 @@ ID	GLOSS	PRIORITY
 1705	EIGHT///acht	1
 1713	EIGHTEEN///achttien	1
 1722	EIGHTY///tachtig	1
+981	ELBOW///elleboog	1
 59	ELECTRICITY///electriciteit	1
+4099	ELEGANT///elegant	1
 3678	ELEPHANT TRUNK///Slurf	1
 1290	ELEPHANT///Olifant	1
-1290	ELEPHANT///olifant	3
+1290	ELEPHANT///olifant	4
 1706	ELEVEN///elf	1
 928	EMBRACE///knuffelen	2
 3761	EMOTIONAL///emotioneel	1
 1624	EMPTY///leeg	2
+1358	ENEMY///vijand	1
 1881	ENOUGH///genoeg	1
 3088	ENVELOPE///envelop	3
 1570	EQUAL///gelijk	1
@@ -350,12 +415,21 @@ ID	GLOSS	PRIORITY
 1629	EVENING///avond	1
 45	EVIL///kwaad	1
 1466	EXACT///stipt	1
+3972	EXCITED///energiek	1
+3972	EXCITED///enthousiast	1
 1426	EXPENSIVE///duur	1
 127	EXTINGUISH///blussen	2
 1248	EYE///Oog	1
-1248	EYE///oog	4
-1560	FACE///gezicht	2
+1248	EYE///oog	5
+1173	EYEBROW///wenkbrauw	1
+17	EYELID///ooglid	1
+4105	FABRIC///stof	1
+1560	FACE///gezicht	3
+675	FAECES (EXCREMENT)///schijt	1
+675	FAECES (EXCREMENT)///shit	1
+675	FAECES (EXCREMENT)///stront	1
 100	FAITHFUL///trouw	1
+3258	FALCON///valk	1
 1280	FALL///vallen	3
 3005	FAMILIAR///vertrouwd	1
 194	FAMILY///familie	1
@@ -366,57 +440,69 @@ ID	GLOSS	PRIORITY
 1631	FAST///snel	1
 1631	FAST///vlug	1
 1279	FAT (OBESE)///dik (persoon)	1
+1279	FAT (OBESE)///vatzig	1
 1279	FAT (OBESE)///vet	1
 2449	FAT (OF MEAT AND FOOD)///vettig	1
 323	FAT (ORGANIC SUBSTANCE)///vet	1
 1217	FATHER///vader	1
 1488	FAUCET///Kraan	1
 1419	FEAR (BE AFRAID)///bang	2
+781	FEAR (FRIGHT)///angst	1
+1201	FEATHER///pluim	1
 1201	FEATHER///veer	3
 739	FEED///voeren	2
 325	FELT///vilt	1
 3733	FERRY///Veerboot	1
+131	FESTIVAL///feest	1
 1242	FEW///enkele	1
 1242	FEW///weinig	1
 1709	FIFTEEN///vijftien	1
 1717	FIFTY///vijftig	1
 322	FIG///Vijg	1
+322	FIG///vijg	1
 3113	FILE (SOMETHING)///vijlen	2
+3407	FILE (TOOL)///vijl	1
 2157	FINE OR THIN///ijl	1
 1303	FINGER///Vinger	1
+1303	FINGER///vinger	1
 221	FIRE///vuur	2
 185	FIREPLACE///openhaard	1
 728	FIRST///voorst	1
 227	FISH///Vis	1
 227	FISH///vis	4
+227	FISH///vissen	1
 1858	FISHERMAN///Visser	1
 2638	FISHING///vissen	2
 388	FISHNET///Visnet	1
+1473	FIST///vuisten	1
 493	FIVE///vijf	1
 2623	FLAG///Vlag	1
 2623	FLAG///vlag	2
 1633	FLAT///plat	1
 1574	FLOAT///drijven	1
+1632	FLOOR///vloer	1
 3756	FLORAL///gebloemd	1
-239	FLOWER///bloem	3
+239	FLOWER///bloem	4
 777	FLUTE///fluit	1
 1504	FLY (INSECT)///vlieg	2
 1441	FLY (MOVE THROUGH AIR)///vliegen	2
 249	FOG///mist	1
 3759	FOGGY///mistig	1
+1438	FOOL///malloot	1
 1301	FOOT///Voet	1
-1301	FOOT///voet	1
+1301	FOOT///voet	2
 418	FOR A LONG TIME///lang	1
 418	FOR A LONG TIME///lang (tijd)	1
 123	FOREHEAD///voorhoofd	1
 1302	FORK///Vork	1
-1302	FORK///vork	2
+1302	FORK///vork	3
 3004	FORMER///voormalig	1
 1938	FORTRESS///Kasteel	1
 1938	FORTRESS///kasteel	1
 1716	FORTY///veertig	1
 1500	FOUR///vier	1
 2451	FOURTEEN///veertien	1
+1312	FOX///vos	1
 376	FRAGRANT///geurig	1
 2316	FREE///vrij	1
 1431	FREEZE///bevriezen	1
@@ -427,36 +513,45 @@ ID	GLOSS	PRIORITY
 991	FRY///bakken	2
 1429	FULL///vol	1
 1429	FULL///vol (t.o. leeg)	1
+3336	FUNERAL///begrafenis	1
 2602	FUNNEL///Trechter	1
 580	FUR///bont	1
 2427	FUTURE///toekomst	1
-2368	GARLIC///knoflook	1
+586	GARDEN///tuin	1
+2368	GARLIC///knoflook	2
 2940	GATE///hek	2
+29	GELD///castreren	1
 1954	GENTLE///teder	1
 3350	GET UP FROM BED///opstaan	1
 2982	GIFT///Cadeau	1
 2500	GINGER///gember	1
-3089	GIRAFFE///giraf	2
+3089	GIRAFFE///giraf	3
 1646	GIRL///meisje	1
 604	GLASS///Glas	1
 604	GLASS///glas	3
 2588	GLOBE///Wereldbol	1
-1552	GLOOMY///somber	1
+1552	GLOOMY///neerslachtig	1
+1552	GLOOMY///somber	2
+867	GLOVE///wanten	1
 1069	GLUE///lijm	1
 1069	GLUE///lijmen	2
 1502	GOAT///Geit	1
 1502	GOAT///geit	2
+4160	GOLDFISH///Goudvis	1
 2410	GOOD-LOOKING///fraai	1
 1035	GOOD///goed	2
 3144	GORILLA///Gorilla	1
-1383	GRANDFATHER///opa	1
+1383	GRANDFATHER///opa	2
 1496	GRANDMOTHER///oma	1
 920	GRAPE///Druif	1
 920	GRAPE///druif	1
+3804	GRAPEFRUIT OR POMELO///grapefruit	1
 606	GRASS///Gras	1
 606	GRASS///gras	1
 3114	GRATE (SOMETHING)///raspen	2
+1773	GRAVE///graf	1
 3028	GRAVEL///grind	1
+3284	GRAVEYARD///kerkhof	1
 1425	GREEN///Groen	1
 1425	GREEN///groen	2
 153	GREY///Grijs	1
@@ -473,12 +568,14 @@ ID	GLOSS	PRIORITY
 1040	HAIR///haar	2
 816	HALF///half	1
 1481	HAMMER///Hamer	1
-1481	HAMMER///hamer	1
+1481	HAMMER///hamer	2
 2019	HAMMOCK///Hangmat	1
 3147	HAMSTER///Hamster	1
+3147	HAMSTER///hamster	1
 1277	HAND///Hand	1
-1277	HAND///hand	2
+1277	HAND///hand	3
 1020	HANDKERCHIEF///zakdoek	1
+1495	HAPPY///blij	1
 1495	HAPPY///gelukkig	1
 1495	HAPPY///graag	1
 1495	HAPPY///verheugd	1
@@ -490,6 +587,8 @@ ID	GLOSS	PRIORITY
 771	HAT///Muts	1
 771	HAT///hoed	3
 3116	HATCH (OUT)///uit het ei kruipen	2
+3749	HATE (LOATHING)///hoed	1
+1607	HATE///haat	1
 1607	HATE///haten	1
 307	HAWK///Vlieger	1
 1168	HAWTHORN///meidoorn	1
@@ -502,56 +601,80 @@ ID	GLOSS	PRIORITY
 1210	HEAVY///zwaar	1
 1797	HEDGEHOG///Egel	1
 2580	HELICOPTER///helicopter	2
-2580	HELICOPTER///helikopter	1
+2580	HELICOPTER///helikopter	2
+878	HELL///hel	1
 1680	HELMET///Helm	1
+1897	HELP///helpen	1
 1514	HEN///kip	2
 136	HERE///hier	1
+758	HERON///reiger	1
 1265	HIGH///hoog	1
 614	HILL///heuvel	1
+1745	HIP///heup	1
 3145	HIPPOPOTAMUS///Nijlpaard	1
+3145	HIPPOPOTAMUS///nijlpaard	1
 3117	HITCHHIKE///liften	2
 3701	HOLLOW///hol	1
 1702	HOLY///heilig	1
+2406	HOME///thuis	1
+1120	HONEST///braaf	1
 1120	HONEST///eerlijk	1
 1120	HONEST///waarachtig	1
 942	HONEY///honig	1
 615	HORSE///Paard	1
-615	HORSE///paard	3
+615	HORSE///paard	4
 1286	HOT///heet	1
 1286	HOT///warm	1
 1252	HOUSE///Huis	1
 1252	HOUSE///huis	4
 1239	HOW///hoe	1
+4069	HUMBLE///nederig	1
 143	HUMID///klam	1
 1634	HUNDRED///honderd	1
 1864	HUNGER///honger	1
 1435	HUNT///jagen	2
 1053	HUNTER///Jager	1
+2411	HURT (SOMEBODY)///kwetsen	1
 1200	HUSBAND///echtgenoot	1
 1209	I///ik	1
 1609	IDEA///idee	1
 1459	IF///als	1
 1285	IMPORTANT///belangrijk	1
 3356	INCENSE///wierook	1
+4052	INDIFFERENT///onverschillig	2
 2643	INK///inkt	1
+90	INNOCENT///onschuldig	1
+3204	INSULT///schelden	1
 220	INTACT///heel	1
 3744	INTERPRETER///tolk	1
 3118	IRON (CLOTHES)///strijken	2
 4031	IRON (PRESSING)///strijkbout	1
 3078	IRRIGATE///begieten	2
-2821	JEALOUS///jaloers	1
+798	JAW///kaak	1
+2821	JEALOUS///jaloers	2
+2016	JEALOUSY///jaloezie	1
 4017	JELLYFISH///Kwal	1
+2524	JOY///plezier	1
+2524	JOY///vreugde	1
 1829	JUMP///springen	2
-164	KANGAROO///kangoeroe	2
+164	KANGAROO///kangoeroe	3
+854	KETTLE///waterkoker	1
 1472	KEY///Sleutel	1
-1472	KEY///sleutel	2
+1472	KEY///sleutel	3
 3750	KHAKI///kaki	1
+1135	KICK///schop	1
 1135	KICK///schoppen	2
+1417	KILL///doden	1
 1417	KILL///vermoorden	1
+3299	KIND///zachtaardig	1
+3454	KISS (NOUN)///kus	1
+3454	KISS (NOUN)///zoen	1
+578	KISS///kussen	1
 578	KISS///zoenen	2
-3247	KIWIFRUIT///kiwi	1
+3247	KIWIFRUIT///kiwi	2
+1371	KNEE///knie	1
 1352	KNIFE///Mes	1
-1352	KNIFE///mes	2
+1352	KNIFE///mes	3
 2905	KNIT///breien	2
 2396	KNOCK///kloppen	2
 1410	KNOW (SOMETHING)///weten	1
@@ -562,25 +685,30 @@ ID	GLOSS	PRIORITY
 624	LAKE///meer	1
 820	LAMB///lam	1
 625	LAMP///Lamp	1
-625	LAMP///lamp	2
+625	LAMP///lamp	3
 1307	LANGUAGE///taal	1
 4025	LANTERN///Lantaarn	1
 340	LASSO///lasso	1
-1355	LAUGH///lachen	3
+1355	LAUGH///lachen	4
 2958	LAUGHTER///gelach	1
-1564	LAZY///lui	1
+2958	LAUGHTER///lach	1
+1564	LAZY///lui	2
 43	LEAD (GUIDE)///Dirigent	1
 628	LEAF///blad	2
 504	LEARN///leren	1
 629	LEATHER///leer	1
 2204	LEDGE///richel	1
 244	LEFT///links	1
-1297	LEG///been	3
+1297	LEG///been	4
 3091	LEMON///citroen	3
 3330	LENTILS///linze	1
+3330	LENTILS///linzen	1
 1139	LEOPARD///Luipaard	1
-319	LICK///likken	2
+3729	LETTUCE///sla	1
+319	LICK///likken	3
+601	LIE (MISLEAD)///liegen	1
 1411	LIE (REST)///liegen	1
+210	LIFE///leven	1
 737	LIGHT (IGNITE)///aansteken	2
 630	LIGHT (RADIATION)///licht	1
 630	LIGHT (RADIATION)///licht (t.o. donker)	1
@@ -589,13 +717,16 @@ ID	GLOSS	PRIORITY
 1654	LIGHTNING///bliksem	1
 1117	LIKE///lijken	1
 3752	LILAC///lila	1
+982	LIME (FRUIT)///limoen	1
 2540	LIME (MATERIAL)///kalk	1
 1386	LION///Leeuw	1
-1386	LION///leeuw	4
+1386	LION///leeuw	5
+478	LIP///lip	1
 3093	LIPSTICK///lippenstift	2
 58	LIQUID///vloeistof	1
 1608	LISTEN///luisteren	2
-2768	LITCHI///lychee	1
+2768	LITCHI///lychee	2
+4107	LIVELY///monter	1
 2397	LOBSTER///Kreeft	1
 3473	LONG (FOR SOMETHING)///verlangen	1
 1468	LOOK FOR///zoeken	2
@@ -603,33 +734,39 @@ ID	GLOSS	PRIORITY
 2506	LOOSE///los	1
 2359	LOTUS///Lotus	1
 377	LOUD///luid	1
+3834	LOVE (AFFECTION)///liefde	1
 923	LOVE///houden van	1
 721	LOW///laag	1
+446	LOWER ARM///onderarm	1
 1899	MAD///dol	1
 1899	MAD///gek	1
 3753	MAGENTA///magenta	1
+506	MAIZE///ma•s	1
 734	MAKE///maken	1
 2475	MALE GOAT///Bok	1
 1554	MAN///man	1
-2398	MANGO///mango	1
+2398	MANGO///mango	2
 1198	MANY///talrijk	1
 1198	MANY///veel	2
 2625	MAP///Landkaart	1
 2625	MAP///kaart	1
-203	MARRY///trouwen	3
+203	MARRY///trouwen	4
 2005	MASK///masker	1
 3119	MASSAGE (SOMEBODY)///masseren	2
 1133	MATCH///lucifer	3
 1506	MEASURE///opmeten	2
 634	MEAT///vlees	1
 1831	MEET///ontmoeten	1
-507	MELON///meloen	1
+507	MELON///meloen	2
 2334	MELT///smelten	2
+1976	MERRY///vrolijk	1
 4014	MICROPHONE///Microfoon	1
 12	MIDDAY///twaalf uur ‘s middags	1
 635	MILK///melk	1
-1171	MIRROR///spiegel	1
+2541	MIRACLE///wonder	1
+1171	MIRROR///spiegel	2
 2017	MIX///mixen	2
+4053	MODEST///bescheiden	1
 3251	MOLD (GET ROTTEN)///schimmel	1
 1907	MOLE///Mol	1
 1559	MONEY///Geld	1
@@ -642,26 +779,29 @@ ID	GLOSS	PRIORITY
 1509	MOSQUITO///Mug	1
 1216	MOTHER///moeder	1
 1636	MOTIONLESS///stokstil	1
-110	MOTOR///motor	1
+110	MOTOR///motor	2
 638	MOTORCYCLE///moter	2
 639	MOUNTAIN///Berg	1
 639	MOUNTAIN///berg	1
 3755	MOUNTAINOUS///bergachtig	1
 1491	MOUSE///Muis	1
-1491	MOUSE///muis	3
+1491	MOUSE///muis	4
 674	MOUTH///Mond	1
-674	MOUTH///mond	1
+674	MOUTH///mond	2
 216	MOVIE///film	1
 640	MUD///modder	1
+4137	MUG///mok	1
 3757	MUGGY///benauwd	1
+845	MURDER///moord	1
 641	MUSHROOM///champignon	2
 641	MUSHROOM///paddestoel	1
 971	MUST///moeten	1
 3181	MUSTARD///mosterd	1
 2090	MY///mijn	1
+502	NAIL (TOOL)///spijker	1
 502	NAIL (TOOL)///spijkers	1
 3306	NAIL///slaan	2
-590	NAKED///naakt	1
+590	NAKED///naakt	2
 1405	NAME///naam	1
 1267	NARROW///smal	2
 1942	NEAR///dichtbij	1
@@ -677,10 +817,11 @@ ID	GLOSS	PRIORITY
 1483	NINE///negen	1
 1714	NINETEEN///negentien	1
 1724	NINETY///negentig	1
+796	NIPPLE///tepel	1
 1269	NO///nee	1
 1182	NOISE///herrie/lawaai	1
 1221	NOSE///Neus	1
-1221	NOSE///neus	3
+1221	NOSE///neus	4
 1240	NOT///niet	1
 687	NOTHING///niets	1
 1376	NOW///nu	1
@@ -691,62 +832,82 @@ ID	GLOSS	PRIORITY
 1229	OLD///oud	2
 1154	OLIVE///olijf	1
 1493	ONE///een	1
-2366	ONION///ui	3
+2366	ONION///ui	4
 1580	ONLY///enig	1
 3235	OPEN (STATE)///open	1
 1156	OPEN///openen	2
 3121	OPERATE (MEDICINE)///opereren	2
 3328	ORANGE (COLOR)///Oranje	1
 3328	ORANGE (COLOR)///oranje	1
-2627	ORANGE (FRUIT)///sinaasappel	3
+2627	ORANGE (FRUIT)///sinaasappel	4
+3797	OSTRICH///struisvogel	1
+1143	OVEN///oven	1
 735	OWL///Uil	1
-735	OWL///uil	3
+735	OWL///uil	4
 3087	PACIFIER///speen	2
 336	PADLOCK///Hangslot	1
+1783	PAIN///pijn	1
 1129	PAINFUL///pijnlijk	1
 647	PAINT (PIGMENTS)///lak	1
 647	PAINT (PIGMENTS)///verf	1
 3122	PAINT (SOMETHING)///verven	2
 3094	PAINTBRUSH///kwast	2
+3094	PAINTBRUSH///verfborstel	1
+2001	PAINTING///schilderij	1
 2001	PAINTING///tekenen	2
 1181	PALM TREE///Palm	1
 1181	PALM TREE///Palmboom	1
 1181	PALM TREE///palmboom	1
 31	PAN///koekenpan	2
+31	PAN///pan	1
 3951	PANDA///Panda	1
+2445	PAPAYA///papaya	1
 648	PAPER///papier	1
+886	PARAKEET///parkiet	1
 505	PARENTS///ouders	1
 882	PARROT///Papegaai	1
+882	PARROT///papegaai	1
+4061	PARSLEY///peterselie	1
+1880	PASSIONATE///hartstochtelijk	1
 2457	PATH OR ROAD///weg	1
-3884	PATIENT///geduldig	1
+3884	PATIENT///geduldig	2
 718	PAY///betalen	1
-2043	PEACH///perzik	1
+1338	PEACE///rust	1
+1338	PEACE///vrede	1
+2043	PEACH///perzik	2
 3382	PEACOCK///Pauw	1
+3382	PEACOCK///pauw	1
 922	PEAR///Peer	1
-922	PEAR///peer	3
+922	PEAR///peer	4
+3325	PEARL///parel	1
 961	PEBBLES///kiezel	1
 275	PEEL///schillen	2
 472	PELICAN///Pelikaan	1
+472	PELICAN///pelikaan	1
 794	PEN///pen	2
 2578	PENCIL///potlood	3
+2831	PENGUIN/// pingu•n	1
 2831	PENGUIN///pinguïn	2
+1222	PENIS///penis	1
 789	PEOPLE///mensen	1
 1385	PEPPER///peper	1
 683	PERSON///persoon	1
 2458	PERSPIRE OR SWEAT///zweten	2
 2344	PETROL///benzine	1
+3060	PHEASANT///fazant	1
 3123	PHOTOGRAPH (SOMETHING)///fotograferen	2
 3994	PIANO (INSTRUMENT)///Piano	1
 3994	PIANO (INSTRUMENT)///piano	1
 2148	PICK///plukken	2
 3304	PICTURE (PHOTOGRAPH)///foto	1
-1337	PIG///varken	1
+1337	PIG///varken	2
 1044	PILLOW///kussen	1
 64	PIN///Pin	1
 378	PINCH///knijpen	2
 2440	PINEAPPLE///ananas	3
 3446	PINK///Roze	1
 3446	PINK///roze	1
+592	PISS///pis	1
 592	PISS///plassen	2
 337	PITCHFORK///Hooivork	1
 653	PLANT (VEGETATION)///planten	2
@@ -754,7 +915,10 @@ ID	GLOSS	PRIORITY
 3125	PLAY (GAME)///golfen	2
 3124	PLAY (INSTRUMENT)///spelen	2
 1413	PLAY///spelen	1
+4003	PLIERS///tang	1
 1921	PLOUGH///ploegen	2
+4063	PLUM///Pruim	1
+4063	PLUM///pruim	1
 372	POINTED///puntig	1
 372	POINTED///spits	1
 3143	POLAR BEAR///Ijsbeer	1
@@ -770,10 +934,14 @@ ID	GLOSS	PRIORITY
 3368	POWDER///poeder	1
 3002	PRECIOUS///kostelijk	1
 1123	PREGNANT///zwanger	1
+1610	PROSTITUTE///hoer	1
+1610	PROSTITUTE///prostituee	1
 174	PROUD///fier	1
 174	PROUD///trots	1
+36	PUBIC HAIR///schaamhaar	1
+1455	PULL///rukken	1
 1455	PULL///trekken	2
-864	PUMPKIN///pompoen	1
+864	PUMPKIN///pompoen	2
 74	PUPPY///Puppy	1
 1147	PURE///puur	1
 1147	PURE///zuiver	1
@@ -782,24 +950,27 @@ ID	GLOSS	PRIORITY
 2452	PURPLE///purper	1
 2452	PURPLE///sierlijk	1
 1452	PUSH///duwen	2
+4178	PUZZLE///Puzzel	1
 2600	PYRAMID///pyramide	1
 3302	QUARREL (VERB)///ruzie maken	1
+1848	QUARREL///ruzie	1
 1314	QUIET///stil	1
-1136	RABBIT///konijn	3
+1136	RABBIT///konijn	4
 828	RACCOON///Wasbeer	1
-3096	RACKET///Raket	1
 3096	RACKET///tennisracket	2
 2365	RADISH///Radijs	1
+2365	RADISH///radijs	1
 332	RAG///vod	1
 658	RAIN (PRECIPITATION)///regen	1
 1253	RAIN (RAINING)///regen	1
 1733	RAINBOW///Regenboog	1
-1733	RAINBOW///regenboog	3
+1733	RAINBOW///regenboog	4
 2108	RAINING OR RAIN///regenen	2
+4139	RAISIN///rozijnen	1
 3127	RAKE (SOMETHING)///harken	2
 209	RARE///zeldzaam	1
 3803	RASPBERRY///Framboos	1
-3803	RASPBERRY///framboos	1
+3803	RASPBERRY///framboos	2
 871	RATTLESNAKE///ratelslang	1
 1959	RAW///rauw	1
 151	RAZOR///scheermes	1
@@ -808,8 +979,11 @@ ID	GLOSS	PRIORITY
 156	RED///rood	2
 156	RED///ros	1
 659	REED///Riet	1
+3952	REFRIGERATOR///koelkast	1
 707	REMEMBER///onthouden	1
+495	REVENGE///wraak	1
 2591	RHINOCEROS///Neushoorn	1
+2591	RHINOCEROS///neushoorn	1
 2969	RIBBON///lint	1
 926	RICE///rijst	1
 712	RICH///rijk	1
@@ -821,26 +995,34 @@ ID	GLOSS	PRIORITY
 666	RIVER///rivier	1
 667	ROAD///weg	1
 1962	ROAST (SOMETHING)///braden	2
+2402	ROBIN///roodborstje	1
 4006	ROBOT///Robot	1
+4070	ROCKET///Raket	1
+4070	ROCKET///raket	1
 3826	ROE DEER///Ree	1
 769	ROOF///dak	2
 1511	ROOSTER///Haan	1
-1511	ROOSTER///haan	1
+1511	ROOSTER///haan	2
 1218	ROPE///Touw	1
+1218	ROPE///touw	1
+3882	ROSE///roos	1
 1728	ROTTEN///rot	1
 1923	ROUGH///ruw	1
 1395	ROUND///rond	1
 1849	ROW///roeien	2
+4064	RUBBER///rubber	1
+292	RUG///kleed	1
 292	RUG///tapijt	1
 3405	RULER///liniaal	2
 2833	RUM///rum	1
-1519	RUN///hardlopen	2
+1519	RUN///hardlopen	3
 699	SAD///droevig	1
 699	SAD///ongelukkig	1
 699	SAD///treurig	1
 699	SAD///verdrietig	1
-3762	SAFE///veilig	1
-787	SAIL///zeilen	2
+3762	SAFE///veilig	2
+787	SAIL///zeilen	3
+4041	SALAD///Salade	1
 944	SALMON///Zalm	1
 944	SALMON///zalm	1
 1274	SALT///zout	2
@@ -849,18 +1031,23 @@ ID	GLOSS	PRIORITY
 4008	SANDWICH///boterham	2
 2404	SANTA CLAUS///Kerstman	1
 1948	SAW///Zaag	1
-1948	SAW///zaag	2
+1948	SAW///zaag	3
 1948	SAW///zagen	2
 4024	SAXOPHONE///Saxofoon	1
 1458	SAY///zeggen	1
-2783	SCALES (MEASURE INSTRUMENT)///weegschaal	3
+2783	SCALES (MEASURE INSTRUMENT)///weegschaal	4
+3066	SCARF OR TURBAN///sjaal	1
 673	SCHOOL///school	1
 1802	SCREW///Schroef	1
+836	SCREWDRIVER///schroevendraaier	1
+2834	SCROTUM///balzak	1
 1474	SEA///zee	2
 950	SEAGULL///Meeuw	1
+950	SEAGULL///meeuw	1
 651	SEAL///Zeehond	1
 1384	SECOND///tweede	1
 1409	SEE///zien	1
+714	SEED///zaad	1
 1993	SELF///zelf	1
 1571	SELL///verkopen	1
 1704	SEVEN///zeven	1
@@ -875,16 +1062,20 @@ ID	GLOSS	PRIORITY
 231	SHAVE///scheren	2
 1532	SHEAR///scheren	2
 356	SHEARS///Schaar	1
-356	SHEARS///schaar	3
+356	SHEARS///schaar	4
 1331	SHEEP///Schaap	1
-1331	SHEEP///schaap	1
+1331	SHEEP///schaap	2
 740	SHIP///Schip	1
+740	SHIP///schip	1
 1622	SHIRT///Overhemd	1
 1622	SHIRT///overhemd	2
 1622	SHIRT///shirt	1
+1622	SHIRT///t-shirt	1
 1381	SHOE///Schoen	1
 1381	SHOE///schoen	2
+1381	SHOE///schoenen	1
 1645	SHORT///kort	1
+1482	SHOULDER///schouder	1
 715	SHOUT///schreeuwen	1
 3128	SHOWER (ACTION)///douchen	2
 2349	SHRIMP///Garnaal	1
@@ -892,7 +1083,8 @@ ID	GLOSS	PRIORITY
 487	SHY///schuw	1
 487	SHY///verlegen	1
 1847	SICK///misselijk	1
-1847	SICK///ziek	1
+1847	SICK///ziek	2
+3353	SIEVE (TOOL)///zeef	1
 86	SIEVE///Zeef	1
 1720	SIGN///gebaren	1
 1641	SILK///zijde	1
@@ -909,14 +1101,20 @@ ID	GLOSS	PRIORITY
 2668	SKELETON///skelet	1
 2991	SKI///skiën	2
 763	SKIN///huid	1
+1600	SKIRT///rok	1
 1732	SKY///lucht/hemel	1
 3075	SLANTED///schuin	1
+1796	SLAUGHTER///slachten	1
+812	SLAVE///slaaf	1
 16	SLED///Slee	1
+16	SLED///slede	1
+2972	SLEEP (STATE)///slaap	1
 1585	SLEEP///slapen	3
 3620	SLEEPY///slaperig	1
 1324	SLIP///uitglijden	2
 3702	SLIPPERY///glad	1
 2446	SLOTH///Luiaard	1
+701	SLOW///sloom	1
 701	SLOW///traag	1
 1246	SMALL///klein	1
 2530	SMART///intelligent	1
@@ -940,8 +1138,14 @@ ID	GLOSS	PRIORITY
 69	SOBER///sober	1
 1522	SOCK///Sok	1
 1522	SOCK///sok	2
+1522	SOCK///sokken	1
 3099	SOFA///bank	2
-1856	SOFT///zacht	1
+3099	SOFA///futon	1
+1856	SOFT///mals	1
+1856	SOFT///zacht	2
+3003	SOLID///degelijk	1
+3003	SOLID///solide	1
+3003	SOLID///stabiel	1
 1241	SOME///sommige	1
 1620	SON///zoon	1
 145	SORROWFUL///verdrietig	1
@@ -949,17 +1153,19 @@ ID	GLOSS	PRIORITY
 1906	SOUR///zuur	2
 1968	SOYA SAUCE///sojasaus	1
 1854	SPARROW///Mus	1
+1854	SPARROW///mus	1
 1623	SPEAK///praten	1
 1898	SPECTACLES///Bril	1
 1898	SPECTACLES///bril	3
+1505	SPERM///sperma	1
 2303	SPHERICAL (ROUND IN THREE DIMENSIONS)///bol	1
 2303	SPHERICAL (ROUND IN THREE DIMENSIONS)///sferisch	1
 544	SPICY///kruidig	1
 843	SPIDER///Spin	1
 3130	SPILL (SOMETHING)///morsen	2
 121	SPIN///spinnen	2
-975	SPINACH///spinazie	1
-1378	SPOON///lepel	2
+975	SPINACH///spinazie	2
+1378	SPOON///lepel	3
 1537	SPRINGTIME///lente	1
 850	SQUARE///vierkant	1
 1414	SQUEEZE///uitknijpen	2
@@ -971,16 +1177,20 @@ ID	GLOSS	PRIORITY
 1430	STAR///ster	4
 3032	STARFISH///zeester	1
 1002	STATUE///standbeeld	1
-713	STEAL///stelen	3
+713	STEAL///stelen	4
 1193	STEAM///damp	1
 2717	STEEP///steil	1
 1295	STICK///stok	1
 3703	STICKY///kleverig	1
+4106	STIFF///stijf	1
 571	STING///steken	2
 696	STIR///roeren	2
+819	STOMACH///buik	1
 819	STOMACH///maag	1
 857	STONE///steen	2
-2058	STOOL///kruk	2
+2058	STOOL///kruk	3
+3724	STORK///ooievaar	1
+859	STOVE///fornuis	1
 1404	STRAIGHT///recht	1
 600	STRANGE///eigenaardig	1
 600	STRANGE///raar	1
@@ -989,9 +1199,10 @@ ID	GLOSS	PRIORITY
 785	STRONG///sterk	1
 785	STRONG///stevig	1
 3634	STUBBORN///koppig	1
-1518	STUPID///dom	1
+1518	STUPID///dom	2
 1518	STUPID///dwaas	1
-1518	STUPID///stom	1
+1518	STUPID///stom	2
+1421	SUCK///zuigen	1
 3475	SUFFICE///genoegen	1
 4005	SUITCASE///Koffer	1
 1342	SUMMER///zomer	1
@@ -1000,22 +1211,27 @@ ID	GLOSS	PRIORITY
 3100	SUNGLASSES///Zonnebril	1
 3100	SUNGLASSES///zonnebril	2
 2340	SUNNY///zonnig	1
-3132	SURF///surfen	2
+3132	SURF///surfen	3
+3848	SURPRISE (FEELING)///verrassing	1
 1572	SURPRISED///verbaasd	1
 1572	SURPRISED///verrast	1
 1572	SURPRISED///verwonderd	1
+3077	SWALLOW (BIRD)///zwaluw	1
 2837	SWAN///Zwaan	1
-4035	SWEATER///trui	2
+2837	SWAN///zwaan	1
+4035	SWEATER///sweater	1
+4035	SWEATER///trui	3
 230	SWEEP///vegen	2
 717	SWEET///zoet	2
-1439	SWIM///zwemmen	2
+1439	SWIM///zwemmen	3
 2871	SWING (MOVEMENT)///schommelen	2
 3101	SWING///Schommel	1
 3101	SWING///schommel	2
 1535	SWORD///zwaard	1
+4090	SYRINGE///injectienaald	1
 1775	TABLE///Tafel	1
 1775	TABLE///bureau	2
-1775	TABLE///tafel	1
+1775	TABLE///tafel	2
 3979	TADPOLE///kikkervisje	1
 1220	TAIL///staart	2
 3133	TALK (PHONE)///bellen	2
@@ -1051,33 +1267,45 @@ ID	GLOSS	PRIORITY
 1215	THOU///jij	1
 1843	THOUSAND///duizend	1
 492	THREE///drie	1
+1346	THROAT///keel	1
 1456	THROW///weggooien	2
+1781	THUMB///duim	1
 1150	THUNDER///donder	2
-3711	TIE (NOUN)///stropdas	2
+3711	TIE (NOUN)///stropdas	3
 1917	TIE///vastmaken	2
 846	TIGER///Tijger	1
-846	TIGER///tijger	2
+846	TIGER///tijger	3
 3053	TIGHT///spannend	1
 3053	TIGHT///strak	1
-1757	TIRED///moe	2
+1757	TIRED///moe	3
+1757	TIRED///vermoeid	1
+1389	TOE///teen	1
 219	TOILET///toilet	1
 986	TOMATO///Tomaat	1
-986	TOMATO///tomaat	3
+986	TOMATO///tomaat	4
+1205	TONGUE///tong	1
+1380	TOOTH///tand	1
 2579	TOOTHBRUSH///tandenborstel	3
+2667	TORSO///romp	1
 895	TORTOISE///schildpad	1
+1021	TOWEL///handdoek	1
+4144	TRACTOR///tractor	3
 900	TRAIN///Trein	1
-900	TRAIN///trein	1
+900	TRAIN///trein	2
 3754	TRANSPARENT///doorzichtig	1
+3965	TRAUMA///trauma	1
 906	TREE///Boom	1
 906	TREE///boom	4
+4077	TRIANGLE///driehoek	1
 2607	TRIPOD///statief	1
 809	TROUSERS///Broek	1
 809	TROUSERS///broek	2
 795	TROUT///Forel	1
-4011	TRUCK///vrachtwagen	1
+4011	TRUCK///vrachtwagen	2
 1657	TRUE///waar	1
 775	TRUMPET///Trompet	1
 537	TURBID///troebel	1
+2386	TURKEY///kalkoen	1
 3914	TURQUOISE///Turquoise	1
 112	TURTLE///Schildpad	1
 112	TURTLE///schildpad	2
@@ -1092,25 +1320,32 @@ ID	GLOSS	PRIORITY
 1327	UNCLE///oom	1
 1536	UNDERSTAND///begrijpen	1
 26	UNPLEASANT///onaangenaam	1
+1142	URINE///urine	1
 3135	VACUUM (SOMETHING)///stofzuigen	2
+1836	VAGINA///vagina	1
 3746	VASE///Vaas	1
+3746	VASE///vaas	1
 1311	VERY///zeer	1
 985	VINEGAR///azijn	1
 4023	VIOLIN///Viool	1
 2654	VIPER///Adder	1
+2298	VIRGIN///maagd	1
 1868	VISIBLE///zichtbaar	1
 1377	VISIT///bezoeken	1
+1185	VULTURE///gier	1
 1602	WAKE UP///opstaan	2
+2890	WALK (TAKE A WALK)///wandelen	1
 1443	WALK///lopen	3
 2042	WALNUT///Walnoot	1
 2042	WALNUT///walnoot	1
 4007	WALRUS///Walrus	1
 1784	WANT///willen	1
+935	WAR///oorlog	1
 3106	WARDROBE///kast	2
 1232	WARM///warm	1
+2665	WART///wrat	1
 1453	WASH///wassen	2
 3136	WATCH (TV)///kijken [tv]	2
-1650	WATCH///horloge	2
 948	WATER///water	1
 943	WATERFALL///waterval	1
 2766	WATERMELON///watermeloen	2
@@ -1118,7 +1353,10 @@ ID	GLOSS	PRIORITY
 3544	WAVE (VERB)///zwaaien	2
 978	WAVE///golf	2
 978	WAVE///golven	1
-1601	WEAK///zwak	1
+1601	WEAK///slap	1
+1601	WEAK///zwak	2
+1259	WEDDING///bruiloft	1
+1259	WEDDING///huwelijk	1
 1469	WEEK///week	1
 1098	WEIGH///wegen	2
 1726	WET///nat	1
@@ -1126,6 +1364,7 @@ ID	GLOSS	PRIORITY
 1077	WHEAT///Tarwe	1
 710	WHEEL///Wiel	1
 710	WHEEL///wiel	1
+4073	WHEELBARROW///Kruiwagen	1
 2582	WHEELCHAIR///Rolstoel	1
 1238	WHEN///wanneer	1
 1237	WHERE///waar	1
@@ -1142,6 +1381,7 @@ ID	GLOSS	PRIORITY
 1270	WHY///waarom	1
 1243	WIDE///wijd	1
 3154	WILD BOAR///Zwijn	1
+866	WIN///winnen	1
 3841	WINDMILL///windmolen	1
 1375	WINDOW///Raam	1
 1375	WINDOW///raam	1
@@ -1150,14 +1390,18 @@ ID	GLOSS	PRIORITY
 1471	WINTER///winter	1
 698	WISE///wijs	1
 824	WITCH///Heks	1
+2056	WOK///wok	1
 522	WOLF///Wolf	1
-522	WOLF///wolf	2
+522	WOLF///wolf	3
 962	WOMAN///vrouw	1
 1803	WOOD///hout	1
 2447	WOODPECKER///Specht	1
+2447	WOODPECKER///specht	1
 964	WOOL///Wol	1
 964	WOOL///wol	1
 1219	WORM///Worm	1
+799	WRIST///pols	1
+3349	WRISTWATCH///horloge	2
 1672	WRITE///schrijven	3
 1390	WRONG///fout	2
 1226	YEAR///jaar	1
@@ -1167,5 +1411,5 @@ ID	GLOSS	PRIORITY
 1207	YOUNG///jong	1
 732	YOUR (SINGULAR)///jouw	1
 3675	ZEBRA///Zebra	1
-3675	ZEBRA///zebra	2
+3675	ZEBRA///zebra	3
 1294	ZERO///nul	1

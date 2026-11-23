@@ -9,17 +9,16 @@ Period | Name
 2013-2018 | Michael Cysouw
 2023-2024 | Mathilda van Zantwijk
 2023- | Frederic Blum
-2025- | Alžběta Kučerová 
+2025- | Alžběta Kučerová
 2023- | Carlos Barrientos Ugarte
 2019- | Christoph Rzymski
-2017- | Simon Greenhill
+2017- | Simon J. Greenhill
 2019-2022 | Nathanael Schweikhard
 2019-2021 | Kristina Pianykh
-2020  | Mei-Shin Wu
+2020 | Mei-Shin Wu
 2020-2021 | Carolin Hundt
-2020  | Tiago Tresoldi
+2020 | Tiago Tresoldi
 2015- | Robert Forkel
-
 
 ## Grant information
 
@@ -51,7 +50,7 @@ Many people helped us in many
 ways in assembling the data. They pointed us to missing
 lists (M), provided scans (S), digitized data (D), typed off
 and corrected concept lists (C), provided translations (T),
-linked concept lists (L), provided corrections of concept definitions and concept linkings (P), or gave important advice (A), and (G) contributed new data via the GitHub-Workflow, or helped in reviewing new submissions (R). 
+linked concept lists (L), provided corrections of concept definitions and concept linkings (P), or gave important advice (A), and (G) contributed new data via the GitHub-Workflow, or helped in reviewing new submissions (R).
 
 For all this help, we are very grateful and express our gratitude.
 

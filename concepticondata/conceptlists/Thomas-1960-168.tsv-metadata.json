@@ -52,7 +52,7 @@
                     }, 
                     {
                         "datatype": {"base": "nonNegativeInteger", "maximum": 100}, 
-                        "name": "STABILITY_SCORE"
+                        "name": "MON_KHMER_STABILITY_SCORE"
                     }, 
                     {
                         "datatype": {"base": "positiveInteger", "minimum": 1, "maximum": 168}, 

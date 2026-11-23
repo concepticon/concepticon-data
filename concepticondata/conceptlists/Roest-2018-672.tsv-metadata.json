@@ -65,23 +65,23 @@
                     },
                     {
                         "datatype": "float",
-                        "name": "DUTCH_AROUSAL_MEAN"
+                        "name": "AROUSAL_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "DUTCH_VALENCE_MEAN"
+                        "name": "VALENCE_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "DUTCH_TABOO_MEAN"
+                        "name": "TABOO_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "DUTCH_TABOO_PERSONAL_MEAN"
+                        "name": "TABOO_PERSONAL_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "DUTCH_INSULT_MEAN"
+                        "name": "INSULT_MEAN"
                     }
                 ],
                 "primaryKey": [

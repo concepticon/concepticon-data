@@ -49,27 +49,27 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "GERMAN_POS"
+                        "name": "POS"
                     },
                     {
                         "datatype": "float",
-                        "name": "GERMAN_VALENCE_MEAN"
+                        "name": "VALENCE_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "GERMAN_AROUSAL_MEAN"
+                        "name": "AROUSAL_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "GERMAN_POTENCY_MEAN"
+                        "name": "POTENCY_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "GERMAN_AUTHORITY_MEAN"
+                        "name": "AUTHORITY_MEAN"
                     },
                     {
                         "datatype": "float",
-                        "name": "GERMAN_COMMUNITY_MEAN"
+                        "name": "COMMUNITY_MEAN"
                     }
                 ],
                 "primaryKey": [

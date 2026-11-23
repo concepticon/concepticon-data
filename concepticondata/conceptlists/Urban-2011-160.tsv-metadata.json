@@ -49,14 +49,10 @@
                     {
                         "datatype": "string", 
                         "name": "CATEGORY"
-                    }, 
-                    {
-                        "datatype": "json", 
-                        "name": "TARGET_CONCEPTS"
                     },
                     {
-                        "datatype": "json", 
-                        "name": "LINKED_CONCEPTS"
+                      "datatype": "string",
+                      "name": "SEMANTIC_CHANGE"
                     }
                 ], 
                 "primaryKey": [

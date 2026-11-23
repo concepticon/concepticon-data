@@ -48,7 +48,7 @@
                     }, 
                     {
                         "datatype": {"base": "decimal", "minimum": 0, "maximum": 1}, 
-                        "name": "STABILITY_SCORE"
+                        "name": "ATLANTIC_STABILITY_SCORE"
                     }
                 ], 
                 "primaryKey": [

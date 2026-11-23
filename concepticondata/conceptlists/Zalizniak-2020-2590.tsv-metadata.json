@@ -42,26 +42,6 @@
                     {
                         "datatype": "string",
                         "name": "ENGLISH"
-                    },
-                    {
-                      "datatype": {"base": "positiveInteger", "minimum": 1, "maximum": 2590},
-                      "name": "RANK"
-                    },
-                    {
-                        "datatype": "json",
-                        "name": "LINKED_CONCEPTS"
-                    },
-                    {
-                      "name": "TARGET_CONCEPTS",
-                      "datatype": "json"
-                    },
-                    {
-                        "datatype": "integer",
-                        "name": "DEGREE"
-                    },
-                    {
-                        "datatype": "integer",
-                        "name": "WEIGHTED_DEGREE"
                     }
                 ],
                 "primaryKey": [
