@@ -24,9 +24,17 @@
                     {
                         "datatype": {
                             "base": "string",
-                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                            "format": "[0-9\\.]+([a-z\\u2013]+)?$"
                         },
                         "name": "NUMBER"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "PAGE"
                     },
                     {
                         "datatype": {
@@ -38,10 +46,6 @@
                     {
                         "datatype": "string",
                         "name": "CONCEPTICON_GLOSS"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "ENGLISH"
                     }
                 ],
                 "primaryKey": [
