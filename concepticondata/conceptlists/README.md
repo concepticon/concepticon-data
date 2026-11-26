@@ -73,11 +73,13 @@
 | [Carling-2017-97i](Carling-2017-97i.tsv) | 96 | 98 | 0 |
 | [Carling-2017-97j](Carling-2017-97j.tsv) | 96 | 98 | 0 |
 | [Carling-2019-99](Carling-2019-99.tsv) | 98 | 98 | 0 |
+| [Carvalho-2013-52](Carvalho-2013-52.tsv) | 35 | 67 | 0 |
 | [Carvalho-2021-206](Carvalho-2021-206.tsv) | 180 | 87 | 6 |
 | [Castro-2010-511](Castro-2010-511.tsv) | 492 | 96 | 1 |
 | [Castro-2010-540](Castro-2010-540.tsv) | 534 | 98 | 3 |
 | [Castro-2015-608](Castro-2015-608.tsv) | 535 | 87 | 3 |
 | [Ceolin-2019-168](Ceolin-2019-168.tsv) | 168 | 100 | 0 |
+| [CerronPalomino-1995-204](CerronPalomino-1995-204.tsv) | 157 | 76 | 1 |
 | [Chacon-2014-142](Chacon-2014-142.tsv) | 129 | 90 | 2 |
 | [Chacon-2017-102](Chacon-2017-102.tsv) | 102 | 100 | 2 |
 | [Chacon-2017-129](Chacon-2017-129.tsv) | 126 | 97 | 0 |
@@ -113,6 +115,7 @@
 | [DiezAlamo-2018-750](DiezAlamo-2018-750.tsv) | 531 | 70 | 20 |
 | [Dimitropoulou-2009-260](Dimitropoulou-2009-260.tsv) | 247 | 95 | 3 |
 | [Dixon-1919-175](Dixon-1919-175.tsv) | 170 | 98 | 39 |
+| [Dixon-2004-650](Dixon-2004-650.tsv) | 265 | 40 | 15 |
 | [Dolch-1936-220](Dolch-1936-220.tsv) | 193 | 87 | 14 |
 | [Dolch-1936-95](Dolch-1936-95.tsv) | 94 | 98 | 1 |
 | [Dolgopolsky-1964-15](Dolgopolsky-1964-15.tsv) | 15 | 100 | 0 |
@@ -183,7 +186,8 @@
 | [Heggarty-2005-30b](Heggarty-2005-30b.tsv) | 30 | 100 | 0 |
 | [Heggarty-2014-110](Heggarty-2014-110.tsv) | 108 | 98 | 1 |
 | [Heggarty-2020-200](Heggarty-2020-200.tsv) | 200 | 100 | 0 |
-| [Hill-2015-999](Hill-2015-999.tsv) | 1291 | 64 | 331 |
+| [Herce-2026-383](Herce-2026-383.tsv) | 331 | 86 | 6 |
+| [Hill-2015-999](Hill-2015-999.tsv) | 1295 | 64 | 332 |
 | [Hill-2017-240](Hill-2017-240.tsv) | 240 | 100 | 0 |
 | [Holm-2017-100](Holm-2017-100.tsv) | 100 | 100 | 0 |
 | [Holman-2008-100](Holman-2008-100.tsv) | 100 | 100 | 0 |
@@ -215,6 +219,7 @@
 | [Key-2016-1310](Key-2016-1310.tsv) | 1310 | 100 | 2 |
 | [Khalid-2020-200](Khalid-2020-200.tsv) | 200 | 100 | 0 |
 | [Kibrik-2012-122](Kibrik-2012-122.tsv) | 104 | 85 | 0 |
+| [Kim-2011-306](Kim-2011-306.tsv) | 306 | 100 | 1 |
 | [Kingsada-1999-303](Kingsada-1999-303.tsv) | 297 | 98 | 1 |
 | [Kitchen-2009-95](Kitchen-2009-95.tsv) | 95 | 100 | 0 |
 | [Klamer-2018-607](Klamer-2018-607.tsv) | 591 | 97 | 1 |
@@ -229,7 +234,7 @@
 | [LSDO-2019-462](LSDO-2019-462.tsv) | 456 | 98 | 4 |
 | [Lai-2023-291](Lai-2023-291.tsv) | 291 | 100 | 0 |
 | [Lama-2012-301](Lama-2012-301.tsv) | 284 | 94 | 0 |
-| [Lapesa-2014-772](Lapesa-2014-772.tsv) | 234 | 30 | 0 |
+| [Lapesa-2014-772](Lapesa-2014-772.tsv) | 235 | 30 | 0 |
 | [Larson-1972-68](Larson-1972-68.tsv) | 66 | 100 | 0 |
 | [Lastra-1986-381](Lastra-1986-381.tsv) | 197 | 51 | 3 |
 | [Laycock-1968-50](Laycock-1968-50.tsv) | 50 | 100 | 0 |
@@ -289,7 +294,7 @@
 | [Mitterhofer-2013-95](Mitterhofer-2013-95.tsv) | 86 | 90 | 4 |
 | [Monnier-2014-1031](Monnier-2014-1031.tsv) | 673 | 65 | 26 |
 | [MorenoMartinez-2012-360](MorenoMartinez-2012-360.tsv) | 245 | 68 | 6 |
-| [Morse-1996-375](Morse-1996-375.tsv) | 351 | 93 | 1 |
+| [Morse-1996-375](Morse-1996-375.tsv) | 352 | 93 | 1 |
 | [Morucci-2019-643](Morucci-2019-643.tsv) | 132 | 20 | 0 |
 | [Mountain-1978-267](Mountain-1978-267.tsv) | 259 | 97 | 0 |
 | [Nagano-2013-1256](Nagano-2013-1256.tsv) | 992 | 78 | 84 |
@@ -299,6 +304,7 @@
 | [Needham-1897-262](Needham-1897-262.tsv) | 250 | 94 | 6 |
 | [Nelson-2001-89](Nelson-2001-89.tsv) | 89 | 100 | 0 |
 | [Nicholas-1989-60](Nicholas-1989-60.tsv) | 59 | 98 | 0 |
+| [Nikulin-2022-273](Nikulin-2022-273.tsv) | 164 | 60 | 3 |
 | [Nishimoto-2005-359](Nishimoto-2005-359.tsv) | 308 | 85 | 5 |
 | [Nordenskioeld-1905-50](Nordenskioeld-1905-50.tsv) | 46 | 92 | 0 |
 | [Nordlinger-2019-57](Nordlinger-2019-57.tsv) | 49 | 85 | 0 |
@@ -431,12 +437,13 @@
 | [Urban-2011-160](Urban-2011-160.tsv) | 160 | 100 | 0 |
 | [Urban-2016-160](Urban-2016-160.tsv) | 159 | 99 | 0 |
 | [Valenzuela-2023-44](Valenzuela-2023-44.tsv) | 23 | 52 | 0 |
+| [Vasquez-2026-246](Vasquez-2026-246.tsv) | 166 | 67 | 2 |
 | [Vejdemo-2016-167](Vejdemo-2016-167.tsv) | 167 | 100 | 0 |
 | [Vergallito-2020-1121](Vergallito-2020-1121.tsv) | 587 | 52 | 6 |
 | [Verheyen-2020-1000](Verheyen-2020-1000.tsv) | 253 | 25 | 34 |
 | [Voorhoeve-1971-125](Voorhoeve-1971-125.tsv) | 116 | 100 | 0 |
 | [Voorhoeve-1975-40](Voorhoeve-1975-40.tsv) | 40 | 100 | 0 |
-| [Vulic-2020-2244](Vulic-2020-2244.tsv) | 950 | 42 | 31 |
+| [Vulic-2020-2244](Vulic-2020-2244.tsv) | 951 | 42 | 31 |
 | [Walker-2011-100](Walker-2011-100.tsv) | 100 | 100 | 0 |
 | [Walworth-2018-215](Walworth-2018-215.tsv) | 215 | 100 | 0 |
 | [Wang-2004-100a](Wang-2004-100a.tsv) | 100 | 100 | 0 |
@@ -484,5 +491,5 @@
 | [vanDort-2007-50](vanDort-2007-50.tsv) | 43 | 86 | 0 |
 | [vanderWouw-1974-28](vanderWouw-1974-28.tsv) | 28 | 100 | 0 |
 
-(481 rows)
+(488 rows)
 

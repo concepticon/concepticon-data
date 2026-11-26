@@ -11,7 +11,7 @@ Period | Name
 2023- | Frederic Blum
 2025- | Alžběta Kučerová
 2023- | Carlos Barrientos Ugarte
-2024-2026 | Mira Ahmedović
+2024- | Mira Ahmedović
 2019- | Christoph Rzymski
 2017- | Simon J. Greenhill
 2019-2022 | Nathanael Schweikhard
