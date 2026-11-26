@@ -57,6 +57,7 @@ For all this help, we are very grateful and express our gratitude.
 
 Name | Contribution | Version |
 --- | --- | --- |
+Abishek Stephen | G | 3.5
 Alexander D. Smith | A | 3.2
 Alexei Kassian | D | 1.0
 Andreea Calude | D | 1.1
@@ -110,7 +111,7 @@ Mateus Alves Motta | CTLG | 2.6
 Maurizio Serva | MD | 1.1
 Mei-Shin Wu | CTLG | 1.2, 2.0, 2.1, 2.2
 Michael Dunn | G | 1.1
-Ahmedovic, Mira | CLPG | 3.3 
+Mira Ahmedović | CLPG | 3.3 
 Muhammad Zakaria | L | 2.4
 Natalia Morozowa | DCPTL | 2.0, 2.1, 2.2
 Nathan Hill | MSDP | 1.1, 2.3
@@ -118,6 +119,7 @@ Nathan Statezni | D | 2.4
 Nicholas Evans | A | 1.0
 Panayiotis Pappas | MD | 3.1
 Paul Heggarty | D | 1.0
+Paula Heinrich | LGR | 3.5
 Quentin Atkinson | MD | 1.1
 Riccardo Rost | CLP | 3.3
 Robert Blust | D | 1.0
